@@ -2,8 +2,10 @@
  "weeks": [
   {
    "id": "2026-10-23",
-   "status": "awaiting_approval",
-   "schedule": "reels/week-2026-10-23/schedule.json"
+   "status": "scheduled",
+   "schedule": "reels/week-2026-10-23/schedule.json",
+   "scheduled_at": "2026-10-22T16:52:00+01:00",
+   "posts": 434
   }
  ]
 }
