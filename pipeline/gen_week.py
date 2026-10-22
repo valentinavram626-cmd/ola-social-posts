@@ -37,6 +37,15 @@ for d in pl:
         cards.append(f'<div class="slot"><div class="time">{r["time"]}</div>{ca}{cb}</div>')
     secs.append(f'<section id="d{day}"><h2>{DAYS_RO[day]} <small>15 postări RO + 15 EN</small></h2>{"".join(cards)}</section>')
 json.dump(schedule, open(f"{B}/week_schedule.json","w"), ensure_ascii=False, indent=0)
+# publish schedule + library index for Ola Marketing HQ
+wk_dir = f"{B}/../reels/week-{W}"; os.makedirs(wk_dir, exist_ok=True)
+json.dump(schedule, open(f"{wk_dir}/schedule.json","w"), ensure_ascii=False)
+idx_path = f"{B}/../reels/index.json"
+try: idx = json.load(open(idx_path))
+except Exception: idx = {"weeks": []}
+idx["weeks"] = [w for w in idx.get("weeks", []) if w.get("id") != W]
+idx["weeks"].insert(0, {"id": W, "status": "awaiting_approval", "schedule": f"reels/week-{W}/schedule.json"})
+json.dump(idx, open(idx_path,"w"), ensure_ascii=False, indent=1)
 nav = "".join(f'<a href="#d{d["day"]}">{DAYS_RO[d["day"]][:2]} {d["day"][8:]}</a>' for d in pl)
 page = f'''<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ola Week Approval</title>
 <style>
