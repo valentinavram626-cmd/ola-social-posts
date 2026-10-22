@@ -1,0 +1,722 @@
+{
+ "depts": [
+  {
+   "id": "exec",
+   "name": "Executive Office",
+   "x": 0,
+   "y": 0,
+   "w": 7,
+   "floor": "walnut",
+   "color": "#D6A949",
+   "purpose": "Sets priorities, runs the team, owns your approval queue.",
+   "kpi": "KPI: consultations booked per month"
+  },
+  {
+   "id": "research",
+   "name": "Research & Analytics",
+   "x": 7.5,
+   "y": 0,
+   "w": 8,
+   "floor": "carpetBlue",
+   "color": "#6EA8FE",
+   "purpose": "Finds what works in the market and measures what works for Ola.",
+   "kpi": "KPI: share of posts above median reach"
+  },
+  {
+   "id": "content",
+   "name": "Content Studio",
+   "x": 16,
+   "y": 0,
+   "w": 11.8,
+   "floor": "oak",
+   "color": "#C58AF9",
+   "purpose": "Plans, writes and edits every piece of content in your voice.",
+   "kpi": "KPI: videos shipped per week"
+  },
+  {
+   "id": "publishing",
+   "name": "Publishing",
+   "x": 28.3,
+   "y": 0,
+   "w": 8,
+   "floor": "carpetGrey",
+   "color": "#5FD0C5",
+   "purpose": "Schedules approved content on every channel.",
+   "kpi": "KPI: on-time posts"
+  },
+  {
+   "id": "paid",
+   "name": "Paid Media",
+   "x": 0,
+   "y": 6.2,
+   "w": 15.5,
+   "floor": "carpetGreen",
+   "color": "#3FB984",
+   "purpose": "Runs paid campaigns on Google, Meta, TikTok, LinkedIn and X inside your budget.",
+   "kpi": "KPI: cost per booked consultation"
+  },
+  {
+   "id": "compliance",
+   "name": "Compliance & Brand",
+   "x": 16,
+   "y": 6.2,
+   "w": 5,
+   "floor": "carpetGrey",
+   "color": "#E5484D",
+   "purpose": "Checks every claim and ad against official sources and the CAP Code.",
+   "kpi": "KPI: zero corrections after publishing"
+  },
+  {
+   "id": "sales",
+   "name": "Sales & Growth",
+   "x": 21.5,
+   "y": 6.2,
+   "w": 8,
+   "floor": "walnut",
+   "color": "#FF7A59",
+   "purpose": "Finds Ltd-company leads, answers enquiries and books consultations.",
+   "kpi": "KPI: replies to booked consultations"
+  },
+  {
+   "id": "web",
+   "name": "Website & Blog",
+   "x": 30,
+   "y": 6.2,
+   "w": 6.3,
+   "floor": "oak",
+   "color": "#F2CF7A",
+   "purpose": "Keeps ola-accountancy.co.uk accurate and publishes one verified article a week.",
+   "kpi": "KPI: 1 article/week · 0 outdated facts on site"
+  }
+ ],
+ "agents": [
+  {
+   "id": "ceo",
+   "skin": "#C99A78",
+   "dept": "exec",
+   "head": 1,
+   "name": "Chief of Staff",
+   "title": "AI Chief of Staff of the department",
+   "shirt": "#22314F",
+   "hair": "#2B211B",
+   "status": "waiting",
+   "short": "4 items need you",
+   "task": "Compiling Tuesday brief: 4 approvals waiting for you.",
+   "feed": [
+    "Collecting dept reports",
+    "Research: 10 outliers",
+    "Paid: CPL £21 to £18",
+    "Content: 2 scripts ready",
+    "Sales: 3 warm replies",
+    "4 items need Valentin",
+    "Writing daily brief",
+    "Brief queued for 08:30"
+   ],
+   "role": "Runs the marketing department day to day as your Chief of Staff: sets priorities for the seven department heads, keeps the task queue and brings you only what needs your decision. Reports to you.",
+   "inputs": [
+    "Reports from the seven department heads",
+    "Your decisions and comments"
+   ],
+   "outputs": [
+    "Daily brief at 08:30",
+    "Approval queue",
+    "Monthly budget proposal"
+   ],
+   "tools": [
+    "Claude (orchestrator)",
+    "Google Calendar",
+    "Gmail drafts"
+   ],
+   "gate": "Cannot approve content, ad spend or outreach on your behalf. Escalates anything new, risky or off-brand."
+  },
+  {
+   "id": "research",
+   "skin": "#8D5B3C",
+   "dept": "research",
+   "head": 1,
+   "name": "Head of Research",
+   "title": "Market and competitor research",
+   "shirt": "#3B5B8C",
+   "hair": "#5A3B22",
+   "status": "working",
+   "short": "Scanning MTD outliers",
+   "task": "Scanning Instagram and TikTok for outlier videos on MTD for Income Tax.",
+   "feed": [
+    "Scanning TikTok #uktax",
+    "Outlier: 412k views",
+    "Hook: \"HMRC letter?\"",
+    "Median for acct: 9k",
+    "Competitor: 3 new reels",
+    "Saving notes to Drive",
+    "Next: Instagram scan"
+   ],
+   "role": "Finds UK accountancy and small-business posts that perform far above normal, and explains why they worked.",
+   "inputs": [
+    "Competitor account list",
+    "Ola past performance",
+    "GOV.UK and HMRC updates"
+   ],
+   "outputs": [
+    "Weekly outlier report",
+    "Topic shortlist with evidence"
+   ],
+   "tools": [
+    "Web search",
+    "Platform data",
+    "Google Drive"
+   ],
+   "gate": "Research only. Publishes nothing."
+  },
+  {
+   "id": "data",
+   "skin": "#E8C4A0",
+   "dept": "research",
+   "name": "Data Analyst",
+   "title": "Performance and attribution",
+   "shirt": "#4A4E69",
+   "hair": "#1E1E1E",
+   "status": "idle",
+   "short": "Report due Mon 09:00",
+   "task": "Weekly scorecard due Monday 09:00.",
+   "feed": [
+    "Scorecard last run Mon",
+    "Posts tracked: 23",
+    "Leads tracked: 41",
+    "Next run Mon 09:00"
+   ],
+   "role": "Measures reach, saves, enquiries, consultations booked and cost per lead across organic and paid.",
+   "inputs": [
+    "Platform analytics",
+    "Ad platform reports",
+    "Bookings log"
+   ],
+   "outputs": [
+    "Weekly scorecard",
+    "Do more / do less list"
+   ],
+   "tools": [
+    "GA4",
+    "Google Sheets",
+    "Platform analytics"
+   ],
+   "gate": "Read only."
+  },
+  {
+   "id": "contenthead",
+   "skin": "#B07A52",
+   "dept": "content",
+   "head": 1,
+   "name": "Head of Content",
+   "title": "Content strategy and calendar",
+   "shirt": "#6B3FA0",
+   "hair": "#8A5A2B",
+   "status": "working",
+   "short": "Planning Nov–Jan",
+   "task": "Building the November to January calendar around the 31 January Self Assessment deadline.",
+   "feed": [
+    "Loading tax calendar",
+    "31 Jan: SA deadline",
+    "Mix 60/25/15 check",
+    "Wk 46: MTD over £50k",
+    "Wk 47: expenses myths",
+    "Wk 48: POA explained",
+    "Plan to CEO for sign-off"
+   ],
+   "role": "Turns research into a weekly content plan tied to the UK tax calendar and Ola offers.",
+   "inputs": [
+    "Outlier report",
+    "Tax calendar",
+    "Ola fees and services"
+   ],
+   "outputs": [
+    "Weekly content plan",
+    "What to film next (max 3)"
+   ],
+   "tools": [
+    "Claude",
+    "Content calendar"
+   ],
+   "gate": "Plan goes to the CEO, then to you for weekly sign-off."
+  },
+  {
+   "id": "copy",
+   "skin": "#F0D2B6",
+   "dept": "content",
+   "name": "Copywriter EN + RO",
+   "title": "Hooks, scripts, captions",
+   "shirt": "#B5838D",
+   "hair": "#3A2A1E",
+   "status": "working",
+   "short": "5 hooks, EN + RO",
+   "task": "Drafting 5 hooks for \"MTD for Income Tax: what to do if you earn over £50k\".",
+   "feed": [
+    "Topic: MTD over £50k",
+    "Hook 1: \"From April...\"",
+    "Hook 2: \"HMRC changed\"",
+    "Hook 3 (RO): \"Dacă...\"",
+    "Script 45s: draft",
+    "CTA: £100 consultation",
+    "Sent to Compliance"
+   ],
+   "role": "Writes hooks, scripts, captions and posts in your voice, in English and Romanian.",
+   "inputs": [
+    "Approved content plan",
+    "Your voice samples",
+    "Brand rules"
+   ],
+   "outputs": [
+    "Hooks and scripts to film",
+    "Captions per channel",
+    "Ad copy for Paid Media"
+   ],
+   "tools": [
+    "Claude (copywriting skill)"
+   ],
+   "gate": "Every piece goes to Compliance before you see it."
+  },
+  {
+   "id": "video",
+   "skin": "#6E4631",
+   "dept": "content",
+   "name": "Video Editor",
+   "title": "Edits, captions, motion",
+   "shirt": "#2F3E46",
+   "hair": "#C9A86A",
+   "status": "idle",
+   "short": "Waiting for footage",
+   "task": "Waiting for 2 MP4 uploads from your filming session.",
+   "feed": [
+    "Queue: 2 videos",
+    "Status: no footage yet",
+    "Template: Ola 9:16",
+    "Music: Artlist ready",
+    "Waiting for upload"
+   ],
+   "role": "Edits raw footage into reels and shorts: cuts, captions, motion graphics, music, thumbnails, ad variants.",
+   "inputs": [
+    "Your raw MP4 files",
+    "Approved script"
+   ],
+   "outputs": [
+    "Edited 9:16 videos",
+    "Thumbnails and carousels",
+    "Ad cut-downs (6s, 15s)"
+   ],
+   "tools": [
+    "Artlist",
+    "Higgsfield",
+    "Auto-captions"
+   ],
+   "gate": "Licensed assets only. Never generates your face or voice without your sign-off."
+  },
+  {
+   "id": "google",
+   "skin": "#D9A87E",
+   "dept": "paid",
+   "head": 1,
+   "name": "Head of Paid · Google Ads",
+   "title": "Search, Performance Max, YouTube",
+   "shirt": "#1F6F5C",
+   "hair": "#2B211B",
+   "status": "idle",
+   "short": "Google starts month 2",
+   "task": "Holds the paid budget: £100 Luton + £100 Birmingham in month 1, all on Meta. Google Search joins in month 2 at £200 per office.",
+   "feed": [
+    "Budget M1: £200 total",
+    "Luton £100 · Meta",
+    "Birmingham £100 · Meta",
+    "Google Search: month 2",
+    "Plan: £70/office Search",
+    "KW: contabil luton"
+   ],
+   "role": "Leads Paid Media. Runs Google Ads (Search, Performance Max, YouTube) and keeps the Google Business Profile in sync. Sets the cross-channel budget split.",
+   "inputs": [
+    "Monthly budget you approve",
+    "Offers and landing pages",
+    "Data Analyst scorecard"
+   ],
+   "outputs": [
+    "Search and YouTube campaigns",
+    "Weekly paid report",
+    "Budget split proposal"
+   ],
+   "tools": [
+    "Google Ads",
+    "Google Business Profile",
+    "GA4"
+   ],
+   "gate": "Spends only inside the monthly budget you approve. New campaigns, new audiences or budget rises above 20% need your approval. Every ad passes Compliance first. Targets by location, language and job role, never by ethnicity, nationality or other sensitive traits."
+  },
+  {
+   "id": "meta",
+   "skin": "#C99A78",
+   "dept": "paid",
+   "name": "Meta Ads Specialist",
+   "title": "Facebook + Instagram ads",
+   "shirt": "#3B5998",
+   "hair": "#4B2E1A",
+   "status": "waiting",
+   "short": "Waiting for 3 videos",
+   "task": "Two Click-to-WhatsApp campaigns ready to build: Luton £100 and Birmingham £100 for 30 days, Romanian language, 15 miles. Waiting for scripts A, B and C to be filmed.",
+   "feed": [
+    "Luton: £100 lifetime",
+    "Birmingham: £100 life",
+    "Goal: WhatsApp chats",
+    "Lang: Romanian",
+    "Radius: 15 miles",
+    "Need: videos A, B, C",
+    "Waiting for footage"
+   ],
+   "role": "Plans and runs Facebook and Instagram campaigns: lead forms, retargeting video viewers, Romanian-language audiences.",
+   "inputs": [
+    "Approved creatives",
+    "Budget allocation",
+    "Audience rules"
+   ],
+   "outputs": [
+    "Live campaigns",
+    "Daily spend and CPL",
+    "Creative test results"
+   ],
+   "tools": [
+    "Meta Ads Manager",
+    "Meta Pixel / CAPI",
+    "Lead forms"
+   ],
+   "gate": "Spends only inside the monthly budget you approve. New campaigns, new audiences or budget rises above 20% need your approval. Every ad passes Compliance first. Targets by location, language and job role, never by ethnicity, nationality or other sensitive traits."
+  },
+  {
+   "id": "tiktok",
+   "skin": "#9C6B47",
+   "dept": "paid",
+   "name": "TikTok Ads Specialist",
+   "title": "Spark Ads and in-feed",
+   "shirt": "#111111",
+   "hair": "#6B3E26",
+   "status": "idle",
+   "short": "Off: min $50/day",
+   "task": "Boosting the \"Payments on account explained\" reel as a Spark Ad, £15/day test.",
+   "feed": [
+    "Spark Ad: POA reel",
+    "Spend today £11.20",
+    "Hook rate 31%",
+    "Avg watch 9.4s",
+    "Testing 2nd hook",
+    "Cap: £15/day"
+   ],
+   "role": "Runs TikTok ads, mainly Spark Ads that boost Ola organic videos that already perform.",
+   "inputs": [
+    "Top organic videos",
+    "Budget allocation"
+   ],
+   "outputs": [
+    "Spark Ads",
+    "Hook-rate and CPL report"
+   ],
+   "tools": [
+    "TikTok Ads Manager",
+    "TikTok Pixel"
+   ],
+   "gate": "Spends only inside the monthly budget you approve. New campaigns, new audiences or budget rises above 20% need your approval. Every ad passes Compliance first. Targets by location, language and job role, never by ethnicity, nationality or other sensitive traits."
+  },
+  {
+   "id": "linkedin",
+   "skin": "#E8C4A0",
+   "dept": "paid",
+   "name": "LinkedIn & X Ads Specialist",
+   "title": "B2B: directors of Ltd companies",
+   "shirt": "#0A66C2",
+   "hair": "#2E2E2E",
+   "status": "idle",
+   "short": "Off: min $10/day",
+   "task": "LinkedIn Lead Gen Form for directors of 2–50 staff companies in Beds and West Midlands, £30/day.",
+   "feed": [
+    "LI: Lead Gen Form",
+    "Role: Director, Owner",
+    "Size: 2–50 staff",
+    "Geo: Beds, W Midlands",
+    "X: promoted post draft",
+    "X budget: £5/day test"
+   ],
+   "role": "Runs LinkedIn and X campaigns aimed at directors and owners of limited companies.",
+   "inputs": [
+    "B2B offers",
+    "Budget allocation",
+    "Approved ad copy"
+   ],
+   "outputs": [
+    "LinkedIn campaigns",
+    "X promoted posts",
+    "B2B lead list to Sales"
+   ],
+   "tools": [
+    "LinkedIn Campaign Manager",
+    "X Ads"
+   ],
+   "gate": "Spends only inside the monthly budget you approve. New campaigns, new audiences or budget rises above 20% need your approval. Every ad passes Compliance first. Targets by location, language and job role, never by ethnicity, nationality or other sensitive traits."
+  },
+  {
+   "id": "compliance",
+   "skin": "#B88A66",
+   "dept": "compliance",
+   "head": 1,
+   "name": "Compliance Reviewer",
+   "title": "Tax accuracy, CAP Code, PECR",
+   "shirt": "#5C1F24",
+   "hair": "#3A2A1E",
+   "status": "working",
+   "short": "Checking 2 scripts + 1 ad",
+   "task": "Checking 2 scripts and 1 Meta ad against GOV.UK MTD guidance and the CAP Code.",
+   "feed": [
+    "Script 1: MTD £50k",
+    "Source: GOV.UK MTD",
+    "Threshold: OK",
+    "Date: 6 Apr 2026 OK",
+    "Ad: \"save tax\" wording",
+    "Fix: no guarantee",
+    "Result: PASS w/ 1 fix"
+   ],
+   "role": "Checks every tax claim, figure and deadline against official sources, plus advertising and email rules.",
+   "inputs": [
+    "Scripts, captions, edits",
+    "Ads",
+    "Outreach emails"
+   ],
+   "outputs": [
+    "PASS, or fix list with sources"
+   ],
+   "tools": [
+    "Web search (GOV.UK, HMRC, ICO, ASA)",
+    "Ola tax skills"
+   ],
+   "gate": "Can block any item. Only you can override."
+  },
+  {
+   "id": "publisher",
+   "skin": "#8D5B3C",
+   "dept": "publishing",
+   "head": 1,
+   "name": "Publisher",
+   "title": "Scheduling on all channels",
+   "shirt": "#22577A",
+   "hair": "#1E1E1E",
+   "status": "idle",
+   "short": "6 posts scheduled",
+   "task": "6 posts scheduled this week across Instagram, TikTok, Facebook, LinkedIn and X.",
+   "feed": [
+    "Thu 08:10 LinkedIn",
+    "Fri 18:30 Instagram",
+    "Fri 19:00 TikTok",
+    "Sat 11:00 Facebook RO",
+    "Mon 09:00 Google post",
+    "Idle until next approval"
+   ],
+   "role": "Schedules approved content at the best time per channel and logs every post.",
+   "inputs": [
+    "Approved content only"
+   ],
+   "outputs": [
+    "Scheduled posts",
+    "Google Business updates",
+    "Website articles"
+   ],
+   "tools": [
+    "Metricool",
+    "GitHub media host"
+   ],
+   "gate": "Can only publish items you approved."
+  },
+  {
+   "id": "qa",
+   "skin": "#D9A87E",
+   "dept": "publishing",
+   "name": "Publishing QA",
+   "title": "Checks every post went live",
+   "shirt": "#0F766E",
+   "hair": "#2B211B",
+   "status": "working",
+   "short": "Hourly check · auto-fix",
+   "task": "Every hour, 07:12–23:12: checks each post on every network. If one failed, fixes the cause and reposts only that video on only that network.",
+   "feed": [
+    "Checking last 75 min",
+    "IG Reel: PUBLISHED",
+    "TikTok: PUBLISHED",
+    "Bluesky: ERROR 401",
+    "Cause: video upload locked",
+    "Fix: repost as JPG",
+    "Bluesky: PUBLISHED",
+    "Log + alert to Valentin"
+   ],
+   "role": "Safety layer after Publishing. Verifies that every scheduled post is live on every network, diagnoses errors, applies the known fix and reposts the specific item on the specific network. Escalates only what needs you (expired logins, account locks).",
+   "inputs": [
+    "Metricool post statuses",
+    "Fix playbook (format, length, media type)",
+    "JPG and MP4 copies on GitHub"
+   ],
+   "outputs": [
+    "Reposts on the failed network only",
+    "Push alert when something was fixed or needs you",
+    "Daily failure log"
+   ],
+   "tools": [
+    "Metricool",
+    "GitHub media host"
+   ],
+   "gate": "Never posts new content. Only reposts items you already approved, on the network where they failed, once. No duplicates."
+  },
+  {
+   "id": "harvey",
+   "skin": "#C99A78",
+   "dept": "sales",
+   "head": 1,
+   "name": "Lead Gen (Harvey)",
+   "title": "Ltd-company outreach",
+   "shirt": "#7A4419",
+   "hair": "#2B211B",
+   "status": "waiting",
+   "short": "12 emails in Outbox",
+   "task": "12 first-touch emails to Ltd companies in Luton waiting in the Outbox for your approval.",
+   "feed": [
+    "Prospect: Luton, Ltd",
+    "Companies House: active",
+    "Site read: 12 firms",
+    "Email 1 drafted x12",
+    "Unsubscribe line OK",
+    "Outbox: 12 waiting"
+   ],
+   "role": "Finds UK limited companies that fit Ola, studies their website and writes a personal 3-email sequence. Based on open-source Harvey.",
+   "inputs": [
+    "Ideal client profile",
+    "Companies House check",
+    "Offer: first consultation £100 + VAT"
+   ],
+   "outputs": [
+    "Email sequences in Outbox",
+    "Qualified replies to Inbox"
+   ],
+   "tools": [
+    "Harvey (MIT)",
+    "Claude Code",
+    "Dedicated sending domain"
+   ],
+   "gate": "Ltd companies only, checked on Companies House. Never sole traders or partnerships. Approval always on. Daily cap and unsubscribe in every email."
+  },
+  {
+   "id": "inbox",
+   "skin": "#B07A52",
+   "dept": "sales",
+   "name": "Inbox & Booking",
+   "title": "DMs, replies, bookings",
+   "shirt": "#8E5572",
+   "hair": "#5A3B22",
+   "status": "working",
+   "short": "2 replies · 1 booking",
+   "task": "2 replies triaged; 1 consultation slot proposed for Thursday.",
+   "feed": [
+    "DM (IG): MTD question",
+    "Reply: book a call",
+    "Email: Ltd, 3 staff",
+    "Qualified: yes",
+    "Slot: Thu 11:00",
+    "Handover note sent"
+   ],
+   "role": "Answers DMs, comments, lead forms and email replies, qualifies the enquiry and books the consultation.",
+   "inputs": [
+    "DMs and comments",
+    "Ad lead forms",
+    "Email replies",
+    "Your calendar"
+   ],
+   "outputs": [
+    "Booked consultations",
+    "Handover notes"
+   ],
+   "tools": [
+    "Gmail",
+    "Google Calendar",
+    "Meta inbox"
+   ],
+   "gate": "Never gives tax advice or quotes fees beyond the published list. Hands over to an accountant."
+  },
+  {
+   "id": "bloghead",
+   "skin": "#E8C4A0",
+   "dept": "web",
+   "head": 1,
+   "name": "Head of Blog",
+   "title": "Website accuracy and weekly topic",
+   "shirt": "#8A5A2B",
+   "hair": "#2B211B",
+   "status": "working",
+   "short": "Mon 07:46 · PR for you",
+   "task": "Every Monday 07:46: scans HMRC/GOV.UK changes of the week, audits the site for outdated facts, picks one topic, briefs the copywriter, reviews and opens ONE pull request with a Vercel preview for you to merge.",
+   "feed": [
+    "Scan: GOV.UK changes",
+    "2 sources per fact",
+    "Site audit: prices OK",
+    "FAQ: 1 stale date",
+    "Topic: not in 12 wks",
+    "Brief to copywriter",
+    "Review: PASS",
+    "PR + preview to Valentin"
+   ],
+   "role": "Owns ola-accountancy.co.uk content. Finds what changed at HMRC and at Ola, fixes anything outdated on the site, chooses the weekly article topic and signs off the copywriter's draft. Opens one PR a week; never merges.",
+   "inputs": [
+    "GOV.UK / HMRC updates",
+    "Ola changes (your 'OLA UPDATE' emails, content/ola-updates.md)",
+    "Site files: posts.ts, data.ts, prices, FAQs",
+    "Topic log content/blog-log.md"
+   ],
+   "outputs": [
+    "Weekly PR (branch blog/<date>) with Vercel preview",
+    "Site fact fixes",
+    "Romanian report"
+   ],
+   "tools": [
+    "Skill ola-blog-head",
+    "GitHub (ola-next)",
+    "Vercel preview",
+    "Web search"
+   ],
+   "gate": "Never merges or deploys. One PR per week, you click Merge. No design or layout changes. Fallback: Gmail draft for approval if GitHub access fails."
+  },
+  {
+   "id": "blogcopy",
+   "skin": "#9C6B47",
+   "dept": "web",
+   "name": "Blog Copywriter",
+   "title": "One verified article a week",
+   "shirt": "#3F6B8A",
+   "hair": "#5A3B22",
+   "status": "working",
+   "short": "Drafting 1,200 words",
+   "task": "Writes the article from the Head of Blog's brief: 900–1,500 words, UK English, posts.ts Block format, SEO title, excerpt and slug, ending with 'How Ola Accountancy can help' and the consultation CTA.",
+   "feed": [
+    "Brief received",
+    "Outline: 5 sections",
+    "Fact 1: GOV.UK OK",
+    "Fact 2: HMRC manual OK",
+    "Draft: 1,180 words",
+    "CTA: £100 + VAT",
+    "Blocks: h2/p/ul/tip",
+    "Sent to Head of Blog"
+   ],
+   "role": "Writes Ola's weekly blog article in UK English from the Head of Blog's brief, only with verified facts, in the site's Block format, SEO-ready.",
+   "inputs": [
+    "Head of Blog brief",
+    "Verified sources",
+    "Site prices and services"
+   ],
+   "outputs": [
+    "Article object for app/_site/posts.ts",
+    "Route app/<slug>/page.tsx",
+    "Sitemap line"
+   ],
+   "tools": [
+    "Skill ola-blog-copywriter",
+    "GOV.UK"
+   ],
+   "gate": "No invented statistics, clients, testimonials or staff. Prices must match the site exactly. Draft goes back to the Head of Blog before the PR."
+  }
+ ]
+}
