@@ -24,7 +24,8 @@ for d in pl:
             v = VAL[day]
             r = {"day":day,"time":t,"ro":{"kind":"valentin","file":v["file"],"title":v["title"],"caption":v["caption"]},"en":en[f"en-{day[5:]}-{en_items[i]}"]}
         else:
-            r = {"day":day,"time":t,"ro":ro[f"ro-{day[5:]}-{ro_items[i]}"],"en":en[f"en-{day[5:]}-{en_items[i]}"]}
+            ri = i if i < SLOTS.index(VSLOT) else i-1
+            r = {"day":day,"time":t,"ro":ro[f"ro-{day[5:]}-{ro_items[ri]}"],"en":en[f"en-{day[5:]}-{en_items[i]}"]}
         schedule.append(r); rows.append(r)
     cards = []
     for r in rows:
