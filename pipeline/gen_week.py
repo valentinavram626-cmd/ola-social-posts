@@ -7,6 +7,13 @@ pl = json.load(open(f"{B}/week_plan.json"))
 ro = {p["id"]: p for p in json.load(open(f"{B}/week_ro.json"))}
 en = {p["id"]: p for p in json.load(open(f"{B}/week_en.json"))}
 VAL = json.load(open(f"{B}/week_valentin.json"))  # day -> {file,title,caption}
+# Stories: max 59 s, hard cut, never sped up (see story_cut.py). Map reel file -> file to use for the STORY post.
+sys.path.insert(0, B)
+from story_cut import story_version
+WK_DIR = f"{B}/../reels/week-{W}"
+def story_file(base):
+    p = f"{WK_DIR}/{base}.mp4"
+    return story_version(p) if os.path.exists(p) else base
 SLOTS = ["07:30","08:30","09:30","10:30","11:30","12:30","13:30","14:30","15:30","16:30","17:30","18:30","19:30","20:30","21:30"]
 VSLOT = "19:30"
 DAYS_RO = {"2026-10-23":"Vineri 23 oct","2026-10-24":"Sâmbătă 24 oct","2026-10-25":"Duminică 25 oct","2026-10-26":"Luni 26 oct","2026-10-27":"Marți 27 oct","2026-10-28":"Miercuri 28 oct","2026-10-29":"Joi 29 oct"}
@@ -22,10 +29,10 @@ for d in pl:
     for i, t in enumerate(SLOTS):
         if t == VSLOT:
             v = VAL[day]
-            r = {"day":day,"time":t,"ro":{"kind":"valentin","file":v["file"],"title":v["title"],"caption":v["caption"]},"en":en[f"en-{day[5:]}-{en_items[i]}"]}
+            r = {"day":day,"time":t,"ro":{"kind":"valentin","file":v["file"],"story_file":story_file(v["file"]),"title":v["title"],"caption":v["caption"]},"en":en[f"en-{day[5:]}-{en_items[i]}"]}
         else:
             ri = i if i < SLOTS.index(VSLOT) else i-1
-            r = {"day":day,"time":t,"ro":ro[f"ro-{day[5:]}-{ro_items[ri]}"],"en":en[f"en-{day[5:]}-{en_items[i]}"]}
+            r = {"day":day,"time":t,"ro":dict(ro[f"ro-{day[5:]}-{ro_items[ri]}"],story_file=story_file(ro[f"ro-{day[5:]}-{ro_items[ri]}"]["id"])),"en":en[f"en-{day[5:]}-{en_items[i]}"]}
         schedule.append(r); rows.append(r)
     cards = []
     for r in rows:

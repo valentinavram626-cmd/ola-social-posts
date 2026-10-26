@@ -11,6 +11,10 @@ until he replies "aprobat".
 - Valentin's video only on RO networks; on EN networks that slot gets the `extra` English reel.
 - Text must be fully visible from frame 0 (reel2.js does this – never add entry animations to scene 1).
 - Reels are 22 s, 3 scenes, original synthesized music (music2.py, variants 0–5).
+- **Stories: maximum 59 s.** Instagram rejects Story videos over 60 s ("Cannot Create Media: Fatal"). Never speed a
+  video up to fit – Valentin's rule, it looks unprofessional. `story_cut.py` hard-cuts any longer clip at 59 s
+  (with a short audio fade) into `<name>.story.mp4`; whoever wants the rest watches the Reel. `gen_week.py` puts the
+  file to use in `story_file` for every slot – the STORY post must use `story_file`, never the reel file.
 - Compliance: no tax-escape promises, no guarantees, no client details, no "chartered", prices VAT-inclusive
   (first consultation £120 incl. VAT / 30 min; financial consultation £420 incl. VAT / 60 min). Facts checked on GOV.UK.
 - Every figure/date in a reel must be verified on GOV.UK the same week (rates change in April and at Budgets).
@@ -29,5 +33,5 @@ until he replies "aprobat".
 7. Publish `week_approval.html` as an artifact and message Valentin (Romanian, "Sir") with the link. STOP.
 8. After "aprobat": schedule every slot from `week_schedule.json` in Metricool (brand 7561492, Europe/London):
    RO reel → one post {facebook REEL, instagram REEL, tiktok (≤12/day), threads} + one STORY post {facebook, instagram}
-   2 min later; EN reel → {linkedin POST, youtube short} + bluesky post (bsky text, video) + GBP/Pinterest once a day.
+   2 min later using `story_file` (≤ 59 s); EN reel → {linkedin POST, youtube short} + bluesky post (bsky text, video) + GBP/Pinterest once a day.
    Media URL = raw GitHub URL of the mp4. Then update the Publishing QA agent window.
