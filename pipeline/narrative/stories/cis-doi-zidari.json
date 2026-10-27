@@ -1,0 +1,141 @@
+{
+ "slug": "cis-doi-zidari",
+ "title": "Doi zidari și un torpedou",
+ "phrases": [
+  "Doi zidari pe același șantier, amândoi pe CIS.",
+  "Primul e înregistrat. I se opresc douăzeci la sută.",
+  "Al doilea n-a apucat. Lui i se opresc treizeci.",
+  "Zece la sută în plus, din fiecare plată.",
+  "Primul ține fișele de la contractor într-un dosar.",
+  "Al doilea are și el o arhivă. Se cheamă torpedou.",
+  "Vine finalul de an și amândoi vor banii înapoi.",
+  "Primul pune deducerile în declarație. HMRC scade ce s-a oprit deja.",
+  "Al doilea caută hârtii printre mănuși și bonuri de benzină.",
+  "Tu unde ții fișele?",
+  "Vestea bună: te poți înregistra oricând, iar copiile le ceri de la contractor.",
+  "La Ola ținem noi dosarul. Tu ține torpedoul pentru mănuși.",
+  "Scrie-ne pe WhatsApp."
+ ],
+ "scene_plan": [
+  {
+   "scene": "street",
+   "args": {
+    "figures": 2,
+    "houses": false,
+    "suitcase": false
+   }
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "20%",
+    "small": "ÎNREGISTRAT LA CIS",
+    "size": 230
+   }
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "30%",
+    "small": "NEÎNREGISTRAT",
+    "size": 230
+   }
+  },
+  {
+   "scene": "penalty",
+   "args": {
+    "items": [
+     "10% în plus, de fiecare dată"
+    ]
+   }
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "warm": true,
+    "count": 6,
+    "label": "dosarul lui"
+   },
+   "warm": true
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": false,
+    "count": 9,
+    "label": "torpedoul lui"
+   },
+   "sfx": "oops"
+  },
+  {
+   "scene": "calendar",
+   "args": {
+    "count": 12,
+    "label": "final de an fiscal"
+   }
+  },
+  {
+   "scene": "stairs",
+   "args": {
+    "label": "deducerile intră în declarație",
+    "steps": 4,
+    "climb": 2.0
+   },
+   "warm": true
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": false,
+    "count": 11,
+    "label": "mănuși, bonuri, o șurubelniță"
+   },
+   "sfx": "oops"
+  },
+  {
+   "scene": "question",
+   "args": {}
+  },
+  {
+   "scene": "stairs",
+   "args": {
+    "label": "se poate și de azi",
+    "steps": 4,
+    "climb": 1.7
+   },
+   "warm": true
+  },
+  {
+   "scene": "ola",
+   "args": {}
+  },
+  {
+   "scene": "whatsapp",
+   "args": {}
+  }
+ ],
+ "question_card_text": [
+  "Tu unde ții",
+  "fișele CIS?"
+ ],
+ "question_buttons": [
+  "În dosar",
+  "În torpedou"
+ ],
+ "brass": [
+  "dosar",
+  "torpedou",
+  "deducerile",
+  "înapoi"
+ ],
+ "opening_shot_prompt": "Vertical 9:16, 5 seconds, cinematic documentary. Early morning on a small UK residential building site: two bricklayers in hi-vis and dusty work trousers set down their bags beside a half-built garden wall, breath visible in the cold air. Soft overcast daylight, shallow depth of field, slow handheld push-in from behind them towards the wall. Muted teal-and-amber grade, realistic skin tones, no slow motion. No text, no logos, no captions, no on-screen writing.",
+ "caption": "Pe CIS, contractorul oprește 20% dacă ești înregistrat și verificat și 30% dacă nu. Deducerile le treci în declarația Self Assessment, iar HMRC le scade din ce ai de plătit. Păstrează fișele lunare de plată și deducere de la contractor — dacă le-ai pierdut, poți cere copii.\n\nScrie-ne pe WhatsApp la 0330 133 1886. Birouri în Luton și Birmingham.\n\n#cis #constructii #romaniinuk #contabilromania #selfassessment",
+ "hashtags": [
+  "#cis",
+  "#constructii",
+  "#romaniinuk",
+  "#contabilromania",
+  "#selfassessment"
+ ]
+}

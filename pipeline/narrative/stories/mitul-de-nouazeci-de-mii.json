@@ -1,0 +1,123 @@
+{
+ "slug": "mitul-de-nouazeci-de-mii",
+ "title": "Mitul de nouăzeci de mii",
+ "phrases": [
+  "Cumnatul tău știe. Grupul de WhatsApp știe și el.",
+  "„Pragul de TVA e nouăzeci de mii pe an fiscal. Pe unu aprilie se resetează.”",
+  "Hai să ne uităm împreună.",
+  "Pragul chiar este nouăzeci de mii de lire.",
+  "Dar nu se măsoară pe an fiscal. Se măsoară pe ultimele douăsprezece luni.",
+  "Orice douăsprezece luni. Se mișcă odată cu tine, lună de lună.",
+  "Și dacă știi că treci pragul în următoarele treizeci de zile, te înregistrezi atunci.",
+  "Nimeni nu te ceartă dacă n-ai știut.",
+  "Dar e mai ieftin să afli înainte, decât după.",
+  "Tu știi cât ai făcut în ultimele douăsprezece luni?",
+  "La Ola ne uităm la cifra asta lună de lună. Ca să n-o afli prea târziu.",
+  "Scrie-ne pe WhatsApp."
+ ],
+ "scene_plan": [
+  {
+   "scene": "street",
+   "args": {
+    "figures": 3,
+    "houses": false,
+    "suitcase": false,
+    "bubble": "grupul de WhatsApp"
+   }
+  },
+  {
+   "scene": "street",
+   "args": {
+    "figures": 3,
+    "houses": false,
+    "suitcase": false,
+    "bubble": "grupul de WhatsApp"
+   },
+   "sfx": "oops"
+  },
+  {
+   "scene": "plain",
+   "args": {}
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "£90.000",
+    "small": "PRAGUL DE TVA",
+    "size": 150
+   }
+  },
+  {
+   "scene": "calendar",
+   "args": {
+    "count": 12,
+    "label": "ultimele 12 luni",
+    "sub": "nu anul fiscal"
+   }
+  },
+  {
+   "scene": "calendar",
+   "args": {
+    "count": 12,
+    "label": "se mișcă lună de lună"
+   }
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "30",
+    "small": "DE ZILE",
+    "size": 250,
+    "sub": "dacă știi că treci pragul"
+   }
+  },
+  {
+   "scene": "plain",
+   "args": {}
+  },
+  {
+   "scene": "stairs",
+   "args": {
+    "label": "mai ieftin înainte",
+    "steps": 4,
+    "climb": 1.8
+   },
+   "warm": true
+  },
+  {
+   "scene": "question",
+   "args": {}
+  },
+  {
+   "scene": "ola",
+   "args": {}
+  },
+  {
+   "scene": "whatsapp",
+   "args": {}
+  }
+ ],
+ "question_card_text": [
+  "Tu știi cât ai făcut",
+  "în ultimele 12 luni?"
+ ],
+ "question_buttons": [
+  "Știu exact",
+  "Aproximativ"
+ ],
+ "brass": [
+  "prag",
+  "pragul",
+  "TVA",
+  "lună"
+ ],
+ "opening_shot_prompt": "Vertical 9:16, 5 seconds, cinematic documentary. Three men in work clothes stand around a van tailgate at a lunch break, one holding up a phone while the other two lean in and laugh at whatever is on the screen. Grey British industrial estate behind them, soft overcast light, shallow depth of field, slow handheld arc around the group. Natural colours, no slow motion. No text, no logos, no captions, no on-screen writing.",
+ "caption": "Pragul de înregistrare în scopuri de TVA este £90.000 — dar nu pe an fiscal. Se calculează pe orice perioadă de 12 luni consecutive, care se mișcă lună de lună. Mai există și testul de 30 de zile: dacă știi că vei trece pragul în următoarele 30 de zile, te înregistrezi atunci.\n\nScrie-ne pe WhatsApp la 0330 133 1886. Birouri în Luton și Birmingham.\n\n#tva #vat #romaniinuk #contabilromania #afacere",
+ "hashtags": [
+  "#tva",
+  "#vat",
+  "#romaniinuk",
+  "#contabilromania",
+  "#afacere"
+ ]
+}

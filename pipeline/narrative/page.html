@@ -1,0 +1,367 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="__ASSETS__/fonts/bricolage-grotesque/700.css">
+<link rel="stylesheet" href="__ASSETS__/fonts/ibm-plex-sans/400.css">
+<link rel="stylesheet" href="__ASSETS__/fonts/ibm-plex-sans/600.css">
+<style>
+html,body{margin:0;background:#0B1324;width:1080px;height:1920px;overflow:hidden}
+canvas{display:block}
+#warm{position:absolute;left:-9999px;font-family:"Bricolage Grotesque"}#warm b{font-family:"IBM Plex Sans"}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas><div id="warm">Ăă Șș Țț<b>Ăă</b></div>
+<script>
+/* ============================================================================
+   Ola narrative story engine — generic canvas renderer.
+   Everything on screen is driven by timeline.json (built by timeline.py from
+   stories/<slug>.json), so one page renders every story.  Each phrase is given
+   a scene primitive by the story's scene_plan; the scene owns the lower half of
+   the frame, the kinetic caption owns the upper third.
+   Exposed to render.js:  window.seek(t), window.TEXTONLY, window.ready
+   ========================================================================== */
+const TL=__TIMELINE__;
+const PH=TL.phrases, SC=TL.scenes, TOTAL=TL.total, Q=TL.question;
+const W=1080,H=1920, cv=document.getElementById('c'), g=cv.getContext('2d');
+const NAVY='#0B1324', CREAM='#F3EEE3', BRASS='#D6A949', BRASS2='#F2CF7A',
+      MUTED='#8E9AB5', AMBER='#E8B55B', WARM='#FBEBC8', GREEN='#25D366';
+
+/* ---- safe zone -------------------------------------------------------------
+   TikTok / Instagram overlay their action rail on the right and their caption
+   block at the bottom.  Nothing we draw may sit right of SAFE_R or below
+   SAFE_B, so the whole composition is centred on CX, not on W/2.             */
+const SAFE_L=60, SAFE_R=850, SAFE_T=170, SAFE_B=1440;
+const CX=Math.round((SAFE_L+SAFE_R)/2);          // 455
+const CAP_W=770, CAP_Y=470;                      // caption band
+const ART_Y=1080;                                // scene baseline
+
+const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+const eio=x=>{x=clamp(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const back=x=>{x=clamp(x);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const prog=(t,a,d)=>clamp((t-a)/d);
+const R=i=>{const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x)};
+const lion=new Image(); lion.src='__ASSETS__/lion_t.png';
+let lionReady=false; lion.onload=()=>lionReady=true;
+
+/* ---------- drawing primitives ---------- */
+function stroke(col,w,alpha=1){g.strokeStyle=col;g.lineWidth=w;g.globalAlpha=alpha;g.lineCap='round';g.lineJoin='round'}
+function glow(col,b){g.shadowColor=col;g.shadowBlur=b}
+function noglow(){g.shadowBlur=0}
+window.__bounds=null;
+function noteText(txt,x,y,size,align){
+  if(!window.__bounds)return;
+  const w=g.measureText(txt).width;
+  const x0=align==='center'?x-w/2:(align==='right'?x-w:x);
+  const m=g.getTransform();                       // account for scene transforms
+  const px=(ax,ay)=>[m.a*ax+m.c*ay+m.e, m.b*ax+m.d*ay+m.f];
+  for(const [ax,ay] of [[x0,y-size*0.62],[x0+w,y-size*0.62],[x0,y+size*0.62],[x0+w,y+size*0.62]]){
+    const [sx,sy]=px(ax,ay);
+    const b=window.__bounds;
+    b.minX=Math.min(b.minX,sx);b.maxX=Math.max(b.maxX,sx);
+    b.minY=Math.min(b.minY,sy);b.maxY=Math.max(b.maxY,sy);
+  }}
+function label(txt,x,y,size,col,a=1,font='IBM Plex Sans',weight=600,align='center'){
+  g.globalAlpha=a;g.fillStyle=col;g.font=`${weight} ${size}px "${font}"`;g.textAlign=align;g.textBaseline='middle';
+  g.fillText(txt,x,y);noteText(txt,x,y,size,align);g.globalAlpha=1}
+// Shrink data-driven text until it fits inside the safe width.
+const FITW=SAFE_R-SAFE_L-40;
+function fitLabel(txt,x,y,size,col,a=1,font='IBM Plex Sans',weight=600,maxW=FITW){
+  if(txt==null||txt==='')return;
+  g.font=`${weight} ${size}px "${font}"`;
+  const w=g.measureText(String(txt)).width;
+  if(w>maxW)size=Math.max(14,Math.floor(size*maxW/w));
+  label(txt,x,y,size,col,a,font,weight);
+}
+function polyline(pts,p){
+  let L=0,seg=[];for(let i=1;i<pts.length;i++){const d=Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]);seg.push(d);L+=d}
+  let rem=L*clamp(p);g.beginPath();g.moveTo(pts[0][0],pts[0][1]);
+  for(let i=1;i<pts.length&&rem>0;i++){const d=seg[i-1];if(rem>=d){g.lineTo(pts[i][0],pts[i][1]);rem-=d}
+    else{const k=rem/d;g.lineTo(pts[i-1][0]+(pts[i][0]-pts[i-1][0])*k,pts[i-1][1]+(pts[i][1]-pts[i-1][1])*k);rem=0}}
+  g.stroke()}
+function pointAt(pts,p){let L=0,seg=[];for(let i=1;i<pts.length;i++){const d=Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]);seg.push(d);L+=d}
+  let rem=L*clamp(p);for(let i=1;i<pts.length;i++){const d=seg[i-1];if(rem<=d){const k=rem/d;return [pts[i-1][0]+(pts[i][0]-pts[i-1][0])*k,pts[i-1][1]+(pts[i][1]-pts[i-1][1])*k]}rem-=d}
+  return pts[pts.length-1]}
+function figure(x,y,s,p,col=CREAM,a=1){
+  if(p<=0)return; stroke(col,4*s,a); glow(col,18*s);
+  const hp=clamp(p*2), bp=clamp(p*2-1);
+  if(hp>0){g.beginPath();g.arc(x,y-78*s,16*s,-Math.PI/2,-Math.PI/2+Math.PI*2*hp);g.stroke()}
+  if(bp>0){g.beginPath();g.moveTo(x-24*s,y);g.lineTo(x-24*s,y-30*s*bp);
+    if(bp>.5){g.quadraticCurveTo(x-24*s,y-58*s,x,y-58*s);g.quadraticCurveTo(x+24*s,y-58*s,x+24*s,y-30*s)}
+    g.lineTo(x+24*s,y-30*s*bp);g.stroke()}
+  noglow(); g.globalAlpha=1}
+function ground(x,y,r,a){const gr=g.createRadialGradient(x,y,0,x,y,r);gr.addColorStop(0,`rgba(243,238,227,${.22*a})`);gr.addColorStop(1,'rgba(243,238,227,0)');
+  g.fillStyle=gr;g.beginPath();g.ellipse(x,y,r,r*.28,0,0,Math.PI*2);g.fill();g.globalAlpha=1}
+function house(x,y,s,p,col){ if(p<=0)return; stroke(col,3.5*s,1);glow(col,12);
+  polyline([[x-40*s,y],[x-40*s,y-55*s],[x,y-95*s],[x+40*s,y-55*s],[x+40*s,y]],p);
+  if(p>.85){g.beginPath();g.rect(x-10*s,y-34*s,20*s,34*s);g.stroke()}noglow();g.globalAlpha=1}
+function doc(x,y,s,a,col=CREAM,rot=0){
+  g.save();g.translate(x,y);g.rotate(rot);stroke(col,2.5,a);
+  g.beginPath();g.rect(-11*s,-14*s,22*s,28*s);g.stroke();
+  g.beginPath();g.moveTo(-6*s,-6*s);g.lineTo(6*s,-6*s);g.moveTo(-6*s,0);g.lineTo(6*s,0);g.moveTo(-6*s,6*s);g.lineTo(2*s,6*s);g.stroke();
+  g.restore();g.globalAlpha=1}
+function flag(x,y,s,p,col=BRASS){if(p<=0)return;stroke(col,3*s,1);glow(col,16);
+  g.beginPath();g.moveTo(x,y);g.lineTo(x,y-70*s*clamp(p*1.4));g.stroke();
+  if(p>.6){const k=clamp((p-.6)/.4);g.fillStyle=col;g.beginPath();g.moveTo(x,y-70*s);g.lineTo(x+44*s*k,y-58*s);g.lineTo(x,y-46*s);g.closePath();g.fill()}
+  noglow();g.globalAlpha=1}
+function ring(x,y,r,a,col=BRASS,w=3){if(a<=0)return;stroke(col,w,a);glow(col,20);g.beginPath();g.arc(x,y,Math.max(1,r),0,Math.PI*2);g.stroke();noglow();g.globalAlpha=1}
+function confetti(x,y,k,n=34){ if(k<=0||k>=1)return;
+  for(let i=0;i<n;i++){const a0=R(i*3)*Math.PI*2,sp=160+R(i*3+1)*260,tt=k;
+    const px=x+Math.cos(a0)*sp*tt*0.9, py=y+Math.sin(a0)*sp*tt*0.5+220*tt*tt;
+    g.save();g.globalAlpha=(1-k)*(0.6+0.4*R(i*3+2));g.translate(px,py);g.rotate(tt*6*(R(i)-0.5));
+    g.fillStyle=[BRASS,BRASS2,CREAM,WARM][i%4];g.fillRect(-5,-3,10,6);g.restore()}
+  g.globalAlpha=1}
+function bubble(x,y,w,h,txt,col,a){ if(a<=0)return;
+  g.save();g.globalAlpha=a;stroke(col,2.5,a);g.beginPath();g.roundRect(x-w/2,y-h/2,w,h,h/2);g.stroke();
+  label(txt,x,y,Math.min(30,Math.floor(w/(txt.length*0.54))||30),col,a,'IBM Plex Sans',400);g.restore();g.globalAlpha=1}
+
+/* ============================ SCENE PRIMITIVES ============================
+   Each takes (u, k, a) : u = seconds since the scene started, k = fade alpha,
+   a = the scene's args object from the story's scene_plan.  All of them draw
+   inside x[SAFE_L..SAFE_R], y[760..SAFE_B] and centre on CX.               */
+const SCENES={};
+
+/* people on a street ------------------------------------------------------ */
+SCENES.street=(u,k,a)=>{
+  const n=a.figures||2, bob=Math.sin(u*2)*2, HY=ART_Y+150, FS=1.25;
+  const hp=ease(prog(u,0.1,1.2));
+  stroke(CREAM,2.5,.7*k); g.beginPath();g.moveTo(CX-360*hp,HY);g.lineTo(CX+360*hp,HY);g.stroke();g.globalAlpha=1;
+  const span=n===1?0:330, x0=CX-span/2;
+  for(let i=0;i<n;i++){
+    const x=n===1?CX:x0+i*(span/(n-1));
+    const f=prog(u,0.4+i*0.3,0.9)*k;
+    ground(x,HY+6,88,f);
+    if(a.houses!==false)house(x,HY-160,1.0,ease(prog(u,0.9+i*0.3,1.2))*k,CREAM);
+    figure(x,HY+bob*(i?0.6:1),FS,f,CREAM,k);
+    if(a.labels&&a.labels[i])fitLabel(a.labels[i],x,HY+72,30,MUTED,k*ease(prog(u,1.3,0.5)),'IBM Plex Sans',600);
+  }
+  if(a.bubble){const bx=n===1?CX:x0, by=HY-290;
+    bubble(bx+170,by,460,70,a.bubble,MUTED,k*ease(prog(u,0.9,0.4))*(1-prog(u,(a.bubble_out||4.2),0.5)));}
+  if(a.suitcase!==false){const s=ease(prog(u,1.6,0.7))*k;
+    if(s>0){const x=(n===1?CX:x0)-82;stroke(CREAM,3.5,s*.8);g.beginPath();g.roundRect(x-32,HY-54,64,50,7);g.stroke();
+      g.beginPath();g.moveTo(x-12,HY-54);g.quadraticCurveTo(x,HY-74,x+12,HY-54);g.stroke();g.globalAlpha=1}}
+};
+
+/* receipts stacking ------------------------------------------------------- */
+SCENES.receipts=(u,k,a)=>{
+  const n=a.count||8, tidy=a.tidy!==false, y0=ART_Y+150;
+  if(a.box){ // the famous shoebox
+    const bk=ease(prog(u,0.05,0.5))*k;
+    stroke(BRASS,3.5,bk*.9);glow(BRASS,14);g.beginPath();g.roundRect(CX-210,y0-100,420,170,12);g.stroke();noglow();
+    g.beginPath();g.moveTo(CX-234,y0-100);g.lineTo(CX+234,y0-100);g.stroke();g.globalAlpha=1}
+  for(let i=0;i<n;i++){
+    const p=prog(u,0.25+i*0.22,0.55); if(p<=0)continue;
+    const e=back(p), col=tidy?(a.warm?BRASS2:CREAM):MUTED;
+    const x=tidy?CX+(i%2?1:-1)*((i*7)%34) : CX+(R(i)-0.5)*(a.box?330:420);
+    const yT=tidy? y0-26-i*38 : y0+8-R(i+9)*(a.box?90:150);
+    const rot=tidy?(R(i)-0.5)*0.08 : (R(i+3)-0.5)*1.1;
+    doc(x+(1-e)*(tidy?140:-110), yT-(1-e)*180, a.box?1.3:1.55, ease(p)*0.92*k, col, rot*e);
+  }
+  if(a.label)fitLabel(a.label,CX,ART_Y+300,32,a.warm?BRASS:MUTED,k*ease(prog(u,1.2,0.5)),'IBM Plex Sans',600);
+};
+
+/* calendar flip ----------------------------------------------------------- */
+SCENES.calendar=(u,k,a)=>{
+  const n=a.count||10, y0=ART_Y+60, step=Math.min(78,740/n), x0=CX-(n-1)*step/2;
+  for(let m=0;m<n;m++){
+    const on=prog(u,0.25+m*0.13,0.24); const x=x0+m*step;
+    const sx=Math.cos(Math.PI*clamp(on)), flipped=on>=0.5;
+    g.save();g.globalAlpha=k*(flipped?.95:.5);g.translate(x,y0);g.scale(Math.max(0.06,Math.abs(sx)),1);
+    stroke(flipped?BRASS:MUTED,2.5,1);
+    if(flipped){glow(BRASS,14);g.fillStyle='rgba(214,169,73,.18)';g.beginPath();g.roundRect(-26,-36,52,72,7);g.fill()}
+    g.beginPath();g.roundRect(-26,-36,52,72,7);g.stroke();noglow();g.restore()}
+  g.globalAlpha=1;
+  if(a.label)fitLabel(a.label,CX,y0+116,36,BRASS,k*ease(prog(u,0.25+n*0.13,0.45)),'IBM Plex Sans',600);
+  if(a.sub)fitLabel(a.sub,CX,y0+172,28,MUTED,k*ease(prog(u,0.6+n*0.13,0.45)),'IBM Plex Sans',400);
+};
+
+/* ascending stairs / graph ------------------------------------------------ */
+SCENES.stairs=(u,k,a)=>{
+  const steps=a.steps||5, baseY=ART_Y+170, w=130, h=66;
+  const pts=[[CX-w*steps/2,baseY]];
+  for(let i=0;i<steps;i++){const x=CX-w*steps/2+i*w;pts.push([x,baseY-h*i]);pts.push([x+w,baseY-h*i])}
+  pts.push([CX+w*steps/2,baseY-h*(steps-1)]);
+  const p=ease(prog(u,0.2,2.0));
+  stroke(BRASS,5,.95*k);glow(BRASS,24);polyline(pts,p);noglow();g.globalAlpha=1;
+  const climb=ease(prog(u,0.6,Math.max(1.4,(a.climb||2.6))));
+  const [fx,fy]=pointAt(pts,Math.min(p,climb)*0.97);
+  figure(fx,fy,1.1,prog(u,0.5,0.6)*k,CREAM,k);
+  const top=[CX+w*steps/2-30,baseY-h*(steps-1)];
+  flag(top[0],top[1],1,ease(prog(u,(a.climb||2.6)+0.3,1.0))*k,BRASS);
+  if(climb>=0.98)confetti(top[0],top[1]-120,prog(u,(a.climb||2.6)+0.4,1.9));
+  if(a.label)fitLabel(a.label,CX,baseY+86,32,BRASS,k*ease(prog(u,1.0,0.5)),'IBM Plex Sans',600);
+  if(a.amount){const ak=ease(prog(u,(a.climb||2.6)+0.2,0.5))*k;
+    if(ak>0){fitLabel(a.amount,Math.min(top[0]-20,SAFE_R-180),top[1]-160,84,BRASS2,ak,'Bricolage Grotesque',700,320)}}
+};
+
+/* penalty cards ----------------------------------------------------------- */
+SCENES.penalty=(u,k,a)=>{
+  const items=a.items||['£100'];
+  items.forEach((tx,i)=>{
+    const p=prog(u,0.25+i*0.55,0.6); if(p<=0)return;
+    const e=back(p), y=ART_Y+60+i*100-(1-e)*180, al=Math.min(1,p*2)*k;
+    g.save();g.globalAlpha=al;stroke(AMBER,2.5,al);glow(AMBER,12);
+    g.fillStyle='rgba(232,181,91,.12)';g.beginPath();g.roundRect(CX-225,y-38,450,76,16);g.fill();g.stroke();noglow();
+    fitLabel(tx,CX,y+1,34,AMBER,al,'IBM Plex Sans',600,400);g.restore()});
+  g.globalAlpha=1;
+  if(a.label)fitLabel(a.label,CX,ART_Y+60+items.length*100+20,30,MUTED,k*ease(prog(u,1.4,0.5)),'IBM Plex Sans',400);
+};
+
+/* big typographic beat ---------------------------------------------------- */
+SCENES.bignum=(u,k,a)=>{
+  const e=ease(prog(u,0.1,0.5))*k; if(e<=0)return;
+  g.save();g.globalAlpha=e;glow(BRASS,50);
+  fitLabel(a.big||'31',CX,ART_Y-30,a.size||280,BRASS,e,'Bricolage Grotesque',700);noglow();
+  if(a.small)fitLabel(a.small,CX,ART_Y+140,52,CREAM,e,'IBM Plex Sans',600);
+  const rr=prog(u,0.25,1.6);ring(CX,ART_Y-10,180+rr*240,(1-rr)*.7*k,BRASS,3);
+  g.restore();g.globalAlpha=1;
+  if(a.sub)fitLabel(a.sub,CX,ART_Y+210,28,MUTED,k*ease(prog(u,0.9,0.5)),'IBM Plex Sans',400);
+};
+
+/* question card ----------------------------------------------------------- */
+SCENES.question=(u,k,a)=>{
+  const e=ease(prog(u,0.05,0.45))*k, bk=back(prog(u,0.05,0.6)); if(e<=0)return;
+  const lines=(Q&&Q.text)||['Tu ce alegi?'], btns=(Q&&Q.buttons)||['Da','Nu'];
+  const cy=ART_Y-20, h=150+lines.length*74;
+  g.save();g.globalAlpha=e;
+  g.fillStyle='rgba(243,238,227,.06)';g.beginPath();g.roundRect(SAFE_L+10,cy-h/2+(1-bk)*40,SAFE_R-SAFE_L-20,h,34);g.fill();
+  stroke(BRASS,2,e*.7);g.beginPath();g.roundRect(SAFE_L+10,cy-h/2+(1-bk)*40,SAFE_R-SAFE_L-20,h,34);g.stroke();
+  lines.forEach((l,i)=>fitLabel(l,CX,cy-h/2+78+i*70+(1-bk)*40,54,CREAM,e,'Bricolage Grotesque',700,SAFE_R-SAFE_L-80));
+  const by=cy+h/2-62+(1-bk)*40;
+  const b1=back(prog(u,0.4,0.5)),b2=back(prog(u,0.55,0.5)),tap=prog(u,0.95,0.5);
+  const pulse=(tap>0&&tap<1)?1+0.08*Math.sin(Math.PI*tap):1;
+  g.save();g.translate(CX-180,by);g.scale(b1*pulse,b1*pulse);g.fillStyle=BRASS;glow(BRASS,24);
+  g.beginPath();g.roundRect(-150,-36,300,72,36);g.fill();noglow();fitLabel(btns[0],0,2,30,NAVY,1,'IBM Plex Sans',600,270);g.restore();
+  g.save();g.translate(CX+180,by);g.scale(b2,b2);stroke(MUTED,2.5,1);
+  g.beginPath();g.roundRect(-150,-36,300,72,36);g.stroke();fitLabel(btns[1]||'',0,2,30,MUTED,1,'IBM Plex Sans',600,270);g.restore();
+  if(tap>0&&tap<1)ring(CX-180,by,40+90*tap,(1-tap)*.8,CREAM,3);
+  g.restore();g.globalAlpha=1;
+};
+
+/* Ola end card ------------------------------------------------------------ */
+SCENES.ola=(u,k,a)=>{
+  const e=ease(prog(u,0.0,0.7))*k, bk=back(prog(u,0.0,0.9)); if(e<=0||!lionReady)return;
+  g.save();g.globalAlpha=e;glow(BRASS,40);
+  const s=280*(0.7+0.3*bk); g.drawImage(lion,CX-s/2,ART_Y-120-s/2,s,s);noglow();
+  label('OLA ACCOUNTANCY',CX,ART_Y+80,38,CREAM,e,'Bricolage Grotesque',700);
+  label('Luton · Birmingham',CX,ART_Y+130,26,WARM,e*.85,'IBM Plex Sans',400);
+  g.restore();g.globalAlpha=1;
+};
+
+/* WhatsApp card ----------------------------------------------------------- */
+SCENES.whatsapp=(u,k,a)=>{
+  const e=ease(prog(u,0.0,0.6))*k, bk=back(prog(u,0.0,0.7)); if(e<=0)return;
+  g.save();g.globalAlpha=e;
+  const x0=SAFE_L+20, wd=SAFE_R-SAFE_L-40, y=1120+(1-bk)*60;
+  const gr=g.createLinearGradient(x0,y,x0+wd,y+170);gr.addColorStop(0,WARM);gr.addColorStop(1,BRASS2);
+  g.fillStyle=gr;glow('rgba(214,169,73,.55)',44);g.beginPath();g.roundRect(x0,y,wd,170,30);g.fill();noglow();
+  g.save();g.translate(x0+86,y+85);g.fillStyle=GREEN;g.beginPath();g.arc(0,0,38,0,7);g.fill();
+  g.beginPath();g.moveTo(-25,28);g.lineTo(-36,42);g.lineTo(-13,34);g.closePath();g.fill();
+  stroke(CREAM,5,1);g.beginPath();g.arc(0,0,16,Math.PI*0.95,Math.PI*1.9);g.stroke();g.restore();
+  label('SCRIE-NE PE WHATSAPP',CX+48,y+48,23,NAVY,e,'IBM Plex Sans',600);
+  label('0330 133 1886',CX+48,y+112,60,NAVY,e,'Bricolage Grotesque',700);
+  label('Prima consultație: 30 de minute · £120 cu TVA inclus',CX,y+206,25,WARM,e*ease(prog(u,0.5,0.5)),'IBM Plex Sans',400);
+  g.restore();g.globalAlpha=1;
+};
+
+/* captions only ----------------------------------------------------------- */
+SCENES.plain=()=>{};
+
+/* ---------- kinetic captions ---------- */
+function fontFor(w,size){return w.brass?`700 ${size}px "Bricolage Grotesque"`:`600 ${size}px "IBM Plex Sans"`}
+function layout(p,size){
+  const lines=[];let cur=[],cw=0;
+  for(const w of p.words){g.font=fontFor(w,size);const ww=g.measureText(w.w+' ').width;
+    if(cw+ww>CAP_W&&cur.length){lines.push(cur);cur=[];cw=0}cur.push({...w,ww});cw+=ww}
+  if(cur.length)lines.push(cur);
+  return lines}
+function caption(t){
+  const p=[...PH].reverse().find(p=>t>=p.start-0.25&&t<p.end+1.6); if(!p)return;
+  if(!window.TEXTONLY&&p.scene==='question')return;   // the card already says it
+  const alpha=Math.min(prog(t,p.start-0.25,0.25),1-prog(t,p.end+1.1,0.5)); if(alpha<=0)return;
+  let size=p.size||72, lines=layout(p,size);
+  while(lines.length>4&&size>44){size-=6;lines=layout(p,size)}
+  const lh=size*1.22, top=CAP_Y-((lines.length-1)*lh)/2;
+  lines.forEach((ln,li)=>{
+    const tw=ln.reduce((s,w)=>s+w.ww,0); let x=CX-tw/2; const y=top+li*lh;
+    for(const w of ln){
+      const on=t>=w.s, pop=on?ease(prog(t,w.s,0.22)):0, act=on&&t<w.e;
+      if(on){const col=w.brass?BRASS:CREAM, a=alpha*(act?1:.92);
+        g.save();g.globalAlpha=a;g.translate(x+w.ww/2,y);g.scale(0.92+0.08*pop,0.92+0.08*pop);
+        g.translate(-(x+w.ww/2),-y+(1-pop)*14);
+        g.font=fontFor(w,size);g.textAlign='left';g.textBaseline='middle';
+        if(w.brass)glow(BRASS,22); else if(act)glow('rgba(243,238,227,.6)',14);
+        g.fillStyle=col;g.fillText(w.w,x,y);noteText(w.w,x,y,size,'left');noglow();g.restore()}
+      x+=w.ww}});
+}
+
+/* ---------- chrome ---------- */
+function bg(t){
+  g.fillStyle=NAVY;g.fillRect(0,0,W,H);
+  let gr=g.createRadialGradient(CX,ART_Y-200,80,CX,ART_Y-200,1300);
+  gr.addColorStop(0,'rgba(36,63,130,.35)');gr.addColorStop(1,'rgba(11,19,36,0)');g.fillStyle=gr;g.fillRect(0,0,W,H);
+  const w=warmth(t);
+  if(w>0){const wg=g.createRadialGradient(CX,ART_Y-120,60,CX,ART_Y-120,1200);
+    wg.addColorStop(0,`rgba(214,169,73,${.22*w})`);wg.addColorStop(1,'rgba(214,169,73,0)');g.fillStyle=wg;g.fillRect(0,0,W,H)}
+  for(let i=0;i<70;i++){const x=(R(i)*W+t*6*(0.3+R(i+1)))%W,y=(R(i+2)*H-t*9*(0.3+R(i+3))+H*10)%H;
+    g.globalAlpha=0.08+R(i+4)*0.18;g.fillStyle=CREAM;g.beginPath();g.arc(x,y,0.8+R(i+5)*1.6,0,7);g.fill()}
+  g.globalAlpha=1;
+  const v=g.createRadialGradient(W/2,H/2,500,W/2,H/2,1300);v.addColorStop(0,'rgba(0,0,0,0)');v.addColorStop(1,'rgba(0,0,0,.55)');
+  g.fillStyle=v;g.fillRect(0,0,W,H);
+}
+/* the frame warms up on the scenes the story marks as its good news */
+function warmth(t){let w=0;
+  for(const s of SC){ if(!s.warm)continue;
+    w=Math.max(w, ease(prog(t,s.start,0.7))*(1-prog(t,s.end,0.6)));}
+  return clamp(w)}
+function header(t){const a=ease(prog(t,0.2,0.8));g.save();g.globalAlpha=a*.9;
+  label('OLA ACCOUNTANCY',CX,SAFE_T+14,24,MUTED,a*.9,'IBM Plex Sans',600);
+  stroke(BRASS,2,a*.8);g.beginPath();g.moveTo(CX-40,SAFE_T+46);g.lineTo(CX+40,SAFE_T+46);g.stroke();g.restore();g.globalAlpha=1}
+function disclaimer(t){const last=SC[SC.length-1];const a=ease(prog(t,last.start+0.6,0.6));
+  if(a>0)label('Informații generale. Pentru situația ta, vorbește cu un contabil.',CX,SAFE_T+110,20,MUTED,a*0.8,'IBM Plex Sans',400)}
+function progressBar(t){g.fillStyle='rgba(255,255,255,.08)';g.fillRect(0,0,W,8);g.fillStyle=BRASS;g.fillRect(0,0,W*clamp(t/TOTAL),8)}
+
+/* ---------- scene dispatch ---------- */
+const XF=0.35;   // cross-fade between scenes
+function drawScenes(t){
+  for(const s of SC){
+    if(t<s.start-XF||t>s.end+XF)continue;
+    const k=Math.min(prog(t,s.start-XF,XF),1-prog(t,s.end,XF));
+    if(k<=0)continue;
+    const fn=SCENES[s.name]||SCENES.plain;
+    g.save();fn(t-s.start,k,s.args||{});g.restore();g.globalAlpha=1;noglow();
+  }
+}
+
+window.seek=function(t){
+  if(window.TEXTONLY){
+    g.clearRect(0,0,W,H);
+    let sc=g.createLinearGradient(0,0,0,H*0.52);sc.addColorStop(0,'rgba(11,19,36,.72)');sc.addColorStop(1,'rgba(11,19,36,0)');
+    g.fillStyle=sc;g.fillRect(0,0,W,H*0.52);
+    sc=g.createLinearGradient(0,H,0,H*0.72);sc.addColorStop(0,'rgba(11,19,36,.55)');sc.addColorStop(1,'rgba(11,19,36,0)');
+    g.fillStyle=sc;g.fillRect(0,H*0.72,W,H*0.28);
+    caption(t);header(t);progressBar(t);return;
+  }
+  bg(t);
+  const z=1+0.045*eio(t/TOTAL);
+  g.save();g.translate(CX,H*0.62);g.scale(z,z);g.translate(-CX,-H*0.62);
+  drawScenes(t);
+  g.restore();
+  caption(t);header(t);disclaimer(t);progressBar(t);
+};
+window.ready=(async()=>{
+  await document.fonts.ready;
+  await Promise.all([
+    document.fonts.load('700 72px "Bricolage Grotesque"'),
+    document.fonts.load('600 72px "IBM Plex Sans"'),
+    document.fonts.load('400 72px "IBM Plex Sans"'),
+  ]);
+  window.seek(0);            // warm the canvas text pipeline
+  return true;
+})();
+window.SCENE_NAMES=Object.keys(SCENES);
+window.SAFE={L:SAFE_L,R:SAFE_R,T:SAFE_T,B:SAFE_B};
+// Measure the bounding box of every piece of text drawn at time t.
+window.textBounds=function(t){
+  window.__bounds={minX:1e9,maxX:-1e9,minY:1e9,maxY:-1e9};
+  window.seek(t);
+  const b=window.__bounds;window.__bounds=null;
+  return b.maxX<-1e8?null:b;
+};
+</script></body></html>

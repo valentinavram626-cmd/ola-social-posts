@@ -1,0 +1,151 @@
+{
+ "slug": "cutia-de-pantofi",
+ "title": "Ce spune cutia ta de bonuri despre tine",
+ "phrases": [
+  "Arată-mi cutia ta de bonuri și îți spun ce om ești.",
+  "Dacă totul e în plicuri, pe luni, ești periculos de organizat.",
+  "Dacă e un singur plic mare cu tot, ești ca majoritatea.",
+  "Dacă bonurile sunt în trei locuri, ești artist.",
+  "Iar dacă ai un bon din două mii douăzeci și doi, ai și memorie.",
+  "Vestea bună: nicio variantă nu e greșită.",
+  "HMRC nu-ți cere cutie frumoasă. Îți cere să poți arăta cifrele.",
+  "Un bon pierdut e o cheltuială pe care n-o mai scazi.",
+  "Iar o cheltuială nescăzută înseamnă impozit plătit degeaba.",
+  "Nu-ți trebuie program scump. O poză pe telefon, în aceeași zi.",
+  "Tu în ce categorie ești?",
+  "La Ola facem din cutie cifre. Cutia rămâne la tine, ca amintire.",
+  "Scrie-ne pe WhatsApp."
+ ],
+ "scene_plan": [
+  {
+   "scene": "receipts",
+   "args": {
+    "box": true,
+    "tidy": false,
+    "count": 7,
+    "label": "cutia ta"
+   }
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "box": true,
+    "tidy": true,
+    "warm": true,
+    "count": 8,
+    "label": "pe luni, în plicuri"
+   },
+   "warm": true
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "box": true,
+    "tidy": false,
+    "count": 10,
+    "label": "un plic cu tot"
+   }
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": false,
+    "count": 12,
+    "label": "cutie, torpedou, geacă"
+   },
+   "sfx": "oops"
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": false,
+    "count": 5,
+    "label": "2022"
+   },
+   "sfx": "oops"
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "0",
+    "small": "VARIANTE GREȘITE",
+    "size": 260
+   },
+   "warm": true
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "warm": true,
+    "count": 7,
+    "label": "cifre, nu cutie"
+   },
+   "warm": true
+  },
+  {
+   "scene": "penalty",
+   "args": {
+    "items": [
+     "bon pierdut",
+     "impozit plătit degeaba"
+    ]
+   }
+  },
+  {
+   "scene": "penalty",
+   "args": {
+    "items": [
+     "bon pierdut",
+     "impozit plătit degeaba"
+    ]
+   }
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "warm": true,
+    "count": 5,
+    "label": "o poză, în aceeași zi"
+   },
+   "warm": true
+  },
+  {
+   "scene": "question",
+   "args": {}
+  },
+  {
+   "scene": "ola",
+   "args": {}
+  },
+  {
+   "scene": "whatsapp",
+   "args": {}
+  }
+ ],
+ "question_card_text": [
+  "Tu în ce",
+  "categorie ești?"
+ ],
+ "question_buttons": [
+  "Plicuri",
+  "Torpedou"
+ ],
+ "brass": [
+  "cutie",
+  "cutia",
+  "bonuri",
+  "cifrele",
+  "poză"
+ ],
+ "opening_shot_prompt": "Vertical 9:16, 5 seconds, cinematic documentary. A worn cardboard shoebox on a kitchen table in a small UK flat, lid off, crammed with crumpled paper receipts; a pair of hands lifts a handful and lets them fall back in. Warm late-afternoon window light, shallow depth of field, slow macro push-in. Natural colours, slight film grain, no slow motion. No text, no logos, no captions, no on-screen writing.",
+ "caption": "Nu contează cât de frumoasă e cutia. Contează să poți arăta cifrele dacă HMRC le cere. Un bon pierdut e o cheltuială pe care n-o mai scazi din profit — iar o cheltuială nescăzută înseamnă impozit plătit degeaba. O poză pe telefon, în aceeași zi, e de ajuns ca să nu dispară.\n\nScrie-ne pe WhatsApp la 0330 133 1886. Birouri în Luton și Birmingham.\n\n#bonuri #selfemployed #romaniinuk #contabilromania #hmrc",
+ "hashtags": [
+  "#bonuri",
+  "#selfemployed",
+  "#romaniinuk",
+  "#contabilromania",
+  "#hmrc"
+ ]
+}

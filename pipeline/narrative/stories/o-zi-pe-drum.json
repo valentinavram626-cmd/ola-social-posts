@@ -1,0 +1,148 @@
+{
+ "slug": "o-zi-pe-drum",
+ "title": "O zi pe drum",
+ "phrases": [
+  "Șase dimineața. Pornești motorul. Începe ziua.",
+  "Fiecare milă făcută cu treabă are o valoare.",
+  "Din șase aprilie două mii douăzeci și șase: cincizeci și cinci de penny pe milă.",
+  "Rata simplificată, pentru primele zece mii de mile. După, douăzeci și cinci.",
+  "Zece mii de mile înseamnă cinci mii cinci sute de lire scăzute din profit.",
+  "Nouă dimineața: cafeaua ta nu e cheltuială. Îmi pare rău.",
+  "Prânz: partea de business din factura de telefon, da.",
+  "Mănuși, scule, haine de lucru: da.",
+  "Seara, contabilul: tot cheltuială de business.",
+  "Doar că nimic nu contează dacă nu notezi.",
+  "Tu câte mile ai făcut luna asta?",
+  "La Ola îți punem fiecare milă la socoteală.",
+  "Scrie-ne pe WhatsApp."
+ ],
+ "scene_plan": [
+  {
+   "scene": "street",
+   "args": {
+    "figures": 1,
+    "houses": false,
+    "suitcase": false
+   }
+  },
+  {
+   "scene": "street",
+   "args": {
+    "figures": 1,
+    "houses": false,
+    "suitcase": false
+   }
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "55p",
+    "small": "PE MILĂ",
+    "size": 240,
+    "sub": "din 6 aprilie 2026"
+   },
+   "warm": true
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "25p",
+    "small": "PESTE 10.000 DE MILE",
+    "size": 240
+   }
+  },
+  {
+   "scene": "stairs",
+   "args": {
+    "label": "scăzut din profit",
+    "amount": "£5.500",
+    "steps": 5,
+    "climb": 2.2
+   },
+   "warm": true
+  },
+  {
+   "scene": "penalty",
+   "args": {
+    "items": [
+     "cafeaua ta: nu"
+    ]
+   },
+   "sfx": "oops"
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "warm": true,
+    "count": 4,
+    "label": "telefon, partea de business"
+   },
+   "warm": true
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "warm": true,
+    "count": 7,
+    "label": "mănuși, scule, haine"
+   },
+   "warm": true
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "warm": true,
+    "count": 9,
+    "label": "contabilul"
+   },
+   "warm": true
+  },
+  {
+   "scene": "penalty",
+   "args": {
+    "items": [
+     "nenotat = nescăzut"
+    ]
+   }
+  },
+  {
+   "scene": "question",
+   "args": {}
+  },
+  {
+   "scene": "ola",
+   "args": {}
+  },
+  {
+   "scene": "whatsapp",
+   "args": {}
+  }
+ ],
+ "question_card_text": [
+  "Tu câte mile",
+  "ai făcut luna asta?"
+ ],
+ "question_buttons": [
+  "Le notez",
+  "Habar n-am"
+ ],
+ "brass": [
+  "milă",
+  "mile",
+  "profit",
+  "notezi",
+  "cheltuială"
+ ],
+ "opening_shot_prompt": "Vertical 9:16, 5 seconds, cinematic documentary. Six in the morning, a Romanian delivery driver climbs into a white van parked on a quiet British terraced street, turns the key, headlights come on, windscreen wipers clear light drizzle. Shot from the passenger side, shallow depth of field, cold blue dawn light with warm dashboard glow, slow handheld. No slow motion. No text, no logos, no captions, no on-screen writing.",
+ "caption": "Din 6 aprilie 2026, rata simplificată de milaj pentru self-employed este 55p pe milă pentru primele 10.000 de mile de business și 25p după. La 10.000 de mile înseamnă £5.500 scăzuți din profit. Telefonul (partea de business), sculele, hainele de lucru și onorariul contabilului sunt și ele cheltuieli — dacă le notezi.\n\nScrie-ne pe WhatsApp la 0330 133 1886. Birouri în Luton și Birmingham.\n\n#cheltuieli #soferi #romaniinuk #contabilromania #selfemployed",
+ "hashtags": [
+  "#cheltuieli",
+  "#soferi",
+  "#romaniinuk",
+  "#contabilromania",
+  "#selfemployed"
+ ]
+}

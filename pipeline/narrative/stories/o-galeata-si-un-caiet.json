@@ -1,0 +1,143 @@
+{
+ "slug": "o-galeata-si-un-caiet",
+ "title": "O găleată și un caiet",
+ "phrases": [
+  "A început cu o găleată, o mătură și un anunț pe Facebook.",
+  "Trei case pe săptămână. Și Universal Credit, ca să ajungă luna.",
+  "Mulți cred că, dacă te apuci de ceva pe cont propriu, pierzi tot.",
+  "Nu e așa. Poți fi self-employed și să primești Universal Credit.",
+  "Raportezi în fiecare lună cât ai încasat și cât ai cheltuit.",
+  "Și arăți că e o treabă serioasă: facturi, bonuri, clienți.",
+  "La început poți avea o perioadă de start, de douăsprezece luni.",
+  "După ea intră în calcul minimum income floor.",
+  "Ea nu știa termenii. Dar nota totul într-un caiet.",
+  "Anul următor avea șapte case. Apoi un angajat.",
+  "Tu ai un caiet?",
+  "La Ola ținem noi socoteala. Tu spală geamuri, nu hârtii.",
+  "Scrie-ne pe WhatsApp."
+ ],
+ "scene_plan": [
+  {
+   "scene": "street",
+   "args": {
+    "figures": 1,
+    "houses": false,
+    "suitcase": false
+   }
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "count": 3,
+    "label": "trei case pe săptămână"
+   }
+  },
+  {
+   "scene": "penalty",
+   "args": {
+    "items": [
+     "„pierzi tot”"
+    ]
+   },
+   "sfx": "oops"
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "warm": true,
+    "count": 5,
+    "label": "se poate și așa"
+   },
+   "warm": true
+  },
+  {
+   "scene": "calendar",
+   "args": {
+    "count": 12,
+    "label": "raportare în fiecare lună"
+   }
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "warm": true,
+    "count": 8,
+    "label": "facturi, bonuri, clienți"
+   },
+   "warm": true
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "12",
+    "small": "LUNI, PERIOADĂ DE START",
+    "size": 240,
+    "sub": "dacă te califici"
+   }
+  },
+  {
+   "scene": "penalty",
+   "args": {
+    "items": [
+     "minimum income floor"
+    ]
+   }
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "warm": true,
+    "count": 6,
+    "label": "un caiet"
+   },
+   "warm": true
+  },
+  {
+   "scene": "stairs",
+   "args": {
+    "label": "șapte case. apoi un angajat.",
+    "steps": 5,
+    "climb": 2.2
+   },
+   "warm": true
+  },
+  {
+   "scene": "question",
+   "args": {}
+  },
+  {
+   "scene": "ola",
+   "args": {}
+  },
+  {
+   "scene": "whatsapp",
+   "args": {}
+  }
+ ],
+ "question_card_text": [
+  "Tu ai un caiet?"
+ ],
+ "question_buttons": [
+  "Am",
+  "Nu încă"
+ ],
+ "brass": [
+  "caiet",
+  "caietul",
+  "case",
+  "angajat"
+ ],
+ "opening_shot_prompt": "Vertical 9:16, 5 seconds, cinematic documentary. A woman in her thirties carries a bucket and mop up the front path of a British terraced house in the morning, sets the bucket down and knocks on the door. Soft overcast daylight, shallow depth of field, slow handheld follow from behind at waist height. Natural colours, realistic skin tones, no slow motion. No text, no logos, no captions, no on-screen writing.",
+ "caption": "Poți fi self-employed și să primești în continuare Universal Credit. Trebuie să raportezi lunar cât ai încasat și cât ai cheltuit și să poți arăta că activitatea e organizată și serioasă. La început poți primi o perioadă de start de 12 luni, în care nu se aplică minimum income floor.\n\nScrie-ne pe WhatsApp la 0330 133 1886. Birouri în Luton și Birmingham.\n\n#universalcredit #selfemployed #romaniinuk #contabilromania #curatenie",
+ "hashtags": [
+  "#universalcredit",
+  "#selfemployed",
+  "#romaniinuk",
+  "#contabilromania",
+  "#curatenie"
+ ]
+}

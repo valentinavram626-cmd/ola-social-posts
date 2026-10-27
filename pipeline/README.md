@@ -19,6 +19,20 @@ until he replies "aprobat".
   (first consultation £120 incl. VAT / 30 min; financial consultation £420 incl. VAT / 60 min). Facts checked on GOV.UK.
 - Every figure/date in a reel must be verified on GOV.UK the same week (rates change in April and at Budgets).
 
+## Narrative reels (daily)
+
+`pipeline/narrative/` is a separate engine for the long-form narrative reels (the "Doi români"
+format): one JSON file per story in `pipeline/narrative/stories/`, Valentin's cloned ElevenLabs
+voice, an animated canvas built from reusable scene primitives, original music and SFX placed
+only in the pauses, out to `reels/narrative/<slug>.mp4` + `.jpg`.
+
+```bash
+cd pipeline/narrative && python3 build.py <slug>
+```
+
+Same compliance rules as the weekly batch, same 59 s Story cap (asserted, never sped up).
+See `pipeline/narrative/README.md`.
+
 ## Steps for the scheduled run
 1. `git clone` this repo; `cd pipeline`.
 2. Decide the week: first day = next Friday (`W=YYYY-MM-DD`).

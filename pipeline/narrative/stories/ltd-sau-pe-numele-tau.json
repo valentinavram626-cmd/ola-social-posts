@@ -1,0 +1,134 @@
+{
+ "slug": "ltd-sau-pe-numele-tau",
+ "title": "Ltd sau pe numele tău",
+ "phrases": [
+  "„Fă-ți Ltd!” Toată lumea îți spune asta.",
+  "Vărul, vecinul, tipul de la spălătorie.",
+  "Hai să vedem ce se schimbă de fapt.",
+  "Ca sole trader, plătești impozit pe profit și National Insurance.",
+  "Ca Ltd, firma plătește Corporation Tax.",
+  "Nouăsprezece la sută până la cincizeci de mii de lire profit.",
+  "Douăzeci și cinci la sută peste două sute cincizeci de mii.",
+  "Între ele e marginal relief.",
+  "Dar Ltd înseamnă și conturi la Companies House, și mai multă hârtie.",
+  "Tu ce ai acum?",
+  "Surpriza e că răspunsul nu stă în lege. Stă în cifrele tale.",
+  "La Ola le punem pe hârtie și îți arătăm care variantă e a ta.",
+  "Scrie-ne pe WhatsApp."
+ ],
+ "scene_plan": [
+  {
+   "scene": "street",
+   "args": {
+    "figures": 3,
+    "houses": false,
+    "suitcase": false,
+    "bubble": "„fă-ți Ltd!”"
+   }
+  },
+  {
+   "scene": "street",
+   "args": {
+    "figures": 3,
+    "houses": false,
+    "suitcase": false,
+    "bubble": "„fă-ți Ltd!”"
+   }
+  },
+  {
+   "scene": "plain",
+   "args": {}
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "count": 5,
+    "label": "sole trader"
+   }
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "count": 8,
+    "label": "Ltd"
+   }
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "19%",
+    "small": "PÂNĂ LA £50.000 PROFIT",
+    "size": 230
+   }
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "25%",
+    "small": "PESTE £250.000 PROFIT",
+    "size": 230
+   }
+  },
+  {
+   "scene": "receipts",
+   "args": {
+    "tidy": true,
+    "count": 6,
+    "label": "între ele: marginal relief"
+   }
+  },
+  {
+   "scene": "penalty",
+   "args": {
+    "items": [
+     "conturi la Companies House",
+     "mai multă hârtie"
+    ]
+   }
+  },
+  {
+   "scene": "question",
+   "args": {}
+  },
+  {
+   "scene": "bignum",
+   "args": {
+    "big": "cifrele tale",
+    "small": "AICI E RĂSPUNSUL",
+    "size": 92
+   },
+   "warm": true
+  },
+  {
+   "scene": "ola",
+   "args": {}
+  },
+  {
+   "scene": "whatsapp",
+   "args": {}
+  }
+ ],
+ "question_card_text": [
+  "Tu ce ai acum?"
+ ],
+ "question_buttons": [
+  "Ltd",
+  "Pe numele meu"
+ ],
+ "brass": [
+  "Ltd",
+  "profit",
+  "cifrele"
+ ],
+ "opening_shot_prompt": "Vertical 9:16, 5 seconds, cinematic documentary. Three men standing outside a small UK hand car wash on a damp afternoon, one gesturing emphatically while the other two listen, foam and water on the forecourt behind them. Overcast light, shallow depth of field, slow handheld dolly-in towards the speaker. Natural colours, realistic skin tones, no slow motion. No text, no logos, no captions, no on-screen writing.",
+ "caption": "Ltd nu e automat mai bun. O firmă plătește Corporation Tax: 19% la profituri de până la £50.000 și 25% peste £250.000, cu marginal relief între ele. În plus vin conturile la Companies House și mai multă administrație. Ca sole trader plătești impozit pe venit și National Insurance. Care variantă iese mai bine depinde de cifrele tale.\n\nScrie-ne pe WhatsApp la 0330 133 1886. Birouri în Luton și Birmingham.\n\n#ltd #soletrader #romaniinuk #contabilromania #corporationtax",
+ "hashtags": [
+  "#ltd",
+  "#soletrader",
+  "#romaniinuk",
+  "#contabilromania",
+  "#corporationtax"
+ ]
+}
