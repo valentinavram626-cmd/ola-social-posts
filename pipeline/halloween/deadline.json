@@ -1,0 +1,70 @@
+{
+ "total": 27.0,
+ "outdir": "fr-deadline",
+ "beats": [
+  {
+   "text": "31 octombrie.",
+   "in": 0.4,
+   "out": 3.2,
+   "size": 92,
+   "hi": "octombrie",
+   "ember": true
+  },
+  {
+   "text": "Toți se gândesc la Halloween.",
+   "in": 3.5,
+   "out": 6.6,
+   "size": 76,
+   "hi": "Halloween",
+   "ember": true
+  },
+  {
+   "text": "Dar dacă depui declarația pe hârtie...",
+   "in": 6.9,
+   "out": 10.2,
+   "size": 72,
+   "hi": "hârtie"
+  },
+  {
+   "text": "...azi la 23:59 e termenul HMRC.",
+   "in": 10.5,
+   "out": 14.0,
+   "size": 74,
+   "hi": "23:59"
+  },
+  {
+   "text": "L-ai ratat?",
+   "in": 14.3,
+   "out": 15.7,
+   "size": 88,
+   "hi": "ratat"
+  },
+  {
+   "text": "Fără panică.",
+   "in": 15.9,
+   "out": 17.4,
+   "size": 88,
+   "hi": "panică",
+   "ember": true
+  },
+  {
+   "text": "Depui online până pe 31 ianuarie și eviți penalizarea de £100.",
+   "in": 17.2,
+   "out": 21.1,
+   "size": 66,
+   "hi": "£100"
+  },
+  {
+   "text": "Singura casă bântuită e cea cu facturile nesortate.",
+   "in": 21.4,
+   "out": 24.0,
+   "size": 68,
+   "hi": "nesortate",
+   "ember": true
+  }
+ ],
+ "end": {
+  "in": 24.0,
+  "line": "Noi o depunem pentru tine."
+ }
+}
