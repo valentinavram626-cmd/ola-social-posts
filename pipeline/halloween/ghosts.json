@@ -1,0 +1,15 @@
+{
+ "total": 27.0,
+ "outdir": "fr-ghosts",
+ "beats": [
+  { "text": "Contabilitatea are și ea fantomele ei.", "in": 0.4,  "out": 3.9,  "size": 70, "hi": "fantomele" },
+  { "text": "Fantoma trecutului:",                    "in": 4.3,  "out": 6.2,  "size": 66 },
+  { "text": "declarația nedepusă. £100.",             "in": 6.4,  "out": 9.3,  "size": 64, "hi": "£100" },
+  { "text": "Fantoma prezentului:",                   "in": 9.7,  "out": 11.6, "size": 66 },
+  { "text": "trei luni. £10 pe zi.",                  "in": 11.8, "out": 14.7, "size": 78, "hi": "£10" },
+  { "text": "Fantoma viitorului:",                    "in": 15.1, "out": 17.0, "size": 66 },
+  { "text": "șase luni. încă 5% din taxă.",           "in": 17.2, "out": 20.1, "size": 64, "hi": "5%" },
+  { "text": "Nicio fantomă nu rezistă la lumină.",    "in": 20.5, "out": 23.6, "size": 68, "hi": "lumină" }
+ ],
+ "end": { "in": 23.8, "line": "Noi aprindem lumina." }
+}
