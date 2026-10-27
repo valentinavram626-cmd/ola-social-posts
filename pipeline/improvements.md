@@ -48,3 +48,63 @@ proposals here (status: proposed → approved → done / rejected). Nothing goes
 - Scraped email lists / mass cold email (PECR & UK GDPR) — rejected 26 Oct.
 - Speeding up videos to fit Story length — rejected; hard cut at 59 s instead.
 - Posting Romanian content on English networks or vice versa.
+
+---
+
+## 2026-10-27 — Improvement loop (Improvement Officer, 22:10 run)
+
+### Evidence (Metricool, 21–27 Oct 2026)
+
+**Publishing today (27 Oct):** 63 post objects, all `PUBLISHED`, 0 errors. Per network: Instagram 15 reels + 15 stories + 1 image post;
+Facebook 15 reels + 15 stories + 1 post; TikTok **13** (12 reels + the ad-hoc 12:30 "Certificate of Residence" image post → 1 over the
+12/day cap); Threads 15; LinkedIn 15 (proposal #9 "3/day" is approved but this week was scheduled on 22–23 Oct, before approval —
+applies from the W45 batch); YouTube Shorts 8; Bluesky 15; GBP 1; Pinterest 1. Caption QA: the 16:30 RO reel repeats
+"Birouri în Luton și Birmingham." twice. Compliance spot-check of the residency-certificate post: PASS (certificate described as
+confirming a real situation, no tax-escape framing). **Analytics lag:** at 22:15 none of today's 63 posts had analytics rows yet;
+the numbers below are 21–26 Oct.
+
+**Instagram reels** (reach; account median for text reels ≈ 10, n = 70):
+- Top 3 (all Valentin on camera): Luton office/team 25 Oct 19:30 — reach 236 (**23.6×**), avg watch 8.0 s, 63% view rate, 4 likes;
+  Michelin 24 Oct — 129 (12.9×), 8.2 s; "Decizie" 23 Oct — 123 (12.3×), 7.4 s. Next: bookkeeping 117 (11.7×), "Cât costă un
+  contabil" 26 Oct — 57 (5.7×), 6.5 s. Hook style: first person, a place or a story ("sunt la sediul nostru…"), not a tax figure.
+- Best text reels: "60% effective tax £100k–£125k" 58 (5.8×, but 1.3 s watch / 5% view rate = distributed, not watched);
+  record-keeping 5 years 39 (3.9×); minimum wage £12.71 36 (3.6×); payments on account 36 (3.6×); marriage allowance 30 (3×).
+  Hook style: a number plus a loss/penalty/refund in the headline.
+- Bottom 3 text reels: MTD sign-up 26 Oct 21:30 — reach 1 (0.1×); Corporation Tax registration "3 luni" 26 Oct 18:30 — 2 (0.2×);
+  Lifetime ISA 26 Oct 20:30 / Personal Savings Allowance 24 Oct 14:30 / auto-enrolment 8% — 4 each. Hook style: definition or
+  threshold with no stake, evening slots.
+- **Decay:** daily median reach of text reels fell 18 (22 Oct) → 11 (23) → 11 (24) → 9 (25) → 6 (26 Oct). Even Valentin's 26 Oct video
+  reached 57 vs 117–236 earlier. 14 text reels/day is being throttled, not rewarded. Likes/saves/shares/comments: 0 on all text reels.
+- **Narrative reels: n/a** — none published yet (first go live 28 Oct); only the prototype `reels/narrative/doi-romani.mp4` exists and
+  `pipeline/narrative/` is not in the repo at HEAD. From tomorrow the loop reports them as a separate line.
+
+**Facebook reels** (video views; FB reach not reported by the API):
+- Reels published **before 13:00** get 100–600 views (SA penalties 25 Oct 07:30: 596; deadline calendar 25 Oct 08:30: 581;
+  26 Oct 07:30–12:30: 238/220/218/102/252/237). Reels published **after 13:00** get 0–7 views — 30 of 33 afternoon/evening reels
+  since 22 Oct have ≤ 4 views, five days later, so it is not sync lag. Valentin's Luton video at 19:30 got 7 views on FB (705 on TikTok).
+- Nine FB reels a day are effectively unpublished.
+
+**TikTok** (views): text reels 200–250 on 22–24 Oct, floor sliding to 84–153 on 26 Oct (9 of 13 under 160). Valentin videos:
+Luton 705 (6 likes), Michelin 340, app update 301 (8 likes, 1 share), "Cât costă" 309 (9 likes). Comments: 1 all week. TikTok has
+not returned reach / full-watch for any video (null).
+
+### Proposals (prioritised; status: proposed)
+
+| # | Proposal | Type | Why (evidence) | Expected effect | Effort | Status |
+|---|----------|------|----------------|-----------------|--------|--------|
+| 16 | **AI-disclosure gate for narrative reels + format tag.** Before the first narrative reel goes out (28 Oct): every narrative post is scheduled with `isAiGenerated: true` (Instagram), `isAigc: true` (TikTok) and `isAiGeneratedContent: true` (YouTube) plus one caption line "Voce generată cu AI din vocea lui Valentin"; `gen_week.py`/`week_schedule.json` get a `format` field (text / narrative / valentin / carousel) and Publishing QA fails any narrative post without the flags. The same QA counts *all* TikTok post types against the 12/day cap and rejects duplicate sentences in a caption. | compliance / tooling | All 63 posts today carry the flags `false` (correct for text reels) — the generator never sets them, so a cloned-voice reel would go out undeclared (Meta and TikTok require labelling realistic AI audio/video). TikTok hit 13/day today; 16:30 caption had a duplicated sentence. The `format` tag is what lets the scorecard compare narrative vs text automatically. | No platform strike on the new format; narrative-vs-text comparison available from day 1 | 1 h | proposed |
+| 17 | **Facebook reels only in the morning.** On Facebook publish at most 6 reels/day, all between 07:30 and 12:30 (the stakes-led topics), and put Valentin's video in the 08:30 FB slot (Instagram/TikTok keep 19:30). Nothing on FB after 13:00 except Stories. One-week test, then keep or revert. | platforms / process | FB reels before 13:00: 100–600 views each; after 13:00: 0–7 views on 30 of 33 reels since 22 Oct. Valentin's best video got 7 FB views at 19:30. | Same or higher FB views with 9 fewer uploads/day; a fair test of whether Valentin's videos get 500+ FB views in the morning | 30 min (per-network slot map in `gen_week.py`) | proposed |
+| 18 | **Reach guard: apply approved #3 from Thursday 29 Oct, not from the next Wednesday batch, and add an automatic brake.** Drop the IG/FB evening text slots first (18:30, 20:30, 21:30 all reached ≤ 4 on 26 Oct). Rule for the pipeline: if the 3-day median reach of IG text reels falls under 50% of the 7-day median, the next day's IG text reels are halved automatically and the CEO brief flags it. | process / tooling | Daily median text-reel reach 18 → 6 in five days; Valentin's 26 Oct video 57 vs 117–236 before. Waiting until the W45 batch means 2 more days of throttling. | Stop the decay before the narrative reels launch, so their numbers are not measured on a suppressed account | 1 h | proposed |
+| 19 | **Caption footer and hashtag rotation.** Replace the identical 2-line CTA + identical 3 hashtags (#hmrc #romaniinuk #contabilromania) used on 14/15 RO posts/day with 6 rotating CTA variants and 2–3 topic hashtags per reel (#selfemployed, #cis, #ltd, #chirii…), plus the Luton/Birmingham line only on office posts. Half-day A/B for one week so the effect is measurable. | content / tooling | 15 posts/day with byte-identical footers is a repetition signal on Instagram and Threads; the 22 Oct posts, which still had topic hashtags, are the only day with median reach 18 (confounded with the decay — hence the A/B). | +20–30% reach on the better arm if the signal is real; zero cost if not | 30 min in `topics.py` / `gen_week.py` | proposed |
+| 20 | **Move this loop to 06:05.** Metricool has no analytics for the current day at 22:10 (0 of 63 posts today); run the Improvement Officer at 06:05 so it works on the complete previous day and the CEO quotes fresh numbers at 08:25. | process | Tonight's numbers are 21–26 Oct; tomorrow's narrative-reel launch would be reported 36 h late at the current time. | Proposals based on D-1, not D-2; narrative-vs-text comparison on the launch day itself | 2 min (reschedule the task) | proposed |
+
+### One-liners for the CEO brief (quote verbatim)
+16. Gate de conformitate AI pentru reelurile narative (flag AI pe Instagram/TikTok/YouTube + o linie în caption) și etichetă de format în pipeline, înainte de primul reel narativ din 28 Oct. Efort 1 h.
+17. Facebook: reelurile doar dimineața (max 6/zi, 07:30–12:30, videoul lui Valentin la 08:30). După 13:00 reelurile FB au 0–7 vizualizări, dimineața 100–600. Test o săptămână. Efort 30 min.
+18. Aplicăm #3 (6 reeluri text/zi) de joi 29 Oct, nu din lotul următor, plus o frână automată când reach-ul pe Instagram scade sub 50% din mediana pe 7 zile. Reach-ul median al reelurilor text a căzut de la 18 la 6 în 5 zile. Efort 1 h.
+19. Rotim CTA-ul și hashtagurile din caption (acum identice pe 14 din 15 postări/zi); test A/B o săptămână. Efort 30 min.
+20. Mutăm bucla de îmbunătățire la 06:05, ca să lucreze pe ziua completă (la 22:10 Metricool nu are încă datele zilei). Efort 2 min.
+
+### Not proposed / notes
+- #9 (LinkedIn 3/day) is approved but still 15/day this week; takes effect with the W45 batch unless Valentin wants the surplus LinkedIn posts for 28–29 Oct unscheduled now.
+- GBP and Pinterest performance not pulled this run (no post-level rows requested; next run).
