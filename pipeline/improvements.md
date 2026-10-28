@@ -108,3 +108,73 @@ not returned reach / full-watch for any video (null).
 ### Not proposed / notes
 - #9 (LinkedIn 3/day) is approved but still 15/day this week; takes effect with the W45 batch unless Valentin wants the surplus LinkedIn posts for 28–29 Oct unscheduled now.
 - GBP and Pinterest performance not pulled this run (no post-level rows requested; next run).
+
+---
+
+## 2026-10-28 — Improvement loop (Improvement Officer, 22:10 run)
+
+### Evidence (Metricool, 22–28 Oct 2026)
+
+**Publishing today (28 Oct):** 64 post objects, **132 network publications, all `PUBLISHED`, 0 errors.** Per network: Instagram 16 reels
+(15 text/Valentin + the first **narrative reel** at 19:00) + 15 stories; Facebook 16 reels + 15 stories; TikTok 12 (cap respected);
+Threads 16; **LinkedIn 17** (approved cap #9 = 3/day — still not applied; this week's schedule predates the approval); YouTube Shorts 8;
+Bluesky 15; GBP 1; Pinterest 1. The narrative post carries `isAiGenerated: true` on Instagram (good) but no disclosure line in the
+caption, no TikTok slot (cap used up by text reels) and its Facebook copy went out at 19:00, a dead FB slot (see below).
+**Analytics lag confirmed again:** at 22:20 Metricool has no rows for any of today's 64 posts on IG, FB or TikTok, and no 28 Oct row in
+the Instagram evolution table. Numbers below are 22–27 Oct. **Narrative reels: n/a until tomorrow's run** (first one is 3 h old).
+
+**Instagram — the root cause found.** Follower geography (Metricool demographic connector, 59,315 followers):
+India 34.5%, Bangladesh 15.4%, Brazil 11.0%, Madagascar 3.1%, Indonesia 2.8%, Argentina 2.6%, Vietnam 2.2%, Mexico 2.2%… —
+**United Kingdom 0.69%, Romania 0.38%.** Roughly 600 of 59,300 followers are in the two countries the content is for. Instagram tests
+every new reel on a sample of followers first; ours are 99% people who cannot read Romanian, so every text reel dies in the test pool
+(reach 4–10) and only Valentin's face survives it. Net followers 22→27 Oct: −5 (1 gained, 6 lost); daily account reach 167–303.
+
+**Instagram reels** (reach; 7-day median of text reels = **10**, n = 84):
+- Daily median of text reels: 22 Oct 19.5 → 23 Oct 11 → 24 Oct 12 → 25 Oct 10 → 26 Oct 7 → **27 Oct 6**. Sum of all 14 text reels on
+  27 Oct: 82 people. Likes/saves/shares/comments on text reels: 0 except 2 single likes all week.
+- Top 3 (all Valentin on camera): Luton office 25 Oct — 240 (**24×**), 8.0 s watch, 63% view rate, 4 likes; Michelin 24 Oct — 131 (13×);
+  "Decizie" 23 Oct — 123 (12×). Then Bookkeeping 117 (12×), Birmingham office 27 Oct — 112 (11×, 8.9 s watch, 57% view rate),
+  "Cât costă un contabil" 89 (9×). Hook style: first person + a place or a promise, 6–9 s watch time.
+- Best text reels: 60% tax trap £100k–£125k — 58 (5.8×); record-keeping 5 years — 39; minimum wage £12.71 — 36; payments on account — 36;
+  marriage allowance £252 — 31; personal allowance — 28; mileage 55p — 25; MTD start — 24 (9.3 s watch, 40% view rate — the best-watched
+  text reel of the week). Hook style: a £ figure plus a personal loss or refund.
+- Bottom 3: CIS 20%/30% (27 Oct 17:31) — **3**; Child Benefit NI credits (27 Oct 21:31) — 4; Companies House ID check (27 Oct 18:31) — 4;
+  also at 4: HMRC scam warning, Personal Savings Allowance, Corporation Tax 3-month registration. Hook style: compliance admin or a
+  definition, no stake, 5 of 6 in afternoon/evening slots.
+
+**Facebook reels** (video views): the morning/afternoon split holds for the 6th day running. Median views of reels published
+07:30–12:30 by day: 103 / 77 / 196 / 177 / 230 / 128. Median views of reels published 13:30–21:30: **1 / 2 / 0 / 0 / 0 / 0**, maximum 4.
+Valentin's Birmingham video (27 Oct 19:30) — **0 views on Facebook** (254 on TikTok, 112 on Instagram). Best FB reels: SA penalties
+596, deadline calendar 583, minimum wage 262, confirmation statement 258 — all mornings, all stakes-led.
+
+**TikTok** (views): text-reel median 229 / 223 / 228 / 200 / 216 on 22–26 Oct, then **99 on 27 Oct** (min 43; 8 of 11 under 150).
+Partly age (27 Oct videos are 24–38 h old) — re-measure tomorrow before acting; if it holds, the test pool is shrinking here too.
+Valentin: Birmingham 254 (6 likes), "Cât costă" 376 (9 likes, 2 comments), Luton 792 (8 likes). Only post with comments all week:
+the 27 Oct 12:30 Certificate of Residence image post (331 views, 2 comments). TikTok reach/full-watch: still null for every video.
+
+**Pinterest**: 5 pins 23–27 Oct — **0 impressions, 0 saves, 0 clicks** on every pin. **GBP**: API returns null for reach, website/call/
+directions clicks and messages on every day, post views 0 — either the connection lacks the insights permission or the profile is not
+getting the data through. Neither channel has produced a single measurable view this week.
+
+### Proposals (prioritised; status: proposed)
+
+| # | Proposal | Type | Why (evidence) | Expected effect | Effort | Status |
+|---|----------|------|----------------|-----------------|--------|--------|
+| 21 | **Instagram: Trial Reels by default + a decision on the follower base.** (a) Schedule every text and narrative reel as `instagramData.type: "TRIAL_REEL"` (Metricool supports it): Instagram shows a trial reel to **non-followers** first and promotes it to followers only if it performs, so the 99% foreign follower base stops killing the test. Valentin's own videos stay normal reels (they are the only thing the ~600 real followers react to). One-week test, measured against the 7-day median of 10. (b) Decision for Valentin, not a recommendation: the 59k followers are 0.7% UK and 0.4% Romania; Instagram cannot bulk-remove followers. Options: keep the handle and rely on trial reels + outbound community work (#8) to rebuild a real audience inside it, or start a clean Romanian-UK account and let @ola_accountancy become the archive. Either way the follower count stops being quoted as a KPI. | platforms / content | Follower geography: IN 34.5%, BD 15.4%, BR 11%, GB 0.69%, RO 0.38%. Text-reel reach 4–10 = the follower test sample; Valentin's reels reach 100–240 ≈ the whole real base. | Text and narrative reels judged by Romanian-UK viewers for the first time; a fair narrative-vs-text test | 15 min in the scheduler (one field) + Valentin's decision on (b) | proposed |
+| 22 | **Topic performance memory (the department learns from its own numbers).** New file `pipeline/performance.json`: for every topic key in `used_topics.json` this loop writes the realised outlier multiple per network (IG reach ÷ 7-day median, FB views, TikTok views) 48 h after publication. `gen_week.py` reads it: topic clusters with median multiple ≥ 2× get a second angle the following week, clusters < 0.6× for two consecutive weeks are retired from the bank (today: CIS admin, Companies House admin, scam warnings, savings allowances, pure definitions), and new topics are weighted toward the clusters that work (penalties, refunds, thresholds with a £ figure, "what it costs you"). The Monday scorecard prints the cluster table. | tooling / content | Top text reels 25–58 reach all carry a £ figure + a loss/refund; bottom 3 (reach 3–4) are admin/definitions. Today the Wednesday batch picks topics only by "not used in the last 3 weeks" — performance never feeds back. | Fewer floor-level reels per batch; the bank improves every week without anyone re-reading Metricool | 2 h (writer in this loop + reader in `gen_week.py`) | proposed |
+| 23 | **Batch gate: approved rules enforced before a batch is generated.** `run_week.sh`/`gen_week.py` read this file and apply every row with status `approved` (today: #1 hooks, #2 safe zone, #3 mix 6 text + narrative + carousel + Valentin clips, #9 LinkedIn 3/day, #11 humanizer, #13 stories). The approval page lists which approved rules are applied and refuses to render if one is violated (e.g. > 3 LinkedIn posts/day). Tonight's batch (22:47) for 30 Oct–5 Nov runs **before** any of #16–#20 is approved — if it is built with the old 14-text-reel mix, Valentin's "aprobat" tomorrow approves the old mix for another week. | process / tooling | #9 approved 26 Oct, LinkedIn still 15/day on 27 Oct and 17 today. #3 approved 26 Oct, still 14 text reels/day. Approved ≠ applied anywhere in the pipeline today. | Approvals take effect at the next batch automatically; no more "approved but still running" rows | 1 h | proposed |
+| 24 | **Fair test for narrative reels: protected slots on every network, disclosure line, engine in the repo.** Each narrative reel gets: a reserved TikTok slot (one text reel yields, cap stays 12), its Facebook copy in a morning slot (10:30 or 11:30, where FB reels get 100–600 views), Instagram at 19:00 as a Trial Reel (#21), one caption line "Voce generată cu AI din vocea lui Valentin", `isAigc: true` on TikTok. Minimum 6 narrative reels over 2 weeks before anyone calls the format a win or a loss (3-week rule). Commit `pipeline/narrative/` (scripts, voice settings, prompts) — at HEAD only `reels/narrative/doi-romani.mp4` exists, so the engine cannot be audited or re-run by another agent. | content / process | First narrative reel today: IG + FB + Threads only, no TikTok, FB at 19:00 where afternoon reels have had 0–4 views for 6 days, no caption disclosure (IG flag was set correctly). Measured like this, FB and TikTok will read 0 regardless of quality. | A narrative-vs-text comparison that is actually about the format, on 3 RO networks | 30 min slot map + 15 min commit | proposed |
+| 25 | **Pinterest and GBP: fix the plumbing or pause.** GBP: re-authorise the Metricool connection with the Business Profile Performance permission and check the daily post is visible on the live profile; GBP is the only channel tied to "contabil Luton/Birmingham" searches, so it is worth 20 min. Pinterest: verify the account is claimed with ola-accountancy.co.uk, switch the daily pin to the vertical reel (video pins get distribution; static tax cards do not) and give it 14 days; if impressions are still 0 on 11 Nov, stop producing Pinterest assets (saves a pipeline step and 7 scheduling calls/week). | platforms | 5 pins, 0 impressions/0 saves/0 clicks; GBP API all nulls and 0 post views for 7 days. Two channels, zero measurable output. | Either two working channels or two fewer things to QA every hour | 30 min check + 14-day test | proposed |
+
+### One-liners for the CEO brief (quote verbatim)
+21. Instagram: 99% din cei 59.000 de followeri sunt din India/Bangladesh/Brazilia (UK 0,7%, România 0,4%) — de aceea reelurile text ajung la 4–10 oameni. Propun Trial Reels (arătate mai întâi non-followerilor) pentru toate reelurile text și narative, test o săptămână, plus decizia dvs.: păstrăm handle-ul sau pornim un cont curat româno-britanic. Efort 15 min.
+22. Memorie de performanță pe subiecte: fișier `performance.json` scris de buclă (reach ÷ mediană), citit de generatorul săptămânal — subiectele sub 0,6× două săptămâni la rând ies din bancă, cele peste 2× primesc un al doilea unghi. Efort 2 h.
+23. Poartă de lot: regulile aprobate (#1, #2, #3, #9, #11, #13) se aplică automat în lotul de miercuri; LinkedIn a avut 17 postări azi față de plafonul aprobat de 3. Lotul de azi 22:47 rulează înainte de orice aprobare #16–#20 — dacă e construit cu mixul vechi, „aprobat" mâine înseamnă încă o săptămână cu 14 reeluri text. Efort 1 h.
+24. Test corect pentru reelurile narative: slot rezervat pe TikTok, copia de Facebook dimineața (după 13:00 FB are 0 vizualizări), Trial Reel pe Instagram, linie de disclosure AI în caption, minimum 6 reeluri în 2 săptămâni înainte de verdict, motorul `pipeline/narrative/` comis în repo. Efort 45 min.
+25. Pinterest 0 afișări pe 5 pini, GBP fără date (API null, 0 vizualizări): re-autorizăm GBP, trecem pinii pe video 14 zile, apoi oprim Pinterest dacă rămâne 0. Efort 30 min.
+
+### Watch items (no proposal yet)
+- TikTok text-reel median fell to 99 on 27 Oct (from 200–229); re-measure at 48 h tomorrow. If confirmed, the next proposal is TikTok 6 text/day + narrative + Valentin clips.
+- First narrative reel ("Doi români", 28 Oct 19:00): no analytics rows at 22:20; reported tomorrow as its own line, against the text median of 10 on IG.
+- #16 partly in place without a decision: the narrative post was scheduled with `isAiGenerated: true` on Instagram. Caption line and TikTok/YouTube flags still missing.
+- #20 (move this loop to 06:05) is reinforced: second night in a row with zero same-day analytics.
