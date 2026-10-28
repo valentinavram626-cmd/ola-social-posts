@@ -4,7 +4,8 @@ const cfg=JSON.parse(fs.readFileSync(path.join(D,process.argv[2]),'utf8'));
 let html=fs.readFileSync(path.join(D,'hwg.html'),'utf8')
   .replace('__TOTAL__',JSON.stringify(cfg.total))
   .replace('__BEATS__',JSON.stringify(cfg.beats))
-  .replace('__END__',JSON.stringify(cfg.end));
+  .replace('__END__',JSON.stringify(cfg.end))
+  .replace('__GHOSTS__',JSON.stringify(cfg.ghosts));
 const built=path.join(D,'hwg.built.html'); fs.writeFileSync(built,html);
 (async()=>{
   const b=await chromium.launch();

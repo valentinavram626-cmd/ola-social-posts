@@ -56,9 +56,7 @@ function background(t){
 
 // ---- three drifting ghosts ----
 // Each fades in at its own time so the copy and the art arrive together.
-const GHOSTS=[{x:272,y:1520,s:0.92,at:4.2,ph:0.0},
-              {x:540,y:1472,s:1.12,at:9.6,ph:1.9},
-              {x:808,y:1520,s:0.92,at:15.0,ph:3.6}];
+const GHOSTS=__GHOSTS__;
 function ghostPath(w,h){
   // dome on top, scalloped hem at the bottom
   g.beginPath();
@@ -73,7 +71,8 @@ function ghostPath(w,h){
   g.closePath();
 }
 function ghost(gh,t){
-  const a=ease(clamp((t-gh.at)/0.8))*(1-ease(clamp((t-25.6)/1.0)));
+  const outAt=(gh.until===undefined?1e9:gh.until);
+  const a=ease(clamp((t-gh.at)/0.8))*(1-ease(clamp((t-outAt)/0.9)));
   if(a<=0.01)return;
   const bob=Math.sin(t*1.25+gh.ph)*14, sway=Math.sin(t*0.62+gh.ph)*18;
   g.save(); g.globalAlpha=a;

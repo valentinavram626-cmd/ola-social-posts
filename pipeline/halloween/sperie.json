@@ -1,0 +1,20 @@
+{
+ "total": 24.5,
+ "outdir": "fr-sperie",
+ "ghosts": [
+  { "x": 272, "y": 1520, "s": 0.92, "at": 2.9, "ph": 0.0, "until": 7.5 },
+  { "x": 540, "y": 1472, "s": 1.12, "at": 3.9, "ph": 1.9, "until": 7.5 },
+  { "x": 808, "y": 1520, "s": 0.92, "at": 4.9, "ph": 3.6, "until": 7.5 }
+ ],
+ "beats": [
+  { "text": "Lucruri care nu mă sperie:",   "in": 0.4,  "out": 2.6,  "size": 66 },
+  { "text": "Fantome. Case bântuite.",      "in": 2.8,  "out": 5.2,  "size": 72 },
+  { "text": "Filme horror.",                "in": 5.4,  "out": 7.4,  "size": 92 },
+  { "text": "Lucruri care mă sperie:",      "in": 7.9,  "out": 10.3, "size": 70, "hi": "mă sperie" },
+  { "text": "„Lasă, rezolv luna viitoare.”","in": 10.6, "out": 13.8, "size": 64, "hi": "luna viitoare" },
+  { "text": "Spus în august.",              "in": 14.1, "out": 16.0, "size": 86 },
+  { "text": "Despre declarația...",         "in": 16.3, "out": 18.9, "size": 76 },
+  { "text": "...din ianuarie.",             "in": 19.0, "out": 21.3, "size": 86, "hi": "ianuarie" }
+ ],
+ "end": { "in": 21.4, "line": "Nu amâna. Scrie-ne." }
+}
