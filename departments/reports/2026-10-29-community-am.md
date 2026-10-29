@@ -76,7 +76,7 @@ Propunere de răspuns (nemodificată):
 
 ## Ratate
 
-**0 ratate tehnic astăzi.** Extensia Chrome a funcționat tot timpul rulării.
+**0 ratate tehnic astăzi.** Extensia Chrome a funcționat tot timpul rulării. Singura problemă: la final tabul deschis de mine ieșise din grupul de tabs al sesiunii, așa că nu l-am putut închide eu — **tabul Metricool a rămas deschis în Chrome și poate fi închis manual** (la fel ca ieri).
 
 Am reluat cu succes singurul element pe care ieri nu l-am putut deschide:
 
