@@ -9,7 +9,7 @@
       "fps": 60,
       "cuts": 0,
       "caption_changes": 24,
-      "caption_changes_per_s": 0.40,
+      "caption_changes_per_s": 0.4,
       "caption_gap_median_s": 1.6,
       "caption_gap_max_s": 7.7,
       "audio_voice_300_3400_dbfs": -17.6,
@@ -26,13 +26,9 @@
       "Two or three small graphic inserts as punctuation (flags in, flash on the closing handshake).",
       "No standing CTA bar and no parked logo anywhere in the clip.",
       "Lapel mic — the voice sits 18 dB above everything under 120 Hz."
-    ]
+    ],
+    "stored_as": "Re-encoded to 720x1280 H.264 for the repo: agents shallow-clone on every run, and the original export was 98 MB. Captions stay legible and the audio is bit-identical in measurement, which is what the gates compare against."
   },
-  "accounts": [
-    {
-      "handle": "TBC",
-      "platform": "instagram/tiktok",
-      "note": "Valentin named 'Demeter' on 29 Oct 2026. Exact handle still needed before the Scout can study it."
-    }
-  ]
+  "accounts": [],
+  "accounts_note": "No outside reference accounts are named yet — Valentin dropped the one proposed on 29 Oct 2026. Until he names one, the Format Scout studies the house reference and Ola's own best-performing posts, and does not go looking for accounts on its own."
 }
