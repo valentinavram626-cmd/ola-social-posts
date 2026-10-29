@@ -1,0 +1,38 @@
+{
+  "note": "Accounts and clips the Format Scout studies. Structure only — never copy footage, script or audio.",
+  "house_reference": {
+    "file": "reels/reference/valentin-londra-eveniment.mp4",
+    "why": "Supplied by Valentin on 29 Oct 2026 as the standard to hit.",
+    "measured": {
+      "duration_s": 60.7,
+      "resolution": "1080x1920",
+      "fps": 60,
+      "cuts": 0,
+      "caption_changes": 24,
+      "caption_changes_per_s": 0.40,
+      "caption_gap_median_s": 1.6,
+      "caption_gap_max_s": 7.7,
+      "audio_voice_300_3400_dbfs": -17.6,
+      "audio_below_120_dbfs": -35.6,
+      "audio_above_500_dbfs": -18.6,
+      "audio_level_range_db": 11.5,
+      "near_silent_seconds": 0
+    },
+    "pattern": [
+      "Frame 0 is already the person mid-gesture — no logo, no title card, no intro.",
+      "One continuous take; energy comes from the captions and the people, not from cutting.",
+      "Captions phrase-sized, all caps, heavy condensed, white with hard dark outline, centred, ~62% down the frame.",
+      "One keyword per clip in an accent colour.",
+      "Two or three small graphic inserts as punctuation (flags in, flash on the closing handshake).",
+      "No standing CTA bar and no parked logo anywhere in the clip.",
+      "Lapel mic — the voice sits 18 dB above everything under 120 Hz."
+    ]
+  },
+  "accounts": [
+    {
+      "handle": "TBC",
+      "platform": "instagram/tiktok",
+      "note": "Valentin named 'Demeter' on 29 Oct 2026. Exact handle still needed before the Scout can study it."
+    }
+  ]
+}
