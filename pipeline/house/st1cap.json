@@ -1,0 +1,84 @@
+{
+ "total": 26.0,
+ "outdir": "st1cap",
+ "mode": "textonly",
+ "theme": "navy",
+ "beats": [
+  {
+   "text": "Plicul a stat pe masă trei săptămâni.",
+   "in": 0.05,
+   "out": 2.25,
+   "size": 52
+  },
+  {
+   "text": "Nu pentru că nu avea banii.",
+   "in": 2.35,
+   "out": 4.45,
+   "size": 66
+  },
+  {
+   "text": "Îi avea. Îi pusese deoparte.",
+   "in": 4.55,
+   "out": 6.25,
+   "size": 64
+  },
+  {
+   "text": "Dar găsea mereu un motiv să-l lase acolo.",
+   "in": 6.35,
+   "out": 8.95,
+   "size": 58
+  },
+  {
+   "text": "Când l-a deschis, suma era aceeași.",
+   "in": 9.05,
+   "out": 11.25,
+   "size": 60
+  },
+  {
+   "text": "Plus o sută de lire.",
+   "in": 11.35,
+   "out": 12.65,
+   "size": 74,
+   "hi": "o sută"
+  },
+  {
+   "text": "Și după trei luni, zece lire pe zi.",
+   "in": 12.75,
+   "out": 15.85,
+   "size": 62,
+   "hi": "zece lire pe zi"
+  },
+  {
+   "text": "Munca era făcută.",
+   "in": 15.95,
+   "out": 16.85,
+   "size": 74
+  },
+  {
+   "text": "Banii erau acolo.",
+   "in": 16.95,
+   "out": 18.35,
+   "size": 74
+  },
+  {
+   "text": "A pierdut totul pe o dată din calendar.",
+   "in": 18.45,
+   "out": 20.45,
+   "size": 58,
+   "hi": "o dată"
+  },
+  {
+   "text": "Nu lăsa plicul pe masă.",
+   "in": 20.55,
+   "out": 22.3,
+   "size": 72,
+   "hi": "Nu lăsa"
+  },
+  {
+   "text": "Ola Accountancy",
+   "in": 22.9,
+   "out": 25.6,
+   "size": 54
+  }
+ ]
+}

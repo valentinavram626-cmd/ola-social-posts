@@ -1,0 +1,79 @@
+{
+ "total": 25.0,
+ "outdir": "st2cap",
+ "mode": "textonly",
+ "theme": "ember",
+ "beats": [
+  {
+   "text": "Patruzeci de lire.",
+   "in": 0.05,
+   "out": 1.25,
+   "size": 78,
+   "hi": "Patruzeci"
+  },
+  {
+   "text": "O tunsoare.",
+   "in": 1.35,
+   "out": 2.25,
+   "size": 78
+  },
+  {
+   "text": "Nu le-a trecut nicăieri. Era mărunțiș.",
+   "in": 2.35,
+   "out": 5.0,
+   "size": 58
+  },
+  {
+   "text": "De șaizeci de ori într-un an.",
+   "in": 5.1,
+   "out": 7.85,
+   "size": 66,
+   "hi": "șaizeci"
+  },
+  {
+   "text": "Două mii patru sute de lire.",
+   "in": 7.95,
+   "out": 11.2,
+   "size": 64,
+   "hi": "Două mii patru sute"
+  },
+  {
+   "text": "Apoi a cerut un credit pentru casă.",
+   "in": 11.3,
+   "out": 13.6,
+   "size": 60
+  },
+  {
+   "text": "Și nu a putut dovedi că i-a câștigat.",
+   "in": 13.7,
+   "out": 15.95,
+   "size": 58
+  },
+  {
+   "text": "Nu taxele au fost problema.",
+   "in": 16.05,
+   "out": 17.5,
+   "size": 66
+  },
+  {
+   "text": "Devenise invizibilă.",
+   "in": 17.6,
+   "out": 19.2,
+   "size": 76,
+   "hi": "invizibilă"
+  },
+  {
+   "text": "Ce declari, poți dovedi.",
+   "in": 19.3,
+   "out": 21.4,
+   "size": 74,
+   "hi": "poți dovedi"
+  },
+  {
+   "text": "Ola Accountancy",
+   "in": 22.0,
+   "out": 24.6,
+   "size": 54
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{"total":20.5,"outdir":"i2","theme":"slate",
+ "hero":{"text":"£13,21","sub":"pe oră, din aprilie 2027","in":7.0,"out":12.4,"size":190},
+ "beats":[
+  {"text":"Ai oameni angajați?","in":0.25,"out":2.2,"size":76},
+  {"text":"Salariul minim se schimbă din nou.","in":2.4,"out":4.6,"size":62},
+  {"text":"De la 21 de ani în sus:","in":4.8,"out":6.8,"size":68},
+  {"text":"Cu 3,9% peste cât e acum.","in":7.2,"out":9.4,"size":64,"hi":"3,9%"},
+  {"text":"18 – 20 de ani: 11,27 lire.","in":9.6,"out":11.8,"size":64},
+  {"text":"16 – 17 și ucenici: 8,31 lire.","in":12.0,"out":14.2,"size":62},
+  {"text":"Statele de plată se refac din aprilie.","in":14.4,"out":16.8,"size":56},
+  {"text":"Mai bine le pregătești acum.","in":17.0,"out":19.2,"size":62,"hi":"acum"},
+  {"text":"Ola Accountancy","in":19.4,"out":20.3,"size":56}
+ ]}
