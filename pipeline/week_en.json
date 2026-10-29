@@ -1,1793 +1,1786 @@
 [
 {
-"id": "en-10-23-sa-paper",
-"tag": "Self Assessment",
-"figure": "31 Oct",
-"headline": "Filing on paper? Your deadline is 31 October",
+"id": "en-10-30-b26-summary",
+"tag": "Budget 2026",
+"figure": "28 Oct",
+"headline": "Budget 2026: three changes to note",
 "lines": [
-"Paper returns for 2025–26: 31 October 2026",
-"Online returns: 31 January 2027",
-"Tax payment: also 31 January 2027"
+"Trading allowance: £3,000 from April 2027",
+"Over 10,000 business miles: 35p a mile from April 2027",
+"National Living Wage: £13.21 an hour from April 2027"
 ],
-"caption": "Filing your 2025–26 Self Assessment return on paper? The deadline is 31 October 2026. Online, you have until 31 January 2027.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Paper Self Assessment returns for 2025–26 are due 31 October 2026. Online: 31 January 2027.",
-"day": "2026-10-23",
-"k": "sa-paper",
+"caption": "The Budget was delivered on 28 October. For sole traders and employees, three announced changes stand out, all from April 2027.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: trading allowance to £3,000, 35p a mile over 10,000 miles, and a £13.21 National Living Wage, all from April 2027.",
+"day": "2026-10-30",
+"k": "b26-summary",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-23-sa-who",
-"tag": "Self Assessment",
-"figure": "Who?",
-"headline": "Who needs to file a tax return",
-"lines": [
-"Self-employed with income over £1,000",
-"People with rental or foreign income",
-"Child Benefit claimants earning over £60,000"
-],
-"caption": "It's not just the self-employed. Landlords, people with foreign income and higher earners on Child Benefit may also need to file.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Who files Self Assessment? Self-employed over £1,000, landlords, foreign income, and Child Benefit over £60,000.",
-"day": "2026-10-23",
-"k": "sa-who",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-23-exp-training",
-"tag": "Training",
-"figure": "Careful",
-"headline": "Can you claim training costs? It depends",
-"lines": [
-"Yes: courses that update your current skills",
-"No: training for a brand-new trade",
-"Keep the invoice and course outline"
-],
-"caption": "Training that updates the skills you already use can be claimed. Training for a completely new trade usually can't.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Training costs: claimable if they update skills for your current trade, not for a new one.",
-"day": "2026-10-23",
-"k": "exp-training",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-23-mtd-30k",
-"tag": "Making Tax Digital",
-"figure": "£30,000",
-"headline": "From April 2027, MTD applies over £30,000",
-"lines": [
-"Now: gross income over £50,000",
-"From April 2027: over £30,000",
-"From April 2028: over £20,000"
-],
-"caption": "The MTD threshold is falling: from April 2027 it covers gross income over £30,000. Get ready early.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Making Tax Digital threshold drops to £30,000 in April 2027 and £20,000 in April 2028.",
-"day": "2026-10-23",
-"k": "mtd-30k",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-23-cgt-rates",
-"tag": "Capital Gains Tax",
+"id": "en-10-30-b26-trading-3000",
+"tag": "Budget 2026",
 "figure": "£3,000",
-"headline": "Capital Gains Tax: how much you pay",
+"headline": "Trading allowance triples: £1,000 to £3,000",
 "lines": [
-"First £3,000 of gains each year is tax-free",
-"18% within the basic rate band",
-"24% above it"
+"Now: £1,000 a year for small trading income",
+"From 6 April 2027: £3,000, announced in the Budget",
+"The Self Assessment reporting threshold rises too"
 ],
-"caption": "The first £3,000 of gains each year is tax-free. Above that, Capital Gains Tax is 18% or 24%.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "CGT 2026–27: £3,000 tax-free, then 18% (basic rate band) or 24%.",
-"day": "2026-10-23",
-"k": "cgt-rates",
+"caption": "The Budget announced that the trading allowance rises from £1,000 to £3,000 from April 2027, with the reporting threshold rising too. Less paperwork for small side income.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: the trading allowance triples from £1,000 to £3,000 from 6 April 2027, and the Self Assessment reporting threshold rises with it.",
+"day": "2026-10-30",
+"k": "b26-trading-3000",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-23-ltd-party",
-"tag": "Limited companies",
-"figure": "£150",
-"headline": "Your company Christmas party",
+"id": "en-10-30-b26-mileage-35p",
+"tag": "Budget 2026",
+"figure": "35p",
+"headline": "High-mileage drivers get a better rate",
 "lines": [
-"Up to £150 per head a year, tax-free",
-"It must be open to all staff",
-"Go over and it becomes a taxable benefit"
+"First 10,000 miles: 55p, now made permanent",
+"Above 10,000 miles: up from 25p to 35p",
+"The change starts on 6 April 2027"
 ],
-"caption": "Your annual staff party can be tax-free up to £150 per head a year, as long as it is open to all employees.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Staff Christmas party: tax-free up to £150 per head a year if open to all employees.",
-"day": "2026-10-23",
-"k": "ltd-party",
+"caption": "The Budget makes the 55p rate for the first 10,000 business miles permanent and raises the rate above 10,000 miles from 25p to 35p from April 2027.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: 55p a mile for the first 10,000 business miles is now permanent, and miles above 10,000 rise from 25p to 35p from April 2027.",
+"day": "2026-10-30",
+"k": "b26-mileage-35p",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-23-vat-invoice",
+"id": "en-10-30-b26-nlw-1321",
+"tag": "Budget 2026",
+"figure": "£13.21",
+"headline": "Minimum wage rates from April 2027",
+"lines": [
+"Age 21 and over: £13.21 an hour",
+"Age 18 to 20: £11.27 an hour",
+"Age 16 to 17 and apprentices: £8.31 an hour"
+],
+"caption": "The government accepted the new minimum wage rates from 1 April 2027: £13.21 an hour for workers aged 21 and over. Employers, budget for it now.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "From 1 April 2027: National Living Wage £13.21, 18-20 rate £11.27, 16-17 and apprentice rate £8.31.",
+"day": "2026-10-30",
+"k": "b26-nlw-1321",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-30-b26-prop-rates",
+"tag": "Budget 2026",
+"figure": "24%",
+"headline": "Landlords: higher tax on rental income from 2027",
+"lines": [
+"Basic rate: 24% instead of 20%",
+"Higher rate 44%, additional rate 49%",
+"From 6 April 2027 in England, Wales and NI"
+],
+"caption": "The Budget sets separate property income rates of 24%, 44% and 49% from April 2027. If you let out a property, it is worth re-running your numbers.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: property income tax rates rise to 24%, 44% and 49% from 6 April 2027 in England, Wales and Northern Ireland.",
+"day": "2026-10-30",
+"k": "b26-prop-rates",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-30-b26-savings-rates",
+"tag": "Budget 2026",
+"figure": "+2%",
+"headline": "Savings interest taxed more from 2027",
+"lines": [
+"From April 2027: 24%, 44% and 49%",
+"Personal Savings Allowance stays £1,000 / £500",
+"ISA limit stays at £20,000 a year"
+],
+"caption": "From April 2027, savings interest above your allowance is taxed 2 points higher. The allowance and the £20,000 ISA limit stay the same.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: savings income rates rise to 24%, 44% and 49% from April 2027. The £20,000 ISA limit stays.",
+"day": "2026-10-30",
+"k": "b26-savings-rates",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-30-sa-paye-3000",
+"tag": "Self Assessment",
+"figure": "30 Dec",
+"headline": "Owe under £3,000? Pay through your tax code",
+"lines": [
+"You must already pay tax through PAYE",
+"File your online return by 30 December",
+"The tax is collected monthly, not in one go"
+],
+"caption": "If you are employed or get a pension through PAYE and owe less than £3,000, HMRC can collect it through your tax code if you file online by 30 December.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Owe under £3,000 in Self Assessment and already pay PAYE? File online by 30 December and pay it through your tax code.",
+"day": "2026-10-30",
+"k": "sa-paye-3000",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-30-winter-fuel",
+"tag": "Pensioners",
+"figure": "£300",
+"headline": "Winter Fuel Payment arrives Nov–Dec",
+"lines": [
+"For people born on or before 27 June 1960",
+"Between £100 and £300 depending on circumstances",
+"Income over £35,000: HMRC takes it back"
+],
+"caption": "Winter Fuel Payment for winter 2026 to 2027 is usually paid in November or December. Over £35,000 income, HMRC takes it back.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Winter Fuel Payment 2026-27: £100 to £300, mostly paid Nov-Dec, for people born on or before 27 June 1960.",
+"day": "2026-10-30",
+"k": "winter-fuel",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-30-cold-weather",
+"tag": "Benefits",
+"figure": "£25",
+"headline": "Cold Weather Payment: £25 per cold spell",
+"lines": [
+"For people on certain benefits",
+"7 days in a row at 0°C or below in your area",
+"Paid automatically, 1 Nov 2026 to 31 Mar 2027"
+],
+"caption": "From 1 November, people on certain benefits can get £25 for each 7-day spell of very cold weather. It is paid automatically.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Cold Weather Payment: £25 for each 7 days at 0°C or below, 1 Nov 2026 to 31 Mar 2027, paid automatically.",
+"day": "2026-10-30",
+"k": "cold-weather",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-30-jan-first-year",
+"tag": "First year",
+"figure": "150%",
+"headline": "First year self-employed? January can hit twice",
+"lines": [
+"You pay the full tax bill for last year",
+"Plus your first payment on account: half of it",
+"HMRC example: £3,000 becomes £4,500"
+],
+"caption": "In your first Self Assessment year, 31 January brings the full bill plus the first payment on account for the next year. Plan for it.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "First Self Assessment? A £3,000 bill can mean £4,500 due on 31 January, because the first payment on account is added.",
+"day": "2026-10-30",
+"k": "jan-first-year",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-30-vat-90k",
 "tag": "VAT",
-"figure": "Invoices",
-"headline": "What a VAT invoice must show",
+"figure": "£90,000",
+"headline": "When you must register for VAT",
 "lines": [
-"Your VAT registration number",
-"Net amount, VAT rate and VAT charged",
-"Invoice date and unique number"
+"Taxable turnover over £90,000",
+"Or when you expect to go over",
+"Check the last 12 months every month"
 ],
-"caption": "A VAT invoice must show your VAT number, the net amount, the VAT rate and the VAT charged.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "VAT invoice must show: VAT number, net amount, rate, VAT charged, date and invoice number.",
-"day": "2026-10-23",
-"k": "vat-invoice",
+"caption": "The VAT registration threshold is £90,000 of taxable turnover. Check your last 12 months every month so you do not cross it unnoticed.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "VAT registration threshold: £90,000 taxable turnover. Check your rolling 12 months every month.",
+"day": "2026-10-30",
+"k": "vat-90k",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-23-er-nic",
-"tag": "Employers",
-"figure": "15%",
-"headline": "What employers pay in National Insurance",
-"lines": [
-"15% above £5,000 a year per employee",
-"Employment Allowance: up to £10,500",
-"Cuts the cost of your first hires"
-],
-"caption": "Employers pay 15% National Insurance above £5,000 a year per employee. Employment Allowance can cut the bill by up to £10,500.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Employer NI: 15% above £5,000 a year. Employment Allowance: up to £10,500.",
-"day": "2026-10-23",
-"k": "er-nic",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-23-isa",
-"tag": "Savings",
-"figure": "£20,000",
-"headline": "ISAs: tax-free saving",
-"lines": [
-"Save up to £20,000 a year",
-"Interest and gains are tax-free",
-"Nothing to declare on your tax return"
-],
-"caption": "You can put up to £20,000 a year into ISAs, and the interest or gains are tax-free.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "ISA allowance: £20,000 a year, interest and gains tax-free.",
-"day": "2026-10-23",
-"k": "isa",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-23-ola-services",
+"id": "en-10-30-ola-first-call",
 "tag": "Ola Accountancy",
-"figure": "Services",
-"headline": "How we can help",
+"figure": "£120",
+"headline": "First consultation: 30 minutes, £120",
 "lines": [
-"Self Assessment, MTD and VAT",
-"Limited companies: accounts, payroll, dividends",
-"Certificates of tax residence"
+"£120 including VAT",
+"In Luton or Birmingham",
+"You leave with clear next steps"
 ],
-"caption": "We handle Self Assessment, Making Tax Digital, VAT, limited companies, payroll and certificates of residence.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Ola Accountancy: Self Assessment, MTD, VAT, limited companies, payroll.",
-"day": "2026-10-23",
-"k": "ola-services",
+"caption": "Not sure where to start? A first consultation at Ola is 30 minutes and costs £120 including VAT. You leave with clear next steps.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Ola Accountancy first consultation: 30 minutes, £120 including VAT, in Luton or Birmingham.",
+"day": "2026-10-30",
+"k": "ola-first-call",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-23-tip-reminders",
-"tag": "Tip",
-"figure": "Calendar",
-"headline": "Set reminders for your tax deadlines",
-"lines": [
-"31 January and 31 July: payments",
-"5 October: registration",
-"7 November: MTD update, if you are in MTD"
-],
-"caption": "Set phone reminders for your tax deadlines. It's the cheapest way to avoid penalties.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Tip: set reminders for 31 Jan, 31 Jul, 5 Oct and 7 Nov.",
-"day": "2026-10-23",
-"k": "tip-reminders",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-23-drc",
-"tag": "Construction VAT",
-"figure": "Reverse charge",
-"headline": "The construction VAT reverse charge",
-"lines": [
-"Applies between VAT-registered CIS businesses",
-"The customer accounts for VAT to HMRC",
-"Your invoice must say reverse charge applies"
-],
-"caption": "Between VAT-registered businesses in CIS, the domestic reverse charge applies: the customer accounts for the VAT.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Construction VAT reverse charge: the customer accounts for VAT between CIS VAT-registered firms.",
-"day": "2026-10-23",
-"k": "drc",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-23-emergency",
-"tag": "PAYE",
-"figure": "Emergency code",
-"headline": "On an emergency tax code?",
-"lines": [
-"Common when you change jobs",
-"You may overpay tax for a while",
-"It gets corrected and refunded"
-],
-"caption": "Emergency tax codes are common after a job change and can mean overpaying. It can be corrected and refunded.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Emergency tax code after a job change? You may be owed a refund once it's fixed.",
-"day": "2026-10-23",
-"k": "emergency",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-23-ola-bham",
-"tag": "Ola Birmingham",
-"figure": "B8 1RB",
-"headline": "Find us in Birmingham",
-"lines": [
-"22-42 Washwood Heath Rd, Saltley, B8 1RB",
-"Monday to Friday, 10am to 4pm",
-"Book on WhatsApp"
-],
-"caption": "Our Birmingham office is on Washwood Heath Rd, Saltley. Monday to Friday, 10am to 4pm.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Ola Birmingham: 22-42 Washwood Heath Rd, B8 1RB. Mon–Fri 10–4.",
-"day": "2026-10-23",
-"k": "ola-bham",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-23-iht-nrb",
-"tag": "Inheritance Tax",
-"figure": "£325,000",
-"headline": "The Inheritance Tax nil-rate band",
-"lines": [
-"The first £325,000 of an estate is usually tax-free",
-"Above that, the standard rate is 40%",
-"Spouses can pass on unused allowance"
-],
-"caption": "Inheritance Tax is usually charged at 40% above the £325,000 nil-rate band. Married couples can pass unused allowance to each other.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Inheritance Tax: £325,000 nil-rate band, 40% above it.",
-"day": "2026-10-23",
-"k": "iht-nrb",
-"extra": true,
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-sa-register",
-"tag": "Registration",
-"figure": "5 Oct",
-"headline": "Just gone self-employed? Register by 5 October",
-"lines": [
-"Deadline: 5 October after the tax year ends",
-"For 2026–27: by 5 October 2027",
-"Your UTR arrives by post or in your online account"
-],
-"caption": "Started working for yourself? Register for Self Assessment by 5 October after the end of the tax year you started in.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Started self-employment? Register for Self Assessment by 5 October after the end of that tax year.",
-"day": "2026-10-24",
-"k": "sa-register",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-sa-plan",
-"tag": "Paying your tax",
-"figure": "Plan",
-"headline": "Can't pay your tax bill in full?",
-"lines": [
-"You can ask HMRC for a payment plan",
-"HMRC checks the plan is affordable",
-"Ignoring the debt only adds penalties"
-],
-"caption": "Can't pay your full tax bill by 31 January? You can ask HMRC for a payment plan. Doing nothing is the costly option.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Can't pay your tax bill in full? Ask HMRC for a payment plan before penalties build up.",
-"day": "2026-10-24",
-"k": "sa-plan",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-exp-mileage-log",
-"tag": "Mileage",
-"figure": "Log",
-"headline": "Keep a business mileage log",
-"lines": [
-"Date, start, destination and purpose",
-"Total business miles",
-"No log, and HMRC can refuse the claim"
-],
-"caption": "To claim mileage (55p a mile for the first 10,000), keep a simple log: date, route, purpose and miles.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Claiming mileage? Keep a log: date, route, purpose, miles. 55p/mile for the first 10,000.",
-"day": "2026-10-24",
-"k": "exp-mileage-log",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-mtd-final",
-"tag": "Making Tax Digital",
-"figure": "31 Jan 2028",
-"headline": "Your first MTD final declaration",
-"lines": [
-"For the 2026–27 tax year",
-"Submitted from your MTD software",
-"Deadline: 31 January 2028"
-],
-"caption": "As well as the 4 updates, MTD users submit a final declaration for 2026–27 by 31 January 2028, straight from their software.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "MTD final declaration for 2026–27 is due 31 January 2028, from your MTD software.",
-"day": "2026-10-24",
-"k": "mtd-final",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-ltd-accounts",
-"tag": "Limited companies",
-"figure": "9 months",
-"headline": "Your annual accounts deadline",
-"lines": [
-"Companies House: 9 months after year end",
-"First accounts: 21 months after incorporation",
-"Late filing means automatic penalties"
-],
-"caption": "Annual accounts are due at Companies House 9 months after your financial year end. First accounts: 21 months after incorporation.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Company accounts are due at Companies House 9 months after year end (first accounts: 21 months).",
-"day": "2026-10-24",
-"k": "ltd-accounts",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-ltd-or-se",
-"tag": "Ltd or sole trader?",
-"figure": "It depends",
-"headline": "A limited company doesn't always mean less tax",
-"lines": [
-"Profit level and how you take money both matter",
-"A company has more duties and costs",
-"Work it out for your own situation"
-],
-"caption": "A limited company isn't always cheaper. It depends on your profit, how you take money out and the extra costs.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Ltd or sole trader? It depends on profit, how you take money out and the extra admin.",
-"day": "2026-10-24",
-"k": "ltd-or-se",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-nmw-21",
-"tag": "Minimum wage",
-"figure": "£12.71",
-"headline": "The minimum wage from April 2026",
-"lines": [
-"21 and over: £12.71 an hour",
-"18 to 20: £10.85 an hour",
-"Under 18 and apprentices: £8 an hour"
-],
-"caption": "Since April 2026 the National Living Wage is £12.71 an hour for workers aged 21 and over.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Minimum wage from April 2026: £12.71 (21+), £10.85 (18–20), £8 (under 18 and apprentices).",
-"day": "2026-10-24",
-"k": "nmw-21",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-tfc",
-"tag": "Family",
-"figure": "£2,000",
-"headline": "Tax-Free Childcare: the government adds 20%",
-"lines": [
-"For every £8 you pay, it adds £2",
-"Up to £2,000 a year per child",
-"£4,000 for disabled children"
-],
-"caption": "Tax-Free Childcare adds £2 for every £8 you pay towards childcare, up to £2,000 a year per child.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Tax-Free Childcare: +£2 for every £8, up to £2,000 per child a year.",
-"day": "2026-10-24",
-"k": "tfc",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-psa",
-"tag": "Savings",
-"figure": "£1,000",
-"headline": "How much savings interest is tax-free",
-"lines": [
-"Basic rate: £1,000 of interest tax-free",
-"Higher rate: £500",
-"Additional rate: none"
-],
-"caption": "The Personal Savings Allowance lets basic-rate taxpayers earn £1,000 of interest tax-free; higher-rate, £500.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Personal Savings Allowance: £1,000 basic rate, £500 higher rate, none for additional rate.",
-"day": "2026-10-24",
-"k": "psa",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-ola-fin",
-"tag": "Financial consultation",
-"figure": "£420",
-"headline": "One hour with Valentin Avram",
-"lines": [
-"For founders and small businesses",
-"Structure, tax and financial planning",
-"£420 including VAT"
-],
-"caption": "For small businesses: a one-hour financial consultation with Valentin Avram on structure, tax and planning. £420 including VAT.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "One-hour financial consultation with Valentin Avram: £420 including VAT.",
-"day": "2026-10-24",
-"k": "ola-fin",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-tip-app",
-"tag": "Tip",
-"figure": "HMRC app",
-"headline": "The HMRC app is worth having",
-"lines": [
-"See your tax code and NI record",
-"Check and pay what you owe",
-"Find your UTR and NI number"
-],
-"caption": "The official HMRC app shows your tax code, National Insurance record, UTR and what you owe.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "The HMRC app shows your tax code, NI record, UTR and what you owe.",
-"day": "2026-10-24",
-"k": "tip-app",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-platforms",
-"tag": "Selling online",
-"figure": "HMRC knows",
-"headline": "Selling online or working through apps?",
-"lines": [
-"Platforms report sellers' income to HMRC",
-"Delivery, ride-hailing, lettings, online sales",
-"Declare what you earn correctly"
-],
-"caption": "Online platforms report sellers' and workers' income to HMRC. What you earn through them must be declared correctly.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Digital platforms report sellers' income to HMRC. Declare your app and online earnings.",
-"day": "2026-10-24",
-"k": "platforms",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-wfh-employee",
-"tag": "Employees",
-"figure": "Changed",
-"headline": "Working from home relief has changed",
-"lines": [
-"Employees can't claim it for 2026–27",
-"Earlier years can still be claimed",
-"Only if you had to work from home"
-],
-"caption": "Employees can no longer claim working-from-home tax relief for 2026–27, but earlier years can still be claimed if you had to work from home.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Employee WFH relief: not available for 2026–27; earlier years can still be claimed.",
-"day": "2026-10-24",
-"k": "wfh-employee",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-ola-luton",
-"tag": "Ola Luton",
-"figure": "LU1 2AF",
-"headline": "Our Luton head office",
-"lines": [
-"23A George Street, LU1 2AF",
-"Monday to Friday, 10am to 4pm",
-"Book on WhatsApp"
-],
-"caption": "Our head office is at 23A George Street, Luton. Monday to Friday, 10am to 4pm.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Ola Luton: 23A George Street, LU1 2AF. Mon–Fri 10–4.",
-"day": "2026-10-24",
-"k": "ola-luton",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-24-iht-rnrb",
-"tag": "Inheritance Tax",
-"figure": "£175,000",
-"headline": "Leaving your home to your children?",
-"lines": [
-"Residence nil-rate band: up to £175,000",
-"On top of the £325,000 nil-rate band",
-"It tapers away for larger estates"
-],
-"caption": "If you leave your home to children or grandchildren, the residence nil-rate band can add up to £175,000 to your tax-free amount.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Residence nil-rate band: up to £175,000 extra when your home goes to your children.",
-"day": "2026-10-24",
-"k": "iht-rnrb",
-"extra": true,
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-sa-late-file",
-"tag": "Penalties",
-"figure": "£100",
-"headline": "What happens if you file your tax return late",
-"lines": [
-"One day late: £100",
-"After 3 months: £10 a day, up to £900",
-"After 6 months: another 5% of the tax or £300"
-],
-"caption": "Late Self Assessment penalties add up fast: £100 from day one, £10 a day after 3 months, then another 5% or £300 after 6 months.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Late tax return? £100 from day one, £10 a day after 3 months (up to £900), then 5% or £300 after 6 months.",
-"day": "2026-10-25",
-"k": "sa-late-file",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-sa-dates",
-"tag": "Tax calendar",
-"figure": "4 dates",
-"headline": "The dates every sole trader should know",
-"lines": [
-"31 January: online return and payment",
-"31 July: second payment on account",
-"5 October: register; 31 October: paper return"
-],
-"caption": "Put these in your calendar: 31 January, 31 July, 5 October and 31 October. It is the simplest way to avoid penalties.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Key dates: 31 Jan (file and pay), 31 Jul (2nd payment on account), 5 Oct (register), 31 Oct (paper).",
-"day": "2026-10-25",
-"k": "sa-dates",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-exp-separate",
-"tag": "Tip",
-"figure": "1 account",
-"headline": "Use a separate bank account for your business",
-"lines": [
-"See clearly what is income and what is expense",
-"Your tax return gets quicker",
-"You are ready if HMRC asks for evidence"
-],
-"caption": "A separate business bank account keeps everything clear and makes your tax return quicker and cheaper.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Tip: a separate business bank account makes your tax return quicker and HMRC checks easier.",
-"day": "2026-10-25",
-"k": "exp-separate",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-prop-allow",
-"tag": "Property",
-"figure": "£1,000",
-"headline": "Earning a little from property?",
-"lines": [
-"The first £1,000 a year is covered by the property allowance",
-"Above that, you must declare it",
-"You can't use the allowance and actual expenses together"
-],
-"caption": "If your property income is small, the first £1,000 a year is covered by the property allowance.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Property allowance: the first £1,000 a year of property income is tax-free.",
-"day": "2026-10-25",
-"k": "prop-allow",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-ltd-ct-pay",
-"tag": "Limited companies",
-"figure": "9 months + 1 day",
-"headline": "When your company pays Corporation Tax",
-"lines": [
-"Payment: 9 months and 1 day after year end",
-"Company Tax Return: 12 months after",
-"Payment comes before the return"
-],
-"caption": "Corporation Tax is due 9 months and 1 day after your accounting period ends, even though the return is due at 12 months.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Corporation Tax: pay 9 months + 1 day after year end; file the return within 12 months.",
-"day": "2026-10-25",
-"k": "ltd-ct-pay",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-badr",
-"tag": "Selling a business",
-"figure": "18%",
-"headline": "Selling your business? Business Asset Disposal Relief",
-"lines": [
-"18% tax on qualifying gains",
-"For sole traders, partners and some shareholders",
-"Check the conditions early"
-],
-"caption": "When you sell your business, Business Asset Disposal Relief can bring Capital Gains Tax down to 18% on qualifying gains.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Selling a business? Business Asset Disposal Relief: 18% CGT on qualifying gains.",
-"day": "2026-10-25",
-"k": "badr",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-ssp",
-"tag": "Sick pay",
-"figure": "Day one",
-"headline": "Statutory Sick Pay from April 2026",
-"lines": [
-"Paid from the first day of sickness",
-"£123.25 a week or 80% of earnings",
-"Whichever is lower"
-],
-"caption": "Since April 2026, SSP is paid from day one: £123.25 a week or 80% of average weekly earnings, whichever is lower.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "SSP from April 2026: paid from day one, £123.25/week or 80% of earnings, whichever is lower.",
-"day": "2026-10-25",
-"k": "ssp",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-pa-trap",
-"tag": "High earners",
-"figure": "60%",
-"headline": "The trap between £100,000 and £125,140",
-"lines": [
-"You lose £1 of allowance for every £2",
-"Your effective tax rate hits 60% in this band",
-"Pension contributions can help"
-],
-"caption": "Between £100,000 and £125,140, losing your personal allowance pushes the effective tax rate to 60%. Planning matters.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Earning £100k–£125,140? Losing your personal allowance means an effective 60% rate.",
-"day": "2026-10-25",
-"k": "pa-trap",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-class2-vol",
-"tag": "National Insurance",
-"figure": "£3.65",
-"headline": "Low profits? Voluntary Class 2 NI",
-"lines": [
-"Not required below £7,105 profit",
-"Voluntary rate: £3.65 a week",
-"Protects your State Pension years"
-],
-"caption": "With profits under £7,105 you can pay voluntary Class 2 at £3.65 a week to protect your State Pension record.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Profits under £7,105? Voluntary Class 2 is £3.65 a week and protects your pension years.",
-"day": "2026-10-25",
-"k": "class2-vol",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-ola-bring",
-"tag": "Ola Accountancy",
-"figure": "Prepare",
-"headline": "What to bring to your first meeting",
-"lines": [
-"ID and proof of UK address",
-"Your UTR, if you have one",
-"Bank statements, invoices and receipts"
-],
-"caption": "To get the most out of your first meeting, bring ID, proof of address, your UTR and your income and expense records.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "First meeting checklist: ID, proof of address, UTR, bank statements, invoices, receipts.",
-"day": "2026-10-25",
-"k": "ola-bring",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-poa-reduce",
-"tag": "Payments on account",
-"figure": "Reduce",
-"headline": "Income down? You can reduce payments on account",
-"lines": [
-"They're based on last year's bill",
-"If this year will be lower, apply to reduce them",
-"Reduce too much and you pay interest"
-],
-"caption": "If your income has dropped, you can ask HMRC to reduce your payments on account. Cut too far and interest applies.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Income down this year? You can apply to reduce your payments on account.",
-"day": "2026-10-25",
-"k": "poa-reduce",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-dir-pension",
-"tag": "Limited companies",
-"figure": "Pension",
-"headline": "Company pension contributions for directors",
-"lines": [
-"Usually an allowable business expense",
-"No National Insurance on them",
-"Watch the annual allowance"
-],
-"caption": "Employer pension contributions for directors are usually tax-deductible for the company and free of National Insurance.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Directors: company pension contributions are usually deductible and NI-free.",
-"day": "2026-10-25",
-"k": "dir-pension",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-class3",
-"tag": "State Pension",
-"figure": "Gaps",
-"headline": "Gaps in your National Insurance record?",
-"lines": [
-"Check your record in your HMRC account",
-"Some gaps can be filled voluntarily",
-"Worth checking well before retirement"
-],
-"caption": "Gaps in your NI record can reduce your State Pension. Some years can be filled with voluntary contributions.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Gaps in your NI record? Some can be filled with voluntary contributions.",
-"day": "2026-10-25",
-"k": "class3",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-rtw",
-"tag": "Employers",
-"figure": "Required",
-"headline": "Check right to work before someone starts",
-"lines": [
-"Do the check before day one",
-"Keep a copy of the evidence",
-"Penalties for not checking are high"
-],
-"caption": "Employers must check a person's right to work in the UK before they start, and keep the evidence.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Employers: check right to work before day one and keep the evidence.",
-"day": "2026-10-25",
-"k": "rtw",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-25-iht-gifts",
-"tag": "Gifts",
-"figure": "£3,000",
-"headline": "Gifts you can make each year",
-"lines": [
-"£3,000 a year annual exemption",
-"Small gifts of up to £250 per person",
-"Unused annual exemption carries forward 1 year"
-],
-"caption": "You can give away £3,000 a year free of Inheritance Tax, plus small gifts of up to £250 per person.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Gift allowance: £3,000 a year, plus £250 small gifts per person.",
-"day": "2026-10-25",
-"k": "iht-gifts",
-"extra": true,
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-sa-late-pay",
-"tag": "Late payment",
-"figure": "5%",
-"headline": "Filed on time but paid late? Penalties apply",
-"lines": [
-"5% of unpaid tax after 30 days",
-"Another 5% at 6 months and at 12 months",
-"Plus daily interest"
-],
-"caption": "Filing on time is not enough. Paying late adds 5% penalties at 30 days, 6 months and 12 months, plus interest.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Paid your Self Assessment late? 5% penalties at 30 days, 6 months and 12 months, plus interest.",
-"day": "2026-10-26",
-"k": "sa-late-pay",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-exp-yes",
+"id": "en-10-30-exp-clothes",
 "tag": "Expenses",
-"figure": "Allowable",
-"headline": "More expenses you can claim",
+"figure": "Clothing?",
+"headline": "Can you claim work clothes? Only some",
 "lines": [
-"Equipment: laptop, tools, phone",
-"Advertising and your website",
-"Your accountant's fees"
+"Yes: safety boots, hard hats, overalls",
+"Yes: uniforms that are not everyday wear",
+"No: suits, shirts or ordinary shoes"
 ],
-"caption": "Beyond fuel and phone bills, you can claim work equipment, advertising and even your accountant's fees.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Sole trader? You can also claim equipment, advertising, your website and accountancy fees.",
-"day": "2026-10-26",
-"k": "exp-yes",
+"caption": "Self-employed? You can claim protective clothing and uniforms, but not everyday clothing, even if you only wear it for work.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Self-employed clothing: protective gear and uniforms yes, everyday clothes no, even if worn only for work.",
+"day": "2026-10-30",
+"k": "exp-clothes",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-26-exp-save",
+"id": "en-10-30-marriage-252",
+"tag": "Family",
+"figure": "£252",
+"headline": "Marriage Allowance: up to £252 a year",
+"lines": [
+"One earns under £12,570, the other is a basic-rate payer",
+"£1,260 of allowance is transferred",
+"You can backdate claims to 2022 to 2023"
+],
+"caption": "Married or in a civil partnership and one of you earns under £12,570? Marriage Allowance can save up to £252 a year, and you can backdate it.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Marriage Allowance: transfer £1,260 of Personal Allowance and save up to £252 a year. Backdate to 2022-23.",
+"day": "2026-10-30",
+"k": "marriage-252",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-30-b26-capital-allowances",
+"tag": "Budget 2026",
+"figure": "50%",
+"headline": "Budget 2026: capital allowances change",
+"lines": [
+"First-year allowance rises from 40% to 50% from 1 Jan 2027",
+"Main writing-down allowance falls to 12% from April 2027",
+"Cars and second-hand assets are excluded from the 50%"
+],
+"caption": "Investing in plant or machinery? The Budget raises the main first-year allowance to 50% from January 2027 and cuts the main writing-down allowance to 12%.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: main first-year allowance up to 50% from 1 Jan 2027; writing-down allowance down to 12% from April 2027.",
+"day": "2026-10-30",
+"k": "b26-capital-allowances",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-b26-mtd-points",
+"tag": "Making Tax Digital",
+"figure": "0 points",
+"headline": "MTD: no penalty points for 2027-28 updates",
+"lines": [
+"The Budget extends the easement",
+"Covers 2027 to 2028 quarterly updates",
+"Late annual returns are still penalised"
+],
+"caption": "Good news on MTD: the Budget says no late submission penalty points for 2027 to 2028 quarterly updates. Annual return deadlines still apply.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: no MTD late submission penalty points for 2027-28 quarterly updates. Late returns are still penalised.",
+"day": "2026-10-31",
+"k": "b26-mtd-points",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-b26-energy-100",
+"tag": "Budget 2026",
+"figure": "£100",
+"headline": "£100 Household Energy Payment from Jan 2027",
+"lines": [
+"Announced in the 28 October Budget",
+"Households in England in council tax bands A to D",
+"Paid straight into bank accounts"
+],
+"caption": "The Budget announced a £100 Household Energy Payment from January 2027 for households in England in council tax bands A to D.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: £100 Household Energy Payment from January 2027 for council tax bands A-D in England, paid into bank accounts.",
+"day": "2026-10-31",
+"k": "b26-energy-100",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-b26-pension-allowance",
+"tag": "Budget 2026",
+"figure": "0%",
+"headline": "Pension Tax Allowance from April 2027",
+"lines": [
+"For people over State Pension age",
+"Total income up to the full new State Pension",
+"Tapers away above that level"
+],
+"caption": "From April 2027, pensioners whose total income is no more than the full new State Pension will pay no Income Tax. It tapers above that.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: from April 2027, pensioners with income up to the full new State Pension pay no Income Tax.",
+"day": "2026-10-31",
+"k": "b26-pension-allowance",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-mileage-55p",
+"tag": "Mileage",
+"figure": "55p",
+"headline": "The mileage rate is now 55p",
+"lines": [
+"From 6 April 2026: 55p for the first 10,000 miles",
+"Above 10,000 miles: 25p for now",
+"Applies to employees and the self-employed"
+],
+"caption": "HMRC raised the car and van rate from 45p to 55p a mile, backdated to 6 April 2026. Keep a proper log of business journeys.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Mileage: 55p a mile for the first 10,000 business miles since 6 April 2026, then 25p (35p from April 2027).",
+"day": "2026-10-31",
+"k": "mileage-55p",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-it-bands",
+"tag": "Income Tax",
+"figure": "20/40/45",
+"headline": "Income Tax bands for 2026-27",
+"lines": [
+"Up to £12,570: 0%",
+"£12,571 to £50,270: 20%; to £125,140: 40%",
+"Over £125,140: 45% (Scotland differs)"
+],
+"caption": "Income Tax for 2026 to 2027 in England, Wales and NI: 0%, 20%, 40% and 45%. Know your band and you know what to set aside.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Income Tax 2026-27: 0% to £12,570, 20% to £50,270, 40% to £125,140, 45% above (not Scotland).",
+"day": "2026-10-31",
+"k": "it-bands",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-class4-6",
+"tag": "National Insurance",
+"figure": "6%",
+"headline": "Self-employed National Insurance explained",
+"lines": [
+"Class 4: 6% on profits £12,570 to £50,270",
+"2% on profits above £50,270",
+"Paid with your tax through Self Assessment"
+],
+"caption": "Self-employed? Class 4 NI is 6% on profits between £12,570 and £50,270 and 2% above, paid through Self Assessment.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Class 4 NI 2026-27: 6% on profits between £12,570 and £50,270, 2% above. Paid via Self Assessment.",
+"day": "2026-10-31",
+"k": "class4-6",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-poa-1000",
+"tag": "Payments on account",
+"figure": "31 Jan",
+"headline": "Payments on account: who pays and when",
+"lines": [
+"Two payments: 31 January and 31 July",
+"Each is usually half of last year's bill",
+"Not needed if last year's bill was under £1,000"
+],
+"caption": "Payments on account are due on 31 January and 31 July, each usually half of last year's tax. Owed under £1,000? You do not make them.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Payments on account: 31 Jan and 31 Jul, each usually half of last year's bill. Not due if it was under £1,000.",
+"day": "2026-10-31",
+"k": "poa-1000",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-b26-fuel",
+"tag": "Drivers",
+"figure": "5p",
+"headline": "The 5p fuel duty cut is extended",
+"lines": [
+"The 5p per litre cut stays",
+"Until 30 June 2027, announced in the Budget",
+"Useful for anyone who drives for work"
+],
+"caption": "The Budget extends the 5p per litre fuel duty cut until 30 June 2027. Worth knowing if you drive for a living.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: the 5p fuel duty cut is extended to 30 June 2027.",
+"day": "2026-10-31",
+"k": "b26-fuel",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-vat-points",
+"tag": "VAT",
+"figure": "£200",
+"headline": "Late VAT returns earn penalty points",
+"lines": [
+"One point for each late return",
+"Quarterly filers: a £200 penalty at 4 points",
+"Monthly: 5 points; annual: 2 points"
+],
+"caption": "Each late VAT return earns a point. Reach the threshold, 4 points for quarterly filers, and you get a £200 penalty.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "VAT late submission: one point per late return; £200 penalty at the threshold (4 points quarterly, 5 monthly, 2 annual).",
+"day": "2026-10-31",
+"k": "vat-points",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-ola-romana",
+"tag": "Ola Accountancy",
+"figure": "Clear",
+"headline": "An accountant who explains it plainly",
+"lines": [
+"We explain what your HMRC letter means",
+"We tell you clearly what to pay and when",
+"Offices in Luton and Birmingham"
+],
+"caption": "We explain HMRC letters in plain language and tell you clearly what to pay and when.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Ola Accountancy: plain-language help with HMRC letters, tax bills and deadlines. Luton and Birmingham.",
+"day": "2026-10-31",
+"k": "ola-romana",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-hicbc-70k",
+"tag": "Child Benefit",
+"figure": "£60,000",
+"headline": "Earning over £60,000 with Child Benefit?",
+"lines": [
+"Repay 1% for every £200 over £60,000",
+"At £70,000 you repay half",
+"At £80,000 or more you repay it all"
+],
+"caption": "The High Income Child Benefit Charge starts at £60,000: 1% for every £200 over. At £80,000 you repay it all.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "HICBC: 1% of Child Benefit per £200 over £60,000. Half at £70,000, all at £80,000.",
+"day": "2026-10-31",
+"k": "hicbc-70k",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-exp-phone",
+"tag": "Expenses",
+"figure": "%",
+"headline": "Phone and internet: claim the business share",
+"lines": [
+"Work out the business-use percentage",
+"Not covered by the working-from-home flat rate",
+"Keep your monthly bills"
+],
+"caption": "You can claim the business share of phone and internet bills. They are not covered by the working-from-home flat rate.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Phone and internet: claim the business share. The home-working flat rate does not cover them.",
+"day": "2026-10-31",
+"k": "exp-phone",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-records-5y",
+"tag": "Records",
+"figure": "5 years",
+"headline": "How long to keep your records",
+"lines": [
+"At least 5 years after the 31 January deadline",
+"For 2025-26: until at least end of January 2032",
+"Receipts, invoices and bank statements"
+],
+"caption": "Self-employed? Keep records for at least 5 years after the 31 January deadline. For 2025 to 2026, that is until at least the end of January 2032.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Keep self-employed records at least 5 years after the 31 January deadline: 2025-26 records until at least end of January 2032.",
+"day": "2026-10-31",
+"k": "records-5y",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-ola-docs-wa",
+"tag": "Ola Accountancy",
+"figure": "Docs",
+"headline": "Send us your documents on WhatsApp",
+"lines": [
+"Take clear photos of receipts and invoices",
+"Send bank statements as PDFs",
+"We confirm what is still missing"
+],
+"caption": "No need to bring a folder to the office. Send your documents on WhatsApp and we tell you what is still missing.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Send your tax documents to Ola Accountancy on WhatsApp and we confirm what is missing.",
+"day": "2026-10-31",
+"k": "ola-docs-wa",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-10-31-b26-payroll-bik",
+"tag": "Budget 2026",
+"figure": "Apr 2027",
+"headline": "Payrolling benefits becomes mandatory",
+"lines": [
+"Company cars, vans and fuel from 6 April 2027",
+"Medical benefits from the same date",
+"Most other benefits from April 2028"
+],
+"caption": "Employers: payrolling benefits in kind becomes mandatory from April 2027 for cars, vans, fuel and medical benefits, and for most others from April 2028.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: mandatory payrolling of benefits for cars, vans, fuel and medical from 6 April 2027; most others from April 2028.",
+"day": "2026-10-31",
+"k": "b26-payroll-bik",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-b26-nic-freeze",
+"tag": "Budget 2026",
+"figure": "2031",
+"headline": "NI thresholds stay frozen",
+"lines": [
+"Most limits stay at 2026-27 levels",
+"Frozen until 2030 to 2031",
+"Voluntary Class 3: £19.05 a week from April 2027"
+],
+"caption": "The Budget keeps most National Insurance thresholds frozen until 2030 to 2031. Voluntary Class 3 rises to £19.05 a week from April 2027.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: most NI thresholds frozen to 2030-31; voluntary Class 3 £19.05/week from April 2027.",
+"day": "2026-11-01",
+"k": "b26-nic-freeze",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-b26-marketplace-vat",
+"tag": "Budget 2026",
+"figure": "Oct 2027",
+"headline": "Selling on online marketplaces? VAT changes",
+"lines": [
+"From October 2027, announced in the Budget",
+"Platforms collect VAT on sales above £90,000",
+"Personal sales are not affected"
+],
+"caption": "From October 2027, marketplaces must collect VAT on sales by UK businesses that exceed £90,000 through the platform. Personal sales are not affected.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: from Oct 2027 online marketplaces collect VAT on UK business sales above £90,000 per platform.",
+"day": "2026-11-01",
+"k": "b26-marketplace-vat",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-div-rates",
+"tag": "Dividends",
+"figure": "10.75%",
+"headline": "Dividend tax rates for 2026-27",
+"lines": [
+"Ordinary rate: 10.75%",
+"Upper rate: 35.75%",
+"Additional rate: 39.35%"
+],
+"caption": "Taking dividends from your company? For 2026 to 2027 the rates are 10.75%, 35.75% and 39.35%, depending on your band.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Dividend tax 2026-27: 10.75% ordinary, 35.75% upper, 39.35% additional.",
+"day": "2026-11-01",
+"k": "div-rates",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-div-500",
+"tag": "Dividends",
+"figure": "£500",
+"headline": "The first £500 of dividends is tax-free",
+"lines": [
+"Dividend Allowance: £500 a year",
+"Above that, dividend rates apply",
+"Your Income Tax band decides the rate"
+],
+"caption": "The first £500 of dividends each year is tax-free. Above that, you pay the dividend rate for your band.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Dividend Allowance 2026-27: £500. Above it, 10.75%, 35.75% or 39.35% by band.",
+"day": "2026-11-01",
+"k": "div-500",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-cb-rates",
+"tag": "Child Benefit",
+"figure": "£27.05",
+"headline": "Child Benefit rates for 2026-27",
+"lines": [
+"Eldest or only child: £27.05 a week",
+"Each other child: £17.90 a week",
+"From April 2027: £28.00 and £18.55"
+],
+"caption": "Child Benefit for 2026 to 2027 is £27.05 a week for the eldest child and £17.90 for each other child, rising to £28.00 and £18.55 from April 2027.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Child Benefit 2026-27: £27.05 eldest, £17.90 others per week. From April 2027: £28.00 and £18.55.",
+"day": "2026-11-01",
+"k": "cb-rates",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-wfh-flat-se",
+"tag": "Working from home",
+"figure": "£26",
+"headline": "Work from home? Use the flat rate",
+"lines": [
+"25 to 50 hours a month: £10",
+"51 to 100 hours: £18",
+"101 hours or more: £26"
+],
+"caption": "Self-employed and working from home at least 25 hours a month? You can claim a flat £10, £18 or £26 a month.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Home-working flat rate for the self-employed: £10, £18 or £26 a month depending on hours (min 25).",
+"day": "2026-11-01",
+"k": "wfh-flat-se",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-exp-commute",
+"tag": "Expenses",
+"figure": "No",
+"headline": "Commuting is not a business expense",
+"lines": [
+"Home-to-work travel cannot be claimed",
+"Fines and penalties cannot be claimed",
+"Trips to clients and suppliers can"
+],
+"caption": "You cannot claim for commuting or for fines. Business journeys, to clients or suppliers, you can.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Self-employed: no claims for commuting or fines; business journeys are allowable.",
+"day": "2026-11-01",
+"k": "exp-commute",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-exp-overnight",
+"tag": "Expenses",
+"figure": "Hotel",
+"headline": "Overnight business trips: what to claim",
+"lines": [
+"Hotel rooms for business trips",
+"Meals on overnight business trips",
+"Train, bus, air and taxi fares"
+],
+"caption": "On overnight business trips you can claim the hotel, meals and fares. Keep every receipt.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Overnight business trip? Hotel, meals and fares are allowable expenses.",
+"day": "2026-11-01",
+"k": "exp-overnight",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-mtd-qualifying",
+"tag": "Making Tax Digital",
+"figure": "£50,000",
+"headline": "MTD: what income counts",
+"lines": [
+"Self-employment plus property income combined",
+"Gross income, before expenses",
+"Taken from the previous year's return"
+],
+"caption": "For MTD, qualifying income is your self-employment and property income combined, before expenses, based on the return you filed the year before.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "MTD qualifying income = self-employment + property, combined, before expenses, from last year's return.",
+"day": "2026-11-01",
+"k": "mtd-qualifying",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-ola-ltd",
+"tag": "Ola Accountancy",
+"figure": "Ltd",
+"headline": "Thinking of setting up a limited company?",
+"lines": [
+"We look at whether a company suits you",
+"We handle the set-up and the filings",
+"Bookkeeping and accounts all year"
+],
+"caption": "Thinking about moving from sole trader to limited company? We go through your numbers first, then handle the set-up and the filings.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Thinking of a limited company? Ola Accountancy helps you decide, then handles set-up and filings.",
+"day": "2026-11-01",
+"k": "ola-ltd",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-ctf-unclaimed",
+"tag": "Young people",
+"figure": "£2,242",
+"headline": "Aged 18+? You may have a Child Trust Fund",
+"lines": [
+"758,000 unclaimed accounts (HMRC, 2025)",
+"Average value about £2,242",
+"Search GOV.UK: Find my Child Trust Fund"
+],
+"caption": "HMRC says 758,000 matured Child Trust Funds are unclaimed, worth about £2,242 on average. The GOV.UK search is free.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "758,000 unclaimed Child Trust Funds, average about £2,242. Use the free Find my Child Trust Fund tool on GOV.UK.",
+"day": "2026-11-01",
+"k": "ctf-unclaimed",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-sure-start",
+"tag": "Benefits",
+"figure": "£500",
+"headline": "Sure Start Maternity Grant: £500",
+"lines": [
+"Usually for your first child",
+"You or your partner must get certain benefits",
+"Claim 11 weeks before or up to 6 months after"
+],
+"caption": "Expecting your first child and on certain benefits? The Sure Start Maternity Grant is £500 and you do not pay it back.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Sure Start Maternity Grant: £500, usually first child, claim from 11 weeks before to 6 months after the birth.",
+"day": "2026-11-01",
+"k": "sure-start",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-01-tip-tax-pot",
 "tag": "Tip",
 "figure": "Monthly",
 "headline": "Set money aside for tax every month",
 "lines": [
-"Tax is paid once or twice a year",
-"A monthly amount avoids the January shock",
-"Keep it in a separate savings account"
+"A separate account just for tax",
+"Move a percentage of every payment in",
+"No surprises in January"
 ],
-"caption": "The biggest shock for sole traders is the January bill. Set money aside every month in a separate account.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Tip: set aside money for tax every month so January doesn't hurt.",
-"day": "2026-10-26",
-"k": "exp-save",
+"caption": "The simplest habit for the self-employed: a separate tax account and a percentage of every payment moved into it.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Self-employed tip: a separate tax account, topped up from every payment, means no January surprises.",
+"day": "2026-11-01",
+"k": "tip-tax-pot",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-26-prop-room",
-"tag": "Rent a Room",
-"figure": "£7,500",
-"headline": "Renting out a room in your home?",
+"id": "en-11-01-holiday",
+"tag": "Employees",
+"figure": "28 days",
+"headline": "Statutory holiday: how many days?",
 "lines": [
-"Up to £7,500 a year tax-free",
-"£3,750 each if you share the income",
-"A furnished room in the home you live in"
+"At least 5.6 weeks paid a year",
+"5 days a week: 28 days",
+"Bank holidays can count towards the 28"
 ],
-"caption": "Under Rent a Room you can earn up to £7,500 a year tax-free from a furnished room in your own home.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Rent a Room scheme: up to £7,500 a year tax-free (£3,750 if shared).",
-"day": "2026-10-26",
-"k": "prop-room",
+"caption": "Most workers are entitled to 5.6 weeks of paid holiday a year, which is 28 days for a 5-day week.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Statutory holiday: 5.6 weeks a year, 28 days for a 5-day week; bank holidays can count.",
+"day": "2026-11-01",
+"k": "holiday",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-26-ltd-cs",
-"tag": "Limited companies",
-"figure": "Once a year",
-"headline": "Don't forget your confirmation statement",
+"id": "en-11-01-b26-pension-iht",
+"tag": "Budget 2026",
+"figure": "Apr 2027",
+"headline": "Pensions come into inheritance tax",
 "lines": [
-"File at least once every 12 months",
-"Confirm directors, shareholders and address",
-"Ignore it and the company can be struck off"
+"Unused pension funds count from 6 April 2027",
+"Executors can ask the scheme to pay the IHT",
+"Review nominations and your estate plan"
 ],
-"caption": "Your confirmation statement goes to Companies House at least every 12 months. Ignore it and the company can be struck off.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Limited company? File your confirmation statement at least every 12 months.",
-"day": "2026-10-26",
-"k": "ltd-cs",
+"caption": "From 6 April 2027, most unused pension funds and death benefits count towards the estate for inheritance tax. Worth reviewing your plans now.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "From 6 April 2027 unused pension funds fall into the estate for IHT. Review nominations and plans now.",
+"day": "2026-11-01",
+"k": "b26-pension-iht",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-26-vat-deadline",
-"tag": "VAT",
-"figure": "1 month + 7 days",
-"headline": "Your VAT return deadline",
-"lines": [
-"1 month and 7 days after the period ends",
-"Payment is due the same day",
-"No extension for weekends"
-],
-"caption": "Your VAT return and payment are both due 1 month and 7 days after the period ends. The money must reach HMRC by then.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "VAT return and payment: due 1 month and 7 days after the period ends.",
-"day": "2026-10-26",
-"k": "vat-deadline",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-pension-ae",
-"tag": "Pensions",
-"figure": "8%",
-"headline": "Workplace pension minimums",
-"lines": [
-"8% of qualifying earnings in total",
-"Employer: at least 3%",
-"Employee: the rest, usually 5%"
-],
-"caption": "Under auto-enrolment, the minimum total pension contribution is 8%, with at least 3% from the employer.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Auto-enrolment: 8% minimum total, at least 3% from the employer.",
-"day": "2026-10-26",
-"k": "pension-ae",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-taxcode",
-"tag": "PAYE",
-"figure": "1257L",
-"headline": "What your 1257L tax code means",
-"lines": [
-"1257L = £12,570 personal allowance",
-"A wrong code means wrong tax",
-"Check it in your HMRC account"
-],
-"caption": "Tax code 1257L means you get the standard £12,570 personal allowance. A wrong code can cost you money.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Tax code 1257L = standard £12,570 allowance. Check yours in the HMRC app.",
-"day": "2026-10-26",
-"k": "taxcode",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-worldwide",
-"tag": "UK residents",
-"figure": "Worldwide",
-"headline": "UK resident? Declare your foreign income too",
-"lines": [
-"UK residents are taxed on worldwide income",
-"Rent from a property abroad goes on your UK return",
-"Tax paid abroad can usually be credited"
-],
-"caption": "If you are UK tax resident, you declare foreign income too, such as rent from a property abroad. Foreign tax paid can usually be credited.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "UK tax resident? Foreign income goes on your UK return; foreign tax can usually be credited.",
-"day": "2026-10-26",
-"k": "worldwide",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-ola-how",
-"tag": "Ola Accountancy",
-"figure": "3 steps",
-"headline": "How working with us works",
-"lines": [
-"1. Message us on WhatsApp",
-"2. 30-minute consultation, £120 including VAT",
-"3. Clear next steps and a clear price"
-],
-"caption": "Simple: message us on WhatsApp, have a 30-minute consultation, and get clear next steps and a clear price.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Working with Ola: WhatsApp us, 30-minute consultation (£120 inc VAT), clear next steps.",
-"day": "2026-10-26",
-"k": "ola-how",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-sa-refund",
-"tag": "Refunds",
-"figure": "Money back",
-"headline": "Paid too much tax? Get it back",
-"lines": [
-"Your return can show HMRC owes you",
-"The refund is paid after processing",
-"Always check the calculation first"
-],
-"caption": "Sometimes your return shows you overpaid, through CIS or a wrong tax code. HMRC refunds the difference.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Overpaid through CIS or a wrong tax code? Your tax return can get it back.",
-"day": "2026-10-26",
-"k": "sa-refund",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-ct-register",
-"tag": "Limited companies",
-"figure": "3 months",
-"headline": "New company? Tell HMRC",
-"lines": [
-"Register for Corporation Tax",
-"Within 3 months of starting to trade",
-"Or risk penalties"
-],
-"caption": "Once your company starts trading, you have 3 months to register it for Corporation Tax.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "New company? Register for Corporation Tax within 3 months of starting to trade.",
-"day": "2026-10-26",
-"k": "ct-register",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-lisa",
-"tag": "Savings",
-"figure": "25%",
-"headline": "Lifetime ISA: a 25% government bonus",
-"lines": [
-"Save up to £4,000 a year",
-"Get up to £1,000 a year bonus",
-"For a first home or from age 60"
-],
-"caption": "With a Lifetime ISA you save up to £4,000 a year and get a 25% bonus, up to £1,000. Open it before 40.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Lifetime ISA: save up to £4,000 a year, get a 25% bonus (max £1,000).",
-"day": "2026-10-26",
-"k": "lisa",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-mtd-signup",
-"tag": "Making Tax Digital",
-"figure": "Sign up",
-"headline": "Need to join MTD? Sign up early",
-"lines": [
-"Check whether you're over the threshold",
-"Choose software before your deadline",
-"We can help you sign up"
-],
-"caption": "If you are over the Making Tax Digital threshold, sign up and choose software early, not in the last week.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Over the MTD threshold? Sign up and choose software early.",
-"day": "2026-10-26",
-"k": "mtd-signup",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-26-iht-7yr",
-"tag": "Gifts",
-"figure": "7 years",
-"headline": "The 7-year rule for larger gifts",
-"lines": [
-"Gifts above your allowances may be taxed",
-"If you live 7 years, they usually fall outside your estate",
-"Keep a record of what you gave and when"
-],
-"caption": "Larger gifts usually fall outside your estate if you live for 7 years after making them. Keep records.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Larger gifts usually escape Inheritance Tax if you live 7 years after giving them.",
-"day": "2026-10-26",
-"k": "iht-7yr",
-"extra": true,
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-sa-utr",
-"tag": "UTR",
-"figure": "10 digits",
-"headline": "What is a UTR and where do you find it?",
-"lines": [
-"Unique Taxpayer Reference: 10 digits",
-"You get it after registering with HMRC",
-"Find it in your HMRC online account or the HMRC app"
-],
-"caption": "Your UTR is your 10-digit taxpayer reference. You need it for every tax return and whenever you speak to HMRC.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Your UTR is a 10-digit number from HMRC. Find it in your online account or the HMRC app.",
-"day": "2026-10-27",
-"k": "sa-utr",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-exp-no",
-"tag": "Expenses",
-"figure": "Not allowable",
-"headline": "What you CAN'T claim as an expense",
-"lines": [
-"Your daily commute to a regular workplace",
-"Everyday clothes and daily meals",
-"Parking and speeding fines"
-],
-"caption": "Watch out for costs HMRC won't accept: your normal commute, everyday clothes, daily meals and fines.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Not allowable: your daily commute, everyday clothes, daily meals and fines.",
-"day": "2026-10-27",
-"k": "exp-no",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-exp-invoice",
-"tag": "Invoices",
-"figure": "5 details",
-"headline": "What every invoice needs",
-"lines": [
-"A unique invoice number and date",
-"Your name and address, and the customer's",
-"What you did and the amount due"
-],
-"caption": "A proper invoice has a unique number, date, your details and the customer's, a description and the amount due.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Every invoice needs: unique number, date, your and your customer's details, description, amount.",
-"day": "2026-10-27",
-"k": "exp-invoice",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-prop-interest",
-"tag": "Landlords",
-"figure": "20%",
-"headline": "Mortgage interest on a rental property",
-"lines": [
-"It is no longer deducted from rent",
-"You get a 20% tax reduction instead",
-"This matters most for higher-rate taxpayers"
-],
-"caption": "For individual landlords, mortgage interest isn't deducted from rent any more. You get a 20% tax reduction instead.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Landlords: mortgage interest gives a 20% tax reduction, not a deduction from rent.",
-"day": "2026-10-27",
-"k": "prop-interest",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-ltd-dla",
-"tag": "Limited companies",
-"figure": "Careful",
-"headline": "Taking money out of your company?",
-"lines": [
-"If it isn't salary or dividend, it's a director's loan",
-"Not repaid in time, and the company pays extra tax",
-"Keep a record of every amount"
-],
-"caption": "Money you take that isn't salary or dividends is a director's loan. If it isn't repaid in time, the company pays extra tax.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Director's loan: money taken that isn't salary or dividends. Repay it in time to avoid extra tax.",
-"day": "2026-10-27",
-"k": "ltd-dla",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-vat-mtd",
-"tag": "VAT",
-"figure": "MTD",
-"headline": "Every VAT-registered business is in Making Tax Digital",
-"lines": [
-"Digital VAT records",
-"Returns sent from compatible software",
-"Whatever your turnover"
-],
-"caption": "Every VAT-registered business must keep digital records and file VAT returns through compatible software.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "All VAT-registered businesses must use Making Tax Digital for VAT.",
-"day": "2026-10-27",
-"k": "vat-mtd",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-rti",
-"tag": "Payroll",
-"figure": "Payday",
-"headline": "Reporting payroll to HMRC",
-"lines": [
-"Send an FPS on or before payday",
-"For every payment, not just monthly",
-"Late reports can bring penalties"
-],
-"caption": "As an employer, you send HMRC a Full Payment Submission on or before every payday.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Employers: send your FPS to HMRC on or before every payday.",
-"day": "2026-10-27",
-"k": "rti",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-scam",
-"tag": "Warning",
-"figure": "Scam",
-"headline": "HMRC won't ask for bank details by text",
-"lines": [
-"Ignore texts offering a \"tax refund\"",
-"Don't click suspicious links",
-"Check everything in your gov.uk account"
-],
-"caption": "HMRC won't text or email you a link asking for bank details for a \"refund\". Check everything in your gov.uk account.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Scam alert: HMRC won't text you a refund link asking for bank details.",
-"day": "2026-10-27",
-"k": "scam",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-dta",
-"tag": "Double taxation",
-"figure": "Treaty",
-"headline": "The UK has double tax treaties",
-"lines": [
-"The same income shouldn't be taxed twice",
-"Foreign tax credit relief applies",
-"You need paperwork from both countries"
-],
-"caption": "The UK has double taxation agreements with many countries. With the right paperwork, the same income isn't taxed twice.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Double tax treaties: claim foreign tax credit relief so the same income isn't taxed twice.",
-"day": "2026-10-27",
-"k": "dta",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-ola-why",
-"tag": "Ola Accountancy",
-"figure": "EN + RO",
-"headline": "Accounting in your language",
-"lines": [
-"A team that speaks English and Romanian",
-"Offices in Luton and Birmingham",
-"Quick bookings on WhatsApp"
-],
-"caption": "At Ola we explain everything clearly and deal with HMRC for you. Offices in Luton and Birmingham.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Ola Accountancy: English and Romanian-speaking accountants in Luton and Birmingham.",
-"day": "2026-10-27",
-"k": "ola-why",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-cis-rates",
-"tag": "Construction (CIS)",
-"figure": "20%",
-"headline": "Working in construction under CIS?",
-"lines": [
-"Registered: 20% deducted",
-"Not registered: 30% deducted",
-"Gross payment status: 0%"
-],
-"caption": "Under CIS, contractors deduct 20% if you're registered and 30% if you're not. Registering makes a real difference.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "CIS deductions: 20% registered, 30% unregistered, 0% with gross payment status.",
-"day": "2026-10-27",
-"k": "cis-rates",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-idv",
-"tag": "Companies House",
-"figure": "ID check",
-"headline": "Directors must verify their identity",
-"lines": [
-"Mandatory from 18 November 2025",
-"12-month transition period",
-"Applies to people with significant control too"
-],
-"caption": "Companies House identity verification became mandatory on 18 November 2025 for directors and PSCs, with a 12-month transition.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Directors and PSCs must verify identity with Companies House. The 12-month transition is ending.",
-"day": "2026-10-27",
-"k": "idv",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-losses",
-"tag": "Self-employed",
-"figure": "Loss",
-"headline": "Made a loss in your business?",
-"lines": [
-"Declare it; don't ignore it",
-"It can reduce tax in other years",
-"Or on other income, in some cases"
-],
-"caption": "A business loss should be declared. In some cases it can reduce tax on other income or in other years.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Made a trading loss? Declare it: it may reduce tax in other years or on other income.",
-"day": "2026-10-27",
-"k": "losses",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-cb-register",
-"tag": "Child Benefit",
-"figure": "NI credits",
-"headline": "High earner? Still register for Child Benefit",
-"lines": [
-"Registering can give National Insurance credits",
-"They count towards your State Pension",
-"You can opt out of the payments"
-],
-"caption": "Even if you earn a lot, registering for Child Benefit can give a non-working parent NI credits for their pension.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "High earner? Still register for Child Benefit for the NI credits; you can opt out of payments.",
-"day": "2026-10-27",
-"k": "cb-register",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-27-iht-wedding",
-"tag": "Gifts",
-"figure": "£5,000",
-"headline": "Wedding gifts and Inheritance Tax",
-"lines": [
-"Parents can give £5,000",
-"Grandparents can give £2,500",
-"Anyone else: £1,000"
-],
-"caption": "Wedding gifts are exempt up to £5,000 from a parent, £2,500 from a grandparent and £1,000 from anyone else.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Wedding gift exemptions: £5,000 parent, £2,500 grandparent, £1,000 others.",
-"day": "2026-10-27",
-"k": "iht-wedding",
-"extra": true,
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-sa-docs",
-"tag": "Self Assessment",
-"figure": "Checklist",
-"headline": "What to gather for your tax return",
-"lines": [
-"P60 or P45 if you also had a job",
-"Bank statements and sales invoices",
-"Expense receipts and your mileage log"
-],
-"caption": "To get your return done quickly and correctly, gather your P60 or P45, bank statements, invoices and expense receipts.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Tax return checklist: P60/P45, bank statements, invoices, expense receipts and your mileage log.",
-"day": "2026-10-28",
-"k": "sa-docs",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-exp-aia",
-"tag": "Equipment",
-"figure": "£1,000,000",
-"headline": "Buying equipment for your business?",
-"lines": [
-"Annual Investment Allowance: up to £1 million a year",
-"Deduct the full cost in the year you buy",
-"Cars follow different rules"
-],
-"caption": "The Annual Investment Allowance lets you deduct the full cost of business equipment, up to £1 million a year, in the year you buy it.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Annual Investment Allowance: deduct up to £1m of equipment in the year you buy it. Cars have separate rules.",
-"day": "2026-10-28",
-"k": "exp-aia",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-mtd-7nov",
+"id": "en-11-02-mtd-quarters",
 "tag": "Making Tax Digital",
 "figure": "7 Nov",
-"headline": "In MTD? Your next update is due 7 November",
+"headline": "MTD: next update due 7 November",
 "lines": [
-"7 November 2026: second quarterly update",
-"Then 7 February and 7 May 2027",
-"Everything goes through compatible software"
+"Deadlines: 7 August, 7 November",
+"Then 7 February and 7 May",
+"Next one: 7 November 2026"
 ],
-"caption": "If you are in Making Tax Digital, your second quarterly update for 2026–27 is due by 7 November 2026.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Making Tax Digital: second quarterly update due 7 November 2026, then 7 Feb and 7 May 2027.",
-"day": "2026-10-28",
-"k": "mtd-7nov",
+"caption": "Already in Making Tax Digital? Your next quarterly update is due 7 November 2026. The others: 7 February, 7 May and 7 August.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "MTD quarterly update deadlines: 7 Aug, 7 Nov, 7 Feb, 7 May. Next one: 7 November 2026.",
+"day": "2026-11-02",
+"k": "mtd-quarters",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-28-prop-exp",
-"tag": "Landlords",
-"figure": "Expenses",
-"headline": "What landlords can claim",
-"lines": [
-"Repairs and maintenance (not improvements)",
-"Letting agent fees and insurance",
-"Required safety certificates"
-],
-"caption": "Landlords can claim repairs, agent fees, insurance and safety certificates. Improvements follow different rules.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Landlords can claim repairs, agent fees, insurance and safety certificates; improvements differ.",
-"day": "2026-10-28",
-"k": "prop-exp",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-ltd-div-profit",
-"tag": "Dividends",
-"figure": "Profits",
-"headline": "Dividends only come from profits",
-"lines": [
-"Dividends can only be paid from available profits",
-"No profits, no legal dividend",
-"Keep minutes of each dividend decision"
-],
-"caption": "Dividends can only be paid from your company's available profits. No profits, no lawful dividend.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Dividends must come from available company profits. Keep minutes and vouchers.",
-"day": "2026-10-28",
-"k": "ltd-div-profit",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-vat-voluntary",
-"tag": "VAT",
-"figure": "Voluntary",
-"headline": "Should you register for VAT voluntarily?",
-"lines": [
-"You can reclaim VAT on your costs",
-"Business customers can reclaim your VAT",
-"Private customers end up paying more"
-],
-"caption": "Voluntary VAT registration can make sense if you sell to businesses. If you sell to the public, prices go up for them.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Voluntary VAT registration: good for B2B, can cost you with private customers.",
-"day": "2026-10-28",
-"k": "vat-voluntary",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-p60",
-"tag": "Payroll",
-"figure": "31 May",
-"headline": "Employers must give a P60 by 31 May",
-"lines": [
-"P60 shows a year's pay and tax",
-"Every employee on payroll at 5 April gets one",
-"Keep it for tax returns and loans"
-],
-"caption": "Employers must give each employee a P60 by 31 May. Keep yours: you'll need it later.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "P60s must be given to employees by 31 May.",
-"day": "2026-10-28",
-"k": "p60",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-pension-years",
-"tag": "State Pension",
-"figure": "35 years",
-"headline": "How many qualifying years you need",
-"lines": [
-"35 years for the full new State Pension",
-"At least 10 years for any State Pension",
-"Check your record in your HMRC account"
-],
-"caption": "You need 35 qualifying National Insurance years for the full new State Pension and at least 10 for any.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Full new State Pension needs 35 NI years; at least 10 for any pension.",
-"day": "2026-10-28",
-"k": "pension-years",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-letters",
-"tag": "HMRC",
-"figure": "Letter",
-"headline": "Got a letter from HMRC? Don't ignore it",
-"lines": [
-"Check the response deadline",
-"Confirm it's genuine in your account",
-"Bring it to us and we'll help you reply"
-],
-"caption": "An ignored HMRC letter becomes a bigger problem. Check the deadline and bring it to us; we'll help you respond.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Got a letter from HMRC? Check the deadline and get help replying. Ignoring it costs more.",
-"day": "2026-10-28",
-"k": "letters",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-myth-small",
-"tag": "Myth",
-"figure": "False",
-"headline": "\"I earn too little to declare it\"",
-"lines": [
-"Over £1,000 of self-employed income, you register",
-"Even if you also have a salaried job",
-"Penalties apply to small amounts too"
-],
-"caption": "Myth: \"I earn too little to declare it.\" Over £1,000 a year of self-employed income, you must register.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Myth: small side income doesn't count. Over £1,000 a year, you must register.",
-"day": "2026-10-28",
-"k": "myth-small",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-cis-refund",
-"tag": "Construction (CIS)",
-"figure": "Refund",
-"headline": "Had too much deducted under CIS?",
-"lines": [
-"CIS deductions are advance tax payments",
-"Your expenses reduce your real tax bill",
-"HMRC refunds the difference via your return"
-],
-"caption": "CIS deductions are advance payments. Once expenses are taken off, many subcontractors are due a refund through Self Assessment.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "CIS subcontractor? Deductions are advance tax payments, often refunded via your tax return.",
-"day": "2026-10-28",
-"k": "cis-refund",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-vat-cash",
-"tag": "VAT",
-"figure": "£1.35m",
-"headline": "VAT cash accounting",
-"lines": [
-"Pay VAT when your customer actually pays",
-"For taxable turnover up to £1.35 million",
-"Helps if customers pay late"
-],
-"caption": "With VAT cash accounting you pay VAT only when customers pay you. Available up to £1.35 million taxable turnover.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "VAT cash accounting: pay VAT when you get paid, for turnover up to £1.35m.",
-"day": "2026-10-28",
-"k": "vat-cash",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-ola-agent",
-"tag": "Ola Accountancy",
-"figure": "HMRC agent",
-"headline": "We deal with HMRC for you",
-"lines": [
-"You authorise us as your agent",
-"We handle HMRC letters and calls",
-"You focus on your business"
-],
-"caption": "Once you authorise us as your agent, we deal with HMRC letters and calls for you.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Authorise Ola as your HMRC agent and we handle the letters and calls.",
-"day": "2026-10-28",
-"k": "ola-agent",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-student-loan",
-"tag": "Student loan",
-"figure": "Self Assessment",
-"headline": "Self-employed with a student loan?",
-"lines": [
-"Repayments are worked out through Self Assessment",
-"They're added to your tax bill",
-"Include them when you save for tax"
-],
-"caption": "If you're self-employed with a student loan, repayments are calculated through Self Assessment and added to your bill.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Self-employed with a student loan? Repayments are added to your Self Assessment bill.",
-"day": "2026-10-28",
-"k": "student-loan",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-28-will",
-"tag": "Planning",
-"figure": "A will",
-"headline": "Why every business owner needs a will",
-"lines": [
-"Decide who inherits your business and assets",
-"Make sure the right reliefs can be claimed",
-"Review it after big life changes"
-],
-"caption": "A will decides who inherits your business and assets and helps your family claim the right reliefs. Review it after big changes.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Business owner? A will protects your family and your business.",
-"day": "2026-10-28",
-"k": "will",
-"extra": true,
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-29-sa-amend",
-"tag": "Amendments",
-"figure": "12 months",
-"headline": "Made a mistake on your tax return? You can fix it",
-"lines": [
-"You can amend your return online",
-"You have 12 months from the 31 January deadline",
-"Fix it before HMRC asks"
-],
-"caption": "Spotted a mistake on a return you already filed? You can amend it online within 12 months of the 31 January deadline.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Mistake on your tax return? Amend it online within 12 months of the 31 January deadline.",
-"day": "2026-10-29",
-"k": "sa-amend",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-29-exp-cash",
-"tag": "Cash basis",
-"figure": "Standard",
-"headline": "Cash basis: the simplest way to keep records",
-"lines": [
-"Record money when it actually comes in or goes out",
-"It is now the standard for sole traders",
-"You can still opt for traditional accounting"
-],
-"caption": "For sole traders, cash basis is now the standard: you record income and expenses when the money actually moves.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Cash basis is now the standard for sole traders: record money when it actually comes in or goes out.",
-"day": "2026-10-29",
-"k": "exp-cash",
-"wa": "Message us on WhatsApp",
-"disc": "General information only. Speak to an accountant about your situation."
-},
-{
-"id": "en-10-29-mtd-software",
+"id": "en-11-02-mtd-easement",
 "tag": "Making Tax Digital",
-"figure": "Software",
-"headline": "What you need for Making Tax Digital",
+"figure": "2026-27",
+"headline": "MTD: no penalties for late updates in 2026-27",
 "lines": [
-"HMRC-compatible software",
-"Digital records of income and expenses",
-"4 quarterly updates plus a final declaration"
+"For people in MTD from April 2026",
+"Updates must still be sent before your return",
+"A late annual return still earns a point"
 ],
-"caption": "MTD means compatible software and digital records kept through the year, not a shoebox of receipts in January.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "MTD needs HMRC-compatible software, digital records and 4 quarterly updates a year.",
-"day": "2026-10-29",
-"k": "mtd-software",
+"caption": "In the first MTD year, 2026 to 2027, there are no penalties for missing a quarterly update deadline. The annual return deadline still counts.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "MTD 2026-27: no penalties for late quarterly updates, but a late tax return still earns a penalty point.",
+"day": "2026-11-02",
+"k": "mtd-easement",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-cgt-60",
-"tag": "Capital Gains Tax",
-"figure": "60 days",
-"headline": "Selling a property that isn't your home?",
+"id": "en-11-02-b26-poa-2029",
+"tag": "Budget 2026",
+"figure": "2029",
+"headline": "Payments on account to change from 2029",
 "lines": [
-"Report the sale to HMRC within 60 days",
-"Pay the tax within the same 60 days",
-"Applies to UK residential property"
+"Smaller, more regular payments in the year",
+"Automated, with a PAYE option",
+"Announced in the 28 October Budget"
 ],
-"caption": "Selling UK residential property that isn't your main home? You have 60 days to report and pay Capital Gains Tax.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Sold a UK residential property that isn't your home? Report and pay CGT within 60 days.",
-"day": "2026-10-29",
-"k": "cgt-60",
+"caption": "From April 2029, people who make payments on account will pay smaller, more regular amounts in the year. Until then, the rules stay the same.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: from April 2029 payments on account become smaller and more regular, with a PAYE option.",
+"day": "2026-11-02",
+"k": "b26-poa-2029",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-ltd-trivial",
-"tag": "Benefits",
-"figure": "£50",
-"headline": "Small tax-free gifts for staff",
+"id": "en-11-02-b26-se-paternity",
+"tag": "Budget 2026",
+"figure": "2029",
+"headline": "Self-employed dads to get parental pay",
 "lines": [
-"Up to £50 per gift, not cash",
-"Not a reward for work",
-"Directors of small companies: £300 a year cap"
+"A first for self-employed fathers",
+"From April 2029 in Great Britain",
+"Partners and adopters included"
 ],
-"caption": "Trivial benefits let you give gifts of up to £50 tax-free, as long as they aren't cash or a reward. Directors have a £300 yearly cap.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Trivial benefits: tax-free gifts up to £50 each (not cash). Directors capped at £300 a year.",
-"day": "2026-10-29",
-"k": "ltd-trivial",
+"caption": "From April 2029, eligible self-employed fathers, partners and adopters in Great Britain can get parental pay for the first time.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: self-employed fathers, partners and adopters get access to parental pay from April 2029.",
+"day": "2026-11-02",
+"k": "b26-se-paternity",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-vat-flat",
+"id": "en-11-02-vat-prereg",
 "tag": "VAT",
-"figure": "Flat Rate",
-"headline": "The VAT Flat Rate Scheme in brief",
+"figure": "4 years",
+"headline": "Just registered for VAT? Reclaim the past",
 "lines": [
-"You pay a fixed % of your gross turnover",
-"Limited cost traders: 16.5%",
-"You can't reclaim VAT on most costs"
+"Goods bought up to 4 years before",
+"If you still have them or goods made from them",
+"Services: up to 6 months before"
 ],
-"caption": "The Flat Rate Scheme simplifies VAT: you pay a fixed percentage of turnover. Limited cost traders pay 16.5%.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "VAT Flat Rate Scheme: fixed % of turnover; limited cost traders pay 16.5%.",
-"day": "2026-10-29",
-"k": "vat-flat",
+"caption": "After registering for VAT you can reclaim VAT on goods bought up to 4 years before, if you still have them, and on services from the last 6 months.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "New VAT registration? Reclaim VAT on goods up to 4 years back (if still held) and services up to 6 months back.",
+"day": "2026-11-02",
+"k": "vat-prereg",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-p11d",
-"tag": "Payroll",
-"figure": "6 July",
-"headline": "Reporting staff benefits: P11D",
+"id": "en-11-02-ct-rates",
+"tag": "Limited companies",
+"figure": "19%",
+"headline": "Corporation Tax: 19% or 25%",
 "lines": [
-"Company cars, private medical cover and more",
-"Report on P11D by 6 July",
-"Employers pay Class 1A National Insurance"
+"Profits up to £50,000: 19%",
+"Profits over £250,000: 25%",
+"In between: marginal relief"
 ],
-"caption": "Benefits in kind, like company cars, are reported on a P11D by 6 July after the tax year.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Benefits in kind go on a P11D by 6 July.",
-"day": "2026-10-29",
-"k": "p11d",
+"caption": "Companies pay 19% Corporation Tax on profits up to £50,000 and 25% above £250,000, with marginal relief in between.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Corporation Tax: 19% up to £50,000 profit, 25% above £250,000, marginal relief between.",
+"day": "2026-11-02",
+"k": "ct-rates",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-pension-relief",
-"tag": "Pensions",
-"figure": "£60,000",
-"headline": "Pension contributions cut your tax",
+"id": "en-11-02-ct600-12m",
+"tag": "Limited companies",
+"figure": "9 months",
+"headline": "Corporation Tax: pay before you file",
 "lines": [
-"You get tax relief on contributions",
-"Annual allowance: usually £60,000",
-"A smart move for the self-employed"
+"Payment: usually 9 months and 1 day after year end",
+"Company Tax Return: within 12 months",
+"Do not wait for the return to pay"
 ],
-"caption": "Pension contributions get tax relief, with a standard annual allowance of £60,000. One of the best tax savers for the self-employed.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Pension contributions get tax relief; annual allowance is usually £60,000.",
-"day": "2026-10-29",
-"k": "pension-relief",
+"caption": "Corporation Tax is usually due 9 months and 1 day after the year end, but the return is due 12 months after. Payment comes first.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Corporation Tax: usually pay 9 months + 1 day after year end; file the return within 12 months.",
+"day": "2026-11-02",
+"k": "ct600-12m",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-ola-hours",
+"id": "en-11-02-ch-penalties",
+"tag": "Companies House",
+"figure": "£1,500",
+"headline": "Late company accounts cost money",
+"lines": [
+"Up to 1 month: £150; 1-3 months: £375",
+"3-6 months: £750; over 6 months: £1,500",
+"Late two years running: doubled"
+],
+"caption": "Companies House fines late accounts from £150 to £1,500, and doubles it if you are late two years in a row.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Late private company accounts: £150, £375, £750 or £1,500, doubled if late two years running.",
+"day": "2026-11-02",
+"k": "ch-penalties",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-02-ea-10500",
+"tag": "Employers",
+"figure": "£10,500",
+"headline": "Employment Allowance: up to £10,500",
+"lines": [
+"Cuts your employer National Insurance",
+"Not if your sole director is the only employee",
+"Claimed through payroll"
+],
+"caption": "Employment Allowance cuts employer NI by up to £10,500 a year, but not for a company whose only employee is its sole director.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Employment Allowance: up to £10,500 off employer NI. Not available to sole-director-only companies.",
+"day": "2026-11-02",
+"k": "ea-10500",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-02-ola-mtd",
 "tag": "Ola Accountancy",
-"figure": "10–4",
-"headline": "When you can visit us",
+"figure": "MTD",
+"headline": "Help with Making Tax Digital",
 "lines": [
-"Monday to Friday, 10am to 4pm",
-"Luton: 23A George Street, LU1 2AF",
-"Birmingham: 22-42 Washwood Heath Rd, B8 1RB"
+"We check if and when MTD applies to you",
+"We explain the digital records you need",
+"Message us to talk it through"
 ],
-"caption": "Visit us Monday to Friday, 10am to 4pm, at our Luton and Birmingham offices. Book on WhatsApp.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Ola Accountancy: Mon–Fri 10am–4pm in Luton and Birmingham.",
-"day": "2026-10-29",
-"k": "ola-hours",
+"caption": "Not sure if Making Tax Digital applies to you? We check when it starts for you and what records you need.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Not sure if MTD applies to you? Ola Accountancy checks when and what records you need.",
+"day": "2026-11-02",
+"k": "ola-mtd",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-myth-paye",
-"tag": "Myth",
-"figure": "False",
-"headline": "\"I'm on PAYE, so there's nothing to do\"",
+"id": "en-11-02-smp-194",
+"tag": "Family",
+"figure": "£194.32",
+"headline": "Maternity and paternity pay 2026-27",
 "lines": [
-"Check your tax code",
-"Other income may still need declaring",
-"You might even be owed a refund"
+"Maternity: 90% of pay for the first 6 weeks",
+"Then £194.32 a week or 90%, whichever is lower",
+"Paternity: £194.32 or 90%, whichever is lower"
 ],
-"caption": "Even on PAYE, check your tax code and any extra income. Sometimes HMRC owes you money.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "On PAYE? Still check your tax code and other income. You might be owed a refund.",
-"day": "2026-10-29",
-"k": "myth-paye",
+"caption": "Statutory Maternity Pay for 2026 to 2027: 90% for 6 weeks, then £194.32 or 90% if lower. Paternity pay follows the same weekly rate.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "SMP 2026-27: 90% for 6 weeks, then £194.32 or 90% if lower. SPP: £194.32 or 90% if lower.",
+"day": "2026-11-02",
+"k": "smp-194",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-cis-gross",
-"tag": "Construction (CIS)",
+"id": "en-11-02-nmw-18-20",
+"tag": "Employees",
+"figure": "£10.85",
+"headline": "Minimum wage for younger workers now",
+"lines": [
+"Age 18 to 20: £10.85 an hour",
+"Under 18 and apprentices: £8 an hour",
+"Age 21 and over: £12.71 an hour"
+],
+"caption": "Current minimum wage rates since April 2026: £12.71 for 21+, £10.85 for 18 to 20, and £8 for under-18s and apprentices.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Minimum wage now: £12.71 (21+), £10.85 (18-20), £8 (under 18 and apprentices).",
+"day": "2026-11-02",
+"k": "nmw-18-20",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-02-cash-basis",
+"tag": "Self-employed",
+"figure": "Cash",
+"headline": "Cash basis is now the standard method",
+"lines": [
+"Record money when it comes in and goes out",
+"Traditional accounting only if you choose it",
+"Limited companies cannot use cash basis"
+],
+"caption": "For sole traders, cash basis is now the standard way to record income and expenses. Traditional accounting is an opt-in.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Sole traders: cash basis is now standard. Traditional accounting is opt-in. Companies cannot use it.",
+"day": "2026-11-02",
+"k": "cash-basis",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-02-sl-thresholds",
+"tag": "Student loan",
+"figure": "£29,385",
+"headline": "When student loan repayments start",
+"lines": [
+"Plan 2: over £29,385 a year",
+"Plan 1: £26,900; Plan 5: £25,000",
+"You repay 9% of income above the threshold"
+],
+"caption": "Student loan thresholds for 2026 to 2027: Plan 2 £29,385, Plan 1 £26,900, Plan 5 £25,000. You repay 9% above the threshold.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Student loan 2026-27: Plan 2 £29,385, Plan 1 £26,900, Plan 5 £25,000; 9% above threshold.",
+"day": "2026-11-02",
+"k": "sl-thresholds",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-02-b26-ev-bik",
+"tag": "Budget 2026",
+"figure": "4%",
+"headline": "Electric company cars: BIK rises slowly",
+"lines": [
+"2026-27: 4%; 2027-28: 5%",
+"2028-29: 7%; 2029-30: 9%",
+"Still well below most petrol and diesel cars"
+],
+"caption": "Company car tax on zero-emission cars stays low: 4% this year, 5% next, then 7% and 9%.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Electric company car BIK: 4% (26-27), 5% (27-28), 7% (28-29), 9% (29-30).",
+"day": "2026-11-02",
+"k": "b26-ev-bik",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-b26-eved",
+"tag": "Budget 2026",
+"figure": "3p",
+"headline": "Electric cars: pay-per-mile from 2028",
+"lines": [
+"eVED from 1 April 2028",
+"3p a mile for battery electric cars",
+"1.5p a mile for plug-in hybrids"
+],
+"caption": "The Budget confirms eVED from April 2028: 3p a mile for electric cars and 1.5p for plug-in hybrids.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: eVED from 1 April 2028, 3p a mile for EVs and 1.5p for plug-in hybrids.",
+"day": "2026-11-03",
+"k": "b26-eved",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-b26-isa-20k",
+"tag": "Budget 2026",
+"figure": "£20,000",
+"headline": "The £20,000 ISA limit stays",
+"lines": [
+"Including cash ISAs for over-18s",
+"Confirmed in the 28 October Budget",
+"ISA interest is tax-free"
+],
+"caption": "The Budget keeps the £20,000 annual ISA limit, including for cash ISAs. With savings tax rising in 2027, ISAs matter more.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: the £20,000 ISA limit stays, including cash ISAs for over-18s.",
+"day": "2026-11-03",
+"k": "b26-isa-20k",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-sa-early",
+"tag": "Self Assessment",
+"figure": "Now",
+"headline": "Why file now, not in January",
+"lines": [
+"You know your bill early",
+"You have time to save before 31 January",
+"Refunds arrive sooner"
+],
+"caption": "The deadline is 31 January, but filing now tells you your bill early and gives you months to prepare.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "File your Self Assessment early: know your bill, plan your cash, get refunds sooner.",
+"day": "2026-11-03",
+"k": "sa-early",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-myth-cash",
+"tag": "Myths",
+"figure": "Myth",
+"headline": "\"Cash payments don't count.\" Wrong",
+"lines": [
+"All income must be declared",
+"Online platforms report sales to HMRC",
+"Put it right before HMRC asks"
+],
+"caption": "Cash income is taxable like any other income. If something was missed, correcting it yourself beats waiting for HMRC.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Cash income must be declared like any other. If you missed some, correct it before HMRC asks.",
+"day": "2026-11-03",
+"k": "myth-cash",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-hicbc-paye",
+"tag": "Child Benefit",
+"figure": "PAYE",
+"headline": "Pay the Child Benefit charge via PAYE",
+"lines": [
+"If you do not file Self Assessment otherwise",
+"Otherwise it goes on your tax return",
+"Or opt out and keep NI credits"
+],
+"caption": "Employed and not filing Self Assessment for another reason? You can pay the Child Benefit charge through PAYE. Opting out keeps NI credits.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "HICBC can be paid through PAYE if you do not need Self Assessment for anything else.",
+"day": "2026-11-03",
+"k": "hicbc-paye",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-state-pension-241",
+"tag": "Pension",
+"figure": "£241.30",
+"headline": "Full new State Pension now",
+"lines": [
+"£241.30 a week in 2026-27",
+"35 qualifying years for the full amount",
+"At least 10 years to get any"
+],
+"caption": "The full new State Pension is £241.30 a week in 2026 to 2027. You usually need 35 qualifying years, and at least 10 to get any.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Full new State Pension 2026-27: £241.30/week. 35 qualifying years for full, 10 minimum.",
+"day": "2026-11-03",
+"k": "state-pension-241",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-spa-67",
+"tag": "Pension",
+"figure": "67",
+"headline": "State Pension age is rising to 67",
+"lines": [
+"Rising in steps between 2026 and 2028",
+"Born 6 Apr 1960 to 5 Mar 1961: between 66 and 67",
+"Born from 6 March 1961: age 67"
+],
+"caption": "State Pension age is rising from 66 to 67 between 2026 and 2028. Check your exact date on GOV.UK.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "State Pension age rises from 66 to 67 between 2026 and 2028. Born from 6 March 1961: 67.",
+"day": "2026-11-03",
+"k": "spa-67",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-er-under21",
+"tag": "Employers",
 "figure": "0%",
-"headline": "CIS gross payment status",
+"headline": "Under-21 staff: 0% employer NI",
 "lines": [
-"You get paid with no deductions",
-"You must meet turnover tests",
-"And keep your tax affairs up to date"
+"0% up to £967 a week",
+"15% only above that",
+"Same for apprentices under 25"
 ],
-"caption": "With gross payment status you're paid in full, with no CIS deductions, if you meet HMRC's tests and stay compliant.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "CIS gross payment status: paid in full with no deductions, if you pass HMRC's tests.",
-"day": "2026-10-29",
-"k": "cis-gross",
+"caption": "For employees under 21 and apprentices under 25, employer NI is 0% up to £967 a week and 15% above.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Employer NI is 0% up to £967/week for under-21s and apprentices under 25.",
+"day": "2026-11-03",
+"k": "er-under21",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-vat-rates",
+"id": "en-11-03-ola-sa-early",
+"tag": "Ola Accountancy",
+"figure": "31 Jan",
+"headline": "Get your return done with us in November",
+"lines": [
+"Send your documents now, not in late January",
+"We tell you the figure early",
+"Pay on time, without the stress"
+],
+"caption": "Do not leave your return for the last week of January. Send us your documents now and we tell you the figure early.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Beat the January rush: send your Self Assessment documents to Ola Accountancy now.",
+"day": "2026-11-03",
+"k": "ola-sa-early",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-gifts-50",
+"tag": "Expenses",
+"figure": "£50",
+"headline": "Client gifts: when you can claim them",
+"lines": [
+"Up to £50 per recipient per year",
+"Must carry a clear advert for your business",
+"Not food, drink or vouchers"
+],
+"caption": "Client gifts are only deductible if they advertise your business, cost no more than £50 per recipient per year and are not food, drink or vouchers.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Client gifts: deductible if branded, up to £50 per recipient a year, and not food, drink or vouchers.",
+"day": "2026-11-03",
+"k": "gifts-50",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-vat-gifts-50",
 "tag": "VAT",
-"figure": "20%",
-"headline": "UK VAT rates",
+"figure": "£50",
+"headline": "Business gifts and VAT",
 "lines": [
-"Standard rate: 20%",
-"Reduced rate: 5% (e.g. domestic energy)",
-"Zero rate: 0% (e.g. most food)"
+"Cost £50 or less: no VAT due",
+"Limit: £50 to the same person in a year",
+"Business gifts only"
 ],
-"caption": "UK VAT has three rates: 20% standard, 5% reduced and 0% zero-rated. What you sell decides which applies.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "UK VAT rates: 20% standard, 5% reduced, 0% zero.",
-"day": "2026-10-29",
-"k": "vat-rates",
+"caption": "VAT-registered? Business gifts costing £50 or less to the same person in a year are outside VAT.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "VAT: business gifts costing £50 or less to the same person in a year are outside VAT.",
+"day": "2026-11-03",
+"k": "vat-gifts-50",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-ola-residency",
-"tag": "Tax residence",
-"figure": "HMRC",
-"headline": "UK certificate of residence",
+"id": "en-11-03-mar-relief",
+"tag": "Employees",
+"figure": "55p",
+"headline": "Employer pays under 55p a mile?",
 "lines": [
-"Issued by HMRC to UK tax residents",
-"It confirms your real situation",
-"We help you apply correctly"
+"Claim the difference as tax relief",
+"It is called Mileage Allowance Relief",
+"Business journeys only, not commuting"
 ],
-"caption": "HMRC issues certificates of residence to people who are UK tax resident. We help you apply correctly.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Need proof of UK tax residence? HMRC issues certificates of residence; we can help you apply.",
-"day": "2026-10-29",
-"k": "ola-residency",
+"caption": "Use your own car for work and your employer pays under 55p a mile? You can claim tax relief on the shortfall.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Employer pays less than 55p a mile? Claim Mileage Allowance Relief on the shortfall.",
+"day": "2026-11-03",
+"k": "mar-relief",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-ltd-first-year",
-"tag": "Limited companies",
-"figure": "Year one",
-"headline": "New company: your first-year duties",
+"id": "en-11-03-uniform",
+"tag": "Employees",
+"figure": "Uniform",
+"headline": "Wash your own work uniform?",
 "lines": [
-"Register for Corporation Tax within 3 months",
-"First accounts within 21 months",
-"Confirmation statement within 12 months"
+"You may claim tax relief for cleaning it",
+"Uniforms and protective clothing only",
+"You can go back 4 tax years"
 ],
-"caption": "In year one a new company registers for Corporation Tax, files its first confirmation statement and prepares first accounts.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "New company? CT registration in 3 months, confirmation statement in 12, first accounts in 21.",
-"day": "2026-10-29",
-"k": "ltd-first-year",
+"caption": "Wash your own work uniform? You may be able to claim tax relief, for this year and the previous 4.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Wash your own work uniform? Claim tax relief, backdated up to 4 years.",
+"day": "2026-11-03",
+"k": "uniform",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 },
 {
-"id": "en-10-29-marg-relief",
-"tag": "Limited companies",
-"figure": "£50k–£250k",
-"headline": "Corporation Tax marginal relief explained",
+"id": "en-11-03-mtd-digital-records",
+"tag": "Making Tax Digital",
+"figure": "Digital",
+"headline": "MTD means digital records",
 "lines": [
-"19% up to £50,000 profit",
-"25% above £250,000",
-"In between, marginal relief smooths the jump"
+"Income and expenses in compatible software",
+"Quarterly updates sent to HMRC",
+"Your final return from the software too"
 ],
-"caption": "Between £50,000 and £250,000 of profit, marginal relief smooths the step from 19% to 25% Corporation Tax.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
-"bsky": "Corporation Tax marginal relief applies between £50,000 and £250,000 of profit.",
-"day": "2026-10-29",
-"k": "marg-relief",
-"extra": true,
+"caption": "Under Making Tax Digital you keep income and expense records in compatible software and send updates to HMRC from it.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "MTD for Income Tax: digital records in compatible software, quarterly updates, final return from the software.",
+"day": "2026-11-03",
+"k": "mtd-digital-records",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-03-b26-badr",
+"tag": "Budget 2026",
+"figure": "£500k",
+"headline": "Business Asset Disposal Relief limit halves",
+"lines": [
+"Lifetime limit falls from £1m to £500,000",
+"For disposals from 6 April 2027",
+"The rate stays at 18%"
+],
+"caption": "Planning to sell your business? The Budget halves the BADR lifetime limit from £1 million to £500,000 from April 2027.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: BADR lifetime limit falls from £1m to £500,000 from 6 April 2027. Rate stays 18%.",
+"day": "2026-11-03",
+"k": "b26-badr",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-b26-carers",
+"tag": "Budget 2026",
+"figure": "2030",
+"headline": "Carer's Allowance: no more cliff edge",
+"lines": [
+"A taper instead of losing it all",
+"From 2030 to 2031 in England and Wales",
+"Announced in the 28 October Budget"
+],
+"caption": "Carers who earn slightly over the limit will no longer lose all of Carer's Allowance: a taper applies from 2030 to 2031.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: a Carer's Allowance earnings taper replaces the cliff edge from 2030-31.",
+"day": "2026-11-04",
+"k": "b26-carers",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-b26-ftb-isa",
+"tag": "Budget 2026",
+"figure": "25%",
+"headline": "A First Time Buyer ISA is coming",
+"lines": [
+"From April 2029, for new savers",
+"25% government bonus",
+"For a first home up to £450,000"
+],
+"caption": "The Budget announced a First Time Buyer ISA from April 2029, with a 25% bonus for a first home up to £450,000. Existing LISAs keep their rules.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: First Time Buyer ISA from April 2029, 25% bonus, first homes up to £450,000.",
+"day": "2026-11-04",
+"k": "b26-ftb-isa",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-pension-aa",
+"tag": "Pension",
+"figure": "£60,000",
+"headline": "Pension Annual Allowance 2026-27",
+"lines": [
+"Annual Allowance: £60,000",
+"Accessed a pension flexibly? £10,000 limit",
+"Going over can trigger a tax charge"
+],
+"caption": "The pension Annual Allowance is £60,000 in 2026 to 2027, or £10,000 if the Money Purchase Annual Allowance applies.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Pension Annual Allowance 2026-27: £60,000; MPAA £10,000.",
+"day": "2026-11-04",
+"k": "pension-aa",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-savings-5000",
+"tag": "Savings",
+"figure": "£5,000",
+"headline": "Up to £5,000 of interest at 0%",
+"lines": [
+"The starting rate for savings is 0%",
+"Only if your other income is low",
+"Reduced by £1 for each £1 over £12,570"
+],
+"caption": "If your other income is low, up to £5,000 of savings interest can be taxed at 0%. It shrinks as other income goes above £12,570.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Starting rate for savings: up to £5,000 of interest at 0% if your other income is low.",
+"day": "2026-11-04",
+"k": "savings-5000",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-jisa-9000",
+"tag": "Children",
+"figure": "£9,000",
+"headline": "Junior ISA: up to £9,000 a year",
+"lines": [
+"Grows free of tax",
+"Your child can access it at 18",
+"Grandparents can pay in too"
+],
+"caption": "You can put up to £9,000 a year into a Junior ISA, free of tax. Your child can access it at 18.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Junior ISA limit 2026-27: £9,000 a year, tax-free, accessible at 18.",
+"day": "2026-11-04",
+"k": "jisa-9000",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-help-to-save",
+"tag": "Savings",
+"figure": "50p",
+"headline": "Help to Save: 50p for every £1",
+"lines": [
+"For some people on Universal Credit",
+"Save up to £50 a month",
+"Bonuses after 2 and 4 years"
+],
+"caption": "On Universal Credit? Help to Save pays a 50p bonus for every £1 you save, up to £50 a month.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Help to Save: save up to £50 a month, get 50p per £1, bonuses at 2 and 4 years.",
+"day": "2026-11-04",
+"k": "help-to-save",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-xmas-bonus",
+"tag": "Benefits",
+"figure": "£10",
+"headline": "The £10 Christmas Bonus",
+"lines": [
+"For people on certain benefits",
+"Paid automatically before Christmas",
+"Tax-free, no need to claim"
+],
+"caption": "The Christmas Bonus is a tax-free £10 for people on certain benefits, paid automatically before Christmas.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Christmas Bonus: £10, tax-free, paid automatically before Christmas to people on certain benefits.",
+"day": "2026-11-04",
+"k": "xmas-bonus",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-xmas-staff-bonus",
+"tag": "Employees",
+"figure": "Bonus",
+"headline": "Cash Christmas bonuses are taxable",
+"lines": [
+"Cash from your employer is earnings",
+"It goes through payroll like pay",
+"Small non-cash gifts follow other rules"
+],
+"caption": "Cash Christmas gifts and bonuses from an employer are taxable earnings and go through payroll.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Cash Christmas bonuses are taxable earnings and go through payroll.",
+"day": "2026-11-04",
+"k": "xmas-staff-bonus",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-vat-annual",
+"tag": "VAT",
+"figure": "Once a year",
+"headline": "The VAT Annual Accounting Scheme",
+"lines": [
+"One VAT return a year",
+"Advance payments through the year",
+"For taxable turnover up to £1.35 million"
+],
+"caption": "The Annual Accounting Scheme means one VAT return a year with advance payments, for turnover up to £1.35 million.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "VAT Annual Accounting: one return a year, for turnover up to £1.35m.",
+"day": "2026-11-04",
+"k": "vat-annual",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-ola-plan",
+"tag": "Ola Accountancy",
+"figure": "£420",
+"headline": "Plan 2027 after the Budget",
+"lines": [
+"A 60-minute financial consultation",
+"£420 including VAT",
+"We look at what affects you"
+],
+"caption": "The Budget brings changes from April 2027. In a 60-minute financial consultation, £420 including VAT, we look at what affects you.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Ola Accountancy financial consultation: 60 minutes, £420 incl. VAT, to plan for the Budget changes.",
+"day": "2026-11-04",
+"k": "ola-plan",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-emp-exp-2500",
+"tag": "Employees",
+"figure": "£2,500",
+"headline": "Job expenses over £2,500?",
+"lines": [
+"Now: over £2,500 means Self Assessment",
+"From April 2028 the threshold goes",
+"More claims will run through PAYE"
+],
+"caption": "Employees claiming over £2,500 of job expenses currently need Self Assessment. The Budget removes that threshold from April 2028.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#Budget2026 #UKTax",
+"bsky": "Budget 2026: the £2,500 Self Assessment threshold for employee expenses is removed from April 2028.",
+"day": "2026-11-04",
+"k": "emp-exp-2500",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-sl-postgrad",
+"tag": "Student loan",
+"figure": "£21,000",
+"headline": "Postgraduate loan repayments",
+"lines": [
+"Threshold: £21,000 a year",
+"Rate: 6% of income above it",
+"Paid on top of any other plan"
+],
+"caption": "Postgraduate loan repayments are 6% of income above £21,000 a year, on top of any other student loan plan.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Postgraduate loan: 6% of income above £21,000 a year.",
+"day": "2026-11-04",
+"k": "sl-postgrad",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-holiday-part-time",
+"tag": "Employees",
+"figure": "16.8",
+"headline": "Part-time holiday: how many days?",
+"lines": [
+"Still 5.6 weeks a year",
+"3 days x 5.6 = 16.8 days",
+"Statutory cap: 28 days"
+],
+"caption": "Part-time workers also get 5.6 weeks. On 3 days a week, that is 16.8 days a year.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Part-time holiday: 5.6 weeks pro rata. 3 days a week = 16.8 days.",
+"day": "2026-11-04",
+"k": "holiday-part-time",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-reenrol",
+"tag": "Employers",
+"figure": "3 years",
+"headline": "Pension re-enrolment every 3 years",
+"lines": [
+"Put eligible staff who left back in",
+"Complete your re-declaration with TPR",
+"Required even if nobody is re-enrolled"
+],
+"caption": "Every 3 years employers must re-enrol eligible staff who left the pension scheme and complete a re-declaration, even if nobody is re-enrolled.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Employers: re-enrol every 3 years and complete the re-declaration of compliance, even with no one to re-enrol.",
+"day": "2026-11-04",
+"k": "reenrol",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-04-smp-recover",
+"tag": "Employers",
+"figure": "92%",
+"headline": "Recovering statutory parental pay",
+"lines": [
+"Recover 92% of SMP, SPP and similar pay",
+"Or 109% if your Class 1 NICs were £45,000 or less",
+"Claimed through your payroll submissions"
+],
+"caption": "Employers can usually recover 92% of statutory parental payments, or 109% if total Class 1 NICs last year were £45,000 or less.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Employers recover 92% of SMP/SPP, or 109% if last year's Class 1 NICs were £45,000 or less.",
+"day": "2026-11-04",
+"k": "smp-recover",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-sa-87-days",
+"tag": "Self Assessment",
+"figure": "87 days",
+"headline": "87 days to the 31 January deadline",
+"lines": [
+"Online return for 2025 to 2026",
+"Tax payment and first payment on account",
+"Start gathering documents now"
+],
+"caption": "From 5 November there are 87 days to 31 January 2027: the online return for 2025 to 2026 and the payment. Start now.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "87 days to 31 January 2027: file your 2025-26 return online and pay. Start now.",
+"day": "2026-11-05",
+"k": "sa-87-days",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-afr-ev",
+"tag": "Company cars",
+"figure": "7p",
+"headline": "Electric company cars: mileage rates",
+"lines": [
+"7p a mile when charged at home",
+"15p a mile at public chargers",
+"HMRC rates from 1 September 2026"
+],
+"caption": "Advisory electricity rates for company cars from 1 September 2026: 7p a mile at home, 15p at public chargers.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Advisory electricity rates from 1 Sep 2026: 7p/mile home charging, 15p/mile public.",
+"day": "2026-11-05",
+"k": "afr-ev",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-mileage-bike",
+"tag": "Mileage",
+"figure": "20p",
+"headline": "Cycle or motorbike for work?",
+"lines": [
+"Bicycle: 20p a mile",
+"Motorcycle: 24p a mile",
+"Car or van: 55p for the first 10,000 miles"
+],
+"caption": "HMRC mileage rates for business journeys: 20p a mile by bike, 24p by motorcycle, 55p by car for the first 10,000 miles.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Business mileage rates: bike 20p, motorcycle 24p, car/van 55p (first 10,000 miles).",
+"day": "2026-11-05",
+"k": "mileage-bike",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-employee-nic-8",
+"tag": "Employees",
+"figure": "8%",
+"headline": "Employee National Insurance explained",
+"lines": [
+"8% between £242 and £967 a week",
+"2% on earnings above £967",
+"Nothing below £242 a week"
+],
+"caption": "Employee NI for 2026 to 2027 is 8% on weekly earnings between £242 and £967, and 2% above.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Employee NI 2026-27: 8% on £242-£967 a week, 2% above.",
+"day": "2026-11-05",
+"k": "employee-nic-8",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-blind-allowance",
+"tag": "Allowances",
+"figure": "£3,250",
+"headline": "Blind Person's Allowance: £3,250 extra",
+"lines": [
+"For people registered as blind or severely sight impaired",
+"Added to your Personal Allowance",
+"Unused amount can go to a spouse"
+],
+"caption": "Blind Person's Allowance adds £3,250 to your tax-free allowance in 2026 to 2027. Many people never claim it.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Blind Person's Allowance 2026-27: £3,250 on top of the Personal Allowance.",
+"day": "2026-11-05",
+"k": "blind-allowance",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-winter-fuel-35k",
+"tag": "Pensioners",
+"figure": "£35,000",
+"headline": "Winter Fuel Payment and income over £35,000",
+"lines": [
+"The payment still arrives automatically",
+"HMRC takes it back through the tax system",
+"Your partner's income does not count"
+],
+"caption": "If your total income is over £35,000, HMRC takes the Winter Fuel Payment back. Your partner's income does not count.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Winter Fuel Payment: income over £35,000 means HMRC takes it back. Partner's income does not count.",
+"day": "2026-11-05",
+"k": "winter-fuel-35k",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-hmrc-app-ni",
+"tag": "HMRC app",
+"figure": "App",
+"headline": "Get your NI number from the HMRC app",
+"lines": [
+"Download it straight from the HMRC app",
+"Handy when starting a new job",
+"You can check your tax code there too"
+],
+"caption": "Need your National Insurance number for a new job? You can download it from the HMRC app.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Need your National Insurance number? Download it from the HMRC app.",
+"day": "2026-11-05",
+"k": "hmrc-app-ni",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-vat-88k",
+"tag": "VAT",
+"figure": "£88,000",
+"headline": "Below £88,000? You can deregister",
+"lines": [
+"When taxable turnover falls below £88,000",
+"Deregistering is optional",
+"Check any VAT due when you leave"
+],
+"caption": "If taxable turnover drops below £88,000, you can cancel your VAT registration. It is optional, and VAT may be due on stock and assets.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "VAT deregistration threshold: £88,000. Optional, and VAT may be due on stock and assets.",
+"day": "2026-11-05",
+"k": "vat-88k",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-ola-se-accounts",
+"tag": "Ola Accountancy",
+"figure": "Sole traders",
+"headline": "Accounts for sole traders, start to finish",
+"lines": [
+"We keep your income and expense records",
+"We file your Self Assessment",
+"We tell you early what to set aside"
+],
+"caption": "Self-employed and tired of paperwork? We handle your records and your return, and tell you early what to set aside.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Ola Accountancy: bookkeeping and Self Assessment for sole traders in Luton and Birmingham.",
+"day": "2026-11-05",
+"k": "ola-se-accounts",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-trading-or-expenses",
+"tag": "Self-employed",
+"figure": "£1,000",
+"headline": "Trading allowance or expenses? Not both",
+"lines": [
+"Using the allowance replaces actual expenses",
+"Worth it when expenses are small",
+"With bigger costs, claim the expenses"
+],
+"caption": "The £1,000 trading allowance replaces your actual expenses; you cannot use both. With bigger costs, claiming expenses usually works better.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "The trading allowance replaces actual expenses. Small costs: allowance. Bigger costs: claim expenses.",
+"day": "2026-11-05",
+"k": "trading-or-expenses",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-exp-fines-records",
+"tag": "Expenses",
+"figure": "Receipts",
+"headline": "No receipt, no expense",
+"lines": [
+"Keep a receipt for every expense",
+"A clear phone photo works as a record",
+"Note the business purpose briefly"
+],
+"caption": "Every expense you claim needs a receipt or invoice. Take a clear photo and note what it was for.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Self-employed: keep a receipt for every expense, a clear photo is fine, and note the business purpose.",
+"day": "2026-11-05",
+"k": "exp-fines-records",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-afr-petrol",
+"tag": "Company cars",
+"figure": "14p",
+"headline": "Advisory fuel rates for company cars",
+"lines": [
+"Petrol up to 1400cc: 14p a mile",
+"1401-2000cc: 17p; over 2000cc: 27p",
+"Diesel: 15p, 16p or 22p by engine size"
+],
+"caption": "HMRC advisory fuel rates for company cars from 1 September 2026: petrol 14p, 17p or 27p; diesel 15p, 16p or 22p a mile.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #SmallBusiness",
+"bsky": "Advisory fuel rates from 1 Sep 2026: petrol 14p/17p/27p, diesel 15p/16p/22p per mile.",
+"day": "2026-11-05",
+"k": "afr-petrol",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-pa-12570",
+"tag": "Allowances",
+"figure": "£12,570",
+"headline": "Personal Allowance stays at £12,570",
+"lines": [
+"£12,570 in 2026-27 and 2027-28",
+"Reduced by £1 for every £2 over £100,000",
+"Income above it is taxed"
+],
+"caption": "The Personal Allowance stays at £12,570 in 2027 to 2028. Above £100,000 of income it falls by £1 for every £2.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Personal Allowance: £12,570 in 2026-27 and 2027-28; tapers above £100,000.",
+"day": "2026-11-05",
+"k": "pa-12570",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-lel-129",
+"tag": "National Insurance",
+"figure": "£129",
+"headline": "Low earnings can still build your pension",
+"lines": [
+"Between £129 and £242 a week: no NI to pay",
+"The year still counts for State Pension",
+"Below £129 a week it does not"
+],
+"caption": "Employees earning between £129 and £242 a week pay no NI, yet the year still counts towards the State Pension.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Earning £129-£242 a week? No employee NI, but the year still counts for State Pension.",
+"day": "2026-11-05",
+"k": "lel-129",
+"wa": "Message us on WhatsApp",
+"disc": "General information only. Speak to an accountant about your situation."
+},
+{
+"id": "en-11-05-lump-sum-268k",
+"tag": "Pensions",
+"figure": "£268,275",
+"headline": "Tax-free pension cash: the limit",
+"lines": [
+"Lump Sum Allowance: £268,275",
+"Unchanged for 2026-27 and 2027-28",
+"Usually up to 25% of your pension"
+],
+"caption": "The Lump Sum Allowance, the usual cap on tax-free pension cash, stays at £268,275 in 2026 to 2027 and 2027 to 2028.\n\nMessage us on WhatsApp: 0330 133 1886. Offices in Luton and Birmingham.\n\n#UKTax #HMRC",
+"bsky": "Lump Sum Allowance stays £268,275 in 2026-27 and 2027-28.",
+"day": "2026-11-05",
+"k": "lump-sum-268k",
 "wa": "Message us on WhatsApp",
 "disc": "General information only. Speak to an accountant about your situation."
 }

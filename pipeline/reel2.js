@@ -88,7 +88,7 @@ footer{position:absolute;left:84px;right:84px;bottom:110px;border-radius:26px;pa
 <footer><div class="wa"><small>${esc(wa)}</small><b>0330 133 1886</b></div><div class="disc">${esc(disc)}</div></footer>
 </body></html>`;
 (async()=>{
- const out=process.argv[6]||path.join(__dirname,'tmp_'+id); fs.mkdirSync(out,{recursive:true});
+ const out=path.resolve(process.argv[6]||path.join(__dirname,'tmp_'+id)); fs.mkdirSync(out,{recursive:true});
  fs.writeFileSync(out+'/page.html',html);
  const b=await chromium.launch(); const pg=await b.newPage({viewport:{width:1080,height:1920}});
  await pg.goto('file://'+out+'/page.html'); await pg.evaluate(()=>document.fonts.ready);

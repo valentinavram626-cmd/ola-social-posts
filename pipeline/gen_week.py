@@ -16,7 +16,10 @@ def story_file(base):
     return story_version(p) if os.path.exists(p) else base
 SLOTS = ["07:30","08:30","09:30","10:30","11:30","12:30","13:30","14:30","15:30","16:30","17:30","18:30","19:30","20:30","21:30"]
 VSLOT = "19:30"
-DAYS_RO = {"2026-10-23":"Vineri 23 oct","2026-10-24":"Sâmbătă 24 oct","2026-10-25":"Duminică 25 oct","2026-10-26":"Luni 26 oct","2026-10-27":"Marți 27 oct","2026-10-28":"Miercuri 28 oct","2026-10-29":"Joi 29 oct"}
+import datetime as _dt
+_WD = ["Luni","Marți","Miercuri","Joi","Vineri","Sâmbătă","Duminică"]; _MO = ["ian.","feb.","mar.","apr.","mai","iun.","iul.","aug.","sept.","oct.","nov.","dec."]
+def _lab(d): x = _dt.date.fromisoformat(d); return f"{_WD[x.weekday()]} {x.day} {_MO[x.month-1]}"
+DAYS_RO = {d["day"]: _lab(d["day"]) for d in pl}
 RO_NETS = "Instagram Reel + Story · Facebook Reel + Story · TikTok · Threads"
 EN_NETS = "YouTube Short · LinkedIn · Bluesky · (GBP 1/zi, Pinterest 1/zi)"
 schedule = []  # for scheduling later
@@ -71,7 +74,7 @@ h2{{font-size:18px;margin:28px 0 10px}}h2 small{{color:var(--muted);font-weight:
 video{{width:120px;aspect-ratio:9/16;background:#000;object-fit:cover}}
 .t{{padding:8px 10px 8px 0;font-size:13px}}.lab{{font-size:11px;letter-spacing:.12em;color:var(--brass);font-weight:700}}.t b{{display:block;margin:4px 0}}.t p{{margin:0;color:var(--muted);white-space:pre-wrap;font-size:12px}}
 @media (max-width:800px){{.slot{{grid-template-columns:1fr}}.time{{padding:0}}}}
-</style></head><body><header><h1>Ola Accountancy – lot 23–29 octombrie (15 postări/zi)</h1><nav>{nav}</nav>
+</style></head><body><header><h1>Ola Accountancy – lot {DAYS_RO[pl[0]["day"]]} – {DAYS_RO[pl[-1]["day"]]} (15 postări/zi)</h1><nav>{nav}</nav>
 <div class="rules">RO (stânga): {RO_NETS}. EN (dreapta): {EN_NETS}. Fiecare reel RO merge și la Stories. TikTok max 12/zi. Videoclipul dumneavoastră la 19:30, doar pe platformele RO; pe EN e înlocuit cu reel-ul din dreapta. Răspundeți cu „aprobat” sau cu lista modificărilor (ziua + ora).</div></header>
 {"".join(secs)}
 </body></html>'''

@@ -1,23 +1,28 @@
 {
-  "weeks": [
-    {
-      "id": "2026-10-23",
-      "status": "scheduled",
-      "schedule": "reels/week-2026-10-23/schedule.json",
-      "scheduled_at": "2026-10-22T16:52:00+01:00",
-      "posts": 434,
-      "youtube_cap_per_day": 8,
-      "youtube_slots": [
-        "07:30",
-        "09:30",
-        "11:30",
-        "13:30",
-        "15:30",
-        "17:30",
-        "19:30",
-        "21:30"
-      ],
-      "note": "YouTube limited to 8 Shorts/day (2h apart) from 2026-10-23 after upload-limit errors on 22-23 Oct; LinkedIn kept on all 15 slots. 23 Oct: YouTube only at 15:30,17:30,19:30,21:30."
-    }
-  ]
+ "weeks": [
+  {
+   "id": "2026-10-30",
+   "status": "awaiting_approval",
+   "schedule": "reels/week-2026-10-30/schedule.json"
+  },
+  {
+   "id": "2026-10-23",
+   "status": "scheduled",
+   "schedule": "reels/week-2026-10-23/schedule.json",
+   "scheduled_at": "2026-10-22T16:52:00+01:00",
+   "posts": 434,
+   "youtube_cap_per_day": 8,
+   "youtube_slots": [
+    "07:30",
+    "09:30",
+    "11:30",
+    "13:30",
+    "15:30",
+    "17:30",
+    "19:30",
+    "21:30"
+   ],
+   "note": "YouTube limited to 8 Shorts/day (2h apart) from 2026-10-23 after upload-limit errors on 22-23 Oct; LinkedIn kept on all 15 slots. 23 Oct: YouTube only at 15:30,17:30,19:30,21:30."
+  }
+ ]
 }
