@@ -1,0 +1,153 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --ink:#0A0E18; --ink2:#111726;
+    --gold:#F0B03E; --gold-dim:#C98E2C;
+    --cream:#FFFFFF; --muted:#8C98AE;
+    --wa:#25D366;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#222;font-family:"IBM Plex Sans",sans-serif}
+  .slide{
+    position:relative;width:1080px;height:1350px;overflow:hidden;
+    background:var(--ink); color:var(--cream);
+    display:flex;flex-direction:column;
+  }
+  /* depth: warm glow + cool counter-glow, so it never reads flat */
+  .slide::before{content:'';position:absolute;inset:0;
+    background:
+      radial-gradient(900px 760px at 86% 108%, rgba(240,176,62,.19), transparent 62%),
+      radial-gradient(760px 640px at -8% -6%, rgba(90,130,220,.13), transparent 60%);
+    pointer-events:none}
+  .grain{position:absolute;inset:0;opacity:.055;pointer-events:none;mix-blend-mode:overlay}
+
+  /* ---- header: brand present on EVERY slide, from slide 1 ---- */
+  .hd{position:relative;display:flex;align-items:center;gap:22px;
+      padding:62px 76px 0 76px;z-index:3}
+  .hd img{height:66px;width:auto;display:block;filter:drop-shadow(0 4px 14px rgba(0,0,0,.5))}
+  .wm{font-family:"Bricolage Grotesque";font-weight:700;font-size:25px;
+      letter-spacing:.17em;color:var(--cream);line-height:1}
+  .wm span{display:block;font-family:"IBM Plex Sans";font-weight:500;font-size:14.5px;
+      letter-spacing:.3em;color:var(--gold);margin-top:7px}
+  .pager{margin-left:auto;font-family:"Bricolage Grotesque";font-weight:700;
+      font-size:25px;letter-spacing:.1em;color:var(--muted)}
+  .pager b{color:var(--gold)}
+
+  /* hook slide: poster layout — type anchored low, the mark filling the space above */
+  .slide.hook .bd{justify-content:flex-end;padding-bottom:34px;padding-top:0}
+  .slide.hook h1{font-size:122px;line-height:1.0}
+  .mark{position:absolute;z-index:1;right:-178px;top:150px;width:790px;
+        opacity:.14;filter:saturate(1.15) drop-shadow(0 30px 80px rgba(0,0,0,.6));
+        -webkit-mask-image:linear-gradient(to bottom,#000 36%,transparent 86%);
+        mask-image:linear-gradient(to bottom,#000 36%,transparent 86%)}
+
+  /* ---- escalation ladder: the house device, identical every time ---- */
+  .lad{position:relative;z-index:3;display:flex;gap:12px;padding:46px 76px 0 76px}
+  .lad i{flex:1;height:8px;border-radius:999px;background:rgba(255,255,255,.11)}
+  .lad i.on{background:var(--gold)}
+  .lad i.now{background:var(--gold);box-shadow:0 0 0 4px rgba(240,176,62,.22)}
+
+  /* ---- body ---- */
+  .bd{position:relative;z-index:3;flex:1;display:flex;flex-direction:column;
+      justify-content:center;padding:52px 76px 120px 76px}
+  .kicker{font-family:"IBM Plex Sans";font-weight:600;font-size:25px;
+      letter-spacing:.21em;text-transform:uppercase;color:var(--gold);margin-bottom:34px}
+  .kicker.step{color:var(--cream);display:inline-block;align-self:flex-start;
+      background:rgba(240,176,62,.14);border:2px solid rgba(240,176,62,.45);
+      padding:15px 27px;border-radius:999px;letter-spacing:.17em;font-size:24px}
+
+  h1{font-family:"Bricolage Grotesque";font-weight:800;font-size:103px;line-height:1.03;
+     letter-spacing:-.022em;text-wrap:balance}
+  h1 em{font-style:normal;color:var(--gold)}
+
+  .fig{font-family:"Bricolage Grotesque";font-weight:800;font-size:206px;line-height:.94;
+       letter-spacing:-.012em;color:var(--gold);margin:40px 0 30px}
+  .fig small{font-size:84px;letter-spacing:-.02em}
+  .fig cur{font-size:.56em;vertical-align:.50em;margin-right:.055em;display:inline-block}
+
+  .say{font-family:"IBM Plex Sans";font-weight:400;font-size:45px;line-height:1.42;
+       color:#E4E9F2;max-width:860px}
+  .say b{font-weight:600;color:var(--cream)}
+
+  .note{margin-top:34px;padding-left:26px;border-left:5px solid var(--gold-dim);
+        font-size:35px;line-height:1.4;color:var(--muted)}
+
+  /* the ask, on the last slide only */
+  .ask{margin-top:18px}
+  .ask .line{height:3px;background:linear-gradient(90deg,var(--gold),rgba(240,176,62,0));margin-bottom:40px}
+  .ask p{font-family:"IBM Plex Sans";font-weight:400;font-size:43px;line-height:1.38;color:#E4E9F2;margin-bottom:34px}
+  .ask .num{display:inline-flex;align-items:center;gap:22px;
+      background:var(--wa);color:#07210F;border-radius:999px;padding:24px 42px}
+  .ask .num svg{width:52px;height:52px;display:block}
+  .ask .num span{font-family:"Bricolage Grotesque";font-weight:800;font-size:57px;letter-spacing:-.01em}
+
+  /* ---- footer: contact cue on every slide, small, never the whole frame ---- */
+  .ft{position:relative;z-index:3;padding:0 76px 60px 76px}
+  .ft .rule{height:2px;background:rgba(255,255,255,.14);margin-bottom:28px}
+  .ft .row{display:flex;align-items:center;gap:18px}
+  .ft .row svg{width:34px;height:34px;flex:none}
+  .ft .row .t{font-family:"IBM Plex Sans";font-weight:500;font-size:29px;
+      letter-spacing:.04em;color:#C7CFDC}
+  .ft .row .city{font-size:26px;color:var(--muted);letter-spacing:.11em;text-transform:uppercase}
+  .swipe{margin-left:auto;display:flex;align-items:center;gap:15px;
+      font-family:"IBM Plex Sans";font-weight:600;font-size:27px;
+      letter-spacing:.15em;text-transform:uppercase;color:var(--gold)}
+  .swipe .ar{font-family:"Bricolage Grotesque";font-weight:800;font-size:38px;line-height:1}
+</style></head><body>
+<div id="out"></div>
+<script>
+const WA = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.69.25-1.29.18-1.41-.07-.12-.27-.2-.57-.35z"/><path d="M12 2C6.48 2 2 6.48 2 12c0 1.77.46 3.43 1.27 4.88L2 22l5.25-1.24A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.2c-1.6 0-3.1-.44-4.38-1.2l-.31-.19-3.1.73.74-3.02-.2-.32A8.15 8.15 0 0 1 3.8 12 8.2 8.2 0 1 1 12 20.2z"/></svg>`;
+const PIN = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-5.3 7-11a7 7 0 1 0-14 0c0 5.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>`;
+
+function grain(){ // tiny tileable noise, so the flat fill gets a surface
+  const c=document.createElement('canvas');c.width=c.height=180;const g=c.getContext('2d');
+  const d=g.createImageData(180,180);
+  for(let i=0;i<d.data.length;i+=4){const v=Math.random()*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}
+  g.putImageData(d,0,0);return c.toDataURL();
+}
+const NOISE=grain();
+
+function slide(s,i,n){
+  const el=document.createElement('div');el.className='slide'+(s.type==='hook'?' hook':'');el.id='s'+i;
+  const pager=`${String(i+1).padStart(2,'0')}`;
+  let body='';
+  if(s.type==='hook'){
+    body=`<div class="kicker">${s.kicker}</div><h1>${s.h1}</h1>`
+       + (s.say?`<div class="say" style="margin-top:42px">${s.say}</div>`:'');
+  } else if(s.type==='ask'){
+    body=`<div class="kicker step">${s.step}</div>`
+       + `<div class="fig">${s.fig}</div><div class="say">${s.say}</div>`
+       + `<div class="ask"><div class="line" style="margin-top:46px"></div><p>${s.ask}</p>`
+       + `<div class="num">${WA}<span>${s.phone}</span></div></div>`;
+  } else {
+    body=`<div class="kicker step">${s.step}</div>`
+       + `<div class="fig">${s.fig}</div><div class="say">${s.say}</div>`
+       + (s.note?`<div class="note">${s.note}</div>`:'');
+  }
+  let lad='<div class="lad">';
+  for(let k=0;k<n;k++) lad += `<i class="${k<i?'on':k===i?'now':''}"></i>`;
+  lad+='</div>';
+
+  const last = (i===n-1);
+  const footLeft = last
+    ? `<span style="color:var(--gold);display:flex">${PIN}</span><span class="t city">Luton · Birmingham</span>`
+    : `<span style="color:var(--wa);display:flex">${WA}</span><span class="t">0330 133 1886</span>`;
+
+  el.innerHTML=
+    `<img class="grain" src="${NOISE}" style="width:1080px;height:1350px;object-fit:cover">`
+  + (s.type==='hook'?`<img class="mark" src="${CFG.logo}">`:'')
+  + `<div class="hd"><img src="${CFG.logo}"><div class="wm">OLA ACCOUNTANCY<span>LUTON · BIRMINGHAM</span></div>`
+  + `<div class="pager"><b>${pager}</b> / ${String(n).padStart(2,'0')}</div></div>`
+  + lad
+  + `<div class="bd">${body}</div>`
+  + `<div class="ft"><div class="rule"></div><div class="row">`
+  +   footLeft
+  +   (last?`<span class="swipe">Salvează ★</span>`:`<span class="swipe">Glisează <span class="ar">→</span></span>`)
+  + `</div></div>`;
+  return el;
+}
+const out=document.getElementById('out');
+CFG.slides.forEach((s,i)=>out.appendChild(slide(s,i,CFG.slides.length)));
+window.READY=true;
+</script></body></html>
