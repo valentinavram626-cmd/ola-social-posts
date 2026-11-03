@@ -18,7 +18,7 @@ Nu am trimis niciun mesaj astăzi. Nu a existat nicio conversație de categoria 
 
 Nu au apărut leaduri noi. **Cele 3 de mai jos sunt cele din raportul de 28 octombrie, încă fără răspuns de la tine** — le las numerotate identic, ca să poți răspunde cu cifre.
 
-### 1. moiselai (Instagram DM, 18 oct) — lead activ, Irlanda / ANAF
+### 1. lead-319A (Instagram DM, 18 oct) — lead activ, Irlanda / ANAF
 Mesajele lui:
 > „Salut lucrez in Irlanda ce trebuie sa fac sa nu am treabă cu ANAF când vine vorba de impozit"
 > „Eu plătesc aici impozit"
@@ -31,7 +31,7 @@ Propunere de răspuns:
 
 *Nu răspund eu: e întrebare fiscală + lead.*
 
-### 2. nelucretu (Instagram DM, mai 2026) — lead LTD rămas în aer
+### 2. lead-B1FB (Instagram DM, mai 2026) — lead LTD rămas în aer
 Mesajul lui inițial:
 > „Salut, Sunt in cautare de un accountant bun pentru LTD-ul meu, eu lucrez ca contractor prin firma m…"
 
@@ -40,7 +40,7 @@ Conversația s-a oprit după ce s-a stabilit un telefon (ultimul lui mesaj: „M
 Propunere de răspuns:
 > „Salut Nelu! Revin după discuția din primăvară — mai ești în căutare de contabil pentru LTD? Dacă da, spune-mi și reluăm de unde am rămas."
 
-### 3. victor.nichifor (Instagram DM, iunie 2026) — lead export rămas în aer
+### 3. lead-E2C0 (Instagram DM, iunie 2026) — lead export rămas în aer
 Mesajul lui:
 > „Un numar de watsaap va rog pt o cosultatie referitor la export"
 
@@ -63,7 +63,7 @@ Reamintire: cele **4 mesaje de phishing de pe Facebook** (Josette Ruiz, 1 oct 20
 
 **0 noi.** Rămâne deschisă singura de ieri:
 
-### mihaiboerica (Instagram DM, 11 sep 2026) — critică la un videoclip
+### lead-6ED9 (Instagram DM, 11 sep 2026) — critică la un videoclip
 Ultimul lui mesaj:
 > „Bro , sa nu mi o iei in nume de rau , doar ti am zis parerea mea 😬"
 
@@ -88,7 +88,7 @@ Restul conversațiilor fără text rămân ca ieri: eduarddpopa, newcastle_explo
 
 ## De decis de Valentin
 
-1. **Cele 3 leaduri de mai sus** (moiselai, nelucretu, victor.nichifor) așteaptă de 2 zile un „da" pe numere. moiselai e cel mai cald — a scris acum 11 zile.
-2. **Răspunsul pentru mihaiboerica** așteaptă tot de 2 zile.
+1. **Cele 3 leaduri de mai sus** (lead-319A, lead-B1FB, lead-E2C0) așteaptă de 2 zile un „da" pe numere. lead-319A e cel mai cald — a scris acum 11 zile.
+2. **Răspunsul pentru lead-6ED9** așteaptă tot de 2 zile.
 3. **Backlogul de dinainte de iunie 2026** (~20 conversații: story mentions vechi, media expirată, mesaje automate „Book Your FREE Initial Chat" din 2025) nu va fi niciodată de răspuns. Cu un „da" de la tine, le marchez rezolvate în bloc la următoarea rulare, ca tabul Unresolved să arate doar ce chiar e de lucru. Întrebarea e pusă a doua oară.
 4. **Cele 4 mesaje de phishing** de pe Facebook — de raportat de tine din Meta.

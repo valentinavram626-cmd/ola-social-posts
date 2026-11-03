@@ -8,10 +8,10 @@ Rulare pornită la 13:31 UTC (programată 09:12). Chrome-ul lui Valentin a fost 
 
 ## Răspunse automat (6)
 
-1. **YouTube — @arfanmahmood112** — comentariu „Brum City!" la videoul *Find us in Birmingham | Ola Accountancy*.
+1. **YouTube — un abonat** — comentariu „Brum City!" la videoul *Find us in Birmingham | Ola Accountancy*.
    Răspuns: „Brum City indeed! Thanks for watching." → rezolvat.
 
-2. **YouTube — @arfanmahmood112** — comentariu „sooo funny!" la Shortul *Ziua 4/10 #contabilitate #funny*.
+2. **YouTube — un abonat** — comentariu „sooo funny!" la Shortul *Ziua 4/10 #contabilitate #funny*.
    Răspuns: „Glad it made you laugh! Thanks for watching." → rezolvat.
 
 3. **LinkedIn — Pioneer Sealants** — comentariu la postarea despre reparație vs. îmbunătățire la proprietăți închiriate (comentariu amabil, dar cu un link promo către site-ul lor).
@@ -31,7 +31,7 @@ Rulare pornită la 13:31 UTC (programată 09:12). Chrome-ul lui Valentin a fost 
 
 ## De aprobat
 
-### 1. moiselai (Instagram DM) — lead activ, Irlanda / ANAF
+### 1. lead-319A (Instagram DM) — lead activ, Irlanda / ANAF
 Mesajele lui:
 > „Salut lucrez in Irlanda ce trebuie sa fac sa nu am treabă cu ANAF când vine vorba de impozit"
 > „Eu plătesc aici impozit"
@@ -44,7 +44,7 @@ Propunere de răspuns:
 
 *Nu am răspuns eu: e întrebare fiscală + lead.*
 
-### 2. nelucretu (Instagram DM, mai 2026) — lead LTD rămas în aer
+### 2. lead-B1FB (Instagram DM, mai 2026) — lead LTD rămas în aer
 Mesajul lui inițial:
 > „Salut, Sunt in cautare de un accountant bun pentru LTD-ul meu, eu lucrez ca contractor prin firma m…"
 
@@ -53,7 +53,7 @@ Conversația s-a oprit după ce s-a stabilit un telefon (ultimul mesaj al lui: �
 Propunere de răspuns:
 > „Salut Nelu! Revin după discuția din primăvară — mai ești în căutare de contabil pentru LTD? Dacă da, spune-mi și reluăm de unde am rămas."
 
-### 3. victor.nichifor (Instagram DM, iunie 2026) — lead export rămas în aer
+### 3. lead-E2C0 (Instagram DM, iunie 2026) — lead export rămas în aer
 Mesajul lui:
 > „Un numar de watsaap va rog pt o cosultatie referitor la export"
 
@@ -78,7 +78,7 @@ Nu am răspuns, nu am rezolvat, nu am raportat și nu am blocat pe nimeni, confo
 
 ## Sensibile
 
-### mihaiboerica (Instagram DM, 11 sep 2026) — critică la un videoclip
+### lead-6ED9 (Instagram DM, 11 sep 2026) — critică la un videoclip
 Mesajele lui:
 > „Brother , cred ca e gresit video ul asta , nu e bine sa ii jignesti 😂 jignisi 510 oameni 😂"
 > „Si mai ales , scoti si in evidenta ca iti iei hate"
@@ -113,4 +113,4 @@ Propunere de răspuns:
 
 1. **Backlogul de dinainte de iunie 2026** (~20 conversații: story mentions vechi, media expirată, mesaje automate din 2025) nu va fi niciodată de răspuns. Dacă îmi dai „da", le marchez rezolvate în bloc la următoarea rulare, ca tabul Unresolved să reflecte doar ce chiar e de lucru.
 2. **Cele 4 mesaje de phishing** de pe Facebook ar trebui raportate de tine din Meta — eu nu raportez și nu blochez nimic.
-3. **Cele 3 leaduri de mai sus** (moiselai, nelucretu, victor.nichifor) așteaptă un „da" pe numere.
+3. **Cele 3 leaduri de mai sus** (lead-319A, lead-B1FB, lead-E2C0) așteaptă un „da" pe numere.
