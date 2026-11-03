@@ -8,3 +8,8 @@ pipeline/lm*.wav
 pipeline/list_*.txt
 pipeline/tmp_*/
 __pycache__/
+
+# Agent reports live in the private repo valentinavram626-cmd/ola-ops-reports.
+# This repository is public so Metricool can fetch the post images from its
+# raw URLs; nothing about the day's operations belongs here.
+departments/
