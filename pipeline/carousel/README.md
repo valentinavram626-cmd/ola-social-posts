@@ -42,7 +42,7 @@ Checked 3 November 2026, not assumed. Four of these broke the naive plan.
 | Instagram, Facebook, Threads | `ro-feed` — 1080x1350, 4 slides | Swipeable. Tallest ratio the feed allows. |
 | TikTok | `ro-tiktok` — 1080x1920, 4 slides | Photo post. Its own chrome covers the top tenth, the bottom quarter and a rail down the right. |
 | LinkedIn | `en-feed` -> **PDF document post** | A multi-image post renders as a **grid**, not a swipe: all four land at once, ask included. The document post is the only native format there that swipes. |
-| Bluesky | `en-bsky` — 5 slides | Bluesky only turns a post into a swipeable carousel at **five images**; four or fewer stack. The fifth slide carries the late-payment penalties, which is real content rather than padding. Captions cap at 300 characters. |
+| Bluesky | `en-feed` — 4 slides | Published guidance says a Bluesky post only becomes a swipeable carousel at **five** images. Its API rejects more than **four**. Both are true, so a swipeable Bluesky carousel is impossible through Metricool; the four English slides go out stacked. Captions cap at 300 characters. |
 | Pinterest | `en-pin` — 1000x1500 | Pinterest **crops** anything wider than 2:3, so the 4:5 feed render would have been cut. |
 | Google Business | `en-gbp` — 1200x1200, one frame | A listing, not a feed. Nobody swipes it, so the whole message sits in one image. |
 | YouTube | — | Video only. |
@@ -69,6 +69,38 @@ The copy lives in `build.py` once and is shared across every size.
 | `step` | step pill, hero figure, one sentence, optional note |
 | `ask`  | step pill, hero figure, sentence, then the ask and the number |
 | `solo` | the whole message in one frame; no ladder, no swipe cue |
+
+## What the first live run taught us
+
+Run on 3 November 2026, 20:45. Six of nine network targets published;
+three failed, and the failures were worth more than the successes.
+
+* **TikTok refuses PNG.** *"The 'image/png' type is not allowed, use
+  'image/jpeg' or 'image/webp'."* Every frame now also ships as JPEG at
+  quality 92 with no chroma subsampling, and JPEG is what gets posted
+  everywhere — one format beats a per-network exception.
+* **Bluesky caps a post at four images.** *"array too big (maximum 4,
+  got 5)."* The five-slide build existed because published guidance says
+  the carousel starts at five. Both facts are correct and they contradict
+  each other in practice: through the API, a swipeable Bluesky carousel
+  cannot be made. The five-slide job was deleted rather than left broken.
+* **Threads returned "Media container not created by unknown cause"** on
+  the same images Facebook and Instagram accepted. Meta gives nothing to
+  work with here; retried with JPEG.
+
+The lesson worth keeping: platform documentation told us what the feeds
+*display*, and only a live post told us what the APIs *accept*. Those are
+different questions, and the second one is the one that decides what ships.
+
+## Hashtags
+
+`build.py` holds them. Four brand tags go on every post in either language,
+because a brand tag is a name and is never translated:
+
+    #OlaAccountancy #ValentinTheAccountant
+    #OlaAccountancyLuton #OlaAccountancyBirmingham
+
+Topical tags follow and change per post and per language.
 
 ## Gates — run them, do not assume
 

@@ -11,6 +11,20 @@ import json, subprocess, sys, pathlib
 D = pathlib.Path(__file__).parent
 PHONE = "0330 133 1886"
 
+# Brand hashtags, fixed. Valentin asked for these on 3 Nov 2026; they are the
+# firm's own tags, so they appear on every post in either language and are
+# never reworded. Topical tags are chosen per post and come after these.
+BRAND_TAGS = ("#OlaAccountancy #ValentinTheAccountant "
+              "#OlaAccountancyLuton #OlaAccountancyBirmingham")
+
+TOPIC_TAGS_RO = "#selfassessment #hmrc #contabilitate #romaniinuk #taxeuk"
+TOPIC_TAGS_EN = "#selfassessment #hmrc #ukaccountant #smallbusinessuk #taxuk"
+
+
+def tags(lang):
+    """Brand tags first, then the topical ones for that language."""
+    return BRAND_TAGS + " " + (TOPIC_TAGS_RO if lang == "ro" else TOPIC_TAGS_EN)
+
 # ---------------------------------------------------------------- Romanian
 RO = [
   dict(type="hook",
@@ -47,17 +61,13 @@ EN = [
        phone=PHONE),
 ]
 
-# Bluesky stacks four images and only turns a post into a real swipeable
-# carousel at five, so the fifth slide carries the late-payment penalties —
-# information the four-slide version leaves to the caption.
-EN5 = EN[:3] + [
-  dict(type="step", step="After 6 months", fig="+5%",
-       say="of the tax due — or <b>£300</b>, whichever is greater. At 12 months it applies again."),
-  dict(type="ask", step="Paying late", fig="5%<small> × 3</small>",
-       say="A separate set of penalties on unpaid tax: 5% at 30 days, 6 months and 12 months.",
-       ask="Not sure where you stand? Send us a message and we will check it with you.",
-       phone=PHONE),
-]
+# NOTE (3 Nov 2026, learned from a live run, not from documentation):
+# Bluesky's API rejects a post with more than four images —
+#   "Invalid app.bsky.feed.post record: array too big (maximum 4, got 5)".
+# Published guidance says a Bluesky post only becomes a swipeable carousel at
+# five images or more. Both are true, and together they mean a swipeable
+# Bluesky carousel cannot be produced through the API at all. Bluesky
+# therefore uses the ordinary four-slide English set and displays it stacked.
 
 # Google Business is a listing, not a feed — nobody swipes it. One frame.
 GBP = [
@@ -75,8 +85,7 @@ JOBS = {
   # key            slides  w     h     note
   "ro-feed":   (RO,  1080, 1350, "ro"),   # Instagram, Facebook, Threads
   "ro-tiktok": (RO,  1080, 1920, "ro"),   # TikTok photo post
-  "en-feed":   (EN,  1080, 1350, "en"),   # LinkedIn (also the PDF source)
-  "en-bsky":   (EN5, 1080, 1350, "en"),   # Bluesky — five, so it becomes a carousel
+  "en-feed":   (EN,  1080, 1350, "en"),   # LinkedIn (PDF source) and Bluesky
   "en-pin":    (EN,  1000, 1500, "en"),   # Pinterest crops anything wider than 2:3
   "en-gbp":    (GBP, 1200, 1200, "en"),   # Google Business — one frame
 }
@@ -89,4 +98,15 @@ for key in only:
         ensure_ascii=False, indent=2))
     r = subprocess.run(["node", str(D / "render.js"), key], cwd=D,
                        capture_output=True, text=True)
-    print(f"{key:10s} {w}x{h}  {r.stdout.strip() or r.stderr.strip()[:120]}")
+
+    # TikTok refuses image/png ("use 'image/jpeg' or 'image/webp'"), so every
+    # frame also ships as JPEG and that is what gets posted everywhere. One
+    # format across all networks beats a per-network exception.
+    from PIL import Image
+    out = D / f"{key}-out"
+    for png in sorted(out.glob("*.png")):
+        Image.open(png).convert("RGB").save(
+            png.with_suffix(".jpg"), quality=92, optimize=True, subsampling=0)
+
+    n = len(list(out.glob("*.jpg")))
+    print(f"{key:10s} {w}x{h}  {r.stdout.strip() or r.stderr.strip()[:120]}  (+{n} jpg)")
