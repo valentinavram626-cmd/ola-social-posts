@@ -13,7 +13,8 @@ const D = __dirname;
   fs.writeFileSync(built, html);
 
   const b = await chromium.launch();
-  const p = await b.newPage({ viewport:{width:1080,height:1350}, deviceScaleFactor:1 });
+  const W = cfg.w || 1080, H = cfg.h || 1350;
+  const p = await b.newPage({ viewport:{ width: W, height: Math.min(H, 2400) }, deviceScaleFactor:1 });
   await p.goto('file://' + built);
   await p.waitForFunction(() => window.READY === true);
   await p.evaluate(() => document.fonts.ready);

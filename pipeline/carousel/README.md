@@ -1,11 +1,11 @@
-# Carousel format — 3 + 1
+# Carousel format — one topic, nine networks
 
 Still-image carousels in place of built video. Decided 3 November 2026.
 
 ## Why this exists
 
-Valentin's call: three slides of advice plus a fourth that carries the ask,
-no music, no voiceover. Two problems disappear with the audio track:
+Valentin's call: three slides of advice plus one that carries the ask, no
+music, no voiceover. Dropping the audio track removes two problems at once.
 
 * **Licensing.** TikTok restricts business accounts to its Commercial Music
   Library; Meta's Sound Collection licence covers Meta products only and does
@@ -20,51 +20,80 @@ reader swipes when they are ready.
 
 ## What the research changed
 
-From the November 2026 brief (see `departments/reports/`):
+From the November 2026 brief:
 
 * **Brand belongs in the first frame, not the last.** System1 x TikTok, 887
-  short-form ads: correct brand attribution within 2 seconds gave +88% memory
-  lift and +92% awareness lift. A bare logo on its own measured **-30%**.
-  So the lion, the wordmark and the number are on slide 1 and on every slide
-  after it, and slide 4 is never a plain contact card.
-* **A CTA present from the opening beat a CTA revealed later by +44%**
-  (TikTok creative data). Hence the WhatsApp number in the footer throughout.
+  short-form ads: brand attribution within 2 seconds gave +88% memory lift
+  and +92% awareness lift. A bare logo on its own measured **-30%**. So the
+  lion, the wordmark and the number are on slide 1 and on every slide after
+  it, and the last slide is never a plain contact card.
+* **A CTA present from the opening beat a CTA revealed later by +44%.**
+  Hence the WhatsApp number in the footer throughout.
 * **Up to four distinctive assets early roughly doubles brand recognition;
   past four, attention drops.** Ours are exactly four and never vary: the
   lion, the gold, Bricolage Grotesque, the escalation ladder.
 
-## The house device
+## The nine networks, and what each one actually does
 
-The ladder under the header — one segment per slide, filled as you advance.
-It makes an escalating sequence legible at a glance and is identical on every
-carousel. One repeatable structural device is what the accounts that work in
-this niche have (Erika Kullberg reads fine print; we show the ladder).
+Checked 3 November 2026, not assumed. Four of these broke the naive plan.
+
+| Network | Build | Why |
+|---|---|---|
+| Instagram, Facebook, Threads | `ro-feed` — 1080x1350, 4 slides | Swipeable. Tallest ratio the feed allows. |
+| TikTok | `ro-tiktok` — 1080x1920, 4 slides | Photo post. Its own chrome covers the top tenth, the bottom quarter and a rail down the right. |
+| LinkedIn | `en-feed` -> **PDF document post** | A multi-image post renders as a **grid**, not a swipe: all four land at once, ask included. The document post is the only native format there that swipes. |
+| Bluesky | `en-bsky` — 5 slides | Bluesky only turns a post into a swipeable carousel at **five images**; four or fewer stack. The fifth slide carries the late-payment penalties, which is real content rather than padding. Captions cap at 300 characters. |
+| Pinterest | `en-pin` — 1000x1500 | Pinterest **crops** anything wider than 2:3, so the 4:5 feed render would have been cut. |
+| Google Business | `en-gbp` — 1200x1200, one frame | A listing, not a feed. Nobody swipes it, so the whole message sits in one image. |
+| YouTube | — | Video only. |
+| Twitch | — | Not an image-posting surface. |
+
+Language follows the network rule: Romanian on Instagram, Facebook, Threads
+and TikTok; English on LinkedIn, Bluesky, Pinterest and Google Business. The
+English copy is rewritten, not translated — the LinkedIn reader is not the
+same person as the Instagram reader.
 
 ## Running it
 
-    node pipeline/carousel/render.js c1        # reads c1.json, writes c1-out/
+    python3 pipeline/carousel/build.py            # all six
+    python3 pipeline/carousel/build.py en-pin     # one
+    python3 pipeline/carousel/qa.py               # gates; exits non-zero on failure
 
-Slides are 1080 x 1350 (4:5) — the tallest ratio the feed allows, so the post
-occupies the most screen. A 1080 x 1920 variant is needed for TikTok photo
-posts; not built yet.
+The copy lives in `build.py` once and is shared across every size.
 
 ### Slide types
 
-| type   | carries                                        |
-|--------|------------------------------------------------|
-| `hook` | poster layout, lion watermark, kicker + headline |
+| type   | carries                                            |
+|--------|----------------------------------------------------|
+| `hook` | poster layout, lion watermark, kicker + headline   |
 | `step` | step pill, hero figure, one sentence, optional note |
 | `ask`  | step pill, hero figure, sentence, then the ask and the number |
+| `solo` | the whole message in one frame; no ladder, no swipe cue |
 
 ## Gates — run them, do not assume
 
-* Contrast of every text colour on the background, WCAG. All five pairs in
-  the first carousel cleared 4.5:1; the lowest was the muted note at 6.6:1.
-* No ink in the outer 58px of any edge.
-* Every figure verified on GOV.UK the same week, URL recorded in the post's
-  notes.
+`qa.py` measures and exits non-zero on any failure:
 
-A claim that could not be verified gets dropped, not softened. The first
-carousel lost "£100 even if you owe no tax" for exactly that reason: it is
-widely repeated and probably right, but it is not on the GOV.UK penalties
-page, so it is not on a slide.
+* Contrast of every text colour on the background, WCAG. All five pairs clear
+  4.5:1; the lowest is the muted note at 6.6:1.
+* No ink within 5% of any edge.
+* For 9:16 only: no **bright** content in the top tenth, the bottom quarter,
+  or the right 12%. Dim background — the glow, the watermark behind the
+  headline — may sit under the chrome, because nothing is lost there.
+
+Two of those checks exist because the first build failed them, and both
+failures are worth remembering:
+
+* **en-bsky slide 5** had a three-line sentence. The centred content
+  overflowed the frame, `overflow:hidden` clipped the bottom, and the footer
+  was pushed into the margin. Shorten the copy; do not quietly shrink type.
+* **ro-tiktok** put the footer at 84% of frame height, inside TikTok's
+  caption area, and ran the swipe cue to 92% width, under the action rail.
+  The first attempt at a fix added 500px of bottom padding to both the body
+  and the footer, which pushed the column to 1972px inside a 1920px frame —
+  so the padding was clipped away again and nothing moved. Measuring the
+  computed box in the browser found it; guessing twice did not.
+
+A figure that cannot be verified gets dropped, not softened. The first
+carousel lost "£100 even if you owe no tax" for exactly that reason: widely
+repeated and probably right, but not on the GOV.UK penalties page.

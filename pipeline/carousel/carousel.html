@@ -10,7 +10,7 @@
   *{margin:0;padding:0;box-sizing:border-box}
   body{background:#222;font-family:"IBM Plex Sans",sans-serif}
   .slide{
-    position:relative;width:1080px;height:1350px;overflow:hidden;
+    position:relative;width:1080px;height:var(--LH,1350px);zoom:var(--Z,1);overflow:hidden;
     background:var(--ink); color:var(--cream);
     display:flex;flex-direction:column;
   }
@@ -36,6 +36,16 @@
 
   /* hook slide: poster layout — type anchored low, the mark filling the space above */
   .slide.hook .bd{justify-content:flex-end;padding-bottom:34px;padding-top:0}
+  .slide.solo h1{font-size:68px}
+  .slide.solo .bd{padding-top:26px;padding-bottom:40px}
+  .slide.solo .kicker{font-size:22px;margin-bottom:24px}
+  .slide.solo .rows{margin:26px 0 4px;gap:13px}
+  .slide.solo .rows div{font-size:34px}
+  .slide.solo .rows b{font-size:45px;min-width:176px}
+  .slide.solo .ask p{font-size:35px;margin-bottom:26px}
+  .slide.solo .ask .num{padding:19px 34px}
+  .slide.solo .ask .num span{font-size:47px}
+  .slide.solo .ask .num svg{width:42px;height:42px}
   .slide.hook h1{font-size:122px;line-height:1.0}
   .mark{position:absolute;z-index:1;right:-178px;top:150px;width:790px;
         opacity:.14;filter:saturate(1.15) drop-shadow(0 30px 80px rgba(0,0,0,.6));
@@ -50,7 +60,7 @@
 
   /* ---- body ---- */
   .bd{position:relative;z-index:3;flex:1;display:flex;flex-direction:column;
-      justify-content:center;padding:52px 76px 120px 76px}
+      justify-content:center;padding:52px 76px 96px 76px}
   .kicker{font-family:"IBM Plex Sans";font-weight:600;font-size:25px;
       letter-spacing:.21em;text-transform:uppercase;color:var(--gold);margin-bottom:34px}
   .kicker.step{color:var(--cream);display:inline-block;align-self:flex-start;
@@ -73,6 +83,13 @@
   .note{margin-top:34px;padding-left:26px;border-left:5px solid var(--gold-dim);
         font-size:35px;line-height:1.4;color:var(--muted)}
 
+  /* solo: the whole message in one frame, for a listing rather than a feed */
+  .rows{margin:30px 0 8px;display:flex;flex-direction:column;gap:17px}
+  .rows div{display:flex;align-items:baseline;gap:22px;font-size:39px;color:#E4E9F2}
+  .rows b{font-family:"Bricolage Grotesque";font-weight:800;font-size:52px;color:var(--gold);
+          min-width:200px;letter-spacing:-.01em}
+  .rows b cur{font-size:.56em;vertical-align:.50em;margin-right:.055em;display:inline-block}
+
   /* the ask, on the last slide only */
   .ask{margin-top:18px}
   .ask .line{height:3px;background:linear-gradient(90deg,var(--gold),rgba(240,176,62,0));margin-bottom:40px}
@@ -84,6 +101,11 @@
 
   /* ---- footer: contact cue on every slide, small, never the whole frame ---- */
   .ft{position:relative;z-index:3;padding:0 76px 60px 76px}
+  .slide.tall .hd{padding-top:214px}
+  .slide.tall .ft{padding-bottom:500px}
+  .slide.tall .bd{padding-right:178px;padding-bottom:0}
+  .slide.tall.hook .bd{padding-bottom:56px}
+  .slide.tall .swipe{display:none}
   .ft .rule{height:2px;background:rgba(255,255,255,.14);margin-bottom:28px}
   .ft .row{display:flex;align-items:center;gap:18px}
   .ft .row svg{width:34px;height:34px;flex:none}
@@ -109,7 +131,16 @@ function grain(){ // tiny tileable noise, so the flat fill gets a surface
 const NOISE=grain();
 
 function slide(s,i,n){
-  const el=document.createElement('div');el.className='slide'+(s.type==='hook'?' hook':'');el.id='s'+i;
+  const T = (CFG.lang === 'en')
+    ? { swipe:'Swipe', save:'Save', site:'ola-accountancy.co.uk' }
+    : { swipe:'Glisează', save:'Salvează', site:'ola-accountancy.co.uk' };
+  const W=CFG.w||1080, H=CFG.h||1350;
+  const LH=Math.round(H*1080/W), Z=W/1080, tall=(H/W)>1.5;
+  const el=document.createElement('div');
+  el.className='slide'+(s.type==='hook'?' hook':'')+(s.type==='solo'?' solo':'')+(tall?' tall':'');
+  el.id='s'+i;
+  el.style.setProperty('--LH', LH+'px');
+  el.style.setProperty('--Z', Z);
   const pager=`${String(i+1).padStart(2,'0')}`;
   let body='';
   if(s.type==='hook'){
@@ -120,30 +151,41 @@ function slide(s,i,n){
        + `<div class="fig">${s.fig}</div><div class="say">${s.say}</div>`
        + `<div class="ask"><div class="line" style="margin-top:46px"></div><p>${s.ask}</p>`
        + `<div class="num">${WA}<span>${s.phone}</span></div></div>`;
+  } else if(s.type==='solo'){
+    body=`<div class="kicker">${s.kicker}</div><h1>${s.h1}</h1>`
+       + `<div class="rows">${s.rows.map(r=>`<div><b>${r[0]}</b><span>${r[1]}</span></div>`).join('')}</div>`
+       + `<div class="ask"><div class="line" style="margin-top:34px"></div><p>${s.ask}</p>`
+       + `<div class="num">${WA}<span>${s.phone}</span></div></div>`;
   } else {
     body=`<div class="kicker step">${s.step}</div>`
        + `<div class="fig">${s.fig}</div><div class="say">${s.say}</div>`
        + (s.note?`<div class="note">${s.note}</div>`:'');
   }
-  let lad='<div class="lad">';
-  for(let k=0;k<n;k++) lad += `<i class="${k<i?'on':k===i?'now':''}"></i>`;
-  lad+='</div>';
+  let lad='';
+  if(n>1){
+    lad='<div class="lad">';
+    for(let k=0;k<n;k++) lad += `<i class="${k<i?'on':k===i?'now':''}"></i>`;
+    lad+='</div>';
+  }
 
   const last = (i===n-1);
-  const footLeft = last
-    ? `<span style="color:var(--gold);display:flex">${PIN}</span><span class="t city">Luton · Birmingham</span>`
-    : `<span style="color:var(--wa);display:flex">${WA}</span><span class="t">0330 133 1886</span>`;
+  const solo = (n===1);
+  const footLeft = solo
+    ? `<span style="color:var(--gold);display:flex">${PIN}</span><span class="t city">${T.site}</span>`
+    : last
+      ? `<span style="color:var(--gold);display:flex">${PIN}</span><span class="t city">Luton · Birmingham</span>`
+      : `<span style="color:var(--wa);display:flex">${WA}</span><span class="t">0330 133 1886</span>`;
 
   el.innerHTML=
-    `<img class="grain" src="${NOISE}" style="width:1080px;height:1350px;object-fit:cover">`
+    `<img class="grain" src="${NOISE}" style="width:1080px;height:${LH}px;object-fit:cover">`
   + (s.type==='hook'?`<img class="mark" src="${CFG.logo}">`:'')
   + `<div class="hd"><img src="${CFG.logo}"><div class="wm">OLA ACCOUNTANCY<span>LUTON · BIRMINGHAM</span></div>`
-  + `<div class="pager"><b>${pager}</b> / ${String(n).padStart(2,'0')}</div></div>`
+  + (n>1?`<div class="pager"><b>${pager}</b> / ${String(n).padStart(2,'0')}</div>`:'')+`</div>`
   + lad
   + `<div class="bd">${body}</div>`
   + `<div class="ft"><div class="rule"></div><div class="row">`
   +   footLeft
-  +   (last?`<span class="swipe">Salvează ★</span>`:`<span class="swipe">Glisează <span class="ar">→</span></span>`)
+  +   (solo?'':last?`<span class="swipe">${T.save} ★</span>`:`<span class="swipe">${T.swipe} <span class="ar">→</span></span>`)
   + `</div></div>`;
   return el;
 }
