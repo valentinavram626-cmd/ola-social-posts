@@ -92,6 +92,62 @@ The lesson worth keeping: platform documentation told us what the feeds
 *display*, and only a live post told us what the APIs *accept*. Those are
 different questions, and the second one is the one that decides what ships.
 
+## Scope: what we post about
+
+Widened on 3 November 2026 at Valentin's direction. Not only accounting:
+
+- tax and accounting (Self Assessment, MTD, VAT, CIS, payroll, companies)
+- good news and citizens' rights in the UK — benefits, rebates, new laws
+  that help people, consumer protections, cost-of-living support
+- residency and rights **information only** (see the boundary below)
+
+His words: *"daca ne informam cum trebuie este imposibil sa gresim."* The
+second half of that sentence is the whole job. The near-miss that proves it:
+he asked for a post about "the £100 fuel allowance". The payment is real,
+but it is called the **Household Energy Payment**, it applies in **England
+only**, only to **council tax bands A-D**, only on a **main home**,
+automatically only for **direct debit payers**, and only **from January
+2027**. Four of those five facts would have been missed.
+
+So every claim must answer four questions before it ships:
+
+1. **Which nation** — England, Scotland, Wales, Northern Ireland, or all of
+   the UK. Never "everyone" unless it is literally everyone.
+2. **Which category** — income band, council tax band, age, status.
+3. **Who does NOT get it.** Mandatory, and usually the most useful line in
+   the post. For this audience the common case is someone renting a room
+   where the landlord pays council tax: excluded from a great deal, and
+   nobody tells them.
+4. **From when**, and whether it is automatic or has to be claimed.
+
+A post that says "you get £100" is worse than no post. A post that tells the
+reader whether *they* get it is the product.
+
+### Hard boundary: immigration and residency
+
+Giving immigration advice in the UK is regulated. The line is **"offering an
+opinion on someone's individual immigration situation"**, which requires
+authorisation from the Immigration Advice Authority (formerly OISC).
+Penalties of up to £15,000 apply to unauthorised advice. Ola is not
+authorised.
+
+Allowed: explaining publicly available facts, describing how a scheme works,
+pointing at the GOV.UK page. Not allowed: telling a reader what *they*
+should do about *their* status, in a post or in a comment reply. If a
+sentence might cross the line, it crosses the line.
+
+## Who runs this
+
+`Ola Content Studio` — a scheduled task, every evening at 19:37 London,
+building the next day's five carousels. It runs the evening before on
+purpose: the checks need a night of margin to be worth anything.
+
+It spawns separate sub-agents to check its own work — fact checker, scope
+checker, compliance reviewer, and an independent verifier that never saw the
+drafting and reads the rendered images against the sources. **Any HOLD means
+that carousel is not scheduled at all.** Four good posts beat five with one
+wrong figure.
+
 ## Hashtags
 
 `build.py` holds them. Four brand tags go on every post in either language,

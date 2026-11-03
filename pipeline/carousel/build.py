@@ -97,14 +97,18 @@ CTA_EN = dict(type="cta",
 # along in the same post. It is built on its own and posted as the first
 # reply in the thread, which is how five cards reach Bluesky at all.
 JOBS = {
-  "en-cta":    ([CTA_EN], 1080, 1350, "en"),
-  "ro-cta":    ([CTA_RO], 1080, 1350, "ro"),
-  # key            slides  w     h     note
-  "ro-feed":   (RO,  1080, 1350, "ro"),   # Instagram, Facebook, Threads
-  "ro-tiktok": (RO,  1080, 1920, "ro"),   # TikTok photo post
-  "en-feed":   (EN,  1080, 1350, "en"),   # LinkedIn (PDF source) and Bluesky
-  "en-pin":    (EN,  1000, 1500, "en"),   # Pinterest crops anything wider than 2:3
-  "en-gbp":    (GBP, 1200, 1200, "en"),   # Google Business — one frame
+  # Five cards: four of content, then the ask on its own.
+  "ro-feed":   (RO  + [CTA_RO], 1080, 1350, "ro"),  # Instagram, Facebook, Threads
+  "ro-tiktok": (RO  + [CTA_RO], 1080, 1920, "ro"),  # TikTok photo post
+  "en-feed":   (EN  + [CTA_EN], 1080, 1350, "en"),  # LinkedIn, published as a PDF
+  "en-pin":    (EN  + [CTA_EN], 1000, 1500, "en"),  # Pinterest crops wider than 2:3
+
+  # Bluesky's API rejects a fifth image ("array too big (maximum 4, got 5)"),
+  # so it takes the four content cards and the ask stays inside card four.
+  "en-bsky":   (EN,  1080, 1350, "en"),
+
+  # Google Business is a listing with nothing to swipe: one frame, whole message.
+  "en-gbp":    (GBP, 1200, 1200, "en"),
 }
 
 only = sys.argv[1:] or list(JOBS)
