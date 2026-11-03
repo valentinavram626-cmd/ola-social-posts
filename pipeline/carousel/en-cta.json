@@ -1,0 +1,15 @@
+{
+  "id": "en-cta",
+  "w": 1080,
+  "h": 1350,
+  "lang": "en",
+  "slides": [
+    {
+      "type": "cta",
+      "kicker": "Self Assessment · deadline 31 January 2027",
+      "h1": "Not sure <em>where you stand</em>?",
+      "say": "Send us a message and we will check whether you need to file. No obligation.",
+      "phone": "0330 133 1886"
+    }
+  ]
+}

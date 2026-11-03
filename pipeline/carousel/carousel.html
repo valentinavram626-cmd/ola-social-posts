@@ -83,6 +83,16 @@
   .note{margin-top:34px;padding-left:26px;border-left:5px solid var(--gold-dim);
         font-size:35px;line-height:1.4;color:var(--muted)}
 
+  /* cta: the closing card, the ask on its own */
+  .slide.cta .bd{justify-content:center}
+  .slide.cta h1{font-size:88px}
+  .slide.cta .say{font-size:42px;margin-top:26px}
+  .slide.cta .ask{margin-top:44px}
+  .slide.cta .ask .num span{font-size:64px}
+  .slide.cta .where{margin-top:34px;display:flex;align-items:center;gap:16px;
+      font-size:30px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+  .slide.cta .where svg{width:32px;height:32px;color:var(--gold)}
+
   /* solo: the whole message in one frame, for a listing rather than a feed */
   .rows{margin:30px 0 8px;display:flex;flex-direction:column;gap:17px}
   .rows div{display:flex;align-items:baseline;gap:22px;font-size:39px;color:#E4E9F2}
@@ -137,7 +147,8 @@ function slide(s,i,n){
   const W=CFG.w||1080, H=CFG.h||1350;
   const LH=Math.round(H*1080/W), Z=W/1080, tall=(H/W)>1.5;
   const el=document.createElement('div');
-  el.className='slide'+(s.type==='hook'?' hook':'')+(s.type==='solo'?' solo':'')+(tall?' tall':'');
+  el.className='slide'+(s.type==='hook'?' hook':'')+(s.type==='solo'?' solo':'')
+    +(s.type==='cta'?' cta':'')+(tall?' tall':'');
   el.id='s'+i;
   el.style.setProperty('--LH', LH+'px');
   el.style.setProperty('--Z', Z);
@@ -151,6 +162,10 @@ function slide(s,i,n){
        + `<div class="fig">${s.fig}</div><div class="say">${s.say}</div>`
        + `<div class="ask"><div class="line" style="margin-top:46px"></div><p>${s.ask}</p>`
        + `<div class="num">${WA}<span>${s.phone}</span></div></div>`;
+  } else if(s.type==='cta'){
+    body=`<div class="kicker">${s.kicker}</div><h1>${s.h1}</h1>`
+       + `<div class="say">${s.say}</div>`
+       + `<div class="ask"><div class="num">${WA}<span>${s.phone}</span></div></div>`;
   } else if(s.type==='solo'){
     body=`<div class="kicker">${s.kicker}</div><h1>${s.h1}</h1>`
        + `<div class="rows">${s.rows.map(r=>`<div><b>${r[0]}</b><span>${r[1]}</span></div>`).join('')}</div>`

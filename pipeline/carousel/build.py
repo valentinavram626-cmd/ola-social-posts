@@ -81,7 +81,24 @@ GBP = [
        phone=PHONE),
 ]
 
+CTA_RO = dict(type="cta",
+  kicker="Self Assessment · termen 31 ianuarie 2027",
+  h1="Nu ești sigur <em>unde stai</em>?",
+  say="Scrie-ne un mesaj și verificăm împreună dacă ai termen de depus. Fără obligații.",
+  phone=PHONE)
+
+CTA_EN = dict(type="cta",
+  kicker="Self Assessment · deadline 31 January 2027",
+  h1="Not sure <em>where you stand</em>?",
+  say="Send us a message and we will check whether you need to file. No obligation.",
+  phone=PHONE)
+
+# Bluesky's API caps a post at four images, so the fifth card cannot ride
+# along in the same post. It is built on its own and posted as the first
+# reply in the thread, which is how five cards reach Bluesky at all.
 JOBS = {
+  "en-cta":    ([CTA_EN], 1080, 1350, "en"),
+  "ro-cta":    ([CTA_RO], 1080, 1350, "ro"),
   # key            slides  w     h     note
   "ro-feed":   (RO,  1080, 1350, "ro"),   # Instagram, Facebook, Threads
   "ro-tiktok": (RO,  1080, 1920, "ro"),   # TikTok photo post
