@@ -80,7 +80,7 @@ Propunere de răspuns (nemodificată):
 
 Am reluat cu succes singurul element pe care ieri nu l-am putut deschide:
 
-- **samstoffel (Instagram, 22 oct)** — *rezolvat ca necunoscută*: conversația conține un **singur element, un share de postare fără niciun text**, pe care Metricool nu îl poate reda (bubble gol, etichetat intern „Post content"). Nu e nimic de citit și nimic de răspuns. Nu mai e „de verificat manual" — am verificat. Rămâne nerezolvată, conform regulii de a nu rezolva ce nu am răspuns.
+- **lead-8960 (Instagram, 22 oct)** — *rezolvat ca necunoscută*: conversația conține un **singur element, un share de postare fără niciun text**, pe care Metricool nu îl poate reda (bubble gol, etichetat intern „Post content"). Nu e nimic de citit și nimic de răspuns. Nu mai e „de verificat manual" — am verificat. Rămâne nerezolvată, conform regulii de a nu rezolva ce nu am răspuns.
 
 Restul conversațiilor fără text rămân ca ieri: eduarddpopa, newcastle_explores, pescobar.paulnicolau, visionprosigns, allisuu („Message not available" — media expirată), plus Fredi Rodado Tdb, Meta Chat'Al și 3 × „Facebook user" (reacții sau stickere).
 

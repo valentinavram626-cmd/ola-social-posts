@@ -96,7 +96,7 @@ Propunere de răspuns:
 ## Ratate / neatinse
 
 **Nu s-au putut citi:**
-- samstoffel (IG, 22 oct) — DM doar cu media, fără text. Metricool blochează capturile de ecran pe conversațiile cu video, iar extensia s-a deconectat înainte de a doua încercare. **De verificat manual.**
+- lead-8960 (IG, 22 oct) — DM doar cu media, fără text. Metricool blochează capturile de ecran pe conversațiile cu video, iar extensia s-a deconectat înainte de a doua încercare. **De verificat manual.**
 - eduarddpopa (IG, 14 oct) — a trimis un cont de inspirație (mitchthetaxman) și o postare care între timp a expirat („Message not available"). Conversația pare deja închisă social, Ola a răspuns la momentul respectiv.
 - 4 × „Message not available" (newcastle_explores, pescobar.paulnicolau, visionprosigns, allisuu — toate aprilie 2026) — media expirată.
 - Fredi Rodado Tdb, Meta Chat'Al și 3 × „Facebook user" (iul / iun 2026) — conversații fără niciun text (reacții sau stickere).
