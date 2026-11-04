@@ -1,133 +1,89 @@
 #!/usr/bin/env python3
-"""Build one carousel for every connected platform, in the right language and ratio.
+# -*- coding: utf-8 -*-
+"""Build one topic's carousel for every connected platform, in the right language and ratio.
 
-The copy lives here once. Each platform gets the size its feed actually wants
-and the language Valentin's network rule assigns to it:
+    python3 build.py <topic-slug>              # every job for that topic
+    python3 build.py <topic-slug> en-pin       # one job
+
+The copy lives in topics.py once and is shared across every size. Each platform
+gets the size its feed actually wants and the language Valentin's network rule
+assigns to it:
   Romanian  — Instagram, Facebook, Threads, TikTok
   English   — LinkedIn, Bluesky, Pinterest, Google Business
+
+Outputs land in <job>-out/ so qa.py can gate them in place. The day driver
+(day.py) moves them to out/<slug>/<job>/ only after the gate passes.
 """
-import json, subprocess, sys, pathlib
+import json, shutil, subprocess, sys, pathlib
+import topics
 
 D = pathlib.Path(__file__).parent
-PHONE = "0330 133 1886"
-
-# Brand hashtags, fixed. Valentin asked for these on 3 Nov 2026; they are the
-# firm's own tags, so they appear on every post in either language and are
-# never reworded. Topical tags are chosen per post and come after these.
-BRAND_TAGS = ("#OlaAccountancy #ValentinTheAccountant "
-              "#OlaAccountancyLuton #OlaAccountancyBirmingham")
-
-TOPIC_TAGS_RO = "#selfassessment #hmrc #contabilitate #romaniinuk #taxeuk"
-TOPIC_TAGS_EN = "#selfassessment #hmrc #ukaccountant #smallbusinessuk #taxuk"
 
 
-def tags(lang):
-    """Brand tags first, then the topical ones for that language."""
-    return BRAND_TAGS + " " + (TOPIC_TAGS_RO if lang == "ro" else TOPIC_TAGS_EN)
+def jobs_for(t):
+    """Every render this topic needs, keyed by the network it serves."""
+    j = {
+      # Five cards: four of content, then the ask on its own.
+      "ro-feed":   (t["RO"] + [t["CTA_RO"]], 1080, 1350, "ro"),  # Instagram, Facebook, Threads
+      "ro-tiktok": (t["RO"] + [t["CTA_RO"]], 1080, 1920, "ro"),  # TikTok photo post
+      "en-feed":   (t["EN"] + [t["CTA_EN"]], 1080, 1350, "en"),  # LinkedIn, published as a PDF
+      "en-pin":    (t["EN"] + [t["CTA_EN"]], 1000, 1500, "en"),  # Pinterest crops wider than 2:3
 
-# ---------------------------------------------------------------- Romanian
-RO = [
-  dict(type="hook",
-       kicker="Self Assessment · termen 31 ianuarie 2027",
-       h1="Ratezi <em>31 ianuarie</em>?",
-       say="Penalizările HMRC nu vin o singură dată. Cresc în trepte, lună după lună."),
-  dict(type="step", step="Din prima zi", fig="<cur>£</cur>100",
-       say="Penalizarea inițială, imediat ce declarația a întârziat."),
-  dict(type="step", step="După 3 luni", fig="<cur>£</cur>10<small> / zi</small>",
-       say="Se adaugă <b>în fiecare zi</b>, până la maximum £900.",
-       note="Cu tot cu primii £100, ajungi la £1.000."),
-  dict(type="ask", step="După 6 luni", fig="+5%",
-       say="din taxa datorată — sau <b>£300</b>, care e mai mare. Iar la 12 luni se aplică încă o dată.",
-       ask="Nu lăsa pe ultima săptămână. Scrie-ne și verificăm împreună dacă ai termen de depus.",
-       phone=PHONE),
-]
+      # Bluesky's API rejects a fifth image ("array too big (maximum 4, got 5)"),
+      # so the post carries the four content cards and the ask goes out as the
+      # first reply in the thread — which is how five cards reach Bluesky at all.
+      "en-bsky":   (t["EN"], 1080, 1350, "en"),
+      "en-cta":    ([t["CTA_EN"]], 1080, 1350, "en"),
+    }
+    # Google Business is a listing with nothing to swipe: one frame, whole
+    # message, and only on the single topic chosen for it that day.
+    if t.get("GBP"):
+        j["en-gbp"] = (t["GBP"], 1200, 1200, "en")
+    return j
 
-# ---------------------------------------------------------------- English
-# Rewritten for a different reader, not translated: LinkedIn and Google
-# bring people who are searching, not scrolling.
-EN = [
-  dict(type="hook",
-       kicker="Self Assessment · deadline 31 January 2027",
-       h1="Miss <em>31 January</em>?",
-       say="HMRC penalties don't arrive once. They escalate, month after month."),
-  dict(type="step", step="From day one", fig="<cur>£</cur>100",
-       say="The initial penalty, the moment your return is late."),
-  dict(type="step", step="After 3 months", fig="<cur>£</cur>10<small> / day</small>",
-       say="Added <b>every single day</b>, up to a maximum of £900.",
-       note="With the first £100, that is £1,000."),
-  dict(type="ask", step="After 6 months", fig="+5%",
-       say="of the tax due — or <b>£300</b>, whichever is greater. At 12 months it applies again.",
-       ask="Not sure whether you need to file? Send us a message and we will check it with you.",
-       phone=PHONE),
-]
 
-# NOTE (3 Nov 2026, learned from a live run, not from documentation):
-# Bluesky's API rejects a post with more than four images —
-#   "Invalid app.bsky.feed.post record: array too big (maximum 4, got 5)".
-# Published guidance says a Bluesky post only becomes a swipeable carousel at
-# five images or more. Both are true, and together they mean a swipeable
-# Bluesky carousel cannot be produced through the API at all. Bluesky
-# therefore uses the ordinary four-slide English set and displays it stacked.
-
-# Google Business is a listing, not a feed — nobody swipes it. One frame.
-GBP = [
-  dict(type="solo",
-       kicker="Self Assessment · deadline 31 January 2027",
-       h1="Filing late costs more every month.",
-       rows=[["<cur>£</cur>100", "from the first day your return is late"],
-             ["<cur>£</cur>10/day", "after 3 months, up to £900"],
-             ["+5%",              "after 6 months, or £300 if greater"]],
-       ask="Luton and Birmingham. Message us and we will check whether you need to file.",
-       phone=PHONE),
-]
-
-CTA_RO = dict(type="cta",
-  kicker="Self Assessment · termen 31 ianuarie 2027",
-  h1="Nu ești sigur <em>unde stai</em>?",
-  say="Scrie-ne un mesaj și verificăm împreună dacă ai termen de depus. Fără obligații.",
-  phone=PHONE)
-
-CTA_EN = dict(type="cta",
-  kicker="Self Assessment · deadline 31 January 2027",
-  h1="Not sure <em>where you stand</em>?",
-  say="Send us a message and we will check whether you need to file. No obligation.",
-  phone=PHONE)
-
-# Bluesky's API caps a post at four images, so the fifth card cannot ride
-# along in the same post. It is built on its own and posted as the first
-# reply in the thread, which is how five cards reach Bluesky at all.
-JOBS = {
-  # Five cards: four of content, then the ask on its own.
-  "ro-feed":   (RO  + [CTA_RO], 1080, 1350, "ro"),  # Instagram, Facebook, Threads
-  "ro-tiktok": (RO  + [CTA_RO], 1080, 1920, "ro"),  # TikTok photo post
-  "en-feed":   (EN  + [CTA_EN], 1080, 1350, "en"),  # LinkedIn, published as a PDF
-  "en-pin":    (EN  + [CTA_EN], 1000, 1500, "en"),  # Pinterest crops wider than 2:3
-
-  # Bluesky's API rejects a fifth image ("array too big (maximum 4, got 5)"),
-  # so it takes the four content cards and the ask stays inside card four.
-  "en-bsky":   (EN,  1080, 1350, "en"),
-
-  # Google Business is a listing with nothing to swipe: one frame, whole message.
-  "en-gbp":    (GBP, 1200, 1200, "en"),
-}
-
-only = sys.argv[1:] or list(JOBS)
-for key in only:
-    slides, w, h, lang = JOBS[key]
-    (D / f"{key}.json").write_text(json.dumps(
-        {"id": key, "w": w, "h": h, "lang": lang, "slides": slides},
-        ensure_ascii=False, indent=2))
-    r = subprocess.run(["node", str(D / "render.js"), key], cwd=D,
-                       capture_output=True, text=True)
-
-    # TikTok refuses image/png ("use 'image/jpeg' or 'image/webp'"), so every
-    # frame also ships as JPEG and that is what gets posted everywhere. One
-    # format across all networks beats a per-network exception.
+def build(slug, only=None):
+    t = topics.BY_SLUG[slug]
+    JOBS = jobs_for(t)
+    keys = only or list(JOBS)
     from PIL import Image
-    out = D / f"{key}-out"
-    for png in sorted(out.glob("*.png")):
-        Image.open(png).convert("RGB").save(
-            png.with_suffix(".jpg"), quality=92, optimize=True, subsampling=0)
 
-    n = len(list(out.glob("*.jpg")))
-    print(f"{key:10s} {w}x{h}  {r.stdout.strip() or r.stderr.strip()[:120]}  (+{n} jpg)")
+    for key in keys:
+        slides, w, h, lang = JOBS[key]
+        out = D / f"{key}-out"
+        shutil.rmtree(out, ignore_errors=True)       # never gate a stale frame
+
+        (D / f"{key}.json").write_text(json.dumps(
+            {"id": key, "w": w, "h": h, "lang": lang, "slides": slides},
+            ensure_ascii=False, indent=2))
+        r = subprocess.run(["node", str(D / "render.js"), key], cwd=D,
+                           capture_output=True, text=True)
+
+        # TikTok refuses image/png ("use 'image/jpeg' or 'image/webp'"), so every
+        # frame also ships as JPEG and that is what gets posted everywhere. One
+        # format across all networks beats a per-network exception.
+        for png in sorted(out.glob("*.png")):
+            Image.open(png).convert("RGB").save(
+                png.with_suffix(".jpg"), quality=92, optimize=True, subsampling=0)
+
+        n = len(list(out.glob("*.jpg")))
+        print(f"  {key:10s} {w}x{h:<5d} {r.stdout.strip() or r.stderr.strip()[:120]}  (+{n} jpg)")
+        if n != len(slides):
+            raise SystemExit(f"FAIL {slug}/{key}: expected {len(slides)} frames, got {n}")
+
+
+def stale_dirs(slug):
+    """Job dirs left over from another topic, which qa.py would otherwise gate."""
+    want = set(jobs_for(topics.BY_SLUG[slug]))
+    return [d for d in D.glob("*-out") if d.name[:-4] not in want]
+
+
+if __name__ == "__main__":
+    if not sys.argv[1:]:
+        raise SystemExit("usage: build.py <topic-slug> [job ...]\n  slugs: "
+                         + ", ".join(topics.BY_SLUG))
+    slug, rest = sys.argv[1], sys.argv[2:]
+    for d in stale_dirs(slug):
+        shutil.rmtree(d, ignore_errors=True)
+    print(topics.BY_SLUG[slug]["title"])
+    build(slug, rest or None)

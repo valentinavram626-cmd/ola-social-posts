@@ -39,7 +39,7 @@ for k, (f, b) in PAIRS.items():
 
 print("\nFRAMES")
 print(f"  {'job':11s} {'n':>2s} {'size':11s} {'KB':>5s}  margins    platform-safe")
-for job in ['ro-feed','ro-tiktok','en-feed','en-bsky','en-pin','en-gbp']:
+for job in ['ro-feed','ro-tiktok','en-feed','en-bsky','en-pin','en-cta','en-gbp']:
     for f in sorted(glob.glob(f'{job}-out/*.png')):
         im = Image.open(f); W, H = im.size
         a = np.array(im.convert('L')).astype(int); bg = int(np.median(a))
