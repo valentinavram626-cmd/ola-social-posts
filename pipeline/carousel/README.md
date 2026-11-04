@@ -92,6 +92,37 @@ The lesson worth keeping: platform documentation told us what the feeds
 *display*, and only a live post told us what the APIs *accept*. Those are
 different questions, and the second one is the one that decides what ships.
 
+## What the second live run taught us
+
+Run on 4 November 2026 for publication on the 5th. Four of five carousels
+shipped; 29 Metricool entries accepted, one rejection, fixed in the same run.
+
+* **Pinterest needs `pinLink`, not just `boardId` and `pinTitle`.**
+  *"Pinterest data requires 'boardId', 'pinTitle', and 'pinLink'."* The tool
+  description names only the first two as required. Send the website URL.
+* **Bluesky's 300 characters have to carry three things, not one.** The four
+  brand tags are 85 characters and the compliance disclaimer is another 65,
+  which leaves about 150 for the message. Write the Bluesky body to that
+  budget from the start rather than trimming it afterwards.
+* **A Metricool thread reply is forced to exactly one hour after its parent**,
+  as the first run found. Confirmed again: every `descendants` entry landed at
+  parent + 60 minutes regardless of the date supplied.
+* **The `ask` card is the one that overflows at 4:5.** On a 1080x1350 frame the
+  body block has 892px before the footer is pushed out of the frame, and a
+  three-line sentence plus a two-line ask comes to 931px. `probe.py` measures
+  it per topic; use it before rendering a full day. The fix is shorter copy —
+  never smaller type.
+* **The template had no slot for the compliance disclaimer**, which is why it
+  was missing from every item rather than from some of them. `cta` and `solo`
+  slides now take a `disc` field. When a check finds the same fault in all five
+  items at once, suspect the template.
+* **A reviewer's objection is not a source, and neither is a page that is
+  silent.** A compliance reviewer asked for the VAT deregistration test to say
+  "the next 12 months". Two GOV.UK pages do not mention a period, so the change
+  was declined — correctly, on that evidence. The reviewer then cited VAT
+  Notice 700/11 section 3.2, which states it outright. Verified, and adopted.
+  Check the notices, not only the guidance pages.
+
 ## Scope: what we post about
 
 Widened on 3 November 2026 at Valentin's direction. Not only accounting:
