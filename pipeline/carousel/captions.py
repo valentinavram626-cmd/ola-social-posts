@@ -254,7 +254,7 @@ Firma trebuie să îți dea o chitanță de plată și deducere în 14 zile de l
 Se aplică în tot Regatul Unit. Înregistrarea e gratuită și e pasul tău — nimeni nu o face în locul tău.
 
 Nu știi dacă ești înregistrat sau cât ți s-a oprit?""",
- th="""Ți se opresc 30% din plată în construcții? De obicei înseamnă că nu ești înregistrat la CIS — sau că firma nu te-a putut verifica la HMRC. Înregistrat, se opresc 20%.
+ th="""Ți se opresc 30% din plată în construcții? De obicei înseamnă că nu ești înregistrat la CIS — sau că firma nu te-a putut verifica la HMRC. Ca să fie 20%, îți trebuie amândouă: înregistrat și verificat.
 
 Angajații nu intră deloc în CIS. Nici din TVA și nici din materialele plătite de tine nu se oprește nimic.""",
  li="""The Construction Industry Scheme decides how much of a subcontractor's invoice actually reaches them.
@@ -283,7 +283,7 @@ UK-wide. Registration is free and is the subcontractor's own step — nobody doe
 Want your CIS deductions checked against your return?""",
  bsky="""CIS: 20% off your pay needs both: registered, and the contractor can find you at HMRC. Miss either and it is 30%. Employees are outside it.""",
  pin_title="UK CIS: 20% or 30% off a subcontractor's pay",
- pin="""Why a UK construction subcontractor gets 20% or 30% deducted from their pay under the Construction Industry Scheme: 20% only if the subcontractor is registered for CIS and the contractor can find them at HMRC. Miss either and it is 30%. Gross payment status, 0%. The deduction is an advance payment against Income Tax and National Insurance. Nothing is deducted from VAT, from materials the subcontractor paid for, from plant hire or from fuel other than travel fuel. Employees are outside CIS entirely, as is running a site canteen and the supply of security guards — but constructing site facilities and most physical security work are inside it. UK-wide; registration is free. Ola Accountancy, Luton and Birmingham.""",
+ pin="""Why a UK construction subcontractor has 20% or 30% taken off their pay under the Construction Industry Scheme: 20% only if the subcontractor is registered for CIS and the contractor can find them at HMRC. Miss either and it is 30%. Gross payment status, 0%. The deduction is an advance payment against Income Tax and National Insurance. Nothing comes off VAT, materials they paid for, plant hire or fuel other than travel fuel. Employees are outside CIS entirely, as is running a site canteen, guarding a site or installing alarms and CCTV — but building site huts and hoardings, fitting security shutters and digging in CCTV posts are inside it. UK-wide; registration is free. Ola Accountancy, Luton and Birmingham.""",
  gbp="""Working in construction and wondering why 30% comes off your pay instead of 20%?
 
 Under the Construction Industry Scheme the 20% rate needs two things to be true, not one: you are registered for CIS, and the contractor can check you against HMRC's records before they pay you. If either one is missing, 30% comes off instead — so registering does not on its own settle it, and a subcontractor who is registered but cannot be checked still has 30% taken. A subcontractor with gross payment status has nothing deducted at all.
