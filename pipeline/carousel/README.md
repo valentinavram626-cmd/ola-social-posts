@@ -183,6 +183,46 @@ shipped; 29 Metricool entries accepted, one rejection, fixed in the same run.
   Notice 700/11 section 3.2, which states it outright. Verified, and adopted.
   Check the notices, not only the guidance pages.
 
+## What the third live run taught us
+
+Run on 5 November 2026 for publication on the 6th. Four of five carousels
+shipped; 29 Metricool entries accepted, one rejection, fixed in the same run.
+
+* **TikTok requires a `title` in `tiktokData`.** *"Error processing post
+  information: TikTok title is required"* — on a photo post, with the caption
+  already in `text`. The tool description does not list it as required and the
+  earlier runs never hit it, because earlier runs sent video. Send a short
+  Romanian title as well as the caption.
+* **Threads now has its own post and its own caption.** `th_caption()` in
+  `captions.py`, asserted under 500 characters including the four brand tags,
+  which are 85 of them. The 500-character cap is the whole explanation for
+  *"Media container not created by unknown cause"* — a message that points at
+  the images and has nothing to do with them. Read back from the planner, the
+  four Threads captions measured 441, 453, 456 and 482.
+* **Bluesky carries the full brand disclaimer, not a shortened one.** The
+  300-character cap is answered by shorter copy, exactly as qa.py's frame
+  overflow is answered by shorter copy. Swapping the long disclaimer back in
+  pushed two captions over and they were rewritten until the gate passed.
+* **A checker's objection is not a source, and neither is a checker's fix.**
+  Five carousels came back HOLD. Every objection that changed a card was
+  re-verified at primary source first — and the biggest one survived: CIS340
+  Appendix C excludes only "the supply of security guards" and the *running*
+  of site facilities, while erecting CCTV posts, fitting security shutters and
+  putting up site hoardings are inside the scheme. The card had said "site
+  security is outside CIS", which would have told a subcontractor doing exactly
+  that work that he need not register.
+* **Check the second language.** The trading allowance fix — gov.uk says "your
+  employer or the employer of your spouse or civil partner", not "partner" —
+  landed in English and not in Romanian on the first pass. The independent
+  verifier caught it on the rendered frame, not in the source. A fix is not
+  done until it is on every frame it was supposed to reach.
+* **A topic can be held for a wording decision, not only for a wrong figure.**
+  Child Benefit's figures were all verified. It was held because the exclusion
+  that actually decides the claim for this audience is the residence condition,
+  and writing that on a card touches the regulated immigration boundary. The
+  standing rule is that an unsure sentence crosses the line, so it waits for
+  Valentin rather than being improvised overnight.
+
 ## Scope: what we post about
 
 Widened on 3 November 2026 at Valentin's direction. Not only accounting:

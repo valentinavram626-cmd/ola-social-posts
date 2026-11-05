@@ -370,7 +370,7 @@ Se aplică în tot Regatul Unit și nu se cere: e automată.
 Ai trecut de £1.000 anul acesta?""",
  th="""Câștigi ceva pe lângă job? Primii £1.000 pe an sunt scutiți de impozit. Se numără cât ai încasat, nu cât ți-a rămas. Din 6 aprilie 2027 pragul crește la £3.000.
 
-Scutirea NU se aplică la bani de la angajatorul tău, al soțului sau soției, ori de la o firmă pe care o controlezi.""",
+Scutirea NU se aplică la bani de la angajatorul tău, al soțului, al soției sau al partenerului civil, ori de la o firmă pe care o controlezi.""",
  li="""The trading allowance exempts the first £1,000 of trading or miscellaneous income in a tax year. Below that, nothing is taxed and nothing is reported to HMRC.
 
 Date it before you use it: £1,000 is the 2026/27 figure. It rises to £3,000 from 6 April 2027, alongside the Self Assessment reporting threshold, announced at the Budget on 28 October 2026.
