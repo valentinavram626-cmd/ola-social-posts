@@ -286,7 +286,9 @@ Want your CIS deductions checked against your return?""",
  pin="""Why a UK construction subcontractor gets 20% or 30% deducted from their pay under the Construction Industry Scheme: 20% if registered with HMRC, 30% if not, and 0% with gross payment status. The deduction is an advance payment against Income Tax and National Insurance. Nothing is deducted from VAT, from materials the subcontractor paid for, from plant hire or from fuel other than travel fuel. Employees are outside CIS entirely, as is running a site canteen and the supply of security guards — but constructing site facilities and most physical security work are inside it. UK-wide; registration is free. Ola Accountancy, Luton and Birmingham.""",
  gbp="""Working in construction and wondering why 30% comes off your pay instead of 20%?
 
-Under the Construction Industry Scheme a contractor deducts 20% from a subcontractor who has registered with HMRC, 30% from one who has not, and nothing at all from a subcontractor with gross payment status. The difference between the first two is 10 percentage points — an extra £10 off every £100 the deduction is worked out on — and registering is free. It is not taken off the whole invoice: it is worked out on the labour part of the payment.
+Under the Construction Industry Scheme the 20% rate needs two things to be true, not one: you are registered for CIS, and the contractor can check you against HMRC's records before they pay you. If either one is missing, 30% comes off instead — so registering does not on its own settle it, and a subcontractor who is registered but cannot be checked still has 30% taken. A subcontractor with gross payment status has nothing deducted at all.
+
+The gap between 20% and 30% is 10 percentage points — an extra £10 off every £100 the deduction is worked out on — and registering is free. It is not taken off the whole invoice: it is worked out on the labour part of the payment.
 
 The money is not lost either way: it is an advance payment against your Income Tax and National Insurance. Nothing is deducted from VAT, from materials you paid for, or from plant hire. Employees are outside the scheme completely.
 
