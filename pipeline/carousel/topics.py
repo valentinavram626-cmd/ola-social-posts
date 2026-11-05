@@ -404,14 +404,14 @@ CIS_20_30 = dict(
   RO=[
     dict(type="hook",
          kicker="CIS · construcții",
-         h1="Ți se opresc <em>30%</em> din plată? Probabil nu ești înregistrat.",
-         say="În construcții, firma care te plătește oprește o parte din bani și o trimite la HMRC în numele tău. Cât oprește depinde de un singur lucru."),
+         h1="Ți se opresc <em>30%</em> din plată? De obicei, nu ești înregistrat.",
+         say="În construcții, firma care te plătește oprește o parte din bani și o trimite la HMRC în numele tău. 30% înseamnă de obicei că nu ești înregistrat la CIS — sau că firma nu te-a putut verifica la HMRC."),
     dict(type="step", step="20% sau 30%", fig="20%",
-         say="Înregistrat la CIS, firma oprește <b>20%</b>. Neînregistrat, oprește <b>30%</b>. Banii nu sunt pierduți: se scad din taxa ta când depui declarația.",
-         note="Înregistrarea la HMRC e gratuită. Diferența dintre cele două e 10% din fiecare plată."),
+         say="Înregistrat la CIS, firma oprește <b>20%</b>. Neînregistrat, oprește <b>30%</b>. Banii nu sunt pierduți: contează ca plată în avans pentru taxa și National Insurance pe care le datorezi.",
+         note="Pe cont propriu, se scad la declarația anuală. Cu firmă (Ltd), se recuperează prin payroll — niciodată prin declarația de Corporation Tax."),
     dict(type="step", step="Cine NU are opriri", fig="0%",
-         say="Angajații nu intră deloc în CIS: dacă ești pe salariu, nu ți se oprește nimic pe CIS. Iar din materialele plătite de tine și din TVA nu se oprește nimic — doar din munca ta.",
-         note="Nici paznicii, bucătăria de pe șantier sau serviciul medical nu intră în CIS."),
+         say="Angajații nu intră deloc în CIS: cu contract de muncă, nu ți se oprește nimic pe CIS. Iar dacă obții „gross payment status” la HMRC, nu se oprește nimic nici ca subcontractor — primești tot și plătești taxa la final.",
+         note="Nu se oprește nimic nici din TVA, nici din materialele plătite de tine."),
   ],
   CTA_RO=dict(type="cta",
     kicker="CIS · construcții",
@@ -422,14 +422,14 @@ CIS_20_30 = dict(
   EN=[
     dict(type="hook",
          kicker="CIS · construction",
-         h1="Having <em>30%</em> taken off your pay? You are probably not registered.",
-         say="In construction, the firm paying you keeps part of the money and sends it to HMRC in your name. How much it keeps turns on one thing."),
+         h1="Having <em>30%</em> deducted? Usually you are not registered.",
+         say="In construction, the firm paying you keeps part of the money and sends it to HMRC in your name. 30% usually means you never registered, or could not be verified."),
     dict(type="step", step="20% or 30%", fig="20%",
-         say="Registered for CIS, the contractor deducts <b>20%</b>. Not registered, <b>30%</b>. The money is not lost: it comes off your tax bill when you file.",
-         note="Registering with HMRC is free. The gap between the two rates is 10% of every payment."),
+         say="Registered for CIS, the contractor deducts <b>20%</b>. Not registered, <b>30%</b>. The money is not lost: it counts as an advance payment towards your Income Tax and National Insurance.",
+         note="Sole trader: offset on your tax return. Limited company: recovered through payroll, never on the Corporation Tax return."),
     dict(type="step", step="Who has NO deduction", fig="0%",
-         say="Employees are not in CIS at all: on the payroll, nothing is deducted under CIS. And nothing is deducted from materials you paid for or from VAT — only from your labour.",
-         note="Site security, the canteen and medical services on site are outside CIS too."),
+         say="Employees are not in CIS at all: with a contract of employment, nothing is deducted under CIS. And a subcontractor granted gross payment status by HMRC has nothing deducted either — paid in full, tax settled at the end.",
+         note="Nothing is deducted from VAT or from materials you paid for, either."),
   ],
   CTA_EN=dict(type="cta",
     kicker="CIS · construction",
@@ -442,7 +442,7 @@ CIS_20_30 = dict(
          kicker="CIS · gov.uk",
          h1="20% if you are registered. 30% if you are not.",
          rows=[["20%", "deducted from a registered subcontractor"],
-               ["30%", "deducted if you never registered"],
+               ["30%", "deducted if you are not registered"],
                ["0%",  "with gross payment status"]],
          ask="Working in construction around Luton or Birmingham? Message us and we will check your CIS deductions.",
          phone=PHONE, disc="General information, not personal advice."),
@@ -478,9 +478,11 @@ CIS_20_30 = dict(
              "gross payment status have 0% deducted. Within a payment, no deduction is taken "
              "from VAT, from materials the subcontractor paid for, from consumable stores, "
              "from fuel other than travel fuel, from plant hire paid to a third party, or "
-             "from manufacturing and prefabrication costs. Non-construction services on a "
-             "site — running a canteen or hostel, medical, safety or security services, site "
-             "facilities — are not construction operations and are not in CIS.",
+             "from manufacturing and prefabrication costs. Running site facilities — canteens, "
+             "hostels, offices, toilets, medical centres — and the supply of security guards "
+             "are not construction operations; CONSTRUCTING those facilities is, as is most "
+             "physical security work (erecting CCTV posts, fitting security shutters, site "
+             "hoardings), so 'site security' must never be described as outside CIS.",
     from_when="Current rates, in force since 6 April 2007. Registration is the "
               "subcontractor's own step and is not automatic; without it the 30% rate "
               "applies to every payment."),
@@ -496,14 +498,14 @@ TAX_CODE_30_DEC = dict(
   RO=[
     dict(type="hook",
          kicker="Self Assessment · 30 decembrie 2026",
-         h1="Ai taxă de plătit și salariu? O poți plăti <em>din salariu</em>.",
-         say="În loc să scoți toată suma pe 31 ianuarie, HMRC o poate lua puțin câte puțin din salariu, pe parcursul anului. Dar numai dacă depui declarația la timp."),
+         h1="Ai taxă de plătit și salariu? HMRC o ia <em>din salariu</em>, singură.",
+         say="Dacă datorezi sub £3.000 și ai deja salariu sau pensie, HMRC nu îți cere toată suma pe 31 ianuarie: o ia din salariu, puțin câte puțin, pe parcursul anului. Automat — nu ceri nimic."),
     dict(type="step", step="Cele trei condiții", fig="<cur>£</cur>3.000",
          say="Datorezi sub <b>£3.000</b>. Ai deja salariu sau pensie din care se oprește impozit. Și depui declarația online până pe <b>30 decembrie 2026</b>.",
          note="Pe hârtie termenul era 31 octombrie și a trecut. Online, mai sunt câteva săptămâni."),
     dict(type="step", step="Cine NU poate", fig="50%",
-         say="Dacă datorezi £3.000 sau mai mult, nu poți — și nu poți plăti o parte ca să cobori sub £3.000. Nici dacă nu ai destul salariu din care HMRC să ia banii.",
-         note="Nici dacă ai ajunge să plătești peste jumătate din salariu în impozit, sau peste dublul impozitului tău obișnuit."),
+         say="Dacă datorezi £3.000 sau mai mult, nu poți — și nu poți plăti o parte ca să cobori sub prag. Nici dacă nu ai destul salariu din care HMRC să ia banii, sau dacă ai ajunge să plătești peste <b>50%</b> din salariu în impozit.",
+         note="Se întâmplă automat dacă te încadrezi. Dacă NU vrei să ți se ia din salariu, bifezi pe declarație să nu se întâmple."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Self Assessment · 30 decembrie 2026",
@@ -514,14 +516,14 @@ TAX_CODE_30_DEC = dict(
   EN=[
     dict(type="hook",
          kicker="Self Assessment · 30 December 2026",
-         h1="Owe tax and have a wage? You can pay it <em>out of your pay</em>.",
-         say="Instead of finding the whole amount on 31 January, HMRC can take it from your wages a bit at a time across the year. Only if you file in time."),
+         h1="Owe tax and have a wage? HMRC takes it <em>out of your pay</em>.",
+         say="Owe under £3,000 and already pay tax through PAYE, and HMRC does not ask for the whole sum on 31 January: it takes it from your wages a bit at a time across the year. Automatically. Nothing to apply for."),
     dict(type="step", step="The three conditions", fig="<cur>£</cur>3,000",
          say="You owe less than <b>£3,000</b>. You already pay tax through PAYE on a wage or a pension. And you file online by <b>30 December 2026</b>.",
          note="The paper deadline was 31 October and has gone. Online, there are still a few weeks."),
     dict(type="step", step="Who CANNOT", fig="50%",
-         say="Owe £3,000 or more and you cannot — and you cannot pay part of it to get under £3,000. Nor can you if there is not enough PAYE income for HMRC to collect from.",
-         note="Nor if it would mean paying more than half your pay in tax, or more than twice your usual tax."),
+         say="Owe £3,000 or more and you cannot — and you cannot part-pay to get under it. Nor if there is too little PAYE income to collect from, or if over <b>50%</b> of your pay would go in tax.",
+         note="It happens automatically if you qualify. If you do NOT want it taken from your wages, tick the box on your return to stop it."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Self Assessment · 30 December 2026",
@@ -552,9 +554,10 @@ TAX_CODE_30_DEC = dict(
              "6 April 2015. And anyone who files after 30 December 2026 loses the option for "
              "this year even if they would otherwise qualify.",
     from_when="For the 2025/26 return. The online deadline for this option is 30 December "
-              "2026; the 31 October 2026 paper deadline has passed. HMRC collects it through "
-              "the code where the conditions are met — filing in time is what makes it "
-              "possible."),
+              "2026; the 31 October 2026 paper deadline has passed. AUTOMATIC, not claimed: "
+              "HMRC 'will automatically collect what you owe through your tax code if you "
+              "meet all 3 conditions', 'unless you've specifically asked them not to (on your "
+              "tax return)'. So the person who must act is the one who does NOT want it."),
 )
 
 # ===================================================================== 8
@@ -567,14 +570,14 @@ TRADING_ALLOWANCE = dict(
   RO=[
     dict(type="hook",
          kicker="Trading allowance · £1.000",
-         h1="Câștigi ceva pe lângă? Primii <em>£1.000</em> pe an nu se declară.",
-         say="Dacă vinzi online, repari, livrezi sau dai cu împrumut unelte pe lângă jobul tău, primii £1.000 pe an sunt scutiți de impozit și nu trebuie anunțați la HMRC."),
+         h1="Câștigi ceva pe lângă? Primii <em>£1.000</em> pe an sunt scutiți.",
+         say="Dacă repari, livrezi, faci curățenie, dai cu împrumut uneltele tale sau cumperi ca să revinzi — pe lângă jobul tău — primii £1.000 pe an sunt scutiți de impozit și nu se anunță la HMRC, dacă nu ai alt motiv să depui declarație."),
     dict(type="step", step="Ce se numără", fig="<cur>£</cur>1.000",
          say="Se numără cât ai încasat, nu cât ți-a rămas. Dacă totalul pe anul fiscal trece de <b>£1.000</b>, te înregistrezi la Self Assessment până pe 5 octombrie din anul următor.",
-         note="Salariul nu se adună aici. £1.000 sunt doar banii din ce faci pe cont propriu."),
+         note="Salariul nu se adună aici. £1.000 e cifra pentru 2026/27 — din 6 aprilie 2027 crește la £3.000."),
     dict(type="step", step="Cine NU poate folosi scutirea", fig="0",
-         say="Nu poți folosi scutirea pentru bani primiți de la angajatorul tău, de la angajatorul partenerului, sau de la o firmă pe care o controlezi tu ori cineva apropiat.",
-         note="Nici pentru partea ta din profitul unui parteneriat. Și chiar sub £1.000 uneori merită să depui — pentru Maternity Allowance sau contribuții voluntare."),
+         say="Nu poți folosi scutirea pentru bani primiți de la angajatorul tău, de la angajatorul soțului sau soției, sau de la o firmă pe care o controlezi tu ori cineva apropiat.",
+         note="Nici pentru partea ta din profitul unei firme în parteneriat. Sub £1.000 se poate depune declarație voluntar — contează pentru Maternity Allowance și pentru contribuțiile voluntare la pensie."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Trading allowance · £1.000",
@@ -585,14 +588,14 @@ TRADING_ALLOWANCE = dict(
   EN=[
     dict(type="hook",
          kicker="Trading allowance · £1,000",
-         h1="Earning a bit on the side? The first <em>£1,000</em> goes unreported.",
-         say="If you sell online, do repairs, deliver or hire out your own tools alongside a job, the first £1,000 a year is tax free and you do not have to tell HMRC."),
+         h1="Earning a bit on the side? The first <em>£1,000</em> a year is tax free.",
+         say="If you do repairs, deliveries, cleaning, hire out your own tools or buy things to resell — alongside a job — the first £1,000 a year is tax free and goes untold to HMRC, unless you have another reason to file."),
     dict(type="step", step="What counts", fig="<cur>£</cur>1,000",
          say="It counts what came in, not what you kept. If the tax-year total passes <b>£1,000</b>, you must register for Self Assessment by 5 October in the following tax year.",
-         note="Wages do not count towards it. The £1,000 is only the money from working for yourself."),
+         note="Wages do not count towards it. £1,000 is the 2026/27 figure — it rises to £3,000 from 6 April 2027."),
     dict(type="step", step="Who CANNOT use it", fig="0",
-         say="You cannot use the allowance on money from your own employer, from your partner's employer, or from a company you or a connected person owns or controls.",
-         note="Nor on your share of a partnership's profit. And even under £1,000 it can pay to file — for Maternity Allowance or voluntary contributions."),
+         say="You cannot use it on money from your own employer, from your spouse's or civil partner's employer, or from a company you or a connected person controls.",
+         note="Nor on a partnership's profit. Below £1,000 a return can still be filed voluntarily — for Maternity Allowance or voluntary pension contributions."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Trading allowance · £1,000",
@@ -623,9 +626,12 @@ TRADING_ALLOWANCE = dict(
              "Self Assessment. And some people below £1,000 still need to file — to claim "
              "loss relief, to pay voluntary Class 2 National Insurance, or to base Tax-Free "
              "Childcare or Maternity Allowance on self-employment income.",
-    from_when="In force now, for each tax year. Automatic — nothing is claimed and, at "
-              "£1,000 or less, nothing is reported. Above £1,000 registration is the "
-              "taxpayer's own duty, by 5 October after the end of the tax year."),
+    from_when="£1,000 for 2026/27, in force now. RISES TO £3,000 FROM 6 APRIL 2027 "
+              "(announced at the Budget on 28 October 2026), alongside the Self Assessment "
+              "reporting threshold, so every asset carrying £1,000 must be reissued in "
+              "April 2027. Automatic — nothing is claimed and, at or below the figure, "
+              "nothing is reported. Above it, registration is the taxpayer's own duty, by "
+              "5 October after the end of the tax year."),
 )
 
 # ===================================================================== 9
@@ -638,17 +644,17 @@ MIN_WAGE = dict(
   RO=[
     dict(type="hook",
          kicker="Salariul minim · acum și din aprilie 2027",
-         h1="Minimul legal e <em>£12,71</em> pe oră. Din aprilie 2027, £13,21.",
-         say="Dacă ai 21 de ani sau mai mult, nimeni nu poate să îți plătească legal mai puțin de £12,71 pe oră. Cifra pentru anul viitor e deja decisă."),
+         h1="Salariul minim e <em>£12,71</em> pe oră. Din aprilie 2027, £13,21.",
+         say="Dacă ai 21 de ani sau mai mult, salariul minim național e £12,71 pe oră. Cifra pentru anul viitor e deja decisă."),
     dict(type="step", step="Pe vârste", fig="<cur>£</cur>10,85",
          say="La 18-20 de ani, minimul e £10,85 pe oră. Sub 18 ani și pentru ucenici, £8,00. Din aprilie 2027: <b>£11,27</b> și <b>£8,31</b>.",
-         note="Ucenicii de 19 ani sau peste care au terminat primul an primesc tariful vârstei lor, nu pe cel de ucenic."),
+         note="Ucenicii de 19 ani sau peste care au terminat primul an primesc tariful vârstei lor. În agricultură, Scoția, Țara Galilor și Irlanda de Nord au tarife proprii, care pot fi mai mari."),
     dict(type="step", step="Cine NU are salariu minim", fig="0",
-         say="Dacă lucrezi pe cont propriu, salariul minim nu ți se aplică: tu îți stabilești prețul. Nici directorii de firmă și nici voluntarii nu intră.",
-         note="Nici rudele angajatorului care locuiesc în casa lui, nici cei sub vârsta la care se termină școala obligatorie."),
+         say="Dacă lucrezi pe cont propriu, cu afacerea ta, salariul minim nu ți se aplică: tu îți stabilești prețul. Nici voluntarii nu intră.",
+         note="Directorii de firmă nu intră — decât dacă au și contract de muncă cu firma, și atunci da. Nici rudele angajatorului care locuiesc în casa lui."),
   ],
   CTA_RO=dict(type="cta",
-    kicker="Salariul minim · 2026/27",
+    kicker="Salariul minim · acum și din aprilie 2027",
     h1="Ești plătit <em>corect</em> pe oră?",
     say="Scrie-ne cu fluturașul în față și verificăm tariful pe ore. Dacă ai angajați, ne uităm la statul de plată. Fără obligații.",
     phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
@@ -656,17 +662,17 @@ MIN_WAGE = dict(
   EN=[
     dict(type="hook",
          kicker="Minimum wage · now and from April 2027",
-         h1="The legal minimum is <em>£12.71</em> an hour. From April 2027, £13.21.",
-         say="If you are 21 or over, nobody can lawfully pay you less than £12.71 an hour. Next year's figure is already set."),
+         h1="The minimum wage is <em>£12.71</em> an hour. From April 2027, £13.21.",
+         say="If you are 21 or over, the National Minimum Wage is £12.71 an hour. Next year's figure is already set."),
     dict(type="step", step="By age", fig="<cur>£</cur>10.85",
          say="At 18 to 20 the minimum is £10.85 an hour. Under 18 and for apprentices, £8.00. From April 2027: <b>£11.27</b> and <b>£8.31</b>.",
-         note="An apprentice aged 19 or over who has finished the first year gets the rate for their age, not the apprentice rate."),
+         note="An apprentice aged 19 or over past the first year gets the rate for their age. In agriculture, Scotland, Wales and Northern Ireland set their own rates, which can be higher."),
     dict(type="step", step="Who does NOT get it", fig="0",
-         say="If you work for yourself the minimum wage does not apply — you set your own price. Company directors and volunteers are not covered either.",
-         note="Nor are family members of the employer living in the employer's home, or anyone below school leaving age."),
+         say="If you work for yourself, running your own business, the minimum wage does not apply — you set your own price. Volunteers are not covered either.",
+         note="Company directors are not covered — unless they also have an employment contract with the company, and then they are. Nor are family members living in the employer's home."),
   ],
   CTA_EN=dict(type="cta",
-    kicker="Minimum wage · 2026/27",
+    kicker="Minimum wage · now and from April 2027",
     h1="Is the hourly rate <em>right</em>?",
     say="Send us a payslip and we will check the rate against the hours. If you run a payroll, we will check that too. No obligation.",
     phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
@@ -686,15 +692,23 @@ MIN_WAGE = dict(
      "https://www.gov.uk/national-minimum-wage/who-gets-the-minimum-wage", "2026-11-05"),
   ],
   SCOPE=dict(
-    nation="All of the UK — the National Minimum Wage and National Living Wage are set in UK "
-           "law and apply in England, Scotland, Wales and Northern Ireland alike. The "
-           "voluntary 'real Living Wage' and 'London Living Wage' set by a charity are "
-           "different figures and are not these.",
+    nation="All of the UK for the headline rates — the same figures in England, Scotland, "
+           "Wales and Northern Ireland. ONE DEVOLVED EXCEPTION: agriculture. Wales, "
+           "Scotland and Northern Ireland each have their own agricultural wages body and "
+           "an Agricultural Wages Order rate which 'will never be lower than their National "
+           "Minimum Wage rate but may be higher'; England has none. So the hourly floor for "
+           "an agricultural worker above entry grade in those three nations is ABOVE £12.71, "
+           "and the cards must not say nobody may be paid less than £12.71. The voluntary "
+           "'real Living Wage' and 'London Living Wage' set by a charity are different "
+           "figures and are not these.",
     category="Workers at least of school leaving age. The National Living Wage applies from "
              "21; lower bands at 18 to 20, under 18, and for apprentices under 19 or in "
              "their first year.",
     excluded="Self-employed people running their own business are not entitled at all — the "
-             "hourly minimum does not apply to them. Nor are company directors, volunteers "
+             "hourly minimum does not apply to them. Company directors are office holders "
+             "and not entitled, BUT a director who is also employed by the company under a "
+             "contract 'will be entitled to the minimum wage, like any other worker' for "
+             "work done under that contract. Nor are volunteers "
              "and voluntary workers, members of the armed forces, family members of the "
              "employer who live in the employer's home, workers below school leaving age "
              "(usually 16), higher and further education students on work experience or a "
@@ -784,8 +798,15 @@ CHILD_BENEFIT = dict(
               "threshold has applied since the 2024/25 tax year."),
 )
 
-DAY = [CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE, CHILD_BENEFIT]
-HELD = [WINTER_FUEL]      # see reports/2026-11-04-studio.md, "Oprite de verificare"
+DAY = [CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE]
+
+# CHILD_BENEFIT was drafted for the 6th and held by the scope checker: its card 3
+# answers "who does not keep it" with the High Income Child Benefit Charge, while
+# the exclusion that actually decides the claim for this audience is the residence
+# condition — UK main home, right to reside, and no claim where leave carries a "no
+# public funds" condition. Wording that on a card touches the regulated immigration
+# boundary, so it is Valentin's call, not a studio improvisation at 20:00.
+HELD = [WINTER_FUEL, CHILD_BENEFIT]
 
 # Shipped on an earlier day. Kept so preflight's LOSS check can still see every
 # topic that was in the last commit: a topic that leaves DAY has not been lost,
