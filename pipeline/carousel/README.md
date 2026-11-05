@@ -92,6 +92,36 @@ The lesson worth keeping: platform documentation told us what the feeds
 *display*, and only a live post told us what the APIs *accept*. Those are
 different questions, and the second one is the one that decides what ships.
 
+## preflight.py — run it before anything leaves the machine
+
+`python3 preflight.py` exits non-zero and nothing is pushed or scheduled.
+
+Every check in it exists because the mistake it catches was actually made, and
+in every case **the mistake was reported as success**. That is the pattern the
+file exists to break: a claim that something is fine is worth nothing unless a
+check that *could* have failed was run and did not.
+
+| Check | The day it was earned |
+|---|---|
+| IDENTITIES | 3 Nov — five people's handles, their contact dates and their tax subjects sat in a public repo for six days |
+| LOSS | 5 Nov — rewriting one topic silently deleted its Google Business card, because the edit replaced a span of text without checking what was inside it |
+| FORMAT | 5 Nov — a content card carried its own CTA and the closing card repeated it, almost word for word |
+| SCOPE | 3 Nov — a post nearly went out calling an England-only payment universal |
+| SOURCES | every figure needs a primary source and the date it was read |
+| ALT | 5 Nov — a whole day published with `mediaAltText` null on every image |
+
+The order of a run is: write the copy → `build.py` → `qa.py` (the visual gate) →
+**`preflight.py`** (the content gate) → push → schedule. A failure at any gate
+stops everything after it.
+
+### Alt text cannot be forgotten any more
+
+`alt.py` derives one alt string per frame from the card that is already
+written, so a frame cannot exist without alt text. That is deliberately not a
+reminder in a checklist: a reminder is something to forget, and this was
+forgotten on the first day it mattered. `alt_for(cards)` returns a list the
+same length as the media list, and preflight checks that it is.
+
 ## The format, set 5 November 2026
 
 **Four cards. Three of content, then the ask on its own. Every network, no
