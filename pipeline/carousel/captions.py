@@ -359,7 +359,7 @@ Dacă treci de £1.000, te înregistrezi la Self Assessment până pe 5 octombri
 
 Cine nu poate folosi scutirea deloc:
 • Dacă banii vin de la angajatorul tău
-• Dacă vin de la angajatorul soțului sau al soției
+• Dacă vin de la angajatorul soțului, al soției sau al partenerului civil
 • Dacă vin de la o firmă sau un parteneriat pe care îl controlezi tu sau cineva apropiat
 • Pentru partea ta din profitul unui parteneriat
 
