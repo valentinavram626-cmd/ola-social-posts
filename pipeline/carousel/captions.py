@@ -232,10 +232,12 @@ Unsure whether you will have to pay it back?""",
 C["cis-20-30"] = dict(
  ro="""În construcții, firma care te plătește nu îți dă toți banii din factură. Oprește o parte și o trimite la HMRC în numele tău. Asta e CIS — Construction Industry Scheme.
 
-Cât oprește depinde de un singur lucru:
-• Înregistrat la CIS → 20%
-• Neînregistrat → 30%
+Cât oprește nu depinde de un singur lucru, ci de două:
+• Ești înregistrat la CIS ȘI firma te poate verifica la HMRC → 20%
+• Lipsește oricare dintre cele două → 30%
 • Cu „gross payment status" → 0%, primești tot și plătești taxa la final
+
+Firma te verifică la HMRC înainte să te plătească. Dacă verificarea nu iese, se opresc 30% chiar dacă tu ești înregistrat.
 
 Banii opriți nu sunt pierduți. Contează ca plată în avans pentru taxa și National Insurance pe care le datorezi. Dacă s-a oprit mai mult decât datorezi, diferența se returnează.
 
@@ -245,7 +247,7 @@ Din ce NU se oprește nimic: din TVA, din materialele pe care le-ai plătit tu, 
 
 Cine nu intră deloc: angajații. Un contract de muncă e exclus din CIS, deci din salariu nu se oprește nimic pe CIS.
 
-Atenție la o confuzie des întâlnită: în afara CIS sunt doar serviciile de pe șantier — paznicii angajați ca pază, bucătăria, cabinetul medical. Construirea acelor facilități, montarea rulourilor de siguranță sau săpatul pentru stâlpii de camere SUNT în CIS.
+Atenție la o confuzie des întâlnită: serviciile de pe șantier — paznicii angajați ca pază, bucătăria, cabinetul medical — sunt în afara CIS, dar nu sunt singurele munci din afara schemei. Lista HMRC e mai lungă de atât. Iar construirea acelor facilități, montarea rulourilor de siguranță sau săpatul pentru stâlpii de camere SUNT în CIS.
 
 Firma trebuie să îți dea o chitanță de plată și deducere în 14 zile de la sfârșitul lunii fiscale. Păstreaz-o: e dovada ta.
 
@@ -257,10 +259,12 @@ Nu știi dacă ești înregistrat sau cât ți s-a oprit?""",
 Angajații nu intră deloc în CIS. Nici din TVA și nici din materialele plătite de tine nu se oprește nimic.""",
  li="""The Construction Industry Scheme decides how much of a subcontractor's invoice actually reaches them.
 
-The rate turns on one fact:
-• Registered for CIS — 20% deducted
-• Not registered — 30% deducted
+The rate turns on two facts, not one. The standard 20% applies only where both hold:
+• Registered for CIS and the contractor can verify you — 20% deducted
+• Either of those missing — 30% deducted
 • Gross payment status — 0%, paid in full, tax settled later
+
+A registered subcontractor who cannot be verified is still deducted at 30%, so registration alone does not settle it.
 
 The deduction is not a cost. It is an advance payment against the subcontractor's Income Tax and National Insurance. Where the deductions exceed the tax and National Insurance due, the difference is repaid.
 
@@ -282,7 +286,7 @@ Want your CIS deductions checked against your return?""",
  pin="""Why a UK construction subcontractor gets 20% or 30% deducted from their pay under the Construction Industry Scheme: 20% if registered with HMRC, 30% if not, and 0% with gross payment status. The deduction is an advance payment against Income Tax and National Insurance. Nothing is deducted from VAT, from materials the subcontractor paid for, from plant hire or from fuel other than travel fuel. Employees are outside CIS entirely, as is running a site canteen and the supply of security guards — but constructing site facilities and most physical security work are inside it. UK-wide; registration is free. Ola Accountancy, Luton and Birmingham.""",
  gbp="""Working in construction and wondering why 30% comes off your pay instead of 20%?
 
-Under the Construction Industry Scheme a contractor deducts 20% from a subcontractor who has registered with HMRC, 30% from one who has not, and nothing at all from a subcontractor with gross payment status. The difference between the first two is 10% of every single payment, and registering is free.
+Under the Construction Industry Scheme a contractor deducts 20% from a subcontractor who has registered with HMRC, 30% from one who has not, and nothing at all from a subcontractor with gross payment status. The difference between the first two is 10 percentage points — an extra £10 off every £100 the deduction is worked out on — and registering is free. It is not taken off the whole invoice: it is worked out on the labour part of the payment.
 
 The money is not lost either way: it is an advance payment against your Income Tax and National Insurance. Nothing is deducted from VAT, from materials you paid for, or from plant hire. Employees are outside the scheme completely.
 
