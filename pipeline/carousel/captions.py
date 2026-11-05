@@ -322,16 +322,16 @@ Vrei să vezi dacă te încadrezi până pe 30 decembrie?""",
  th="""Ai taxă de plătit și ai salariu? HMRC ia suma din salariu, puțin câte puțin, în loc de tot pe 31 ianuarie — automat, dacă depui online până pe 30 decembrie 2026.
 
 Nu poți dacă datorezi £3.000 sau mai mult. Și dacă NU vrei, bifezi pe declarație să nu se întâmple.""",
- li="""A Self Assessment bill does not have to be paid in one go on 31 January. Where the taxpayer is also on PAYE, HMRC collects it through the 2027/28 tax code instead — automatically, where the conditions are met.
+ li="""A Self Assessment bill for the 2025/26 tax year does not have to be paid in one go on 31 January 2027. Where the taxpayer is also on PAYE, HMRC collects that bill through the 2027/28 tax code instead — automatically, where the conditions are met.
 
 When the money actually comes out of your pay: not this winter. The 2027/28 tax year starts on 6 April 2027, so nothing is deducted before that date. From then it is taken from the wage or the pension in equal instalments across the 12 months to 5 April 2028.
 
 Three conditions, all required:
-• The bill is under £3,000
+• The 2025/26 bill is under £3,000
 • Tax is already deducted through PAYE — employment or a pension
-• The return is filed online by 30 December 2026
+• The return reached HMRC on paper by 31 October 2026, or online by 30 December 2026
 
-The paper deadline of 31 October has gone. For this option the date that matters is 30 December, not 31 January: a return filed on 15 January is on time for filing and too late for the tax code.
+That third condition is an either/or, and the paper half of it still counts: anyone who sent a paper return by 31 October 2026 has already met it. If the return has not gone in yet, online by 30 December 2026 is the route left — and for this option the date that matters is 30 December, not 31 January: a return filed on 15 January is on time for filing and too late for the tax code.
 
 Who cannot use it:
 • Anyone owing £3,000 or more — and a part payment to get under that figure is not accepted
@@ -342,7 +342,7 @@ Who cannot use it:
 
 UK-wide. And the direction of this one is the opposite of how it is usually described: HMRC "will automatically collect what you owe through your tax code if you meet all 3 conditions", "unless you've specifically asked them not to (on your tax return)". So the person who has to act is the one who does NOT want their 2027/28 code changed — cash flow, or a new employer's payroll seeing a large deduction.
 
-What it covers and what it does not: coding out applies to the balancing payment. Payments on account due 31 January and 31 July still have to be found.
+What it covers and what it does not: coding out applies to the 2025/26 balancing payment. Payments on account due 31 January and 31 July still have to be found.
 
 Worth checking before 30 December?""",
  bsky="""Owe under £3,000 and on PAYE? File by 30 December and HMRC collects it through your tax code automatically — or opt out on the return.""",
