@@ -316,7 +316,9 @@ Vrei să vezi dacă te încadrezi până pe 30 decembrie?""",
  th="""Ai taxă de plătit și ai salariu? HMRC ia suma din salariu, puțin câte puțin, în loc de tot pe 31 ianuarie — automat, dacă depui online până pe 30 decembrie 2026.
 
 Nu poți dacă datorezi £3.000 sau mai mult. Și dacă NU vrei, bifezi pe declarație să nu se întâmple.""",
- li="""A Self Assessment bill does not have to be paid in one go on 31 January. Where the taxpayer is also on PAYE, HMRC collects it through the tax code across the following year instead — automatically, where the conditions are met.
+ li="""A Self Assessment bill does not have to be paid in one go on 31 January. Where the taxpayer is also on PAYE, HMRC collects it through the 2027/28 tax code instead — automatically, where the conditions are met.
+
+When the money actually comes out of your pay: not this winter. The 2027/28 tax year starts on 6 April 2027, so nothing is deducted before that date. From then it is taken from the wage or the pension in equal instalments across the 12 months to 5 April 2028.
 
 Three conditions, all required:
 • The bill is under £3,000
@@ -332,7 +334,7 @@ Who cannot use it:
 • Anyone who would end up paying more than twice their usual tax
 • Class 2 National Insurance for the self-employed, unless it has been due since before 6 April 2015
 
-UK-wide. And the direction of this one is the opposite of how it is usually described: HMRC "will automatically collect what you owe through your tax code if you meet all 3 conditions", "unless you've specifically asked them not to (on your tax return)". So the person who has to act is the one who does NOT want their 2026/27 code changed — cash flow, or a new employer's payroll seeing a large deduction.
+UK-wide. And the direction of this one is the opposite of how it is usually described: HMRC "will automatically collect what you owe through your tax code if you meet all 3 conditions", "unless you've specifically asked them not to (on your tax return)". So the person who has to act is the one who does NOT want their 2027/28 code changed — cash flow, or a new employer's payroll seeing a large deduction.
 
 What it covers and what it does not: coding out applies to the balancing payment. Payments on account due 31 January and 31 July still have to be found.
 
