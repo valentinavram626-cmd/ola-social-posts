@@ -92,6 +92,36 @@ The lesson worth keeping: platform documentation told us what the feeds
 *display*, and only a live post told us what the APIs *accept*. Those are
 different questions, and the second one is the one that decides what ships.
 
+## The format, set 5 November 2026
+
+**Four cards. Three of content, then the ask on its own. Every network, no
+exceptions.** Valentin set this after looking at the 4 November run.
+
+What was wrong with five:
+
+* The fourth card carried its own call to action AND the fifth repeated it,
+  on the VAT carousel almost word for word — *"Te apropii de prag? Scrie-ne
+  și urmărim împreună cele 12 luni"* then *"Aproape de prag? Scrie-ne și
+  verificăm împreună ultimele 12 luni"*. Two asks back to back read as a
+  sales pitch, not as help.
+* Bluesky caps a post at four images, so Bluesky alone needed a different
+  shape and a CTA thread reply to carry the fifth card. Four everywhere
+  removes the special case: **the Bluesky CTA reply is gone.**
+* The `ask` card type is retired. It now renders as a plain `step`, so an
+  older topics.py still builds, without its CTA block. **A content card
+  carries no call to action.**
+
+His second instruction, the same day: **write it for someone who has never
+read anything about accounting.** The VAT carousel was the example — *"Ieșirea
+din TVA · £88.000 · Poți cere anularea dacă te aștepți să stai sub £88.000"*.
+Every word of that is correct and none of it is usable. Rewritten as *"Ai
+vândut de peste £90.000? Trebuie să te înregistrezi la TVA. Se numără cât ai
+vândut, nu cât ți-a rămas."* Same facts, same sources, no jargon. Card 3 still
+has to answer **who does NOT have to** — that rule is unchanged.
+
+Three cards is less room, so the third card has to earn its place: it holds
+the exclusion, which is the most useful line in the whole carousel.
+
 ## What the second live run taught us
 
 Run on 4 November 2026 for publication on the 5th. Four of five carousels

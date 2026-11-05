@@ -20,20 +20,33 @@ import topics
 D = pathlib.Path(__file__).parent
 
 
+def cards(t, lang):
+    """The four frames of a carousel: three of content, then the ask on its own.
+
+    Set by Valentin on 5 Nov 2026, replacing the old five-card set. Two things
+    were wrong with five: the fourth card carried its own call to action AND the
+    fifth repeated it almost word for word, and Bluesky's API caps a post at four
+    images, so Bluesky alone needed a different shape. Four cards everywhere, the
+    ask only on the last, is one format for every network with nothing special-cased.
+
+    A topic that still supplies four content cards is truncated rather than
+    rejected, so an older topics.py renders instead of failing the night's run.
+    """
+    body, cta = (t["RO"], t["CTA_RO"]) if lang == "ro" else (t["EN"], t["CTA_EN"])
+    return list(body[:3]) + [cta]
+
+
 def jobs_for(t):
     """Every render this topic needs, keyed by the network it serves."""
     j = {
-      # Five cards: four of content, then the ask on its own.
-      "ro-feed":   (t["RO"] + [t["CTA_RO"]], 1080, 1350, "ro"),  # Instagram, Facebook, Threads
-      "ro-tiktok": (t["RO"] + [t["CTA_RO"]], 1080, 1920, "ro"),  # TikTok photo post
-      "en-feed":   (t["EN"] + [t["CTA_EN"]], 1080, 1350, "en"),  # LinkedIn, published as a PDF
-      "en-pin":    (t["EN"] + [t["CTA_EN"]], 1000, 1500, "en"),  # Pinterest crops wider than 2:3
+      "ro-feed":   (cards(t, "ro"), 1080, 1350, "ro"),  # Instagram, Facebook, Threads
+      "ro-tiktok": (cards(t, "ro"), 1080, 1920, "ro"),  # TikTok photo post
+      "en-feed":   (cards(t, "en"), 1080, 1350, "en"),  # LinkedIn, published as a PDF
+      "en-pin":    (cards(t, "en"), 1000, 1500, "en"),  # Pinterest crops wider than 2:3
 
-      # Bluesky's API rejects a fifth image ("array too big (maximum 4, got 5)"),
-      # so the post carries the four content cards and the ask goes out as the
-      # first reply in the thread — which is how five cards reach Bluesky at all.
-      "en-bsky":   (t["EN"], 1080, 1350, "en"),
-      "en-cta":    ([t["CTA_EN"]], 1080, 1350, "en"),
+      # Four cards is exactly Bluesky's ceiling, so it now takes the same set as
+      # everyone else and the CTA thread reply it used to need is gone.
+      "en-bsky":   (cards(t, "en"), 1080, 1350, "en"),
     }
     # Google Business is a listing with nothing to swipe: one frame, whole
     # message, and only on the single topic chosen for it that day.

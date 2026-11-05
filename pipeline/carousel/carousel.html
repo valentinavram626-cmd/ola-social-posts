@@ -160,10 +160,12 @@ function slide(s,i,n){
     body=`<div class="kicker">${s.kicker}</div><h1>${s.h1}</h1>`
        + (s.say?`<div class="say" style="margin-top:42px">${s.say}</div>`:'');
   } else if(s.type==='ask'){
+    // Retired 5 Nov 2026 (Valentin): a content card carries no call to action.
+    // The ask belongs on the closing card and nowhere else. Kept as an alias of
+    // 'step' so an older topic file still renders, without its CTA block.
     body=`<div class="kicker step">${s.step}</div>`
        + `<div class="fig">${s.fig}</div><div class="say">${s.say}</div>`
-       + `<div class="ask"><div class="line" style="margin-top:46px"></div><p>${s.ask}</p>`
-       + `<div class="num">${WA}<span>${s.phone}</span></div></div>`;
+       + (s.note?`<div class="note">${s.note}</div>`:'');
   } else if(s.type==='cta'){
     body=`<div class="kicker">${s.kicker}</div><h1>${s.h1}</h1>`
        + `<div class="say">${s.say}</div>`
