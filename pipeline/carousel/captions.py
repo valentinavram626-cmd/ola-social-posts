@@ -228,6 +228,295 @@ Unsure whether you will have to pay it back?""",
  source="gov.uk/winter-fuel-payment and gov.uk/guidance/paying-back-the-winter-fuel-payment",
 )
 
+# ------------------------------------------------------------------ 6
+C["cis-20-30"] = dict(
+ ro="""În construcții, firma care te plătește nu îți dă toți banii din factură. Oprește o parte și o trimite la HMRC în numele tău. Asta e CIS — Construction Industry Scheme.
+
+Cât oprește depinde de un singur lucru:
+• Înregistrat la CIS → 20%
+• Neînregistrat → 30%
+• Cu „gross payment status" → 0%, primești tot și plătești taxa la final
+
+Banii opriți nu sunt pierduți. Se scad din taxa și din National Insurance pe care le datorezi când depui declarația. De aceea mulți subcontractori primesc bani înapoi de la HMRC.
+
+Din ce NU se oprește nimic: din TVA, din materialele pe care le-ai plătit tu, din combustibilul folosit pe șantier (nu cel de drum), din utilajele închiriate pentru lucrare și din costul de fabricație al materialelor. Se oprește doar din munca ta.
+
+Cine nu intră deloc: angajații. Un contract de muncă e exclus din CIS, deci din salariu nu se oprește nimic pe CIS. Nici serviciile care nu sunt construcție — paza, bucătăria sau cabinetul medical de pe șantier.
+
+Firma trebuie să îți dea o chitanță de plată și deducere în 14 zile de la sfârșitul lunii fiscale. Păstreaz-o: e dovada ta.
+
+Se aplică în tot Regatul Unit. Înregistrarea e gratuită și e pasul tău — nimeni nu o face în locul tău.
+
+Nu știi dacă ești înregistrat sau cât ți s-a oprit?""",
+ th="""Ți se opresc 30% din plată în construcții? Înseamnă că nu ești înregistrat la CIS — înregistrat, se opresc 20%. Banii nu sunt pierduți: se scad din taxa ta la declarație.
+
+Angajații nu intră deloc în CIS. Și nu se opresc bani din materialele plătite de tine, nici din TVA.""",
+ li="""The Construction Industry Scheme decides how much of a subcontractor's invoice actually reaches them.
+
+The rate turns on one fact:
+• Registered for CIS — 20% deducted
+• Not registered — 30% deducted
+• Gross payment status — 0%, paid in full, tax settled later
+
+The deduction is not a cost. It is an advance payment against the subcontractor's Income Tax and National Insurance, offset when the return is filed, which is why many subcontractors end a year owed money rather than owing it.
+
+The rate applies to labour only. Before it is calculated, a contractor takes out VAT, materials the subcontractor paid for, consumable stores, fuel other than travel fuel, plant hire paid to a third party, and the cost of manufacturing or prefabricating materials.
+
+Outside the scheme altogether: employees. A contract of employment is excluded, so nothing is deducted under CIS from a wage. So are services that are not construction operations — site security, a canteen or hostel, medical and safety services, site facilities.
+
+The contractor must issue a payment and deduction statement within 14 days of the end of the tax month. It is the subcontractor's evidence; without it the offset is an argument rather than a record.
+
+UK-wide. Registration is free and is the subcontractor's own step — nobody does it for them, and the 30% rate is what happens when it is not done.
+
+Want your CIS deductions checked against your return?""",
+ bsky="""CIS: 20% deducted if you registered, 30% if you did not. Employees are outside CIS entirely.""",
+ pin_title="UK CIS: 20% or 30% off a subcontractor's pay",
+ pin="""Why a UK construction subcontractor gets 20% or 30% deducted from their pay under the Construction Industry Scheme: 20% if registered with HMRC, 30% if not, and 0% with gross payment status. The deduction is an advance payment against Income Tax and National Insurance, offset when the tax return is filed. It applies to labour only — not to VAT, not to materials the subcontractor paid for, not to plant hire or to fuel other than travel fuel. Employees are outside CIS entirely, as are site security, canteens and medical services. UK-wide; registration is free. Ola Accountancy, Luton and Birmingham.""",
+ gbp="""Working in construction and wondering why 30% comes off your pay instead of 20%?
+
+Under the Construction Industry Scheme a contractor deducts 20% from a subcontractor who has registered with HMRC, 30% from one who has not, and nothing at all from a subcontractor with gross payment status. The difference between the first two is 10% of every single payment, and registering is free.
+
+The money is not lost either way: it is an advance payment against your Income Tax and National Insurance, offset when your return is filed. The rate applies to your labour only — not to VAT, not to materials you paid for, not to plant hire. Employees are outside the scheme completely.
+
+Ola Accountancy works with construction subcontractors in Luton and Birmingham. Send us your payment and deduction statements and we will check what has been taken and how it comes off your tax.""",
+ source="gov.uk/what-you-must-do-as-a-cis-contractor and gov.uk/what-you-must-do-as-a-cis-subcontractor",
+)
+
+# ------------------------------------------------------------------ 7
+C["taxa-prin-codul-fiscal"] = dict(
+ ro="""Dacă ai taxă de plătit la Self Assessment și în același timp ai salariu sau pensie, nu ești obligat să scoți toată suma pe 31 ianuarie. HMRC o poate lua din salariu, puțin câte puțin, prin codul fiscal.
+
+Trei condiții, toate trei obligatorii:
+• Datorezi sub £3.000
+• Plătești deja impozit prin PAYE — salariu sau pensie
+• Depui declarația online până pe 30 decembrie 2026
+
+Termenul pe hârtie a fost 31 octombrie și a trecut. Online mai sunt câteva săptămâni, și 30 decembrie e singura dată care contează aici — nu 31 ianuarie.
+
+Cine nu poate:
+• Cine datorează £3.000 sau mai mult. Și nu poți plăti o parte ca să cobori sub £3.000 — nu se acceptă
+• Cine nu are destul venit prin PAYE ca HMRC să aibă de unde lua
+• Cine ar ajunge să plătească peste jumătate din venitul PAYE în impozit
+• Cine ar ajunge să plătească peste dublul impozitului obișnuit
+• Contribuțiile Class 2 National Insurance ale celor pe cont propriu nu se pot plăti așa, decât dacă sunt datorate dinainte de 6 aprilie 2015
+
+Se aplică în tot Regatul Unit. HMRC o aplică singur acolo unde condițiile sunt îndeplinite — depunerea la timp e ce face posibil lucrul, nu o cerere separată.
+
+Vrei să vezi dacă te încadrezi până pe 30 decembrie?""",
+ th="""Ai taxă de plătit și ai salariu? HMRC poate lua suma din salariu, puțin câte puțin, în loc de tot pe 31 ianuarie. Condiția: declarația online până pe 30 decembrie 2026.
+
+Nu poți dacă datorezi £3.000 sau mai mult — și nu poți plăti o parte ca să cobori sub prag.""",
+ li="""A Self Assessment bill does not have to be paid in one go on 31 January. Where the taxpayer is also on PAYE, HMRC can collect it through the tax code across the following year instead.
+
+Three conditions, all required:
+• The bill is under £3,000
+• Tax is already deducted through PAYE — employment or a pension
+• The return is filed online by 30 December 2026
+
+The paper deadline of 31 October has gone. For this option the date that matters is 30 December, not 31 January: a return filed on 15 January is on time for filing and too late for the tax code.
+
+Who cannot use it:
+• Anyone owing £3,000 or more — and a part payment to get under that figure is not accepted
+• Anyone without enough PAYE income for HMRC to collect from
+• Anyone for whom it would mean more than 50% of PAYE income going in tax
+• Anyone who would end up paying more than twice their usual tax
+• Class 2 National Insurance for the self-employed, unless it has been due since before 6 April 2015
+
+UK-wide. HMRC applies it where the conditions are met, so filing in time is what creates the option rather than a separate application.
+
+Worth checking before 30 December?""",
+ bsky="""Owe under £3,000 and already on PAYE? File online by 30 December and HMRC can collect the bill through your tax code instead of on 31 January.""",
+ pin_title="Pay a UK tax bill through your tax code: the 30 December deadline",
+ pin="""How to pay a UK Self Assessment bill through your PAYE tax code instead of in one payment on 31 January. Three conditions must all apply: you owe less than £3,000, you already pay tax through PAYE on a wage or a pension, and you file your return online by 30 December. The paper deadline of 31 October has already passed. You cannot use it if you owe £3,000 or more, and you cannot part-pay to get below that figure; nor if there is not enough PAYE income to collect from, or if it would mean more than half your PAYE income going in tax, or more than twice your usual tax. UK-wide. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/pay-self-assessment-tax-bill/through-your-tax-code",
+)
+
+# ------------------------------------------------------------------ 8
+C["scutire-1000-lire"] = dict(
+ ro="""Dacă vinzi online, repari, livrezi, cureți sau dai cu împrumut uneltele tale pe lângă jobul principal, primii £1.000 pe an din banii aceia sunt scutiți de impozit. Nu plătești nimic pe ei și nu trebuie să anunți HMRC.
+
+Se numește trading allowance și se aplică pe an fiscal.
+
+Ce se numără: cât ai încasat, nu cât ți-a rămas. Dacă ai vândut de £1.400 și ai cheltuit £600, se numără £1.400 — ai trecut pragul, chiar dacă în mână ți-au rămas £800.
+
+Ce nu se numără: salariul. £1.000 se referă doar la banii din ce faci pe cont propriu.
+
+Dacă treci de £1.000, te înregistrezi la Self Assessment până pe 5 octombrie din anul fiscal următor. Poți alege apoi: fie scazi scutirea de £1.000 din încasări, fie scazi cheltuielile reale. Nu pe amândouă.
+
+Cine nu poate folosi scutirea deloc:
+• Dacă banii vin de la angajatorul tău
+• Dacă vin de la angajatorul partenerului sau al soțului/soției
+• Dacă vin de la o firmă sau un parteneriat pe care îl controlezi tu sau cineva apropiat
+• Pentru partea ta din profitul unui parteneriat
+
+Și invers: chiar sub £1.000, uneori merită să depui declarație — ca să înregistrezi o pierdere, ca să plătești voluntar Class 2 National Insurance pentru pensie, sau ca să ai bază pentru Maternity Allowance și Tax-Free Childcare.
+
+Se aplică în tot Regatul Unit și nu se cere: e automată.
+
+Ai trecut de £1.000 anul acesta?""",
+ th="""Câștigi ceva pe lângă job? Primii £1.000 pe an sunt scutiți de impozit și nu trebuie anunțați la HMRC. Se numără cât ai încasat, nu cât ți-a rămas.
+
+Scutirea NU se aplică la bani primiți de la angajatorul tău, al partenerului, sau de la o firmă pe care o controlezi.""",
+ li="""The trading allowance exempts the first £1,000 of trading or miscellaneous income in a tax year. Below that, nothing is taxed and nothing is reported to HMRC.
+
+It is measured on income, not profit. £1,400 of sales against £600 of costs is £1,400 for this test — over the threshold, even though £800 reached the bank.
+
+Wages do not count towards it. The £1,000 covers only money from working for yourself: selling, casual services, hiring out personal equipment.
+
+Above £1,000, registration for Self Assessment is required by 5 October in the following tax year. From there it is a choice: deduct the £1,000 allowance, or deduct actual expenses. Not both.
+
+The allowance cannot be used at all where the income comes from:
+• Your own employer
+• Your spouse's or civil partner's employer
+• A company or partnership you or a connected person owns, controls or is a partner in
+
+It also does not apply to trading income from a partnership.
+
+And the reverse case is worth knowing: some people under £1,000 should still file — to record a loss, to pay voluntary Class 2 National Insurance towards the State Pension, or to base Maternity Allowance or Tax-Free Childcare on self-employment income.
+
+UK-wide, automatic, nothing to claim.
+
+Past £1,000 this year and unsure what to do about it?""",
+ bsky="""First £1,000 of trading income a year: tax free, unreported. It counts what came in, not what you kept — and never money from your own employer.""",
+ pin_title="The UK £1,000 trading allowance: who can and cannot use it",
+ pin="""The UK trading allowance exempts the first £1,000 of trading or miscellaneous income in a tax year, with nothing to report to HMRC below that. It is measured on gross income, not profit: £1,400 of sales against £600 of costs is £1,400 for the test. Wages do not count towards it. Above £1,000 you must register for Self Assessment by 5 October in the following tax year, then choose either the £1,000 allowance or your actual expenses, not both. It cannot be used at all on income from your own employer, your partner's employer, or a company or partnership you or a connected person controls. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
+)
+
+# ------------------------------------------------------------------ 9
+C["salariu-minim-2027"] = dict(
+ ro="""Salariul minim nu e o recomandare. E o cifră pe oră sub care nu se poate plăti legal, și se schimbă pe 1 aprilie în fiecare an.
+
+Acum, din aprilie 2026:
+• 21 de ani și peste — £12,71 pe oră
+• 18-20 de ani — £10,85
+• Sub 18 ani — £8,00
+• Ucenici — £8,00
+
+Din 1 aprilie 2027, deja decis:
+• 21 de ani și peste — £13,21
+• 18-20 de ani — £11,27
+• Sub 18 ani — £8,31
+• Ucenici — £8,31
+
+Tariful de ucenic se aplică doar dacă ucenicul are sub 19 ani, sau are 19 ani și peste dar e în primul an de ucenicie. După primul an, un ucenic de 19 ani sau peste primește tariful vârstei lui.
+
+Cine nu are salariu minim:
+• Cei care lucrează pe cont propriu, cu afacerea lor — tariful e al lor, nu al legii
+• Directorii de firmă
+• Voluntarii
+• Militarii
+• Rudele angajatorului care locuiesc în casa lui
+• Cei sub vârsta la care se termină școala obligatorie, de obicei 16 ani
+• Studenții în stagiu de practică de până la un an
+
+Se aplică în tot Regatul Unit — Anglia, Scoția, Țara Galilor și Irlanda de Nord, aceleași cifre. „Real Living Wage" și „London Living Wage" sunt altceva: tarife voluntare stabilite de o organizație, nu minimul legal.
+
+E obligația angajatorului, nu ceva ce ceri.
+
+Vrei verificat tariful pe fluturaș sau pe statul de plată?""",
+ th="""Minimul legal e £12,71 pe oră la 21 de ani și peste. Din aprilie 2027 urcă la £13,21. La 18-20 de ani: £10,85 acum, £11,27 din aprilie.
+
+Dacă lucrezi pe cont propriu, salariul minim nu ți se aplică — tu îți stabilești prețul. Nici directorii de firmă, nici voluntarii nu intră.""",
+ li="""The minimum wage is not guidance. It is an hourly floor below which pay is unlawful, and it moves on 1 April each year.
+
+Current, from April 2026:
+• 21 and over — £12.71
+• 18 to 20 — £10.85
+• Under 18 — £8.00
+• Apprentice — £8.00
+
+From 1 April 2027, already announced:
+• 21 and over — £13.21
+• 18 to 20 — £11.27
+• Under 18 — £8.31
+• Apprentice — £8.31
+
+The apprentice rate applies only where the apprentice is under 19, or is 19 or over and in the first year of the apprenticeship. Past that first year, an apprentice of 19 or over moves to the rate for their age — a common and expensive payroll error.
+
+Not entitled to the minimum wage at all:
+• Self-employed people running their own business
+• Company directors
+• Volunteers and voluntary workers
+• Members of the armed forces
+• Family members of the employer living in the employer's home
+• Workers below school leaving age, usually 16
+• Higher and further education students on a work placement of up to one year
+
+UK-wide: the same figures in England, Scotland, Wales and Northern Ireland. The "real Living Wage" and "London Living Wage" are separate voluntary rates set by a charity, not the legal minimum.
+
+It is the employer's duty, not a worker's claim.
+
+Want a payroll checked against the April rates?""",
+ bsky="""UK minimum wage: £12.71 an hour at 21 and over, £13.21 from April 2027. Self-employed people and company directors are not covered at all.""",
+ pin_title="UK minimum wage 2026 and 2027: rates by age",
+ pin="""UK National Minimum Wage and National Living Wage rates by age. From April 2026: £12.71 an hour for 21 and over, £10.85 for 18 to 20, £8.00 under 18 and £8.00 for apprentices. From 1 April 2027: £13.21, £11.27, £8.31 and £8.31. The apprentice rate applies only to apprentices under 19, or 19 and over in their first year — after that they move to the rate for their age. Not entitled at all: self-employed people running their own business, company directors, volunteers, armed forces, family members living in the employer's home, and under-school-leaving-age workers. Same rates across the UK. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/national-minimum-wage-rates and gov.uk/national-minimum-wage/who-gets-the-minimum-wage",
+)
+
+# ----------------------------------------------------------------- 10
+C["child-benefit-2026"] = dict(
+ ro="""Child Benefit e o sumă fixă pe săptămână pentru fiecare copil. Nu vine singură: cineva trebuie să o ceară.
+
+Anul fiscal 2026/27:
+• £27,05 pe săptămână pentru primul copil sau singurul copil
+• £17,90 pe săptămână pentru fiecare copil următor
+
+Se plătește de obicei o dată la patru săptămâni. Copilul trebuie să aibă sub 16 ani, sau sub 20 dacă e încă într-o formă de școală sau formare aprobată.
+
+Pentru un copil poate cere o singură persoană. Și dacă ai un copil sub 12 ani, cererea îți dă automat credite de National Insurance — adică ani care contează la pensia de stat, chiar dacă nu lucrezi sau nu câștigi destul ca să plătești contribuții.
+
+Partea despre care se vorbește puțin: dacă tu sau partenerul tău are venit peste £60.000, o parte din bani se dă înapoi. Pentru fiecare £200 peste £60.000 se dă înapoi 1% din Child Benefit. Peste £80.000 se dă înapoi tot.
+
+Se uită la venitul unei persoane, nu al gospodăriei. Doi părinți cu £50.000 fiecare păstrează totul. Un singur părinte cu £80.000 nu păstrează nimic.
+
+Și aici e lucrul care merită știut: chiar dacă ești peste prag, merită să ceri Child Benefit fără să primești banii. Nu plătești nimic înapoi și păstrezi creditele pentru pensie.
+
+Se aplică în tot Regatul Unit.
+
+Nu știi dacă ar trebui să dai ceva înapoi?""",
+ th="""Child Benefit 2026/27: £27,05 pe săptămână pentru primul copil, £17,90 pentru fiecare următor. Nu vine singur — se cere.
+
+Dacă tu sau partenerul câștigă peste £60.000, o parte se dă înapoi; peste £80.000, tot. Se uită la venitul unei persoane, nu al gospodăriei.""",
+ li="""Child Benefit is a fixed weekly amount per child, and it never starts on its own. Someone has to claim it.
+
+Tax year 2026 to 2027:
+• £27.05 a week for the eldest or only child
+• £17.90 a week for each additional child
+
+Usually paid every four weeks. The child must be under 16, or under 20 if they stay in approved education or training. Only one person can claim for a given child.
+
+With a child under 12, claiming also gives the claimant National Insurance credits — qualifying years towards the State Pension, earned without working or without earning enough to pay contributions. That is the part most often left on the table.
+
+The other half of the picture: where the claimant or their partner has adjusted net income over £60,000, the High Income Child Benefit Charge claws it back at 1% of the Child Benefit for every £200 above £60,000. Over £80,000 the whole amount goes back.
+
+The test is on one person's income, not the household's. Two parents on £50,000 each keep everything. One parent on £80,000 keeps none of it.
+
+Which makes the planning point simple: someone over the threshold can still register the claim and decline the payments. No charge to pay, and the National Insurance credits are kept.
+
+UK-wide.
+
+Want the charge worked out before January?""",
+ bsky="""Child Benefit 2026/27: £27.05 a week for the first child, £17.90 for each other. Over £60,000 part of it goes back; over £80,000, all of it.""",
+ pin_title="Child Benefit 2026/27 rates and the £60,000 charge",
+ pin="""UK Child Benefit for the 2026 to 2027 tax year: £27.05 a week for the eldest or only child and £17.90 a week for each additional child, usually paid every four weeks. The child must be under 16, or under 20 in approved education or training, and only one person can claim per child. It is never automatic — it has to be claimed, and claiming for a child under 12 also gives National Insurance credits towards the State Pension. Where the claimant or their partner has income over £60,000 the High Income Child Benefit Charge takes back 1% for every £200 above it, and all of it over £80,000, judged on one person's income rather than the household's. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/child-benefit-rates and gov.uk/child-benefit-tax-charge",
+)
+
+# Threads caps a post at 500 characters through the API. Over that, Metricool
+# returns "Media container not created by unknown cause" — a message that points
+# at the images and has nothing to do with them. On 5 November 2026 a
+# 638-character caption failed, a 755-character one failed, and a 488-character
+# one published, on the same four images Facebook and Instagram accepted in the
+# same second. So Threads gets its own post and its own caption: the hook, the
+# single most useful fact, the who-does-NOT line, the number, the disclaimer and
+# the four brand tags. No worked example, no topical tags — that is what fits.
+WA_TH = f"WhatsApp: {PHONE}"
+
+
+def th_caption(slug):
+    return f"{C[slug]['th']}\n\n{WA_TH}\n\n{DISC_RO}\n\n{BRAND_TAGS}"
+
 
 def ro_caption(slug):
     t = topics.BY_SLUG[slug]
@@ -262,16 +551,21 @@ def assert_lengths():
         b = bsky_caption(slug)
         if len(b) > 300:
             bad.append(f"bluesky {slug}: {len(b)} chars (cap 300)")
+        if "th" in C[slug]:
+            th = th_caption(slug)
+            if len(th) > 500:
+                bad.append(f"threads {slug}: {len(th)} chars (cap 500)")
         if "gbp" in C[slug] and len(gbp_caption(slug)) > 1500:
             bad.append(f"gmb {slug}: {len(gbp_caption(slug))} chars (cap 1500)")
     return bad
 
 
 if __name__ == "__main__":
-    print(f"{'topic':22s} {'bsky':>5s} {'gmb':>5s}   ro / li / pin")
+    print(f"{'topic':22s} {'bsky':>5s} {'thr':>5s} {'gmb':>5s}   ro / li / pin")
     for slug in C:
         g = len(gbp_caption(slug)) if "gbp" in C[slug] else 0
-        print(f"  {slug:20s} {len(bsky_caption(slug)):5d} {g:5d}   "
+        th = len(th_caption(slug)) if "th" in C[slug] else 0
+        print(f"  {slug:20s} {len(bsky_caption(slug)):5d} {th:5d} {g:5d}   "
               f"{len(ro_caption(slug))} / {len(li_caption(slug))} / {len(pin_caption(slug))}")
     bad = assert_lengths()
     print("\nLENGTH FAILURES:", len(bad))
