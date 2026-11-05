@@ -407,8 +407,8 @@ CIS_20_30 = dict(
          h1="Ți se opresc <em>30%</em> din plată? De obicei, nu ești înregistrat.",
          say="În construcții, firma care te plătește oprește o parte din bani și o trimite la HMRC în numele tău. 30% înseamnă de obicei că nu ești înregistrat la CIS — sau că firma nu te-a putut verifica la HMRC."),
     dict(type="step", step="20% sau 30%", fig="20%",
-         say="Înregistrat la CIS, firma oprește <b>20%</b>. Neînregistrat, oprește <b>30%</b>. Banii nu sunt pierduți: contează ca plată în avans pentru taxa și National Insurance pe care le datorezi.",
-         note="Pe cont propriu, se scad la declarația anuală. Cu firmă (Ltd), se recuperează prin payroll — niciodată prin declarația de Corporation Tax."),
+         say="<b>20%</b> doar dacă ești înregistrat la CIS <b>și</b> firma te găsește la HMRC. Înregistrat, dar nu te găsește? Tot <b>30%</b>. Banii nu se pierd: sunt avans la taxa și National Insurance pe care le datorezi.",
+         note="Pe cont propriu, se scad la declarația anuală. Cu firmă (Ltd), prin payroll — nu plătești taxa cu ele în declarația de Corporation Tax."),
     dict(type="step", step="Cine NU are opriri", fig="0%",
          say="Angajații nu intră deloc în CIS: cu contract de muncă, nu ți se oprește nimic pe CIS. Iar dacă obții „gross payment status” la HMRC, nu se oprește nimic nici ca subcontractor — primești tot și plătești taxa la final.",
          note="Nu se oprește nimic nici din TVA, nici din materialele plătite de tine."),
@@ -425,8 +425,8 @@ CIS_20_30 = dict(
          h1="Having <em>30%</em> deducted? Usually you are not registered.",
          say="In construction, the firm paying you keeps part of the money and sends it to HMRC in your name. 30% usually means you never registered, or could not be verified."),
     dict(type="step", step="20% or 30%", fig="20%",
-         say="Registered for CIS, the contractor deducts <b>20%</b>. Not registered, <b>30%</b>. The money is not lost: it counts as an advance payment towards your Income Tax and National Insurance.",
-         note="Sole trader: offset on your tax return. Limited company: recovered through payroll, never on the Corporation Tax return."),
+         say="<b>20%</b> only if you are registered for CIS <b>and</b> the contractor can find you at HMRC. Registered but not found? Still <b>30%</b>. The money is not lost: it is an advance on the tax you owe.",
+         note="Sole trader: offset on your tax return. Limited company: through payroll — not by paying tax with them on the Corporation Tax return."),
     dict(type="step", step="Who has NO deduction", fig="0%",
          say="Employees are not in CIS at all: with a contract of employment, nothing is deducted under CIS. And a subcontractor granted gross payment status by HMRC has nothing deducted either — paid in full, tax settled at the end.",
          note="Nothing is deducted from VAT or from materials you paid for, either."),
@@ -467,6 +467,24 @@ CIS_20_30 = dict(
     ("20% for a matched subcontractor and 30% for an unmatched one, in force from "
      "6 April 2007",
      "https://www.gov.uk/hmrc-internal-manuals/construction-industry-scheme-reform/cisr71020", "2026-11-05"),
+    ("The 20% standard rate applies only where BOTH apply — 'you\'re registered for CIS' "
+     "and 'they can verify you' — and 'If either do not apply, contractors will take "
+     "deductions at a higher rate of 30%', so a registered subcontractor who cannot be "
+     "verified is still deducted at 30%",
+     "https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor/get-paid", "2026-11-06"),
+    ("A limited company recovers deductions through its payroll scheme, and HMRC's only "
+     "prohibition is 'Do not use your Corporation Tax return to pay tax with your "
+     "deductions - you may get a penalty if you do'; leftover deductions carry forward "
+     "within the tax year and a refund is claimed after it ends. This is why the cards no "
+     "longer say CIS deductions are NEVER recovered through Corporation Tax",
+     "https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor/pay-tax-and-claim-back-deductions", "2026-11-06"),
+    ("CIS340: 'At the end of the tax year, once we\'ve received the company\'s final Full "
+     "Payment Submission (FPS) and final EPS, any excess CIS deductions that cannot be set "
+     "off may be refunded or set against Corporation Tax due. No repayments or set-offs "
+     "against other liabilities can be made in-year except where the company is in "
+     "liquidation or administration.'",
+     "https://www.gov.uk/government/publications/construction-industry-scheme-cis-340/"
+     "construction-industry-scheme-a-guide-for-contractors-and-subcontractors-cis-340", "2026-11-06"),
   ],
   SCOPE=dict(
     nation="All of the UK — CIS is a UK-wide HMRC scheme, covering construction operations "
