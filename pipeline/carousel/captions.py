@@ -28,16 +28,16 @@ C = {}
 
 # ------------------------------------------------------------------ 1
 C["plati-in-avans"] = dict(
- ro="""Pe 31 ianuarie 2027 nu plătești doar taxa pe 2025/26.
+ ro="""Pe 31 ianuarie 2027 nu plătești doar taxele pe 2025/26.
 
-HMRC îți cere în aceeași zi și prima tranșă în avans pentru anul următor: jumătate din taxa datorată anul trecut. A doua tranșă vine pe 31 iulie 2027.
+HMRC îți cere în aceeași zi și prima tranșă în avans pentru anul următor: jumătate din taxele datorate anul trecut. A doua tranșă vine pe 31 iulie 2027.
 
 Asta înseamnă că factura din ianuarie poate fi de o dată și jumătate cât arată declarația. Pentru mulți, e o surpriză în primul an pe cont propriu — dar e previzibilă, dacă știi că vine.
 
 Ce intră în avans: și Class 4 National Insurance, dacă lucrezi pe cont propriu.
 Ce nu intră: Capital Gains Tax și împrumutul studențesc — acelea apar doar în plata de regularizare.
 
-Cine nu plătește avans deloc: dacă taxa datorată anul trecut a fost sub £1.000, sau dacă peste 80% din ea s-a reținut deja la sursă (prin codul fiscal sau de către bancă).
+Cine nu plătește avans deloc: dacă taxele datorate anul trecut au fost sub £1.000, sau dacă peste 80% din ea s-a reținut deja la sursă (prin codul fiscal sau de către bancă).
 
 Se aplică în tot Regatul Unit. HMRC calculează avansul automat, din cifra de anul trecut — nu ceri nimic ca să apară. Dacă te aștepți la un an mai slab, poți cere reducerea avansului (formular SA303); dar dacă reduci prea mult, HMRC percepe dobândă pe diferență.
 
@@ -235,11 +235,11 @@ C["cis-20-30"] = dict(
 Cât oprește nu depinde de un singur lucru, ci de două:
 • Ești înregistrat la CIS ȘI firma te poate verifica la HMRC → 20%
 • Lipsește oricare dintre cele două → 30%
-• Cu „gross payment status" → 0%, primești tot și plătești taxa la final
+• Cu „gross payment status" → 0%, primești tot și plătești taxele la final
 
 Firma te verifică la HMRC înainte să te plătească. Dacă verificarea nu iese, se opresc 30% chiar dacă tu ești înregistrat.
 
-Banii opriți nu sunt pierduți. Contează ca plată în avans pentru taxa și National Insurance pe care le datorezi. Dacă s-a oprit mai mult decât datorezi, diferența se returnează.
+Banii opriți nu sunt pierduți. Contează ca plată în avans pentru taxele și National Insurance pe care le datorezi. Dacă s-a oprit mai mult decât datorezi, diferența se returnează.
 
 Cum se recuperează depinde de forma în care lucrezi: pe cont propriu, prin declarația anuală; cu firmă (Ltd), prin payroll, cu un Employer Payment Summary. HMRC spune explicit să NU folosești declarația de Corporation Tax — riști o penalizare.
 
