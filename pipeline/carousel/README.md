@@ -92,6 +92,40 @@ The lesson worth keeping: platform documentation told us what the feeds
 *display*, and only a live post told us what the APIs *accept*. Those are
 different questions, and the second one is the one that decides what ships.
 
+## limits.py — no caption is ever scheduled without being counted
+
+**`from limits import check` then `check(caption, network)` before every
+single `createScheduledPost` and `updateScheduledPost`.** It raises rather
+than returns, so a caption over the limit cannot quietly go through.
+
+Set by Valentin on 6 November 2026 after the same fault broke three platforms
+in three days — and not one of the error messages mentioned length:
+
+| Date | Network | Caption | Limit | What the platform said |
+|---|---|---|---|---|
+| 4-5 Nov | Threads | 638, 755 | 500 | `Media container not created by unknown cause` |
+| 6 Nov | Pinterest | 921, 929, 941, 1046 | 800 | `Code: 400 - Invalid request` + the first 75 characters quoted back |
+| 6 Nov | Instagram, TikTok | 2277 | 2200 | held before it could fail |
+
+Every one of those reads like a problem with the media or the words. None of
+them is. The images in the Threads failures published perfectly to Facebook
+and Instagram from the same post, in the same second.
+
+**The Instagram/TikTok case is the one to remember.** Those captions started
+at 1998 characters — comfortably inside the limit. Four Gatekeeper repair
+rounds grew them to 2277. The repair loop broke posts that were fine, because
+nothing measured the caption after an edit. So `check()` goes **after every
+edit**, not only after the first draft.
+
+The limits, for reading rather than for copying — use the table in the file:
+Instagram 2200, Facebook 63206, Threads 500, TikTok 2200, LinkedIn 3000,
+Bluesky 300, Pinterest 800 description and 100 title, Google Business 1500.
+A Story has no caption of its own, so length does not apply to it.
+
+`limits.report()` returns a line per caption with its count, for the
+"Lungimi" section of a run report. Put the numbers in the report: a claim
+that the lengths were checked is worth nothing next to the counts.
+
 ## preflight.py — run it before anything leaves the machine
 
 `python3 preflight.py` exits non-zero and nothing is pushed or scheduled.
