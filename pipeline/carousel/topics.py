@@ -816,7 +816,404 @@ CHILD_BENEFIT = dict(
               "threshold has applied since the 2024/25 tax year."),
 )
 
-DAY = [CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE]
+# ==================================================================== 11
+MILEAGE_55P = dict(
+  slug="kilometraj-55p",
+  title="Mașina pentru muncă — 55p pe milă din 6 aprilie 2026",
+  tags_ro="#cheltuieli #selfemployed #hmrc #contabilitate #romaniinuk",
+  tags_en="#selfemployed #mileage #hmrc #smallbusinessuk #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Cheltuieli · Mașina pentru muncă",
+         h1="Pentru fiecare milă de muncă scazi <em>55p</em> din profit.",
+         say="Dacă lucrezi pe cont propriu și îți folosești mașina pentru muncă, nu ești obligat să strângi bonurile de benzină. Poți scădea o sumă fixă pentru fiecare milă făcută pentru muncă."),
+    dict(type="step", step="Cât scazi, milă cu milă", fig="55p",
+         say="<b>55p</b> pentru primele 10.000 de mile într-un an fiscal, apoi <b>25p</b> pentru fiecare milă peste. Pe motocicletă, <b>24p</b> de la prima milă.",
+         note="Drumul de la casă la muncă nu se numără — doar deplasările făcute pentru muncă. Până pe 5 aprilie 2026 primele 10.000 de mile se socoteau la 45p."),
+    dict(type="step", step="Cine NU poate folosi suma pe milă", fig="Taxi",
+         say="Taxiurile și mașinile de școală cu dublă comandă nu intră deloc în suma pe milă. Nici o mașină din al cărei preț, benzină sau reparații ai scăzut deja din profit.",
+         note="E una sau alta, niciodată amândouă. Iar odată folosită pentru o mașină, rămâi cu ea cât timp folosești mașina în afacere."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Cheltuieli · Mașina pentru muncă",
+    h1="Nu știi <em>cum se numără</em> milele?",
+    say="Scrie-ne și ne uităm împreună la ce poți scădea pe mașină. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Expenses · Using your car for work",
+         h1="Every business mile in your own car is <em>55p</em> off your profit.",
+         say="If you are self-employed and use your own car for work, you do not have to keep every fuel receipt. You can take a flat amount off your profit for each business mile instead."),
+    dict(type="step", step="What you take off, mile by mile", fig="55p",
+         say="<b>55p</b> a mile for your first 10,000 business miles in a tax year, then <b>25p</b> for every mile after that. On a motorcycle it is <b>24p</b> from the first mile.",
+         note="Travel between home and work does not count — only travel for the work itself. The first 10,000 miles were 45p until 5 April 2026."),
+    dict(type="step", step="Who cannot use the flat rate", fig="Taxi",
+         say="Cars designed for commercial use — black cabs, hackney carriages, dual-control driving instructors' cars — are outside the flat rate altogether. So is any vehicle whose cost already came off your profits.",
+         note="One method or the other, never both. And once you use the flat rate for a vehicle, you keep it for that vehicle."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Expenses · Using your car for work",
+    h1="Not sure <em>how the miles count</em>?",
+    say="Message us and we will go through what you can claim on the vehicle. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  GBP=[
+    dict(type="solo",
+         kicker="Simplified expenses · gov.uk",
+         h1="Business miles are 55p each now, not 45p.",
+         rows=[["55p", "a business mile, first 10,000 in a tax year"],
+               ["25p", "a mile after that; motorcycles 24p"],
+               ["Home to work", "not a business mile — it does not count"]],
+         ask="Self-employed and driving for work near Luton or Birmingham? Message us.",
+         phone=PHONE, disc="General information, not personal advice."),
+  ],
+
+  SOURCES=[
+    ("Simplified expenses flat rates for 2026 to 2027: 55p a mile for cars and goods "
+     "vehicles for the first 10,000 miles, 25p thereafter, 24p for motorcycles; no "
+     "simplified expenses for a vehicle already covered by capital allowances or whose "
+     "costs are already in business profits; and once the flat rate is used for a "
+     "vehicle it must be kept for that vehicle",
+     "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles", "2026-11-06"),
+    ("Cars designed for commercial use are outside simplified expenses altogether — the page says \"except those designed for commercial use\" and gives black cabs, hackney carriages and dual-control driving instructors' cars as its examples",
+     "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles", "2026-11-06"),
+    ("Costs a self-employed person cannot claim, quoted verbatim: \"non-business driving or travel costs\", \"fines or penalty charges\" and \"travel between home and work\"",
+     "https://www.gov.uk/expenses-if-youre-self-employed/travel", "2026-11-06"),
+    ("The increase from 45 pence to 55 pence a mile for the first 10,000 miles, applying "
+     "to the 2026 to 2027 tax year and subsequent tax years from 6 April 2026, for both "
+     "Approved Mileage Allowance Payments and the self-employed simplified mileage rates; "
+     "the rate above 10,000 miles is unchanged",
+     "https://www.gov.uk/government/publications/increase-to-approved-mileage-allowance-"
+     "payments-amaps-and-self-employed-simplified-mileage-rates/increasing-mileage-rates",
+     "2026-11-06"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK — HMRC income tax rules for the self-employed, no devolved variation.",
+    category="Self-employed people using simplified expenses for a car, goods vehicle or "
+             "motorcycle used for business. The 55p/25p bands are per tax year, per vehicle.",
+    excluded="A car designed for commercial use — a black cab, a hackney carriage, a dual-control driving instructor's car — cannot use simplified expenses at all, which matters because taxi and private-hire driving is common in this audience. Nor can a vehicle on which capital allowances have been claimed, or whose running costs are already in business profits: one method or the other, never both. The miles themselves are also narrower than the hook suggests — \"travel between home and work\" cannot be claimed at all, so a driver going to the same site each day cannot count that journey, and nor can non-business driving or fines. The choice is locked in: once the flat rate is used for a vehicle it must be kept for that vehicle. And the 25p band starts at mile 10,001, so a high-mileage driver does not get 55p on every mile.",
+    from_when="55p applies from 6 April 2026, for the 2026/27 tax year and later years; it "
+              "was 45p before that. Claimed on the tax return — nothing is paid out automatically."),
+)
+
+# ==================================================================== 12
+LTD_DEADLINES = dict(
+  slug="termene-firma-ltd",
+  title="Firmă Ltd — cele trei termene și plata care vine înaintea declarației",
+  tags_ro="#firmaltd #corporationtax #companieshouse #contabilitate #romaniinuk",
+  tags_en="#limitedcompany #corporationtax #companieshouse #ukaccountant #smallbusinessuk",
+
+  RO=[
+    dict(type="hook",
+         kicker="Firmă Ltd · Termene",
+         h1="O firmă are <em>patru</em> termene, nu unul.",
+         say="Mulți cred că o firmă depune o dată pe an. Sunt patru termene, în două locuri diferite — iar plata vine înaintea declarației."),
+    dict(type="step", step="Cele trei date de la anul contabil", fig="9+1",
+         say="Plătești Corporation Tax la <b>9 luni și o zi</b> după ce se încheie anul contabil. Depui bilanțul la Companies House în <b>9 luni</b>. Trimiți declarația firmei la HMRC în <b>12 luni</b>.",
+         note="Exemplu: anul se încheie pe 31 decembrie 2026 → bilanțul până pe 30 septembrie 2027, plata până pe 1 octombrie 2027, declarația până pe 31 decembrie 2027."),
+    dict(type="step", step="Cine NU are aceste termene", fig="0",
+         say="Dacă lucrezi pe cont propriu, fără firmă, nu ai niciunul dintre ele — ai Self Assessment, cu 31 ianuarie, plus raportări trimestriale dacă intri în Making Tax Digital.",
+         note="Dar nicio firmă nu scapă: declarația se depune și pe pierdere, și dacă firma n-a lucrat deloc. Iar al patrulea termen — confirmation statement, la fiecare 12 luni — ratat, firma poate fi radiată."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Firmă Ltd · Termene",
+    h1="Nu știi <em>ce termen urmează</em>?",
+    say="Trimite-ne data la care se încheie anul firmei tale și îți punem cele trei termene pe hârtie. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Limited company · Deadlines",
+         h1="A company has <em>four</em> deadlines, not one.",
+         say="Most people expect one filing a year. A company has four deadlines, in two different places — and the payment falls due before the return."),
+    dict(type="step", step="The three dates set by your year end", fig="9+1",
+         say="Corporation Tax: <b>9 months and 1 day</b> after the accounting period ends. Accounts at Companies House: <b>9 months</b> after the year end. Company Tax Return: <b>12 months</b>.",
+         note="Year ending 31 December 2026: accounts by 30 September 2027, payment by 1 October 2027, return by 31 December 2027."),
+    dict(type="step", step="Who does NOT have these dates", fig="0",
+         say="A sole trader has none of them — Self Assessment instead, due 31 January, plus quarterly updates if Making Tax Digital applies.",
+         note="No company is excused: you file after a loss and even if it never traded. And a missed confirmation statement, due every 12 months, can get the company struck off."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Limited company · Deadlines",
+    h1="Not sure <em>which date is next</em>?",
+    say="Send us your company's year end and we will set out all three deadlines. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("The Company Tax Return deadline is 12 months after the end of the accounting period "
+     "it covers; Corporation Tax is usually due 9 months and one day after the end of the "
+     "accounting period; and a return must still be sent after a loss or with no "
+     "Corporation Tax to pay",
+     "https://www.gov.uk/company-tax-returns", "2026-11-06"),
+    ("Corporation Tax for taxable profits up to £1.5 million is paid 9 months and 1 day "
+     "after the end of the accounting period; above £1.5 million it is paid in instalments",
+     "https://www.gov.uk/pay-corporation-tax", "2026-11-06"),
+    ("Deadline table: first accounts to Companies House 21 months after the date of "
+     "registration; annual accounts 9 months after the financial year end; Company Tax "
+     "Return 12 months after the accounting period for Corporation Tax ends; pay "
+     "Corporation Tax, or tell HMRC none is owed, 9 months and 1 day after that period ends",
+     "https://www.gov.uk/prepare-file-annual-accounts-for-limited-company", "2026-11-06"),
+    ("The fourth deadline: at least one confirmation statement every 12 months; the review period ends 12 months after incorporation or the last confirmation statement date; it may be filed up to 14 days after the review period ends; \"You must file a confirmation statement even if there have not been any changes to your company during the review period\"; £50 online or £110 on paper; a financial penalty, a fine of up to £5,000 and strike-off from the register for not filing",
+     "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement", "2026-11-06"),
+    ("Making Tax Digital for Income Tax applies to sole traders and landlords with qualifying income over £50,000 on the 2024-25 return from 6 April 2026, over £30,000 from 6 April 2027 and over £20,000 from 6 April 2028, and requires quarterly updates every 3 months IN ADDITION to the one annual tax return — so a sole trader no longer necessarily has a single filing date",
+     "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/introduction", "2026-11-06"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK — Companies House covers England and Wales, Scotland and Northern "
+           "Ireland, and Corporation Tax is an HMRC tax with no devolved variation.",
+    category="Private limited companies registered at Companies House and within the charge "
+             "to Corporation Tax, with taxable profits up to £1.5 million.",
+    excluded="Sole traders and ordinary partnerships have none of these deadlines: no Corporation Tax, no accounts at Companies House, and Self Assessment on 31 January instead — though since 6 April 2026 a sole trader with over £50,000 of qualifying income on the 2024-25 return is inside Making Tax Digital for Income Tax and files quarterly updates as well, so \"one date a year\" is no longer true for them either. Companies with taxable profits above £1.5 million do not use the 9-months-and-1-day date — they pay in instalments. A brand new company's first accounts are not on the 9-month cycle: they are due 21 months after the date of registration. The confirmation statement runs on its own 12-month review period rather than the year end, with 14 days to file after it closes. And no company is excused anything: the return is filed after a loss and when no tax is owed, and the confirmation statement is filed even when nothing has changed.",
+    from_when="Three of the four run from each company's own accounting period and financial year end, so they differ per company; the confirmation statement runs on its own 12-month review period from incorporation or the last statement. All four are mandatory and none is claimed; HMRC and Companies House do not prompt them."),
+)
+
+# ==================================================================== 13
+EMPLOYMENT_ALLOWANCE = dict(
+  slug="employment-allowance-10500",
+  title="Employment Allowance — până la £10.500 din National Insurance-ul firmei",
+  tags_ro="#angajatori #payroll #nationalinsurance #contabilitate #romaniinuk",
+  tags_en="#employmentallowance #payroll #nationalinsurance #ukaccountant #smallbusinessuk",
+
+  RO=[
+    dict(type="hook",
+         kicker="Angajatori · Employment Allowance",
+         h1="Până la <em>£10.500</em> din National Insurance-ul firmei.",
+         say="Firma plătește National Insurance pentru fiecare angajat — o contribuție la stat, peste cât se oprește din salariul lui. Employment Allowance taie din partea firmei. Dar se cere."),
+    dict(type="step", step="Cât și cum se cere", fig="<cur>£</cur>10.500",
+         say="Se scad până la <b>£10.500</b> din National Insurance-ul plătit de firmă într-un an fiscal. Se cere din programul de salarii, pentru un singur stat de plată — și se cere din nou la fiecare an fiscal.",
+         note="Nu se reportează de la un an la altul. Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani după anul fiscal respectiv."),
+    dict(type="step", step="Cine NU poate cere", fig="1 director",
+         say="Dacă firma are un singur director și niciun alt angajat pentru care firma plătește National Insurance, nu poate cere. Nici angajatorii care fac jumătate sau mai mult din muncă pentru sectorul public.",
+         note="Nici pentru o bonă sau un grădinar angajat în casă — doar dacă persoana e îngrijitor. Iar într-un grup de firme, cere o singură firmă."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Angajatori · Employment Allowance",
+    h1="Nu știi dacă <em>firma ta poate cere</em>?",
+    say="Scrie-ne cum arată statul de plată și verificăm împreună. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Employers · Employment Allowance",
+         h1="Up to <em>£10,500</em> off the company's National Insurance.",
+         say="Once you have staff, the business pays National Insurance on top of what comes out of their wages. Employment Allowance cuts the employer's share. It is never applied on its own — it has to be claimed."),
+    dict(type="step", step="How much, and how to claim", fig="<cur>£</cur>10,500",
+         say="Up to <b>£10,500</b> off the employer's Class 1 National Insurance in a tax year. Claimed through your payroll software, against one payroll only — and claimed again every new tax year.",
+         note="It does not carry forward. A claim never made can be backdated up to 4 years after the end of the tax year it covers."),
+    dict(type="step", step="Who cannot claim", fig="1 director",
+         say="A company with a single director and no other employee liable for secondary Class 1 National Insurance cannot claim. Nor can an employer doing half or more of its work in the public sector.",
+         note="Nor for personal or household work — a nanny, a gardener — unless they are a care or support worker. In a group, only one company claims."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Employers · Employment Allowance",
+    h1="Not sure if <em>your payroll qualifies</em>?",
+    say="Tell us how your payroll is set up and we will check it with you. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("Employment Allowance is worth up to £10,500 off the employer's Class 1 National "
+     "Insurance; a single-director company cannot claim where that director is the only "
+     "employee liable for secondary Class 1 National Insurance; an employer must do less "
+     "than half its work in the public sector; no claim for employees under off-payroll "
+     "working rules or for personal, household or domestic work such as a nanny or "
+     "gardener unless they are a care or support worker; only one company in a group and "
+     "only one payroll may claim; and since April 2025 employers with Class 1 liabilities "
+     "over £100,000 can apply",
+     "https://www.gov.uk/claim-employment-allowance/eligibility", "2026-11-06"),
+    ("\"You must claim the Employment Allowance for each new tax year by submitting an Employer Payment Summary\" — a claim is not carried forward from one tax year to the next; and a claim may be made \"up to 4 years after the end of the tax year in which the allowance applies\", so a 2022 to 2023 claim must be made by 5 April 2027",
+     "https://www.gov.uk/government/publications/employment-allowance-more-detailed-guidance/claiming-employment-allowance-further-employer-guidance", "2026-11-06"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK — employer Class 1 National Insurance is a UK-wide HMRC charge "
+           "with no devolved variation.",
+    category="Employers paying employer Class 1 National Insurance who do less than half their work in the public sector, and charities including community amateur sports clubs. The charity position on the public-sector test was not read at primary source for this run, so no card claims anything about charities.",
+    excluded="A company with one director and no other employee liable for secondary Class 1 "
+             "National Insurance cannot claim at all — that is the single commonest exclusion "
+             "for a small limited company. Employers doing half or more of their work in the "
+             "public sector cannot claim. No claim can be made for an employee within "
+             "off-payroll working rules, or for someone employed for personal, household or "
+             "domestic work such as a nanny or gardener, unless that person is a care or "
+             "support worker. Within a group of connected companies only one company may "
+             "claim, and an employer running several payrolls may claim against only one of "
+             "them. A business with no employees at all is outside it entirely.",
+    from_when="Claimed through payroll software for EACH tax year separately — never automatic and never carried forward, so an employer who claimed last year and assumed it rolled over loses up to £10,500. A claim never made can be backdated up to 4 years after the end of the tax year concerned. The £100,000 Class 1 liability bar was lifted from April 2025."),
+)
+
+# ==================================================================== 14
+COLD_WEATHER = dict(
+  slug="cold-weather-25",
+  title="Cold Weather Payment — £25 pentru fiecare 7 zile de ger",
+  tags_ro="#coldweatherpayment #iarna #ajutoare #beneficiiuk #romaniinuk",
+  tags_en="#coldweatherpayment #costofliving #winterhelp #ukbenefits #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Iarna 2026/27 · Cold Weather Payment",
+         h1="<em>£25</em> pentru fiecare săptămână de ger. Și vin singuri.",
+         say="Dacă primești unul dintre câteva ajutoare, îndeplinești condițiile lui și în zona ta e zero grade sau mai jos șapte zile la rând, statul îți pune bani în cont."),
+    dict(type="step", step="Pe ce ajutoare se dă", fig="4",
+         say="Pension Credit, Universal Credit, Employment and Support Allowance legat de venit, sau Support for Mortgage Interest. Fiecare cu propriile condiții.",
+         note="<b>£25</b> pentru fiecare 7 zile la rând cu media la zero grade sau mai jos. Banii vin în 14 zile lucrătoare. Se numără gerul dintre 1 noiembrie 2026 și 31 martie 2027, după codul poștal."),
+    dict(type="step", step="Cine NU primește", fig="2 condiții",
+         say="Pe Universal Credit nu primești dacă tu sau partenerul tău munciți. Dar nici dacă nu munciți nu e de ajuns: mai trebuie fie o boală care îți limitează capacitatea de muncă, fie un copil sub 5 ani în casă.",
+         note="Cu suma pentru un copil cu dizabilitate primești oricum. Iar în Scoția nu există — acolo vine Winter Heating Payment, o dată pe iarnă."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Iarna 2026/27 · Cold Weather Payment",
+    h1="Nu știi <em>unde se verifică</em>?",
+    say="Scrie-ne și îți trimitem pagina oficială GOV.UK unde se verifică. Fără obligații.",
+    phone=PHONE, disc="Informații generale, nu consultanță pe beneficii. Cere sfat de specialitate."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Winter 2026/27 · Cold Weather Payment",
+         h1="<em>£25</em> for every week of freezing weather, paid automatically.",
+         say="If you get one of a short list of benefits, meet that benefit's own conditions, and the temperature where you live sits at zero or below for seven days running, money goes into your account."),
+    dict(type="step", step="Which benefits it runs on", fig="4",
+         say="Pension Credit, Universal Credit, income-related Employment and Support Allowance, or Support for Mortgage Interest. Each with its own further conditions.",
+         note="<b>£25</b> per 7 consecutive days at zero or below, recorded or forecast. Paid within 14 working days. Cold spells from 1 November 2026 to 31 March 2027, by postcode."),
+    dict(type="step", step="Who does NOT get it", fig="2 tests",
+         say="On Universal Credit you do not get it if you or your partner are employed or gainfully self-employed. And not working alone is not enough — you also need limited capability for work, or a child under 5.",
+         note="A disabled child amount in the claim and you get it either way. Scotland has none of this — Winter Heating Payment instead."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Winter 2026/27 · Cold Weather Payment",
+    h1="Not sure <em>where to check</em>?",
+    say="Message us and we will send you the official GOV.UK page where you can check it. No obligation.",
+    phone=PHONE, disc="General information, not benefits advice. Get specialist advice."),
+
+  SOURCES=[
+    ("£25 for each 7-day period where the average temperature is recorded as, or forecast "
+     "to be, zero degrees celsius or below over 7 consecutive days; paid automatically with "
+     "nothing to apply for; covers 1 November 2026 to 31 March 2027; England and Wales by "
+     "postcode and Northern Ireland with its own checker; and \"If you live in Scotland, you "
+     "cannot get Cold Weather Payments\" — the Winter Heating Payment is paid there instead",
+     "https://www.gov.uk/cold-weather-payment", "2026-11-06"),
+    ("Payment arrives within 14 working days of a cold period, into the same account as the "
+     "benefit, for cold spells between 1 November 2026 and 31 March 2027",
+     "https://www.gov.uk/cold-weather-payment/when-youll-get-paid", "2026-11-06"),
+    ("Qualifying benefits and their conditions: Pension Credit; income-related ESA in a "
+     "work-related activity or support group, or with a severe or enhanced disability "
+     "premium, pensioner premium, disabled child or a child under 5; Universal Credit only "
+     "where neither you nor your partner is employed or \"gainfully self-employed\" AND you "
+     "have limited capability for work or a child under 5 — or, regardless of employment, a "
+     "disabled child amount in the claim; and Support for Mortgage Interest where treated as "
+     "receiving a qualifying benefit",
+     "https://www.gov.uk/cold-weather-payment/eligibility", "2026-11-06"),
+  ],
+  SCOPE=dict(
+    nation="England, Wales and Northern Ireland only. NOT Scotland — GOV.UK states plainly "
+           "that someone living in Scotland cannot get Cold Weather Payments; the Winter "
+           "Heating Payment is paid there instead, annually and regardless of the weather.",
+    category="People receiving Pension Credit, income-related Employment and Support "
+             "Allowance, Universal Credit or Support for Mortgage Interest, who meet that "
+             "benefit's extra conditions, in a postcode area that records or is forecast a "
+             "7-day cold spell.",
+    excluded="Anyone living in Scotland gets no Cold Weather Payment at all. Anyone who "
+             "receives none of the four qualifying benefits gets nothing, however cold it is "
+             "and however low their income — it is tied to the benefit, not to the weather "
+             "alone. On Universal Credit, a claimant or partner who is employed or gainfully "
+             "self-employed is excluded, unless the claim includes a disabled child amount. A "
+             "Universal Credit claimant with no limited capability for work, no child under 5 "
+             "and no disabled child amount is excluded too. On income-related ESA, someone in "
+             "neither the work-related activity nor the support group is excluded unless they "
+             "have one of the listed premiums or a child under 5. And a postcode where no "
+             "7-day cold spell is recorded or forecast triggers no payment for anybody.",
+    from_when="Cold spells between 1 November 2026 and 31 March 2027. Automatic — no claim is "
+              "made; payment follows each triggering cold period within 14 working days."),
+)
+
+# ==================================================================== 15
+RETURN_30_DAYS = dict(
+  slug="retur-30-zile",
+  title="Produs defect — dreptul de a cere banii înapoi în 30 de zile",
+  tags_ro="#drepturi #consumator #baniiinapoi #romaniinuk #informatiiutile",
+  tags_en="#consumerrights #refunds #knowyourrights #ukconsumer #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Drepturile cumpărătorului · 30 de zile",
+         h1="Ai <em>30 de zile</em> să ceri banii înapoi pe un produs defect.",
+         say="Nu e politica magazinului, e legea: Consumer Rights Act 2015. Dacă produsul e defect, nu e cum l-a descris vânzătorul sau nu face ce ar trebui, ceri banii — nu doar o reparație."),
+    dict(type="step", step="Cele 30 de zile, exact", fig="30",
+         say="Se numără de a doua zi după ce ai primit produsul și a devenit al tău. Dacă ceri reparație sau înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas.",
+         note="Banii trebuie dați fără întârziere și în cel mult <b>14 zile</b> de când vânzătorul e de acord că ți se cuvin."),
+    dict(type="step", step="Cine NU are cele 30 de zile", fig="privat",
+         say="Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă, legea asta nu se aplică. Nici dacă vânzătorul ți-a spus de defect înainte să cumperi, sau se vedea când ai verificat produsul.",
+         note="La produsele care se strică repede termenul e mai scurt. După 30 de zile mai ai dreptul la reparație sau înlocuire."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Drepturile cumpărătorului · 30 de zile",
+    h1="Vrei să <em>citești legea</em> în original?",
+    say="Scrie-ne și îți trimitem textul oficial al legii. Fără obligații.",
+    phone=PHONE, disc="Informații generale, nu consultanță juridică. Cere sfat de specialitate."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Your rights as a buyer · 30 days",
+         h1="<em>30 days</em> to reject faulty goods and get a refund.",
+         say="Not a shop's returns policy — the Consumer Rights Act 2015. Faulty, not as described or not fit for purpose: the first 30 days give you a refund, not a repair."),
+    dict(type="step", step="The 30 days, precisely", fig="30",
+         say="The clock starts the day after the goods are yours and delivered. If you ask for a repair or a replacement, the clock stops while you wait and picks up where it left off.",
+         note="A refund must be given without undue delay and in any event within <b>14 days</b> of the trader agreeing you are entitled to one."),
+    dict(type="step", step="Who does NOT have the 30 days", fig="private",
+         say="Buying from a private individual rather than a trader puts you outside this Act. So does a fault the seller pointed out before you bought, or one your own examination ought to have revealed.",
+         note="Perishable goods have a shorter window. After 30 days you still have repair or replacement."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Your rights as a buyer · 30 days",
+    h1="Want to <em>read the Act</em> yourself?",
+    say="Message us and we will send you the wording of the Act itself. No obligation.",
+    phone=PHONE, disc="General information, not legal advice. Get specialist advice."),
+
+  SOURCES=[
+    ("Section 22: the short-term right to reject runs to the end of 30 days, beginning the "
+     "first day after ownership or possession has passed, the goods have been delivered and "
+     "any required installation is done; a shorter period for goods that can reasonably be "
+     "expected to perish; and the clock stops for the waiting period while a requested "
+     "repair or replacement is carried out",
+     "https://www.legislation.gov.uk/ukpga/2015/15/section/22", "2026-11-06"),
+    ("Chapter 2 of Part 1: section 20(15) — a refund must be given without undue delay and "
+     "in any event within 14 days of the trader agreeing the consumer is entitled to one; "
+     "section 9(4) — the quality term does not cover a fault specifically drawn to the "
+     "consumer's attention before the contract, or one an examination of the goods by the "
+     "consumer ought to reveal; sections 23 and 24 — repair or replacement, then price "
+     "reduction or the final right to reject",
+     "https://www.legislation.gov.uk/ukpga/2015/15/part/1/chapter/2", "2026-11-06"),
+    ("Part 1 applies to a contract between a trader and a consumer; section 2 defines a "
+     "trader as a person acting for purposes relating to their trade, business, craft or "
+     "profession, and a consumer as an individual acting for purposes wholly or mainly "
+     "outside their trade, business, craft or profession",
+     "https://www.legislation.gov.uk/ukpga/2015/15/part/1", "2026-11-06"),
+    ("Section 99 (Extent): \"Section 27 extends only to Scotland\"; \"Chapter 3 of this Part [Part 3] extends only to England and Wales\"; \"Subject to that, this Act extends to England and Wales, Scotland and Northern Ireland\"",
+     "https://www.legislation.gov.uk/ukpga/2015/15/section/99", "2026-11-06"),
+    ("The section list of Part 1 Chapter 2 (Goods), read to place section 27: the chapter runs s3 to s32 and section 27 — \"Consignation, or payment into court, in Scotland\" — sits inside it, between s26 and s28. So the Scotland-only carve-out in s99(2) IS a Part 1 goods provision; what makes the 30-day right UK-wide is that s22, s20, s9 and s23-s24 are in neither carve-out",
+     "https://www.legislation.gov.uk/ukpga/2015/15/part/1/chapter/2", "2026-11-06"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK for the 30-day right itself. Section 99 extends the Act to England and Wales, Scotland and Northern Ireland, carving out section 27 (Scotland only) and Chapter 3 of Part 3 (England and Wales only). Correction made on 6 Nov: section 27 — \"Consignation, or payment into court, in Scotland\" — DOES sit inside Part 1 Chapter 2, the goods chapter, so it is wrong to say the Part 1 goods provisions are in neither carve-out. What is UK-wide is the substance these cards rely on: s22 (the 30 days), s20 (the refund and its 14 days), s9(4) (the excluded faults) and the s23-s24 ladder. Court procedure is not uniform, and no card claims it is.",
+    category="An individual buying goods from a trader for purposes wholly or mainly outside "
+             "their own trade, business, craft or profession, where the goods are faulty, not "
+             "as described, or not fit for a purpose made known to the trader.",
+    excluded="Someone who bought from a private individual rather than a trader has no rights "
+             "under this Act at all — the private-sale case is the one that catches people, "
+             "and it is not a shop refusing to help, it is a different legal relationship. "
+             "Someone buying for purposes wholly or mainly inside their own business is not a "
+             "consumer and is outside Part 1. A fault the trader specifically drew to the "
+             "buyer's attention before the contract, or one the buyer's own examination of "
+             "the goods ought to have revealed, is not covered by the quality term. Goods "
+             "that can reasonably be expected to perish sooner have a shorter window than 30 "
+             "days. And after the 30 days the short-term right to reject is gone — repair or "
+             "replacement comes first then, with a price reduction or a final right to reject "
+             "only if that fails.",
+    from_when="In force since 1 October 2015 for contracts made on or after that date. The 30 "
+              "days run from the day after delivery and ownership; the right is exercised by "
+              "the buyer, nothing is automatic."),
+)
+
+DAY = [MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS]
 
 # CHILD_BENEFIT was drafted for the 6th and held by the scope checker: its card 3
 # answers "who does not keep it" with the High Income Child Benefit Charge, while
@@ -829,6 +1226,7 @@ HELD = [WINTER_FUEL, CHILD_BENEFIT]
 # Shipped on an earlier day. Kept so preflight's LOSS check can still see every
 # topic that was in the last commit: a topic that leaves DAY has not been lost,
 # it has been published.
-ARCHIVE = [PAYMENTS_ON_ACCOUNT, MTD_INCOME_TAX, VAT_THRESHOLD, MARRIAGE_ALLOWANCE]
+ARCHIVE = [PAYMENTS_ON_ACCOUNT, MTD_INCOME_TAX, VAT_THRESHOLD, MARRIAGE_ALLOWANCE,
+           CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE]
 
 BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}

@@ -141,7 +141,7 @@ UK-wide, and registering is the business's own duty on a deadline — HMRC does 
 Heading for the threshold?""",
  bsky="""UK VAT threshold: £90,000 of taxable turnover over a rolling 12 months, recalculated every month end. Two tests — backward and forward look.""",
  pin_title="UK VAT threshold £90,000: the two tests explained",
- pin="""The UK VAT registration threshold is £90,000, measured over a rolling 12 months recalculated at every month end — not the tax year or the calendar year. Backward look: once the last 12 months pass £90,000, register within 30 days of that month's end, effective from the first day of the second month after. Forward look: if you expect to pass £90,000 within the next 30 days, register before that period ends, effective from the day you realised. Deregistration threshold £88,000, judged on expected turnover for the next 12 months. Turnover, not profit. Ola Accountancy, Luton and Birmingham.""",
+ pin="""The UK VAT registration threshold is £90,000 of taxable turnover over a rolling 12 months, recalculated at every month end — not the tax year or the calendar year. Backward look: once the last 12 months pass £90,000, register within 30 days of that month's end, effective from the first day of the second month after. Forward look: if you expect to pass £90,000 in the next 30 days, register before that period ends, effective from the day you realised. Deregistration threshold £88,000, on expected turnover for the next 12 months. Turnover, not profit.""",
  source="gov.uk/register-for-vat, gov.uk/how-vat-works/vat-thresholds, VAT Notice 700/1 and VAT Notice 700/11",
 )
 
@@ -224,7 +224,7 @@ If it never arrived: most people are paid automatically. If you have never had i
 Unsure whether you will have to pay it back?""",
  bsky="""Winter Fuel Payment 2026/27: England, Wales and NI only — Scotland has its own. Own income over £35,000? HMRC takes it back, judged per person.""",
  pin_title="Winter Fuel Payment 2026/27: who keeps it, who repays it",
- pin="""Winter Fuel Payment for winter 2026/27: £200 for those born on or before 27 June 1960 and £300 if born before 28 September 1946, for someone living alone, based on the qualifying week of 21 to 27 September 2026. It covers England, Wales and Northern Ireland only — Scotland has its own Pension Age Winter Heating Payment. If your own income passes £35,000, HMRC recovers the whole payment through your tax code or Self Assessment, assessed per person rather than per household. Most are paid automatically; anyone who has never had it must claim by 31 March 2027. Ola Accountancy, Luton and Birmingham.""",
+ pin="""Winter Fuel Payment for winter 2026/27: £200 for those born on or before 27 June 1960 and £300 if born before 28 September 1946, for someone living alone, based on the qualifying week of 21 to 27 September 2026. England, Wales and Northern Ireland only — Scotland has its own Pension Age Winter Heating Payment. If your own income passes £35,000, HMRC recovers the whole payment through your tax code or Self Assessment, assessed per person not per household. Most are paid automatically; anyone who has never had it must claim by 31 March 2027.""",
  source="gov.uk/winter-fuel-payment and gov.uk/guidance/paying-back-the-winter-fuel-payment",
 )
 
@@ -247,11 +247,11 @@ Din ce NU se oprește nimic: din TVA, din materialele pe care le-ai plătit tu, 
 
 Cine nu intră deloc: angajații. Un contract de muncă e exclus din CIS, deci din salariu nu se oprește nimic pe CIS.
 
-Atenție la o confuzie des întâlnită: serviciile de pe șantier — paznicii angajați ca pază, bucătăria, cabinetul medical — sunt în afara CIS, dar nu sunt singurele munci din afara schemei. Lista HMRC e mai lungă de atât. Iar construirea acelor facilități, montarea rulourilor de siguranță sau săpatul pentru stâlpii de camere SUNT în CIS.
+Atenție la o confuzie des întâlnită: serviciile de pe șantier — paznicii angajați ca pază, bucătăria, cabinetul medical — sunt în afara CIS, dar nu sunt singurele. Lista HMRC e mai lungă. Iar construirea acelor facilități, montarea rulourilor de siguranță sau săpatul pentru stâlpii de camere SUNT în CIS.
 
 Firma trebuie să îți dea o chitanță de plată și deducere în 14 zile de la sfârșitul lunii fiscale. Păstreaz-o: e dovada ta.
 
-Se aplică în tot Regatul Unit. Înregistrarea e gratuită și e pasul tău — nimeni nu o face în locul tău.
+Se aplică în tot Regatul Unit. Înregistrarea e gratuită și e pasul tău.
 
 Nu știi dacă ești înregistrat sau cât ți s-a oprit?""",
  th="""Ți se opresc 30% din plată în construcții? De obicei înseamnă că nu ești înregistrat la CIS — sau că firma nu te-a putut verifica la HMRC. Ca să fie 20%, îți trebuie amândouă: înregistrat și verificat.
@@ -283,7 +283,7 @@ UK-wide. Registration is free and is the subcontractor's own step — nobody doe
 Want your CIS deductions checked against your return?""",
  bsky="""CIS: 20% off your pay needs both: registered, and the contractor can find you at HMRC. Miss either and it is 30%. Employees are outside it.""",
  pin_title="UK CIS: 20% or 30% off a subcontractor's pay",
- pin="""Why a UK construction subcontractor has 20% or 30% taken off their pay under the Construction Industry Scheme: 20% only if the subcontractor is registered for CIS and the contractor can find them at HMRC. Miss either and it is 30%. Gross payment status, 0%. The deduction is an advance payment against Income Tax and National Insurance. Nothing comes off VAT, materials they paid for, plant hire or fuel other than travel fuel. Employees are outside CIS entirely, as is running a site canteen, guarding a site or installing alarms and CCTV — but building site huts and hoardings, fitting security shutters and digging in CCTV posts are inside it. UK-wide; registration is free. Ola Accountancy, Luton and Birmingham.""",
+ pin="""Why a UK construction subcontractor has 20% or 30% taken off their pay under the Construction Industry Scheme: 20% only if the subcontractor is registered for CIS and the contractor can find them at HMRC. Miss either and it is 30%. Gross payment status, 0%. Nothing comes off VAT, materials they paid for, plant hire or fuel other than travel fuel. Employees are outside CIS entirely, as is running a site canteen, guarding a site or installing alarms and CCTV — but site huts and hoardings, security shutters and CCTV posts are inside it. UK-wide.""",
  gbp="""Working in construction and wondering why 30% comes off your pay instead of 20%?
 
 Under the Construction Industry Scheme the 20% rate needs two things to be true, not one: you are registered for CIS, and the contractor can check you against HMRC's records before they pay you. If either one is missing, 30% comes off instead — so registering does not on its own settle it, and a subcontractor who is registered but cannot be checked still has 30% taken. A subcontractor with gross payment status has nothing deducted at all.
@@ -293,7 +293,7 @@ The gap between 20% and 30% is 10 percentage points — an extra £10 off every 
 The money is not lost either way: it is an advance payment against your Income Tax and National Insurance. Nothing is deducted from VAT, from materials you paid for, or from plant hire. Employees are outside the scheme completely.
 
 Ola Accountancy works with construction subcontractors in Luton and Birmingham. Send us your payment and deduction statements and we will check what has been taken and how it comes off your tax.""",
- source="gov.uk/what-you-must-do-as-a-cis-subcontractor · CIS340 Appendix C",
+ source="gov.uk/what-you-must-do-as-a-cis-subcontractor",
 )
 
 # ------------------------------------------------------------------ 7
@@ -347,7 +347,7 @@ What it covers and what it does not: coding out applies to the 2025/26 balancing
 Worth checking before 30 December?""",
  bsky="""Owe under £3,000 and on PAYE? File by 30 December and HMRC collects it through your tax code automatically — or opt out on the return.""",
  pin_title="Pay a UK tax bill through your tax code: the 30 December deadline",
- pin="""How a UK Self Assessment bill is collected through your PAYE tax code instead of in one payment on 31 January. Three conditions must all apply: you owe less than £3,000, you already pay tax through PAYE on a wage or a pension, and you file your return online by 30 December. HMRC does it automatically where all three are met, unless you opt out on the return. The paper deadline of 31 October has already passed. You cannot use it if you owe £3,000 or more, and you cannot part-pay to get below that figure; nor if there is not enough PAYE income to collect from, or if it would mean more than half your PAYE income going in tax, or more than twice your usual tax. UK-wide. Ola Accountancy, Luton and Birmingham.""",
+ pin="""How a UK Self Assessment bill is collected through your PAYE tax code instead of in one payment on 31 January. Three conditions must all apply: you owe less than £3,000, you already pay tax through PAYE on a wage or a pension, and you file online by 30 December. HMRC does it automatically where all three are met, unless you opt out on the return. You cannot use it if you owe £3,000 or more, if there is not enough PAYE income to collect from, or if it would mean more than half your PAYE income going in tax, or more than twice your usual tax. UK-wide.""",
  source="gov.uk/pay-self-assessment-tax-bill/through-your-tax-code",
 )
 
@@ -405,7 +405,7 @@ UK-wide, automatic, nothing to claim.
 Past £1,000 this year and unsure what to do about it?""",
  bsky="""First £1,000 of trading income a year is tax free. It counts what came in, not what you kept — and never money from your own employer.""",
  pin_title="The UK £1,000 trading allowance: who can and cannot use it",
- pin="""The UK trading allowance exempts the first £1,000 of trading or miscellaneous income in a tax year, with nothing to report to HMRC below that. £1,000 is the 2026/27 figure and rises to £3,000 from 6 April 2027. It is measured on gross income, not profit: £1,400 of sales against £600 of costs is £1,400 for the test. Wages do not count towards it. Above the threshold you must register for Self Assessment by 5 October in the following tax year, then choose either the allowance or your actual expenses, not both. It cannot be used at all on income from your own employer, your spouse's or civil partner's employer, or a company or partnership you or a connected person controls. Ola Accountancy, Luton and Birmingham.""",
+ pin="""The UK trading allowance exempts the first £1,000 of trading or miscellaneous income in a tax year. £1,000 is the 2026/27 figure and it rises to £3,000 from 6 April 2027. It is measured on gross income, not profit. Above the threshold you must register for Self Assessment by 5 October in the following tax year, then choose either the allowance or your actual expenses, not both. It cannot be used at all on income from your own employer, your spouse's or civil partner's employer, or a company or partnership you or a connected person controls.""",
  source="gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
 )
 
@@ -478,7 +478,7 @@ It is the employer's duty, not a worker's claim.
 Want a payroll checked against the April rates?""",
  bsky="""UK minimum wage: £12.71 an hour at 21 and over, £13.21 from April 2027. Self-employed people are not covered at all.""",
  pin_title="UK minimum wage 2026 and 2027: rates by age",
- pin="""UK National Minimum Wage and National Living Wage rates by age. From April 2026: £12.71 an hour for 21 and over, £10.85 for 18 to 20, £8.00 under 18 and £8.00 for apprentices. From 1 April 2027: £13.21, £11.27, £8.31 and £8.31. The apprentice rate applies only to apprentices under 19, or 19 and over in their first year — after that they move to the rate for their age. Not entitled at all: self-employed people running their own business, volunteers, armed forces, family members living in the employer's home, and under-school-leaving-age workers. Company directors are not entitled either, unless they also hold an employment contract with the company. Same rates across the UK, except agriculture, where Wales, Scotland and Northern Ireland set their own and can go higher. Ola Accountancy, Luton and Birmingham.""",
+ pin="""UK National Minimum Wage and National Living Wage rates by age. From April 2026: £12.71 an hour for 21 and over, £10.85 for 18 to 20, £8.00 under 18 and £8.00 for apprentices. From 1 April 2027: £13.21, £11.27, £8.31 and £8.31. The apprentice rate applies only to apprentices under 19, or 19 and over in their first year. Not entitled at all: self-employed people running their own business, volunteers, armed forces, family members living in the employer's home, and under-school-leaving-age workers. Same rates across the UK, except agriculture.""",
  source="gov.uk/national-minimum-wage-rates · gov.uk/national-minimum-wage/who-gets-the-minimum-wage",
 )
 
@@ -527,8 +527,295 @@ UK-wide.
 Want the charge worked out before January?""",
  bsky="""Child Benefit 2026/27: £27.05 a week for the first child, £17.90 for each other. Over £60,000 part of it goes back; over £80,000, all of it.""",
  pin_title="Child Benefit 2026/27 rates and the £60,000 charge",
- pin="""UK Child Benefit for the 2026 to 2027 tax year: £27.05 a week for the eldest or only child and £17.90 a week for each additional child, usually paid every four weeks. The child must be under 16, or under 20 in approved education or training, and only one person can claim per child. It is never automatic — it has to be claimed, and claiming for a child under 12 also gives National Insurance credits towards the State Pension. Where the claimant or their partner has income over £60,000 the High Income Child Benefit Charge takes back 1% for every £200 above it, and all of it over £80,000, judged on one person's income rather than the household's. Ola Accountancy, Luton and Birmingham.""",
+ pin="""UK Child Benefit for 2026/27: £27.05 a week for the eldest or only child and £17.90 a week for each additional child, usually paid every four weeks. The child must be under 16, or under 20 in approved education or training, and only one person can claim per child. It is never automatic — it has to be claimed, and claiming for a child under 12 also gives National Insurance credits towards the State Pension. Over £60,000 the High Income Child Benefit Charge takes back 1% for every £200 above it, and all of it over £80,000, on one person's income not the household's.""",
  source="gov.uk/child-benefit-rates and gov.uk/child-benefit-tax-charge",
+)
+
+# ----------------------------------------------------------------- 11
+C["kilometraj-55p"] = dict(
+ ro="""Dacă lucrezi pe cont propriu și îți folosești mașina pentru muncă, suma pe care o poți scădea a crescut.
+
+Din 6 aprilie 2026:
+• 55p pentru fiecare milă, primele 10.000 de mile într-un an fiscal
+• 25p pentru fiecare milă peste 10.000
+• 24p pe motocicletă, de la prima milă
+
+Până pe 5 aprilie 2026 primele 10.000 de mile se socoteau la 45p. Pe 10.000 de mile asta înseamnă £5.500 scăzuți din profit în loc de £4.500.
+
+Cum funcționează: nu strângi bonuri de benzină, nu ții socoteala reparațiilor, nu împarți costurile între muncă și personal. Numeri milele făcute pentru muncă și înmulțești.
+
+Dar nu orice milă se numără. GOV.UK trece „travel between home and work" direct pe lista cheltuielilor care NU se pot deduce, alături de deplasările personale și de amenzi. Drumul zilnic de acasă la locul de muncă nu intră, chiar dacă îl faci cu mașina ta și pentru munca ta.
+
+Exemplu: 8.000 de mile pentru muncă într-un an → 8.000 × 55p = £4.400 scăzuți din profit. La 14.000 de mile: primele 10.000 la 55p (£5.500) plus 4.000 la 25p (£1.000) = £6.500.
+
+Cine NU poate folosi suma pe milă deloc: mașinile construite pentru uz comercial. GOV.UK scrie „except those designed for commercial use" și dă ca exemple taxiurile negre, hackney carriages și mașinile de școală cu dublă comandă. Dacă conduci taxi sau ești instructor auto, suma pe milă nu ți se aplică.
+
+Și nici pentru o mașină din al cărei preț, sau din a cărei benzină și reparații, ai scăzut deja din profit. E una sau alta, niciodată amândouă.
+
+Și alegerea rămâne: dacă o dată ai folosit suma pe milă pentru o mașină, rămâi cu ea cât timp folosești mașina în afacere.
+
+Se aplică în tot Regatul Unit. Se trece în declarație — nu vine nimic automat.
+
+Nu știi cum se numără milele?""",
+ th="""Lucrezi pe cont propriu și folosești mașina pentru muncă? Din 6 aprilie 2026 scazi 55p pe milă pentru primele 10.000 de mile, apoi 25p. Era 45p.
+
+Dar drumul de acasă la muncă nu se numără. Și taxiurile nu intră deloc în suma pe milă.""",
+ li="""The self-employed mileage rate went up, and it is worth more than it looks.
+
+Simplified expenses, 2026/27:
+• 55p a mile for the first 10,000 business miles in a tax year
+• 25p a mile after that
+• 24p for motorcycles, from the first mile
+
+The first-10,000 rate rose from 45p to 55p on 6 April 2026. On 10,000 business miles that is £5,500 off profit instead of £4,500.
+
+What the flat rate buys you is simplicity: no fuel receipts, no running-cost records, no apportioning between business and private use. Count the business miles, multiply.
+
+But not every mile is a business mile. GOV.UK lists, verbatim, among the costs you cannot claim: "non-business driving or travel costs", "fines or penalty charges" and "travel between home and work". The daily run from home to the same site is not claimable, however much it feels like work.
+
+Worked: 8,000 business miles in the year is 8,000 × 55p = £4,400. At 14,000 miles it is the first 10,000 at 55p (£5,500) plus 4,000 at 25p (£1,000) = £6,500.
+
+Who cannot use it at all: cars designed for commercial use. GOV.UK says "except those designed for commercial use" and names black cabs, hackney carriages and dual-control driving instructors' cars. A taxi or private-hire driver is outside simplified expenses entirely.
+
+Nor can anyone who has already claimed capital allowances on that vehicle, or already put its running costs through business profits. One method or the other, never both.
+
+And the election sticks. Once the flat rate is used for a vehicle, it has to be kept for that vehicle for as long as it is used in the business — so a switch to actual costs in a better year is not available.
+
+UK-wide, claimed on the return rather than paid out.
+
+Want the vehicle position checked before January?""",
+ bsky="""Self-employed? Business miles are 55p each for the first 10,000 in a tax year, then 25p. Home to work does not count.""",
+ pin_title="UK self-employed mileage: 55p a mile from April 2026",
+ pin="""HMRC simplified expenses mileage rates for 2026/27: 55p a mile for the first 10,000 business miles in a tax year, then 25p a mile, and 24p for motorcycles from the first mile. The first-10,000 rate rose from 45p on 6 April 2026. Travel between home and work does not count. Cars designed for commercial use — black cabs, dual-control instructors' cars — are outside simplified expenses altogether, as is any vehicle you have already claimed capital allowances on. UK-wide, claimed on the tax return.""",
+ gbp="""Work miles in your own car are 55p each now, not 45p.
+
+If you are self-employed and use simplified expenses, you can take 55p a mile off your profit for the first 10,000 business miles in a tax year, then 25p a mile after that. Motorcycles are 24p from the first mile. The first-10,000 rate rose from 45p to 55p on 6 April 2026.
+
+On 10,000 business miles that is £5,500 off profit instead of £4,500 — and no fuel receipts to keep.
+
+Travel between home and work does not count — only travel for the work itself.
+
+Who cannot use it at all: cars designed for commercial use, which GOV.UK illustrates with black cabs, hackney carriages and dual-control driving instructors' cars. Nor any vehicle you have already claimed capital allowances on, or whose running costs are already in the accounts. One method or the other.
+
+It applies across the UK, and it is claimed on the tax return — nothing arrives automatically.
+
+Self-employed and driving for work around Luton or Birmingham? Call or message 0330 133 1886 and we will check what you can claim on the vehicle.
+
+Ola Accountancy — Luton and Birmingham.
+
+Source: gov.uk/simpler-income-tax-simplified-expenses/vehicles""",
+ source="gov.uk/simpler-income-tax-simplified-expenses/vehicles and gov.uk/expenses-if-youre-self-employed/travel",
+)
+
+# ----------------------------------------------------------------- 12
+C["termene-firma-ltd"] = dict(
+ ro="""O firmă nu depune o dată pe an. Are patru termene, în două locuri diferite — și plata vine înaintea declarației.
+
+Trei pornesc de la data la care se încheie anul contabil al firmei:
+• Bilanțul la Companies House — în 9 luni
+• Plata Corporation Tax la HMRC — în 9 luni și o zi
+• Declarația firmei la HMRC — în 12 luni
+
+Pe un an care se încheie pe 31 decembrie 2026: bilanț până pe 30 septembrie 2027, plată până pe 1 octombrie 2027, declarație până pe 31 decembrie 2027.
+
+Da, plătești înainte să depui declarația — suma trebuie calculată cu trei luni înainte de termenul de depunere.
+
+Al patrulea termen e pe alt ciclu și e cel mai periculos: confirmation statement la Companies House, o dată la 12 luni, în 14 zile de la încheierea perioadei. Se depune și dacă nu s-a schimbat nimic — £50 online. Dacă nu, poți lua o amendă de până la £5.000 și firma poate fi radiată. Un bilanț întârziat costă bani; o declarație de confirmare ratată îți poate șterge firma.
+
+Primul an e altfel: la o firmă nou înregistrată, primul bilanț se depune în 21 de luni de la înregistrare, nu în 9.
+
+Cine NU are aceste termene: dacă lucrezi pe cont propriu, fără firmă, nu ai niciunul dintre ele. Nu plătești Corporation Tax și nu depui nimic la Companies House — ai Self Assessment, cu declarația și plata pe 31 ianuarie — plus raportări trimestriale, dacă ai avut peste £50.000 venit brut din activitate independentă sau chirii în declarația 2024/25 și ai intrat în Making Tax Digital din 6 aprilie 2026. Nici firmele cu profit impozabil peste £1,5 milioane nu au data de 9 luni și o zi: ele plătesc în tranșe.
+
+Dar nicio firmă nu scapă de declarație: se depune și pe pierdere, și când nu ai nimic de plătit — iar atunci tot trebuie să anunți HMRC.
+
+Se aplică în tot Regatul Unit. Niciun termen nu se cere și niciunul nu se amintește singur.
+
+Nu știi ce termen urmează?""",
+ th="""O firmă are patru termene, nu unul. De la anul contabil: bilanțul la Companies House în 9 luni, plata Corporation Tax în 9 luni și o zi, declarația la HMRC în 12 luni. Plus confirmation statement, la fiecare 12 luni.
+
+Dacă lucrezi pe cont propriu, fără firmă, nu ai niciunul — ai Self Assessment, cu 31 ianuarie.""",
+ li="""A limited company does not have one filing date a year. It has four, in two different places, and the payment falls due before the return.
+
+Three of them run from the company's own year end:
+• Accounts to Companies House — 9 months
+• Corporation Tax paid to HMRC — 9 months and 1 day
+• Company Tax Return to HMRC — 12 months
+
+Year ending 31 December 2026:
+• 30 September 2027 — accounts at Companies House
+• 1 October 2027 — Corporation Tax paid
+• 31 December 2027 — return filed
+
+So the tax is paid three months before the return that reports it is due. That ordering is the thing that catches new directors: the figure has to be worked out long before the filing deadline forces it.
+
+The fourth deadline runs on its own cycle and it is the dangerous one: a confirmation statement at Companies House, at least once every 12 months. The review period ends 12 months after incorporation or after the last confirmation statement date, and you have 14 days after that to file. GOV.UK is explicit that "You must file a confirmation statement even if there have not been any changes to your company during the review period" — £50 online. Miss it and Companies House may issue a financial penalty, you can be fined up to £5,000, and the company "may be struck off the Companies House register". Late accounts cost money; a missed confirmation statement can cost you the company.
+
+The first year is different. A newly registered company's first accounts are due 21 months after the date of registration, not 9 months after a year end.
+
+Who does not have any of this: a sole trader. No Corporation Tax, nothing at Companies House, Self Assessment with the return and payment due 31 January instead — though "one date a year" stopped being true for them on 6 April 2026, when sole traders and landlords with over £50,000 of qualifying income on the 2024-25 return came inside Making Tax Digital for Income Tax and started filing quarterly updates as well. Companies with taxable profits above £1.5 million do not use the 9-months-and-1-day date either — they pay in instalments.
+
+But no company is excused the return. It is filed after a loss and when no Corporation Tax is owed, and HMRC still has to be told when nothing is due.
+
+UK-wide. Nothing here is claimed and nothing is prompted.
+
+Want your company's three dates set out?""",
+ bsky="""A UK company has four deadlines: accounts at 9 months, tax at 9 months and 1 day, return at 12 months, confirmation statement every 12.""",
+ pin_title="A UK limited company's four filing deadlines",
+ pin="""The four deadlines every UK limited company has. Three run from its own year end: annual accounts to Companies House within 9 months, Corporation Tax paid 9 months and 1 day after the accounting period ends, and the Company Tax Return filed within 12 months. The fourth runs on its own cycle: a confirmation statement every 12 months, filed within 14 days of the review period ending, even if nothing has changed — miss it and the company can be struck off. A return is filed even after a loss.""",
+ source="gov.uk/prepare-file-annual-accounts-for-limited-company",
+)
+
+# ----------------------------------------------------------------- 13
+C["employment-allowance-10500"] = dict(
+ ro="""Dacă ai angajați, firma plătește National Insurance pentru ei — pe lângă cât se oprește din salariul lor. Employment Allowance taie până la £10.500 din partea firmei într-un an fiscal.
+
+Nu vine singură. Se cere din programul de salarii, pentru un singur stat de plată — și se cere DIN NOU la fiecare an fiscal nou. Nu se reportează. Un angajator care a cerut-o anul trecut și a presupus că se reînnoiește singură pierde până la £10.500.
+
+Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani după sfârșitul anului fiscal la care se aplică — pentru 2022/23, până pe 5 aprilie 2027.
+
+Din aprilie 2025 pot cere și angajatorii care plătesc peste £100.000 pe an la National Insurance de angajator. Înainte nu puteau — bariera a fost ridicată.
+
+Cine NU poate cere — și aici e capcana pentru firmele mici:
+• Firma cu un singur director, dacă directorul e singurul angajat pentru care firma plătește National Insurance. Asta scoate din schemă o mare parte din firmele cu un om.
+• Angajatorii care fac jumătate sau mai mult din munca lor pentru sectorul public.
+• Pentru un angajat care intră sub regulile off-payroll (IR35).
+• Pentru cineva angajat pentru treburi casnice — o bonă, un grădinar — dacă persoana nu e îngrijitor.
+• Într-un grup de firme legate între ele, cere o singură firmă.
+• Dacă ai mai multe state de plată, ceri pe unul singur.
+
+Pot cere: afacerile și organizațiile de interes public care fac mai puțin de jumătate din muncă pentru sectorul public, organizațiile de caritate, cluburile sportive de amatori și cei care angajează un îngrijitor.
+
+Se aplică în tot Regatul Unit. Se cere pentru anul fiscal în curs.
+
+Nu știi dacă firma ta poate cere?""",
+ th="""Employment Allowance taie până la £10.500 din National Insurance-ul plătit de firmă într-un an. Se cere din programul de salarii — și din nou la fiecare an fiscal. Nu se reportează.
+
+Cine NU poate cere: firma cu un singur director, dacă el e singurul angajat pentru care firma plătește National Insurance.""",
+ li="""Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never applied automatically — it is claimed through payroll software, against one payroll only.
+
+And it is claimed again every single tax year. HMRC's employer guidance is explicit: "You must claim the Employment Allowance for each new tax year by submitting an Employer Payment Summary." A claim does not carry forward, so an employer who claimed last year and assumed it rolled over silently loses up to £10,500. If you never claimed at all, you can go back up to 4 years after the end of the tax year the allowance applies to — a 2022 to 2023 claim has to be made by 5 April 2027.
+
+Since April 2025, employers with more than £100,000 of employer Class 1 National Insurance liabilities can apply as well. That bar has gone.
+
+Who cannot claim, and the first one is the trap for small companies:
+• A company with a single director, where that director is the only employee liable for secondary Class 1 National Insurance. That removes a large share of one-person limited companies from the scheme entirely.
+• An employer doing half or more of its work in the public sector — a council or NHS services, for example.
+• For an employee whose earnings fall within the off-payroll working rules.
+• For someone employed for personal, household or domestic work — a nanny, a gardener — unless they are a care or support worker.
+• Within a group of connected companies, only one company may claim.
+• Running several payrolls, only one of them may carry the claim.
+
+Who can: businesses and public bodies doing less than half their work in the public sector, charities including community amateur sports clubs, and employers of a care or support worker.
+
+UK-wide, for the current tax year.
+
+Want your payroll checked against the conditions?""",
+ bsky="""Employment Allowance: up to £10,500 off employer National Insurance — and it must be claimed again every tax year. It does not carry forward.""",
+ pin_title="Employment Allowance: £10,500 and who cannot claim",
+ pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year, claimed through payroll software against one payroll. It is never automatic and does not carry forward — it must be claimed again every new tax year, and an unclaimed year can be backdated 4 years. Who cannot claim: a company with a single director who is its only employee liable for secondary Class 1; an employer doing half or more of its work in the public sector; household workers such as a nanny or gardener, unless they are a care or support worker.""",
+ source="gov.uk/claim-employment-allowance/eligibility and the HMRC further employer guidance",
+)
+
+# ----------------------------------------------------------------- 14
+C["cold-weather-25"] = dict(
+ ro="""Cold Weather Payment e £25 pentru fiecare perioadă de 7 zile la rând în care temperatura medie din zona ta e zero grade sau mai jos — măsurată sau prognozată. Nu depui nicio cerere: vine automat, în contul în care primești ajutorul, în 14 zile lucrătoare de la perioada de ger.
+
+Se numără gerul dintre 1 noiembrie 2026 și 31 martie 2027, după codul poștal.
+
+Cine îl poate primi — unul dintre aceste ajutoare:
+• Pension Credit
+• Employment and Support Allowance legat de venit, dacă ești în grupul de activitate sau în grupul de sprijin — sau dacă ai un supliment de dizabilitate severă sau sporită, un supliment de pensionar, un copil cu dizabilitate, ori un copil sub 5 ani care locuiește cu tine
+• Universal Credit, în condițiile de mai jos
+• Support for Mortgage Interest, dacă ești tratat ca primind un ajutor care califică
+
+Pe Universal Credit, condițiile sunt două și trebuie îndeplinite amândouă: nici tu, nici partenerul tău să nu fiți angajați sau să aveți o afacere activă („gainfully self-employed"), ȘI să ai fie o problemă de sănătate cu capacitate limitată de muncă, fie un copil sub 5 ani în casă.
+
+Cine NU primește:
+• Cine locuiește în Scoția. Acolo nu există Cold Weather Payment. Vine Winter Heating Payment, o dată pe iarnă, indiferent de vreme.
+• Cine nu primește niciunul dintre cele patru ajutoare — oricât de frig e și oricât de mic e venitul. Plata e legată de ajutor, nu de vreme.
+• Pe Universal Credit, cine muncește sau are o afacere activă — și, la fel de important, cine nu muncește dar nu are nici o problemă de sănătate cu capacitate limitată de muncă, nici un copil sub 5 ani în casă. Să nu muncești nu e de ajuns singur. O excepție: dacă în dosar ai suma pentru un copil cu dizabilitate, primești oricum.
+
+Se aplică în Anglia, Țara Galilor și Irlanda de Nord.
+
+Ai întrebări despre ajutoarele de iarnă?""",
+ th="""Cold Weather Payment: £25 pentru fiecare 7 zile la rând cu media la zero grade sau mai jos. Vine automat, 1 noiembrie 2026 – 31 martie 2027.
+
+Pe Universal Credit nu primești dacă munciți. Și nici dacă nu munciți nu e de ajuns: mai trebuie o boală care îți limitează munca sau un copil sub 5 ani.""",
+ li="""Cold Weather Payment is £25 for each period of 7 consecutive days where the average temperature in your postcode area is recorded as, or forecast to be, zero degrees celsius or below. Nothing is applied for: it arrives automatically, into the account the benefit is paid into, within 14 working days of the cold period.
+
+It covers cold spells between 1 November 2026 and 31 March 2027, and it works off postcode rather than town or county.
+
+The qualifying benefits:
+• Pension Credit
+• Income-related Employment and Support Allowance, in a work-related activity or support group — or with a severe or enhanced disability premium, a pensioner premium, a disabled child, or a child under 5 living with you
+• Universal Credit, on the conditions below
+• Support for Mortgage Interest, where you are treated as receiving a qualifying benefit
+
+On Universal Credit there are two conditions and both must hold: neither you nor your partner is employed or "gainfully self-employed", AND you have either a health condition with limited capability for work or a child under 5 living with you.
+
+Who does not get it:
+• Anyone living in Scotland. GOV.UK is explicit: you cannot get Cold Weather Payments there. The Winter Heating Payment is paid instead, annually and regardless of the weather.
+• Anyone receiving none of the four benefits, however cold it gets and however low the income. The payment is tied to the benefit, not to the temperature alone.
+• On Universal Credit, a claimant or partner who is employed or gainfully self-employed. And — the half that gets missed — a claimant who is not working but has neither limited capability for work nor a child under 5 living with them. Not working is not enough on its own. One exception: a claim that includes a disabled child amount qualifies whatever the employment position.
+
+England, Wales and Northern Ireland.
+
+Worth checking for someone in your household?""",
+ bsky="""Cold Weather Payment: £25 per 7 days at zero or below, automatic, 1 Nov to 31 Mar. Not in Scotland — Winter Heating Payment there.""",
+ pin_title="Cold Weather Payment: £25 a week and who misses out",
+ pin="""Cold Weather Payment pays £25 for each period of 7 consecutive days where the average temperature in your postcode area is recorded as, or forecast to be, zero degrees celsius or below, between 1 November 2026 and 31 March 2027. Automatic, within 14 working days. Qualifying benefits: Pension Credit, income-related ESA, Universal Credit and Support for Mortgage Interest. On Universal Credit working disqualifies you — and not working is not enough alone, as you also need limited capability for work or a child under 5. England, Wales and Northern Ireland only.""",
+ source="gov.uk/cold-weather-payment and gov.uk/cold-weather-payment/eligibility",
+)
+
+# ----------------------------------------------------------------- 15
+C["retur-30-zile"] = dict(
+ ro="""Dacă un produs cumpărat de la un magazin sau o firmă e defect, nu e cum l-a descris vânzătorul sau nu face ce ar trebui, în primele 30 de zile poți cere banii înapoi. Nu o reparație, nu un voucher — banii. E în Consumer Rights Act 2015, legea, nu politica magazinului.
+
+Cum se numără cele 30 de zile: încep a doua zi după ce produsul e al tău și ți-a fost livrat. Dacă trebuia montat sau instalat, de a doua zi după ce vânzătorul îți spune că s-a terminat.
+
+Partea pe care puțini o știu: dacă în acest timp ceri o reparație sau o înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas. Nu pierzi zilele petrecute în așteptare.
+
+Banii trebuie dați fără întârziere nejustificată și în cel mult 14 zile de când vânzătorul e de acord că ți se cuvin.
+
+Cine NU are cele 30 de zile:
+• Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă. Legea asta se aplică doar între un comerciant și un consumator. E cazul care prinde cel mai des oamenii, iar nu e vorba de un magazin care refuză — e o altă relație juridică.
+• Dacă ai cumpărat pentru afacerea ta, nu pentru tine. Atunci nu ești „consumator" în sensul legii.
+• Dacă vânzătorul ți-a spus clar de defect înainte să cumperi, sau dacă defectul se vedea la verificarea pe care ai făcut-o tu.
+• La produsele care se strică mai repede — alimente, flori — termenul e mai scurt decât 30 de zile.
+
+După cele 30 de zile nu rămâi fără nimic: ai dreptul la reparație sau înlocuire, iar dacă nici asta nu merge, la o reducere de preț sau la returnarea produsului.
+
+Se aplică în tot Regatul Unit: Anglia, Țara Galilor, Scoția și Irlanda de Nord.
+
+Vrei să știi ce drepturi ai?""",
+ th="""Produs defect cumpărat de la un magazin sau o firmă? În primele 30 de zile poți cere banii înapoi, nu doar o reparație. Banii vin în cel mult 14 zile de când vânzătorul e de acord.
+
+Dacă ai cumpărat de la o persoană fizică, nu de la o firmă, legea asta nu se aplică.""",
+ li="""The short-term right to reject is 30 days, and most people spend it without knowing they had it.
+
+If goods bought from a trader are faulty, not as described, or not fit for a purpose you made known, the Consumer Rights Act 2015 gives you 30 days to reject them and take a refund — not a repair, not a credit note.
+
+How the 30 days are counted: they begin the day after ownership or possession has passed to you and the goods have been delivered. Where the contract required installation, they begin the day after the trader tells you it is done.
+
+The part almost nobody knows: if you ask for or agree to a repair or a replacement inside that window, the clock stops for the waiting period and resumes where it left off. Time spent waiting is not time lost.
+
+A refund must be given without undue delay and in any event within 14 days of the trader agreeing you are entitled to one.
+
+Who does not have the 30 days:
+• Anyone who bought from a private individual rather than a trader. Part 1 applies to a contract between a trader and a consumer, so a private sale sits outside it entirely.
+• Anyone buying for purposes wholly or mainly inside their own business — not a consumer for these purposes.
+• Where the fault was specifically drawn to the buyer's attention before the contract, or where an examination the buyer actually made ought to have revealed it.
+• Goods that can reasonably be expected to perish sooner, which carry a shorter window.
+
+After the 30 days the remedies change rather than disappear: repair or replacement first, then a price reduction or the final right to reject if that fails.
+
+Section 99 extends the Act to England and Wales, Scotland and Northern Ireland.
+
+Worth knowing before the next January sale return.""",
+ bsky="""Faulty goods from a trader: 30 days to reject and get a refund, not just a repair. Private sales are outside the Act.""",
+ pin_title="30 days to reject faulty goods in the UK",
+ pin="""The Consumer Rights Act 2015 gives a 30-day right to reject goods bought from a trader that are faulty, not as described or not fit for purpose — a refund, not just a repair. The 30 days begin the day after ownership has passed and the goods have been delivered, and the clock stops while a requested repair or replacement is carried out. A refund is due within 14 days of the trader agreeing to it. Buying from a private individual falls outside the Act, as does buying for your own business. Perishable goods have a shorter window. UK-wide.""",
+ source="legislation.gov.uk/ukpga/2015/15/section/22 and legislation.gov.uk/ukpga/2015/15/part/1/chapter/2",
 )
 
 # Threads caps a post at 500 characters through the API. Over that, Metricool
@@ -587,6 +874,23 @@ def assert_lengths():
                 bad.append(f"threads {slug}: {len(th)} chars (cap 500)")
         if "gbp" in C[slug] and len(gbp_caption(slug)) > 1500:
             bad.append(f"gmb {slug}: {len(gbp_caption(slug))} chars (cap 1500)")
+        # 6 Nov 2026: four Pinterest descriptions (921, 929, 941 and 1046) were
+        # rejected with "Code: 400 - Invalid request" and the first 75 characters
+        # quoted back, which reads like a complaint about the words. It was the
+        # count. limits.py held the 800 figure the whole time and this function
+        # never asked it, so the check could not have failed — which is the one
+        # thing a check has to be able to do.
+        ro = ro_caption(slug)
+        for net in ("instagram", "tiktok"):
+            if len(ro) > 1 and len(ro) > {"instagram": 2200, "tiktok": 2200}[net]:
+                bad.append(f"{net} {slug}: {len(ro)} chars (cap 2200)")
+        if len(li_caption(slug)) > 3000:
+            bad.append(f"linkedin {slug}: {len(li_caption(slug))} chars (cap 3000)")
+        pin = pin_caption(slug)
+        if len(pin) > 800:
+            bad.append(f"pinterest {slug}: {len(pin)} chars (cap 800)")
+        if len(C[slug]["pin_title"]) > 100:
+            bad.append(f"pinterest title {slug}: {len(C[slug]['pin_title'])} chars (cap 100)")
     return bad
 
 
