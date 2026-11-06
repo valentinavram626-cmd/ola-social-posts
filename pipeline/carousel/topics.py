@@ -826,8 +826,8 @@ MILEAGE_55P = dict(
   RO=[
     dict(type="hook",
          kicker="Cheltuieli · Mașina pentru muncă",
-         h1="Pentru fiecare milă de muncă scazi <em>55p</em> din profit.",
-         say="Dacă lucrezi pe cont propriu și îți folosești mașina pentru muncă, nu ești obligat să strângi bonurile de benzină. Poți scădea o sumă fixă pentru fiecare milă făcută pentru muncă."),
+         h1="O milă de muncă valorează până la <em>55p</em> din profit.",
+         say="Lucrezi pe cont propriu și folosești mașina pentru muncă? Nu strângi bonuri de benzină. Scazi o sumă fixă pe milă — mai mică după primele 10.000."),
     dict(type="step", step="Cât scazi, milă cu milă", fig="55p",
          say="<b>55p</b> pentru primele 10.000 de mile într-un an fiscal, apoi <b>25p</b> pentru fiecare milă peste. Pe motocicletă, <b>24p</b> de la prima milă.",
          note="Drumul de la casă la muncă nu se numără — doar deplasările făcute pentru muncă. Până pe 5 aprilie 2026 primele 10.000 de mile se socoteau la 45p."),
@@ -844,8 +844,8 @@ MILEAGE_55P = dict(
   EN=[
     dict(type="hook",
          kicker="Expenses · Using your car for work",
-         h1="Every business mile in your own car is <em>55p</em> off your profit.",
-         say="If you are self-employed and use your own car for work, you do not have to keep every fuel receipt. You can take a flat amount off your profit for each business mile instead."),
+         h1="A business mile in your own car is worth up to <em>55p</em>.",
+         say="If you are self-employed and use your own car for work, you do not have to keep every fuel receipt. You take a flat amount off your profit per mile — and the amount drops after the first 10,000."),
     dict(type="step", step="What you take off, mile by mile", fig="55p",
          say="<b>55p</b> a mile for your first 10,000 business miles in a tax year, then <b>25p</b> for every mile after that. On a motorcycle it is <b>24p</b> from the first mile.",
          note="Travel between home and work does not count — only travel for the work itself. The first 10,000 miles were 45p until 5 April 2026."),
@@ -862,7 +862,7 @@ MILEAGE_55P = dict(
   GBP=[
     dict(type="solo",
          kicker="Simplified expenses · gov.uk",
-         h1="Business miles are 55p each now, not 45p.",
+         h1="Business miles are worth up to 55p now, not 45p.",
          rows=[["55p", "a business mile, first 10,000 in a tax year"],
                ["25p", "a mile after that; motorcycles 24p"],
                ["Home to work", "not a business mile — it does not count"]],
@@ -915,12 +915,12 @@ LTD_DEADLINES = dict(
          note="Exemplu: anul se încheie pe 31 decembrie 2026 → bilanțul până pe 30 septembrie 2027, plata până pe 1 octombrie 2027, declarația până pe 31 decembrie 2027."),
     dict(type="step", step="Cine NU are aceste termene", fig="0",
          say="Dacă lucrezi pe cont propriu, fără firmă, nu ai niciunul dintre ele — ai Self Assessment, cu 31 ianuarie, plus raportări trimestriale dacă intri în Making Tax Digital.",
-         note="Dar nicio firmă nu scapă: declarația se depune și pe pierdere, și dacă firma n-a lucrat deloc. Iar al patrulea termen — confirmation statement, la fiecare 12 luni — ratat, firma poate fi radiată."),
+         note="Declarația se depune și pe pierdere. Iar bilanțul și confirmation statement se depun chiar și la o firmă dormantă — iar un confirmation statement ratat poate duce la radierea firmei."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Firmă Ltd · Termene",
     h1="Nu știi <em>ce termen urmează</em>?",
-    say="Trimite-ne data la care se încheie anul firmei tale și îți punem cele trei termene pe hârtie. Fără obligații.",
+    say="Trimite-ne data la care se încheie anul firmei tale și îți punem toate termenele pe hârtie. Fără obligații.",
     phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
 
   EN=[
@@ -933,12 +933,12 @@ LTD_DEADLINES = dict(
          note="Year ending 31 December 2026: accounts by 30 September 2027, payment by 1 October 2027, return by 31 December 2027."),
     dict(type="step", step="Who does NOT have these dates", fig="0",
          say="A sole trader has none of them — Self Assessment instead, due 31 January, plus quarterly updates if Making Tax Digital applies.",
-         note="No company is excused: you file after a loss and even if it never traded. And a missed confirmation statement, due every 12 months, can get the company struck off."),
+         note="You file a return even after a loss. And accounts and a confirmation statement are due even for a dormant company — miss the confirmation statement and it can be struck off."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Limited company · Deadlines",
     h1="Not sure <em>which date is next</em>?",
-    say="Send us your company's year end and we will set out all three deadlines. No obligation.",
+    say="Send us your company's year end and we will set out all four deadlines. No obligation.",
     phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
 
   SOURCES=[
@@ -959,13 +959,15 @@ LTD_DEADLINES = dict(
      "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement", "2026-11-06"),
     ("Making Tax Digital for Income Tax applies to sole traders and landlords with qualifying income over £50,000 on the 2024-25 return from 6 April 2026, over £30,000 from 6 April 2027 and over £20,000 from 6 April 2028, and requires quarterly updates every 3 months IN ADDITION to the one annual tax return — so a sole trader no longer necessarily has a single filing date",
      "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/introduction", "2026-11-06"),
+    ("A company dormant for Corporation Tax does not have to pay Corporation Tax or file another Company Tax Return once HMRC has been told it is dormant, \"unless you receive a further notice to deliver a Company Tax Return\" — but it must still file annual accounts and a confirmation statement with Companies House",
+     "https://www.gov.uk/dormant-company/dormant-for-corporation-tax", "2026-11-06"),
   ],
   SCOPE=dict(
     nation="All of the UK — Companies House covers England and Wales, Scotland and Northern "
            "Ireland, and Corporation Tax is an HMRC tax with no devolved variation.",
     category="Private limited companies registered at Companies House and within the charge "
              "to Corporation Tax, with taxable profits up to £1.5 million.",
-    excluded="Sole traders and ordinary partnerships have none of these deadlines: no Corporation Tax, no accounts at Companies House, and Self Assessment on 31 January instead — though since 6 April 2026 a sole trader with over £50,000 of qualifying income on the 2024-25 return is inside Making Tax Digital for Income Tax and files quarterly updates as well, so \"one date a year\" is no longer true for them either. Companies with taxable profits above £1.5 million do not use the 9-months-and-1-day date — they pay in instalments. A brand new company's first accounts are not on the 9-month cycle: they are due 21 months after the date of registration. The confirmation statement runs on its own 12-month review period rather than the year end, with 14 days to file after it closes. And no company is excused anything: the return is filed after a loss and when no tax is owed, and the confirmation statement is filed even when nothing has changed.",
+    excluded="Sole traders and ordinary partnerships have none of these deadlines: no Corporation Tax, no accounts at Companies House, and Self Assessment on 31 January instead — though since 6 April 2026 a sole trader with over £50,000 of qualifying income on the 2024-25 return is inside Making Tax Digital for Income Tax and files quarterly updates as well, so \"one date a year\" is no longer true for them either. Companies with taxable profits above £1.5 million do not use the 9-months-and-1-day date — they pay in instalments. A brand new company's first accounts are not on the 9-month cycle: they are due 21 months after the date of registration. The confirmation statement runs on its own 12-month review period rather than the year end, with 14 days to file after it closes. A company dormant for Corporation Tax is excused the Company Tax Return once HMRC has been told, unless it receives a further notice to deliver one — so 'no company is excused' is wrong and no card says it. What a dormant company is NOT excused is Companies House: accounts and a confirmation statement are still due, and the confirmation statement is filed even when nothing has changed.",
     from_when="Three of the four run from each company's own accounting period and financial year end, so they differ per company; the confirmation statement runs on its own 12-month review period from incorporation or the last statement. All four are mandatory and none is claimed; HMRC and Companies House do not prompt them."),
 )
 

@@ -587,7 +587,7 @@ Want the vehicle position checked before January?""",
  bsky="""Self-employed? Business miles are 55p each for the first 10,000 in a tax year, then 25p. Home to work does not count.""",
  pin_title="UK self-employed mileage: 55p a mile from April 2026",
  pin="""HMRC simplified expenses mileage rates for 2026/27: 55p a mile for the first 10,000 business miles in a tax year, then 25p a mile, and 24p for motorcycles from the first mile. The first-10,000 rate rose from 45p on 6 April 2026. Travel between home and work does not count. Cars designed for commercial use — black cabs, dual-control instructors' cars — are outside simplified expenses altogether, as is any vehicle you have already claimed capital allowances on. UK-wide, claimed on the tax return.""",
- gbp="""Work miles in your own car are 55p each now, not 45p.
+ gbp="""Business miles in your own car are worth up to 55p now, not 45p.
 
 If you are self-employed and use simplified expenses, you can take 55p a mile off your profit for the first 10,000 business miles in a tax year, then 25p a mile after that. Motorcycles are 24p from the first mile. The first-10,000 rate rose from 45p to 55p on 6 April 2026.
 
@@ -611,24 +611,22 @@ Source: gov.uk/simpler-income-tax-simplified-expenses/vehicles""",
 C["termene-firma-ltd"] = dict(
  ro="""O firmă nu depune o dată pe an. Are patru termene, în două locuri diferite — și plata vine înaintea declarației.
 
-Trei pornesc de la data la care se încheie anul contabil al firmei:
+Trei pornesc de la data la care se încheie anul contabil:
 • Bilanțul la Companies House — în 9 luni
-• Plata Corporation Tax la HMRC — în 9 luni și o zi
+• Plata Corporation Tax — în 9 luni și o zi
 • Declarația firmei la HMRC — în 12 luni
 
-Pe un an care se încheie pe 31 decembrie 2026: bilanț până pe 30 septembrie 2027, plată până pe 1 octombrie 2027, declarație până pe 31 decembrie 2027.
+Pe un an care se încheie pe 31 decembrie 2026: bilanț până pe 30 septembrie 2027, plată până pe 1 octombrie 2027, declarație până pe 31 decembrie 2027. Da, plătești înainte să depui declarația: suma se calculează cu trei luni înainte de termen.
 
-Da, plătești înainte să depui declarația — suma trebuie calculată cu trei luni înainte de termenul de depunere.
+Al patrulea termen e pe alt ciclu și e cel mai periculos: confirmation statement la Companies House, o dată la 12 luni, în 14 zile de la încheierea perioadei. Se depune și dacă nu s-a schimbat nimic. Dacă nu, poți lua o amendă de până la £5.000 și firma poate fi radiată. Un bilanț întârziat costă bani; o declarație de confirmare ratată îți poate șterge firma.
 
-Al patrulea termen e pe alt ciclu și e cel mai periculos: confirmation statement la Companies House, o dată la 12 luni, în 14 zile de la încheierea perioadei. Se depune și dacă nu s-a schimbat nimic — £50 online. Dacă nu, poți lua o amendă de până la £5.000 și firma poate fi radiată. Un bilanț întârziat costă bani; o declarație de confirmare ratată îți poate șterge firma.
+Primul an e altfel: la o firmă nouă, primul bilanț se depune în 21 de luni de la înregistrare, nu în 9.
 
-Primul an e altfel: la o firmă nou înregistrată, primul bilanț se depune în 21 de luni de la înregistrare, nu în 9.
+Cine NU are aceste termene: dacă lucrezi pe cont propriu, fără firmă, nu ai niciunul. Nu plătești Corporation Tax și nu depui nimic la Companies House — ai Self Assessment, cu declarația și plata pe 31 ianuarie — plus raportări trimestriale dacă ai avut peste £50.000 venit brut din activitate independentă sau chirii în declarația 2024/25 și ai intrat în Making Tax Digital din 6 aprilie 2026. Nici firmele cu profit peste £1,5 milioane nu au data de 9 luni și o zi: ele plătesc în tranșe.
 
-Cine NU are aceste termene: dacă lucrezi pe cont propriu, fără firmă, nu ai niciunul dintre ele. Nu plătești Corporation Tax și nu depui nimic la Companies House — ai Self Assessment, cu declarația și plata pe 31 ianuarie — plus raportări trimestriale, dacă ai avut peste £50.000 venit brut din activitate independentă sau chirii în declarația 2024/25 și ai intrat în Making Tax Digital din 6 aprilie 2026. Nici firmele cu profit impozabil peste £1,5 milioane nu au data de 9 luni și o zi: ele plătesc în tranșe.
+Declarația se depune și pe pierdere. Singura excepție e firma dormantă: odată ce ai anunțat HMRC, nu mai depui declarație până nu primești o cerere. Dar la Companies House nu scapi — bilanțul și confirmation statement se depun și la o firmă dormantă.
 
-Dar nicio firmă nu scapă de declarație: se depune și pe pierdere, și când nu ai nimic de plătit — iar atunci tot trebuie să anunți HMRC.
-
-Se aplică în tot Regatul Unit. Niciun termen nu se cere și niciunul nu se amintește singur.
+Se aplică în tot Regatul Unit. Niciun termen nu se amintește singur.
 
 Nu știi ce termen urmează?""",
  th="""O firmă are patru termene, nu unul. De la anul contabil: bilanțul la Companies House în 9 luni, plata Corporation Tax în 9 luni și o zi, declarația la HMRC în 12 luni. Plus confirmation statement, la fiecare 12 luni.
@@ -654,7 +652,7 @@ The first year is different. A newly registered company's first accounts are due
 
 Who does not have any of this: a sole trader. No Corporation Tax, nothing at Companies House, Self Assessment with the return and payment due 31 January instead — though "one date a year" stopped being true for them on 6 April 2026, when sole traders and landlords with over £50,000 of qualifying income on the 2024-25 return came inside Making Tax Digital for Income Tax and started filing quarterly updates as well. Companies with taxable profits above £1.5 million do not use the 9-months-and-1-day date either — they pay in instalments.
 
-But no company is excused the return. It is filed after a loss and when no Corporation Tax is owed, and HMRC still has to be told when nothing is due.
+A return is filed after a loss and when no Corporation Tax is owed, and HMRC still has to be told when nothing is due. A company dormant for Corporation Tax is the one exception — once HMRC has been told, no further return is due unless a notice to deliver one arrives. Companies House is less forgiving: accounts and a confirmation statement are still required of a dormant company.
 
 UK-wide. Nothing here is claimed and nothing is prompted.
 
