@@ -656,7 +656,7 @@ A return is filed after a loss and when no Corporation Tax is owed, and HMRC sti
 
 UK-wide. Nothing here is claimed and nothing is prompted.
 
-Want your company's three dates set out?""",
+Want your company's four dates set out?""",
  bsky="""A UK company has four deadlines: accounts at 9 months, tax at 9 months and 1 day, return at 12 months, confirmation statement every 12.""",
  pin_title="A UK limited company's four filing deadlines",
  pin="""The four deadlines every UK limited company has. Three run from its own year end: annual accounts to Companies House within 9 months, Corporation Tax paid 9 months and 1 day after the accounting period ends, and the Company Tax Return filed within 12 months. The fourth runs on its own cycle: a confirmation statement every 12 months, filed within 14 days of the review period ending, even if nothing has changed — miss it and the company can be struck off. A return is filed even after a loss.""",
@@ -735,7 +735,7 @@ Cine NU primește:
 
 Se aplică în Anglia, Țara Galilor și Irlanda de Nord.
 
-Ai întrebări despre ajutoarele de iarnă?""",
+Nu știi unde se verifică?""",
  th="""Cold Weather Payment: £25 pentru fiecare 7 zile la rând cu media la zero grade sau mai jos. Vine automat, 1 noiembrie 2026 – 31 martie 2027.
 
 Pe Universal Credit nu primești dacă munciți. Și nici dacă nu munciți nu e de ajuns: mai trebuie o boală care îți limitează munca sau un copil sub 5 ani.""",
@@ -758,16 +758,18 @@ Who does not get it:
 
 England, Wales and Northern Ireland.
 
-Worth checking for someone in your household?""",
+Want the official page to check it on?""",
  bsky="""Cold Weather Payment: £25 per 7 days at zero or below, automatic, 1 Nov to 31 Mar. Not in Scotland — Winter Heating Payment there.""",
  pin_title="Cold Weather Payment: £25 a week and who misses out",
  pin="""Cold Weather Payment pays £25 for each period of 7 consecutive days where the average temperature in your postcode area is recorded as, or forecast to be, zero degrees celsius or below, between 1 November 2026 and 31 March 2027. Automatic, within 14 working days. Qualifying benefits: Pension Credit, income-related ESA, Universal Credit and Support for Mortgage Interest. On Universal Credit working disqualifies you — and not working is not enough alone, as you also need limited capability for work or a child under 5. England, Wales and Northern Ireland only.""",
+ disc_ro="Informații generale, nu consultanță pe beneficii. Cere sfat de specialitate.",
+ disc_en="General information, not benefits advice. Get specialist advice.",
  source="gov.uk/cold-weather-payment and gov.uk/cold-weather-payment/eligibility",
 )
 
 # ----------------------------------------------------------------- 15
 C["retur-30-zile"] = dict(
- ro="""Dacă un produs cumpărat de la un magazin sau o firmă e defect, nu e cum l-a descris vânzătorul sau nu face ce ar trebui, în primele 30 de zile poți cere banii înapoi. Nu o reparație, nu un voucher — banii. E în Consumer Rights Act 2015, legea, nu politica magazinului.
+ ro="""Dacă un produs cumpărat de la un magazin sau o firmă e defect, nu e cum l-a descris vânzătorul sau nu face ce ar trebui, în primele 30 de zile poți cere banii înapoi. Nu doar o reparație — banii. E în Consumer Rights Act 2015, legea, nu politica magazinului.
 
 Cum se numără cele 30 de zile: încep a doua zi după ce produsul e al tău și ți-a fost livrat. Dacă trebuia montat sau instalat, de a doua zi după ce vânzătorul îți spune că s-a terminat.
 
@@ -785,7 +787,7 @@ După cele 30 de zile nu rămâi fără nimic: ai dreptul la reparație sau înl
 
 Se aplică în tot Regatul Unit: Anglia, Țara Galilor, Scoția și Irlanda de Nord.
 
-Vrei să știi ce drepturi ai?""",
+Vrei să citești legea în original?""",
  th="""Produs defect cumpărat de la un magazin sau o firmă? În primele 30 de zile poți cere banii înapoi, nu doar o reparație. Banii vin în cel mult 14 zile de când vânzătorul e de acord.
 
 Dacă ai cumpărat de la o persoană fizică, nu de la o firmă, legea asta nu se aplică.""",
@@ -809,10 +811,12 @@ After the 30 days the remedies change rather than disappear: repair or replaceme
 
 Section 99 extends the Act to England and Wales, Scotland and Northern Ireland.
 
-Worth knowing before the next January sale return.""",
+Want to read the Act itself?""",
  bsky="""Faulty goods from a trader: 30 days to reject and get a refund, not just a repair. Private sales are outside the Act.""",
  pin_title="30 days to reject faulty goods in the UK",
  pin="""The Consumer Rights Act 2015 gives a 30-day right to reject goods bought from a trader that are faulty, not as described or not fit for purpose — a refund, not just a repair. The 30 days begin the day after ownership has passed and the goods have been delivered, and the clock stops while a requested repair or replacement is carried out. A refund is due within 14 days of the trader agreeing to it. Buying from a private individual falls outside the Act, as does buying for your own business. Perishable goods have a shorter window. UK-wide.""",
+ disc_ro="Informații generale, nu consultanță juridică. Cere sfat de specialitate.",
+ disc_en="General information, not legal advice. Get specialist advice.",
  source="legislation.gov.uk/ukpga/2015/15/section/22 and legislation.gov.uk/ukpga/2015/15/part/1/chapter/2",
 )
 
@@ -828,31 +832,33 @@ WA_TH = f"WhatsApp: {PHONE}"
 
 
 def th_caption(slug):
-    return f"{C[slug]['th']}\n\n{WA_TH}\n\n{DISC_RO}\n\n{BRAND_TAGS}"
+    return f"{C[slug]['th']}\n\n{WA_TH}\n\n{C[slug].get('disc_ro', DISC_RO)}\n\n{BRAND_TAGS}"
 
 
 def ro_caption(slug):
     t = topics.BY_SLUG[slug]
-    return (f"{C[slug]['ro']}\n\n{WA_RO}\n\n{DISC_RO}\n\n"
+    disc = C[slug].get("disc_ro", DISC_RO)
+    return (f"{C[slug]['ro']}\n\n{WA_RO}\n\n{disc}\n\n"
             f"Sursă: {C[slug]['source']}\n\n{tags(t, 'ro')}")
 
 
 def li_caption(slug):
     t = topics.BY_SLUG[slug]
+    disc = C[slug].get("disc_en", DISC_EN)
     return (f"{C[slug]['li']}\n\n{PHONE}\n\nOla Accountancy — Luton and Birmingham\n\n"
-            f"{DISC_EN}\n\nSource: {C[slug]['source']}\n\n{tags(t, 'en')}")
+            f"{disc}\n\nSource: {C[slug]['source']}\n\n{tags(t, 'en')}")
 
 
 def bsky_caption(slug):
     # 300-character API cap. Brand tags are 85 of them, so no topical tags here.
     # The disclaimer is the brand-standard wording, not a shortened one: the cap is
     # answered by shorter copy, the way qa.py's overflow is answered by shorter copy.
-    return f"{C[slug]['bsky']}\n\n{DISC_EN}\n\n{BRAND_TAGS}"
+    return f"{C[slug]['bsky']}\n\n{C[slug].get('disc_en', DISC_EN)}\n\n{BRAND_TAGS}"
 
 
 def pin_caption(slug):
     t = topics.BY_SLUG[slug]
-    return f"{C[slug]['pin']}\n\n{DISC_EN}\n\n{tags(t, 'en')}"
+    return f"{C[slug]['pin']}\n\n{C[slug].get('disc_en', DISC_EN)}\n\n{tags(t, 'en')}"
 
 
 def gbp_caption(slug):

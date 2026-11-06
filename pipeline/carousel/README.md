@@ -350,3 +350,78 @@ failures are worth remembering:
 A figure that cannot be verified gets dropped, not softened. The first
 carousel lost "£100 even if you owe no tax" for exactly that reason: widely
 repeated and probably right, but not on the GOV.UK penalties page.
+
+## What the fourth live run taught us
+
+Run on 6 November 2026 for publication on the 7th. Five of five carousels
+shipped; 36 Metricool entries accepted, none rejected.
+
+**The report could not be written.** `add_repo` is not available in this
+session, so `valentinavram626-cmd/ola-ops-reports` could not be attached and
+`SAFETY.md` could not be read. The exact error from the GitHub tool was:
+
+    Access denied: repository "valentinavram626-cmd/ola-ops-reports" is not
+    configured for this session. Allowed repositories:
+    valentinavram626-cmd/ola-social-posts, valentinavram626-cmd/ola-next. If
+    the add_repo tool (mcp__claude-code-remote__add_repo) is available in this
+    session, ask the user whether to add this repository to it [...] if
+    add_repo is not available, this repository cannot be added to this session.
+
+The run carried on under the doctrine as summarised in the task prompt, and
+the report was printed in full in the run output instead. This is the single
+most important line of the day: two runs in three days have now been unable to
+leave a report where it belongs.
+
+* **`assert_lengths()` had three holes, and every one of them was a limit the
+  repo already knew.** It measured Bluesky, Threads and Google Business, and
+  never measured Pinterest (800), Instagram (2200), TikTok (2200) or LinkedIn
+  (3000) — the exact limits in `limits.py` and the exact failures in its own
+  table. Twelve Pinterest descriptions were over, one at 1046. `cis-20-30`'s
+  Romanian caption was still sitting at 2281 against Instagram's 2200, which is
+  the 6 November failure, still in the file two days later. A check that is
+  never run cannot fail, and a check that cannot fail is not a check.
+* **A checker's objection is still not a source — and this time four of five
+  survived re-verification.** The independent verifier, the scope checker and
+  the fact checker between them produced eight objections that changed a card.
+  Each was read at primary source before the card was touched. The one that was
+  declined was declined on evidence: the verifier reported the WhatsApp number
+  in the footer of every content card as a format breach on 30 frames, but that
+  footer is the brand template set on 3 November and recorded in this README,
+  and `preflight.py`'s FORMAT check — which tests for an `ask` or `phone` field
+  on a content card — passes. See "To settle" below.
+* **The fix has to reach the long captions too, not just the cards.** The
+  compliance reviewer's two FIXes landed on the Cold Weather and Consumer
+  Rights CTA cards in the same edit round. Both carousels then went to the
+  scheduler with the long Instagram, TikTok and LinkedIn captions still ending
+  "vorbește cu un contabil" on a DWP benefit and a consumer-law question, and
+  the Consumer Rights caption still asking "Vrei să știi ce drepturi ai?" —
+  the exact headline compliance had asked to remove. Caught at the scheduling
+  step by reading the caption rather than trusting the card. `ro_caption`,
+  `li_caption`, `th_caption`, `bsky_caption` and `pin_caption` now take a
+  per-topic `disc_ro` / `disc_en` override so a non-tax topic cannot send a
+  reader to an accountant.
+* **A carousel can be wrong by being incomplete.** The limited-company set said
+  "three deadlines, not one". There are four: the confirmation statement runs on
+  its own 12-month review period, is filed within 14 days of it closing, is
+  filed even when nothing has changed, and a miss can get the company struck
+  off. Late accounts cost money; this one costs the company. The scope checker
+  found it and gov.uk confirmed it.
+* **Card 1 has to survive card 2.** "Every business mile is 55p off your profit"
+  is false from mile 10,001, and card 2 said so one swipe later. The hook now
+  reads "worth up to 55p". Two separate checkers flagged it independently,
+  which is usually the sign that a reader would have too.
+* **Check the categorical word.** "No company is excused: you file after a loss
+  and even if it never traded" was wrong — a company dormant for Corporation
+  Tax is excused the return once HMRC has been told. "No", "every", "always"
+  and "all" are where a card goes wrong without any figure being wrong.
+
+### To settle
+
+**The footer on content cards.** The 3 November brand rule puts the lion, the
+wordmark and the WhatsApp number on slide 1 and every slide after it, on the
+evidence that a CTA present from the opening beat a CTA revealed later by +44%.
+The 5 November format rule says a content card carries no call to action and no
+WhatsApp button. On the rendered frames, cards 1-3 carry the number and a
+WhatsApp glyph in the footer strip, and card 4 carries the ask sentence and the
+number in a green pill. Both readings are defensible and the studio did not
+change the template overnight. Valentin's call.

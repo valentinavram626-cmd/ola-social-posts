@@ -901,7 +901,7 @@ MILEAGE_55P = dict(
 # ==================================================================== 12
 LTD_DEADLINES = dict(
   slug="termene-firma-ltd",
-  title="Firmă Ltd — cele trei termene și plata care vine înaintea declarației",
+  title="Firmă Ltd — cele patru termene și plata care vine înaintea declarației",
   tags_ro="#firmaltd #corporationtax #companieshouse #contabilitate #romaniinuk",
   tags_en="#limitedcompany #corporationtax #companieshouse #ukaccountant #smallbusinessuk",
 
