@@ -719,22 +719,22 @@ Want your payroll checked against the conditions?""",
 )
 
 C["cold-weather-25"] = dict(
- ro="""Cold Weather Payment e £25 pentru fiecare 7 zile la rând în care temperatura medie din zona ta e zero grade sau mai jos — măsurată sau prognozată. Nu se depune nicio cerere: vine automat, în contul în care intră ajutorul, în 14 zile lucrătoare.
+ ro="""Cold Weather Payment e £25 pentru fiecare 7 zile la rând în care temperatura medie din zona ta e zero grade sau mai jos — măsurată sau prognozată. Nu se depune cerere: vine automat, în contul în care intră ajutorul, în 14 zile lucrătoare.
 
-Se numără gerul dintre 1 noiembrie 2026 și 31 martie 2027, după codul poștal.
+Se numără gerul între 1 noiembrie 2026 și 31 martie 2027, după codul poștal.
 
-Un lucru TREBUIE făcut: pe Universal Credit sau pe ESA legat de venit, dacă s-a născut un copil sau dacă un copil sub 5 ani s-a mutat în casă, schimbarea de situație se anunță. Fără anunț, plata nu mai vine automat — și tocmai copilul sub 5 ani dă dreptul.
+Un lucru TREBUIE făcut: pe Universal Credit sau pe ESA legat de venit, dacă s-a născut un copil sau un copil sub 5 ani s-a mutat în casă, schimbarea de situație se anunță. Fără anunț, plata nu vine automat — iar copilul sub 5 ani dă dreptul.
 
 Ajutoarele listate de GOV.UK:
 • Pension Credit
 • ESA legat de venit (grupul de activitate sau de sprijin, un supliment de dizabilitate severă sau sporită ori de pensionar, un copil cu dizabilitate ori unul sub 5 ani)
 • Universal Credit, în condițiile de mai jos
-• Support for Mortgage Interest, dacă solicitantul e tratat ca primind un ajutor care califică — și numai cu un supliment de dizabilitate severă sau sporită ori de pensionar, un copil cu dizabilitate ori unul sub 5 ani în casă
+• Support for Mortgage Interest, dacă solicitantul e tratat ca primind un ajutor care califică — numai cu un supliment de dizabilitate severă sau sporită ori de pensionar, un copil cu dizabilitate ori unul sub 5 ani în casă
 
-Pe Universal Credit, amândouă condițiile: nici solicitantul, nici partenerul să nu fie angajat sau cu afacere activă („gainfully self-employed"), ȘI unul din ei să aibă o problemă de sănătate ori un handicap cu capacitate limitată de muncă, sau un copil sub 5 ani în casă. Excepție: cu suma pentru un copil cu dizabilitate în dosar, dreptul există indiferent dacă cineva muncește.
+Pe Universal Credit, amândouă condițiile: nici solicitantul, nici partenerul să nu fie angajat ori pe cont propriu ca ocupație principală, regulat, cu profit („gainfully self-employed"), ȘI unul din ei să aibă o problemă de sănătate ori un handicap cu capacitate limitată de muncă, sau un copil sub 5 ani în casă. Excepție: cu suma pentru un copil cu dizabilitate în dosar, dreptul există chiar dacă cineva muncește.
 
 Cine NU primește:
-• Cine locuiește în Scoția — acolo nu există. Cine ia un ajutor care dă dreptul primește Winter Heating Payment, o dată pe iarnă, automat și indiferent de vreme.
+• Cine locuiește în Scoția — acolo nu există. Cine ia un ajutor care dă dreptul primește Winter Heating Payment, o dată pe iarnă, automat, indiferent de vreme.
 • Pe Universal Credit, dosarul fără amândouă condițiile și fără suma pentru un copil cu dizabilitate.
 
 Se aplică în Anglia, Țara Galilor și Irlanda de Nord.
