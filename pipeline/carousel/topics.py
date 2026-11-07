@@ -1528,14 +1528,14 @@ DIVIDENDS_1075 = dict(
   RO=[
     dict(type="hook",
          kicker="Firmă Ltd · Dividende",
-         h1="Cei mai mulți plătesc acum <em>10,75%</em> pe dividende, nu 8,75%.",
-         say="Dacă îți scoți banii din firma ta ca dividend, cota de bază a crescut pe 6 aprilie 2026. Primii £500 dintr-un an rămân neimpozitați."),
+         h1="Cota de bază pe dividende e acum <em>10,75%</em>, nu 8,75%.",
+         say="Din 6 aprilie 2026 au urcat primele două cote. Se aplică la orice dividend, nu doar la cel scos din firma ta. Și 10,75% e doar taxa ta: firma a plătit deja impozit pe profit, iar dividendul iese numai din profitul disponibil."),
     dict(type="step", step="Cât plătești, pe fiecare bandă", fig="<cur>£</cur>500",
          say="Primii <b>£500</b> de dividende într-un an fiscal nu se impozitează. Peste: <b>10,75%</b> în banda de bază, <b>35,75%</b> în banda mare, <b>39,35%</b> în cea de sus.",
-         note="Banda ta o stabilește venitul tău total, nu dividendul singur. Exemplu: £2.000 de dividende, în banda de bază → primii £500 fără taxă, restul £1.500 × 10,75% = £161,25."),
+         note="Banda ta o stabilește venitul tău total, nu dividendul singur. Exemplu, cu Personal Allowance deja folosit de alte venituri: £2.000 de dividende în banda de bază → primii £500 fără taxă, restul £1.500 × 10,75% = £161,25."),
     dict(type="step", step="Cine NU plătește nimic", fig="<cur>£</cur>12.570",
-         say="Dacă nu ai folosit toți cei <b>£12.570</b> din Personal Allowance — partea de venit pe care nimeni nu o impozitează — dividendele care încap în ce a rămas nu se impozitează nici ele. Pe lângă primii £500.",
-         note="Nici dividendele din acțiuni ținute într-un ISA nu se impozitează. Iar cota de sus, <b>39,35%</b>, nu s-a schimbat în aprilie 2026."),
+         say="Dividendele care încap în partea nefolosită din cei <b>£12.570</b> de Personal Allowance nu se impozitează. Ce trece peste se impozitează. Asta pe lângă primii £500.",
+         note="£12.570 e alocația obișnuită: scade cu £1 la fiecare £2 de venit peste £100.000. Nici dividendele din acțiuni ținute într-un ISA nu se impozitează."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Firmă Ltd · Dividende",
@@ -1546,14 +1546,14 @@ DIVIDENDS_1075 = dict(
   EN=[
     dict(type="hook",
          kicker="Limited company · Dividends",
-         h1="For most people, dividends are taxed at <em>10.75%</em> now, not 8.75%.",
-         say="If you take money out of your own company as a dividend, the basic rate went up on 6 April 2026. The first £500 in a tax year is still untaxed."),
+         h1="The basic rate on dividends is <em>10.75%</em> now, not 8.75%.",
+         say="The first two rates went up on 6 April 2026, on any dividend, not just your own company's. And 10.75% is only your tax: the company is taxed on the profit first, and pays a dividend only out of what is distributable."),
     dict(type="step", step="What you pay, band by band", fig="<cur>£</cur>500",
          say="Your first <b>£500</b> of dividends in a tax year is untaxed. Above that: <b>10.75%</b> at the basic rate, <b>35.75%</b> at the higher rate, <b>39.35%</b> at the additional rate.",
-         note="Your band is set by your total income, not by the dividend alone. Example: £2,000 of dividends at the basic rate — the first £500 free, the remaining £1,500 × 10.75% = £161.25."),
+         note="Your band is set by your total income, not by the dividend alone. Example, with the Personal Allowance already used by other income: £2,000 of dividends at the basic rate — the first £500 free, the remaining £1,500 × 10.75% = £161.25."),
     dict(type="step", step="Who pays nothing", fig="<cur>£</cur>12,570",
-         say="If you have not used all of your <b>£12,570</b> Personal Allowance — the slice of income nobody taxes — the dividends that fit inside what is left are not taxed either. On top of the first £500.",
-         note="Dividends from shares held in an ISA are not taxed either. And the additional rate of <b>39.35%</b> did not change in April 2026."),
+         say="Dividends that fit inside the unused part of your <b>£12,570</b> Personal Allowance are not taxed. Anything above it is. That is on top of the first £500.",
+         note="£12,570 is the usual allowance: it goes down by £1 for every £2 of income over £100,000. Dividends from shares held in an ISA are not taxed either."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Limited company · Dividends",
@@ -1564,7 +1564,7 @@ DIVIDENDS_1075 = dict(
   GBP=[
     dict(type="solo",
          kicker="Dividend tax · gov.uk",
-         h1="Dividends from your company: 10.75%, not 8.75%.",
+         h1="Any dividend: 10.75% now, not 8.75%.",
          rows=[["<cur>£</cur>500", "of dividends a year, still untaxed"],
                ["10.75%", "basic rate; then 35.75% and 39.35%"],
                ["6 Apr 2026", "when the first two rates went up"]],
@@ -1577,8 +1577,16 @@ DIVIDENDS_1075 = dict(
      "https://www.gov.uk/tax-on-dividends", "2026-11-07"),
     ("The measure that changed them: \"the dividend ordinary rate at 10.75%\", \"the dividend upper rate at 35.75%\" and \"the dividend additional rate will remain at 39.35%\", taking effect from 6 April 2026 — and the rates that applied before, 8.75% at the basic rate and 33.75% at the higher rate since April 2022. The additional rate is unchanged, so only the first two went up",
      "https://www.gov.uk/government/publications/income-tax-changes-to-tax-rates-for-property-savings-and-dividend-income/income-tax-changes-to-tax-rates-for-property-savings-and-dividend-income", "2026-11-07"),
-    ("Rates and allowances for 2026 to 2027, cross-checking the same three figures from a second GOV.UK page: Personal Allowance £12,570, dividend allowance £500, dividend rates 10.75%, 35.75% and 39.35%",
+    ("Rates and allowances for 2026 to 2027, cross-checking the same three figures from a second GOV.UK page: Personal Allowance £12,570, dividend allowance £500, dividend rates 10.75%, 35.75% and 39.35%. The same page is why the Personal Allowance cannot be described as a slice nobody is taxed on, quoted verbatim: \"The Personal Allowance goes down by £1 for every £2 of income above the £100,000 limit. It can go down to zero.\"",
      "https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past", "2026-11-07"),
+    ("How the duty to report actually works, and it is tiered, not absent and not universal. Headings quoted verbatim: \"Report tax on dividend income up to £10,000\" and \"Report tax on dividend income over £10,000\". Over £10,000, \"You'll need to fill in a Self Assessment tax return\". Up to £10,000, \"If you send a Self Assessment tax return, you must report any dividend income on your tax return\", and otherwise you \"must let HMRC (HM Revenue and Customs) know after the end of the tax year (5 April)\" and before 5 October, either by \"asking HMRC (HM Revenue and Customs) to update your tax code\" or by contacting the helpline. And the floor: \"You do not need to tell HMRC (HM Revenue and Customs) if your dividends are within the dividend allowance for the tax year.\" Nothing on the page asks for unused Personal Allowance to be reported",
+     "https://www.gov.uk/tax-on-dividends/how-to-report-tax-on-dividends", "2026-11-07"),
+    ("Why 10.75% is not the cost of taking profit out of a company: the company has already been taxed on that profit. Corporation Tax for the year starting 1 April 2026 — main rate \"25%\" on profits over \"£250,000\", small profits rate \"19%\" on profits under \"£50,000\", with marginal relief between the £50,000 lower limit and the £250,000 upper limit",
+     "https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax", "2026-11-07"),
+    ("And a dividend cannot be paid out of money that is not there. Companies Act 2006 s.830(1), quoted verbatim: \"A company may only make a distribution out of profits available for the purpose.\" Read from the Gatekeeper fault brief for this topic, which quotes the section verbatim with this URL; an independent fetch of two shorter GOV.UK URLs was blocked in the repair session, so this entry is flagged for re-reading at source",
+     "https://www.legislation.gov.uk/ukpga/2006/46/section/830", "2026-11-07"),
+    ("Why the ISA line is about the investments and not about the person: The Individual Savings Account Regulations 1998 reg 7(2)(a) requires qualifying shares to be \"either officially listed on a recognised stock exchange\" or \"admitted to trading on a recognised stock exchange\", so shares in an ordinary private limited company do not qualify. Read from the Gatekeeper fault brief for this topic, which quotes the regulation verbatim with this URL; flagged for re-reading at source",
+     "https://www.legislation.gov.uk/uksi/1998/1870/regulation/7", "2026-11-07"),
     ("The 2022 measure that set the previous rates, confirming where 8.75%, 33.75% and 39.35% came from: it \"increases the rates of Income Tax applicable to dividend income by 1.25%\", with \"The dividend ordinary rate will be set at 8.75%\", the upper rate at 33.75% and the additional rate at 39.35%, from 6 April 2022",
      "https://www.gov.uk/government/publications/increase-of-the-rates-of-income-tax-applicable-to-dividend-income", "2026-11-07"),
   ],
@@ -1586,13 +1594,21 @@ DIVIDENDS_1075 = dict(
     nation="All of the UK — GOV.UK publishes one set of dividend rates with no separate Scottish "
            "or Welsh dividend figures, and the measure that raised them says it applies UK-wide.",
     category="Anyone with dividend income above £500 in a tax year — in this audience, mainly "
-             "directors and shareholders taking money out of their own limited company. The band "
+             "directors and shareholders taking money out of their own limited company, but the "
+             "rates reach ALL of an individual's dividend income: listed shares, investment "
+             "funds, companies the person does not control, and foreign dividends (HMRC "
+             "SAIM5210). A reader with a share portfolio outside an ISA is affected too. The band "
              "that applies is set by the person's total income, not by the dividend on its own.",
-    excluded="Three groups pay nothing, and the cards name all three. (1) Anyone whose dividends for the year come to £500 or less: the dividend allowance covers them. (2) Anyone with unused Personal Allowance — dividends falling inside the £12,570 are not taxed at all, so a director with little other income can take dividends well above £500 and still pay nothing. (3) Dividends from shares held in an ISA are not taxed, whatever the amount. Also outside this entirely: sole traders and ordinary partnerships, who have no dividends to tax — they draw profit, not dividends, so none of these rates touch them, and a post about a 10.75% rate is not about them. And the increase itself does not reach everybody at the top: the additional rate stayed at 39.35%, so the highest-income shareholders saw no change on 6 April 2026 — the rise was the ordinary and upper rates only.",
+    excluded="Three AMOUNTS escape the charge, and the cards name all three. None of them is a group of people, which is the mistake this topic kept making. (1) Dividends of £500 or less in the tax year: the dividend allowance covers them. (2) Dividends that fall inside the part of the £12,570 Personal Allowance left unused by other income: the relief attaches to that slice of income, so dividends above the unused part are taxed at the normal rates — a person with £12,570 of unused allowance and £60,000 of dividends pays dividend tax on roughly £46,930 of it — and the allowance itself goes down by £1 for every £2 of income over £100,000, so it is not a slice nobody is taxed on. (3) Dividends on shares held inside a valid ISA, at any amount — but shares in an ordinary private limited company are not qualifying ISA investments, so an owner-manager cannot hold their own company shares that way, and holdings outside the ISA are taxed normally. What is NOT an exclusion is an occupation. The charge attaches to the income (ITTOIA 2005 s.383(1)), so a sole trader or a partner who owns shares outside an ISA pays dividend tax at these rates like anyone else, and a partnership can hold shares with the dividend income taxed on the partners (SA804). What is genuinely outside is the SOURCE of the money: profit drawn from an unincorporated trade is trading profit, not a dividend, so these rates do not reach a sole trader's drawings. And the increase does reach high incomes: the additional rate stayed at 39.35%, but a shareholder taxed at the upper rate took the full two points, and part of a very large dividend can still fall in the upper band — so \"the highest earners were untouched\" is not a safe reading. Finally, 10.75% is not the cost of extracting profit: it is the shareholder's income tax, on top of the corporation tax the company has already paid, and a dividend can only be paid out of profits available for the purpose.",
     from_when="10.75% and 35.75% apply from 6 April 2026, for the 2026 to 2027 tax year onwards; "
               "8.75% and 33.75% applied before that, from 6 April 2022. The £500 allowance is per "
-              "tax year. Nothing is automatic — dividend income above the allowance and any unused "
-              "Personal Allowance has to be reported to HMRC."),
+              "tax year. Dividend tax is not deducted at source, but the duty to report is TIERED "
+              "and is not 'nothing is automatic': there is nothing to tell HMRC where the "
+              "dividends are within the dividend allowance; up to £10,000 a Self Assessment filer "
+              "reports it on the return and anyone else tells HMRC by 5 October, with the tax "
+              "collectable through a change to the tax code; over £10,000 a Self Assessment "
+              "return is needed. Unused Personal Allowance is NOT reported to HMRC — it is given "
+              "automatically through PAYE or in the Self Assessment calculation."),
 )
 
 # ==================================================================== 18
