@@ -1705,16 +1705,16 @@ WARM_HOME_150 = dict(
          h1="<em>£150</em> din factura de curent, în Anglia, Scoția și Țara Galilor.",
          say="Nu primești bani în mână — furnizorul taie £150 din factură în această iarnă. În Irlanda de Nord schema nu există."),
     dict(type="step", step="Ziua pe care o verifică: 23 august 2026", fig="<cur>£</cur>150",
-         say="În Anglia și Țara Galilor: tu sau partenerul declarat la DWP primeați Universal Credit, Housing Benefit, ESA pe venit sau Pension Credit, iar contul de electricitate era pe numele unuia din voi.",
-         note="Vine automat, cu o scrisoare, pusă pe factură până pe 31 martie 2027. Scoția are altă listă de ajutoare: automat doar pentru „core group”, altfel ceri la furnizor."),
+         say="În Anglia și Țara Galilor: tu sau partenerul declarat la DWP primeați Universal Credit, Housing Benefit, ESA pe venit sau Pension Credit, iar contul era pe numele unuia din voi sau al reprezentantului legal.",
+         note="De obicei vine automat, cu o scrisoare, pusă pe factură până pe 31 martie 2027. Scoția are altă listă de ajutoare: automat doar pentru „core group”, altfel ceri la furnizor."),
     dict(type="step", step="Cine NU îl primește", fig="N. Irlanda",
-         say="Contul de electricitate nu e pe numele tău sau al partenerului? Nu îl primești. Dar dacă ești titularul contului, te încadrezi — chiar fără factură pe hârtie.",
-         note="Nu e toată lista: Irlanda de Nord, cine stă permanent în casă de bătrâni, caravanele. În Scoția unii cer direct la furnizor."),
+         say="Contul nu e pe numele tău, al partenerului sau al reprezentantului legal? Nu îl primești. Ca titular de cont te încadrezi, chiar fără factură pe hârtie.",
+         note="Nu e toată lista: Irlanda de Nord, casa de bătrâni (permanent), caravanele — excluse după registre, cu o cale pe helpline. În Scoția unii cer la furnizor."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Facturi · Warm Home Discount",
-    h1="Nu știi <em>de unde să începi</em>?",
-    say="Scrie-ne și îți spunem pe care pagină de GOV.UK scrie. Fără obligații.",
+    h1="£150 vin de la <em>furnizor</em>, nu de la contabil.",
+    say="Condițiile și pașii sunt pe gov.uk/the-warm-home-discount-scheme. Pentru taxe și contabilitate, scrie-ne.",
     phone=PHONE, disc="Informații generale, nu consiliere pe ajutoare. Condițiile sunt pe GOV.UK."),
 
   EN=[
@@ -1723,16 +1723,16 @@ WARM_HOME_150 = dict(
          h1="<em>£150</em> off the electricity bill — England, Scotland and Wales.",
          say="No money reaches your hand — your supplier takes £150 off the bill this winter. In Northern Ireland there is no scheme."),
     dict(type="step", step="The day they look at: 23 August 2026", fig="<cur>£</cur>150",
-         say="In England and Wales: you or your partner as notified to DWP were getting Universal Credit, Housing Benefit, income-related ESA or Pension Credit, and the electricity account was in one of those names.",
-         note="Automatic, by letter, and on the bill by 31 March 2027. Scotland has its own benefits list: automatic only for the core group, otherwise you apply to your supplier."),
+         say="In England and Wales: Universal Credit, Housing Benefit, income-related ESA or Pension Credit was in payment, and you, your DWP-notified partner or your legal representative was on the account.",
+         note="Usually automatic, by letter, and on the bill by 31 March 2027. Scotland has its own benefits list: automatic only for the core group, otherwise you apply to your supplier."),
     dict(type="step", step="Who does NOT get it", fig="N. Ireland",
-         say="Is the electricity account in neither your name nor your partner's? Then you do not get it. But if you hold the account you do qualify — even with no paper bill.",
-         note="Not the whole list: Northern Ireland, permanent care home residents, caravans. In Scotland some apply directly to their supplier."),
+         say="Is the account in neither your name, your partner's nor a legal representative's? You do not get it. Hold the account and you do qualify — even with no paper bill.",
+         note="Not the whole list: Northern Ireland, permanent care home residents, caravans — excluded by property records, though a helpline route exists. In Scotland some apply to their supplier."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Energy bills · Warm Home Discount",
-    h1="Not sure <em>where to start</em>?",
-    say="Message us and we will point you at the GOV.UK page that says it. No obligation.",
+    h1="The <em>£150</em> comes from a supplier, not an accountant.",
+    say="The conditions and the steps are on gov.uk/the-warm-home-discount-scheme. For tax and accounts, message us.",
     phone=PHONE, disc="General information, not benefits advice. The conditions are on GOV.UK."),
 
   SOURCES=[
@@ -1758,13 +1758,14 @@ WARM_HOME_150 = dict(
     category="Households where, on 23 August 2026, the person or their partner as notified to DWP "
              "was getting one of the four benefits named on the GOV.UK England and Wales page — "
              "Universal Credit, Housing Benefit, income-related ESA or Pension Credit — that "
-             "person or partner was the electricity ACCOUNT HOLDER or named on the electricity "
-             "bill (the account is the condition, and holding it is an alternative to being named "
+             "person, that partner, or their LEGAL REPRESENTATIVE was the electricity "
+             "ACCOUNT HOLDER or named on the electricity bill (the account is the condition, and holding it is an alternative to being named "
              "on a bill, so a prepayment customer with no paper bill can qualify), and their "
              "energy supplier was part of the scheme. Scotland has its own list and its own "
              "route, so this category is the England and Wales one.",
-    excluded="The exclusion list is NOT closed, and the cards now say so. (1) Anyone whose electricity account is in neither their own name nor that of a partner notified to DWP: the household may be on Universal Credit and still get nothing. It runs the other way too — an owner-occupier misses out where the account sits with a spouse or adult child who is neither the claimant nor a notified partner — and holding the account is an alternative to being named on a bill, so a lodger or sharer who holds it in their own name DOES qualify. No frequency claim is made about rented rooms; the repo has no source for one. (2) Northern Ireland entirely: GOV.UK states the scheme is not available there and signposts Affordable Warmth, which is a grant for insulation and heating work, not a bill discount. (3) Anyone whose energy supplier is not in the scheme — real, but nearly always met, because every supplier with over 1,000 domestic customer accounts is required to take part, so it does not deserve equal billing with the rest. (4) In Scotland, anyone outside the core group: not automatic, they apply directly to the supplier, suppliers may add criteria, and the number of discounts is capped. (5) Further exclusions from the DESNZ eligibility statement, which no earlier version of this topic mentioned: people living permanently in a care home, caravans, properties not supplied with electricity wholly or mainly for domestic purposes, and park home residents supplied through the site owner, who fall outside the main scheme and use a separate route. One further point that stops the post overpromising: 23 August 2026 is the qualifying date for the England and Wales core-group DATA MATCH, not a gate on every route — Scottish broader-group applications are assessed by the supplier and the Park Homes route on benefit or income at the time of application — and the £150 is a discount applied by the supplier, not a payment, so nobody receives cash.",
-    from_when="The qualifying date is 23 August 2026. Letters go out from late October 2026 to "
+    excluded="The exclusion list is NOT closed, and the cards now say so. (1) Anyone whose electricity account is in none of the three names the condition allows — their own, that of a partner notified to DWP, or that of their legal representative (an appointee, attorney or deputy): the household may be on Universal Credit and still get nothing. It runs the other way too — an owner-occupier misses out where the account sits with a spouse or adult child who is neither the claimant, nor a notified partner, nor a legal representative — but if that person IS the claimant's appointee, attorney or deputy, the condition is met — and holding the account is an alternative to being named on a bill, so a lodger or sharer who holds it in their own name DOES qualify. No frequency claim is made about rented rooms; the repo has no source for one. (2) Northern Ireland entirely: GOV.UK states the scheme is not available there and signposts Affordable Warmth, which is a grant for insulation and heating work, not a bill discount. (3) Anyone whose energy supplier is not in the scheme — real, but nearly always met, because every supplier with over 1,000 domestic customer accounts is required to take part, so it does not deserve equal billing with the rest. (4) NOT an exclusion: in Scotland, being outside the core group changes the route, it does not end the claim. The broader group (Universal Credit, Income Support, income-based JSA, income-related ESA, Housing Benefit, adult disability payment, pension age disability payment) applies directly to the supplier, suppliers may add criteria, the number of discounts is capped, and the applicant must stay with that supplier until the discount is paid. (5) Further exclusions from the DESNZ eligibility statement, which no earlier version of this topic mentioned: people living permanently in a care home; caravans, which are generally excluded by how the property is classed in property records and get no letter, with a small number of permanent residences still able to qualify by contacting the helpline and evidencing that the caravan is the household's sole legal residence and that they are named on the bill; properties not supplied with electricity wholly or mainly for domestic purposes, and park home residents supplied through the site owner, who fall outside the main scheme and use a separate route. One further point that stops the post overpromising: 23 August 2026 is the qualifying date in England, Wales AND Scotland (the Scotland page states the same date), and so are the letter window, the 26 February 2027 helpline deadline and the 31 March 2027 application date; the Park Homes route is assessed on benefit or income at the time of application — and the £150 is a discount applied by the supplier, not a payment, so nobody receives cash.",
+    from_when="The qualifying date is 23 August 2026 in England, Wales and Scotland alike, and "
+              "so are the three dates that follow. Letters go out from late October 2026 to "
               "early January 2027; the helpline deadline, where a letter asks for more "
               "information, is 26 February 2027; and the discount is applied to the bill by 31 "
               "March 2027. Automatic in England and Wales and for Scotland's core group; claimed "
