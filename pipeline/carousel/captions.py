@@ -669,33 +669,33 @@ C["employment-allowance-10500"] = dict(
 
 Nu vine singură. Se cere din programul de salarii, pentru un singur stat de plată — și se cere DIN NOU la fiecare an fiscal. Nu se reportează.
 
-Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani — pentru 2022/23, până pe 5 aprilie 2027. Dar un an vechi are alte condiții: £10.500 e suma din 2025/26 încoace, iar între 6 aprilie 2022 și 5 aprilie 2025 era £5.000 pe an. Pentru 2024/25 sau mai vechi poți cere doar dacă National Insurance-ul Class 1 al firmei din anul anterior a fost sub £100.000 — barieră căzută în aprilie 2025, deci din 2025/26 nu mai există limită.
+Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani — pentru 2022/23, până pe 5 aprilie 2027. Dar un an vechi are alte condiții: £10.500 e suma din 2025/26 încoace, iar între 6 aprilie 2022 și 5 aprilie 2025 era £5.000 pe an. Pentru 2024/25 sau mai vechi poți cere doar dacă Class 1-ul firmei din anul anterior a fost sub £100.000 — barieră căzută în aprilie 2025, deci din 2025/26 nu mai există limită.
 
 Cine NU poate cere deloc — firma:
-• Firma cu un singur director, dacă el e singurul angajat cu National Insurance Class 1 secundar — partea firmei, peste Secondary Threshold.
+• Firma Ltd cu un singur director, dacă el e singurul angajat cu National Insurance Class 1 secundar — partea firmei, peste Secondary Threshold. Pe cont propriu nu se aplică.
 • Instituțiile publice fără statut de caritate — primărie, consiliu local sau parohial — oricât de puțin lucrează pentru public.
 • Orice alt angajator cu peste jumătate din muncă pentru sectorul public — dar organizațiile de caritate pot cere oricum.
 • Într-un grup de firme sau de organizații de caritate legate între ele, cere una singură.
 
-Angajați pe care NU îi poți include — firma rămâne eligibilă pentru ceilalți:
+Angajați pe care NU îi poți include — firma rămâne eligibilă pentru ceilalți, dacă mai are alți angajați:
 • Angajatul care intră sub regulile off-payroll (IR35).
 • Cineva angajat pentru treburi casnice — o bonă, un grădinar — dacă nu e îngrijitor.
 
-Pot cere: firmele cu mai puțin de jumătate din muncă pentru sectorul public, organizațiile de caritate, cluburile sportive de amatori și cine angajează un îngrijitor.
+Pot cere: firmele cu sub jumătate din muncă pentru sectorul public, organizațiile de caritate, cluburile sportive de amatori și cine angajează un îngrijitor.
 
 Se aplică în tot Regatul Unit. Se cere pentru anul fiscal în curs.
 
 Nu știi dacă firma ta poate cere?""",
  th="""Employment Allowance taie până la £10.500 din National Insurance-ul Class 1 al firmei. Se cere din programul de salarii — și din nou la fiecare an fiscal. Nu se reportează.
 
-Cine NU poate cere: firma cu un singur director, dacă el e singurul angajat cu National Insurance Class 1 secundar — partea firmei.""",
+Cine NU poate cere: firma Ltd cu un singur director, dacă el e singurul angajat cu National Insurance Class 1 secundar — partea firmei.""",
  li="""Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never automatic — it is claimed through payroll software, against one payroll only.
 
-And it is claimed again every single tax year, by Employer Payment Summary. It does not carry forward, so an employer who claimed last year and assumed it rolled over silently loses up to £10,500.
+And it is claimed again every single tax year, by Employer Payment Summary. It does not carry forward.
 
 If you never claimed at all, you can go back up to 4 years after the end of the tax year concerned — a 2022 to 2023 claim has to be made by 5 April 2027. But an earlier year is not claimed on today's terms. The allowance is £10,500 for 2025 to 2026 onwards; for each year between 6 April 2022 and 5 April 2025 it was £5,000. And to claim for 2024 to 2025 or earlier, your employers' Class 1 National Insurance liabilities must have been less than £100,000 in the previous tax year. From 2025 to 2026 onwards there is no limit — that bar was lifted in April 2025.
 
-One outright bar sits on that same page: for some businesses the allowance counts as de minimis state aid, capped over a 3-year period, and a business over the cap cannot claim. GOV.UK says that is likely where your business is both located in Northern Ireland and makes or sells goods or wholesale electricity.
+One more bar sits on that past-years page, and nowhere else: for some businesses the allowance counted as de minimis state aid, capped over 3 years, and a business over the cap could not claim — most likely where the business is both located in Northern Ireland and makes or sells goods or wholesale electricity. HMRC asks the state-aid question only if you are claiming for a previous year.
 
 Who cannot claim at all — the employer. The first is the trap for small companies:
 • A company with a single director who is its only employee liable for secondary Class 1 National Insurance.
@@ -703,39 +703,39 @@ Who cannot claim at all — the employer. The first is the trap for small compan
 • Any other employer doing more than half its work in or for the public sector — unless it is a charity, which can claim even when its functions are wholly or mainly of a public nature.
 • Within a group of connected companies or connected charities only one may claim, and an employer running several payrolls claims against only one of them.
 
-Employees you cannot include in the claim — a separate rule. The employer stays eligible and keeps claiming on everyone else:
+Employees you cannot include in the claim — a separate rule. The employer keeps claiming on everyone else, if there is anyone else — HMRC says an employer of domestic staff alone cannot claim at all:
 • An employee whose earnings fall within the off-payroll working rules.
 • Someone employed for personal, household or domestic work — a nanny, a gardener — unless they are a care or support worker.
 
 Who can: businesses doing less than half their work in the public sector, charities including community amateur sports clubs, and employers of a care or support worker.
 
-UK-wide, for the current tax year — subject to that Northern Ireland state-aid cap.
+UK-wide, for the current tax year.
 
 Want your payroll checked against the conditions?""",
  bsky="""Employment Allowance: up to £10,500 off employer Class 1 National Insurance, claimed again every tax year. It never carries forward.""",
  pin_title="Employment Allowance: £10,500 and who cannot claim",
- pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never automatic and must be claimed again every new tax year. Which employers cannot claim: a company whose single director is its only employee liable for secondary Class 1, and an employer doing over half its work in the public sector unless it is a charity. Separately: the employer stays eligible but cannot include an employee in personal, household or domestic work — a nanny, a gardener — unless they are a care or support worker.""",
+ pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never automatic and must be claimed again every tax year. Which employers cannot claim: a company whose single director is its only employee liable for secondary Class 1, and an employer doing over half its work in the public sector unless it is a charity. Separately, a nanny or gardener in personal, household or domestic work cannot be included unless they are a care or support worker; an employer of domestic staff alone cannot claim at all.""",
  source="gov.uk/claim-employment-allowance/eligibility, /claim-for-past-years, plus HMRC's further employer guidance",
 )
 
 C["cold-weather-25"] = dict(
- ro="""Cold Weather Payment e £25 pentru fiecare perioadă de 7 zile la rând în care temperatura medie din zona ta e zero grade sau mai jos — măsurată sau prognozată. Nu se depune nicio cerere: vine automat, în contul în care intră ajutorul, în 14 zile lucrătoare.
+ ro="""Cold Weather Payment e £25 pentru fiecare 7 zile la rând în care temperatura medie din zona ta e zero grade sau mai jos — măsurată sau prognozată. Nu se depune nicio cerere: vine automat, în contul în care intră ajutorul, în 14 zile lucrătoare.
 
 Se numără gerul dintre 1 noiembrie 2026 și 31 martie 2027, după codul poștal.
 
-Un lucru TREBUIE făcut, chiar dacă cerere nu se depune: pe Universal Credit sau pe ESA legat de venit, dacă s-a născut un copil sau dacă un copil sub 5 ani s-a mutat în casă, schimbarea de situație se anunță. Fără anunț, plata nu mai vine automat — și tocmai copilul sub 5 ani e condiția care dă dreptul.
+Un lucru TREBUIE făcut: pe Universal Credit sau pe ESA legat de venit, dacă s-a născut un copil sau dacă un copil sub 5 ani s-a mutat în casă, schimbarea de situație se anunță. Fără anunț, plata nu mai vine automat — și tocmai copilul sub 5 ani dă dreptul.
 
 Ajutoarele listate de GOV.UK:
 • Pension Credit
-• ESA legat de venit, cu condițiile ei (grupul de activitate sau de sprijin, un supliment, un copil cu dizabilitate ori un copil sub 5 ani)
+• ESA legat de venit (grupul de activitate sau de sprijin, un supliment de dizabilitate severă sau sporită ori de pensionar, un copil cu dizabilitate ori unul sub 5 ani)
 • Universal Credit, în condițiile de mai jos
-• Support for Mortgage Interest, tratat ca ajutor care califică — și numai cu un supliment, un copil cu dizabilitate ori unul sub 5 ani în casă
+• Support for Mortgage Interest, dacă solicitantul e tratat ca primind un ajutor care califică — și numai cu un supliment de dizabilitate severă sau sporită ori de pensionar, un copil cu dizabilitate ori unul sub 5 ani în casă
 
-Pe Universal Credit condițiile sunt două și trebuie îndeplinite amândouă: nici solicitantul, nici partenerul să nu fie angajat sau cu afacere activă („gainfully self-employed"), ȘI solicitantul sau partenerul să aibă o problemă de sănătate ori un handicap cu capacitate limitată de muncă, sau un copil sub 5 ani în casă. Excepție: cu suma pentru un copil cu dizabilitate în dosar, dreptul există indiferent dacă cineva muncește.
+Pe Universal Credit, amândouă condițiile: nici solicitantul, nici partenerul să nu fie angajat sau cu afacere activă („gainfully self-employed"), ȘI unul din ei să aibă o problemă de sănătate ori un handicap cu capacitate limitată de muncă, sau un copil sub 5 ani în casă. Excepție: cu suma pentru un copil cu dizabilitate în dosar, dreptul există indiferent dacă cineva muncește.
 
 Cine NU primește:
 • Cine locuiește în Scoția — acolo nu există. Cine ia un ajutor care dă dreptul primește Winter Heating Payment, o dată pe iarnă, automat și indiferent de vreme.
-• Pe Universal Credit, dosarul care nu bifează amândouă condițiile și nu are suma pentru un copil cu dizabilitate.
+• Pe Universal Credit, dosarul fără amândouă condițiile și fără suma pentru un copil cu dizabilitate.
 
 Se aplică în Anglia, Țara Galilor și Irlanda de Nord.
 
@@ -774,37 +774,37 @@ Want the official page to check it on?""",
 
 # ----------------------------------------------------------------- 15
 C["retur-30-zile"] = dict(
- ro="""Dacă un produs cumpărat de la un magazin sau o firmă e defect, nu e cum l-a descris vânzătorul sau nu face ce ar trebui, în primele 30 de zile poți cere banii înapoi. Nu doar o reparație — banii. E în Consumer Rights Act 2015, legea, nu politica magazinului.
+ ro="""Dacă un produs cumpărat de la un comerciant e defect, nu e cum l-a descris vânzătorul sau nu face ce i-ai spus că ai nevoie, în primele 30 de zile poți cere banii înapoi — nu doar o reparație. E legea, Consumer Rights Act 2015, nu politica magazinului.
 
-Cum se numără cele 30 de zile: încep a doua zi după ce produsul e al tău și ți-a fost livrat. Dacă trebuia montat sau instalat, de a doua zi după ce vânzătorul îți spune că s-a terminat.
+Cele 30 de zile încep a doua zi după ce produsul e al tău și ți-a fost livrat. Dacă trebuia montat, de a doua zi după ce vânzătorul îți spune că s-a terminat.
 
-Partea pe care puțini o știu: dacă în acest timp ceri o reparație sau o înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas. Iar dacă produsul vine tot defect, ai cel puțin 7 zile de atunci.
+Puțini știu asta: dacă în acest timp ceri o reparație sau o înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas. Iar dacă produsul vine tot defect, ai cel puțin 7 zile de atunci.
 
 Banii trebuie dați fără întârziere nejustificată și în cel mult 14 zile de când vânzătorul e de acord că ți se cuvin.
 
 Cine NU are cele 30 de zile:
-• Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă. Legea se aplică doar între un comerciant și un consumator.
+• Dacă ai cumpărat de la un particular, nu de la un comerciant — adică de la cineva care vinde în cadrul activității lui, firmă sau om pe cont propriu. Legea se aplică doar între un comerciant și un consumator.
 • Dacă ai cumpărat în totalitate sau în principal pentru afacerea ta. Dacă a fost mai mult pentru tine, rămâi „consumator".
 
 Două lucruri care NU îți iau cele 30 de zile:
-• Un defect arătat de vânzător înainte de cumpărare, sau vizibil la verificarea făcută de tine, nu mai poate fi reclamat ca proastă calitate — dar ceri banii dacă produsul nu e cum l-a descris sau nu face ce i-ai spus că ai nevoie.
-• Produsele care se strică mai repede au același drept, doar cu termen mai scurt — cât se poate aștepta rezonabil să țină chiar produsul acela, nu o listă fixă.
+• Un defect arătat de vânzător înainte de cumpărare, sau vizibil la verificarea ta, nu mai poate fi reclamat ca proastă calitate — dar ceri banii dacă produsul nu e cum l-a descris sau nu face ce i-ai spus că ai nevoie.
+• Produsele perisabile, care se alterează repede, au același drept, doar cu termen mai scurt — cât se poate aștepta rezonabil să țină acel produs, nu o listă fixă.
 
-După cele 30 de zile nu rămâi fără nimic: ai dreptul la reparație sau înlocuire, iar dacă nici asta nu merge, la o reducere de preț sau la returnarea produsului.
+După cele 30 de zile îți rămâne dreptul la reparație sau înlocuire, iar dacă nici asta nu merge, la o reducere de preț sau la returnarea produsului.
 
 Se aplică în tot Regatul Unit: Anglia, Țara Galilor, Scoția și Irlanda de Nord.
 
 Vrei să citești legea în original?""",
- th="""Produs defect cumpărat de la un magazin sau o firmă? În primele 30 de zile poți cere banii înapoi, nu doar o reparație. Banii vin în cel mult 14 zile de când vânzătorul e de acord.
+ th="""Produs defect cumpărat de la un comerciant? În primele 30 de zile poți cere banii înapoi, nu doar o reparație. Banii vin în cel mult 14 zile de când vânzătorul e de acord.
 
-Dacă ai cumpărat de la o persoană fizică, nu de la o firmă, legea asta nu se aplică.""",
+Comerciant e oricine vinde în cadrul activității lui, firmă sau om pe cont propriu. De la un particular, legea nu se aplică.""",
  li="""The short-term right to reject is 30 days, and most people spend it without knowing they had it.
 
 If goods bought from a trader are faulty, not as described, or not fit for a purpose you made known, the Consumer Rights Act 2015 gives you 30 days to reject them and take a refund — not a repair, not a credit note.
 
 How the 30 days are counted: they begin the day after ownership or possession has passed to you and the goods have been delivered. Where the contract required installation, they begin the day after the trader tells you it is done.
 
-The part almost nobody knows: if you ask for or agree to a repair or a replacement inside that window, the clock stops for the waiting period and resumes where it left off. And if what the trader supplies in response still does not conform, section 22(7) makes the limit 7 days after the waiting period ends — or the original limit extended by that period, if that is later. A repair asked for on day 29 leaves 7 days, not one.
+The part almost nobody knows: if you ask for or agree to a repair or a replacement inside that window, the clock stops for the waiting period and resumes where it left off. And if what the trader supplies in response still does not conform, section 22(7) makes the limit 7 days after the waiting period ends — or the original limit extended by that period, if that is later. That is the rule for a repair that fails: if it works, what is left is the days that were left. And section 23(6) runs the other way: once you have asked for a repair, you cannot reject until the trader has had a reasonable time to carry it out, unless that would significantly inconvenience you.
 
 A refund must be given without undue delay and in any event within 14 days of the trader agreeing you are entitled to one.
 
@@ -812,7 +812,7 @@ Who does not have the 30 days:
 • Anyone who bought from a private individual rather than a trader. Part 1 applies to a contract between a trader and a consumer, so a private sale sits outside it entirely.
 • Anyone buying for purposes wholly or mainly inside their own business — not a consumer for these purposes.
 
-Two things that do NOT take the 30 days away, although they are often read as if they did:
+Two things that do NOT take the 30 days away:
 • A fault specifically drawn to the buyer's attention before the contract, or one an examination the buyer actually made ought to have revealed. Section 9(4) takes that fault outside the satisfactory quality term only. The other two grounds are untouched: if the goods are not as described, or not fit for a purpose made known to the trader, the 30-day right to reject is still there.
 • Goods that can reasonably be expected to perish sooner. They carry the same right on a shorter period — the end of the period they can reasonably be expected to last. The Act names no categories: the test is applied to the goods actually bought.
 

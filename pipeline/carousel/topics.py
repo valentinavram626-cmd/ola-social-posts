@@ -1118,12 +1118,12 @@ COLD_WEATHER = dict(
     dict(type="hook",
          kicker="Iarna 2026/27 · Cold Weather Payment",
          h1="<em>£25</em> pentru 7 zile la rând de ger.",
-         say="Dacă primești unul dintre câteva ajutoare, îndeplinești condițiile lui și în zona ta media e zero grade sau mai jos șapte zile la rând, banii vin automat în cont. Cerere nu se depune — dar un copil nou în casă se anunță."),
+         say="Dacă primești unul dintre câteva ajutoare, îndeplinești condițiile lui și în zona ta media e zero grade sau mai jos șapte zile la rând, de regulă banii vin automat în cont. Cerere nu se depune — dar un copil nou în casă se anunță."),
     dict(type="step", step="Pe ce ajutoare se dă", fig="4",
          say="Pension Credit, Universal Credit, Employment and Support Allowance legat de venit, sau Support for Mortgage Interest. Fiecare cu propriile condiții.",
          note="Banii vin în <b>14 zile lucrătoare</b>. Gerul se numără între 1 noiembrie 2026 și 31 martie 2027, după codul poștal. În Scoția nu există: cine ia un ajutor care dă dreptul primește Winter Heating Payment, o dată pe iarnă."),
     dict(type="step", step="Cine NU primește", fig="2 condiții",
-         say="Pe Universal Credit, amândouă: solicitantul și partenerul să nu fie angajați ori pe cont propriu ca ocupație principală, regulat și cu profit, ȘI unul din ei cu boală care limitează munca sau copil sub 5 ani.",
+         say="Pe Universal Credit, amândouă: solicitantul și partenerul să nu fie angajați ori pe cont propriu ca ocupație principală, regulat și cu profit, ȘI unul din ei cu „capacitate limitată de muncă” stabilită oficial, sau copil sub 5 ani.",
          note="Cu suma pentru un copil cu dizabilitate se dă oricum. Un copil nou-născut sau un copil sub 5 ani mutat în casă se anunță — altfel nu mai vine automat."),
   ],
   CTA_RO=dict(type="cta",
@@ -1136,7 +1136,7 @@ COLD_WEATHER = dict(
     dict(type="hook",
          kicker="Winter 2026/27 · Cold Weather Payment",
          h1="<em>£25</em> for each 7 days running at zero or below.",
-         say="If you get one of a short list of benefits, meet that benefit's own conditions, and the average temperature where you live sits at zero or below for seven days running, money goes into your account. Nothing to claim — but a new child in the house has to be reported."),
+         say="If you get one of a short list of benefits, meet that benefit's own conditions, and the average temperature where you live sits at zero or below for seven days running, you'll usually get the money in your account. Nothing to claim — but a new child in the house has to be reported."),
     dict(type="step", step="Which benefits it runs on", fig="4",
          say="Pension Credit, Universal Credit, income-related Employment and Support Allowance, or Support for Mortgage Interest — each with its own conditions.",
          note="Paid within <b>14 working days</b>, for cold spells from 1 Nov 2026 to 31 Mar 2027, by postcode. Not in Scotland — a qualifying benefit brings Winter Heating Payment there, once a winter."),
@@ -1204,6 +1204,19 @@ COLD_WEATHER = dict(
      "legislation.gov.uk was not reachable from the repair session's proxy, so the quotations "
      "here are the fact-checker's, not re-read in that session",
      "https://www.legislation.gov.uk/uksi/1988/1724", "2026-11-07"),
+    ("Re-read for round three, and legislation.gov.uk WAS reachable this time. Reg "
+     "1A(3)(f)(ii): \"P has limited capability for work or limited capability for work and "
+     "work-related activity as construed in accordance with regulations 39 and 40 of the "
+     "Universal Credit Regulations 2013\" — so GOV.UK's \"limited capability for work (with or "
+     "without work-related activity)\" is a formal determination under those regulations and "
+     "not a description of being unwell. No card may render it as an illness that limits work. "
+     "Reg 1A(4) also bars a person residing in a care home, an independent hospital, an "
+     "Abbeyfield Society establishment or Polish Resettlement Act 1947 accommodation, except "
+     "where the under-5 or disabled-child limb applies, and reg 2(6) bars payment more than 26 "
+     "weeks after the winter period ends. None of that is under GOV.UK's Eligibility heading, "
+     "which is why every GOV.UK benefit heading reads \"You'll usually get Cold Weather "
+     "Payments if...\" — the hedge is what the cards carry, not the detail",
+     "https://www.legislation.gov.uk/uksi/1988/1724/regulation/1A", "2026-11-07"),
   ],
   SCOPE=dict(
     nation="England, Wales and Northern Ireland only. NOT Scotland — GOV.UK states plainly "
@@ -1270,13 +1283,13 @@ RETURN_30_DAYS = dict(
     dict(type="hook",
          kicker="Drepturile cumpărătorului · 30 de zile",
          h1="Ai <em>30 de zile</em> să ceri banii înapoi pe un produs defect.",
-         say="Nu e politica magazinului, e legea: Consumer Rights Act 2015. Dacă produsul e defect, nu e cum l-a descris vânzătorul sau nu face ce ar trebui, ceri banii — nu doar o reparație."),
+         say="Nu e politica magazinului, e legea: Consumer Rights Act 2015. Dacă produsul e defect, nu e cum l-a descris vânzătorul sau nu face ce i-ai spus că ai nevoie, ceri banii — nu doar o reparație."),
     dict(type="step", step="Cele 30 de zile, exact", fig="30",
          say="Se numără de a doua zi după ce ai primit produsul și a devenit al tău. Dacă ceri reparație sau înlocuire, numărătoarea se oprește cât aștepți — iar dacă produsul primit e tot defect, ai cel puțin 7 zile de atunci.",
-         note="Banii trebuie dați fără întârziere și în cel mult <b>14 zile</b> de când vânzătorul e de acord că ți se cuvin."),
+         note="Banii trebuie dați fără întârziere nejustificată și în cel mult <b>14 zile</b> de când vânzătorul e de acord că ți se cuvin."),
     dict(type="step", step="Cine NU are cele 30 de zile", fig="privat",
-         say="Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă, legea asta nu se aplică. Nici dacă ai cumpărat în totalitate sau în principal pentru firma ta. Dacă a fost mai mult pentru tine, rămâi consumator.",
-         note="La produsele care se strică repede termenul e mai scurt. După 30 de zile mai ai dreptul la reparație sau înlocuire."),
+         say="Dacă ai cumpărat de la un particular, nu de la un comerciant, legea nu se aplică. Comerciant e oricine vinde în cadrul activității lui — firmă sau om pe cont propriu. Nici dacă ai cumpărat în totalitate sau în principal pentru firma ta.",
+         note="La produsele perisabile termenul e mai scurt. După 30 de zile mai ai dreptul la reparație sau înlocuire."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Drepturile cumpărătorului · 30 de zile",
@@ -1317,6 +1330,18 @@ RETURN_30_DAYS = dict(
      "is longer), within which they can still exercise the short-term right to reject if "
      "the goods still breach the standards set by the Act.\"",
      "https://www.legislation.gov.uk/ukpga/2015/15/section/22/notes", "2026-11-07"),
+    ("Section 2(2): \"'Trader' means a person acting for purposes relating to that person's "
+     "trade, business, craft or profession, whether acting personally or through another person "
+     "acting in the trader's name or on the trader's behalf.\" The test is the seller's purpose, "
+     "not whether the seller is a natural person or a company: a sole trader, a self-employed "
+     "tradesman or a market trader is a person and is a trader. Section 2(7): \"'Business' "
+     "includes the activities of any government department or local or public authority.\"",
+     "https://www.legislation.gov.uk/ukpga/2015/15/section/2", "2026-11-07"),
+    ("Section 23(6): \"A consumer who requires or agrees to the repair of goods cannot require "
+     "the trader to replace them, or exercise the short-term right to reject, without giving the "
+     "trader a reasonable time to repair them (unless giving the trader that time would cause "
+     "significant inconvenience to the consumer).\"",
+     "https://www.legislation.gov.uk/ukpga/2015/15/section/23", "2026-11-07"),
     ("Section 2(3): \"'Consumer' means an individual acting for purposes that are wholly "
      "or mainly outside that individual's trade, business, craft or profession.\" So a "
      "dual-purpose purchase that is mainly private keeps consumer status. Section 2(4): "
@@ -1364,8 +1389,12 @@ RETURN_30_DAYS = dict(
               "the buyer, nothing is automatic. If a repair or replacement is requested the 30 "
               "days stop running for the waiting period, and under s.22(7), if the goods supplied "
               "in response still do not conform, the limit becomes 7 days after that period ends "
-              "or the original limit extended by it, whichever is later — so a repair asked for on "
-              "day 29 leaves 7 days, not 1."),
+              "or the original limit extended by it, whichever is later. That turns on the goods "
+              "supplied in response still not conforming: if the repair works, what is left is "
+              "simply the days that were left, so no worked example can promise 7 days. And under "
+              "s.23(6) a consumer who requires or agrees to a repair cannot require a replacement "
+              "or exercise the short-term right to reject without giving the trader a reasonable "
+              "time to repair, unless that time would cause the consumer significant inconvenience."),
 )
 
 DAY = [MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS]
