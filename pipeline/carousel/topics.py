@@ -1123,7 +1123,7 @@ COLD_WEATHER = dict(
          say="Pension Credit, Universal Credit, Employment and Support Allowance legat de venit, sau Support for Mortgage Interest. Fiecare cu propriile condiții.",
          note="Banii vin în <b>14 zile lucrătoare</b>. Gerul se numără între 1 noiembrie 2026 și 31 martie 2027, după codul poștal. În Scoția nu există: cine ia un ajutor care dă dreptul primește Winter Heating Payment, o dată pe iarnă."),
     dict(type="step", step="Cine NU primește", fig="2 condiții",
-         say="Pe Universal Credit trebuie amândouă: nici solicitantul, nici partenerul să nu muncească, ȘI unul din ei să aibă o boală care îi limitează munca sau un copil sub 5 ani în casă.",
+         say="Pe Universal Credit, amândouă: solicitantul și partenerul să nu fie angajați ori pe cont propriu ca ocupație principală, regulat și cu profit, ȘI unul din ei cu boală care limitează munca sau copil sub 5 ani.",
          note="Cu suma pentru un copil cu dizabilitate se dă oricum. Un copil nou-născut sau un copil sub 5 ani mutat în casă se anunță — altfel nu mai vine automat."),
   ],
   CTA_RO=dict(type="cta",
@@ -1141,7 +1141,7 @@ COLD_WEATHER = dict(
          say="Pension Credit, Universal Credit, income-related Employment and Support Allowance, or Support for Mortgage Interest — each with its own conditions.",
          note="Paid within <b>14 working days</b>, for cold spells from 1 Nov 2026 to 31 Mar 2027, by postcode. Not in Scotland — a qualifying benefit brings Winter Heating Payment there, once a winter."),
     dict(type="step", step="Who does NOT get it", fig="2 tests",
-         say="On Universal Credit both must hold: neither the claimant nor their partner is working, AND one of them has limited capability for work or a child under 5 at home.",
+         say="On Universal Credit both must hold: neither the claimant nor their partner is employed or \"gainfully self-employed\" — self-employment as their main job, worked regularly and expecting a profit — AND one of them has limited capability for work or a child under 5 at home.",
          note="A disabled child amount in the claim and it is paid either way. A new baby, or a child under 5 moving in, must be reported or it is not automatic."),
   ],
   CTA_EN=dict(type="cta",
@@ -1181,6 +1181,29 @@ COLD_WEATHER = dict(
      "get a single payment during winter called Winter Heating Payment... You will get Winter "
      "Heating Payment automatically if you get one of the benefits that make you eligible\"",
      "https://www.mygov.scot/winter-heating-payment", "2026-11-07"),
+    ("Re-read on the Universal Credit work test and the Support for Mortgage Interest route. "
+     "The test is NOT \"working\": \"you are not employed or 'gainfully self-employed'\" and "
+     "\"your partner is not employed or 'gainfully self-employed' (if you have a partner)\", "
+     "with the term defined narrowly — \"You're likely to be considered 'gainfully "
+     "self-employed' if being self-employed is your main job, you work regularly and expect to "
+     "make a profit.\" And SMI carries a second limb: \"You'll usually get Cold Weather "
+     "Payments if you get Support for Mortgage Interest (SMI) and you're treated as getting a "
+     "qualifying benefit where one of the following applies: a severe or enhanced disability "
+     "premium; a pensioner premium; you have a child who is disabled; you have a child under 5 "
+     "living with you. You're usually treated as getting a qualifying benefit if you apply for "
+     "it but do not receive it because your income is too high.\"",
+     "https://www.gov.uk/cold-weather-payment/eligibility", "2026-11-07"),
+    ("The prescribed benefits behind the GOV.UK list, reg 1A(2): \"(a) state pension credit; "
+     "(b) income support; (c) an income-based jobseeker's allowance; (d) an income-related "
+     "employment and support allowance; (e) universal credit\" and (f)/(g) owner-occupier loan "
+     "payments — six, not the four GOV.UK's page names, so Income Support and income-based JSA "
+     "still qualify in law. Reg 1A(7)(b) defines the self-employment limb more tightly than "
+     "the guidance: employment \"organised, developed, regular and carried on in expectation "
+     "of profit\". This is why the posts keep GOV.UK's four and assert no negative about any "
+     "other benefit. Read at primary source by the round-two fact-checker on 2026-11-07; "
+     "legislation.gov.uk was not reachable from the repair session's proxy, so the quotations "
+     "here are the fact-checker's, not re-read in that session",
+     "https://www.legislation.gov.uk/uksi/1988/1724", "2026-11-07"),
   ],
   SCOPE=dict(
     nation="England, Wales and Northern Ireland only. NOT Scotland — GOV.UK states plainly "
@@ -1191,12 +1214,36 @@ COLD_WEATHER = dict(
     category="People receiving Pension Credit, income-related Employment and Support "
              "Allowance, Universal Credit or Support for Mortgage Interest, who meet that "
              "benefit's extra conditions, in a postcode area that records or is forecast a "
-             "7-day cold spell.",
-    excluded="Anyone living in Scotland gets no Cold Weather Payment at all. Anyone who "
-             "receives none of the four qualifying benefits gets nothing, however cold it is "
-             "and however low their income — it is tied to the benefit, not to the weather "
-             "alone. On Universal Credit, a claimant or partner who is employed or gainfully "
-             "self-employed is excluded, unless the claim includes a disabled child amount. A "
+             "7-day cold spell. The Support for Mortgage Interest route has a second limb that "
+             "is never dropped: being treated as getting a qualifying benefit is not enough on "
+             "its own — one of a severe or enhanced disability premium, a pensioner premium, a "
+             "disabled child or a child under 5 living with the claimant must also apply.",
+    excluded="Anyone living in Scotland gets no Cold Weather Payment at all. What no card and "
+             "no caption may say is that a reader on some other benefit gets nothing, and the "
+             "silence is deliberate rather than an omission. GOV.UK lists four qualifying "
+             "benefits and states the rule one way only — \"You may get Cold Weather Payments "
+             "if you're getting\" one of them — and never the converse. The regulations behind "
+             "it, SI 1988/1724 reg 1A(2), prescribe six: state pension credit, income support, "
+             "an income-based jobseeker's allowance, an income-related employment and support "
+             "allowance, universal credit and owner-occupier loan payments. Income Support and "
+             "income-based Jobseeker's Allowance therefore still qualify in law while GOV.UK's "
+             "page no longer names them. The posts cite GOV.UK, so the published list of four "
+             "stays exactly as GOV.UK publishes it and is NEVER \"corrected\" by adding the "
+             "other two — but the flat negative goes, because telling a reader on Income "
+             "Support or income-based JSA that they get nothing would be wrong in law and would "
+             "be a determination about that reader's own entitlement, which this firm is not "
+             "authorised to make. State the rule, name the source, and leave the reader's own "
+             "case to the source. On "
+             "Universal Credit, a claimant or partner who is employed or \"gainfully "
+             "self-employed\" is excluded, unless the claim includes a disabled child amount — "
+             "and \"gainfully self-employed\" is narrow, not a synonym for working: GOV.UK, "
+             "\"being self-employed is your main job, you work regularly and expect to make a "
+             "profit\", and reg 1A(7)(b), self-employment that is \"organised, developed, "
+             "regular and carried on in expectation of profit\". So small-scale or irregular "
+             "self-employed work IS working and may still not be gainful self-employment, and "
+             "that claimant can still qualify. No card or caption writes this limb as \"not "
+             "working\" or \"să nu muncească\", which is stricter than the rule and turns that "
+             "reader away wrongly. A "
              "Universal Credit claimant with no limited capability for work, no child under 5 "
              "and no disabled child amount is excluded too. On income-related ESA, someone in "
              "neither the work-related activity nor the support group is excluded unless they "
