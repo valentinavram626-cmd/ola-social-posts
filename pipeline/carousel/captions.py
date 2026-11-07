@@ -632,7 +632,7 @@ Nu știi ce termen urmează?""",
  th="""O firmă are patru termene, nu unul. De la anul contabil: bilanțul la Companies House în 9 luni, plata Corporation Tax în 9 luni și o zi, declarația la HMRC în 12 luni. Plus confirmation statement, la fiecare 12 luni.
 
 Dacă lucrezi pe cont propriu, fără firmă, nu ai niciunul — ai Self Assessment, cu 31 ianuarie.""",
- li="""A limited company does not have one filing date a year. It has four, in two different places, and the payment falls due before the return.
+ li="""A private limited company does not have one filing date a year. It has four, in two different places, and the payment falls due before the return.
 
 Three of them run from the company's own year end:
 • Accounts to Companies House — 9 months
@@ -644,22 +644,22 @@ Year ending 31 December 2026:
 • 1 October 2027 — Corporation Tax paid
 • 31 December 2027 — return filed
 
-So the tax is paid three months before the return that reports it is due. That ordering is the thing that catches new directors: the figure has to be worked out long before the filing deadline forces it.
+So the tax is paid three months before the return that reports it is due. That ordering catches new directors: the figure has to be worked out long before the filing deadline forces it.
 
 The fourth deadline runs on its own cycle and it is the dangerous one: a confirmation statement at Companies House, at least once every 12 months. The review period ends 12 months after incorporation or after the last confirmation statement date, and you have 14 days after that to file. GOV.UK is explicit that "You must file a confirmation statement even if there have not been any changes to your company during the review period" — £50 online. Miss it and Companies House may issue a financial penalty, you can be fined up to £5,000, and the company "may be struck off the Companies House register". Late accounts cost money; a missed confirmation statement can cost you the company.
 
 The first year is different. A newly registered company's first accounts are due 21 months after the date of registration, not 9 months after a year end.
 
-Who does not have any of this: a sole trader. No Corporation Tax, nothing at Companies House, Self Assessment with the return and payment due 31 January instead — though "one date a year" stopped being true for them on 6 April 2026, when sole traders and landlords with over £50,000 of qualifying income on the 2024-25 return came inside Making Tax Digital for Income Tax and started filing quarterly updates as well. Companies with taxable profits above £1.5 million do not use the 9-months-and-1-day date either — they pay in instalments.
+Who does not have any of this: a sole trader. No Corporation Tax, nothing at Companies House, Self Assessment with the return and payment due 31 January instead — though "one date a year" stopped being true for them on 6 April 2026, when sole traders and landlords with over £50,000 of qualifying income on the 2024-25 return came inside Making Tax Digital for Income Tax and started filing quarterly updates as well. Companies with taxable profits above £1.5 million do not use the 9-months-and-1-day date either — they pay in instalments. The 9-month accounts date is a private company's; a public company files sooner.
 
 A return is filed after a loss and when no Corporation Tax is owed, and HMRC still has to be told when nothing is due. A company dormant for Corporation Tax is the one exception — once HMRC has been told, no further return is due unless a notice to deliver one arrives. Companies House is less forgiving: accounts and a confirmation statement are still required of a dormant company.
 
 UK-wide. Nothing here is claimed and nothing is prompted.
 
 Want your company's four dates set out?""",
- bsky="""A UK company has four deadlines: accounts at 9 months, tax at 9 months and 1 day, return at 12 months, confirmation statement every 12.""",
+ bsky="""A UK private company: four deadlines. Accounts 9 months, tax 9 months and 1 day, return 12 months, confirmation statement every 12.""",
  pin_title="A UK limited company's four filing deadlines",
- pin="""The four deadlines every UK limited company has. Three run from its own year end: annual accounts to Companies House within 9 months, Corporation Tax paid 9 months and 1 day after the accounting period ends, and the Company Tax Return filed within 12 months. The fourth runs on its own cycle: a confirmation statement every 12 months, filed within 14 days of the review period ending, even if nothing has changed — miss it and the company can be struck off. A return is filed even after a loss.""",
+ pin="""The four deadlines every UK private limited company has. Three run from its own year end: annual accounts to Companies House within 9 months, Corporation Tax paid 9 months and 1 day after the accounting period ends, and the Company Tax Return filed within 12 months. The fourth runs on its own cycle: a confirmation statement every 12 months, filed within 14 days of the review period ending, even if nothing has changed — miss it and the company can be struck off. A return is filed even after a loss. A public company files its accounts sooner.""",
  source="gov.uk/prepare-file-annual-accounts-for-limited-company",
 )
 
