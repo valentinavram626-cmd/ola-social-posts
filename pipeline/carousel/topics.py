@@ -1166,7 +1166,7 @@ COLD_WEATHER = dict(
          say="Pension Credit, Universal Credit, Employment and Support Allowance legat de venit, sau Support for Mortgage Interest. Fiecare cu propriile condiții.",
          note="Banii vin în <b>14 zile lucrătoare</b>. Gerul se numără între 1 noiembrie 2026 și 31 martie 2027, după codul poștal. În Scoția nu există: cine ia un ajutor care dă dreptul primește Winter Heating Payment, o dată pe iarnă."),
     dict(type="step", step="Cine NU primește", fig="2 condiții",
-         say="Pe Universal Credit, amândouă: solicitantul și partenerul să nu fie angajați ori pe cont propriu ca ocupație principală, regulat și cu profit, ȘI unul din ei cu „capacitate limitată de muncă” stabilită oficial, sau copil sub 5 ani.",
+         say="Pe Universal Credit, ambele: solicitantul și partenerul să nu fie angajați ori pe cont propriu ca ocupație principală, regulat, cu profit, ȘI unul din ei cu „capacitate limitată de muncă” ori copil sub 5 ani.",
          note="Cu suma pentru un copil cu dizabilitate se dă oricum. Un copil nou-născut sau un copil sub 5 ani mutat în casă se anunță — altfel nu mai vine automat."),
   ],
   CTA_RO=dict(type="cta",
