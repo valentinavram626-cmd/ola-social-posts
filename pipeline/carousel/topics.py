@@ -990,7 +990,7 @@ EMPLOYMENT_ALLOWANCE = dict(
          note="Nu se reportează de la un an la altul. Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani după anul fiscal respectiv."),
     dict(type="step", step="Cine NU poate cere", fig="1 director",
          say="Firma Ltd cu un singur director și niciun alt angajat cu Class 1 secundar — partea firmei. Instituțiile publice, dacă nu sunt caritate. Cine face peste jumătate din muncă pentru sectorul public.",
-         note="Dar organizațiile de caritate pot cere oricum. Pentru o bonă sau un grădinar nu se scade nimic, doar dacă e îngrijitor — firma rămâne eligibilă."),
+         note="Dar organizațiile de caritate pot cere oricum. Pentru o bonă sau un grădinar nu se scade nimic, doar dacă e îngrijitor — cine are doar personal casnic nu poate cere."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Angajatori · Employment Allowance",
@@ -1008,7 +1008,7 @@ EMPLOYMENT_ALLOWANCE = dict(
          note="It does not carry forward. A claim never made can be backdated up to 4 years after the end of the tax year it covers."),
     dict(type="step", step="Who cannot claim", fig="1 director",
          say="A company with one director and no other employee liable for secondary Class 1. A public authority that is not a charity. An employer doing more than half its work in the public sector.",
-         note="A registered charity can claim even so. For a nanny or gardener nothing comes off, unless they are a care or support worker — the employer stays eligible."),
+         note="A registered charity can claim even so. Nothing comes off for a nanny or gardener, unless a care or support worker — an employer of domestic staff alone cannot claim."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Employers · Employment Allowance",
@@ -1053,7 +1053,14 @@ EMPLOYMENT_ALLOWANCE = dict(
      "include in your claim\" — off-payroll (IR35) earnings, and personal, household or "
      "domestic work such as a nanny or gardener unless they are a care or support worker, "
      "which are excluded LIABILITIES under NICA 2014 s.2(3)-(4) while the employer stays "
-     "eligible; only one company in a group and "
+     "eligible on its OTHER staff \u2014 and only then: NICA 2014 s.1(2)(b) caps the allowance "
+     "at the total of the liabilities \"which are not excluded liabilities\", and the further "
+     "employer guidance \u00a75 says flatly that \"Employers of domestic staff (for example, "
+     "cleaners, gardeners or nannies) will be unable to claim the Employment Allowance, as "
+     "the employees are all being employed in a personal capacity to support the running of "
+     "a household\", so an employer whose only staff are domestic has no qualifying liability "
+     "and cannot claim at all; a flat \"the employer stays eligible\" is never written. "
+     "Only one company in a group and "
      "only one payroll may claim; and since April 2025 employers with Class 1 liabilities "
      "over £100,000 can apply",
      "https://www.gov.uk/claim-employment-allowance/eligibility", "2026-11-06"),
@@ -1325,7 +1332,7 @@ RETURN_30_DAYS = dict(
   RO=[
     dict(type="hook",
          kicker="Drepturile cumpărătorului · 30 de zile",
-         h1="Ai <em>30 de zile</em> să ceri banii înapoi pe un produs defect.",
+         h1="Defect, de la un comerciant? <em>30 de zile</em> să ceri banii înapoi.",
          say="Nu e politica magazinului, e legea: Consumer Rights Act 2015. Dacă produsul e defect, nu e cum l-a descris vânzătorul sau nu face ce i-ai spus că ai nevoie, ceri banii — nu doar o reparație."),
     dict(type="step", step="Cele 30 de zile, exact", fig="30",
          say="Se numără de a doua zi după ce ai primit produsul și a devenit al tău. Dacă ceri reparație sau înlocuire, numărătoarea se oprește cât aștepți — iar dacă produsul primit e tot defect, ai cel puțin 7 zile de atunci.",
