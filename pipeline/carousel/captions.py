@@ -831,53 +831,47 @@ Want to read the Act itself?""",
 
 # ------------------------------------------------------------------ 16
 C["ni-voluntar-pensie"] = dict(
-  ro="""Ai lucrat în UK, dar nu în fiecare an? Pensia de stat se socotește în ani care contează — iar un an acoperit cu credite NI contează fără plată. Un an care nu contează e o gaură, și multe găuri se pot plăti, dar nu toate.
+  ro="""Ai lucrat în UK, dar nu în fiecare an? Pensia de stat se socotește în ani care contează — iar un an acoperit cu credite NI contează fără plată. Un an care nu contează e o gaură; nu toate se pot plăti.
 
-În 2026-2027: clasa 3 e £18,40 pe săptămână; clasa 2, pentru cine lucrează pe cont propriu cu profit sub £7.105, £3,65. Doar ultimii 6 ani fiscali, termen 5 aprilie.
+În 2026-2027: clasa 3 e £18,40 pe săptămână; clasa 2, pentru cine e pe cont propriu cu profit sub £7.105, £3,65. Doar ultimii 6 ani fiscali, termen 5 aprilie.
 
-Pentru timpul petrecut în afara UK, GOV.UK a schimbat regulile din 6 aprilie 2026: clasa 2 nu se poate plăti pentru acel timp, iar clasa 3 are condiții. Plata se cere la HMRC și nu se plătește nimic până nu vine scrisoarea cu suma și referința.
+Pentru timpul petrecut în afara UK, regulile depind de anul fiscal: clasa 2 voluntară nu se poate plăti pentru 2026-2027 și anii de după, dar interdicția nu atinge 2025-2026 și anii mai vechi din fereastra de 6 ani, unde rămân regulile de dinainte. Clasa 3 are condiții, se cere la HMRC și nu plătești până nu vine scrisoarea cu suma și referința.
 
-Cu dosar început după aprilie 2016, pensia nouă plină — £241,30 pe săptămână în 2026-2027 — cere 35 de ani care contează. De obicei ai nevoie de 10 ani ca să primești ceva: de obicei, pentru că anii de contribuții din SEE (România e în SEE) pot intra la acest minim, dar nu la sumă — aceea se face pe anii din UK.
+Cu dosar început după aprilie 2016, pensia nouă plină — £241,30 pe săptămână în 2026-2027 — cere 35 de ani care contează. De obicei ai nevoie de 10 ani ca să primești ceva — de obicei, pentru că anii din SEE (România e în SEE) pot intra la acest minim, nu la sumă, care se face pe anii din UK.
 
-Cine NU poate plăti (titlul GOV.UK): cine nu are găuri — în afară de cine primește credite clasa 3 și are dreptul la clasa 2; cine a trecut termenul; femeia măritată sau văduva, pentru un an fiscal în care alegerea cotei reduse a fost în vigoare tot anul, dar poate plăti din primul an în care nu a fost. Condiția e pe an fiscal, nu pe persoană.
+Cine NU poate plăti: cine nu are găuri — în afară de cine primește credite clasa 3 și poate plăti clasa 2; cine a trecut termenul; femeia măritată sau văduva, pentru un an fiscal în care alegerea cotei reduse a fost în vigoare tot anul — dar poate plăti din primul an în care nu a fost. Condiția e pe an fiscal, nu pe persoană.
 
-Altceva e când plata nu folosește: previziunea arată și cât ai strâns, și cât ai ajunge dacă plătești până la pensionare — un an în plus nu adaugă nimic doar dacă cifra strânsă e deja plină.
+Când plata nu folosește: un an în plus nu crește neapărat pensia — nu mai adaugă nimic după ce ai atins suma plină sau vârsta de pensionare, iar unii ani nu se pot plăti deloc. GOV.UK avertizează că plata voluntară nu crește întotdeauna pensia, de exemplu dacă ai fost contracted out. Verifică previziunea și creditele NI înainte de plată.
 
-GOV.UK avertizează: „Voluntary contributions do not always increase your State Pension". Verifică previziunea și creditele NI înainte să plătești.
-
-În tot Regatul Unit; nimic nu e automat.
+În tot Regatul Unit. Plata voluntară nu e automată — multe credite NI, da.
 
 Nu știi câți ani ai în dosar?""",
 
   th="""Ai lucrat în UK, dar nu în fiecare an? Pensia de stat se socotește în ani care contează.
 
-În 2026-2027 clasa 3 e £18,40 pe săptămână, doar pentru ultimii 6 ani fiscali.
+În 2026-2027 clasa 3 e £18,40 pe săptămână, doar ultimii 6 ani fiscali.
 
-GOV.UK scrie că plata voluntară „nu crește întotdeauna pensia". Verifică previziunea și creditele NI înainte să plătești.""",
+GOV.UK scrie că plata voluntară nu crește întotdeauna pensia, de exemplu dacă ai fost contracted out. Verifică întâi previziunea și creditele NI.""",
 
-  li="""The UK State Pension is counted in qualifying years, not in earnings — and a year counts through National Insurance credits as well as contributions paid.
+  li="""The UK State Pension is counted in qualifying years, not in earnings — and a year counts through National Insurance credits as well as contributions paid. A year that does not count is a gap, and many gaps can be paid for, not all.
 
-A year that does not count is a gap. Many gaps can be paid for, not all.
+Voluntary rates for 2026/27: Class 3, the general class, £18.40 a week; Class 2, for the self-employed with profits under £7,105, £3.65.
 
-Voluntary rates for 2026/27: Class 3, the general class, £18.40 a week; Class 2, for the self-employed with profits under £7,105, £3.65 a week.
+The window: GOV.UK says "You can only pay voluntary contributions for the past 6 years", with 5 April as the annual deadline. Six years is the general rule: HMRC can allow a later payment in limited circumstances, with a right of appeal.
 
-The window: GOV.UK says "You can only pay voluntary contributions for the past 6 years", with 5 April as the annual deadline. Six years is the general rule, not an absolute — HMRC can allow a later payment in the limited circumstances its manual sets out, on a formal decision with a right of appeal.
+Time spent abroad: GOV.UK says which contributions you can pay "depend on the tax year you were living or working abroad". From the 2026 to 2027 tax year on, "You cannot pay voluntary Class 2 National Insurance contributions for time abroad" — but that bar does not reach the 2025 to 2026 tax year or any earlier year, which keep the previous rules and conditions. Class 3 for periods abroad has its own conditions and must be applied for: "Do not make any payments until you get a letter from HMRC" giving the amount and reference.
 
-Time spent abroad: GOV.UK says the rules changed on 6 April 2026 for anyone living or working abroad, and that voluntary Class 2 cannot be paid for time abroad. Class 3 for periods abroad carries its own conditions. Paying for time abroad must be applied for, and GOV.UK says: "Do not make any payments until you get a letter from HMRC" giving the amount and the reference.
+Why the years matter: a record started after April 2016 needs 35 qualifying years for the full new State Pension, £241.30 a week in 2026/27. And 10 qualifying years is the usual minimum before any is paid — usual, because contributions to an EEA country's state pension can count towards it, though not towards the amount, which rests on UK years.
 
-Why the years matter: a record started after April 2016 needs 35 qualifying years for the full new State Pension, £241.30 a week in 2026/27. And 10 qualifying years is the usual minimum before any is paid — usual, because contributions to the state pension of an EEA country can count towards that 10-year minimum. They do not count towards the amount, which rests on UK years.
-
-Who cannot pay — GOV.UK's own list:
+Who cannot pay:
 • anyone with no gaps, "unless you're getting Class 3 credits and are eligible to pay Class 2 contributions"
 • anyone past the deadline for the years with gaps
-• a married woman or widow, for any tax year throughout which a reduced rate election was in force; she can pay from a tax year in which it was not in force throughout
-The condition sits on the tax year, not the person.
+• a married woman or widow, for any tax year throughout which a reduced rate election was in force — reg 132 SSCR 2001; she can pay from a tax year in which it was not in force throughout, and for Class 2 the unit is the contribution week
+The condition sits on the year, not the person.
 
-Not needing to pay is different. A forecast shows both what the record has earned so far and what it would reach if contributions continue to State Pension age, so a forecast at £241.30 only means a further year adds nothing if the figure already earned is the full rate.
+GOV.UK describes its forecast as showing "how much State Pension you could get" and "how you could increase it" — read it before paying: a further year adds nothing once the full rate or State Pension age is reached, and some years cannot be paid at all. GOV.UK warns: "Voluntary contributions do not always increase your State Pension, for example if you were contracted out." Check eligibility for National Insurance credits too: some gaps cost nothing.
 
-And the warning GOV.UK prints itself: "Voluntary contributions do not always increase your State Pension, for example if you were contracted out." Read the forecast, and check eligibility for National Insurance credits — some gaps cost nothing — before paying.
-
-UK-wide; nothing is automatic.
+UK-wide. A voluntary contribution is never automatic; many National Insurance credits are.
 
 Want your National Insurance record read before you pay?""",
 
@@ -887,7 +881,7 @@ Want your National Insurance record read before you pay?""",
 
   pin="""Voluntary National Insurance for 2026/27: Class 3 is £18.40 a week, and Class 2, for the self-employed with profits under £7,105, is £3.65. Contributions are allowed for the past 6 tax years only, by 5 April. A record starting after April 2016 needs 35 qualifying years for the full new State Pension of £241.30 a week, and usually 10 qualifying years before anything is paid: EEA contributions count towards that minimum, not towards the amount, which rests on UK years. Paying does not always increase a State Pension — check the forecast and NI credits first.""",
 
-  source="gov.uk/voluntary-national-insurance-contributions, /rates, /deadlines, /who-can-pay-voluntary-contributions, /if-you-live-or-work-abroad · gov.uk/new-state-pension, /what-youll-get, /living-and-working-overseas",
+  source="gov.uk/voluntary-national-insurance-contributions, /rates, /deadlines, /if-you-live-or-work-abroad · gov.uk/new-state-pension",
 )
 
 # ------------------------------------------------------------------ 17
