@@ -672,7 +672,7 @@ Nu vine singură. Se cere din programul de salarii, pentru un singur stat de pla
 Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani — pentru 2022/23, până pe 5 aprilie 2027. Dar un an vechi are alte condiții: £10.500 e suma din 2025/26 încoace, iar între 6 aprilie 2022 și 5 aprilie 2025 era £5.000 pe an. Pentru 2024/25 sau mai vechi poți cere doar dacă Class 1-ul firmei din anul anterior a fost sub £100.000 — barieră căzută în aprilie 2025, deci din 2025/26 nu mai există limită.
 
 Cine NU poate cere deloc — firma:
-• Firma Ltd cu un singur director, dacă el e singurul angajat cu National Insurance Class 1 secundar — partea firmei, peste Secondary Threshold. Pe cont propriu nu se aplică.
+• Firma Ltd cu un singur director, dacă el e singurul angajat cu National Insurance Class 1 secundar — partea firmei, peste Secondary Threshold.
 • Instituțiile publice fără statut de caritate — primărie, consiliu local sau parohial — oricât de puțin lucrează pentru public.
 • Orice alt angajator cu peste jumătate din muncă pentru sectorul public — dar organizațiile de caritate pot cere oricum.
 • Într-un grup de firme sau de organizații de caritate legate între ele, cere una singură.
@@ -695,7 +695,7 @@ And it is claimed again every single tax year, by Employer Payment Summary. It d
 
 If you never claimed at all, you can go back up to 4 years after the end of the tax year concerned — a 2022 to 2023 claim has to be made by 5 April 2027. But an earlier year is not claimed on today's terms. The allowance is £10,500 for 2025 to 2026 onwards; for each year between 6 April 2022 and 5 April 2025 it was £5,000. And to claim for 2024 to 2025 or earlier, your employers' Class 1 National Insurance liabilities must have been less than £100,000 in the previous tax year. From 2025 to 2026 onwards there is no limit — that bar was lifted in April 2025.
 
-One more bar sits on that past-years page, and nowhere else: for some businesses the allowance counted as de minimis state aid, capped over 3 years, and a business over the cap could not claim — most likely where the business is both located in Northern Ireland and makes or sells goods or wholesale electricity. HMRC asks the state-aid question only if you are claiming for a previous year.
+One more bar sits on that past-years page, and nowhere else: for some businesses the allowance counted as de minimis state aid, capped over 3 years, and a business over the cap could not claim — most likely where the business is both located in Northern Ireland and makes or sells goods or wholesale electricity. HMRC asks the state-aid question only for a previous year.
 
 Who cannot claim at all — the employer. The first is the trap for small companies:
 • A company with a single director who is its only employee liable for secondary Class 1 National Insurance.
@@ -714,7 +714,7 @@ UK-wide, for the current tax year.
 Want your payroll checked against the conditions?""",
  bsky="""Employment Allowance: up to £10,500 off employer Class 1 National Insurance, claimed again every tax year. It never carries forward.""",
  pin_title="Employment Allowance: £10,500 and who cannot claim",
- pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never automatic and must be claimed again every tax year. Which employers cannot claim: a company whose single director is its only employee liable for secondary Class 1, and an employer doing over half its work in the public sector unless it is a charity. Separately, a nanny or gardener in personal, household or domestic work cannot be included unless they are a care or support worker; an employer of domestic staff alone cannot claim at all.""",
+ pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never automatic and must be claimed again every tax year. Which employers cannot claim: a company whose single director is its only employee liable for secondary Class 1, and an employer doing over half its work in the public sector unless it is a charity. Separately, a nanny or gardener in personal, household or domestic work cannot be included unless they are a care or support worker; an employer of domestic staff alone cannot claim.""",
  source="gov.uk/claim-employment-allowance/eligibility, /claim-for-past-years, plus HMRC's further employer guidance",
 )
 

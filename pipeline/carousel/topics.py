@@ -989,7 +989,7 @@ EMPLOYMENT_ALLOWANCE = dict(
          say="Se scad până la <b>£10.500</b> din National Insurance-ul Class 1 plătit de firmă într-un an fiscal. Se cere din programul de salarii, pentru un singur stat de plată — și se cere din nou la fiecare an fiscal.",
          note="Nu se reportează de la un an la altul. Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani după anul fiscal respectiv."),
     dict(type="step", step="Cine NU poate cere", fig="1 director",
-         say="Firma cu un singur director și niciun alt angajat cu Class 1 secundar — partea firmei. Instituțiile publice, dacă nu sunt caritate. Cine face peste jumătate din muncă pentru sectorul public.",
+         say="Firma Ltd cu un singur director și niciun alt angajat cu Class 1 secundar — partea firmei. Instituțiile publice, dacă nu sunt caritate. Cine face peste jumătate din muncă pentru sectorul public.",
          note="Dar organizațiile de caritate pot cere oricum. Pentru o bonă sau un grădinar nu se scade nimic, doar dacă e îngrijitor — firma rămâne eligibilă."),
   ],
   CTA_RO=dict(type="cta",
@@ -1017,6 +1017,21 @@ EMPLOYMENT_ALLOWANCE = dict(
     phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
 
   SOURCES=[
+    ("The single-director bar is confined to BODIES CORPORATE and must never be written "
+     "in a way that reaches a sole trader or a partnership. HMRC: \"Limited companies "
+     "cannot claim Employment Allowance if they have just one director and that director "
+     "is the only employee liable for secondary Class 1 National Insurance\" and, "
+     "explicitly, \"This only applies to limited companies. If you're self-employed, this "
+     "does not apply to you.\" NICA 2014 s.2(4A) opens \"A body corporate (\u2018C\u2019)\". The "
+     "English \"a company with a single director\" maps correctly; Romanian \"firmă\" does "
+     "NOT \u2014 it covers a sole trader and a partnership alike, so a bare \"firma cu un "
+     "singur director\" told a self-employed reader that a bar applied to them which does "
+     "not. That error was published on 7 November 2026 and corrected the same day. Every "
+     "Romanian card, alt text and caption says \"firma Ltd\", never a bare \"firma\". HMRC's "
+     "further guidance \u00a77 and \u00a78 are the other half of the same point: a self-employed "
+     "person and a partnership CAN claim where they employ someone and pay employer "
+     "Class 1",
+     "https://www.gov.uk/government/publications/employment-allowance-more-detailed-guidance/single-director-companies-and-employment-allowance-further-employer-guidance", "2026-11-07"),
     ("Employment Allowance is worth up to £10,500 off the employer's Class 1 National "
      "Insurance; a single-director company cannot claim where that director is the only "
      "employee liable for secondary Class 1 National Insurance; an employer must do less "
@@ -1057,28 +1072,44 @@ EMPLOYMENT_ALLOWANCE = dict(
      "there is no limit.\" Previous rates: £10,500 for 2025 to 2026, and £5,000 for each "
      "year between 6 April 2022 and 5 April 2025",
      "https://www.gov.uk/claim-employment-allowance/claim-for-past-years", "2026-11-06"),
-    ("De minimis state aid is an OUTRIGHT BAR on claiming and it sits on the same "
-     "claim-for-past-years page this topic cites, so no caption that promotes backdating "
-     "may omit it and no caption may assert \"UK-wide\" without it: \"For some businesses, "
-     "Employment Allowance counts as 'de minimis state aid'... There's a limit to how much "
-     "de minimis state aid these businesses can get over a 3-year period. If they exceed "
-     "the limit, they cannot claim Employment Allowance.\" The page says the limits are "
-     "\"likely to apply to your business if both of the following are true: your business "
-     "is located in Northern Ireland; your business makes or sells goods or wholesale "
-     "electricity\", and gives the 3-year limits as 20,000 euros for agricultural products "
-     "up to 200,000 euros for industrial and other businesses",
-     "https://www.gov.uk/claim-employment-allowance/claim-for-past-years", "2026-11-07"),
+    ("De minimis state aid was REPEALED for 2025 to 2026 onwards and is NEVER written as a "
+     "live current-year bar. It was published as one on 7 November 2026 \u2014 on the LinkedIn "
+     "caption and in the closing \"UK-wide, for the current tax year \u2014 subject to that "
+     "Northern Ireland state-aid cap\" \u2014 because the previous instruction quoted the "
+     "GOV.UK passage WITHOUT its scope. The scope is part of the rule. NICA 2014 "
+     "s.2(4F)-(4G) are shown on legislation.gov.uk as \"omitted (6.4.2025)\", by the "
+     "National Insurance Contributions (Secondary Class 1 Contributions) Act 2025 "
+     "s.3(3)(a), which reads: \"In section 2 (exceptions), omit subsections (4B) to (4G) "
+     "(secondary Class 1 liability limit of £100,000 or more and receipt of de minimis "
+     "state aid)\", in force 6 April 2025. GOV.UK carries the state-aid test ONLY on "
+     "\"Check if you can claim for previous years\" and not on the current-year eligibility "
+     "page, which does not mention state aid at all; the how-to-claim page asks the "
+     "state-aid question only \"If you're claiming for a previous year\". So there is no "
+     "state-aid cap on a 2026/27 claim, \"UK-wide\" and the current tax year are never "
+     "qualified by one, and the words \"outright bar\" are never attached to it in the "
+     "present tense. It DOES still bite on claims for 2024 to 2025 and earlier \u2014 exactly "
+     "the backdating this topic encourages \u2014 so the point is kept with that scope and only "
+     "that scope: \"For some businesses, Employment Allowance counts as 'de minimis state "
+     "aid'... There's a limit to how much de minimis state aid these businesses can get "
+     "over a 3-year period. If they exceed the limit, they cannot claim Employment "
+     "Allowance\", \"likely to apply to your business if both of the following are true: "
+     "your business is located in Northern Ireland; your business makes or sells goods or "
+     "wholesale electricity\", with 3-year limits from 20,000 euros for agricultural "
+     "products to 200,000 euros for industrial and other businesses",
+     "https://www.legislation.gov.uk/ukpga/2025/11/section/3", "2026-11-07"),
   ],
   SCOPE=dict(
     nation="All of the UK — employer Class 1 National Insurance is a UK-wide HMRC charge "
-           "with no devolved variation. But \"UK-wide\" is never written flat, because one "
-           "bar is territorial: GOV.UK's claim-for-past-years page stops a business that has "
-           "exceeded its 3-year de minimis state aid limit from claiming at all, and says "
-           "that limit is likely to apply where the business is BOTH located in Northern "
-           "Ireland AND makes or sells goods or wholesale electricity. It is a Northern "
-           "Ireland carve-out on an otherwise UK-wide allowance, it bites on exactly the "
-           "backdated claims this topic encourages, and it was read at primary source on "
-           "7 November 2026. Any caption with the headroom to carry it carries it.",
+           "with no devolved variation, and nothing territorial qualifies a CURRENT-YEAR claim. "
+           "\"UK-wide, for the current tax year\" therefore stands unqualified. The 7 November 2026 "
+           "version of this field, which told captions to hang a Northern Ireland state-aid cap on "
+           "it, was wrong: the de minimis state aid condition was repealed from 6 April 2025 — NICA "
+           "2014 s.2(4B)-(4G) omitted by the National Insurance Contributions (Secondary Class 1 "
+           "Contributions) Act 2025 s.3(3)(a) — GOV.UK carries it only on the claim-for-past-years "
+           "page, and the current-year eligibility page does not mention state aid at all. The cap "
+           "is a Northern Ireland carve-out on BACKDATED claims for 2024 to 2025 and earlier and on "
+           "nothing else, so it is written only where the sentence is about those years. Read at "
+           "primary source on 7 November 2026.",
     category="Employers paying employer Class 1 National Insurance who do less than half their work in the public sector — an employer at exactly 50% is entitled, because the test is MORE than 50% — and charities including community amateur sports clubs. A public authority is NOT in this category: NICA 2014 s.2(1) bars \"a public authority which is not a charity\", s.2(2) defines one as a person whose activities involve, wholly or mainly, the performance of functions of a public nature, and HMRC's further guidance names local authorities, town councils and parish councils as ineligible unless they have charitable status. The share-of-work test is part of what makes a body a public authority; it is not a condition on which a public body may claim, so a parish council is barred whatever proportion of its work is public-facing, and \"businesses and public bodies doing less than half their work in the public sector\" is never written as a who-CAN-claim line. The charity carve-out was read at primary source on 6 November 2026: a registered charity can claim even when it is wholly or mainly carrying out functions of a public nature, so the public-sector exclusion on every card and caption now carries it.",
     excluded="A company with one director and no other employee liable for secondary Class 1 "
              "National Insurance cannot claim at all — that is the single commonest exclusion "
@@ -1089,22 +1120,34 @@ EMPLOYMENT_ALLOWANCE = dict(
              "unless it is a charity however little of its work faces the public. Two different kinds "
              "of exclusion must stay apart, as GOV.UK and the statute keep them apart. The "
              "employer-level bar — NICA 2014 s.2(1) and s.2(4A) — is who \"cannot qualify\": the "
-             "public authority and the single-director company. Separately, an EMPLOYEE can be "
+             "public authority and the single-director company; s.2(4A) opens \"A body corporate\", "
+             "so it is never written in a way that reaches a sole trader or a partnership, and the "
+             "Romanian says \"firma Ltd\", never a bare \"firma\". Separately, an EMPLOYEE can be "
              "outside the claim while the employer stays eligible and keeps claiming on everyone "
-             "else, because NICA 2014 s.2(3) and s.2(4) make these \"excluded liabilities\": the "
+             "else — but ONLY where non-excluded liabilities are left, and that condition is never "
+             "dropped: NICA 2014 s.1(2)(b) caps the allowance at the total of the liabilities "
+             "\"which are not excluded liabilities\", and HMRC's eligibility guidance section 5 says "
+             "flatly that \"Employers of domestic staff (for example, cleaners, gardeners or nannies) "
+             "will be unable to claim the Employment Allowance, as the employees are all being "
+             "employed in a personal capacity to support the running of a household\". An employer "
+             "whose only employees are domestic staff has no eligibility left at all, so a flat "
+             "\"the employer stays eligible\" — published on 7 November 2026 on LinkedIn, Pinterest "
+             "and both Romanian long captions — is wrong without it. NICA 2014 s.2(3) and s.2(4) "
+             "make these the \"excluded liabilities\": the "
              "earnings of an employee within off-payroll working rules, and someone employed for "
              "personal, household or domestic work such as a nanny or gardener, unless that person "
              "is a care or support worker. No card or caption puts those two under one \"who cannot "
              "claim\" heading, because that reads as though the nanny were the one barred from "
              "claiming. Within a group of connected companies or connected charities only "
              "one of them may claim, and an employer running several payrolls may claim against only one of "
-             "them. A business with no employees at all is outside it entirely. And a business that has "
-             "exceeded its de minimis state aid limit over a 3-year period cannot claim — GOV.UK "
-             "puts that at its most likely where the business is both located in Northern Ireland "
-             "and makes or sells goods or wholesale electricity. That one is an outright bar, not "
-             "an excluded liability, and it belongs with the public authority and the "
-             "single-director company rather than with the nanny.",
-    from_when="Claimed through payroll software for EACH tax year separately — never automatic and never carried forward, so an employer who claimed last year and assumed it rolled over loses up to £10,500. A claim never made can be backdated up to 4 years after the end of the tax year concerned — but an earlier year is not claimed on today's terms: the allowance is £10,500 for 2025 to 2026 onwards and was £5,000 for each year between 6 April 2022 and 5 April 2025, and to claim for 2024 to 2025 or earlier the employers' Class 1 National Insurance liabilities must have been less than £100,000 in the previous tax year. The £100,000 bar was lifted from April 2025, so from 2025 to 2026 onwards there is no limit."),
+             "them. A business with no employees at all is outside it entirely. And for a BACKDATED "
+             "claim covering 2024 to 2025 or earlier — and only then — a business that has exceeded "
+             "its de minimis state aid limit over a 3-year period cannot claim; GOV.UK puts that at "
+             "its most likely where the business is both located in Northern Ireland and makes or "
+             "sells goods or wholesale electricity. It was repealed from 6 April 2025, GOV.UK "
+             "carries it only on the claim-for-past-years page, and it is therefore NOT a bar on a "
+             "2026/27 claim and is never written as one.",
+    from_when="Claimed through payroll software for EACH tax year separately — never automatic and never carried forward, so a fresh EPS claim is needed every year. NOTHING IS LOST by missing one, and no card or caption says it is: HMRC's claiming guidance section 8 allows a claim \"up to 4 years after the end of the tax year in which the allowance applies\", and section 7 says a late claim leaves a credit on the PAYE record which HMRC sets against PAYE debt or other liabilities, or repays. The 7 November 2026 LinkedIn caption said an employer who assumed it rolled over \"silently loses up to £10,500\" — unsourced, contradicted by the 4-year backdating two paragraphs later in the same post, and removed. A claim never made can be backdated up to 4 years after the end of the tax year concerned — but an earlier year is not claimed on today's terms: the allowance is £10,500 for 2025 to 2026 onwards and was £5,000 for each year between 6 April 2022 and 5 April 2025, and to claim for 2024 to 2025 or earlier the employers' Class 1 National Insurance liabilities must have been less than £100,000 in the previous tax year. The £100,000 bar was lifted from April 2025, so from 2025 to 2026 onwards there is no limit."),
 )
 
 # ==================================================================== 14
