@@ -1127,63 +1127,59 @@ Prepayment meters still qualify: the account holder qualifies with no paper bill
 
 # ------------------------------------------------------------------ 20
 C["concediu-56-saptamani"] = dict(
-  ro="""Concediul plătit nu e un bonus de la angajator. E un drept, iar GOV.UK îl scrie în săptămâni: 5,6 săptămâni pe an pentru aproape toți cei care intră în categoria „worker".
+  ro="""Concediul plătit nu e un bonus. E un drept, iar GOV.UK îl scrie în săptămâni: 5,6 săptămâni pe an pentru aproape toți cei din categoria „worker".
 
 Cum arată în zile:
 • 5 zile pe săptămână → 28 de zile plătite pe an
 • 4 zile pe săptămână → cel puțin 22,4 zile
 • 3 zile pe săptămână → cel puțin 16,8 zile
 
-De aici vine confuzia: legea dă săptămâni, nu zile, deci cine lucrează mai puțin primește mai puține zile.
+Și există un plafon: 28 de zile e maximul din lege, oricâte zile pe săptămână ai lucra. Cine lucrează 6 zile pe săptămână are tot 28, nu 33,6.
 
-Și există un plafon. 28 de zile e maximul prevăzut de lege, oricâte zile pe săptămână ai lucra. Cine lucrează 6 zile pe săptămână are tot 28, nu 33,6.
+Nu se cere vechime: dreptul e de la prima zi, iar primul an se dă proporțional. Zilele se iau în anul în care le-ai câștigat și nu se pot plăti în bani cât ești angajat — doar la încetarea contractului.
 
-Sărbătorile legale: GOV.UK scrie că „Bank or public holidays do not have to be given as paid leave". Angajatorul le poate socoti în cele 28 de zile. Deci dacă te așteptai la 28 de zile PLUS cele 8 sărbători, se poate să nu fie așa, fără ca angajatorul să încalce nimic.
+Sărbătorile legale nu se adaugă: GOV.UK scrie că nu trebuie date ca zile libere plătite și pot fi socotite în cele 28. Dacă te așteptai la 28 PLUS cele 8 sărbători legale (9 în Scoția), se poate să nu fie așa.
 
-Cine NU are acest drept: cine lucrează pe cont propriu. GOV.UK scrie că legea muncii „does not cover self-employed people in most cases" și trece chiar „they do not get holiday or sick pay when they're not working" ca semn că omul e pe cont propriu, nu angajat.
+Cine NU are acest drept: nu eticheta din contract decide, ci ce face omul. Dreptul îl are cine lucrează personal pentru cineva care nu e clientul propriei lui afaceri — „freelance", „casual" sau „zero hours" pe hârtie poate însemna tot „worker". În afara dreptului rămân cei care își poartă chiar afacerea lor, cu clienții lor. Testul e pe gov.uk/employment-status.
 
-Dar — și asta e partea care îi interesează pe cei mai mulți — eticheta din contract nu decide. „Freelance", „casual" sau „zero hours" pe hârtie poate însemna tot „worker" după definiția de pe GOV.UK, iar statutul de worker vine cu concediu plătit. Ce statut are cineva se stabilește pe faptele muncii, nu pe cuvântul din contract.
+La ore neregulate se socotește altfel, nu dispare: pentru anii de concediu care încep de la 1 aprilie 2024, concediul se adună ca 12,07% din orele lucrate în perioada de plată. Regula e doar pentru cine are, prin contract, ore în mare parte variabile, și pentru cine lucrează doar o parte din an, cu pauze neplătite de cel puțin o săptămână. Orele fixe prin contract nu intră aici.
 
-La ore neregulate se socotește altfel, nu dispare: pentru anii de concediu care încep de la 1 aprilie 2024 încoace, concediul se adună ca 12,07% din orele lucrate efectiv în fiecare perioadă de plată.
-
-Pagina GOV.UK acoperă Anglia, Scoția și Țara Galilor; în Irlanda de Nord regulile sunt proprii.
+Pagina GOV.UK acoperă Anglia, Scoția și Țara Galilor. În Irlanda de Nord cifrele sunt aceleași — 5,6 săptămâni, plafon 28 de zile — dar regulile sunt proprii.
 
 Faci payroll pentru oamenii tăi?""",
 
-  th="""Concediul plătit e un drept pentru aproape toți: 5,6 săptămâni pe an. 5 zile pe săptămână → 28 de zile; 3 zile → 16,8.
+  th="""Concediul plătit e un drept pentru aproape toți: 5,6 săptămâni pe an. 5 zile pe săptămână → 28 de zile; 3 zile → cel puțin 16,8.
 
 Sărbătorile legale pot intra în cele 28.
 
-Cine NU are dreptul: cine lucrează pe cont propriu. Dar „zero hours" pe hârtie nu decide singur statutul.""",
+Cine NU are dreptul: cine își poartă propria afacere, cu clienții lui. Nu eticheta decide: gov.uk/employment-status""",
 
-  li="""Statutory paid holiday is written in weeks, not days: GOV.UK says almost all people classed as workers are legally entitled to 5.6 weeks' paid holiday a year.
+  li="""Statutory paid holiday is written in weeks: GOV.UK says almost all people classed as workers get 5.6 weeks' paid holiday a year.
 
 In days:
 • a 5-day week → 28 paid days a year
 • a 4-day week → at least 22.4 days
 • a 3-day week → at least 16.8 days
 
-That is where the confusion starts. The entitlement scales with the working pattern, so part-time workers get fewer days for the same 5.6 weeks.
+There is a cap. "Statutory paid holiday entitlement is limited to 28 days", so a worker on a 6-day week still gets 28, not 33.6.
 
-There is also a cap. "Statutory paid holiday entitlement is limited to 28 days", so a worker on a 6-day week still gets 28, not 33.6.
+Bank holidays are not an addition: GOV.UK says they "do not have to be given as paid leave" and an employer may count them towards statutory leave. So 28 days plus England and Wales's eight bank holidays — nine in Scotland — is not a safe assumption.
 
-Bank holidays are not an addition. GOV.UK: "Bank or public holidays do not have to be given as paid leave", and an employer may count them towards statutory leave. A worker expecting 28 days plus eight bank holidays can be wrong without the employer breaching anything.
+Who does NOT have the right: people genuinely in business on their own account, whose customer is a client of that business. The right attaches to the contract and to what the person does, not to an occupation or a self-description — GOV.UK notes someone can be both employed and self-employed at once, and that a tax status of self-employed is not the employment-law one. The outright exclusions are narrow: seafarers, sea-fishermen, inland waterways workers.
 
-Who does NOT have the right: self-employed people. GOV.UK says employment law "does not cover self-employed people in most cases", and lists "they do not get holiday or sick pay when they're not working" as a sign of self-employment.
+The label does not decide it. GOV.UK gives five conditions for worker status: a contract or arrangement, written or unwritten, to do work personally for a reward; payment in money or kind; a limited right to subcontract only; an employer obliged to find work while it lasts; and the work not done through the person's own company with the "employer" as a client. Casual, freelance, zero hours and as required come from a separate nine-indicator list prefaced "Someone is likely to be a worker if most of these apply" — a multi-factor test: gov.uk/employment-status/worker.
 
-But the label on the paperwork does not decide it. A person is generally a worker if they "have a contract or other arrangement to do work or services personally for a reward", written or unwritten — including arrangements described as casual, freelance, zero hours or as required. Worker status comes with paid holiday, and status turns on the facts of the working relationship rather than on the word used in the contract.
+Irregular hours mean a different calculation, not no entitlement: for leave years beginning on or after 1 April 2024, irregular hours and part-year workers accrue 12.07% of hours actually worked in a pay period. Rolled-up holiday pay at 12.07% is for those two groups only.
 
-Irregular hours are a different calculation, not an absence of entitlement: for leave years beginning on or after 1 April 2024, entitlement for irregular hours and part-year workers is 12.07% of actual hours worked in a pay period. Rolled-up holiday pay at 12.07%, itemised on the payslip, is an option for those two groups only.
+No qualifying period applies: the right runs from day one, with the first leave year pro-rated — only extra contractual leave can require length of service. It is also use-it-or-lose-it: leave may only be taken in its own leave year and cannot be paid in lieu unless the employment ends.
 
-The GOV.UK guidance covers Great Britain; Northern Ireland has its own Working Time Regulations and its own guidance from nidirect.
+GOV.UK covers Great Britain, but the headline entitlement is identical in Northern Ireland — 5.6 weeks, capped at 28 days — under the Working Time Regulations (Northern Ireland) 2016 and nidirect's guidance. What differs is the detail: the NI Regulations have no irregular hours, part-year, 12.07% or rolled-up pay provisions, NI keeps its own first-year accrual rule, and has 10 bank holidays.""",
 
-For employers: this is the kind of thing that is cheap to get right in the payroll and expensive to get wrong at a tribunal.""",
-
-  bsky="""Paid holiday is 5.6 weeks a year for almost all workers, capped at 28 days. A "zero hours" label does not decide status.""",
+  bsky="""Great Britain: paid holiday is 5.6 weeks a year, capped at 28 days. Status decides, not the label: gov.uk/employment-status""",
 
   pin_title="UK paid holiday: 5.6 weeks, capped at 28 days",
 
-  pin="""Statutory paid holiday in Great Britain is 5.6 weeks a year for almost everyone classed as a worker, capped at 28 days. A 5-day week gives 28 paid days, a 3-day week at least 16.8 — the law gives weeks, so the days scale with the pattern and nobody gets more than 28. Bank holidays do not have to be given as paid leave and may be counted inside the 28. Self-employed people get none, but a freelance, casual or zero hours label does not decide it — worker status can still apply. Irregular hours: 12.07% of hours worked.""",
+  pin="""Statutory paid holiday in Great Britain is 5.6 weeks a year for almost anyone classed as a worker; the statutory cap is 28 days, but a contract may give more. A 5-day week gives 28 paid days, a 3-day week at least 16.8. Bank holidays need not be paid leave and may count in the 28. A freelance, casual, zero hours or self-employed label does not decide it: status follows the contract — gov.uk/employment-status. From 1 April 2024 leave years, workers whose contractual hours are wholly or mostly variable, and part-year workers accrue 12.07% of hours worked.""",
 
   disc_ro="Informații generale, nu consiliere juridică. Pentru dispute de concediu: Acas. Noi facem payroll.",
   disc_en="General information, not legal advice. For holiday disputes: Acas. We run payroll.",
