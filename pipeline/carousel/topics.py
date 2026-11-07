@@ -1178,10 +1178,10 @@ RETURN_30_DAYS = dict(
          h1="Ai <em>30 de zile</em> să ceri banii înapoi pe un produs defect.",
          say="Nu e politica magazinului, e legea: Consumer Rights Act 2015. Dacă produsul e defect, nu e cum l-a descris vânzătorul sau nu face ce ar trebui, ceri banii — nu doar o reparație."),
     dict(type="step", step="Cele 30 de zile, exact", fig="30",
-         say="Se numără de a doua zi după ce ai primit produsul și a devenit al tău. Dacă ceri reparație sau înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas.",
+         say="Se numără de a doua zi după ce ai primit produsul și a devenit al tău. Dacă ceri reparație sau înlocuire, numărătoarea se oprește cât aștepți — iar dacă produsul primit e tot defect, ai cel puțin 7 zile de atunci.",
          note="Banii trebuie dați fără întârziere și în cel mult <b>14 zile</b> de când vânzătorul e de acord că ți se cuvin."),
     dict(type="step", step="Cine NU are cele 30 de zile", fig="privat",
-         say="Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă, legea asta nu se aplică. Nici dacă ai cumpărat pentru firma ta, nu pentru tine — atunci nu ești consumator în sensul legii.",
+         say="Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă, legea asta nu se aplică. Nici dacă ai cumpărat în totalitate sau în principal pentru firma ta. Dacă a fost mai mult pentru tine, rămâi consumator.",
          note="La produsele care se strică repede termenul e mai scurt. După 30 de zile mai ai dreptul la reparație sau înlocuire."),
   ],
   CTA_RO=dict(type="cta",
@@ -1196,10 +1196,10 @@ RETURN_30_DAYS = dict(
          h1="<em>30 days</em> to reject faulty goods and get a refund.",
          say="Not a shop's returns policy — the Consumer Rights Act 2015. Faulty, not as described or not fit for purpose: the first 30 days give you a refund, not a repair."),
     dict(type="step", step="The 30 days, precisely", fig="30",
-         say="The clock starts the day after the goods are yours and delivered. If you ask for a repair or a replacement, the clock stops while you wait and picks up where it left off.",
+         say="The clock starts the day after the goods are yours and delivered. Ask for a repair or replacement and the clock stops — if they come back still faulty you have at least 7 days from then.",
          note="A refund must be given without undue delay and in any event within <b>14 days</b> of the trader agreeing you are entitled to one."),
     dict(type="step", step="Who does NOT have the 30 days", fig="private",
-         say="Buying from a private individual rather than a trader puts you outside this Act. So does buying for your own business rather than for yourself — then you are not a consumer for these purposes.",
+         say="Buying from a private individual rather than a trader puts you outside this Act. So does buying wholly or mainly for your own business — but a buy that was mainly private keeps you a consumer.",
          note="Perishable goods have a shorter window. After 30 days you still have repair or replacement."),
   ],
   CTA_EN=dict(type="cta",
@@ -1212,9 +1212,23 @@ RETURN_30_DAYS = dict(
     ("Section 22: the short-term right to reject runs to the end of 30 days, beginning the "
      "first day after ownership or possession has passed, the goods have been delivered and "
      "any required installation is done; a shorter period for goods that can reasonably be "
-     "expected to perish; and the clock stops for the waiting period while a requested "
-     "repair or replacement is carried out",
-     "https://www.legislation.gov.uk/ukpga/2015/15/section/22", "2026-11-06"),
+     "expected to perish; the clock stops for the waiting period while a requested "
+     "repair or replacement is carried out; and section 22(7) — if the goods supplied in "
+     "response to that request still do not conform, the time limit is then either 7 days "
+     "after the waiting period ends or, if later, the original limit extended by the "
+     "waiting period",
+     "https://www.legislation.gov.uk/ukpga/2015/15/section/22", "2026-11-07"),
+    ("Explanatory Notes to section 22, paragraph 130: \"On return of the goods to the "
+     "consumer, the consumer has the remainder of the 30-day period, or 7 days (whichever "
+     "is longer), within which they can still exercise the short-term right to reject if "
+     "the goods still breach the standards set by the Act.\"",
+     "https://www.legislation.gov.uk/ukpga/2015/15/section/22/notes", "2026-11-07"),
+    ("Section 2(3): \"'Consumer' means an individual acting for purposes that are wholly "
+     "or mainly outside that individual's trade, business, craft or profession.\" So a "
+     "dual-purpose purchase that is mainly private keeps consumer status. Section 2(4): "
+     "\"A trader claiming that an individual was not acting for purposes wholly or mainly "
+     "outside the individual's trade, business, craft or profession must prove it.\"",
+     "https://www.legislation.gov.uk/ukpga/2015/15/section/2", "2026-11-07"),
     ("Chapter 2 of Part 1: section 20(15) — a refund must be given without undue delay and "
      "in any event within 14 days of the trader agreeing the consumer is entitled to one; "
      "section 9(4) — the quality term does not cover a fault specifically drawn to the "
@@ -1241,7 +1255,10 @@ RETURN_30_DAYS = dict(
              "under this Act at all — the private-sale case is the one that catches people, "
              "and it is not a shop refusing to help, it is a different legal relationship. "
              "Someone buying for purposes wholly or mainly inside their own business is not a "
-             "consumer and is outside Part 1. A fault the trader specifically drew to the "
+             "consumer and is outside Part 1 — but the test is \"wholly or mainly\", so a "
+             "dual-purpose purchase that is mainly private keeps consumer status, and s.2(4) "
+             "puts the burden on the trader to prove the buyer was not acting as a consumer. "
+             "A fault the trader specifically drew to the "
              "buyer's attention before the contract, or one the buyer's own examination of "
              "the goods ought to have revealed, is not covered by the quality term. Goods "
              "that can reasonably be expected to perish sooner have a shorter window than 30 "
@@ -1250,7 +1267,11 @@ RETURN_30_DAYS = dict(
              "only if that fails.",
     from_when="In force since 1 October 2015 for contracts made on or after that date. The 30 "
               "days run from the day after delivery and ownership; the right is exercised by "
-              "the buyer, nothing is automatic."),
+              "the buyer, nothing is automatic. If a repair or replacement is requested the 30 "
+              "days stop running for the waiting period, and under s.22(7), if the goods supplied "
+              "in response still do not conform, the limit becomes 7 days after that period ends "
+              "or the original limit extended by it, whichever is later — so a repair asked for on "
+              "day 29 leaves 7 days, not 1."),
 )
 
 DAY = [MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS]

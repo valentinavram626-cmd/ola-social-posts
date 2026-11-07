@@ -774,13 +774,13 @@ C["retur-30-zile"] = dict(
 
 Cum se numără cele 30 de zile: încep a doua zi după ce produsul e al tău și ți-a fost livrat. Dacă trebuia montat sau instalat, de a doua zi după ce vânzătorul îți spune că s-a terminat.
 
-Partea pe care puțini o știu: dacă în acest timp ceri o reparație sau o înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas. Nu pierzi zilele de așteptare.
+Partea pe care puțini o știu: dacă în acest timp ceri o reparație sau o înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas. Iar dacă produsul vine tot defect, ai cel puțin 7 zile de atunci.
 
 Banii trebuie dați fără întârziere nejustificată și în cel mult 14 zile de când vânzătorul e de acord că ți se cuvin.
 
 Cine NU are cele 30 de zile:
-• Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă. Legea se aplică doar între un comerciant și un consumator, iar un anunț între particulari e o altă relație juridică.
-• Dacă ai cumpărat pentru afacerea ta, nu pentru tine. Atunci nu ești „consumator" în sensul legii.
+• Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă. Legea se aplică doar între un comerciant și un consumator.
+• Dacă ai cumpărat în totalitate sau în principal pentru afacerea ta. Dacă a fost mai mult pentru tine, rămâi „consumator".
 
 Două lucruri care NU îți iau cele 30 de zile:
 • Un defect arătat de vânzător înainte de cumpărare, sau vizibil la verificarea făcută de tine, nu mai poate fi reclamat ca proastă calitate — dar ceri banii dacă produsul nu e cum l-a descris sau nu face ce i-ai spus că ai nevoie.
@@ -800,7 +800,7 @@ If goods bought from a trader are faulty, not as described, or not fit for a pur
 
 How the 30 days are counted: they begin the day after ownership or possession has passed to you and the goods have been delivered. Where the contract required installation, they begin the day after the trader tells you it is done.
 
-The part almost nobody knows: if you ask for or agree to a repair or a replacement inside that window, the clock stops for the waiting period and resumes where it left off. Time spent waiting is not time lost.
+The part almost nobody knows: if you ask for or agree to a repair or a replacement inside that window, the clock stops for the waiting period and resumes where it left off. And if what the trader supplies in response still does not conform, section 22(7) makes the limit 7 days after the waiting period ends — or the original limit extended by that period, if that is later. A repair asked for on day 29 leaves 7 days, not one.
 
 A refund must be given without undue delay and in any event within 14 days of the trader agreeing you are entitled to one.
 
@@ -810,7 +810,7 @@ Who does not have the 30 days:
 
 Two things that do NOT take the 30 days away, although they are often read as if they did:
 • A fault specifically drawn to the buyer's attention before the contract, or one an examination the buyer actually made ought to have revealed. Section 9(4) takes that fault outside the satisfactory quality term only. The other two grounds are untouched: if the goods are not as described, or not fit for a purpose made known to the trader, the 30-day right to reject is still there.
-• Goods that can reasonably be expected to perish sooner. They carry the same right on a shorter period — the end of the period they can reasonably be expected to last. The Act names no categories: the test is applied to the goods actually bought, so tinned food is not caught by it while a punnet of strawberries is.
+• Goods that can reasonably be expected to perish sooner. They carry the same right on a shorter period — the end of the period they can reasonably be expected to last. The Act names no categories: the test is applied to the goods actually bought.
 
 After the 30 days the remedies change rather than disappear: repair or replacement first, then a price reduction or the final right to reject if that fails.
 
