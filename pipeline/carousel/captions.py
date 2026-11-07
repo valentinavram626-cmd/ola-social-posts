@@ -761,7 +761,7 @@ England, Wales and Northern Ireland.
 
 Want the official page to check it on?""",
  bsky="""Cold Weather Payment: £25 per 7 days at 0°C or below, Nov–Mar, England/Wales/NI. On UC or ESA, report a new child or it is not automatic.""",
- pin_title="Cold Weather Payment: £25 per 7 cold days, and who misses out",
+ pin_title="Cold Weather Payment: £25 a week and who misses out",
  pin="""Cold Weather Payment pays £25 for each period of 7 consecutive days where the average temperature in your postcode area is recorded as, or forecast to be, 0°C or below, between 1 Nov 2026 and 31 Mar 2027. Paid automatically within 14 working days, with no claim to make. But on Universal Credit or income-related ESA, a new baby or a child under 5 moving in must be reported as a change, or it does not arrive automatically. Qualifying benefits: Pension Credit, income-related ESA, Universal Credit and Support for Mortgage Interest. England, Wales and NI only.""",
  disc_ro="Informații generale, nu consultanță pe beneficii. Cere sfat de specialitate.",
  disc_en="General information, not benefits advice. Get specialist advice.",
