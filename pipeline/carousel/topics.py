@@ -832,8 +832,8 @@ MILEAGE_55P = dict(
          say="<b>55p</b> pentru primele 10.000 de mile într-un an fiscal, apoi <b>25p</b> pentru fiecare milă peste. Pe motocicletă, <b>24p</b> de la prima milă.",
          note="Drumul de la casă la muncă nu se numără — doar deplasările făcute pentru muncă. Până pe 5 aprilie 2026 primele 10.000 de mile se socoteau la 45p."),
     dict(type="step", step="Cine NU poate folosi suma pe milă", fig="Taxi",
-         say="Taxiurile și mașinile de școală cu dublă comandă nu intră deloc în suma pe milă. Nici o mașină din al cărei preț, benzină sau reparații ai scăzut deja din profit.",
-         note="E una sau alta, niciodată amândouă. Iar odată folosită pentru o mașină, rămâi cu ea cât timp folosești mașina în afacere."),
+         say="Contează cum e construită mașina, nu ce meserie faci. Nu intră în suma pe milă mașinile construite pentru uz comercial — taxiurile negre, mașinile de școală cu dublă comandă. Nici mașina din al cărei preț, benzină sau reparații ai scăzut deja din profit.",
+         note="E una sau alta, niciodată amândouă. Odată folosită pentru o mașină, rămâi cu ea cât timp o folosești în afacere."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Cheltuieli · Mașina pentru muncă",
@@ -877,8 +877,10 @@ MILEAGE_55P = dict(
      "costs are already in business profits; and once the flat rate is used for a "
      "vehicle it must be kept for that vehicle",
      "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles", "2026-11-06"),
-    ("Cars designed for commercial use are outside simplified expenses altogether — the page says \"except those designed for commercial use\" and gives black cabs, hackney carriages and dual-control driving instructors' cars as its examples",
+    ("The vehicle flat rate excludes \"cars (except those designed for commercial use, for example, black cabs, hackney carriages or dual control driving instructors' cars)\" — the test is the vehicle's DESIGN, not the driver's occupation, so an ordinary car used for private hire or ride-hailing is not excluded by this limb; and what is barred is the vehicle flat rate, not the simplified-expenses flat rates for working from home or for living at your business premises",
      "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles", "2026-11-06"),
+    ("HMRC Business Income Manual BIM75005: the fixed rate mileage deduction covers cars, motorcycles and goods vehicles used for the trade \"(except cars designed for commercial use, for example black cabs or dual control driving instructor cars)\" — it names only those two, and no occupation-based exclusion appears anywhere in it",
+     "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim75005", "2026-11-07"),
     ("Costs a self-employed person cannot claim, quoted verbatim: \"non-business driving or travel costs\", \"fines or penalty charges\" and \"travel between home and work\"",
      "https://www.gov.uk/expenses-if-youre-self-employed/travel", "2026-11-06"),
     ("The increase from 45 pence to 55 pence a mile for the first 10,000 miles, applying "
@@ -893,7 +895,7 @@ MILEAGE_55P = dict(
     nation="All of the UK — HMRC income tax rules for the self-employed, no devolved variation.",
     category="Self-employed people using simplified expenses for a car, goods vehicle or "
              "motorcycle used for business. The 55p/25p bands are per tax year, per vehicle.",
-    excluded="A car designed for commercial use — a black cab, a hackney carriage, a dual-control driving instructor's car — cannot use simplified expenses at all, which matters because taxi and private-hire driving is common in this audience. Nor can a vehicle on which capital allowances have been claimed, or whose running costs are already in business profits: one method or the other, never both. The miles themselves are also narrower than the hook suggests — \"travel between home and work\" cannot be claimed at all, so a driver going to the same site each day cannot count that journey, and nor can non-business driving or fines. The choice is locked in: once the flat rate is used for a vehicle it must be kept for that vehicle. And the 25p band starts at mile 10,001, so a high-mileage driver does not get 55p on every mile.",
+    excluded="A car designed for commercial use — a black cab, a hackney carriage, a dual-control driving instructor's car — cannot use the vehicle flat rate. The test is the vehicle's DESIGN, not the driver's occupation — which matters because private-hire and ride-hailing driving is common in this audience: a driver using an ordinary car is NOT excluded by this limb and CAN use the mileage flat rate, subject to the capital-allowances bar below. And only the vehicle flat rate is barred: the simplified-expenses flat rates for working from home and for living at your business premises are unaffected. Nor can a vehicle on which capital allowances have been claimed, or whose running costs are already in business profits: one method or the other, never both. The miles themselves are also narrower than the hook suggests — \"travel between home and work\" cannot be claimed at all, so a driver going to the same site each day cannot count that journey, and nor can non-business driving or fines. The choice is locked in: once the flat rate is used for a vehicle it must be kept for that vehicle. And the 25p band starts at mile 10,001, so a high-mileage driver does not get 55p on every mile.",
     from_when="55p applies from 6 April 2026, for the 2026/27 tax year and later years; it "
               "was 45p before that. Claimed on the tax return — nothing is paid out automatically."),
 )

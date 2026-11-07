@@ -548,7 +548,7 @@ Dar nu orice milă se numără. GOV.UK trece „travel between home and work" di
 
 Exemplu: 8.000 de mile pentru muncă într-un an → 8.000 × 55p = £4.400 scăzuți din profit. La 14.000 de mile: primele 10.000 la 55p (£5.500) plus 4.000 la 25p (£1.000) = £6.500.
 
-Cine NU poate folosi suma pe milă deloc: mașinile construite pentru uz comercial. GOV.UK scrie „except those designed for commercial use" și dă ca exemple taxiurile negre, hackney carriages și mașinile de școală cu dublă comandă. Dacă conduci taxi sau ești instructor auto, suma pe milă nu ți se aplică.
+Cine NU poate folosi suma pe milă deloc: mașinile construite pentru uz comercial. GOV.UK scrie „except those designed for commercial use" și dă ca exemple taxiurile negre, hackney carriages și mașinile de școală cu dublă comandă. Contează cum e construită mașina, nu ce meserie faci — cu o mașină normală, chiar și pe aplicație, suma pe milă ți se aplică.
 
 Și nici pentru o mașină din al cărei preț, sau din a cărei benzină și reparații, ai scăzut deja din profit. E una sau alta, niciodată amândouă.
 
@@ -559,7 +559,7 @@ Se aplică în tot Regatul Unit. Se trece în declarație — nu vine nimic auto
 Nu știi cum se numără milele?""",
  th="""Lucrezi pe cont propriu și folosești mașina pentru muncă? Din 6 aprilie 2026 scazi 55p pe milă pentru primele 10.000 de mile, apoi 25p. Era 45p.
 
-Dar drumul de acasă la muncă nu se numără. Și taxiurile nu intră deloc în suma pe milă.""",
+Dar drumul de acasă la muncă nu se numără. Și mașinile construite pentru uz comercial (taxiurile negre) nu intră în suma pe milă — o mașină normală intră.""",
  li="""The self-employed mileage rate went up, and it is worth more than it looks.
 
 Simplified expenses, 2026/27:
@@ -575,7 +575,7 @@ But not every mile is a business mile. GOV.UK lists, verbatim, among the costs y
 
 Worked: 8,000 business miles in the year is 8,000 × 55p = £4,400. At 14,000 miles it is the first 10,000 at 55p (£5,500) plus 4,000 at 25p (£1,000) = £6,500.
 
-Who cannot use it at all: cars designed for commercial use. GOV.UK says "except those designed for commercial use" and names black cabs, hackney carriages and dual-control driving instructors' cars. A taxi or private-hire driver is outside simplified expenses entirely.
+Who cannot use it at all: cars designed for commercial use. GOV.UK says "except those designed for commercial use" and names black cabs, hackney carriages and dual-control driving instructors' cars. The test is the vehicle's design, not the driver's trade: a private-hire or ride-hailing driver in an ordinary car is not driving a car designed for commercial use, and can use the mileage flat rate. And it is the vehicle flat rate that is barred, not simplified expenses as a whole — the flat rates for working from home and for living at your business premises are unaffected.
 
 Nor can anyone who has already claimed capital allowances on that vehicle, or already put its running costs through business profits. One method or the other, never both.
 
@@ -586,7 +586,7 @@ UK-wide, claimed on the return rather than paid out.
 Want the vehicle position checked before January?""",
  bsky="""Self-employed? Business miles are 55p each for the first 10,000 in a tax year, then 25p. Home to work does not count.""",
  pin_title="UK self-employed mileage: 55p a mile from April 2026",
- pin="""HMRC simplified expenses mileage rates for 2026/27: 55p a mile for the first 10,000 business miles in a tax year, then 25p a mile, and 24p for motorcycles from the first mile. The first-10,000 rate rose from 45p on 6 April 2026. Travel between home and work does not count. Cars designed for commercial use — black cabs, dual-control instructors' cars — are outside simplified expenses altogether, as is any vehicle you have already claimed capital allowances on. UK-wide, claimed on the tax return.""",
+ pin="""HMRC simplified expenses mileage rates for 2026/27: 55p a mile for the first 10,000 business miles in a tax year, then 25p a mile, and 24p for motorcycles from the first mile. The first-10,000 rate rose from 45p on 6 April 2026. Travel between home and work does not count. Cars designed for commercial use — black cabs, dual-control instructors' cars — are outside the mileage flat rate, as is any vehicle you have already claimed capital allowances on. The test is the car's design, not the driver's trade. UK-wide, claimed on the tax return.""",
  gbp="""Business miles in your own car are worth up to 55p now, not 45p.
 
 If you are self-employed and use simplified expenses, you can take 55p a mile off your profit for the first 10,000 business miles in a tax year, then 25p a mile after that. Motorcycles are 24p from the first mile. The first-10,000 rate rose from 45p to 55p on 6 April 2026.
