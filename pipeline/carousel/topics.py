@@ -1629,7 +1629,7 @@ HOME_WORKING = dict(
   slug="birou-acasa-26",
   title="Lucrezi de acasă pe cont propriu — £10, £18 sau £26 pe lună",
   tags_ro="#cheltuieli #selfemployed #hmrc #lucrezdeacasa #romaniinuk",
-  tags_en="#selfemployed #workingfromhome #hmrc #smallbusinessuk #ukaccountant",
+  tags_en="#selfemployed #workingfromhome #hmrc",
 
   RO=[
     dict(type="hook",
@@ -1638,10 +1638,10 @@ HOME_WORKING = dict(
          say="Lucrezi pe cont propriu și faci munca de acasă? Suma fixă ia locul cheltuielilor curente ale casei — curățenie, căldură, lumină, apă la contor."),
     dict(type="step", step="Suma, după orele pe lună", fig="<cur>£</cur>26",
          say="<b>25-50</b> de ore într-o lună → <b>£10</b>. <b>51-100</b> de ore → <b>£18</b>. <b>101</b> de ore sau mai multe → <b>£26</b>.",
-         note="Exemplu: 60 de ore pe lună, tot anul → 12 × £18 = £216 scăzuți din profit. Se numără și luna începută, nu doar lunile întregi."),
+         note="Exemplu: 60 de ore pe lună, tot anul → 12 × £18 = £216 scăzuți din profit. Se numără și luna începută, nu doar lunile întregi. Ține evidența orelor."),
     dict(type="step", step="Cine NU poate folosi suma fixă", fig="25h",
          say="Nu o pot folosi firmele Ltd, nici o asociere în care intră o firmă. Sub <b>25</b> de ore într-o lună nu iei suma pe luna aceea, dar celelalte luni se iau normal.",
-         note="Acoperă doar cheltuielile curente ale casei. Chiria, council tax, asigurarea, reparațiile, telefonul și internetul le ceri separat, cu partea folosită pentru muncă."),
+         note="Ia locul doar cheltuielilor curente ale casei. Chiria, council tax, asigurarea, reparațiile se cer pe lângă ea, dar numai dacă o parte din casă e folosită exclusiv pentru afacere. Telefonul și internetul: partea de muncă, sau tot, dacă folosirea personală e mică."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Cheltuieli · Lucrezi de acasă",
@@ -1656,10 +1656,10 @@ HOME_WORKING = dict(
          say="Self-employed and doing the work at home? The flat rate stands in for the home's running costs — cleaning, heat and light, metered water."),
     dict(type="step", step="The amount, by hours a month", fig="<cur>£</cur>26",
          say="<b>25 to 50</b> hours in a month → <b>£10</b>. <b>51 to 100</b> hours → <b>£18</b>. <b>101</b> hours or more → <b>£26</b>.",
-         note="Example: 60 hours a month, all year — 12 × £18 = £216 off your profit. A month, or part of a month, carries the full band."),
+         note="Example: 60 hours a month, all year — 12 × £18 = £216 off your profit. A month, or part of a month, carries the full band. Keep a record of the hours."),
     dict(type="step", step="Who cannot use the flat rate", fig="25h",
-         say="Limited companies cannot use it, nor a partnership with a company as a partner. Under <b>25</b> hours in a month you take nothing for that month, but every other month is unaffected.",
-         note="It covers only the home's running costs. Rent, council tax, insurance, repairs, telephone and internet are claimed separately, at the business share."),
+         say="Limited companies cannot use it, nor a partnership with a company as a partner. Under <b>25</b> hours in a month you take nothing that month; other months are fine.",
+         note="It replaces only the home's running costs. Rent, council tax, insurance and repairs come on top, but only if part of the home is used solely for the trade. Phone and internet: business share, or in full if private use is small."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Expenses · Working from home",
@@ -1681,13 +1681,19 @@ HOME_WORKING = dict(
     category="Sole traders, and partnerships made up only of individual partners, who work 25 "
              "hours or more a month from home on business activities. The band is per month, so a "
              "quiet month and a busy month can take different amounts in the same year.",
-    excluded="Three groups cannot use this at all, and a fourth condition bites on a month rather than on a claimant. (1) Limited companies cannot use simplified expenses: GOV.UK and BIM75001 bar the entity whose profits are being computed, not a human being by job title — s.94H applies to \"the profits of a trade of a person\", so a director who also carries on a trade in their own name can use the flat rate in that trade, and for use of home in the directorship HMRC routes to the employment rules (BIM47820 sends the reader to EIM32760 onwards). (2) A partnership with a company as a partner is also barred; only partnerships made up solely of individual partners qualify. (3) Anyone claiming the trading allowance: claiming it rules out deducting any other expenses or allowances, which includes this flat rate — and that is exactly the small home-based trader the £10 band speaks to. (4) Not an exclusion: a month with under 25 hours of qualifying work simply produces no applicable amount for that month, and the same trader claims normally in every other month of the period (s.94H(3), each month \"or part of a month\"). The floor is \"25 or more\" hours in the s.94H(4) table and on GOV.UK, so a month of exactly 25 hours qualifies; BIM75010's body text \"only if these hours exceed 25 per month\" contradicts its own table and is not the law. Employees and directors are outside simplified expenses because it is a trading-income rule — and since 6 April 2026 s.360B ITEPA blocks an employee's own deduction for additional household expenses, so what is left for them is an employer homeworking payment under the s.316A exemption, which continues to apply. Two further limits that are easy to misread: the flat rate stands in only for the household running costs listed at BIM47820 (cleaning, heat and light, metered water); rent or mortgage interest, council tax, insurance, general repairs and water rates are still apportioned and still need the evidence, as are telephone and internet. Qualifying work is any work done in the home wholly and exclusively for the trade (s.94H(4A)), including work done there by the trader's own employees, with any hour counted only once (s.94H(4B)) — not only the three \"core business activities\" BIM75010 lists.",
+    excluded="Three groups cannot use this at all, and a fourth condition bites on a month rather than on a claimant. (1) Limited companies cannot use simplified expenses: GOV.UK and BIM75001 bar the entity whose profits are being computed, not a human being by job title — s.94H applies to \"the profits of a trade of a person\", so a director who also carries on a trade in their own name can use the flat rate in that trade, and for use of home in the directorship HMRC routes to the employment rules (BIM47820 sends the reader to EIM32760 onwards). (2) A partnership with a company as a partner is also barred; only partnerships made up solely of individual partners qualify. (3) Anyone claiming the trading allowance: claiming it rules out deducting any other expenses or allowances, which includes this flat rate — and that is exactly the small home-based trader the £10 band speaks to. (4) Not an exclusion: a month with under 25 hours of qualifying work simply produces no applicable amount for that month, and the same trader claims normally in every other month of the period (s.94H(3), each month \"or part of a month\"). The floor is \"25 or more\" hours in the s.94H(4) table and on GOV.UK, so a month of exactly 25 hours qualifies; BIM75010's body text \"only if these hours exceed 25 per month\" contradicts its own table and is not the law. Employees and directors are outside simplified expenses because it is a trading-income rule — and since 6 April 2026 s.360B ITEPA blocks an employee's own deduction for additional household expenses, so what is left for them is an employer homeworking payment under the s.316A exemption, which continues to apply. Two further limits that are easy to misread: the flat rate stands in only for the household running costs listed at BIM47820 (cleaning, heat and light, metered water), and BIM75010 is explicit that using it \"does not prohibit a separate deduction\" for fixed costs such as council tax, insurance and mortgage interest, nor \"for telephone and broadband/internet connection costs\" — those are claimed alongside the flat rate, not instead of it, so the either/or is between the flat rate and the apportioned running costs alone. Two conditions on the separate claims: rent or mortgage interest, council tax, insurance, general repairs and water rates are allowable only where \"part of the home is set aside solely for trade use for a specific period\" (BIM47820, apportioned by area and time), so a trader at the kitchen table generally gets nothing for them; and telephone and broadband are apportioned by default but \"where private use is not significant the full cost\" can be claimed (BIM47820, BIM75010). Qualifying work is any work done in the home wholly and exclusively for the trade (s.94H(4A)), including work done there by the trader's own employees, with any hour counted only once (s.94H(4B)) — not only the three \"core business activities\" BIM75010 lists.",
     from_when="These are the current flat rates on GOV.UK, read on 7 November 2026; BIM75001 dates "
               "them \"from April 2013 onwards\" and s.94H(6) lets the Treasury alter them by "
               "regulations, so they are current rather than permanent. They are claimed on the "
-              "Self Assessment return, or — for a trader mandated into Making Tax Digital for "
-              "Income Tax, the first year of which is 2026/27 — through the quarterly updates "
-              "and the final declaration. Nothing is paid out and nothing arrives automatically. "
+              "Self Assessment return. Under Making Tax Digital for Income Tax (first year "
+              "2026/27) the flat rate is not a quarterly-update item: HMRC's guidance says the "
+              "quarterly updates \"are summaries, not tax returns\" and \"You do not need to make "
+              "any accounting or tax adjustments before sending a quarterly update\", and that "
+              "after the fourth quarterly update you \"may then need to adjust the data you have "
+              "sent, before you complete and submit your tax return\", which \"could include: "
+              "claiming reliefs or allowances\". The guide no longer uses \"final declaration\"; "
+              "the step is headed \"Submit your tax return\". Nothing is paid out and nothing "
+              "arrives automatically. "
               "A month, or part of a month, carries the full band. Using the flat rate is "
               "optional; actual costs remain an alternative."),
 )
