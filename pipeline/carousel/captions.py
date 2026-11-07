@@ -708,7 +708,7 @@ Want your payroll checked against the conditions?""",
  bsky="""Employment Allowance: up to £10,500 off employer Class 1 National Insurance, claimed again every tax year. It never carries forward.""",
  pin_title="Employment Allowance: £10,500 and who cannot claim",
  pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year, claimed through payroll software. It is never automatic and does not carry forward — it must be claimed again every new tax year. Who cannot claim: a company with a single director who is its only employee liable for secondary Class 1; an employer doing more than half its work in the public sector, unless it is a charity; household workers such as a nanny or gardener, unless they are a care or support worker.""",
- source="gov.uk/claim-employment-allowance — eligibility and claim-for-past-years — plus the HMRC further employer guidance",
+ source="gov.uk/claim-employment-allowance/eligibility, /claim-for-past-years, plus HMRC's further employer guidance",
 )
 
 # ----------------------------------------------------------------- 14
