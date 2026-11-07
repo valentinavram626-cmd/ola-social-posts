@@ -1458,17 +1458,17 @@ VOLUNTARY_NI = dict(
     dict(type="hook",
          kicker="Pensia de stat · Anii lipsă",
          h1="Ai lucrat în UK, dar nu în <em>fiecare</em> an?",
-         say="Pensia de stat se socotește în ani, nu în cât ai câștigat. Un an în care nu ai plătit National Insurance — contribuția care se oprește din plată — e o gaură în pensie. Și poți plăti ca să o acoperi."),
+         say="Pensia de stat se socotește în ani care contează, nu în cât ai câștigat. Un an fără National Insurance și fără credite e o gaură în dosar. Multe găuri se pot plăti — nu toate: pentru timpul petrecut în afara UK, regulile s-au schimbat pe 6 aprilie 2026."),
     dict(type="step", step="Cât costă un an, la rata din 2026-2027", fig="<cur>£</cur>18,40",
          say="La clasa 3 e <b>£18,40</b> pe săptămână în 2026-2027 — adică <b>£956,80</b> pentru un an întreg. Cine a lucrat pe cont propriu cu profit mic plătește clasa 2, <b>£3,65</b> pe săptămână.",
          note="Plătești doar pentru ultimii <b>6</b> ani fiscali, până pe 5 aprilie. Anii mai vechi au rata de acum. Clasa 3 pe ultimii doi ani, și clasa 2 pe ultimul an, au rata din anul lor."),
-    dict(type="step", step="Cine NU are de ce să plătească", fig="10 ani",
-         say="Sub <b>10</b> ani în dosar nu primești nimic din pensia nouă — dar anii plătiți acum intră la socoteală. Iar la <b>35</b> de ani, cu dosar început după aprilie 2016, e deja plină.",
-         note="Nu poți plăti deloc dacă nu ai găuri sau dacă ai trecut termenul. Și GOV.UK scrie că plata voluntară „nu crește întotdeauna pensia\" — verifică previziunea înainte."),
+    dict(type="step", step="Cine NU poate plăti", fig="0 găuri",
+         say="Pentru un an fiscal care nu are gaură nu poți plăti — în afară de cine primește credite clasa <b>3</b> și are dreptul la clasa <b>2</b>. Nici după termen. Condiția e pe an fiscal, nu pe persoană.",
+         note="De obicei ai nevoie de <b>10</b> ani ca să primești ceva, iar anii din SEE (România e în SEE) pot intra la acest minim, nu la sumă. GOV.UK: plata „nu crește întotdeauna pensia\"."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Pensia de stat · Anii lipsă",
-    h1="Nu știi <em>câți ani</em> ai plătiți?",
+    h1="Nu știi <em>câți ani</em> ai în dosar?",
     say="Scrie-ne și ne uităm împreună la dosarul tău de National Insurance. Fără obligații.",
     phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
 
@@ -1476,13 +1476,13 @@ VOLUNTARY_NI = dict(
     dict(type="hook",
          kicker="State Pension · The missing years",
          h1="Worked in the UK, but not in <em>every</em> year?",
-         say="The State Pension is counted in years, not in how much you earned. A year with no National Insurance — the contribution taken out of your pay — is a gap in your pension. And you can pay to fill it."),
+         say="The State Pension is counted in qualifying years, not in how much you earned. A year with no National Insurance and no credits is a gap in the record. Many gaps can be paid for — not all: for time spent abroad, the rules changed on 6 April 2026."),
     dict(type="step", step="What a year costs at the 2026-27 rate", fig="<cur>£</cur>18.40",
          say="Class 3 is <b>£18.40</b> a week in 2026 to 2027 — <b>£956.80</b> for a whole year. If you were self-employed with small profits, Class 2 is <b>£3.65</b> a week.",
          note="You can only pay for the past <b>6</b> tax years, by 5 April. Older years are at today's rate. Class 3 for the last two years, and Class 2 for the last year, are at their own year's rate."),
-    dict(type="step", step="Who does NOT need to pay", fig="10 years",
-         say="Under <b>10</b> years on your record you get no new State Pension — but years you pay for now count towards those 10. And at <b>35</b> years, on a record started after April 2016, it is already full.",
-         note="You cannot pay at all with no gaps, or past the deadline. And GOV.UK says voluntary contributions \"do not always increase your State Pension\" — check your forecast first."),
+    dict(type="step", step="Who cannot pay", fig="0 gaps",
+         say="You cannot pay for a tax year with no gap — unless you get Class <b>3</b> credits and can pay Class <b>2</b>. Nor past the deadline. The test is on the tax year, not the person.",
+         note="<b>Usually</b> 10 qualifying years are needed before any is paid. EEA contributions count towards that minimum, not the amount. GOV.UK: paying \"does not always increase your State Pension\"."),
   ],
   CTA_EN=dict(type="cta",
     kicker="State Pension · The missing years",
@@ -1503,6 +1503,14 @@ VOLUNTARY_NI = dict(
      "https://www.gov.uk/new-state-pension/how-its-calculated", "2026-11-07"),
     ("Benefit and pension rates for 2026 to 2027: new State Pension full weekly rate £241.30, basic State Pension £184.90 — confirming the £241.30 figure belongs to the 2026/27 tax year and not to an earlier one",
      "https://www.gov.uk/government/publications/benefit-and-pension-rates-2026-to-2027/proposed-benefit-and-pension-rates-2026-to-2027", "2026-11-07"),
+    ("Time spent abroad, read on the page itself: \"You cannot pay voluntary Class 2 National Insurance contributions for time abroad\"; Class 3 for time spent abroad after 5 April 2026 is applied for and carries its own conditions; \"You must apply to pay voluntary National Insurance contributions for time abroad\" and \"Do not make any payments until you get a letter from HMRC\" giving how much to pay and the payment reference number; and the transitional dates — contributions applied for under the previous rules paid on or before 5 April 2027, and an application to pay Class 3 for 2026 to 2027 on or before 5 April 2027. This is the page behind the sentence on card 1 that the rules for time abroad changed on 6 April 2026",
+     "https://www.gov.uk/voluntary-national-insurance-contributions/if-you-live-or-work-abroad", "2026-11-07"),
+    ("What a qualifying year is, quoted verbatim — a year in which you were \"working and made National Insurance contributions\", \"getting National Insurance credits\" or \"paying voluntary National Insurance contributions\" — which is why the cards and the Romanian caption say years that count rather than years paid; and \"You'll need 10 qualifying years on your National Insurance record to get any new State Pension\", with \"You might also qualify if you've lived or worked abroad\"",
+     "https://www.gov.uk/new-state-pension", "2026-11-07"),
+    ("The 10-year minimum is a usual minimum, not an absolute one: \"You usually need 10 qualifying years on your National Insurance record to be eligible. You could still be eligible if you made contributions to the state pensions in: the European Economic Area (EEA)\", with the page's worked example of 7 UK qualifying years plus 16 years in an EEA country meeting the minimum. Those contributions count towards the minimum qualifying period only, not towards the amount, which is worked out on UK qualifying years. NOTE: this page would not load on 7 November 2026 (the fetch was blocked before it returned); the quotation is the one carried verbatim in the Gatekeeper fault brief for this topic and the neighbouring /new-state-pension page corroborates it with \"You might also qualify if you've lived or worked abroad\". Re-read it at source before this topic is used again",
+     "https://www.gov.uk/new-state-pension/living-and-working-overseas", "2026-11-07"),
+    ("The Class 2 eligibility test behind the £7,105 figure, read on the page itself: someone self-employed with \"a gross income over £1,000, but with profits of less than £7,105\"",
+     "https://www.gov.uk/voluntary-national-insurance-contributions/who-can-pay-voluntary-contributions", "2026-11-07"),
   ],
   SCOPE=dict(
     nation="All of the UK — National Insurance and the State Pension are reserved to HMRC and the "
@@ -1511,8 +1519,9 @@ VOLUNTARY_NI = dict(
     category="People with gaps in a UK National Insurance record who want those years to count "
              "towards the new State Pension. Class 3 is the general voluntary class; Class 2 "
              "voluntarily is for the self-employed whose annual profits are under £7,105.",
-    excluded="Four separate groups do NOT benefit, and the cards name the first three. (1) Anyone whose forecast already shows the full rate: with a record that started after April 2016, 35 qualifying years give the full £241.30 and a further year adds nothing. (2) Anyone with no gaps in the record at all — GOV.UK says you cannot pay, the single exception being someone getting Class 3 credits who is eligible to pay Class 2. (3) Anyone past the deadline: only the past 6 tax years can be paid, by 5 April, so a gap from 7 years ago cannot be filled whatever it would be worth. (4) A married woman or widow paying the reduced rate cannot pay voluntary contributions. And a fifth case where paying may be wasted money rather than barred: someone who was contracted out, where GOV.UK warns outright that voluntary contributions \"do not always increase your State Pension\" and more than 35 years are usually needed — which is why no card promises that paying raises the pension. Nor is paying always necessary even where there is a gap: NI credits can cover some years for nothing, and GOV.UK says to check eligibility for them before deciding to pay. Note also that 10 qualifying years are needed before any new State Pension is paid at all, so someone with very few UK years is not close to a part pension by filling one gap.",
+    excluded="Four separate groups do NOT benefit, and the cards name the first three. (1) Anyone whose record has ALREADY earned the full rate: with a record that started after April 2016, 35 qualifying years give the full £241.30 and a further year adds nothing. A forecast on its own does not settle this, because it shows both what the record has earned to date and what it would reach if contributions continue to State Pension age — a forecast reaching £241.30 on that assumption falls short if the person stops. (2) Anyone with no gaps in the record at all — GOV.UK says you cannot pay, the single exception being someone getting Class 3 credits who is eligible to pay Class 2. (3) Anyone past the deadline: only the past 6 tax years can be paid, by 5 April. That is the general rule, not an absolute — under reg 50 SSCR 2001 (NIM25030) HMRC may allow a later payment where the failure to pay in time was due to the contributor's ignorance or error that was not caused by a failure to exercise due care and diligence, and NIM25028 extends the limit for a year containing six months or more of full-time education, apprenticeship or training, or imprisonment. Those are formal HMRC decisions with a right of appeal (DANSP23300), so no post may state a specific older gap as closed. (4) A married woman or widow, but only for a tax year throughout the whole of which a reduced rate election was in force — NIM25016 and NIM25107, reg 132 SSCR 2001. Where the election was not in force for the whole of a tax year she may pay from that tax year onwards if she meets the other conditions, so this is a bar on particular tax years and never a lifetime disqualification of a category of person. And a fifth case where paying may be wasted money rather than barred: someone who was contracted out, where GOV.UK warns outright that voluntary contributions \"do not always increase your State Pension\" and more than 35 years are usually needed — which is why no card promises that paying raises the pension. Nor is paying always necessary even where there is a gap: NI credits can cover some years for nothing, and GOV.UK says to check eligibility for them before deciding to pay. Note also that 10 qualifying years are USUALLY needed before any new State Pension is paid at all, so someone with very few UK years is not close to a part pension by filling one gap — usually, because contributions to the state pension of an EEA country, Romania included, can count towards that 10-year minimum qualifying period. They do not count towards the amount, which is worked out on UK qualifying years, and both halves of that have to survive any rewrite. A fifth bar sits outside the record itself: for time spent abroad, voluntary Class 2 cannot be paid at all from 6 April 2026, Class 3 for periods abroad has to be applied for and carries its own conditions, and nothing is paid until HMRC writes with the amount and the reference. Eligibility to pay for a period abroad is a residence test, so no post states who can or cannot pay for time abroad: it states what GOV.UK states and points at the page.",
     from_when="The £18.40 and £3.65 weekly rates are the 2026 to 2027 rates, from 6 April 2026. "
+              "The rules for time spent abroad also changed on 6 April 2026. "
               "Nothing is automatic: voluntary contributions are a payment the person chooses to "
               "make, after checking a State Pension forecast, and the window is the past 6 tax "
               "years with 5 April as the annual cut-off."),
