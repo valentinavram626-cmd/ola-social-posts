@@ -1447,7 +1447,358 @@ RETURN_30_DAYS = dict(
               "time to repair, unless that time would cause the consumer significant inconvenience."),
 )
 
-DAY = [MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS]
+# ==================================================================== 16
+VOLUNTARY_NI = dict(
+  slug="ni-voluntar-pensie",
+  title="Pensia de stat — anii lipsă și cât costă să îi acoperi",
+  tags_ro="#pensie #nationalinsurance #hmrc #contabilitate #romaniinuk",
+  tags_en="#statepension #nationalinsurance #hmrc #ukaccountant #pensionplanning",
+
+  RO=[
+    dict(type="hook",
+         kicker="Pensia de stat · Anii lipsă",
+         h1="Ai lucrat în UK, dar nu în <em>fiecare</em> an?",
+         say="Pensia de stat se socotește în ani, nu în cât ai câștigat. Un an în care nu ai plătit National Insurance — contribuția care se oprește din plată — e o gaură în pensie. Și poți plăti ca să o acoperi."),
+    dict(type="step", step="Cât costă un an, la rata din 2026-2027", fig="<cur>£</cur>18,40",
+         say="La clasa 3 e <b>£18,40</b> pe săptămână în 2026-2027 — adică <b>£956,80</b> pentru un an întreg. Cine a lucrat pe cont propriu cu profit mic plătește clasa 2, <b>£3,65</b> pe săptămână.",
+         note="Plătești doar pentru ultimii <b>6</b> ani fiscali, până pe 5 aprilie. Anii mai vechi au rata de acum. Clasa 3 pe ultimii doi ani, și clasa 2 pe ultimul an, au rata din anul lor."),
+    dict(type="step", step="Cine NU are de ce să plătească", fig="10 ani",
+         say="Sub <b>10</b> ani în dosar nu primești nimic din pensia nouă — dar anii plătiți acum intră la socoteală. Iar la <b>35</b> de ani, cu dosar început după aprilie 2016, e deja plină.",
+         note="Nu poți plăti deloc dacă nu ai găuri sau dacă ai trecut termenul. Și GOV.UK scrie că plata voluntară „nu crește întotdeauna pensia\" — verifică previziunea înainte."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Pensia de stat · Anii lipsă",
+    h1="Nu știi <em>câți ani</em> ai plătiți?",
+    say="Scrie-ne și ne uităm împreună la dosarul tău de National Insurance. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="State Pension · The missing years",
+         h1="Worked in the UK, but not in <em>every</em> year?",
+         say="The State Pension is counted in years, not in how much you earned. A year with no National Insurance — the contribution taken out of your pay — is a gap in your pension. And you can pay to fill it."),
+    dict(type="step", step="What a year costs at the 2026-27 rate", fig="<cur>£</cur>18.40",
+         say="Class 3 is <b>£18.40</b> a week in 2026 to 2027 — <b>£956.80</b> for a whole year. If you were self-employed with small profits, Class 2 is <b>£3.65</b> a week.",
+         note="You can only pay for the past <b>6</b> tax years, by 5 April. Older years are at today's rate. Class 3 for the last two years, and Class 2 for the last year, are at their own year's rate."),
+    dict(type="step", step="Who does NOT need to pay", fig="10 years",
+         say="Under <b>10</b> years on your record you get no new State Pension — but years you pay for now count towards those 10. And at <b>35</b> years, on a record started after April 2016, it is already full.",
+         note="You cannot pay at all with no gaps, or past the deadline. And GOV.UK says voluntary contributions \"do not always increase your State Pension\" — check your forecast first."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="State Pension · The missing years",
+    h1="Not sure <em>how many years</em> you have paid?",
+    say="Message us and we will go through your National Insurance record with you. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("Voluntary National Insurance rates for the 2026 to 2027 tax year, quoted verbatim: \"£3.65 a week for Class 2\" and \"£18.40 a week for Class 3\"; Class 2 for the previous tax year and Class 3 for the previous two tax years are paid at the original rate for those years, and \"If you're paying for any earlier years, you'll pay the rate for 2026 to 2027\"",
+     "https://www.gov.uk/voluntary-national-insurance-contributions/rates", "2026-11-07"),
+    ("The deadline, quoted verbatim: \"You can only pay voluntary contributions for the past 6 years\" and \"The deadline is 5 April each year\", with the worked example \"you have until 5 April 2032 to make up gaps for the tax year 2025 to 2026\"",
+     "https://www.gov.uk/voluntary-national-insurance-contributions/deadlines", "2026-11-07"),
+    ("Who cannot pay at all: someone who does \"not have gaps in your National Insurance record - unless you're getting Class 3 credits and are eligible to pay Class 2 contributions\", a \"married woman or widow paying reduced rate National Insurance\", or anyone who has \"passed the deadline for paying contributions for the period that has gaps\". The warning, verbatim: \"Voluntary contributions do not always increase your State Pension, for example if you were contracted out\", with the instruction to check a State Pension forecast first and to \"check if you're eligible for National Insurance credits before deciding to pay voluntary contributions\". Class 2 voluntarily is listed for someone \"self-employed and have annual profits of less than £7,105\"",
+     "https://www.gov.uk/voluntary-national-insurance-contributions", "2026-11-07"),
+    ("\"The full rate of new State Pension is £241.30 a week\"; a record that started after April 2016 needs \"35 qualifying years to get the full rate of new State Pension\", and someone contracted out before 2016 \"will usually need more than 35 qualifying years\"",
+     "https://www.gov.uk/new-state-pension/what-youll-get", "2026-11-07"),
+    ("\"You'll need 10 qualifying years on your National Insurance record to get any new State Pension\"",
+     "https://www.gov.uk/new-state-pension/how-its-calculated", "2026-11-07"),
+    ("Benefit and pension rates for 2026 to 2027: new State Pension full weekly rate £241.30, basic State Pension £184.90 — confirming the £241.30 figure belongs to the 2026/27 tax year and not to an earlier one",
+     "https://www.gov.uk/government/publications/benefit-and-pension-rates-2026-to-2027/proposed-benefit-and-pension-rates-2026-to-2027", "2026-11-07"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK — National Insurance and the State Pension are reserved to HMRC and the "
+           "DWP, with no devolved variation. The rates and the 6-year window are the same in "
+           "England, Scotland, Wales and Northern Ireland.",
+    category="People with gaps in a UK National Insurance record who want those years to count "
+             "towards the new State Pension. Class 3 is the general voluntary class; Class 2 "
+             "voluntarily is for the self-employed whose annual profits are under £7,105.",
+    excluded="Four separate groups do NOT benefit, and the cards name the first three. (1) Anyone whose forecast already shows the full rate: with a record that started after April 2016, 35 qualifying years give the full £241.30 and a further year adds nothing. (2) Anyone with no gaps in the record at all — GOV.UK says you cannot pay, the single exception being someone getting Class 3 credits who is eligible to pay Class 2. (3) Anyone past the deadline: only the past 6 tax years can be paid, by 5 April, so a gap from 7 years ago cannot be filled whatever it would be worth. (4) A married woman or widow paying the reduced rate cannot pay voluntary contributions. And a fifth case where paying may be wasted money rather than barred: someone who was contracted out, where GOV.UK warns outright that voluntary contributions \"do not always increase your State Pension\" and more than 35 years are usually needed — which is why no card promises that paying raises the pension. Nor is paying always necessary even where there is a gap: NI credits can cover some years for nothing, and GOV.UK says to check eligibility for them before deciding to pay. Note also that 10 qualifying years are needed before any new State Pension is paid at all, so someone with very few UK years is not close to a part pension by filling one gap.",
+    from_when="The £18.40 and £3.65 weekly rates are the 2026 to 2027 rates, from 6 April 2026. "
+              "Nothing is automatic: voluntary contributions are a payment the person chooses to "
+              "make, after checking a State Pension forecast, and the window is the past 6 tax "
+              "years with 5 April as the annual cut-off."),
+)
+
+# ==================================================================== 17
+DIVIDENDS_1075 = dict(
+  slug="dividende-10-75",
+  title="Dividende din firma ta — 10,75% din 6 aprilie 2026",
+  tags_ro="#firmaltd #dividende #hmrc #contabilitate #romaniinuk",
+  tags_en="#limitedcompany #dividends #hmrc #ukaccountant #smallbusinessuk",
+
+  RO=[
+    dict(type="hook",
+         kicker="Firmă Ltd · Dividende",
+         h1="Cei mai mulți plătesc acum <em>10,75%</em> pe dividende, nu 8,75%.",
+         say="Dacă îți scoți banii din firma ta ca dividend, cota de bază a crescut pe 6 aprilie 2026. Primii £500 dintr-un an rămân neimpozitați."),
+    dict(type="step", step="Cât plătești, pe fiecare bandă", fig="<cur>£</cur>500",
+         say="Primii <b>£500</b> de dividende într-un an fiscal nu se impozitează. Peste: <b>10,75%</b> în banda de bază, <b>35,75%</b> în banda mare, <b>39,35%</b> în cea de sus.",
+         note="Banda ta o stabilește venitul tău total, nu dividendul singur. Exemplu: £2.000 de dividende, în banda de bază → primii £500 fără taxă, restul £1.500 × 10,75% = £161,25."),
+    dict(type="step", step="Cine NU plătește nimic", fig="<cur>£</cur>12.570",
+         say="Dacă nu ai folosit toți cei <b>£12.570</b> din Personal Allowance — partea de venit pe care nimeni nu o impozitează — dividendele care încap în ce a rămas nu se impozitează nici ele. Pe lângă primii £500.",
+         note="Nici dividendele din acțiuni ținute într-un ISA nu se impozitează. Iar cota de sus, <b>39,35%</b>, nu s-a schimbat în aprilie 2026."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Firmă Ltd · Dividende",
+    h1="Nu știi <em>cât îți rămâne</em> din dividend?",
+    say="Trimite-ne cifrele firmei și le punem pe hârtie înainte să scoți banii. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Limited company · Dividends",
+         h1="For most people, dividends are taxed at <em>10.75%</em> now, not 8.75%.",
+         say="If you take money out of your own company as a dividend, the basic rate went up on 6 April 2026. The first £500 in a tax year is still untaxed."),
+    dict(type="step", step="What you pay, band by band", fig="<cur>£</cur>500",
+         say="Your first <b>£500</b> of dividends in a tax year is untaxed. Above that: <b>10.75%</b> at the basic rate, <b>35.75%</b> at the higher rate, <b>39.35%</b> at the additional rate.",
+         note="Your band is set by your total income, not by the dividend alone. Example: £2,000 of dividends at the basic rate — the first £500 free, the remaining £1,500 × 10.75% = £161.25."),
+    dict(type="step", step="Who pays nothing", fig="<cur>£</cur>12,570",
+         say="If you have not used all of your <b>£12,570</b> Personal Allowance — the slice of income nobody taxes — the dividends that fit inside what is left are not taxed either. On top of the first £500.",
+         note="Dividends from shares held in an ISA are not taxed either. And the additional rate of <b>39.35%</b> did not change in April 2026."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Limited company · Dividends",
+    h1="Not sure <em>what you keep</em> from a dividend?",
+    say="Send us the company's figures and we will set them out before you take the money. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  GBP=[
+    dict(type="solo",
+         kicker="Dividend tax · gov.uk",
+         h1="Dividends from your company: 10.75%, not 8.75%.",
+         rows=[["<cur>£</cur>500", "of dividends a year, still untaxed"],
+               ["10.75%", "basic rate; then 35.75% and 39.35%"],
+               ["6 Apr 2026", "when the first two rates went up"]],
+         ask="Run a limited company near Luton or Birmingham? Message us.",
+         phone=PHONE, disc="General information, not personal advice."),
+  ],
+
+  SOURCES=[
+    ("Quoted verbatim: \"You also get a dividend allowance of £500 each year\"; \"You do not pay tax on any dividend income that falls within your Personal Allowance\"; \"You do not pay tax on dividends from shares in an ISA (Individual Savings Account)\". The rates shown for 6 April 2026 to 5 April 2027 on dividends above the allowance: basic rate 10.75%, higher rate 35.75%, additional rate 39.35%",
+     "https://www.gov.uk/tax-on-dividends", "2026-11-07"),
+    ("The measure that changed them: \"the dividend ordinary rate at 10.75%\", \"the dividend upper rate at 35.75%\" and \"the dividend additional rate will remain at 39.35%\", taking effect from 6 April 2026 — and the rates that applied before, 8.75% at the basic rate and 33.75% at the higher rate since April 2022. The additional rate is unchanged, so only the first two went up",
+     "https://www.gov.uk/government/publications/income-tax-changes-to-tax-rates-for-property-savings-and-dividend-income/income-tax-changes-to-tax-rates-for-property-savings-and-dividend-income", "2026-11-07"),
+    ("Rates and allowances for 2026 to 2027, cross-checking the same three figures from a second GOV.UK page: Personal Allowance £12,570, dividend allowance £500, dividend rates 10.75%, 35.75% and 39.35%",
+     "https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past", "2026-11-07"),
+    ("The 2022 measure that set the previous rates, confirming where 8.75%, 33.75% and 39.35% came from: it \"increases the rates of Income Tax applicable to dividend income by 1.25%\", with \"The dividend ordinary rate will be set at 8.75%\", the upper rate at 33.75% and the additional rate at 39.35%, from 6 April 2022",
+     "https://www.gov.uk/government/publications/increase-of-the-rates-of-income-tax-applicable-to-dividend-income", "2026-11-07"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK — GOV.UK publishes one set of dividend rates with no separate Scottish "
+           "or Welsh dividend figures, and the measure that raised them says it applies UK-wide.",
+    category="Anyone with dividend income above £500 in a tax year — in this audience, mainly "
+             "directors and shareholders taking money out of their own limited company. The band "
+             "that applies is set by the person's total income, not by the dividend on its own.",
+    excluded="Three groups pay nothing, and the cards name all three. (1) Anyone whose dividends for the year come to £500 or less: the dividend allowance covers them. (2) Anyone with unused Personal Allowance — dividends falling inside the £12,570 are not taxed at all, so a director with little other income can take dividends well above £500 and still pay nothing. (3) Dividends from shares held in an ISA are not taxed, whatever the amount. Also outside this entirely: sole traders and ordinary partnerships, who have no dividends to tax — they draw profit, not dividends, so none of these rates touch them, and a post about a 10.75% rate is not about them. And the increase itself does not reach everybody at the top: the additional rate stayed at 39.35%, so the highest-income shareholders saw no change on 6 April 2026 — the rise was the ordinary and upper rates only.",
+    from_when="10.75% and 35.75% apply from 6 April 2026, for the 2026 to 2027 tax year onwards; "
+              "8.75% and 33.75% applied before that, from 6 April 2022. The £500 allowance is per "
+              "tax year. Nothing is automatic — dividend income above the allowance and any unused "
+              "Personal Allowance has to be reported to HMRC."),
+)
+
+# ==================================================================== 18
+HOME_WORKING = dict(
+  slug="birou-acasa-26",
+  title="Lucrezi de acasă pe cont propriu — £10, £18 sau £26 pe lună",
+  tags_ro="#cheltuieli #selfemployed #hmrc #lucrezdeacasa #romaniinuk",
+  tags_en="#selfemployed #workingfromhome #hmrc #smallbusinessuk #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Cheltuieli · Lucrezi de acasă",
+         h1="Munca făcută de acasă scade din profit, de la <em>£10</em> pe lună.",
+         say="Lucrezi pe cont propriu și faci munca de acasă? Suma fixă ia locul cheltuielilor de zi cu zi ale casei — curent, gaz, apă — deci nu mai împarți facturile între muncă și casă."),
+    dict(type="step", step="Suma, după orele pe lună", fig="<cur>£</cur>26",
+         say="<b>25-50</b> de ore într-o lună → <b>£10</b>. <b>51-100</b> de ore → <b>£18</b>. <b>101</b> de ore sau mai multe → <b>£26</b>.",
+         note="Exemplu: lucrezi de acasă 60 de ore pe lună, tot anul → 12 × £18 = £216 scăzuți din profit. Ții socoteala orelor, nu a facturilor."),
+    dict(type="step", step="Cine NU poate folosi suma fixă", fig="25h",
+         say="Sub <b>25</b> de ore de muncă de acasă într-o lună nu poți folosi suma fixă pe acea lună. Și nu o pot folosi firmele Ltd, nici o asociere în care intră o firmă.",
+         note="Suma fixă acoperă cheltuielile casei — nu telefonul și internetul. Pe acelea le ceri separat, cu partea folosită pentru muncă."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Cheltuieli · Lucrezi de acasă",
+    h1="Nu știi <em>ce poți scădea</em> de acasă?",
+    say="Scrie-ne și ne uităm împreună la cheltuielile tale înainte de declarație. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Expenses · Working from home",
+         h1="Work done at home comes off your profit, from <em>£10</em> a month.",
+         say="Self-employed and doing the work at home? The flat rate stands in for the everyday running costs of the home — electricity, gas, water — so you do not split the bills between work and home."),
+    dict(type="step", step="The amount, by hours a month", fig="<cur>£</cur>26",
+         say="<b>25 to 50</b> hours in a month → <b>£10</b>. <b>51 to 100</b> hours → <b>£18</b>. <b>101</b> hours or more → <b>£26</b>.",
+         note="Example: 60 hours a month at home, all year — 12 × £18 = £216 off your profit. You keep a record of the hours, not of the bills."),
+    dict(type="step", step="Who cannot use the flat rate", fig="25h",
+         say="Under <b>25</b> hours of work at home in a month, the flat rate is not available for that month. And limited companies cannot use it, nor a partnership with a company as a partner.",
+         note="The flat rate covers the home's running costs — not telephone or internet. Those you claim separately, at the business share of the bill."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Expenses · Working from home",
+    h1="Not sure <em>what you can claim</em> from home?",
+    say="Message us and we will go through your expenses before the return goes in. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("The flat rates, by hours of business use a month: \"25 to 50\" is \"£10\", \"51 to 100\" is \"£18\", \"101 and more\" is \"£26\". Also verbatim: \"You can only use simplified expenses if you work for 25 hours or more a month from home\", \"This means you do not have to work out the proportion of personal and business use for your home\", and \"The flat rate does not include telephone or internet expenses\"",
+     "https://www.gov.uk/simpler-income-tax-simplified-expenses/working-from-home", "2026-11-07"),
+    ("Who may and may not use simplified expenses, verbatim: \"Simplified expenses cannot be used by limited companies or business partnerships involving a limited company\" — they are for sole traders and \"business partnerships that have no companies as partners\". The flat rates cover some vehicles, working from home and living in your business premises, and \"You must calculate all other expenses by working out the actual costs\". Records needed: the hours worked from home, with the amount included in total expenses on the Self Assessment return",
+     "https://www.gov.uk/simpler-income-tax-simplified-expenses", "2026-11-07"),
+    ("HMRC Business Income Manual BIM75010, which states the same three bands and amounts and adds what the guidance page does not: the deduction \"is only available if these hours exceed 25 per month\"; the deduction for a period is the total of the monthly rates \"for each month, or part of a month\"; \"Use of the flat rate deduction is optional\" and is available whether or not the cash basis is used; more than one home is \"treated as a single home for the purposes of calculating hours worked\"; and \"Only partnerships comprising solely individual partners can claim this simplified expenses\". It also records that the flat rate does not bar a separate claim for a business share of fixed costs such as council tax, insurance and mortgage interest, nor a separate claim for telephone and broadband",
+     "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim75010", "2026-11-07"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK — simplified expenses are an HMRC income tax rule for the self-employed, "
+           "with no devolved variation.",
+    category="Sole traders, and partnerships made up only of individual partners, who work 25 "
+             "hours or more a month from home on business activities. The band is per month, so a "
+             "quiet month and a busy month can take different amounts in the same year.",
+    excluded="Four groups cannot use this, and the cards name the first three. (1) Anyone under 25 hours of business work at home in a month gets nothing for that month — HMRC's manual puts it as the deduction being available \"only if these hours exceed 25 per month\". (2) Limited companies cannot use simplified expenses at all, which matters here because a director who works from home will reach for this rule and it is not open to them. (3) A partnership with a company as a partner is also barred; only partnerships made up solely of individual partners qualify. (4) Employees are outside this altogether — simplified expenses are a self-employed rule, and an employee working from home is on a different relief entirely, so an employed reader cannot use these figures. Two further limits that are not exclusions but are easy to misread: the flat rate does not cover telephone or internet, which are worked out separately, and it does not cover any other expense — everything else is at actual cost. And the hours are the hours spent on business activities at home, not the hours the home simply exists.",
+    from_when="These are the current flat rates on GOV.UK, read on 7 November 2026, and they are "
+              "claimed on the Self Assessment return — nothing is paid out and nothing arrives "
+              "automatically. Using the flat rate is optional; actual costs remain an alternative."),
+)
+
+# ==================================================================== 19
+WARM_HOME_150 = dict(
+  slug="warm-home-150",
+  title="Warm Home Discount — £150 scăzuți din factura de electricitate",
+  tags_ro="#facturi #warmhomediscount #ajutoare #costuldevieta #romaniinuk",
+  tags_en="#warmhomediscount #energybills #costofliving #ukrights #luton",
+
+  RO=[
+    dict(type="hook",
+         kicker="Facturi · Warm Home Discount",
+         h1="<em>£150</em> din factura de curent, în Anglia, Scoția și Țara Galilor.",
+         say="Nu primești bani în mână — furnizorul taie £150 din factură în această iarnă. În Irlanda de Nord schema nu există."),
+    dict(type="step", step="Ziua pe care o verifică: 23 august 2026", fig="<cur>£</cur>150",
+         say="În ziua aceea, tu sau partenerul primeați un ajutor pe bază de venit — Universal Credit, Housing Benefit, ESA pe venit sau Pension Credit — și numele unuia din voi era pe factura de electricitate.",
+         note="În Anglia și Țara Galilor vine automat, cu o scrisoare, până pe factură pe 31 martie 2027. Scoția are propriile condiții."),
+    dict(type="step", step="Cine NU îl primește", fig="N. Irlanda",
+         say="Nu ai numele pe factura de curent? Nu îl primești — tipic e camera închiriată, cu factura pe proprietar. În Irlanda de Nord schema nu există.",
+         note="Furnizorul trebuie să fie în schemă. În Scoția unii trebuie să ceară direct la furnizor."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Facturi · Warm Home Discount",
+    h1="Nu știi <em>de unde să începi</em>?",
+    say="Scrie-ne și îți spunem pe care pagină de GOV.UK scrie. Fără obligații.",
+    phone=PHONE, disc="Informații generale, nu consiliere pe ajutoare. Condițiile sunt pe GOV.UK."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Energy bills · Warm Home Discount",
+         h1="<em>£150</em> off the electricity bill — England, Scotland and Wales.",
+         say="No money reaches your hand — your supplier takes £150 off the bill this winter. In Northern Ireland there is no scheme."),
+    dict(type="step", step="The day they look at: 23 August 2026", fig="<cur>£</cur>150",
+         say="On that day you or your partner were getting Universal Credit, Housing Benefit, income-related ESA or Pension Credit — and one of your names was on the electricity bill.",
+         note="In England and Wales it is automatic, by letter, and on the bill by 31 March 2027. Scotland has its own conditions."),
+    dict(type="step", step="Who does NOT get it", fig="N. Ireland",
+         say="If your name is not on the electricity bill you do not get it — the common case is a rented room where the electricity is in the landlord's name. And in Northern Ireland the scheme does not exist at all.",
+         note="In Scotland it is not automatic for everyone — some have to apply directly to their supplier. And the supplier has to be in the scheme."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Energy bills · Warm Home Discount",
+    h1="Not sure <em>where to start</em>?",
+    say="Message us and we will point you at the GOV.UK page that says it. No obligation.",
+    phone=PHONE, disc="General information, not benefits advice. The conditions are on GOV.UK."),
+
+  SOURCES=[
+    ("England and Wales eligibility, verbatim: \"You may be eligible if all of the following applied on 23 August 2026\" — \"your energy supplier is part of the scheme\", \"you (or your partner) get certain means-tested benefits\" and \"your name (or your partner's) is on the electricity bill\". The qualifying benefits named on the page are Universal Credit, Housing Benefit, income-related Employment and Support Allowance (ESA) and Pension Credit. Letters are sent from late October 2026 to early January 2027; for an eligible household \"your letter will confirm you do not need to do anything\"; if more information is needed the helpline must be called by 26 February 2027; the discount is applied to the bill by 31 March 2027",
+     "https://www.gov.uk/the-warm-home-discount-scheme/if-you-live-in-england-and-wales", "2026-11-07"),
+    ("The amount and the nations, verbatim: \"a one-off £150 discount off your electricity bill\", with the money paid to the supplier rather than to the household; \"The Warm Home Discount scheme is not available in Northern Ireland\", which has an Affordable Warmth scheme instead; Scotland has its own eligibility criteria and a household there may need to apply directly to its energy supplier; a pre-pay or pay-as-you-go meter can still qualify, with the supplier explaining how, for example \"a voucher you can use to top up your meter\"; park home residents apply through a different process; and the discount \"will not affect your Cold Weather Payment or Winter Fuel Payment\"",
+     "https://www.gov.uk/the-warm-home-discount-scheme", "2026-11-07"),
+    ("Scotland, which is where the automatic assumption breaks: the same three conditions on 23 August 2026, a core group that gets the discount automatically and a broader group that does not, and verbatim \"If you do not get the discount automatically, you'll need to apply directly to your energy supplier\" — suppliers may set extra criteria of their own, and a household should contact its supplier as early as possible even if it got the discount last year, because the number of discounts is limited. The discount is applied to the bill by 31 March 2027",
+     "https://www.gov.uk/the-warm-home-discount-scheme/if-you-live-in-scotland", "2026-11-07"),
+    ("Ofgem, the regulator that administers the scheme: it \"primarily provides support through the provision of £150 energy bill rebates\", and it runs in England, Scotland and Wales but not in Northern Ireland, which has an Affordable Warmth Scheme",
+     "https://www.ofgem.gov.uk/environmental-and-social-schemes/warm-home-discount-whd", "2026-11-07"),
+  ],
+  SCOPE=dict(
+    nation="England, Scotland and Wales — and NOT Northern Ireland, where GOV.UK says the scheme "
+           "is not available at all and the Affordable Warmth scheme applies instead. England and "
+           "Wales work one way (automatic, by letter) and Scotland another (automatic only for the "
+           "core group, otherwise an application to the supplier), so this is not one UK rule.",
+    category="Households where, on 23 August 2026, the person or their partner was getting a "
+             "means-tested benefit named on the GOV.UK page — Universal Credit, Housing Benefit, "
+             "income-related ESA or Pension Credit — their name or their partner's was on the "
+             "electricity bill, and their energy supplier was part of the scheme.",
+    excluded="Four distinct exclusions, and the cards carry all four. (1) Anyone whose name is not on the electricity bill: for this audience the common case is a rented room, or a shared house, where the electricity account is in the landlord's name — the household may be on Universal Credit and still get nothing, and nobody writes to tell them why. (2) Northern Ireland entirely: GOV.UK states the scheme is not available there. (3) Anyone whose energy supplier is not part of the scheme, which is a condition on the GOV.UK page and not a formality. (4) In Scotland, anyone outside the core group: the discount is not automatic, they have to apply directly to the supplier, suppliers may add criteria of their own, and GOV.UK warns the number of discounts is limited — so a Scottish household that waits can miss it even while qualifying. Two further points that stop the post overpromising: the date is fixed at 23 August 2026, so someone whose benefit started in September 2026 is outside this scheme year however poor they are; and the £150 is a discount applied by the supplier, not a payment — nobody receives cash.",
+    from_when="The qualifying date is 23 August 2026. Letters go out from late October 2026 to "
+              "early January 2027; the helpline deadline, where a letter asks for more "
+              "information, is 26 February 2027; and the discount is applied to the bill by 31 "
+              "March 2027. Automatic in England and Wales and for Scotland's core group; claimed "
+              "from the supplier for Scotland's broader group and, by a separate process, for "
+              "park home residents."),
+)
+
+# ==================================================================== 20
+HOLIDAY_56 = dict(
+  slug="concediu-56-saptamani",
+  title="Concediul plătit — 5,6 săptămâni, până la 28 de zile",
+  tags_ro="#drepturilaMunca #concediu #angajati #payroll #romaniinuk",
+  tags_en="#employmentrights #holidaypay #payroll #ukemployers #hrcompliance",
+
+  RO=[
+    dict(type="hook",
+         kicker="Drepturi la muncă · Concediu plătit",
+         h1="Concediul plătit e <em>5,6 săptămâni</em> pe an, nu un bonus.",
+         say="Aproape toți cei care muncesc pentru altcineva au dreptul la el. Pentru cine lucrează 5 zile pe săptămână, înseamnă 28 de zile plătite pe an."),
+    dict(type="step", step="Cum se socotește pentru tine", fig="28",
+         say="Legea dă <b>săptămâni</b>, nu zile. 5 zile pe săptămână → <b>28</b> de zile. 3 zile → cel puțin <b>16,8</b>. La ore neregulate se adună ore, nu zile: <b>12,07%</b> din cât lucrezi.",
+         note="Peste 28 de zile nu se mai adaugă nimic: cine lucrează 6 zile pe săptămână are tot 28. Iar sărbătorile legale nu trebuie date ca zile libere plătite — angajatorul le poate socoti în cele 28."),
+    dict(type="step", step="Cine NU are acest drept", fig="0 zile",
+         say="Cine lucrează pe cont propriu nu are concediu plătit. GOV.UK trece „nu primesc concediu plătit\" chiar ca semn că omul e pe cont propriu, nu angajat.",
+         note="Dar eticheta nu decide. „Freelance\" sau „zero hours\" poate intra tot la <b>worker</b>: cineva care face munca personal, pentru bani, cu drept limitat de a trimite pe altcineva în loc."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Drepturi la muncă · Concediu plătit",
+    h1="Faci <em>payroll</em> pentru oamenii tăi?",
+    say="Scrie-ne și ne uităm la concediu și la fluturași. Ești angajat și nu ți s-a dat? Acas ajută gratuit.",
+    phone=PHONE, disc="Informații generale, nu consiliere juridică. Noi facem payroll."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Employment rights · Paid holiday",
+         h1="Paid holiday is <em>5.6 weeks</em> a year, not a favour.",
+         say="Almost everyone who works for someone else is entitled to it. For someone on a 5-day week that is 28 paid days a year."),
+    dict(type="step", step="How it works out for you", fig="28",
+         say="The law gives <b>weeks</b>, not days. A 5-day week → <b>28</b> days. A 3-day week → at least <b>16.8</b>. On irregular hours it builds in hours, not days: <b>12.07%</b> of what you work.",
+         note="Nothing is added above 28 days: a worker on a 6-day week still gets 28. And bank holidays do not have to be given as paid leave — an employer may count them inside the 28."),
+    dict(type="step", step="Who does NOT have this right", fig="0 days",
+         say="Self-employed people get no paid holiday. GOV.UK lists \"they do not get holiday or sick pay\" as a sign that someone is self-employed rather than employed.",
+         note="But the label does not decide it. \"Freelance\" or \"zero hours\" can still fall under <b>worker</b>: someone who does the work personally, for pay, and has only a limited right to send someone else."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Employment rights · Paid holiday",
+    h1="Running <em>payroll</em> for your people?",
+    say="Message us and we will go through the holiday and the payslips. A worker who was not given it? Acas helps free.",
+    phone=PHONE, disc="General information, not legal advice. We run payroll."),
+
+  SOURCES=[
+    ("Quoted verbatim: \"Almost all people classed as workers are legally entitled to 5.6 weeks' paid holiday a year\" and \"Statutory paid holiday entitlement is limited to 28 days\", with the page's own examples that a worker on a 6-day week still gets only 28 days and that someone working 3 days a week gets at least 16.8 days. Also verbatim: \"Bank or public holidays do not have to be given as paid leave\", and an employer may count them towards statutory leave",
+     "https://www.gov.uk/holiday-entitlement-rights", "2026-11-07"),
+    ("What makes someone a worker, and so entitled: the rights listed include \"the statutory minimum level of paid holiday\", and a person is generally a worker if they \"have a contract or other arrangement to do work or services personally for a reward\", written or unwritten — including casual or irregular work where the contract uses terms like \"casual\", \"freelance\", \"zero hours\" or \"as required\"",
+     "https://www.gov.uk/employment-status/worker", "2026-11-07"),
+    ("The exclusion, at source: \"Employment law does not cover self-employed people in most cases because they are their own boss\", and \"they do not get holiday or sick pay when they're not working\" is listed as a typical sign of self-employment. What they keep is \"protection of their health and safety\" and, in some cases, \"protection of their rights against discrimination\"",
+     "https://www.gov.uk/employment-status/selfemployed-contractor", "2026-11-07"),
+    ("The accrual method for irregular hours: \"For leave years beginning on or after 1 April 2024, there is a new accrual method for irregular hour workers and part-year workers\" and \"Holiday entitlement for these workers will be calculated as 12.07% of actual hours worked in a pay period\". A worker is an irregular hours worker where paid hours in each pay period are \"under the terms of their contract, wholly or mostly variable\"; rolled-up holiday pay at 12.07% of pay, shown separately on the payslip, is optional and only for these two groups",
+     "https://www.gov.uk/government/publications/simplifying-holiday-entitlement-and-holiday-pay-calculations/holiday-pay-and-entitlement-reforms-from-1-january-2024", "2026-11-07"),
+  ],
+  SCOPE=dict(
+    nation="England, Scotland and Wales — the GOV.UK holiday entitlement guidance covers Great "
+           "Britain. Employment law is transferred in Northern Ireland, which has its own Working "
+           "Time Regulations and its own guidance published by nidirect, so no card states this as "
+           "a UK-wide figure.",
+    category="People classed as workers, which GOV.UK defines broadly: anyone with a contract or "
+             "other arrangement, written or unwritten, to do work or services personally for a "
+             "reward. That takes in employees, and also casual, freelance-labelled and zero-hours "
+             "working. Part-time workers get the same 5.6 weeks, which is fewer days.",
+    excluded="Three real exclusions, and the cards name them. (1) Self-employed people have no paid holiday: GOV.UK says employment law does not cover them in most cases, and it lists not getting holiday or sick pay as a sign that someone IS self-employed. (2) Nobody gets more than 28 days of statutory leave however many days a week they work — a 6-day week still gets 28, so the 5.6 weeks is capped and \"5.6 weeks of a 6-day week\" is wrong. (3) Bank holidays are not an extra entitlement: GOV.UK says they do not have to be given as paid leave and may be counted inside the 28 days, so a worker who assumes 28 days plus 8 bank holidays can be wrong without the employer breaking anything. One more thing that is NOT an exclusion and is the most useful line on the card: a \"freelance\" or \"zero hours\" label does not remove the right — if the person does the work personally for a reward they are a worker and the holiday is theirs, which is exactly where this audience is told otherwise. For irregular hours and part-year workers the entitlement is 12.07% of hours actually worked, in leave years beginning on or after 1 April 2024, so it is a different sum rather than no right.",
+    from_when="5.6 weeks and the 28-day cap are the long-standing statutory minimum and apply now. "
+              "The 12.07% accrual method and optional rolled-up holiday pay apply to leave years "
+              "beginning on or after 1 April 2024. None of it is claimed from the state — it is "
+              "taken from the employer, who has to give it."),
+)
+
+DAY = [VOLUNTARY_NI, DIVIDENDS_1075, HOME_WORKING, WARM_HOME_150, HOLIDAY_56]
 
 # CHILD_BENEFIT was drafted for the 6th and held by the scope checker: its card 3
 # answers "who does not keep it" with the High Income Child Benefit Charge, while
@@ -1461,6 +1812,7 @@ HELD = [WINTER_FUEL, CHILD_BENEFIT]
 # topic that was in the last commit: a topic that leaves DAY has not been lost,
 # it has been published.
 ARCHIVE = [PAYMENTS_ON_ACCOUNT, MTD_INCOME_TAX, VAT_THRESHOLD, MARRIAGE_ALLOWANCE,
-           CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE]
+           CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE,
+           MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS]
 
 BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}

@@ -829,6 +829,365 @@ Want to read the Act itself?""",
  source="legislation.gov.uk/ukpga/2015/15/section/22 and legislation.gov.uk/ukpga/2015/15/part/1/chapter/2",
 )
 
+# ------------------------------------------------------------------ 16
+C["ni-voluntar-pensie"] = dict(
+  ro="""Ai lucrat în UK, dar nu în fiecare an? Pensia de stat se socotește în ani, nu în cât ai câștigat.
+
+Un an fiscal în care nu ai plătit National Insurance e o gaură în dosar. Poți plăti ca să o acoperi.
+
+Cât costă, la ratele pentru 2026-2027:
+• clasa 3, varianta generală: £18,40 pe săptămână
+• clasa 2, pentru cine lucrează pe cont propriu cu profit sub £7.105: £3,65 pe săptămână
+
+Atenție la rată: clasa 3 pe ultimii doi ani, și clasa 2 pe ultimul an, se plătesc la rata din anul lor. Doar anii mai vechi la rata din 2026-2027.
+
+Cât timp ai: GOV.UK scrie „You can only pay voluntary contributions for the past 6 years", iar termenul e 5 aprilie. Exemplul de pe pagină: pentru 2025-2026 ai timp până pe 5 aprilie 2032.
+
+De ce se numără anii: dacă dosarul tău a început după aprilie 2016, ai nevoie de 35 de ani plătiți pentru pensia nouă plină, care e £241,30 pe săptămână în 2026-2027. Și ai nevoie de minimum 10 ani ca să primești ceva.
+
+Cine NU are de ce să plătească:
+• cine are deja pensia plină în previziune — un an în plus nu mai adaugă nimic
+• cine nu are găuri în dosar: GOV.UK spune direct că nu poți plăti
+• cine a trecut termenul pentru anii cu găuri
+• o femeie măritată sau o văduvă care plătește cota redusă de National Insurance
+
+Și avertismentul care e chiar pe pagina GOV.UK: „Voluntary contributions do not always increase your State Pension, for example if you were contracted out." Dacă ai fost contracted out, ai nevoie de obicei de mai mult de 35 de ani. Deci uită-te la previziunea pensiei tale ÎNAINTE să plătești ceva.
+
+Mai e ceva: unele găuri se pot acoperi gratuit, cu credite NI. GOV.UK spune să verifici dacă ai dreptul la credite înainte de a te hotărî să plătești.
+
+Se aplică în tot Regatul Unit. Nu vine nimic automat — plata voluntară e o alegere pe care o faci tu.
+
+Nu știi câți ani ai plătiți?""",
+
+  th="""Ai lucrat în UK, dar nu în fiecare an? Pensia de stat se socotește în ani, nu în cât ai câștigat.
+
+În 2026-2027 un an costă £18,40 pe săptămână la clasa 3, și poți plăti doar pentru ultimii 6 ani.
+
+Dar sub 10 ani plătiți în total nu primești nimic din pensia nouă.""",
+
+  li="""The UK State Pension is counted in years, not in earnings — and a year with no National Insurance paid is a gap you can still fill.
+
+Voluntary rates for 2026/27:
+• Class 3, the general voluntary class: £18.40 a week
+• Class 2, for the self-employed with annual profits under £7,105: £3.65 a week
+
+Mind which rate applies: Class 2 for the previous tax year, and Class 3 for the previous two, are paid at the original rate for those years. Only earlier years are charged at the 2026/27 rate.
+
+The window is narrow. GOV.UK: "You can only pay voluntary contributions for the past 6 years", with 5 April as the annual deadline. Its own example: gaps for the 2025 to 2026 tax year can be filled until 5 April 2032. A gap from seven years ago is closed.
+
+Why the years matter: a National Insurance record that started after April 2016 needs 35 qualifying years for the full new State Pension, which is £241.30 a week in 2026/27, and 10 qualifying years before any new State Pension is paid at all.
+
+Who does NOT need to pay:
+• anyone whose forecast already shows the full rate — a further year adds nothing
+• anyone with no gaps in the record, who GOV.UK says cannot pay
+• anyone past the deadline for the years that have gaps
+• a married woman or widow paying reduced rate National Insurance
+
+And the warning GOV.UK prints itself: "Voluntary contributions do not always increase your State Pension, for example if you were contracted out." A contracted-out record usually needs more than 35 years, so paying is not automatically worth it. Check the forecast first.
+
+Two things worth doing before any payment: read the State Pension forecast, and check eligibility for National Insurance credits — some gaps can be covered for nothing, and GOV.UK says to check them before deciding to pay.
+
+UK-wide. Nothing happens automatically; a voluntary contribution is a payment the individual chooses to make.
+
+Want the National Insurance record read properly before you pay anything?""",
+
+  bsky="""Worked in the UK but not every year? Class 3 is £18.40 a week in 2026/27, only the past 6 years can be paid, and under 10 years pays nothing.""",
+
+  pin_title="UK voluntary National Insurance: £18.40 a week, 6-year window",
+
+  pin="""Voluntary National Insurance for 2026/27: Class 3 is £18.40 a week, and Class 2, for the self-employed with profits under £7,105, is £3.65. Class 3 for the last two years, and Class 2 for the last year, are charged at their own year's rate; earlier years at the 2026/27 rate. Contributions are allowed for the past 6 tax years only, by 5 April. A record starting after April 2016 needs 35 qualifying years for the full new State Pension of £241.30 a week, and 10 years before any is paid at all.""",
+
+  source="gov.uk/voluntary-national-insurance-contributions and gov.uk/new-state-pension/what-youll-get",
+)
+
+# ------------------------------------------------------------------ 17
+C["dividende-10-75"] = dict(
+  ro="""Dacă îți scoți banii din firma ta ca dividend, cota de bază a crescut. Din 6 aprilie 2026 se plătește 10,75%, nu 8,75%.
+
+Cotele pentru 2026-2027, pe dividendele de peste alocație:
+• 10,75% în banda de bază
+• 35,75% în banda mare
+• 39,35% în banda de sus
+
+Primii £500 de dividende într-un an fiscal nu se impozitează deloc. Asta e „dividend allowance" și e per an, nu per firmă.
+
+Exemplu: ai £2.000 de dividende și ești în banda de bază. Primii £500 sunt fără taxă. Pe restul, £1.500 × 10,75% = £161,25.
+
+Ce s-a schimbat exact: au urcat primele două cote, cu două puncte fiecare. Cota de sus, 39,35%, a rămas la fel — deci creșterea nu i-a atins pe cei cu cele mai mari venituri.
+
+Cine NU plătește nimic:
+• cine are dividende de £500 sau mai puțin într-un an — alocația le acoperă
+• cine nu a folosit tot Personal Allowance: dividendele care intră în cei £12.570 nu se impozitează, deci un director cu alte venituri mici poate lua dividende mult peste £500 și tot să nu plătească
+• oricine are acțiuni într-un ISA — dividendele din ISA nu se impozitează, oricât ar fi
+
+Și cine e complet în afara discuției: cine lucrează pe cont propriu, fără firmă. Acolo nu există dividende — scoți profit, nu dividend, iar cotele astea nu te ating.
+
+Banda în care intri se stabilește după venitul tău total, nu după dividend luat separat. Deci același dividend poate fi impozitat cu 10,75% la o persoană și cu 35,75% la alta.
+
+Se aplică în tot Regatul Unit. Nu vine nimic automat — dividendele de peste alocație se raportează la HMRC.
+
+Nu știi cât îți rămâne din dividend?""",
+
+  th="""Îți scoți banii din firmă ca dividend? Din 6 aprilie 2026 cota de bază e 10,75%, nu 8,75%. Apoi 35,75% și 39,35%.
+
+Primii £500 pe an rămân fără taxă.
+
+Cine NU plătește nimic: cine are sub £500 de dividende, cine nu a folosit tot Personal Allowance, și cine are acțiunile în ISA.""",
+
+  li="""If you take profit out of your own limited company as a dividend, the basic rate changed on 6 April 2026: 10.75%, up from 8.75%.
+
+Dividend rates for 2026/27, on dividends above the allowance:
+• 10.75% at the basic rate
+• 35.75% at the higher rate
+• 39.35% at the additional rate
+
+The first £500 of dividends in a tax year remains untaxed. That is the dividend allowance, and it is per person per tax year, not per company.
+
+Worked: £2,000 of dividends for a basic-rate taxpayer. The first £500 is free; the remaining £1,500 × 10.75% = £161.25.
+
+What actually changed: the ordinary and upper rates rose by two points each. The additional rate stayed at 39.35%, so the highest-income shareholders saw no change at all — a point worth making before anyone reports this as a rise for everyone.
+
+Who pays nothing:
+• anyone whose dividends for the year total £500 or less
+• anyone with unused Personal Allowance — dividends inside the £12,570 are not taxed, so a director with little other income can take dividends well above £500 and still pay nothing
+• anyone holding the shares in an ISA, where dividends are not taxed at any amount
+
+And who is outside this entirely: sole traders and ordinary partnerships. They draw profit rather than dividends, so none of these rates reach them.
+
+The band is set by total income, not by the dividend in isolation. The same £2,000 dividend can be taxed at 10.75% for one person and 35.75% for another.
+
+UK-wide, and nothing is automatic — dividend income above the allowance and any unused Personal Allowance has to be reported to HMRC.
+
+Planning the next dividend? Worth running the numbers before the money moves.""",
+
+  bsky="""Dividends from your own company: the basic rate is 10.75% now, up from 8.75% on 6 April 2026. The first £500 a year is untaxed.""",
+
+  pin_title="UK dividend tax 2026/27: basic rate 10.75%, up from 8.75%",
+
+  pin="""UK dividend tax for 2026/27: 10.75% at the basic rate, 35.75% at the higher rate and 39.35% at the additional rate, on dividends above the £500 allowance. The first two rose by two points on 6 April 2026, from 8.75% and 33.75%; the additional rate is unchanged. Worked: £2,000 of dividends for a basic-rate taxpayer is £500 free plus £1,500 at 10.75% = £161.25. Nobody pays on £500 or less, on dividends inside an unused £12,570 Personal Allowance, or on shares held in an ISA. Sole traders have no dividends at all.""",
+
+  gbp="""Dividends from your own company are taxed at 10.75% now, not 8.75%.
+
+If you take money out of a limited company as a dividend, the basic rate rose by two points on 6 April 2026. For 2026/27 the rates on dividends above the allowance are 10.75% at the basic rate, 35.75% at the higher rate and 39.35% at the additional rate — the additional rate is unchanged.
+
+The first £500 of dividends in a tax year is still untaxed.
+
+Worked example: £2,000 of dividends for a basic-rate taxpayer. The first £500 is free, then £1,500 × 10.75% = £161.25.
+
+Who pays nothing: anyone with £500 or less of dividends in the year; anyone with unused Personal Allowance, since dividends falling inside the £12,570 are not taxed; and anyone holding the shares in an ISA.
+
+Sole traders are outside this altogether — they draw profit, not dividends.
+
+The band depends on your total income, not on the dividend on its own.
+
+Running a limited company around Luton or Birmingham? Call or message 0330 133 1886 and we will set out the salary and dividend position before you take the next payment.
+
+Ola Accountancy — Luton and Birmingham.
+
+Source: gov.uk/tax-on-dividends""",
+
+  source="gov.uk/tax-on-dividends",
+)
+
+# ------------------------------------------------------------------ 18
+C["birou-acasa-26"] = dict(
+  ro="""Lucrezi pe cont propriu și faci munca de acasă? Poți scădea o sumă fixă pe lună din profit, fără să calculezi ce parte din cheltuielile casei a fost pentru muncă.
+
+Suma depinde de cât lucrezi de acasă într-o lună:
+• 25-50 de ore → £10 pe lună
+• 51-100 de ore → £18 pe lună
+• 101 de ore sau mai multe → £26 pe lună
+
+Exemplu: lucrezi de acasă 60 de ore pe lună, tot anul. 12 × £18 = £216 scăzuți din profit. Nu păstrezi facturi pentru asta — ții socoteala orelor.
+
+Orele care se numără sunt cele în care faci efectiv munca de acasă: produci, livrezi, ții evidența, cauți clienți.
+
+Se socotește lună cu lună. O lună aglomerată poate intra la £26 și o lună liniștită la £10, în același an.
+
+Cine NU poate folosi suma fixă:
+• într-o lună în care ai lucrat de acasă sub 25 de ore — pentru luna aceea nu primești nimic. Manualul HMRC scrie că deducerea există „only if these hours exceed 25 per month"
+• firmele Ltd. GOV.UK scrie direct: „Simplified expenses cannot be used by limited companies or business partnerships involving a limited company". Deci un director care lucrează de acasă nu are voie la regula asta
+• o asociere în care intră o firmă. Doar asocierile formate numai din persoane fizice pot
+• angajații. Sumele astea sunt o regulă pentru cei pe cont propriu, nu pentru cineva cu contract de muncă
+
+Două limite care se confundă des: suma fixă NU acoperă telefonul și internetul — pe acelea le calculezi separat. Și nu acoperă nicio altă cheltuială; restul se socotește oricum la valoarea reală.
+
+Folosirea sumei fixe e opțională — dacă îți iese mai bine pe cheltuieli reale, alegi varianta aceea.
+
+Se aplică în tot Regatul Unit. Se trece în declarația de Self Assessment — nu vine nimic automat.
+
+Nu știi ce poți scădea de acasă?""",
+
+  th="""Lucrezi pe cont propriu și faci munca de acasă? Scazi o sumă fixă pe lună, după ore: 25-50 de ore → £10, 51-100 → £18, 101 sau mai multe → £26.
+
+Sub 25 de ore într-o lună nu primești nimic pe luna aceea. Și firmele Ltd nu pot folosi regula asta deloc.""",
+
+  li="""If you are self-employed and the work happens at home, HMRC's simplified expenses let you take a flat amount off profit each month instead of apportioning the household bills.
+
+The rates, by hours of business work at home in a month:
+• 25 to 50 hours → £10
+• 51 to 100 hours → £18
+• 101 hours or more → £26
+
+Worked: 60 hours a month at home across a full year is 12 × £18 = £216 off profit. The record you keep is the hours, not the bills.
+
+The hours counted are hours spent on business activities at home — providing goods or services, maintaining business records, marketing and winning new business. It is assessed month by month, so a busy month can reach £26 and a quiet one £10 in the same year.
+
+Who cannot use it:
+• any month with under 25 hours of work at home. BIM75010 puts it as a deduction available "only if these hours exceed 25 per month"
+• limited companies. GOV.UK is explicit: "Simplified expenses cannot be used by limited companies or business partnerships involving a limited company". A director working from home cannot use these figures
+• a partnership with a company as a partner — only partnerships comprising solely individual partners qualify
+• employees, who are outside simplified expenses entirely
+
+Two limits that get misread: the flat rate does not include telephone or internet expenses, which are worked out separately, and it does not cover any other expense — everything else is at actual cost.
+
+Using the flat rate is optional. Where actual costs give a better answer, actual costs remain available, and the choice can be made on the figures.
+
+UK-wide, claimed on the Self Assessment return rather than paid out.
+
+Worth checking which method gives the better result before January.""",
+
+  bsky="""Self-employed and working from home? Simplified expenses give £10, £18 or £26 a month by hours. Under 25 hours a month, nothing.""",
+
+  pin_title="Working from home self-employed: £10, £18 or £26 a month",
+
+  pin="""HMRC simplified expenses for working from home, self-employed: £10 a month for 25 to 50 hours of business work at home, £18 for 51 to 100 hours, £26 for 101 hours or more. You record the hours, not the bills, and the band is judged month by month. Under 25 hours in a month, nothing is available for that month. Limited companies cannot use simplified expenses at all, nor a partnership with a company as a partner. The flat rate excludes telephone and internet, worked out separately. Claimed on the Self Assessment return.""",
+
+  source="gov.uk/simpler-income-tax-simplified-expenses/working-from-home and gov.uk/hmrc-internal-manuals/business-income-manual/bim75010",
+)
+
+# ------------------------------------------------------------------ 19
+C["warm-home-150"] = dict(
+  ro="""£150 se scad din factura de electricitate în această iarnă, în Anglia, Scoția și Țara Galilor. Nu primești bani în mână — furnizorul taie suma direct din factură.
+
+Ce trebuia să fie adevărat pe 23 august 2026, toate trei:
+• furnizorul tău de energie e în schemă
+• tu sau partenerul primeați un ajutor pe bază de venit: Universal Credit, Housing Benefit, ESA pe venit sau Pension Credit
+• numele tău sau al partenerului era pe factura de electricitate
+
+În Anglia și Țara Galilor vine automat. Scrisoarea sosește între sfârșitul lui octombrie 2026 și începutul lui ianuarie 2027, iar pentru cine se încadrează scrie că nu trebuie să facă nimic. Dacă scrisoarea cere informații în plus, trebuie sunat la linia de ajutor până pe 26 februarie 2027. Reducerea e pusă pe factură până pe 31 martie 2027.
+
+Cine NU îl primește:
+• cine nu are numele pe factura de electricitate. Cazul obișnuit la noi e camera închiriată sau casa împărțită, unde curentul e pe numele proprietarului. Poți fi pe Universal Credit și să nu primești nimic — și nimeni nu îți scrie să îți spună de ce
+• Irlanda de Nord. GOV.UK scrie că schema nu există acolo; în locul ei funcționează Affordable Warmth
+• cine are un furnizor care nu e în schemă
+• în Scoția, cine nu e în „core group". Acolo nu vine automat pentru toți: unii trebuie să ceară direct furnizorului, furnizorii pot pune criterii în plus, iar GOV.UK avertizează că numărul de reduceri e limitat
+
+Data e fixă: 23 august 2026. Un ajutor care a început în septembrie 2026 e în afara acestui an de schemă.
+
+Ai contor cu cartelă? Te poți încadra — furnizorul îți explică cum, de obicei printr-un voucher.
+
+Reducerea nu îți ia Cold Weather Payment sau Winter Fuel Payment.
+
+Nu evaluăm noi dreptul la ajutoare și nu depunem cereri. Condițiile sunt pe gov.uk/the-warm-home-discount-scheme.
+
+Pentru contabilitate, ne găsești aici:""",
+
+  th="""£150 se scad din factura de curent, în Anglia, Scoția și Țara Galilor. Vine automat, cu o scrisoare.
+
+Conta ce era pe 23 august 2026: un ajutor pe venit și numele tău pe factură.
+
+Cine NU îl primește: cine nu are numele pe factură — camera închiriată. Și Irlanda de Nord nu are schema.""",
+
+  li="""The Warm Home Discount takes £150 off an electricity bill this winter, in England, Scotland and Wales. It is a discount applied by the supplier, not a payment — no money reaches the household directly.
+
+Three things had to be true on 23 August 2026:
+• the energy supplier is part of the scheme
+• the person or their partner gets certain means-tested benefits — Universal Credit, Housing Benefit, income-related ESA or Pension Credit
+• the person's name, or their partner's, is on the electricity bill
+
+In England and Wales it is automatic. Letters go out from late October 2026 to early January 2027, and an eligible household's letter confirms it does not need to do anything. Where a letter asks for more information, the helpline has to be called by 26 February 2027. The discount is applied to the bill by 31 March 2027.
+
+Who does NOT get it:
+• anyone whose name is not on the electricity bill. The common case is a rented room or shared house where the electricity account is in the landlord's name — a household can be on Universal Credit and receive nothing, with no letter explaining why
+• Northern Ireland: GOV.UK states the scheme is not available there, and the Affordable Warmth scheme applies instead
+• anyone whose supplier is not part of the scheme, which is a stated condition
+• in Scotland, anyone outside the core group. It is not automatic for everyone there: some have to apply directly to the supplier, suppliers may set additional criteria, and GOV.UK warns the number of discounts is limited, so a qualifying household that waits can miss it
+
+The date is fixed. A benefit that started in September 2026 falls outside this scheme year.
+
+Prepayment meters still qualify, with the supplier explaining how — often a voucher to top up the meter. Park home residents apply by a separate process. And the discount does not affect Cold Weather Payment or Winter Fuel Payment.
+
+Entitlement to the benefits behind this has its own conditions, which we do not assess. The conditions are at gov.uk/the-warm-home-discount-scheme.
+
+Worth passing on to anyone who assumes the bill payer's name does not matter.""",
+
+  bsky="""Warm Home Discount: £150 off the electricity bill. No name on the bill, no discount — and Northern Ireland has no scheme at all.""",
+
+  pin_title="Warm Home Discount: £150 off, and who misses out",
+
+  pin="""The Warm Home Discount takes £150 off an electricity bill in England, Scotland and Wales — applied by the supplier, not paid to you. On 23 August 2026: your supplier is in the scheme, you or your partner get Universal Credit, Housing Benefit, income-related ESA or Pension Credit, and your name is on the electricity bill. England and Wales: automatic, by letter, by 31 March 2027. Who misses out: anyone not named on the electricity bill, such as a rented room; Northern Ireland, which has no scheme; and in Scotland anyone outside the core group.""",
+
+  disc_ro="Informații generale, nu consiliere pe ajutoare. Condițiile sunt pe GOV.UK.",
+  disc_en="General information, not benefits advice. The conditions are on GOV.UK.",
+  source="gov.uk/the-warm-home-discount-scheme",
+)
+
+# ------------------------------------------------------------------ 20
+C["concediu-56-saptamani"] = dict(
+  ro="""Concediul plătit nu e un bonus de la angajator. E un drept, iar GOV.UK îl scrie în săptămâni: 5,6 săptămâni pe an pentru aproape toți cei care intră în categoria „worker".
+
+Cum arată în zile:
+• 5 zile pe săptămână → 28 de zile plătite pe an
+• 4 zile pe săptămână → cel puțin 22,4 zile
+• 3 zile pe săptămână → cel puțin 16,8 zile
+
+De aici vine confuzia: legea dă săptămâni, nu zile, deci cine lucrează mai puțin primește mai puține zile.
+
+Și există un plafon. 28 de zile e maximul prevăzut de lege, oricâte zile pe săptămână ai lucra. Cine lucrează 6 zile pe săptămână are tot 28, nu 33,6.
+
+Sărbătorile legale: GOV.UK scrie că „Bank or public holidays do not have to be given as paid leave". Angajatorul le poate socoti în cele 28 de zile. Deci dacă te așteptai la 28 de zile PLUS cele 8 sărbători, se poate să nu fie așa, fără ca angajatorul să încalce nimic.
+
+Cine NU are acest drept: cine lucrează pe cont propriu. GOV.UK scrie că legea muncii „does not cover self-employed people in most cases" și trece chiar „they do not get holiday or sick pay when they're not working" ca semn că omul e pe cont propriu, nu angajat.
+
+Dar — și asta e partea care îi interesează pe cei mai mulți — eticheta din contract nu decide. „Freelance", „casual" sau „zero hours" pe hârtie poate însemna tot „worker" după definiția de pe GOV.UK, iar statutul de worker vine cu concediu plătit. Ce statut are cineva se stabilește pe faptele muncii, nu pe cuvântul din contract.
+
+La ore neregulate se socotește altfel, nu dispare: pentru anii de concediu care încep de la 1 aprilie 2024 încoace, concediul se adună ca 12,07% din orele lucrate efectiv în fiecare perioadă de plată.
+
+Pagina GOV.UK acoperă Anglia, Scoția și Țara Galilor; în Irlanda de Nord regulile sunt proprii.
+
+Faci payroll pentru oamenii tăi?""",
+
+  th="""Concediul plătit e un drept pentru aproape toți: 5,6 săptămâni pe an. 5 zile pe săptămână → 28 de zile; 3 zile → 16,8.
+
+Sărbătorile legale pot intra în cele 28.
+
+Cine NU are dreptul: cine lucrează pe cont propriu. Dar „zero hours" pe hârtie nu decide singur statutul.""",
+
+  li="""Statutory paid holiday is written in weeks, not days: GOV.UK says almost all people classed as workers are legally entitled to 5.6 weeks' paid holiday a year.
+
+In days:
+• a 5-day week → 28 paid days a year
+• a 4-day week → at least 22.4 days
+• a 3-day week → at least 16.8 days
+
+That is where the confusion starts. The entitlement scales with the working pattern, so part-time workers get fewer days for the same 5.6 weeks.
+
+There is also a cap. "Statutory paid holiday entitlement is limited to 28 days", so a worker on a 6-day week still gets 28, not 33.6.
+
+Bank holidays are not an addition. GOV.UK: "Bank or public holidays do not have to be given as paid leave", and an employer may count them towards statutory leave. A worker expecting 28 days plus eight bank holidays can be wrong without the employer breaching anything.
+
+Who does NOT have the right: self-employed people. GOV.UK says employment law "does not cover self-employed people in most cases", and lists "they do not get holiday or sick pay when they're not working" as a sign of self-employment.
+
+But the label on the paperwork does not decide it. A person is generally a worker if they "have a contract or other arrangement to do work or services personally for a reward", written or unwritten — including arrangements described as casual, freelance, zero hours or as required. Worker status comes with paid holiday, and status turns on the facts of the working relationship rather than on the word used in the contract.
+
+Irregular hours are a different calculation, not an absence of entitlement: for leave years beginning on or after 1 April 2024, entitlement for irregular hours and part-year workers is 12.07% of actual hours worked in a pay period. Rolled-up holiday pay at 12.07%, itemised on the payslip, is an option for those two groups only.
+
+The GOV.UK guidance covers Great Britain; Northern Ireland has its own Working Time Regulations and its own guidance from nidirect.
+
+For employers: this is the kind of thing that is cheap to get right in the payroll and expensive to get wrong at a tribunal.""",
+
+  bsky="""Paid holiday is 5.6 weeks a year for almost all workers, capped at 28 days. A "zero hours" label does not decide status.""",
+
+  pin_title="UK paid holiday: 5.6 weeks, capped at 28 days",
+
+  pin="""Statutory paid holiday in Great Britain is 5.6 weeks a year for almost everyone classed as a worker, capped at 28 days. A 5-day week gives 28 paid days, a 3-day week at least 16.8 — the law gives weeks, so the days scale with the pattern and nobody gets more than 28. Bank holidays do not have to be given as paid leave and may be counted inside the 28. Self-employed people get none, but a freelance, casual or zero hours label does not decide it — worker status can still apply. Irregular hours: 12.07% of hours worked.""",
+
+  disc_ro="Informații generale, nu consiliere juridică. Pentru dispute de concediu: Acas. Noi facem payroll.",
+  disc_en="General information, not legal advice. For holiday disputes: Acas. We run payroll.",
+  source="gov.uk/holiday-entitlement-rights and gov.uk/employment-status/worker",
+)
+
 # Threads caps a post at 500 characters through the API. Over that, Metricool
 # returns "Media container not created by unknown cause" — a message that points
 # at the images and has nothing to do with them. On 5 November 2026 a
