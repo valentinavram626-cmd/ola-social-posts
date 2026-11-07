@@ -974,21 +974,21 @@ LTD_DEADLINES = dict(
 # ==================================================================== 13
 EMPLOYMENT_ALLOWANCE = dict(
   slug="employment-allowance-10500",
-  title="Employment Allowance — până la £10.500 din National Insurance-ul firmei",
+  title="Employment Allowance — până la £10.500 din National Insurance-ul Class 1 al firmei",
   tags_ro="#angajatori #payroll #nationalinsurance #contabilitate #romaniinuk",
   tags_en="#employmentallowance #payroll #nationalinsurance #ukaccountant #smallbusinessuk",
 
   RO=[
     dict(type="hook",
          kicker="Angajatori · Employment Allowance",
-         h1="Până la <em>£10.500</em> din National Insurance-ul firmei.",
+         h1="Până la <em>£10.500</em> din National Insurance-ul Class 1 al firmei.",
          say="Firma plătește National Insurance pentru fiecare angajat — o contribuție la stat, peste cât se oprește din salariul lui. Employment Allowance taie din partea firmei. Dar se cere."),
     dict(type="step", step="Cât și cum se cere", fig="<cur>£</cur>10.500",
-         say="Se scad până la <b>£10.500</b> din National Insurance-ul plătit de firmă într-un an fiscal. Se cere din programul de salarii, pentru un singur stat de plată — și se cere din nou la fiecare an fiscal.",
+         say="Se scad până la <b>£10.500</b> din National Insurance-ul Class 1 plătit de firmă într-un an fiscal. Se cere din programul de salarii, pentru un singur stat de plată — și se cere din nou la fiecare an fiscal.",
          note="Nu se reportează de la un an la altul. Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani după anul fiscal respectiv."),
     dict(type="step", step="Cine NU poate cere", fig="1 director",
-         say="Dacă firma are un singur director și niciun alt angajat pentru care firma plătește National Insurance, nu poate cere. Nici angajatorii care fac jumătate sau mai mult din muncă pentru sectorul public.",
-         note="Nici pentru o bonă sau un grădinar angajat în casă — doar dacă persoana e îngrijitor. Iar într-un grup de firme, cere o singură firmă."),
+         say="Nu poate cere firma cu un singur director, dacă el e singurul angajat cu National Insurance. Nici angajatorii cu peste jumătate din muncă pentru sectorul public — dar organizațiile de caritate pot cere.",
+         note="Nici pentru o bonă sau un grădinar în casă — doar dacă e îngrijitor. Într-un grup de firme sau de organizații de caritate, cere una singură."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Angajatori · Employment Allowance",
@@ -1005,8 +1005,8 @@ EMPLOYMENT_ALLOWANCE = dict(
          say="Up to <b>£10,500</b> off the employer's Class 1 National Insurance in a tax year. Claimed through your payroll software, against one payroll only — and claimed again every new tax year.",
          note="It does not carry forward. A claim never made can be backdated up to 4 years after the end of the tax year it covers."),
     dict(type="step", step="Who cannot claim", fig="1 director",
-         say="A company with a single director and no other employee liable for secondary Class 1 National Insurance cannot claim. Nor can an employer doing half or more of its work in the public sector.",
-         note="Nor for personal or household work — a nanny, a gardener — unless they are a care or support worker. In a group, only one company claims."),
+         say="A company with one director and no other employee liable for secondary Class 1 cannot claim. Nor an employer doing more than half its work in the public sector — unless it is a charity.",
+         note="Nor for household work — a nanny, a gardener — unless a care or support worker. In a group of connected companies or charities, only one claims."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Employers · Employment Allowance",
@@ -1026,21 +1026,36 @@ EMPLOYMENT_ALLOWANCE = dict(
      "https://www.gov.uk/claim-employment-allowance/eligibility", "2026-11-06"),
     ("\"You must claim the Employment Allowance for each new tax year by submitting an Employer Payment Summary\" — a claim is not carried forward from one tax year to the next; and a claim may be made \"up to 4 years after the end of the tax year in which the allowance applies\", so a 2022 to 2023 claim must be made by 5 April 2027",
      "https://www.gov.uk/government/publications/employment-allowance-more-detailed-guidance/claiming-employment-allowance-further-employer-guidance", "2026-11-06"),
+    ("\"Functions are either wholly or mainly of a public nature, if you are carrying out "
+     "more than 50% of your work in or for the public sector\" and \"if less than 50% of a "
+     "business's work is of a public nature, it will be entitled to the Employment "
+     "Allowance\" — so an employer at exactly 50% is entitled; and \"Registered charities "
+     "can claim the Employment Allowance, even if they are wholly or mainly carrying out "
+     "functions of a public nature\"",
+     "https://www.gov.uk/government/publications/employment-allowance-more-detailed-guidance/eligibility-for-employment-allowance-further-employer-guidance", "2026-11-06"),
+    ("Claiming for past years: \"To claim for the 2024 to 2025 tax year or earlier, your "
+     "employers' Class 1 National Insurance liabilities must have been less than £100,000 "
+     "the previous tax year. If you're claiming for the 2025 to 2026 tax year or later, "
+     "there is no limit.\" Previous rates: £10,500 for 2025 to 2026, and £5,000 for each "
+     "year between 6 April 2022 and 5 April 2025",
+     "https://www.gov.uk/claim-employment-allowance/claim-for-past-years", "2026-11-06"),
   ],
   SCOPE=dict(
     nation="All of the UK — employer Class 1 National Insurance is a UK-wide HMRC charge "
            "with no devolved variation.",
-    category="Employers paying employer Class 1 National Insurance who do less than half their work in the public sector, and charities including community amateur sports clubs. The charity position on the public-sector test was not read at primary source for this run, so no card claims anything about charities.",
+    category="Employers paying employer Class 1 National Insurance who do less than half their work in the public sector — an employer at exactly 50% is entitled, because the test is MORE than 50% — and charities including community amateur sports clubs. The charity carve-out was read at primary source on 6 November 2026: a registered charity can claim even when it is wholly or mainly carrying out functions of a public nature, so the public-sector exclusion on every card and caption now carries it.",
     excluded="A company with one director and no other employee liable for secondary Class 1 "
              "National Insurance cannot claim at all — that is the single commonest exclusion "
-             "for a small limited company. Employers doing half or more of their work in the "
-             "public sector cannot claim. No claim can be made for an employee within "
+             "for a small limited company. An employer carrying out MORE than half its work in "
+             "or for the public sector cannot claim — but a registered charity can, even "
+             "when its functions are wholly or mainly of a public nature, and an employer "
+             "at exactly 50% is entitled rather than excluded. No claim can be made for an employee within "
              "off-payroll working rules, or for someone employed for personal, household or "
              "domestic work such as a nanny or gardener, unless that person is a care or "
-             "support worker. Within a group of connected companies only one company may "
-             "claim, and an employer running several payrolls may claim against only one of "
+             "support worker. Within a group of connected companies or connected charities only "
+             "one of them may claim, and an employer running several payrolls may claim against only one of "
              "them. A business with no employees at all is outside it entirely.",
-    from_when="Claimed through payroll software for EACH tax year separately — never automatic and never carried forward, so an employer who claimed last year and assumed it rolled over loses up to £10,500. A claim never made can be backdated up to 4 years after the end of the tax year concerned. The £100,000 Class 1 liability bar was lifted from April 2025."),
+    from_when="Claimed through payroll software for EACH tax year separately — never automatic and never carried forward, so an employer who claimed last year and assumed it rolled over loses up to £10,500. A claim never made can be backdated up to 4 years after the end of the tax year concerned — but an earlier year is not claimed on today's terms: the allowance is £10,500 for 2025 to 2026 onwards and was £5,000 for each year between 6 April 2022 and 5 April 2025, and to claim for 2024 to 2025 or earlier the employers' Class 1 National Insurance liabilities must have been less than £100,000 in the previous tax year. The £100,000 bar was lifted from April 2025, so from 2025 to 2026 onwards there is no limit."),
 )
 
 # ==================================================================== 14
@@ -1053,14 +1068,14 @@ COLD_WEATHER = dict(
   RO=[
     dict(type="hook",
          kicker="Iarna 2026/27 · Cold Weather Payment",
-         h1="<em>£25</em> pentru fiecare săptămână de ger. Și vin singuri.",
-         say="Dacă primești unul dintre câteva ajutoare, îndeplinești condițiile lui și în zona ta e zero grade sau mai jos șapte zile la rând, statul îți pune bani în cont."),
+         h1="<em>£25</em> pentru 7 zile la rând de ger.",
+         say="Dacă primești unul dintre câteva ajutoare, îndeplinești condițiile lui și în zona ta media e zero grade sau mai jos șapte zile la rând, banii vin automat în cont. Cerere nu se depune — dar un copil nou în casă se anunță."),
     dict(type="step", step="Pe ce ajutoare se dă", fig="4",
          say="Pension Credit, Universal Credit, Employment and Support Allowance legat de venit, sau Support for Mortgage Interest. Fiecare cu propriile condiții.",
          note="<b>£25</b> pentru fiecare 7 zile la rând cu media la zero grade sau mai jos. Banii vin în 14 zile lucrătoare. Se numără gerul dintre 1 noiembrie 2026 și 31 martie 2027, după codul poștal."),
     dict(type="step", step="Cine NU primește", fig="2 condiții",
-         say="Pe Universal Credit nu primești dacă tu sau partenerul tău munciți. Dar nici dacă nu munciți nu e de ajuns: mai trebuie fie o boală care îți limitează capacitatea de muncă, fie un copil sub 5 ani în casă.",
-         note="Cu suma pentru un copil cu dizabilitate primești oricum. Iar în Scoția nu există — acolo vine Winter Heating Payment, o dată pe iarnă."),
+         say="Pe Universal Credit nu se dă dacă solicitantul sau partenerul muncesc. Și nici dacă nu muncesc nu e de ajuns: mai trebuie o boală ori un handicap — al unuia dintre ei — cu capacitate limitată de muncă, sau un copil sub 5 ani în casă.",
+         note="Cu suma pentru un copil cu dizabilitate dreptul există oricum. Copil nou-născut sau un copil sub 5 ani mutat în casă: schimbarea se anunță, altfel plata nu mai vine automat. În Scoția nu există — cine ia un ajutor care dă dreptul primește Winter Heating Payment, o dată pe iarnă."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Iarna 2026/27 · Cold Weather Payment",
@@ -1071,14 +1086,14 @@ COLD_WEATHER = dict(
   EN=[
     dict(type="hook",
          kicker="Winter 2026/27 · Cold Weather Payment",
-         h1="<em>£25</em> for every week of freezing weather, paid automatically.",
-         say="If you get one of a short list of benefits, meet that benefit's own conditions, and the temperature where you live sits at zero or below for seven days running, money goes into your account."),
+         h1="<em>£25</em> for each 7 days running at zero or below.",
+         say="If you get one of a short list of benefits, meet that benefit's own conditions, and the average temperature where you live sits at zero or below for seven days running, money goes into your account. Nothing to claim — but a new child in the house has to be reported."),
     dict(type="step", step="Which benefits it runs on", fig="4",
          say="Pension Credit, Universal Credit, income-related Employment and Support Allowance, or Support for Mortgage Interest. Each with its own further conditions.",
          note="<b>£25</b> per 7 consecutive days at zero or below, recorded or forecast. Paid within 14 working days. Cold spells from 1 November 2026 to 31 March 2027, by postcode."),
     dict(type="step", step="Who does NOT get it", fig="2 tests",
-         say="On Universal Credit you do not get it if you or your partner are employed or gainfully self-employed. And not working alone is not enough — you also need limited capability for work, or a child under 5.",
-         note="A disabled child amount in the claim and you get it either way. Scotland has none of this — Winter Heating Payment instead."),
+         say="On Universal Credit it is not paid if the claimant or their partner is employed or gainfully self-employed. And not working alone is not enough — one of them also needs limited capability for work, or a child under 5.",
+         note="A disabled child amount in the claim and it is paid either way. A new baby, or a child under 5 moving in, has to be reported or it stops arriving automatically. Scotland has none of this — Winter Heating Payment goes to people on a qualifying benefit."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Winter 2026/27 · Cold Weather Payment",
@@ -1104,11 +1119,26 @@ COLD_WEATHER = dict(
      "disabled child amount in the claim; and Support for Mortgage Interest where treated as "
      "receiving a qualifying benefit",
      "https://www.gov.uk/cold-weather-payment/eligibility", "2026-11-06"),
+    ("The limited-capability-for-work limb is not the claimant's alone: \"you or your partner "
+     "have a health condition or disability and have limited capability for work (with or "
+     "without work-related activity)\". And the one action the claimant must take: \"If you're "
+     "eligible, you'll get these payments automatically. You do not need to apply, but you may "
+     "need to report a change in circumstances if you have a baby or if a child under 5 comes "
+     "to live with you\" — on Universal Credit or income-related ESA, \"You will not "
+     "automatically get Cold Weather Payments if you do not\"",
+     "https://www.gov.uk/cold-weather-payment/eligibility", "2026-11-07"),
+    ("Winter Heating Payment in Scotland is gated on a qualifying benefit exactly as the "
+     "English payment is, so it is not paid to everyone in Scotland: \"Some people in Scotland "
+     "get a single payment during winter called Winter Heating Payment... You will get Winter "
+     "Heating Payment automatically if you get one of the benefits that make you eligible\"",
+     "https://www.mygov.scot/winter-heating-payment", "2026-11-07"),
   ],
   SCOPE=dict(
     nation="England, Wales and Northern Ireland only. NOT Scotland — GOV.UK states plainly "
-           "that someone living in Scotland cannot get Cold Weather Payments; the Winter "
-           "Heating Payment is paid there instead, annually and regardless of the weather.",
+           "that someone living in Scotland cannot get Cold Weather Payments. Winter Heating "
+           "Payment is paid there instead, annually and regardless of the weather, but only to "
+           "people who get one of the benefits that make them eligible: it is gated on a "
+           "qualifying benefit in the same way, not paid to every Scottish household.",
     category="People receiving Pension Credit, income-related Employment and Support "
              "Allowance, Universal Credit or Support for Mortgage Interest, who meet that "
              "benefit's extra conditions, in a postcode area that records or is forecast a "
@@ -1121,10 +1151,16 @@ COLD_WEATHER = dict(
              "Universal Credit claimant with no limited capability for work, no child under 5 "
              "and no disabled child amount is excluded too. On income-related ESA, someone in "
              "neither the work-related activity nor the support group is excluded unless they "
-             "have one of the listed premiums or a child under 5. And a postcode where no "
-             "7-day cold spell is recorded or forecast triggers no payment for anybody.",
+             "have one of the listed premiums or a child under 5. A postcode where no 7-day "
+             "cold spell is recorded or forecast triggers no payment for anybody. And a "
+             "claimant on Universal Credit or income-related ESA who qualifies only through a "
+             "new baby or a child under 5 who has come to live with them, and who has not "
+             "reported that change of circumstances, will not get the payment automatically.",
     from_when="Cold spells between 1 November 2026 and 31 March 2027. Automatic — no claim is "
-              "made; payment follows each triggering cold period within 14 working days."),
+              "made; payment follows each triggering cold period within 14 working days. The "
+              "one thing that must be done: on Universal Credit or income-related ESA, a new "
+              "baby or a child under 5 coming to live with the claimant has to be reported as "
+              "a change of circumstances, or the payment does not arrive automatically."),
 )
 
 # ==================================================================== 15
@@ -1143,7 +1179,7 @@ RETURN_30_DAYS = dict(
          say="Se numără de a doua zi după ce ai primit produsul și a devenit al tău. Dacă ceri reparație sau înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas.",
          note="Banii trebuie dați fără întârziere și în cel mult <b>14 zile</b> de când vânzătorul e de acord că ți se cuvin."),
     dict(type="step", step="Cine NU are cele 30 de zile", fig="privat",
-         say="Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă, legea asta nu se aplică. Nici dacă vânzătorul ți-a spus de defect înainte să cumperi, sau se vedea când ai verificat produsul.",
+         say="Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă, legea asta nu se aplică. Nici dacă ai cumpărat pentru firma ta, nu pentru tine — atunci nu ești consumator în sensul legii.",
          note="La produsele care se strică repede termenul e mai scurt. După 30 de zile mai ai dreptul la reparație sau înlocuire."),
   ],
   CTA_RO=dict(type="cta",
@@ -1161,7 +1197,7 @@ RETURN_30_DAYS = dict(
          say="The clock starts the day after the goods are yours and delivered. If you ask for a repair or a replacement, the clock stops while you wait and picks up where it left off.",
          note="A refund must be given without undue delay and in any event within <b>14 days</b> of the trader agreeing you are entitled to one."),
     dict(type="step", step="Who does NOT have the 30 days", fig="private",
-         say="Buying from a private individual rather than a trader puts you outside this Act. So does a fault the seller pointed out before you bought, or one your own examination ought to have revealed.",
+         say="Buying from a private individual rather than a trader puts you outside this Act. So does buying for your own business rather than for yourself — then you are not a consumer for these purposes.",
          note="Perishable goods have a shorter window. After 30 days you still have repair or replacement."),
   ],
   CTA_EN=dict(type="cta",

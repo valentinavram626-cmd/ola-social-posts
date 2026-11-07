@@ -665,42 +665,39 @@ Want your company's four dates set out?""",
 
 # ----------------------------------------------------------------- 13
 C["employment-allowance-10500"] = dict(
- ro="""Dacă ai angajați, firma plătește National Insurance pentru ei — pe lângă cât se oprește din salariul lor. Employment Allowance taie până la £10.500 din partea firmei într-un an fiscal.
+ ro="""Dacă ai angajați, firma plătește National Insurance pentru ei — pe lângă cât se oprește din salariul lor. Employment Allowance taie până la £10.500 din National Insurance-ul Class 1 al firmei într-un an fiscal.
 
-Nu vine singură. Se cere din programul de salarii, pentru un singur stat de plată — și se cere DIN NOU la fiecare an fiscal nou. Nu se reportează. Un angajator care a cerut-o anul trecut și a presupus că se reînnoiește singură pierde până la £10.500.
+Nu vine singură. Se cere din programul de salarii, pentru un singur stat de plată — și se cere DIN NOU la fiecare an fiscal. Nu se reportează. Cine a cerut-o anul trecut și a presupus că se reînnoiește singură pierde până la £10.500.
 
-Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani după sfârșitul anului fiscal la care se aplică — pentru 2022/23, până pe 5 aprilie 2027.
-
-Din aprilie 2025 pot cere și angajatorii care plătesc peste £100.000 pe an la National Insurance de angajator. Înainte nu puteau — bariera a fost ridicată.
+Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani — pentru 2022/23, până pe 5 aprilie 2027. Dar un an vechi nu se cere în condițiile de azi: £10.500 e suma din 2025/26 încoace, iar între 6 aprilie 2022 și 5 aprilie 2025 suma era £5.000 pe an. Și pentru 2024/25 sau mai vechi poți cere doar dacă National Insurance-ul Class 1 al firmei din anul fiscal anterior a fost sub £100.000. Din 2025/26 încoace nu mai există nicio limită — bariera de £100.000 a căzut în aprilie 2025.
 
 Cine NU poate cere — și aici e capcana pentru firmele mici:
-• Firma cu un singur director, dacă directorul e singurul angajat pentru care firma plătește National Insurance. Asta scoate din schemă o mare parte din firmele cu un om.
-• Angajatorii care fac jumătate sau mai mult din munca lor pentru sectorul public.
+• Firma cu un singur director, dacă el e singurul angajat pentru care firma plătește National Insurance.
+• Angajatorii care fac mai mult de jumătate din munca lor pentru sectorul public — dar organizațiile de caritate pot cere oricum.
 • Pentru un angajat care intră sub regulile off-payroll (IR35).
-• Pentru cineva angajat pentru treburi casnice — o bonă, un grădinar — dacă persoana nu e îngrijitor.
-• Într-un grup de firme legate între ele, cere o singură firmă.
-• Dacă ai mai multe state de plată, ceri pe unul singur.
+• Pentru cineva angajat pentru treburi casnice — o bonă, un grădinar — dacă nu e îngrijitor.
+• Într-un grup de firme sau de organizații de caritate legate între ele, cere una singură.
 
-Pot cere: afacerile și organizațiile de interes public care fac mai puțin de jumătate din muncă pentru sectorul public, organizațiile de caritate, cluburile sportive de amatori și cei care angajează un îngrijitor.
+Pot cere: firmele și instituțiile publice care fac mai puțin de jumătate din muncă pentru sectorul public, organizațiile de caritate, cluburile sportive de amatori și cine angajează un îngrijitor.
 
 Se aplică în tot Regatul Unit. Se cere pentru anul fiscal în curs.
 
 Nu știi dacă firma ta poate cere?""",
- th="""Employment Allowance taie până la £10.500 din National Insurance-ul plătit de firmă într-un an. Se cere din programul de salarii — și din nou la fiecare an fiscal. Nu se reportează.
+ th="""Employment Allowance taie până la £10.500 din National Insurance-ul Class 1 plătit de firmă într-un an. Se cere din programul de salarii — și din nou la fiecare an fiscal. Nu se reportează.
 
-Cine NU poate cere: firma cu un singur director, dacă el e singurul angajat pentru care firma plătește National Insurance.""",
+Cine NU poate cere: firma cu un singur director, dacă el e singurul angajat cu National Insurance.""",
  li="""Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never applied automatically — it is claimed through payroll software, against one payroll only.
 
-And it is claimed again every single tax year. HMRC's employer guidance is explicit: "You must claim the Employment Allowance for each new tax year by submitting an Employer Payment Summary." A claim does not carry forward, so an employer who claimed last year and assumed it rolled over silently loses up to £10,500. If you never claimed at all, you can go back up to 4 years after the end of the tax year the allowance applies to — a 2022 to 2023 claim has to be made by 5 April 2027.
+And it is claimed again every single tax year. HMRC's employer guidance is explicit: "You must claim the Employment Allowance for each new tax year by submitting an Employer Payment Summary." A claim does not carry forward, so an employer who claimed last year and assumed it rolled over silently loses up to £10,500.
 
-Since April 2025, employers with more than £100,000 of employer Class 1 National Insurance liabilities can apply as well. That bar has gone.
+If you never claimed at all, you can go back up to 4 years after the end of the tax year the allowance applies to — a 2022 to 2023 claim has to be made by 5 April 2027. But an earlier year is not claimed on today's terms, and this is where a wrong figure gets claimed. The allowance is £10,500 for 2025 to 2026 onwards; for each year between 6 April 2022 and 5 April 2025 it was £5,000. And to claim for 2024 to 2025 or earlier, your employers' Class 1 National Insurance liabilities must have been less than £100,000 in the previous tax year. From 2025 to 2026 onwards there is no limit at all — that is the £100,000 bar being lifted from April 2025.
 
 Who cannot claim, and the first one is the trap for small companies:
-• A company with a single director, where that director is the only employee liable for secondary Class 1 National Insurance. That removes a large share of one-person limited companies from the scheme entirely.
-• An employer doing half or more of its work in the public sector — a council or NHS services, for example.
+• A company with a single director, where that director is the only employee liable for secondary Class 1 National Insurance.
+• An employer doing more than half its work in the public sector — a local council or NHS services, for example — unless it is a charity, which can claim even when its functions are wholly or mainly of a public nature.
 • For an employee whose earnings fall within the off-payroll working rules.
 • For someone employed for personal, household or domestic work — a nanny, a gardener — unless they are a care or support worker.
-• Within a group of connected companies, only one company may claim.
+• Within a group of connected companies or connected charities, only one of them may claim.
 • Running several payrolls, only one of them may carry the claim.
 
 Who can: businesses and public bodies doing less than half their work in the public sector, charities including community amateur sports clubs, and employers of a care or support worker.
@@ -708,63 +705,67 @@ Who can: businesses and public bodies doing less than half their work in the pub
 UK-wide, for the current tax year.
 
 Want your payroll checked against the conditions?""",
- bsky="""Employment Allowance: up to £10,500 off employer National Insurance — and it must be claimed again every tax year. It does not carry forward.""",
+ bsky="""Employment Allowance: up to £10,500 off employer Class 1 National Insurance, claimed again every tax year. It never carries forward.""",
  pin_title="Employment Allowance: £10,500 and who cannot claim",
- pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year, claimed through payroll software against one payroll. It is never automatic and does not carry forward — it must be claimed again every new tax year, and an unclaimed year can be backdated 4 years. Who cannot claim: a company with a single director who is its only employee liable for secondary Class 1; an employer doing half or more of its work in the public sector; household workers such as a nanny or gardener, unless they are a care or support worker.""",
- source="gov.uk/claim-employment-allowance/eligibility and the HMRC further employer guidance",
+ pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year, claimed through payroll software. It is never automatic and does not carry forward — it must be claimed again every new tax year. Who cannot claim: a company with a single director who is its only employee liable for secondary Class 1; an employer doing more than half its work in the public sector, unless it is a charity; household workers such as a nanny or gardener, unless they are a care or support worker.""",
+ source="gov.uk/claim-employment-allowance — eligibility and claim-for-past-years — plus the HMRC further employer guidance",
 )
 
 # ----------------------------------------------------------------- 14
 C["cold-weather-25"] = dict(
- ro="""Cold Weather Payment e £25 pentru fiecare perioadă de 7 zile la rând în care temperatura medie din zona ta e zero grade sau mai jos — măsurată sau prognozată. Nu depui nicio cerere: vine automat, în contul în care primești ajutorul, în 14 zile lucrătoare de la perioada de ger.
+ ro="""Cold Weather Payment e £25 pentru fiecare perioadă de 7 zile la rând în care temperatura medie din zona ta e zero grade sau mai jos — măsurată sau prognozată. Nu se depune nicio cerere: vine automat, în contul în care intră ajutorul, în 14 zile lucrătoare.
 
 Se numără gerul dintre 1 noiembrie 2026 și 31 martie 2027, după codul poștal.
 
-Cine îl poate primi — unul dintre aceste ajutoare:
-• Pension Credit
-• Employment and Support Allowance legat de venit, dacă ești în grupul de activitate sau în grupul de sprijin — sau dacă ai un supliment de dizabilitate severă sau sporită, un supliment de pensionar, un copil cu dizabilitate, ori un copil sub 5 ani care locuiește cu tine
-• Universal Credit, în condițiile de mai jos
-• Support for Mortgage Interest, dacă ești tratat ca primind un ajutor care califică
+Un lucru TREBUIE făcut, chiar dacă cerere nu se depune: pe Universal Credit sau pe ESA legat de venit, dacă s-a născut un copil sau dacă un copil sub 5 ani s-a mutat în casă, schimbarea de situație se anunță. Fără anunț, plata nu mai vine automat — și tocmai copilul sub 5 ani e condiția care dă dreptul.
 
-Pe Universal Credit, condițiile sunt două și trebuie îndeplinite amândouă: nici tu, nici partenerul tău să nu fiți angajați sau să aveți o afacere activă („gainfully self-employed"), ȘI să ai fie o problemă de sănătate cu capacitate limitată de muncă, fie un copil sub 5 ani în casă.
+Ajutoarele care dau dreptul:
+• Pension Credit
+• ESA legat de venit, cu condițiile ei (grupul de activitate sau de sprijin, un supliment, un copil cu dizabilitate ori un copil sub 5 ani)
+• Universal Credit, în condițiile de mai jos
+• Support for Mortgage Interest, când e tratat ca ajutor care califică
+
+Pe Universal Credit condițiile sunt două și trebuie îndeplinite amândouă: nici solicitantul, nici partenerul să nu fie angajat sau cu afacere activă („gainfully self-employed"), ȘI solicitantul sau partenerul să aibă o problemă de sănătate ori un handicap cu capacitate limitată de muncă, sau un copil sub 5 ani în casă. Excepție: cu suma pentru un copil cu dizabilitate în dosar, dreptul există indiferent dacă cineva muncește.
 
 Cine NU primește:
-• Cine locuiește în Scoția. Acolo nu există Cold Weather Payment. Vine Winter Heating Payment, o dată pe iarnă, indiferent de vreme.
-• Cine nu primește niciunul dintre cele patru ajutoare — oricât de frig e și oricât de mic e venitul. Plata e legată de ajutor, nu de vreme.
-• Pe Universal Credit, cine muncește sau are o afacere activă — și, la fel de important, cine nu muncește dar nu are nici o problemă de sănătate cu capacitate limitată de muncă, nici un copil sub 5 ani în casă. Să nu muncești nu e de ajuns singur. O excepție: dacă în dosar ai suma pentru un copil cu dizabilitate, primești oricum.
+• Cine locuiește în Scoția — acolo nu există. Cine ia un ajutor care dă dreptul primește Winter Heating Payment, o dată pe iarnă, automat și indiferent de vreme.
+• Cine nu primește niciunul dintre cele patru ajutoare, oricât de frig e.
+• Pe Universal Credit, dosarul care nu bifează amândouă condițiile și nu are suma pentru un copil cu dizabilitate.
 
 Se aplică în Anglia, Țara Galilor și Irlanda de Nord.
 
 Nu știi unde se verifică?""",
- th="""Cold Weather Payment: £25 pentru fiecare 7 zile la rând cu media la zero grade sau mai jos. Vine automat, 1 noiembrie 2026 – 31 martie 2027.
+ th="""Cold Weather Payment: £25 pentru fiecare 7 zile la rând cu media la zero grade sau mai jos, 1 nov 2026 – 31 mar 2027. Cerere nu se depune.
 
-Pe Universal Credit nu primești dacă munciți. Și nici dacă nu munciți nu e de ajuns: mai trebuie o boală care îți limitează munca sau un copil sub 5 ani.""",
+Dar pe Universal Credit și ESA legat de venit, un copil nou sau un copil sub 5 ani mutat în casă se anunță ca schimbare. Fără anunț, plata nu vine automat.""",
  li="""Cold Weather Payment is £25 for each period of 7 consecutive days where the average temperature in your postcode area is recorded as, or forecast to be, zero degrees celsius or below. Nothing is applied for: it arrives automatically, into the account the benefit is paid into, within 14 working days of the cold period.
 
 It covers cold spells between 1 November 2026 and 31 March 2027, and it works off postcode rather than town or county.
+
+There is one thing that does have to be done, and it is the line most often left out. GOV.UK: "You'll need to report a change in circumstances if you get Universal Credit or income-related Employment and Support Allowance (ESA) and either: you've had a baby; a child under 5 has come to live with you... You will not automatically get Cold Weather Payments if you do not." The payment is automatic; the circumstances it is worked out from are not — and the child-under-5 route to eligibility is exactly the one that depends on the change being reported.
 
 The qualifying benefits:
 • Pension Credit
 • Income-related Employment and Support Allowance, in a work-related activity or support group — or with a severe or enhanced disability premium, a pensioner premium, a disabled child, or a child under 5 living with you
 • Universal Credit, on the conditions below
-• Support for Mortgage Interest, where you are treated as receiving a qualifying benefit
+• Support for Mortgage Interest, where the claimant is treated as receiving a qualifying benefit
 
-On Universal Credit there are two conditions and both must hold: neither you nor your partner is employed or "gainfully self-employed", AND you have either a health condition with limited capability for work or a child under 5 living with you.
+On Universal Credit there are two conditions and both must hold: neither the claimant nor their partner is employed or "gainfully self-employed", AND the claimant or their partner has a health condition or disability with limited capability for work (with or without work-related activity), or a child under 5 living with them. The exception: a claim that includes a disabled child amount qualifies regardless of whether either of them is working.
 
 Who does not get it:
-• Anyone living in Scotland. GOV.UK is explicit: you cannot get Cold Weather Payments there. The Winter Heating Payment is paid instead, annually and regardless of the weather.
+• Anyone living in Scotland. GOV.UK is explicit: Cold Weather Payments cannot be had there. Winter Heating Payment is paid instead — once a winter, automatically and regardless of the weather, to people who get one of the benefits that make them eligible. It is gated on a qualifying benefit in the same way, so it is not a payment every Scottish household receives.
 • Anyone receiving none of the four benefits, however cold it gets and however low the income. The payment is tied to the benefit, not to the temperature alone.
-• On Universal Credit, a claimant or partner who is employed or gainfully self-employed. And — the half that gets missed — a claimant who is not working but has neither limited capability for work nor a child under 5 living with them. Not working is not enough on its own. One exception: a claim that includes a disabled child amount qualifies whatever the employment position.
+• On Universal Credit, a claim where either of the two conditions is missing and there is no disabled child amount in it.
 
 England, Wales and Northern Ireland.
 
 Want the official page to check it on?""",
- bsky="""Cold Weather Payment: £25 per 7 days at zero or below, automatic, 1 Nov to 31 Mar. Not in Scotland — Winter Heating Payment there.""",
- pin_title="Cold Weather Payment: £25 a week and who misses out",
- pin="""Cold Weather Payment pays £25 for each period of 7 consecutive days where the average temperature in your postcode area is recorded as, or forecast to be, zero degrees celsius or below, between 1 November 2026 and 31 March 2027. Automatic, within 14 working days. Qualifying benefits: Pension Credit, income-related ESA, Universal Credit and Support for Mortgage Interest. On Universal Credit working disqualifies you — and not working is not enough alone, as you also need limited capability for work or a child under 5. England, Wales and Northern Ireland only.""",
+ bsky="""Cold Weather Payment: £25 per 7 days at 0°C or below, Nov–Mar, England/Wales/NI. On UC or ESA, report a new child or it is not automatic.""",
+ pin_title="Cold Weather Payment: £25 per cold week and who misses out",
+ pin="""Cold Weather Payment pays £25 for each period of 7 consecutive days where the average temperature in your postcode area is recorded as, or forecast to be, 0°C or below, between 1 Nov 2026 and 31 Mar 2027. Paid automatically within 14 working days, with no claim to make. But on Universal Credit or income-related ESA, a new baby or a child under 5 moving in must be reported as a change, or it does not arrive automatically. Qualifying benefits: Pension Credit, income-related ESA, Universal Credit and Support for Mortgage Interest. England, Wales and NI only.""",
  disc_ro="Informații generale, nu consultanță pe beneficii. Cere sfat de specialitate.",
  disc_en="General information, not benefits advice. Get specialist advice.",
- source="gov.uk/cold-weather-payment and gov.uk/cold-weather-payment/eligibility",
+ source="gov.uk/cold-weather-payment and mygov.scot/winter-heating-payment",
 )
 
 # ----------------------------------------------------------------- 15
@@ -773,15 +774,17 @@ C["retur-30-zile"] = dict(
 
 Cum se numără cele 30 de zile: încep a doua zi după ce produsul e al tău și ți-a fost livrat. Dacă trebuia montat sau instalat, de a doua zi după ce vânzătorul îți spune că s-a terminat.
 
-Partea pe care puțini o știu: dacă în acest timp ceri o reparație sau o înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas. Nu pierzi zilele petrecute în așteptare.
+Partea pe care puțini o știu: dacă în acest timp ceri o reparație sau o înlocuire, numărătoarea se oprește cât aștepți și pornește de unde a rămas. Nu pierzi zilele de așteptare.
 
 Banii trebuie dați fără întârziere nejustificată și în cel mult 14 zile de când vânzătorul e de acord că ți se cuvin.
 
 Cine NU are cele 30 de zile:
-• Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă. Legea asta se aplică doar între un comerciant și un consumator. E cazul care prinde cel mai des oamenii, iar nu e vorba de un magazin care refuză — e o altă relație juridică.
+• Dacă ai cumpărat de la o persoană fizică, nu de la un magazin sau o firmă. Legea se aplică doar între un comerciant și un consumator, iar un anunț între particulari e o altă relație juridică.
 • Dacă ai cumpărat pentru afacerea ta, nu pentru tine. Atunci nu ești „consumator" în sensul legii.
-• Dacă vânzătorul ți-a spus clar de defect înainte să cumperi, sau dacă defectul se vedea la verificarea pe care ai făcut-o tu.
-• La produsele care se strică mai repede — alimente, flori — termenul e mai scurt decât 30 de zile.
+
+Două lucruri care NU îți iau cele 30 de zile:
+• Un defect arătat de vânzător înainte de cumpărare, sau vizibil la verificarea făcută de tine, nu mai poate fi reclamat ca proastă calitate — dar ceri banii dacă produsul nu e cum l-a descris sau nu face ce i-ai spus că ai nevoie.
+• Produsele care se strică mai repede au același drept, doar cu termen mai scurt — cât se poate aștepta rezonabil să țină chiar produsul acela, nu o listă fixă.
 
 După cele 30 de zile nu rămâi fără nimic: ai dreptul la reparație sau înlocuire, iar dacă nici asta nu merge, la o reducere de preț sau la returnarea produsului.
 
@@ -804,8 +807,10 @@ A refund must be given without undue delay and in any event within 14 days of th
 Who does not have the 30 days:
 • Anyone who bought from a private individual rather than a trader. Part 1 applies to a contract between a trader and a consumer, so a private sale sits outside it entirely.
 • Anyone buying for purposes wholly or mainly inside their own business — not a consumer for these purposes.
-• Where the fault was specifically drawn to the buyer's attention before the contract, or where an examination the buyer actually made ought to have revealed it.
-• Goods that can reasonably be expected to perish sooner, which carry a shorter window.
+
+Two things that do NOT take the 30 days away, although they are often read as if they did:
+• A fault specifically drawn to the buyer's attention before the contract, or one an examination the buyer actually made ought to have revealed. Section 9(4) takes that fault outside the satisfactory quality term only. The other two grounds are untouched: if the goods are not as described, or not fit for a purpose made known to the trader, the 30-day right to reject is still there.
+• Goods that can reasonably be expected to perish sooner. They carry the same right on a shorter period — the end of the period they can reasonably be expected to last. The Act names no categories: the test is applied to the goods actually bought, so tinned food is not caught by it while a punnet of strawberries is.
 
 After the 30 days the remedies change rather than disappear: repair or replacement first, then a price reduction or the final right to reject if that fails.
 
@@ -814,7 +819,7 @@ Section 99 extends the Act to England and Wales, Scotland and Northern Ireland.
 Want to read the Act itself?""",
  bsky="""Faulty goods from a trader: 30 days to reject and get a refund, not just a repair. Private sales are outside the Act.""",
  pin_title="30 days to reject faulty goods in the UK",
- pin="""The Consumer Rights Act 2015 gives a 30-day right to reject goods bought from a trader that are faulty, not as described or not fit for purpose — a refund, not just a repair. The 30 days begin the day after ownership has passed and the goods have been delivered, and the clock stops while a requested repair or replacement is carried out. A refund is due within 14 days of the trader agreeing to it. Buying from a private individual falls outside the Act, as does buying for your own business. Perishable goods have a shorter window. UK-wide.""",
+ pin="""The Consumer Rights Act 2015 gives a 30-day right to reject goods bought from a trader that are faulty, not as described or not fit for purpose — a refund, not just a repair. The 30 days begin the day after ownership has passed and the goods have been delivered, and the clock stops while a requested repair or replacement is carried out. A refund is due within 14 days of the trader agreeing to it. Buying from a private individual falls outside the Act, as does buying for your own business. Goods expected to perish sooner keep the right, on a shorter period. UK-wide.""",
  disc_ro="Informații generale, nu consultanță juridică. Cere sfat de specialitate.",
  disc_en="General information, not legal advice. Get specialist advice.",
  source="legislation.gov.uk/ukpga/2015/15/section/22 and legislation.gov.uk/ukpga/2015/15/part/1/chapter/2",
