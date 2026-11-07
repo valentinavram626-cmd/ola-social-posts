@@ -1058,68 +1058,69 @@ Worth checking which method gives the better result before January.""",
 
 # ------------------------------------------------------------------ 19
 C["warm-home-150"] = dict(
-  ro="""£150 se scad din factura de electricitate în această iarnă, în Anglia, Scoția și Țara Galilor. Nu primești bani în mână — furnizorul taie suma direct din factură.
+  ro="""£150 se scad din factura de electricitate în această iarnă, în Anglia, Scoția și Țara Galilor. Nu primești bani în mână — furnizorul taie suma din factură.
 
-Ce trebuia să fie adevărat pe 23 august 2026, toate trei:
-• furnizorul tău de energie e în schemă
-• tu sau partenerul primeați un ajutor pe bază de venit: Universal Credit, Housing Benefit, ESA pe venit sau Pension Credit
-• numele tău sau al partenerului era pe factura de electricitate
+În Anglia și Țara Galilor, ce trebuia să fie adevărat pe 23 august 2026:
+• furnizorul e în schemă — obligatoriu peste 1.000 de clienți, deci aproape toți
+• tu sau partenerul declarat la DWP primeați Universal Credit, Housing Benefit, ESA pe venit sau Pension Credit
+• contul de electricitate era pe numele unuia din voi — titular de cont sau numele pe factură
 
-În Anglia și Țara Galilor vine automat. Scrisoarea sosește între sfârșitul lui octombrie 2026 și începutul lui ianuarie 2027, iar pentru cine se încadrează scrie că nu trebuie să facă nimic. Dacă scrisoarea cere informații în plus, trebuie sunat la linia de ajutor până pe 26 februarie 2027. Reducerea e pusă pe factură până pe 31 martie 2027.
+Scoția are altă listă și alt drum: automat doar pentru „core group". Pe Housing Benefit singur nu vine automat — ceri direct furnizorului, care poate pune criterii în plus, iar numărul de reduceri e limitat.
 
-Cine NU îl primește:
-• cine nu are numele pe factura de electricitate. Cazul obișnuit la noi e camera închiriată sau casa împărțită, unde curentul e pe numele proprietarului. Poți fi pe Universal Credit și să nu primești nimic — și nimeni nu îți scrie să îți spună de ce
-• Irlanda de Nord. GOV.UK scrie că schema nu există acolo; în locul ei funcționează Affordable Warmth
-• cine are un furnizor care nu e în schemă
-• în Scoția, cine nu e în „core group". Acolo nu vine automat pentru toți: unii trebuie să ceară direct furnizorului, furnizorii pot pune criterii în plus, iar GOV.UK avertizează că numărul de reduceri e limitat
+În Anglia și Țara Galilor vine automat, cu scrisoare, din octombrie 2026 până în ianuarie 2027. Dacă scrisoarea cere informații în plus, ea îți dă numărul de sunat până pe 26 februarie 2027 — GOV.UK nu publică acel număr. Pe factură până pe 31 martie 2027.
 
-Data e fixă: 23 august 2026. Un ajutor care a început în septembrie 2026 e în afara acestui an de schemă.
+N-a venit scrisoarea până la începutul lui ianuarie 2027? Ai ce face: contactează schema, datele sunt pe gov.uk/the-warm-home-discount-scheme.
 
-Ai contor cu cartelă? Te poți încadra — furnizorul îți explică cum, de obicei printr-un voucher.
+Cine NU îl primește — nu e lista completă:
+• cine nu are contul de electricitate pe numele lui sau al partenerului. Poți fi pe Universal Credit și să nu primești nimic
+• Irlanda de Nord: schema nu există acolo. GOV.UK trimite la Affordable Warmth — bani pentru izolație și încălzire, nu o reducere la factură
+• cine stă permanent în casă de bătrâni, caravanele, locuințele fără curent pentru uz casnic
+• în Scoția, cine nu e în „core group"
 
-Reducerea nu îți ia Cold Weather Payment sau Winter Fuel Payment.
+23 august 2026 e data fixă doar pentru verificarea automată din Anglia și Țara Galilor. Cererile la furnizor din Scoția și ruta park homes se judecă altfel.
 
-Nu evaluăm noi dreptul la ajutoare și nu depunem cereri. Condițiile sunt pe gov.uk/the-warm-home-discount-scheme.
+Ai contor cu cartelă? Te poți încadra ca titular de cont, chiar fără factură pe hârtie.
 
 Pentru contabilitate, ne găsești aici:""",
 
-  th="""£150 se scad din factura de curent, în Anglia, Scoția și Țara Galilor. Vine automat, cu o scrisoare.
+  th="""£150 se scad din factura de curent. În Anglia și Țara Galilor vine automat, cu scrisoare. În Scoția automat doar pentru „core group" — altfel ceri la furnizor.
 
-Conta ce era pe 23 august 2026: un ajutor pe venit și numele tău pe factură.
+Pe 23 august 2026 conta ajutorul pe venit și contul de curent pe numele tău sau al partenerului.
 
-Cine NU îl primește: cine nu are numele pe factură — camera închiriată. Și Irlanda de Nord nu are schema.""",
+Irlanda de Nord nu are schema.""",
 
-  li="""The Warm Home Discount takes £150 off an electricity bill this winter, in England, Scotland and Wales. It is a discount applied by the supplier, not a payment — no money reaches the household directly.
+  li="""The Warm Home Discount takes £150 off an electricity bill in England, Scotland and Wales. It is a discount applied by the supplier, not a payment — no money reaches the household.
 
-Three things had to be true on 23 August 2026:
-• the energy supplier is part of the scheme
-• the person or their partner gets certain means-tested benefits — Universal Credit, Housing Benefit, income-related ESA or Pension Credit
-• the person's name, or their partner's, is on the electricity bill
+In England and Wales, three things had to be true on 23 August 2026:
+• the energy supplier is part of the scheme — required of every supplier with over 1,000 domestic customers, so nearly always met
+• the person, or their partner as notified to DWP, was getting Universal Credit, Housing Benefit, income-related ESA or Pension Credit
+• the electricity account was in one of those names — as account holder or named on the bill
 
-In England and Wales it is automatic. Letters go out from late October 2026 to early January 2027, and an eligible household's letter confirms it does not need to do anything. Where a letter asks for more information, the helpline has to be called by 26 February 2027. The discount is applied to the bill by 31 March 2027.
+Scotland runs on its own regulations and list. It is automatic only for the core group there; a household on Housing Benefit alone is in the broader group, which means applying to the supplier, meeting any extra criteria it sets, and possibly being refused because discounts are capped. Scotland's core group also reaches some people on Income Support or income-based JSA.
 
-Who does NOT get it:
-• anyone whose name is not on the electricity bill. The common case is a rented room or shared house where the electricity account is in the landlord's name — a household can be on Universal Credit and receive nothing, with no letter explaining why
-• Northern Ireland: GOV.UK states the scheme is not available there, and the Affordable Warmth scheme applies instead
-• anyone whose supplier is not part of the scheme, which is a stated condition
-• in Scotland, anyone outside the core group. It is not automatic for everyone there: some have to apply directly to the supplier, suppliers may set additional criteria, and GOV.UK warns the number of discounts is limited, so a qualifying household that waits can miss it
+In England and Wales it is automatic. Letters go out from late October 2026 to early January 2027. Where a letter asks for more information, that letter carries the helpline number to call by 26 February 2027 — GOV.UK does not publish that number. The discount is applied to the bill by 31 March 2027.
 
-The date is fixed. A benefit that started in September 2026 falls outside this scheme year.
+If no letter arrives by early January 2027 there is a route: GOV.UK says to contact the scheme in writing, with the household's details and account.
 
-Prepayment meters still qualify, with the supplier explaining how — often a voucher to top up the meter. Park home residents apply by a separate process. And the discount does not affect Cold Weather Payment or Winter Fuel Payment.
+Who does NOT get it — not the complete list:
+• anyone whose electricity account is in neither their name nor their partner's. A household can be on Universal Credit and get nothing — and so can an owner-occupier, where the account is in the name of a spouse or adult child who is neither the claimant nor a partner notified to DWP
+• Northern Ireland: GOV.UK states the scheme is not available there and signposts Affordable Warmth. That is a different thing — a grant for insulation and heating work, not a bill discount and not £150, with its own income limit and social tenants excluded
+• people permanently in a care home, caravans, and homes not supplied with electricity mainly for domestic use
+• park home residents supplied through the site owner, who have a separate route assessed on income at application
+• in Scotland, anyone outside the core group
 
-Entitlement to the benefits behind this has its own conditions, which we do not assess. The conditions are at gov.uk/the-warm-home-discount-scheme.
+23 August 2026 is the fixed date for the automatic England and Wales match. It does not govern every route: Scottish supplier applications and park homes are assessed differently.
 
-Worth passing on to anyone who assumes the bill payer's name does not matter.""",
+Prepayment meters still qualify: the account holder qualifies with no paper bill, and the supplier explains how — a voucher to top up, or a credit against future use.""",
 
-  bsky="""Warm Home Discount: £150 off the electricity bill. No name on the bill, no discount — and Northern Ireland has no scheme at all.""",
+  bsky="""£150 off the electricity bill in England, Scotland and Wales — if the account is in your name. Scotland: not automatic.""",
 
   pin_title="Warm Home Discount: £150 off, and who misses out",
 
-  pin="""The Warm Home Discount takes £150 off an electricity bill in England, Scotland and Wales — applied by the supplier, not paid to you. On 23 August 2026: your supplier is in the scheme, you or your partner get Universal Credit, Housing Benefit, income-related ESA or Pension Credit, and your name is on the electricity bill. England and Wales: automatic, by letter, by 31 March 2027. Who misses out: anyone not named on the electricity bill, such as a rented room; Northern Ireland, which has no scheme; and in Scotland anyone outside the core group.""",
+  pin="""£150 off an electricity bill in England, Scotland and Wales — applied by the supplier, not paid to you. In England and Wales, on 23 August 2026: you or your DWP-notified partner get Universal Credit, Housing Benefit, income-related ESA or Pension Credit, and the electricity account is in one of those names — account holder or named on it. Automatic; on the bill by 31 March 2027. Scotland: core group only; others apply to their supplier. Not the whole list. Missing: anyone not on the account; Northern Ireland; care homes; caravans.""",
 
-  disc_ro="Informații generale, nu consiliere pe ajutoare. Condițiile sunt pe GOV.UK.",
-  disc_en="General information, not benefits advice. The conditions are on GOV.UK.",
+  disc_ro="Nu evaluăm dreptul la ajutoare și nu depunem cereri. Condițiile sunt pe GOV.UK.",
+  disc_en="We do not assess benefit entitlement or submit applications. Conditions on GOV.UK.",
   source="gov.uk/the-warm-home-discount-scheme",
 )
 
