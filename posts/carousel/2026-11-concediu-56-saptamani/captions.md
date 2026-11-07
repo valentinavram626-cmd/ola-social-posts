@@ -7,31 +7,26 @@ Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 
 ## RO — Instagram, Facebook, Threads, TikTok
 
-Concediul plătit nu e un bonus. E un drept, iar GOV.UK îl scrie în săptămâni: 5,6 săptămâni pe an pentru aproape toți cei din categoria „worker".
+Concediul plătit nu e un bonus, e un drept. GOV.UK îl scrie în săptămâni: 5,6 săptămâni pe an pentru aproape toți cei din categoria „worker".
 
-Cum arată în zile:
-• 5 zile pe săptămână → 28 de zile plătite pe an
-• 4 zile pe săptămână → cel puțin 22,4 zile
-• 3 zile pe săptămână → cel puțin 16,8 zile
+Cum arată în zile: 5 zile pe săptămână → 28 de zile plătite pe an; 4 zile → cel puțin 22,4; 3 zile → cel puțin 16,8.
 
-Și există un plafon: 28 de zile e maximul din lege, oricâte zile pe săptămână ai lucra. Cine lucrează 6 zile pe săptămână are tot 28, nu 33,6.
+Plafonul: 28 de zile e maximul din lege. Cine lucrează 6 zile pe săptămână are tot 28, nu 33,6. Vechime nu se cere, iar primul an se dă proporțional.
 
-Nu se cere vechime: dreptul e de la prima zi, iar primul an se dă proporțional. Zilele se iau în anul în care le-ai câștigat și nu se pot plăti în bani cât ești angajat — doar la încetarea contractului.
+Zilele se iau în anul lor de concediu, dar nu se pierd oricum: prin acord, până la 8 din cele 28 trec în anul următor; din concediu medical le poți lua în 18 luni de la finalul acelui an; din concediu de maternitate sau paternitate trec în anul următor; iar dacă angajatorul nu ți-a recunoscut dreptul, nu ți-a dat o ocazie rezonabilă să le iei sau nu ți-a spus că le pierzi, trece tot concediul. În bani, în loc de concediu, se plătesc doar la încetarea contractului.
 
-Sărbătorile legale nu se adaugă: GOV.UK scrie că nu trebuie date ca zile libere plătite și pot fi socotite în cele 28. Dacă te așteptai la 28 PLUS cele 8 sărbători legale (9 în Scoția), se poate să nu fie așa.
+Sărbătorile legale nu se adaugă: nu trebuie date ca zile libere plătite și pot fi socotite în cele 28.
 
-Cine NU are acest drept: nu eticheta din contract decide, ci ce face omul. Dreptul îl are cine lucrează personal pentru cineva care nu e clientul propriei lui afaceri — „freelance", „casual" sau „zero hours" pe hârtie poate însemna tot „worker". În afara dreptului rămân cei care își poartă chiar afacerea lor, cu clienții lor. Testul e pe gov.uk/employment-status.
+Cine NU are acest drept: îl are cine lucrează personal pentru cineva care nu e clientul afacerii lui. „Freelance" sau „zero hours" pe hârtie poate însemna tot „worker": contează cum merge relația în practică, nu eticheta. Statutul îl decid tribunalele, nu noi.
 
-La ore neregulate se socotește altfel, nu dispare: pentru anii de concediu care încep de la 1 aprilie 2024, concediul se adună ca 12,07% din orele lucrate în perioada de plată. Regula e doar pentru cine are, prin contract, ore în mare parte variabile, și pentru cine lucrează doar o parte din an, cu pauze neplătite de cel puțin o săptămână. Orele fixe prin contract nu intră aici.
+La ore neregulate se socotește altfel, nu dispare: din anii de concediu începuți de la 1 aprilie 2024, concediul se adună ca 12,07% din orele lucrate. Doar pentru cine are, prin contract, ore în mare parte variabile, sau lucrează doar o parte din an, cu pauze neplătite de cel puțin o săptămână. Acestora concediul poate fi plătit odată cu salariul, 12,07% peste plată — altceva decât plata zilelor nestate.
 
-Pagina GOV.UK acoperă Anglia, Scoția și Țara Galilor. În Irlanda de Nord cifrele sunt aceleași — 5,6 săptămâni, plafon 28 de zile — dar regulile sunt proprii.
-
-Faci payroll pentru oamenii tăi?
+GOV.UK acoperă Anglia, Scoția și Țara Galilor; în Irlanda de Nord nu există 12,07% și nici plata concediului cu salariul.
 
 Scrie-ne pe WhatsApp: 0330 133 1886
 Luton · Birmingham
 
-Informații generale, nu consiliere juridică. Pentru dispute de concediu: Acas. Noi facem payroll.
+Informații generale, nu consiliere juridică. Dispute: Acas; în Irlanda de Nord, LRA. Noi facem payroll.
 
 Sursă: gov.uk/holiday-entitlement-rights and gov.uk/employment-status/worker
 
@@ -39,44 +34,25 @@ Sursă: gov.uk/holiday-entitlement-rights and gov.uk/employment-status/worker
 
 ---
 
-## RO — Threads  (limită 500 de caractere; aici 498)
-
-Concediul plătit e un drept pentru aproape toți: 5,6 săptămâni pe an. 5 zile pe săptămână → 28 de zile; 3 zile → cel puțin 16,8.
-
-Sărbătorile legale pot intra în cele 28.
-
-Cine NU are dreptul: cine își poartă propria afacere, cu clienții lui. Nu eticheta decide: gov.uk/employment-status
-
-WhatsApp: 0330 133 1886
-
-Informații generale, nu consiliere juridică. Pentru dispute de concediu: Acas. Noi facem payroll.
-
-#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham
-
----
-
 ## EN — LinkedIn  (postat ca document PDF, nu ca imagini multiple)
 
-Statutory paid holiday is written in weeks: GOV.UK says almost all people classed as workers get 5.6 weeks' paid holiday a year.
+Statutory paid holiday is written in weeks: almost all workers get 5.6 weeks' paid holiday a year.
 
-In days:
-• a 5-day week → 28 paid days a year
-• a 4-day week → at least 22.4 days
-• a 3-day week → at least 16.8 days
+In days: a 5-day week → 28 paid days; a 4-day week → at least 22.4; a 3-day week → at least 16.8.
 
 There is a cap. "Statutory paid holiday entitlement is limited to 28 days", so a worker on a 6-day week still gets 28, not 33.6.
 
-Bank holidays are not an addition: GOV.UK says they "do not have to be given as paid leave" and an employer may count them towards statutory leave. So 28 days plus England and Wales's eight bank holidays — nine in Scotland — is not a safe assumption.
+Bank holidays are not an addition: they "do not have to be given as paid leave" and may be counted towards statutory leave, so 28 days plus bank holidays is not a safe assumption.
 
-Who does NOT have the right: people genuinely in business on their own account, whose customer is a client of that business. The right attaches to the contract and to what the person does, not to an occupation or a self-description — GOV.UK notes someone can be both employed and self-employed at once, and that a tax status of self-employed is not the employment-law one. The outright exclusions are narrow: seafarers, sea-fishermen, inland waterways workers.
+Who does NOT have the right: people genuinely in business on their own account. The statutory test is reg 2(1)(b) of the Working Time Regulations 1998 — work done personally for a party who is not, under the contract, a client or customer of a business the individual carries on. Courts and tribunals decide status, on how the relationship works in practice — not the label.
 
-The label does not decide it. GOV.UK gives five conditions for worker status: a contract or arrangement, written or unwritten, to do work personally for a reward; payment in money or kind; a limited right to subcontract only; an employer obliged to find work while it lasts; and the work not done through the person's own company with the "employer" as a client. Casual, freelance, zero hours and as required come from a separate nine-indicator list prefaced "Someone is likely to be a worker if most of these apply" — a multi-factor test: gov.uk/employment-status/worker.
+The outright exclusions are narrow and differ across the UK. Great Britain, reg 18: seafarers, sea-fishermen and inland waterways workers are outside the Regulations; the leave provisions are disapplied for civil aviation workers and, where characteristics peculiar to the service inevitably conflict, the armed forces, the police and certain civil protection activities. Northern Ireland's reg 22(1) list differs: it includes civil aviation and omits sea-fishermen.
 
-Irregular hours mean a different calculation, not no entitlement: for leave years beginning on or after 1 April 2024, irregular hours and part-year workers accrue 12.07% of hours actually worked in a pay period. Rolled-up holiday pay at 12.07% is for those two groups only.
+Irregular hours mean a different calculation, not none: for leave years from 1 April 2024, irregular hours and part-year workers accrue 12.07% of hours worked. Rolled-up holiday pay is that 12.07% paid as an uplift with the wages, for those two groups only — a different thing from payment in lieu of untaken leave, which is confined to the end of the employment.
 
-No qualifying period applies: the right runs from day one, with the first leave year pro-rated — only extra contractual leave can require length of service. It is also use-it-or-lose-it: leave may only be taken in its own leave year and cannot be paid in lieu unless the employment ends.
+No qualifying period applies: the right runs from day one, with the first leave year pro-rated. Leave is normally taken in its own leave year, but does not simply lapse. An agreement can carry up to 8 of the 28 days into the next year. Leave untaken through sickness must be taken within 18 months of that leave year's end; leave untaken through statutory family leave carries into the next year; and the whole entitlement carries over where the employer failed to recognise the right, to give a reasonable opportunity to take the leave or encourage it, or to warn that untaken leave would be lost.
 
-GOV.UK covers Great Britain, but the headline entitlement is identical in Northern Ireland — 5.6 weeks, capped at 28 days — under the Working Time Regulations (Northern Ireland) 2016 and nidirect's guidance. What differs is the detail: the NI Regulations have no irregular hours, part-year, 12.07% or rolled-up pay provisions, NI keeps its own first-year accrual rule, and has 10 bank holidays.
+Northern Ireland's entitlement is identical — 5.6 weeks, capped at 28 days — under its own Working Time Regulations 2016, which contain no irregular hours, part-year, 12.07% or rolled-up holiday pay provision at all. Holiday disputes there go to the Labour Relations Agency, not Acas.
 
 0330 133 1886
 
@@ -90,9 +66,9 @@ Source: gov.uk/holiday-entitlement-rights and gov.uk/employment-status/worker
 
 ---
 
-## EN — Bluesky  (limită 300 de caractere; aici 294)
+## EN — Bluesky  (limită 300 de caractere; aici 289)
 
-Great Britain: paid holiday is 5.6 weeks a year, capped at 28 days. Status decides, not the label: gov.uk/employment-status
+Great Britain: 5.6 weeks' paid holiday a year, capped at 28 days. It follows doing the work personally, not the label.
 
 General information, not legal advice. For holiday disputes: Acas. We run payroll.
 
@@ -104,7 +80,7 @@ General information, not legal advice. For holiday disputes: Acas. We run payrol
 
 **Titlu:** UK paid holiday: 5.6 weeks, capped at 28 days
 
-Statutory paid holiday in Great Britain is 5.6 weeks a year for almost anyone classed as a worker; the statutory cap is 28 days, but a contract may give more. A 5-day week gives 28 paid days, a 3-day week at least 16.8. Bank holidays need not be paid leave and may count in the 28. A freelance, casual, zero hours or self-employed label does not decide it: status follows the contract — gov.uk/employment-status. From 1 April 2024 leave years, workers whose contractual hours are wholly or mostly variable, and part-year workers accrue 12.07% of hours worked.
+Paid holiday in Great Britain is 5.6 weeks a year for almost anyone classed as a worker, capped at 28 days; a contract may give more. A 5-day week gives 28 paid days, a 3-day week at least 16.8. Bank holidays need not be paid leave and may count in the 28. A freelance, casual, zero hours or self-employed label does not decide it: what counts is doing the work personally for someone who is not your own client. From 1 April 2024 leave years, workers with wholly or mostly variable contractual hours and part-year workers accrue 12.07% of hours worked.
 
 General information, not legal advice. For holiday disputes: Acas. We run payroll.
 
@@ -122,13 +98,13 @@ General information, not legal advice. For holiday disputes: Acas. We run payrol
   https://www.gov.uk/employment-status/selfemployed-contractor  (citit 2026-11-07)
 - The accrual method for irregular hours: "For leave years beginning on or after 1 April 2024, there is a new accrual method for irregular hour workers and part-year workers" and "Holiday entitlement for these workers will be calculated as 12.07% of actual hours worked in a pay period". A worker is an irregular hours worker where paid hours in each pay period are "under the terms of their contract, wholly or mostly variable"; rolled-up holiday pay at 12.07% of pay, shown separately on the payslip, is optional and only for these two groups
   https://www.gov.uk/government/publications/simplifying-holiday-entitlement-and-holiday-pay-calculations/holiday-pay-and-entitlement-reforms-from-1-january-2024  (citit 2026-11-07)
-- The bank holiday count, which is NOT one number for Great Britain. Read off the page's own nation headings for 2026: "Upcoming bank holidays in England and Wales 2026" lists 8; "Upcoming bank holidays in Scotland 2026" lists 9, because Scotland adds the 2 January substitute (4 January 2026) and St Andrew's Day (30 November 2026) and has no Easter Monday; "Upcoming bank holidays in Northern Ireland 2026" lists 10, adding St Patrick's Day and the Battle of the Boyne. So "8" is correct for England and Wales only and must not be written as the figure for a post that covers Scotland too
+- The 2026 bank-holiday COUNT could not be confirmed, so no count is published on any card or caption. Read 7 November 2026: gov.uk/bank-holidays renders 8 for England and Wales, 9 for Scotland and 10 for Northern Ireland, but its own 2026 tables are internally wrong — Good Friday is given as 26 March 2026 and 1 January 2026 as a Friday, when Easter Sunday 2026 is 5 April (Good Friday 3 April) and 1 January 2026 is a Thursday. gov.scot/publications/bank-holidays, read the same day, lists 10 for Scotland in 2026, including a one-off World Cup bank holiday on 15 June 2026. Two official sources disagree, so the figure is dropped rather than softened. The legal point the sentence exists to make needs no count: GOV.UK states verbatim that "Bank or public holidays do not have to be given as paid leave" and that an employer may count them towards statutory leave
   https://www.gov.uk/bank-holidays  (citit 2026-11-07)
 - The status test, verbatim: reg 2(1) defines "worker" as an individual who has entered into or works under "(a) a contract of employment; or (b) any other contract, whether express or implied and (if it is express) whether oral or in writing, whereby the individual undertakes to do or perform personally any work or services for another party to the contract whose status is not by virtue of the contract that of a client or customer of any profession or business undertaking carried on by the individual". The right therefore follows the contract and what the person actually does, not an occupation or a self-description
   https://www.legislation.gov.uk/uksi/1998/1833/regulation/2  (citit 2026-11-07)
 - The genuine statutory exclusions, which are narrow: reg 18(1) puts outside the Regulations entirely workers covered by the Merchant Shipping (Maritime Labour Convention) (Hours of Work) Regulations 2018 (seafarers), the Fishing Vessels (Working Time: Sea-fishermen) Regulations 2004 and the Merchant Shipping (Working Time: Inland Waterways) Regulations 2003; reg 18(2) disapplies regs 13 and 13A where "characteristics peculiar to certain specific services such as the armed forces or the police" conflict with them, for certain civil protection activities, and for workers covered by the Civil Aviation (Working Time) Regulations 2004
   https://www.legislation.gov.uk/uksi/1998/1833/regulation/18  (citit 2026-11-07)
-- Use-it-or-lose-it and no qualifying period: reg 13(9) says leave "may only be taken in the leave year in respect of which it is due" and may not be replaced by a payment in lieu "except where the worker's employment is terminated"; reg 13(5) reduces the first leave year in proportion to the part of it remaining when employment begins, and the regulation sets no minimum length of service anywhere
+- Carry-over and no qualifying period. reg 13(9), as it has read since 1 January 2024, makes leave takeable "only ... in the leave year in respect of which it is due" and bars payment in lieu "except where the worker's employment is terminated" — but both limbs are expressly "subject to the exceptions in paragraphs (14), (15) and (17)": (14) carry-forward where statutory family leave prevented the leave being taken, (15) carry-forward where sick leave did, "provided it is taken by the end of the period of 18 months from the end of the leave year in which the entitlement originally arose", and (16)-(17) carry-forward of the WHOLE entitlement where the employer failed to recognise the right, failed to give the worker a reasonable opportunity to take the leave or encourage them to do so, or failed to inform the worker that leave not taken and not carryable would be lost. reg 13A(7) lets a relevant agreement carry the 1.6 weeks into the following leave year, which is the GOV.UK statement that a worker on 28 days "can carry over a maximum of 8 days". reg 13(5) pro-rates the first leave year and the regulation sets no minimum length of service anywhere. So statutory leave does not simply lapse, and an earlier version of this topic that said it did was wrong
   https://www.legislation.gov.uk/uksi/1998/1833/regulation/13  (citit 2026-11-07)
 - The two groups the 12.07% rule is limited to, at source: reg 15F(1)(a) an irregular hours worker is one whose paid hours in each pay period are, under the terms of their contract, wholly or mostly variable; reg 15F(1)(b) a part-year worker is one required to work only part of the leave year, with periods of at least a week in which they are not required to work and are not paid. Fixed contractual hours plus variable overtime fall outside both
   https://www.legislation.gov.uk/uksi/1998/1833/regulation/15F  (citit 2026-11-07)
