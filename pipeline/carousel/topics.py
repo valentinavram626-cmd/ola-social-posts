@@ -989,8 +989,8 @@ EMPLOYMENT_ALLOWANCE = dict(
          say="Se scad până la <b>£10.500</b> din National Insurance-ul Class 1 plătit de firmă într-un an fiscal. Se cere din programul de salarii, pentru un singur stat de plată — și se cere din nou la fiecare an fiscal.",
          note="Nu se reportează de la un an la altul. Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani după anul fiscal respectiv."),
     dict(type="step", step="Cine NU poate cere", fig="1 director",
-         say="Nu poate cere firma cu un singur director, dacă el e singurul angajat cu National Insurance. Nici angajatorii cu peste jumătate din muncă pentru sectorul public — dar organizațiile de caritate pot cere.",
-         note="Nici pentru o bonă sau un grădinar în casă — doar dacă e îngrijitor. Într-un grup de firme sau de organizații de caritate, cere una singură."),
+         say="Firma cu un singur director și niciun alt angajat cu Class 1 secundar — partea firmei. Instituțiile publice, dacă nu sunt caritate. Cine face peste jumătate din muncă pentru sectorul public.",
+         note="Dar organizațiile de caritate pot cere oricum. Pentru o bonă sau un grădinar nu se scade nimic, doar dacă e îngrijitor — firma rămâne eligibilă."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Angajatori · Employment Allowance",
@@ -1007,8 +1007,8 @@ EMPLOYMENT_ALLOWANCE = dict(
          say="Up to <b>£10,500</b> off the employer's Class 1 National Insurance in a tax year. Claimed through your payroll software, against one payroll only — and claimed again every new tax year.",
          note="It does not carry forward. A claim never made can be backdated up to 4 years after the end of the tax year it covers."),
     dict(type="step", step="Who cannot claim", fig="1 director",
-         say="A company with one director and no other employee liable for secondary Class 1 cannot claim. Nor an employer doing more than half its work in the public sector — unless it is a charity.",
-         note="Nor for household work — a nanny, a gardener — unless a care or support worker. In a group of connected companies or charities, only one claims."),
+         say="A company with one director and no other employee liable for secondary Class 1. A public authority that is not a charity. An employer doing more than half its work in the public sector.",
+         note="A registered charity can claim even so. For a nanny or gardener nothing comes off, unless they are a care or support worker — the employer stays eligible."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Employers · Employment Allowance",
@@ -1020,9 +1020,25 @@ EMPLOYMENT_ALLOWANCE = dict(
     ("Employment Allowance is worth up to £10,500 off the employer's Class 1 National "
      "Insurance; a single-director company cannot claim where that director is the only "
      "employee liable for secondary Class 1 National Insurance; an employer must do less "
-     "than half its work in the public sector; no claim for employees under off-payroll "
-     "working rules or for personal, household or domestic work such as a nanny or "
-     "gardener unless they are a care or support worker; only one company in a group and "
+     "than half its work in the public sector. NOTE: this short page's \"you're a business "
+     "or public body\" wording is a simplification. The further employer guidance and NICA "
+     "2014 s.2(1)-(2) are the rule: a public authority is barred unless it is a charity, "
+     "and the share-of-work test is part of what MAKES a body a public authority, not a "
+     "condition that lets one claim, so no card or caption lists a public body as able to "
+     "claim. The single-director test is \"the only employee liable for SECONDARY Class 1\" "
+     "— the employer's share, above the Secondary Threshold — and not \"the only employee "
+     "with National Insurance\": an employee can generate primary (employee) National "
+     "Insurance without the company incurring any secondary Class 1 liability at all, so "
+     "the loose wording names the wrong test. That applies to the Romanian cards and "
+     "captions word for word (\"Class 1 secundar — partea firmei, peste Secondary "
+     "Threshold\"), not only the English; the fix is not done until it is in both "
+     "languages. This page also keeps two headings apart and so does every card and "
+     "caption here: \"Who cannot claim\" (the employer) is separate from \"Employees you "
+     "cannot "
+     "include in your claim\" — off-payroll (IR35) earnings, and personal, household or "
+     "domestic work such as a nanny or gardener unless they are a care or support worker, "
+     "which are excluded LIABILITIES under NICA 2014 s.2(3)-(4) while the employer stays "
+     "eligible; only one company in a group and "
      "only one payroll may claim; and since April 2025 employers with Class 1 liabilities "
      "over £100,000 can apply",
      "https://www.gov.uk/claim-employment-allowance/eligibility", "2026-11-06"),
@@ -1041,22 +1057,53 @@ EMPLOYMENT_ALLOWANCE = dict(
      "there is no limit.\" Previous rates: £10,500 for 2025 to 2026, and £5,000 for each "
      "year between 6 April 2022 and 5 April 2025",
      "https://www.gov.uk/claim-employment-allowance/claim-for-past-years", "2026-11-06"),
+    ("De minimis state aid is an OUTRIGHT BAR on claiming and it sits on the same "
+     "claim-for-past-years page this topic cites, so no caption that promotes backdating "
+     "may omit it and no caption may assert \"UK-wide\" without it: \"For some businesses, "
+     "Employment Allowance counts as 'de minimis state aid'... There's a limit to how much "
+     "de minimis state aid these businesses can get over a 3-year period. If they exceed "
+     "the limit, they cannot claim Employment Allowance.\" The page says the limits are "
+     "\"likely to apply to your business if both of the following are true: your business "
+     "is located in Northern Ireland; your business makes or sells goods or wholesale "
+     "electricity\", and gives the 3-year limits as 20,000 euros for agricultural products "
+     "up to 200,000 euros for industrial and other businesses",
+     "https://www.gov.uk/claim-employment-allowance/claim-for-past-years", "2026-11-07"),
   ],
   SCOPE=dict(
     nation="All of the UK — employer Class 1 National Insurance is a UK-wide HMRC charge "
-           "with no devolved variation.",
-    category="Employers paying employer Class 1 National Insurance who do less than half their work in the public sector — an employer at exactly 50% is entitled, because the test is MORE than 50% — and charities including community amateur sports clubs. The charity carve-out was read at primary source on 6 November 2026: a registered charity can claim even when it is wholly or mainly carrying out functions of a public nature, so the public-sector exclusion on every card and caption now carries it.",
+           "with no devolved variation. But \"UK-wide\" is never written flat, because one "
+           "bar is territorial: GOV.UK's claim-for-past-years page stops a business that has "
+           "exceeded its 3-year de minimis state aid limit from claiming at all, and says "
+           "that limit is likely to apply where the business is BOTH located in Northern "
+           "Ireland AND makes or sells goods or wholesale electricity. It is a Northern "
+           "Ireland carve-out on an otherwise UK-wide allowance, it bites on exactly the "
+           "backdated claims this topic encourages, and it was read at primary source on "
+           "7 November 2026. Any caption with the headroom to carry it carries it.",
+    category="Employers paying employer Class 1 National Insurance who do less than half their work in the public sector — an employer at exactly 50% is entitled, because the test is MORE than 50% — and charities including community amateur sports clubs. A public authority is NOT in this category: NICA 2014 s.2(1) bars \"a public authority which is not a charity\", s.2(2) defines one as a person whose activities involve, wholly or mainly, the performance of functions of a public nature, and HMRC's further guidance names local authorities, town councils and parish councils as ineligible unless they have charitable status. The share-of-work test is part of what makes a body a public authority; it is not a condition on which a public body may claim, so a parish council is barred whatever proportion of its work is public-facing, and \"businesses and public bodies doing less than half their work in the public sector\" is never written as a who-CAN-claim line. The charity carve-out was read at primary source on 6 November 2026: a registered charity can claim even when it is wholly or mainly carrying out functions of a public nature, so the public-sector exclusion on every card and caption now carries it.",
     excluded="A company with one director and no other employee liable for secondary Class 1 "
              "National Insurance cannot claim at all — that is the single commonest exclusion "
              "for a small limited company. An employer carrying out MORE than half its work in "
              "or for the public sector cannot claim — but a registered charity can, even "
              "when its functions are wholly or mainly of a public nature, and an employer "
-             "at exactly 50% is entitled rather than excluded. No claim can be made for an employee within "
-             "off-payroll working rules, or for someone employed for personal, household or "
-             "domestic work such as a nanny or gardener, unless that person is a care or "
-             "support worker. Within a group of connected companies or connected charities only "
+             "at exactly 50% is entitled rather than excluded, while a public authority is barred "
+             "unless it is a charity however little of its work faces the public. Two different kinds "
+             "of exclusion must stay apart, as GOV.UK and the statute keep them apart. The "
+             "employer-level bar — NICA 2014 s.2(1) and s.2(4A) — is who \"cannot qualify\": the "
+             "public authority and the single-director company. Separately, an EMPLOYEE can be "
+             "outside the claim while the employer stays eligible and keeps claiming on everyone "
+             "else, because NICA 2014 s.2(3) and s.2(4) make these \"excluded liabilities\": the "
+             "earnings of an employee within off-payroll working rules, and someone employed for "
+             "personal, household or domestic work such as a nanny or gardener, unless that person "
+             "is a care or support worker. No card or caption puts those two under one \"who cannot "
+             "claim\" heading, because that reads as though the nanny were the one barred from "
+             "claiming. Within a group of connected companies or connected charities only "
              "one of them may claim, and an employer running several payrolls may claim against only one of "
-             "them. A business with no employees at all is outside it entirely.",
+             "them. A business with no employees at all is outside it entirely. And a business that has "
+             "exceeded its de minimis state aid limit over a 3-year period cannot claim — GOV.UK "
+             "puts that at its most likely where the business is both located in Northern Ireland "
+             "and makes or sells goods or wholesale electricity. That one is an outright bar, not "
+             "an excluded liability, and it belongs with the public authority and the "
+             "single-director company rather than with the nanny.",
     from_when="Claimed through payroll software for EACH tax year separately — never automatic and never carried forward, so an employer who claimed last year and assumed it rolled over loses up to £10,500. A claim never made can be backdated up to 4 years after the end of the tax year concerned — but an earlier year is not claimed on today's terms: the allowance is £10,500 for 2025 to 2026 onwards and was £5,000 for each year between 6 April 2022 and 5 April 2025, and to claim for 2024 to 2025 or earlier the employers' Class 1 National Insurance liabilities must have been less than £100,000 in the previous tax year. The £100,000 bar was lifted from April 2025, so from 2025 to 2026 onwards there is no limit."),
 )
 

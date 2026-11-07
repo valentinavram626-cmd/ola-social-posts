@@ -665,53 +665,59 @@ Want your company's four dates set out?""",
 
 # ----------------------------------------------------------------- 13
 C["employment-allowance-10500"] = dict(
- ro="""Dacă ai angajați, firma plătește National Insurance pentru ei — pe lângă cât se oprește din salariul lor. Employment Allowance taie până la £10.500 din National Insurance-ul Class 1 al firmei într-un an fiscal.
+ ro="""Firma plătește National Insurance pentru angajați, peste cât se oprește din salariul lor. Employment Allowance taie până la £10.500 din National Insurance-ul Class 1 al firmei într-un an fiscal.
 
-Nu vine singură. Se cere din programul de salarii, pentru un singur stat de plată — și se cere DIN NOU la fiecare an fiscal. Nu se reportează. Cine a cerut-o anul trecut și a presupus că se reînnoiește singură pierde până la £10.500.
+Nu vine singură. Se cere din programul de salarii, pentru un singur stat de plată — și se cere DIN NOU la fiecare an fiscal. Nu se reportează.
 
-Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani — pentru 2022/23, până pe 5 aprilie 2027. Dar un an vechi nu se cere în condițiile de azi: £10.500 e suma din 2025/26 încoace, iar între 6 aprilie 2022 și 5 aprilie 2025 suma era £5.000 pe an. Și pentru 2024/25 sau mai vechi poți cere doar dacă National Insurance-ul Class 1 al firmei din anul fiscal anterior a fost sub £100.000. Din 2025/26 încoace nu mai există nicio limită — bariera de £100.000 a căzut în aprilie 2025.
+Dacă n-ai cerut-o deloc, se poate cere retroactiv până la 4 ani — pentru 2022/23, până pe 5 aprilie 2027. Dar un an vechi are alte condiții: £10.500 e suma din 2025/26 încoace, iar între 6 aprilie 2022 și 5 aprilie 2025 era £5.000 pe an. Pentru 2024/25 sau mai vechi poți cere doar dacă National Insurance-ul Class 1 al firmei din anul anterior a fost sub £100.000 — barieră căzută în aprilie 2025, deci din 2025/26 nu mai există limită.
 
-Cine NU poate cere — și aici e capcana pentru firmele mici:
-• Firma cu un singur director, dacă el e singurul angajat pentru care firma plătește National Insurance.
-• Angajatorii care fac mai mult de jumătate din munca lor pentru sectorul public — dar organizațiile de caritate pot cere oricum.
-• Pentru un angajat care intră sub regulile off-payroll (IR35).
-• Pentru cineva angajat pentru treburi casnice — o bonă, un grădinar — dacă nu e îngrijitor.
+Cine NU poate cere deloc — firma:
+• Firma cu un singur director, dacă el e singurul angajat cu National Insurance Class 1 secundar — partea firmei, peste Secondary Threshold.
+• Instituțiile publice fără statut de caritate — primărie, consiliu local sau parohial — oricât de puțin lucrează pentru public.
+• Orice alt angajator cu peste jumătate din muncă pentru sectorul public — dar organizațiile de caritate pot cere oricum.
 • Într-un grup de firme sau de organizații de caritate legate între ele, cere una singură.
 
-Pot cere: firmele și instituțiile publice care fac mai puțin de jumătate din muncă pentru sectorul public, organizațiile de caritate, cluburile sportive de amatori și cine angajează un îngrijitor.
+Angajați pe care NU îi poți include — firma rămâne eligibilă pentru ceilalți:
+• Angajatul care intră sub regulile off-payroll (IR35).
+• Cineva angajat pentru treburi casnice — o bonă, un grădinar — dacă nu e îngrijitor.
+
+Pot cere: firmele cu mai puțin de jumătate din muncă pentru sectorul public, organizațiile de caritate, cluburile sportive de amatori și cine angajează un îngrijitor.
 
 Se aplică în tot Regatul Unit. Se cere pentru anul fiscal în curs.
 
 Nu știi dacă firma ta poate cere?""",
- th="""Employment Allowance taie până la £10.500 din National Insurance-ul Class 1 plătit de firmă într-un an. Se cere din programul de salarii — și din nou la fiecare an fiscal. Nu se reportează.
+ th="""Employment Allowance taie până la £10.500 din National Insurance-ul Class 1 al firmei. Se cere din programul de salarii — și din nou la fiecare an fiscal. Nu se reportează.
 
-Cine NU poate cere: firma cu un singur director, dacă el e singurul angajat cu National Insurance.""",
- li="""Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never applied automatically — it is claimed through payroll software, against one payroll only.
+Cine NU poate cere: firma cu un singur director, dacă el e singurul angajat cu National Insurance Class 1 secundar — partea firmei.""",
+ li="""Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never automatic — it is claimed through payroll software, against one payroll only.
 
-And it is claimed again every single tax year. HMRC's employer guidance is explicit: "You must claim the Employment Allowance for each new tax year by submitting an Employer Payment Summary." A claim does not carry forward, so an employer who claimed last year and assumed it rolled over silently loses up to £10,500.
+And it is claimed again every single tax year, by Employer Payment Summary. It does not carry forward, so an employer who claimed last year and assumed it rolled over silently loses up to £10,500.
 
-If you never claimed at all, you can go back up to 4 years after the end of the tax year the allowance applies to — a 2022 to 2023 claim has to be made by 5 April 2027. But an earlier year is not claimed on today's terms, and this is where a wrong figure gets claimed. The allowance is £10,500 for 2025 to 2026 onwards; for each year between 6 April 2022 and 5 April 2025 it was £5,000. And to claim for 2024 to 2025 or earlier, your employers' Class 1 National Insurance liabilities must have been less than £100,000 in the previous tax year. From 2025 to 2026 onwards there is no limit at all — that is the £100,000 bar being lifted from April 2025.
+If you never claimed at all, you can go back up to 4 years after the end of the tax year concerned — a 2022 to 2023 claim has to be made by 5 April 2027. But an earlier year is not claimed on today's terms. The allowance is £10,500 for 2025 to 2026 onwards; for each year between 6 April 2022 and 5 April 2025 it was £5,000. And to claim for 2024 to 2025 or earlier, your employers' Class 1 National Insurance liabilities must have been less than £100,000 in the previous tax year. From 2025 to 2026 onwards there is no limit — that bar was lifted in April 2025.
 
-Who cannot claim, and the first one is the trap for small companies:
-• A company with a single director, where that director is the only employee liable for secondary Class 1 National Insurance.
-• An employer doing more than half its work in the public sector — a local council or NHS services, for example — unless it is a charity, which can claim even when its functions are wholly or mainly of a public nature.
-• For an employee whose earnings fall within the off-payroll working rules.
-• For someone employed for personal, household or domestic work — a nanny, a gardener — unless they are a care or support worker.
-• Within a group of connected companies or connected charities, only one of them may claim.
-• Running several payrolls, only one of them may carry the claim.
+One outright bar sits on that same page: for some businesses the allowance counts as de minimis state aid, capped over a 3-year period, and a business over the cap cannot claim. GOV.UK says that is likely where your business is both located in Northern Ireland and makes or sells goods or wholesale electricity.
 
-Who can: businesses and public bodies doing less than half their work in the public sector, charities including community amateur sports clubs, and employers of a care or support worker.
+Who cannot claim at all — the employer. The first is the trap for small companies:
+• A company with a single director who is its only employee liable for secondary Class 1 National Insurance.
+• A public authority that is not a charity — a local authority, a town or parish council — however little of its work is of a public nature.
+• Any other employer doing more than half its work in or for the public sector — unless it is a charity, which can claim even when its functions are wholly or mainly of a public nature.
+• Within a group of connected companies or connected charities only one may claim, and an employer running several payrolls claims against only one of them.
 
-UK-wide, for the current tax year.
+Employees you cannot include in the claim — a separate rule. The employer stays eligible and keeps claiming on everyone else:
+• An employee whose earnings fall within the off-payroll working rules.
+• Someone employed for personal, household or domestic work — a nanny, a gardener — unless they are a care or support worker.
+
+Who can: businesses doing less than half their work in the public sector, charities including community amateur sports clubs, and employers of a care or support worker.
+
+UK-wide, for the current tax year — subject to that Northern Ireland state-aid cap.
 
 Want your payroll checked against the conditions?""",
  bsky="""Employment Allowance: up to £10,500 off employer Class 1 National Insurance, claimed again every tax year. It never carries forward.""",
  pin_title="Employment Allowance: £10,500 and who cannot claim",
- pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year, claimed through payroll software. It is never automatic and does not carry forward — it must be claimed again every new tax year. Who cannot claim: a company with a single director who is its only employee liable for secondary Class 1; an employer doing more than half its work in the public sector, unless it is a charity; household workers such as a nanny or gardener, unless they are a care or support worker.""",
+ pin="""UK Employment Allowance takes up to £10,500 off an employer's Class 1 National Insurance in a tax year. It is never automatic and must be claimed again every new tax year. Which employers cannot claim: a company whose single director is its only employee liable for secondary Class 1, and an employer doing over half its work in the public sector unless it is a charity. Separately: the employer stays eligible but cannot include an employee in personal, household or domestic work — a nanny, a gardener — unless they are a care or support worker.""",
  source="gov.uk/claim-employment-allowance/eligibility, /claim-for-past-years, plus HMRC's further employer guidance",
 )
 
-# ----------------------------------------------------------------- 14
 C["cold-weather-25"] = dict(
  ro="""Cold Weather Payment e £25 pentru fiecare perioadă de 7 zile la rând în care temperatura medie din zona ta e zero grade sau mai jos — măsurată sau prognozată. Nu se depune nicio cerere: vine automat, în contul în care intră ajutorul, în 14 zile lucrătoare.
 
@@ -719,17 +725,16 @@ Se numără gerul dintre 1 noiembrie 2026 și 31 martie 2027, după codul poșta
 
 Un lucru TREBUIE făcut, chiar dacă cerere nu se depune: pe Universal Credit sau pe ESA legat de venit, dacă s-a născut un copil sau dacă un copil sub 5 ani s-a mutat în casă, schimbarea de situație se anunță. Fără anunț, plata nu mai vine automat — și tocmai copilul sub 5 ani e condiția care dă dreptul.
 
-Ajutoarele care dau dreptul:
+Ajutoarele listate de GOV.UK:
 • Pension Credit
 • ESA legat de venit, cu condițiile ei (grupul de activitate sau de sprijin, un supliment, un copil cu dizabilitate ori un copil sub 5 ani)
 • Universal Credit, în condițiile de mai jos
-• Support for Mortgage Interest, când e tratat ca ajutor care califică
+• Support for Mortgage Interest, tratat ca ajutor care califică — și numai cu un supliment, un copil cu dizabilitate ori unul sub 5 ani în casă
 
 Pe Universal Credit condițiile sunt două și trebuie îndeplinite amândouă: nici solicitantul, nici partenerul să nu fie angajat sau cu afacere activă („gainfully self-employed"), ȘI solicitantul sau partenerul să aibă o problemă de sănătate ori un handicap cu capacitate limitată de muncă, sau un copil sub 5 ani în casă. Excepție: cu suma pentru un copil cu dizabilitate în dosar, dreptul există indiferent dacă cineva muncește.
 
 Cine NU primește:
 • Cine locuiește în Scoția — acolo nu există. Cine ia un ajutor care dă dreptul primește Winter Heating Payment, o dată pe iarnă, automat și indiferent de vreme.
-• Cine nu primește niciunul dintre cele patru ajutoare, oricât de frig e.
 • Pe Universal Credit, dosarul care nu bifează amândouă condițiile și nu are suma pentru un copil cu dizabilitate.
 
 Se aplică în Anglia, Țara Galilor și Irlanda de Nord.
@@ -744,17 +749,16 @@ It covers cold spells between 1 November 2026 and 31 March 2027, and it works of
 
 There is one thing that does have to be done, and it is the line most often left out. GOV.UK: "You'll need to report a change in circumstances if you get Universal Credit or income-related Employment and Support Allowance (ESA) and either: you've had a baby; a child under 5 has come to live with you... You will not automatically get Cold Weather Payments if you do not." The payment is automatic; the circumstances it is worked out from are not — and the child-under-5 route to eligibility is exactly the one that depends on the change being reported.
 
-The qualifying benefits:
+The four qualifying benefits GOV.UK lists:
 • Pension Credit
 • Income-related Employment and Support Allowance, in a work-related activity or support group — or with a severe or enhanced disability premium, a pensioner premium, a disabled child, or a child under 5 living with you
 • Universal Credit, on the conditions below
-• Support for Mortgage Interest, where the claimant is treated as receiving a qualifying benefit
+• Support for Mortgage Interest, where the claimant is treated as receiving a qualifying benefit AND one of these applies: a severe or enhanced disability premium, a pensioner premium, a disabled child, or a child under 5 living with them
 
 On Universal Credit there are two conditions and both must hold: neither the claimant nor their partner is employed or "gainfully self-employed", AND the claimant or their partner has a health condition or disability with limited capability for work (with or without work-related activity), or a child under 5 living with them. The exception: a claim that includes a disabled child amount qualifies regardless of whether either of them is working.
 
 Who does not get it:
 • Anyone living in Scotland. GOV.UK is explicit: Cold Weather Payments cannot be had there. Winter Heating Payment is paid instead — once a winter, automatically and regardless of the weather, to people who get one of the benefits that make them eligible. It is gated on a qualifying benefit in the same way, so it is not a payment every Scottish household receives.
-• Anyone receiving none of the four benefits, however cold it gets and however low the income. The payment is tied to the benefit, not to the temperature alone.
 • On Universal Credit, a claim where either of the two conditions is missing and there is no disabled child amount in it.
 
 England, Wales and Northern Ireland.
