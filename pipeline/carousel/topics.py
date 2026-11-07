@@ -1542,9 +1542,9 @@ DIVIDENDS_1075 = dict(
     dict(type="step", step="Cât plătești, pe fiecare bandă", fig="<cur>£</cur>500",
          say="Primii <b>£500</b> de dividende într-un an fiscal nu se impozitează. Peste: <b>10,75%</b> în banda de bază, <b>35,75%</b> în banda mare, <b>39,35%</b> în cea de sus.",
          note="Banda ta o stabilește venitul tău total, nu dividendul singur. Exemplu, cu Personal Allowance deja folosit de alte venituri: £2.000 de dividende în banda de bază → primii £500 fără taxă, restul £1.500 × 10,75% = £161,25."),
-    dict(type="step", step="Cine NU plătește nimic", fig="<cur>£</cur>12.570",
+    dict(type="step", step="Ce NU se impozitează", fig="<cur>£</cur>12.570",
          say="Dividendele care încap în partea nefolosită din cei <b>£12.570</b> de Personal Allowance nu se impozitează. Ce trece peste se impozitează. Asta pe lângă primii £500.",
-         note="£12.570 e alocația obișnuită: scade cu £1 la fiecare £2 de venit peste £100.000. Nici dividendele din acțiuni ținute într-un ISA nu se impozitează."),
+         note="£12.570 e alocația obișnuită: scade cu £1 la fiecare £2 de venit peste £100.000. Nici dividendele din acțiuni ținute într-un ISA nu se impozitează — dar acțiunile firmei tale nu pot sta în ISA."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Firmă Ltd · Dividende",
@@ -1560,9 +1560,9 @@ DIVIDENDS_1075 = dict(
     dict(type="step", step="What you pay, band by band", fig="<cur>£</cur>500",
          say="Your first <b>£500</b> of dividends in a tax year is untaxed. Above that: <b>10.75%</b> at the basic rate, <b>35.75%</b> at the higher rate, <b>39.35%</b> at the additional rate.",
          note="Your band is set by your total income, not by the dividend alone. Example, with the Personal Allowance already used by other income: £2,000 of dividends at the basic rate — the first £500 free, the remaining £1,500 × 10.75% = £161.25."),
-    dict(type="step", step="Who pays nothing", fig="<cur>£</cur>12,570",
+    dict(type="step", step="What is not taxed", fig="<cur>£</cur>12,570",
          say="Dividends that fit inside the unused part of your <b>£12,570</b> Personal Allowance are not taxed. Anything above it is. That is on top of the first £500.",
-         note="£12,570 is the usual allowance: it goes down by £1 for every £2 of income over £100,000. Dividends from shares held in an ISA are not taxed either."),
+         note="£12,570 is the usual allowance: it goes down by £1 for every £2 of income over £100,000. Dividends from shares held in an ISA are not taxed either — but your own company's shares cannot go in an ISA."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Limited company · Dividends",
@@ -1572,8 +1572,8 @@ DIVIDENDS_1075 = dict(
 
   GBP=[
     dict(type="solo",
-         kicker="Dividend tax · gov.uk",
-         h1="Any dividend: 10.75% now, not 8.75%.",
+         kicker="Dividend tax · 2026/27",
+         h1="Basic rate on any dividend: 10.75%, not 8.75%.",
          rows=[["<cur>£</cur>500", "of dividends a year, still untaxed"],
                ["10.75%", "basic rate; then 35.75% and 39.35%"],
                ["6 Apr 2026", "when the first two rates went up"]],
@@ -1604,9 +1604,13 @@ DIVIDENDS_1075 = dict(
            "or Welsh dividend figures, and the measure that raised them says it applies UK-wide.",
     category="Anyone with dividend income above £500 in a tax year — in this audience, mainly "
              "directors and shareholders taking money out of their own limited company, but the "
-             "rates reach ALL of an individual's dividend income: listed shares, investment "
-             "funds, companies the person does not control, and foreign dividends (HMRC "
-             "SAIM5210). A reader with a share portfolio outside an ISA is affected too. The band "
+             "rates reach an individual's dividend income generally, and the cards name only the "
+             "UK cases that are certainly right: listed shares, investment funds, companies the "
+             "person does not control. Foreign dividends are deliberately LEFT OUT of every "
+             "published caption and card: whether they are caught turns on the reader's residence "
+             "history (the four-year foreign income and gains regime), and Ola is not authorised "
+             "to advise on a residency position. A reader with a share portfolio outside an ISA "
+             "is affected too. The band "
              "that applies is set by the person's total income, not by the dividend on its own.",
     excluded="Three AMOUNTS escape the charge, and the cards name all three. None of them is a group of people, which is the mistake this topic kept making. (1) Dividends of £500 or less in the tax year: the dividend allowance covers them. (2) Dividends that fall inside the part of the £12,570 Personal Allowance left unused by other income: the relief attaches to that slice of income, so dividends above the unused part are taxed at the normal rates — a person with £12,570 of unused allowance and £60,000 of dividends pays dividend tax on roughly £46,930 of it — and the allowance itself goes down by £1 for every £2 of income over £100,000, so it is not a slice nobody is taxed on. (3) Dividends on shares held inside a valid ISA, at any amount — but shares in an ordinary private limited company are not qualifying ISA investments, so an owner-manager cannot hold their own company shares that way, and holdings outside the ISA are taxed normally. What is NOT an exclusion is an occupation. The charge attaches to the income (ITTOIA 2005 s.383(1)), so a sole trader or a partner who owns shares outside an ISA pays dividend tax at these rates like anyone else, and a partnership can hold shares with the dividend income taxed on the partners (SA804). What is genuinely outside is the SOURCE of the money: profit drawn from an unincorporated trade is trading profit, not a dividend, so these rates do not reach a sole trader's drawings. And the increase does reach high incomes: the additional rate stayed at 39.35%, but a shareholder taxed at the upper rate took the full two points, and part of a very large dividend can still fall in the upper band — so \"the highest earners were untouched\" is not a safe reading. Finally, 10.75% is not the cost of extracting profit: it is the shareholder's income tax, on top of the corporation tax the company has already paid, and a dividend can only be paid out of profits available for the purpose.",
     from_when="10.75% and 35.75% apply from 6 April 2026, for the 2026 to 2027 tax year onwards; "

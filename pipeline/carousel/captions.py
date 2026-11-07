@@ -899,9 +899,7 @@ Cotele pentru 2026-2027, pe dividendele de peste alocație:
 • 35,75% în banda mare
 • 39,35% în banda de sus
 
-Primii £500 pe an nu se impozitează deloc: asta e „dividend allowance", per persoană.
-
-Cotele ating orice dividend primit de o persoană, nu doar pe cel din firma ta: acțiuni la bursă, fonduri, firme în care nu decizi tu, dividende din afară.
+Cotele ating orice dividend primit de o persoană, nu doar pe cel din firma ta: acțiuni la bursă, fonduri, firme în care nu decizi tu.
 
 Și 10,75% nu e costul scoaterii banilor: e taxa ta pe dividend, peste impozitul pe profit plătit deja de firmă. Iar dividendul se plătește doar din profitul disponibil pentru distribuire.
 
@@ -910,21 +908,21 @@ Exemplu, cu Personal Allowance deja folosit de alte venituri: £2.000 de dividen
 Au urcat primele două cote, cu două puncte. Cota de sus, 39,35%, a rămas la fel — dar în banda mare creșterea s-a simțit întreagă, la 35,75%.
 
 Ce NU se impozitează:
-• primii £500 de dividende într-un an
+• primii £500 de dividende într-un an fiscal — „dividend allowance", per persoană, nu per firmă
 • dividendele care încap în partea nefolosită din Personal Allowance; ce trece peste se impozitează normal
-• dividendele din acțiuni ținute într-un ISA valid, oricât ar fi — dar acțiunile firmei tale nu pot sta în ISA, iar cele de afară se impozitează normal
+• dividendele din acțiuni ținute într-un ISA valid, oricât ar fi — dar acțiunile firmei tale nu pot sta în ISA, iar cele ținute în afara ISA se impozitează normal
 
 Profitul scos din activitatea ta pe cont propriu nu e dividend, deci cotele nu-l ating. Dar dacă ai acțiuni, dividendele de pe ele se impozitează ca la oricine.
 
-Se aplică în tot Regatul Unit. Dacă dividendele stau în alocația de £500, nu ai ce să anunți. Peste, până la £10.000, îi spui HMRC până pe 5 octombrie și taxa poate veni prin codul fiscal; peste £10.000 e nevoie de Self Assessment.
+Se aplică în tot Regatul Unit. Dacă depui Self Assessment, treci în declarație orice dividend, inclusiv pe cel din alocația de £500. Dacă nu depui: sub alocație nu ai ce să anunți; peste, îi spui HMRC după 5 aprilie și până pe 5 octombrie, iar taxa poate veni prin codul fiscal; de la £10.000 HMRC cere Self Assessment — prag din practica HMRC, nu din lege.
 
 Nu știi cât îți rămâne din dividend?""",
 
   th="""Îți iei un dividend? Din 6 aprilie 2026 cota de bază e 10,75%, nu 8,75%.
 
-Ating orice dividend, nu doar pe cel din firma ta. Iar 10,75% e taxa ta, peste impozitul pe profit plătit deja de firmă.
+Ating orice dividend, nu doar pe cel din firma ta.
 
-Nu se impozitează: primii £500 pe an, dividendele care încap în Personal Allowance nefolosit, și cele din acțiuni în ISA.""",
+Nu se impozitează: primii £500 pe an, dividendele care încap în Personal Allowance nefolosit, și cele din acțiuni ținute în ISA — dar acțiunile firmei tale nu pot sta în ISA.""",
 
   li="""If you take profit out of your own limited company as a dividend, the basic rate changed on 6 April 2026: 10.75%, up from 8.75%.
 
@@ -933,9 +931,7 @@ Dividend rates for 2026/27, on dividends above the allowance:
 • 35.75% at the higher rate
 • 39.35% at the additional rate
 
-The first £500 of dividends in a tax year remains untaxed. That is the dividend allowance, and it is per person per tax year, not per company.
-
-These are not company-specific rates. They reach every dividend an individual receives — listed shares, funds, a company you do not control, dividends from abroad. A shareholder with a portfolio outside an ISA is caught as much as an owner-manager.
+These are not company-specific rates. They reach every dividend an individual receives — listed shares, funds, a company you do not control. A shareholder with a portfolio outside an ISA is caught as much as an owner-manager.
 
 And 10.75% is not the cost of getting money out of a company. It is the shareholder's income tax, on top of the corporation tax the company has already paid on that profit — and a dividend can only be paid out of profits available for the purpose.
 
@@ -944,23 +940,23 @@ Worked, with the Personal Allowance already used by other income: £2,000 of div
 What actually changed: the ordinary and upper rates rose by two points each. The additional rate stayed at 39.35% — but a shareholder taxed at the upper rate took the full two points, and part of a very large dividend can still fall in that band, so the rise did not stop short of high earners.
 
 What is not taxed:
-• the first £500 of dividends in the year
+• the first £500 of dividends in the year — the dividend allowance, per person per tax year, not per company
 • dividends that fall inside the unused part of a Personal Allowance; anything above it is taxed at the normal rates
 • dividends on shares held inside a valid ISA, at any amount — but shares in an ordinary private limited company are not qualifying ISA investments, so an owner-manager cannot hold their own company that way, and holdings outside the ISA are taxed normally
 
-Profit drawn from an unincorporated trade is trading profit, not a dividend, so these rates do not reach a sole trader's drawings. Dividends on shares that sole trader holds are taxed like anyone else's.
+Profit drawn from an unincorporated trade is trading profit, not a dividend, so these rates do not reach it. Dividends on shares that sole trader holds are taxed like anyone else's.
 
-UK-wide. Dividend tax is not deducted at source, but the duty to report is tiered: nothing to tell HMRC where the dividends are within the dividend allowance; up to £10,000 a Self Assessment filer reports it on the return and anyone else tells HMRC by 5 October, with the tax collectable through the tax code; over £10,000 a Self Assessment return is needed. Unused Personal Allowance is not reported — it is given automatically.
+UK-wide. Dividend tax is not deducted at source, and what has to be reported depends on whether you file. If you send a Self Assessment return, you must report any dividend income on it — including dividends inside the £500 allowance. If you do not: nothing to tell HMRC where the dividends are within the allowance; above it, tell HMRC after 5 April and by 5 October, with the tax collectable through your tax code; from £10,000 HMRC asks for a return. That £10,000 tier is HMRC's administrative practice, not a statutory threshold. Unused Personal Allowance is not reported — it is given automatically.
 
 Planning the next dividend? Worth running the numbers before the money moves.""",
 
-  bsky="""Any dividend over the £500 allowance: 10.75% from 6 April 2026, up from 8.75%. Not just your company's — the profit was taxed before it.""",
+  bsky="""From 6 April 2026, dividends over the £500 allowance: 10.75% basic rate, up from 8.75%, then 35.75% and 39.35%. Not just your company's.""",
 
   pin_title="UK dividend tax 2026/27: basic rate 10.75%, up from 8.75%",
 
-  pin="""UK dividend tax 2026/27 above the £500 allowance: 10.75% basic, 35.75% higher, 39.35% additional. The first two rose two points on 6 April 2026; the additional did not. They reach any dividend, not just your own company's, and 10.75% is your tax on top of the company's corporation tax. £2,000 of dividends, allowance used elsewhere: £500 free + £1,500 at 10.75% = £161.25. Untaxed: the first £500, dividends inside unused Personal Allowance, and those on shares in a valid ISA. Sole-trade profit is not a dividend; dividends on a sole trader's shares are taxed like anyone's.""",
+  pin="""UK dividend tax from 6 April 2026, above the £500 allowance: 10.75% basic, 35.75% higher, 39.35% additional. The first two rose two points; the additional did not. They reach any dividend, not just your own company's. £2,000 of dividends, allowance used elsewhere: £500 free + £1,500 at 10.75% = £161.25. Untaxed: the first £500, dividends inside unused Personal Allowance, and those on shares in a valid ISA — but your own company's shares cannot go in an ISA. Sole-trade profit is not a dividend; dividends on a sole trader's shares are taxed like anyone's.""",
 
-  gbp="""Dividend tax is 10.75% now, not 8.75%.
+  gbp="""The basic rate on dividends is 10.75% now, not 8.75%.
 
 For 2026/27, on dividends above the allowance: 10.75% basic rate, 35.75% higher, 39.35% additional. The first two rose by two points on 6 April 2026; the additional rate is unchanged. They apply to listed shares and funds as much as to a company you own.
 
@@ -968,15 +964,15 @@ For 2026/27, on dividends above the allowance: 10.75% basic rate, 35.75% higher,
 
 Worked example, with the Personal Allowance already used by other income: £2,000 of dividends at the basic rate — the first £500 free, then £1,500 × 10.75% = £161.25.
 
-Not taxed: the first £500 of dividends in the year; dividends falling inside an unused Personal Allowance, with anything above taxed normally; and dividends on shares held in a valid ISA.
+Not taxed: the first £500 of dividends in the year; dividends falling inside an unused Personal Allowance, with anything above taxed normally; and dividends on shares held in a valid ISA — though your own company's shares cannot go in an ISA.
 
 Profit you draw from your own sole trade is not a dividend, so these rates do not touch it — but dividends on shares you hold are taxed like anyone's.
 
 Running a limited company around Luton or Birmingham? Message 0330 133 1886 and we will set out the position before you take the next payment.
 
-Sources: gov.uk/tax-on-dividends and gov.uk/government/publications/rates-and-allowances-corporation-tax""",
+Source: gov.uk/tax-on-dividends""",
 
-  source="gov.uk/tax-on-dividends, gov.uk/tax-on-dividends/how-to-report-tax-on-dividends and gov.uk/government/publications/rates-and-allowances-corporation-tax",
+  source="gov.uk/tax-on-dividends and gov.uk/tax-on-dividends/how-to-report-tax-on-dividends",
 )
 
 # ------------------------------------------------------------------ 18
