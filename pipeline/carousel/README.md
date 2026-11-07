@@ -257,6 +257,41 @@ shipped; 29 Metricool entries accepted, one rejection, fixed in the same run.
   standing rule is that an unsure sentence crosses the line, so it waits for
   Valentin rather than being improvised overnight.
 
+## What the third live run taught us
+
+Run on 7 November 2026 for publication on the 8th. Five of five carousels shipped;
+36 Metricool entries accepted, one rejection, fixed in the same run.
+
+* **A TikTok photo post needs a `title` in `tiktokData`.** The first attempt came
+  back `Error processing post information: TikTok title is required`. The tool
+  description lists `title` among the optional fields, so nothing warned us. Every
+  TikTok post now carries a short Romanian title, separate from the caption.
+* **The LinkedIn `documentTitle` is published text, so the language rule applies
+  to it.** The first LinkedIn post of the day went up with the Romanian topic
+  title on an English post. Caught on read-back and corrected with
+  `updateScheduledPost`; the remaining four were built with English titles. Worth
+  remembering that `updateScheduledPost` changes the post's id and keeps its uuid,
+  so the read-back shows one entry, not two.
+* **Metricool re-hosts `media` URLs on its own CDN at scheduling time.** Every
+  accepted post came back with `static.metricool.com` paths, which is the cheapest
+  proof that the raw GitHub URLs resolved and that the push was actually live.
+* **The planner read-back does not fit in one call.** `getScheduledPosts` for a
+  whole day of 36 entries exceeds the tool's response limit; it has to be read in
+  windows and the counts added up. Reading it is still the only thing that turns
+  "scheduled" from a claim into a fact.
+* **A verifier reading only the images will flag the footer phone number on cards
+  1-3 as CTA creep.** It is the template, set deliberately in this README, and
+  `preflight.py`'s FORMAT check passes because it tests the `ask` and `phone`
+  fields on the cards rather than the rendered footer. Tell the next verifier up
+  front, or it costs a round trip. The gate's docstring says "no ask or phone
+  anywhere but the last", which overstates what it enforces.
+* **A compliance fix can break a length limit.** Two topics needed their own
+  disclaimers — an accountant is not the adviser for an energy rebate or for
+  employment status — and the first wording blew the Threads, Bluesky, Pinterest
+  and feed caps on both. Short disclaimers on every network, with the fuller
+  boundary wording in the long-form bodies, is what fits. `limits.py` caught all
+  ten; nothing was judged by eye.
+
 ## Scope: what we post about
 
 Widened on 3 November 2026 at Valentin's direction. Not only accounting:
