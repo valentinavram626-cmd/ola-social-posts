@@ -460,3 +460,90 @@ WhatsApp button. On the rendered frames, cards 1-3 carry the number and a
 WhatsApp glyph in the footer strip, and card 4 carries the ask sentence and the
 number in a green pill. Both readings are defensible and the studio did not
 change the template overnight. Valentin's call.
+
+## What the fifth live run taught us
+
+Run on 8 November 2026 for publication on the 9th. Five of five carousels
+shipped; 36 Metricool entries accepted, none rejected.
+
+**The report could not be written, for the second time in three days.**
+`add_repo` is not available in this session, so
+`valentinavram626-cmd/ola-ops-reports` could not be attached and `SAFETY.md`
+could not be read. Two exact errors, both recorded:
+
+    git clone --depth 1 https://github.com/valentinavram626-cmd/ola-ops-reports
+    fatal: could not read Username for 'https://github.com': terminal prompts disabled
+
+    Access denied: repository "valentinavram626-cmd/ola-ops-reports" is not
+    configured for this session. Allowed repositories:
+    valentinavram626-cmd/ola-social-posts, valentinavram626-cmd/ola-next. [...]
+    if add_repo is not available, this repository cannot be added to this session.
+
+The run carried on under the doctrine as summarised in the task prompt and the
+report was printed in full in the run output. Nothing was deleted, held or
+unscheduled, which is the part of the doctrine that needs a verified backup —
+only new posts were created, so no backup was required and none could have been
+written anyway.
+
+* **qa.py cannot see a footer that is GONE.** `help-to-save-50` en-feed/03 and
+  en-bsky/03 rendered with the lion, the wordmark, the WhatsApp number and the
+  swipe cue pushed clean off the bottom of the 1080x1350 frame by a six-line
+  note. qa.py passed them, because its bottom-margin test looks for ink too
+  close to the edge and that frame had no ink there at all. The independent
+  verifier found it by reading the image; it was confirmed here by reading the
+  image; the fix was shorter copy. Then, with the note one line shorter, qa.py
+  DID fail it — so the gate has a blind spot only at full overflow. **qa.py
+  needs a check that the footer is present, not only that nothing crowds the
+  margin.** The Romanian twin was rendering 6px from the same failure.
+* **preflight.py does not check the shape of a GBP card.** The Google Business
+  card was written with `say`/`note` like a step card. The `solo` template needs
+  `rows[]` and `ask`; `s.rows.map` threw inside the page, `window.READY` never
+  fired, and render.js timed out after 30s with zero frames. Nothing warned
+  before the render, because FORMAT only tests RO, EN and the CTA.
+* **probe.py measures the CTA card, and the overflow was on card 3.** All five
+  topics passed probe comfortably (629-815px against 892) and three frames still
+  came back "ink in bot" from qa.py. probe.py is a pre-render estimate for one
+  card, not a substitute for the gate.
+* **A checker's objection is still not a source — and this time the repo's own
+  SOURCES file was the thing that disproved a caption.** "£100 nu se reduce
+  niciodată" / "The £100 is never reduced" was wrong: FA 2009 Sch 55 para 16
+  lets HMRC reduce any penalty in the Schedule for special circumstances, and
+  that paragraph is quoted verbatim in this file's own SOURCES entry for the
+  topic. The English sentence even named the discretion as proof of the opposite
+  of what it does. Three objections were declined on evidence, including one to
+  drop "or in the HMRC app" — HMRC's own release of 21 September 2026 says an
+  account can be opened "online on GOV.UK or via the HMRC app", and the checker
+  had looked only at the how-to-apply page.
+* **Check the second language, again.** The childcare £100,000 test is adjusted
+  net income. The English card said so; the Romanian card said plain "venit",
+  which is a different and wrong test for a director with pension contributions.
+  And "un singur părinte" reads in Romanian as "a lone parent" — the
+  plain-language reader took it that way. Both languages now say "oricare dintre
+  părinți" and "venit net ajustat".
+* **A fix in the cards does not reach the captions, and a fix in the captions
+  does not reach every network.** Four separate instances this run: the Rent a
+  Room "£7,500 or less" boundary and the dropped "deloc", fixed on the cards and
+  caught still sitting in the captions while the posts were being scheduled; the
+  childcare start date; and the two non-tax carousels, whose CTA card scoped the
+  ask to tax work while every caption printed a bare WhatsApp line after a
+  benefit statement. captions.py now takes per-topic `wa_ro` / `wa_th` / `wa_li`
+  overrides, the same shape as `disc_ro` / `disc_en`.
+* **Six captions broke their caps during the repair round, and limits.py caught
+  all six.** That is the 6 November lesson working as intended: the check
+  belongs after every edit, not only after the first draft. Nothing was judged
+  by eye at any point.
+* **A caption with a live figure needs a shelf life, not a timestamp.** The HMRC
+  late payment interest rate is 7.75% and becomes 8.00% on 24 November 2026,
+  fifteen days after publication. "7,75% acum, 8% de la 24 noiembrie" was right
+  on the day and wrong a fortnight later; "7,75% până pe 23 noiembrie 2026, apoi
+  8%" stays right. Evergreen posts should never say "today".
+
+### Still to settle
+
+**The CTA cards say "Fără obligații" and name no price.** The compliance
+reviewer reads that as implying a free service, since the first consultation is
+£120 incl. VAT and was previously free, and asked for the price on six CTA
+cards. That is a pricing and positioning decision, not a factual correction, and
+it changes a CTA pattern that has shipped for a week — so it was raised for
+Valentin rather than changed overnight. Along with the footer question from the
+4 November run, that is now two standing CTA decisions waiting on him.

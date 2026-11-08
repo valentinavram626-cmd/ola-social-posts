@@ -1246,7 +1246,7 @@ Not sure you have to file at all? Ola Accountancy, Luton and Birmingham.""",
 C["camera-inchiriata-7500"] = dict(
  ro="""Închiriezi o cameră în casa în care locuiești? Primii £7.500 pe an sunt fără taxe.
 
-Scutirea se numește Rent a Room. Nu o ceri, nu completezi nimic, nu anunți pe nimeni: dacă încasezi sub £7.500 într-un an fiscal, se aplică automat.
+Scutirea se numește Rent a Room. Nu o ceri, nu completezi nimic, nu anunți pe nimeni: dacă încasezi £7.500 sau mai puțin într-un an fiscal, se aplică automat.
 
 Se numără cât ÎNCASEZI, nu cât îți rămâne. Adică chiria, plus orice bani iei pentru mese, curățenie sau spălat rufe. Cheltuielile nu se scad din cifra asta.
 
@@ -1257,7 +1257,7 @@ Peste limită depui declarație și alegi una din două:
 • plătești doar pe cât ai încasat peste £7.500, fără să scazi nicio cheltuială
 HMRC folosește automat prima variantă. A doua se cere în scris.
 
-Nu se aplică deloc la:
+Nu se aplică la:
 • camera nemobilată. Și atenție: dacă ai ORICE închiriere nemobilată în aceeași casă, HMRC spune că pierzi scutirea și pentru camera mobilată.
 • casa împărțită în apartamente separate
 • camera dată ca birou, pentru o afacere sau ca depozit
@@ -1278,7 +1278,7 @@ Se numără cât încasezi, nu cât îți rămâne: chiria plus banii pe mese sa
 Cine NU are £7.500: dacă și altcineva ia chirie din aceeași casă (de obicei partenerul), fiecare are £3.750. Nu se adună la £15.000.""",
  li="""Letting a room in the home you live in? The first £7,500 a year is tax free.
 
-The relief is Rent a Room. You do not claim it, you fill nothing in and you tell nobody: take under £7,500 in a tax year and it applies automatically.
+The relief is Rent a Room. You do not claim it, you fill nothing in and you tell nobody: take £7,500 or less in a tax year and it applies automatically.
 
 It counts what comes IN, not what you keep — the rent, plus anything charged for meals, cleaning or laundry. Expenses are not deducted from that figure.
 
@@ -1289,7 +1289,7 @@ Over the limit you file a return and choose:
 • tax on receipts above £7,500, with no expenses deductible at all
 HMRC defaults to the first. The second has to be elected in writing.
 
-It does not apply at all to:
+It does not apply to:
 • unfurnished accommodation. And note the sting: HMRC says any unfurnished letting in the same residence makes you a non-qualifying individual, so the furnished letting loses the relief too.
 • a house converted into separate flats
 • a room let as an office, for a business or for storage — with a narrow carve-out where a lodger works at home in the evenings or a student is given study facilities
