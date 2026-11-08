@@ -1142,13 +1142,13 @@ Bank holidays are not an addition: they "do not have to be given as paid leave" 
 
 Who does NOT have the right: people genuinely in business on their own account. The test is reg 2(1)(b) of the Working Time Regulations 1998 — work done personally for a party who is not, under the contract, a client or customer of a business the individual carries on. Courts and tribunals decide status, on how the relationship works in practice — not the label.
 
-The outright exclusions are narrow and differ across the UK. Great Britain, reg 18: seafarers, sea-fishermen and inland waterways workers are outside the Regulations; the leave provisions are disapplied for civil aviation workers and, where characteristics peculiar to the service inevitably conflict, the armed forces, the police and certain civil protection activities. Northern Ireland's reg 22(1) list differs: it includes civil aviation and omits sea-fishermen.
+The outright exclusions are narrow. Great Britain, reg 18: seafarers, sea-fishermen and inland waterways workers are outside the Regulations; the leave provisions are disapplied for civil aviation workers and, where characteristics peculiar to the service inevitably conflict, the armed forces, the police and certain civil protection activities.
 
 Irregular hours mean a different calculation, not none: for leave years from 1 April 2024, irregular hours and part-year workers accrue 12.07% of hours worked. Rolled-up holiday pay is that 12.07% paid as an uplift with the wages, for those two groups only — a different thing from payment in lieu of untaken leave, which is confined to the end of the employment.
 
 No qualifying period: the right runs from day one, with the first leave year pro-rated. Leave is normally taken in its own leave year, but does not simply lapse. An agreement can carry up to 8 of the 28 days into the next year. Leave untaken through sickness must be taken within 18 months of that leave year's end; leave untaken through statutory family leave carries into the next year; and up to 20 days carry over — the whole entitlement for irregular hours or part-year workers — where the employer failed to recognise the right, to give a reasonable opportunity to take the leave or encourage it, or to warn that untaken leave would be lost.
 
-Northern Ireland's entitlement is identical — 5.6 weeks, capped at 28 days — under its own Working Time Regulations 2016, which contain no irregular hours, part-year, 12.07% or rolled-up holiday pay provision. Holiday disputes there go to the Labour Relations Agency, not Acas.""",
+Northern Ireland's entitlement is identical — 5.6 weeks, capped at 28 days — under its own Working Time Regulations 2016, which contain no irregular hours, part-year, 12.07% or rolled-up holiday pay provision. Acas has no jurisdiction there: a claimant must notify the Labour Relations Agency and consider its Early Conciliation before a tribunal claim. The Acas line below is Great Britain only.""",
 
   bsky="""Great Britain: 5.6 weeks' paid holiday a year, capped at 28 days. It follows doing the work personally, not the label.""",
 
