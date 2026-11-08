@@ -1177,7 +1177,7 @@ Northern Ireland's entitlement is identical — 5.6 weeks, capped at 28 days —
 C["penalizari-31-ianuarie"] = dict(
  ro="""Depui declarația pe 1 februarie în loc de 31 ianuarie? £100.
 
-Și £100 se plătesc chiar dacă nu ai nicio taxă de dat. HMRC o spune direct: amenda „se aplică chiar dacă nu e nicio taxă de plătit, sau dacă taxa datorată a fost plătită la timp". Declarația pe zero nu te scapă.
+Și £100 se plătesc chiar dacă nu ai nicio taxă de dat. Amenda se aplică chiar dacă nu e nicio taxă de plătit și chiar dacă ai plătit taxa la timp. Declarația pe zero nu te scapă.
 
 Cum crește, dacă o lași:
 • o zi întârziere — £100
@@ -1185,16 +1185,16 @@ Cum crește, dacă o lași:
 • după 6 luni — încă 5% din taxă sau £300, cât e mai mult
 • după 12 luni — iar 5% sau £300
 
-Plata întârziată se numără separat de depunere: 5% din cât ai rămas de plătit la 30 de zile, apoi iar la 6 și la 12 luni. Plus dobândă în fiecare zi, de la 1 februarie — 7,75% acum, 8% de la 24 noiembrie 2026.
+Plata întârziată se numără separat de depunere: 5% din cât ai rămas de plătit la 30 de zile, apoi iar la 6 și la 12 luni. Plus dobândă în fiecare zi, de la 1 februarie — 7,75% până pe 23 noiembrie 2026, apoi 8%.
 
 Cine NU plătește £100:
 • cine nu a primit niciodată de la HMRC cererea de a depune. Amenda e pentru o declarație cerută; dacă nu ți-a cerut nimeni nimic, nu ai ce depune târziu.
 • cine nu mai trebuie să depună și anunță HMRC din timp: obligația se retrage și amenda se anulează. Timpul contează — HMRC are nevoie de timp să analizeze cererea înainte de 31 ianuarie, iar dacă anunți prea târziu amenda rămâne.
 • cine are motiv întemeiat (un deces în familie, o internare neașteptată). Se contestă online sau cu formularul SA370. „Nu am primit notificare de la HMRC" nu e motiv acceptat.
 
-£100 nu se reduce niciodată. Se anulează sau se plătește.
+£100 nu scade în funcție de cât ai de plătit — nici dacă taxa iese zero. Se anulează, se plătește, sau HMRC o reduce doar în circumstanțe speciale, care nu includ lipsa banilor.
 
-Nu ai banii acum? Dacă depui la timp, poți cere un plan de plată în rate — HMRC îl poate aproba online dacă datorezi sub £30.000 și te încadrezi în condițiile lor. Dobânda curge oricum, dar penalizările se opresc.
+Nu ai banii acum? Dacă depui la timp, poți cere un plan de plată în rate — HMRC îl poate aproba online dacă datorezi sub £30.000 și te încadrezi în condițiile lor. Dobânda curge oricum, dar penalizările se opresc cât timp respecți planul.
 
 E la fel în toată Marea Britanie. Pe hârtie nu se mai poate depune: termenul de 31 octombrie 2026 a trecut. Rămâne online, până pe 31 ianuarie 2027.
 
@@ -1204,7 +1204,7 @@ Nu ești sigur dacă trebuie să depui?""",
 Cine NU plătește: cine nu a primit niciodată de la HMRC cererea de a depune. Iar dacă nu mai trebuie să depui, HMRC poate anula amenda — dar anunță-i înainte de 31 ianuarie.""",
  li="""File your Self Assessment return on 1 February instead of 31 January and it costs £100.
 
-The £100 is charged even if you owe nothing. HMRC's own words: the penalty "applies even if there is no tax to pay, or if the tax due is paid on time". A nil return does not save you.
+The £100 is charged even if you owe nothing. The penalty applies even if there is no tax to pay, and even if the tax due was paid on time. A nil return does not save you.
 
 How it grows:
 • one day late — £100
@@ -1212,20 +1212,20 @@ How it grows:
 • after 6 months — a further 5% of the tax or £300, whichever is greater
 • after 12 months — another 5% or £300
 
-Paying late is a separate regime from filing late: 5% of the unpaid tax at 30 days, again at 6 months, again at 12. Interest runs daily from 1 February at base rate plus 4% — 7.75% today, 8% from 24 November 2026.
+Paying late is a separate regime from filing late: 5% of the unpaid tax at 30 days, again at 6 months, again at 12. Interest runs daily from 1 February at base rate plus 4% — 7.75% to 23 November 2026, then 8%.
 
 Who does not pay the £100:
 • anyone HMRC never sent a notice to file. The penalty attaches to a return HMRC required; with no notice there is nothing to file late.
 • anyone who no longer needs to file and says so in time. HMRC can withdraw the notice, and late filing penalties are then cancelled. Timing is the trap: HMRC needs time to review the request before 31 January, and leaving it too late means the penalty stands.
 • anyone with a reasonable excuse — a bereavement, an unexpected hospital stay, a serious illness. Appeal online or on form SA370. "You did not get a reminder from HMRC" is on the rejected list.
 
-The £100 is never reduced. It is cancelled or it is paid; HMRC's special-circumstances discretion expressly excludes ability to pay.
+The £100 is not scaled to the tax — a nil return does not shrink it. It is cancelled, paid, or reduced only where HMRC accepts special circumstances, which do not include inability to pay.
 
-Cannot pay? File on time anyway and ask for a payment plan — HMRC can agree one online where you owe under £30,000 and meet its conditions. Interest still runs, but penalties stop. The filing deadline itself moves for nothing.
+Cannot pay? File on time anyway and ask for a payment plan — HMRC can agree one online where you owe under £30,000 and meet its conditions. Interest still runs, but penalties stop while you keep to the plan. The filing deadline itself moves for nothing.
 
 Two points of precision: the £10 daily penalties are not automatic — HMRC must decide to charge them and give written notice — and at twelve months, 5% is the ordinary case, not a ceiling. Where information is deliberately withheld and concealed, the statutory penalty is the greater of 100% of the tax and £300.
 
-Also worth knowing: the Making Tax Digital points-based penalty regime does not apply to this deadline. Current penalties govern the 2025/26 return due 31 January 2027.
+Also worth knowing: the Making Tax Digital points-based regime does not govern this deadline — current penalties apply to the 2025/26 return due 31 January 2027. Anyone who volunteered for MTD early should check which regime they are on.
 
 Paper filing closed on 31 October 2026. Online, by 31 January 2027, is the only route left.""",
  bsky="""File one day late and it is £100 — even with no tax to pay. £10 a day after 3 months. No notice to file, no penalty.""",
@@ -1235,7 +1235,7 @@ Paper filing closed on 31 October 2026. Online, by 31 January 2027, is the only 
 
 After three months HMRC can add £10 a day, up to £900. At six months and again at twelve, a further 5% of the tax or £300, whichever is greater. Paying late is separate: 5% of the unpaid tax at 30 days, then again at 6 and 12 months, with interest running daily.
 
-Who does not pay the £100: anyone HMRC never sent a notice to file, and anyone who no longer needs to file and tells HMRC in good time — the obligation is withdrawn and the penalty cancelled. Leave it too late and it stands.
+Who does not pay the £100: anyone HMRC never sent a notice to file, and anyone who no longer needs to file and tells HMRC in good time — HMRC can withdraw the obligation and cancel the penalty. Leave it too late and it stands.
 
 Paper filing closed on 31 October 2026. Online by 31 January 2027 is the only route left, and the tax is due the same day.
 
@@ -1324,14 +1324,14 @@ Cine NU declară în 60 de zile:
 
 Un lucru pe dos, care prinde lumea: dacă NU ești rezident fiscal în UK, trebuie să declari fiecare vânzare de proprietate sau teren din UK — locuință sau nu — chiar dacă nu iese nicio taxă și chiar dacă ai pierdut bani.
 
-Ce costă întârzierea: £100 imediat, apoi la 6 luni și la 12 luni câte 5% din taxă sau £300, cât e mai mult. Plus dobândă pe taxa neplătită — 7,75% acum, 8% de la 24 noiembrie 2026.
+Ce costă întârzierea: £100 imediat, apoi la 6 luni și la 12 luni câte 5% din taxă sau £300, cât e mai mult. Plus dobândă pe taxa neplătită — 7,75% până pe 23 noiembrie 2026, apoi 8%.
 
 E la fel în toată Marea Britanie. Taxa pe care o plătește cumpărătorul la achiziție e altceva și diferă pe națiuni.
 
 Vinzi și nu știi dacă ai de plătit?""",
- th="""Ai vândut o casă care nu era casa ta? 60 de zile ca să declari ȘI să plătești — de la încheierea vânzării, nu de la contract. E o declarație separată, nu Self Assessment.
+ th="""Ai vândut o casă care nu era casa ta? 60 de zile ca să declari ȘI să plătești — de la încheierea vânzării, nu de la contract. E o declarație separată.
 
-Cine NU declară: casa ta, locuită tot timpul cât a fost a ta. Și dacă nu iese taxă de plătit, nu se cere declarație.""",
+Cine NU declară: casa ta, locuită tot timpul cât a fost a ta. Și dacă nu iese taxă de plătit, nu se cere declarație — regula pentru rezidenții fiscali UK.""",
  li="""Sold a UK property that was not your home? You have 60 days.
 
 Sixty days from completion, not from exchange of contracts. And inside them you do two things: report and pay.
@@ -1348,7 +1348,7 @@ Who does not report in 60 days:
 
 The reverse trap, and it catches people: a non-UK resident must report every disposal of UK property or land, residential or not, even with no tax to pay and even at a loss. The "no tax, no return" shortcut is exactly wrong there.
 
-What lateness costs: £100 straight away, then at six months and twelve months the greater of 5% of the tax and £300. Interest runs on unpaid tax at base rate plus 4% — 7.75% today, 8% from 24 November 2026.
+What lateness costs: £100 straight away, then at six months and twelve months the greater of 5% of the tax and £300. Interest runs on unpaid tax at base rate plus 4% — 7.75% to 23 November 2026, then 8%.
 
 Worth knowing: the final nine months of ownership always qualify for relief, whatever the property was used for then, provided it was your only or main residence at some point.
 
@@ -1366,7 +1366,7 @@ C["cresa-30-ore"] = dict(
 
 30 de ore pe săptămână, 38 de săptămâni pe an. Creșa poate accepta să le întindă pe mai multe săptămâni, cu mai puține ore.
 
-Cât trebuie să câștigi: fiecare părinte trebuie să se aștepte să câștige, în următoarele 3 luni, cel puțin £203,36 pe săptămână dacă are peste 21 de ani — adică £2.643,68 pe trimestru, salariul minim pentru 16 ore.
+Cât trebuie să câștigi: fiecare părinte trebuie să se aștepte să câștige, în următoarele 3 luni, cel puțin £203,36 pe săptămână dacă are peste 21 de ani — adică £2.643,68 pe trimestru.
 
 Important dacă ai firmă: dividendele, dobânzile, chiriile și pensia NU se numără la suma minimă. Un director cu salariu mic și dividende mari poate să nu se încadreze. HMRC verifică prin PAYE; dacă nu trimiți PAYE regulat, îți cere dovezi — fluturași, extrase sau o scrisoare de la contabil.
 
@@ -1375,24 +1375,22 @@ Nu vine singur. Ceri un cod online, îl dai la creșă, și apoi intri în cont 
 Termenul e pe trimestre: pentru orele din 1 ianuarie, ceri codul până pe 31 decembrie.
 
 Cine NU primește:
-• dacă un singur părinte se așteaptă la venit peste £100.000 în anul fiscal, nu primește nimeni din familie. Nici celălalt părinte.
+• dacă oricare dintre părinți se așteaptă la un venit net ajustat peste £100.000 în anul fiscal, nu primește nimeni din familie. Nici celălalt părinte.
 • dacă un părinte nu lucrează, cu câteva excepții (concediu de îngrijitor, Carer's Allowance, elementele de îngrijitor sau de capacitate redusă de muncă din Universal Credit).
-• oricine nu a cerut codul sau a încetat să confirme.
 • oricine nu e în Anglia. Scoția, Țara Galilor și Irlanda de Nord au alte scheme.
+Lista nu e completă — toate condițiile sunt pe gov.uk.
 
 Orele sunt gratuite, dar nu acoperă toată factura. Creșa poate cere bani pe mâncare, scutece sau excursii — însă regulile oficiale spun că acele costuri trebuie să fie opționale, nu pot fi condiție pentru locul gratuit, și creșa trebuie să îți dea o alternativă.
 
 Dacă nu te încadrezi, copilul de 3 sau 4 ani are oricum 15 ore pe săptămână, indiferent de venit.
 
-Codul se cere pe gov.uk/free-childcare-if-working.""",
+Codul se cere pe gov.uk, nu de la contabil.""",
  th="""În Anglia: 30 de ore de creșă pe săptămână plătite de stat, 38 de săptămâni pe an, de la 9 luni. Nu vine singur — ceri un cod online și confirmi din 3 în 3 luni.
 
-Cine NU primește: dacă un singur părinte are venit peste £100.000, nu primește nimeni din familie. Și e numai în Anglia.""",
+Cine NU primește: dacă oricare părinte are venit net ajustat peste £100.000, nu primește nimeni. Și e numai în Anglia.""",
  li="""Thirty hours of government-funded childcare a week. England, working parents, from 9 months old until school.
 
-Thirty hours a week, 38 weeks a year. A provider may agree to stretch the same annual total over more weeks at fewer hours, but the hours cannot be compressed into fewer than 38.
-
-What you have to earn: each parent must expect to earn, over the three months after applying, at least £203.36 a week if they are 21 or over — £2,643.68 a quarter. That is the minimum wage for 16 hours a week.
+Thirty hours a week, 38 weeks a year. What you have to earn: each parent must expect to earn, over the three months after applying, at least £203.36 a week if they are 21 or over — £2,643.68 a quarter. That is the minimum wage for 16 hours a week.
 
 The part that matters if you run a company: dividends, interest, property income and pension payments do not count towards the minimum. A director on a small salary and large dividends can fail the test on paper while being obviously in work. HMRC checks through PAYE records, and where regular PAYE information is not submitted it can ask for evidence — wage slips, bank statements, invoices, or a statement from your accountant.
 
@@ -1404,15 +1402,18 @@ Who does not get it:
 • a family where either parent expects adjusted net income over £100,000 this tax year. Nobody gets it — not the other parent either, however little they earn.
 • a family where one parent does not work, subject to listed exceptions — carer's leave, Carer's Allowance, the carer's or limited capability for work element of Universal Credit, contribution-based ESA, National Insurance credits.
 • anyone who has not applied, or has stopped reconfirming.
-• anyone outside England. Scotland funds 1,140 hours a year for 3 and 4 year olds and eligible 2 year olds with no earnings test. Wales offers up to 30 hours for 3 and 4 year olds only, tested on gross income. Northern Ireland has no equivalent offer.
+• anyone outside England — and this is not the full list of conditions, which are all at gov.uk/free-childcare-if-working. Scotland funds 1,140 hours a year for 3 and 4 year olds and eligible 2 year olds with no earnings test. Wales offers up to 30 hours for 3 and 4 year olds only, tested on gross income. Northern Ireland funds pre-school in the year before primary school and runs a separate childcare subsidy, but no equivalent 30-hours working-parent offer.
 
-The hours are free but they are not the whole bill. A provider may charge for meals, nappies, trips and additional hours — but the statutory guidance is firm: those charges must be voluntary, must not be a condition of a free place, must be itemised, and the provider must offer a reasonable alternative such as letting you supply your own. Top-up fees, learning materials, business running costs and unitemised "sustainability" charges are prohibited.
+The hours are free but they are not the whole bill. A provider may charge for meals, nappies, trips and additional hours — but the statutory guidance is firm: those charges must be voluntary, must not be a condition of a free place, must be itemised, and the provider must offer a reasonable alternative such as letting you supply your own.
 
 A family that fails the working-parent test still keeps the universal 15 hours for a 3 or 4 year old, which depends on nothing.""",
  bsky="""England: 30 funded childcare hours a week from 9 months, for working parents. Either parent over £100,000 and nobody in the family gets it.""",
  pin_title="30 funded childcare hours in England: who qualifies and who does not",
  pin="""In England, working parents can get 30 government-funded childcare hours a week, 38 weeks a year, from 9 months old until school. Each parent must expect to earn at least £203.36 a week if 21 or over, and dividends do not count towards it. It is never automatic: you apply online for a code and reconfirm every three months, with a termly deadline of 31 December, 31 March or 31 August. Who does not get it: any family where either parent expects over £100,000, families where one parent does not work, and everyone outside England. Ola Accountancy, Luton and Birmingham.""",
  source="gov.uk/free-childcare-if-working",
+ wa_ro="Taxe și salarii: 0330 133 1886\nLuton · Birmingham",
+ wa_th="Taxe și salarii: 0330 133 1886",
+ wa_li="Tax and payroll: 0330 133 1886",
  disc_ro="Informații generale, nu consultanță pe ajutoare de stat. Condițiile sunt pe gov.uk.",
  disc_en="General information, not benefits advice. The conditions are on GOV.UK.",
 )
@@ -1430,7 +1431,7 @@ Exemplul oficial de pe gov.uk: pui £25 pe lună doi ani, nu retragi nimic, sold
 
 Bonusul intră în contul tău bancar, nu în contul de economii. Și nu se impozitează.
 
-Cine poate deschide: îți trebuie Universal Credit și cel puțin £1 câștigat — bani în mână, după taxe — în ultima perioadă de calcul. Atât. Pragul vechi, de 16 ore pe săptămână la salariul minim, a fost eliminat din 6 aprilie 2025: dacă ai fost refuzat înainte, s-ar putea să te încadrezi acum.
+Cine poate deschide: îți trebuie Universal Credit și cel puțin £1 câștigat — bani în mână, după taxe — în ultima lună de calcul Universal Credit. Atât. Pragul vechi, de 16 ore pe săptămână la salariul minim, a fost eliminat din 6 aprilie 2025: dacă ai fost refuzat înainte, s-ar putea să te încadrezi acum.
 
 Cine NU poate deschide:
 • cine nu are Universal Credit, sau îl are fără nicio sumă câștigată
@@ -1468,13 +1469,16 @@ The withdrawal trap, which is where the money is actually lost. A bonus already 
 
 If the Universal Credit award stops later, the account survives: GOV.UK says you can keep using it.
 
-The savings do not endanger Universal Credit or Housing Benefit below £6,000 of personal savings — and the account on its own cannot reach £6,000.
+GOV.UK says Universal Credit and Housing Benefit are unaffected where you and your partner have £6,000 or less in personal savings in total — this account counts towards that alongside anything else you have saved.
 
 UK-wide. The account opens on GOV.UK or in the HMRC app in a few minutes, with a National Insurance number and UK bank details.""",
- bsky="""Pay in £50 a month, the government adds £25 — up to £1,200 over four years, tax free. You need Universal Credit to open one.""",
+ bsky="""Pay in £50 a month and the government adds 50% — up to £1,200 over four years, tax free, paid at years 2 and 4. You need Universal Credit.""",
  pin_title="Help to Save: a 50% government bonus on up to £50 a month",
  pin="""Help to Save is a UK government savings account that adds a 50% bonus to what you put away: £1 to £50 each calendar month, so £2,400 over four years at most, and up to £1,200 of tax-free bonus. The bonus is not monthly — one payment after two years worth 50% of your highest balance, and a final payment after four years worth 50% of however much you push that peak higher. To open one you need Universal Credit and take-home pay of £1 or more in your last assessment period. One account per person, once ever. UK-wide. Ola Accountancy, Luton and Birmingham.""",
  source="gov.uk/get-help-savings-low-income",
+ wa_ro="Taxe și contabilitate: 0330 133 1886\nLuton · Birmingham",
+ wa_th="Taxe și acte: 0330 133 1886",
+ wa_li="Tax and accounts: 0330 133 1886",
  disc_ro="Informații generale, nu consultanță pe ajutoare de stat. Condițiile sunt pe gov.uk.",
  disc_en="General information, not benefits advice. The conditions are on GOV.UK.",
 )
@@ -1484,20 +1488,23 @@ WA_TH = f"WhatsApp: {PHONE}"
 
 
 def th_caption(slug):
-    return f"{C[slug]['th']}\n\n{WA_TH}\n\n{C[slug].get('disc_ro', DISC_RO)}\n\n{BRAND_TAGS}"
+    wa = C[slug].get("wa_th", WA_TH)
+    return f"{C[slug]['th']}\n\n{wa}\n\n{C[slug].get('disc_ro', DISC_RO)}\n\n{BRAND_TAGS}"
 
 
 def ro_caption(slug):
     t = topics.BY_SLUG[slug]
     disc = C[slug].get("disc_ro", DISC_RO)
-    return (f"{C[slug]['ro']}\n\n{WA_RO}\n\n{disc}\n\n"
+    wa = C[slug].get("wa_ro", WA_RO)
+    return (f"{C[slug]['ro']}\n\n{wa}\n\n{disc}\n\n"
             f"Sursă: {C[slug]['source']}\n\n{tags(t, 'ro')}")
 
 
 def li_caption(slug):
     t = topics.BY_SLUG[slug]
     disc = C[slug].get("disc_en", DISC_EN)
-    return (f"{C[slug]['li']}\n\n{PHONE}\n\nOla Accountancy — Luton and Birmingham\n\n"
+    ph = C[slug].get("wa_li", PHONE)
+    return (f"{C[slug]['li']}\n\n{ph}\n\nOla Accountancy — Luton and Birmingham\n\n"
             f"{disc}\n\nSource: {C[slug]['source']}\n\n{tags(t, 'en')}")
 
 
