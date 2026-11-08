@@ -538,6 +538,19 @@ written anyway.
   on the day and wrong a fortnight later; "7,75% până pe 23 noiembrie 2026, apoi
   8%" stays right. Evergreen posts should never say "today".
 
+* **The last fault of the night was mine, and limits.py caught it after the
+  post was already scheduled.** Four corrections were typed straight into the
+  Metricool payload at scheduling time instead of into captions.py — quicker,
+  and it bypassed `check()`. One of them, the childcare start date, added 36
+  characters to a Romanian caption sitting at 2177 and put it at 2213 against
+  Instagram's 2200. It was found only because captions.py was afterwards synced
+  to what the planner actually held and the gate was run again. Two posts were
+  shortened to 2193 and updated in place, alt text and media intact, uuids
+  unchanged, and the 17:00 slot read back as four entries with no duplicate.
+  **The rule this earns: never edit a caption in the payload. Edit captions.py,
+  run the gate, regenerate.** An edit that skips the check is the 6 November
+  failure wearing different clothes.
+
 ### Still to settle
 
 **The CTA cards say "Fără obligații" and name no price.** The compliance

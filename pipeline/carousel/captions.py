@@ -1362,15 +1362,15 @@ The practical advice is to start before completion, not after. The HMRC property
 )
 
 C["cresa-30-ore"] = dict(
- ro="""30 de ore de creșă pe săptămână, plătite de stat. În Anglia, pentru părinți care lucrează, de la 9 luni până la școală.
+ ro="""30 de ore de creșă pe săptămână, plătite de stat. În Anglia, pentru părinți care lucrează, din trimestrul de după ce copilul face 9 luni și până la școală.
 
-30 de ore pe săptămână, 38 de săptămâni pe an. Creșa poate accepta să le întindă pe mai multe săptămâni, cu mai puține ore.
+30 de ore pe săptămână, 38 de săptămâni pe an. Creșa poate să le întindă pe mai multe săptămâni, cu mai puține ore.
 
 Cât trebuie să câștigi: fiecare părinte trebuie să se aștepte să câștige, în următoarele 3 luni, cel puțin £203,36 pe săptămână dacă are peste 21 de ani — adică £2.643,68 pe trimestru.
 
 Important dacă ai firmă: dividendele, dobânzile, chiriile și pensia NU se numără la suma minimă. Un director cu salariu mic și dividende mari poate să nu se încadreze. HMRC verifică prin PAYE; dacă nu trimiți PAYE regulat, îți cere dovezi — fluturași, extrase sau o scrisoare de la contabil.
 
-Nu vine singur. Ceri un cod online, îl dai la creșă, și apoi intri în cont din 3 în 3 luni ca să confirmi. Dacă uiți să confirmi, codul nu mai e valabil.
+Nu vine singur. Ceri un cod online, îl dai la creșă, și apoi intri în cont din 3 în 3 luni ca să confirmi. Dacă uiți, codul nu mai e valabil.
 
 Termenul e pe trimestre: pentru orele din 1 ianuarie, ceri codul până pe 31 decembrie.
 
@@ -1388,11 +1388,11 @@ Codul se cere pe gov.uk, nu de la contabil.""",
  th="""În Anglia: 30 de ore de creșă pe săptămână plătite de stat, 38 de săptămâni pe an, de la 9 luni. Nu vine singur — ceri un cod online și confirmi din 3 în 3 luni.
 
 Cine NU primește: dacă oricare părinte are venit net ajustat peste £100.000, nu primește nimeni. Și e numai în Anglia.""",
- li="""Thirty hours of government-funded childcare a week. England, working parents, from 9 months old until school.
+ li="""Thirty hours of government-funded childcare a week. England, working parents, from the term after the child turns 9 months until school.
 
 Thirty hours a week, 38 weeks a year. What you have to earn: each parent must expect to earn, over the three months after applying, at least £203.36 a week if they are 21 or over — £2,643.68 a quarter. That is the minimum wage for 16 hours a week.
 
-The part that matters if you run a company: dividends, interest, property income and pension payments do not count towards the minimum. A director on a small salary and large dividends can fail the test on paper while being obviously in work. HMRC checks through PAYE records, and where regular PAYE information is not submitted it can ask for evidence — wage slips, bank statements, invoices, or a statement from your accountant.
+The part that matters if you run a company: dividends, interest, property income and pension payments do not count towards the minimum. A director on a small salary and large dividends can fail the test, even when clearly working. HMRC checks through PAYE records, and where regular PAYE information is not submitted it can ask for evidence — wage slips, bank statements, invoices, or a statement from your accountant.
 
 It does not arrive on its own. You apply online for an 11-digit code, give the code to the provider, then sign in every three months to reconfirm. Miss the reconfirmation and the code stops being valid.
 
@@ -1431,7 +1431,7 @@ Exemplul oficial de pe gov.uk: pui £25 pe lună doi ani, nu retragi nimic, sold
 
 Bonusul intră în contul tău bancar, nu în contul de economii. Și nu se impozitează.
 
-Cine poate deschide: îți trebuie Universal Credit și cel puțin £1 câștigat — bani în mână, după taxe — în ultima lună de calcul Universal Credit. Atât. Pragul vechi, de 16 ore pe săptămână la salariul minim, a fost eliminat din 6 aprilie 2025: dacă ai fost refuzat înainte, s-ar putea să te încadrezi acum.
+Cine poate deschide: îți trebuie Universal Credit și cel puțin £1 câștigat — bani în mână, după taxe și National Insurance — de tine sau de partener, pe cerere comună. Pragul vechi de 16 ore pe săptămână a fost eliminat din 6 aprilie 2025: dacă ai fost refuzat înainte, s-ar putea să te încadrezi acum.
 
 Cine NU poate deschide:
 • cine nu are Universal Credit, sau îl are fără nicio sumă câștigată
@@ -1458,7 +1458,7 @@ GOV.UK's own example: pay in £25 a month for two years with no withdrawals, the
 
 The bonus is paid into your bank account rather than the savings account, and it is tax free.
 
-Who can open one: you need Universal Credit and take-home pay of £1 or more — after tax and National Insurance — in your last monthly assessment period. That is the whole test. The old threshold of 16 hours a week at the National Living Wage was removed on 6 April 2025, so anyone turned away before that may qualify now. Working Tax Credit is no longer a route; tax credits ended in April 2025.
+Who can open one: you need Universal Credit and take-home pay of £1 or more — after tax and National Insurance — in your last monthly assessment period, from you or your partner on a joint claim. The old threshold of 16 hours a week at the National Living Wage was removed on 6 April 2025, so anyone turned away before that may qualify now. Working Tax Credit is no longer a route; tax credits ended in April 2025.
 
 Who cannot:
 • anyone not receiving Universal Credit, or receiving it with no earnings at all in the last assessment period
