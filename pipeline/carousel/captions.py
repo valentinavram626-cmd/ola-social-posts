@@ -1112,17 +1112,17 @@ Prepayment meters still qualify: the account holder qualifies with no paper bill
 C["concediu-56-saptamani"] = dict(
   ro="""Concediul plătit nu e un bonus, e un drept. GOV.UK îl scrie în săptămâni: 5,6 săptămâni pe an pentru aproape toți cei din categoria „worker".
 
-Cum arată în zile: 5 zile pe săptămână → 28 de zile plătite pe an; 4 zile → cel puțin 22,4; 3 zile → cel puțin 16,8.
+În zile: 5 zile pe săptămână → 28 de zile plătite pe an; 4 zile → cel puțin 22,4; 3 zile → cel puțin 16,8.
 
 Plafonul: 28 de zile e maximul din lege. Cine lucrează 6 zile pe săptămână are tot 28, nu 33,6. Vechime nu se cere, iar primul an se dă proporțional.
 
-Zilele se iau în anul lor de concediu, dar nu se pierd oricum: prin acord, până la 8 din cele 28 trec în anul următor; din concediu medical le poți lua în 18 luni de la finalul acelui an; din concediu de maternitate sau paternitate trec în anul următor; iar dacă angajatorul nu ți-a recunoscut dreptul, nu ți-a dat o ocazie rezonabilă să le iei sau nu ți-a spus că le pierzi, trece tot concediul. În bani, în loc de concediu, se plătesc doar la încetarea contractului.
+Zilele se iau în anul lor de concediu, dar nu se pierd oricum: prin acord, până la 8 din cele 28 trec în anul următor; din concediu medical le poți lua în 18 luni de la finalul acelui an; din concediu de maternitate sau paternitate trec în anul următor; iar dacă angajatorul nu ți-a recunoscut dreptul, nu ți-a dat o ocazie rezonabilă să le iei sau nu ți-a spus că le pierzi, trec până la 20 de zile — la ore neregulate sau parte din an, tot concediul. În bani, în loc de concediu, se plătesc doar la încetarea contractului.
 
-Sărbătorile legale nu se adaugă: nu trebuie date ca zile libere plătite și pot fi socotite în cele 28.
+Sărbătorile legale nu se adaugă: nu trebuie date ca zile libere plătite și pot intra în cele 28.
 
 Cine NU are acest drept: îl are cine lucrează personal pentru cineva care nu e clientul afacerii lui. „Freelance" sau „zero hours" pe hârtie poate însemna tot „worker": contează cum merge relația în practică, nu eticheta. Statutul îl decid tribunalele, nu noi.
 
-La ore neregulate se socotește altfel, nu dispare: din anii de concediu începuți de la 1 aprilie 2024, concediul se adună ca 12,07% din orele lucrate. Doar pentru cine are, prin contract, ore în mare parte variabile, sau lucrează doar o parte din an, cu pauze neplătite de cel puțin o săptămână. Acestora concediul poate fi plătit odată cu salariul, 12,07% peste plată — altceva decât plata zilelor nestate.
+La ore neregulate se socotește altfel, nu dispare: din anii de concediu de la 1 aprilie 2024, concediul se adună ca 12,07% din orele lucrate. Doar pentru cine are, prin contract, ore în mare parte variabile, sau lucrează doar o parte din an, cu pauze neplătite de cel puțin o săptămână. Acestora concediul poate fi plătit odată cu salariul, 12,07% peste plată — altceva decât plata zilelor nestate.
 
 GOV.UK acoperă Anglia, Scoția și Țara Galilor; în Irlanda de Nord nu există 12,07% și nici plata concediului cu salariul.""",
 
@@ -1132,23 +1132,23 @@ Sărbătorile legale pot intra în cele 28.
 
 Cine NU are dreptul: cine își poartă propria afacere, cu clienții lui. Statutul îl decid tribunalele.""",
 
-  li="""Statutory paid holiday is written in weeks: almost all workers get 5.6 weeks' paid holiday a year.
+  li="""Statutory paid holiday is written in weeks: almost all workers get 5.6 weeks a year.
 
 In days: a 5-day week → 28 paid days; a 4-day week → at least 22.4; a 3-day week → at least 16.8.
 
 There is a cap. "Statutory paid holiday entitlement is limited to 28 days", so a worker on a 6-day week still gets 28, not 33.6.
 
-Bank holidays are not an addition: they "do not have to be given as paid leave" and may be counted towards statutory leave, so 28 days plus bank holidays is not a safe assumption.
+Bank holidays are not an addition: they "do not have to be given as paid leave" and may be counted towards statutory leave, so 28 days plus bank holidays is not safe to assume.
 
-Who does NOT have the right: people genuinely in business on their own account. The statutory test is reg 2(1)(b) of the Working Time Regulations 1998 — work done personally for a party who is not, under the contract, a client or customer of a business the individual carries on. Courts and tribunals decide status, on how the relationship works in practice — not the label.
+Who does NOT have the right: people genuinely in business on their own account. The test is reg 2(1)(b) of the Working Time Regulations 1998 — work done personally for a party who is not, under the contract, a client or customer of a business the individual carries on. Courts and tribunals decide status, on how the relationship works in practice — not the label.
 
 The outright exclusions are narrow and differ across the UK. Great Britain, reg 18: seafarers, sea-fishermen and inland waterways workers are outside the Regulations; the leave provisions are disapplied for civil aviation workers and, where characteristics peculiar to the service inevitably conflict, the armed forces, the police and certain civil protection activities. Northern Ireland's reg 22(1) list differs: it includes civil aviation and omits sea-fishermen.
 
 Irregular hours mean a different calculation, not none: for leave years from 1 April 2024, irregular hours and part-year workers accrue 12.07% of hours worked. Rolled-up holiday pay is that 12.07% paid as an uplift with the wages, for those two groups only — a different thing from payment in lieu of untaken leave, which is confined to the end of the employment.
 
-No qualifying period applies: the right runs from day one, with the first leave year pro-rated. Leave is normally taken in its own leave year, but does not simply lapse. An agreement can carry up to 8 of the 28 days into the next year. Leave untaken through sickness must be taken within 18 months of that leave year's end; leave untaken through statutory family leave carries into the next year; and the whole entitlement carries over where the employer failed to recognise the right, to give a reasonable opportunity to take the leave or encourage it, or to warn that untaken leave would be lost.
+No qualifying period: the right runs from day one, with the first leave year pro-rated. Leave is normally taken in its own leave year, but does not simply lapse. An agreement can carry up to 8 of the 28 days into the next year. Leave untaken through sickness must be taken within 18 months of that leave year's end; leave untaken through statutory family leave carries into the next year; and up to 20 days carry over — the whole entitlement for irregular hours or part-year workers — where the employer failed to recognise the right, to give a reasonable opportunity to take the leave or encourage it, or to warn that untaken leave would be lost.
 
-Northern Ireland's entitlement is identical — 5.6 weeks, capped at 28 days — under its own Working Time Regulations 2016, which contain no irregular hours, part-year, 12.07% or rolled-up holiday pay provision at all. Holiday disputes there go to the Labour Relations Agency, not Acas.""",
+Northern Ireland's entitlement is identical — 5.6 weeks, capped at 28 days — under its own Working Time Regulations 2016, which contain no irregular hours, part-year, 12.07% or rolled-up holiday pay provision. Holiday disputes there go to the Labour Relations Agency, not Acas.""",
 
   bsky="""Great Britain: 5.6 weeks' paid holiday a year, capped at 28 days. It follows doing the work personally, not the label.""",
 
