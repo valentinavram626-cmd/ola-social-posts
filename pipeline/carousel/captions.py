@@ -831,7 +831,7 @@ Want to read the Act itself?""",
 
 # ------------------------------------------------------------------ 16
 C["ni-voluntar-pensie"] = dict(
-  ro="""Ai lucrat în UK, dar nu în fiecare an? Pensia de stat se socotește în ani care contează — iar un an acoperit cu credite NI contează fără plată. Un an care nu contează e o gaură; nu toate se pot plăti.
+  ro="""Ai lucrat în UK, dar nu în fiecare an? Pensia de stat se socotește în ani care contează — iar un an acoperit cu credite NI contează fără plată. Un an care nu contează e o gaură.
 
 În 2026-2027: clasa 3 e £18,40 pe săptămână; clasa 2, pentru cine e pe cont propriu cu profit sub £7.105, £3,65. Doar ultimii 6 ani fiscali, termen 5 aprilie.
 
@@ -841,7 +841,7 @@ Cu dosar început după aprilie 2016, pensia nouă plină — £241,30 pe săpt�
 
 Cine NU poate plăti: cine nu are găuri — în afară de cine primește credite clasa 3 și poate plăti clasa 2; cine a trecut termenul; femeia măritată sau văduva, pentru un an fiscal în care alegerea cotei reduse a fost în vigoare tot anul — dar poate plăti din primul an în care nu a fost. Condiția e pe an fiscal, nu pe persoană.
 
-Când plata nu folosește: un an în plus nu crește neapărat pensia — nu mai adaugă nimic după ce ai atins suma plină sau vârsta de pensionare, iar unii ani nu se pot plăti deloc. GOV.UK avertizează că plata voluntară nu crește întotdeauna pensia, de exemplu dacă ai fost contracted out. Verifică previziunea și creditele NI înainte de plată.
+Când plata nu folosește: un an în plus nu crește neapărat pensia — nu mai adaugă nimic după ce ai atins suma plină. Anul fiscal în care ajungi la vârsta de pensionare și anii de după nu se pot plăti, dar găurile mai vechi se pot plăti și după vârsta de pensionare. GOV.UK avertizează că plata voluntară nu crește întotdeauna pensia, de exemplu dacă ai fost contracted out.
 
 În tot Regatul Unit. Plata voluntară nu e automată — multe credite NI, da.
 
@@ -869,7 +869,7 @@ Who cannot pay:
 • a married woman or widow, for any tax year throughout which a reduced rate election was in force — reg 132 SSCR 2001; she can pay from a tax year in which it was not in force throughout, and for Class 2 the unit is the contribution week
 The condition sits on the year, not the person.
 
-GOV.UK describes its forecast as showing "how much State Pension you could get" and "how you could increase it" — read it before paying: a further year adds nothing once the full rate or State Pension age is reached, and some years cannot be paid at all. GOV.UK warns: "Voluntary contributions do not always increase your State Pension, for example if you were contracted out." Check eligibility for National Insurance credits too: some gaps cost nothing.
+GOV.UK describes its forecast as showing "how much State Pension you could get" and "how you could increase it" — read it before paying: a further year adds nothing once the full rate is reached, and the year State Pension age is reached, and later years, cannot be paid for at all — though earlier gaps can still be paid for after State Pension age. GOV.UK warns: "Voluntary contributions do not always increase your State Pension, for example if you were contracted out."
 
 UK-wide. A voluntary contribution is never automatic; many National Insurance credits are.
 
