@@ -1419,33 +1419,36 @@ A family that fails the working-parent test still keeps the universal 15 hours i
 )
 
 C["help-to-save-50"] = dict(
- ro="""Pui £50 pe lună într-un cont, și statul adaugă £25. Contul se numește Help to Save.
+ ro="""Pui £50 pe lună, statul adaugă £25. Contul se numește Help to Save.
 
 Cum merge: pui între £1 și £50 pe lună, nu obligatoriu în fiecare lună, și statul adaugă 50%. În patru ani: maxim £2.400 puși de tine și până la £1.200 bonus.
 
 Bonusul NU vine lunar. Vine de două ori:
-• după 2 ani — 50% din cel mai mare sold pe care l-ai avut în primii doi ani
+• după 2 ani — 50% din cel mai mare sold din primii doi ani
 • după 4 ani — 50% din cât ai urcat peste acel sold în anii 3 și 4
 
-Exemplul oficial de pe gov.uk: pui £25 pe lună doi ani, nu retragi nimic, soldul maxim e £600, primul bonus £300. În anii 3 și 4 mai strângi £200 peste acel maxim, deci al doilea bonus e £100.
+Bonusul intră în contul tău bancar, nu în cel de economii, și nu se impozitează.
 
-Bonusul intră în contul tău bancar, nu în contul de economii. Și nu se impozitează.
-
-Cine poate deschide: îți trebuie Universal Credit și cel puțin £1 câștigat — bani în mână, după taxe și National Insurance — de tine sau de partener, pe cerere comună. Pragul vechi de 16 ore pe săptămână a fost eliminat din 6 aprilie 2025: dacă ai fost refuzat înainte, s-ar putea să te încadrezi acum.
+Cine poate deschide: îți trebuie Universal Credit și cel puțin £1 câștigat — bani în mână, după taxe și National Insurance — de tine sau de partener, pe cerere comună. Pragul vechi de 16 ore pe săptămână a fost eliminat din 6 aprilie 2025: dacă ai fost refuzat înainte, poate te încadrezi acum.
 
 Cine NU poate deschide:
 • cine nu are Universal Credit, sau îl are fără nicio sumă câștigată
+• cine nu locuiește în Marea Britanie. Excepție: funcționarii Crown și militarii britanici, cu soții sau partenerii civili.
 • cine a avut deja un cont Help to Save. Un cont pe persoană, o singură dată în viață. Dacă îl închizi mai repede, pierzi bonusul următor și nu mai poți deschide altul.
 Într-un cuplu, fiecare poate avea contul lui — se cere separat.
 
-Capcana retragerilor. Bonusul deja câștigat nu se ia înapoi niciodată. Dar al doilea bonus se calculează din CREȘTEREA peste soldul maxim din primii doi ani. Deci dacă retragi, trebuie să pui înapoi tot ce ai scos ca să ajungi iar la vechiul maxim, și abia de acolo începi să câștigi bonus. Cu £50 pe lună, o retragere mare în anul 4 nu se mai recuperează matematic.
+Capcana retragerilor. Pe gov.uk scrie că primești bonusurile deja câștigate chiar dacă retragi bani. Dar al doilea bonus se calculează din CREȘTEREA peste soldul maxim din primii doi ani. Deci dacă retragi, trebuie să pui înapoi tot ce ai scos ca să ajungi iar la vechiul maxim; abia de acolo începi să câștigi.
 
-E la fel în toată Marea Britanie. Contul se deschide pe gov.uk/get-help-savings-low-income cu numărul de National Insurance și datele contului bancar.""",
- th="""Pui £50 pe lună, statul adaugă £25. Contul se numește Help to Save: până la £1.200 bonus în patru ani, neimpozabil.
+Cât mai ține: HMRC scrie că schema merge pe condițiile actuale până în aprilie 2027, iar varianta reformată vine din primăvara 2028. Ce e între cele două date nu e publicat. Deci dacă te încadrezi acum, nu amâna.
+
+E la fel în toată Marea Britanie. Contul se deschide pe gov.uk/get-help-savings-low-income.""",
+ th="""Pui £50 pe lună, statul adaugă £25. Se numește Help to Save: până la £1.200 bonus în 4 ani.
 
 Bonusul vine de două ori, la 2 și la 4 ani, nu lunar.
 
-Cine NU poate deschide: cine nu are Universal Credit. Îți trebuie și minim £1 câștigat în ultima perioadă de calcul.""",
+Cine NU poate deschide: cine nu are Universal Credit sau n-a câștigat minim £1 în ultima lună de calcul.
+
+Condițiile actuale țin până în aprilie 2027.""",
  li="""Pay in £50 a month and the government adds £25. The account is called Help to Save.
 
 How it works: you pay in between £1 and £50 each calendar month, you are not obliged to pay in every month, and the government adds 50%. Over four years: £2,400 in at most, and up to £1,200 of bonus.
@@ -1454,27 +1457,28 @@ The bonus is not monthly. It comes twice:
 • after 2 years — 50% of the highest balance you reached in years 1 and 2
 • after 4 years — 50% of however much you push that highest balance up in years 3 and 4
 
-GOV.UK's own example: pay in £25 a month for two years with no withdrawals, the highest balance is £600 and the first bonus is £300. In years 3 and 4 you grow that peak by £200, so the final bonus is £100.
-
 The bonus is paid into your bank account rather than the savings account, and it is tax free.
 
 Who can open one: you need Universal Credit and take-home pay of £1 or more — after tax and National Insurance — in your last monthly assessment period, from you or your partner on a joint claim. The old threshold of 16 hours a week at the National Living Wage was removed on 6 April 2025, so anyone turned away before that may qualify now. Working Tax Credit is no longer a route; tax credits ended in April 2025.
 
 Who cannot:
 • anyone not receiving Universal Credit, or receiving it with no earnings at all in the last assessment period
+• anyone not living in the UK. The one published exception is a Crown servant or a member of the British armed forces, or their spouse or civil partner.
 • anyone who has already had a Help to Save account. One per person, once ever. Close it early and you miss the next bonus with no second chance.
 In a couple there is no problem: each person can hold their own, applied for separately.
 
-The withdrawal trap, which is where the money is actually lost. A bonus already earned is never clawed back. But the final bonus is measured on the INCREASE over the highest balance reached in years 1 and 2. So if you withdraw, you have to put everything back just to return to the old high-water mark, and only above that does any further bonus start accruing. At £50 a month, a large withdrawal in year 4 is arithmetically impossible to recover.
+The withdrawal trap is where the money is actually lost. GOV.UK's wording is that you get any bonuses you have earned even if you withdraw money. But the final bonus is measured on the INCREASE over the highest balance reached in years 1 and 2. So if you withdraw, you have to put everything back just to return to the old high-water mark, and only above that does any further bonus start accruing.
+
+How long the current terms run: HMRC's wording is that Help to Save "has been extended on its current terms until April 2027", and Budget 2026 confirms the reformed, multi-provider scheme arrives in Spring 2028. Nothing published covers the months in between, so if you qualify now, do not leave it.
 
 If the Universal Credit award stops later, the account survives: GOV.UK says you can keep using it.
 
 GOV.UK says Universal Credit and Housing Benefit are unaffected where you and your partner have £6,000 or less in personal savings in total — this account counts towards that alongside anything else you have saved.
 
 UK-wide. The account opens on GOV.UK or in the HMRC app in a few minutes, with a National Insurance number and UK bank details.""",
- bsky="""Pay in £50 a month and the government adds 50% — up to £1,200 over four years, tax free, paid at years 2 and 4. You need Universal Credit.""",
+ bsky="""Pay in £50 a month, the government adds 50% — up to £1,200 over 4 years, tax free. Needs Universal Credit. Current terms run to April 2027.""",
  pin_title="Help to Save: a 50% government bonus on up to £50 a month",
- pin="""Help to Save is a UK government savings account that adds a 50% bonus to what you put away: £1 to £50 each calendar month, so £2,400 over four years at most, and up to £1,200 of tax-free bonus. The bonus is not monthly — one payment after two years worth 50% of your highest balance, and a final payment after four years worth 50% of however much you push that peak higher. To open one you need Universal Credit and take-home pay of £1 or more in your last assessment period. One account per person, once ever. UK-wide. Ola Accountancy, Luton and Birmingham.""",
+ pin="""Help to Save is a UK government savings account that adds 50% to what you save: £1 to £50 a calendar month, so £2,400 over 4 years at most and up to £1,200 of tax-free bonus. The bonus is not monthly: one payment at 2 years, 50% of your highest balance, and a final one at 4 years, 50% of however much you raise it. To open one you need Universal Credit, take-home pay of £1 or more in your last assessment period, and to be living in the UK. One account per person, once ever. HMRC says the current terms run to April 2027, with a reformed scheme from Spring 2028. UK-wide.""",
  source="gov.uk/get-help-savings-low-income",
  wa_ro="Taxe și contabilitate: 0330 133 1886\nLuton · Birmingham",
  wa_th="Taxe și acte: 0330 133 1886",

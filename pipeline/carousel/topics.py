@@ -2550,9 +2550,9 @@ HELP_TO_SAVE = dict(
     dict(type="step", step="Bonusul nu vine lunar", fig="50%",
          say="Vine de două ori: o dată după 2 ani, o dată după 4. Primul bonus e 50% din cel mai mare sold pe care l-ai avut în primii doi ani.",
          note="Al doilea e 50% din cât ai urcat peste acel sold în anii 3 și 4. Banii intră în contul tău bancar, nu în contul de economii, și nu se impozitează."),
-    dict(type="step", step="Cine NU poate deschide", fig="<cur>£</cur>1",
-         say="Îți trebuie Universal Credit și cel puțin £1 câștigat — bani în mână, după taxe și National Insurance — de tine sau de partener, dacă e cerere comună.",
-         note="Un cont pe persoană, o singură dată în viață. Dacă retragi bani, bonusul deja câștigat nu se pierde, dar al doilea se calculează din creștere — deci trebuie să pui înapoi tot ce ai scos înainte să mai câștigi ceva."),
+    dict(type="step", step="Cine NU poate deschide", fig="<cur>£</cur>0",
+         say="Fără Universal Credit, nu se poate. Și nici cu Universal Credit, dar £0 câștigați în ultima lună de calcul — îți trebuie minim £1 în mână.",
+         note="Nici dacă nu locuiești în Marea Britanie — excepție: funcționarii Crown și militarii britanici, cu soții sau partenerii lor civili. Și nici dacă ai avut deja un cont: unul pe persoană, o singură dată în viață."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Economii · Help to Save",
@@ -2568,9 +2568,9 @@ HELP_TO_SAVE = dict(
     dict(type="step", step="The bonus is not monthly", fig="50%",
          say="It comes twice: once after 2 years, once after 4. The first bonus is 50% of the highest balance you reached in the first two years.",
          note="The second is 50% of however much you push that highest balance up in years 3 and 4. It is paid into your bank account rather than the savings account, and it is tax free."),
-    dict(type="step", step="Who cannot open one", fig="<cur>£</cur>1",
-         say="You need Universal Credit, and take-home pay of £1 or more — after tax and National Insurance — from you or your partner on a joint claim.",
-         note="Without Universal Credit the account cannot be opened. One account per person, once ever. A withdrawal never takes back a bonus already earned, but the second bonus is measured on growth, so you must replace all you took out first."),
+    dict(type="step", step="Who cannot open one", fig="<cur>£</cur>0",
+         say="No Universal Credit, no account. Nor with Universal Credit but £0 of take-home pay in your last assessment period — £1 or more is the test.",
+         note="Nor if you are not living in the UK — exception: Crown servants and members of the British armed forces, with their spouses or civil partners. Nor if you have already had an account: one per person, once ever."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Savings · Help to Save",
@@ -2612,7 +2612,11 @@ HELP_TO_SAVE = dict(
      "tax or National Insurance)\". The page no longer mentions Working Tax Credit or Child Tax Credit at all. Also "
      "\"If you get payments as a couple, you and your partner can apply for your own Help to Save accounts. You need "
      "to apply separately\" and, under \"If you stop claiming benefits\", \"You can keep using your Help to Save "
-     "account\"",
+     "account\". The same page carries the residence condition that every card and both long captions were missing "
+     "until 8 November 2026: \"You also need to be living in the UK\", with one published exception — \"If you "
+     "live overseas, you can apply for an account if you're either a: Crown servant or their spouse or civil "
+     "partner; member of the British armed forces or their spouse or civil partner.\" And it carries no closing "
+     "date and no application deadline, which is how we know the scheme is open to new accounts today",
      "https://www.gov.uk/get-help-savings-low-income/eligibility", "2026-11-08"),
     ("The legislation behind the April 2025 widening, which is why the earnings threshold can be stated as £1: the "
      "Help-to-Save Accounts Regulations 2025 (S.I. 2025/327) reg 2(2) substituted reg 3(3)(b) of the 2018 Regulations "
@@ -2629,7 +2633,10 @@ HELP_TO_SAVE = dict(
      "assessment period. It will remove the existing earnings threshold for UC claimants, currently set at the "
      "equivalent of 16 hours a week at the National Living Wage\" and \"This measure will have effect from 6 April "
      "2025\". It also names the provider: \"National Savings and Investments (NS&I) bank — the current scheme "
-     "provider, which operates Help to Save accounts on behalf of the government\"",
+     "provider, which operates Help to Save accounts on behalf of the government\". And the sentence the captions' "
+     "April 2027 line rests on, verbatim: \"Help to Save has been extended on its current terms until April "
+     "2027\", alongside \"remains an effective savings product beyond the extension period\" and the costings "
+     "\"for the extension to 2027 are set out jointly in Table 5.1 of Autumn Budget 2024\"",
      "https://www.gov.uk/government/publications/amendment-to-the-universal-credit-eligibility-criteria-for-help-to-save-accounts/help-to-save-accounts-amendment-to-the-universal-credit-eligibility-criteria",
      "2026-11-08"),
     ("The bonus formula in HMRC's technical manual, and the worked example the withdrawal warning is built on: the "
@@ -2654,6 +2661,15 @@ HELP_TO_SAVE = dict(
      "to provide your UK bank details when you apply\". A Welsh-language version of the whole guide exists, which is "
      "the only national variation found",
      "https://www.gov.uk/get-help-savings-low-income/how-to-apply", "2026-11-08"),
+    ("Budget 2026 on what replaces the current scheme, verbatim from item 2.2: \"As announced at Autumn Budget "
+     "2026, the reformed Help to Save scheme will be introduced in Spring 2028\"; \"The scheme will be delivered "
+     "through a multi-provider model, enabling banks, building societies and credit unions to offer accounts "
+     "directly to eligible customers\"; \"Under this model, Help to Save accounts will be available from a wider "
+     "range of savings providers, including some with an established high-street presence.\" Read with the April "
+     "2027 extension date above, this is the whole published timeline, and the reason the captions name both dates "
+     "and claim nothing at all about the months between them",
+     "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+     "2026-11-08"),
   ],
   SCOPE=dict(
     nation="UK-wide. The guide's only residence condition is \"You also need to be living in the UK\", the 2018 "
@@ -2664,7 +2680,7 @@ HELP_TO_SAVE = dict(
     category="Someone receiving Universal Credit — not a nil award — who, with their partner on a joint claim, had "
              "take-home pay of £1 or more in their last monthly assessment period. That is the whole test now. In a "
              "couple each person applies separately for their own account.",
-    excluded="Three exclusions, and the cards carry all of them. (1) Anyone not receiving Universal Credit, or "
+    excluded="Four exclusions, and the cards carry all of them. (1) Anyone not receiving Universal Credit, or "
              "receiving it with no earnings at all in the last assessment period. GOV.UK states eligibility "
              "positively and publishes no \"you cannot get it if\" list, so the exclusion is the inverse of the "
              "condition — which is exactly why it has to be spelled out on a card. Two traps sit here for an "
@@ -2674,9 +2690,18 @@ HELP_TO_SAVE = dict(
              "longer mentions them, even though the conditions sit unrepealed in reg 3(2) of S.I. 2018/87. (2) Anyone "
              "who has already had an account: one per person for life, by declaration under reg 8(2)(b)(i), and "
              "closing early means missing the next bonus with no second chance. A couple is not excluded — each "
-             "person can hold their own. (3) The withdrawal trap, which is not an exclusion from the scheme but is "
-             "where the money is actually lost, and is the most useful line on card 3. A bonus already earned is never "
-             "clawed back. But the second bonus is 50% of the INCREASE over the highest balance reached in years 1 "
+             "person can hold their own. (3) Anyone not living in the UK. GOV.UK states it plainly — \"You also "
+             "need to be living in the UK\" — with one published exception: \"If you live overseas, you can apply "
+             "for an account if you're either a: Crown servant or their spouse or civil partner; member of the "
+             "British armed forces or their spouse or civil partner.\" That is a plain eligibility fact and is "
+             "written as one. It is NOT, and must never be turned into, anything about immigration status, "
+             "citizenship, settled or pre-settled status or recourse to public funds: that is regulated advice this "
+             "firm is not authorised to give. (4) The withdrawal trap, which is not an exclusion from the scheme "
+             "but is where the money is actually lost. GOV.UK's wording is \"You'll get any bonuses you've earned "
+             "even if you withdraw money\", and that is as far as any card or caption now goes: HMRC's Help to Save "
+             "Technical Manual HSTM04700 provides for recovery where an account is void or a bonus was paid in "
+             "error, so \"never clawed back\" was stronger than the source supports and was removed on 8 November "
+             "2026. The live trap is arithmetic: the second bonus is 50% of the INCREASE over the highest balance reached in years 1 "
              "and 2, so anyone who withdraws has to rebuild to the old high-water mark before a single penny of "
              "second bonus is earned — and at £50 a month a large withdrawal late in the term is arithmetically "
              "impossible to recover. Two things that are NOT exclusions and are worth saying: losing the Universal "
@@ -2686,10 +2711,20 @@ HELP_TO_SAVE = dict(
     from_when="Now, for anyone on Universal Credit with £1 of earnings in their last assessment period. The current "
               "eligibility test has applied since 6 April 2025. It is claimed, never automatic: the account is opened "
               "on GOV.UK or in the HMRC app, currently with NS&I as the single provider, and UK bank details are "
-              "needed. Deliberately NOT claimed on any card or caption: a closing date for new accounts. GOV.UK "
-              "publishes none, Autumn Budget 2025 made the scheme permanent and Budget 2026 confirmed a reformed "
-              "scheme from Spring 2028 with a multi-provider model and six-monthly bonuses, but no GOV.UK sentence "
-              "covers new-account opening between April 2027 and that launch, so the carousel says nothing about it. "
+              "needed. The scheme IS open to new accounts today, 8 November 2026: the guide and its eligibility page "
+              "are live and publish no closing date and no application deadline — checked, because if it were shut "
+              "the carousel could not run at all. There is, however, a dated horizon, and the captions now carry it, "
+              "because a reader invited to act is entitled to know the window. HMRC publishes it in terms: "
+              "\"Help to Save has been extended on its current terms until April 2027\", with the costings "
+              "\"for the extension to 2027\" in Table 5.1 of Autumn Budget 2024; and Budget 2026 OOTLAR item 2.2 "
+              "says \"the reformed Help to Save scheme will be introduced in Spring 2028\" through \"a "
+              "multi-provider model\". Those two sentences are the whole published timeline. Nothing published "
+              "covers new-account opening between April 2027 and that launch, so the captions say exactly that — "
+              "current terms to April 2027, reformed scheme from Spring 2028, the gap unpublished, so do not leave "
+              "it — and they do not claim the scheme closes, because no source says so. The note here used to say a "
+              "closing date was deliberately not claimed, on the ground that GOV.UK publishes none. That was true "
+              "only of the guide pages: HMRC's own publication carries the April 2027 date, and a reader urged to "
+              "open an account about five months before it was not told. Corrected 8 November 2026. "
               "From April 2028 eligibility widens again to Universal Credit claimants receiving the child or caring "
               "element; that is not in force and is not claimed.",
   ),
