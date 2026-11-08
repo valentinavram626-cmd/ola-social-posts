@@ -1364,52 +1364,52 @@ The practical advice is to start before completion, not after. The HMRC property
 C["cresa-30-ore"] = dict(
  ro="""30 de ore de creșă pe săptămână, plătite de stat. În Anglia, pentru părinți care lucrează, din trimestrul de după ce copilul face 9 luni și până la școală.
 
-30 de ore pe săptămână, 38 de săptămâni pe an. Creșa poate să le întindă pe mai multe săptămâni, cu mai puține ore.
+38 de săptămâni pe an, sau mai multe săptămâni cu mai puține ore.
 
-Cât trebuie să câștigi: fiecare părinte trebuie să se aștepte să câștige, în următoarele 3 luni, cel puțin £203,36 pe săptămână dacă are peste 21 de ani — adică £2.643,68 pe trimestru.
+Cât trebuie să câștigi: tu și partenerul tău, dacă ai unul, trebuie să vă așteptați fiecare, în următoarele 3 luni, la cel puțin £203,36 pe săptămână dacă aveți 21 de ani sau peste — adică £2.643,68 pe trimestru.
 
-Important dacă ai firmă: dividendele, dobânzile, chiriile și pensia NU se numără la suma minimă. Un director cu salariu mic și dividende mari poate să nu se încadreze. HMRC verifică prin PAYE; dacă nu trimiți PAYE regulat, îți cere dovezi — fluturași, extrase sau o scrisoare de la contabil.
+Important dacă ai firmă: dividendele, dobânzile, chiriile și pensia NU se numără la suma minimă. Un director cu salariu mic și dividende mari poate să nu se încadreze. HMRC verifică prin PAYE; dacă nu trimiți PAYE regulat, poate să îți ceară dovezi — fluturași, extrase sau o scrisoare de la contabil.
 
-Nu vine singur. Ceri un cod online, îl dai la creșă, și apoi intri în cont din 3 în 3 luni ca să confirmi. Dacă uiți, codul nu mai e valabil.
+Nu vine singur: ceri un cod online, îl dai la creșă, și intri în cont din 3 în 3 luni ca să confirmi. Dacă nu te mai încadrezi, locul copilului continuă o perioadă limitată.
 
 Termenul e pe trimestre: pentru orele din 1 ianuarie, ceri codul până pe 31 decembrie.
 
 Cine NU primește:
-• dacă oricare dintre părinți se așteaptă la un venit net ajustat peste £100.000 în anul fiscal, nu primește nimeni din familie. Nici celălalt părinte.
-• dacă un părinte nu lucrează, cu câteva excepții (concediu de îngrijitor, Carer's Allowance, elementele de îngrijitor sau de capacitate redusă de muncă din Universal Credit).
+• dacă tu sau partenerul tău vă așteptați la un venit net ajustat peste £100.000 în anul fiscal, nu primiți nici unul. Dacă nu ai partener, contează numai venitul tău.
+• dacă partenerul tău nu lucrează, cu câteva excepții (concediu de îngrijitor, Carer's Allowance, elementele de îngrijitor sau de capacitate redusă de muncă din Universal Credit).
 • oricine nu e în Anglia. Scoția, Țara Galilor și Irlanda de Nord au alte scheme.
 Lista nu e completă — toate condițiile sunt pe gov.uk.
 
-Orele sunt gratuite, dar nu acoperă toată factura. Creșa poate cere bani pe mâncare, scutece sau excursii — însă regulile oficiale spun că acele costuri trebuie să fie opționale, nu pot fi condiție pentru locul gratuit, și creșa trebuie să îți dea o alternativă.
+Orele gratuite nu acoperă toată factura. Creșa poate cere bani pe mâncare, scutece sau excursii — dar acele costuri trebuie să fie opționale, nu pot fi condiție pentru locul gratuit, și creșa trebuie să îți dea o alternativă.
 
 Dacă nu te încadrezi, copilul de 3 sau 4 ani are oricum 15 ore pe săptămână, indiferent de venit.
 
 Codul se cere pe gov.uk, nu de la contabil.""",
- th="""În Anglia: 30 de ore de creșă pe săptămână plătite de stat, 38 de săptămâni pe an, de la 9 luni. Nu vine singur — ceri un cod online și confirmi din 3 în 3 luni.
+ th="""În Anglia: 30 de ore de creșă pe săptămână plătite de stat, 38 de săptămâni pe an, de la 9 luni. Ceri un cod online și confirmi din 3 în 3 luni.
 
-Cine NU primește: dacă oricare părinte are venit net ajustat peste £100.000, nu primește nimeni. Și e numai în Anglia.""",
+Cine NU primește: dacă tu sau partenerul tău vă așteptați la un venit net ajustat peste £100.000, nu primiți nici unul. Și e numai în Anglia.""",
  li="""Thirty hours of government-funded childcare a week. England, working parents, from the term after the child turns 9 months until school.
 
-Thirty hours a week, 38 weeks a year. What you have to earn: each parent must expect to earn, over the three months after applying, at least £203.36 a week if they are 21 or over — £2,643.68 a quarter. That is the minimum wage for 16 hours a week.
+Thirty hours a week, 38 weeks a year. What you have to earn: you and your partner, if you have one, must each expect to earn, over the three months after applying, at least £203.36 a week if you are 21 or over — £2,643.68 a quarter. That is the minimum wage for 16 hours a week.
 
 The part that matters if you run a company: dividends, interest, property income and pension payments do not count towards the minimum. A director on a small salary and large dividends can fail the test, even when clearly working. HMRC checks through PAYE records, and where regular PAYE information is not submitted it can ask for evidence — wage slips, bank statements, invoices, or a statement from your accountant.
 
-It does not arrive on its own. You apply online for an 11-digit code, give the code to the provider, then sign in every three months to reconfirm. Miss the reconfirmation and the code stops being valid.
+It does not arrive on its own. You apply online for an 11-digit code, give it to the provider, then sign in every three months to reconfirm. If you stop qualifying, statutory guidance gives the place a limited grace period.
 
-The deadline is termly: to use the hours from 1 January, apply by 31 December. From 1 April, by 31 March. From 1 September, by 31 August. Apply after the deadline and you cannot take the entitlement up that term.
+The deadline is termly: 31 December for hours from 1 January, 31 March for 1 April, 31 August for 1 September. Apply later and you cannot take the entitlement up that term.
 
 Who does not get it:
-• a family where either parent expects adjusted net income over £100,000 this tax year. Nobody gets it — not the other parent either, however little they earn.
-• a family where one parent does not work, subject to listed exceptions — carer's leave, Carer's Allowance, the carer's or limited capability for work element of Universal Credit, contribution-based ESA, National Insurance credits.
+• a household where you or your partner expects adjusted net income over £100,000 this tax year. Neither of you gets it, however little the other earns. With no partner, only your income is tested.
+• a household where your partner does not work, subject to listed exceptions — carer's leave, Carer's Allowance, the carer's or limited capability for work element of Universal Credit, contribution-based ESA, National Insurance credits.
 • anyone who has not applied, or has stopped reconfirming.
-• anyone outside England — and this is not the full list of conditions, which are all at gov.uk/free-childcare-if-working. Scotland funds 1,140 hours a year for 3 and 4 year olds and eligible 2 year olds with no earnings test. Wales offers up to 30 hours for 3 and 4 year olds only, tested on gross income. Northern Ireland funds pre-school in the year before primary school and runs a separate childcare subsidy, but no equivalent 30-hours working-parent offer.
+• anyone outside England — and this is not the full list of conditions, which are all at gov.uk/free-childcare-if-working. Scotland funds 1,140 hours a year for 3 and 4 year olds and eligible 2 year olds with no earnings test; Wales offers up to 30 hours for 3 and 4 year olds only, tested on gross income; Northern Ireland funds pre-school in the year before primary school and a separate subsidy, but no 30-hours working-parent offer.
 
-The hours are free but they are not the whole bill. A provider may charge for meals, nappies, trips and additional hours — but the statutory guidance is firm: those charges must be voluntary, must not be a condition of a free place, must be itemised, and the provider must offer a reasonable alternative such as letting you supply your own.
+The hours are free but they are not the whole bill. A provider may charge for meals, nappies, trips and additional hours — but the statutory guidance is firm: those charges must be voluntary, must not be a condition of a free place, should be itemised, and the provider must offer a reasonable alternative.
 
-A family that fails the working-parent test still keeps the universal 15 hours for a 3 or 4 year old, which depends on nothing.""",
- bsky="""England: 30 funded childcare hours a week from 9 months, for working parents. Either parent over £100,000 and nobody in the family gets it.""",
+A family that fails the working-parent test still keeps the universal 15 hours in England for a 3 or 4 year old, from the term after the third birthday.""",
+ bsky="""England: 30 funded childcare hours a week from 9 months, for working parents. You or your partner over £100,000 and neither of you gets it.""",
  pin_title="30 funded childcare hours in England: who qualifies and who does not",
- pin="""In England, working parents can get 30 government-funded childcare hours a week, 38 weeks a year, from 9 months old until school. Each parent must expect to earn at least £203.36 a week if 21 or over, and dividends do not count towards it. It is never automatic: you apply online for a code and reconfirm every three months, with a termly deadline of 31 December, 31 March or 31 August. Who does not get it: any family where either parent expects over £100,000, families where one parent does not work, and everyone outside England. Ola Accountancy, Luton and Birmingham.""",
+ pin="""In England, working parents can get 30 government-funded childcare hours a week, 38 weeks a year, from 9 months old until school. You and your partner must each expect to earn at least £203.36 a week if 21 or over, and dividends do not count towards it. It is never automatic: you apply online for a code and reconfirm every three months, by 31 December, 31 March or 31 August. Who does not get it: households where you or your partner expects over £100,000, households where your partner does not work, and everyone outside England. Ola Accountancy, Luton and Birmingham.""",
  source="gov.uk/free-childcare-if-working",
  wa_ro="Taxe și salarii: 0330 133 1886\nLuton · Birmingham",
  wa_th="Taxe și salarii: 0330 133 1886",

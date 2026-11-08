@@ -2356,10 +2356,10 @@ CHILDCARE_30H = dict(
          h1="<em>30 de ore</em> de creșă pe săptămână, plătite de stat.",
          say="În Anglia, pentru părinți care lucrează: 30 de ore pe săptămână, 38 de săptămâni pe an, din trimestrul de după ce copilul face 9 luni. Nu vine singur — trebuie cerut."),
     dict(type="step", step="Cât trebuie să câștigi", fig="£203",
-         say="Fiecare părinte trebuie să se aștepte să câștige cel puțin £203,36 pe săptămână, dacă are peste 21 de ani. Atât iese salariul minim pentru 16 ore pe săptămână.",
-         note="Ceri un cod online, îl dai la creșă, și apoi intri din 3 în 3 luni ca să confirmi că încă te încadrezi. Dacă uiți să confirmi, codul nu mai e valabil."),
+         say="Tu și partenerul tău, dacă ai unul, trebuie să vă așteptați fiecare la cel puțin £203,36 pe săptămână, dacă aveți 21 de ani sau peste. Atât iese salariul minim pentru 16 ore.",
+         note="Ceri un cod online, îl dai la creșă, și intri din 3 în 3 luni ca să confirmi că încă te încadrezi. Dacă nu te mai încadrezi, locul copilului continuă o perioadă limitată."),
     dict(type="step", step="Cine NU primește", fig="£100.000",
-         say="Dacă oricare dintre părinți se așteaptă la un venit net ajustat peste £100.000 în anul fiscal, nu primește nimeni din familie. Nici celălalt părinte.",
+         say="Dacă tu sau partenerul tău vă așteptați la un venit net ajustat peste £100.000 în anul fiscal, nu primiți nici unul. Dacă nu ai partener, contează numai venitul tău.",
          note="Și e numai în Anglia — Scoția, Țara Galilor și Irlanda de Nord au alte scheme. Orele sunt gratuite, dar creșa poate cere bani pe mâncare, scutece sau excursii; nu are voie să le facă obligatorii."),
   ],
   CTA_RO=dict(type="cta",
@@ -2374,10 +2374,10 @@ CHILDCARE_30H = dict(
          h1="<em>30 hours</em> of childcare a week, paid by the government.",
          say="In England, for working parents: 30 hours a week, 38 weeks a year, from the term after the child turns 9 months. It does not arrive on its own — you have to apply."),
     dict(type="step", step="What you have to earn", fig="£203",
-         say="Each parent must expect to earn at least £203.36 a week if they are 21 or over. That is the minimum wage for 16 hours a week.",
-         note="You apply online for a code, give the code to the provider, then sign in every 3 months to reconfirm you still qualify. Miss the reconfirmation and the code stops being valid."),
+         say="You and your partner, if you have one, must each expect to earn at least £203.36 a week if you are 21 or over. That is the minimum wage for 16 hours a week.",
+         note="You apply online for a code, give it to the provider, then sign in every 3 months to reconfirm. If you stop qualifying, the place continues for a limited grace period."),
     dict(type="step", step="Who does NOT get it", fig="£100,000",
-         say="If either parent expects an adjusted net income over £100,000 this tax year, nobody in the family gets it. Not the other parent either, however little they earn.",
+         say="If you or your partner expects an adjusted net income over £100,000 this tax year, neither of you gets it. If you have no partner, only your own income is tested.",
          note="And it is England only — Scotland, Wales and Northern Ireland run different schemes. The hours are free, but a provider may charge for meals, nappies or trips; they are not allowed to make those compulsory."),
   ],
   CTA_EN=dict(type="cta",
@@ -2429,7 +2429,14 @@ CHILDCARE_30H = dict(
      "support costs and \"non-itemised enrichment charges, sustainability charges\" are all prohibited (A1.38). The "
      "same guidance gives the entitlement as \"1,140 hours of free provision over at least 38 weeks\", confirms "
      "children become eligible \"on 1 April, 1 September or 1 January following them attaining the age of 9 months\", "
-     "and sets out the grace-period dates in Table A",
+     "and sets out the grace-period dates in Table A. Read 8 Nov 2026 for three wordings the cards and captions now "
+     "rest on: A1.42 says \"Invoices and receipts should be itemised\" — SHOULD, not must, unlike the three "
+     "\"must\" rules in A1.31, A1.32, A1.34, A1.35 and A1.36; A1.22 says a local authority \"should continue to "
+     "fund a place for the child for a limited grace period\" when a parent no longer meets the criteria on "
+     "reconfirmation, with A1.23 running it to the end of the funding block or the following one; and C.6 tells "
+     "providers to inform parents \"that a child may be able to continue to take-up their free place for a limited "
+     "period known as the grace period\". No gov.uk or HMRC page states that a missed reconfirmation ends the code, "
+     "so that claim was dropped rather than softened",
      "https://www.gov.uk/government/publications/early-education-and-childcare--2/early-education-and-childcare-valid-from-1-april-2026",
      "2026-11-08"),
     ("The termly application deadline, verbatim: \"When you would like to use your entitlements from / The deadline to "
@@ -2497,9 +2504,11 @@ CHILDCARE_30H = dict(
              "leave, on parental, maternity, paternity or adoption leave. Company directors are in scope but have to "
              "evidence the minimum where PAYE records do not show it.",
     excluded="Four exclusions, three of them on card 3 and the fourth in its note. (1) Everyone outside England. (2) A "
-             "family where EITHER parent expects adjusted net income over £100,000 — the test is individual, both "
-             "parents must be above the minimum and both below the cap, so one parent at £101,000 ends the claim for "
-             "the household however little the other earns. (3) A family where one parent does not work, unless the "
+             "household where the APPLICANT OR THEIR PARTNER expects adjusted net income over £100,000. gov.uk tests "
+             "\"you (and your partner, if you have one)\" and not both biological parents, so both of those two must "
+             "be above the minimum and both below the cap, and a partner at £101,000 ends the claim however little the "
+             "applicant earns. A parent with no partner is tested on their own income alone and a former partner's "
+             "income is irrelevant. (3) A family where one parent does not work, unless the "
              "working partner's claim is saved by one of gov.uk's listed grounds (carer's leave, Carer's Allowance, "
              "Incapacity Benefit, Severe Disablement Allowance, the limited capability for work or carer's element of "
              "Universal Credit, contribution-based ESA, National Insurance credits). (4) Anyone who has not applied, "
@@ -2509,12 +2518,12 @@ CHILDCARE_30H = dict(
              "more that are not exclusions from the scheme but are the commonest disappointment, and the reason card "
              "3's note exists: the funded hours do not cover the whole bill — a provider may charge for meals, "
              "nappies, consumables, trips and extra hours, but DfE's statutory guidance says those charges \"must be "
-             "voluntary\", \"must not be a condition of accessing a free place\", must be itemised on the invoice, and "
+             "voluntary\", \"must not be a condition of accessing a free place\", should be itemised (A1.42), and "
              "the provider must offer a free alternative such as letting the parent bring their own; and the hours "
              "cannot be used for a nanny, a home carer or a grandparent. Dividends, interest, property income and "
              "pension payments do not count towards the minimum earnings, which is what catches an owner-managed "
              "company director on a small salary. Finally, a family that fails the working-parent test still keeps the "
-             "universal 15 hours for a 3 or 4 year old, which depends on nothing.",
+             "universal 15 hours for a 3 or 4 year old in England, from the term after the third birthday.",
     from_when="Now. The 30 hours from 9 months has been live since 1 September 2025 and the expansion is complete — "
               "there is no further step in 2026, and DfE's current guidance table has a single row. The earnings "
               "figures changed on 1 April 2026 with the minimum wage and change again on 1 April 2027, so this "
