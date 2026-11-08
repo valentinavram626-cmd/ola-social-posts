@@ -1169,6 +1169,317 @@ Northern Ireland's entitlement is identical — 5.6 weeks, capped at 28 days —
 # same second. So Threads gets its own post and its own caption: the hook, the
 # single most useful fact, the who-does-NOT line, the number, the disclaimer and
 # the four brand tags. No worked example, no topical tags — that is what fits.
+# ---------------------------------------------------------------- 2026-11-09
+# Every body below was measured against limits.py, not judged by eye. The
+# first draft put 16 captions over their caps — twelve Pinterest and feed
+# bodies, one LinkedIn and two Bluesky — and they were shortened until the
+# gate passed. Shorter copy, never a smaller limit.
+C["penalizari-31-ianuarie"] = dict(
+ ro="""Depui declarația pe 1 februarie în loc de 31 ianuarie? £100.
+
+Și £100 se plătesc chiar dacă nu ai nicio taxă de dat. HMRC o spune direct: amenda „se aplică chiar dacă nu e nicio taxă de plătit, sau dacă taxa datorată a fost plătită la timp". Declarația pe zero nu te scapă.
+
+Cum crește, dacă o lași:
+• o zi întârziere — £100
+• după 3 luni — £10 pe zi, până la £900 în total
+• după 6 luni — încă 5% din taxă sau £300, cât e mai mult
+• după 12 luni — iar 5% sau £300
+
+Plata întârziată se numără separat de depunere: 5% din cât ai rămas de plătit la 30 de zile, apoi iar la 6 și la 12 luni. Plus dobândă în fiecare zi, de la 1 februarie — 7,75% acum, 8% de la 24 noiembrie 2026.
+
+Cine NU plătește £100:
+• cine nu a primit niciodată de la HMRC cererea de a depune. Amenda e pentru o declarație cerută; dacă nu ți-a cerut nimeni nimic, nu ai ce depune târziu.
+• cine nu mai trebuie să depună și anunță HMRC din timp: obligația se retrage și amenda se anulează. Timpul contează — HMRC are nevoie de timp să analizeze cererea înainte de 31 ianuarie, iar dacă anunți prea târziu amenda rămâne.
+• cine are motiv întemeiat (un deces în familie, o internare neașteptată). Se contestă online sau cu formularul SA370. „Nu am primit notificare de la HMRC" nu e motiv acceptat.
+
+£100 nu se reduce niciodată. Se anulează sau se plătește.
+
+Nu ai banii acum? Dacă depui la timp, poți cere un plan de plată în rate — HMRC îl poate aproba online dacă datorezi sub £30.000 și te încadrezi în condițiile lor. Dobânda curge oricum, dar penalizările se opresc.
+
+E la fel în toată Marea Britanie. Pe hârtie nu se mai poate depune: termenul de 31 octombrie 2026 a trecut. Rămâne online, până pe 31 ianuarie 2027.
+
+Nu ești sigur dacă trebuie să depui?""",
+ th="""Depui declarația cu o zi întârziere? £100 — chiar dacă nu ai nicio taxă de plătit. După 3 luni se adaugă £10 pe zi, până la £900.
+
+Cine NU plătește: cine nu a primit niciodată de la HMRC cererea de a depune. Iar dacă nu mai trebuie să depui, HMRC poate anula amenda — dar anunță-i înainte de 31 ianuarie.""",
+ li="""File your Self Assessment return on 1 February instead of 31 January and it costs £100.
+
+The £100 is charged even if you owe nothing. HMRC's own words: the penalty "applies even if there is no tax to pay, or if the tax due is paid on time". A nil return does not save you.
+
+How it grows:
+• one day late — £100
+• after 3 months — £10 a day, up to £900
+• after 6 months — a further 5% of the tax or £300, whichever is greater
+• after 12 months — another 5% or £300
+
+Paying late is a separate regime from filing late: 5% of the unpaid tax at 30 days, again at 6 months, again at 12. Interest runs daily from 1 February at base rate plus 4% — 7.75% today, 8% from 24 November 2026.
+
+Who does not pay the £100:
+• anyone HMRC never sent a notice to file. The penalty attaches to a return HMRC required; with no notice there is nothing to file late.
+• anyone who no longer needs to file and says so in time. HMRC can withdraw the notice, and late filing penalties are then cancelled. Timing is the trap: HMRC needs time to review the request before 31 January, and leaving it too late means the penalty stands.
+• anyone with a reasonable excuse — a bereavement, an unexpected hospital stay, a serious illness. Appeal online or on form SA370. "You did not get a reminder from HMRC" is on the rejected list.
+
+The £100 is never reduced. It is cancelled or it is paid; HMRC's special-circumstances discretion expressly excludes ability to pay.
+
+Cannot pay? File on time anyway and ask for a payment plan — HMRC can agree one online where you owe under £30,000 and meet its conditions. Interest still runs, but penalties stop. The filing deadline itself moves for nothing.
+
+Two points of precision: the £10 daily penalties are not automatic — HMRC must decide to charge them and give written notice — and at twelve months, 5% is the ordinary case, not a ceiling. Where information is deliberately withheld and concealed, the statutory penalty is the greater of 100% of the tax and £300.
+
+Also worth knowing: the Making Tax Digital points-based penalty regime does not apply to this deadline. Current penalties govern the 2025/26 return due 31 January 2027.
+
+Paper filing closed on 31 October 2026. Online, by 31 January 2027, is the only route left.""",
+ bsky="""File one day late and it is £100 — even with no tax to pay. £10 a day after 3 months. No notice to file, no penalty.""",
+ pin_title="Why a late UK tax return costs £100 even with no tax to pay",
+ pin="""The UK Self Assessment return for 2025/26 is due online by 31 January 2027. One day late is a £100 penalty, charged even where no tax is owed. After three months HMRC can add £10 a day up to £900; at six and twelve months, a further 5% of the tax or £300, whichever is greater. Paying late is separate: 5% of the unpaid tax at 30 days, again at 6 and 12 months, plus daily interest. Who does not pay the £100: anyone HMRC never sent a notice to file, and anyone who no longer needs to file and tells HMRC in time. UK-wide. Ola Accountancy, Luton and Birmingham.""",
+ gbp="""File the 2025/26 Self Assessment return one day after 31 January 2027 and the penalty is £100. HMRC charges it even if you owe no tax at all and even if the tax was paid on time, so a nil return is no protection.
+
+After three months HMRC can add £10 a day, up to £900. At six months and again at twelve, a further 5% of the tax or £300, whichever is greater. Paying late is separate: 5% of the unpaid tax at 30 days, then again at 6 and 12 months, with interest running daily.
+
+Who does not pay the £100: anyone HMRC never sent a notice to file, and anyone who no longer needs to file and tells HMRC in good time — the obligation is withdrawn and the penalty cancelled. Leave it too late and it stands.
+
+Paper filing closed on 31 October 2026. Online by 31 January 2027 is the only route left, and the tax is due the same day.
+
+Not sure you have to file at all? Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/self-assessment-tax-returns/penalties",
+)
+
+C["camera-inchiriata-7500"] = dict(
+ ro="""Închiriezi o cameră în casa în care locuiești? Primii £7.500 pe an sunt fără taxe.
+
+Scutirea se numește Rent a Room. Nu o ceri, nu completezi nimic, nu anunți pe nimeni: dacă încasezi sub £7.500 într-un an fiscal, se aplică automat.
+
+Se numără cât ÎNCASEZI, nu cât îți rămâne. Adică chiria, plus orice bani iei pentru mese, curățenie sau spălat rufe. Cheltuielile nu se scad din cifra asta.
+
+Partea pe care o ratează lumea: £7.500 e limita unei persoane, dar scade la £3.750 dacă și altcineva încasează chirie din aceeași casă. Cazul obișnuit e un cuplu cu casa pe amândoi: fiecare are £3.750, nu £7.500, și nu se adună la £15.000.
+
+Peste limită depui declarație și alegi una din două:
+• plătești pe profitul real — ce ai încasat minus cheltuieli
+• plătești doar pe cât ai încasat peste £7.500, fără să scazi nicio cheltuială
+HMRC folosește automat prima variantă. A doua se cere în scris.
+
+Nu se aplică deloc la:
+• camera nemobilată. Și atenție: dacă ai ORICE închiriere nemobilată în aceeași casă, HMRC spune că pierzi scutirea și pentru camera mobilată.
+• casa împărțită în apartamente separate
+• camera dată ca birou, pentru o afacere sau ca depozit
+• o casă care nu e casa în care locuiești când o închiriezi
+• casa din UK închiriată cât timp tu stai în altă țară
+
+Merge și dacă stai în chirie și subînchiriezi o cameră — nu trebuie să fii proprietar. Nu merge pentru firme sau parteneriate.
+
+Două lucruri de care nimeni nu te avertizează. Scutirea de £1.000 pentru venituri din chirii NU se poate folosi peste Rent a Room — sunt alternative, nu se adună. Și dacă primești un chiriaș, de regulă pierzi reducerea de 25% la council tax pentru persoana singură; trebuie să anunți primăria.
+
+Se aplică la fel în toată Marea Britanie. Înregistrarea ca landlord e altă poveste și diferă pe națiuni.
+
+Nu știi dacă intri în scutire?""",
+ th="""Închiriezi o cameră în casa ta? Primii £7.500 pe an sunt fără taxe, automat — nu ceri nimic.
+
+Se numără cât încasezi, nu cât îți rămâne: chiria plus banii pe mese sau curățenie.
+
+Cine NU are £7.500: dacă și altcineva ia chirie din aceeași casă (de obicei partenerul), fiecare are £3.750. Nu se adună la £15.000.""",
+ li="""Letting a room in the home you live in? The first £7,500 a year is tax free.
+
+The relief is Rent a Room. You do not claim it, you fill nothing in and you tell nobody: take under £7,500 in a tax year and it applies automatically.
+
+It counts what comes IN, not what you keep — the rent, plus anything charged for meals, cleaning or laundry. Expenses are not deducted from that figure.
+
+The part people miss: £7,500 is an individual's limit, and it halves to £3,750 where anyone else also receives letting income from the same home. The ordinary case is a couple who own the house together — £3,750 each, not £7,500, and nothing adds up to £15,000.
+
+Over the limit you file a return and choose:
+• tax on your actual profit — receipts less expenses
+• tax on receipts above £7,500, with no expenses deductible at all
+HMRC defaults to the first. The second has to be elected in writing.
+
+It does not apply at all to:
+• unfurnished accommodation. And note the sting: HMRC says any unfurnished letting in the same residence makes you a non-qualifying individual, so the furnished letting loses the relief too.
+• a house converted into separate flats
+• a room let as an office, for a business or for storage — with a narrow carve-out where a lodger works at home in the evenings or a student is given study facilities
+• accommodation that is not part of your main home when you let it
+• a UK home let while you live abroad
+
+It works if you rent the property yourself and sublet a room — ownership is not required. It does not work for companies or partnerships.
+
+Two things nobody warns you about. The £1,000 property allowance cannot be stacked on top of Rent a Room; they are alternatives for the same income. And taking in a lodger normally ends the 25% council tax single person discount, which the council has to be told about unless the lodger falls in a disregarded category.
+
+UK-wide as a matter of tax. Landlord registration and licensing is a separate question and genuinely differs by nation.""",
+ bsky="""A lodger in your own home: first £7,500 a year tax free, automatically. But if anyone else takes rent from the same house, it is £3,750 each.""",
+ pin_title="Rent a Room: £7,500 tax free, or £3,750 if you are not the only one",
+ pin="""The UK Rent a Room Scheme makes the first £7,500 a year from letting a furnished room in your own home tax free, automatically. It counts gross receipts — rent plus any charge for meals, cleaning or laundry — not profit. The limit is an individual's, and halves to £3,750 where anyone else also receives letting income from the same home: the ordinary case for a couple who own it together. It does not apply to unfurnished rooms, a house split into separate flats, a room let as an office, or a UK home let while you live abroad. UK-wide. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/rent-room-in-your-home/the-rent-a-room-scheme",
+)
+
+C["cgt-60-zile"] = dict(
+ ro="""Ai vândut o casă care nu era casa în care locuiai? Ai 60 de zile.
+
+60 de zile de la ziua în care s-a încheiat vânzarea — completion — nu de la semnarea contractului. Și în cele 60 de zile faci două lucruri: declari ȘI plătești.
+
+Nu e Self Assessment. Se depune separat, într-un cont la HMRC pentru proprietăți din UK. Dacă oricum depui Self Assessment, vânzarea se trece și acolo — e în plus, nu în loc.
+
+Cât se plătește: 18% sau 24% din câștig, după banda de impozit în care intră câștigul. Primii £3.000 de câștig din tot anul nu se impozitează.
+
+Cine NU declară în 60 de zile:
+• casa ta, dacă ai avut o singură casă și ai locuit în ea tot timpul cât a fost a ta. Se numește Private Residence Relief. Condițiile sunt toate: o singură casă, locuită tot timpul, fără o parte închiriată (un chiriaș în casă nu strică), fără o cameră folosită exclusiv pentru o afacere, teren sub 5.000 m². Dacă una nu se potrivește, poate fi ceva de plătit.
+• dacă nu iese taxă de plătit: câștigul intră în cei £3.000, sau e acoperit de pierderi. HMRC spune limpede că nu trebuie declarat nimic când nu e nimic de plătit.
+• transferul către soț, soție sau partener civil cu care locuiești.
+• acțiuni, spații comerciale, teren: merg în Self Assessment, la termenul obișnuit.
+
+Un lucru pe dos, care prinde lumea: dacă NU ești rezident fiscal în UK, trebuie să declari fiecare vânzare de proprietate sau teren din UK — locuință sau nu — chiar dacă nu iese nicio taxă și chiar dacă ai pierdut bani.
+
+Ce costă întârzierea: £100 imediat, apoi la 6 luni și la 12 luni câte 5% din taxă sau £300, cât e mai mult. Plus dobândă pe taxa neplătită — 7,75% acum, 8% de la 24 noiembrie 2026.
+
+E la fel în toată Marea Britanie. Taxa pe care o plătește cumpărătorul la achiziție e altceva și diferă pe națiuni.
+
+Vinzi și nu știi dacă ai de plătit?""",
+ th="""Ai vândut o casă care nu era casa ta? 60 de zile ca să declari ȘI să plătești — de la încheierea vânzării, nu de la contract. E o declarație separată, nu Self Assessment.
+
+Cine NU declară: casa ta, locuită tot timpul cât a fost a ta. Și dacă nu iese taxă de plătit, nu se cere declarație.""",
+ li="""Sold a UK property that was not your home? You have 60 days.
+
+Sixty days from completion, not from exchange of contracts. And inside them you do two things: report and pay.
+
+It is not the Self Assessment return. It goes through a separate HMRC account for UK property disposals. If you file Self Assessment anyway, the disposal goes on that as well — in addition, not instead.
+
+The rate is 18% or 24% of the gain, depending on which band the gain falls into. The first £3,000 of gains in the year is not taxed. Watch out for recycled copy: since 30 October 2024 there is no separate residential property rate, and the old 18%/28% split is gone.
+
+Who does not report in 60 days:
+• your own home, where Private Residence Relief applies in full. Every condition has to hold: one home, lived in as your main home for all the time you owned it, no part let out (a lodger does not count), no part used exclusively for business, grounds under 5,000 square metres, and not bought just to make a gain. If any one of them fails, there may be tax.
+• where no tax is due — the gain sits inside the £3,000 annual exempt amount, or losses or a relief reduce it to nil. HMRC's manual is explicit that there is no need to report a disposal with no liability.
+• a transfer to a spouse or civil partner you live with: no CGT, and outside the regime entirely as a no gain/no loss disposal.
+• shares, commercial premises and land: these go on the Self Assessment return at the ordinary deadline, or through the real time service.
+
+The reverse trap, and it catches people: a non-UK resident must report every disposal of UK property or land, residential or not, even with no tax to pay and even at a loss. The "no tax, no return" shortcut is exactly wrong there.
+
+What lateness costs: £100 straight away, then at six months and twelve months the greater of 5% of the tax and £300. Interest runs on unpaid tax at base rate plus 4% — 7.75% today, 8% from 24 November 2026.
+
+Worth knowing: the final nine months of ownership always qualify for relief, whatever the property was used for then, provided it was your only or main residence at some point.
+
+UK-wide — Capital Gains Tax is not devolved. The purchase tax the buyer pays is a different tax and does differ by nation: SDLT in England and Northern Ireland, LBTT in Scotland, LTT in Wales.
+
+The practical advice is to start before completion, not after. The HMRC property account has to exist and the figures have to be ready, and 60 days goes quickly.""",
+ bsky="""Sold a UK property that was not your home? 60 days from completion to report AND pay, on a separate return. Your own home: usually neither.""",
+ pin_title="UK property: 60 days to report and pay Capital Gains Tax",
+ pin="""Sell a UK residential property that is not your home and you have 60 days from completion — not exchange — to report and pay any Capital Gains Tax. It is a separate return through an HMRC property account, not Self Assessment. The rate is 18% or 24% of the gain depending on your band, with the first £3,000 of gains in the year exempt. Who does not report in 60 days: your own home where Private Residence Relief applies in full, anyone with no tax to pay, a transfer to a spouse or civil partner, and shares or commercial property. UK-wide. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/report-and-pay-your-capital-gains-tax",
+)
+
+C["cresa-30-ore"] = dict(
+ ro="""30 de ore de creșă pe săptămână, plătite de stat. În Anglia, pentru părinți care lucrează, de la 9 luni până la școală.
+
+30 de ore pe săptămână, 38 de săptămâni pe an. Creșa poate accepta să le întindă pe mai multe săptămâni, cu mai puține ore.
+
+Cât trebuie să câștigi: fiecare părinte trebuie să se aștepte să câștige, în următoarele 3 luni, cel puțin £203,36 pe săptămână dacă are peste 21 de ani — adică £2.643,68 pe trimestru, salariul minim pentru 16 ore.
+
+Important dacă ai firmă: dividendele, dobânzile, chiriile și pensia NU se numără la suma minimă. Un director cu salariu mic și dividende mari poate să nu se încadreze. HMRC verifică prin PAYE; dacă nu trimiți PAYE regulat, îți cere dovezi — fluturași, extrase sau o scrisoare de la contabil.
+
+Nu vine singur. Ceri un cod online, îl dai la creșă, și apoi intri în cont din 3 în 3 luni ca să confirmi. Dacă uiți să confirmi, codul nu mai e valabil.
+
+Termenul e pe trimestre: pentru orele din 1 ianuarie, ceri codul până pe 31 decembrie.
+
+Cine NU primește:
+• dacă un singur părinte se așteaptă la venit peste £100.000 în anul fiscal, nu primește nimeni din familie. Nici celălalt părinte.
+• dacă un părinte nu lucrează, cu câteva excepții (concediu de îngrijitor, Carer's Allowance, elementele de îngrijitor sau de capacitate redusă de muncă din Universal Credit).
+• oricine nu a cerut codul sau a încetat să confirme.
+• oricine nu e în Anglia. Scoția, Țara Galilor și Irlanda de Nord au alte scheme.
+
+Orele sunt gratuite, dar nu acoperă toată factura. Creșa poate cere bani pe mâncare, scutece sau excursii — însă regulile oficiale spun că acele costuri trebuie să fie opționale, nu pot fi condiție pentru locul gratuit, și creșa trebuie să îți dea o alternativă.
+
+Dacă nu te încadrezi, copilul de 3 sau 4 ani are oricum 15 ore pe săptămână, indiferent de venit.
+
+Codul se cere pe gov.uk/free-childcare-if-working.""",
+ th="""În Anglia: 30 de ore de creșă pe săptămână plătite de stat, 38 de săptămâni pe an, de la 9 luni. Nu vine singur — ceri un cod online și confirmi din 3 în 3 luni.
+
+Cine NU primește: dacă un singur părinte are venit peste £100.000, nu primește nimeni din familie. Și e numai în Anglia.""",
+ li="""Thirty hours of government-funded childcare a week. England, working parents, from 9 months old until school.
+
+Thirty hours a week, 38 weeks a year. A provider may agree to stretch the same annual total over more weeks at fewer hours, but the hours cannot be compressed into fewer than 38.
+
+What you have to earn: each parent must expect to earn, over the three months after applying, at least £203.36 a week if they are 21 or over — £2,643.68 a quarter. That is the minimum wage for 16 hours a week.
+
+The part that matters if you run a company: dividends, interest, property income and pension payments do not count towards the minimum. A director on a small salary and large dividends can fail the test on paper while being obviously in work. HMRC checks through PAYE records, and where regular PAYE information is not submitted it can ask for evidence — wage slips, bank statements, invoices, or a statement from your accountant.
+
+It does not arrive on its own. You apply online for an 11-digit code, give the code to the provider, then sign in every three months to reconfirm. Miss the reconfirmation and the code stops being valid.
+
+The deadline is termly: to use the hours from 1 January, apply by 31 December. From 1 April, by 31 March. From 1 September, by 31 August. Apply after the deadline and you cannot take the entitlement up that term.
+
+Who does not get it:
+• a family where either parent expects adjusted net income over £100,000 this tax year. Nobody gets it — not the other parent either, however little they earn.
+• a family where one parent does not work, subject to listed exceptions — carer's leave, Carer's Allowance, the carer's or limited capability for work element of Universal Credit, contribution-based ESA, National Insurance credits.
+• anyone who has not applied, or has stopped reconfirming.
+• anyone outside England. Scotland funds 1,140 hours a year for 3 and 4 year olds and eligible 2 year olds with no earnings test. Wales offers up to 30 hours for 3 and 4 year olds only, tested on gross income. Northern Ireland has no equivalent offer.
+
+The hours are free but they are not the whole bill. A provider may charge for meals, nappies, trips and additional hours — but the statutory guidance is firm: those charges must be voluntary, must not be a condition of a free place, must be itemised, and the provider must offer a reasonable alternative such as letting you supply your own. Top-up fees, learning materials, business running costs and unitemised "sustainability" charges are prohibited.
+
+A family that fails the working-parent test still keeps the universal 15 hours for a 3 or 4 year old, which depends on nothing.""",
+ bsky="""England: 30 funded childcare hours a week from 9 months, for working parents. Either parent over £100,000 and nobody in the family gets it.""",
+ pin_title="30 funded childcare hours in England: who qualifies and who does not",
+ pin="""In England, working parents can get 30 government-funded childcare hours a week, 38 weeks a year, from 9 months old until school. Each parent must expect to earn at least £203.36 a week if 21 or over, and dividends do not count towards it. It is never automatic: you apply online for a code and reconfirm every three months, with a termly deadline of 31 December, 31 March or 31 August. Who does not get it: any family where either parent expects over £100,000, families where one parent does not work, and everyone outside England. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/free-childcare-if-working",
+ disc_ro="Informații generale, nu consultanță pe ajutoare de stat. Condițiile sunt pe gov.uk.",
+ disc_en="General information, not benefits advice. The conditions are on GOV.UK.",
+)
+
+C["help-to-save-50"] = dict(
+ ro="""Pui £50 pe lună într-un cont, și statul adaugă £25. Contul se numește Help to Save.
+
+Cum merge: pui între £1 și £50 pe lună, nu obligatoriu în fiecare lună, și statul adaugă 50%. În patru ani: maxim £2.400 puși de tine și până la £1.200 bonus.
+
+Bonusul NU vine lunar. Vine de două ori:
+• după 2 ani — 50% din cel mai mare sold pe care l-ai avut în primii doi ani
+• după 4 ani — 50% din cât ai urcat peste acel sold în anii 3 și 4
+
+Exemplul oficial de pe gov.uk: pui £25 pe lună doi ani, nu retragi nimic, soldul maxim e £600, primul bonus £300. În anii 3 și 4 mai strângi £200 peste acel maxim, deci al doilea bonus e £100.
+
+Bonusul intră în contul tău bancar, nu în contul de economii. Și nu se impozitează.
+
+Cine poate deschide: îți trebuie Universal Credit și cel puțin £1 câștigat — bani în mână, după taxe — în ultima perioadă de calcul. Atât. Pragul vechi, de 16 ore pe săptămână la salariul minim, a fost eliminat din 6 aprilie 2025: dacă ai fost refuzat înainte, s-ar putea să te încadrezi acum.
+
+Cine NU poate deschide:
+• cine nu are Universal Credit, sau îl are fără nicio sumă câștigată
+• cine a avut deja un cont Help to Save. Un cont pe persoană, o singură dată în viață. Dacă îl închizi mai repede, pierzi bonusul următor și nu mai poți deschide altul.
+Într-un cuplu, fiecare poate avea contul lui — se cere separat.
+
+Capcana retragerilor. Bonusul deja câștigat nu se ia înapoi niciodată. Dar al doilea bonus se calculează din CREȘTEREA peste soldul maxim din primii doi ani. Deci dacă retragi, trebuie să pui înapoi tot ce ai scos ca să ajungi iar la vechiul maxim, și abia de acolo începi să câștigi bonus. Cu £50 pe lună, o retragere mare în anul 4 nu se mai recuperează matematic.
+
+E la fel în toată Marea Britanie. Contul se deschide pe gov.uk/get-help-savings-low-income cu numărul de National Insurance și datele contului bancar.""",
+ th="""Pui £50 pe lună, statul adaugă £25. Contul se numește Help to Save: până la £1.200 bonus în patru ani, neimpozabil.
+
+Bonusul vine de două ori, la 2 și la 4 ani, nu lunar.
+
+Cine NU poate deschide: cine nu are Universal Credit. Îți trebuie și minim £1 câștigat în ultima perioadă de calcul.""",
+ li="""Pay in £50 a month and the government adds £25. The account is called Help to Save.
+
+How it works: you pay in between £1 and £50 each calendar month, you are not obliged to pay in every month, and the government adds 50%. Over four years: £2,400 in at most, and up to £1,200 of bonus.
+
+The bonus is not monthly. It comes twice:
+• after 2 years — 50% of the highest balance you reached in years 1 and 2
+• after 4 years — 50% of however much you push that highest balance up in years 3 and 4
+
+GOV.UK's own example: pay in £25 a month for two years with no withdrawals, the highest balance is £600 and the first bonus is £300. In years 3 and 4 you grow that peak by £200, so the final bonus is £100.
+
+The bonus is paid into your bank account rather than the savings account, and it is tax free.
+
+Who can open one: you need Universal Credit and take-home pay of £1 or more — after tax and National Insurance — in your last monthly assessment period. That is the whole test. The old threshold of 16 hours a week at the National Living Wage was removed on 6 April 2025, so anyone turned away before that may qualify now. Working Tax Credit is no longer a route; tax credits ended in April 2025.
+
+Who cannot:
+• anyone not receiving Universal Credit, or receiving it with no earnings at all in the last assessment period
+• anyone who has already had a Help to Save account. One per person, once ever. Close it early and you miss the next bonus with no second chance.
+In a couple there is no problem: each person can hold their own, applied for separately.
+
+The withdrawal trap, which is where the money is actually lost. A bonus already earned is never clawed back. But the final bonus is measured on the INCREASE over the highest balance reached in years 1 and 2. So if you withdraw, you have to put everything back just to return to the old high-water mark, and only above that does any further bonus start accruing. At £50 a month, a large withdrawal in year 4 is arithmetically impossible to recover.
+
+If the Universal Credit award stops later, the account survives: GOV.UK says you can keep using it.
+
+The savings do not endanger Universal Credit or Housing Benefit below £6,000 of personal savings — and the account on its own cannot reach £6,000.
+
+UK-wide. The account opens on GOV.UK or in the HMRC app in a few minutes, with a National Insurance number and UK bank details.""",
+ bsky="""Pay in £50 a month, the government adds £25 — up to £1,200 over four years, tax free. You need Universal Credit to open one.""",
+ pin_title="Help to Save: a 50% government bonus on up to £50 a month",
+ pin="""Help to Save is a UK government savings account that adds a 50% bonus to what you put away: £1 to £50 each calendar month, so £2,400 over four years at most, and up to £1,200 of tax-free bonus. The bonus is not monthly — one payment after two years worth 50% of your highest balance, and a final payment after four years worth 50% of however much you push that peak higher. To open one you need Universal Credit and take-home pay of £1 or more in your last assessment period. One account per person, once ever. UK-wide. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/get-help-savings-low-income",
+ disc_ro="Informații generale, nu consultanță pe ajutoare de stat. Condițiile sunt pe gov.uk.",
+ disc_en="General information, not benefits advice. The conditions are on GOV.UK.",
+)
+
+
 WA_TH = f"WhatsApp: {PHONE}"
 
 

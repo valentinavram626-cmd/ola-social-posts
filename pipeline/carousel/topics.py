@@ -1866,7 +1866,828 @@ HOLIDAY_56 = dict(
               "taken from the employer, who has to give it."),
 )
 
-DAY = [VOLUNTARY_NI, DIVIDENDS_1075, HOME_WORKING, WARM_HOME_150, HOLIDAY_56]
+
+# ===================================================================== 2026-11-09
+# Five carousels for 9 November 2026. Every figure below was read at primary
+# source on 8 November 2026 — gov.uk, HMRC manuals and notices, and
+# legislation.gov.uk. Nothing comes from a news site, a blog or another firm.
+
+SA_PENALTIES = dict(
+  slug="penalizari-31-ianuarie",
+  title="Self Assessment — £100 chiar dacă nu ai nicio taxă de plătit",
+  tags_ro="#selfassessment #hmrc #31ianuarie #penalizari #romaniinuk",
+  tags_en="#selfassessment #hmrc #31january #latefiling #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Self Assessment · termen 31 ianuarie 2027",
+         h1="O zi întârziere costă <em>£100</em>.",
+         say="Și £100 se plătesc chiar dacă nu ai nicio taxă de dat. Chiar dacă declarația iese pe zero. Chiar dacă ai plătit deja tot."),
+    dict(type="step", step="Cât crește dacă o lași", fig="<cur>£</cur>900",
+         say="După 3 luni, HMRC poate adăuga £10 pe zi, până la £900. La 6 luni și iar la 12 luni se mai pune 5% din taxă sau £300 — cât e mai mult.",
+         note="Plata întârziată se numără separat: 5% din cât ai rămas de plătit la 30 de zile, apoi iar la 6 și la 12 luni, plus dobândă în fiecare zi."),
+    dict(type="step", step="Cine NU plătește £100", fig="0",
+         say="Amenda e pentru o declarație pe care HMRC ți-a cerut-o. Dacă nu ți-a cerut niciuna, nu ai ce depune. Iar dacă nu mai trebuie să depui, HMRC poate anula amenda.",
+         note="Anunță-i din timp, înainte de 31 ianuarie: dacă spui prea târziu, amenda rămâne. Se poate contesta și cu motiv întemeiat — online sau cu formularul SA370."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Self Assessment · termen 31 ianuarie 2027",
+    h1="Nu ești sigur dacă <em>trebuie</em> să depui?",
+    say="Scrie-ne un mesaj și verificăm împreună, din timp. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Self Assessment · deadline 31 January 2027",
+         h1="One day late costs <em>£100</em>.",
+         say="And the £100 is charged even if you owe no tax at all. Even if the return comes out at nil. Even if you have already paid in full."),
+    dict(type="step", step="What it grows to", fig="<cur>£</cur>900",
+         say="Three months late, HMRC can add £10 a day, up to £900. At six months and again at twelve, another 5% of the tax or £300 — whichever is greater.",
+         note="Paying late is counted separately: 5% of what is still unpaid at 30 days, then again at 6 and 12 months, with interest running every day."),
+    dict(type="step", step="Who does NOT pay the £100", fig="0",
+         say="The penalty is for a return HMRC asked you for. If you were never sent one, there is nothing to file. And if you no longer need to file, HMRC can cancel the penalty.",
+         note="Tell them in good time, before 31 January — leave it too late and the penalty stands. A reasonable excuse (hospital, a death in the family) can also be appealed, online or on form SA370."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Self Assessment · deadline 31 January 2027",
+    h1="Not sure whether you <em>have</em> to file?",
+    say="Message us and we will check it with you, in good time. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  # Google Business takes one frame and the whole message. This is the topic
+  # chosen for it on 9 November: a January deadline is what brings telephone
+  # enquiries into Luton and Birmingham.
+  GBP=[dict(type="solo",
+        kicker="Self Assessment · 31 January 2027",
+        h1="£100 even if you owe no tax.",
+        rows=[["<cur>£</cur>100", "the day after 31 January, nil return or not"],
+              ["<cur>£</cur>10", "a day after 3 months, up to £900"],
+              ["5%", "of the tax, for paying late at 30 days"]],
+        ask="Not sure you even have to file? Luton and Birmingham — message us before 31 January.",
+        phone=PHONE, disc="General information, not personal advice.")],
+
+  SOURCES=[
+    ("The late filing ladder, verbatim: \"You'll get the following late filing penalties: an initial £100 penalty / "
+     "after 3 months, additional daily penalties of £10 per day, up to a maximum of £900 / after 6 months, a further "
+     "penalty of 5% of the tax due or £300, whichever is greater / after 12 months, another 5% or £300 charge, "
+     "whichever is greater\". The same page states the late payment penalties: \"You'll get penalties of 5% of the tax "
+     "unpaid at: 30 days / 6 months / 12 months. You'll also be charged interest on the amount owed\", that \"All "
+     "partners will be charged a penalty if a partnership tax return is late\", and that a penalty itself must be paid "
+     "\"within 30 days of the date on the penalty notice\"",
+     "https://www.gov.uk/self-assessment-tax-returns/penalties", "2026-11-08"),
+    ("The deadlines, verbatim: \"You must submit your online tax return by 11:59pm on 31 January 2027 or you'll get a "
+     "late filing penalty\"; \"HMRC must receive your paper tax return by 11:59pm on 31 October 2026\" (already passed, "
+     "so online is the only route left for 2025/26); \"You need to pay your Self Assessment tax by 11:59pm on 31 "
+     "January 2027\"; and \"The last tax year started on 6 April 2025 and ended on 5 April 2026\"",
+     "https://www.gov.uk/self-assessment-tax-returns/deadlines", "2026-11-08"),
+    ("That the £100 is charged with no tax to pay — HMRC's own words: \"an initial £100 fixed penalty, which applies "
+     "even if there is no tax to pay, or if the tax due is paid on time\". The current /penalties guidance page does "
+     "NOT carry this wording, which is why it is sourced here and to statute",
+     "https://www.gov.uk/government/news/eight-days-left-to-file-your-self-assessment", "2026-11-08"),
+    ("Statute for the flat £100 with no tax test, \"P is liable to a penalty under this paragraph of £100\" (Sch 55 "
+     "para 3); the 90 days x £10 that make the £900 and the fact that daily penalties are NOT automatic — they bite "
+     "\"if (and only if)\" HMRC \"decide that such a penalty should be payable\" and \"give notice to P\" (para 4); the "
+     "6-month and 12-month penalties as \"the greater of (a) 5% of any liability to tax ... and (b) £300\" (paras 5 and "
+     "6); cancellation of liability where the notice to file is withdrawn (para 17A); and reasonable excuse (para 23), "
+     "which expressly excludes an insufficiency of funds unless outside P's control. Extent of the Schedule is U.K., "
+     "which is the basis for the cards saying the penalties are the same in all four nations. The late payment "
+     "percentages sit in Sch 56 paras 1 and 3",
+     "https://www.legislation.gov.uk/ukpga/2009/10/schedule/55", "2026-11-08"),
+    ("No notice to file, no obligation: \"Under the self assessment (SA) regime anyone sent a notice to file an SA tax "
+     "return is required to complete and file an SA tax return\", and on cancellation: \"If we agree to withdraw the "
+     "obligation to file an SA tax return then any penalties for failing to file the SA tax return on time will be "
+     "cancelled\". No public gov.uk guidance page states the first point in terms, so the card is written from the "
+     "manual and the statute rather than quoting a promise",
+     "https://www.gov.uk/hmrc-internal-manuals/compliance-handbook/ch61700", "2026-11-08"),
+    ("Telling HMRC in time, verbatim: \"You must tell HMRC as soon as possible if you believe you no longer need to "
+     "send a tax return. HMRC needs time to review your request before the Self Assessment deadline of 31 January. You "
+     "may have to pay a penalty if you do not tell them early enough\"",
+     "https://www.gov.uk/self-assessment-tax-returns/no-longer-need-to-send-a-tax-return", "2026-11-08"),
+    ("The appeal route as it stands now: \"You will be able to either: make your appeal online / download form SA370 or "
+     "SA371 to appeal by post\" — the old SA370 publication page now redirects here, so \"fill in SA370\" as the only "
+     "route is out of date. Also \"You can ask us to cancel a penalty if you do not need to send us a Self Assessment "
+     "tax return\"",
+     "https://www.gov.uk/guidance/check-when-to-appeal-a-self-assessment-penalty-for-late-filing-or-late-payment",
+     "2026-11-08"),
+    ("Reasonable excuses gov.uk accepts and rejects, verbatim, including \"your partner or another close relative died "
+     "shortly before the tax return or payment deadline\", \"you had an unexpected stay in hospital that prevented you "
+     "from dealing with your tax affairs\" and, among those NOT accepted, \"you did not get a reminder from HMRC\"",
+     "https://www.gov.uk/tax-appeals/reasonable-excuses", "2026-11-08"),
+    ("The interest rate actually in force on publication day. The table reads \"24 November 2026 | 8.00 | 3.00\" then "
+     "\"9 January 2026 | 7.75 | 2.75\", and the formula is \"late payment interest set at base rate plus 4% from 6 "
+     "April 2025 (was plus 2.5% on or before 5 April 2025)\". So 7.75% is the live rate on 9 November 2026 and 8.00% "
+     "starts on 24 November 2026 — the page's own \"current\" bullet quotes the rate that is not yet in force, which is "
+     "the trap. Interest runs from the day after the due date (FA 2009 s.101)",
+     "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
+     "2026-11-08"),
+    ("That the OLD penalties, not the new Making Tax Digital regime, apply to this deadline — decisive and verbatim: "
+     "\"The current penalties will still apply to previous tax years. For example, if you use Making Tax Digital for "
+     "Income Tax from 6 April 2026, current penalties will apply to your 2025 to 2026 tax return deadline of 31 "
+     "January 2027\". The points-based regime and the 3%/3%/10% late payment charges are for 2026/27 onwards",
+     "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax", "2026-11-08"),
+    ("Time to Pay, for the long captions: \"If you cannot pay your tax bill in full, you may be able to set up a "
+     "payment plan to pay it in instalments\" and \"There's no time limit on how long a payment plan can last\". The "
+     "current guidance page publishes NO threshold; the £30,000 self-serve figure is sourced to HMRC's own release of "
+     "23 January 2026 (\"may be able to set up a Time to Pay arrangement online if they owe less than £30,000 and meet "
+     "all relevant criteria\"), so the captions say \"under £30,000 and you meet HMRC's conditions\" and nothing more",
+     "https://www.gov.uk/difficulties-paying-hmrc", "2026-11-08"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide — England, Scotland, Wales and Northern Ireland alike. FA 2009 Schedules 55 and 56 carry the "
+           "U.K. extent marker and the gov.uk deadlines and penalties guides draw no territorial distinction. "
+           "Devolution changes the amount of tax (Scottish and Welsh rates of Income Tax), never the filing date or "
+           "the penalty. The one real difference on gov.uk is debt enforcement, not penalties: HMRC can \"take things "
+           "you own and sell them\" and \"take money directly from your bank account\" only \"if you live in England, "
+           "Wales or Northern Ireland\". No gov.uk sentence says the penalties are identical in all four nations, so "
+           "the cards state it plainly rather than quoting it.",
+    category="Anyone HMRC has sent a notice to file for 2025/26 — typically the self-employed, landlords, company "
+             "directors with untaxed income, people with Capital Gains to report, and this year anyone whose Winter "
+             "Fuel Payment from autumn 2025 is being recovered through the return. Partners in a partnership are a "
+             "distinct category: every partner is penalised when the partnership return is late, not just the "
+             "nominated partner.",
+    excluded="Three real exclusions, and the cards name them. (1) Someone HMRC never sent a notice to file. The Sch 55 "
+             "penalty attaches to a return under TMA 1970 s.8, which exists only where HMRC has given notice, and "
+             "CH61700 says \"anyone sent a notice to file an SA tax return is required to complete and file\" one — so "
+             "a person with no notice has nothing to file late and nothing to be penalised for. No public gov.uk page "
+             "says this in terms, so it is written from the manual and the statute. (2) Someone who no longer needs to "
+             "file and says so in time: HMRC can withdraw the notice under TMA 1970 s.8B and \"any penalties for "
+             "failing to file the SA tax return on time will be cancelled\" (CH61700, FA 2009 Sch 55 para 17A). The "
+             "trap, and the reason the card carries it as a note, is the timing — gov.uk: \"HMRC needs time to review "
+             "your request before the Self Assessment deadline of 31 January. You may have to pay a penalty if you do "
+             "not tell them early enough.\" (3) Reasonable excuse, which cancels liability rather than reducing it (Sch "
+             "55 para 23); gov.uk lists what it accepts and what it does not, and \"you did not get a reminder from "
+             "HMRC\" is on the rejected list. What is NOT an exclusion, and is the most expensive misunderstanding for "
+             "this audience: owing no tax. The £100 is flat and statutory and HMRC says it \"applies even if there is "
+             "no tax to pay, or if the tax due is paid on time\". Nor is the £100 ever reduced — it is cancelled or it "
+             "stands; HMRC's \"special circumstances\" discretion in Sch 55 para 16 expressly excludes ability to pay. "
+             "Two further precisions the cards respect: the £10-a-day penalties are not automatic (HMRC must decide and "
+             "give written notice, Sch 55 para 4, CH62120), and gov.uk's \"another 5% or £300\" at twelve months is the "
+             "ordinary case only — where information is deliberately withheld and concealed the statutory penalty is "
+             "the greater of 100% of the tax and £300, so 5% is not a ceiling.",
+    from_when="Now, for the 2025/26 return. The paper deadline of 31 October 2026 has already passed, so online "
+              "filing by 31 January 2027 is the only route left, and the tax is due the same day. Penalties are "
+              "automatic in the sense that nothing has to be claimed by HMRC to start the £100, but the daily "
+              "penalties require a decision and a notice. Cancellation always has to be asked for. Note for next "
+              "year: the Making Tax Digital points-based regime does NOT touch this deadline.",
+  ),
+)
+
+
+# ===================================================================== 2
+RENT_A_ROOM = dict(
+  slug="camera-inchiriata-7500",
+  title="Rent a Room — £7.500 pe an fără taxe, dar £3.750 dacă nu ești singur",
+  tags_ro="#rentaroom #chirie #hmrc #scutire #romaniinuk",
+  tags_en="#rentaroom #lodger #hmrc #taxfree #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Chirie · Rent a Room",
+         h1="Închiriezi o cameră în casa ta? Primii <em>£7.500</em> pe an sunt fără taxe.",
+         say="Scutirea se numește Rent a Room. Nu o ceri și nu completezi nimic: dacă încasezi sub £7.500 într-un an, vine automat."),
+    dict(type="step", step="Se numără cât încasezi", fig="<cur>£</cur>7.500",
+         say="Nu cât îți rămâne. Tot ce îți intră: chiria, plus banii pe mese, curățenie sau spălat rufe, dacă îi iei.",
+         note="Peste £7.500 depui declarație și alegi: plătești pe profitul real, cu cheltuieli scăzute, sau doar pe cât ai încasat peste £7.500, fără cheltuieli."),
+    dict(type="step", step="Cine NU are £7.500", fig="<cur>£</cur>3.750",
+         say="Dacă și altcineva încasează chirie din aceeași casă — de obicei partenerul, când casa e pe amândoi — fiecare are £3.750. Nu se adună la £15.000.",
+         note="Nu se aplică deloc la: camera nemobilată, casa împărțită în apartamente separate, camera dată ca birou sau depozit, și casa din UK închiriată cât timp tu stai în altă țară."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Chirie · Rent a Room",
+    h1="Nu știi dacă <em>intri</em> în scutire?",
+    say="Scrie-ne și ne uităm împreună la cât ai încasat și la ce trebuie depus. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Letting · Rent a Room",
+         h1="A lodger in your own home? The first <em>£7,500</em> a year is tax free.",
+         say="The relief is called Rent a Room. You do not claim it and you fill nothing in: take less than £7,500 in a year and it applies automatically."),
+    dict(type="step", step="It counts what comes in", fig="<cur>£</cur>7,500",
+         say="Not what you keep. Everything you receive: the rent, plus anything you charge for meals, cleaning or laundry.",
+         note="Over £7,500 you file a return and choose: pay on your actual profit with expenses deducted, or on your receipts above £7,500 with no expenses at all."),
+    dict(type="step", step="Who does NOT get £7,500", fig="<cur>£</cur>3,750",
+         say="If anyone else also receives letting income from the same home — usually a partner, where the house is in both names — you get £3,750 each. It does not add up to £15,000.",
+         note="It does not apply at all to: an unfurnished room, a house split into separate flats, a room let as an office or for storage, or a UK home let while you live abroad."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Letting · Rent a Room",
+    h1="Not sure the relief <em>covers</em> you?",
+    say="Message us and we will go through what you took and what has to be filed. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("The threshold and the halving, verbatim: \"The Rent a Room Scheme lets you earn up to a threshold of £7,500 per "
+     "year tax-free from letting out furnished accommodation in your home. The threshold is halved to £3,750 if you "
+     "share the income with someone else.\" The same page: \"The tax exemption is automatic if you earn less than your "
+     "threshold. Which means you do not need to do anything\"; \"You must complete a tax return if you earn more than "
+     "your threshold\"; \"You can let out as much of your home as you want\"; and \"You cannot use the scheme for "
+     "homes converted into separate flats\"",
+     "https://www.gov.uk/rent-room-in-your-home/the-rent-a-room-scheme", "2026-11-08"),
+    ("Statute, which is why the £7,500 can be stated for 2026/27 even though HMRC's latest helpsheet is still headed "
+     "2025 to 2026: ITTOIA 2005 s.789 fixes the amount permanently rather than annually — \"The basic amount for a tax "
+     "year is £7500\" — and makes the halving turn on the exclusive receipts condition: \"If the individual does [meet "
+     "it], the individual's limit for the tax year is the basic amount... If the individual does not, the individual's "
+     "limit for the tax year is half that amount.\" s.790 defines that condition by reference to receipts accruing to "
+     "any other person for the use of accommodation in the residence or for \"goods or services supplied in connection "
+     "with that use (such as meals, cleaning or laundry)\", and s.786(1) requires \"furnished accommodation in a "
+     "residence in the United Kingdom\" which \"is the individual's only or main residence\" for some or all of the "
+     "period. Extent of each section is U.K.",
+     "https://www.legislation.gov.uk/ukpga/2005/5/section/789", "2026-11-08"),
+    ("Gross receipts, not profit, and the exclusions list, verbatim from HMRC's helpsheet: \"Your gross receipts "
+     "include: rental income (before expenses); any amounts you receive for meals, goods and services, such as "
+     "cleaning or laundry; any 'balancing charges'\"; \"If your gross receipts are less than £7,500 (or £3,750) you're "
+     "automatically exempt from tax on that income\"; the two methods, \"Method A You pay tax on your actual profit\" "
+     "and \"Method B You pay tax on your gross receipts over the Rent-a-Room limit... You cannot deduct any expenses "
+     "or capital allowances if you choose this method\", with \"HMRC will automatically use your actual profit (Method "
+     "A)\"; and \"You cannot use the scheme if the accommodation is: ... not furnished ... not part of your main home "
+     "when you let it ... in your UK home and is let while you live abroad ... used as an office or for any business — "
+     "you can use the scheme if your lodger works in your home in the evening or at weekends or is a student who is "
+     "provided with study facilities\". Note the dating caveat: this is the 2025 to 2026 helpsheet, the latest "
+     "published; no 2026 to 2027 version exists yet",
+     "https://www.gov.uk/government/publications/rent-a-room-for-traders-hs223-self-assessment-helpsheet/hs223-rent-a-room-scheme-2026",
+     "2026-11-08"),
+    ("HMRC's Property Income Manual on the halving and on who qualifies: \"The exemption limit of £7,500 is reduced to "
+     "£3,750 if during the tax year to 5 April, someone else received income from letting accommodation in the same "
+     "property. This may happen where the taxpayer owns their home jointly with another person\" (PIM4010, which also "
+     "states that a UK home let while the owner lives abroad \"will not normally be within rent-a-room\"); and from "
+     "PIM4001, \"For the purposes of the rent-a-room scheme, gross receipts include not only rents but also payments "
+     "made to the taxpayer for the provision of any other goods or services\", \"Rent-a-room applies to people who let "
+     "a room in a home they rent as well as to people who own their homes\", and \"Only residential accommodation used "
+     "as such qualifies. There is no relief if, for example, a room in the residence is let as an office or for "
+     "storage\"",
+     "https://www.gov.uk/hmrc-internal-manuals/property-income-manual/pim4010", "2026-11-08"),
+    ("Furnished only, with the sting that one unfurnished letting in the same residence poisons the rest: \"Rent-a-room "
+     "applies to furnished lettings only. If the taxpayer has any unfurnished letting in his only or main residence, "
+     "then he or she is not a qualifying individual. Therefore any furnished letting the same taxpayer has in the same "
+     "residence cannot attract rent-a-room relief\"",
+     "https://www.gov.uk/hmrc-internal-manuals/property-income-manual/pim4012", "2026-11-08"),
+    ("Why the £1,000 property allowance is not an alternative on the same money: \"You can get up to £1,000 each tax "
+     "year in tax-free allowances for property or trading income\", \"You cannot use this allowance on income from "
+     "letting a room in your own home under the Rent a Room Scheme\", and \"You cannot use the property allowance if "
+     "you: ... deduct expenses from income from letting a room in your own home instead of using the Rent a Room "
+     "Scheme\". The property allowance is a separate £1,000 from the trading allowance — \"If you have both types of "
+     "income, you'll get a £1,000 allowance for each\"",
+     "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income", "2026-11-08"),
+    ("Council tax and the bills, verbatim: \"You will be responsible for Council Tax and can include part of the cost "
+     "in the rent you charge. You must tell your council if having a tenant means you're no longer entitled to a "
+     "single person discount\". Also on the same guide: \"You may have to pay Capital Gains Tax when you sell your "
+     "home if: you let out all or part of it; you've taken in more than one tenant or lodger at a time\"",
+     "https://www.gov.uk/rent-room-in-your-home/rent-bills-and-tax", "2026-11-08"),
+    ("The lodger's rent and Universal Credit, from DWP's own decision-making guidance (ADM Chapter H5, para H5112) "
+     "rather than from any ordinary UC guidance page, which is silent: \"Because this weekly income from a sub-tenant "
+     "or boarder is not defined as income for the purposes of UC, it is not taken into account as Teresa's unearned "
+     "income. Note 1: It is not relevant whether the rental income is above or below the 'rent a room' tax relief "
+     "limits. Note 2: if a self-employed claimant is renting out rooms in their house as part of conducting a trade, "
+     "for example running a B&B, then that income would be taken into account in the same way as other earnings\"",
+     "https://assets.publishing.service.gov.uk/media/691c864ad140bbbaa59a29a0/adm-ch-h5-unearned-income.pdf",
+     "2026-11-08"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide as a matter of tax. ITTOIA 2005 ss.786, 789 and 790 each carry the U.K. extent marker and s.786(1) "
+           "speaks of \"a residence in the United Kingdom\". What is NOT UK-wide, and must not be conflated with the "
+           "tax relief, is landlord registration and licensing: Scotland requires landlord registration but exempts "
+           "someone who lives \"in the property as a resident landlord\"; Wales requires Rent Smart Wales "
+           "registration but the duty \"does not apply ... if an owner occupier has one or more lodgers in their home "
+           "and the lodgers share amenities with the homeowner\"; Northern Ireland's Landlord Registration Scheme is "
+           "stated in absolute terms on nidirect with no lodger exemption named either way, so no claim is made about "
+           "it; and in England letting rooms to more than two people can make the property a House in Multiple "
+           "Occupation needing a licence. One genuine future divergence on the tax side: the new separate property "
+           "income rates from April 2027 apply \"to England, Wales and Northern Ireland\", with Scotland and Wales "
+           "able to set their own.",
+    category="An individual — not a company and not a partnership — who lets furnished living accommodation in the "
+             "home that is their own only or main residence, whether they own it or rent it themselves. It reaches a "
+             "resident landlord with a lodger, a family taking in a student, and someone running a bed and breakfast "
+             "or guest house from their own home. Joint owners can each use it where they hold the income jointly "
+             "without being a partnership.",
+    excluded="The exclusions are the whole point of card 3, and there are two kinds. First, the halving, which is the "
+             "one people lose money on: the £7,500 is an individual's limit, but it drops to £3,750 each where anyone "
+             "else receives letting income from the same residence, which is the ordinary case for a couple who own "
+             "the house together. Two people letting one room do not get £15,000 between them and do not get one "
+             "£7,500 — they get £3,750 apiece. Second, the outright disqualifications in HS223 and the manual: "
+             "accommodation that is not furnished (and HMRC goes further in PIM4012 — any unfurnished letting in the "
+             "same residence makes the person a non-qualifying individual, so the furnished letting loses relief too); "
+             "accommodation that is \"not part of your main home when you let it\"; a UK home let while the owner "
+             "lives abroad; a room let as an office, for a business or for storage, with a narrow carve-out where a "
+             "lodger works at home in the evenings or a student is given study facilities; and a home converted into "
+             "separate flats. A self-contained flat inside the main residence is a question of fact under PIM4004 — it "
+             "qualifies only where the division is temporary — so no flat rule is stated. Companies and partnerships "
+             "are outside the scheme altogether. Three further things that are NOT exclusions and are worth knowing: "
+             "renting rather than owning the home is fine; the limit is the same even if the letting ran for less than "
+             "twelve months; and a lodger's rent is not counted as income for Universal Credit, whatever the tax "
+             "limits say, unless the letting is part of a trade such as a B&B. And one real cost that is not a tax "
+             "exclusion: taking in a lodger normally ends the 25% council tax single-person discount, which the "
+             "council has to be told about, unless the lodger is in a disregarded category.",
+    from_when="Now, and for 2026/27. The amount is fixed by statute rather than set each year, so it does not change "
+              "with the tax year. Below the limit the relief is automatic with nothing to claim and no need to tell "
+              "HMRC; above it a return is required and Method B has to be elected in writing within one year of the "
+              "31 January following the tax year, with HMRC defaulting to actual profit if nothing is said. Two "
+              "changes already legislated or announced are outside what the cards claim: separate property income "
+              "rates of 24%, 44% and 49% from 6 April 2027, and the trading allowance — not the property allowance — "
+              "rising to £3,000 from the same date.",
+  ),
+)
+
+
+# ===================================================================== 3
+CGT_60_DAYS = dict(
+  slug="cgt-60-zile",
+  title="Ai vândut o casă care nu era casa ta — 60 de zile ca să declari și să plătești",
+  tags_ro="#capitalgainstax #proprietate #hmrc #60dezile #romaniinuk",
+  tags_en="#capitalgainstax #ukproperty #hmrc #60days #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Capital Gains Tax · proprietăți din UK",
+         h1="Ai vândut o casă care nu era casa ta? Ai <em>60 de zile</em>.",
+         say="60 de zile de la ziua în care s-a încheiat vânzarea, nu de la semnarea contractului. În cele 60 de zile declari ȘI plătești."),
+    dict(type="step", step="E o declarație separată", fig="60",
+         say="Nu e Self Assessment. Se depune într-un cont separat la HMRC, pentru proprietăți. Dacă oricum depui Self Assessment, vânzarea se trece și acolo.",
+         note="Se plătește 18% sau 24% din câștig, după banda în care intră. Primii £3.000 de câștig din tot anul nu se impozitează."),
+    dict(type="step", step="Cine NU declară în 60 de zile", fig="0",
+         say="Casa în care ai locuit tot timpul cât a fost a ta, dacă era singura ta casă: de regulă nu plătești și nu declari nimic. Și dacă nu iese taxă de plătit, declarația nu e cerută.",
+         note="Cele 60 de zile sunt numai pentru locuințe din UK. Acțiunile și spațiile comerciale merg în Self Assessment, la termenul obișnuit. Condițiile complete pentru casa proprie sunt pe gov.uk/tax-sell-home."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Capital Gains Tax · proprietăți din UK",
+    h1="Vinzi și nu știi <em>dacă</em> ai de plătit?",
+    say="Scrie-ne înainte să se încheie vânzarea — 60 de zile trec repede. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Capital Gains Tax · UK property",
+         h1="Sold a property that was not your home? You have <em>60 days</em>.",
+         say="60 days from the day the sale completed, not from exchange of contracts. Inside those 60 days you report AND pay."),
+    dict(type="step", step="It is a separate return", fig="60",
+         say="It is not the Self Assessment return. It goes through a separate HMRC account for property. If you file Self Assessment anyway, the sale goes on that as well.",
+         note="The rate is 18% or 24% of the gain, depending on which band it falls in. The first £3,000 of gains in the whole year is not taxed."),
+    dict(type="step", step="Who does NOT report in 60 days", fig="0",
+         say="Your only home, lived in the whole time you owned it: usually nothing to pay and nothing to report. And where no tax is due, no return is needed.",
+         note="The 60 days is for UK homes only. Shares and commercial property go on the Self Assessment return. Full conditions: gov.uk/tax-sell-home."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Capital Gains Tax · UK property",
+    h1="Selling, and unsure <em>whether</em> there is tax?",
+    say="Message us before the sale completes — 60 days goes quickly. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("The 60 days, and that it runs from completion, verbatim: \"You must report and pay any Capital Gains Tax due on "
+     "UK residential property within 60 days of completing the sale of the property\", with the table row \"If you sold "
+     "a residential property in the UK with a completion date on or after 27 October 2021 | Within 60 days\". The same "
+     "page: \"If you're already registered for Self Assessment, you'll also need to include details of the sale in "
+     "your Self Assessment tax return\"; \"Use a Capital Gains Tax on UK property account to: report and pay any tax "
+     "due on UK property\"; \"You need to sign in to report and pay online. If you do not already have sign in "
+     "details, you'll be able to create them when you sign in for the first time\"; and the paper route, \"You'll need "
+     "to complete an online form then print and send it to HMRC\"",
+     "https://www.gov.uk/report-and-pay-your-capital-gains-tax/if-you-sold-a-property-in-the-uk-on-or-after-6-april-2020",
+     "2026-11-08"),
+    ("Statute for the deadline and the payment date: the return \"must [be delivered] to an officer of Revenue and "
+     "Customs on or before the [60th] day following the day of the completion of the disposal\" (FA 2019 Sch 2 para "
+     "3(1)(b), as substituted by FA 2022 s.23(2)) and \"The amount is payable on the filing date for the return\" "
+     "(para 6(3)). Para 4(1) is the authority for no return where there is no liability, and para 1(2)(a) excludes "
+     "no gain/no loss disposals, which is what takes a transfer to a spouse or civil partner outside the regime. "
+     "Extent U.K.",
+     "https://www.legislation.gov.uk/ukpga/2019/1/schedule/2", "2026-11-08"),
+    ("No tax, no return — HMRC's own manual, verbatim: \"There is no need to report any disposal where there is no CGT "
+     "liability (although users can report such disposals voluntarily). There may be no liability for example if: "
+     "Private Residence Relief applies in full...; The gain is covered by the Annual Exemption...; The gain is covered "
+     "by brought forward losses or current year losses realised prior to completion of the disposal...; A CGT Relief "
+     "applies which reduces the full gain to nil\". The same page notes the opposite rule for non-UK residents: "
+     "\"Non-UK residents must report all disposals of UK property to HMRC, even if there is no tax to pay or have made "
+     "a loss\"",
+     "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg-app18-110", "2026-11-08"),
+    ("The rates and the allowance for 2026/27, verbatim: \"6 April 2026 onwards — The following Capital Gains Tax rates "
+     "apply: 18% and 24% for individuals; 24% for trustees; 24% for personal representatives of someone who has died; "
+     "18% for gains qualifying for Business Asset Disposal Relief or Investors' Relief\", and \"2026 to 2027 | £3,000 "
+     "| £1,500\" for the annual exempt amount. Important for anyone recycling older copy: since 30 October 2024 there "
+     "is no separate residential property rate — 18%/28% and the old 10%/20% split for other assets are both gone",
+     "https://www.gov.uk/guidance/capital-gains-tax-rates-and-allowances", "2026-11-08"),
+    ("The band test and the allowance in plain words: \"If this amount is within the basic Income Tax band, you'll pay "
+     "18% on your gains made from 6 April 2026... For any amount above the basic Income Tax band, you'll pay 24% on "
+     "gains made from 6 April 2026\", and \"For the 2026 to 2027 tax year the allowance is £3,000\". Also \"You only "
+     "pay Capital Gains Tax if your overall gains for the tax year (after deducting any losses and applying any "
+     "reliefs) are above the annual exempt amount\"",
+     "https://www.gov.uk/capital-gains-tax/rates", "2026-11-08"),
+    ("Private Residence Relief, and why the card says \"usually\" and points at the full conditions rather than "
+     "promising the relief. gov.uk: \"You do not pay Capital Gains Tax when you sell (or 'dispose of') your home if "
+     "all of the following apply: you have one home and you've lived in it as your main home for all the time you've "
+     "owned it; you have not let part of it out - this does not include having a lodger; you have not used a part of "
+     "your home exclusively for business purposes...; the grounds, including all buildings, are less than 5,000 square "
+     "metres...; you did not buy it just to make a gain.\" And: \"If all these apply you will automatically get a tax "
+     "relief called Private Residence Relief and will have no tax to pay. If any of them apply, you may have some tax "
+     "to pay\"",
+     "https://www.gov.uk/tax-sell-home", "2026-11-08"),
+    ("The final nine months, from HMRC's helpsheet HS283: \"The final 9 months of your period of ownership always "
+     "qualify for relief, regardless of how you use the property in that time, as long as the dwelling house has been "
+     "your only or main residence at some point\", with 36 months for a disabled person or a care home resident",
+     "https://www.gov.uk/government/publications/private-residence-relief-hs283-self-assessment-helpsheet/hs283-private-residence-relief-2026",
+     "2026-11-08"),
+    ("What is outside the 60-day rule, verbatim: \"If your capital gain is not from a UK residential property, you can "
+     "report your gain: in a Self Assessment tax return; using the 'real time' Capital Gains Tax service\" and \"You "
+     "must report by 31 December in the tax year after you made your gain and pay by 31 January. For example, if you "
+     "made a gain in the 2025 to 2026 tax year, you need to report it by 31 December 2026 and pay by 31 January 2027\"",
+     "https://www.gov.uk/report-and-pay-your-capital-gains-tax/if-you-have-other-capital-gains-to-report", "2026-11-08"),
+    ("Spouses and civil partners: \"You do not pay Capital Gains Tax on assets you give or sell to your husband, wife "
+     "or civil partner, unless: you separated and did not live together at all in that tax year; you gave them goods "
+     "for their business to sell on\", and \"Married couples and civil partners can only count one property as their "
+     "main home at any one time\"",
+     "https://www.gov.uk/capital-gains-tax/gifts", "2026-11-08"),
+    ("Penalties and interest for a missed 60-day return. There is no CGT-property-specific penalty table on gov.uk, so "
+     "the figures come from statute: FA 2009 Sch 55 applies paras 3 to 6 to \"a return under Schedule 2 to FA 2019\" "
+     "(Table item 2A), giving £100 immediately, then the greater of 5% of the tax and £300 at six months and again at "
+     "twelve. HMRC's factsheet CC/FS18a states the same amounts in plain words for Income Tax, CGT and ATED returns. "
+     "Late-paid tax carries interest at base rate plus 4% — 7.75% on publication day, rising to 8.00% on 24 November "
+     "2026. Announced at Budget 2026 and not yet an Act: where the disposal is reported on a Self Assessment return "
+     "\"late filing penalties stop accruing from that point\", for returns delivered from 28 October 2026",
+     "https://www.legislation.gov.uk/ukpga/2009/10/schedule/55", "2026-11-08"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide. Capital Gains Tax is not devolved: FA 2019 Sch 2 carries the U.K. extent marker, HMRC defines a "
+           "UK tax resident as resident in \"England, Scotland, Wales and Northern Ireland\", and no gov.uk CGT page "
+           "draws a territorial distinction. What IS devolved is a different tax, paid by the BUYER rather than the "
+           "seller, and the cards never mention it: Stamp Duty Land Tax in England and Northern Ireland, Land and "
+           "Buildings Transaction Tax in Scotland, Land Transaction Tax in Wales. The 18%/24% band test uses the UK "
+           "basic rate band in gov.uk's own worked examples; no primary page spells out the position for a Scottish "
+           "taxpayer, so nothing is claimed about it.",
+    category="Someone who disposes of UK residential property at a gain that is not fully relieved — a second home, a "
+             "buy-to-let, an inherited house, a property that was once a home but was let for part of the ownership. "
+             "The obligation falls on the seller. Trustees and personal representatives are in scope at 24%. Non-UK "
+             "residents are a separate and stricter category and are left to the long captions rather than the cards.",
+    excluded="Four exclusions, and the cards carry three of them. (1) Your own home, where Private Residence Relief "
+             "applies in full. The card says \"usually\" and points at gov.uk/tax-sell-home deliberately, because full "
+             "relief needs every one of gov.uk's conditions: one home, lived in as the main home for all the time it "
+             "was owned, no part let out beyond a lodger, no part used exclusively for business, grounds under 5,000 "
+             "square metres, and not bought just to make a gain. A card promising \"no tax on your own home\" would be "
+             "wrong for anyone who let a floor or ran a business from a dedicated room. Separately, the final nine "
+             "months of ownership always qualify, whatever the property was used for then, provided it was the only or "
+             "main residence at some point. (2) No tax to pay means no return is required for a UK resident — the gain "
+             "falls inside the £3,000 annual exempt amount, or losses or a relief reduce it to nil (CG-APP18-110, FA "
+             "2019 Sch 2 para 4(1)). This is the line that stops a reader filing in a panic over a £1,500 gain. (3) "
+             "Assets that are not UK homes: shares, commercial premises and land go on the Self Assessment return at "
+             "the ordinary deadline, or through the real time service, not in 60 days. (4) A transfer to a husband, "
+             "wife or civil partner you live with: no CGT and outside the regime, because it is a no gain/no loss "
+             "disposal. What is NOT an exclusion, and is the reverse trap: a non-UK resident must report every "
+             "disposal of UK property or land, residential or not, \"even if there is no tax to pay or have made a "
+             "loss\" — so the \"no tax, no return\" shortcut is exactly wrong for them. That sits in the long captions "
+             "rather than on a card, because it needs the statutory residence test to be useful and the cards are not "
+             "the place for it.",
+    from_when="Now. The 60-day deadline applies to completions on or after 27 October 2021; the 30-day rule it "
+              "replaced is long gone and is still the commonest error in recycled copy. The 18%/24% rates apply from "
+              "6 April 2026 and Budget 2026 shows them unchanged for 2027/28, as is the £3,000 allowance. Nothing is "
+              "automatic: the return has to be made and the tax paid by the taxpayer, through a separate HMRC "
+              "property account, and HMRC's sign-in details have to exist first — which is why the advice is to "
+              "start before completion rather than after it.",
+  ),
+)
+
+
+# ===================================================================== 4
+CHILDCARE_30H = dict(
+  slug="cresa-30-ore",
+  title="Creșă plătită de stat — 30 de ore pe săptămână în Anglia, de la 9 luni",
+  tags_ro="#cresa #copii #anglia #parinticarelucreaza #romaniinuk",
+  tags_en="#childcare #workingparents #england #freechildcare #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Creșă și grădiniță · numai Anglia",
+         h1="<em>30 de ore</em> de creșă pe săptămână, plătite de stat.",
+         say="În Anglia, pentru părinți care lucrează: 30 de ore pe săptămână, 38 de săptămâni pe an, de la 9 luni până la școală. Nu vine singur — trebuie cerut."),
+    dict(type="step", step="Cât trebuie să câștigi", fig="£203",
+         say="Fiecare părinte trebuie să se aștepte să câștige cel puțin £203,36 pe săptămână, dacă are peste 21 de ani. Atât iese salariul minim pentru 16 ore pe săptămână.",
+         note="Ceri un cod online, îl dai la creșă, și apoi intri din 3 în 3 luni ca să confirmi că încă te încadrezi. Dacă uiți să confirmi, codul nu mai e valabil."),
+    dict(type="step", step="Cine NU primește", fig="£100.000",
+         say="Dacă un singur părinte se așteaptă la un venit peste £100.000 în anul fiscal, nu primește nimeni din familie. Nici celălalt părinte, oricât de puțin câștigă.",
+         note="Și e numai în Anglia — Scoția, Țara Galilor și Irlanda de Nord au alte scheme. Orele sunt gratuite, dar creșa poate cere bani pe mâncare, scutece sau excursii; nu are voie să le facă obligatorii."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Creșă și grădiniță · numai Anglia",
+    h1="Codul se cere pe <em>gov.uk</em>, nu de la contabil.",
+    say="Condițiile și cererea sunt pe gov.uk/free-childcare-if-working. Pentru taxe, salarii și dividende, scrie-ne.",
+    phone=PHONE, disc="Informații generale, nu consultanță pe ajutoare de stat. Condițiile sunt pe gov.uk."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Childcare · England only",
+         h1="<em>30 hours</em> of childcare a week, paid by the government.",
+         say="In England, for working parents: 30 hours a week, 38 weeks a year, from 9 months old until school. It does not arrive on its own — you have to apply."),
+    dict(type="step", step="What you have to earn", fig="£203",
+         say="Each parent must expect to earn at least £203.36 a week if they are 21 or over. That is the minimum wage for 16 hours a week.",
+         note="You apply online for a code, give the code to the provider, then sign in every 3 months to reconfirm you still qualify. Miss the reconfirmation and the code stops being valid."),
+    dict(type="step", step="Who does NOT get it", fig="£100,000",
+         say="If either parent expects an adjusted net income over £100,000 this tax year, nobody in the family gets it. Not the other parent either, however little they earn.",
+         note="And it is England only — Scotland, Wales and Northern Ireland run different schemes. The hours are free, but a provider may charge for meals, nappies or trips; they are not allowed to make those compulsory."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Childcare · England only",
+    h1="The code comes from <em>gov.uk</em>, not from an accountant.",
+    say="The conditions and the application are at gov.uk/free-childcare-if-working. For tax, payroll and dividends, message us.",
+    phone=PHONE, disc="General information, not benefits advice. The conditions are on GOV.UK."),
+
+  SOURCES=[
+    ("The entitlement, the earnings test and the disqualifiers, verbatim: \"If your child is aged 9 months to 4 years "
+     "old you can get 30 hours per week of free childcare for 38 weeks of the year\"; the minimum income table giving "
+     "\"Over 21 years | £2,643.68 | £203.36\" with \"This is the National Minimum Wage or Living Wage for 16 hours a "
+     "week on average\" and \"You (and your partner, if you have one) must each expect to earn a certain amount over "
+     "the 3 months after you apply\"; \"You will not be eligible if either: your child does not usually live with you; "
+     "you or your partner's expected adjusted net income (including any foreign income) is over £100,000 for the "
+     "current tax year\"; what does not count towards the minimum — \"dividends; interest; income from investing in "
+     "property; pension payments\"; and the non-working-partner exceptions, \"You may still be eligible if your "
+     "partner is working, and you are on carer's leave or eligible for any of the following: Incapacity Benefit; "
+     "Severe Disablement Allowance; Carer's Allowance; the limited capability for work element of Universal Credit; "
+     "the carer's element of Universal Credit; contribution-based Employment and Support Allowance; National Insurance "
+     "credits\"",
+     "https://www.gov.uk/free-childcare-if-working/check-youre-eligible", "2026-11-08"),
+    ("That it is England only and has to be claimed, verbatim: \"Your child must be aged 9 months to 4 years old and "
+     "you must live in England. There are: different schemes in Scotland; different schemes in Wales; different "
+     "schemes in Northern Ireland\"; \"To apply, you'll need to set up a childcare account. If your application is "
+     "approved, you'll get an 11-digit code that proves you're eligible to get free childcare. You'll need to give "
+     "this code to your childcare provider\"; \"You must sign in to your childcare account every 3 months to confirm "
+     "your details are up to date\"; \"You can apply for 30 hours of free childcare from when your child is 23 weeks "
+     "old\"; and on Tax-Free Childcare, \"You cannot get both Tax-Free Childcare and Universal Credit childcare at the "
+     "same time\"",
+     "https://www.gov.uk/free-childcare-if-working", "2026-11-08"),
+    ("The 38 weeks, the stretching and — the line that matters most to a parent paying an invoice — what a provider may "
+     "and may not charge, verbatim: \"You can get 30 hours of free childcare per week for 38 weeks of the year\"; \"You "
+     "may be able to get free childcare for more than 38 weeks a year if you take fewer hours over more weeks\"; "
+     "\"Although the childcare is free, you may be asked to pay for some extras, such as: meals; nappies; any "
+     "additional hours on top of the 30 free hours you can get; additional activities, such as trips\"; \"If you do "
+     "not want to pay for these extras, your provider should agree to an alternative arrangement\"; \"You can still "
+     "get the free childcare if you do not pay for any extra costs\"; and \"If your provider says you must pay for "
+     "extras and will not agree to an alternative arrangement, speak to your local council\"",
+     "https://www.gov.uk/free-childcare-if-working/what-youll-get", "2026-11-08"),
+    ("The statutory backing, which is stronger than the parent-facing wording and is what the \"not allowed to make "
+     "them compulsory\" line rests on. DfE statutory guidance effective 1 April 2026: \"The 15 or 30 hours must be "
+     "able to be accessed free of charge to parents. There must not be any mandatory charges for parents in relation "
+     "to the free hours\" (A1.31); charges for consumables, meals and optional activities are allowed but \"these "
+     "charges must be voluntary for the parent\" (A1.32); \"Parents must be able to opt out of paying for chargeable "
+     "extras\" (A1.34); providers must offer \"reasonable alternatives that allow parents to access the entitlement "
+     "for free\" (A1.35); \"these chargeable extras must not be a condition of accessing a free place\" (A1.36); and "
+     "top-up fees, learning materials, business running costs, non-refundable registration fees and deposits, SEND "
+     "support costs and \"non-itemised enrichment charges, sustainability charges\" are all prohibited (A1.38). The "
+     "same guidance gives the entitlement as \"1,140 hours of free provision over at least 38 weeks\", confirms "
+     "children become eligible \"on 1 April, 1 September or 1 January following them attaining the age of 9 months\", "
+     "and sets out the grace-period dates in Table A",
+     "https://www.gov.uk/government/publications/early-education-and-childcare--2/early-education-and-childcare-valid-from-1-april-2026",
+     "2026-11-08"),
+    ("The termly application deadline, verbatim: \"When you would like to use your entitlements from / The deadline to "
+     "apply for a code: 1 January → 31 December; 1 April → 31 March; 1 September → 31 August\" and \"If you do not "
+     "apply on or before the deadline, you will not be able to take up your entitlements in that term\". GOV.UK and "
+     "Best Start in Life both state the rule by date with no year, so the captions give the rule and name 31 December "
+     "2026 only as the application of it for a January 2027 start",
+     "https://www.gov.uk/free-childcare-if-working/when-to-apply", "2026-11-08"),
+    ("Company directors, which is the part an accountancy practice is actually the right place to ask about: \"You'll "
+     "need to show you meet the minimum income requirements if you're a company director. HM Revenue and Customs "
+     "(HMRC) will try to check this using your PAYE records. If you do not submit regular PAYE information, you may "
+     "have to provide evidence to show you are working and expect to meet the minimum income requirements for the next "
+     "3 months. This could be: wage slips; bank statements; a statement from your accountant; copies of invoices\", "
+     "and \"You'll need to do this the first time you apply and every time you reconfirm your eligibility\". Read "
+     "together with the rule that dividends do not count towards the minimum, this is why a director on a small salary "
+     "and large dividends can fail the test",
+     "https://www.gov.uk/free-childcare-if-working/apply-for-free-childcare-if-youre-working", "2026-11-08"),
+    ("The universal 15 hours that does not depend on working or earnings, for the long captions: \"All 3 to 4-year-olds "
+     "in England can get 570 free hours per year. It's usually taken as 15 hours a week for 38 weeks of the year\" and "
+     "\"You can get it from the term after your child's 3rd birthday, starting on 1 January, 1 April or 1 September\"",
+     "https://www.gov.uk/help-with-childcare-costs/free-childcare-and-education-for-3-to-4-year-olds", "2026-11-08"),
+    ("Tax-Free Childcare, the separate scheme that can run alongside: \"For every £8 you pay into the account, the "
+     "government will top it up by £2\", \"The total top up you can get for each child is £500 every 3 months (up to "
+     "£2,000 a year)\", \"your child must be 11 or younger (16 or younger if they're disabled)\", \"You must sign in "
+     "to your childcare account every 3 months to confirm you're still eligible\", and the point that it can pay for "
+     "exactly what the funded hours cannot — \"You can also use it to pay for extras such as nappies, meals and "
+     "trips, where these are supplied by your childcare provider\"",
+     "https://www.gov.uk/tax-free-childcare", "2026-11-08"),
+    ("The minimum wage arithmetic behind £203.36: the April 2026 rates are £12.71 for 21 and over, £10.85 for 18 to 20 "
+     "and £8.00 for under 18 and apprentices, and 16 x £12.71 = £203.36. April 2027 rates are already published at "
+     "£13.21, £11.27 and £8.31, so the figure on this card has a shelf life and should be rebuilt in April",
+     "https://www.gov.uk/national-minimum-wage-rates", "2026-11-08"),
+    ("Scotland, for the nation comparison: \"Since August 2021, all local authorities have been offering 1,140 hours of "
+     "funded ELC to all eligible children\" and \"Scotland is the only part of the UK to offer 1,140 hours a year of "
+     "funded ELC to all 3 and 4 year olds and eligible 2 year olds, regardless of their parents' working status\" — "
+     "same annual hours as England's working-parent offer, but from age 3 and with no earnings test",
+     "https://www.gov.scot/policies/early-education-and-care/early-learning-and-childcare/", "2026-11-08"),
+    ("Wales, for the nation comparison: \"Parents and guardians can apply for up to 30 hours of combined government "
+     "funded nursery education and childcare a week... 30 hours a week is made up of: at least 10 hours of nursery "
+     "education; up to 20 hours of childcare\" and \"You can choose how much of the 30 hours you use for up to 48 "
+     "weeks of the year\" — 3 and 4 year olds only, and the Welsh income test is gross income of £100,000 or less, not "
+     "adjusted net income",
+     "https://www.gov.wales/childcare-3-and-4-year-olds", "2026-11-08"),
+    ("Northern Ireland, for the nation comparison: \"The Pre-School Education Programme funds education for children "
+     "in the year before they start primary school\" and \"All pre-school places available under the Pre-School "
+     "Education Programme are funded by the government. Parents don't pay for these places.\" nidirect publishes no "
+     "weekly hours figure, so none is claimed. Separately, \"The Northern Ireland Childcare Subsidy Scheme (NICSS) "
+     "aims to reduce the childcare costs of eligible working parents by 15 per cent\", and \"Parents must be claiming "
+     "Tax-Free Childcare to receive\" it",
+     "https://www.nidirect.gov.uk/articles/pre-school-education-places", "2026-11-08"),
+  ],
+  SCOPE=dict(
+    nation="ENGLAND ONLY, and the cards say so on the first frame and again on card 3. Scotland funds 1,140 hours a "
+           "year for all 3 and 4 year olds and eligible 2 year olds \"regardless of their parents' working status\" — "
+           "the same annual hours, from a later age, with no earnings test. Wales runs the Childcare Offer for Wales, "
+           "up to 30 hours a week over up to 48 weeks for 3 and 4 year olds only, tested on gross income of £100,000 "
+           "or less rather than adjusted net income. Northern Ireland has no 30-hours working-parent offer at all: "
+           "funded pre-school in the year before primary school, plus a 15% subsidy on top of Tax-Free Childcare for "
+           "which \"Universal Credit claimants are not eligible\". No weekly hours figure is published for Northern "
+           "Ireland and none is claimed. Tax-Free Childcare, by contrast, is UK-wide.",
+    category="A working parent in England of a child aged 9 months to 4 years, where each parent in the household "
+             "expects to earn at least the equivalent of 16 hours a week at the minimum wage for their age over the "
+             "next three months (£203.36 a week, £2,643.68 a quarter, at 21 and over) and neither expects an adjusted "
+             "net income over £100,000. Employment is read broadly: in work or starting a job, on sick or annual "
+             "leave, on parental, maternity, paternity or adoption leave. Company directors are in scope but have to "
+             "evidence the minimum where PAYE records do not show it.",
+    excluded="Four exclusions, three of them on card 3 and the fourth in its note. (1) Everyone outside England. (2) A "
+             "family where EITHER parent expects adjusted net income over £100,000 — the test is individual, both "
+             "parents must be above the minimum and both below the cap, so one parent at £101,000 ends the claim for "
+             "the household however little the other earns. (3) A family where one parent does not work, unless the "
+             "working partner's claim is saved by one of gov.uk's listed grounds (carer's leave, Carer's Allowance, "
+             "Incapacity Benefit, Severe Disablement Allowance, the limited capability for work or carer's element of "
+             "Universal Credit, contribution-based ESA, National Insurance credits). (4) Anyone who has not applied, "
+             "or who has stopped reconfirming: there is no automatic entitlement here at all — a code has to be "
+             "applied for, handed to the provider and reconfirmed every three months, and gov.uk warns \"If you do not "
+             "apply on or before the deadline, you will not be able to take up your entitlements in that term\". Two "
+             "more that are not exclusions from the scheme but are the commonest disappointment, and the reason card "
+             "3's note exists: the funded hours do not cover the whole bill — a provider may charge for meals, "
+             "nappies, consumables, trips and extra hours, but DfE's statutory guidance says those charges \"must be "
+             "voluntary\", \"must not be a condition of accessing a free place\", must be itemised on the invoice, and "
+             "the provider must offer a free alternative such as letting the parent bring their own; and the hours "
+             "cannot be used for a nanny, a home carer or a grandparent. Dividends, interest, property income and "
+             "pension payments do not count towards the minimum earnings, which is what catches an owner-managed "
+             "company director on a small salary. Finally, a family that fails the working-parent test still keeps the "
+             "universal 15 hours for a 3 or 4 year old, which depends on nothing.",
+    from_when="Now. The 30 hours from 9 months has been live since 1 September 2025 and the expansion is complete — "
+              "there is no further step in 2026, and DfE's current guidance table has a single row. The earnings "
+              "figures changed on 1 April 2026 with the minimum wage and change again on 1 April 2027, so this "
+              "carousel is dated. It is claimed, never automatic, and the termly deadline is 31 December for a 1 "
+              "January start, 31 March for 1 April and 31 August for 1 September. Nothing here touches residence or "
+              "status, which is outside what this firm may advise on and is deliberately absent from every card and "
+              "caption.",
+  ),
+)
+
+
+# ===================================================================== 5
+HELP_TO_SAVE = dict(
+  slug="help-to-save-50",
+  title="Help to Save — pui £50, statul adaugă £25",
+  tags_ro="#helptosave #economii #universalcredit #bonus #romaniinuk",
+  tags_en="#helptosave #savings #universalcredit #bonus #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Economii · Help to Save",
+         h1="Pui £50 pe lună, statul adaugă <em>£25</em>.",
+         say="Contul se numește Help to Save. Statul pune 50% peste cât ai strâns. În patru ani, maxim £2.400 puși de tine și până la £1.200 bonus."),
+    dict(type="step", step="Bonusul nu vine lunar", fig="50%",
+         say="Vine de două ori: o dată după 2 ani, o dată după 4. Primul bonus e 50% din cel mai mare sold pe care l-ai avut în primii doi ani.",
+         note="Al doilea e 50% din cât ai urcat peste acel sold în anii 3 și 4. Banii intră în contul tău bancar, nu în contul de economii, și nu se impozitează."),
+    dict(type="step", step="Cine NU poate deschide", fig="<cur>£</cur>1",
+         say="Îți trebuie Universal Credit și cel puțin £1 câștigat — bani în mână, după taxe — în ultima perioadă de calcul. Fără Universal Credit, contul nu se poate deschide.",
+         note="Un cont pe persoană, o singură dată în viață; într-un cuplu, fiecare poate avea unul al lui. Dacă retragi bani, bonusul deja câștigat nu se pierde, dar al doilea se calculează din creștere — deci trebuie să pui înapoi tot ce ai scos înainte să mai câștigi ceva, și maxim £50 pe lună."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Economii · Help to Save",
+    h1="Contul se deschide pe <em>gov.uk</em>, în câteva minute.",
+    say="Condițiile și cererea sunt pe gov.uk/get-help-savings-low-income. Pentru taxe și contabilitate, scrie-ne.",
+    phone=PHONE, disc="Informații generale, nu consultanță pe ajutoare de stat. Condițiile sunt pe gov.uk."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Savings · Help to Save",
+         h1="Put in £50 a month, the government adds <em>£25</em>.",
+         say="The account is called Help to Save and the government adds 50% of what you build up. Over four years: £2,400 in at most, and up to £1,200 of bonus."),
+    dict(type="step", step="The bonus is not monthly", fig="50%",
+         say="It comes twice: once after 2 years, once after 4. The first bonus is 50% of the highest balance you reached in the first two years.",
+         note="The second is 50% of however much you push that highest balance up in years 3 and 4. It is paid into your bank account rather than the savings account, and it is tax free."),
+    dict(type="step", step="Who cannot open one", fig="<cur>£</cur>1",
+         say="You need Universal Credit and take-home pay of £1 or more — after tax — in your last monthly assessment period. Without Universal Credit the account cannot be opened.",
+         note="One account per person, once ever; in a couple each person can have their own. Withdrawing does not take back a bonus already earned, but the second bonus is measured on growth — so you have to put back everything you took out before earning any more, at £50 a month."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Savings · Help to Save",
+    h1="The account opens on <em>gov.uk</em>, in a few minutes.",
+    say="The conditions and the application are at gov.uk/get-help-savings-low-income. For tax and accounts, message us.",
+    phone=PHONE, disc="General information, not benefits advice. The conditions are on GOV.UK."),
+
+  SOURCES=[
+    ("The mechanics and the caps, verbatim: \"You can save between £1 and £50 each calendar month. You do not have to "
+     "pay money in every month\"; \"For example, if you have saved £50 by 8 January you will not be able to pay in "
+     "again until 1 February\"; \"You can only withdraw money from your Help to Save account to your bank account\"; "
+     "\"Your Help to Save account will close 4 years after you open it. You will not be able to reopen it or open "
+     "another Help to Save account\"; \"You can close your account at any time. If you close your account early you'll "
+     "miss your next bonus and you will not be able to open another one\"; \"You can pay money into your Help to Save "
+     "account by debit card, standing order or bank transfer\"; and on means-tested benefits, \"If you or your partner "
+     "have £6,000 or less in personal savings this will not affect how much Universal Credit you get. This includes "
+     "any savings in your Help to Save account\" and \"Your Help to Save bonuses will not affect your Universal Credit "
+     "payments\", with the same two sentences repeated for Housing Benefit",
+     "https://www.gov.uk/get-help-savings-low-income", "2026-11-08"),
+    ("The two bonuses and the totals, verbatim: \"You can earn 2 tax-free bonuses over 4 years. You'll get any bonuses "
+     "you've earned even if you withdraw money\"; \"After your first 2 years, you'll get a first bonus if you've been "
+     "using your account to save. This bonus will be 50% of the highest balance you've saved\"; \"After 4 years, "
+     "you'll get a final bonus if you continue to save. This bonus will be 50% of the difference between 2 amounts: "
+     "the highest balance saved in the first 2 years (years 1 and 2); the highest balance saved in the last 2 years "
+     "(years 3 and 4)\"; \"If your highest balance does not increase, you will not earn a final bonus\"; \"The most "
+     "you can pay into your account each calendar month is £50, which is £2,400 over 4 years. The most you can earn "
+     "from your savings in 4 years is £1,200 in bonus money\"; \"Your bonus is paid into your bank account, not your "
+     "Help to Save account\"; and the warning the card's note is built on, \"If you withdraw money it will be harder "
+     "for you to: grow your highest balance; earn the largest possible bonuses. Withdrawing money could mean you are "
+     "not able to earn a final bonus - depending on how much you withdraw and when\". GOV.UK's own worked example: "
+     "\"You pay in £25 every calendar month for 2 years... Your highest balance will be £600. Your first bonus is "
+     "£300, which is 50% of £600. In years 3 and 4 you save an extra £200 to grow your highest balance from £600 to "
+     "£800. Your final bonus is £100, which is 50% of £200\"",
+     "https://www.gov.uk/get-help-savings-low-income/what-youll-get", "2026-11-08"),
+    ("Eligibility as it stands now — and this is the figure an out-of-date writer gets wrong, because the old "
+     "16-hours-at-minimum-wage threshold is gone. Verbatim and complete: \"You can open a Help to Save account if "
+     "you're receiving Universal Credit and you (with your partner if it's a joint claim) had take-home pay of £1 or "
+     "more in your last monthly assessment period\", with \"Your take-home pay is your pay after deductions (such as "
+     "tax or National Insurance)\". The page no longer mentions Working Tax Credit or Child Tax Credit at all. Also "
+     "\"If you get payments as a couple, you and your partner can apply for your own Help to Save accounts. You need "
+     "to apply separately\" and, under \"If you stop claiming benefits\", \"You can keep using your Help to Save "
+     "account\"",
+     "https://www.gov.uk/get-help-savings-low-income/eligibility", "2026-11-08"),
+    ("The legislation behind the April 2025 widening, which is why the earnings threshold can be stated as £1: the "
+     "Help-to-Save Accounts Regulations 2025 (S.I. 2025/327) reg 2(2) substituted reg 3(3)(b) of the 2018 Regulations "
+     "to read \"has earned income in the assessment period immediately preceding the first eligibility reference date "
+     "equal to or greater than £1\", reg 2(3) deleted the national living wage reference, and the explanatory note "
+     "says it is \"amended to remove the reference to the national living wage rate\". The underlying award must not "
+     "be a nil award — reg 3(3)(a), \"is in receipt of a current award validly obtained of universal credit (not being "
+     "a nil award)\" — and reg 8(2)(b)(i) requires a declaration that \"the applicant has not previously opened a "
+     "Help-to-Save account\", which is the one-per-person-for-life rule. The Regulations apply UK-wide, with express "
+     "Northern Ireland equivalents built into reg 3(6)",
+     "https://www.legislation.gov.uk/uksi/2025/327/made", "2026-11-08"),
+    ("HMRC's impact note on the same change, verbatim: \"This measure will extend the eligibility criteria for the "
+     "Help to Save scheme to all working individuals in receipt of UC, who earned £1 or more in their previous "
+     "assessment period. It will remove the existing earnings threshold for UC claimants, currently set at the "
+     "equivalent of 16 hours a week at the National Living Wage\" and \"This measure will have effect from 6 April "
+     "2025\". It also names the provider: \"National Savings and Investments (NS&I) bank — the current scheme "
+     "provider, which operates Help to Save accounts on behalf of the government\"",
+     "https://www.gov.uk/government/publications/amendment-to-the-universal-credit-eligibility-criteria-for-help-to-save-accounts/help-to-save-accounts-amendment-to-the-universal-credit-eligibility-criteria",
+     "2026-11-08"),
+    ("The bonus formula in HMRC's technical manual, and the worked example the withdrawal warning is built on: the "
+     "final bonus qualifying balance is \"the highest balance of a Help-to-Save account achieved after the first bonus "
+     "period, less the highest balance of the account achieved in the first bonus period (if any)\", and HMRC's own "
+     "case: \"Jack's highest account balance achieved at the end of the maturity period was £650. Jack's qualifying "
+     "balance achieved at the first bonus period was £300. £650-£300= £350 ... you multiply his qualifying balance of "
+     "£350 by 0.50 pence to get £175\"",
+     "https://www.gov.uk/hmrc-internal-manuals/help-save-technical/hstm04400", "2026-11-08"),
+    ("That the bonus is tax free and how savings are treated for Universal Credit, from HMRC's technical guidance: "
+     "\"The Government bonus is tax-free and does not count as savings income for income tax purposes\" and \"The "
+     "Help-to-Save bonus does not count as income for means testing purposes but the bonus and any savings "
+     "accumulated in the Help-to-Save account will count as capital for the purpose of Universal Credit "
+     "means-testing... their savings above £6,000 are considered in establishing their income\". Worth noting for "
+     "reassurance: the most the account can hold, £2,400 plus bonuses, cannot by itself breach £6,000",
+     "https://www.gov.uk/hmrc-internal-manuals/help-save-technical/hstm06000", "2026-11-08"),
+    ("How it is opened, verbatim: \"You'll need to sign in to set up a Help to Save account. If you do not already "
+     "have sign in details, you'll be able to create them when you sign in for the first time\"; \"You'll need your "
+     "National Insurance number or postcode and 2 of the following: a valid UK passport; a UK photocard driving "
+     "licence issued by the DVLA (or DVA in Northern Ireland); ... details from a Self Assessment tax return in the "
+     "last 2 years, if you made one; information held on your credit record, if you have one\"; and \"You'll be asked "
+     "to provide your UK bank details when you apply\". A Welsh-language version of the whole guide exists, which is "
+     "the only national variation found",
+     "https://www.gov.uk/get-help-savings-low-income/how-to-apply", "2026-11-08"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide. The guide's only residence condition is \"You also need to be living in the UK\", the 2018 "
+           "Regulations apply across the UK with express Northern Ireland equivalents written into reg 3(6) and reg 9, "
+           "and the identity list accepts a licence issued \"by the DVLA (or DVA in Northern Ireland)\". There is no "
+           "separate Scottish, Welsh or Northern Irish scheme and no different figures; the only national variation "
+           "found is a Welsh-language version of the same guide.",
+    category="Someone receiving Universal Credit — not a nil award — who, with their partner on a joint claim, had "
+             "take-home pay of £1 or more in their last monthly assessment period. That is the whole test now. In a "
+             "couple each person applies separately for their own account.",
+    excluded="Three exclusions, and the cards carry all of them. (1) Anyone not receiving Universal Credit, or "
+             "receiving it with no earnings at all in the last assessment period. GOV.UK states eligibility "
+             "positively and publishes no \"you cannot get it if\" list, so the exclusion is the inverse of the "
+             "condition — which is exactly why it has to be spelled out on a card. Two traps sit here for an "
+             "out-of-date reader: the old threshold of 16 hours a week at the National Living Wage was removed on 6 "
+             "April 2025 and is now £1, so someone who was turned away before may qualify today; and Working Tax "
+             "Credit is no longer a route, because tax credits ended in April 2025 and GOV.UK's eligibility page no "
+             "longer mentions them, even though the conditions sit unrepealed in reg 3(2) of S.I. 2018/87. (2) Anyone "
+             "who has already had an account: one per person for life, by declaration under reg 8(2)(b)(i), and "
+             "closing early means missing the next bonus with no second chance. A couple is not excluded — each "
+             "person can hold their own. (3) The withdrawal trap, which is not an exclusion from the scheme but is "
+             "where the money is actually lost, and is the most useful line on card 3. A bonus already earned is never "
+             "clawed back. But the second bonus is 50% of the INCREASE over the highest balance reached in years 1 "
+             "and 2, so anyone who withdraws has to rebuild to the old high-water mark before a single penny of "
+             "second bonus is earned — and at £50 a month a large withdrawal late in the term is arithmetically "
+             "impossible to recover. Two things that are NOT exclusions and are worth saying: losing the Universal "
+             "Credit award later does not close the account (\"You can keep using your Help to Save account\"), and "
+             "the savings do not endanger Universal Credit or Housing Benefit below £6,000 of personal savings, which "
+             "the account alone cannot reach.",
+    from_when="Now, for anyone on Universal Credit with £1 of earnings in their last assessment period. The current "
+              "eligibility test has applied since 6 April 2025. It is claimed, never automatic: the account is opened "
+              "on GOV.UK or in the HMRC app, currently with NS&I as the single provider, and UK bank details are "
+              "needed. Deliberately NOT claimed on any card or caption: a closing date for new accounts. GOV.UK "
+              "publishes none, Autumn Budget 2025 made the scheme permanent and Budget 2026 confirmed a reformed "
+              "scheme from Spring 2028 with a multi-provider model and six-monthly bonuses, but no GOV.UK sentence "
+              "covers new-account opening between April 2027 and that launch, so the carousel says nothing about it. "
+              "From April 2028 eligibility widens again to Universal Credit claimants receiving the child or caring "
+              "element; that is not in force and is not claimed.",
+  ),
+)
+
+
+DAY = [SA_PENALTIES, RENT_A_ROOM, CGT_60_DAYS, CHILDCARE_30H, HELP_TO_SAVE]
 
 # CHILD_BENEFIT was drafted for the 6th and held by the scope checker: its card 3
 # answers "who does not keep it" with the High Income Child Benefit Charge, while
@@ -1881,6 +2702,7 @@ HELD = [WINTER_FUEL, CHILD_BENEFIT]
 # it has been published.
 ARCHIVE = [PAYMENTS_ON_ACCOUNT, MTD_INCOME_TAX, VAT_THRESHOLD, MARRIAGE_ALLOWANCE,
            CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE,
-           MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS]
+           MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS,
+           VOLUNTARY_NI, DIVIDENDS_1075, HOME_WORKING, WARM_HOME_150, HOLIDAY_56]
 
 BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
