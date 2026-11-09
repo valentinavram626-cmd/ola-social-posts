@@ -1566,66 +1566,58 @@ Running a limited company around Luton or Birmingham? Ola Accountancy.""",
 C["cine-depune-declaratia"] = dict(
  ro="""Nu toată lumea trebuie să depună declarație la HMRC. Se întâmplă să depună cine nu trebuie, și să afle târziu cine trebuia.
 
-Dacă iei doar salariu sau pensie, taxa se oprește de obicei automat prin PAYE înainte să-ți intre banii în cont, și de regulă nu depui nimic. Întrebarea apare în clipa în care ai luat bani din altă parte.
+Dacă ai doar salariu sau pensie de la job, taxa se ia prin PAYE înainte să fii plătit și de regulă nu depui nimic. Pensia de stat nu se taxează însă înainte de plată: HMRC ia taxa din codul fiscal pe alt venit, iar dacă nu poate, îți trimite după încheierea anului o Simple Assessment — nu e declarație, dar o verifici și o plătești.
 
-Trebuie să depui dacă, în anul fiscal trecut:
-• ai lucrat pe cont propriu și ai încasat peste £1.000 — cât ai încasat, nu cât îți rămâne.
-• ai fost partener într-un business partnership
-• ai avut Capital Gains Tax de plătit, pentru că ai vândut ceva care crescuse în valoare
+Depui dacă, în anul fiscal trecut:
+• ai lucrat pe cont propriu și ai încasat peste £1.000 — cât ai încasat, nu cât îți rămâne
+• ai fost partener într-un business
+• ai avut Capital Gains Tax de plătit
+• ai avut taxa pe Child Benefit (venit net ajustat peste £60.000) și nu se ia prin PAYE
 
-Poate intra și venitul netaxat: chirii, bacșișuri, dobânzi, dividende, bani din altă țară. GOV.UK spune «poate», nu «trebuie».
+Poate intra și venitul netaxat: chirii, bacșișuri, dobânzi, dividende, bani din altă țară.
 
-Cine NU depune: de regulă, cine are doar salariu sau pensie. Taxa se ia prin PAYE înainte să fii plătit, așa că nu ai ce depune.
+Scrisoarea prin care HMRC îți cere declarația se depune chiar dacă nu datorezi nimic. Dar nu e definitivă: dacă nu mai ai de ce să depui, spune-i HMRC — poate fi retrasă.
 
-Trei lucruri care strică regula asta, și pe care lumea le ratează:
-• taxa pe Child Benefit (High Income Child Benefit Charge). Se aplică dacă unul dintre voi are venit net ajustat peste £60.000; plătește cel cu venitul mai mare. Dacă nu se ia prin PAYE, depui declarație — chiar dacă singurul tău venit e salariul. Tot pe lista HMRC: cine lucrează „off-payroll" și plătește rata la împrumutul studențesc.
-• dacă HMRC ți-a cerut declarația în scris, o depui. Chiar dacă nu ai nimic de plătit. Obligația vine din scrisoare, nu din cât datorezi.
-• dacă intri prima dată în sistem, anunți HMRC până pe 5 octombrie după încheierea anului fiscal, altfel poți lua amendă. Pentru 2025/26 termenul a fost 5 octombrie 2026 și a trecut — dacă l-ai ratat, înregistrarea se face acum, pe gov.uk.
+Anunțarea până pe 5 octombrie nu e doar pentru cine intră prima dată: e și pentru cine a mai depus, dar nu a avut nevoie de declarație anul trecut. Pentru 2025/26 a fost 5 octombrie 2026. L-ai ratat? Înregistrează-te acum: poți lua o penalizare, nu o amendă fixă — se calculează după comportament, iar manualul HMRC dă minim zero dacă anunți din proprie inițiativă, fără intenție, în 12 luni.
 
-Vorbim despre anul fiscal 2025/26, adică 6 aprilie 2025 – 5 aprilie 2026. Declarația online se depune până pe 31 ianuarie 2027.
+Termene: înregistrat la timp, depui online până pe 31 ianuarie 2027. Înregistrat abia acum, HMRC îți scrie alt termen de depunere, la 3 luni de la scrisoare — dar taxa se plătește tot până pe 31 ianuarie 2027.
 
-Paginile GOV.UK nu fac distincție pe națiuni.
+GOV.UK nu face distincție pe națiuni.
 
 Nu știi dacă trebuie să depui?""",
- th="""Dacă iei doar salariu sau pensie, taxa se oprește de obicei prin PAYE și nu depui nimic.
+ th="""Salariu sau pensie de la job: taxa se ia prin PAYE înainte de plată și nu depui nimic.
 
-Trebuie să depui dacă ai lucrat pe cont propriu și ai încasat peste £1.000 — cât ai încasat, nu cât ți-a rămas.
+Pensia de stat nu se taxează înainte de plată: HMRC o ia din codul fiscal sau trimite o Simple Assessment — nu e declarație.
 
-Cine NU depune: de regulă, cine are doar salariu sau pensie. Dar dacă HMRC ți-a cerut declarația în scris, o depui.""",
+Depui dacă ai încasat peste £1.000 pe cont propriu. Scrisoarea de la HMRC se depune, dar poate fi retrasă.""",
  li="""Not everyone has to file a Self Assessment return. Some file who need not, and some find out too late that they had to.
 
-If your only income is wages or a pension, the tax usually comes off through PAYE before you are paid, and no return is normally due. The question starts the moment money arrives from somewhere else.
+If your only income is wages or a workplace pension, the tax comes off through PAYE before you are paid, and no return is normally due. The State Pension is the exception people miss: GOV.UK says "tax is not taken off before you get it". HMRC usually collects it through the tax code on other income, and where it cannot, issues a Simple Assessment after the year end — a bill to check and pay, which GOV.UK says is "not the same as making a Self Assessment tax return".
 
 You must send a return if, in the last tax year:
-• you were self-employed as a sole trader and earned more than £1,000 — that is what came in, before taking off anything you can claim tax relief on
+• you were self-employed as a sole trader and earned more than £1,000 — what came in, before anything you can claim tax relief on
 • you were a partner in a business partnership
-• you had to pay Capital Gains Tax when you sold or disposed of something that had increased in value
+• you had to pay Capital Gains Tax on something you sold that had increased in value
 • you had to pay the High Income Child Benefit Charge and do not pay it through PAYE
 
-Untaxed income can bring you in as well:
-• money from renting out property or land
-• tips and commission
-• savings interest
-• dividends, including investments
-• foreign income
-• any taxable UK income, if you are not UK resident
+Untaxed income can bring you in as well: rent from property or land, tips and commission, savings interest, dividends, foreign income, and any taxable UK income if you are not UK resident.
 
-Who does NOT normally file: anyone whose only income is wages or a pension. PAYE has already taken the tax. GOV.UK's wording is that tax is "usually" deducted automatically — not always.
+Who does NOT normally file: anyone whose only income is wages or a workplace pension, where PAYE has already taken the tax. The Child Benefit charge still bites on wages alone — and so does being an off-payroll worker repaying a student or postgraduate loan.
 
-Three things break that rule, and all three are missed regularly:
-• the High Income Child Benefit Charge. It bites where one of you has adjusted net income over £60,000, and the higher earner pays it. Owe it and not pay it through PAYE, and you file — even on wages alone. Also on HMRC's list: an off-payroll worker repaying a student or postgraduate loan.
-• if HMRC has issued a notice asking for a return, you file it — even where nothing is owed. The obligation comes from the notice, not from the size of the bill.
-• first-time registration has to be notified by 5 October after the tax year ends, and GOV.UK says you could be fined if you do not. For 2025/26 that date was 5 October 2026 and it has passed — if you missed it, register now on GOV.UK rather than waiting.
+Two more, both missed regularly:
+• A notice to file is answered even where nothing is owed — but it is not unconditional. HMRC can withdraw it (SAM120116, letter SA832), and GOV.UK tells anyone who no longer needs to send a return to contact HMRC.
+• Telling HMRC by 5 October is not only for first-timers. It also covers anyone who registered before but did not need to send a return for the previous tax year — the returning filer with a gap year. For 2025/26 the date was 5 October 2026. Miss it and GOV.UK says you "could get a penalty" — a penalty, not a fixed fine: it is behaviour-based, and HMRC's manual sets the minimum at nil where the disclosure is unprompted, non-deliberate and made within 12 months.
 
-This is the 2025/26 tax year, 6 April 2025 to 5 April 2026, with the online return due by 31 January 2027.
+Deadlines. Registered on time, the 2025/26 online return is due by 31 January 2027. Register now instead and HMRC writes with a different filing deadline, three months from its letter — but you must still pay what you owe by 31 January 2027.
 
 GOV.UK draws no distinction by nation on who has to file.
 
 Not sure whether you have to?""",
- bsky="""Only wages or a pension? PAYE usually took the tax and no UK return is due. Self-employed and took over £1,000? Then one is.""",
+ bsky="""Wages or a workplace pension? PAYE took the tax, no return due. State Pension is paid untaxed — HMRC codes it or sends a Simple Assessment.""",
  pin_title="Who actually has to file a UK Self Assessment tax return",
- pin="""If your only income is wages or a pension, PAYE usually takes the tax and no Self Assessment return is normally due. You must file if, in the last tax year, you were self-employed as a sole trader and earned more than £1,000, were a partner in a business partnership, had Capital Gains Tax to pay, or owed the High Income Child Benefit Charge outside PAYE — that last one bites on wages alone. Untaxed rent, tips, interest, dividends or foreign income can bring you in too. A notice to file from HMRC is answered even where nothing is owed.""",
- source="gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return",
+ pin="""Only wages or a workplace pension? PAYE takes the tax before you are paid and no tax return is normally due. The State Pension is paid before any tax comes off, so HMRC collects through your tax code or sends a Simple Assessment, not a tax return. You must file if you earned over £1,000 self-employed, were a business partner, had Capital Gains Tax to pay, or owed the High Income Child Benefit Charge outside PAYE. A notice to file is answered even where nothing is owed, but HMRC can withdraw it. Sources: gov.uk/self-assessment-tax-returns, /understand-simple-assessment.""",
+ source="gov.uk — /self-assessment-tax-returns și subpaginile, /register-for-self-assessment, /check-if-you-need-tax-return, /understand-simple-assessment, /guidance/how-your-state-pension-is-taxed; manualele HMRC SAM120116 și CH73180",
+ source_en="gov.uk — /self-assessment-tax-returns and its sub-pages, /register-for-self-assessment, /check-if-you-need-tax-return, /understand-simple-assessment, /guidance/how-your-state-pension-is-taxed; HMRC manuals SAM120116 and CH73180",
 )
 
 C["bani-inapoi-p800"] = dict(
@@ -1852,11 +1844,17 @@ def ro_caption(slug):
 
 
 def li_caption(slug):
+    # A per-topic `source_en` override, the same shape as disc_en / wa_li. It
+    # exists because a source line that names GOV.UK paths has Romanian joining
+    # words in it ("și subpaginile"), and the language rule applies to the
+    # source line as much as to the body — the 7 Nov run shipped a Romanian
+    # documentTitle on an English post for exactly this reason.
     t = topics.BY_SLUG[slug]
     disc = C[slug].get("disc_en", DISC_EN)
     ph = C[slug].get("wa_li", PHONE)
+    src = C[slug].get("source_en", C[slug]["source"])
     return (f"{C[slug]['li']}\n\n{ph}\n\nOla Accountancy — Luton and Birmingham\n\n"
-            f"{disc}\n\nSource: {C[slug]['source']}\n\n{tags(t, 'en')}")
+            f"{disc}\n\nSource: {src}\n\n{tags(t, 'en')}")
 
 
 def bsky_caption(slug):

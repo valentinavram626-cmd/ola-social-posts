@@ -2861,12 +2861,12 @@ CINE_DEPUNE = dict(
          kicker="Self Assessment · anul fiscal 2025/26",
          h1="Nu toată lumea depune declarație la HMRC.",
          say="Dacă iei doar salariu sau pensie, taxa se oprește de obicei automat prin PAYE, adică direct din plată, și de regulă nu depui nimic. Întrebarea apare când ai luat bani din altă parte."),
-    dict(type="step", step="Când TREBUIE să depui", fig="<cur>£</cur>1.000",
-         say="Ai lucrat pe cont propriu și ai încasat peste £1.000 — cât ai încasat, nu cât ți-a rămas. Sau ai fost partener într-un business. Sau ai avut Capital Gains Tax de plătit.",
-         note="Poate intra și venitul pe care nu ți l-a taxat nimeni: chirii, bacșișuri, dobânzi, dividende, bani din altă țară. GOV.UK spune «poate», nu «trebuie»."),
+    dict(type="step", step="Termenele pentru 2025/26", fig="31 <small>ian.</small> 2027",
+         say="Declarația online pentru 2025/26 se depune până pe 31 ianuarie 2027, când se plătește și taxa. Depui dacă ai încasat peste <b>£1.000</b> pe cont propriu, ai fost partener sau ai avut Capital Gains Tax.",
+         note="Te înregistrezi abia acum, după 5 octombrie 2026? HMRC îți scrie alt termen de depunere, la 3 luni de la scrisoare — dar plata rămâne pe 31 ianuarie 2027."),
     dict(type="step", step="Cine NU depune", fig="PAYE",
-         say="Dacă singurul venit e salariul sau pensia, taxa se ia direct din plată și nu ai ce depune. Dar e o excepție care prinde multă lume.",
-         note="Excepția: taxa pe Child Benefit, dacă unul dintre voi trece de £60.000 venit net ajustat și nu se ia din salariu. Iar dacă HMRC ți-a cerut declarația în scris, o depui oricum."),
+         say="Ai doar salariu sau pensie de la job? Taxa se ia prin PAYE înainte să fii plătit, așa că nu depui.",
+         note="Pensia de stat nu se taxează însă înainte să-ți intre: HMRC ia taxa din codul fiscal sau îți trimite o Simple Assessment, care nu e declarație. Alte două care te prind: taxa pe Child Benefit peste £60.000 venit net ajustat și scrisoarea prin care HMRC îți cere declarația, cât timp nu a fost retrasă."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Self Assessment · anul fiscal 2025/26",
@@ -2879,12 +2879,12 @@ CINE_DEPUNE = dict(
          kicker="Self Assessment · 2025/26 tax year",
          h1="Not everyone has to file a tax return.",
          say="If your only income is wages or a pension, the tax usually comes off through PAYE — straight out of your pay — and no return is normally due. The question starts the moment money arrives from somewhere else."),
-    dict(type="step", step="When you MUST file", fig="<cur>£</cur>1,000",
-         say="You were self-employed as a sole trader and took more than £1,000 — what came in, not what you kept. Or you were a partner in a business. Or you had Capital Gains Tax to pay.",
-         note="Untaxed income may bring you in too: rent, tips, savings interest, dividends, money from abroad. GOV.UK says may, not must."),
+    dict(type="step", step="The 2025/26 deadlines", fig="31 <small>Jan</small> 2027",
+         say="The 2025/26 online return is due by 31 January 2027, and the tax the same day. You file if you took over <b>£1,000</b> as a sole trader, were a partner, or had Capital Gains Tax.",
+         note="Registering after 5 October? HMRC gives you a different filing deadline, 3 months from its letter — but the tax is still due 31 January."),
     dict(type="step", step="Who does NOT file", fig="PAYE",
-         say="If your only income is wages or a pension, the tax comes straight out of your pay and no return is normally due. But one exception catches people out.",
-         note="The exception: the Child Benefit tax charge, where one of you has adjusted net income over £60,000 and it is not taken from wages. And a notice to file from HMRC is answered whatever you owe."),
+         say="Only wages or a workplace pension? PAYE takes the tax before you are paid, so no return is due.",
+         note="The State Pension is not taxed before it reaches you: HMRC collects it through your tax code, or sends a Simple Assessment, which is not a tax return. Two others pull you in — the Child Benefit charge on adjusted net income over £60,000, and a notice to file HMRC has not withdrawn."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Self Assessment · 2025/26 tax year",
@@ -2911,6 +2911,38 @@ CINE_DEPUNE = dict(
      "needed for another reason or the payment falls after 31 January following the tax "
      "year, and can otherwise be paid through PAYE",
      "https://www.gov.uk/child-benefit-tax-charge", "2026-11-09"),
+    ("State Pension: \"Your State Pension is taxable income, but tax is not taken off "
+     "before you get it\"; HMRC \"will usually change your tax code so the tax due is "
+     "collected from your wages or other pensions\", and where it cannot, \"we may send "
+     "you a Simple Assessment tax calculation after the end of the tax year\"",
+     "https://www.gov.uk/guidance/how-your-state-pension-is-taxed", "2026-11-09"),
+    ("Simple Assessment: \"Simple Assessment is not the same as making a Self Assessment "
+     "tax return\"; issued where tax could not be collected through the tax code, where "
+     "£3,000 or more is owed, or where tax is due on the State Pension; the bill says how "
+     "much is owed, how it was worked out and how to pay",
+     "https://www.gov.uk/understand-simple-assessment", "2026-11-09"),
+    ("The 5 October duty is not limited to first-timers: it covers anyone who has not "
+     "sent a return before AND anyone who \"registered before but did not need to send a "
+     "tax return for the tax year 2024 to 2025\"; GOV.UK's word for the consequence is a "
+     "penalty — \"If you tell HMRC after 5 October 2026, you could get a penalty\"",
+     "https://www.gov.uk/register-for-self-assessment", "2026-11-09"),
+    ("Deadlines for 2025/26: online return and payment both 11:59pm on 31 January 2027; "
+     "register late and HMRC \"will send you a letter or email with a different deadline "
+     "to send your tax return by\", which \"will be 3 months from the date on the letter "
+     "or email\", while \"You must still pay the tax you owe by 11:59pm on 31 January 2027\"",
+     "https://www.gov.uk/self-assessment-tax-returns/deadlines", "2026-11-09"),
+    ("A return request is not unconditional: \"If you believe you no longer need to send "
+     "a return, you'll need to\" contact HMRC and explain",
+     "https://www.gov.uk/check-if-you-need-tax-return", "2026-11-09"),
+    ("Withdrawing a notice to file: the action guide for a return \"issued incorrectly or "
+     "no longer required to be completed\", and SEES Letter SA832 (Withdrawal of a Notice "
+     "to file), which states the original payment due dates still apply. Where an SA "
+     "criterion is satisfied the return must still be completed",
+     "https://www.gov.uk/hmrc-internal-manuals/self-assessment-manual/sam120116", "2026-11-09"),
+    ("Failure-to-notify penalties are behaviour-based, not fixed: \"The minimum penalty "
+     "is nil where a disclosure is unprompted and non-deliberate\", for a disclosure made "
+     "less than 12 months after the tax first became unpaid",
+     "https://www.gov.uk/hmrc-internal-manuals/compliance-handbook/ch73180", "2026-11-09"),
   ],
   SCOPE=dict(
     nation="All of the UK. Self Assessment is HMRC-wide with no devolved variation in "
@@ -2919,17 +2951,31 @@ CINE_DEPUNE = dict(
              "over £1,000 of receipts, business partners, people with Capital Gains Tax "
              "to pay, and people with untaxed rent, tips, interest, dividends or foreign "
              "income.",
-    excluded="Anyone whose only income is wages or a pension taxed through PAYE: gov.uk "
-             "says tax is usually deducted automatically from wages and pensions, so no "
-             "return is normally due. The exclusion is not absolute and the cards now say "
-             "so: gov.uk's own must-file list includes the High Income Child Benefit "
-             "Charge where it is not paid through PAYE, and an off-payroll worker "
-             "repaying a student or postgraduate loan — both can apply to someone whose "
-             "only income is wages. It also stops the moment HMRC issues a notice to "
-             "file, which has to be answered even where nothing is owed, and it does not "
-             "remove the separate duty to tell HMRC by 5 October when first registering.",
-    from_when="The 2025/26 tax year, 6 April 2025 to 5 April 2026. First-time "
-              "registration for that year had to be notified to HMRC by 5 October 2026.",
+    excluded="Anyone whose only income is wages, or an occupational or private pension in "
+             "payment, taxed through PAYE: the employer or pension provider deducts before "
+             "paying, so no return is normally due. Three qualifications, all now on the "
+             "cards. (1) The State Pension is NOT taxed before it is paid — gov.uk: \"tax "
+             "is not taken off before you get it\". HMRC collects it by adjusting the code "
+             "on other income, and where it cannot, by a Simple Assessment after the year "
+             "end, which gov.uk says is \"not the same as making a Self Assessment tax "
+             "return\". So a State-Pension-only reader files no return but may still have a "
+             "bill to check and pay. (2) gov.uk's own must-file list includes the High "
+             "Income Child Benefit Charge where it is not paid through PAYE, and an "
+             "off-payroll worker repaying a student or postgraduate loan — both can apply "
+             "to someone whose only income is wages. (3) A notice to file has to be "
+             "answered even where nothing is owed, but it is not unconditional: HMRC can "
+             "withdraw it (SAM120116, letter SA832), and gov.uk tells anyone who believes "
+             "they no longer need to send a return to contact HMRC. Nor does the exclusion "
+             "remove the separate duty to notify HMRC by 5 October.",
+    from_when="The 2025/26 tax year, 6 April 2025 to 5 April 2026. Notification to HMRC "
+              "was due by 5 October 2026 — not only from first-timers, but from anyone who "
+              "had registered before and did not need to send a return for 2024/25. The "
+              "online return and the payment are both due on 31 January 2027; someone who "
+              "registers after 5 October 2026 is given a different filing deadline in "
+              "writing, 3 months from the date of HMRC's letter or email, while the payment "
+              "date stays 31 January 2027. Late notification carries a penalty, not a "
+              "fixed fine: the minimum is nil where the disclosure is unprompted and "
+              "non-deliberate and made within 12 months.",
   ),
 )
 
