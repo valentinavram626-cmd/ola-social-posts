@@ -2866,7 +2866,7 @@ CINE_DEPUNE = dict(
          note="Te înregistrezi abia acum, după 5 octombrie 2026? HMRC îți scrie alt termen de depunere, la 3 luni de la scrisoare — dar plata rămâne pe 31 ianuarie 2027."),
     dict(type="step", step="Cine NU depune", fig="PAYE",
          say="Ai doar salariu sau pensie de la job? Taxa se ia prin PAYE înainte să fii plătit, așa că nu depui.",
-         note="Pensia de stat nu se taxează însă înainte să-ți intre: HMRC ia taxa din codul fiscal sau îți trimite o Simple Assessment, care nu e declarație. Alte două care te prind: taxa pe Child Benefit peste £60.000 venit net ajustat și scrisoarea prin care HMRC îți cere declarația, cât timp nu a fost retrasă."),
+         note="Pensia de stat vine însă netaxată: HMRC ia taxa din codul fiscal sau îți poate trimite o Simple Assessment, care nu e declarație. Te aduc totuși la declarație taxa pe Child Benefit — £60.000 venit net ajustat e pragul ei, nu un prag de depunere — și scrisoarea prin care HMRC îți cere declarația, cât timp nu a fost retrasă."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Self Assessment · anul fiscal 2025/26",
@@ -2884,7 +2884,7 @@ CINE_DEPUNE = dict(
          note="Registering after 5 October? HMRC gives you a different filing deadline, 3 months from its letter — but the tax is still due 31 January."),
     dict(type="step", step="Who does NOT file", fig="PAYE",
          say="Only wages or a workplace pension? PAYE takes the tax before you are paid, so no return is due.",
-         note="The State Pension is not taxed before it reaches you: HMRC collects it through your tax code, or sends a Simple Assessment, which is not a tax return. Two others pull you in — the Child Benefit charge on adjusted net income over £60,000, and a notice to file HMRC has not withdrawn."),
+         note="The State Pension arrives untaxed: HMRC collects it through your tax code, or may send a Simple Assessment, which is not a tax return. Two things do pull you in — the Child Benefit charge, whose own £60,000 threshold is adjusted net income and not a filing threshold, and a notice to file HMRC has not withdrawn."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Self Assessment · 2025/26 tax year",
@@ -2975,7 +2975,9 @@ CINE_DEPUNE = dict(
               "writing, 3 months from the date of HMRC's letter or email, while the payment "
               "date stays 31 January 2027. Late notification carries a penalty, not a "
               "fixed fine: the minimum is nil where the disclosure is unprompted and "
-              "non-deliberate and made within 12 months.",
+              "non-deliberate and made less than 12 months after the tax first became "
+              "unpaid because of the failure (CH73180), which is not the same as 12 "
+              "months from the missed 5 October.",
   ),
 )
 
