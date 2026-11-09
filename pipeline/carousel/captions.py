@@ -1519,9 +1519,9 @@ Cât costă întârzierea la declarație: £200 la o zi, încă £200 la 3 luni.
 Paginile GOV.UK nu fac distincție pe națiuni: aceleași termene în toată Marea Britanie.
 
 Nu știi când îți expiră termenul?""",
- th="""Firma plătește taxa ÎNAINTE să depună declarația: plata la 9 luni și o zi după încheierea anului financiar, declarația la 12 luni. Două termene, la trei luni distanță.
+ th="""Firma plătește taxa ÎNAINTE să depună declarația: plata la 9 luni și o zi după încheierea perioadei contabile, declarația la 12 luni. Două termene, la trei luni distanță.
 
-Cine NU depune: doar firma trecută de HMRC ca „dormant". Pierderea nu te scutește — depui și dacă nu ai nimic de plătit.""",
+Cine NU depune: în principal firma «dormant» pentru Corporation Tax — dar depune oricum la Companies House. Pierderea nu te scutește.""",
  li="""A limited company pays its Corporation Tax BEFORE it files the return. Not with it.
 
 Payment is due 9 months and one day after the day the accounting period ends. The Company Tax Return is due within 12 months of that same day. Two deadlines, three months apart, and the one that arrives first is the payment.
@@ -1551,7 +1551,7 @@ Not sure when yours falls due?""",
  pin="""A limited company pays its Corporation Tax 9 months and one day after the end of its accounting period, but files the Company Tax Return within 12 months of that date. The payment comes first, and interest runs from the day after it. Profits over £1.5 million are paid in instalments. A loss does not excuse the return and neither does a nil liability. The main exception is a company dormant for Corporation Tax — and even then accounts and a confirmation statement still go to Companies House. Late filing: £200 at one day, £200 more at three months.""",
  gbp="""A limited company pays its Corporation Tax before it files the return, not with it.
 
-The tax is due 9 months and one day after the day the accounting period ends. The Company Tax Return is due within 12 months of that same day. If the financial year ends on 31 March 2026, the tax is due by 1 January 2027 and the return by 31 March 2027. Interest runs from the day after the payment deadline.
+The tax is due 9 months and one day after the day the accounting period ends. The Company Tax Return is due within 12 months of that same day. If the accounting period ends on 31 March 2026, the tax is due by 1 January 2027 and the return by 31 March 2027. Interest runs from the day after the payment deadline.
 
 Taxable profits over £1.5 million are paid in instalments rather than in one payment.
 
@@ -1587,11 +1587,11 @@ Vorbim despre anul fiscal 2025/26, adică 6 aprilie 2025 – 5 aprilie 2026. Dec
 Paginile GOV.UK nu fac distincție pe națiuni.
 
 Nu știi dacă trebuie să depui?""",
- th="""Dacă iei doar salariu sau pensie, taxa se oprește automat prin PAYE și nu depui nicio declarație.
+ th="""Dacă iei doar salariu sau pensie, taxa se oprește de obicei prin PAYE și nu depui nimic.
 
 Trebuie să depui dacă ai lucrat pe cont propriu și ai încasat peste £1.000 — cât ai încasat, nu cât ți-a rămas.
 
-Cine NU depune: cine are doar salariu sau pensie. Dar dacă HMRC ți-a cerut declarația în scris, o depui.""",
+Cine NU depune: de regulă, cine are doar salariu sau pensie. Dar dacă HMRC ți-a cerut declarația în scris, o depui.""",
  li="""Not everyone has to file a Self Assessment return. Some file who need not, and some find out too late that they had to.
 
 If your only income is wages or a pension, the tax usually comes off through PAYE before you are paid, and no return is normally due. The question starts the moment money arrives from somewhere else.
@@ -1635,7 +1635,7 @@ Când pe salariu s-a oprit prea multă taxă, HMRC face un calcul și trimite o 
 
 De ce se întâmplă: cod de taxe greșit, două job-uri suprapuse, o pensie nouă la job, sau Employment and Support Allowance ori Jobseeker's Allowance.
 
-Cum vin banii, după ce ce scrie în scrisoare:
+Cum vin banii, după ce scrie în scrisoare:
 • dacă poți cere online — banii ajung în 5 zile lucrătoare
 • dacă ceri cec — până la 6 săptămâni
 • dacă scrisoarea spune că HMRC trimite cecul singură — ajunge în 14 zile de la data scrisorii și nu faci absolut nimic
@@ -1652,14 +1652,14 @@ Cine NU primește P800:
 
 Ce NU vine prin scrisoare: P800 apare doar când HMRC vede deja plata în plus. Cheltuielile de muncă, uneltele, kilometrajul, plecarea din UK la mijloc de an fiscal și reținerile CIS se cer separat — pentru ele nu primești nicio scrisoare.
 
-E la fel în toată Marea Britanie.
+Paginile GOV.UK nu fac distincție pe națiuni.
 
 Crezi că ai plătit prea multă taxă?""",
- th="""Dacă pe salariu s-a oprit prea multă taxă, HMRC trimite o scrisoare de calcul, P800. Pleacă între iunie și martie — a ta poate să nu fi venit încă.
+ th="""Dacă pe salariu s-a oprit prea multă taxă, HMRC trimite o scrisoare P800. Pleacă între iunie și martie — a ta poate să nu fi venit încă.
 
-Cine NU primește P800: cine depune Self Assessment. Acolo suma se corectează în declarație.
+Cine NU primește P800: cine depune Self Assessment. Suma se corectează în declarație.
 
-Ai 4 ani după încheierea anului fiscal să ceri banii. După, nu se mai poate.""",
+Ai 4 ani după încheierea anului fiscal să ceri banii. După, de regulă nu se mai poate.""",
  li="""HMRC may owe you money right now and not have told you yet.
 
 When too much tax has come off your wages, HMRC works out the position and sends a tax calculation letter — a P800. The letters for a tax year go out between June and the following March, so silence is not an answer.
@@ -1710,7 +1710,7 @@ Cine NU intră automat:
 • sub £10.000 pe an
 De regulă poți cere tu să intri, iar angajatorul nu te poate refuza.
 
-Atenție la pragul de jos: dacă câștigi £520 pe lună sau mai puțin (£120 pe săptămână, £480 în 4 săptămâni), angajatorul nu e obligat să pună bani. Poți fi în schemă și să economisești singur.
+Atenție la pragul de jos: sub £6.240 pe an — adică £520 pe lună, £120 pe săptămână — angajatorul nu e obligat să pună bani. Poți fi în schemă și să economisești singur.
 
 GOV.UK mai are o listă de cazuri în care angajatorul de regulă nu e obligat să te înscrie, chiar dacă ai vârsta și salariul: ți-ai dat demisia sau ai primit preaviz, ai luat deja o pensie aranjată de angajator, ai ieșit din schemă cu peste 12 luni înainte de data de pornire, ești într-un limited liability partnership, sau ești director fără contract de muncă.
 
@@ -1720,9 +1720,9 @@ Dacă ieși în prima lună după ce te-a înscris angajatorul, primești înapo
 
 Și încă ceva: angajatorul trebuie să te reînscrie din 3 în 3 ani și să-ți scrie când o face.
 
-E la fel în toată Marea Britanie.
+Paginile GOV.UK nu fac distincție pe națiuni.
 
-Nu știi unde se verifică?""",
+Nu știi dacă ești înscris?""",
  th="""La un job pe salariu, în pensie intră minimum 8% din câștigul care se ia în calcul: 3% pune angajatorul, 5% pui tu.
 
 Te înscrie automat dacă ai între 22 de ani și vârsta de pensionare și câștigi cel puțin £10.000 pe an.
@@ -1745,7 +1745,7 @@ Who is NOT enrolled automatically:
 • earning under £10,000 a year
 You can usually still join if you want to, and your employer cannot refuse.
 
-Watch the lower threshold: where you earn £520 a month or less (£120 a week, £480 over 4 weeks), your employer does not have to contribute at all. You can be in the scheme and still be saving alone.
+Watch the lower threshold: under £6,240 a year — that is £520 a month, £120 a week — your employer does not have to contribute at all. You can be in the scheme and still be saving alone.
 
 The Pensions Regulator adds the case GOV.UK does not: a sole director of a business with no other staff has no automatic enrolment duty at all.
 
@@ -1755,16 +1755,16 @@ Leave within a month of being added and you get back what you have already paid 
 
 Less well known: your employer must re-enrol you roughly every 3 years from the date you first joined, and must write to you when it does.
 
-UK-wide.
+GOV.UK draws no distinction by nation.
 
-Not sure where to check?""",
+Not sure whether you are enrolled?""",
  bsky="""In a UK payroll job 8% of qualifying earnings goes into a pension — 3 of those 8 points from the employer. Under £10,000? Not automatic.""",
  pin_title="Workplace pensions: who is enrolled automatically, and who is not",
  pin="""In a UK job on payroll, at least 8% of your qualifying earnings goes into a workplace pension — 3 of those 8 points from your employer and 5 from you. Your employer must enrol you automatically if you are aged between 22 and State Pension age, earn at least £10,000 a year and ordinarily work in the UK. In most automatic enrolment schemes the percentages apply to earnings between £6,240 and £50,270 a year before tax. Not enrolled automatically: anyone under 22, over State Pension age, or under £10,000 — they can usually ask to join and the employer cannot refuse.""",
  source="gov.uk/workplace-pensions",
  wa_ro="Ola Accountancy · 0330 133 1886\nLuton · Birmingham",
  wa_th="Ola Accountancy: 0330 133 1886",
- wa_li="Ola Accountancy · 0330 133 1886",
+ wa_li="0330 133 1886",
  disc_ro="Informații generale, nu consultanță pe pensii. Condițiile sunt pe gov.uk.",
  disc_en="General information, not pensions advice. The conditions are on gov.uk.",
 )
@@ -1772,12 +1772,12 @@ Not sure where to check?""",
 C["compensatie-zbor"] = dict(
  ro="""Ai ajuns la destinație cu peste 3 ore întârziere? Compania aeriană îți poate datora bani.
 
-Suma e fixă și nu are nicio legătură cu cât ai dat pe bilet: între £220 și £520 de persoană. Și nu se plătește singură — o ceri de la compania aeriană.
+Suma e stabilită prin lege și nu are nicio legătură cu cât ai dat pe bilet: între £220 și £520 de persoană. Și nu se plătește singură — o ceri de la compania aeriană.
 
 Cât, după distanța zborului:
 • sub 1.500 km — £220
 • între 1.500 și 3.500 km — £350
-• peste 3.500 km — £260 dacă ai ajuns cu 3 până la 4 ore întârziere, £520 dacă ai ajuns cu peste 4 ore
+• peste 3.500 km, după cât de târziu ai ajuns — £260 la 3 până la 4 ore, £520 la peste 4 ore
 
 Se numără ora la care ai ajuns la destinație, nu ora la care ar fi trebuit să pleci. Distanța se măsoară între primul și ultimul aeroport din aceeași rezervare.
 
@@ -1794,18 +1794,18 @@ Ce intră, pe scurt: orice zbor care pleacă dintr-un aeroport din UK, cu orice 
 
 Termene: acțiunea în instanță se poate deschide în 6 ani de la incident în Anglia și Țara Galilor, 5 ani în Scoția. Fără răspuns în 8 săptămâni poți merge la autoritatea aviatică — dar nu preia plângeri când a rămas mai puțin de un an.
 
-Nu știi unde se verifică?""",
- th="""Ai ajuns cu peste 3 ore întârziere? Suma e fixă și nu are legătură cu prețul biletului: între £220 și £520. Nu se plătește automat — o ceri de la companie.
+Nu știi dacă zborul tău intră?""",
+ th="""Ai ajuns cu peste 3 ore întârziere? Suma e stabilită prin lege, fără legătură cu prețul biletului: între £220 și £520. Nu se plătește automat — o ceri de la companie.
 
-Când NU primești: sub 3 ore întârziere, sau când vina nu e a companiei — vreme extremă, grevă la aeroport sau la controlul traficului aerian.""",
- li="""Landed more than three hours late? Your airline may owe you a fixed sum.
+Când NU primești: la 3 ore sau mai puțin, sau când compania arată un motiv extraordinar — vreme extremă sau grevă la aeroport.""",
+ li="""Landed more than three hours late? Your airline may owe you a sum set by law.
 
 It has nothing to do with what you paid for the ticket: between £220 and £520 a person. And it is never paid automatically — you claim it from the airline.
 
 How much, by distance:
 • under 1,500km — £220
 • 1,500km to 3,500km — £350
-• over 3,500km — £260 arriving three to four hours late, £520 arriving more than four hours late
+• over 3,500km, by how late you landed — £260 at three to four hours, £520 beyond four
 
 What counts is the time you reached your destination airport, not the time you were due to depart. Distance is measured on the Great Circle Route between the first and last airports on the booking.
 
@@ -1822,14 +1822,14 @@ What is covered, plainly: every flight departing a UK airport, on any airline. I
 
 There is a deadline at the other end too. The CAA puts the limit for issuing a court claim at 6 years from the incident in England and Wales and 5 years in Scotland, and will not handle a complaint with less than a year of that left. No final answer within eight weeks, or an answer you disagree with, and it can go to an ADR scheme or the CAA's passenger advice and complaints team.
 
-Not sure where to check?""",
+Not sure if your flight counts?""",
  bsky="""Over 3 hours late? UK261 pays a fixed £220 to £520, whatever the ticket cost — never automatically. Three hours or less, or a strike: nothing.""",
  pin_title="UK flight delay compensation: £220 to £520, and when you get nothing",
  pin="""Arrive more than three hours late and UK261 gives you a fixed sum from your airline: £220 under 1,500km, £350 from 1,500km to 3,500km, and over 3,500km either £260 for a three-to-four-hour delay or £520 beyond four hours. The amounts are unrelated to the ticket price and never paid automatically — you claim from the airline. When you get nothing: three hours late or less, or where the airline shows the cause was extraordinary, such as extreme weather or an airport or air traffic control strike. Court-claim limit: 6 years in England and Wales, 5 in Scotland.""",
  source="caa.co.uk/air-passengers",
  wa_ro="Ola Accountancy · 0330 133 1886\nLuton · Birmingham",
  wa_th="Ola Accountancy: 0330 133 1886",
- wa_li="Ola Accountancy · 0330 133 1886",
+ wa_li="0330 133 1886",
  disc_ro="Informații generale, nu consultanță juridică. Regulile sunt pe caa.co.uk.",
  disc_en="General information, not legal advice. The rules are on caa.co.uk.",
 )

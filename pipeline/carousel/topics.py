@@ -2937,7 +2937,7 @@ CINE_DEPUNE = dict(
 # ===================================================================== 3
 BANI_INAPOI = dict(
   slug="bani-inapoi-p800",
-  title="Taxa plătită în plus — scrisoarea P800 și cele 4 luni de aşteptare",
+  title="Taxa plătită în plus — scrisoarea P800 și termenul de 4 ani",
   tags_ro="#p800 #hmrc #taxainapoi #paye #romaniinuk",
   tags_en="#p800 #hmrc #taxrefund #paye #ukaccountant",
 

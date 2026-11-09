@@ -560,3 +560,113 @@ cards. That is a pricing and positioning decision, not a factual correction, and
 it changes a CTA pattern that has shipped for a week — so it was raised for
 Valentin rather than changed overnight. Along with the footer question from the
 4 November run, that is now two standing CTA decisions waiting on him.
+
+## What the sixth live run taught us
+
+Run on 9 November 2026 for publication on the 10th. Five of five carousels shipped;
+36 Metricool entries accepted, one rejection, fixed in the same run.
+
+**The report could not be written, for the third time in seven days.** `add_repo`
+(`mcp__claude-code-remote__add_repo`) does not exist in this session, so
+`valentinavram626-cmd/ola-ops-reports` could not be attached and `SAFETY.md` could
+not be read. Both errors, verbatim:
+
+    git clone --depth 1 https://github.com/valentinavram626-cmd/ola-ops-reports.git
+    fatal: could not read Username for 'https://github.com': terminal prompts disabled
+
+    Access denied: repository "valentinavram626-cmd/ola-ops-reports" is not
+    configured for this session. Allowed repositories:
+    valentinavram626-cmd/ola-social-posts, valentinavram626-cmd/ola-next. [...] if
+    add_repo is not available, this repository cannot be added to this session.
+
+This is not fixable from inside a run. Whoever configures the scheduled task has to
+add `ola-ops-reports` to the session's repositories with push access. Until then
+there is no day-to-day record anyone can compare. Nothing was deleted, held or
+unscheduled — only new posts were created, so no backup was required.
+
+* **The pensions carousel's lead figure was wrong by about twelvefold, and it was
+  wrong on every surface in both languages.** "At least 3% of that comes from your
+  employer" / "Cel puțin 3% din acești bani îi pune angajatorul" reads as 3% of the
+  8%, which is 0.24%. gov.uk's table is employer 3% + staff 5% = 8% total, all of
+  qualifying earnings. The fix states the split in points: "3% pune angajatorul și
+  5% pui tu. Astea sunt minimele legale." **When a card compounds two percentages,
+  say which base each one is a percentage OF.**
+* **An exclusion can be dangerous by being incomplete.** The Corporation Tax card
+  said a dormant company "scapă" — escapes. gov.uk says such a company "must still
+  file annual accounts and a confirmation statement", and a missed confirmation
+  statement can get the company struck off. A reader with a registered, never-traded
+  company would have concluded nothing was due anywhere. Card 3 now carries the
+  Companies House obligation, and "the one exception" became "the main exception"
+  because no source supports the "only".
+* **A categorical exclusion needs the counterexample from the same source page.**
+  "Only wages or a pension, so no return" is contradicted by gov.uk's own must-file
+  list: the High Income Child Benefit Charge over £60,000 adjusted net income bites
+  on wages alone, and so does an off-payroll worker repaying a student loan. The
+  caption listed HICBC two paragraphs above and then contradicted itself.
+* **A deadline that has passed is not advice.** The card told the reader to notify
+  HMRC by 5 October. For 2025/26 that was 5 October 2026, a month before
+  publication. It came off the card and into the caption, framed as gone, with what
+  to do now. **An evergreen card must not carry a date the reader can no longer hit.**
+* **Where a source hedges, the card hedges.** Four separate "usually" and "in most
+  schemes" qualifiers had been dropped between the source and the frame, each one
+  turning a tendency into a rule. Two of them were still correct in the caption and
+  wrong on the card, which is the same split the 8 November run found.
+* **State the exclusion as what IS covered when the negative form misleads.** The
+  flight card's "a flight into the UK from a non-UK country on a non-UK, non-EU
+  airline" is correct against the CAA annex, and reads to a Romanian audience as
+  excluding their own Cluj-to-Luton flight, which UK261 covers. The card now says
+  what is in: every departure from a UK airport on any airline, and inbound flights
+  on a UK or EU airline.
+* **The drafter's own cited manual disproved the drafter.** "The claim cannot be
+  made at all" past four years is contradicted by SACM12155, which keeps
+  consequential and special-relief routes open. Second time in two runs that the
+  repo's own source file settled a claim against the card.
+* **A checker's objection is still not a source.** Two were declined on evidence:
+  the £400 second Corporation Tax penalty (gov.uk states it as two £200 stages and
+  £400 is the cumulative total — the SCOPE note was corrected instead of the card),
+  and the footer phone number on content cards, which is the brand template.
+* **`bundle.py` never wrote the SCOPE block into the claims bundle.** The scope
+  checker, whose only job is to test SCOPE, could not see it and reconstructed it
+  from the captions. Fixed, along with a hard-coded publication date.
+* **The topic title is published text and no gate looks at it.** `bani-inapoi-p800`
+  was titled "cele 4 luni de aşteptare" where the rule is a four-YEAR claim window,
+  and `build.py` was truncating it mid-word at 60 characters for the TikTok title.
+  Caught at the scheduling step by reading the payload, not by any check.
+* **Three caption surfaces drifted after the cards were fixed, and all three were
+  caught by reading the caption aloud at the scheduling step** — the Threads caption
+  still said "anul financiar" and "doar firma dormant", the Google Business caption
+  still said "financial year", and two more Threads captions still carried hedges
+  and absolutes that had been corrected everywhere else. `captions.py` has five
+  independent surfaces per topic and a fix has to be checked on each.
+* **27 captions broke their caps across two repair rounds and `limits.py` caught all
+  27.** Nothing was judged by eye and nothing was edited in a Metricool payload.
+* **qa.py's blind spot is still open.** Its bottom-margin test looks for ink too
+  close to the edge, so a footer pushed clean out of frame passes. A separate check
+  ran this time — the footer band must contain ink on every frame — across 640
+  frames, zero missing. That belongs in `qa.py` rather than in whether the studio
+  remembered to run it.
+
+### Still to settle
+
+Three CTA decisions are now waiting on Valentin, up from two:
+
+1. **The footer phone number on content cards** (4 Nov). The brand rule puts it on
+   every slide; the format rule says a content card carries no call to action.
+2. **No price on the CTA card** (8 Nov). The compliance reviewer reads "Fără
+   obligații" with no price as implying a free service when the first consultation
+   is £120 incl. VAT.
+3. **What the CTA actually promises** (9 Nov). Two of today's CTAs offered
+   substantive advisory work for free — "verificăm împreună dacă ai de luat bani
+   înapoi". They were narrowed to a genuinely free step ("îți spunem ce să
+   verifici") so nothing shipped implying free advice, but whether a CTA card should
+   carry the price is still a positioning call, not a factual one.
+
+And one template question, from the plain-language checker: **the hero figure on a
+card means nothing read on its own.** "9+1", "PAYE", "dormant", "22", "3 h" are set
+large beside the text, so the reader decodes the headline from the body rather than
+the other way round. A rule like "the figure is always a sum in pounds or a
+percentage, never a word or a code" would fix it, but it is a template change across
+every topic, not an overnight edit. Related: **no card states its nation** — all four
+scope answers live in the captions and the SCOPE block, and a scroller never sees
+whether a rule is UK-wide or England-only. For a studio whose founding near-miss was
+a nation error, that is the gap worth closing next.
