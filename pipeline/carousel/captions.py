@@ -1516,7 +1516,7 @@ Pierderea nu te scutește. Nici lipsa taxei de plată. Depui declarația și dac
 
 Cât costă întârzierea la declarație: £200 la o zi, încă £200 la 3 luni. La 6 luni HMRC îți estimează singură factura și adaugă 10% din taxa neplătită, iar la 12 luni încă 10%.
 
-Paginile GOV.UK nu fac distincție pe națiuni: aceleași termene în toată Marea Britanie.
+Paginile GOV.UK nu fac distincție pe națiuni: aceleași termene în tot Regatul Unit, inclusiv Irlanda de Nord.
 
 Nu știi când îți expiră termenul?""",
  th="""Firma plătește taxa ÎNAINTE să depună declarația: plata la 9 luni și o zi după încheierea perioadei contabile, declarația la 12 luni. Două termene, la trei luni distanță.

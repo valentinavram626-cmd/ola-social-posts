@@ -28,7 +28,7 @@ Pierderea nu te scutește. Nici lipsa taxei de plată. Depui declarația și dac
 
 Cât costă întârzierea la declarație: £200 la o zi, încă £200 la 3 luni. La 6 luni HMRC îți estimează singură factura și adaugă 10% din taxa neplătită, iar la 12 luni încă 10%.
 
-Paginile GOV.UK nu fac distincție pe națiuni: aceleași termene în toată Marea Britanie.
+Paginile GOV.UK nu fac distincție pe națiuni: aceleași termene în tot Regatul Unit, inclusiv Irlanda de Nord.
 
 Nu știi când îți expiră termenul?
 
@@ -108,7 +108,7 @@ General information. For your own situation, speak to an accountant.
 
 A limited company pays its Corporation Tax before it files the return, not with it.
 
-The tax is due 9 months and one day after the day the accounting period ends. The Company Tax Return is due within 12 months of that same day. If the financial year ends on 31 March 2026, the tax is due by 1 January 2027 and the return by 31 March 2027. Interest runs from the day after the payment deadline.
+The tax is due 9 months and one day after the day the accounting period ends. The Company Tax Return is due within 12 months of that same day. If the accounting period ends on 31 March 2026, the tax is due by 1 January 2027 and the return by 31 March 2027. Interest runs from the day after the payment deadline.
 
 Taxable profits over £1.5 million are paid in instalments rather than in one payment.
 
