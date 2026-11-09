@@ -2731,7 +2731,476 @@ HELP_TO_SAVE = dict(
 )
 
 
-DAY = [SA_PENALTIES, RENT_A_ROOM, CGT_60_DAYS, CHILDCARE_30H, HELP_TO_SAVE]
+# ===================================================================== 2026-11-10
+# Five topics for publication on 10 November 2026. Every figure below was read
+# at primary source on 9 November 2026 — gov.uk, HMRC's own manuals, and the
+# Civil Aviation Authority for the air passenger rules. Nothing comes from a
+# news site, a blog or another firm's page.
+
+CT_9_LUNI = dict(
+  slug="corporation-tax-9-luni",
+  title="Corporation Tax — firma plătește înainte să depună",
+  tags_ro="#corporationtax #firmauk #limitedcompany #contabilitate #romaniinuk",
+  tags_en="#corporationtax #limitedcompany #hmrc #ukaccountant #smallbusinessuk",
+
+  RO=[
+    dict(type="hook",
+         kicker="Corporation Tax · firme limited",
+         h1="Firma plătește taxa <em>înainte</em> să depună declarația.",
+         say="Banii se dau la 9 luni și o zi după ce se încheie perioada contabilă a firmei. Declarația are termen 12 luni. Cine crede că plătește când depune, plătește cu trei luni întârziere."),
+    dict(type="step", step="Cele două termene", fig="9+1",
+         say="Plătești Corporation Tax la 9 luni și o zi după ziua în care se încheie perioada contabilă. Declarația o depui până la 12 luni după aceeași zi.",
+         note="Dacă firma are profit impozabil peste £1,5 milioane, plata nu se face o dată, ci în rate."),
+    dict(type="step", step="Cine NU depune", fig="dormant",
+         say="Depui declarația și dacă firma a avut pierdere, și dacă nu are nicio taxă de plătit. Principala excepție e firma „dormant\" pentru Corporation Tax: a oprit activitatea și nu are alt venit.",
+         note="Dar și atunci depui conturile anuale și confirmation statement la Companies House. „Dormant\" la HMRC nu te scutește acolo."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Corporation Tax · firme limited",
+    h1="Nu știi <em>când îți expiră termenul</em>?",
+    say="Scrie-ne data la care se încheie perioada contabilă și îți spunem cele două termene. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Corporation Tax · limited companies",
+         h1="The company pays <em>before</em> it files.",
+         say="Corporation Tax is due 9 months and one day after the end of the accounting period. The return is due 12 months after it. Treat the two as one date and the payment is three months late."),
+    dict(type="step", step="The two deadlines", fig="9+1",
+         say="Pay Corporation Tax 9 months and one day after the day your accounting period ends. File the Company Tax Return within 12 months of that same day.",
+         note="Where taxable profits top £1.5 million, the tax is paid in instalments rather than in one go."),
+    dict(type="step", step="Who does NOT file", fig="dormant",
+         say="You still send a return after a loss, and when there is no Corporation Tax to pay. The main exception is a company dormant for Corporation Tax — it stopped trading and has no other income.",
+         note="Even then, accounts and a confirmation statement still go to Companies House, the companies registry. Dormant for HMRC is not dormant there."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Corporation Tax · limited companies",
+    h1="Not sure <em>when yours falls due</em>?",
+    say="Send us your accounting period end date and we will give you both deadlines. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  GBP=[
+    dict(type="solo",
+         kicker="Corporation Tax · gov.uk",
+         h1="The company pays before it files, not with it.",
+         rows=[["9 months + 1 day", "to pay the Corporation Tax bill"],
+               ["12 months",        "to file the Company Tax Return"],
+               ["<cur>£</cur>200",  "penalty one day late, £200 more at 3 months"]],
+         ask="Limited company in Luton or Birmingham? Message us and we will check both dates.",
+         phone=PHONE, disc="General information, not personal advice."),
+  ],
+
+  SOURCES=[
+    ("Corporation Tax due 9 months and 1 day after the end of the accounting period; "
+     "taxable profits over £1.5 million paid in instalments",
+     "https://www.gov.uk/pay-corporation-tax", "2026-11-09"),
+    ("Company Tax Return due 12 months after the end of the accounting period; "
+     "separate payment deadline of 9 months and one day; a return is still required "
+     "where the company makes a loss or has no Corporation Tax to pay",
+     "https://www.gov.uk/company-tax-returns", "2026-11-09"),
+    ("Late filing penalties: £200 at one day, another £200 at 3 months, HMRC estimate "
+     "plus 10% of unpaid tax at 6 months, a further 10% at 12 months",
+     "https://www.gov.uk/company-tax-returns/penalties-for-late-filing", "2026-11-09"),
+    ("Fixed late filing penalties raised, for returns with a filing date on or after "
+     "1 April 2026, from £100 to £200 for a late return and from £200 to £400 for one "
+     "more than 3 months late — the £400 being the cumulative total of the two £200 "
+     "stages the penalties page lists",
+     "https://www.gov.uk/government/publications/corporation-tax-increases-to-late-filing-penalties/increases-to-corporation-tax-late-filing-penalties",
+     "2026-11-09"),
+    ("Dormant for Corporation Tax: stopped trading and no other income; once told, "
+     "no Corporation Tax to pay and no further return unless a further notice to "
+     "deliver arrives; HMRC may write to say it is treating the company as dormant",
+     "https://www.gov.uk/dormant-company/dormant-for-corporation-tax", "2026-11-09"),
+    ("A dormant company must still file annual accounts and a confirmation statement "
+     "(previously annual return); HMRC may write to say it is treating the company as "
+     "dormant, and the company can also tell HMRC itself",
+     "https://www.gov.uk/dormant-company/dormant-for-corporation-tax", "2026-11-09"),
+    ("Large company instalments: profits at an annual rate of more than £1.5 million; for "
+     "accounting periods beginning on or after 1 April 2023 the £1.5 million and £10 "
+     "million thresholds are divided by the number of associated companies; no instalments "
+     "where total liability for the period is less than £10,000",
+     "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments", "2026-11-09"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK. Corporation Tax is reserved and does not vary by nation.",
+    category="Limited companies and other bodies within the charge to Corporation Tax, "
+             "whatever their size. The instalment rule applies only above £1.5 million "
+             "of taxable profit.",
+    excluded="A company that is dormant for Corporation Tax — it has stopped trading "
+             "and has no other income — does not pay and does not file, once HMRC has "
+             "been told or has said so, and until a further notice to deliver a return "
+             "arrives. That exclusion is narrower than it looks: gov.uk says such a "
+             "company must still file annual accounts and a confirmation statement, so "
+             "dormant for Corporation Tax is not dormant for Companies House. A loss, or "
+             "a nil liability, excludes nobody: the return is still due. Companies with "
+             "taxable profits at an annual rate over £1.5 million do not use the single "
+             "9-months-and-one-day date at all; they pay in instalments — and for periods "
+             "beginning on or after 1 April 2023 that £1.5 million is divided by the "
+             "number of associated companies including the company itself, so a group of "
+             "three is large at £500,000. A company whose total liability for the period "
+             "is under £10,000 stays on the normal due date even above the threshold.",
+    from_when="Current rules, now. The increased fixed late filing penalties apply to "
+              "returns whose filing date is on or after 1 April 2026, so they are the "
+              "figures in force for anything filed late today: £200 at one day and a "
+              "further £200 at three months, which is the £400 cumulative total the "
+              "policy paper quotes. The two are the same penalty described two ways, and "
+              "the cards use gov.uk's own per-stage wording.",
+  ),
+)
+
+
+# ===================================================================== 2
+CINE_DEPUNE = dict(
+  slug="cine-depune-declaratia",
+  title="Self Assessment — cine trebuie să depună declarație",
+  tags_ro="#selfassessment #hmrc #declaratie #contabilitate #romaniinuk",
+  tags_en="#selfassessment #hmrc #taxreturn #ukaccountant #sidehustleuk",
+
+  RO=[
+    dict(type="hook",
+         kicker="Self Assessment · anul fiscal 2025/26",
+         h1="Nu toată lumea depune declarație la HMRC.",
+         say="Dacă iei doar salariu sau pensie, taxa se oprește de obicei automat prin PAYE, adică direct din plată, și de regulă nu depui nimic. Întrebarea apare când ai luat bani din altă parte."),
+    dict(type="step", step="Când TREBUIE să depui", fig="<cur>£</cur>1.000",
+         say="Ai lucrat pe cont propriu și ai încasat peste £1.000 — cât ai încasat, nu cât ți-a rămas. Sau ai fost partener într-un business. Sau ai avut Capital Gains Tax de plătit.",
+         note="Poate intra și venitul pe care nu ți l-a taxat nimeni: chirii, bacșișuri, dobânzi, dividende, bani din altă țară. GOV.UK spune «poate», nu «trebuie»."),
+    dict(type="step", step="Cine NU depune", fig="PAYE",
+         say="Dacă singurul venit e salariul sau pensia, taxa se ia direct din plată și nu ai ce depune. Dar e o excepție care prinde multă lume.",
+         note="Excepția: taxa pe Child Benefit, dacă unul dintre voi trece de £60.000 venit net ajustat și nu se ia din salariu. Iar dacă HMRC ți-a cerut declarația în scris, o depui oricum."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Self Assessment · anul fiscal 2025/26",
+    h1="Nu știi dacă <em>trebuie să depui</em>?",
+    say="Scrie-ne ce venituri ai avut în anul fiscal 2025/26 și îți spunem ce ai de verificat. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Self Assessment · 2025/26 tax year",
+         h1="Not everyone has to file a tax return.",
+         say="If your only income is wages or a pension, the tax usually comes off through PAYE — straight out of your pay — and no return is normally due. The question starts the moment money arrives from somewhere else."),
+    dict(type="step", step="When you MUST file", fig="<cur>£</cur>1,000",
+         say="You were self-employed as a sole trader and took more than £1,000 — what came in, not what you kept. Or you were a partner in a business. Or you had Capital Gains Tax to pay.",
+         note="Untaxed income may bring you in too: rent, tips, savings interest, dividends, money from abroad. GOV.UK says may, not must."),
+    dict(type="step", step="Who does NOT file", fig="PAYE",
+         say="If your only income is wages or a pension, the tax comes straight out of your pay and no return is normally due. But one exception catches people out.",
+         note="The exception: the Child Benefit tax charge, where one of you has adjusted net income over £60,000 and it is not taken from wages. And a notice to file from HMRC is answered whatever you owe."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Self Assessment · 2025/26 tax year",
+    h1="Not sure whether <em>you have to file</em>?",
+    say="Tell us what came in during the 2025/26 tax year and we will say what to check. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("Who must send a return: sole trader earning more than £1,000 before relief; "
+     "partner in a business partnership; Capital Gains Tax to pay; High Income Child "
+     "Benefit Charge not paid through PAYE; and the untaxed income list — rent, tips "
+     "and commission, savings interest, dividends, foreign income",
+     "https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return", "2026-11-09"),
+    ("Tax is usually deducted automatically from wages and pensions; people and "
+     "businesses with other income must report it in a Self Assessment return; tell "
+     "HMRC by 5 October if you need to complete a return for the previous year",
+     "https://www.gov.uk/self-assessment-tax-returns", "2026-11-09"),
+    ("Most people pay Income Tax through PAYE — the employer or pension provider takes "
+     "Income Tax before paying wages or a pension",
+     "https://www.gov.uk/income-tax/how-you-pay-income-tax", "2026-11-09"),
+    ("High Income Child Benefit Charge: applies where adjusted net income is over "
+     "£60,000 for tax years from 2024 to 2025; where both partners are over it, whoever "
+     "has the higher income pays; it must go through Self Assessment where a return is "
+     "needed for another reason or the payment falls after 31 January following the tax "
+     "year, and can otherwise be paid through PAYE",
+     "https://www.gov.uk/child-benefit-tax-charge", "2026-11-09"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK. Self Assessment is HMRC-wide with no devolved variation in "
+           "who has to file.",
+    category="Individuals with income that PAYE has not already taxed — sole traders "
+             "over £1,000 of receipts, business partners, people with Capital Gains Tax "
+             "to pay, and people with untaxed rent, tips, interest, dividends or foreign "
+             "income.",
+    excluded="Anyone whose only income is wages or a pension taxed through PAYE: gov.uk "
+             "says tax is usually deducted automatically from wages and pensions, so no "
+             "return is normally due. The exclusion is not absolute and the cards now say "
+             "so: gov.uk's own must-file list includes the High Income Child Benefit "
+             "Charge where it is not paid through PAYE, and an off-payroll worker "
+             "repaying a student or postgraduate loan — both can apply to someone whose "
+             "only income is wages. It also stops the moment HMRC issues a notice to "
+             "file, which has to be answered even where nothing is owed, and it does not "
+             "remove the separate duty to tell HMRC by 5 October when first registering.",
+    from_when="The 2025/26 tax year, 6 April 2025 to 5 April 2026. First-time "
+              "registration for that year had to be notified to HMRC by 5 October 2026.",
+  ),
+)
+
+
+# ===================================================================== 3
+BANI_INAPOI = dict(
+  slug="bani-inapoi-p800",
+  title="Taxa plătită în plus — scrisoarea P800 și cele 4 luni de aşteptare",
+  tags_ro="#p800 #hmrc #taxainapoi #paye #romaniinuk",
+  tags_en="#p800 #hmrc #taxrefund #paye #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Taxa pe salariu · scrisoarea P800",
+         h1="HMRC îți poate datora bani, fără să-ți fi spus încă.",
+         say="Când pe salariu s-a oprit prea multă taxă, HMRC trimite o scrisoare de calcul numită P800. Scrisorile pleacă între iunie și martie al anului următor — deci a ta poate să nu fi venit încă."),
+    dict(type="step", step="Cum vin banii", fig="5 zile",
+         say="Dacă P800 spune că HMRC trimite cecul, vine singur în 14 zile. Dacă poți cere banii online, vin în 5 zile lucrătoare. Dacă tu ceri cecul, până la 6 săptămâni.",
+         note="Banii vin de la HMRC, nu prin link. HMRC nu oferă niciodată restituiri de taxă prin rețelele sociale."),
+    dict(type="step", step="Cine NU primește P800", fig="4 ani",
+         say="Dacă depui Self Assessment nu primești nicio scrisoare P800: banii ți se întorc prin declarație. P800 e pentru salariați și pensionari.",
+         note="Ai 4 ani după încheierea anului fiscal ca să ceri taxa plătită în plus. Dacă treci termenul, de regulă nu se mai poate cere."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Taxa pe salariu · scrisoarea P800",
+    h1="Crezi că ai plătit <em>prea multă taxă</em>?",
+    say="Scrie-ne și îți spunem ce să verifici la HMRC. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="PAYE · the P800 letter",
+         h1="HMRC may owe you money and not have told you yet.",
+         say="When too much tax has come off your wages, HMRC sends a tax calculation letter — a P800. Those letters go out between June and the following March, so yours may simply not have arrived."),
+    dict(type="step", step="How the money arrives", fig="5 days",
+         say="If the P800 says HMRC will post a cheque, it comes on its own in 14 days. If you can claim online, 5 working days. If you ask for a cheque yourself, up to 6 weeks.",
+         note="The money comes from HMRC, never through a link. HMRC never offers a tax rebate over social media."),
+    dict(type="step", step="Who does NOT get a P800", fig="4 years",
+         say="If you file Self Assessment you get no P800 at all — your refund is worked out in the return instead. The P800 is for employees and people drawing a pension.",
+         note="You have 4 years after the end of the tax year to claim tax you overpaid. Miss that and normally it can no longer be claimed."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="PAYE · the P800 letter",
+    h1="Think you have <em>overpaid tax</em>?",
+    say="Message us and we will tell you what to check with HMRC. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("The P800 tax calculation letter: sent between June and March of the following tax "
+     "year, only to people who are employed or getting a pension; Self Assessment "
+     "taxpayers get neither a tax calculation letter nor a Simple Assessment letter "
+     "because the bill is adjusted automatically",
+     "https://www.gov.uk/tax-overpayments-and-underpayments", "2026-11-09"),
+    ("Refund timings: online claim paid within 5 working days, a cheque requested online "
+     "within 6 weeks, an automatic cheque within 14 days of the date on the letter",
+     "https://www.gov.uk/tax-overpayments-and-underpayments/if-youre-due-a-refund", "2026-11-09"),
+    ("Overpayment relief time limit: claims must be made within 4 years after the end of "
+     "the relevant tax year or accounting period (HMRC Self Assessment Claims manual "
+     "SACM12155)",
+     "https://www.gov.uk/hmrc-internal-manuals/self-assessment-claims-manual/sacm12155", "2026-11-09"),
+    ("Scam signs: an offer of a tax refund, rebate or grant, and HMRC never using social "
+     "media to offer a tax rebate or request personal or financial information; suspect "
+     "texts forwarded to 60599",
+     "https://www.gov.uk/guidance/identify-hmrc-related-scam-phone-calls-emails-and-text-messages",
+     "2026-11-09"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK. PAYE and the P800 are HMRC-wide.",
+    category="People taxed through PAYE — employees and people drawing a pension — whose "
+             "tax came out wrong, typically through a wrong tax code, two overlapping "
+             "jobs, a new workplace pension, or Employment and Support Allowance or "
+             "Jobseeker's Allowance.",
+    excluded="Self Assessment taxpayers get neither a P800 nor a Simple Assessment "
+             "letter: their bill is adjusted automatically in the return, so waiting for "
+             "a letter that never comes is the mistake. And anyone more than 4 years past "
+             "the end of the tax year concerned is normally out of time, however much was "
+             "overpaid — SACM12155 keeps narrow consequential and special-relief routes "
+             "open, which is why the cards say normally and not never. Separately, a "
+             "P800 only arrives where HMRC's records already show the overpayment: "
+             "employment expenses, tools and mileage, leaving the UK mid-year, and CIS "
+             "deductions all have to be claimed and never come by letter.",
+    from_when="P800 letters for a tax year are issued between June and the following "
+              "March. The 4-year claim window runs from the end of the tax year, not "
+              "from the date of the letter.",
+  ),
+)
+
+
+# ===================================================================== 4
+PENSIE_LA_JOB = dict(
+  slug="pensie-la-job",
+  title="Pensia de la job — 3% îi pune angajatorul, nu tu",
+  tags_ro="#pensie #workplacepension #drepturiuk #angajat #romaniinuk",
+  tags_en="#workplacepension #autoenrolment #employeerights #uk #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Pensia de la locul de muncă · UK",
+         h1="În pensia ta pune bani și <em>angajatorul</em>.",
+         say="La un job pe salariu intră în pensie 8% din câștigul care se ia în calcul: 3% pune angajatorul și 5% pui tu. Astea sunt minimele legale. Dacă ieși din schemă, partea angajatorului nu se înlocuiește cu nimic."),
+    dict(type="step", step="Cine intră automat", fig="<cur>£</cur>10.000",
+         say="Angajatorul te înscrie singur, fără să ceri, dacă ai între 22 de ani și vârsta de pensionare de stat, câștigi cel puțin £10.000 pe an și lucrezi de obicei în UK.",
+         note="Câștigul care se ia în calcul: în majoritatea schemelor automate, partea de salariu dintre £6.240 și £50.270 pe an, nu tot salariul."),
+    dict(type="step", step="Cine NU intră automat", fig="22",
+         say="Sub 22 de ani, peste vârsta de pensionare sau sub £10.000 pe an — nu te înscrie nimeni automat. De regulă poți cere tu să intri, iar angajatorul nu te poate refuza.",
+         note="Dar sub £6.240 pe an (£520 pe lună) angajatorul nu e obligat să pună bani. Iar un director unic, fără alt angajat, nu are obligația de înscriere."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Pensia de la locul de muncă · UK",
+    h1="Nu știi dacă <em>ești înscris</em>?",
+    say="Scrie-ne și îți trimitem pagina oficială GOV.UK unde verifici regulile. Fără obligații.",
+    phone=PHONE, disc="Informații generale, nu consultanță pe pensii. Condițiile sunt pe gov.uk."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Workplace pensions · UK",
+         h1="Your employer puts money in <em>too</em>.",
+         say="In a job on payroll, 8% of your qualifying earnings goes into a pension: 3% from your employer and 5% from you. Those are the legal minimums. Leave the scheme and the employer's share is not replaced."),
+    dict(type="step", step="Who is enrolled automatically", fig="<cur>£</cur>10,000",
+         say="Your employer has to put you in without being asked if you are aged between 22 and State Pension age, earn at least £10,000 a year, and usually work in the UK.",
+         note="Qualifying earnings: in most automatic enrolment schemes, the slice of pay between £6,240 and £50,270 a year — not your whole wage."),
+    dict(type="step", step="Who is NOT enrolled automatically", fig="22",
+         say="Under 22, over State Pension age, or earning under £10,000 a year, and nobody puts you in. You can usually still ask to join, and your employer cannot refuse.",
+         note="But under £6,240 a year (£520 a month) your employer need not contribute. And a sole director with no other staff has no enrolment duty at all."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Workplace pensions · UK",
+    h1="Not sure whether <em>you are enrolled</em>?",
+    say="Message us and we will send you the official GOV.UK page with the rules. No obligation.",
+    phone=PHONE, disc="General information, not pensions advice. The conditions are on gov.uk."),
+
+  SOURCES=[
+    ("Automatic enrolment conditions: aged between 22 and State Pension age, earn at "
+     "least £10,000 a year, ordinarily work in the UK; the list of cases where an "
+     "employer usually does not have to enrol you; you can usually still join and the "
+     "employer cannot refuse; no employer contribution required at £520 a month, £120 a "
+     "week or £480 over 4 weeks or less",
+     "https://www.gov.uk/workplace-pensions/joining-a-workplace-pension", "2026-11-09"),
+    ("Minimum total contribution 8% from April 2019, of which the employer pays at least "
+     "3%; in most automatic enrolment schemes the percentages apply to earnings between "
+     "£6,240 and £50,270 a year before tax",
+     "https://www.gov.uk/workplace-pensions/what-you-your-employer-and-the-government-pay",
+     "2026-11-09"),
+    ("Opting out within a month of being added returns the money already paid in; later "
+     "it usually stays in the pension until retirement; re-enrolment every 3 years",
+     "https://www.gov.uk/workplace-pensions/if-you-want-to-leave-your-workplace-pension-scheme",
+     "2026-11-09"),
+    ("Automatic enrolment duties do not apply where the person is not an employer — "
+     "including where you are a sole director of an organisation or business with no "
+     "other staff. The Pensions Regulator is the regulator for automatic enrolment.",
+     "https://www.thepensionsregulator.gov.uk/en/employers/what-if-i-dont-have-any-staff",
+     "2026-11-09"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK. The duty applies to workers who ordinarily work in the UK.",
+    category="Workers on an employer's payroll aged 22 to State Pension age earning at "
+             "least £10,000 a year.",
+    excluded="Nobody is automatically enrolled who is under 22, over State Pension age or "
+             "earning under £10,000 a year — they can ask to join and the employer cannot "
+             "refuse, but at £520 a month or less (£120 a week, £480 over 4 weeks) the "
+             "employer need not contribute at all. The Pensions Regulator adds that a "
+             "sole director of a business with no other staff has no automatic enrolment "
+             "duty at all, which is the small-limited-company case in this audience. "
+             "GOV.UK also lists cases where an employer usually does not have to "
+             "enrol someone: notice already given or received either way, evidence of "
+             "lifetime allowance protection, a pension already taken that the employer "
+             "arranged, a one-off payment from a closed scheme, having opted out more than "
+             "12 months before the staging date, membership of an EU cross-border scheme, "
+             "being in a limited liability partnership, and a director without an "
+             "employment contract who employs at least one other person.",
+    from_when="Now. The 8% total and 3% employer minimum have applied since April 2019. "
+              "Opting out within one month of being added gets back what you paid in; "
+              "after that it normally stays in the pension until retirement, and the "
+              "employer re-enrols you every 3 years.",
+  ),
+)
+
+
+# ===================================================================== 5
+COMPENSATIE_ZBOR = dict(
+  slug="compensatie-zbor",
+  title="Zbor întârziat — între £220 și £520, dar nu automat",
+  tags_ro="#zbor #drepturipasageri #compensatie #caa #romaniinuk",
+  tags_en="#flightdelay #passengerrights #uk261 #caa #consumerrights",
+
+  RO=[
+    dict(type="hook",
+         kicker="Drepturile pasagerilor · zboruri UK",
+         h1="Ai ajuns cu peste <em>3 ore</em> întârziere? Ți se pot datora bani.",
+         say="Suma nu are nicio legătură cu cât ai dat pe bilet: e stabilită prin lege, între £220 și £520 de persoană. Nu se plătește singură — o ceri de la compania aeriană."),
+    dict(type="step", step="Cât, după distanță", fig="<cur>£</cur>520",
+         say="Sub 1.500 km — £220. Între 1.500 și 3.500 km — £350. Peste 3.500 km suma se împarte după cât de târziu ai ajuns: £260 la 3–4 ore, £520 la peste 4 ore.",
+         note="Se numără ora la care ai ajuns la destinație, nu ora la care ar fi trebuit să pleci."),
+    dict(type="step", step="Când NU primești bani", fig="3 h",
+         say="La 3 ore întârziere sau mai puțin nu se dă compensație. Și nu se dă când compania arată că motivul a fost unul extraordinar: vreme extremă sau grevă la aeroport ori la controlul traficului aerian.",
+         note="Orice zbor care pleacă dintr-un aeroport din UK intră, cu orice companie. Spre UK intră zborurile operate de companii din UK sau din UE."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Drepturile pasagerilor · zboruri UK",
+    h1="Nu știi <em>dacă zborul tău intră</em>?",
+    say="Scrie-ne și îți trimitem pagina oficială a autorității aviatice unde se verifică. Fără obligații.",
+    phone=PHONE, disc="Informații generale, nu consultanță juridică. Regulile sunt pe caa.co.uk."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Air passenger rights · UK flights",
+         h1="Landed more than <em>3 hours</em> late? You may be owed money.",
+         say="The sum has nothing to do with what you paid for the ticket: it is set by law, between £220 and £520 a person. It is never paid automatically — you claim it from the airline."),
+    dict(type="step", step="How much, by distance", fig="<cur>£</cur>520",
+         say="Under 1,500km — £220. From 1,500km to 3,500km — £350. Over 3,500km the sum splits by how late you landed: £260 at three to four hours, £520 beyond four.",
+         note="What counts is the time you reached your destination airport, not the time you were due to take off."),
+    dict(type="step", step="When you get NOTHING", fig="3 h",
+         say="Arrive three hours late or less and no compensation is due. Nor is it due where the airline shows the cause was extraordinary: extreme weather, or an airport or air traffic control strike.",
+         note="Any flight leaving a UK airport is covered, on any airline. Into the UK, it is flights operated by a UK or EU airline."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Air passenger rights · UK flights",
+    h1="Not sure <em>if your flight counts</em>?",
+    say="Message us and we will send you the Civil Aviation Authority page where you can check it. No obligation.",
+    phone=PHONE, disc="General information, not legal advice. The rules are on caa.co.uk."),
+
+  SOURCES=[
+    ("Delay compensation: £220 under 1,500km; £350 between 1,500km and 3,500km; £260 "
+     "over 3,500km arriving three to four hours late and £520 arriving more than four "
+     "hours late; you must arrive more than three hours late at the destination airport; "
+     "amounts are fixed and not linked to the ticket price; compensation is not paid "
+     "automatically and is claimed from the airline; no compensation where the airline "
+     "considers the delay caused by extraordinary circumstances",
+     "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/delays/",
+     "2026-11-09"),
+    ("Extraordinary circumstances examples: extreme weather, airport or air traffic "
+     "control employee strikes",
+     "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/cancellations/",
+     "2026-11-09"),
+    ("Which flights UK261 covers, by departure point, arrival point and airline: every "
+     "flight departing the UK is inside it on any carrier; EU to UK is inside it on a UK "
+     "or Community carrier; third country to UK on a third-country carrier is the row "
+     "that is outside it",
+     "https://www.caa.co.uk/media/jn3npj1h/uk-261-annex-1.pdf", "2026-11-09"),
+    ("Time limit to issue a court claim: the legal limit to issue claims at Court is 6 "
+     "years from the date of the incident in England and Wales and 5 years in Scotland; "
+     "the CAA will not handle complaints where there is less than a year to take legal "
+     "action",
+     "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/travel-complaints/how-the-caa-can-help/",
+     "2026-11-09"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide. UK261 is the retained UK regulation, enforced by the Civil Aviation "
+           "Authority.",
+    category="Passengers on a flight UK261 covers: any flight departing a UK airport, and "
+             "flights into the UK operated by a UK or EU airline, who reached the "
+             "destination airport more than three hours late.",
+    excluded="Nothing is due where the arrival was under three hours late, or where the "
+             "airline considers the cause extraordinary — extreme weather, or an airport "
+             "or air traffic control strike. A flight into the UK from a non-UK country "
+             "flown by an airline that is neither UK nor EU is outside UK261 altogether, "
+             "so the fixed sums do not exist for it. Two separate bookings self-connected "
+             "by the passenger carry no statutory right to care, compensation or onward "
+             "transport across the join.",
+    from_when="In force now, for flights already taken as well as future ones. It is "
+              "never automatic: the claim goes to the airline, and after eight weeks "
+              "without a final answer it can be escalated to an ADR scheme or the CAA's "
+              "passenger advice and complaints team. There is a deadline on the other "
+              "end too: the CAA puts the limit for issuing a court claim at 6 years from "
+              "the incident in England and Wales and 5 years in Scotland, and will not "
+              "handle a complaint with less than a year of that left.",
+  ),
+)
+
+
+DAY = [CT_9_LUNI, CINE_DEPUNE, BANI_INAPOI, PENSIE_LA_JOB, COMPENSATIE_ZBOR]
 
 # CHILD_BENEFIT was drafted for the 6th and held by the scope checker: its card 3
 # answers "who does not keep it" with the High Income Child Benefit Charge, while
@@ -2747,6 +3216,7 @@ HELD = [WINTER_FUEL, CHILD_BENEFIT]
 ARCHIVE = [PAYMENTS_ON_ACCOUNT, MTD_INCOME_TAX, VAT_THRESHOLD, MARRIAGE_ALLOWANCE,
            CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE,
            MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS,
-           VOLUNTARY_NI, DIVIDENDS_1075, HOME_WORKING, WARM_HOME_150, HOLIDAY_56]
+           VOLUNTARY_NI, DIVIDENDS_1075, HOME_WORKING, WARM_HOME_150, HOLIDAY_56,
+           SA_PENALTIES, RENT_A_ROOM, CGT_60_DAYS, CHILDCARE_30H, HELP_TO_SAVE]
 
 BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}

@@ -16,6 +16,7 @@ D = pathlib.Path(__file__).parent
 REPO = D.parent.parent
 V = pathlib.Path("/home/claude/verify"); V.mkdir(exist_ok=True)
 MONTH = "2026-11"
+PUBLISH = "10 November 2026"
 
 
 def flat(s):
@@ -63,7 +64,7 @@ for t in topics.DAY:
 
     # ---- claims bundle for the fact and scope checkers
     claims = [f"# {t['title']}", "",
-              "Carousel for publication on 5 November 2026. Below is every word that",
+              f"Carousel for publication on {PUBLISH}. Below is every word that",
               "appears on the cards, and the primary-source URLs the drafter used.", "",
               card_lines(t["RO"] + [t["CTA_RO"]], "Romanian cards (Instagram, Facebook, Threads, TikTok)"), "",
               card_lines(t["EN"] + [t["CTA_EN"]], "English cards (LinkedIn, Bluesky, Pinterest)")]
@@ -76,6 +77,9 @@ for t in topics.DAY:
                "EN Pinterest:\n" + captions.pin_caption(slug)]
     if "gbp" in captions.C[slug]:
         claims += ["", "EN Google Business:\n" + captions.gbp_caption(slug)]
+    claims += ["", "### SCOPE as the drafter answered it", ""]
+    for k in ("nation", "category", "excluded", "from_when"):
+        claims.append(f"- {k}: {(t.get('SCOPE') or {}).get(k, '(MISSING)')}")
     claims += ["", "### Sources cited by the drafter", ""]
     for what, url, read in t["SOURCES"]:
         claims.append(f"- {url}  (read {read})\n  covers: {what}")

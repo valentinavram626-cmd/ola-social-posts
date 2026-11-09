@@ -1198,7 +1198,7 @@ Nu ai banii acum? Dacă depui la timp, poți cere un plan de plată în rate —
 
 E la fel în toată Marea Britanie. Pe hârtie nu se mai poate depune: termenul de 31 octombrie 2026 a trecut. Rămâne online, până pe 31 ianuarie 2027.
 
-Nu ești sigur dacă trebuie să depui?""",
+Nu știi dacă trebuie să depui?""",
  th="""Depui declarația cu o zi întârziere? £100 — chiar dacă nu ai nicio taxă de plătit. După 3 luni se adaugă £10 pe zi, până la £900.
 
 Cine NU plătește: cine nu a primit niciodată de la HMRC cererea de a depune. Iar dacă nu mai trebuie să depui, HMRC poate anula amenda — dar anunță-i înainte de 31 ianuarie.""",
@@ -1485,6 +1485,353 @@ UK-wide. The account opens on GOV.UK or in the HMRC app in a few minutes, with a
  wa_li="Tax and accounts: 0330 133 1886",
  disc_ro="Informații generale, nu consultanță pe ajutoare de stat. Condițiile sunt pe gov.uk.",
  disc_en="General information, not benefits advice. The conditions are on GOV.UK.",
+)
+
+
+# ---------------------------------------------------------------- 2026-11-10
+# Every body below was measured with limits.py, not judged by eye, and measured
+# again after each repair round. Nothing here was edited in a Metricool payload:
+# the 8 November run proved that an edit which skips the gate is the same fault
+# as never running it.
+
+C["corporation-tax-9-luni"] = dict(
+ ro="""Firma plătește taxa ÎNAINTE să depună declarația. Nu în aceeași zi.
+
+Plata se face la 9 luni și o zi după ziua în care se încheie perioada contabilă a firmei. Declarația se depune până la 12 luni după aceeași zi. Sunt două termene diferite, la trei luni distanță, și cel care vine primul e plata.
+
+Exemplu, cu date reale. Perioada contabilă a firmei se încheie pe 31 martie 2026:
+• plătești Corporation Tax până pe 1 ianuarie 2027
+• depui declarația până pe 31 martie 2027
+
+Cine crede că plătește când depune, plătește cu trei luni întârziere — și dobânda curge din ziua următoare termenului de plată.
+
+Dacă firma are profit impozabil peste £1,5 milioane, plata nu se mai face o dată, ci în rate.
+
+Cine NU depune declarație:
+• principala excepție e firma „dormant" pentru Corporation Tax. Adică a oprit activitatea și nu are alt venit, de exemplu din investiții. Poți anunța tu HMRC, iar HMRC îți poate scrie că te trece ca dormant și că nu plătești și nu depui.
+• dacă după aceea primești o nouă cerere de a depune, depui. Scrisoarea nu te scutește pe viață.
+• ATENȚIE: „dormant" la HMRC nu e „dormant" la Companies House. GOV.UK spune că firma depune oricum conturile anuale și confirmation statement. Un confirmation statement ratat poate duce la radierea firmei.
+
+Pierderea nu te scutește. Nici lipsa taxei de plată. Depui declarația și dacă firma a avut pierdere, și dacă nu are nimic de plătit.
+
+Cât costă întârzierea la declarație: £200 la o zi, încă £200 la 3 luni. La 6 luni HMRC îți estimează singură factura și adaugă 10% din taxa neplătită, iar la 12 luni încă 10%.
+
+Paginile GOV.UK nu fac distincție pe națiuni: aceleași termene în toată Marea Britanie.
+
+Nu știi când îți expiră termenul?""",
+ th="""Firma plătește taxa ÎNAINTE să depună declarația: plata la 9 luni și o zi după încheierea anului financiar, declarația la 12 luni. Două termene, la trei luni distanță.
+
+Cine NU depune: doar firma trecută de HMRC ca „dormant". Pierderea nu te scutește — depui și dacă nu ai nimic de plătit.""",
+ li="""A limited company pays its Corporation Tax BEFORE it files the return. Not with it.
+
+Payment is due 9 months and one day after the day the accounting period ends. The Company Tax Return is due within 12 months of that same day. Two deadlines, three months apart, and the one that arrives first is the payment.
+
+A worked example. The company's accounting period ends on 31 March 2026:
+• Corporation Tax is due by 1 January 2027
+• the Company Tax Return is due by 31 March 2027
+
+Treat them as one date and the tax is three months late, with interest running from the day after the payment deadline.
+
+Taxable profits over £1.5 million change the shape of it: the tax is then paid in instalments rather than in a single payment.
+
+Who does NOT file:
+• the main exception is a company that is dormant for Corporation Tax — it has stopped trading and has no other income, for example from investments. You can tell HMRC yourself, and HMRC may write to say it is treating the company as dormant and that no Corporation Tax is due and no return is needed.
+• if a further notice to deliver a return arrives after that, the company files. The letter is not a permanent exemption.
+• and dormant for HMRC is not dormant for Companies House: GOV.UK says such a company "must still file annual accounts and a confirmation statement". Miss the confirmation statement and the company can be struck off.
+
+A loss does not excuse the return. Neither does a nil liability. GOV.UK is explicit: you must still send a return if you make a loss or have no Corporation Tax to pay.
+
+What late filing costs: £200 at one day, another £200 at 3 months. At 6 months HMRC estimates the bill itself and adds a penalty of 10% of the unpaid tax; at 12 months, another 10% of any unpaid tax. Those fixed figures are the increased ones, in force for returns with a filing date on or after 1 April 2026.
+
+GOV.UK draws no distinction by nation: the same deadlines across the UK.
+
+Not sure when yours falls due?""",
+ bsky="""A UK company pays its Corporation Tax 9 months and 1 day after year end, but files the return 12 months after. A loss is no excuse.""",
+ pin_title="A UK company pays its Corporation Tax before it files the return",
+ pin="""A limited company pays its Corporation Tax 9 months and one day after the end of its accounting period, but files the Company Tax Return within 12 months of that date. The payment comes first, and interest runs from the day after it. Profits over £1.5 million are paid in instalments. A loss does not excuse the return and neither does a nil liability. The main exception is a company dormant for Corporation Tax — and even then accounts and a confirmation statement still go to Companies House. Late filing: £200 at one day, £200 more at three months.""",
+ gbp="""A limited company pays its Corporation Tax before it files the return, not with it.
+
+The tax is due 9 months and one day after the day the accounting period ends. The Company Tax Return is due within 12 months of that same day. If the financial year ends on 31 March 2026, the tax is due by 1 January 2027 and the return by 31 March 2027. Interest runs from the day after the payment deadline.
+
+Taxable profits over £1.5 million are paid in instalments rather than in one payment.
+
+A loss does not excuse the return, and neither does having no tax to pay — GOV.UK says a return is still required. The main exception is a company dormant for Corporation Tax: it has stopped trading and has no other income. Even then, annual accounts and a confirmation statement still go to Companies House, and a further notice to deliver a return has to be answered.
+
+Late filing costs £200 at one day and another £200 at three months, then 10% of the unpaid tax at six months and again at twelve.
+
+Running a limited company around Luton or Birmingham? Ola Accountancy.""",
+ source="gov.uk/pay-corporation-tax",
+)
+
+C["cine-depune-declaratia"] = dict(
+ ro="""Nu toată lumea trebuie să depună declarație la HMRC. Se întâmplă să depună cine nu trebuie, și să afle târziu cine trebuia.
+
+Dacă iei doar salariu sau pensie, taxa se oprește de obicei automat prin PAYE înainte să-ți intre banii în cont, și de regulă nu depui nimic. Întrebarea apare în clipa în care ai luat bani din altă parte.
+
+Trebuie să depui dacă, în anul fiscal trecut:
+• ai lucrat pe cont propriu și ai încasat peste £1.000 — cât ai încasat, nu cât îți rămâne.
+• ai fost partener într-un business partnership
+• ai avut Capital Gains Tax de plătit, pentru că ai vândut ceva care crescuse în valoare
+
+Poate intra și venitul netaxat: chirii, bacșișuri, dobânzi, dividende, bani din altă țară. GOV.UK spune «poate», nu «trebuie».
+
+Cine NU depune: de regulă, cine are doar salariu sau pensie. Taxa se ia prin PAYE înainte să fii plătit, așa că nu ai ce depune.
+
+Trei lucruri care strică regula asta, și pe care lumea le ratează:
+• taxa pe Child Benefit (High Income Child Benefit Charge). Se aplică dacă unul dintre voi are venit net ajustat peste £60.000; plătește cel cu venitul mai mare. Dacă nu se ia prin PAYE, depui declarație — chiar dacă singurul tău venit e salariul. Tot pe lista HMRC: cine lucrează „off-payroll" și plătește rata la împrumutul studențesc.
+• dacă HMRC ți-a cerut declarația în scris, o depui. Chiar dacă nu ai nimic de plătit. Obligația vine din scrisoare, nu din cât datorezi.
+• dacă intri prima dată în sistem, anunți HMRC până pe 5 octombrie după încheierea anului fiscal, altfel poți lua amendă. Pentru 2025/26 termenul a fost 5 octombrie 2026 și a trecut — dacă l-ai ratat, înregistrarea se face acum, pe gov.uk.
+
+Vorbim despre anul fiscal 2025/26, adică 6 aprilie 2025 – 5 aprilie 2026. Declarația online se depune până pe 31 ianuarie 2027.
+
+Paginile GOV.UK nu fac distincție pe națiuni.
+
+Nu știi dacă trebuie să depui?""",
+ th="""Dacă iei doar salariu sau pensie, taxa se oprește automat prin PAYE și nu depui nicio declarație.
+
+Trebuie să depui dacă ai lucrat pe cont propriu și ai încasat peste £1.000 — cât ai încasat, nu cât ți-a rămas.
+
+Cine NU depune: cine are doar salariu sau pensie. Dar dacă HMRC ți-a cerut declarația în scris, o depui.""",
+ li="""Not everyone has to file a Self Assessment return. Some file who need not, and some find out too late that they had to.
+
+If your only income is wages or a pension, the tax usually comes off through PAYE before you are paid, and no return is normally due. The question starts the moment money arrives from somewhere else.
+
+You must send a return if, in the last tax year:
+• you were self-employed as a sole trader and earned more than £1,000 — that is what came in, before taking off anything you can claim tax relief on
+• you were a partner in a business partnership
+• you had to pay Capital Gains Tax when you sold or disposed of something that had increased in value
+• you had to pay the High Income Child Benefit Charge and do not pay it through PAYE
+
+Untaxed income can bring you in as well:
+• money from renting out property or land
+• tips and commission
+• savings interest
+• dividends, including investments
+• foreign income
+• any taxable UK income, if you are not UK resident
+
+Who does NOT normally file: anyone whose only income is wages or a pension. PAYE has already taken the tax. GOV.UK's wording is that tax is "usually" deducted automatically — not always.
+
+Three things break that rule, and all three are missed regularly:
+• the High Income Child Benefit Charge. It bites where one of you has adjusted net income over £60,000, and the higher earner pays it. Owe it and not pay it through PAYE, and you file — even on wages alone. Also on HMRC's list: an off-payroll worker repaying a student or postgraduate loan.
+• if HMRC has issued a notice asking for a return, you file it — even where nothing is owed. The obligation comes from the notice, not from the size of the bill.
+• first-time registration has to be notified by 5 October after the tax year ends, and GOV.UK says you could be fined if you do not. For 2025/26 that date was 5 October 2026 and it has passed — if you missed it, register now on GOV.UK rather than waiting.
+
+This is the 2025/26 tax year, 6 April 2025 to 5 April 2026, with the online return due by 31 January 2027.
+
+GOV.UK draws no distinction by nation on who has to file.
+
+Not sure whether you have to?""",
+ bsky="""Only wages or a pension? PAYE usually took the tax and no UK return is due. Self-employed and took over £1,000? Then one is.""",
+ pin_title="Who actually has to file a UK Self Assessment tax return",
+ pin="""If your only income is wages or a pension, PAYE usually takes the tax and no Self Assessment return is normally due. You must file if, in the last tax year, you were self-employed as a sole trader and earned more than £1,000, were a partner in a business partnership, had Capital Gains Tax to pay, or owed the High Income Child Benefit Charge outside PAYE — that last one bites on wages alone. Untaxed rent, tips, interest, dividends or foreign income can bring you in too. A notice to file from HMRC is answered even where nothing is owed.""",
+ source="gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return",
+)
+
+C["bani-inapoi-p800"] = dict(
+ ro="""HMRC îți poate datora bani chiar acum, fără să-ți fi spus încă.
+
+Când pe salariu s-a oprit prea multă taxă, HMRC face un calcul și trimite o scrisoare numită P800. Scrisorile pentru un an fiscal pleacă între iunie și martie al anului următor — deci dacă nu ai primit nimic, nu înseamnă că nu ai de luat.
+
+De ce se întâmplă: cod de taxe greșit, două job-uri suprapuse, o pensie nouă la job, sau Employment and Support Allowance ori Jobseeker's Allowance.
+
+Cum vin banii, după ce ce scrie în scrisoare:
+• dacă poți cere online — banii ajung în 5 zile lucrătoare
+• dacă ceri cec — până la 6 săptămâni
+• dacă scrisoarea spune că HMRC trimite cecul singură — ajunge în 14 zile de la data scrisorii și nu faci absolut nimic
+
+Pe mai mulți ani, primești un singur cec, pe total.
+
+Atenție la fraude. Banii vin de la HMRC, nu printr-un link. HMRC nu oferă niciodată restituiri de taxă prin rețelele sociale și nu cere date personale sau bancare acolo. O ofertă de restituire primită din senin e pe lista HMRC de semne de fraudă. Un SMS suspect se trimite mai departe la 60599 și apoi se șterge.
+
+Cine NU primește P800:
+• cine depune Self Assessment. Nu primești nici P800, nici Simple Assessment: suma se corectează automat în declarație. Dacă aștepți o scrisoare, aștepți degeaba.
+• P800 e pentru salariați și pentru cei care iau pensie. Altcineva nu primește.
+
+Și termenul, care surprinde pe toți: ai 4 ani după încheierea anului fiscal ca să ceri taxa plătită în plus. După termen cererea e de regulă prescrisă — manualul HMRC lasă deschise doar câteva căi înguste.
+
+Ce NU vine prin scrisoare: P800 apare doar când HMRC vede deja plata în plus. Cheltuielile de muncă, uneltele, kilometrajul, plecarea din UK la mijloc de an fiscal și reținerile CIS se cer separat — pentru ele nu primești nicio scrisoare.
+
+E la fel în toată Marea Britanie.
+
+Crezi că ai plătit prea multă taxă?""",
+ th="""Dacă pe salariu s-a oprit prea multă taxă, HMRC trimite o scrisoare de calcul, P800. Pleacă între iunie și martie — a ta poate să nu fi venit încă.
+
+Cine NU primește P800: cine depune Self Assessment. Acolo suma se corectează în declarație.
+
+Ai 4 ani după încheierea anului fiscal să ceri banii. După, nu se mai poate.""",
+ li="""HMRC may owe you money right now and not have told you yet.
+
+When too much tax has come off your wages, HMRC works out the position and sends a tax calculation letter — a P800. The letters for a tax year go out between June and the following March, so silence is not an answer.
+
+Why it happens: a wrong tax code, two jobs that overlapped, a new workplace pension, or because you received Employment and Support Allowance or Jobseeker's Allowance.
+
+How the money arrives, depending on what the letter says:
+• claim online — paid within 5 working days
+• ask for a cheque online — up to 6 weeks
+• the letter says HMRC will post a cheque — it arrives within 14 days of the date on the letter and you do nothing at all
+
+Owed for more than one year, and you get a single cheque for the total.
+
+On scams. The money comes from HMRC, never through a link. HMRC never uses social media to offer a tax rebate or to request personal or financial information, and an unexpected offer of a refund, rebate or grant is on HMRC's own list of the signs of a scam. Forward a suspicious text to 60599, then delete it.
+
+Who does NOT get a P800:
+• anyone in Self Assessment. You get neither a tax calculation letter nor a Simple Assessment letter, because the bill is adjusted automatically in the return. Waiting for a letter that is never coming is the mistake.
+• the P800 is for people who are employed or getting a pension. Nobody else receives one.
+
+And the limit that catches people out: a claim for overpaid tax must be made within 4 years after the end of the relevant tax year. HMRC's own Self Assessment Claims manual puts it in those words. Past that it is normally out of time — SACM12155 keeps only a few narrow routes open, so "normally" and not "never".
+
+What does NOT come by letter: a P800 only appears where HMRC's records already show the overpayment. Employment expenses, tools and mileage, leaving the UK part-way through a year, and CIS deductions all have to be claimed — no letter will arrive for them.
+
+UK-wide.
+
+Think you have overpaid?""",
+ bsky="""Overpaid tax on your wages? HMRC sends a P800 between June and March. Online claims pay in 5 working days. 4 years to claim.""",
+ pin_title="The P800 letter: how to get overpaid UK tax back, and the 4-year limit",
+ pin="""If too much Income Tax came off your wages, HMRC sends a tax calculation letter called a P800. Letters for a tax year go out between June and the following March, so not having one yet means nothing. Online claims pay within 5 working days; a cheque asked for online takes up to 6 weeks; a cheque HMRC posts arrives within 14 days. Who does not get a P800: anyone in Self Assessment, whose bill is adjusted in the return instead. A claim must be made within 4 years after the end of that tax year. Expenses, tools, mileage and CIS deductions never come by letter — those you claim.""",
+ source="gov.uk/tax-overpayments-and-underpayments",
+)
+
+C["pensie-la-job"] = dict(
+ ro="""În pensia ta de la job pune bani și angajatorul. Dacă ieși din schemă, partea lui nu se înlocuiește cu nimic.
+
+La un loc de muncă pe salariu, în pensie intră minimum 8% din câștigul care se ia în calcul: 3% din acel câștig pune angajatorul și 5% pui tu. Deci 3% nu e 3% din cei 8% — e 3% din câștig. Iar din cei 5% ai tăi, o parte vine ca scutire de taxe, nu din buzunar.
+
+Cine intră automat, fără să ceară:
+• ai între 22 de ani și vârsta de pensionare de stat
+• câștigi cel puțin £10.000 pe an
+• lucrezi de obicei în UK
+
+Procentele nu se calculează pe tot salariul. În majoritatea schemelor de înscriere automată se calculează pe câștigul dintre £6.240 și £50.270 pe an, înainte de taxe.
+
+Cine NU intră automat:
+• sub 22 de ani
+• peste vârsta de pensionare de stat
+• sub £10.000 pe an
+De regulă poți cere tu să intri, iar angajatorul nu te poate refuza.
+
+Atenție la pragul de jos: dacă câștigi £520 pe lună sau mai puțin (£120 pe săptămână, £480 în 4 săptămâni), angajatorul nu e obligat să pună bani. Poți fi în schemă și să economisești singur.
+
+GOV.UK mai are o listă de cazuri în care angajatorul de regulă nu e obligat să te înscrie, chiar dacă ai vârsta și salariul: ți-ai dat demisia sau ai primit preaviz, ai luat deja o pensie aranjată de angajator, ai ieșit din schemă cu peste 12 luni înainte de data de pornire, ești într-un limited liability partnership, sau ești director fără contract de muncă.
+
+Iar The Pensions Regulator spune clar: un director unic, într-o firmă fără alt personal, nu are deloc obligația de înscriere.
+
+Dacă ieși în prima lună după ce te-a înscris angajatorul, primești înapoi banii puși deja. Dacă ieși mai târziu, de regulă rămân în pensie până la pensionare.
+
+Și încă ceva: angajatorul trebuie să te reînscrie din 3 în 3 ani și să-ți scrie când o face.
+
+E la fel în toată Marea Britanie.
+
+Nu știi unde se verifică?""",
+ th="""La un job pe salariu, în pensie intră minimum 8% din câștigul care se ia în calcul: 3% pune angajatorul, 5% pui tu.
+
+Te înscrie automat dacă ai între 22 de ani și vârsta de pensionare și câștigi cel puțin £10.000 pe an.
+
+Cine NU intră automat: sub 22 de ani, peste vârsta de pensionare, sau sub £10.000.""",
+ li="""Your employer puts money into your workplace pension too. Opt out and that part is not replaced by anything.
+
+In a job on payroll, at least 8% of your qualifying earnings goes into a pension: 3% of those earnings from the employer and 5% from you. So the 3% is three points of your earnings, not 3% of the 8%. And part of your 5% arrives as tax relief rather than out of your pocket.
+
+Who is enrolled automatically, without asking:
+• aged between 22 and State Pension age
+• earning at least £10,000 a year
+• ordinarily working in the UK
+
+The percentages are not applied to your whole wage. In most automatic enrolment schemes they apply to earnings between £6,240 and £50,270 a year before tax.
+
+Who is NOT enrolled automatically:
+• under 22
+• over State Pension age
+• earning under £10,000 a year
+You can usually still join if you want to, and your employer cannot refuse.
+
+Watch the lower threshold: where you earn £520 a month or less (£120 a week, £480 over 4 weeks), your employer does not have to contribute at all. You can be in the scheme and still be saving alone.
+
+The Pensions Regulator adds the case GOV.UK does not: a sole director of a business with no other staff has no automatic enrolment duty at all.
+
+GOV.UK also lists cases where an employer usually does not have to enrol someone even on the right age and pay: notice of leaving already given or received, a pension already taken that the employer arranged, a one-off payment from a closed scheme, having opted out more than 12 months before the staging date, an EU cross-border scheme, a limited liability partnership, and a director without an employment contract who employs at least one other person.
+
+Leave within a month of being added and you get back what you have already paid in. Later than that and it usually stays in the pension until you retire.
+
+Less well known: your employer must re-enrol you roughly every 3 years from the date you first joined, and must write to you when it does.
+
+UK-wide.
+
+Not sure where to check?""",
+ bsky="""In a UK payroll job 8% of qualifying earnings goes into a pension — 3 of those 8 points from the employer. Under £10,000? Not automatic.""",
+ pin_title="Workplace pensions: who is enrolled automatically, and who is not",
+ pin="""In a UK job on payroll, at least 8% of your qualifying earnings goes into a workplace pension — 3 of those 8 points from your employer and 5 from you. Your employer must enrol you automatically if you are aged between 22 and State Pension age, earn at least £10,000 a year and ordinarily work in the UK. In most automatic enrolment schemes the percentages apply to earnings between £6,240 and £50,270 a year before tax. Not enrolled automatically: anyone under 22, over State Pension age, or under £10,000 — they can usually ask to join and the employer cannot refuse.""",
+ source="gov.uk/workplace-pensions",
+ wa_ro="Ola Accountancy · 0330 133 1886\nLuton · Birmingham",
+ wa_th="Ola Accountancy: 0330 133 1886",
+ wa_li="Ola Accountancy · 0330 133 1886",
+ disc_ro="Informații generale, nu consultanță pe pensii. Condițiile sunt pe gov.uk.",
+ disc_en="General information, not pensions advice. The conditions are on gov.uk.",
+)
+
+C["compensatie-zbor"] = dict(
+ ro="""Ai ajuns la destinație cu peste 3 ore întârziere? Compania aeriană îți poate datora bani.
+
+Suma e fixă și nu are nicio legătură cu cât ai dat pe bilet: între £220 și £520 de persoană. Și nu se plătește singură — o ceri de la compania aeriană.
+
+Cât, după distanța zborului:
+• sub 1.500 km — £220
+• între 1.500 și 3.500 km — £350
+• peste 3.500 km — £260 dacă ai ajuns cu 3 până la 4 ore întârziere, £520 dacă ai ajuns cu peste 4 ore
+
+Se numără ora la care ai ajuns la destinație, nu ora la care ar fi trebuit să pleci. Distanța se măsoară între primul și ultimul aeroport din aceeași rezervare.
+
+Separat de compensație, la o întârziere lungă compania trebuie să-ți dea îngrijire, indiferent de cine e vina: mâncare și băutură, două telefoane sau e-mailuri, iar peste noapte cazare și transport. De la 2 ore sub 1.500 km, 3 ore între 1.500 și 3.500 km, 4 ore peste 3.500 km. Dacă plătești tu, păstrează bonurile.
+
+La o întârziere de peste 5 ore poți renunța la zbor și ceri banii înapoi pe biletul nefolosit.
+
+Când NU primești bani:
+• 3 ore întârziere sau mai puțin la destinație — nu se dă compensație
+• când compania arată că motivul a fost unul extraordinar: vreme extremă sau grevă la aeroport ori la controlul traficului aerian. Compania e cea care decide întâi, și decizia se poate contesta.
+• două rezervări separate pe care le legi tu: nu ai drept legal la îngrijire sau compensație peste punctul de legătură
+
+Ce intră, pe scurt: orice zbor care pleacă dintr-un aeroport din UK, cu orice companie. Spre UK intră zborurile operate de companii din UK sau din UE — deci și cele din România cu companii din UE.
+
+Termene: acțiunea în instanță se poate deschide în 6 ani de la incident în Anglia și Țara Galilor, 5 ani în Scoția. Fără răspuns în 8 săptămâni poți merge la autoritatea aviatică — dar nu preia plângeri când a rămas mai puțin de un an.
+
+Nu știi unde se verifică?""",
+ th="""Ai ajuns cu peste 3 ore întârziere? Suma e fixă și nu are legătură cu prețul biletului: între £220 și £520. Nu se plătește automat — o ceri de la companie.
+
+Când NU primești: sub 3 ore întârziere, sau când vina nu e a companiei — vreme extremă, grevă la aeroport sau la controlul traficului aerian.""",
+ li="""Landed more than three hours late? Your airline may owe you a fixed sum.
+
+It has nothing to do with what you paid for the ticket: between £220 and £520 a person. And it is never paid automatically — you claim it from the airline.
+
+How much, by distance:
+• under 1,500km — £220
+• 1,500km to 3,500km — £350
+• over 3,500km — £260 arriving three to four hours late, £520 arriving more than four hours late
+
+What counts is the time you reached your destination airport, not the time you were due to depart. Distance is measured on the Great Circle Route between the first and last airports on the booking.
+
+Separately from compensation, a long delay triggers a right to care whatever the cause: food and drink, two phone calls or emails, and accommodation with transport if you are kept overnight. It starts at two hours for flights under 1,500km, three hours from 1,500km to 3,500km, four hours over 3,500km. If you pay yourself, keep itemised receipts — the CAA notes airlines are unlikely to treat alcohol or luxury hotels as reasonable.
+
+At more than five hours you can decline to travel and claim a refund for the parts of the ticket you have not used.
+
+When you get NOTHING:
+• three hours late or less at the destination — no compensation
+• where the airline shows the cause was extraordinary: extreme weather, or an airport or air traffic control strike. The airline decides first, and that decision can be challenged.
+• two separate bookings self-connected by you: no statutory right to care or compensation across the join
+
+What is covered, plainly: every flight departing a UK airport, on any airline. Into the UK, flights operated by a UK or EU airline. The row that falls outside UK261 is a flight into the UK from a non-UK, non-EU country on an airline that is neither UK nor EU.
+
+There is a deadline at the other end too. The CAA puts the limit for issuing a court claim at 6 years from the incident in England and Wales and 5 years in Scotland, and will not handle a complaint with less than a year of that left. No final answer within eight weeks, or an answer you disagree with, and it can go to an ADR scheme or the CAA's passenger advice and complaints team.
+
+Not sure where to check?""",
+ bsky="""Over 3 hours late? UK261 pays a fixed £220 to £520, whatever the ticket cost — never automatically. Three hours or less, or a strike: nothing.""",
+ pin_title="UK flight delay compensation: £220 to £520, and when you get nothing",
+ pin="""Arrive more than three hours late and UK261 gives you a fixed sum from your airline: £220 under 1,500km, £350 from 1,500km to 3,500km, and over 3,500km either £260 for a three-to-four-hour delay or £520 beyond four hours. The amounts are unrelated to the ticket price and never paid automatically — you claim from the airline. When you get nothing: three hours late or less, or where the airline shows the cause was extraordinary, such as extreme weather or an airport or air traffic control strike. Court-claim limit: 6 years in England and Wales, 5 in Scotland.""",
+ source="caa.co.uk/air-passengers",
+ wa_ro="Ola Accountancy · 0330 133 1886\nLuton · Birmingham",
+ wa_th="Ola Accountancy: 0330 133 1886",
+ wa_li="Ola Accountancy · 0330 133 1886",
+ disc_ro="Informații generale, nu consultanță juridică. Regulile sunt pe caa.co.uk.",
+ disc_en="General information, not legal advice. The rules are on caa.co.uk.",
 )
 
 
