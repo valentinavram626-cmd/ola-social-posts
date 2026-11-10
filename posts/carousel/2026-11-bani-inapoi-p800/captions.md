@@ -7,28 +7,22 @@ Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 
 ## RO — Instagram, Facebook, Threads, TikTok
 
-HMRC îți poate datora bani chiar acum, fără să-ți fi spus încă.
-
-Când pe salariu s-a oprit prea multă taxă, HMRC trimite o scrisoare de calcul numită P800. Scrisorile pentru 2025/26 pleacă între iunie 2026 și martie 2027.
+HMRC îți poate datora bani chiar acum, fără să-ți fi spus încă: când pe salariu s-a oprit prea multă taxă, trimite o scrisoare de calcul numită P800. Scrisorile pentru 2025/26 pleacă între iunie 2026 și martie 2027.
 
 De ce se întâmplă: cod de taxe greșit, ai schimbat jobul și te-au plătit ambele în aceeași lună, ai început să primești pensie de la job, sau Employment and Support Allowance ori Jobseeker's Allowance. Aceeași scrisoare poate arăta și taxă de plată, nu doar bani de luat.
 
-Cum vin banii, după caz:
+Cum vin banii:
 • dacă poți cere online — 5 zile lucrătoare
 • dacă ceri cec — până la 6 săptămâni
-• dacă HMRC trimite cecul singură — 14 zile de la data scrisorii
+• dacă HMRC trimite cecul singură — 14 zile de la data scrisorii, iar pe mai mulți ani un singur cec, pe total
 
-Pe mai mulți ani, primești un singur cec, pe total.
+O ofertă de bani înapoi din senin e semn de fraudă, pe lista HMRC: nu deschide linkul și nu răspunde la un mesaj care pare de la HMRC și îți oferă bani înapoi în schimbul datelor personale sau bancare. Linkul nu e testul: HMRC trimite SMS-uri cu linkuri spre GOV.UK. HMRC nu oferă restituiri și nu cere date prin rețelele sociale. Un SMS suspect se trimite la 60599, apoi se șterge.
 
-Atenție la fraude. O ofertă de bani înapoi din senin e semn de fraudă, pe lista HMRC: nu deschide linkul și nu răspunde la un mesaj care pare de la HMRC și îți cere date personale sau bancare în schimb. HMRC nu oferă restituiri și nu cere date prin rețelele sociale. Un SMS suspect se trimite la 60599, apoi se șterge.
+Cine NU primește P800: cine depune Self Assessment — nici P800, nici Simple Assessment, suma se corectează automat în declarație. P800 e pentru salariați și pensionari.
 
-Cine NU primește P800:
-• cine depune Self Assessment: nici P800, nici Simple Assessment — suma se corectează automat în declarație.
-• P800 e pentru salariați și pensionari.
+Termenul: ai 4 ani după încheierea anului fiscal ca să ceri banii. După, cererea e prescrisă — manualul HMRC lasă doar câteva căi înguste.
 
-Termenul: ai 4 ani după încheierea anului fiscal ca să ceri banii. După, cererea e prescrisă — manualul HMRC lasă deschise doar câteva căi înguste.
-
-Ce nu vine automat: cheltuielile de muncă, uneltele, kilometrajul, plecarea din UK la mijloc de an fiscal și reținerile CIS se cer separat — cererea o faci tu.
+Ce nu vine automat: cheltuielile de muncă, uneltele, kilometrajul, plecarea din UK la mijloc de an și reținerile CIS se cer separat.
 
 Paginile GOV.UK nu fac distincție pe națiuni.
 
@@ -53,14 +47,12 @@ When too much tax has come off your wages, HMRC sends a tax calculation letter �
 
 Why it happens: a wrong tax code, finishing one job and starting another and being paid by both in the same month, starting to receive a pension at work, or Employment and Support Allowance or Jobseeker's Allowance. The same letter can show tax you owe, not only tax you are owed.
 
-How the money arrives, case by case:
+How the money arrives:
 • claim online — paid within 5 working days
 • ask for a cheque online — up to 6 weeks
-• the letter says HMRC will post a cheque — it arrives within 14 days of the date on the letter
+• the letter says HMRC will post a cheque — it arrives within 14 days of the date on the letter, and is one cheque for the total if you are owed for more than one year
 
-Owed for more than one year, you get a single cheque for the total.
-
-On scams, HMRC's own test: do not open any links or reply to a text message claiming to be from HMRC that offers you a tax refund in exchange for personal or financial details. The link is not the test — HMRC does send texts with links to GOV.UK or its webchat — the demand for your details is. An unexpected offer of a refund, rebate or grant is on HMRC's list of scam signs, and HMRC never uses social media to offer a rebate or ask for your details. Forward a suspicious text to 60599, then delete it.
+On scams, HMRC's own test: do not open any links or reply to a text message claiming to be from HMRC that offers you a tax refund in exchange for personal or financial details. The link is not the test — HMRC does send texts with links to GOV.UK or its webchat — and neither is being asked for bank details, which a genuine online claim needs. An unexpected offer of a refund, rebate or grant is on HMRC's list of scam signs, and HMRC never uses social media to offer a rebate or ask for your details. Forward a suspicious text to 60599, then delete it.
 
 Who does NOT get a P800:
 • anyone in Self Assessment. You get neither a tax calculation letter nor a Simple Assessment letter, because the bill is adjusted automatically in the return.
@@ -68,7 +60,7 @@ Who does NOT get a P800:
 
 And the limit that catches people out: a claim for overpaid tax must be made within 4 years after the end of the relevant tax year — HMRC's Self Assessment Claims manual puts it in those words. Past that it is normally out of time: SACM12155 keeps only a few narrow routes open, so "normally" and not "never".
 
-What does NOT come on its own: employment expenses, tools and mileage, leaving the UK part-way through a year, and CIS deductions all have to be claimed: nothing starts them but you. If no letter comes and you think you overpaid, the claim is yours to start. On a job-expenses claim for the current tax year, HMRC will usually adjust your tax code so you pay less tax; for previous tax years it will either adjust your tax code or give you a tax refund.
+What does NOT come on its own: employment expenses, tools and mileage, leaving the UK part-way through a year, and CIS deductions all have to be claimed. If no letter comes and you think you overpaid, the claim is yours to start. On a job-expenses claim for the current tax year, HMRC will usually adjust your tax code so you pay less tax; for previous tax years it will either adjust your tax code or give you a tax refund.
 
 UK-wide.
 
