@@ -2994,12 +2994,12 @@ BANI_INAPOI = dict(
          kicker="Taxa pe salariu · scrisoarea P800",
          h1="HMRC îți poate datora bani, fără să-ți fi spus încă.",
          say="Când pe salariu s-a oprit prea multă taxă, HMRC trimite o scrisoare de calcul numită P800. Scrisorile pleacă între iunie și martie al anului următor — deci a ta poate să nu fi venit încă."),
-    dict(type="step", step="Cum vin banii", fig="5 zile",
+    dict(type="step", step="Cât aștepți banii", fig="<small>până la</small> 6 <small>săptămâni</small>",
          say="Dacă P800 spune că HMRC trimite cecul, vine singur în 14 zile. Dacă poți cere banii online, vin în 5 zile lucrătoare. Dacă tu ceri cecul, până la 6 săptămâni.",
          note="Banii vin de la HMRC, nu prin link. HMRC nu oferă niciodată restituiri de taxă prin rețelele sociale."),
-    dict(type="step", step="Cine NU primește P800", fig="4 ani",
+    dict(type="step", step="Cine NU primește P800", fig="Self<small> Assessment</small>",
          say="Dacă depui Self Assessment nu primești nicio scrisoare P800: banii ți se întorc prin declarație. P800 e pentru salariați și pensionari.",
-         note="Ai 4 ani după încheierea anului fiscal ca să ceri taxa plătită în plus. Dacă treci termenul, de regulă nu se mai poate cere."),
+         note="Cei 4 ani sunt termenul de cerere, socotit de la încheierea anului fiscal. După el nu mai poți cere, în afara câtorva căi înguste din manualul HMRC."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Taxa pe salariu · scrisoarea P800",
@@ -3012,12 +3012,12 @@ BANI_INAPOI = dict(
          kicker="PAYE · the P800 letter",
          h1="HMRC may owe you money and not have told you yet.",
          say="When too much tax has come off your wages, HMRC sends a tax calculation letter — a P800. Those letters go out between June and the following March, so yours may simply not have arrived."),
-    dict(type="step", step="How the money arrives", fig="5 days",
+    dict(type="step", step="How long the money takes", fig="<small>up to</small> 6 <small>weeks</small>",
          say="If the P800 says HMRC will post a cheque, it comes on its own in 14 days. If you can claim online, 5 working days. If you ask for a cheque yourself, up to 6 weeks.",
          note="The money comes from HMRC, never through a link. HMRC never offers a tax rebate over social media."),
-    dict(type="step", step="Who does NOT get a P800", fig="4 years",
+    dict(type="step", step="Who does NOT get a P800", fig="Self<small> Assessment</small>",
          say="If you file Self Assessment you get no P800 at all — your refund is worked out in the return instead. The P800 is for employees and people drawing a pension.",
-         note="You have 4 years after the end of the tax year to claim tax you overpaid. Miss that and normally it can no longer be claimed."),
+         note="The 4 years is the claim deadline, counted from the end of the tax year. Past it you cannot claim, bar a few narrow routes in HMRC's manual."),
   ],
   CTA_EN=dict(type="cta",
     kicker="PAYE · the P800 letter",
@@ -3043,25 +3043,54 @@ BANI_INAPOI = dict(
      "texts forwarded to 60599",
      "https://www.gov.uk/guidance/identify-hmrc-related-scam-phone-calls-emails-and-text-messages",
      "2026-11-09"),
+    ("Statutory time limit behind SACM12155: \"A claim under this Schedule may not be "
+     "made more than 4 years after the end of the relevant tax year\" (TMA 1970 "
+     "Schedule 1AB paragraph 3(1))",
+     "https://www.legislation.gov.uk/ukpga/1970/9/schedule/1AB/paragraph/3", "2026-11-09"),
+    ("Forwarding a suspicious text to 60599, and HMRC never using social media to offer "
+     "a tax rebate or request personal or financial information",
+     "https://www.gov.uk/find-hmrc-contacts/report-suspicious-hmrc-emails-texts-social-media-accounts-and-phone-calls",
+     "2026-11-09"),
+    ("Job expenses are claimed, not sent: \"If your claim is for the current tax year, "
+     "HMRC will usually adjust your tax code so you pay less tax. If your claim is for "
+     "previous tax years, HMRC will either adjust your tax code or give you a tax "
+     "refund.\" Self Assessment filers claim through the return instead",
+     "https://www.gov.uk/tax-relief-for-employees", "2026-11-09"),
+    ("Leaving the UK part-way through a year: claim online or on form P85 to get tax "
+     "back from UK employment; not needed if a Self Assessment return is being sent for "
+     "the year of departure",
+     "https://www.gov.uk/guidance/get-your-income-tax-right-if-youre-leaving-the-uk-p85",
+     "2026-11-09"),
+    ("CIS deductions are advance payments towards tax, reported by a sole trader or "
+     "partner on the Self Assessment return — \"If you're due a tax refund, HMRC will pay "
+     "the money back\" — and by a limited company through the EPS",
+     "https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor/pay-tax-and-claim-back-deductions",
+     "2026-11-09"),
+    ("A limited-company subcontractor with more CIS deducted than it owes has to make a "
+     "claim for the refund, for a tax year once it has ended",
+     "https://www.gov.uk/guidance/claim-a-refund-of-construction-industry-scheme-deductions-if-youre-a-limited-company",
+     "2026-11-09"),
   ],
   SCOPE=dict(
     nation="All of the UK. PAYE and the P800 are HMRC-wide.",
     category="People taxed through PAYE — employees and people drawing a pension — whose "
              "tax came out wrong, typically through a wrong tax code, two overlapping "
-             "jobs, a new workplace pension, or Employment and Support Allowance or "
-             "Jobseeker's Allowance.",
+             "jobs, starting to receive a pension at work, or Employment and Support "
+             "Allowance or Jobseeker's Allowance.",
     excluded="Self Assessment taxpayers get neither a P800 nor a Simple Assessment "
              "letter: their bill is adjusted automatically in the return, so waiting for "
              "a letter that never comes is the mistake. And anyone more than 4 years past "
              "the end of the tax year concerned is normally out of time, however much was "
              "overpaid — SACM12155 keeps narrow consequential and special-relief routes "
-             "open, which is why the cards say normally and not never. Separately, a "
-             "P800 only arrives where HMRC's records already show the overpayment: "
-             "employment expenses, tools and mileage, leaving the UK mid-year, and CIS "
-             "deductions all have to be claimed and never come by letter.",
+             "open, which is why neither the cards nor the captions say the claim can never "
+             "be made. Separately, a P800 only arrives where HMRC's records already show "
+             "the overpayment: employment expenses, tools and mileage, leaving the UK "
+             "mid-year (form P85), and CIS deductions all have to be claimed, and nothing "
+             "starts them unprompted.",
     from_when="P800 letters for a tax year are issued between June and the following "
-              "March. The 4-year claim window runs from the end of the tax year, not "
-              "from the date of the letter.",
+              "March, so the letters for 2025/26 run from June 2026 to March 2027. The "
+              "4-year claim window runs from the end of the tax year, not from the date "
+              "of the letter.",
   ),
 )
 
