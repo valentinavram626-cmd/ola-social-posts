@@ -16,7 +16,7 @@ Cum vin banii:
 • ceri cec — până la 6 săptămâni
 • HMRC trimite cecul singură — 14 zile de la data scrisorii, iar pe mai mulți ani un singur cec, pe total
 
-Testul HMRC are șase semne: te grăbește, te amenință, e neașteptat, cere date personale inclusiv bancare, cere transfer de bani sau oferă bani înapoi ori un grant. La un astfel de mesaj nu deschide linkul și nu răspunde — dar linkul nu e testul: HMRC trimite SMS-uri cu linkuri spre GOV.UK. Datele bancare le dai tu pe GOV.UK: HMRC nu le cere și nu oferă restituiri prin mesaj sau rețele sociale. SMS suspect: la 60599, apoi șterge-l.
+Prima verificare HMRC, șase semne: te grăbește, te amenință, e neașteptat, cere date personale inclusiv bancare, cere transfer de bani sau oferă bani înapoi ori un grant. HMRC chiar trimite SMS că ai bani înapoi din P800 — dar fără date cerute, fără niciun link. Link în mesaj cu bani înapoi = fraudă: nu-l deschide, nu răspunde. Datele bancare le dai tu pe GOV.UK; pe rețele sociale HMRC nu oferă bani înapoi, nu cere date. SMS suspect: la 60599 (costă) sau gratuit la phishing@hmrc.gov.uk, apoi șterge-l.
 
 Cine NU primește P800: cine depune Self Assessment — nici P800, nici Simple Assessment, suma se corectează automat în declarație. P800 e pentru salariați și pensionari.
 
@@ -24,9 +24,7 @@ Termenul: 4 ani după încheierea anului fiscal ca să ceri banii. După, cerere
 
 Ce nu vine automat: cheltuielile de muncă, uneltele, kilometrajul, plecarea din UK la mijloc de an, reținerile CIS — se cer.
 
-Paginile GOV.UK nu fac distincție pe națiuni.
-
-Crezi că ai plătit prea multă taxă?
+Valabil în tot UK.
 
 Scrie-ne pe WhatsApp: 0330 133 1886
 Luton · Birmingham
@@ -52,7 +50,7 @@ How the money arrives:
 • ask for a cheque online — up to 6 weeks
 • the letter says HMRC will post a cheque — it arrives within 14 days of the date on the letter, and is one cheque for the total if you are owed for more than one year
 
-HMRC's scam test is a six-item checklist: it could be a scam if it rushes you, is threatening, is unexpected, asks for personal information like bank details, tells you to transfer money, or offers a refund, tax rebate or grant. An ask for bank details is on that list. The do-not-open-links line is HMRC's text-message advice, not the test, and a link proves nothing: HMRC does send texts linking to GOV.UK or webchat. A real refund ends with your account details, but you enter them on GOV.UK or in your HMRC account, never in reply to a message. HMRC never uses social media to offer a rebate or ask for your details. Forward a suspicious text to 60599, then delete it.
+HMRC says to check six things first: it could be a scam if it rushes you, is threatening, is unexpected, asks for personal information like bank details, tells you to transfer money, or offers a refund, tax rebate or grant. HMRC does text people to say a P800 refund is due, but that text asks nothing and carries no link. So a link in a refund message is proof of a scam: do not open it, do not reply. A real refund ends with your account details, but you enter them on GOV.UK or in your HMRC account, never in reply to a message. HMRC never uses social media to offer a rebate or ask for your details, and does not contact you on WhatsApp. Forward a suspicious text to 60599 (network charges apply) or email it free to phishing@hmrc.gov.uk, then delete it.
 
 Who does NOT get a P800:
 • anyone in Self Assessment. You get neither that letter nor a Simple Assessment letter, because the bill is adjusted automatically in the return.
@@ -60,11 +58,9 @@ Who does NOT get a P800:
 
 And the limit: a claim for overpaid tax must be made within 4 years after the end of the relevant tax year. Past that it is normally out of time: SACM12155 keeps only a few narrow routes open, so "normally" and not "never".
 
-What does NOT come on its own: employment expenses, tools and mileage, leaving the UK part-way through a year, and CIS deductions all have to be claimed. If no letter comes and you think you overpaid, the claim is yours to start. On a job-expenses claim for the current tax year, HMRC will usually adjust your tax code so you pay less tax; for previous tax years it will either adjust the code or give you a tax refund.
+What does NOT come on its own: employment expenses, tools and mileage, leaving the UK part-way through a year, and CIS deductions all have to be claimed. On a job-expenses claim for the current tax year, HMRC will usually adjust your tax code so you pay less tax; for previous tax years it will either adjust the code or give you a tax refund.
 
 UK-wide.
-
-Think you have overpaid?
 
 0330 133 1886
 
@@ -108,8 +104,10 @@ General information. For your own situation, speak to an accountant.
   https://www.gov.uk/tax-overpayments-and-underpayments/if-youre-due-a-refund  (citit 2026-11-09)
 - Overpayment relief time limit: claims must be made within 4 years after the end of the relevant tax year or accounting period (HMRC Self Assessment Claims manual SACM12155)
   https://www.gov.uk/hmrc-internal-manuals/self-assessment-claims-manual/sacm12155  (citit 2026-11-09)
-- Scam signs: a contact that "offers a refund, tax rebate or grant", "is unexpected" or "asks for personal information like bank details"; HMRC never using social media to "offer a tax rebate" or "request personal or financial information"; suspect texts forwarded to 60599. The test the page actually gives is "We advise you not to open any links or reply to a text message claiming to be from HMRC that offers you a tax refund in exchange for personal or financial details" — and the same page says "HMRC does send text messages to some of our customers" and "In the text message we might include a link to GOV.UK information or to HMRC webchat", so a link is not itself the sign of a scam
+- Scam signs: a contact that "offers a refund, tax rebate or grant", "is unexpected" or "asks for personal information like bank details"; HMRC never using social media to "offer a tax rebate" or "request personal or financial information". The six bullets are NOT "the test": they sit under the heading "Check what to look for first", and a further "Other signs to look out for" section adds, among others, that HMRC "will never ask you to pay with gift or payment vouchers", "will never: leave a voicemail threatening legal action; threaten arrest", that on QR codes "You will never be taken to a page where you have to input personal information", and that "HMRC will not communicate with you for any other reason using WhatsApp" (the exception being the UK Government Channel). Forwarding, in full: "send any suspicious text messages to 60599 (network charges apply) or email: phishing@hmrc.gov.uk then delete them" — the charge warning and the free email route are part of the advice. The never-offers-a-rebate wording is scoped to social media only: "HMRC will never use social media to: offer a tax rebate; request personal or financial information", so it must not be generalised to text messages. And the page's general line "In the text message we might include a link to GOV.UK information or to HMRC webchat" does NOT reach a refund text: see the genuine-text-message page below, where a P800 refund text "will not provide any links to websites", so a link in a message about a refund IS itself a scam sign
   https://www.gov.uk/guidance/identify-hmrc-related-scam-phone-calls-emails-and-text-messages  (citit 2026-11-10)
+- HMRC's list of genuine text messages. Under "Tax refund (P800)" (entry added 24 August 2026): "HMRC may send you a text message saying you're due a tax refund (also known as a P800 refund) if they've sent a letter and have not had a response. It will not: ask you for personal or financial information; provide any links to websites." So HMRC DOES text about a P800 refund — the claim that it never offers a refund by message is wrong — and because the genuine one carries no link, a link in a refund text is proof of a scam. The separate "Self Assessment tax refunds" entry: "HMRC may send you a text message if you request a Self Assessment tax refund", confirming it is being processed and when to expect it, and again it "will not" ask for personal or financial information or provide any links to websites
+  https://www.gov.uk/guidance/check-if-a-text-message-youve-received-from-hmrc-is-genuine  (citit 2026-11-10)
 - Statutory time limit behind SACM12155: "A claim under this Schedule may not be made more than 4 years after the end of the relevant tax year" (TMA 1970 Schedule 1AB paragraph 3(1))
   https://www.legislation.gov.uk/ukpga/1970/9/schedule/1AB/paragraph/3  (citit 2026-11-09)
 - Forwarding a suspicious text to 60599, and HMRC never using social media to offer a tax rebate or request personal or financial information

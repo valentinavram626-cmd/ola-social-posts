@@ -1630,7 +1630,7 @@ Cum vin banii:
 • ceri cec — până la 6 săptămâni
 • HMRC trimite cecul singură — 14 zile de la data scrisorii, iar pe mai mulți ani un singur cec, pe total
 
-Testul HMRC are șase semne: te grăbește, te amenință, e neașteptat, cere date personale inclusiv bancare, cere transfer de bani sau oferă bani înapoi ori un grant. La un astfel de mesaj nu deschide linkul și nu răspunde — dar linkul nu e testul: HMRC trimite SMS-uri cu linkuri spre GOV.UK. Datele bancare le dai tu pe GOV.UK: HMRC nu le cere și nu oferă restituiri prin mesaj sau rețele sociale. SMS suspect: la 60599, apoi șterge-l.
+Prima verificare HMRC, șase semne: te grăbește, te amenință, e neașteptat, cere date personale inclusiv bancare, cere transfer de bani sau oferă bani înapoi ori un grant. HMRC chiar trimite SMS că ai bani înapoi din P800 — dar fără date cerute, fără niciun link. Link în mesaj cu bani înapoi = fraudă: nu-l deschide, nu răspunde. Datele bancare le dai tu pe GOV.UK; pe rețele sociale HMRC nu oferă bani înapoi, nu cere date. SMS suspect: la 60599 (costă) sau gratuit la phishing@hmrc.gov.uk, apoi șterge-l.
 
 Cine NU primește P800: cine depune Self Assessment — nici P800, nici Simple Assessment, suma se corectează automat în declarație. P800 e pentru salariați și pensionari.
 
@@ -1638,9 +1638,7 @@ Termenul: 4 ani după încheierea anului fiscal ca să ceri banii. După, cerere
 
 Ce nu vine automat: cheltuielile de muncă, uneltele, kilometrajul, plecarea din UK la mijloc de an, reținerile CIS — se cer.
 
-Paginile GOV.UK nu fac distincție pe națiuni.
-
-Crezi că ai plătit prea multă taxă?""",
+Valabil în tot UK.""",
  th="""Dacă pe salariu s-a oprit prea multă taxă, HMRC trimite o scrisoare P800. Pleacă între iunie 2026 și martie 2027 — a ta poate să nu fi venit încă.
 
 Cine NU primește: cine depune Self Assessment. Suma se corectează în declarație.
@@ -1657,7 +1655,7 @@ How the money arrives:
 • ask for a cheque online — up to 6 weeks
 • the letter says HMRC will post a cheque — it arrives within 14 days of the date on the letter, and is one cheque for the total if you are owed for more than one year
 
-HMRC's scam test is a six-item checklist: it could be a scam if it rushes you, is threatening, is unexpected, asks for personal information like bank details, tells you to transfer money, or offers a refund, tax rebate or grant. An ask for bank details is on that list. The do-not-open-links line is HMRC's text-message advice, not the test, and a link proves nothing: HMRC does send texts linking to GOV.UK or webchat. A real refund ends with your account details, but you enter them on GOV.UK or in your HMRC account, never in reply to a message. HMRC never uses social media to offer a rebate or ask for your details. Forward a suspicious text to 60599, then delete it.
+HMRC says to check six things first: it could be a scam if it rushes you, is threatening, is unexpected, asks for personal information like bank details, tells you to transfer money, or offers a refund, tax rebate or grant. HMRC does text people to say a P800 refund is due, but that text asks nothing and carries no link. So a link in a refund message is proof of a scam: do not open it, do not reply. A real refund ends with your account details, but you enter them on GOV.UK or in your HMRC account, never in reply to a message. HMRC never uses social media to offer a rebate or ask for your details, and does not contact you on WhatsApp. Forward a suspicious text to 60599 (network charges apply) or email it free to phishing@hmrc.gov.uk, then delete it.
 
 Who does NOT get a P800:
 • anyone in Self Assessment. You get neither that letter nor a Simple Assessment letter, because the bill is adjusted automatically in the return.
@@ -1665,11 +1663,9 @@ Who does NOT get a P800:
 
 And the limit: a claim for overpaid tax must be made within 4 years after the end of the relevant tax year. Past that it is normally out of time: SACM12155 keeps only a few narrow routes open, so "normally" and not "never".
 
-What does NOT come on its own: employment expenses, tools and mileage, leaving the UK part-way through a year, and CIS deductions all have to be claimed. If no letter comes and you think you overpaid, the claim is yours to start. On a job-expenses claim for the current tax year, HMRC will usually adjust your tax code so you pay less tax; for previous tax years it will either adjust the code or give you a tax refund.
+What does NOT come on its own: employment expenses, tools and mileage, leaving the UK part-way through a year, and CIS deductions all have to be claimed. On a job-expenses claim for the current tax year, HMRC will usually adjust your tax code so you pay less tax; for previous tax years it will either adjust the code or give you a tax refund.
 
-UK-wide.
-
-Think you have overpaid?""",
+UK-wide.""",
  bsky="""Overpaid tax on your wages? HMRC sends a P800 between June 2026 and March 2027. Online claims pay in 5 working days. 4 years to claim.""",
  pin_title="The P800 letter: how to get overpaid UK tax back, and the 4-year limit",
  pin="""If too much Income Tax came off your wages, HMRC sends a tax calculation letter called a P800. Letters for 2025/26 go out between June 2026 and March 2027, so not having one yet means nothing. Online claims pay within 5 working days; a cheque asked for online takes up to 6 weeks; a cheque HMRC posts arrives within 14 days. Who does not get a P800: anyone in Self Assessment, whose bill is adjusted in the return instead. A claim must be made within 4 years after the end of that tax year. Expenses, tools, mileage and CIS deductions you have to claim yourself.""",

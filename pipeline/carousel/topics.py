@@ -2996,7 +2996,7 @@ BANI_INAPOI = dict(
          say="Când pe salariu s-a oprit prea multă taxă, HMRC trimite o scrisoare de calcul numită P800. Scrisorile pleacă între iunie și martie al anului următor — deci a ta poate să nu fi venit încă."),
     dict(type="step", step="Cât aștepți banii", fig="<small>până la</small> 6 <small>săptămâni</small>",
          say="Dacă P800 spune că HMRC trimite cecul, vine singur în 14 zile. Dacă poți cere banii online, vin în 5 zile lucrătoare. Dacă tu ceri cecul, până la 6 săptămâni.",
-         note="Semne HMRC de fraudă: neașteptat, oferă bani înapoi, cere date bancare. Tu ceri pe www.gov.uk."),
+         note="Mesaj cu bani înapoi care cere date bancare sau are link = fraudă. Tu ceri pe www.gov.uk."),
     dict(type="step", step="Cine NU primește P800", fig="<small>cei cu declarație</small>",
          say="Dacă depui Self Assessment nu primești nicio scrisoare P800: banii ți se întorc prin declarație. P800 e pentru salariați și pensionari.",
          note="Termenul e al oricui cere bani înapoi, nu doar al P800: 4&nbsp;ani de la încheierea anului fiscal în care ai plătit în plus. După, doar căi înguste din manualul HMRC."),
@@ -3014,7 +3014,7 @@ BANI_INAPOI = dict(
          say="When too much tax has come off your wages, HMRC sends a tax calculation letter — a P800. Those letters go out between June and the following March, so yours may simply not have arrived."),
     dict(type="step", step="How long the money takes", fig="<small>up to</small> 6 <small>weeks</small>",
          say="If the P800 says HMRC will post a cheque, it comes on its own in 14 days. If you can claim online, 5 working days. If you ask for a cheque yourself, up to 6 weeks.",
-         note="HMRC's scam signs: a message that is unexpected, offers a refund, or asks for bank details — whatever amount it names. You claim at www.gov.uk."),
+         note="A refund message that asks for bank details or carries a link is a scam — HMRC's own refund text has neither. You claim at www.gov.uk."),
     dict(type="step", step="Who does NOT get a P800", fig="<small>those who file a return</small>",
          say="If you file Self Assessment you get no P800 at all — your refund is worked out in the return instead. The P800 is for employees and people drawing a pension.",
          note="The deadline belongs to anyone claiming overpaid tax, not just P800: 4 years from the end of the tax year you overpaid in. Past that, only a few narrow routes in HMRC's manual."),
@@ -3047,13 +3047,37 @@ BANI_INAPOI = dict(
     ("Scam signs: a contact that \"offers a refund, tax rebate or grant\", \"is "
      "unexpected\" or \"asks for personal information like bank details\"; HMRC never "
      "using social media to \"offer a tax rebate\" or \"request personal or financial "
-     "information\"; suspect texts forwarded to 60599. The test the page actually gives "
-     "is \"We advise you not to open any links or reply to a text message claiming to be "
-     "from HMRC that offers you a tax refund in exchange for personal or financial "
-     "details\" — and the same page says \"HMRC does send text messages to some of our "
-     "customers\" and \"In the text message we might include a link to GOV.UK information "
-     "or to HMRC webchat\", so a link is not itself the sign of a scam",
+     "information\". The six bullets are NOT \"the test\": they sit under the heading "
+     "\"Check what to look for first\", and a further \"Other signs to look out for\" "
+     "section adds, among others, that HMRC \"will never ask you to pay with gift or "
+     "payment vouchers\", \"will never: leave a voicemail threatening legal action; "
+     "threaten arrest\", that on QR codes \"You will never be taken to a page where you "
+     "have to input personal information\", and that \"HMRC will not communicate with you "
+     "for any other reason using WhatsApp\" (the exception being the UK Government "
+     "Channel). Forwarding, in full: \"send any suspicious text messages to 60599 "
+     "(network charges apply) or email: phishing@hmrc.gov.uk then delete them\" — the "
+     "charge warning and the free email route are part of the advice. The "
+     "never-offers-a-rebate wording is scoped to social media only: \"HMRC will never use "
+     "social media to: offer a tax rebate; request personal or financial information\", "
+     "so it must not be generalised to text messages. And the page's general line \"In "
+     "the text message we might include a link to GOV.UK information or to HMRC webchat\" "
+     "does NOT reach a refund text: see the genuine-text-message page below, where a "
+     "P800 refund text \"will not provide any links to websites\", so a link in a message "
+     "about a refund IS itself a scam sign",
      "https://www.gov.uk/guidance/identify-hmrc-related-scam-phone-calls-emails-and-text-messages",
+     "2026-11-10"),
+    ("HMRC's list of genuine text messages. Under \"Tax refund (P800)\" (entry added 24 "
+     "August 2026): \"HMRC may send you a text message saying you're due a tax refund "
+     "(also known as a P800 refund) if they've sent a letter and have not had a "
+     "response. It will not: ask you for personal or financial information; provide any "
+     "links to websites.\" So HMRC DOES text about a P800 refund — the claim that it "
+     "never offers a refund by message is wrong — and because the genuine one carries no "
+     "link, a link in a refund text is proof of a scam. The separate \"Self Assessment "
+     "tax refunds\" entry: \"HMRC may send you a text message if you request a Self "
+     "Assessment tax refund\", confirming it is being processed and when to expect it, "
+     "and again it \"will not\" ask for personal or financial information or provide any "
+     "links to websites",
+     "https://www.gov.uk/guidance/check-if-a-text-message-youve-received-from-hmrc-is-genuine",
      "2026-11-10"),
     ("Statutory time limit behind SACM12155: \"A claim under this Schedule may not be "
      "made more than 4 years after the end of the relevant tax year\" (TMA 1970 "

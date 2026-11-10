@@ -33,6 +33,13 @@ FAIL = []
 OWN = {"ola_accountancy", "olaaccountancy", "ola-accountancy", "valentintheaccountant",
        "olaaccountancyluton", "olaaccountancybirmingham", "anthropic.com", "noreply"}
 OWN_PHONE = {"03301331886", "443301331886"}
+# Published institutional reporting contacts — not a person's address, and the
+# scam copy is useless without them. HMRC's own wording: "send any suspicious
+# text messages to 60599 (network charges apply) or email: phishing@hmrc.gov.uk
+# then delete them". Exact strings only: the check still fails on any other
+# address at the same domain, and on every third-party handle.
+PUBLISHED_CONTACTS = {"phishing@hmrc.gov.uk"}
+PUBLISHED_HANDLES = {m.split("@", 1)[1].lower() for m in PUBLISHED_CONTACTS}
 
 
 def fail(check, detail):
@@ -58,10 +65,14 @@ def check_identities():
         except OSError:
             continue
         for m in set(pat_mail.findall(txt)):
+            if m.lower() in PUBLISHED_CONTACTS:
+                continue
             if not any(o in m.lower() for o in OWN):
                 fail("IDENTITIES", f"{rel}: email address {m!r}")
         for m in set(pat_handle.findall(txt)):
             low = m.lower()
+            if low in PUBLISHED_HANDLES:
+                continue
             if low in OWN or low.isdigit() or low in {"media", "fontsource", "import", "charset"}:
                 continue
             if re.match(r"^\d", low):          # @400, @12..96 — CSS, not a person
