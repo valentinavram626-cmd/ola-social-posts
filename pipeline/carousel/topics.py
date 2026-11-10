@@ -3148,9 +3148,9 @@ PENSIE_LA_JOB = dict(
     dict(type="step", step="Cine intră automat · 2026/27", fig="<cur>£</cur>10.000",
          say="Angajatorul te înscrie singur dacă ești «worker», ai între 22 de ani și vârsta de pensionare de stat, câștigi cel puțin £10.000 pe an și lucrezi de obicei în UK.",
          note="«Worker» e mai larg decât salariatul cu contract — intră și munca prin agenție. Câștigul care se ia în calcul: în majoritatea schemelor automate, partea dintre £6.240 și £50.270 pe an, nu tot salariul."),
-    dict(type="step", step="Cine NU intră automat · 2026/27", fig="3 grupe",
-         say="Sub 22, peste vârsta de pensionare de stat, sub £10.000 pe an. Între 16 și 74 de ani de regulă poți cere să intri și angajatorul nu te poate refuza. <b>Sub £6.240 pe an nu e obligat să pună bani.</b>",
-         note="Cei 3% rămân minimul legal, din câștigul care se ia în calcul; £6.240 e aici un prag pe tot salariul. Director unic, fără alt angajat: nicio obligație."),
+    dict(type="step", step="Cine NU intră automat · 2026/27", fig="",
+         say="Sub 22, peste vârsta de pensionare de stat, sub £10.000 pe an. Între 16 și 74 de ani de regulă poți cere să intri și angajatorul nu te poate refuza. La £6.240 pe an sau mai puțin nu e obligat să pună bani — dar tot trebuie să-ți ia contribuția din salariu și s-o pună în schemă. <b>Peste £6.240, dacă ceri să intri, pune și el bani.</b>",
+         note="Minimul legal al angajatorului, 3%, se socotește pe câștigul care se ia în calcul, nu pe tot salariul. Director unic, fără alt angajat: nicio obligație."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Pensia de la locul de muncă · UK",
@@ -3166,9 +3166,9 @@ PENSIE_LA_JOB = dict(
     dict(type="step", step="Who is enrolled automatically · 2026/27", fig="<cur>£</cur>10,000",
          say="Your employer has to put you in without being asked if you are classed as a ‘worker’, aged between 22 and State Pension age, earn at least £10,000 a year, and usually work in the UK.",
          note="‘Worker’ is wider than payroll: agency and casual work can count. In most automatic enrolment schemes only £6,240 to £50,270 of pay counts."),
-    dict(type="step", step="Who is NOT enrolled automatically · 2026/27", fig="3 groups",
-         say="Under 22, over State Pension age, or under £10,000 a year. From 16 to 74 you can usually ask to join and your employer cannot refuse. <b>Under £6,240 a year it need not pay in.</b>",
-         note="Its 3% stays the legal minimum, worked out on qualifying earnings; £6,240 here is a test on your whole pay. Sole director, no other staff: no duty."),
+    dict(type="step", step="Who is NOT enrolled automatically · 2026/27", fig="",
+         say="Under 22, over State Pension age, or under £10,000 a year. From 16 to 74 you can usually ask to join and your employer cannot refuse. At £6,240 a year or less it need not pay in — but it must still deduct your own contribution and pay it into the scheme. <b>Above £6,240, ask to join and it must pay in too.</b>",
+         note="The employer's legal minimum, 3%, is worked out on qualifying earnings, not your whole wage. Sole director, no other staff: no duty at all."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Workplace pensions · UK",
@@ -3238,8 +3238,31 @@ PENSIE_LA_JOB = dict(
      "in or to join applies. An entitled worker has no qualifying earnings in the pay "
      "reference period; for one, 'the employer will have to deduct contributions on "
      "behalf of the entitled worker and pay these into the scheme', while 'the employer "
-     "does not have to pay into the scheme themselves, unless they choose to do so'.",
+     "does not have to pay into the scheme themselves, unless they choose to do so'. A "
+     "non-eligible jobholder is a different case and is the one card 3 now states: aged "
+     "16 to 74 with qualifying earnings at or below the earnings trigger, not enrolled "
+     "automatically, but 'if a non-eligible jobholder chooses to opt in' the employer "
+     "'must enrol the non-eligible jobholder into an automatic enrolment scheme' and "
+     "'the employer must pay employer contributions to the scheme' (paras 67-68). "
+     "Qualifying earnings exist only above the lower limit, so the line between the two "
+     "cases is £6,240, not £10,000.",
      "https://www.thepensionsregulator.gov.uk/en/document-library/automatic-enrolment-detailed-guidance/1-employer-duties-and-defining-the-workforce",
+     "2026-11-10"),
+    ("Pensions Act 2008 s.13(1): qualifying earnings in a 12-month pay reference period "
+     "are the part of gross earnings that is '(a) more than £6,240, and (b) not more "
+     "than £50,270'. 'More than', not 'at least': at exactly £6,240 there are no "
+     "qualifying earnings, so no employer contribution duty arises — which is why card 3 "
+     "and the captions now say '£6,240 or less' and not 'under £6,240'. Paragraph (a) "
+     "was substituted with effect from 6 April 2020 and (b) from 6 April 2021.",
+     "https://www.legislation.gov.uk/ukpga/2008/30/section/13/data.html", "2026-11-10"),
+    ("DWP review of the automatic enrolment earnings trigger and qualifying earnings "
+     "band for 2026/27: the £10,000 earnings trigger 'should be retained for 2026 to "
+     "2027', the LEL 'will continue to be set at £6,240' and the UEL 'will continue to "
+     "be set at £50,270'. On people earning between the lower earnings limit and the "
+     "trigger — the group the review calls non-eligible jobholders — 'People in this "
+     "group can opt-in to their employer's workplace pension and will receive a "
+     "mandatory employer contribution'. This is the source for the new line on card 3.",
+     "https://www.gov.uk/government/publications/review-of-the-automatic-enrolment-earnings-trigger-and-qualifying-earnings-band-for-202627/review-of-the-automatic-enrolment-earnings-trigger-and-qualifying-earnings-band-for-202627",
      "2026-11-10"),
     ("Automatic enrolment duties do not apply where the person is not an employer — "
      "including where you are a sole director of an organisation or business with no "
@@ -3258,6 +3281,10 @@ PENSIE_LA_JOB = dict(
              "join and the employer cannot refuse, but at £520 a month or less (£120 a "
              "week, £480 over 4 weeks) the employer need not contribute at all — it must "
              "still deduct the worker's own contributions and pay them into the scheme. "
+             "Above that figure and below the £10,000 trigger the position is the "
+             "opposite: the worker is a non-eligible jobholder, and DWP's 2026/27 review "
+             "states that people in this group 'can opt-in to their employer's workplace "
+             "pension and will receive a mandatory employer contribution'. "
              "Outside 16 to 74 there is no right to opt in or join at all. The Pensions "
              "Regulator adds that a sole director of a business with no other staff has "
              "no automatic enrolment duty at all, which is the small-limited-company case "

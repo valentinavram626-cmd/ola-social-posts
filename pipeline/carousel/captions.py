@@ -1686,7 +1686,7 @@ Cine intră automat, fără să ceară:
 
 Procentele nu merg pe tot salariul: în majoritatea schemelor automate, doar pe câștigul dintre £6.240 și £50.270 pe an, înainte de taxe. Cifre 2026/27.
 
-Dacă nu bifezi toate condițiile, nu te înscrie nimeni automat. Între 16 și 74 de ani de regulă poți cere tu să intri și angajatorul nu te poate refuza — dar sub £6.240 pe an (£520 pe lună) nu e obligat să pună și el bani. Trebuie totuși să-ți ia contribuția din salariu și s-o pună în schemă.
+Dacă nu bifezi toate condițiile, nu te înscrie nimeni automat. Între 16 și 74 de ani de regulă poți cere tu să intri și angajatorul nu te poate refuza — dar la £6.240 pe an sau mai puțin (£520 pe lună) nu e obligat să pună și el bani. Trebuie totuși să-ți ia contribuția din salariu și s-o pună în schemă.
 
 GOV.UK mai listează cazuri în care angajatorul de regulă nu e obligat să te înscrie, chiar dacă le bifezi: ți-ai dat demisia sau ai primit preaviz, ai luat deja o pensie aranjată de angajator, ai ieșit din schemă cu peste 12 luni înainte de data de pornire, ești într-un limited liability partnership, sau ești director fără contract de muncă și ai cel puțin un alt angajat în firmă.
 
@@ -1716,7 +1716,7 @@ Who is enrolled automatically, without asking:
 
 In most automatic enrolment schemes the percentages apply to earnings between £6,240 and £50,270 a year before tax, not to your whole wage. £10,000, £6,240 and £50,270 are the 2026/27 figures.
 
-Miss any of those and nobody enrols you. From 16 to 74 you can usually still join and your employer cannot refuse — but that is not a right to employer money: under £6,240 a year (£520 a month, £120 a week) it need not contribute at all. It must still deduct your own contributions and pay them into the scheme.
+Miss any of those and nobody enrols you. From 16 to 74 you can usually still join and your employer cannot refuse — and above £6,240 a year it must then contribute too. At £6,240 or less (£520 a month, £120 a week) it need not contribute at all. It must still deduct your own contributions and pay them into the scheme.
 
 The Pensions Regulator adds the case GOV.UK does not: a sole director with no other staff has no automatic enrolment duty at all.
 
@@ -1731,7 +1731,7 @@ GOV.UK draws no distinction by nation.
 Not sure whether you are enrolled?""",
  bsky="""In a UK job 8% of qualifying earnings goes into a pension — 3 of those 8 points from the employer. Under £10,000 (2026/27)? Not automatic.""",
  pin_title="Workplace pensions: who is enrolled automatically, and who is not",
- pin="""In a UK job, at least 8% of your qualifying earnings goes into a workplace pension — 3 of those 8 points from your employer, 5 from you. Your employer must enrol you if you are a ‘worker’ (wider than payroll), aged between 22 and State Pension age, earning at least £10,000 a year and ordinarily working in the UK. In most automatic enrolment schemes only pay between £6,240 and £50,270 a year counts — 2026/27 figures. Miss any and nobody enrols you: from 16 to 74 you can usually ask to join and the employer cannot refuse, but under £6,240 it need not contribute.""",
+ pin="""In a UK job, at least 8% of your qualifying earnings goes into a workplace pension — 3 of those 8 points from your employer, 5 from you. Your employer must enrol you if you are a ‘worker’ (wider than payroll), aged between 22 and State Pension age, earning at least £10,000 a year and ordinarily working in the UK. In most automatic enrolment schemes only pay between £6,240 and £50,270 a year counts — 2026/27 figures. Miss any and nobody enrols you: from 16 to 74 you can usually ask to join and the employer cannot refuse, but at £6,240 or less it need not contribute.""",
  source="gov.uk/workplace-pensions și thepensionsregulator.gov.uk",
  source_en="gov.uk/workplace-pensions and thepensionsregulator.gov.uk",
  wa_ro="Ola Accountancy · 0330 133 1886\nLuton · Birmingham",
