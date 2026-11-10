@@ -3329,7 +3329,7 @@ COMPENSATIE_ZBOR = dict(
          note="Se numără ora la care ai ajuns la destinație, nu ora la care ar fi trebuit să pleci."),
     dict(type="step", step="Când NU primești bani", fig="<cur>£</cur>0",
          say="Se numără sosirea, nu plecarea: sub 3 ore, nimic. Nici când compania dovedește un motiv extraordinar, de neevitat, cum ar fi vreme care nu permite zborul în siguranță sau grevă la aeroport fără legătură cu compania. Defecțiunea tehnică nu e motiv.",
-         note="Intră orice zbor dintr-un aeroport din UK, cu orice companie. Spre UK, doar companii din UK sau UE."),
+         note="Intră orice zbor din UK, cu orice companie. Spre UK, doar cele operate de companii din UK sau UE."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Drepturile pasagerilor · zboruri UK",
