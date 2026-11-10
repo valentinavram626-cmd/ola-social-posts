@@ -3328,8 +3328,8 @@ COMPENSATIE_ZBOR = dict(
          say="Sub 1.500 km — £220. Între 1.500 și 3.500 km — £350. Peste 3.500 km — £260 dacă ai ajuns cu 3–4 ore întârziere, £520 dacă ai ajuns cu peste 4 ore.",
          note="Se numără ora la care ai ajuns la destinație, nu ora la care ar fi trebuit să pleci."),
     dict(type="step", step="Când NU primești bani", fig="<cur>£</cur>0",
-         say="Sub 3 ore întârziere nu se dă compensație. Nici când compania dovedește un motiv extraordinar, de neevitat: vreme care nu permite zborul în siguranță sau grevă la aeroport fără legătură cu compania.",
-         note="Orice zbor care pleacă dintr-un aeroport din UK intră, cu orice companie. Spre UK intră zborurile operate de companii din UK sau din UE."),
+         say="Se numără sosirea, nu plecarea: sub 3 ore, nimic. Nici când compania dovedește un motiv extraordinar, de neevitat, cum ar fi vreme care nu permite zborul în siguranță sau grevă la aeroport fără legătură cu compania. Defecțiunea tehnică nu e motiv.",
+         note="Intră orice zbor dintr-un aeroport din UK, cu orice companie. Spre UK, doar companii din UK sau UE."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Drepturile pasagerilor · zboruri UK",
@@ -3346,7 +3346,7 @@ COMPENSATIE_ZBOR = dict(
          say="Under 1,500km — £220. From 1,500km to 3,500km — £350. Over 3,500km — £260 if you landed three to four hours late, £520 if you landed more than four hours late.",
          note="What counts is the time you reached your destination airport, not the time you were due to take off."),
     dict(type="step", step="When you get NOTHING", fig="<cur>£</cur>0",
-         say="Arrive less than three hours late and no compensation is due. Nor where the airline proves an extraordinary cause it could not have avoided: weather that makes it unsafe to fly, or an airport or air-traffic strike unrelated to the airline.",
+         say="Arrival, not departure: under 3 hours late, nothing is due. Nor if the airline proves an unavoidable extraordinary cause, such as weather that makes it unsafe to fly, or an airport or air-traffic strike unrelated to the airline. A technical fault is not one.",
          note="Any flight leaving a UK airport is covered, on any airline. Into the UK, it is flights operated by a UK or EU airline."),
   ],
   CTA_EN=dict(type="cta",
@@ -3371,6 +3371,21 @@ COMPENSATIE_ZBOR = dict(
      "hidden manufacturing defects. The test is not that the weather be extreme but that "
      "it be incompatible with safe operation, and a strike by the airline's own staff is "
      "not in the list",
+     "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/travel-complaints/making-a-claim/am-i-entitled-to-compensation/",
+     "2026-11-10"),
+    ("The same CAA 'Am I entitled to compensation?' page read again for what is NOT "
+     "extraordinary, which the earlier reading did not record. Under the heading "
+     "\"Extraordinary circumstances\" the page says the courts have mostly ruled on "
+     "aircraft technical faults, and that the English Court of Appeal in Jet2 v Huzar "
+     "(2014) held that \"technical problems were not an extraordinary circumstance\"; of "
+     "KLM v van der Lans (2015) it says \"The court found that technical problems were "
+     "not extraordinary and neither was the early failure of an aircraft component\". "
+     "The page notes only two technical faults that may be extraordinary: a hidden "
+     "manufacturing defect (a manufacturer recall grounding a fleet) and damage from "
+     "sabotage or terrorism. This is the source for card 3's \"Defecțiunea tehnică nu e "
+     "motiv\" / \"A technical fault is not one\". The list of six likely extraordinary "
+     "circumstances on the same page is the source for card 3 reading as examples "
+     "(\"cum ar fi\" / \"such as\") rather than a closed pair",
      "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/travel-complaints/making-a-claim/am-i-entitled-to-compensation/",
      "2026-11-10"),
     ("Retained UK261 Article 6(1)(iii): where the delay is at least five hours, the "
@@ -3477,7 +3492,11 @@ COMPENSATIE_ZBOR = dict(
              "safe operation of the flight, which is a lower bar than extreme weather, or "
              "a strike unrelated to the airline such as airport staff, ground handlers, "
              "air traffic control or border force. A strike by the airline's own pilots "
-             "or cabin crew is not in the CAA's list. A flight into the UK from a "
+             "or cabin crew is not in the CAA's list, and nor is a technical fault with "
+             "the aircraft: the CAA's page cites Jet2 v Huzar (2014) for \"technical "
+             "problems were not an extraordinary circumstance\", its only technical "
+             "exceptions being a hidden manufacturing defect and sabotage damage. "
+             "A flight into the UK from a "
              "non-UK country flown by an airline that is neither UK nor EU is outside "
              "UK261 altogether, "
              "so the fixed sums do not exist for it. Two separate bookings self-connected "

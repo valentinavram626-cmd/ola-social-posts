@@ -20,16 +20,16 @@ Contează ora sosirii la destinație, nu a plecării programate. Distanța se m�
 
 Separat de compensație, la întârziere lungă ai dreptul la îngrijire, indiferent de vină: mâncare și băutură, două telefoane sau e-mailuri, iar peste noapte cazare și transport. De la plecarea programată: 2 ore sub 1.500 km, 3 până la 3.500 km, 4 peste. Dacă plătești tu, păstrează bonurile.
 
-La cel puțin 5 ore întârziere poți renunța la zbor și ceri banii pe partea nefolosită.
+La cel puțin 5 ore peste ora programată de plecare poți renunța la zbor și ceri banii pe partea nefolosită.
 
 Când NU primești bani:
 • sub 3 ore la destinație — nicio compensație
-• când compania arată un motiv extraordinar: vreme care nu permite zborul în siguranță — nu doar vreme extremă — sau grevă fără legătură cu compania, la aeroport ori la controlul traficului aerian. Compania decide întâi; decizia se poate contesta.
+• când compania dovedește un motiv extraordinar: vreme care nu permite zborul în siguranță — nu doar vreme extremă — sau grevă fără legătură cu compania, la aeroport ori la controlul traficului aerian. Compania decide întâi; decizia se poate contesta.
 • două rezervări separate legate de tine: nu ai drept legal la îngrijire sau compensație peste punctul de legătură
 
-Ce intră: orice zbor care pleacă dintr-un aeroport din UK, cu orice companie. Spre UK, zborurile operate de companii din UK sau din UE — deci și cele din România cu companii din UE.
+Ce intră: orice zbor dintr-un aeroport din UK, cu orice companie. Spre UK, cele operate de companii din UK sau din UE — deci și cele din România cu companii din UE.
 
-Termene: acțiune în instanță în 6 ani de la incident în Anglia și Țara Galilor, 5 în Scoția. Fără răspuns în 8 săptămâni sau cu un răspuns care nu-ți convine, mergi la organismul ADR al companiei; dacă nu e membru în unul aprobat, la autoritatea aviatică — care nu preia plângeri cu mai puțin de un an rămas. Rezident în Irlanda de Nord, zbor din sau spre NI: Consumer Council for Northern Ireland.
+Termene: acțiune în instanță în 6 ani de la incident în Anglia și Țara Galilor, 5 în Scoția. Fără răspuns în 8 săptămâni sau cu unul care nu-ți convine, mergi la organismul ADR al companiei; dacă nu e membru în unul aprobat, la autoritatea aviatică — care nu preia plângeri cu mai puțin de un an rămas. Rezident în Irlanda de Nord, zbor din sau spre NI: Consumer Council for Northern Ireland.
 
 Nu știi dacă zborul tău intră?
 
@@ -46,7 +46,7 @@ Sursă: caa.co.uk/air-passengers
 
 ## EN — LinkedIn  (postat ca document PDF, nu ca imagini multiple)
 
-Landed more than three hours late? Your airline may owe a sum set by law — £220 to £520 a person, whatever you paid for the ticket. The CAA says it "is not paid automatically" — you claim it from the airline.
+Landed more than three hours late? Your airline may owe a sum set by law — £220 to £520 a person, whatever the ticket cost. The CAA says it "is not paid automatically" — you claim it from the airline.
 
 How much, by distance:
 • under 1,500km — £220
@@ -57,16 +57,16 @@ What counts is when you reached your destination airport, not when you were due 
 
 Separately, a long delay triggers a right to care whatever the cause: food and drink, two calls or emails, and accommodation with transport overnight. Those hours run from the scheduled departure time: two under 1,500km, three to 3,500km, four beyond. Paying yourself, keep itemised receipts — the CAA notes airlines are unlikely to treat alcohol or luxury hotels as reasonable.
 
-At a delay of at least five hours you can decline to fly and claim a refund: parts not flown, any flown part that no longer serves your travel plan, and a flight back to where you started.
+At a delay of at least five hours past scheduled departure you can decline to fly and claim a refund: parts not flown, any flown part that no longer serves your travel plan, and a flight back to where you started.
 
 When you get NOTHING:
 • under three hours late at the destination — no compensation
 • where the airline proves an extraordinary cause unavoidable even with all reasonable measures. The CAA's weather test is weather "incompatible with the safe operation of the flight", not extreme weather, so ordinary fog or a snow shower can qualify; and only strikes "unrelated to the airline such as airport staff, ground handlers, air traffic control or border force" count — a strike by the airline's own crew does not. The airline decides first; that can be challenged.
 • two separate bookings self-connected by you: no statutory right to care or compensation across the join; each flight's own entitlements still apply
 
-What is covered: every flight departing a UK airport, on any airline. Into the UK, flights operated by a UK or EU airline. What puts a flight into the UK outside UK261 is its carrier, not its departure country: an airline that is neither UK nor EU, from anywhere.
+What is covered: every flight departing a UK airport, on any airline. Into the UK, flights operated by a UK or EU airline. What puts an inbound flight outside UK261 is its carrier, not its departure country: an airline that is neither UK nor EU, from anywhere.
 
-If the airline says no, complain in writing. With no reply within eight weeks, or a reply you are not satisfied with, escalate: to the airline's approved ADR body, and to the CAA's passenger advice and complaints team only where the airline or airport is not in one. Residents of Northern Ireland, on a flight in or out of NI, go to the Consumer Council for Northern Ireland.
+If the airline says no, complain in writing. With no reply in eight weeks, or one you are not satisfied with, escalate: to the airline's approved ADR body, and to the CAA's passenger advice and complaints team only if the airline or airport is not in one. Residents of Northern Ireland, on a flight in or out of NI, go to the Consumer Council for Northern Ireland.
 
 Court claims: 6 years from the incident in England and Wales, 5 in Scotland and, under the Limitation (NI) Order 1989, 6 in Northern Ireland. The CAA will not handle a complaint with less than a year of that left.
 
@@ -98,7 +98,7 @@ General information, not legal advice. The rules are on caa.co.uk.
 
 **Titlu:** UK flight delay compensation: £220 to £520, and when you get nothing
 
-Over three hours late, UK261 gives a fixed sum: £220 under 1,500km, £350 from 1,500km to 3,500km, over 3,500km £260 at three to four hours, £520 beyond four. The sums ignore the ticket price and are not automatic: claim from the airline. Nothing under three hours late, or where the airline shows an extraordinary cause: weather "incompatible with the safe operation of the flight", not merely extreme, or a strike unrelated to the airline. Court claims: 6 years in England and Wales, 5 in Scotland. NI residents flying in or out of NI go to the Consumer Council for Northern Ireland.
+Arrive over three hours late and UK261 gives a fixed sum: £220 under 1,500km, £350 from 1,500km to 3,500km, over 3,500km £260 at three to four hours, £520 beyond four. The sums ignore the ticket price and are not automatic: claim from the airline. Nothing under three hours late, or where the airline proves an extraordinary cause: weather "incompatible with the safe operation of the flight", not merely extreme, or a strike unrelated to the airline. Court claims: 6 years in England and Wales, 5 in Scotland. NI residents flying in or out of NI: Consumer Council for Northern Ireland.
 
 General information, not legal advice. The rules are on caa.co.uk.
 
@@ -111,6 +111,8 @@ General information, not legal advice. The rules are on caa.co.uk.
 - Delay compensation: £220 under 1,500km; £350 between 1,500km and 3,500km; £260 over 3,500km arriving three to four hours late and £520 arriving more than four hours late; you must arrive more than three hours late at the destination airport; amounts are fixed and not linked to the ticket price; compensation is not paid automatically and is claimed from the airline; no compensation where the airline considers the delay caused by extraordinary circumstances
   https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/delays/  (citit 2026-11-09)
 - What is likely to be an extraordinary circumstance, verbatim: "Weather conditions incompatible with the safe operation of the flight"; "Strikes (unrelated to the airline such as airport staff, ground handlers, air traffic control or border force)"; acts of terrorism or sabotage; security risks; political or civil unrest; hidden manufacturing defects. The test is not that the weather be extreme but that it be incompatible with safe operation, and a strike by the airline's own staff is not in the list
+  https://www.caa.co.uk/air-passengers/travel-problems-and-rights/travel-complaints/making-a-claim/am-i-entitled-to-compensation/  (citit 2026-11-10)
+- The same CAA 'Am I entitled to compensation?' page read again for what is NOT extraordinary, which the earlier reading did not record. Under the heading "Extraordinary circumstances" the page says the courts have mostly ruled on aircraft technical faults, and that the English Court of Appeal in Jet2 v Huzar (2014) held that "technical problems were not an extraordinary circumstance"; of KLM v van der Lans (2015) it says "The court found that technical problems were not extraordinary and neither was the early failure of an aircraft component". The page notes only two technical faults that may be extraordinary: a hidden manufacturing defect (a manufacturer recall grounding a fleet) and damage from sabotage or terrorism. This is the source for card 3's "Defecțiunea tehnică nu e motiv" / "A technical fault is not one". The list of six likely extraordinary circumstances on the same page is the source for card 3 reading as examples ("cum ar fi" / "such as") rather than a closed pair
   https://www.caa.co.uk/air-passengers/travel-problems-and-rights/travel-complaints/making-a-claim/am-i-entitled-to-compensation/  (citit 2026-11-10)
 - Retained UK261 Article 6(1)(iii): where the delay is at least five hours, the carrier must offer the assistance in Article 8(1)(a). "At least five hours" includes a delay of exactly five hours, where the CAA's delays page says "more than five hours"; Article 6(3), inserted 14 December 2023, is the arrival-based three-hour compensation right
   https://www.legislation.gov.uk/eur/2004/261/article/6  (citit 2026-11-10)
