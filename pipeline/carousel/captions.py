@@ -1674,75 +1674,66 @@ UK-wide.""",
 )
 
 C["pensie-la-job"] = dict(
- ro="""În pensia ta de la job pune bani și angajatorul. Dacă ieși din schemă, partea lui nu se înlocuiește cu nimic.
+ ro="""În pensia ta de la job pune bani și angajatorul. Dacă ieși, partea lui nu se înlocuiește cu nimic.
 
-La un loc de muncă pe salariu, în pensie intră minimum 8% din câștigul care se ia în calcul: 3% din acel câștig pune angajatorul și 5% pui tu. Deci 3% nu e 3% din cei 8% — e 3% din câștig. Iar din cei 5% ai tăi, o parte vine ca scutire de taxe, nu din buzunar.
+La un loc de muncă, în pensie intră minimum 8% din câștigul care se ia în calcul: 3% pune angajatorul și 5% pui tu. Deci 3% nu e 3% din cei 8% — e 3% din câștig. Dacă plătești Income Tax, o parte din cei 5% vine ca scutire, nu din buzunar.
 
 Cine intră automat, fără să ceară:
+• ești «worker» — intră și munca prin agenție
 • ai între 22 de ani și vârsta de pensionare de stat
 • câștigi cel puțin £10.000 pe an
 • lucrezi de obicei în UK
 
-Procentele nu se calculează pe tot salariul. În majoritatea schemelor de înscriere automată se calculează pe câștigul dintre £6.240 și £50.270 pe an, înainte de taxe.
+Procentele nu merg pe tot salariul: în majoritatea schemelor automate, doar pe câștigul dintre £6.240 și £50.270 pe an, înainte de taxe. Cifre 2026/27.
 
-Cine NU intră automat:
-• sub 22 de ani
-• peste vârsta de pensionare de stat
-• sub £10.000 pe an
-De regulă poți cere tu să intri, iar angajatorul nu te poate refuza.
+Dacă nu bifezi toate condițiile, nu te înscrie nimeni automat. Între 16 și 74 de ani de regulă poți cere tu să intri și angajatorul nu te poate refuza — dar sub £6.240 pe an (£520 pe lună) nu e obligat să pună și el bani. Trebuie totuși să-ți ia contribuția din salariu și s-o pună în schemă.
 
-Atenție la pragul de jos: sub £6.240 pe an — adică £520 pe lună, £120 pe săptămână — angajatorul nu e obligat să pună bani. Poți fi în schemă și să economisești singur.
+GOV.UK mai listează cazuri în care angajatorul de regulă nu e obligat să te înscrie, chiar dacă le bifezi: ți-ai dat demisia sau ai primit preaviz, ai luat deja o pensie aranjată de angajator, ai ieșit din schemă cu peste 12 luni înainte de data de pornire, ești într-un limited liability partnership, sau ești director fără contract de muncă și ai cel puțin un alt angajat în firmă.
 
-GOV.UK mai are o listă de cazuri în care angajatorul de regulă nu e obligat să te înscrie, chiar dacă ai vârsta și salariul: ți-ai dat demisia sau ai primit preaviz, ai luat deja o pensie aranjată de angajator, ai ieșit din schemă cu peste 12 luni înainte de data de pornire, ești într-un limited liability partnership, sau ești director fără contract de muncă.
+The Pensions Regulator adaugă: un director unic, fără alt personal, nu are deloc obligația de înscriere.
 
-Iar The Pensions Regulator spune clar: un director unic, într-o firmă fără alt personal, nu are deloc obligația de înscriere.
+Ieși în prima lună după înscriere — primești banii înapoi. Mai târziu, de regulă rămân în pensie până la pensionare.
 
-Dacă ieși în prima lună după ce te-a înscris angajatorul, primești înapoi banii puși deja. Dacă ieși mai târziu, de regulă rămân în pensie până la pensionare.
+Reînscrierea merge după data angajatorului, nu după a ta: cam din 3 în 3 ani sunt verificați cei ieșiți din schemă și repuși doar cei care mai îndeplinesc condițiile. Primesc o scrisoare.
 
-Și încă ceva: angajatorul trebuie să te reînscrie din 3 în 3 ani și să-ți scrie când o face.
-
-Paginile GOV.UK nu fac distincție pe națiuni.
+GOV.UK nu face distincție pe națiuni.
 
 Nu știi dacă ești înscris?""",
- th="""La un job pe salariu, în pensie intră minimum 8% din câștigul care se ia în calcul: 3% pune angajatorul, 5% pui tu.
+ th="""La un loc de muncă, în pensie intră minimum 8% din câștigul care se ia în calcul: 3% pune angajatorul, 5% pui tu.
 
-Te înscrie automat dacă ai între 22 de ani și vârsta de pensionare și câștigi cel puțin £10.000 pe an.
+Te înscrie automat dacă ai între 22 de ani și vârsta de pensionare și câștigi cel puțin £10.000 pe an (2026/27).
 
-Cine NU intră automat: sub 22 de ani, peste vârsta de pensionare, sau sub £10.000.""",
- li="""Your employer puts money into your workplace pension too. Opt out and that part is not replaced by anything.
+Cine NU intră automat: sub 22, peste vârsta de pensionare sau sub £10.000.""",
+ li="""Your employer puts money into your workplace pension too. Opt out and that part is not replaced.
 
-In a job on payroll, at least 8% of your qualifying earnings goes into a pension: 3% of those earnings from the employer and 5% from you. So the 3% is three points of your earnings, not 3% of the 8%. And part of your 5% arrives as tax relief rather than out of your pocket.
+In a UK job, at least 8% of your qualifying earnings goes into a pension: 3% of those earnings from the employer and 5% from you. So the 3% is three points of your earnings, not 3% of the 8%. And if you pay Income Tax, part of your 5% arrives as tax relief rather than out of your pocket.
 
 Who is enrolled automatically, without asking:
+• classed as a ‘worker’ — wider than payroll: agency and casual work can count
 • aged between 22 and State Pension age
 • earning at least £10,000 a year
 • ordinarily working in the UK
 
-The percentages are not applied to your whole wage. In most automatic enrolment schemes they apply to earnings between £6,240 and £50,270 a year before tax.
+In most automatic enrolment schemes the percentages apply to earnings between £6,240 and £50,270 a year before tax, not to your whole wage. £10,000, £6,240 and £50,270 are the 2026/27 figures.
 
-Who is NOT enrolled automatically:
-• under 22
-• over State Pension age
-• earning under £10,000 a year
-You can usually still join if you want to, and your employer cannot refuse.
+Miss any of those and nobody enrols you. From 16 to 74 you can usually still join and your employer cannot refuse — but that is not a right to employer money: under £6,240 a year (£520 a month, £120 a week) it need not contribute at all. It must still deduct your own contributions and pay them into the scheme.
 
-Watch the lower threshold: under £6,240 a year — that is £520 a month, £120 a week — your employer does not have to contribute at all. You can be in the scheme and still be saving alone.
+The Pensions Regulator adds the case GOV.UK does not: a sole director with no other staff has no automatic enrolment duty at all.
 
-The Pensions Regulator adds the case GOV.UK does not: a sole director of a business with no other staff has no automatic enrolment duty at all.
+GOV.UK also lists cases where an employer usually need not enrol someone even on the right age and pay: notice of leaving already given or received, a pension already taken that the employer arranged, a winding up lump sum from a closed scheme where you then left and were re-employed by the same employer within 12 months of getting it, having opted out more than 12 months before the staging date, an EU cross-border scheme, a limited liability partnership, and a director without an employment contract who employs at least one other person.
 
-GOV.UK also lists cases where an employer usually does not have to enrol someone even on the right age and pay: notice of leaving already given or received, a pension already taken that the employer arranged, a one-off payment from a closed scheme, having opted out more than 12 months before the staging date, an EU cross-border scheme, a limited liability partnership, and a director without an employment contract who employs at least one other person.
+Leave within a month of being added and you get back what you have paid in. Later, it usually stays in the pension until you retire.
 
-Leave within a month of being added and you get back what you have already paid in. Later than that and it usually stays in the pension until you retire.
-
-Less well known: your employer must re-enrol you roughly every 3 years from the date you first joined, and must write to you when it does.
+Usually stated wrongly: re-enrolment does not run from the date you joined. The regulator puts it roughly every three years from the employer's own duties start date, then from its last re-enrolment date, on a day the employer picks from a six-month window around that anniversary. Only staff who opted out, left the scheme or cut their contributions are assessed then, and only those aged 22 to State Pension age earning over £10,000 go back in. The employer must write to each within six weeks. GOV.UK's plain-English page says it runs from the date you first enrolled; the regulator's detailed guidance is the operative rule.
 
 GOV.UK draws no distinction by nation.
 
 Not sure whether you are enrolled?""",
- bsky="""In a UK payroll job 8% of qualifying earnings goes into a pension — 3 of those 8 points from the employer. Under £10,000? Not automatic.""",
+ bsky="""In a UK job 8% of qualifying earnings goes into a pension — 3 of those 8 points from the employer. Under £10,000 (2026/27)? Not automatic.""",
  pin_title="Workplace pensions: who is enrolled automatically, and who is not",
- pin="""In a UK job on payroll, at least 8% of your qualifying earnings goes into a workplace pension — 3 of those 8 points from your employer and 5 from you. Your employer must enrol you automatically if you are aged between 22 and State Pension age, earn at least £10,000 a year and ordinarily work in the UK. In most automatic enrolment schemes the percentages apply to earnings between £6,240 and £50,270 a year before tax. Not enrolled automatically: anyone under 22, over State Pension age, or under £10,000 — they can usually ask to join and the employer cannot refuse.""",
- source="gov.uk/workplace-pensions",
+ pin="""In a UK job, at least 8% of your qualifying earnings goes into a workplace pension — 3 of those 8 points from your employer, 5 from you. Your employer must enrol you if you are a ‘worker’ (wider than payroll), aged between 22 and State Pension age, earning at least £10,000 a year and ordinarily working in the UK. In most automatic enrolment schemes only pay between £6,240 and £50,270 a year counts — 2026/27 figures. Miss any and nobody enrols you: from 16 to 74 you can usually ask to join and the employer cannot refuse, but under £6,240 it need not contribute.""",
+ source="gov.uk/workplace-pensions și thepensionsregulator.gov.uk",
+ source_en="gov.uk/workplace-pensions and thepensionsregulator.gov.uk",
  wa_ro="Ola Accountancy · 0330 133 1886\nLuton · Birmingham",
  wa_th="Ola Accountancy: 0330 133 1886",
  wa_li="0330 133 1886",

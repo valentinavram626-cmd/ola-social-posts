@@ -3145,12 +3145,12 @@ PENSIE_LA_JOB = dict(
          kicker="Pensia de la locul de muncă · UK",
          h1="În pensia ta pune bani și <em>angajatorul</em>.",
          say="La un job pe salariu intră în pensie 8% din câștigul care se ia în calcul: 3% pune angajatorul și 5% pui tu. Astea sunt minimele legale. Dacă ieși din schemă, partea angajatorului nu se înlocuiește cu nimic."),
-    dict(type="step", step="Cine intră automat", fig="<cur>£</cur>10.000",
-         say="Angajatorul te înscrie singur, fără să ceri, dacă ai între 22 de ani și vârsta de pensionare de stat, câștigi cel puțin £10.000 pe an și lucrezi de obicei în UK.",
-         note="Câștigul care se ia în calcul: în majoritatea schemelor automate, partea de salariu dintre £6.240 și £50.270 pe an, nu tot salariul."),
-    dict(type="step", step="Cine NU intră automat", fig="22",
-         say="Sub 22 de ani, peste vârsta de pensionare sau sub £10.000 pe an — nu te înscrie nimeni automat. De regulă poți cere tu să intri, iar angajatorul nu te poate refuza.",
-         note="Dar sub £6.240 pe an (£520 pe lună) angajatorul nu e obligat să pună bani. Iar un director unic, fără alt angajat, nu are obligația de înscriere."),
+    dict(type="step", step="Cine intră automat · 2026/27", fig="<cur>£</cur>10.000",
+         say="Angajatorul te înscrie singur dacă ești «worker», ai între 22 de ani și vârsta de pensionare de stat, câștigi cel puțin £10.000 pe an și lucrezi de obicei în UK.",
+         note="«Worker» e mai larg decât salariatul cu contract — intră și munca prin agenție. Câștigul care se ia în calcul: în majoritatea schemelor automate, partea dintre £6.240 și £50.270 pe an, nu tot salariul."),
+    dict(type="step", step="Cine NU intră automat · 2026/27", fig="<small>vârsta sau banii</small>",
+         say="Sub 22, peste vârsta de pensionare sau sub £10.000 pe an nu te înscrie nimeni automat. Între 16 și 74 de ani de regulă poți cere să intri și angajatorul nu te poate refuza — dar sub £6.240 nu e obligat să pună bani.",
+         note="Un director unic, fără alt angajat, nu are deloc obligația de înscriere."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Pensia de la locul de muncă · UK",
@@ -3163,12 +3163,12 @@ PENSIE_LA_JOB = dict(
          kicker="Workplace pensions · UK",
          h1="Your employer puts money in <em>too</em>.",
          say="In a job on payroll, 8% of your qualifying earnings goes into a pension: 3% from your employer and 5% from you. Those are the legal minimums. Leave the scheme and the employer's share is not replaced."),
-    dict(type="step", step="Who is enrolled automatically", fig="<cur>£</cur>10,000",
-         say="Your employer has to put you in without being asked if you are aged between 22 and State Pension age, earn at least £10,000 a year, and usually work in the UK.",
-         note="Qualifying earnings: in most automatic enrolment schemes, the slice of pay between £6,240 and £50,270 a year — not your whole wage."),
-    dict(type="step", step="Who is NOT enrolled automatically", fig="22",
-         say="Under 22, over State Pension age, or earning under £10,000 a year, and nobody puts you in. You can usually still ask to join, and your employer cannot refuse.",
-         note="But under £6,240 a year (£520 a month) your employer need not contribute. And a sole director with no other staff has no enrolment duty at all."),
+    dict(type="step", step="Who is enrolled automatically · 2026/27", fig="<cur>£</cur>10,000",
+         say="Your employer has to put you in without being asked if you are classed as a ‘worker’, aged between 22 and State Pension age, earn at least £10,000 a year, and usually work in the UK.",
+         note="‘Worker’ is wider than payroll: agency and casual work can count. In most automatic enrolment schemes only £6,240 to £50,270 of pay counts."),
+    dict(type="step", step="Who is NOT enrolled automatically · 2026/27", fig="<small>age or earnings</small>",
+         say="Under 22, over State Pension age or earning under £10,000 a year, and nobody puts you in. From 16 to 74 you can usually ask to join and your employer cannot refuse — but under £6,240 it need not contribute.",
+         note="A sole director with no other staff has no enrolment duty at all."),
   ],
   CTA_EN=dict(type="cta",
     kicker="Workplace pensions · UK",
@@ -3177,21 +3177,70 @@ PENSIE_LA_JOB = dict(
     phone=PHONE, disc="General information, not pensions advice. The conditions are on gov.uk."),
 
   SOURCES=[
-    ("Automatic enrolment conditions: aged between 22 and State Pension age, earn at "
-     "least £10,000 a year, ordinarily work in the UK; the list of cases where an "
-     "employer usually does not have to enrol you; you can usually still join and the "
-     "employer cannot refuse; no employer contribution required at £520 a month, £120 a "
-     "week or £480 over 4 weeks or less",
-     "https://www.gov.uk/workplace-pensions/joining-a-workplace-pension", "2026-11-09"),
+    ("Automatic enrolment conditions, all four: you are 'classed as a worker', aged "
+     "between 22 and State Pension age, earn at least £10,000 a year and usually "
+     "('ordinarily') work in the UK. The list of cases where an employer usually does not "
+     "have to enrol you, read in full — the closed-scheme case is stated as a one-off "
+     "'winding up lump sum' from a closed workplace scheme AND leaving and rejoining the "
+     "same job within 12 months of getting it, and the director case as a director "
+     "'without an employment contract' who 'employs at least one other person in your "
+     "company'. 'You can usually still join their pension if you want to. Your employer "
+     "cannot refuse.' No employer contribution required at £520 a month, £120 a week or "
+     "£480 over 4 weeks or less. This page does not state the £6,240 figure.",
+     "https://www.gov.uk/workplace-pensions/joining-a-workplace-pension", "2026-11-10"),
     ("Minimum total contribution 8% from April 2019, of which the employer pays at least "
-     "3%; in most automatic enrolment schemes the percentages apply to earnings between "
-     "£6,240 and £50,270 a year before tax",
+     "3% and the staff member 5%; 'in most automatic enrolment schemes' the percentages "
+     "apply to earnings between £6,240 and £50,270 a year before tax. Tax relief is "
+     "conditional: the government adds it where 'both of the following apply' — you pay "
+     "Income Tax and you pay into a pension. Separately, if the scheme uses relief at "
+     "source you still get an additional payment even if you pay no Income Tax.",
      "https://www.gov.uk/workplace-pensions/what-you-your-employer-and-the-government-pay",
-     "2026-11-09"),
+     "2026-11-10"),
     ("Opting out within a month of being added returns the money already paid in; later "
-     "it usually stays in the pension until retirement; re-enrolment every 3 years",
+     "'you may not be able to get your payments refunded' and they 'usually stay in your "
+     "pension until you retire'; a letter is sent when you are re-enrolled. NOTE — this "
+     "plain-English page states the cycle as 'every 3 years (from the date you first "
+     "enrolled)', which conflicts with The Pensions Regulator's detailed guidance 11 and "
+     "its business-adviser guide. The regulator's own guidance is the operative rule and "
+     "is what the cards and captions follow: the date is the employer's, not the "
+     "individual's.",
      "https://www.gov.uk/workplace-pensions/if-you-want-to-leave-your-workplace-pension-scheme",
-     "2026-11-09"),
+     "2026-11-10"),
+    ("Cyclical automatic re-enrolment, detailed guidance 11: it 'occurs approximately "
+     "every three years after an employer's staging date or duties start date', and the "
+     "employer 'may choose this date from any date that falls within a six-month window, "
+     "starting three months before the third anniversary' of that date; later cycles run "
+     "from the third anniversary of the last re-enrolment date. The employer 'must assess "
+     "only the workers who have opted out or voluntarily ceased active membership of a "
+     "qualifying scheme'; workers aged 21 or under and workers at or over State Pension "
+     "age on that date are excluded, and only an eligible jobholder aged at least 22 but "
+     "under State Pension age with qualifying earnings above the trigger is put back in. "
+     "Re-enrolment must be completed within six weeks of the re-enrolment date, and the "
+     "worker then has a one-month opt-out period.",
+     "https://www.thepensionsregulator.gov.uk/en/document-library/automatic-enrolment-detailed-guidance/11-automatic-re-enrolment-putting-workers-back-into-pension-scheme-membership",
+     "2026-11-10"),
+    ("Re-enrolment and re-declaration, business-adviser guide: 'We tell employers to use "
+     "the third anniversary of their duties start date as their re-enrolment date', and "
+     "'for later re-enrolments, the date moves to the third anniversary of their most "
+     "recent re-enrolment date'; they 'can choose any date within a six-month timeframe', "
+     "'starting three months before, and ending three months after their anniversary "
+     "date'. Assess 'any staff who have left their pension scheme, or reduced their "
+     "contributions into it'; those aged 22 to State Pension age earning over £10,000 a "
+     "year 'must be put back into the pension scheme'. The employer 'must write to "
+     "eligible staff individually, within six weeks of their re-enrolment date'.",
+     "https://www.thepensionsregulator.gov.uk/en/business-advisers/automatic-enrolment-guide-for-business-advisers/re-enrolment-and-re-declaration",
+     "2026-11-10"),
+    ("Employer duties and defining the workforce, detailed guidance 1: a worker is "
+     "someone working under a contract of employment, or under a contract 'to perform "
+     "work or services personally and is not undertaking the work as part of their own "
+     "business' — which 'may include agency workers'. Both jobholders and entitled "
+     "workers are 'aged between 16 and 74', which is the band in which the right to opt "
+     "in or to join applies. An entitled worker has no qualifying earnings in the pay "
+     "reference period; for one, 'the employer will have to deduct contributions on "
+     "behalf of the entitled worker and pay these into the scheme', while 'the employer "
+     "does not have to pay into the scheme themselves, unless they choose to do so'.",
+     "https://www.thepensionsregulator.gov.uk/en/document-library/automatic-enrolment-detailed-guidance/1-employer-duties-and-defining-the-workforce",
+     "2026-11-10"),
     ("Automatic enrolment duties do not apply where the person is not an employer — "
      "including where you are a sole director of an organisation or business with no "
      "other staff. The Pensions Regulator is the regulator for automatic enrolment.",
@@ -3200,25 +3249,38 @@ PENSIE_LA_JOB = dict(
   ],
   SCOPE=dict(
     nation="All of the UK. The duty applies to workers who ordinarily work in the UK.",
-    category="Workers on an employer's payroll aged 22 to State Pension age earning at "
-             "least £10,000 a year.",
+    category="Anyone GOV.UK classes as a 'worker' — wider than payroll, since a contract "
+             "to perform work or services personally can bring agency and casual workers "
+             "inside it — aged 22 to State Pension age and earning at least £10,000 a "
+             "year. £10,000, £6,240 and £50,270 are the figures in force for 2026/27.",
     excluded="Nobody is automatically enrolled who is under 22, over State Pension age or "
-             "earning under £10,000 a year — they can ask to join and the employer cannot "
-             "refuse, but at £520 a month or less (£120 a week, £480 over 4 weeks) the "
-             "employer need not contribute at all. The Pensions Regulator adds that a "
-             "sole director of a business with no other staff has no automatic enrolment "
-             "duty at all, which is the small-limited-company case in this audience. "
-             "GOV.UK also lists cases where an employer usually does not have to "
-             "enrol someone: notice already given or received either way, evidence of "
-             "lifetime allowance protection, a pension already taken that the employer "
-             "arranged, a one-off payment from a closed scheme, having opted out more than "
-             "12 months before the staging date, membership of an EU cross-border scheme, "
-             "being in a limited liability partnership, and a director without an "
-             "employment contract who employs at least one other person.",
+             "earning under £10,000 a year. Between 16 and 74 they can usually ask to "
+             "join and the employer cannot refuse, but at £520 a month or less (£120 a "
+             "week, £480 over 4 weeks) the employer need not contribute at all — it must "
+             "still deduct the worker's own contributions and pay them into the scheme. "
+             "Outside 16 to 74 there is no right to opt in or join at all. The Pensions "
+             "Regulator adds that a sole director of a business with no other staff has "
+             "no automatic enrolment duty at all, which is the small-limited-company case "
+             "in this audience. GOV.UK also lists cases where an employer usually does "
+             "not have to enrol someone: notice already given or received either way, "
+             "evidence of lifetime allowance protection, a pension already taken that the "
+             "employer arranged, a one-off 'winding up lump sum' from a closed workplace "
+             "scheme where the person then left and rejoined the same job within 12 "
+             "months of getting it, having opted out more than 12 months before the "
+             "staging date, membership of an EU cross-border scheme, being in a limited "
+             "liability partnership, and a director without an employment contract who "
+             "employs at least one other person in the company.",
     from_when="Now. The 8% total and 3% employer minimum have applied since April 2019. "
               "Opting out within one month of being added gets back what you paid in; "
-              "after that it normally stays in the pension until retirement, and the "
-              "employer re-enrols you every 3 years.",
+              "after that it normally stays in the pension until retirement. Cyclical "
+              "re-enrolment is not a personal anniversary: it runs roughly every three "
+              "years from the employer's own staging or duties start date (and then from "
+              "its last re-enrolment date), on a date the employer picks from a six-month "
+              "window around that anniversary. Only staff who opted out, left the scheme "
+              "or cut their contributions are assessed on that date, and only those then "
+              "aged 22 to State Pension age earning over £10,000 are put back in; the "
+              "employer must write to each of them within six weeks, and they get a "
+              "fresh one-month opt-out window.",
   ),
 )
 
