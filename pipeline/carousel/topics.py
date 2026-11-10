@@ -2996,10 +2996,10 @@ BANI_INAPOI = dict(
          say="Când pe salariu s-a oprit prea multă taxă, HMRC trimite o scrisoare de calcul numită P800. Scrisorile pleacă între iunie și martie al anului următor — deci a ta poate să nu fi venit încă."),
     dict(type="step", step="Cât aștepți banii", fig="<small>până la</small> 6 <small>săptămâni</small>",
          say="Dacă P800 spune că HMRC trimite cecul, vine singur în 14 zile. Dacă poți cere banii online, vin în 5 zile lucrătoare. Dacă tu ceri cecul, până la 6 săptămâni.",
-         note="Banii vin de la HMRC, nu prin link. HMRC nu oferă niciodată restituiri de taxă prin rețelele sociale."),
-    dict(type="step", step="Cine NU primește P800", fig="Self<small> Assessment</small>",
+         note="Ți se cer date personale sau bancare pentru bani înapoi? E fraudă: nu deschide linkul, nu răspunde."),
+    dict(type="step", step="Cine NU primește P800", fig="0 <small>P800 dacă depui</small>",
          say="Dacă depui Self Assessment nu primești nicio scrisoare P800: banii ți se întorc prin declarație. P800 e pentru salariați și pensionari.",
-         note="Cei 4 ani sunt termenul de cerere, socotit de la încheierea anului fiscal. După el nu mai poți cere, în afara câtorva căi înguste din manualul HMRC."),
+         note="Ai 4 ani de la încheierea anului fiscal în care ai plătit în plus. După, nu mai poți cere, în afara câtorva căi înguste din manualul HMRC."),
   ],
   CTA_RO=dict(type="cta",
     kicker="Taxa pe salariu · scrisoarea P800",
@@ -3014,10 +3014,10 @@ BANI_INAPOI = dict(
          say="When too much tax has come off your wages, HMRC sends a tax calculation letter — a P800. Those letters go out between June and the following March, so yours may simply not have arrived."),
     dict(type="step", step="How long the money takes", fig="<small>up to</small> 6 <small>weeks</small>",
          say="If the P800 says HMRC will post a cheque, it comes on its own in 14 days. If you can claim online, 5 working days. If you ask for a cheque yourself, up to 6 weeks.",
-         note="The money comes from HMRC, never through a link. HMRC never offers a tax rebate over social media."),
-    dict(type="step", step="Who does NOT get a P800", fig="Self<small> Assessment</small>",
+         note="Asked for personal or financial details in exchange for a refund? That is a scam: do not open the link, do not reply."),
+    dict(type="step", step="Who does NOT get a P800", fig="0 <small>letters if you file</small>",
          say="If you file Self Assessment you get no P800 at all — your refund is worked out in the return instead. The P800 is for employees and people drawing a pension.",
-         note="The 4 years is the claim deadline, counted from the end of the tax year. Past it you cannot claim, bar a few narrow routes in HMRC's manual."),
+         note="You have 4 years from the end of the tax year you overpaid in to claim the money back. Past that you cannot, bar a few narrow routes in HMRC's manual."),
   ],
   CTA_EN=dict(type="cta",
     kicker="PAYE · the P800 letter",
@@ -3029,8 +3029,14 @@ BANI_INAPOI = dict(
     ("The P800 tax calculation letter: sent between June and March of the following tax "
      "year, only to people who are employed or getting a pension; Self Assessment "
      "taxpayers get neither a tax calculation letter nor a Simple Assessment letter "
-     "because the bill is adjusted automatically",
-     "https://www.gov.uk/tax-overpayments-and-underpayments", "2026-11-09"),
+     "because the bill is adjusted automatically. The causes list is headed \"Why you "
+     "might get a tax calculation letter\" and reads \"You might get a tax calculation "
+     "letter if you either owe tax or are owed a refund because you:\", with the second "
+     "bullet \"finished one job, started a new one and were paid by both in the same "
+     "month\" — sequential, not two jobs held at once. And: \"If you think you have paid "
+     "too much tax and HMRC have not sent you a tax calculation letter, find out how to "
+     "claim a refund\"",
+     "https://www.gov.uk/tax-overpayments-and-underpayments", "2026-11-10"),
     ("Refund timings: online claim paid within 5 working days, a cheque requested online "
      "within 6 weeks, an automatic cheque within 14 days of the date on the letter",
      "https://www.gov.uk/tax-overpayments-and-underpayments/if-youre-due-a-refund", "2026-11-09"),
@@ -3038,11 +3044,17 @@ BANI_INAPOI = dict(
      "the relevant tax year or accounting period (HMRC Self Assessment Claims manual "
      "SACM12155)",
      "https://www.gov.uk/hmrc-internal-manuals/self-assessment-claims-manual/sacm12155", "2026-11-09"),
-    ("Scam signs: an offer of a tax refund, rebate or grant, and HMRC never using social "
-     "media to offer a tax rebate or request personal or financial information; suspect "
-     "texts forwarded to 60599",
+    ("Scam signs: a contact that \"offers a refund, tax rebate or grant\", \"is "
+     "unexpected\" or \"asks for personal information like bank details\"; HMRC never "
+     "using social media to \"offer a tax rebate\" or \"request personal or financial "
+     "information\"; suspect texts forwarded to 60599. The test the page actually gives "
+     "is \"We advise you not to open any links or reply to a text message claiming to be "
+     "from HMRC that offers you a tax refund in exchange for personal or financial "
+     "details\" — and the same page says \"HMRC does send text messages to some of our "
+     "customers\" and \"In the text message we might include a link to GOV.UK information "
+     "or to HMRC webchat\", so a link is not itself the sign of a scam",
      "https://www.gov.uk/guidance/identify-hmrc-related-scam-phone-calls-emails-and-text-messages",
-     "2026-11-09"),
+     "2026-11-10"),
     ("Statutory time limit behind SACM12155: \"A claim under this Schedule may not be "
      "made more than 4 years after the end of the relevant tax year\" (TMA 1970 "
      "Schedule 1AB paragraph 3(1))",
@@ -3055,7 +3067,7 @@ BANI_INAPOI = dict(
      "HMRC will usually adjust your tax code so you pay less tax. If your claim is for "
      "previous tax years, HMRC will either adjust your tax code or give you a tax "
      "refund.\" Self Assessment filers claim through the return instead",
-     "https://www.gov.uk/tax-relief-for-employees", "2026-11-09"),
+     "https://www.gov.uk/tax-relief-for-employees", "2026-11-10"),
     ("Leaving the UK part-way through a year: claim online or on form P85 to get tax "
      "back from UK employment; not needed if a Self Assessment return is being sent for "
      "the year of departure",
@@ -3074,8 +3086,9 @@ BANI_INAPOI = dict(
   SCOPE=dict(
     nation="All of the UK. PAYE and the P800 are HMRC-wide.",
     category="People taxed through PAYE — employees and people drawing a pension — whose "
-             "tax came out wrong, typically through a wrong tax code, two overlapping "
-             "jobs, starting to receive a pension at work, or Employment and Support "
+             "tax came out wrong, typically after a wrong tax code, finishing one job and "
+             "starting another and being paid by both in the same month, starting to "
+             "receive a pension at work, or Employment and Support "
              "Allowance or Jobseeker's Allowance.",
     excluded="Self Assessment taxpayers get neither a P800 nor a Simple Assessment "
              "letter: their bill is adjusted automatically in the return, so waiting for "
@@ -3083,10 +3096,11 @@ BANI_INAPOI = dict(
              "the end of the tax year concerned is normally out of time, however much was "
              "overpaid — SACM12155 keeps narrow consequential and special-relief routes "
              "open, which is why neither the cards nor the captions say the claim can never "
-             "be made. Separately, a P800 only arrives where HMRC's records already show "
-             "the overpayment: employment expenses, tools and mileage, leaving the UK "
-             "mid-year (form P85), and CIS deductions all have to be claimed, and nothing "
-             "starts them unprompted.",
+             "be made. Separately, gov.uk says HMRC sends the letter after checking what was "
+             "paid by 5 April, and tells anyone who thinks they overpaid and has had no "
+             "letter to claim a refund: employment expenses, tools and mileage, leaving "
+             "the UK mid-year (form P85), and CIS deductions all have to be claimed, and "
+             "nothing starts them unprompted.",
     from_when="P800 letters for a tax year are issued between June and the following "
               "March, so the letters for 2025/26 run from June 2026 to March 2027. The "
               "4-year claim window runs from the end of the tax year, not from the date "
