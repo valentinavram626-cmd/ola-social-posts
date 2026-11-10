@@ -1744,60 +1744,60 @@ Not sure whether you are enrolled?""",
 C["compensatie-zbor"] = dict(
  ro="""Ai ajuns la destinație cu peste 3 ore întârziere? Compania îți poate datora bani.
 
-Suma e stabilită prin lege, de persoană, indiferent cât ai dat pe bilet. Nu se plătește automat: o ceri direct de la companie.
+Suma e stabilită prin lege, de persoană, oricât ai dat pe bilet. Nu se plătește automat: o ceri direct de la companie.
 
 Cât, după distanță:
 • sub 1.500 km — £220
 • între 1.500 și 3.500 km — £350
 • peste 3.500 km — £260 la 3–4 ore, £520 la peste 4 ore
 
-Contează ora sosirii la destinație, nu ora plecării programate. Distanța se măsoară între primul și ultimul aeroport din rezervare.
+Contează ora sosirii la destinație, nu a plecării programate. Distanța se măsoară între primul și ultimul aeroport din rezervare.
 
-Separat de compensație, la întârziere lungă ai dreptul la îngrijire, indiferent de vină: mâncare și băutură, două telefoane sau e-mailuri, iar peste noapte cazare și transport. De la 2 ore sub 1.500 km, 3 ore până la 3.500 km, 4 ore peste. Dacă plătești tu, păstrează bonurile.
+Separat de compensație, la întârziere lungă ai dreptul la îngrijire, indiferent de vină: mâncare și băutură, două telefoane sau e-mailuri, iar peste noapte cazare și transport. De la plecarea programată: 2 ore sub 1.500 km, 3 până la 3.500 km, 4 peste. Dacă plătești tu, păstrează bonurile.
 
-La o întârziere de cel puțin 5 ore poți renunța la zbor și ceri banii înapoi pe partea nefolosită.
+La cel puțin 5 ore întârziere poți renunța la zbor și ceri banii pe partea nefolosită.
 
 Când NU primești bani:
-• până la 3 ore la destinație — nicio compensație
-• când compania arată un motiv extraordinar: vreme care nu permite zborul în siguranță — nu doar vreme extremă — sau grevă fără legătură cu compania, la aeroport ori la controlul traficului aerian. Compania decide întâi, dar decizia se poate contesta.
+• sub 3 ore la destinație — nicio compensație
+• când compania arată un motiv extraordinar: vreme care nu permite zborul în siguranță — nu doar vreme extremă — sau grevă fără legătură cu compania, la aeroport ori la controlul traficului aerian. Compania decide întâi; decizia se poate contesta.
 • două rezervări separate legate de tine: nu ai drept legal la îngrijire sau compensație peste punctul de legătură
 
-Ce intră: orice zbor care pleacă dintr-un aeroport din UK, cu orice companie. Spre UK intră zborurile operate de companii din UK sau din UE — deci și cele din România cu companii din UE.
+Ce intră: orice zbor care pleacă dintr-un aeroport din UK, cu orice companie. Spre UK, zborurile operate de companii din UK sau din UE — deci și cele din România cu companii din UE.
 
-Termene: acțiune în instanță în 6 ani de la incident în Anglia și Țara Galilor, 5 în Scoția. Fără răspuns în 8 săptămâni, sau cu un răspuns care nu-ți convine, mergi la organismul ADR al companiei; dacă nu e membru în unul aprobat, la autoritatea aviatică — care nu preia plângeri cu mai puțin de un an rămas. Din sau spre Irlanda de Nord: Consumer Council for Northern Ireland.
+Termene: acțiune în instanță în 6 ani de la incident în Anglia și Țara Galilor, 5 în Scoția. Fără răspuns în 8 săptămâni sau cu un răspuns care nu-ți convine, mergi la organismul ADR al companiei; dacă nu e membru în unul aprobat, la autoritatea aviatică — care nu preia plângeri cu mai puțin de un an rămas. Rezident în Irlanda de Nord, zbor din sau spre NI: Consumer Council for Northern Ireland.
 
 Nu știi dacă zborul tău intră?""",
- th="""Ai ajuns cu peste 3 ore întârziere? Suma e stabilită prin lege, nu de prețul biletului: £220–£520. Nu se plătește automat: o ceri de la companie.
+ th="""Ajuns cu peste 3 ore întârziere? Suma e stabilită prin lege, nu de prețul biletului: £220–£520. Nu se plătește automat: o ceri de la companie.
 
-Când NU primești: la 3 ore sau mai puțin, sau când compania arată un motiv extraordinar — vreme care nu permite zborul în siguranță sau grevă la aeroport.""",
- li="""Landed more than three hours late? Your airline may owe you a sum set by law — between £220 and £520 a person, with nothing to do with what you paid for the ticket. The CAA is explicit: it "is not paid automatically" — you claim it from the airline.
+Când NU primești: sub 3 ore, sau când compania dovedește un motiv extraordinar — vreme care nu permite zborul în siguranță sau grevă fără legătură cu compania.""",
+ li="""Landed more than three hours late? Your airline may owe a sum set by law — £220 to £520 a person, whatever you paid for the ticket. The CAA says it "is not paid automatically" — you claim it from the airline.
 
 How much, by distance:
 • under 1,500km — £220
 • 1,500km to 3,500km — £350
 • over 3,500km — £260 at three to four hours late, £520 beyond four
 
-What counts is the time you reached your destination airport, not the time you were due to depart. Distance is the Great Circle Route between the first and last airports on the booking.
+What counts is when you reached your destination airport, not when you were due to depart. Distance is the Great Circle Route between the first and last airports booked.
 
-Separately, a long delay triggers a right to care whatever the cause: food and drink, two phone calls or emails, and accommodation with transport if you are kept overnight. It starts at two hours under 1,500km, three hours to 3,500km, four hours beyond. If you pay yourself, keep itemised receipts — the CAA notes airlines are unlikely to treat alcohol or luxury hotels as reasonable.
+Separately, a long delay triggers a right to care whatever the cause: food and drink, two calls or emails, and accommodation with transport overnight. Those hours run from the scheduled departure time: two under 1,500km, three to 3,500km, four beyond. Paying yourself, keep itemised receipts — the CAA notes airlines are unlikely to treat alcohol or luxury hotels as reasonable.
 
-At a delay of at least five hours you can decline to travel and claim a refund: the parts not flown, any flown part that no longer serves your travel plan, and a flight back to where you started.
+At a delay of at least five hours you can decline to fly and claim a refund: parts not flown, any flown part that no longer serves your travel plan, and a flight back to where you started.
 
 When you get NOTHING:
-• three hours late or less at the destination — no compensation
-• where the airline shows the cause was extraordinary. The CAA's weather test is weather "incompatible with the safe operation of the flight", not extreme weather, so ordinary fog or a snow shower can qualify; and only strikes "unrelated to the airline such as airport staff, ground handlers, air traffic control or border force" count — a strike by the airline's own crew does not. The airline decides first; that can be challenged.
-• two separate bookings self-connected by you: no statutory right to care or compensation across the join
+• under three hours late at the destination — no compensation
+• where the airline proves an extraordinary cause unavoidable even with all reasonable measures. The CAA's weather test is weather "incompatible with the safe operation of the flight", not extreme weather, so ordinary fog or a snow shower can qualify; and only strikes "unrelated to the airline such as airport staff, ground handlers, air traffic control or border force" count — a strike by the airline's own crew does not. The airline decides first; that can be challenged.
+• two separate bookings self-connected by you: no statutory right to care or compensation across the join; each flight's own entitlements still apply
 
-What is covered, plainly: every flight departing a UK airport, on any airline. Into the UK, flights operated by a UK or EU airline. The row outside UK261 is a flight into the UK from a non-UK, non-EU country on an airline that is neither UK nor EU.
+What is covered: every flight departing a UK airport, on any airline. Into the UK, flights operated by a UK or EU airline. What puts a flight into the UK outside UK261 is its carrier, not its departure country: an airline that is neither UK nor EU, from anywhere.
 
-If the airline says no, complain in writing first. With no reply within eight weeks, or a reply you are not satisfied with, escalate — to the airline's approved ADR body, and to the CAA's passenger advice and complaints team only where the airline or airport is not in an approved ADR scheme. For flights in or out of Northern Ireland, complaints go to the Consumer Council for Northern Ireland.
+If the airline says no, complain in writing. With no reply within eight weeks, or a reply you are not satisfied with, escalate: to the airline's approved ADR body, and to the CAA's passenger advice and complaints team only where the airline or airport is not in one. Residents of Northern Ireland, on a flight in or out of NI, go to the Consumer Council for Northern Ireland.
 
-The limit for issuing a court claim is 6 years from the incident in England and Wales and 5 years in Scotland; the CAA states none for Northern Ireland and will not handle a complaint with less than a year of that left.
+Court claims: 6 years from the incident in England and Wales, 5 in Scotland and, under the Limitation (NI) Order 1989, 6 in Northern Ireland. The CAA will not handle a complaint with less than a year of that left.
 
 Not sure if your flight counts?""",
- bsky="""Over 3 hours late? UK261 pays £220–£520, whatever you paid — you must claim it. 3 hours or less, or a strike outside the airline: nothing.""",
+ bsky="""Landed over 3 hours late? UK261 pays £220–£520, whatever you paid — you must claim it. Under 3 hours, or a strike outside the airline: nothing.""",
  pin_title="UK flight delay compensation: £220 to £520, and when you get nothing",
- pin="""Over three hours late, UK261 gives a fixed sum: £220 under 1,500km, £350 from 1,500km to 3,500km, over 3,500km £260 at three to four hours, £520 beyond four. The sums ignore the ticket price and are not automatic: claim from the airline. Nothing at three hours late or less, or where the airline shows an extraordinary cause: weather "incompatible with the safe operation of the flight", not merely extreme, or a strike unrelated to the airline. Court claims: 6 years in England and Wales, 5 in Scotland. Northern Ireland complaints go to the Consumer Council for Northern Ireland.""",
+ pin="""Over three hours late, UK261 gives a fixed sum: £220 under 1,500km, £350 from 1,500km to 3,500km, over 3,500km £260 at three to four hours, £520 beyond four. The sums ignore the ticket price and are not automatic: claim from the airline. Nothing under three hours late, or where the airline shows an extraordinary cause: weather "incompatible with the safe operation of the flight", not merely extreme, or a strike unrelated to the airline. Court claims: 6 years in England and Wales, 5 in Scotland. NI residents flying in or out of NI go to the Consumer Council for Northern Ireland.""",
  source="caa.co.uk/air-passengers",
  wa_ro="Ola Accountancy · 0330 133 1886\nLuton · Birmingham",
  wa_th="Ola Accountancy: 0330 133 1886",

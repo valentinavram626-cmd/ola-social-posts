@@ -3328,7 +3328,7 @@ COMPENSATIE_ZBOR = dict(
          say="Sub 1.500 km — £220. Între 1.500 și 3.500 km — £350. Peste 3.500 km — £260 dacă ai ajuns cu 3–4 ore întârziere, £520 dacă ai ajuns cu peste 4 ore.",
          note="Se numără ora la care ai ajuns la destinație, nu ora la care ar fi trebuit să pleci."),
     dict(type="step", step="Când NU primești bani", fig="<cur>£</cur>0",
-         say="La 3 ore întârziere sau mai puțin nu se dă compensație. Nici când compania arată un motiv extraordinar: vreme care nu permite zborul în siguranță sau grevă la aeroport ori la controlul traficului aerian.",
+         say="Sub 3 ore întârziere nu se dă compensație. Nici când compania dovedește un motiv extraordinar, de neevitat: vreme care nu permite zborul în siguranță sau grevă la aeroport fără legătură cu compania.",
          note="Orice zbor care pleacă dintr-un aeroport din UK intră, cu orice companie. Spre UK intră zborurile operate de companii din UK sau din UE."),
   ],
   CTA_RO=dict(type="cta",
@@ -3341,12 +3341,12 @@ COMPENSATIE_ZBOR = dict(
     dict(type="hook",
          kicker="Air passenger rights · UK flights",
          h1="Landed more than <em>3 hours</em> late? You may be owed money.",
-         say="The sum has nothing to do with what you paid for the ticket: it is set by law, between £220 and £520 a person. It is never paid automatically — you claim it from the airline."),
+         say="The sum has nothing to do with what you paid for the ticket: it is set by law, between £220 and £520 a person. It is not paid automatically — you claim it from the airline."),
     dict(type="step", step="How much, by distance", fig="<cur>£</cur>220+",
          say="Under 1,500km — £220. From 1,500km to 3,500km — £350. Over 3,500km — £260 if you landed three to four hours late, £520 if you landed more than four hours late.",
          note="What counts is the time you reached your destination airport, not the time you were due to take off."),
     dict(type="step", step="When you get NOTHING", fig="<cur>£</cur>0",
-         say="Arrive three hours late or less and no compensation is due. Nor is it due where the airline shows the cause was extraordinary: weather that makes it unsafe to fly, or an airport or air traffic control strike.",
+         say="Arrive less than three hours late and no compensation is due. Nor where the airline proves an extraordinary cause it could not have avoided: weather that makes it unsafe to fly, or an airport or air-traffic strike unrelated to the airline.",
          note="Any flight leaving a UK airport is covered, on any airline. Into the UK, it is flights operated by a UK or EU airline."),
   ],
   CTA_EN=dict(type="cta",
@@ -3389,10 +3389,13 @@ COMPENSATIE_ZBOR = dict(
      "likely to consider your complaint if the airline or airport you've complained to\" "
      "\"is not a member of an approved ADR body\", and only once you have complained in "
      "writing and are \"not satisfied with the outcome or have not received a reply "
-     "within 8 weeks\". Complaints about flights in or out of Northern Ireland \"should "
-     "be addressed to the Consumer Council for Northern Ireland\". The page states court "
-     "limits for England and Wales (6 years) and Scotland (5 years) and states none for "
-     "Northern Ireland",
+     "within 8 weeks\". The Consumer Council for Northern Ireland sits under the heading "
+     "\"Residents of Northern Ireland about a flight in or out of NI\", whose text is "
+     "\"Complaints relating to this should be addressed to the Consumer Council for "
+     "Northern Ireland\" — two conditions, residence and an NI flight, not one. The page "
+     "states court limits for England and Wales (6 years) and Scotland (5 years) and "
+     "gives no figure for Northern Ireland, which is silence and not the absence of a "
+     "limit (see the Limitation (Northern Ireland) Order 1989 below)",
      "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/travel-complaints/how-the-caa-can-help/",
      "2026-11-10"),
     ("Which flights UK261 covers, by departure point, arrival point and airline: every "
@@ -3400,6 +3403,60 @@ COMPENSATIE_ZBOR = dict(
      "or Community carrier; third country to UK on a third-country carrier is the row "
      "that is outside it",
      "https://www.caa.co.uk/media/jn3npj1h/uk-261-annex-1.pdf", "2026-11-09"),
+    ("Northern Ireland's court time limit, which the CAA's page does not give. Article "
+     "4 of the Limitation (Northern Ireland) Order 1989, \"Time limit: actions founded "
+     "on contract, etc.\", verbatim: \"Subject to Articles 5, 7 and 9, the following "
+     "actions may not be brought after the expiration of six years from the date on "
+     "which the cause of action accrued\", and the list includes \"(a) an action founded "
+     "on simple contract\" and \"(d) an action to recover any sum recoverable by virtue "
+     "of any statutory provision\". A UK261 claim is both, so the Northern Ireland limit "
+     "is six years",
+     "https://www.legislation.gov.uk/nisi/1989/1339/article/4/made", "2026-11-10"),
+    ("The latest revised text of Part II of the Limitation (Northern Ireland) Order "
+     "1989, read to confirm the six years in article 4 has not been amended: the "
+     "lead-in still reads \"may not be brought after the expiration of six years from "
+     "the date on which the cause of action accrued\", with no outstanding effects noted "
+     "for the Part",
+     "https://www.legislation.gov.uk/nisi/1989/1339/part/II/data.pdf", "2026-11-10"),
+    ("Retained UK261 Article 3(1), which decides what is covered by the OPERATING "
+     "CARRIER and not by the country of departure. Verbatim: \"(a) to passengers "
+     "departing from an airport located in the United Kingdom\"; \"(b) to passengers "
+     "departing from an airport located in a country other than the United Kingdom to "
+     "an airport situated in— (i) the United Kingdom if the operating air carrier of "
+     "the flight concerned is a Community carrier or a UK air carrier\". So an inbound "
+     "flight is outside UK261 whenever the operating carrier is neither UK nor EU, "
+     "whatever country it left — including a flight from the EU",
+     "https://www.legislation.gov.uk/eur/2004/261/article/3", "2026-11-10"),
+    ("Retained UK261 Article 6(1) and 6(4), read again for the event the care hours "
+     "are measured from and for what the airline has to show. 6(1) verbatim: \"When an "
+     "operating air carrier reasonably expects a flight to be delayed beyond its "
+     "scheduled time of departure\" — \"for two hours or more in the case of flights of "
+     "1500 kilometres or less\", \"for three hours or more in the case of all flights "
+     "between 1500 and 3500 kilometres\", \"for four hours or more in the case of all "
+     "flights not falling under (a) or (b)\". So the 2/3/4-hour care thresholds run "
+     "from SCHEDULED DEPARTURE, where the three-hour compensation threshold in 6(3) "
+     "runs from arrival at the final destination. 6(3) verbatim: \"In case of a delay "
+     "of three hours or more in reaching the final destination, the passengers "
+     "concerned have the right to compensation laid down in Article 7\" — \"three hours "
+     "or more\" includes exactly three hours, where the CAA's consumer page says \"more "
+     "than three hours late\". 6(4) verbatim: the carrier is not obliged to pay \"if it "
+     "can prove that the delay is caused by extraordinary circumstances which could "
+     "not have been avoided even if all reasonable measures had been taken\"",
+     "https://www.legislation.gov.uk/eur/2004/261/article/6", "2026-11-10"),
+    ("The CAA delays page read again for three things the earlier reading did not "
+     "record. Care, verbatim: \"You are entitled to care if your flight is delayed "
+     "beyond its scheduled departure time by:\" \"at least two hours for flights under "
+     "1,500km\", \"at least three hours for flights between 1,500km and 3,500km\", \"at "
+     "least four hours for flights over 3,500km\". Automatic payment, verbatim: "
+     "\"Compensation is not paid automatically and you will need to claim this directly "
+     "from your airline in the first instance\" — \"not\", not \"never\". Self-transfer, "
+     "verbatim: where a journey \"includes two or more separate flight bookings "
+     "(sometimes called 'self-transfer')\" you \"do not have a statutory right to care, "
+     "compensation or transport to your last destination\", followed by the saving "
+     "clause \"However, the relevant entitlements for each individual flight still "
+     "apply.\"",
+     "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/delays/",
+     "2026-11-10"),
     ("Time limit to issue a court claim: the legal limit to issue claims at Court is 6 "
      "years from the date of the incident in England and Wales and 5 years in Scotland; "
      "the CAA will not handle complaints where there is less than a year to take legal "
@@ -3414,7 +3471,9 @@ COMPENSATIE_ZBOR = dict(
              "flights into the UK operated by a UK or EU airline, who reached the "
              "destination airport more than three hours late.",
     excluded="Nothing is due where the arrival was under three hours late, or where the "
-             "airline considers the cause extraordinary — weather incompatible with the "
+             "airline proves under Article 6(4) that the cause was an extraordinary "
+             "circumstance \"which could not have been avoided even if all reasonable "
+             "measures had been taken\" — weather incompatible with the "
              "safe operation of the flight, which is a lower bar than extreme weather, or "
              "a strike unrelated to the airline such as airport staff, ground handlers, "
              "air traffic control or border force. A strike by the airline's own pilots "
@@ -3431,12 +3490,15 @@ COMPENSATIE_ZBOR = dict(
               "passenger is not satisfied with the outcome, it can be escalated: to the "
               "airline's approved ADR body, and to the CAA's passenger advice and "
               "complaints team only where the airline or airport is not a member of an "
-              "approved ADR body. Complaints about flights in or out of Northern Ireland "
-              "go to the Consumer Council for Northern Ireland instead. There is a "
+              "approved ADR body. One group is routed elsewhere on two conditions, not "
+              "one: the CAA's heading reads \"Residents of Northern Ireland about a "
+              "flight in or out of NI\", so a Luton or Birmingham resident on a flight "
+              "in or out of Northern Ireland stays on the ADR and CAA route. There is a "
               "deadline on the other end too: the CAA puts the limit for issuing a court "
               "claim at 6 years from the incident in England and Wales and 5 years in "
-              "Scotland, states no limit for Northern Ireland, and will not handle a "
-              "complaint with less than a year of that left.",
+              "Scotland and gives no figure for Northern Ireland, where article 4 of the "
+              "Limitation (Northern Ireland) Order 1989 gives six years; it will not "
+              "handle a complaint with less than a year of that left.",
   ),
 )
 
