@@ -646,6 +646,95 @@ unscheduled — only new posts were created, so no backup was required.
   frames, zero missing. That belongs in `qa.py` rather than in whether the studio
   remembered to run it.
 
+## What the seventh live run taught us
+
+Run on 10 November 2026 for publication on the 11th. **Four of five carousels
+shipped; 29 Metricool entries accepted, none rejected.** The fifth was held.
+
+**The report could not be written, for the fourth time in eight days.** `add_repo`
+(`mcp__claude-code-remote__add_repo`) does not exist in this session, so
+`valentinavram626-cmd/ola-ops-reports` could not be attached and `SAFETY.md` could
+not be read. Both errors, verbatim:
+
+    git clone --depth 1 https://github.com/valentinavram626-cmd/ola-ops-reports
+    fatal: could not read Username for 'https://github.com': terminal prompts disabled
+
+    Access denied: repository "valentinavram626-cmd/ola-ops-reports" is not
+    configured for this session. Allowed repositories:
+    valentinavram626-cmd/ola-social-posts, valentinavram626-cmd/ola-next. [...] if
+    add_repo is not available, this repository cannot be added to this session.
+
+Four runs in eight days with no day-to-day record where it belongs. Whoever
+configures the scheduled task has to add `ola-ops-reports` with push access.
+Nothing was deleted, held in the planner or unscheduled, so no backup was required.
+
+* **qa.py's blind spot is now closed by a gate, not by remembering to check.**
+  `footer.py` reads the footer's position out of the layout and asserts it is
+  inside the frame. It was earned the same night it was written: the independent
+  verifier found the footer pushed clean off `vanzari-online-platforme` and
+  `cheltuieli-deductibile` English card 3 at 1080x1350, and BOTH qa.py and an
+  ad-hoc ink check had passed them. Measured: ftTop 1388 and 1324 against a 1225
+  budget — one of them 38px outside a 1350 frame. An ink check cannot see this,
+  because a footer that is gone leaves no ink to be too close to the edge.
+  **The gate was then proved to fail**: a deliberately overlong sentence was
+  injected, footer.py reported `-74px left ... FOOTER IS OFF-FRAME` on two frames,
+  and qa.py reported `FAILURES: 0` on the same build. Budget is per frame WIDTH
+  (125px at 1080, 116 on Pinterest's 1000, 138 on the 1200 GBP frame), floored
+  rather than rounded — a flat 125 flagged all 16 healthy en-pin frames, and a
+  gate that cries wolf gets ignored.
+* **The same bug bit two carousels in the same place, and the shape is worth
+  keeping.** English card 3 at 1080x1350. The English runs longer than the
+  Romanian, the 1000x1500 Pinterest canvas absorbs the overflow, and the Romanian
+  never triggers it — so it survives every check that is not looking at the
+  English feed render specifically.
+* **A compliance BLOCK on an authorisation question is Valentin's call, not an
+  overnight rewrite.** The section 75 carousel was held. Article 89F(2)(d) of the
+  FSMA 2000 (Claims Management Activity) Order 2018 states that a financial
+  services claim "includes a claim made under section 75 of the Consumer Credit
+  Act 1974", and 89F(1) points to articles 89G to 89M for the regulated
+  activities — verified at legislation.gov.uk rather than taken from the
+  reviewer. A CTA inviting people with potential s.75 claims to message the firm
+  sits against that line, and Ola holds no FCA claims-management permission. The
+  topic keeps its sources and sits in HELD.
+* **A checker's objection is still not a source — and this time one of the
+  biggest was declined on the checker's own citation.** The scope checker read
+  "a refund has to be claimed" as wrong and cited LITRG, which is not a primary
+  source; gov.uk's own permissive "you can claim a tax refund" is, so the card
+  took gov.uk's wording and not the checker's mechanism.
+* **HMRC's manuals contradicted the consumer pages twice in one night, both times
+  in the audience's favour.** BIM37620 (Horton v Young) allows an itinerant
+  trader based at home to deduct travel to sites, so gov.uk's flat "travel
+  between home and work" had to become travel to a REGULAR workplace — a CIS
+  tradesman was being told to drop his largest legitimate deduction. And
+  PAYE61030 shows 0T is routinely operated on a W1/M1 basis for a new starter,
+  so "BR and 0T are not emergency codes" and "no P45? fill in the starter
+  checklist instead" were both wrong as written: the checklist is what PUTS many
+  starters on the code.
+* **gov.uk's bullets left out the conjunction and the manual supplied it.** The
+  30-sale and EUR 2,000 platform-reporting tests are printed as two bare bullets.
+  IEIM901630 says "Both tests must be met" and "did not exceed 2000 euros", so
+  the cards say "and", and "no more than" rather than gov.uk's looser "less than".
+  Cite the manual on the card's source line when the card relies on it.
+* **The plain-language reader found a card contradicting itself, and was right.**
+  Card 2 said an emergency code ENDS in W1/M1/X and then that the emergency code
+  IS 1257L. Both true, unreadable together. It now shows the whole thing:
+  "1257L W1". That reader also could not decode card 3 of four of five sets —
+  the exclusions are where the initials pile up — so the tax-code card 3 was
+  rewritten to explain P45 in-line and the rest moved to the caption.
+* **"Fără obligații" came off all the CTA cards.** Compliance reads it as
+  standing in for price information when the first consultation is £120 incl.
+  VAT. Deleting is shorter and claims nothing; naming the price is a positioning
+  decision and stays with Valentin.
+* **Thirteen captions broke their caps across three repair rounds and limits.py
+  caught all thirteen.** Nothing judged by eye, nothing edited in a Metricool
+  payload: every caption was generated from captions.py and passed through
+  `check()` immediately before being sent.
+* **Verify the json before trusting a measurement.** Two consecutive measurements
+  of a "failing" frame came back byte-identical because `build.py ... && node
+  measure.js` had left a previous topic's json in place, so measure.js was
+  reading a different carousel. Print the slide's own text from the json before
+  believing what it measures.
+
 ### Still to settle
 
 Three CTA decisions are now waiting on Valentin, up from two:
