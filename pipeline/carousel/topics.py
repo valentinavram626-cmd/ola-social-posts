@@ -4308,7 +4308,7 @@ FSM_UNIVERSAL_CREDIT = dict(
   RO=[
     dict(type="hook",
          kicker="Anglia · mese gratuite la școală",
-         h1="Iei Universal Credit? Copilul poate mânca <em>gratuit</em> la școală.",
+         h1="Iei Universal Credit? Copilul poate mânca <em>gratuit</em>.",
          say="Din septembrie 2026 masa nu ține de venit. Dau dreptul și ESA pe venit sau partea garantată din Pension Credit. Dar o ceri la școală."),
     dict(type="step", step="Ce s-a schimbat și ce nu", fig="<cur>£</cur>7.400",
          say="£7.400 pe an nu mai decide masa: intră orice familie care ia Universal Credit. Linia aceea decide însă restul ajutoarelor legate de masa gratuită.",
