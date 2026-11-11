@@ -2089,6 +2089,268 @@ Luton · Birmingham""",
 )
 
 
+# ------------------------------------------------------------------ 36
+C["cod-companies-house"] = dict(
+ ro="""Dacă ești director de firmă Ltd, acum trebuie să îți dovedești identitatea. E lege din 18 noiembrie 2025.
+
+Nu la HMRC. La Companies House — registrul firmelor din Regatul Unit. Companies House spune că e infracțiune să fii director fără să îți fi verificat identitatea.
+
+Ce faci, concret, în doi pași:
+1. Îți iei un cod personal de la Companies House.
+2. Dai codul când firma depune declarația anuală prin care confirmă că datele ei sunt corecte.
+
+Ai mai multe firme? Dai codul la fiecare.
+
+Directorii noi se verifică atunci când înființează firma sau când sunt numiți. Directorii care existau deja au o perioadă de tranziție de 12 luni și dau codul la următoarea declarație anuală a firmei. Asta înseamnă că data ta depinde de firma ta, nu de un termen național — nu există o dată unică pentru toți, și nicio pagină oficială nu anunță una.
+
+Pe cine NU privește: dacă lucrezi pe cont propriu, fără firmă Ltd, nu ai absolut nimic de făcut. Nu ai firmă în registru, deci nu ai nici declarație anuală, nici cod de dat. Cine doar depune actele în numele unei firme — contabili, agenți — intră mai târziu: planul oficial pune asta „nu mai devreme de noiembrie 2027". Parteneriatele în comandită, directorii-persoane juridice și membrii-persoane juridice de LLP intră și ei mai târziu.
+
+Se aplică în tot Regatul Unit. Nimic nu e automat: codul îl ceri tu, iar firma trebuie să îl transmită.
+
+Nu știi când are firma ta declarația anuală?""",
+ th="""Director de firmă Ltd? Din 18 noiembrie 2025 e lege să îți dovedești identitatea — la Companies House, nu la HMRC.
+
+Îți iei un cod personal, apoi îl dai când firma depune declarația anuală. Mai multe firme = codul la fiecare.
+
+Pe cont propriu, fără Ltd? Nu te privește.""",
+ li="""If you are a director of a UK limited company, you now have to prove who you are. It has been law since 18 November 2025.
+
+Not at HMRC. At Companies House — the UK companies register. Companies House says it is an offence to act as a director without being verified.
+
+What it actually involves, in two steps:
+1. Get a personal code from Companies House.
+2. Give that code when your company files its confirmation statement, the yearly filing that confirms the company's details are right.
+
+More than one company? Give the code for each one.
+
+New directors verify on incorporation or appointment. Directors who were already in place sit inside a 12-month transition and give their code at the company's next confirmation statement — so the date that matters is your company's, not a single national deadline. No GOV.UK page sets one, and Companies House says compliance activity against those who have not verified starts no earlier than the end of 2026.
+
+Who does not have to: anyone self-employed without a limited company has nothing to do at all. No company on the register means no confirmation statement and no code. People who only file documents on a company's behalf — accountants and agents — come in later: the official transition plan puts that at "no earlier than November 2027". Limited partnerships, corporate directors and corporate LLP members follow later too.
+
+UK-wide. Nothing is automatic: you request the code, and the company has to supply it.
+
+Not sure when your confirmation statement is due?""",
+ bsky="""UK company director? Since 18 Nov 2025 you must verify your identity at Companies House. Sole traders: nothing to do.""",
+ pin_title="Companies House identity verification for company directors",
+ pin="""What UK company directors must do about Companies House identity verification, law since 18 November 2025. Two steps: get a Companies House personal code, then give it when the company files its confirmation statement. Directors of several companies do it for each. New directors verify on incorporation or appointment; existing directors verify at the next confirmation statement, so the date depends on the company rather than one national deadline. Anyone self-employed without a limited company has nothing to do. Ola Accountancy, Luton and Birmingham.""",
+ gbp="""Director of a UK limited company? Companies House identity verification has been law since 18 November 2025.
+
+Two steps: get a Companies House personal code, then give that code when your company files its confirmation statement. If you direct more than one company, do it for each.
+
+New directors verify on incorporation or appointment. Existing directors are inside a 12-month transition and verify at the company's next confirmation statement, so the date depends on your company rather than one national deadline.
+
+Self-employed with no limited company? Nothing to do — you have no company on the register, so no confirmation statement and no code.
+
+In Luton or Birmingham and not sure when your confirmation statement falls? Call 0330 133 1886.""",
+ source="gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house și anunțul Companies House din 18 noiembrie 2025",
+ source_en="gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house and the Companies House announcement of 18 November 2025",
+)
+
+# ------------------------------------------------------------------ 37
+C["penalizari-plata-5-la-suta"] = dict(
+ ro="""Ai depus declarația la timp. Dar n-ai plătit.
+
+Depunerea și plata sunt două amenzi diferite. Nu una.
+
+Pentru plata întârziată, HMRC ia un procent din cât datorezi, de trei ori:
+La 30 de zile de la termen — 5% din impozitul pe anul trecut rămas neplătit.
+La 6 luni — încă 5%.
+La 12 luni — încă 5%.
+
+Plus dobândă în fiecare zi, până plătești: 7,75% pe an acum, 8% din 24 noiembrie 2026.
+
+Nici amenda pentru depunere nu se oprește la £100. Legea spune: £100 de la prima zi, apoi £10 pe zi după 3 luni, până la £900, la 6 luni 5% din impozit sau £300 (cât e mai mare), și încă o dată același lucru la 12 luni. Dacă n-ai depus deloc, acolo ajungi.
+
+Pe cine NU îl prind cei 5%: pe 31 ianuarie plătești de obicei două lucruri — restul impozitului pe anul trecut și o rată în avans pentru anul în care ești. Cei 5% se calculează numai pe primul. Dacă întârzii cu rata din 31 iulie, plătești dobândă, nu amendă — acolo nu există amendă de 5%. Și rata aceea nu e o ghicire: se calculează din impozitul tău pe anul trecut.
+
+Nu poți plăti tot pe 31 ianuarie? Există un plan de plată în rate pe care îl faci singur online, dacă: datoria e de până la £30.000, toate declarațiile sunt depuse, nu ai alte datorii la HMRC și nu ai deja alt plan de plată cu ei. Dobânda curge și pe plan — planul împarte plata, nu o micșorează.
+
+Se aplică în tot Regatul Unit. Amenzile vin singure, din trecerea timpului.
+
+Scrie-ne și îți spunem ce documente să ai la îndemână.""",
+ th="""Ai depus la timp, dar n-ai plătit? Plata întârziată are amenda ei: 5% din impozitul pe anul trecut la 30 de zile, încă 5% la 6 luni, încă 5% la 12 luni. Plus dobândă zilnic.
+
+Rata în avans din 31 iulie nu ia amendă de 5% — acolo plătești doar dobândă.""",
+ li="""You filed on time. You just did not pay.
+
+Filing late and paying late are two separate penalties, and the one for paying is a percentage of what you owe.
+
+30 days after the payment deadline: 5% of last year's tax still unpaid.
+At 6 months: another 5%.
+At 12 months: another 5%.
+
+Plus interest every day until it is paid — 7.75% a year now, 8% from 24 November 2026.
+
+The filing penalty does not stop at £100 either. It is £100 to begin with, then £10 a day once you are 3 months late, up to £900, then at 6 months 5% of the tax due or £300, whichever is greater, and the same again at 12 months. A return never filed ends up well past a thousand pounds.
+
+Who the 5% does not catch: on 31 January you usually pay two things — the rest of last year's tax, and an instalment towards the year you are in. The 5% is worked out on the first one only. Miss the 31 July instalment and you pay interest, not a penalty: there is no 5% charge on a payment on account. And that instalment is not a guess about this year — it is worked out from last year's tax bill.
+
+Cannot pay it all on 31 January? There is a monthly payment plan you can set up online yourself, if: the debt is £30,000 or less, every tax return is filed, you have no other tax debts, and you have no other HMRC payment plan already set up. Interest still runs on a plan — it spreads the bill, it does not shrink it.
+
+UK-wide. Nothing is claimed and nothing is triggered: these charges arrive on their own, from time passing.
+
+Message us and we will tell you which documents to have ready.""",
+ bsky="""Self Assessment paid late: 5% of last year's tax at 30 days, again at 6 months, again at 12 months, plus daily interest.""",
+ pin_title="""Self Assessment: what paying late actually costs""",
+ pin="""What paying a UK Self Assessment bill late actually costs, and how it differs from filing late. HMRC charges 5% of last year's tax still unpaid 30 days after the payment deadline, another 5% at 6 months and another 5% at 12 months, with interest running daily at 7.75% a year, 8% from 24 November 2026. The 5% hits the rest of last year's tax, not the payment on account due on 31 July — miss that one and you pay interest, not a penalty. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/self-assessment-tax-returns/penalties, manualul HMRC SAM61250 și tabelul HMRC de dobânzi pentru plăți întârziate",
+ source_en="gov.uk/self-assessment-tax-returns/penalties, HMRC manual SAM61250 and HMRC's late payment interest rates table",
+)
+
+# ------------------------------------------------------------------ 38
+C["dobanda-economii-1000"] = dict(
+ ro="""Banca îți dă dobândă la banii din cont. La cota de bază, primii £1.000 de dobândă pe an nu îi impozitează nimeni.
+
+Nu ceri nimic și nu completezi nimic — pur și simplu o ai. Pe gov.uk se numește Personal Savings Allowance: felia de dobândă pe care statul nu o taxează.
+
+Cât de mare e felia depinde de cota ta de impozit:
+Cota de bază — £1.000 de dobândă fără impozit.
+Cota mai mare — £500.
+Cota cea mai mare — zero.
+
+Două lucruri pe care lumea le încurcă.
+
+Primul: cota ta se calculează pe tot venitul tău, cu dobânda la socoteală. Așa că dobânda însăși te poate muta de pe felia de £1.000 pe cea de £500.
+
+Al doilea, pentru cine stă în Scoția: cota de pe fluturașul tău nu e cota care contează aici. Scottish Income Tax se aplică la salariu și la pensie, dar la dobânda din bancă plătești aceleași cote ca în restul Regatului Unit. Poți fi la cota mai mare pe salariu în Scoția și tot să ai £1.000 de dobândă fără impozit.
+
+Mai există și o a doua felie, pentru cine are venituri mici în afara economiilor: până la £5.000 de dobândă impozitată cu 0%. Merge doar cât timp venitul tău din afara economiilor stă sub £17.570, și se topește pe drum: pentru fiecare liră peste £12.570, felia de £5.000 scade cu o liră. Cu £15.000 de salariu, îți rămân £2.570 din ea.
+
+Cine NU se folosește de ele: la cota cea mai mare nu ai nicio felie — fiecare liră de dobândă se impozitează. Și niciuna nu e un ban primit de la stat: e dobândă lăsată neimpozitată. Dacă nu ai dobândă, nu primești nimic.
+
+Se aplică în tot Regatul Unit.
+
+Scrie-ne și îți trimitem pagina oficială de pe GOV.UK cu feliile.""",
+ th="""Banca îți dă dobândă. La cota de bază, primii £1.000 pe an nu se impozitează. La cota mai mare: £500. Nu ceri nimic, pur și simplu o ai.
+
+La cota cea mai mare nu ai nicio felie: fiecare liră de dobândă se impozitează.""",
+ li="""Your bank pays you interest. At the basic rate, the first £1,000 of interest a year is not taxed by anybody.
+
+You do not claim it and you do not fill anything in — you simply have it. On GOV.UK it is called the Personal Savings Allowance: the slice of interest the taxman leaves alone.
+
+How big the slice is depends on your rate of tax:
+Basic rate — £1,000 of interest tax free.
+Higher rate — £500.
+Additional rate — nothing.
+
+Two things people get wrong here.
+
+First, your rate is worked out on all of your income, with the interest counted in. GOV.UK puts it plainly: to work out your tax band, add all the interest you have earned to your other income. So the interest itself can move you off the £1,000 slice and onto the £500 one.
+
+Second, if you live in Scotland, the rate on your payslip is not the rate that applies here. Scottish Income Tax applies to your wages, your pension and most other taxable income — but on savings interest you pay the same tax as the rest of the UK. You can be a Scottish higher rate taxpayer on your wages and still keep a full £1,000 of interest tax free.
+
+There is a second slice for people whose income outside savings is low: up to £5,000 of interest taxed at 0%. It only works while your non-savings income stays under £17,570, and it tapers as you go — every £1 of other income above £12,570 cuts that £5,000 by £1. On £15,000 of wages, £2,570 of it is left.
+
+Who gets no use from either: at the additional rate there is no slice at all, so every pound of interest is taxable. And neither slice is money paid to you — it is interest left untaxed. No interest, nothing to have.
+
+UK-wide.
+
+Message us and we will send you the official GOV.UK page that sets the limits out.""",
+ bsky="""Bank interest: basic rate £1,000 a year untaxed, higher rate £500, additional rate nothing. You never claim it.""",
+ pin_title="""UK tax on bank interest: the £1,000 and £500 slices""",
+ pin="""How much savings interest you can receive in the UK before it is taxed. The Personal Savings Allowance leaves basic rate taxpayers £1,000 of interest untaxed a year, higher rate £500 and additional rate nothing. You never claim it. Your band is worked out on all your income with the interest counted in, so the interest itself can move you down to the £500 slice. If you live in Scotland, the rate on your payslip is not the one that applies to savings interest. Ola Accountancy, Luton and Birmingham.""",
+ source="""gov.uk/apply-tax-free-interest-on-savings, gov.uk/scottish-income-tax și Budget 2026, Annex A: rates and allowances""",
+ source_en="""gov.uk/apply-tax-free-interest-on-savings, gov.uk/scottish-income-tax and Budget 2026, Annex A: rates and allowances""",
+)
+
+# ------------------------------------------------------------------ 39
+C["mese-gratuite-scoala"] = dict(
+ ro="""Iei Universal Credit și ai copil la școală în Anglia? Copilul poate mânca gratuit la școală.
+
+Din septembrie 2026 nu mai contează cât câștigi. Înainte, masa venea doar dacă familia câștiga până la £7.400 pe an. Acum orice familie care primește Universal Credit se încadrează la masă, oricât ar câștiga.
+
+Dar £7.400 nu a dispărut. Linia aceea decide acum altceva. Până la £7.400 pe an, copilul aduce și restul: pupil premium pentru școală, un loc în programul Holiday Activities and Food din vacanțe și dreptul extins la transport școlar. Peste £7.400, primești masa — și numai masa.
+
+Universal Credit nu e singura poartă. Se încadrează și cine primește Employment and Support Allowance pe bază de venit, și cine primește partea garantată din Pension Credit. Lista completă e pe gov.uk.
+
+Pe cine NU privește: regula e doar pentru ANGLIA, și doar pentru școlile finanțate de stat. Scoția, Țara Galilor și Irlanda de Nord au propriile scheme, cu propriile criterii. Copiii din reception, year 1 și year 2 mănâncă gratuit oricum, indiferent de venit. Și schema spune că un copil poate fi eligibil chiar dacă familia nu se încadrează la majoritatea ajutoarelor — asta se verifică la școală sau la consiliul local.
+
+Încă un lucru, și nu e veste bună: protecțiile tranzitorii se încheie de la începutul anului școlar 2026-2027. O familie care avea masa gratuită doar prin ele și nu se încadrează la noile criterii o pierde exact de la data asta.
+
+Cererea se face la școală sau la consiliul local. Nu vine singură.
+
+Scrie-ne și îți spunem ce să întrebi la școală.""",
+ th="""Iei Universal Credit și ai copil la școală în Anglia? Din septembrie 2026 nu mai contează cât câștigi: copilul poate mânca gratuit.
+
+Doar Anglia, doar școli finanțate de stat. Reception, year 1 și year 2 mănâncă gratuit oricum. Cererea se face la școală.""",
+ li="""On Universal Credit with a child at school in England? That child may well eat free.
+
+From September 2026, what the household earns no longer decides the meal. Before, free school meals came only if the household earned £7,400 a year or less. Now any household receiving Universal Credit qualifies for the meal, whatever it earns.
+
+But the £7,400 line has not gone. It now decides something else. At £7,400 a year or less, the child brings the rest of it with them: pupil premium funding for the school, a place on the Holiday Activities and Food programme in the holidays, and the extended rights element of free school travel. Above £7,400, you get the meal — and only the meal.
+
+Universal Credit is not the only route in. Income-related Employment and Support Allowance counts, and so does the guaranteed element of Pension Credit. The full list is on GOV.UK.
+
+Who this does not reach: it is England only, and state-funded schools only. Scotland, Wales and Northern Ireland run their own schemes on their own criteria. Children in reception, year 1 and year 2 eat free anyway, whatever the household income. And the scheme says a child may still be eligible even where the family does not qualify for most benefits — that is something the school or the local authority checks.
+
+One more thing, and it is not good news: transitional protection for free school meals ends from the start of the 2026 to 2027 academic year. A family that held free school meals only through that protection, and does not meet the new criteria, loses them on exactly the date this change starts.
+
+The claim is made at the school or the local council. It does not arrive by itself.
+
+Message us and we will tell you what to ask the school.""",
+ bsky="""England, state-funded schools: from Sept 2026 any child in a Universal Credit household can get the free meal. Claim at school.""",
+ pin_title="""Free school meals in England: what changed in September 2026""",
+ pin="""Free school meals in England changed in September 2026: any child in a household on Universal Credit qualifies for the meal, whatever the household earns. The £7,400 a year line has not gone — it now decides the extras, including pupil premium, Holiday Activities and Food places and extended rights school travel. England and state-funded schools only. Reception, year 1 and year 2 eat free anyway. The claim is made at the school or local council. Ola Accountancy, Luton and Birmingham.""",
+ source="""gov.uk/apply-free-school-meals și ghidul Department for Education pentru Anglia""",
+ source_en="""gov.uk/apply-free-school-meals and the Department for Education free school meals guidance for England""",
+ disc_ro="""Informații generale. Lista ajutoarelor care dau dreptul e pe GOV.UK.""",
+ disc_en="""General information. The full list of qualifying benefits is on GOV.UK.""",
+)
+
+# ------------------------------------------------------------------ 40
+C["carer-allowance-86"] = dict(
+ ro="""Ai grijă de cineva cel puțin 35 de ore pe săptămână? Statul plătește £86,45 pe săptămână.
+
+Se numește Carer's Allowance. Mulți oameni care fac exact asta nu cer nimic, pentru că nimeni nu le-a spus că se pune la socoteală.
+
+Două condiții, nu una:
+
+Prima — cel de care ai grijă trebuie să primească deja un ajutor de dizabilitate. De exemplu partea de trai zilnic din PIP, Attendance Allowance, DLA la rata medie sau maximă de îngrijire, Adult Disability Payment, Child Disability Payment la rata medie sau maximă, Pension Age Disability Payment sau Armed Forces Independence Payment. Dacă persoana nu primește niciunul dintre ele, nu există drept, oricâte ore ai da.
+
+A doua — tu să câștigi £204 sau mai puțin pe săptămână, după taxe, National Insurance și cheltuieli. Poți avea un job: se numără cele 35 de ore de îngrijire, nu dacă muncești.
+
+Cine NU îl primește: cine e în învățământ cu program complet, sau studiază 21 de ore pe săptămână sau mai mult. Cine câștigă peste £204 pe săptămână. Și doar o persoană poate fi plătită pentru îngrijirea aceluiași om — dacă altcineva ia deja Carer's Allowance sau suplimentul de Universal Credit pentru îngrijire pentru acea persoană, a doua cerere nu trece.
+
+În Scoția nu se cheamă așa: acolo se cere Carer Support Payment. În Anglia, Țara Galilor și Irlanda de Nord suma e aceeași, £86,45, și aceeași limită de £204.
+
+Un lucru de știut înainte: gov.uk avertizează că Carer's Allowance poate afecta alte ajutoare primite de tine și de persoana de care ai grijă. Merită verificat pentru gospodăria voastră înainte de cerere.
+
+Trebuie cerut. Nu vine automat.
+
+Ai grijă de cineva și nu ai cerut niciodată?""",
+ th="""Ai grijă de cineva cel puțin 35 de ore pe săptămână? Statul plătește £86,45 pe săptămână.
+
+Două condiții: persoana să primească deja un ajutor de dizabilitate, iar tu să câștigi £204 sau mai puțin pe săptămână.
+
+Nu îl primești în învățământ cu program complet. În Scoția: Carer Support Payment.""",
+ li="""Caring for someone at least 35 hours a week? The state pays £86.45 a week.
+
+It is called Carer's Allowance. Plenty of people doing exactly that never claim it, because nobody ever told them it counts.
+
+Two conditions, not one:
+
+First, the person you care for must already receive a disability benefit — the daily living component of PIP, Attendance Allowance, DLA at the middle or highest care rate, Adult Disability Payment, Child Disability Payment at the middle or highest care rate, Pension Age Disability Payment or Armed Forces Independence Payment, among others. If they receive none of those, there is no entitlement however many hours are given.
+
+Second, you must earn £204 or less a week after tax, National Insurance and expenses. You can hold a job: what counts is the 35 hours of care, not whether you work.
+
+Who does not get it: anyone in full-time education, or studying 21 hours a week or more. Anyone earning over £204 a week on that measure. And only one person can be paid for caring for the same individual — if another carer already receives Carer's Allowance, or the extra amount of Universal Credit for caring, for that person, a second claim fails.
+
+Scotland is different: there you apply for Carer Support Payment instead. In England, Wales and Northern Ireland the rate is the same £86.45 and the same £204 limit.
+
+One thing worth knowing first: GOV.UK warns that Carer's Allowance can affect other benefits you and the person you care for receive. It is worth checking for the household before claiming.
+
+It has to be claimed. Nothing about it is automatic.
+
+Caring for someone and never claimed?""",
+ bsky="""Carer's Allowance: £86.45 a week for 35+ hours of care. They must already get a disability benefit; you must earn £204 or less a week.""",
+ pin_title="Carer's Allowance: £86.45 a week and the two conditions",
+ pin="""Carer's Allowance pays £86.45 a week to someone caring for a person at least 35 hours a week, in England, Wales and Northern Ireland. Two conditions: the person cared for must already receive a qualifying disability benefit such as PIP daily living or Attendance Allowance, and the carer must earn £204 or less a week after tax, National Insurance and expenses. Paid work alongside the caring is allowed. Not available in full-time education or studying 21 hours a week or more. Scotland has Carer Support Payment instead. It must be claimed. Ola Accountancy, Luton and Birmingham.""",
+ source="gov.uk/carers-allowance, gov.uk/carers-allowance/eligibility, ratele DWP pentru 2026-2027 și nidirect.gov.uk",
+ source_en="gov.uk/carers-allowance, gov.uk/carers-allowance/eligibility, the DWP benefit and pension rates 2026 to 2027, and nidirect.gov.uk",
+ disc_ro="Informații generale. Pentru cererea ta, întreabă la DWP sau la Citizens Advice.",
+ disc_en="General information. For your own claim, contact DWP or Citizens Advice.",
+)
+
 WA_TH = f"WhatsApp: {PHONE}"
 
 

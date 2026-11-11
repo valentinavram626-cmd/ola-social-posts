@@ -4070,7 +4070,368 @@ CARD_SECTIUNEA_75 = dict(
 )
 
 
-DAY = [COD_URGENTA, VANZARI_ONLINE, CHELTUIELI, SSP_PRIMA_ZI]
+
+# ===================================================================== 36
+# Companies House identity verification. Law since 18 November 2025; existing
+# directors give their personal code at the company's next confirmation
+# statement, inside a 12-month transition. No primary source states a hard
+# "18 November 2026" cut-off, so the cards do not claim one — the mechanism is
+# the confirmation statement, which is also the thing the reader actually does.
+CH_IDENTITY = dict(
+  slug="cod-companies-house",
+  title="Director de firmă Ltd — codul personal de la Companies House",
+  tags_ro="#companieshouse #firmaltd #director #contabilitate #romaniinuk",
+  tags_en="#companieshouse #limitedcompany #directors #ukaccountant #smallbusinessuk",
+
+  RO=[
+    dict(type="hook",
+         kicker="Companies House · director de firmă Ltd",
+         h1="Ca director de firmă, acum trebuie să îți <em>dovedești identitatea</em>.",
+         say="E lege din 18 noiembrie 2025. Nu la HMRC, ci la Companies House — registrul firmelor. Fără asta, e infracțiune să fii director."),
+    dict(type="step", step="Ce faci, concret", fig="2",
+         say="Întâi îți iei un cod personal de la Companies House. Apoi dai codul când firma depune declarația anuală prin care confirmă că datele ei sunt corecte.",
+         note="Ai mai multe firme? Dai codul la fiecare."),
+    dict(type="step", step="Pe cine NU privește", fig="Ltd",
+         say="Lucrezi pe cont propriu, fără firmă Ltd? Nu te privește deloc. Nu ai firmă în registru, deci nu ai nici declarație anuală, nici cod de dat.",
+         note="Cine doar depune actele în numele unei firme intră mai târziu, nu acum."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Companies House · firmă Ltd",
+    h1="Nu știi <em>când</em> are firma ta declarația anuală?",
+    say="Scrie-ne și îți spunem data și ce îți trebuie ca să îți iei codul.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Companies House · company directors",
+         h1="As a company director, you now have to <em>prove who you are</em>.",
+         say="It has been law since 18 November 2025. Not at HMRC — at Companies House, the companies register. Companies House says it is an offence to act as a director without being verified."),
+    dict(type="step", step="What you actually do", fig="2",
+         say="First, get a personal code from Companies House. Then give that code when your company files its confirmation statement — the yearly filing that confirms the company's details are right.",
+         note="More than one company? Give the code for each one."),
+    dict(type="step", step="Who does NOT have to", fig="Ltd",
+         say="Self-employed with no limited company? None of this touches you. You have no company on the register, so there is no confirmation statement and no code to give.",
+         note="People who only file documents on a company's behalf come in later, not now."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Companies House · limited company",
+    h1="Not sure <em>when</em> your confirmation statement is due?",
+    say="Message us and we will tell you the date and what you need to get your code.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  GBP=[dict(type="solo",
+    kicker="Companies House · gov.uk",
+    h1="Director of a UK company? You need a personal code.",
+    rows=[["18 Nov 2025", "identity verification became law"],
+          ["1 code", "given at the next confirmation statement"],
+          ["sole traders", "no company, so nothing to do"]],
+    ask="In Luton or Birmingham? Message us and we will check when yours is due.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant.")],
+
+  SOURCES=[
+    ["Companies House confirms the identity verification rollout from 18 November 2025: 'new directors will need to verify their identity to incorporate a company or be appointed to an existing company'; existing directors get 'a 12-month transition period' and confirm verification with their next annual confirmation statement; 'It will be an offence to act as a director without being verified once director duties commence'; an estimated '6 to 7 million individuals' need to verify by 'mid-November 2026'. No fine figure is stated on the page.",
+     "https://www.gov.uk/government/news/companies-house-confirms-identity-verification-rollout-from-18-november-2025",
+     "2026-11-11"],
+    ["When you need to verify your identity for Companies House: 'You will need to provide your Companies House personal code as part of your company's next confirmation statement.' If you direct more than one company, do this for each. Identity verification 'is now a legal requirement' from 18 November 2025. Verification for people who file at Companies House, limited partnerships, corporate directors, corporate LLP members and officers of corporate PSCs is introduced later.",
+     "https://www.gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house",
+     "2026-11-11"],
+    ["ECCT Act outline transition plan: from 18 November 2025 Companies House begins 'the 12-month transition phase to require more than 7 million existing directors and PSCs to verify their identity'; existing companies 'provide identity verification credentials for their directors and PSCs when their confirmation statement is due'; compliance activity against those who have failed to verify starts 'no earlier than the end of 2026'; identity verification of presenters becomes compulsory 'no earlier than November 2027'. The plan states no end date for the transition and no penalty figure.",
+     "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
+     "2026-11-11"],
+  ],
+  SCOPE=dict(
+    nation="All of the UK. Companies House is the companies register for the whole United Kingdom and the Economic Crime and Corporate Transparency Act applies UK-wide. There is no nation-by-nation variation in this requirement.",
+    category="Directors of UK limited companies, and people with significant control (PSCs). New directors verify on incorporation or appointment; existing directors give their personal code as part of the company's next confirmation statement.",
+    excluded="Anyone self-employed WITHOUT a limited company is outside this entirely: a sole trader has no company on the Companies House register, so no confirmation statement and no personal code. The cards say this because the firm's audience is heavily sole traders who hear 'director' and assume it means them. People who only FILE documents on a company's behalf — accountants, agents, presenters — are not in scope yet: the transition plan puts compulsory verification of presenters at 'no earlier than November 2027'. Limited partnerships, corporate directors, corporate LLP members and officers of corporate PSCs also come later. Companies House also states that identity verification is not needed for a PSC who has died.",
+    from_when="A legal requirement since 18 November 2025 for new incorporations and new appointments. Existing directors are inside a 12-month transition and do it at their company's NEXT confirmation statement — so the trigger date is per company, not one national deadline. No primary source states a hard cut-off date, and the cards therefore claim none; compliance activity begins 'no earlier than the end of 2026'. Nothing is automatic: the director has to get the code and the company has to supply it.",
+  ),
+)
+
+
+# ===================================================================== 37
+# Late PAYMENT penalties, as distinct from the £100 late FILING penalty already
+# covered by penalizari-31-ianuarie. Three 5% charges plus daily interest, and
+# the self-serve payment plan with the conditions that keep people out of it.
+LATE_PAYMENT_5 = dict(
+  slug="penalizari-plata-5-la-suta",
+  title="Self Assessment — ai depus la timp, dar n-ai plătit",
+  tags_ro="#selfassessment #hmrc #penalizari #31ianuarie #contabilitate",
+  tags_en="#selfassessment #hmrc #latepayment #taxpenalties #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Self Assessment · 31 ianuarie 2027",
+         h1="Ai depus declarația la timp. Dar <em>n-ai plătit</em>.",
+         say="Sunt două amenzi diferite. Cea de depunere începe de la £100 și crește cu timpul. Cea de plată e un procent din cât datorezi."),
+    dict(type="step", step="Trei amenzi, 5% fiecare", fig="5%",
+         say="La <b>30 de zile</b> după termen: 5% din impozitul neplătit pe anul trecut. La <b>6 luni</b>: încă 5%. La <b>12 luni</b>: încă 5%.",
+         note="Plus dobândă în fiecare zi până plătești: 7,75% pe an acum, 8% din 24 noiembrie 2026."),
+    dict(type="step", step="Cine NU ia amenda de 5%", fig="31 iulie",
+         say="De regulă, pe 31 ianuarie plătești două sume: restul pe anul trecut și o rată în avans pentru anul în curs. Cele trei amenzi se pun numai pe prima. La rata din 31 iulie plătești dobândă, nu amendă.",
+         note="Rata în avans se calculează din impozitul de anul trecut."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Self Assessment · 31 ianuarie 2027",
+    h1="Știi că nu poți plăti <em>tot</em> pe 31 ianuarie?",
+    say="Scrie-ne pe WhatsApp și îți spunem ce documente să ai pregătite.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Self Assessment · 31 January 2027",
+         h1="You filed on time. You just <em>did not pay</em>.",
+         say="Those are two different penalties. Filing late starts at £100 and grows the longer you leave it. Paying late is a percentage of what you owe."),
+    dict(type="step", step="Three penalties, 5% each", fig="5%",
+         say="At <b>30 days</b> past the deadline: 5% of last year's tax left unpaid. At <b>6 months</b>: another 5%. At <b>12 months</b>: another 5%.",
+         note="Plus interest every day until you pay: 7.75% a year now, 8% from 24 November 2026."),
+    dict(type="step", step="Who does not get the 5%", fig="31 July",
+         say="On 31 January you usually pay two things: the rest of last year's tax, and an instalment towards this year. The 5% only hits the first. Late on the 31 July instalment, you pay interest, not a penalty.",
+         note="That instalment is worked out from last year's tax bill."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Self Assessment · 31 January 2027",
+    h1="Already know you cannot pay it <em>all</em> on 31 January?",
+    say="Message us and we will tell you which documents to have ready.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ["Self Assessment tax returns: Penalties — 'You'll be charged interest on late payments' and you will get 'penalties of 5% of the tax unpaid at: 30 days, 6 months, 12 months'. Late FILING penalties on the same page: £100 initial, £10 a day after 3 months up to a maximum of £900, then at 6 months 5% of the tax due or £300 whichever is greater, and the same again at 12 months.",
+     "https://www.gov.uk/self-assessment-tax-returns/penalties",
+     "2026-11-11"],
+    ["HMRC Self Assessment Manual SAM61250: each late payment penalty is '5 per cent of the tax unpaid for the return year', triggered at '30 days after the payment due date', at '30 days after the payment due date plus 5 months' (the six months penalty) and at '30 days after the payment due date plus 11 months' (the 12 months penalty). No minimum penalty amount is stated.",
+     "https://www.gov.uk/hmrc-internal-manuals/self-assessment-manual/sam61250",
+     "2026-11-11"],
+    ["HMRC interest rates for late and early payments: late payment interest is 'set at base rate plus 4%' from 6 April 2025. Income Tax late payment interest 7.75% from 9 January 2026 and 8.00% from 24 November 2026; repayment interest 2.75% then 3.00% from the same dates.",
+     "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
+     "2026-11-11"],
+    ["Self-serve Time to Pay for Self Assessment: the customer must have filed all tax returns, have no other tax debts and no other HMRC payment plans, and 'Customers using self-serve Time to Pay will be required to pay any interest on the tax owed'. CAUTION, recorded 11 Nov 2026: this page is dated 13 January 2021, and the £32 floor and the 60-day cut-off appear ONLY here and on a 2020 press release. The current live pages (gov.uk/difficulties-paying-hmrc/pay-in-instalments and gov.uk/guidance/find-out-how-to-pay-a-debt-to-hmrc-with-a-time-to-pay-arrangement) publish neither, giving only a £30,000 ceiling and the filed-returns condition. £32 and 60 days were therefore dropped from every card and caption.",
+     "https://www.gov.uk/government/news/self-assessment-customers-use-online-tax-payment-plans-to-help-spread-the-cost",
+     "2026-11-11"],
+    ["Payments on account are NOT within the late payment penalty. SAM61250 excludes from the penalty 'interest, late filing penalties or payments on account'. Finance Act 2009 Schedule 56, the Table in paragraph 1, lists for income tax only amounts payable under section 59B(3), (4), (5), (5A) and (6) of TMA 1970 — the balancing payment — and section 59A TMA 1970, the payment on account, is absent from the Table.",
+     "https://www.legislation.gov.uk/ukpga/2009/10/schedule/56",
+     "2026-11-11"],
+    ["gov.uk confirms the 5% regime, not the Making Tax Digital penalties, governs this deadline: 'current penalties will apply to your 2025 to 2026 tax return deadline of 31 January 2027'.",
+     "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+     "2026-11-11"],
+  ],
+  SCOPE=dict(
+    nation="All of the UK. Self Assessment late payment penalties and HMRC interest are set in UK-wide tax legislation and administered by HMRC for the whole United Kingdom; the Scottish and Welsh rates of Income Tax change what is owed, not the penalty or interest regime.",
+    category="Anyone in Self Assessment who has tax still unpaid after the payment deadline — the balancing payment for 2025/26 is due 31 January 2027. It bites on the self-employed, landlords, company directors with untaxed income, and anyone whose tax was not fully collected at source.",
+    excluded="THE PAYMENT ON ACCOUNT IS OUTSIDE THESE PENALTIES, and that is what card 3 now says. SAM61250 excludes from the penalty 'interest, late filing penalties or payments on account', and the Table in paragraph 1 of Schedule 56 to the Finance Act 2009 lists for income tax only amounts payable under section 59B of TMA 1970 — the balancing payment — while section 59A, the payment on account, does not appear in the Table at all. So a taxpayer late on the 31 July instalment pays interest and no 5% penalty, and a taxpayer late on 31 January is penalised on the balancing element only. gov.uk's consumer penalties page is silent on this; the manual and the Schedule are not. Also excluded: someone who pays in full by the deadline gets no late payment penalty at all, however late the RETURN was — the filing penalty and the payment penalties are separate charges and neither implies the other. For the self-serve payment plan, now mentioned only in the long captions, the bars are a debt over £30,000, a tax return still outstanding, other HMRC debts, or an HMRC payment plan already set up; interest runs on a plan regardless. £32 and the 60-day condition were DROPPED from every card and caption: they appear only on HMRC press releases of 2020 and 2021 and on no current page, and an unverifiable figure is dropped rather than softened.",
+    from_when="Current rules, now, for the 31 January 2027 payment deadline. The penalties arise automatically by the passage of time — nothing is claimed or applied for to trigger them. The interest rate change to 8.00% is dated 24 November 2026 by HMRC's own rates page; 7.75% has applied since 9 January 2026.",
+  ),
+)
+
+
+# ===================================================================== 38
+# Personal Savings Allowance and the starting rate for savings. Budget 2026
+# (published 28 October 2026) leaves both unchanged for 2026/27 and 2027/28.
+SAVINGS_PSA = dict(
+  slug="dobanda-economii-1000",
+  title="Dobânda de la bancă — primii £1.000 nu se impozitează",
+  tags_ro="#economii #dobanda #impozit #hmrc #contabilitate",
+  tags_en="#savings #savingsinterest #personalsavingsallowance #uktax #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Economii · dobânda de la bancă",
+         h1="Banca îți dă dobândă. Primii <em>£1.000</em> nu se impozitează.",
+         say="Dacă plătești impozit la cota de bază, ai £1.000 de dobândă pe an pe care nu o impozitează nimeni. Nu ceri nimic — pur și simplu o ai."),
+    dict(type="step", step="Cât ai, după cota ta", fig="<cur>£</cur>500",
+         say="Cota de bază: £1.000 fără impozit. Cota mai mare: £500. Cea mai mare: zero. În Scoția, cota de pe salariu nu se aplică la dobândă.",
+         note="Cota ta se decide după tot venitul, cu dobândă inclusă."),
+    dict(type="step", step="Cine nu primește nimic", fig="<cur>£</cur>0",
+         say="Dacă ești la cota cea mai mare de impozit, nu primești nimic din asta: fiecare liră de dobândă pe care ți-o dă banca se impozitează.",
+         note="Nimeni nu-ți dă bani — e dobândă neimpozitată. Fără dobândă, nu ai nimic."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Economii · dobândă",
+    h1="Nu știi cât din dobânda ta <em>se impozitează</em>?",
+    say="Scrie-ne și îți trimitem pagina oficială de pe GOV.UK unde scrie cât e fără impozit.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Savings · bank interest",
+         h1="Your bank pays you interest. The first <em>£1,000</em> is tax free.",
+         say="On the basic rate of tax you get £1,000 of savings interest a year that nobody taxes. You do not claim it — you simply have it."),
+    dict(type="step", step="How much, by your rate", fig="<cur>£</cur>500",
+         say="Basic rate: £1,000 tax free. Higher rate: £500. Additional rate: nothing. In Scotland, your payslip rate is not the one here.",
+         note="Your rate is worked out on all your income, interest included."),
+    dict(type="step", step="Who gets nothing from it", fig="<cur>£</cur>0",
+         say="If you pay tax at the additional rate you get nothing here: every pound of the interest your bank pays you is taxable.",
+         note="It is not a payment — it is interest left untaxed. No interest, nothing."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Savings · interest",
+    h1="Not sure how much of your interest <em>is taxed</em>?",
+    say="Message us and we will send you the official GOV.UK page that sets out the limits.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ["Tax on savings interest — how much is tax free: Personal Savings Allowance is £1,000 for basic rate, £500 for higher rate and £0 for additional rate taxpayers. The starting rate for savings means you 'can earn up to £5,000 of interest and not have to pay tax on it', available where other taxable income 'is less than £17,570'; 'Every £1 of other income above your Personal Allowance reduces your starting rate for savings by £1'. The page states a Personal Allowance of £12,570.",
+     "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+     "2026-11-11"],
+    ["Budget 2026 Annex A: rates and allowances (first published 28 October 2026, updated 5 November 2026) — Personal Savings Allowance £1,000 basic rate and £500 higher rate, starting rate for savings 0% with a starting rate limit for savings of £5,000, and a Personal Allowance of £12,570, for BOTH 2026 to 2027 and 2027 to 2028.",
+     "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
+     "2026-11-11"],
+    ["Change to tax rates for property, savings and dividend income — technical note (published 26 November 2025): 'the starting rate for savings and personal savings allowance remain unchanged', the 0% band still applying to savings income up to £5,000 for taxpayers with up to £17,570 of non-savings, non-dividend income. SUPERSEDED on the rates themselves: this note's savings rates of 22/42/47 from 6 April 2027 are replaced by Budget 2026 Annex A's 24/44/49 for 2027/28. Cited here only for the 'remain unchanged' point, which Annex A independently confirms.",
+     "https://www.gov.uk/government/publications/changes-to-tax-rates-for-property-savings-and-dividend-income/change-to-tax-rates-for-property-savings-and-dividend-income-technical-note",
+     "2026-11-11"],
+    ["Scottish Income Tax 'applies to your wages, pension and most other taxable income', and 'You'll pay the same tax as the rest of the UK on dividends and savings interest'. Scotland's 2026-27 higher rate is 42% from £43,663, so a Scottish payslip band does not decide the savings allowance.",
+     "https://www.gov.uk/scottish-income-tax",
+     "2026-11-11"],
+    ["To work out the band that sets the Personal Savings Allowance, 'add all the interest you've earned to your other income' — so interest itself can move a taxpayer from the £1,000 slice to the £500 one.",
+     "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+     "2026-11-11"],
+  ],
+  SCOPE=dict(
+    nation="All of the UK for the allowance itself, but the BAND LABELS are not UK-uniform and card 2 now says so on the frame. gov.uk/scottish-income-tax states that Scottish Income Tax 'applies to your wages, pension and most other taxable income' and that 'You'll pay the same tax as the rest of the UK on dividends and savings interest'; mygov.scot says Scottish Income Tax does not apply to savings and dividend income. Scotland's own higher rate of 42% starts at £43,663, which does not line up with the UK higher-rate threshold, so a Scottish reader who knows themselves as a higher-rate taxpayer from their payslip could halve their own allowance by reading a bare rate list. Card 2 therefore carries 'In Scoția, cota de pe salariu nu se aplică la dobândă' / 'In Scotland, your payslip rate is not the one here'.",
+    category="Anyone receiving bank or building society interest. Which slice applies is decided by the income tax rate the person pays: £1,000 at basic rate, £500 at higher rate, £0 at additional rate. The £5,000 starting rate reaches people whose non-savings income is low — pensioners, part-time workers, someone in their first year of self-employment with a small profit.",
+    excluded="Additional rate taxpayers get no Personal Savings Allowance at all — £0 — so every pound of their interest is taxable. That is now the card 3 answer, because card 3 has to name who gets NOTHING and the earlier draft used that slot for a group who pay LESS. The £5,000 starting rate for savings does not reach anyone whose other taxable income is £17,570 or more, and it tapers away before that: every £1 of other income above the £12,570 Personal Allowance cuts the £5,000 slice by £1, so someone with £15,000 of wages has £2,570 of it left. That starting rate came OFF the cards — it cannot be stated with its taper in the room a card leaves — and lives in the long captions instead. Neither slice is a refund or a payment: it is interest that is not taxed, so a person with no interest gets nothing from it. And the band is worked out on ALL income with the interest counted in, so a large interest payment can move a reader off the £1,000 slice onto the £500 one.",
+    from_when="Current rules, in force now for 2026/27, and unchanged for 2027/28 per Budget 2026 Annex A. Automatic, not claimed. Separately, the RATES at which savings income above the allowances is taxed rise from 6 April 2027: Budget 2026 Annex A prints savings basic rate 24%, savings higher rate 44% and savings additional rate 49% for 2027/28, SUPERSEDING the 22/42/47 in the November 2025 technical note. No card or caption states those rates. The £1,000/£500 allowance and the £5,000 starting rate are confirmed unchanged.",
+  ),
+)
+
+
+# ===================================================================== 39
+# Free school meals in England. The Universal Credit expansion is already live
+# — academic year 2026/27 — so this is a "check whether you qualify" post, and
+# the two traps are the nation and the fact that it has to be claimed.
+FSM_UNIVERSAL_CREDIT = dict(
+  slug="mese-gratuite-scoala",
+  title="Mese gratuite la școală — pentru toți copiii din familii cu Universal Credit",
+  tags_ro="#universalcredit #mesegratuite #scoala #anglia #drepturi",
+  tags_en="#freeschoolmeals #universalcredit #england #costofliving #familysupport",
+
+  RO=[
+    dict(type="hook",
+         kicker="Anglia · mese gratuite la școală",
+         h1="Iei Universal Credit? Copilul poate mânca <em>gratuit</em> la școală.",
+         say="Din septembrie 2026 masa nu ține de venit. Dau dreptul și ESA pe venit sau partea garantată din Pension Credit. Dar o ceri la școală."),
+    dict(type="step", step="Ce s-a schimbat și ce nu", fig="<cur>£</cur>7.400",
+         say="£7.400 pe an nu mai decide masa: intră orice familie care ia Universal Credit. Linia aceea decide însă restul ajutoarelor legate de masa gratuită.",
+         note="Guvernul spune că o familie economisește până la £495 pe an, pentru fiecare copil."),
+    dict(type="step", step="Cine NU le primește așa", fig="Anglia",
+         say="Regula e doar pentru Anglia și pentru școlile de stat. Scoția, Țara Galilor și Irlanda de Nord au regulile lor. Copiii din reception, year 1 și year 2 mănâncă gratuit oricum.",
+         note="O familie fără drept la majoritatea ajutoarelor poate fi eligibilă: întrebi la școală."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Anglia · mese gratuite la școală",
+    h1="Nu știi dacă <em>familia ta</em> se încadrează?",
+    say="Scrie-ne și îți spunem ce să întrebi la școală. Cererea se face la școală sau la consiliul local.",
+    phone=PHONE, disc="Informații generale. Lista ajutoarelor care dau dreptul e pe GOV.UK."),
+
+  EN=[
+    dict(type="hook",
+         kicker="England · free school meals",
+         h1="On Universal Credit? Your child may eat <em>free</em> at school.",
+         say="From September 2026 earnings do not decide the meal. Income-related ESA and guaranteed Pension Credit count too. You claim it at school."),
+    dict(type="step", step="What changed, what did not", fig="<cur>£</cur>7,400",
+         say="£7,400 a year no longer decides the meal: every Universal Credit household qualifies. It still decides the other help that comes with free meals.",
+         note="The government says a family saves up to £495 a year, per child."),
+    dict(type="step", step="Who does NOT get it this way", fig="England",
+         say="This rule is England only, and for state-funded schools. Scotland, Wales and Northern Ireland run their own schemes. Children in reception, year 1 and year 2 eat free anyway.",
+         note="Not qualifying for most benefits does not rule a child out: you ask at the school."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="England · free school meals",
+    h1="Not sure whether <em>your household</em> qualifies?",
+    say="Message us and we will tell you what to ask the school. The claim is made at the school or the local council.",
+    phone=PHONE, disc="General information. The full list of qualifying benefits is on GOV.UK."),
+
+  SOURCES=[
+    ["gov.uk/apply-free-school-meals — the benefits that qualify a child in England: 'Universal Credit - if you apply on or after 1 April 2018 your household income must be £7,400 a year or less'; 'income-related Employment and Support Allowance'; 'support under Part VI of the Immigration and Asylum Act 1999'; 'the guaranteed element of Pension Credit'. Also: 'Your child will be able to get free school meals if they're in a government-funded school'; a child whose family does not qualify for most benefits 'may still be eligible for free school meals' and such families should ask 'their school or local authority whether they're eligible'; and there is 'a different process to apply for free school meals in Northern Ireland', with separate pages for Scotland and Wales.",
+     "https://www.gov.uk/apply-free-school-meals",
+     "2026-11-11"],
+    ["Free school meals: guidance for local authorities, local-authority-maintained schools, academies and free schools (England) — 'all children from households in receipt of Universal Credit' qualify, eligibility applying 'regardless of household earnings', 'From the start of the 2026 to 2027 academic year'. Targeted free school meals continue for households with annual earnings of £7,400 or less, with the expanded category covering those above it. 'a claim must be made for this support' and a pupil is eligible only once the claim is verified by the school or local authority. 'Children in reception, year 1 and year 2 will continue to be entitled to free meals' regardless of household income. Transitional protections for free school meals end.",
+     "https://www.gov.uk/government/publications/free-school-meals-guidance-for-schools-and-local-authorities/free-school-meals-guidance-for-local-authorities-local-authority-maintained-schools-academies-and-free-schools",
+     "2026-11-11"],
+    ["Department for Education education hub, 1 September 2026, 'Expanding free school meals: what parents need to know' — 'The new eligibility came in to effect in September 2026'; Universal Credit households 'including those above the current £7,400 income cap, will qualify for this support'; 'families will still need to actually apply to receive the benefit'; 'you could save up to £495 per year per child on school lunches'; around 1.2 million infants are already covered by Universal Infant Free School Meals and are not part of the expansion.",
+     "https://educationhub.blog.gov.uk/2026/09/expanding-free-school-meals-what-parents-need-to-know/",
+     "2026-11-11"],
+  ],
+  SCOPE=dict(
+    nation="ENGLAND ONLY. The Department for Education guidance that sets these criteria applies to England. Scotland, Wales and Northern Ireland run their own free school meal schemes on their own criteria, and card 3 says so on the frame rather than only in the caption, because a scroller who lives in Wales would otherwise act on an England rule.",
+    category="Pupils at GOVERNMENT-FUNDED (state-funded) schools in England — a condition both sources carry and the cards now state. Universal Credit is one of FOUR independent routes, not the test: gov.uk/apply-free-school-meals lists Universal Credit (household income £7,400 a year or less for the targeted category), income-related Employment and Support Allowance, support under Part VI of the Immigration and Asylum Act 1999, and the guaranteed element of Pension Credit. The cards and captions name income-related ESA and the guaranteed element of Pension Credit and point at the full list on GOV.UK; the Immigration and Asylum Act route is DELIBERATELY not named, because for this audience an asylum-support benefit sits too close to the regulated immigration boundary and the standing rule is that an unsure sentence crosses it.",
+    excluded="THE £7,400 LINE HAS NOT GONE, and that is the correction this carousel most needed. DfE guidance: a Universal Credit household 'with annual household earnings of £7,400 or less' gets TARGETED free school meals, while one 'exceeding £7,400' gets 'expanded FSM (free school meals) (meals only)'. Targeted eligibility is what 'will attract pupil premium', and the guidance names the Holiday Activities and Food programme and the extended rights element of school travel assistance as also continuing to follow targeted FSM. So a household above £7,400 gets the meal and NOT those extras — the cards and captions now say that, instead of saying the cap is gone. Also excluded: families outside England, who come under their own nation's scheme; pupils not at a government-funded school; and a child who qualifies but whose family never claims, since 'a claim must be made for this support' and eligibility is confirmed only once the school or local authority verifies it. Transitional protections END from the start of the 2026 to 2027 academic year, so a household that held free meals only through those and does not meet the new criteria LOSES them on the same date the expansion starts — the long captions carry this, because the change is not good news for everyone. Children in reception, year 1 and year 2 are NOT part of the expansion: they already eat free under Universal Infant Free School Meals whatever the household income. And the rule runs wider than Universal Credit in one more way: gov.uk says a child whose family does 'not qualify for most benefits' 'may still be eligible for free school meals' and that such families should ask 'their school or local authority whether they're eligible' — carried on card 3 as a fact about the scheme, with no status named and in no 'if you are X, do Y' shape.",
+    from_when="From the start of the 2026 to 2027 academic year — September 2026 — so it is already live, not a future change. It has to be claimed at the school or local authority; it is not paid out and does not arrive automatically.",
+  ),
+)
+
+
+# ===================================================================== 40
+# Carer's Allowance. The cards do NOT carry the 'not subject to immigration
+# control' condition: stating it reads as commentary on a reader's own status,
+# which is the regulated boundary, and the standing rule is that an unsure
+# sentence crosses the line. It is recorded in SCOPE for Valentin instead.
+CARERS_ALLOWANCE = dict(
+  slug="carer-allowance-86",
+  title="Carer's Allowance — £86,45 pe săptămână dacă ai grijă de cineva",
+  tags_ro="#carersallowance #ingrijitor #drepturi #dwp #ajutoare",
+  tags_en="#carersallowance #carers #benefits #dwp #costofliving",
+
+  RO=[
+    dict(type="hook",
+         kicker="Carer's Allowance · £86,45 pe săptămână",
+         h1="Ai grijă de cineva 35 de ore pe săptămână? Sunt <em>£86,45</em>.",
+         say="Atât plătește statul pe săptămână. Mulți oameni care fac exact asta nu cer nimic, pentru că nimeni nu le-a spus că se pune la socoteală."),
+    dict(type="step", step="Două condiții, nu una", fig="<cur>£</cur>204",
+         say="Prima: cel de care ai grijă trebuie să primească deja un ajutor de dizabilitate — de exemplu partea de trai zilnic din PIP, sau Attendance Allowance. A doua: tu să câștigi £204 sau mai puțin pe săptămână, după taxe, National Insurance și cheltuieli.",
+         note="Poți avea un job. Se numără cele 35 de ore de îngrijire, nu dacă muncești."),
+    dict(type="step", step="Cine NU îl primește", fig="21h",
+         say="Nu îl primești dacă ești în învățământ cu program complet sau studiezi 21 de ore pe săptămână sau mai mult. Nici dacă altcineva ia deja banii pentru aceeași persoană.",
+         note="În Scoția nu se cheamă așa: acolo se cere Carer Support Payment."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Carer's Allowance · £86,45",
+    h1="Ai grijă de cineva și <em>nu ai cerut niciodată</em>?",
+    say="Scrie-ne și îți spunem ce să verifici înainte să depui cererea.",
+    phone=PHONE, disc="Informații generale. Pentru cererea ta, întreabă la DWP sau la Citizens Advice."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Carer's Allowance · £86.45 a week",
+         h1="Caring for someone 35 hours a week? That is <em>£86.45</em>.",
+         say="That is what the state pays, weekly. Plenty of people doing exactly that never claim, because nobody ever told them it counts."),
+    dict(type="step", step="Two conditions, not one", fig="<cur>£</cur>204",
+         say="First, the person you care for must already get a disability benefit — the daily living part of PIP, or Attendance Allowance, for example. Second, you must earn £204 or less a week after tax, National Insurance and expenses.",
+         note="You can have a job. What counts is the 35 hours of care, not whether you work."),
+    dict(type="step", step="Who does NOT get it", fig="21h",
+         say="Not if you are in full-time education, or studying 21 hours a week or more. Not if someone else already claims it for the same person.",
+         note="In Scotland it is called Carer Support Payment, and you apply for that instead."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Carer's Allowance · £86.45",
+    h1="Caring for someone and <em>never claimed</em>?",
+    say="Message us and we will tell you what to check before you put the claim in.",
+    phone=PHONE, disc="General information. For your own claim, contact DWP or Citizens Advice."),
+
+  SOURCES=[
+    ["Carer's Allowance: How it works — 'You could get £86.45 a week if you care for someone at least 35 hours a week and they get certain benefits.' 'If you live in Scotland' you 'need to apply for Carer Support Payment instead of Carer's Allowance.' 'Carer's Allowance can affect the other benefits that you and the person you care for get.'",
+     "https://www.gov.uk/carers-allowance",
+     "2026-11-11"],
+    ["Carer's Allowance: Eligibility — your earnings must be '£204 or less a week after tax, National Insurance and expenses'. The person cared for must already get one of: PIP daily living component; DLA middle or highest care rate; Scottish Adult DLA middle or highest care rate; Attendance Allowance; Pension Age Disability Payment; Constant Attendance Allowance at or above the normal maximum rate with Industrial Injuries Disablement Benefit; Constant Attendance Allowance at the basic full day rate with a War Disablement Pension; Armed Forces Independence Payment; Child Disability Payment middle or highest care rate; Adult Disability Payment daily living at standard or enhanced rate. You must be 'not in full-time education' and 'not studying for 21 hours a week or more', and 'not subject to immigration control'. You cannot get it if another carer already claims Carer's Allowance, or the extra amount of Universal Credit for caring, for the same person.",
+     "https://www.gov.uk/carers-allowance/eligibility",
+     "2026-11-11"],
+    ["DWP Benefit and pension rates 2026 to 2027 — Carer's Allowance weekly rate 86.45; Carer's Allowance earnings limit 204.00 under 'Earning rules'.",
+     "https://www.gov.uk/government/publications/benefit-and-pension-rates-2026-to-2027/proposed-benefit-and-pension-rates-2026-to-2027",
+     "2026-11-11"],
+    ["nidirect (Northern Ireland Executive), Carer's Allowance — 'The weekly rate is £86.45 but you'll get less if you get certain benefits or State Pension'; 'You need to spend at least 35 hours a week caring for someone'; 'your earnings are £204 or less a week after tax, National Insurance and expenses'. Confirms the same rate and the same earnings limit apply in Northern Ireland.",
+     "https://www.nidirect.gov.uk/articles/carers-allowance",
+     "2026-11-11"],
+  ],
+  SCOPE=dict(
+    nation="England, Wales and Northern Ireland. gov.uk sets £86.45 and the £204 earnings limit, and nidirect confirms the same rate and limit in Northern Ireland. SCOTLAND IS DIFFERENT: gov.uk states that someone living in Scotland must apply for Carer Support Payment instead, and card 3 carries that on the frame rather than only in the caption.",
+    category="Someone providing at least 35 hours of care a week to a person who already receives a qualifying disability benefit — PIP daily living, Attendance Allowance, DLA middle or highest care rate, Adult Disability Payment daily living, Child Disability Payment middle or highest care rate, Pension Age Disability Payment, Armed Forces Independence Payment, or Constant Attendance Allowance at the stated rates — and whose own earnings are £204 or less a week after tax, National Insurance and expenses. Paid employment alongside the caring is allowed.",
+    excluded="Anyone in full-time education, and anyone studying 21 hours a week or more, is excluded whatever the caring hours. Anyone earning over £204 a week after tax, National Insurance and expenses is excluded, which catches people who think a part-time job is irrelevant. Only ONE person can be paid for caring for the same individual: if another carer already gets Carer's Allowance, or the extra amount of Universal Credit for caring, for that person, a second claim fails. If the person cared for receives none of the qualifying disability benefits there is no entitlement at all, however many hours are given. People living in Scotland do not get Carer's Allowance; they apply for Carer Support Payment. gov.uk also lists 'not subject to immigration control' as a condition — DELIBERATELY NOT ON ANY CARD OR IN ANY CAPTION, because a sentence telling a reader how their own status affects their claim is the regulated line under the Immigration Advice Authority and the standing rule is that an unsure sentence crosses it. Flagged for Valentin in the run report instead. Finally, gov.uk warns that Carer's Allowance 'can affect the other benefits that you and the person you care for get', so a claim is not costless for the household.",
+    from_when="Current rate for 2026/27, in payment now. It has to be CLAIMED — nothing about it is automatic, and that is the whole reason the carousel exists, since the audience most likely to qualify is the least likely to have been told.",
+  ),
+)
+
+
+DAY = [LATE_PAYMENT_5, SAVINGS_PSA, FSM_UNIVERSAL_CREDIT]
 
 # CHILD_BENEFIT was drafted for the 6th and held by the scope checker: its card 3
 # answers "who does not keep it" with the High Income Child Benefit Charge, while
@@ -4078,12 +4439,36 @@ DAY = [COD_URGENTA, VANZARI_ONLINE, CHELTUIELI, SSP_PRIMA_ZI]
 # condition — UK main home, right to reside, and no claim where leave carries a "no
 # public funds" condition. Wording that on a card touches the regulated immigration
 # boundary, so it is Valentin's call, not a studio improvisation at 20:00.
-HELD = [WINTER_FUEL, CHILD_BENEFIT, CARD_SECTIUNEA_75]
+# CH_IDENTITY held 11 Nov 2026 for publication on the 12th. Every figure on it was
+# verified, but three checkers independently found the PREMISE wrong for the date:
+# Companies House's own news page estimates 6-7 million people must verify "by
+# mid-November 2026", six days after this would have published, while the cards point
+# forward to "your next confirmation statement" and name no end date. The RO card also
+# stated the offence flatly in the present tense where the source is conditional ("will
+# be an offence ... once director duties commence"), and the official campaign page lists
+# LLP members as required now — so "self-employed with no Ltd? none of this touches you"
+# is wrong for an LLP member. PSCs who are not directors have their own 14-day birth-month
+# clock and appear nowhere. That is a different carousel, not an overnight edit, and the
+# substance changes on 18 November. Valentin's call.
+# CARERS_ALLOWANCE held 11 Nov 2026 for the same publication day. Figures all verified
+# (£86.45, £204, 35 hours, 21 study hours, Scotland = Carer Support Payment). Held on two
+# grounds. First, gov.uk/carers-allowance/effect-on-other-benefits states "Your Universal
+# Credit payment will be reduced by an amount equal to your Carer's Allowance payment" and
+# that the person cared for "will usually stop getting ... a severe disability premium" —
+# so for two of the commonest situations in this audience there is no £86.45 to gain, and a
+# carousel whose whole premise is unclaimed money said nothing about it. Second, compliance
+# BLOCKED the card 2 label "Două condiții, nu una": gov.uk lists nine conditions, one of
+# which is "not subject to immigration control". The studio omitted that on Immigration
+# Advice Authority grounds, but a frame that COUNTS the conditions claims completeness and
+# so misleads. Whether to state a published immigration-control condition is the regulated
+# boundary and is Valentin's call, exactly as Child Benefit was on 6 November.
+HELD = [WINTER_FUEL, CHILD_BENEFIT, CARD_SECTIUNEA_75, CH_IDENTITY, CARERS_ALLOWANCE]
 
 # Shipped on an earlier day. Kept so preflight's LOSS check can still see every
 # topic that was in the last commit: a topic that leaves DAY has not been lost,
 # it has been published.
-ARCHIVE = [PAYMENTS_ON_ACCOUNT, MTD_INCOME_TAX, VAT_THRESHOLD, MARRIAGE_ALLOWANCE,
+ARCHIVE = [COD_URGENTA, VANZARI_ONLINE, CHELTUIELI, SSP_PRIMA_ZI,
+           PAYMENTS_ON_ACCOUNT, MTD_INCOME_TAX, VAT_THRESHOLD, MARRIAGE_ALLOWANCE,
            CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE,
            MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS,
            VOLUNTARY_NI, DIVIDENDS_1075, HOME_WORKING, WARM_HOME_150, HOLIDAY_56,
