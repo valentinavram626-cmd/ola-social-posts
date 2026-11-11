@@ -284,7 +284,7 @@ MARRIAGE_ALLOWANCE = dict(
                ["<cur>£</cur>1,260", "of Personal Allowance transferred"],
                ["4 years",           "backdating, to 6 April 2022"]],
          ask="Married or in a civil partnership, one of you under £12,570? Luton and Birmingham — message us.",
-         phone=PHONE, disc="General information, not personal advice."),
+         phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
   ],
 
   SOURCES=[
@@ -445,7 +445,7 @@ CIS_20_30 = dict(
                ["30%", "deducted if you are not registered"],
                ["0%",  "with gross payment status"]],
          ask="Working in construction around Luton or Birmingham? Message us and we will check your CIS deductions.",
-         phone=PHONE, disc="General information, not personal advice."),
+         phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
   ],
 
   SOURCES=[
@@ -867,7 +867,7 @@ MILEAGE_55P = dict(
                ["25p", "a mile after that; motorcycles 24p"],
                ["Home to work", "not a business mile — it does not count"]],
          ask="Self-employed and driving for work near Luton or Birmingham? Message us.",
-         phone=PHONE, disc="General information, not personal advice."),
+         phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
   ],
 
   SOURCES=[
@@ -1578,7 +1578,7 @@ DIVIDENDS_1075 = dict(
                ["10.75%", "basic rate; then 35.75% and 39.35%"],
                ["6 Apr 2026", "when the first two rates went up"]],
          ask="Run a limited company near Luton or Birmingham? Message us.",
-         phone=PHONE, disc="General information, not personal advice."),
+         phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
   ],
 
   SOURCES=[
@@ -2787,7 +2787,7 @@ CT_9_LUNI = dict(
                ["12 months",        "to file the Company Tax Return"],
                ["<cur>£</cur>200",  "penalty one day late, £200 more at 3 months"]],
          ask="Limited company in Luton or Birmingham? Message us and we will check both dates.",
-         phone=PHONE, disc="General information, not personal advice."),
+         phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
   ],
 
   SOURCES=[
@@ -3522,7 +3522,555 @@ COMPENSATIE_ZBOR = dict(
 )
 
 
-DAY = [CT_9_LUNI, CINE_DEPUNE, BANI_INAPOI, PENSIE_LA_JOB, COMPENSATIE_ZBOR]
+# ===================================================================== 11 Nov 2026
+COD_URGENTA = dict(
+  slug="cod-urgenta-taxa",
+  title="Cod de urgență — de ce ți s-a oprit prea multă taxă la jobul nou",
+  tags_ro="#codfiscal #taxeuk #jobnou #hmrc #romaniinuk",
+  tags_en="#taxcode #paye #hmrc #newjob #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Cod fiscal · job nou",
+         h1="Job nou și <em>prea multă taxă</em> pe primul salariu?",
+         say="Dacă noul angajator nu are datele tale de la jobul anterior, te pune pe un cod de urgență. Taxa se calculează doar pe luna aceea, ca și cum ai câștiga atât în fiecare lună din an."),
+    dict(type="step", step="Cum îl recunoști pe fluturaș", fig="W1 M1 X",
+         say="Uită-te pe fluturașul de salariu, la codul de taxe. Dacă se termină în W1, M1 sau X, e cod de urgență. Unele programe de salarii scriu în loc «NONCUM».",
+         note="Pe fluturaș arată ca «1257L W1»: 1257L îți dă £12.570 fără taxe pe an, W1 e terminația de urgență."),
+    dict(type="step", step="Cine NU ajunge pe cod de urgență", fig="P45",
+         say="Dacă îi dai noului angajator P45-ul — hârtia pe care ți-o dă firma când pleci — de obicei nu ajungi pe cod de urgență deloc.",
+         note="Și cod de taxe ai doar dacă ești plătit prin PAYE, statul de salarii. Pe cont propriu nu ai niciunul."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Cod fiscal · job nou",
+    h1="Nu știi <em>ce înseamnă codul tău</em>?",
+    say="Trimite-ne codul de pe fluturaș și îți spunem ce înseamnă.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Tax codes · starting a new job",
+         h1="New job, and <em>too much tax</em> on the first payslip?",
+         say="If your new employer does not have your pay and tax details from the last job, you go onto an emergency code. The tax is worked out on that pay period alone, as though you earned that amount in every period of the year."),
+    dict(type="step", step="Spotting it on the payslip", fig="W1 M1 X",
+         say="Check the tax code on your payslip. If it ends in W1, M1 or X, it is an emergency code. Some payroll software prints NONCUM instead.",
+         note="On a payslip it looks like 1257L W1: the 1257L gives you £12,570 tax-free a year, the W1 is the emergency ending."),
+    dict(type="step", step="Who does NOT end up on one", fig="P45",
+         say="Give your new employer the P45 — the form your last job hands you when you leave — and you usually never go onto an emergency code at all.",
+         note="And you only have a tax code if you are paid through PAYE, the payroll system. Working for yourself, there is none."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Tax codes · starting a new job",
+    h1="Not sure <em>what your code means</em>?",
+    say="Send us the code from your payslip and we will tell you what it means.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  GBP=[
+    dict(type="solo",
+         kicker="Tax codes · gov.uk",
+         h1="Too much tax on your first payslip?",
+         rows=[["W1 · M1 · X", "an emergency tax code on your payslip"],
+               ["1257L",       "£12,570 of tax-free pay a year"],
+               ["up to 35 days", "how long HMRC can take to update it"]],
+         ask="In Luton or Birmingham? Message us and we will tell you what your code means.",
+         phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  ],
+
+  SOURCES=[
+    ("Emergency tax codes end in W1, M1 or X and a payslip may show NONCUM; you are put on one "
+     "in a new job where the employer does not have your previous pay and tax details; tax is "
+     "worked out on that pay period alone; HMRC usually updates the code within 35 days of your "
+     "start date; where you have UNDERpaid you stay on the emergency code until the correct tax "
+     "for the year is paid, and where you have overpaid you can claim a refund; to come off it, "
+     "give the new employer your P45 or fill in the starter checklist; a new tax year moves you "
+     "off an emergency code automatically",
+     "https://www.gov.uk/tax-codes/emergency-tax-codes", "2026-11-10"),
+    ("The number in a tax code is the tax-free income for that year; L means the standard "
+     "Personal Allowance; BR taxes all income from that job or pension at the basic rate and 0T "
+     "means the Personal Allowance has been used up — both ordinary codes, used where there is "
+     "more than one job or pension, and 0T also for a new job where the employer lacks details; "
+     "W1, M1 and X are the emergency tax codes",
+     "https://www.gov.uk/tax-codes/what-your-tax-code-means", "2026-11-10"),
+    ("P9X (2026): 'For 2026 to 2027 the basic Personal Allowance will be £12,570 for the whole "
+     "of the UK' and 'The emergency code is 1257L for all employees'",
+     "https://assets.publishing.service.gov.uk/media/6996e9b3b33a4db7ff889e08/P9X_2026_Tax_codes_to_use_from_6_April_2026.pdf",
+     "2026-11-10"),
+    ("PAYE Manual PAYE61030: a new employee who signs no starter declaration is set 'Code 0T on "
+     "a Week 1 or Month 1 basis'; by starter declaration, Statement A gives the emergency code on "
+     "a cumulative basis, Statement B the emergency code on a Week 1 or Month 1 basis, and "
+     "Statement C code BR — so the starter checklist does not by itself avoid an emergency code, "
+     "and 0T is frequently operated on the emergency (non-cumulative) basis",
+     "https://www.gov.uk/hmrc-internal-manuals/paye-manual/paye61030", "2026-11-10"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK. P9X 2026 states the £12,570 basic Personal Allowance and the 1257L "
+           "emergency code 'for the whole of the UK'. Scottish and Welsh taxpayers carry an S or "
+           "C prefix, which changes the rates applied to the income, not the allowance or the "
+           "emergency-code mechanism.",
+    category="Employees paid through PAYE. It bites hardest on someone starting a new job whose "
+             "employer has no P45 for them. It is also the normal position for someone who starts "
+             "receiving company benefits or the State Pension, where gov.uk says the emergency "
+             "code runs to the end of that tax year.",
+    excluded="Someone who hands the new employer a P45 from the previous job usually never goes "
+             "onto an emergency code at all. BR and 0T are NOT emergency codes, even though they "
+             "can take a lot of tax: gov.uk attaches 'usually used if you've got more than one "
+             "job or pension' to BR, and lists 0T as the Personal Allowance being used up or a "
+             "new job where the employer lacks the details. But HMRC's PAYE Manual PAYE61030 "
+             "shows 0T is frequently operated on a Week 1 / Month 1 basis in exactly this "
+             "scenario, so the SUFFIX decides whether a code is emergency, not the letters. The "
+             "starter checklist does NOT avoid an emergency code either: PAYE61030 puts Statement "
+             "A on the emergency code cumulatively, Statement B on it at W1/M1, and Statement C "
+             "on BR. Anyone outside PAYE has no tax code at all — a sole trader, or a CIS "
+             "subcontractor whose deduction is 20% or 30% of the payment rather than a code. And "
+             "the refund is not universal: gov.uk says that where the emergency code has left you "
+             "UNDERpaid you stay on it until the correct tax for the year is paid, so nothing "
+             "comes back to you at all.",
+    from_when="Current rules, now. The 1257L emergency code and the £12,570 Personal Allowance "
+              "are the figures in force from 6 April 2026 for the 2026/27 tax year, per P9X. "
+              "Nothing is claimed to start it — the employer applies it. gov.uk says updating "
+              "the code 'can take up to 35 days from when you start your job' — a ceiling, not a "
+              "typical. The 'in the new tax year you'll be put on a non-emergency tax code' "
+              "sentence belongs to the company-benefits / State-Pension case on that page, NOT to "
+              "the new-job case, where gov.uk instead says an underpaid employee stays on the "
+              "emergency code until the right tax is paid. Where you overpaid, gov.uk's wording "
+              "is permissive: 'you can claim a tax refund'.",
+  ),
+)
+
+
+# ===================================================================== 2
+VANZARI_ONLINE = dict(
+  slug="vanzari-online-platforme",
+  title="Vinzi online — ce trimite platforma la HMRC și ce NU înseamnă asta",
+  tags_ro="#vanzarionline #hmrc #selfassessment #contabilitate #romaniinuk",
+  tags_en="#onlineselling #hmrc #sidehustle #ukaccountant #soletrader",
+
+  RO=[
+    dict(type="hook",
+         kicker="Vânzări online · gov.uk",
+         h1="Platforma te raportează la HMRC. <em>Nu e o factură de taxe.</em>",
+         say="Din 1 ianuarie 2024, site-urile și aplicațiile pe care vinzi trebuie să adune datele vânzătorilor și să le raporteze la HMRC. Cuvintele HMRC: asta nu înseamnă automat că datorezi taxe."),
+    dict(type="step", step="Când NU ești raportat", fig="30 <small>de vânzări</small>",
+         say="Datele tale nu se raportează dacă ai sub 30 de vânzări de bunuri într-un an calendaristic și ai încasat cel mult 2.000 de euro (circa £1.700) din ele.",
+         note="Platforma e obligată să îți dea și ție o copie a ce a trimis la HMRC."),
+    dict(type="step", step="De obicei NU plătești", fig="ale tale",
+         say="Pe lucrurile care au fost ale tale și le-ai folosit — haine, mobilă, telefonul vechi — de obicei nu plătești Income Tax.",
+         note="Un obiect vândut cu peste £6.000 poate intra la Capital Gains Tax. Marfa cumpărată ca să o vinzi: anunți HMRC peste £1.000 încasați pe an."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Vânzări online · gov.uk",
+    h1="Nu știi <em>dacă trebuie să anunți HMRC</em>?",
+    say="Spune-ne ce ai vândut și îți spunem ce pagini de pe gov.uk te privesc.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Selling online · gov.uk",
+         h1="The platform reports you to HMRC. <em>That is not a tax bill.</em>",
+         say="Since 1 January 2024 the sites and apps you sell on have had to collect seller details and report them to HMRC. HMRC's own words: this does not automatically mean that you owe tax."),
+    dict(type="step", step="When you are NOT reported", fig="30 <small>sales</small>",
+         say="Your details are not reported if you make fewer than 30 sales of goods in a calendar year and receive no more than 2,000 euros — about £1,700 — for those sales.",
+         note="Whatever is reported, the platform operator has to give you a copy of it."),
+    dict(type="step", step="Who usually owes NO tax", fig="your own",
+         say="Things that were yours and that you used — clothes, furniture, an old phone — usually carry no Income Tax, however many you sell.",
+         note="An item sold over £6,000 can bring in Capital Gains Tax. Goods bought in order to sell: tell HMRC above £1,000 taken in over the tax year."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Selling online · gov.uk",
+    h1="Not sure <em>whether to tell HMRC</em>?",
+    say="Tell us what you have been selling and we will point you at the gov.uk pages that apply.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("Reporting rules for digital platforms took effect on 1 January 2024; a platform is any "
+     "software, including mobile apps and websites, which allows you to offer services and goods "
+     "to users; 'Your details will not be reported if you: make fewer than 30 sales of goods in a "
+     "calendar year [and] receive less than 2,000 euros (about £1,700) for those sales'; "
+     "'Platform operators have to give you a copy of the information they have reported to HMRC'; "
+     "'This does not automatically mean that you owe tax'",
+     "https://www.gov.uk/guidance/selling-goods-or-services-on-a-digital-platform", "2026-11-10"),
+    ("Personal possessions are items that belong to you for your own use, and you probably do not "
+     "have to pay Income Tax on selling them; items sold for more than £6,000 may be subject to "
+     "Capital Gains Tax; for selling goods, providing services or creating online content you need "
+     "to tell HMRC where your total income is more than the £1,000 trading allowance for the tax "
+     "year; in some cases you may still need to tell HMRC about income even if no tax is due",
+     "https://www.gov.uk/guidance/check-if-you-need-to-tell-hmrc-about-your-income-from-online-platforms",
+     "2026-11-10"),
+    ("The Platform Operators (Due Diligence and Reporting Requirements) Regulations 2023, the UK "
+     "regulations imposing the duty; regulation 10(2)(b) refers to 'the threshold of 30 relevant "
+     "activities per reportable period in section I(B)(4)(d) of the model rules', the excluded "
+     "seller test the gov.uk guidance restates",
+     "https://www.legislation.gov.uk/uksi/2023/817/made", "2026-11-10"),
+    ("HMRC manual IEIM901630 (Excluded Sellers): the exclusion covers sellers for whom the "
+     "platform 'solely facilitated less than 30 Relevant Activities for the sale of goods, and "
+     "for which the total Consideration paid or credited did not exceed 2000 euros during the "
+     "Reportable Period', and 'Both tests must be met for this exclusion to apply' — the "
+     "conjunction gov.uk's two bullets leave unprinted, and the reason the cards say 'no more "
+     "than' rather than gov.uk's looser 'less than'",
+     "https://www.gov.uk/hmrc-internal-manuals/international-exchange-of-information/ieim901630",
+     "2026-11-10"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK. The reporting duty is imposed by UK-wide regulations, and Income Tax on "
+           "trading profits is reserved. The Scottish and Welsh rates change the rate charged on "
+           "the profit, not whether the income has to be reported or declared.",
+    category="Anyone selling goods or services through a digital platform — marketplaces, hire and "
+             "task apps, short-let sites, content platforms. Note the 30-sale and 2,000-euro test "
+             "is written about the sale of GOODS; someone letting a room or selling services "
+             "through a platform is not inside that particular exemption.",
+    excluded="A seller under both limits in the calendar year — fewer than 30 sales of goods and "
+             "less than 2,000 euros, about £1,700, for those sales — is not reported by the "
+             "platform. More importantly, being reported is not the same as owing tax: gov.uk says "
+             "selling personal possessions, items that belong to you for your own use, probably "
+             "carries no Income Tax however many you sell. Two counterexamples come from the same "
+             "gov.uk pages: a single item sold for more than £6,000 can bring Capital Gains Tax "
+             "into play, and anyone who bought or made goods in order to sell them is trading, so "
+             "once the total passes the £1,000 trading allowance for the tax year HMRC has to be "
+             "told. gov.uk also warns that in some cases you must tell HMRC about income even "
+             "where no tax is due, so 'no tax' does not always mean 'nothing to do'.",
+    from_when="The reporting rules took effect on 1 January 2024 and run by CALENDAR year, while "
+              "the £1,000 trading allowance runs by TAX year — the two windows are not the same. "
+              "The £1,000 trading allowance and the £6,000 chattels figure are the current ones. "
+              "Nothing is claimed: the platform reports automatically, and telling HMRC is the "
+              "seller's own duty.",
+  ),
+)
+
+
+# ===================================================================== 3
+CHELTUIELI = dict(
+  slug="cheltuieli-deductibile",
+  title="Pe cont propriu — ce cheltuieli scazi și ce NU scazi",
+  tags_ro="#pecontpropriu #cheltuieli #selfassessment #contabilitate #romaniinuk",
+  tags_en="#selfemployed #allowableexpenses #hmrc #soletrader #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Pe cont propriu · cheltuieli",
+         h1="Taxa se plătește pe <em>profit</em>, nu pe cât ai încasat.",
+         say="Dacă lucrezi pe cont propriu, scazi din încasări costurile făcute pentru muncă. Ce rămâne e profitul pe care se calculează taxa."),
+    dict(type="step", step="Doar partea de muncă", fig="<cur>£</cur>70 <small>din £200</small>",
+         say="Exemplul de pe gov.uk: factura la telefon e £200 pe an, din care £130 convorbiri personale și £70 pentru muncă. Scazi £70.",
+         note="La fel la mașină, la curent, la internet: doar partea folosită pentru muncă."),
+    dict(type="step", step="Ce NU scazi", fig="haine <small>obișnuite</small>",
+         say="Nu scazi hainele obișnuite — costum, cămașă, pantofi — nici dacă le porți doar la muncă. Hainele de protecție se scad: bocanci, cască.",
+         note="Nu scazi drumul până la un loc de muncă fix, amenzile sau, de regulă, mesele cu clienții. Iar cu scutirea de £1.000 nu mai scazi nimic."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Pe cont propriu · cheltuieli",
+    h1="Nu ești sigur <em>ce intră și ce nu</em>?",
+    say="Scrie-ne ce fel de muncă faci și îți spunem ce pagini de pe gov.uk te privesc.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Self-employed · expenses",
+         h1="Tax is charged on your <em>profit</em>, not on what came in.",
+         say="Work for yourself and you take the costs of the work off your income. What is left is the taxable profit the tax is worked out on."),
+    dict(type="step", step="Only the business share", fig="<cur>£</cur>70 <small>of £200</small>",
+         say="GOV.UK's own example: a phone bill of £200 for the year, £130 of it personal calls and £70 business. You claim the £70.",
+         note="Same with the van, the electricity, the broadband: only the part used for the work."),
+    dict(type="step", step="What you canNOT claim", fig="everyday",
+         say="Not everyday clothing — suits, shirts, ordinary shoes — even when worn only for work. Protective clothing does count: safety boots, a hard hat.",
+         note="Nor travel to a regular workplace, fines, or usually client entertaining. Take the flat £1,000 trading allowance instead and claim no expenses."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Self-employed · expenses",
+    h1="Not sure <em>what counts</em>?",
+    say="Tell us what sort of work you do and we will point you at the gov.uk pages that apply.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ("'If you're self-employed, you can only claim for costs related to business purchases'; "
+     "'You can only claim allowable expenses for the business costs'; the worked example — a "
+     "£200 phone bill of which £130 is personal calls and £70 business, so £70 is claimed; "
+     "'You can deduct these costs to work out your taxable profit before paying Income Tax'; "
+     "'You cannot claim expenses if you use your £1,000 tax-free trading allowance'",
+     "https://www.gov.uk/expenses-if-youre-self-employed", "2026-11-10"),
+    ("Clothing: you can claim protective clothing needed for your work such as safety boots or "
+     "hard hats, clothing that protects your everyday clothes such as aprons or overalls used "
+     "solely for work, specialist clothing or uniforms that are not everyday clothing, and "
+     "costumes for acting or advertising; 'You cannot claim for everyday clothing, such as suits, "
+     "shirts, dresses or ordinary shoes', even where worn for work",
+     "https://www.gov.uk/expenses-if-youre-self-employed/clothing", "2026-11-10"),
+    ("Car, van and travel: vehicle insurance, repairs and servicing, fuel, parking, hire charges, "
+     "vehicle tax licence fees, breakdown cover, and train, bus, tram, air and taxi fares, hotel "
+     "rooms and meals on overnight business trips can be claimed; you cannot claim 'non-business "
+     "driving or travel costs', 'fines or penalty charges' or 'travel between home and work'",
+     "https://www.gov.uk/expenses-if-youre-self-employed/travel", "2026-11-10"),
+    ("Marketing and entertainment: advertising, mailshots and website costs can be claimed, and "
+     "promotional items carrying the business name up to £50 per recipient per tax year; you "
+     "cannot usually claim the cost of entertaining clients, suppliers or customers, including "
+     "hiring entertainers, food or accommodation for attendees, venue hire or transport, or "
+     "tickets to sporting, music or other entertainment events; staff events where employees are "
+     "the main attendees can be claimed",
+     "https://www.gov.uk/expenses-if-youre-self-employed/marketing-entertainment-subscriptions",
+     "2026-11-10"),
+    ("Office, property and equipment: rent, business and water rates, utility bills, property "
+     "insurance and security, phone, mobile and internet bills, postage, printing, stationery, "
+     "repairs and maintenance, and the business part of home office costs can be claimed; 'You "
+     "cannot claim for any non-business use of premises, phones or other office resources'",
+     "https://www.gov.uk/expenses-if-youre-self-employed/office-property", "2026-11-10"),
+    ("Business Income Manual BIM37620, on an itinerant trader whose base of operations is the "
+     "home: 'you should allow the costs of travelling between the residence and the sites at "
+     "which the trader works' — Horton v Young, a bricklayer working sites from a home base. "
+     "Brightman J's wording is that such costs 'will normally be' wholly and exclusively for the "
+     "trade, 'because every case must to some extent depend on its own facts'. So gov.uk's flat "
+     "'travel between home and work' is travel to a REGULAR workplace",
+     "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim37620", "2026-11-10"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK. How taxable profit is worked out for the self-employed is reserved and "
+           "identical across the four nations; the Scottish and Welsh rates change the rate "
+           "charged on the profit, not the rules for arriving at it.",
+    category="Sole traders and business partners working out taxable profit under Self Assessment. "
+             "Not limited companies, which have their own Corporation Tax rules, and not employees, "
+             "who claim job expenses by a different route with a much narrower test.",
+    excluded="Anyone using the £1,000 trading allowance claims no expenses at all — gov.uk puts it "
+             "flatly: 'You cannot claim expenses if you use your £1,000 tax-free trading "
+             "allowance.' It is one or the other, not both. Particular costs are outside whatever "
+             "the trade: everyday clothing such as suits, shirts, dresses or ordinary shoes even "
+             "when worn only for work; travel between home and work; fines and penalty charges; "
+             "non-business driving; and entertaining clients, suppliers or customers, including "
+             "venue hire, transport and event tickets. Non-business use of premises, phones or "
+             "other office resources is excluded too — only the business share is claimable. The "
+             "counterexample that matters most here is not on the consumer page at all: "
+             "BIM37620 allows an ITINERANT trader whose base of operations is the home to deduct "
+             "travel from home to the sites worked — Horton v Young — so gov.uk's flat 'travel "
+             "between home and work' means travel to a REGULAR workplace, and a CIS tradesman "
+             "moving between sites is usually outside that exclusion. Separately, agency and "
+             "umbrella workers are employees, so none of these rules reach them at all: they "
+             "claim job expenses by a much narrower route. The rest sit on the gov.uk pages: "
+             "protective clothing, overalls and non-everyday uniforms ARE claimable, promotional "
+             "items carrying the business name up to £50 per recipient per tax year ARE "
+             "claimable, and staff events where employees are the main attendees ARE claimable.",
+    from_when="Current rules, now. The £1,000 trading allowance is the figure in force. Nothing is "
+              "claimed in advance or applied for: the expenses are deducted on the Self Assessment "
+              "return for that tax year.",
+  ),
+)
+
+
+# ===================================================================== 4
+SSP_PRIMA_ZI = dict(
+  slug="concediu-medical-ssp",
+  title="Concediu medical plătit — din prima zi, din 6 aprilie 2026",
+  tags_ro="#concediumedical #drepturi #angajatuk #salariu #romaniinuk",
+  tags_en="#statutorysickpay #employmentrights #payroll #uk #workersrights",
+
+  RO=[
+    dict(type="hook",
+         kicker="Concediu medical · din 6 aprilie 2026",
+         h1="Plata pe boală vine acum <em>din prima zi</em>.",
+         say="Până la 6 aprilie 2026, primele trei zile nu intrau la plata SSP. Acum Statutory Sick Pay se plătește din prima zi întreagă de boală. Și s-a scos pragul de salariu sub care nu primeai nimic."),
+    dict(type="step", step="Cât primești", fig="<cur>£</cur>123,25",
+         say="Până la £123,25 pe săptămână, sau 80% din salariul tău mediu săptămânal — cât e mai mic. Plătește angajatorul, până la 28 de săptămâni.",
+         note="E minimul legal. Dacă firma are schema ei de concediu medical, poate plăti mai mult — mai puțin, nu."),
+    dict(type="step", step="Cine NU primește", fig="angajat",
+         say="Trebuie să fii angajat și să fi lucrat deja pentru acel angajator. Pentru munca pe cont propriu nu există această plată: nu o face statul, o face angajatorul.",
+         note="Nu primești nici dacă ai epuizat cele 28 de săptămâni, nici dacă primești Statutory Maternity Pay."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Concediu medical · din 6 aprilie 2026",
+    h1="Ce s-a schimbat din <em>aprilie 2026</em>?",
+    say="Scrie-ne și îți spunem ce s-a schimbat la plata pe boală.",
+    phone=PHONE, disc="Informații generale, nu consultanță juridică de muncă."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Statutory Sick Pay · from 6 April 2026",
+         h1="Sick pay now starts on the <em>first day</em>.",
+         say="Until 6 April 2026 the first three days of sickness carried no SSP. Statutory Sick Pay is now due from the first full day of sickness absence, and the earnings floor that shut out the lowest paid has gone."),
+    dict(type="step", step="What you get", fig="<cur>£</cur>123.25",
+         say="Up to £123.25 a week, or 80% of your average weekly earnings — whichever is lower. Your employer pays it, for up to 28 weeks.",
+         note="That is the legal minimum. A company sick pay scheme can pay more; it cannot pay less."),
+    dict(type="step", step="Who does NOT get it", fig="employee",
+         say="You have to be classed as an employee and have done some work for that employer. There is no sick pay like this on self-employed work: an employer pays it, not the state.",
+         note="Nor if you have already had the maximum 28 weeks, or if you are getting Statutory Maternity Pay."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Statutory Sick Pay · from 6 April 2026",
+    h1="What changed in <em>April 2026</em>?",
+    say="Message us and we will tell you what changed on statutory sick pay.",
+    phone=PHONE, disc="General information, not employment law advice."),
+
+  SOURCES=[
+    ("Rates and thresholds for employers 2026 to 2027: Statutory Sick Pay is '£123.25 or 80% of "
+     "the employee's average weekly earnings, whichever is lower', payable for each day the "
+     "employee is off work counted from the first day of illness",
+     "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-10"),
+    ("'You can get up to £123.25 per week Statutory Sick Pay'; 'It's paid by your employer for up "
+     "to 28 weeks'; 'You cannot get less than the statutory amount' and an employer's own scheme "
+     "may pay more",
+     "https://www.gov.uk/statutory-sick-pay", "2026-11-10"),
+    ("Eligibility: you must be 'classed as an employee', have 'done some work for your employer' "
+     "and have been ill for 'at least one full working day'; you cannot get SSP if you have "
+     "'received the maximum amount of SSP (28 weeks)' or are 'getting Statutory Maternity Pay'; "
+     "linked periods are each more than one full working day and 8 weeks or less apart, and "
+     "eligibility ends after a continuous series of linked periods lasting more than 3 years; "
+     "agency workers may be entitled",
+     "https://www.gov.uk/statutory-sick-pay/eligibility", "2026-11-10"),
+    ("Employment Rights Act Statutory Sick Pay factsheet: 'Removing the Lower Earnings Limit to "
+     "make Statutory Sick Pay available to all employees'; entitlement from 'their first full day "
+     "of sickness absence' instead of the fourth day; for lower earners 'the rate of Statutory "
+     "Sick Pay will be 80% of an employee's earnings or the current flat rate whichever is lower'; "
+     "commencement expected 6 April 2026",
+     "https://assets.publishing.service.gov.uk/media/695fb36d47867b8e14f764fb/statutory-sick-pay-factsheet.pdf",
+     "2026-11-10"),
+    ("Labour Relations Agency (Northern Ireland's statutory employment body), Statutory Sick Pay "
+     "changes 2026: from 6 April 2026 SSP is 'payable from the first day of illness (removing the "
+     "three-day waiting period)', 'the lower earnings limit will be removed, making it available "
+     "to all employees', and 'The rate will be 80% of average weekly earnings or the flat rate "
+     "(£123.25 for 2026/27), whichever is lower' — the same three changes, from the same date, "
+     "under Northern Ireland's own legislation",
+     "https://www.lra.org.uk/Latest-News/statutory-sick-pay-changes-2026", "2026-11-10"),
+    ("Employment Rights Act 2025: section 10 (waiting period, Great Britain), section 11 (lower "
+     "earnings limit etc, Great Britain), section 12 (waiting period, Northern Ireland) and "
+     "section 13 (lower earnings limit etc, Northern Ireland); section 13 amends Part 11 of the "
+     "Social Security Contributions and Benefits (Northern Ireland) Act 1992, so one UK Act makes "
+     "parallel provision for both",
+     "https://www.legislation.gov.uk/ukpga/2025/36/section/13/enacted/data.htm", "2026-11-10"),
+    ("The Employment Rights Act 2025 (Commencement No. 3 and Transitional Provisions) Regulations "
+     "2026 (SI 2026/373), regulation 2: sections 10 to 13 come into force on 6 April 2026; "
+     "regulation 4(4): 'Statutory sick pay shall be payable by an employer at the weekly rate of "
+     "£123.25'",
+     "https://www.legislation.gov.uk/uksi/2026/373/made", "2026-11-10"),
+  ],
+  SCOPE=dict(
+    nation="All four nations, by parallel provisions inside ONE UK Act rather than by separate "
+           "Northern Ireland legislation. Employment Rights Act 2025 sections 10 and 11 make the "
+           "change for Great Britain and sections 12 and 13 for Northern Ireland, section 13 "
+           "amending Part 11 of the Social Security Contributions and Benefits (Northern Ireland) "
+           "Act 1992. SI 2026/373 regulation 2 commences all four on 6 April 2026 and regulation "
+           "4(4) sets the £123.25 weekly rate. The Labour Relations Agency, Northern Ireland's "
+           "statutory employment body, confirms the same three changes from the same date at the "
+           "same rate. Same Act, same date, same figures, across the UK.",
+    category="Employees. You must be classed as an employee, have done some work for that "
+             "employer, and have been ill for at least one full working day. Removing the Lower "
+             "Earnings Limit means SSP no longer has an earnings floor, so the lowest-paid "
+             "employees are now inside it for the first time. GOV.UK says agency workers may be "
+             "entitled.",
+    excluded="The self-employed get nothing at all: SSP is paid by an employer rather than by the "
+             "state, and the eligibility page requires you to be classed as an employee. Someone "
+             "who has already received the maximum 28 weeks cannot get it, and neither can someone "
+             "getting Statutory Maternity Pay. Eligibility also ends where a continuous series of "
+             "linked periods of sickness — each more than one full working day and eight weeks or "
+             "less apart — has run for more than three years. And the 80% rule is an exclusion in "
+             "disguise: a low earner receives 80% of their average weekly earnings where that is "
+             "lower than £123.25, so £123.25 is a ceiling rather than an entitlement.",
+    from_when="The first-day rule and the removal of the Lower Earnings Limit took effect on "
+              "6 April 2026 across the UK. £123.25 is the 2026/27 flat rate. It is not claimed "
+              "from the state: the employer pays it through payroll.",
+  ),
+)
+
+
+# ===================================================================== 5
+CARD_SECTIUNEA_75 = dict(
+  slug="plata-cu-cardul-75",
+  title="Plătit cu cardul de credit — răspunde și banca, nu doar magazinul",
+  tags_ro="#drepturiconsumatori #cardcredit #uk #protectie #romaniinuk",
+  tags_en="#consumerrights #section75 #creditcard #uk #moneytips",
+
+  RO=[
+    dict(type="hook",
+         kicker="Drepturi · plata cu cardul",
+         h1="Plătit cu cardul de credit? <em>Răspunde și banca.</em>",
+         say="Dacă ai cumpărat direct de la firmă și ea te-a mințit sau nu și-a respectat contractul, legea îți dă aceeași pretenție și față de cel care ți-a dat cardul. Răspund amândoi, în egală măsură."),
+    dict(type="step", step="Între £100 și £30.000", fig="<cur>£</cur>100–30.000",
+         say="Prețul unui singur produs sau serviciu trebuie să fie peste £100 și cel mult £30.000.",
+         note="Contează prețul lui, nu cât ai pus tu pe card. Consumer Credit Act 1974, în tot Regatul Unit."),
+    dict(type="step", step="Cine NU e acoperit", fig="direct",
+         say="Trebuie să fi cumpărat direct de la firmă. FCA spune că plata printr-un intermediar — PayPal, Amazon Marketplace, un site comparator — poate să nu fie acoperită.",
+         note="Nici cardul de debit nu intră, nici «charge card» sau cele preplătite. La debit rămâne «chargeback», care după FCA nu e un drept legal, ci o regulă Visa, Mastercard și Amex."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Drepturi · plata cu cardul",
+    h1="Nu știi <em>unde se reclamă</em>?",
+    say="Scrie-ne și îți spunem ce pagini oficiale explică pasul următor. Fără obligații.",
+    phone=PHONE, disc="Informații generale, nu consultanță juridică."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Consumer rights · paying by card",
+         h1="Paid by credit card? <em>The card company is liable too.</em>",
+         say="If you bought directly from the business with a credit card and it misled you or broke the contract, the law gives you the same claim against the card issuer. Both are jointly and severally liable."),
+    dict(type="step", step="Between £100 and £30,000", fig="<cur>£</cur>100–30,000",
+         say="The cash price of the single item or service has to be more than £100 and not more than £30,000.",
+         note="It is the item's price that counts, not what you put on the card. Consumer Credit Act 1974, UK-wide."),
+    dict(type="step", step="Who is NOT covered", fig="direct",
+         say="You have to have bought direct from the business. The FCA says paying through a third party — PayPal, Amazon Marketplace, a comparison site — may not be covered.",
+         note="Debit cards are outside it too, with charge cards and prepaid cards. Debit has chargeback instead, which the FCA calls a card scheme rule, not a statutory right."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Consumer rights · paying by card",
+    h1="Not sure <em>where to complain</em>?",
+    say="Message us and we will point you at the official pages that set out the next step. No obligation.",
+    phone=PHONE, disc="General information, not legal advice."),
+
+  SOURCES=[
+    ("Consumer Credit Act 1974 section 75(1): where the debtor under a debtor-creditor-supplier "
+     "agreement falling within section 12(b) or (c) has, in relation to a transaction financed by "
+     "the agreement, any claim against the supplier in respect of a misrepresentation or breach of "
+     "contract, 'he shall have a like claim against the creditor, who, with the supplier, shall "
+     "accordingly be jointly and severally liable to the debtor'; section 75(3): subsection (1) "
+     "does not apply to a claim 'so far as the claim relates to any single item to which the "
+     "supplier has attached a cash price not exceeding £100 or more than £30,000' — the £100 and "
+     "£30,000 figures substituted by S.I. 1983/1878",
+     "https://www.legislation.gov.uk/ukpga/1974/39/section/75", "2026-11-10"),
+    ("FCA finalised guidance, Cancellations and refunds: section 75 'is a statutory right under "
+     "the Consumer Credit Act 1974', available where the consumer paid with a credit card and the "
+     "cash price for a single item or service falls in the £100 to £30,000 band; it does not cover "
+     "debit card purchases, nor charge card or prepaid card purchases; 'Chargeback is not a "
+     "statutory right' but an arrangement under the card scheme rules of Mastercard, Visa and "
+     "Amex, available on debit as well as credit cards",
+     "https://www.fca.org.uk/publication/finalised-guidance/cancellations-refunds-helping-consumers-rights-routes-to-refunds.pdf",
+     "2026-11-10"),
+    ("FCA finalised guidance, Annex 1: 'Section 75 may not cover cases where the goods or services "
+     "are paid for via a third party', the examples being travel comparison websites, PayPal and "
+     "Amazon Marketplace, with the consumer test 'Did you use your credit card to buy the "
+     "goods/services directly with the supplier?'; and 'Section 75 is unlikely to cover cases "
+     "where the booking was paid for with a voucher'",
+     "https://www.fca.org.uk/publication/finalised-guidance/cancellations-refunds-helping-consumers-rights-routes-to-refunds.pdf",
+     "2026-11-10"),
+    ("Consumer Credit Act 1974 section 193(2): 'This Act extends to Northern Ireland.' — the "
+     "extent provision itself, rather than an inference from it being an Act of the UK Parliament",
+     "https://www.legislation.gov.uk/ukpga/1974/39/section/193", "2026-11-10"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK, on the Act's own extent provision rather than on an inference: "
+           "Consumer Credit Act 1974 section 193(2) reads 'This Act extends to Northern Ireland.' "
+           "Section 75 applies in England, Wales, Scotland and Northern Ireland alike.",
+    category="Someone who bought goods or services from a supplier using a credit card, where the "
+             "cash price of the single item or service is more than £100 and not more than "
+             "£30,000, and who has a claim against that supplier for misrepresentation or breach "
+             "of contract.",
+    excluded="The exclusion that decides it for this audience is the third party, not the card "
+             "type: the FCA says 'Section 75 may not cover cases where the goods or services are "
+             "paid for via a third party', naming travel comparison websites, PayPal and Amazon "
+             "Marketplace, and asks 'Did you use your credit card to buy the goods/services "
+             "directly with the supplier?'. A flight home booked through an agent or comparison "
+             "site is exactly where the right falls away, and the FCA adds that a booking paid "
+             "for with a voucher is unlikely to be covered. Then the card types: debit card "
+             "payments are outside section 75 entirely — the FCA states it does not "
+             "cover debit card purchases, and puts charge cards and prepaid cards outside it as "
+             "well. Price excludes at both ends: section 75(3) disapplies the claim where the "
+             "single item's cash price does not exceed £100, and equally where it is more than "
+             "£30,000. There is also no section 75 claim without an underlying claim against the "
+             "supplier: the section gives a 'like claim' for misrepresentation or breach of "
+             "contract, so changing your mind, or a supplier who did nothing wrong, gives nothing. "
+             "And the route left for debit cards is explicitly not a right: the FCA calls "
+             "chargeback an arrangement under Visa, Mastercard and Amex scheme rules rather than a "
+             "statutory right, so it can simply be refused.",
+    from_when="In force now. Section 75 has been part of the Consumer Credit Act 1974 since "
+              "enactment, and the £100 and £30,000 cash price limits were substituted by "
+              "S.I. 1983/1878 and are the figures that apply today. Nothing is automatic: the "
+              "claim is made by the cardholder to the card issuer.",
+  ),
+)
+
+
+DAY = [COD_URGENTA, VANZARI_ONLINE, CHELTUIELI, SSP_PRIMA_ZI]
 
 # CHILD_BENEFIT was drafted for the 6th and held by the scope checker: its card 3
 # answers "who does not keep it" with the High Income Child Benefit Charge, while
@@ -3530,7 +4078,7 @@ DAY = [CT_9_LUNI, CINE_DEPUNE, BANI_INAPOI, PENSIE_LA_JOB, COMPENSATIE_ZBOR]
 # condition — UK main home, right to reside, and no claim where leave carries a "no
 # public funds" condition. Wording that on a card touches the regulated immigration
 # boundary, so it is Valentin's call, not a studio improvisation at 20:00.
-HELD = [WINTER_FUEL, CHILD_BENEFIT]
+HELD = [WINTER_FUEL, CHILD_BENEFIT, CARD_SECTIUNEA_75]
 
 # Shipped on an earlier day. Kept so preflight's LOSS check can still see every
 # topic that was in the last commit: a topic that leaves DAY has not been lost,
@@ -3539,6 +4087,7 @@ ARCHIVE = [PAYMENTS_ON_ACCOUNT, MTD_INCOME_TAX, VAT_THRESHOLD, MARRIAGE_ALLOWANC
            CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE,
            MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS,
            VOLUNTARY_NI, DIVIDENDS_1075, HOME_WORKING, WARM_HOME_150, HOLIDAY_56,
-           SA_PENALTIES, RENT_A_ROOM, CGT_60_DAYS, CHILDCARE_30H, HELP_TO_SAVE]
+           SA_PENALTIES, RENT_A_ROOM, CGT_60_DAYS, CHILDCARE_30H, HELP_TO_SAVE,
+           CT_9_LUNI, CINE_DEPUNE, BANI_INAPOI, PENSIE_LA_JOB, COMPENSATIE_ZBOR]
 
 BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}

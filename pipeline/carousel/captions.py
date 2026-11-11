@@ -1807,6 +1807,288 @@ Not sure if your flight counts?""",
 )
 
 
+C["cod-urgenta-taxa"] = dict(
+ ro="""Prima lună la jobul nou și pe fluturaș e o taxă mai mare decât te așteptai? De multe ori nu e o greșeală a firmei. E un cod de urgență.
+
+Se întâmplă când noul angajator nu are datele tale de la jobul anterior. Atunci taxa se calculează doar pe luna aceea, ca și cum ai câștiga atât în fiecare lună din an.
+
+Cum îl recunoști: uită-te pe fluturaș, la codul de taxe. Dacă se termină în W1, M1 sau X, e cod de urgență. Unele programe scriu «NONCUM» în loc.
+
+Codul de urgență e 1257L. Cifrele arată cât primești fără taxe într-un an: £12.570, alocația personală pentru 2026/27.
+
+Cum ieși de pe el: îi dai noului angajator P45-ul de la jobul anterior. Nu ai P45? Completezi «starter checklist» — dar formularul nu te scoate singur de pe codul de urgență: în manualul HMRC, după căsuța bifată, ajungi tot pe cod de urgență (cumulativ sau W1/M1) ori pe BR. Gov.uk spune că schimbarea codului poate dura până la 35 de zile de când ai început.
+
+Cine NU ajunge pe cod de urgență: cine dă P45-ul de la început, de obicei nu ajunge deloc. Și cod fiscal ai doar dacă ești plătit prin PAYE — pe cont propriu nu ai niciunul, iar la CIS ți se opresc direct 20% sau 30%.
+
+BR și 0T nu sunt codul de urgență. Dar manualul HMRC arată că 0T se aplică des pe bază W1/M1 chiar la un job nou — deci uită-te la terminație, nu la litere.
+
+Dacă ai plătit prea puțină taxă, nu primești nimic înapoi: rămâi pe cod până se acoperă taxa pe anul acela. Dacă ai plătit în plus, poți cere banii înapoi.
+
+În tot Regatul Unit. Un S sau un C în fața codului arată ce tabel de cote se aplică; pentru 2026/27 cotele din Țara Galilor sunt aceleași ca în Anglia.
+
+Nu știi ce înseamnă codul de pe fluturașul tău?""",
+ th="""Job nou și prea multă taxă pe primul salariu? Uită-te pe fluturaș la codul de taxe: dacă se termină în W1, M1 sau X, e cod de urgență.
+
+Cine NU ajunge pe el: cine îi dă noului angajator P45-ul de la jobul anterior. Și cod fiscal ai doar dacă ești plătit prin PAYE.""",
+ li="""First payslip at a new job, and more tax taken than you expected? It is usually not a payroll error. It is an emergency tax code.
+
+You go onto one when your new employer does not have your pay and tax details from the last job. The tax is then worked out on that pay period alone, as though you earned that amount in every period of the year — which is why a single month can look so wrong.
+
+How to spot it: check the tax code on your payslip. If it ends in W1, M1 or X, it is an emergency code. Some payroll software prints NONCUM instead.
+
+The emergency code itself is 1257L. The number is the tax-free pay the code gives you over a year: £12,570, the basic Personal Allowance, which P9X 2026 states for the whole of the UK for 2026/27.
+
+Coming off it: give your new employer the P45 from your last job. No P45? The starter checklist is the route, but it does not by itself take you off an emergency code — HMRC's PAYE Manual (PAYE61030) sets Statement A to the emergency code on a cumulative basis, Statement B to the emergency code at W1/M1, and Statement C to BR. GOV.UK says updating the code "can take up to 35 days from when you start your job".
+
+Who does NOT end up on one: anyone who hands over a P45 at the start, usually. And you only have a tax code at all if you are paid through PAYE — a sole trader has none, and a CIS subcontractor has 20% or 30% taken off the payment instead of a code.
+
+A word on the letters. BR and 0T are not the emergency code: GOV.UK attaches "usually used if you've got more than one job or pension" to BR, and describes 0T as the Personal Allowance being used up, or a new job where the employer lacks the details. But PAYE61030 shows 0T is frequently operated on a W1/M1 basis in exactly this situation, so a payslip can read "0T M1". Read the suffix, not the letters.
+
+Before you count on a refund: where the emergency code has left you UNDERpaid, nothing comes back. GOV.UK says you stay on the code until the correct tax for the year has been paid. Where you overpaid, its wording is permissive — you can claim a tax refund.
+
+UK-wide. An S or C prefix shows which rate table applies; for 2026/27 the Welsh rates are the same as England's.
+
+Not sure what the code on your payslip means?""",
+ bsky="""New job, too much tax? A code ending W1, M1 or X is an emergency code. Hand over your P45 and you usually avoid it.""",
+ pin_title="UK emergency tax code: W1, M1 or X on your payslip",
+ pin="""Why a first payslip at a new job can take too much tax. Where your employer does not have your pay and tax details from the last job you go onto an emergency tax code, and the tax is worked out on that pay period alone. Spot it by a code ending W1, M1 or X — some payroll software prints NONCUM instead. The emergency code is 1257L: £12,570 of tax-free pay a year, UK-wide for 2026/27. Hand over your P45 and you usually avoid it; the starter checklist does not by itself. HMRC says updating a code can take up to 35 days. Where the code left you underpaid, nothing comes back.""",
+ gbp="""Started a new job in Luton or Birmingham and the first payslip took more tax than you expected? That is usually an emergency tax code rather than a payroll mistake.
+
+It happens when your new employer does not have your pay and tax details from your last job. The tax is then worked out on that pay period alone, as though you earned that amount in every period of the year.
+
+Check the tax code on your payslip. A code ending in W1, M1 or X is an emergency code; some payroll software prints NONCUM instead. The emergency code is 1257L — £12,570 of tax-free pay a year, the basic Personal Allowance for the whole of the UK in 2026/27.
+
+Give your employer the P45 from your last job and you usually avoid it altogether. GOV.UK says that updating a tax code can take up to 35 days from when you start.
+
+One thing to know before counting on money back: where the emergency code left you underpaid, nothing comes back. You stay on the code until the right tax for the year has been paid.""",
+ source="gov.uk/tax-codes/emergency-tax-codes și manualul HMRC PAYE61030",
+ source_en="gov.uk/tax-codes/emergency-tax-codes and HMRC manual PAYE61030",
+)
+
+C["vanzari-online-platforme"] = dict(
+ ro="""Vinzi pe Vinted, eBay, Depop sau Facebook Marketplace? Platforma trimite datele tale la HMRC. Asta nu înseamnă că datorezi taxe.
+
+Din 1 ianuarie 2024, site-urile și aplicațiile pe care se vând bunuri sau servicii trebuie să adune datele vânzătorilor și să le raporteze la HMRC. Cuvintele HMRC: asta nu înseamnă automat că datorezi taxe. Platforma e obligată să îți dea și ție o copie a ce a trimis.
+
+Când NU ești raportat: dacă într-un an calendaristic ai sub 30 de vânzări de bunuri și ai încasat cel mult 2.000 de euro (circa £1.700) din ele. Manualul HMRC e limpede că trebuie îndeplinite amândouă condițiile, nu una.
+
+Atenție la ferestrele de timp: raportarea merge pe an calendaristic, iar scutirea de £1.000 merge pe an fiscal. Nu e același interval.
+
+Cine NU plătește taxe: cine vinde lucruri care au fost ale lui și le-a folosit — haine, jucăriile copiilor, mobilă, telefonul vechi. De obicei nu plătești Income Tax pe ele. Gov.uk spune că, dacă niciun obiect nu valorează peste £6.000, e puțin probabil să ai ceva de anunțat sau de plătit, oricâte ai vinde.
+
+Două excepții, din aceleași pagini gov.uk:
+• un singur obiect vândut cu peste £6.000 poate intra la Capital Gains Tax
+• dacă ai cumpărat sau ai făcut lucruri special ca să le vinzi, asta e activitate comercială. Când totalul trece de scutirea de £1.000 pe an fiscal, anunți HMRC.
+
+Și HMRC avertizează că uneori trebuie să anunți un venit chiar dacă nu ai nimic de plătit pe el. «Fără taxe» nu înseamnă întotdeauna «nimic de făcut».
+
+Se aplică în tot Regatul Unit. Raportarea o face platforma automat; anunțarea HMRC rămâne obligația ta.
+
+Nu ești sigur dacă trebuie să anunți?""",
+ th="""Vinzi pe Vinted sau eBay? Platforma trimite datele tale la HMRC din 2024. HMRC spune limpede: asta nu înseamnă automat că datorezi taxe.
+
+Cine NU plătește: cine vinde lucruri care au fost ale lui și le-a folosit. De obicei nu se plătește Income Tax pe ele.""",
+ li="""Selling on Vinted, eBay, Depop or Facebook Marketplace? The platform reports you to HMRC. That is not the same as owing tax.
+
+Since 1 January 2024, digital platforms have had to collect seller details and report them to HMRC. HMRC's own wording is unambiguous: this does not automatically mean that you owe tax. Whatever goes into the report, the operator has to give you a copy of it.
+
+When you are not reported at all: fewer than 30 sales of goods in a calendar year, and no more than 2,000 euros — about £1,700 — received for those sales. GOV.UK prints these as two bullets; HMRC's own manual (IEIM901630) settles that both tests have to be met, not either.
+
+Watch the two different windows. The reporting rules run by calendar year. The £1,000 trading allowance runs by tax year. They are not the same period, and a seller comfortably outside one can be inside the other.
+
+Who does not owe tax: someone selling personal possessions — items that belonged to them and that they used, such as clothes, furniture or an old phone. GOV.UK says you probably do not have to pay Income Tax on those, and that where no item is worth more than £6,000 it is unlikely you will need to tell HMRC or pay any tax, no matter how many items you sell.
+
+Two counterexamples from the same GOV.UK pages, because the exclusion is narrower than it reads:
+• a single item sold for more than £6,000 can bring Capital Gains Tax into play
+• anyone who bought or made goods in order to sell them is trading, and once the total passes the £1,000 trading allowance for the tax year, HMRC has to be told
+
+GOV.UK also warns that in some cases you must tell HMRC about income even where no tax is due. "No tax" and "nothing to do" are not the same sentence.
+
+UK-wide. The platform reports automatically; telling HMRC remains the seller's own duty.
+
+Not sure whether yours needs declaring?""",
+ bsky="""Platforms report sellers to HMRC. HMRC says that is not automatically a tax bill: selling your own used possessions usually is not taxed.""",
+ pin_title="Selling online in the UK: what platforms report to HMRC",
+ pin="""Digital platforms have reported seller details to HMRC since 1 January 2024, and HMRC says that does not automatically mean you owe tax. You are not reported at all with fewer than 30 sales of goods in a calendar year and no more than 2,000 euros (about £1,700) for them. Selling personal possessions you owned and used usually carries no Income Tax. Two exceptions: one item sold over £6,000 can bring in Capital Gains Tax, and buying or making things in order to sell them is trading — tell HMRC once the total passes the £1,000 trading allowance.""",
+ source="gov.uk/guidance/selling-goods-or-services-on-a-digital-platform și manualul HMRC IEIM901630",
+ source_en="gov.uk/guidance/selling-goods-or-services-on-a-digital-platform and HMRC manual IEIM901630",
+)
+
+C["cheltuieli-deductibile"] = dict(
+ ro="""Dacă lucrezi pe cont propriu, taxa nu se calculează pe cât ai încasat. Se calculează pe profit: încasări minus costurile făcute pentru muncă.
+
+Regula de bază e una singură: scazi doar partea folosită pentru muncă.
+
+Exemplul e chiar de pe gov.uk. Factura la telefon e £200 pe an, din care £130 convorbiri personale și £70 pentru muncă. Scazi £70, nu £200. La fel la mașină, la curent, la internet, la chirie.
+
+Ce se scade: asigurarea mașinii, reparațiile și reviziile, combustibilul, parcarea, taxa de drum, abonamentul de depanare; biletele de tren, autobuz, avion și taxi, hotelul și mesele când dormi în altă parte pentru muncă; chiria, utilitățile și asigurarea la spațiul de lucru; telefonul, internetul, poșta, consumabilele și reparațiile la echipamente; reclama și site-ul.
+
+Hainele de protecție se scad și ele: bocanci cu bombeu, cască, salopetă purtată doar la muncă, uniformă care nu e îmbrăcăminte obișnuită.
+
+Ce NU se scade:
+• hainele obișnuite — costum, cămașă, rochie, pantofi normali — nici dacă le porți doar la muncă
+• drumul până la un loc de muncă fix
+• amenzile și penalizările
+• condusul care nu e pentru muncă
+• de regulă, mesele, biletele și distracția cu care îți inviți clienții
+
+Despre drum, o nuanță care contează mult în construcții: pagina gov.uk spune scurt «drumul de acasă la muncă», dar manualul HMRC (BIM37620) spune că, dacă meseria ta e itinerantă și baza ta e acasă, drumul de acasă la șantiere se scade de obicei. Depinde de situație, deci merită verificat pe cazul tău.
+
+Și scutirea de £1.000: dacă o folosești, nu mai scazi nicio cheltuială. Alegi una sau alta.
+
+Dacă lucrezi prin agenție sau printr-o firmă «umbrella», ești plătit prin PAYE — nimic din toate astea nu te privește: cheltuielile se cer altfel, mult mai îngust.
+
+Se aplică în tot Regatul Unit. Nu ești sigur ce intră la tine?""",
+ th="""Pe cont propriu, taxa se plătește pe profit, nu pe cât ai încasat. Și scazi doar partea folosită pentru muncă: din £200 factură la telefon, £70 dacă atât a fost pentru muncă.
+
+Ce NU scazi: hainele obișnuite, drumul până la un loc de muncă fix, amenzile, mesele cu clienții.""",
+ li="""If you work for yourself, tax is not charged on what came in. It is charged on profit: income less the costs of doing the work.
+
+One rule does most of the work: you claim only the business share.
+
+GOV.UK's own example is a phone bill of £200 for the year, £130 of it personal calls and £70 business. You claim the £70. The same split applies to the van, the electricity, the broadband and the rent.
+
+What is claimable covers most of what a sole trader actually buys: vehicle insurance, repairs and servicing, fuel, parking, vehicle tax licence fees and breakdown cover; train, bus, tram, air and taxi fares, hotel rooms and meals on overnight business trips; rent, business and water rates, utilities, property insurance and security; phone, mobile and internet bills, postage, printing, stationery, and repairs to premises and equipment; advertising, mailshots and website costs.
+
+Protective clothing counts too: safety boots, hard hats, overalls used solely for work, and uniforms that are not everyday clothing.
+
+What is not claimable:
+• everyday clothing — suits, shirts, dresses, ordinary shoes — even when worn only for work
+• travel to a regular workplace
+• fines and penalty charges
+• non-business driving
+• usually, entertaining clients, suppliers or customers, including venue hire, transport and tickets
+
+On travel, one distinction worth the whole post for anyone in the trades. GOV.UK's consumer page says flatly "travel between home and work", but HMRC's Business Income Manual (BIM37620) says that where a trader is itinerant and the base of operations is the home, "you should allow the costs of travelling between the residence and the sites at which the trader works" — the case is Horton v Young, a bricklayer working sites from home. Brightman J's wording is "will normally be", "because every case must to some extent depend on its own facts". So it is travel to a REGULAR workplace that is out, and a tradesman moving between sites from a home base is usually not caught by it.
+
+The trading allowance is an either/or. GOV.UK states it plainly: you cannot claim expenses if you use your £1,000 tax-free trading allowance. One or the other, never both.
+
+And if you are paid through an agency or an umbrella company, none of this reaches you — employment expenses run on a much narrower test.
+
+UK-wide. Not sure what counts in your trade?""",
+ bsky="""Self-employed: tax is on profit, not turnover, and only the business share counts. Everyday clothes and fines are out whatever the trade.""",
+ pin_title="Self-employed expenses: what you can and cannot claim",
+ pin="""UK self-employed tax is charged on profit, not turnover, and you claim only the business share. GOV.UK's example: a £200 phone bill with £130 of personal calls and £70 business, so £70 is claimed. Claimable: vehicle running costs, business travel, rent and utilities on business premises, phone and broadband, advertising, and protective clothing such as safety boots and hard hats. Not claimable: everyday clothing even when worn for work, travel to a regular workplace, fines, and entertaining clients. Use the £1,000 trading allowance and you claim no expenses at all.""",
+ source="gov.uk/expenses-if-youre-self-employed și manualul HMRC BIM37620",
+ source_en="gov.uk/expenses-if-youre-self-employed and HMRC manual BIM37620",
+)
+
+C["concediu-medical-ssp"] = dict(
+ ro="""O schimbare bună, în vigoare de pe 6 aprilie 2026: concediul medical plătit începe acum din prima zi.
+
+Până atunci, primele trei zile nu intrau la plata SSP. Acum Statutory Sick Pay se datorează din prima zi întreagă de boală. Și s-a scos pragul de salariu sub care angajații cu venituri mici nu primeau nimic.
+
+Cât înseamnă: până la £123,25 pe săptămână, sau 80% din salariul tău mediu săptămânal — se ia cât e mai mic. Plătește angajatorul, prin fluturaș, până la 28 de săptămâni.
+
+E minimul legal. Dacă firma are schema ei de concediu medical, poate plăti mai mult. Mai puțin, nu.
+
+Cine NU primește:
+• pentru munca pe cont propriu nu există SSP — îl plătește un angajator, nu statul. Dacă ai și un job part-time prin PAYE, de acolo poți primi.
+• cine a epuizat deja cele 28 de săptămâni
+• cine primește Statutory Maternity Pay
+• cine are o serie neîntreruptă de perioade de boală legate între ele, fiecare peste o zi lucrătoare întreagă și la cel mult 8 săptămâni una de alta, care durează de peste 3 ani
+
+Condițiile: trebuie să fii angajat, să fi lucrat deja pentru acel angajator și să fi fost bolnav cel puțin o zi lucrătoare întreagă. Gov.uk spune că și lucrătorii prin agenție pot avea dreptul.
+
+Atenție la regula de 80%: dacă 80% din salariul tău săptămânal e sub £123,25, atât primești. £123,25 e plafonul, nu suma pentru toată lumea.
+
+Se aplică în tot Regatul Unit, prin aceeași lege: Employment Rights Act 2025 are articole separate pentru Marea Britanie și pentru Irlanda de Nord, intrate în vigoare în aceeași zi, 6 aprilie 2026, cu același plafon de £123,25 pentru 2026/27.
+
+Regulile complete sunt pe gov.uk. Pentru dreptul muncii: Acas în Marea Britanie, LRA în Irlanda de Nord.
+
+Ce s-a schimbat exact din aprilie 2026?""",
+ th="""Din 6 aprilie 2026, concediul medical plătit începe din prima zi, nu din a patra. Până la £123,25 pe săptămână, sau 80% din salariul mediu — cât e mai mic.
+
+Cine NU primește: pentru munca pe cont propriu nu există SSP. Îl plătește un angajator, nu statul.""",
+ li="""A genuinely good change, in force since 6 April 2026: Statutory Sick Pay now starts on the first day.
+
+Until then the first three days of sickness carried no SSP. It is now due from the first full day of sickness absence. And the Lower Earnings Limit no longer applies to SSP, so the lowest-paid employees are inside the scheme for the first time. (The LEL itself still exists for National Insurance — £129 a week for 2026/27. What went is its role as an SSP entitlement condition.)
+
+What it is worth: up to £123.25 a week, or 80% of average weekly earnings — whichever is lower. The employer pays it through payroll, for up to 28 weeks.
+
+That is the legal floor. A company sick pay scheme can pay more. It cannot pay less.
+
+Who does not get it:
+• there is no SSP on self-employed work, because an employer pays it rather than the state. Someone with a PAYE job alongside can still get it from that employer
+• anyone who has already received the maximum 28 weeks
+• anyone getting Statutory Maternity Pay
+• anyone whose continuous series of linked sickness periods — each more than one full working day and eight weeks or less apart — has run for more than three years
+
+The conditions: you must be classed as an employee, have done some work for that employer, and have been ill for at least one full working day. GOV.UK says agency workers may be entitled.
+
+And read the 80% carefully, because it is an exclusion in disguise. Where 80% of your average weekly earnings is below £123.25, 80% is what you get. £123.25 is a ceiling, not an entitlement.
+
+UK-wide, under one Act: the Employment Rights Act 2025 makes the change for Great Britain in sections 10 and 11 and for Northern Ireland in sections 12 and 13, all four commenced on 6 April 2026 by SI 2026/373, which also sets the £123.25 weekly rate.
+
+The full conditions are on gov.uk; for employment law, Acas in Great Britain and the Labour Relations Agency in Northern Ireland.
+
+Not sure what changed in April 2026?""",
+ bsky="""UK sick pay now starts on day one, not day four: up to £123.25 a week or 80% of pay. No SSP on self-employed work — an employer pays it.""",
+ pin_title="UK Statutory Sick Pay from April 2026: day one, no earnings floor",
+ pin="""Statutory Sick Pay changed on 6 April 2026: it is now due from the first full day of sickness absence instead of the fourth, and the Lower Earnings Limit no longer applies to SSP, so it reaches all employees. The rate is up to £123.25 a week or 80% of average weekly earnings, whichever is lower, paid by the employer for up to 28 weeks. Who does not get it: there is no SSP on self-employed work, since an employer pays it rather than the state; anyone who has had the maximum 28 weeks; anyone on Statutory Maternity Pay. One UK Act covers all four nations, commenced the same day.""",
+ source="gov.uk/statutory-sick-pay, Employment Rights Act 2025 și SI 2026/373",
+ source_en="gov.uk/statutory-sick-pay, Employment Rights Act 2025 and SI 2026/373",
+ wa_ro="""Ola Accountancy · 0330 133 1886
+Luton · Birmingham""",
+ wa_th="Ola Accountancy: 0330 133 1886",
+ wa_li="0330 133 1886",
+ disc_ro="Informații generale, nu consultanță juridică de muncă.",
+ disc_en="General information, not employment law advice.",
+)
+
+C["plata-cu-cardul-75"] = dict(
+ ro="""Un drept pe care puțini îl folosesc: dacă ai cumpărat direct de la o firmă, cu cardul de credit, și firma te-a mințit sau nu și-a respectat contractul, poți cere banii de la cel care ți-a dat cardul, nu doar de la magazin.
+
+Nu e o favoare a băncii. E în lege din 1974 — Consumer Credit Act, secțiunea 75. Textul spune că ai aceeași pretenție față de cel care ți-a dat creditul, iar el și furnizorul răspund solidar, în egală măsură.
+
+Limitele sunt tot în lege: prețul unui singur produs sau serviciu trebuie să fie peste £100 și cel mult £30.000. Contează prețul obiectului, nu suma pe care ai pus-o tu pe card.
+
+Cine NU e acoperit:
+• cumpărăturile plătite printr-un intermediar. FCA spune că secțiunea 75 «poate să nu acopere» cazurile în care ai plătit printr-un terț, și dă ca exemple site-urile comparatoare de călătorii, PayPal și Amazon Marketplace. Întrebarea pe care o pune FCA e simplă: ai cumpărat direct de la furnizor, cu cardul tău de credit? Un bilet de avion luat printr-o agenție online e exact cazul în care dreptul se pierde.
+• cardul de debit. FCA spune limpede că secțiunea 75 nu acoperă plățile cu debit, și nici «charge card» sau cardurile preplătite
+• un obiect care costă exact £100 sau mai puțin, ori peste £30.000
+• cazurile în care nu ai de fapt o plângere împotriva firmei. Secțiunea 75 îți dă aceeași pretenție pe care o ai față de magazin, pentru minciună sau pentru contract nerespectat. Dacă pur și simplu te-ai răzgândit, nu ai ce cere.
+
+Pentru cardul de debit rămâne «chargeback», prin care banca încearcă să recupereze banii. Merită încercat, dar FCA e explicită: nu e un drept legal, ci o regulă a schemelor Visa, Mastercard și Amex. Poate fi refuzat.
+
+Se aplică în tot Regatul Unit — articolul 193(2) din lege spune că legea se extinde și în Irlanda de Nord. Și nu e automat: cererea o faci tu, la emitentul cardului.
+
+Nu știi unde se reclamă?""",
+ th="""Plătit cu cardul de credit, direct la firmă? Dacă firma te-a mințit sau nu și-a respectat contractul, răspunde și cel care ți-a dat cardul. Preț peste £100 și până la £30.000.
+
+Cine NU e acoperit: plata printr-un intermediar, ca PayPal sau un site comparator. Și plățile cu cardul de debit.""",
+ li="""A right a lot of people never use: if you bought directly from a business with a credit card and it misled you or broke the contract, you can claim from the card issuer as well as from the shop.
+
+That is not a goodwill gesture. It is section 75 of the Consumer Credit Act 1974, which gives the buyer "a like claim against the creditor, who, with the supplier, shall accordingly be jointly and severally liable to the debtor".
+
+The limits sit in the same section. The cash price of the single item or service has to be more than £100 and not more than £30,000 — figures substituted by SI 1983/1878. It is the price of the item that counts, not the amount you put on the card.
+
+Who is not covered — and the first one is the one that catches people:
+• anything paid for through a third party. The FCA says section 75 "may not cover cases where the goods or services are paid for via a third party", giving travel comparison websites, PayPal and Amazon Marketplace as the examples, and sets the test as: did you use your credit card to buy directly with the supplier? A flight booked through an agent or comparison site is exactly where the right falls away
+• a booking paid for with a voucher, which the FCA says is unlikely to be covered
+• debit card payments. The FCA states that section 75 does not cover them, nor charge cards, nor prepaid cards
+• an item priced at exactly £100 or less, or at more than £30,000
+• anyone without an underlying claim against the supplier. Section 75 mirrors the claim you have against the shop, for misrepresentation or breach of contract. Changing your mind is not one of those
+
+Debit cards have chargeback instead, where the card provider tries to reclaim the money from the merchant. It is worth trying, but the FCA is explicit that chargeback is not a statutory right — only an arrangement under Visa, Mastercard and Amex scheme rules. It can be refused.
+
+UK-wide, on the Act's own extent provision: section 193(2) reads "This Act extends to Northern Ireland." And nothing happens automatically. The claim is made by the cardholder to the card issuer.
+
+The section itself is on legislation.gov.uk. Not sure where to start?""",
+ bsky="""Bought direct with a credit card? Section 75 makes the issuer liable alongside the shop, £100 to £30,000. Paid via PayPal or an agent? Often not.""",
+ pin_title="Section 75: when your credit card company is liable too",
+ pin="""Section 75 of the Consumer Credit Act 1974 makes a credit card issuer jointly and severally liable with the supplier where a business misled you or broke the contract — so you can claim from the card company as well as the shop. It applies where the cash price of the single item or service is more than £100 and not more than £30,000. The catch: the FCA says section 75 may not cover goods or services paid for through a third party such as a comparison site, PayPal or Amazon Marketplace — you need to have bought direct. Debit, charge and prepaid cards are outside it.""",
+ source="legislation.gov.uk/ukpga/1974/39/section/75 și fca.org.uk",
+ source_en="legislation.gov.uk/ukpga/1974/39/section/75 and fca.org.uk",
+ wa_ro="""Ola Accountancy · 0330 133 1886
+Luton · Birmingham""",
+ wa_th="Ola Accountancy: 0330 133 1886",
+ wa_li="0330 133 1886",
+ disc_ro="Informații generale, nu consultanță juridică.",
+ disc_en="General information, not legal advice.",
+)
+
+
 WA_TH = f"WhatsApp: {PHONE}"
 
 
