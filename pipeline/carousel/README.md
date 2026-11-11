@@ -759,3 +759,115 @@ every topic, not an overnight edit. Related: **no card states its nation** — a
 scope answers live in the captions and the SCOPE block, and a scroller never sees
 whether a rule is UK-wide or England-only. For a studio whose founding near-miss was
 a nation error, that is the gap worth closing next.
+
+## What the eighth live run taught us
+
+Run on 11 November 2026 for publication on the 12th. **Three of five carousels
+shipped; 21 Metricool entries accepted, none rejected.** Two were held.
+
+**The report could not be written, for the fifth time in nine days.** `add_repo`
+(`mcp__claude-code-remote__add_repo`) does not exist in this session — a worker
+confirmed `list_repos` does not either — so `valentinavram626-cmd/ola-ops-reports`
+could not be attached and `SAFETY.md` could not be read. Both errors, verbatim:
+
+    git clone --depth 1 https://github.com/valentinavram626-cmd/ola-ops-reports
+    fatal: could not read Username for 'https://github.com': terminal prompts disabled
+
+    Access denied: repository "valentinavram626-cmd/ola-ops-reports" is not
+    configured for this session. Allowed repositories:
+    valentinavram626-cmd/ola-social-posts, valentinavram626-cmd/ola-next. [...] if
+    add_repo is not available, this repository cannot be added to this session.
+
+Five runs in nine days with no day-to-day record where it belongs. The report was
+printed in full in the run output instead. Nothing was deleted, held in the planner
+or unscheduled — only new posts were created — so no backup was required.
+
+* **Every figure was right and four of five carousels were still wrong.** Two
+  independent checkers produced 21 scope faults and 8 fact faults between them, and
+  the fact checker's own summary is the line to keep: *"Not one fault above is a
+  wrong number."* Every one was a missing nation, a missing category, a missing
+  exclusion or a missing date. The verification that matters is no longer
+  arithmetic; it is completeness. Every objection was re-read at primary source
+  before a card was touched, and every one that changed a card held up.
+* **The card-3 slot failed structurally in three of five.** On the savings carousel
+  the "who does NOT" card described people who pay LESS, not people who are
+  excluded. On Carer's Allowance and free school meals it listed exclusions that
+  were real but not the ones this audience hits. In all three the exclusion that
+  would actually change a reader's decision was on a gov.uk page the studio had
+  already read and cited. **A card 3 that does not name somebody who gets nothing
+  is not a card 3**, and preflight's SCOPE check cannot see the difference.
+* **An enumerating label claims completeness, and omission is only safe where the
+  frame does not.** Carer's Allowance card 2 was headed "Două condiții, nu una"
+  while gov.uk lists nine, one of them the immigration-control condition the studio
+  had deliberately left off on Immigration Advice Authority grounds. Compliance
+  BLOCKED it, and correctly: the omission bought no protection and the label made it
+  misleading. Leaving a regulated condition out is defensible; counting the
+  conditions and getting the count wrong is not.
+* **A benefit carousel has to say what claiming COSTS.** gov.uk/carers-allowance/
+  effect-on-other-benefits states that a carer's "Universal Credit payment will be
+  reduced by an amount equal to your Carer's Allowance payment", and that the person
+  cared for "will usually stop getting ... a severe disability premium". For two of
+  the commonest situations in this audience there is no £86.45 to gain, and a
+  carousel whose whole premise was unclaimed money said nothing about it. That page
+  was never read during drafting. **For any benefit, read the "effect on other
+  benefits" page before writing the hook.**
+* **"The cap is gone" was the most dangerous sentence of the night.** DfE guidance
+  splits free school meals in two: a Universal Credit household at or below £7,400
+  gets TARGETED meals, which is what "will attract pupil premium" and carries the
+  Holiday Activities and Food programme and extended-rights school travel; above
+  £7,400 it is "expanded FSM (meals only)". The £7,400 line did not disappear, it
+  changed job. Both checkers found it independently.
+* **Universal Credit was one of four routes, written as the test.** Income-related
+  ESA and the guaranteed element of Pension Credit also qualify, and the error ran
+  the opposite way from the 3 November near-miss: a wider rule sold as narrower, to
+  the readers least likely to ask twice. The asylum-support route is named in the
+  SCOPE block and deliberately on no card.
+* **A band label is a nation fact.** gov.uk/scottish-income-tax: Scottish Income Tax
+  "applies to your wages, pension and most other taxable income" but "You'll pay the
+  same tax as the rest of the UK on dividends and savings interest". A Scottish
+  reader on £46,000 knows themselves as a higher-rate taxpayer, reads a bare
+  "Higher rate: £500" and halves an allowance they actually keep in full. The
+  carousel's own SCOPE block had admitted the interaction was unverified and shipped
+  anyway; it is verified now and card 2 carries it.
+* **£32 and the 60-day Time to Pay cut-off came off every card and caption.** They
+  appear only on HMRC press releases of 2020 and 2021; the current live pages give
+  the £30,000 ceiling and the filed-returns condition and nothing else. A figure
+  that cannot be verified at CURRENT primary source is dropped, not softened — and
+  "it was on gov.uk once" is not current.
+* **The consumer page was silent and the statute was not, again.** SAM61250 excludes
+  "payments on account" from the late payment penalty and the Table in FA 2009 Sch 56
+  lists only s.59B TMA 1970 amounts — s.59A, the payment on account, is absent. So
+  the three 5% charges bite on the balancing payment only, and a taxpayer late on 31
+  July owes interest and no penalty. gov.uk's penalties page says nothing about it.
+* **qa.py has a second blind spot: it measures elements against the frame, never
+  against each other.** The independent verifier found the kicker 4px from the
+  TikTok progress bar on `mese-gratuite-scoala/ro-tiktok/01` — the headline wrapped
+  to five lines and pushed the block up into the chrome. The 9:16 rule tests the top
+  tenth (rows 0-192) and the edge margins; the collision is at row 337, so both
+  passed. The fix was shorter copy and the gap went to 112px, matching the two
+  healthy covers. **A distance-between-elements check belongs in qa.py**, the way
+  footer.py now owns the footer.
+* **limits.py caught 16 over-cap captions across two rounds and nothing was judged
+  by eye.** Fifteen on the first draft, one after the trim. Every caption was
+  generated from captions.py and counted immediately before it was sent.
+* **One writer round, one judge round, then stop.** The checkers reported faults and
+  wrote no wording; four fresh writer sub-agents wrote every fix; the verifier
+  judged its own fault cleared by re-measuring and never edited anything. Held
+  carousels were held rather than rewritten a second time. That is the bound the
+  9 November nine-hour loop was missing.
+
+### Still to settle
+
+The three CTA decisions from 10 November are unchanged and still Valentin's:
+the footer phone number on content cards, whether a CTA card carries the £120 incl.
+VAT price, and what a CTA may promise. Added tonight:
+
+4. **Google Business had no post.** GBP content lives on one chosen topic per day and
+   that topic — Companies House identity verification — was held. Rather than write
+   an unchecked card for the local listing at 21:00, the slot was left empty. GBP is
+   the profile that brings telephone enquiries into Luton and Birmingham, so the
+   better fix is for the GBP card to sit on a topic that is not also the day's
+   riskiest. **A held topic should not be able to take the GBP slot down with it.**
+5. **Carer's Allowance and Companies House both wait on Valentin**, and the Companies
+   House one is time-critical: its substance changes on 18 November 2026, when the
+   12-month identity-verification transition closes.
