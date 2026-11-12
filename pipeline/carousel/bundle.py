@@ -16,7 +16,7 @@ D = pathlib.Path(__file__).parent
 REPO = D.parent.parent
 V = pathlib.Path("/home/claude/verify"); V.mkdir(exist_ok=True)
 MONTH = "2026-11"
-PUBLISH = "11 November 2026"
+PUBLISH = "13 November 2026"
 
 
 def flat(s):

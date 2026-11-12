@@ -4431,7 +4431,390 @@ CARERS_ALLOWANCE = dict(
 )
 
 
-DAY = [LATE_PAYMENT_5, SAVINGS_PSA, FSM_UNIVERSAL_CREDIT]
+# ===================================================================== 41
+# Specified Adult Childcare Credits. The scheme is branded "grandparents" but
+# the legal list runs to eleven categories, and the exclusion that decides it
+# for this audience is that a carer still in paid work gains nothing.
+# NOTE: no primary source imposes a "while the parent works" condition. The
+# test is the PARENT'S earnings factor for the year, not what they were doing.
+SACC_BUNICI = dict(
+  slug="credite-pensie-bunici",
+  title="Ai stat cu nepotul? Poți lua un an de pensie de stat",
+  tags_ro="#pensie #nationalinsurance #bunici #statepension #romaniinuk",
+  tags_en="#statepension #nationalinsurance #grandparents #childcare #ukpensions",
+
+  RO=[
+    dict(type="hook",
+         kicker="Pensia de stat · credite pentru familie",
+         h1="Ai stat cu nepotul? Poți lua un an de <em>pensie</em>.",
+         say="Părintele care ia Child Benefit primește odată cu el și un an plin la pensie. Dacă el are deja anul acela din muncă, nu îi folosește la nimic — și poate trece pe numele tău, dacă tu ai avut grijă de copil."),
+    dict(type="step", step="Cât face un an", fig="<cur>£</cur>241,30",
+         say="Pensia de stat se adună din ani. 35 de ani plini înseamnă pensia întreagă, £241,30 pe săptămână azi. Sub 10 ani nu primești nimic.",
+         note="Se cere pentru fiecare an în urmă, până la 6 aprilie 2011. Copilul trebuie să fi avut sub 12 ani."),
+    dict(type="step", step="Cine NU are ce lua", fig="1",
+         say="Dacă în anul acela ai muncit și ai deja anul plin la National Insurance, nu câștigi nimic — anii nu se adună de două ori. Și e un singur credit de dat pentru fiecare cerere de Child Benefit: dacă îl ia bunicul, bunica nu mai are ce lua.",
+         note="Trebuie să fi avut peste 16 ani și să nu fi ajuns la vârsta de pensionare când ai avut grijă de copil."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Pensia de stat · credite pentru familie",
+    h1="Nu știi dacă ai <em>ani lipsă</em> la pensie?",
+    say="Scrie-ne și îți spunem ce să te uiți în contul tău de National Insurance. Cererea se face cu formularul CA9176, semnat și de părinte.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="State Pension · credits for family carers",
+         h1="Looked after a grandchild? You may be owed a <em>pension year</em>.",
+         say="The parent who claims Child Benefit gets a full year of National Insurance with it. If they already have that year from their own earnings, it does nothing for them — and it can move to you, if you did the childcare."),
+    dict(type="step", step="What a year is worth", fig="<cur>£</cur>241.30",
+         say="The State Pension is built out of years. 35 full years buys the full rate, £241.30 a week today. Under 10 years buys nothing at all.",
+         note="You can claim for every year back to 6 April 2011. The child has to have been under 12."),
+    dict(type="step", step="Who gains nothing", fig="1",
+         say="If you worked that year and already have a full National Insurance year, there is nothing to gain — years do not count twice. And there is one credit per Child Benefit claim: if grandad takes it, grandma cannot.",
+         note="You had to be over 16 and under State Pension age at the time you did the caring."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="State Pension · credits for family carers",
+    h1="Not sure whether you have <em>gaps</em>?",
+    say="Message us and we will tell you what to look for in your National Insurance record. The claim is form CA9176, signed by the parent as well.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ["Apply for Specified Adult Childcare credits — 'These Class 3 National Insurance credits were introduced on 6 April 2011. You can claim them from that date.' The credits 'work by transferring the weekly National Insurance credit a parent or carer gets, as the Child Benefit recipient, to an eligible family member.' Conditions: 'you are an eligible family member, who provided care for a child aged under 12'; 'you were aged 16 years and over, but under State Pension age, when you provided care for the child'; 'you are ordinarily resident in the UK, but not the Channel Islands or the Isle of Man'; 'the child's parent or main carer has claimed Child Benefit, but does not need the credits themselves'; 'the child's parent or main carer agrees to your application'. The parent 'must countersign the form'. 'There is only one credit available for each Child Benefit claim, no matter how many children are on the claim itself.' 'If no one has claimed Child Benefit for the child, there is no attached National Insurance credit to transfer. This means credits cannot be awarded.' 'You should not apply for credits if, for the same period, you: already have a qualifying year of National Insurance - usually because you work or get other National Insurance credits'. 'You must wait until 31 October after the end of the tax year you want to apply for.' Form CA9176.",
+     "https://www.gov.uk/guidance/apply-for-specified-adult-childcare-credits",
+     "2026-11-12"],
+    ["National Insurance Manual NIM41258 — 'The regulations provide for a contributor to be awarded a Class 3 National Insurance (NI) credit for each week falling after 6 April 2011'. The Child Benefit recipient must have 'a qualifying year by means of Class 1 National Insurance contributions paid or treated as paid for the year in which the relevant week falls (in other words they do not need the credit themselves)'. 'An application for SACC can be backdated to 6 April 2011.' 'A credit cannot be awarded unless an application is made.' 'Only one contributor can be awarded a Class 3 NI credit in any relevant week.' On the self-employed: 'the award of the credit does not displace the carer's liability for Class 2 NICs.'",
+     "https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim41258",
+     "2026-11-12"],
+    ["The State Pension Regulations 2015, regulation 35 — the statutory basis. Reg 35(1): a person 'is to be credited with a Class 3 contribution'. Reg 35(3)(b): the Child Benefit recipient's 'earnings factors, other than those derived from a Class 3 contribution credit awarded under regulation 34, exceed the qualifying earnings factor for the year in which the relevant week falls'. Reg 35(6) lists the eligible family members, including a non-resident parent, grandparent, great-grandparent, great-great-grandparent, sibling, parent's sibling, and current or former spouses, civil partners and partners of those. Reg 35(4): where more than one person qualifies they 'shall elect, with the agreement of B, which of them is to be credited'.",
+     "https://www.legislation.gov.uk/uksi/2015/173/regulation/35",
+     "2026-11-12"],
+    ["The new State Pension: what you'll get — 'The full rate of new State Pension is £241.30 a week.' 'If your National Insurance record started after April 2016 you will need 35 qualifying years to get the full rate of new State Pension.' 'If you were contracted out, you will usually need more than 35 qualifying years to get the full rate.'",
+     "https://www.gov.uk/new-state-pension/what-youll-get",
+     "2026-11-12"],
+    ["The new State Pension: eligibility — \"You'll need 10 qualifying years on your National Insurance record to get any new State Pension.\" And National Insurance credits: 'Class 3 - these count towards your State Pension only.'",
+     "https://www.gov.uk/new-state-pension/eligibility",
+     "2026-11-12"],
+  ],
+  SCOPE=dict(
+    nation="UK-WIDE, including Northern Ireland. gov.uk's own eligibility wording is 'ordinarily resident in the UK'. Great Britain runs on reg 35 of the State Pension Regulations 2015; Northern Ireland runs on the substantively identical reg 35 of the State Pension Regulations (Northern Ireland) 2015 (SR 2015/315), which differs only in substituting 'ordinarily resident in Northern Ireland' and 'the Department' for the Secretary of State. There is no Scottish or Welsh variation — the scheme is reserved and the Welsh-language gov.uk page is a translation, not a different scheme. The one genuine geographic exclusion is stated on the card's own source: the Channel Islands and the Isle of Man.",
+    category="An 'eligible family member' aged 16 or over and under State Pension age AT THE TIME the care was given, who cared for a child under 12 while someone else was awarded Child Benefit for that child. The list is far wider than grandparents and the cards say 'family' rather than 'grandparents' for that reason: gov.uk names the mother or father who does not live with the child, grandparent, great-grandparent, great-great-grandparent, aunt or uncle, brother or sister (including half, step and adopted), and the current or previous spouse, partner or civil partner of anyone in that list, and their sons and daughters. Because the age test bites at the time of caring, someone now over State Pension age can still claim for earlier years. A spouse or partner LIVING WITH the Child Benefit recipient uses form CF411A instead, not CA9176.",
+    excluded="THE CARER WHO WAS WORKING GAINS NOTHING, and that is the exclusion card 3 leads with. gov.uk: 'You should not apply for credits if, for the same period, you: already have a qualifying year of National Insurance - usually because you work or get other National Insurance credits'. Also excluded: a carer already receiving Child Benefit for any child, who gets the credits automatically; anyone over State Pension age or under 16 at the time of the caring; anyone not ordinarily resident in the UK, and specifically Channel Islands and Isle of Man residents; a child for whom NOBODY claimed Child Benefit, because then 'there is no attached National Insurance credit to transfer'; a parent who does NOT already have a qualifying year from their own earnings, since reg 35(3)(b) requires their earnings factors to exceed the qualifying earnings factor before anything can be transferred — a parent on a low income or out of work that year cannot transfer; and a parent who simply will not countersign, which is an absolute veto. ONE CREDIT PER CHILD BENEFIT CLAIM however many children and however many carers: two grandparents caring for the same daughter's two children share one credit and the Child Benefit recipient chooses who gets it, with the Secretary of State deciding in default of agreement. Two separate Child Benefit claims — a daughter's child and a son's child — do give two credits. The credit is Class 3 and so counts towards the State Pension ONLY; it does not open up contributory benefits. And a self-employed carer must settle their Class 2 position first: NIM41258 says the credit 'does not displace the carer's liability for Class 2 NICs'.",
+    from_when="Available for weeks of care from 6 April 2011 onwards, and NIM41258 confirms a claim 'can be backdated to 6 April 2011'. Fifteen tax years, 2011/12 to 2025/26, are claimable as at November 2026. It is NEVER automatic: 'A credit cannot be awarded unless an application is made', on form CA9176, countersigned by the Child Benefit recipient. The 31 October rule is a STARTING GUN, NOT A DEADLINE — 'You must wait until 31 October after the end of the tax year you want to apply for' — so 2026/27 cannot be claimed until 31 October 2027. The cards deliberately do not print 31 October, because secondary sources routinely misreport it as a cut-off and a card has no room to correct that; the captions carry it in full.",
+  ),
+)
+
+
+# ===================================================================== 42
+# Tips. Workers' rights rather than tax, so the CTA offers the thing an
+# accountant can actually do — explain how tips are taxed — and the
+# disclaimer sends an employment complaint to ACAS, not to us.
+BACSIS_INTEGRAL = dict(
+  slug="bacsis-integral",
+  title="Bacșișul e al tău, tot — legea din 1 octombrie 2024",
+  tags_ro="#bacsis #drepturilaserviciu #ospatari #hmrc #romaniinuk",
+  tags_en="#tips #tippingact #hospitality #workersrights #uklaw",
+
+  RO=[
+    dict(type="hook",
+         kicker="Bacșiș · legea din 1 octombrie 2024",
+         h1="Bacșișul e al tău. <em>Tot</em>.",
+         say="De la 1 octombrie 2024, localul trebuie să dea mai departe tot bacșișul și tot service charge-ul, fără să oprească nimic din el. Nici măcar comisionul luat de banca de pe card."),
+    dict(type="step", step="Până când trebuie plătit", fig="31 iulie",
+         say="Bacșișul lăsat într-o lună trebuie împărțit până la sfârșitul lunii următoare. Lăsat pe 23 iunie, ajunge la tine până pe 31 iulie cel târziu.",
+         note="Localul trebuie să aibă o politică scrisă și să țină evidența trei ani. Poți cere evidența în scris, o dată la trei luni."),
+    dict(type="step", step="Pe cine NU o acoperă", fig="3 țări",
+         say="Legea e doar pentru Anglia, Scoția și Țara Galilor. În Irlanda de Nord nu se aplică. Nu îi acoperă nici pe cei care lucrează ca self-employed.",
+         note="Bacșișul în bani pe care ți-l dă clientul în mână și îl păstrezi, fără ca patronul să se bage, nu intră sub legea asta."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Bacșiș · legea din 1 octombrie 2024",
+    h1="Nu știi cum se <em>impozitează</em> bacșișul?",
+    say="Scrie-ne și îți spunem ce se reține din el și ce nu. Pentru o plângere la locul de muncă, ACAS te îndrumă gratuit.",
+    phone=PHONE, disc="Informații generale. Pentru o plângere la locul de muncă, întreabă ACAS sau Citizens Advice."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Tips · the law since 1 October 2024",
+         h1="The tip is yours. <em>All</em> of it.",
+         say="Since 1 October 2024 an employer has to pass on every tip and every service charge without taking anything out. Not even the card processing fee the bank charged them."),
+    dict(type="step", step="When it has to reach you", fig="31 July",
+         say="A tip left in one month must be allocated by the end of the following month. Left on 23 June, it reaches you by 31 July at the latest.",
+         note="The employer must have a written tipping policy and keep records for three years. You can ask for your records in writing, once every three months."),
+    dict(type="step", step="Who it does NOT cover", fig="3 nations",
+         say="The Act extends to England, Scotland and Wales only. It does not apply in Northern Ireland. It does not cover people working as self-employed either.",
+         note="A cash tip handed to you and kept by you, with no employer involvement, sits outside this Act altogether."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Tips · the law since 1 October 2024",
+    h1="Not sure how tips are <em>taxed</em>?",
+    say="Message us and we will tell you what comes out of them and what does not. For a workplace complaint, ACAS advises free of charge.",
+    phone=PHONE, disc="General information. For a workplace complaint, contact ACAS or Citizens Advice."),
+
+  SOURCES=[
+    ["Employment (Allocation of Tips) Act 2023 — long title: 'An Act to ensure that tips, gratuities and service charges paid by customers are allocated to workers.' Inserted ERA 1996 s.27D(1): 'An employer must ensure that the total amount of the qualifying tips, gratuities and service charges paid at, or otherwise attributable to, a place of business of the employer is allocated fairly between workers of the employer at that place of business.' s.27C(6): the amount paid by a customer 'means the actual amount paid by the customer (and accordingly any deductions from the amount paid, whether deducted by the employer or any other person, are to be disregarded)'. s.27G: the employer must allocate and pay 'no later than the end of the month following the month in which the tip, gratuity or service charge was paid by the customer'. s.27I: written policy. s.27J: records kept 'for a period of three years', a worker may request them, 'may not make more than one request for records under this section in any three month period', and the employer has a four-week 'response period'. s.27K(3): a tribunal complaint about allocation must be presented 'before the end of the period of twelve months'. s.27N(2): a complaint about the policy or records, 'before the end of the period of three months'. s.27Y: the Part applies to tips paid on or after commencement. s.13: 'This Act extends to England and Wales and Scotland.'",
+     "https://www.legislation.gov.uk/ukpga/2023/13",
+     "2026-11-12"],
+    ["The Employment (Allocation of Tips) Act 2023 (Commencement No. 2) Regulations 2024, reg 3 — the allocation, tronc and timing provisions 'come into force on 1st October 2024'. Reg 1: 'These Regulations extend to England and Wales and Scotland.'",
+     "https://www.legislation.gov.uk/uksi/2024/829/made",
+     "2026-11-12"],
+    ["Code of practice on fair and transparent distribution of tips (statutory), in effect 1 October 2024 — para 2a: 'Pass on all tips and service charges to workers without deductions, except in very limited scenarios, such as deduction of income tax.' Para 13: 'If a worker receives and keeps a cash tip, with no employer control or involvement, the tip is out of scope for the Tipping Act and this code. Digital tipping, whereby a customer uses an app to directly tip members of staff, bypassing the employer altogether, is also out of scope.' Para 16: 'The Tipping Act applies to all workers. It does not apply to self-employed people.' Para 33, the worked example: 'if a customer leaves a tip on 23 June, it must be distributed by 31 July at the latest.' Para 10: an employer is likely to have exercised control over cash tips 'if they tell staff how to distribute cash tips or if they collect cash tips and distribute them at the end of a shift'.",
+     "https://www.gov.uk/government/publications/distributing-tips-fairly-statutory-code-of-practice/code-of-practice-on-fair-and-transparent-distribution-of-tips-html-version",
+     "2026-11-12"],
+    ["Employment Rights Act 1996 Part 2B, live consolidated text — s.27M(1) and s.27O(2) now read '£5,366', not the £5,000 in the Act as enacted. Uprated by The Employment Rights (Increase of Limits) Order 2026 (SI 2026/310), in force 6 April 2026, which raised both from £5,135 to £5,366 where the event giving rise to the entitlement occurred on or after that date.",
+     "https://www.legislation.gov.uk/ukpga/1996/18/part/2B",
+     "2026-11-12"],
+    ["HMRC booklet E24, Guidance on tips, gratuities, service charges and troncs — 'This legislation does not change how these payments should be assessed for tax and National Insurance contributions.' Where an employee keeps a tip handed directly to them: 'Tax will be due on these amounts, but no National Insurance contributions will be due.' 'In most cases where you pass tips to an employee, you are liable for both employer and employee National Insurance contributions.' On mandatory service charges: 'National Insurance contributions are always due on the payments. This is regardless of how the money is shared out between employees.'",
+     "https://www.gov.uk/government/publications/e24-tips-gratuities-service-charges-and-troncs/guidance-on-tips-gratuities-service-charges-and-troncs",
+     "2026-11-12"],
+  ],
+  SCOPE=dict(
+    nation="ENGLAND, WALES AND SCOTLAND ONLY. Section 13 of the Act reads in its entirety: 'This Act extends to England and Wales and Scotland.' Every operative section carries the E+W+S extent marker on legislation.gov.uk, both commencement instruments state the same extent, and both GOV.UK pages carry the banner 'Applies to England, Scotland and Wales.' NORTHERN IRELAND IS NOT COVERED — employment law is a transferred matter there — and card 3 says so on the frame rather than only in the caption, because this is the detail most often got wrong and a worker in Belfast reading a bare 'the law says' would act on a duty that does not exist for their employer.",
+    category="'Workers' of the employer at the place of business where the tips were paid, plus eligible agency workers, who are treated by s.27H as workers of the hirer. Agency workers get a two-stage chain: hirer to agency by the end of the month following the customer's payment, agency to worker by the end of the month after that. Covered tips are 'qualifying tips, gratuities and service charges': employer-received tips, and worker-received tips that are subject to employer control or connected with tips that are. The method of payment does not decide it — Code para 8 — and whether a service charge is mandatory or discretionary makes no difference. Non-monetary tips with a fixed, exchangeable value, such as casino chips, are in; a bottle of wine is not.",
+    excluded="NORTHERN IRELAND, first and foremost, and SELF-EMPLOYED PEOPLE: Code para 16, 'The Tipping Act applies to all workers. It does not apply to self-employed people.' Also outside the Act: a cash tip received and kept by a worker with no employer control or involvement, and app-based tipping that bypasses the employer entirely (Code para 13) — the line is CONTROL, not whether it was cash, so an employer who collects cash tips and shares them out at the end of a shift is back inside the Act. Also excluded: the VAT element of any payment (s.27C(7)); non-monetary gifts without a fixed exchangeable value; tips paid before 1 October 2024 (s.27Y); and, for the written-policy and records duties only, a place of business where tips arise 'on more than an occasional and exceptional basis' is the test, so a shop tipped a few times a year owes neither. Cross-site pooling is not permitted: the duty is to allocate fairly between workers 'at that place of business'. Enforcement is by employment tribunal only — there is no regulator, no HMRC enforcement and no fine — and the two time limits differ: twelve months for an allocation or payment complaint, three months for a policy or records complaint. Compensation for financial loss is capped at £5,366, NOT the £5,000 printed in the Act as enacted.",
+    from_when="1 October 2024, for tips paid by customers on or after that date; the Act does not reach backwards. It is automatic in the sense that it is a duty on the employer rather than something a worker claims — but the records right has to be exercised in writing, and enforcement only happens if a worker brings a tribunal claim. A revised Code of Practice was consulted on between 19 August and 29 September 2026 and the outcome is still pending; the government's own page says 'For now, employers should continue to follow the existing code of practice', so nothing in this carousel states the proposed worker-consultation duty as current law.",
+  ),
+)
+
+
+# ===================================================================== 43
+# Budget Payment Plan. This is the day's Google Business topic: Self
+# Assessment, timely for a 31 January deadline, and the least risky of the
+# five — the 11 Nov run lost its GBP slot because the chosen topic was held.
+PLATA_ESALONATA = dict(
+  slug="plata-esalonata-ianuarie",
+  title="Poți plăti taxa în rate, înainte de 31 ianuarie",
+  tags_ro="#selfassessment #hmrc #taxe #platainrate #romaniinuk",
+  tags_en="#selfassessment #hmrc #budgetpaymentplan #taxbill #ukaccountant",
+
+  RO=[
+    dict(type="hook",
+         kicker="Self Assessment · 31 ianuarie 2027",
+         h1="Poți plăti taxa <em>în rate</em>, înainte s-o datorezi.",
+         say="HMRC are un plan prin care pui deoparte o sumă în fiecare săptămână sau în fiecare lună, prin debit direct, pentru factura care vine. Se cheamă Budget Payment Plan și îl pornești singur, din contul tău HMRC."),
+    dict(type="step", step="Termenul NU se mută", fig="31 ian.",
+         say="Banii puși deoparte se scad din factură. Dacă nu o acoperă pe toată, restul se plătește tot până pe 31 ianuarie 2027. Dacă ai pus mai mult, poți cere diferența înapoi.",
+         note="Poți opri plățile până la 6 luni, dacă ai nevoie."),
+    dict(type="step", step="Cine NU îl poate folosi", fig="0 restanțe",
+         say="Trebuie să fii la zi cu plățile de la declarația trecută. Dacă ai sărit deja un termen, planul nu ți se deschide — acolo se cere Time to Pay.",
+         note="E doar pentru Self Assessment. Nu acoperă TVA, PAYE sau impozitul pe firmă."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Self Assessment · 31 ianuarie 2027",
+    h1="Nu știi <em>cât</em> să pui deoparte pe lună?",
+    say="Scrie-ne și ne uităm împreună la cifra din ianuarie, ca să știi de la ce pornești.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="Self Assessment · 31 January 2027",
+         h1="You can pay the tax <em>in instalments</em>, before it is due.",
+         say="HMRC runs a plan that lets you put money aside weekly or monthly by Direct Debit, towards the bill that is coming. It is called a Budget Payment Plan and you set it up yourself, inside your HMRC account."),
+    dict(type="step", step="The deadline does NOT move", fig="31 Jan",
+         say="What you have put aside comes off the bill. If it does not cover all of it, the rest is still due by 31 January 2027. If you are in credit, you can ask for a refund.",
+         note="You can pause the payments for up to 6 months if you need to."),
+    dict(type="step", step="Who cannot use it", fig="0 arrears",
+         say="You have to be up to date with the payments from your last Self Assessment bill. If you have already missed one, this plan does not open for you — that route is Time to Pay instead.",
+         note="Self Assessment only. It does not cover VAT, PAYE or Corporation Tax."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Self Assessment · 31 January 2027",
+    h1="Not sure <em>how much</em> to put aside each month?",
+    say="Message us and we will work through the January figure with you, so you know what you are aiming at.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  GBP=[dict(type="solo",
+    kicker="Self Assessment · HMRC",
+    h1="Pay January's tax bill with a Budget Payment Plan.",
+    rows=[["weekly", "or monthly, by Direct Debit"],
+          ["31 Jan 2027", "the deadline does not move"],
+          ["already late?", "that is Time to Pay, not this"]],
+    ask="In Luton or Birmingham? Message us about the monthly figure.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant.")],
+
+  SOURCES=[
+    ["Pay your Self Assessment tax bill: pay weekly or monthly — 'You can set up a Budget Payment plan to make weekly or monthly Direct Debit payments towards your next Self Assessment tax bill.' 'Your payments will be used against your next tax bill - this means you'll have less to pay at the payment deadline.' 'To set up a plan you must be up to date with any payments from your last Self Assessment tax bill.' 'You can pause payments for up to 6 months if you need to.' 'If the amount you've paid does not cover all of your next bill, you'll need to pay the difference. If you're in credit, you can ask for a refund.' And the signpost away: 'If you've missed your Self Assessment payment deadline or you cannot pay the amount you owe, you might be able to set up a payment plan (also known as a Time to Pay arrangement).'",
+     "https://www.gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly",
+     "2026-11-12"],
+    ["If you cannot pay your tax bill on time: pay in instalments — the mirror-image signpost, 'If your bill is not overdue and you want to make weekly or monthly payments towards your next Self Assessment tax bill, you may be able to set up a Budget Payment Plan instead.' Time to Pay requires 'details of your income and spending' and 'HM Revenue and Customs (HMRC) will check if a payment plan is affordable for you.'",
+     "https://www.gov.uk/difficulties-paying-hmrc/pay-in-instalments",
+     "2026-11-12"],
+    ["Self Assessment tax returns: deadlines — 'The last tax year started on 6 April 2025 and ended on 5 April 2026.' 'You must submit your online tax return by 11:59pm on 31 January 2027 or you'll get a late filing penalty.' 'You need to pay your Self Assessment tax by 11:59pm on 31 January 2027 or you'll get a penalty.' 'There is a second payment deadline of 31 July if you make payments towards your bill - these are known as payments on account.'",
+     "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+     "2026-11-12"],
+    ["HMRC interest rates for late and early payments, page last updated 6 November 2026 — the rate table gives 7.75% late payment and 2.75% repayment from 9 January 2026, and 8.00% late payment and 3.00% repayment from 24 November 2026. Late payment interest is 'set at base rate plus 4% from 6 April 2025'. So 7.75% is the rate in force until 23 November 2026 and 8.00% applies from 24 November 2026. The page's own summary box is written forward-looking and already quotes 8.00%, which is the rate from 24 November and not the rate today.",
+     "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
+     "2026-11-12"],
+    ["Debt Management and Banking Manual DMBM200210 — lists 'Budget Payment Plans (BPPs) to enable customers to make regular payments towards their future Self Assessment (SA) liabilities' as a distinct plan type on the National Direct Debit System, separate from 'Time to Pay (TTP) payment plans'. The manual describes the Budget Payment Plan as being for future Self Assessment liabilities only.",
+     "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm200210",
+     "2026-11-12"],
+    ["Understand your Self Assessment tax bill: tax calculation (SA302) — the calculation 'does not include any: payments you have made into a Budget Payment Plan'. Worth knowing, because a taxpayer reading their SA302 sees the gross bill, not the bill net of what they have already put aside.",
+     "https://www.gov.uk/understand-self-assessment-bill/tax-calculation-sa302",
+     "2026-11-12"],
+  ],
+  SCOPE=dict(
+    nation="UK-WIDE. Self Assessment is administered by HMRC across the United Kingdom and the Budget Payment Plan page states no nation restriction. The only nation-specific wording anywhere in this subject area sits on the Time to Pay guide and concerns enforcement — HMRC may 'take things you own and sell them' or take money directly from an account 'if you live in England, Wales or Northern Ireland' — and the free debt-advice signposts differ by nation. Nothing in this carousel mentions enforcement, so no nation split reaches a card.",
+    category="Self Assessment taxpayers who are UP TO DATE with the payments from their last Self Assessment bill and want to pay ahead of the next one by Direct Debit, weekly or monthly, set up through their own HMRC online account. A UK bank account and authority to set up a Direct Debit are needed because the plan is Direct Debit only.",
+    excluded="ANYONE IN ARREARS ON THEIR LAST SELF ASSESSMENT BILL. gov.uk: 'To set up a plan you must be up to date with any payments from your last Self Assessment tax bill.' That is the one hard, published exclusion and it is what card 3 carries. Anyone whose bill is already overdue is routed away to Time to Pay instead, and the two pages signpost each other on exactly that test — is the bill overdue or not. HMRC's own triage tool opens with the single question 'Have you missed a payment deadline for your Self Assessment?'. Also outside it: Direct Debit cannot be used for payments over £20 million; and the plan is for Self Assessment, with DMBM200210 describing it as being for 'future SA liabilities' — it is not a route for VAT, PAYE or Corporation Tax. DELIBERATELY NOT CLAIMED ON THE CARDS OR IN THE CAPTIONS, because none of it is on current primary source: the £30,000 self-serve Time to Pay ceiling and the 'return must already be filed' condition survive only in an HMRC press release of 9 December 2025, the guidance page that used to carry them was redirected on 20 January 2026, and the '60 days of the payment deadline' element could not be found in any primary source at all. Nor is it claimed that HMRC pays interest on money held in a Budget Payment Plan, or that a taxpayer can change the amount or cancel the plan themselves — gov.uk is silent on all three, and silence is not a fact in either direction.",
+    from_when="Available now, for the bill due 31 January 2027 covering the tax year that ran 6 April 2025 to 5 April 2026. It has to be set up by the taxpayer and is never automatic; allow 5 working days for a first Direct Debit. It does NOT move the statutory deadline, which is the single most important thing on the carousel: unpaid tax after 11:59pm on 31 January 2027 attracts interest and a penalty whatever is in the plan. HMRC's late payment interest rate is 7.75% until 23 November 2026 and 8.00% from 24 November 2026 — stated in the captions with both dates attached so the line does not go stale eleven days after publication.",
+  ),
+)
+
+
+# ===================================================================== 44
+# Healthy Start. Weekly amounts rose to £4.65 / £9.30 on or around
+# 24 September 2026 — the older £4.25 / £8.50 figures are superseded.
+# The no-recourse-to-public-funds extension is DELIBERATELY on no card and in
+# no caption: it is a case-by-case immigration-status question and the
+# standing rule is that an unsure sentence crosses the line.
+HEALTHY_START = dict(
+  slug="healthy-start-465",
+  title="Healthy Start — bani pe card pentru lapte, fructe și legume",
+  tags_ro="#healthystart #universalcredit #copii #sarcina #drepturi",
+  tags_en="#healthystart #universalcredit #familysupport #nhs #costofliving",
+
+  RO=[
+    dict(type="hook",
+         kicker="Anglia, Țara Galilor, Irlanda de Nord",
+         h1="Ai copil sub 4 ani? Poți primi <em>£9,30</em> pe săptămână de mâncare.",
+         say="Se cheamă NHS Healthy Start. Primești un card pe care intră bani doar pentru lapte, fructe, legume și fasole. Și vitamine gratis, pe deasupra."),
+    dict(type="step", step="Cât intră pe card", fig="<cur>£</cur>9,30",
+         say="£4,65 pe săptămână din a 10-a săptămână de sarcină. £9,30 pe săptămână pentru un copil până la 1 an. £4,65 pe săptămână pentru copiii între 1 și 4 ani.",
+         note="Banii intră o dată la 4 săptămâni. Intri cu Universal Credit, sau cu Pension Credit care include partea pentru copil."),
+    dict(type="step", step="Cine NU îl primește", fig="<cur>£</cur>408",
+         say="În Scoția nu există: acolo e Best Start Foods, cu alte sume și alte reguli. Iar pe Universal Credit, dacă familia câștigă peste £408 pe lună în mână, nu se dă.",
+         note="Trebuie cerut, nu vine automat. Se oprește când copilul face 4 ani."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Anglia, Țara Galilor, Irlanda de Nord",
+    h1="Nu știi dacă <em>familia ta</em> se încadrează?",
+    say="Scrie-ne și îți spunem ce să verifici înainte. Cererea se face online, pe healthystart.nhs.uk.",
+    phone=PHONE, disc="Informații generale. Condițiile complete și cererea sunt pe healthystart.nhs.uk."),
+
+  EN=[
+    dict(type="hook",
+         kicker="England, Wales and Northern Ireland",
+         h1="Child under 4? You may get <em>£9.30</em> a week for food.",
+         say="It is called NHS Healthy Start. You get a prepaid card loaded with money for milk, fruit, vegetables and pulses — and free vitamins on top of it."),
+    dict(type="step", step="What goes on the card", fig="<cur>£</cur>9.30",
+         say="£4.65 a week from the 10th week of pregnancy. £9.30 a week for a child under 1. £4.65 a week for a child aged 1 to 4.",
+         note="Topped up every 4 weeks. You qualify through Universal Credit, or through Pension Credit that includes the child addition."),
+    dict(type="step", step="Who does NOT get it", fig="<cur>£</cur>408",
+         say="Scotland does not have it: there it is Best Start Foods, with different amounts and different rules. And on Universal Credit, a family taking home more than £408 a month does not qualify.",
+         note="It has to be claimed — nothing arrives automatically — and it stops when the child turns 4."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="England, Wales and Northern Ireland",
+    h1="Not sure whether <em>your household</em> qualifies?",
+    say="Message us and we will tell you what to check first. The application is online, at healthystart.nhs.uk.",
+    phone=PHONE, disc="General information. The full conditions and the application are at healthystart.nhs.uk."),
+
+  SOURCES=[
+    ["NHS Healthy Start, what you'll get and how to shop — \"You'll get: £4.65 each week of your pregnancy from the 10th week; £9.30 each week for children from birth to 1 year old; £4.65 each week for children between 1 and 4 years old.\" 'Your money will stop when your child is 4 years old, or if you do not get benefits that make you eligible.' The card cannot be used online, outside the UK, on a phone wallet app, to withdraw cash or to get cashback.",
+     "https://www.healthystart.nhs.uk/what-youll-get-and-how-to-shop/",
+     "2026-11-12"],
+    ["NHS Healthy Start, how to apply — \"You can apply online if: you're more than 10 weeks pregnant or have at least one child under 4 years old; your family's monthly 'take-home pay' (also called 'earned income') is £408 or less from employment; you get Universal Credit.\" And: 'You can apply by email or phone if you're more than 10 weeks pregnant, or have at least one child under 4 years old, and get Pension Credit (which includes the child addition).' A person under 18 and more than 10 weeks pregnant can apply by email or phone without any qualifying benefit, but 'After your baby is born, you will only continue to qualify for Healthy Start if you get the qualifying benefits.'",
+     "https://www.healthystart.nhs.uk/how-to-apply/",
+     "2026-11-12"],
+    ["NHS Healthy Start, scheme rules — the card 'will be topped up every 4 weeks'. 'Once you have successfully applied and we've confirmed your eligibility, you become a beneficiary of the NHS Healthy Start scheme' — there is no auto-enrolment. 'We share information with the benefits agencies every four weeks to check that you're still eligible... If our checks show that you're no longer eligible, your payments will stop and you'll have 16 weeks to spend any remaining funds.' 'Make sure you use your card at least once every 16 weeks.' 'There should not be more than one active claim per household.' What may be bought: plain liquid cow's milk, fresh, frozen and tinned fruit and vegetables, fresh, dried and tinned pulses, and first infant formula based on cow's milk.",
+     "https://www.healthystart.nhs.uk/scheme-rules/",
+     "2026-11-12"],
+    ["NHS Healthy Start homepage — 'If you're more than 10 weeks pregnant or have a child under 4, you may be entitled to get help to buy healthy food and milk.' 'You'll get money added onto your Healthy Start card every 4 weeks.' And the nation line: 'If you live in Scotland — You can get help from Best Start Foods instead.'",
+     "https://www.healthystart.nhs.uk/",
+     "2026-11-12"],
+    ["GOV.UK, Get help to buy food and milk (Healthy Start scheme) — 'If you live in Scotland you cannot get Healthy Start. You can apply to the Best Start Foods scheme instead.' The GOV.UK page-update log for the Healthy Start extension guidance, dated 24 September 2026, records: 'Updated to reflect that Healthy Start weekly payments for eligible families have risen to £4.65 per child under 4 and £9.30 per child under one.'",
+     "https://www.gov.uk/healthy-start",
+     "2026-11-12"],
+    ["mygov.scot, Best Start Grant and Best Start Foods — the mirror-image exclusion: 'If you live in England, Wales or Northern Ireland, you cannot get Best Start Grant or Best Start Foods. You can apply for Sure Start Maternity Grant and Healthy Start Payments.' Best Start Foods 'is paid every 4 weeks. The payments are: £22.40 during pregnancy; £44.80 for each child from birth until they're one year old; £22.40 for each child aged between one and 3 years old.'",
+     "https://www.mygov.scot/best-start-grant-best-start-foods",
+     "2026-11-12"],
+    ["The Healthy Start Scheme and Welfare Food (Amendment) Regulations 2005, regulation 3 — reg 3(8) puts the £408 figure in the legislation: a single claimant of universal credit with 'earned income of £408 or less', or joint claimants with 'combined earned income of £408 or less'. Reg 3(3A): a person is not entitled 'in respect of any week in respect of which the person is entitled to benefit in accordance with Part 5 of the Welfare Food (Best Start Foods) (Scotland) Regulations 2019' — the two schemes are mutually exclusive as a matter of law.",
+     "https://www.legislation.gov.uk/uksi/2005/3262/regulation/3",
+     "2026-11-12"],
+  ],
+  SCOPE=dict(
+    nation="ENGLAND, WALES AND NORTHERN IRELAND. Scotland is excluded and runs Best Start Foods through Social Security Scotland instead, on different amounts, a different benefit list and a different age ceiling. Both sides say so: gov.uk, 'If you live in Scotland you cannot get Healthy Start'; mygov.scot, 'If you live in England, Wales or Northern Ireland, you cannot get Best Start Grant or Best Start Foods'. Reg 3(3A) of SI 2005/3262 makes the two legally mutually exclusive. The nation answer is ON CARD 3, not only in the caption. Note the two schemes are not comparable at a glance: Best Start Foods is quoted per four weeks (£22.40 and £44.80, i.e. £5.60 and £11.20 a week) and stops at age 3, where Healthy Start is quoted per week and runs to age 4 — so the captions never put a weekly figure next to a four-weekly one.",
+    category="Pregnant people more than 10 weeks pregnant, and families with at least one child under 4, who either get Universal Credit with family take-home pay from employment of £408 a month or less, or get Pension Credit that includes the child addition. A person under 18 and more than 10 weeks pregnant qualifies without any benefit, but only until the baby is born. The cards say 'more than 10 weeks pregnant', not 'at least 10 weeks', because that is the published wording.",
+    excluded="ANYONE IN SCOTLAND, which is the exclusion most likely to waste a reader's afternoon and so leads card 3. Then: a Universal Credit household taking home more than £408 a month from employment. Then the one that costs families the most — IT HAS TO BE CLAIMED. There is no auto-enrolment anywhere in the scheme: 'Once you have successfully applied and we've confirmed your eligibility, you become a beneficiary'. Payments stop when the child turns 4, and stop if the qualifying benefit stops, which NHSBSA checks against the benefits agencies every four weeks, leaving 16 weeks to spend what is on the card. A claim is also closed if the card is NOT USED for more than 16 weeks, and the remaining funds are removed — an under-publicised trap that the captions carry. Only one active claim per household, and payments are only made for children named and verified on the Universal Credit claim. Child Tax Credit, Income Support and income-based Jobseeker's Allowance appear in the 2005 regulations but on none of the live application routes, and tax credits ended on 5 April 2025, so they are NOT named anywhere in this carousel as a way in. DELIBERATELY OMITTED ENTIRELY: the extension of the scheme to parents of British children who are subject to a no recourse to public funds condition or have no immigration status. It is published on gov.uk and on the NHS site, but it turns on an individual's immigration status, and the standing rule is that an unsure sentence crosses the Immigration Advice Authority line. It is on no card, in no caption, and not alluded to.",
+    from_when="Live now, and the weekly amounts rose to £4.65 and £9.30 on or around 24 September 2026 — the £4.25 and £8.50 figures that circulate widely are superseded and appear nowhere in this carousel. It must be applied for, online for Universal Credit households or by phone or email for Pension Credit households and under-18s. Payments can take up to 8 weeks to start after a child is verified on the Universal Credit claim, and the card arrives within 10 working days of a successful application. NO TAKE-UP FIGURE IS USED ANYWHERE: NHSBSA has formally withdrawn its eligibility and uptake percentages from January 2023 onwards and says the published figures 'should not be used', so the widely repeated 'families missing out' numbers are not available at primary source and are not claimed.",
+  ),
+)
+
+
+# ===================================================================== 45
+# VAT cash accounting. The point of the carousel is the half nobody mentions:
+# the reclaim is delayed too, and HMRC itself names who gains nothing.
+TVA_LA_INCASARE = dict(
+  slug="tva-la-incasare",
+  title="TVA plătit abia după ce te plătește clientul",
+  tags_ro="#tva #vat #hmrc #cashflow #afacerimici",
+  tags_en="#vat #cashaccounting #hmrc #smallbusinessuk #cashflow",
+
+  RO=[
+    dict(type="hook",
+         kicker="TVA · schema de încasare",
+         h1="Plătești TVA abia <em>după</em> ce te plătește clientul.",
+         say="Normal, TVA-ul se datorează când emiți factura, nu când intră banii. Există o schemă care mută data. Dar merge în ambele sensuri: și TVA-ul de pe cumpărături îl iei înapoi abia după ce plătești furnizorul."),
+    dict(type="step", step="Cum intri", fig="<cur>£</cur>1,35 mil.",
+         say="Intri dacă te aștepți să vinzi £1,35 milioane sau mai puțin în următoarele 12 luni, fără TVA. Nu ceri nimic de la HMRC și nu anunți pe nimeni: începi de la prima zi a unei perioade de TVA.",
+         note="Nu se poate aplica pe trecut. Pentru facturile de până atunci rămâi pe regulile normale."),
+    dict(type="step", step="Cui NU îi folosește", fig="<cur>£</cur>1,6 mil.",
+         say="HMRC spune limpede cui nu-i aduce nimic: celui care e plătit pe loc, la vânzare, și celui care ia înapoi mai mult TVA decât încasează. Și ieși obligatoriu când vânzările pe ultimele 12 luni trec de £1,6 milioane.",
+         note="Nu intri dacă ai declarații sau plăți de TVA restante, sau dacă ești pe Flat Rate Scheme."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="TVA · schema de încasare",
+    h1="Nu știi dacă te-ar <em>ajuta</em> pe tine?",
+    say="Scrie-ne și îți spunem ce să te uiți în facturile tale ca să îți dai seama.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+         kicker="VAT · the Cash Accounting Scheme",
+         h1="Pay the VAT <em>after</em> your customer has paid you.",
+         say="Normally VAT is due when you issue the invoice, even if the money arrives three months later. There is a scheme where it is due when the money lands. But it runs both ways: you reclaim VAT on purchases only once you have paid your supplier."),
+    dict(type="step", step="How you join", fig="<cur>£</cur>1.35m",
+         say="You can join if you expect to sell £1.35 million or less, excluding VAT, over the next 12 months. There is no application and nobody to tell: you start on the first day of a VAT period.",
+         note="It cannot be applied backwards. Invoices from before you start stay on the normal rules."),
+    dict(type="step", step="Who it does NOT help", fig="<cur>£</cur>1.6m",
+         say="HMRC names them: a business usually paid as soon as it makes a sale, and one that often reclaims more VAT than it pays. And you must leave once taxable supplies in the last 12 months pass £1.6 million.",
+         note="You cannot join with VAT returns or payments outstanding, or while on the Flat Rate Scheme."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="VAT · the Cash Accounting Scheme",
+    h1="Not sure whether it would <em>help you</em>?",
+    say="Message us and we will tell you what to look at in your own invoices to work it out.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+
+  SOURCES=[
+    ["VAT Notice 731, Cash accounting scheme, section 1.2 (carries the force of law under regulations 56 to 65 of the VAT Regulations 1995) — 'The scheme allows you to account for VAT (output tax) on your sales based on payments you receive, rather than on tax invoices you issue.' And the other half: 'If you choose to use the scheme, you can only reclaim the VAT incurred on your purchases (input tax) once you pay your supplier.' Section 1.3 names who gains nothing: 'The scheme may not give you any benefit if you: are usually paid as soon as you make a sale / often reclaim more VAT than you pay / make continuous supplies of services'. Section 2.1 lists the joining conditions, including 'you expect the value of your taxable supplies in the next year will be £1.35 million or less', 'you've no VAT Returns outstanding', no VAT conviction, compounded proceedings or dishonest-evasion penalty in the last year, and no money owed to HMRC without an arrangement. Section 2.5: 'you may continue to use it until the annual value of your taxable supplies, including the disposal of stock and capital assets reaches £1.6 million... If you go over this figure, you'll have to leave the scheme at the end of your current tax period'. Section 2.8: 'You cannot use the Flat Rate Scheme with the Cash Accounting Scheme, but it does have its own cash based method.' Section 3.1, force of law: 'You cannot retrospectively apply the Cash Accounting Scheme to your business' and 'There's no need to apply to use the scheme'. Section 2.7 lists the transactions excluded even inside the scheme: lease purchase, hire purchase, conditional sale and credit sale; imports and acquisitions and goods removed from a customs warehouse or free zone; domestic reverse charge supplies; invoices where payment is not due in full within 6 months; and invoices issued in advance of the supply. Section 6.6: 'you do not have to account for VAT on bad debts.'",
+     "https://www.gov.uk/guidance/vat-cash-accounting-scheme-notice-731",
+     "2026-11-12"],
+    ["Cash Accounting Scheme, the short guidance — 'With the Cash Accounting Scheme you: pay VAT on your sales when your customers pay you / reclaim VAT on your purchases when you have paid your supplier.' Eligibility: 'your estimated VAT taxable turnover is £1.35 million or less in the next 12 months'. 'You join at the beginning of a VAT accounting period. You do not have to tell HM Revenue and Customs (HMRC) you use cash accounting.' 'You cannot use cash accounting if: you're not up to date with your VAT Returns or payments... you use the VAT Flat Rate Scheme'. On leaving: 'you must report and pay HMRC any outstanding VAT (whether your customers have paid you or not).'",
+     "https://www.gov.uk/vat-cash-accounting-scheme",
+     "2026-11-12"],
+    ["The Value Added Tax Regulations 1995, regulation 58 — the statutory joining test, reg 58(1)(a): 'he has reasonable grounds for believing that the value of taxable supplies to be made by him in the period of one year then beginning will not exceed £1,350,000'. Reg 58(2) lists the excluded transactions, including supplies 'where a VAT invoice is issued and full payment of the amount shown on the invoice is not due for a period in excess of 6 months from the date of the issue of the invoice'. Reg 58(4): a person is not entitled to begin the scheme 'if the Commissioners consider it is necessary for the protection of the revenue'.",
+     "https://www.legislation.gov.uk/uksi/1995/2518/regulation/58",
+     "2026-11-12"],
+    ["The Value Added Tax Regulations 1995, regulation 60 — the exit test: 'a person shall withdraw from the scheme immediately at the end of a prescribed accounting period of his if the value of taxable supplies made by him in the period of one year ending at the end of the prescribed accounting period in question has exceeded £1,600,000.'",
+     "https://www.legislation.gov.uk/uksi/1995/2518/regulation/60",
+     "2026-11-12"],
+    ["VAT Cash Accounting Scheme Manual VCAS1100 and VCAS3050 — VCAS1100: the scheme 'gives automatic bad debt relief'. VCAS3050, on VAT groups: 'the turnover limit for cash accounting is applied to the group as a whole. If the turnover of the group as a whole is over £1,350,000, cash accounting cannot be used, even though the turnovers of the individual group members may be below this limit.' VCAS8000 confirms the £1,350,000 and £1,600,000 limits have been in force from 1 April 2007 to date.",
+     "https://www.gov.uk/hmrc-internal-manuals/vat-cash-accounting-scheme/vcas1100",
+     "2026-11-12"],
+  ],
+  SCOPE=dict(
+    nation="UK-WIDE. The scheme is made under the VAT Regulations 1995 Part VIII, and regulations 57, 58 and 60 each carry the U.K. extent marker on legislation.gov.uk. There is no Scottish, Welsh or Northern Irish variation and no separate threshold. Notice 731 contains no territorial-scope statement at all, so 'UK-wide' is an inference from the extent of the regulations rather than a quoted sentence, and the cards therefore do not print a nation claim. The only Northern Ireland wording in the notice concerns goods movements: a business registered for VAT in Northern Ireland that acquires goods from an EU member state must keep those acquisitions outside the scheme and account under the normal rules, and may use the scheme for the onward supply. No primary source uses the phrase 'Windsor Framework' in this context and the carousel does not either.",
+    category="VAT-registered businesses that expect taxable supplies, excluding VAT, of £1.35 million or less over the next 12 months, have no VAT returns outstanding, owe HMRC nothing without an arrangement, and have had no VAT conviction, compounded proceedings or dishonest-evasion penalty in the previous year. The scheme must be used for the whole of the VAT-registered business, not picked per customer. Annual Accounting can be combined with it; the Flat Rate Scheme cannot.",
+    excluded="THE BUSINESS THAT GAINS NOTHING IS THE REAL ANSWER HERE, and HMRC's own words carry it: Notice 731 section 1.3 says the scheme 'may not give you any benefit if you: are usually paid as soon as you make a sale / often reclaim more VAT than you pay / make continuous supplies of services'. Card 3 uses the first two because they are the common cases in this audience — a takeaway or a shop paid at the till, and a repayment trader. The notice also warns construction subcontractors mostly under the domestic reverse charge that the scheme 'may not benefit you', and VCAS2250 warns retailers that 'the delaying of input tax recovery may outweigh any perceived benefits'. CANNOT JOIN AT ALL: anyone not VAT registered; anyone expecting over £1.35 million; anyone with VAT returns or payments outstanding; anyone with a VAT conviction, compounded proceedings or a dishonest-evasion penalty in the last year; anyone HMRC has written to withdrawing or denying the scheme; Flat Rate Scheme users; a VAT group whose combined turnover exceeds £1,350,000 even where each member is under it; and anyone hoping to backdate it, because section 3.1 carries the force of law that 'You cannot retrospectively apply the Cash Accounting Scheme'. MUST LEAVE once taxable supplies including disposals of stock and capital assets exceed £1.6 million in the 12 months ending at the end of a tax period, with a narrow one-off-sale exception, and on leaving all outstanding VAT must be accounted for whether or not customers have paid, with a further 6 months available in some cases. TRANSACTIONS THAT STAY OUTSIDE THE SCHEME even for a user: lease purchase, hire purchase, conditional sale and credit sale; imports, EU acquisitions and goods removed from a customs warehouse or free zone; domestic reverse charge supplies; invoices where full payment is not due within 6 months of issue; and invoices issued in advance of the supply. NOT CLAIMED ANYWHERE: that zero-rated sellers are worse off — the nearest sourced wording is 'often reclaim more VAT than you pay', which is the repayment-trader point, and the zero-rating link is our inference, so it stays off. Nor is it claimed that cash accounting changes anything about Making Tax Digital: no source says so, and VAT Notice 700/22 simply treats cash accounting as a tax-point variation inside the same digital record-keeping duty.",
+    from_when="In force and unchanged: VCAS8000 confirms the £1,350,000 and £1,600,000 limits have applied from 1 April 2007 to date, and legislation.gov.uk reports no outstanding effects on regulations 58 or 60 as at 12 November 2026. Joining is never automatic but needs no application either — the business simply starts on the first day of a VAT accounting period, keeps a record separating payments for supplies already accounted for under the normal method, and tells nobody.",
+  ),
+)
+
+
+DAY = [SACC_BUNICI, BACSIS_INTEGRAL, PLATA_ESALONATA, HEALTHY_START,
+       TVA_LA_INCASARE]
 
 # CHILD_BENEFIT was drafted for the 6th and held by the scope checker: its card 3
 # answers "who does not keep it" with the High Income Child Benefit Charge, while
@@ -4473,6 +4856,7 @@ ARCHIVE = [COD_URGENTA, VANZARI_ONLINE, CHELTUIELI, SSP_PRIMA_ZI,
            MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS,
            VOLUNTARY_NI, DIVIDENDS_1075, HOME_WORKING, WARM_HOME_150, HOLIDAY_56,
            SA_PENALTIES, RENT_A_ROOM, CGT_60_DAYS, CHILDCARE_30H, HELP_TO_SAVE,
-           CT_9_LUNI, CINE_DEPUNE, BANI_INAPOI, PENSIE_LA_JOB, COMPENSATIE_ZBOR]
+           CT_9_LUNI, CINE_DEPUNE, BANI_INAPOI, PENSIE_LA_JOB, COMPENSATIE_ZBOR,
+           LATE_PAYMENT_5, SAVINGS_PSA, FSM_UNIVERSAL_CREDIT]
 
 BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
