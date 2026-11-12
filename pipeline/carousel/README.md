@@ -871,3 +871,100 @@ VAT price, and what a CTA may promise. Added tonight:
 5. **Carer's Allowance and Companies House both wait on Valentin**, and the Companies
    House one is time-critical: its substance changes on 18 November 2026, when the
    12-month identity-verification transition closes.
+
+## What the ninth live run taught us
+
+Run on 12 November 2026 for publication on the 13th. **Four of five carousels shipped;
+29 Metricool entries accepted, none rejected.** One was held.
+
+**The report could not be written, for the sixth time in ten days.** `add_repo`
+(`mcp__claude-code-remote__add_repo`) does not exist in this session, so
+`valentinavram626-cmd/ola-ops-reports` could not be attached and `SAFETY.md` could not
+be read. Both errors, verbatim:
+
+    git clone --depth 1 https://github.com/valentinavram626-cmd/ola-ops-reports
+    fatal: could not read Username for 'https://github.com': terminal prompts disabled
+
+    Access denied: repository "valentinavram626-cmd/ola-ops-reports" is not configured
+    for this session. Allowed repositories: valentinavram626-cmd/ola-social-posts,
+    valentinavram626-cmd/ola-next. [...] if add_repo is not available, this repository
+    cannot be added to this session.
+
+Six runs in ten days with no day-to-day record where it belongs. The report was printed
+in full in the run output instead. The planner for 13 November was empty before the run,
+so nothing was deleted, held or unscheduled and no backup was required.
+
+* **`git push origin main` was rejected as non-fast-forward while the remote was a
+  strict ancestor of local, and `git push origin HEAD:refs/heads/main` then worked.**
+  Three attempts with the plain refspec failed — including after `--unshallow` and with
+  150 commits of history — each time reporting "the pushed branch tip is behind its
+  remote counterpart", which `git merge-base --is-ancestor` disproved on the spot.
+  Nothing was force-pushed. **If a push is rejected on a shallow or freshly deepened
+  clone, try the explicit refspec before believing the error.**
+* **Every figure on every frame was right and all four carousels were still held.**
+  Two independent verifiers read the rendered images; between them they produced one
+  grammar fault, one self-contradicting card, two Romanian/English parity gaps and four
+  register breaches — and not one wrong number. That is the second run in a row where
+  the arithmetic was clean and the language was not. The verification that matters is
+  the second language.
+* **The same missing preposition was on the CTA card of three carousels.** "îți spunem
+  **ce** să te uiți" — *a se uita* governs *la*. Both verifiers found it independently,
+  which is usually the sign that a reader would too. It was a word-for-word carry of the
+  English "what to look at", and it sat on the one card that carries the phone number.
+* **I gave the writers a character ceiling for frames twice, and both were wrong.**
+  The second was worse than wrong: the regex in my sweep never matched, so all four
+  iterations measured the same unchanged frame and dutifully reported the same number.
+  That is the 10 November lesson — *verify the json before trusting a measurement* —
+  and it was walked straight into. Re-run with the json asserted at every step, it
+  showed the `fig` slot holds about **9 narrow characters, by pixel width and not
+  character count**: "£1,35 mil." at 10 passes, "No payslip" at 10 fails, and
+  `fig="Irlanda de Nord"` at 15 was the entire cause of a card-3 overflow whose prose
+  needed no cutting at all. The writer had asked me directly whether 15 would fit and
+  was told yes. **A fig is one short word or a number.**
+* **`footer.py` earned its keep again, three frames this time.** `bacsis-integral`
+  ro-feed/03 at -38px, `tva-la-incasare` ro-feed/03 at -85px and en-feed/03 at -149px —
+  footers completely off the frame, lion and wordmark and phone number simply absent
+  from the image, and `qa.py` passing all three because a footer that is gone leaves no
+  ink too close to the edge.
+* **A statutory time limit changed six weeks before publication and the draft had the
+  old one.** ERA 1996 s.27N(2) now reads six months, not three: substituted 1 October
+  2026 by the Employment Rights Act 2025 Sch 12 para 4(4)(a), commenced by SI 2026/954
+  reg 3, with a transitional saving in reg 4(1) that keeps three months for a failure
+  before that date. The research had read the Act as enacted for that section while
+  correctly reading the live consolidated text for the £5,366 cap on the same page.
+  **Read the consolidated text for every figure, not just the one you are checking.**
+* **Healthy Start was held on a boundary, not on a figure.** Reg 3(3)(b) of SI 2005/3262
+  gives a pregnant person under 18 an entitlement with no qualifying benefit, and
+  conditions it on not being someone to whom s.115 of the Immigration and Asylum Act
+  1999 applies. Naming the route without the condition overstates it; naming the
+  condition is a regulated immigration sentence. Both verifiers read the exclusions list
+  as closed — the same completeness fault compliance blocked on Carer's Allowance on
+  11 November. Two further grounds: `healthystart.nhs.uk` and `nhsbsa.nhs.uk` return
+  HTTP 403 from the scheduled-run environment and WebFetch times out on the permission
+  prompt with nobody there to answer, so the £4.65 pregnancy rate could not be verified
+  at current primary source; and the £408 test is "earned income" in reg 3(8), which
+  catches self-employed profit, where the scheme's own page says "take-home pay ... from
+  employment" — narrower than the regulation that gets applied.
+* **The GBP slot survived the hold**, which is the 11 November lesson applied: Google
+  Business sat on the Budget Payment Plan carousel, the cleanest of the five, not on the
+  day's riskiest topic.
+* **`limits.py` caught 31 over-cap captions across two rounds** — 22 on the first draft
+  and 9 after the rewrite round, because a rewrite that answers a fault adds sentences.
+  Nothing was judged by eye and nothing was edited in a Metricool payload.
+* **`bundle.py`'s hard-coded publication date was stale again**, reading 11 November on
+  a run for the 13th. It was fixed before the checkers read the bundles. That is twice
+  in four days for the same constant; it should be derived from the argument.
+
+### Still to settle
+
+The three CTA decisions from 10 November are unchanged and still Valentin's. The Budget
+Payment Plan CTA made the third one sharper: it promised "ne uităm împreună la cifra din
+ianuarie", which is the chargeable work, and it was the only one of four that crossed the
+line. Added tonight:
+
+6. **`fig` needs a stated rule.** It holds one short word or a number, about nine narrow
+   characters. Three of tonight's figs had to be changed for width alone, and one of them
+   only after a measurement I had got wrong twice.
+7. **A gate should compare `posts/carousel/` against `topics.DAY`.** `day.py` staged the
+   held carousel's frames before it was held, so its raw URLs return 200 and a future run
+   reading only the directory would think it published.
