@@ -15,15 +15,15 @@ Partea care decide dacă îți folosește: TVA-ul de pe cumpărături îl iei î
 
 Cum intri: ești deja înregistrat la TVA și te aștepți să vinzi £1,35 milioane sau mai puțin, fără TVA, în următoarele 12 luni. Nu există cerere și nu anunți pe nimeni: începi din prima zi a unei perioade de TVA, perioada pentru care depui declarația.
 
-Un câștig care nu se vede de la început: dacă un client nu te plătește niciodată, nu ai plătit TVA pe factura aceea.
+Un câștig care nu se vede: dacă un client nu te plătește niciodată, nu ai plătit TVA pe factura aceea.
 
-Cui s-ar putea să nu-i folosească, zice HMRC: celui plătit pe loc, la vânzare; celui care cere de la HMRC mai mult TVA decât îi dă; și celui care facturează servicii lună de lună, la contract. Ai magazin sau fast-food și clientul plătește la casă? Schema nu îți mută nimic.
+Cui s-ar putea să nu-i folosească, zice HMRC: celui plătit pe loc, la vânzare; celui care cere de la HMRC mai mult TVA decât îi dă; și celui care facturează servicii lună de lună. Ai magazin sau fast-food și clientul plătește la casă? Schema nu îți mută nimic.
 
-Iar dacă ești subcontractor în construcții și facturezi la reverse charge, nu e vorba de mai puțin folos: facturile alea sunt în afara schemei prin lege. Nu ai ce amâna, dar TVA-ul de pe materiale tot îl iei înapoi mai târziu. Ieși în pierdere.
+Iar dacă ești subcontractor în construcții și facturezi la reverse charge, nu e vorba de mai puțin folos: facturile alea sunt în afara schemei prin lege. Nu ai ce amâna, dar TVA-ul pe materiale tot îl iei mai târziu. Ieși în pierdere.
 
 Cine NU poate intra: cine are declarații de TVA nedepuse sau plăți restante — dar dacă ai o înțelegere cu HMRC să-ți achiți restanțele, poți intra; și cine e pe Flat Rate Scheme.
 
-Cine trebuie să iasă: când vânzările pe ultimele 12 luni trec de £1,6 milioane — dar dacă ai sărit pragul o singură dată, dintr-o vânzare mare, cum e o dubă sau un utilaj, s-ar putea să poți rămâne. Când ieși, datorezi tot TVA-ul rămas, chiar dacă nu ai fost plătit.
+Cine trebuie să iasă: când vânzările pe ultimele 12 luni trec de £1,6 milioane — dar dacă ai sărit pragul o singură dată, dintr-o vânzare mare, cum e o dubă sau un utilaj, s-ar putea să poți rămâne. Când ieși, datorezi tot TVA-ul rămas, chiar dacă nu ai fost plătit; îl poți raporta și plăti în 6 luni.
 
 Nu știi dacă te-ar ajuta pe tine?
 

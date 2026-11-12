@@ -1,4 +1,4 @@
-# Textele postării — Ai stat cu nepotul? Săptămânile alea intră la pensia ta
+# Textele postării — Ai stat cu nepotul? Săptămânile alea pot intra la pensia ta
 
 Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 și TikTok; engleză pe LinkedIn, Bluesky, Pinterest și Google Business.

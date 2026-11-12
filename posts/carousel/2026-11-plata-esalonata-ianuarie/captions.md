@@ -7,9 +7,9 @@ Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 
 ## RO — Instagram, Facebook, Threads, TikTok
 
-Îți faci singur declarația la HMRC — Self Assessment? Nu aștepta ianuarie ca să începi să plătești taxa.
+Îți faci singur declarația la HMRC — Self Assessment? Nu aștepta ianuarie ca să începi să plătești taxele.
 
-Planul se cheamă Budget Payment Plan. Pui deoparte o sumă săptămânal sau lunar, prin debit direct, iar banii se scad din ce ai de plătit. Tu alegi cât și cât de des. Îl pornești tu, din contul tău HMRC online: intri la Direct Debit și îl alegi. Îți trebuie parola de Government Gateway și numărul UTR (10 cifre de la HMRC), iar HMRC verifică întâi dacă te încadrezi.
+Planul se cheamă Budget Payment Plan. Pui deoparte o sumă săptămânal sau lunar, prin debit direct, iar banii se scad din ce ai de plătit. Tu alegi cât și cât de des. Îl pornești tu, din contul tău HMRC online: intri la Direct Debit și îl alegi. Îți trebuie contul Government Gateway și numărul UTR (10 cifre de la HMRC), iar pe gov.uk verifici singur dacă te încadrezi.
 
 Aici se încurcă lumea: termenul nu se mută. Ce nu acoperă planul se plătește tot până pe 31 ianuarie 2027, la 23:59. Din 1 februarie curge dobânda, iar penalizarea vine mai târziu: 5% din taxa neplătită la 30 de zile, adică pe 2 martie 2027, apoi iar la 6 și la 12 luni. Deci dacă rămâi descoperit, plătește repede — până pe 2 martie nu s-a adăugat nicio penalizare de plată.
 
@@ -21,7 +21,7 @@ Poți opri plățile până la 6 luni. Dacă ai pus mai mult, ceri diferența î
 
 Cine NU îl poate folosi: trebuie să fii la zi cu plățile de la declarația trecută. Dacă ai sărit deja un termen de plată, drumul tău e altul: Time to Pay, eșalonarea pentru datoriile deja restante.
 
-E doar pentru Self Assessment: nu TVA, nu taxa oprită din salariu (PAYE), nu impozitul pe firmă.
+E doar pentru Self Assessment: nu TVA, nu taxele oprite din salariu (PAYE), nu impozitul pe firmă.
 
 Nu știi cât să pui deoparte pe lună?
 
@@ -40,7 +40,7 @@ Sursă: gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly, gov.uk/difficult
 
 If you fill in your own tax return — Self Assessment — and the January bill worries you, you do not have to wait until January to start paying it.
 
-HMRC runs a Budget Payment Plan. You put an amount aside every week or every month by Direct Debit, and it comes off the bill when it arrives. You set it up yourself inside your HMRC online account: go to Direct Debit and choose the Budget Payment Plan option. Have your Government Gateway sign-in and your UTR — the 10-digit number HMRC gave you — to hand, and HMRC checks first whether you can use the plan. You choose the amount and the frequency.
+HMRC runs a Budget Payment Plan. You put an amount aside every week or every month by Direct Debit, and it comes off the bill when it arrives. You set it up yourself inside your HMRC online account: go to Direct Debit and choose the Budget Payment Plan option. Have your Government Gateway sign-in and your UTR — the 10-digit number HMRC gave you — to hand, and check on gov.uk first whether you can use the plan. You choose the amount and the frequency.
 
 One thing to understand before you start, because this is where people come unstuck: the deadline does not move. If what you have put aside does not cover the whole bill, the rest is still due by 11:59pm on 31 January 2027. Interest runs from 1 February. The penalty comes later: 5% of the tax still unpaid 30 days after the deadline, which is 2 March 2027, and 5% again at six months and at twelve months. So if you are left short, paying quickly still counts — no late-payment penalty has been added before 2 March. If you are in credit, you can ask for a refund.
 
@@ -98,7 +98,7 @@ Do you fill in your own tax return? If the Self Assessment bill due on 31 Januar
 
 HMRC runs a Budget Payment Plan: you put an amount aside every week or every month by Direct Debit, set up inside your own HMRC online account — you will need your Government Gateway sign-in and your UTR — and it comes off the bill when it lands. You choose the amount and the frequency, and you can pause the payments for up to six months.
 
-Three things to know. The deadline does not move: whatever the plan has not covered is still due by 11:59pm on 31 January 2027, interest runs from 1 February and a 5% penalty is charged on anything still unpaid 30 days after that. 31 January is not the only date either — if you make payments on account, the second one falls due on 31 July. And you can only set a plan up if you are up to date with the payments from your last Self Assessment bill; if you have already missed a payment deadline, the route is Time to Pay instead, where HMRC assesses what you can afford.
+Three things to know. The deadline does not move: whatever the plan has not covered is still due by 11:59pm on 31 January 2027, interest runs from 1 February and a 5% penalty is charged on anything still unpaid on 2 March 2027, 30 days after the deadline. 31 January is not the only date either — if you make payments on account, the second one falls due on 31 July. And you can only set a plan up if you are up to date with the payments from your last Self Assessment bill; if you have already missed a payment deadline, the route is Time to Pay instead, where HMRC assesses what you can afford.
 
 It is for Self Assessment only — not VAT, not tax taken from wages through PAYE, not Corporation Tax.
 

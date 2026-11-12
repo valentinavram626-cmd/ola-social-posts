@@ -2412,22 +2412,22 @@ Think you have gaps in your record?""",
 
 # ------------------------------------------------------------------ 42
 C["bacsis-integral"] = dict(
- ro="""De la 1 octombrie 2024, bacșișul nu mai rămâne la firmă.
+ ro="""Din 1 octombrie 2024, bacșișul nu mai rămâne la firmă.
 
-Legea se cheamă Employment (Allocation of Tips) Act 2023. Tot bacșișul și tot service charge-ul (procentul pus pe notă, obligatoriu sau nu) se împart corect între toți cei care lucrează în local, bucătărie și colegi de la agenție incluși. Firma nu-și oprește nimic, nici comisionul luat de bancă la plata cu cardul. Primești partea ta din tot ce s-a strâns.
+Legea se cheamă Employment (Allocation of Tips) Act 2023. Tot bacșișul și tot service charge-ul (procentul pus pe notă, obligatoriu sau nu) se împart corect între toți cei din local, bucătărie și colegi de la agenție incluși. Firma nu păstrează nimic, nici comisionul băncii pe card. Primești partea ta din tot ce s-a strâns.
 
-Până când: bacșișul lăsat într-o lună se împarte până la sfârșitul lunii următoare. Lăsat pe 23 iunie, împărțit până pe 31 iulie. Dacă ești prin agenție, mai trece o lună: la tine până pe 31 august.
+Până când: bacșișul dintr-o lună se împarte până la sfârșitul lunii următoare. Lăsat pe 23 iunie, împărțit până pe 31 iulie. Prin agenție, mai trece o lună: la tine până pe 31 august.
 
-Dacă în local se lasă bacșiș des, nu doar de câteva ori pe an, trebuie să existe politică scrisă și evidență ținută trei ani. Poți cere evidența ta în scris, o dată la trei luni.
+Dacă în local se lasă bacșiș des, nu doar de câteva ori pe an, trebuie să existe politică scrisă și evidență ținută trei ani. O poți cere în scris, o dată la trei luni.
 
-Dacă nu se respectă, mergi la employment tribunal. Douăsprezece luni pentru împărțirea bacșișului, șase luni pentru politica scrisă și evidențe. Despăgubirea acoperă banii pierduți, până la £5.366.
+Dacă nu se respectă: employment tribunal. Douăsprezece luni pentru împărțirea bacșișului; pentru politica scrisă și evidențe, șase luni dacă încălcarea e din 1 octombrie 2026 încoace, altfel trei. Despăgubirea acoperă banii pierduți, până la £5.366.
 
 Pe cine NU o acoperă:
-— legea se aplică în Anglia, Scoția și Țara Galilor. În Irlanda de Nord nu;
+— legea se aplică în Anglia, Scoția și Țara Galilor, nu în Irlanda de Nord;
 — pe cei care lucrează pe cont propriu (self-employed), nu ca angajați sau workers;
-— banii primiți în mână de la client și ținuți de tine, și bacșișul dat prin aplicație. Dar dacă patronul îi strânge și îi împarte el, s-au întors sub lege.
+— banii primiți în mână de la client și ținuți de tine, și bacșișul dat prin aplicație. Dar dacă angajatorul îi strânge și îi împarte el, intră sub incidența legii.
 
-Partea de taxe: bacșișul e mereu venit impozabil. National Insurance e partea care diferă — pe banii luați direct de la client și ținuți de tine, fără ca patronul să se bage, nu se plătește NI; pe service charge-ul obligatoriu împărțit de firmă se plătește mereu. Între ele e troncul, fondul comun ținut de un coleg, nu de firmă: contează cine face împărțeala.
+Partea de taxe: bacșișul e mereu venit impozabil. National Insurance e partea care diferă — pe banii luați direct de la client și ținuți de tine, fără implicarea angajatorului, nu se plătește NI; pe service charge-ul obligatoriu împărțit de firmă se plătește mereu. Între ele e troncul, fondul comun ținut de un coleg, nu de firmă: contează cine împarte.
 
 Nu știi ce se reține din bacșișul tău?""",
  th="""Din 1 octombrie 2024, tot bacșișul și tot service charge-ul se împart corect între toți din local, bucătăria inclusă. Firma nu-și oprește nimic, nici comisionul de card.
@@ -2466,9 +2466,9 @@ Not sure what comes out of your tips?""",
 
 # ------------------------------------------------------------------ 43
 C["plata-esalonata-ianuarie"] = dict(
- ro="""Îți faci singur declarația la HMRC — Self Assessment? Nu aștepta ianuarie ca să începi să plătești taxa.
+ ro="""Îți faci singur declarația la HMRC — Self Assessment? Nu aștepta ianuarie ca să începi să plătești taxele.
 
-Planul se cheamă Budget Payment Plan. Pui deoparte o sumă săptămânal sau lunar, prin debit direct, iar banii se scad din ce ai de plătit. Tu alegi cât și cât de des. Îl pornești tu, din contul tău HMRC online: intri la Direct Debit și îl alegi. Îți trebuie parola de Government Gateway și numărul UTR (10 cifre de la HMRC), iar HMRC verifică întâi dacă te încadrezi.
+Planul se cheamă Budget Payment Plan. Pui deoparte o sumă săptămânal sau lunar, prin debit direct, iar banii se scad din ce ai de plătit. Tu alegi cât și cât de des. Îl pornești tu, din contul tău HMRC online: intri la Direct Debit și îl alegi. Îți trebuie contul Government Gateway și numărul UTR (10 cifre de la HMRC), iar pe gov.uk verifici singur dacă te încadrezi.
 
 Aici se încurcă lumea: termenul nu se mută. Ce nu acoperă planul se plătește tot până pe 31 ianuarie 2027, la 23:59. Din 1 februarie curge dobânda, iar penalizarea vine mai târziu: 5% din taxa neplătită la 30 de zile, adică pe 2 martie 2027, apoi iar la 6 și la 12 luni. Deci dacă rămâi descoperit, plătește repede — până pe 2 martie nu s-a adăugat nicio penalizare de plată.
 
@@ -2480,7 +2480,7 @@ Poți opri plățile până la 6 luni. Dacă ai pus mai mult, ceri diferența î
 
 Cine NU îl poate folosi: trebuie să fii la zi cu plățile de la declarația trecută. Dacă ai sărit deja un termen de plată, drumul tău e altul: Time to Pay, eșalonarea pentru datoriile deja restante.
 
-E doar pentru Self Assessment: nu TVA, nu taxa oprită din salariu (PAYE), nu impozitul pe firmă.
+E doar pentru Self Assessment: nu TVA, nu taxele oprite din salariu (PAYE), nu impozitul pe firmă.
 
 Nu știi cât să pui deoparte pe lună?""",
  th="""Îți faci singur declarația la HMRC și taxa din ianuarie te sperie? Poți pune deoparte pentru ea de pe acum, săptămânal sau lunar, prin debit direct.
@@ -2488,7 +2488,7 @@ Nu știi cât să pui deoparte pe lună?""",
 Termenele nu se mută: 31 ianuarie 2027 și, dacă ai plăți în avans, 31 iulie. Și trebuie să fii la zi cu plățile.""",
  li="""If you fill in your own tax return — Self Assessment — and the January bill worries you, you do not have to wait until January to start paying it.
 
-HMRC runs a Budget Payment Plan. You put an amount aside every week or every month by Direct Debit, and it comes off the bill when it arrives. You set it up yourself inside your HMRC online account: go to Direct Debit and choose the Budget Payment Plan option. Have your Government Gateway sign-in and your UTR — the 10-digit number HMRC gave you — to hand, and HMRC checks first whether you can use the plan. You choose the amount and the frequency.
+HMRC runs a Budget Payment Plan. You put an amount aside every week or every month by Direct Debit, and it comes off the bill when it arrives. You set it up yourself inside your HMRC online account: go to Direct Debit and choose the Budget Payment Plan option. Have your Government Gateway sign-in and your UTR — the 10-digit number HMRC gave you — to hand, and check on gov.uk first whether you can use the plan. You choose the amount and the frequency.
 
 One thing to understand before you start, because this is where people come unstuck: the deadline does not move. If what you have put aside does not cover the whole bill, the rest is still due by 11:59pm on 31 January 2027. Interest runs from 1 February. The penalty comes later: 5% of the tax still unpaid 30 days after the deadline, which is 2 March 2027, and 5% again at six months and at twelve months. So if you are left short, paying quickly still counts — no late-payment penalty has been added before 2 March. If you are in credit, you can ask for a refund.
 
@@ -2512,7 +2512,7 @@ Not sure what to put aside each month?""",
 
 HMRC runs a Budget Payment Plan: you put an amount aside every week or every month by Direct Debit, set up inside your own HMRC online account — you will need your Government Gateway sign-in and your UTR — and it comes off the bill when it lands. You choose the amount and the frequency, and you can pause the payments for up to six months.
 
-Three things to know. The deadline does not move: whatever the plan has not covered is still due by 11:59pm on 31 January 2027, interest runs from 1 February and a 5% penalty is charged on anything still unpaid 30 days after that. 31 January is not the only date either — if you make payments on account, the second one falls due on 31 July. And you can only set a plan up if you are up to date with the payments from your last Self Assessment bill; if you have already missed a payment deadline, the route is Time to Pay instead, where HMRC assesses what you can afford.
+Three things to know. The deadline does not move: whatever the plan has not covered is still due by 11:59pm on 31 January 2027, interest runs from 1 February and a 5% penalty is charged on anything still unpaid on 2 March 2027, 30 days after the deadline. 31 January is not the only date either — if you make payments on account, the second one falls due on 31 July. And you can only set a plan up if you are up to date with the payments from your last Self Assessment bill; if you have already missed a payment deadline, the route is Time to Pay instead, where HMRC assesses what you can afford.
 
 It is for Self Assessment only — not VAT, not tax taken from wages through PAYE, not Corporation Tax.
 
@@ -2599,15 +2599,15 @@ Partea care decide dacă îți folosește: TVA-ul de pe cumpărături îl iei î
 
 Cum intri: ești deja înregistrat la TVA și te aștepți să vinzi £1,35 milioane sau mai puțin, fără TVA, în următoarele 12 luni. Nu există cerere și nu anunți pe nimeni: începi din prima zi a unei perioade de TVA, perioada pentru care depui declarația.
 
-Un câștig care nu se vede de la început: dacă un client nu te plătește niciodată, nu ai plătit TVA pe factura aceea.
+Un câștig care nu se vede: dacă un client nu te plătește niciodată, nu ai plătit TVA pe factura aceea.
 
-Cui s-ar putea să nu-i folosească, zice HMRC: celui plătit pe loc, la vânzare; celui care cere de la HMRC mai mult TVA decât îi dă; și celui care facturează servicii lună de lună, la contract. Ai magazin sau fast-food și clientul plătește la casă? Schema nu îți mută nimic.
+Cui s-ar putea să nu-i folosească, zice HMRC: celui plătit pe loc, la vânzare; celui care cere de la HMRC mai mult TVA decât îi dă; și celui care facturează servicii lună de lună. Ai magazin sau fast-food și clientul plătește la casă? Schema nu îți mută nimic.
 
-Iar dacă ești subcontractor în construcții și facturezi la reverse charge, nu e vorba de mai puțin folos: facturile alea sunt în afara schemei prin lege. Nu ai ce amâna, dar TVA-ul de pe materiale tot îl iei înapoi mai târziu. Ieși în pierdere.
+Iar dacă ești subcontractor în construcții și facturezi la reverse charge, nu e vorba de mai puțin folos: facturile alea sunt în afara schemei prin lege. Nu ai ce amâna, dar TVA-ul pe materiale tot îl iei mai târziu. Ieși în pierdere.
 
 Cine NU poate intra: cine are declarații de TVA nedepuse sau plăți restante — dar dacă ai o înțelegere cu HMRC să-ți achiți restanțele, poți intra; și cine e pe Flat Rate Scheme.
 
-Cine trebuie să iasă: când vânzările pe ultimele 12 luni trec de £1,6 milioane — dar dacă ai sărit pragul o singură dată, dintr-o vânzare mare, cum e o dubă sau un utilaj, s-ar putea să poți rămâne. Când ieși, datorezi tot TVA-ul rămas, chiar dacă nu ai fost plătit.
+Cine trebuie să iasă: când vânzările pe ultimele 12 luni trec de £1,6 milioane — dar dacă ai sărit pragul o singură dată, dintr-o vânzare mare, cum e o dubă sau un utilaj, s-ar putea să poți rămâne. Când ieși, datorezi tot TVA-ul rămas, chiar dacă nu ai fost plătit; îl poți raporta și plăti în 6 luni.
 
 Nu știi dacă te-ar ajuta pe tine?""",
  th="""Factura în august, banii în noiembrie, TVA-ul plătit în septembrie. Din banii tăi.

@@ -1,4 +1,4 @@
-# Textele postării — Bacșișul nu e al patronului — legea din 1 octombrie 2024
+# Textele postării — Bacșișul nu e al angajatorului — legea din 1 octombrie 2024
 
 Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 și TikTok; engleză pe LinkedIn, Bluesky, Pinterest și Google Business.
@@ -7,22 +7,22 @@ Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 
 ## RO — Instagram, Facebook, Threads, TikTok
 
-De la 1 octombrie 2024, bacșișul nu mai rămâne la firmă.
+Din 1 octombrie 2024, bacșișul nu mai rămâne la firmă.
 
-Legea se cheamă Employment (Allocation of Tips) Act 2023. Tot bacșișul și tot service charge-ul (procentul pus pe notă, obligatoriu sau nu) se împart corect între toți cei care lucrează în local, bucătărie și colegi de la agenție incluși. Firma nu-și oprește nimic, nici comisionul luat de bancă la plata cu cardul. Primești partea ta din tot ce s-a strâns.
+Legea se cheamă Employment (Allocation of Tips) Act 2023. Tot bacșișul și tot service charge-ul (procentul pus pe notă, obligatoriu sau nu) se împart corect între toți cei din local, bucătărie și colegi de la agenție incluși. Firma nu păstrează nimic, nici comisionul băncii pe card. Primești partea ta din tot ce s-a strâns.
 
-Până când: bacșișul lăsat într-o lună se împarte până la sfârșitul lunii următoare. Lăsat pe 23 iunie, împărțit până pe 31 iulie. Dacă ești prin agenție, mai trece o lună: la tine până pe 31 august.
+Până când: bacșișul dintr-o lună se împarte până la sfârșitul lunii următoare. Lăsat pe 23 iunie, împărțit până pe 31 iulie. Prin agenție, mai trece o lună: la tine până pe 31 august.
 
-Dacă în local se lasă bacșiș des, nu doar de câteva ori pe an, trebuie să existe politică scrisă și evidență ținută trei ani. Poți cere evidența ta în scris, o dată la trei luni.
+Dacă în local se lasă bacșiș des, nu doar de câteva ori pe an, trebuie să existe politică scrisă și evidență ținută trei ani. O poți cere în scris, o dată la trei luni.
 
-Dacă nu se respectă, mergi la employment tribunal. Douăsprezece luni pentru împărțirea bacșișului, șase luni pentru politica scrisă și evidențe. Despăgubirea acoperă banii pierduți, până la £5.366.
+Dacă nu se respectă: employment tribunal. Douăsprezece luni pentru împărțirea bacșișului; pentru politica scrisă și evidențe, șase luni dacă încălcarea e din 1 octombrie 2026 încoace, altfel trei. Despăgubirea acoperă banii pierduți, până la £5.366.
 
 Pe cine NU o acoperă:
-— legea se aplică în Anglia, Scoția și Țara Galilor. În Irlanda de Nord nu;
+— legea se aplică în Anglia, Scoția și Țara Galilor, nu în Irlanda de Nord;
 — pe cei care lucrează pe cont propriu (self-employed), nu ca angajați sau workers;
-— banii primiți în mână de la client și ținuți de tine, și bacșișul dat prin aplicație. Dar dacă patronul îi strânge și îi împarte el, s-au întors sub lege.
+— banii primiți în mână de la client și ținuți de tine, și bacșișul dat prin aplicație. Dar dacă angajatorul îi strânge și îi împarte el, intră sub incidența legii.
 
-Partea de taxe: bacșișul e mereu venit impozabil. National Insurance e partea care diferă — pe banii luați direct de la client și ținuți de tine, fără ca patronul să se bage, nu se plătește NI; pe service charge-ul obligatoriu împărțit de firmă se plătește mereu. Între ele e troncul, fondul comun ținut de un coleg, nu de firmă: contează cine face împărțeala.
+Partea de taxe: bacșișul e mereu venit impozabil. National Insurance e partea care diferă — pe banii luați direct de la client și ținuți de tine, fără implicarea angajatorului, nu se plătește NI; pe service charge-ul obligatoriu împărțit de firmă se plătește mereu. Între ele e troncul, fondul comun ținut de un coleg, nu de firmă: contează cine împarte.
 
 Nu știi ce se reține din bacșișul tău?
 
