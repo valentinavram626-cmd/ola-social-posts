@@ -11,19 +11,19 @@ Ai emis factura în august, clientul plătește în noiembrie, iar TVA-ul l-ai d
 
 Asta e regula normală: TVA-ul se datorează la data facturii, nu la data încasării. Există o schemă care mută data: Cash Accounting Scheme. TVA-ul pe vânzări se datorează când intră banii.
 
-Partea care se spune mai rar, și care decide dacă îți folosește: merge în ambele sensuri. TVA-ul de pe cumpărături îl iei înapoi abia după ce îți plătești furnizorul.
+Partea care decide dacă îți folosește: TVA-ul de pe cumpărături îl iei înapoi abia după ce îți plătești furnizorul.
 
-Cum intri: te aștepți să vinzi £1,35 milioane sau mai puțin, fără TVA, în următoarele 12 luni. Nu există cerere și nu anunți pe nimeni: începi de la prima zi a unei perioade de TVA. Nu se aplică pe trecut.
+Cum intri: ești deja înregistrat la TVA și te aștepți să vinzi £1,35 milioane sau mai puțin, fără TVA, în următoarele 12 luni. Nu există cerere și nu anunți pe nimeni: începi din prima zi a unei perioade de TVA, perioada pentru care depui declarația.
 
-Un câștig care nu se vede de la început: dacă un client nu te plătește niciodată, nu ai plătit TVA pe factura aceea. Pe regulile normale l-ai fi plătit și apoi ai fi așteptat 6 luni ca să-l ceri înapoi.
+Un câștig care nu se vede de la început: dacă un client nu te plătește niciodată, nu ai plătit TVA pe factura aceea.
 
-Cui NU îi folosește, în cuvintele HMRC: celui plătit pe loc, la vânzare, și celui care ia înapoi mai mult TVA decât încasează. Dacă ai magazin sau fast-food și clientul plătește la casă, schema nu îți mută nimic. Subcontractorilor din construcții care facturează mai ales la reverse charge, HMRC le spune direct că nu-i ajută.
+Cui s-ar putea să nu-i folosească, zice HMRC: celui plătit pe loc, la vânzare; celui care cere de la HMRC mai mult TVA decât îi dă; și celui care facturează servicii lună de lună, la contract. Ai magazin sau fast-food și clientul plătește la casă? Schema nu îți mută nimic.
 
-Cine NU poate intra deloc: cine are declarații sau plăți de TVA restante; cine e pe Flat Rate Scheme; un grup de TVA a cărui cifră totală trece de £1,35 milioane, chiar dacă fiecare firmă în parte e sub.
+Iar dacă ești subcontractor în construcții și facturezi la reverse charge, nu e vorba de mai puțin folos: facturile alea sunt în afara schemei prin lege. Nu ai ce amâna, dar TVA-ul de pe materiale tot îl iei înapoi mai târziu. Ieși în pierdere.
 
-Cine trebuie să iasă: când vânzările pe ultimele 12 luni trec de £1,6 milioane. Ieși la sfârșitul perioadei de TVA în curs, și atunci datorezi tot TVA-ul rămas, chiar dacă nu ai fost plătit.
+Cine NU poate intra: cine are declarații de TVA nedepuse sau plăți restante — dar dacă ai o înțelegere cu HMRC să-ți achiți restanțele, poți intra; și cine e pe Flat Rate Scheme.
 
-Rămân în afara schemei, oricum: leasingul și hire purchase, importurile și achizițiile, reverse charge-ul, și facturile plătibile la peste 6 luni.
+Cine trebuie să iasă: când vânzările pe ultimele 12 luni trec de £1,6 milioane — dar dacă ai sărit pragul o singură dată, dintr-o vânzare mare, cum e o dubă sau un utilaj, s-ar putea să poți rămâne. Când ieși, datorezi tot TVA-ul rămas, chiar dacă nu ai fost plătit.
 
 Nu știi dacă te-ar ajuta pe tine?
 
@@ -46,17 +46,17 @@ That is the normal rule: VAT is due at the date of the invoice, not the date of 
 
 The half that gets mentioned less, and the half that decides whether it suits you: it runs both ways. You reclaim VAT on purchases only once you have paid your supplier, not when their invoice arrives.
 
-How you join: you expect taxable supplies of £1.35 million or less, excluding VAT, over the next 12 months. There is no application and nobody to notify — you simply start on the first day of a VAT accounting period. It cannot be applied retrospectively; invoices from before you start stay on the normal rules.
+How you join: you are already registered for VAT, and you expect taxable supplies of £1.35 million or less, excluding VAT, over the next 12 months. It is not open to a business that is not VAT registered. There is no application and nobody to notify — you simply start on the first day of a VAT accounting period. It cannot be applied retrospectively; invoices from before you start stay on the normal rules.
 
 A benefit that is easy to miss: if a customer never pays, you never paid VAT on that invoice. Under the normal rules you would have paid it, then waited six months from the due date to reclaim it, with the debt written off in your accounts first.
 
-Who it does not help — and this is HMRC's own list, not our opinion: a business usually paid as soon as it makes a sale, one that often reclaims more VAT than it pays, and one making continuous supplies of services. If you run a shop or a takeaway and the customer pays at the till, the scheme moves nothing for you. If you are a construction subcontractor and most of your sales fall under the domestic reverse charge, HMRC says plainly that it may not benefit you.
+Who it may not help, in HMRC's words: a business usually paid as soon as it makes a sale, one that often reclaims more VAT than it pays, and one making continuous supplies of services. If you run a shop or a takeaway and the customer pays at the till, the scheme moves nothing for you.
 
-Who cannot join at all: anyone with VAT returns or payments outstanding; anyone on the Flat Rate Scheme, which has its own cash-based turnover method; and a VAT group whose combined turnover exceeds £1,350,000, even where each member sits below it.
+A construction subcontractor invoicing under the domestic reverse charge is a harder case than that. Those supplies are outside the scheme as a matter of law, so there is no output tax to defer, while the input tax on materials still waits until the supplier has been paid. The scheme leaves that business worse off than the normal rules.
 
-Who has to leave: once taxable supplies in the last 12 months exceed £1.6 million. You leave at the end of the current VAT period, and all outstanding VAT then becomes due whether or not your customers have paid.
+Who cannot join at all: anyone with VAT returns outstanding, or payments outstanding unless they have arranged with HMRC to clear the lot; anyone on the Flat Rate Scheme, which has its own cash-based method.
 
-Outside the scheme regardless: lease purchase and hire purchase, imports and acquisitions, reverse charge supplies, and invoices where full payment is not due within six months.
+Who has to leave: once taxable supplies in the last 12 months exceed £1.6 million — though a one-off sale that takes you over, such as a capital asset, can let you stay on, if it has not happened before and you expect under £1.35 million over the next 12 months. On leaving, all outstanding VAT becomes due whether or not your customers have paid, and you can report and pay it over six months.
 
 Not sure whether it would help you?
 
@@ -72,9 +72,9 @@ Source: VAT Notice 731 (gov.uk/guidance/vat-cash-accounting-scheme-notice-731), 
 
 ---
 
-## EN — Bluesky  (limită 300 de caractere; aici 275)
+## EN — Bluesky  (limită 300 de caractere; aici 289)
 
-The VAT Cash Accounting Scheme: pay VAT when the customer pays you, and reclaim only once you have paid your supplier.
+VAT Cash Accounting: pay VAT when the customer pays, reclaim once you have paid your supplier. Reverse charge sales stay outside it.
 
 General information. For your own situation, speak to an accountant.
 
@@ -86,7 +86,7 @@ General information. For your own situation, speak to an accountant.
 
 **Titlu:** VAT Cash Accounting Scheme: pay VAT when you are paid
 
-The VAT Cash Accounting Scheme lets a UK business account for VAT on sales when the customer pays, rather than when the invoice is issued — and reclaim VAT on purchases only once the supplier has been paid. You can join if you expect taxable supplies of £1.35 million or less in the next 12 months; there is no application and you start at the beginning of a VAT period. You must leave once taxable supplies in the last 12 months exceed £1.6 million. HMRC says it may not benefit a business usually paid as soon as it makes a sale. Not available alongside the Flat Rate Scheme.
+The VAT Cash Accounting Scheme lets a VAT-registered UK business pay VAT on sales when the customer pays, not when invoiced, and reclaim VAT on purchases only once the supplier has been paid. You can join if you expect taxable supplies of £1.35 million or less in the next 12 months. Supplies under a domestic reverse charge are outside the scheme by law, so a construction subcontractor invoicing that way gains nothing. HMRC says it may not benefit a business usually paid as soon as it makes a sale. You must leave above £1.6 million, unless a one-off sale took you over.
 
 General information. For your own situation, speak to an accountant.
 

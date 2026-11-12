@@ -1,4 +1,4 @@
-# Textele postării — Ai stat cu nepotul? Poți lua un an de pensie de stat
+# Textele postării — Ai stat cu nepotul? Săptămânile alea intră la pensia ta
 
 Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 și TikTok; engleză pe LinkedIn, Bluesky, Pinterest și Google Business.
@@ -7,29 +7,23 @@ Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 
 ## RO — Instagram, Facebook, Threads, TikTok
 
-Dacă ai stat cu nepotul, s-ar putea să ai dreptul la un an întreg de pensie de stat. Și aproape nimeni nu îl cere.
+Ai stat cu nepotul? Săptămânile alea pot intra la pensia ta.
 
-Cum funcționează: părintele care primește Child Benefit pentru un copil sub 12 ani primește odată cu el și un credit săptămânal de National Insurance. Dacă părintele are deja anul acela plin din muncă, creditul nu îi folosește la nimic. Poate fi transferat pe numele tău.
+Cum merge: pentru fiecare săptămână în care părintele ia Child Benefit pentru un copil sub 12 ani, primește și o săptămână de National Insurance. Dacă are deja anul acela întreg din muncă, nu îi folosesc la nimic și pot trece la tine — exact săptămânile cât ai stat cu copilul, nu un an întreg. În urmă, până la 6 aprilie 2011.
 
-Lista e mai largă decât bunicii: intră și străbunicii, mătușile și unchii, frații și surorile (inclusiv vitregi sau adoptați), părintele care nu locuiește cu copilul, și soții sau partenerii lor, actuali ori foști.
+Nu doar bunicii: străbunici, stră-străbunici, mătuși, unchi, frați și surori (vitregi și adoptați), părintele care nu locuiește cu copilul, soții și partenerii lor, actuali sau foști, și copiii lor.
 
-Cât valorează: pensia de stat se face din ani. 35 de ani plini înseamnă pensia întreagă, £241,30 pe săptămână la ratele de acum. Sub 10 ani nu primești nimic.
-
-Se poate cere în urmă până la 6 aprilie 2011 — 15 ani fiscali deschiși.
+Cât valorează: pensia se face din ani de National Insurance, iar maximul e £241,30 pe săptămână. 35 de ani ajung la maxim doar dacă ai început să plătești după aprilie 2016. Contracted out? Îți trebuie mai mulți. Sub 10 ani de obicei nu iei pensie — dar te poți califica și cu anii plătiți în România sau în SEE.
 
 Cine NU are ce lua:
-— dacă în anul acela ai muncit și ai deja anul plin la National Insurance, nu se adună de două ori;
-— dacă tu primești Child Benefit pentru un copil, creditele le ai deja automat;
-— dacă aveai sub 16 ani sau trecuseși de vârsta de pensionare când ai avut grijă de copil;
-— dacă nimeni nu a cerut Child Benefit pentru copil, nu există credit de transferat;
-— dacă părintele NU are anul plin din muncă, nu are ce să îți dea: el îl păstrează;
-— un singur credit pentru fiecare cerere de Child Benefit, oricâți copii și oricâți bunici. Părintele alege cine îl ia.
+— dacă nu trăiești în Regatul Unit, nu iei nimic — nici din Insulele Channel sau Isle of Man;
+— dacă ai muncit în anul acela și ai deja anul întreg, nu se pune de două ori;
+— dacă atunci nu aveai 16 ani împliniți sau treceai de vârsta de pensionare;
+— dacă nimeni n-a cerut Child Benefit pentru copil, nu e nimic de transferat;
+— dacă părintele nu are anul întreg din muncă, nu are ce să îți dea;
+— un credit de fiecare cerere de Child Benefit, oricâți copii și bunici. Părintele trebuie să fie de acord și alegeți împreună cine îl ia; dacă nu, decide statul.
 
-Creditul contează doar la pensia de stat, nu deschide alte ajutoare.
-
-Se cere, nu vine singur. Formularul e CA9176, semnat și de părinte. Pentru un an fiscal poți cere abia după 31 octombrie de după încheierea lui — e data de la care se poate, nu un termen până la care trebuie.
-
-Se aplică în tot Regatul Unit, inclusiv Irlanda de Nord.
+Se cere, nu vine singur: formularul CA9176, semnat și de părinte. Soțul sau partenerul care locuiește cu părintele cere cu CF411A. Self-employed? Plătești întâi Class 2. Un an fiscal se cere abia după 31 octombrie de după încheierea lui — e data de la care se poate, nu un termen.
 
 Nu știi dacă ai ani lipsă la pensie?
 
@@ -46,29 +40,30 @@ Sursă: gov.uk/guidance/apply-for-specified-adult-childcare-credits, manualul HM
 
 ## EN — LinkedIn  (postat ca document PDF, nu ca imagini multiple)
 
-If you looked after a grandchild, you may be owed a full year of State Pension. Almost nobody claims it.
+Looked after a grandchild? The National Insurance credits for those weeks may be sitting unused in the parent's name.
 
-How it works: the parent who receives Child Benefit for a child under 12 receives a weekly National Insurance credit with it. If that parent already has a full year from their own earnings, the credit does nothing for them — and it can be transferred to the family member who did the childcare.
+How it works: for every week a parent receives Child Benefit for a child under 12, a National Insurance credit comes with it. If that parent already has a qualifying year from their own earnings, those credits do nothing for them — and they can transfer to the family member who did the childcare. Cover the school holidays and you get those weeks, not a whole qualifying year.
 
-They are known as grandparents' credits, but the legal list is far wider. It covers great-grandparents, great-great-grandparents, aunts and uncles, brothers and sisters including half, step and adopted siblings, a parent who does not live with the child, and the current or former spouses, civil partners and partners of all of those.
+Known as grandparents' credits, but the list is wider: great-grandparents, great-great-grandparents, aunts and uncles, brothers and sisters (half, step and adopted too), a parent who does not live with the child, the current and former spouses, civil partners and partners of all of those, and their sons and daughters.
 
-What a year is worth: the State Pension is built out of qualifying years. 35 full years buys the full new State Pension, £241.30 a week at current rates. Fewer than 10 years buys nothing at all.
+What the years are worth: the full new State Pension is £241.30 a week. 35 qualifying years reaches that rate only if your record started after April 2016, and if you were contracted out, you need more. Fewer than 10 qualifying years usually pays nothing — but contributions in the EEA, Switzerland or a country with a UK social security agreement could still make you eligible.
 
-Claims can be backdated to 6 April 2011 — fifteen open tax years, 2011/12 to 2025/26.
+Backdated to 6 April 2011 — fifteen open tax years, 2011/12 to 2025/26.
 
 Who gains nothing:
+— a carer not ordinarily resident in the UK: a grandparent who flew in for three months and went home gets nothing at all, not a smaller credit. Channel Islands and Isle of Man residents are out
 — a carer who worked that year and already has a qualifying year; years do not count twice
-— a carer already receiving Child Benefit for a child of their own, who gets the credits automatically
-— anyone under 16, or over State Pension age, at the time they gave the care
-— a child for whom nobody ever claimed Child Benefit: there is no credit in existence to transfer
-— a parent who does not already have a qualifying year from earnings, because then they need it themselves
-— and there is one credit per Child Benefit claim, however many children and however many carers. If one grandparent takes it, the other cannot. The Child Benefit recipient chooses.
+— a carer already getting Child Benefit for their own child: they have the credits anyway
+— anyone under 16, or over State Pension age, when they gave the care
+— a child nobody ever claimed Child Benefit for: no credit exists to transfer
+— a parent without a qualifying year of their own: they need it themselves
+— one credit per Child Benefit claim, however many children and carers. The Child Benefit recipient has to agree, and where two carers qualify they elect who is credited; failing agreement it is decided for them
 
-It is a Class 3 credit, so it counts towards the State Pension only and opens up no other contributory benefits.
+It is a Class 3 credit: State Pension only. A self-employed carer settles their Class 2 for the year first.
 
-It has to be claimed. Form CA9176 is filled in online, printed and posted, countersigned by the Child Benefit recipient. One detail worth knowing: a tax year can only be claimed after 31 October following the end of it. That is the earliest date, not a deadline — it is widely misreported as a cut-off.
+It has to be claimed: form CA9176, countersigned by the Child Benefit recipient — a spouse or partner living with that person uses CF411A instead. A tax year can be claimed only after 31 October following the end of it: the earliest date, not a deadline.
 
-UK-wide, including Northern Ireland. Not the Channel Islands or the Isle of Man.
+UK-wide, including Northern Ireland.
 
 Think you have gaps in your record?
 
@@ -84,9 +79,9 @@ Source: gov.uk/guidance/apply-for-specified-adult-childcare-credits, HMRC manual
 
 ---
 
-## EN — Bluesky  (limită 300 de caractere; aici 286)
+## EN — Bluesky  (limită 300 de caractere; aici 294)
 
-Looked after a grandchild under 12? The National Insurance credit that comes with the parent's Child Benefit can transfer to you.
+Looked after a grandchild under 12? Each week's NI credit from the parent's Child Benefit can move to your record, if you live in the UK.
 
 General information. For your own situation, speak to an accountant.
 
@@ -96,9 +91,9 @@ General information. For your own situation, speak to an accountant.
 
 ## EN — Pinterest  (descriere pin)
 
-**Titlu:** Grandparents' National Insurance credits: a free pension year
+**Titlu:** Grandparents' National Insurance credits: weeks towards your pension
 
-Specified Adult Childcare credits: a family member who looked after a child under 12 can take the National Insurance credit that comes with the parent's Child Benefit, if the parent already has that year from their own earnings. Backdated to 6 April 2011. 35 qualifying years buys the full new State Pension of £241.30 a week. Who gains nothing: a carer who already has that year from work, anyone over State Pension age at the time, and the second grandparent, because there is one credit per Child Benefit claim. Claimed on form CA9176. UK-wide.
+Specified Adult Childcare credits: a family member who looked after a child under 12 can take the National Insurance credit attached to the parent's Child Benefit, week by week, if the parent already has that year from their own earnings. You must be ordinarily resident in the UK. Backdated to 6 April 2011. The full new State Pension is £241.30 a week, reached on 35 qualifying years only if your record started after April 2016. Who gains nothing: a carer who already has that year from work and the second grandparent — one credit per Child Benefit claim. Form CA9176.
 
 General information. For your own situation, speak to an accountant.
 

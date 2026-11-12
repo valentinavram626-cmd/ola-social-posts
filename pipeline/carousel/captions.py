@@ -2353,118 +2353,111 @@ Caring for someone and never claimed?""",
 
 # ------------------------------------------------------------------ 41
 C["credite-pensie-bunici"] = dict(
- ro="""Dacă ai stat cu nepotul, s-ar putea să ai dreptul la un an întreg de pensie de stat. Și aproape nimeni nu îl cere.
+ ro="""Ai stat cu nepotul? Săptămânile alea pot intra la pensia ta.
 
-Cum funcționează: părintele care primește Child Benefit pentru un copil sub 12 ani primește odată cu el și un credit săptămânal de National Insurance. Dacă părintele are deja anul acela plin din muncă, creditul nu îi folosește la nimic. Poate fi transferat pe numele tău.
+Cum merge: pentru fiecare săptămână în care părintele ia Child Benefit pentru un copil sub 12 ani, primește și o săptămână de National Insurance. Dacă are deja anul acela întreg din muncă, nu îi folosesc la nimic și pot trece la tine — exact săptămânile cât ai stat cu copilul, nu un an întreg. În urmă, până la 6 aprilie 2011.
 
-Lista e mai largă decât bunicii: intră și străbunicii, mătușile și unchii, frații și surorile (inclusiv vitregi sau adoptați), părintele care nu locuiește cu copilul, și soții sau partenerii lor, actuali ori foști.
+Nu doar bunicii: străbunici, stră-străbunici, mătuși, unchi, frați și surori (vitregi și adoptați), părintele care nu locuiește cu copilul, soții și partenerii lor, actuali sau foști, și copiii lor.
 
-Cât valorează: pensia de stat se face din ani. 35 de ani plini înseamnă pensia întreagă, £241,30 pe săptămână la ratele de acum. Sub 10 ani nu primești nimic.
-
-Se poate cere în urmă până la 6 aprilie 2011 — 15 ani fiscali deschiși.
+Cât valorează: pensia se face din ani de National Insurance, iar maximul e £241,30 pe săptămână. 35 de ani ajung la maxim doar dacă ai început să plătești după aprilie 2016. Contracted out? Îți trebuie mai mulți. Sub 10 ani de obicei nu iei pensie — dar te poți califica și cu anii plătiți în România sau în SEE.
 
 Cine NU are ce lua:
-— dacă în anul acela ai muncit și ai deja anul plin la National Insurance, nu se adună de două ori;
-— dacă tu primești Child Benefit pentru un copil, creditele le ai deja automat;
-— dacă aveai sub 16 ani sau trecuseși de vârsta de pensionare când ai avut grijă de copil;
-— dacă nimeni nu a cerut Child Benefit pentru copil, nu există credit de transferat;
-— dacă părintele NU are anul plin din muncă, nu are ce să îți dea: el îl păstrează;
-— un singur credit pentru fiecare cerere de Child Benefit, oricâți copii și oricâți bunici. Părintele alege cine îl ia.
+— dacă nu trăiești în Regatul Unit, nu iei nimic — nici din Insulele Channel sau Isle of Man;
+— dacă ai muncit în anul acela și ai deja anul întreg, nu se pune de două ori;
+— dacă atunci nu aveai 16 ani împliniți sau treceai de vârsta de pensionare;
+— dacă nimeni n-a cerut Child Benefit pentru copil, nu e nimic de transferat;
+— dacă părintele nu are anul întreg din muncă, nu are ce să îți dea;
+— un credit de fiecare cerere de Child Benefit, oricâți copii și bunici. Părintele trebuie să fie de acord și alegeți împreună cine îl ia; dacă nu, decide statul.
 
-Creditul contează doar la pensia de stat, nu deschide alte ajutoare.
-
-Se cere, nu vine singur. Formularul e CA9176, semnat și de părinte. Pentru un an fiscal poți cere abia după 31 octombrie de după încheierea lui — e data de la care se poate, nu un termen până la care trebuie.
-
-Se aplică în tot Regatul Unit, inclusiv Irlanda de Nord.
+Se cere, nu vine singur: formularul CA9176, semnat și de părinte. Soțul sau partenerul care locuiește cu părintele cere cu CF411A. Self-employed? Plătești întâi Class 2. Un an fiscal se cere abia după 31 octombrie de după încheierea lui — e data de la care se poate, nu un termen.
 
 Nu știi dacă ai ani lipsă la pensie?""",
- th="""Ai stat cu nepotul? Poți lua un an de pensie de stat.
+ th="""Ai stat cu nepotul? Săptămânile alea pot intra la pensia ta.
 
-Părintele care ia Child Benefit primește și un an de National Insurance. Dacă el îl are deja din muncă, poate trece pe numele tău. În urmă până în 2011.
+La fiecare săptămână cu Child Benefit, părintele primește și o săptămână de National Insurance. Dacă a muncit tot anul, săptămâna aia poate trece la tine. În urmă până în 2011.
 
-Nu ai ce lua dacă ai muncit în anul acela. Și e un singur credit de fiecare cerere de Child Benefit.""",
- li="""If you looked after a grandchild, you may be owed a full year of State Pension. Almost nobody claims it.
+Nu iei nimic dacă nu trăiești în Regatul Unit sau dacă ai muncit tot anul acela.""",
+ li="""Looked after a grandchild? The National Insurance credits for those weeks may be sitting unused in the parent's name.
 
-How it works: the parent who receives Child Benefit for a child under 12 receives a weekly National Insurance credit with it. If that parent already has a full year from their own earnings, the credit does nothing for them — and it can be transferred to the family member who did the childcare.
+How it works: for every week a parent receives Child Benefit for a child under 12, a National Insurance credit comes with it. If that parent already has a qualifying year from their own earnings, those credits do nothing for them — and they can transfer to the family member who did the childcare. Cover the school holidays and you get those weeks, not a whole qualifying year.
 
-They are known as grandparents' credits, but the legal list is far wider. It covers great-grandparents, great-great-grandparents, aunts and uncles, brothers and sisters including half, step and adopted siblings, a parent who does not live with the child, and the current or former spouses, civil partners and partners of all of those.
+Known as grandparents' credits, but the list is wider: great-grandparents, great-great-grandparents, aunts and uncles, brothers and sisters (half, step and adopted too), a parent who does not live with the child, the current and former spouses, civil partners and partners of all of those, and their sons and daughters.
 
-What a year is worth: the State Pension is built out of qualifying years. 35 full years buys the full new State Pension, £241.30 a week at current rates. Fewer than 10 years buys nothing at all.
+What the years are worth: the full new State Pension is £241.30 a week. 35 qualifying years reaches that rate only if your record started after April 2016, and if you were contracted out, you need more. Fewer than 10 qualifying years usually pays nothing — but contributions in the EEA, Switzerland or a country with a UK social security agreement could still make you eligible.
 
-Claims can be backdated to 6 April 2011 — fifteen open tax years, 2011/12 to 2025/26.
+Backdated to 6 April 2011 — fifteen open tax years, 2011/12 to 2025/26.
 
 Who gains nothing:
+— a carer not ordinarily resident in the UK: a grandparent who flew in for three months and went home gets nothing at all, not a smaller credit. Channel Islands and Isle of Man residents are out
 — a carer who worked that year and already has a qualifying year; years do not count twice
-— a carer already receiving Child Benefit for a child of their own, who gets the credits automatically
-— anyone under 16, or over State Pension age, at the time they gave the care
-— a child for whom nobody ever claimed Child Benefit: there is no credit in existence to transfer
-— a parent who does not already have a qualifying year from earnings, because then they need it themselves
-— and there is one credit per Child Benefit claim, however many children and however many carers. If one grandparent takes it, the other cannot. The Child Benefit recipient chooses.
+— a carer already getting Child Benefit for their own child: they have the credits anyway
+— anyone under 16, or over State Pension age, when they gave the care
+— a child nobody ever claimed Child Benefit for: no credit exists to transfer
+— a parent without a qualifying year of their own: they need it themselves
+— one credit per Child Benefit claim, however many children and carers. The Child Benefit recipient has to agree, and where two carers qualify they elect who is credited; failing agreement it is decided for them
 
-It is a Class 3 credit, so it counts towards the State Pension only and opens up no other contributory benefits.
+It is a Class 3 credit: State Pension only. A self-employed carer settles their Class 2 for the year first.
 
-It has to be claimed. Form CA9176 is filled in online, printed and posted, countersigned by the Child Benefit recipient. One detail worth knowing: a tax year can only be claimed after 31 October following the end of it. That is the earliest date, not a deadline — it is widely misreported as a cut-off.
+It has to be claimed: form CA9176, countersigned by the Child Benefit recipient — a spouse or partner living with that person uses CF411A instead. A tax year can be claimed only after 31 October following the end of it: the earliest date, not a deadline.
 
-UK-wide, including Northern Ireland. Not the Channel Islands or the Isle of Man.
+UK-wide, including Northern Ireland.
 
 Think you have gaps in your record?""",
- bsky="""Looked after a grandchild under 12? The National Insurance credit that comes with the parent's Child Benefit can transfer to you.""",
- pin_title="Grandparents' National Insurance credits: a free pension year",
- pin="""Specified Adult Childcare credits: a family member who looked after a child under 12 can take the National Insurance credit that comes with the parent's Child Benefit, if the parent already has that year from their own earnings. Backdated to 6 April 2011. 35 qualifying years buys the full new State Pension of £241.30 a week. Who gains nothing: a carer who already has that year from work, anyone over State Pension age at the time, and the second grandparent, because there is one credit per Child Benefit claim. Claimed on form CA9176. UK-wide.""",
+ bsky="""Looked after a grandchild under 12? Each week's NI credit from the parent's Child Benefit can move to your record, if you live in the UK.""",
+ pin_title="Grandparents' National Insurance credits: weeks towards your pension",
+ pin="""Specified Adult Childcare credits: a family member who looked after a child under 12 can take the National Insurance credit attached to the parent's Child Benefit, week by week, if the parent already has that year from their own earnings. You must be ordinarily resident in the UK. Backdated to 6 April 2011. The full new State Pension is £241.30 a week, reached on 35 qualifying years only if your record started after April 2016. Who gains nothing: a carer who already has that year from work and the second grandparent — one credit per Child Benefit claim. Form CA9176.""",
  source="gov.uk/guidance/apply-for-specified-adult-childcare-credits, manualul HMRC NIM41258 și gov.uk/new-state-pension",
  source_en="gov.uk/guidance/apply-for-specified-adult-childcare-credits, HMRC manual NIM41258, regulation 35 of The State Pension Regulations 2015, and gov.uk/new-state-pension",
 )
 
 # ------------------------------------------------------------------ 42
 C["bacsis-integral"] = dict(
- ro="""De la 1 octombrie 2024, bacșișul nu mai poate fi oprit de nimeni pe drum.
+ ro="""De la 1 octombrie 2024, bacșișul nu mai rămâne la firmă.
 
-Legea se cheamă Employment (Allocation of Tips) Act 2023 și spune că localul trebuie să dea mai departe tot bacșișul și tot service charge-ul, fără deduceri. Nici comisionul pe care îl ia banca pentru plata cu cardul nu se scade din el: suma care contează e cea plătită de client.
+Legea se cheamă Employment (Allocation of Tips) Act 2023. Tot bacșișul și tot service charge-ul (procentul pus pe notă, obligatoriu sau nu) se împart corect între toți cei care lucrează în local, bucătărie și colegi de la agenție incluși. Firma nu-și oprește nimic, nici comisionul luat de bancă la plata cu cardul. Primești partea ta din tot ce s-a strâns.
 
-Nu contează dacă service charge-ul e obligatoriu sau la alegerea clientului. Intră oricum.
+Până când: bacșișul lăsat într-o lună se împarte până la sfârșitul lunii următoare. Lăsat pe 23 iunie, împărțit până pe 31 iulie. Dacă ești prin agenție, mai trece o lună: la tine până pe 31 august.
 
-Până când: bacșișul lăsat într-o lună trebuie împărțit până la sfârșitul lunii următoare. Exemplul din codul oficial: lăsat pe 23 iunie, împărțit până pe 31 iulie cel târziu.
+Dacă în local se lasă bacșiș des, nu doar de câteva ori pe an, trebuie să existe politică scrisă și evidență ținută trei ani. Poți cere evidența ta în scris, o dată la trei luni.
 
-Ce îți mai dă legea: localul trebuie să aibă o politică scrisă și să țină evidența trei ani. Poți cere în scris evidența ta. Au patru săptămâni să răspundă, iar tu poți cere o dată la trei luni.
-
-Dacă nu se respectă, se merge la employment tribunal. Două termene diferite: douăsprezece luni pentru împărțirea bacșișului, dar doar trei luni pentru politica scrisă și evidențe. Despăgubirea e plafonată la £5.366.
+Dacă nu se respectă, mergi la employment tribunal. Douăsprezece luni pentru împărțirea bacșișului, șase luni pentru politica scrisă și evidențe. Despăgubirea acoperă banii pierduți, până la £5.366.
 
 Pe cine NU o acoperă:
 — legea se aplică în Anglia, Scoția și Țara Galilor. În Irlanda de Nord nu;
-— pe cei care lucrează ca self-employed, nu ca angajați sau workers;
-— bacșișul în bani primit direct de la client și păstrat de tine. Dar dacă patronul îi strânge și îi împarte el, s-au întors sub lege;
-— bacșișul lăsat înainte de 1 octombrie 2024.
+— pe cei care lucrează pe cont propriu (self-employed), nu ca angajați sau workers;
+— banii primiți în mână de la client și ținuți de tine, și bacșișul dat prin aplicație. Dar dacă patronul îi strânge și îi împarte el, s-au întors sub lege.
 
-Partea de taxe: bacșișul e venit impozabil întotdeauna, iar legea nouă nu a schimbat nimic aici. National Insurance e partea care diferă — pe banii primiți direct de la client și păstrați de tine nu se plătește NI, iar pe service charge-ul obligatoriu împărțit de firmă se plătește mereu.
+Partea de taxe: bacșișul e mereu venit impozabil. National Insurance e partea care diferă — pe banii luați direct de la client și ținuți de tine, fără ca patronul să se bage, nu se plătește NI; pe service charge-ul obligatoriu împărțit de firmă se plătește mereu. Între ele e troncul, fondul comun ținut de un coleg, nu de firmă: contează cine face împărțeala.
 
 Nu știi ce se reține din bacșișul tău?""",
- th="""De la 1 octombrie 2024, localul trebuie să îți dea tot bacșișul și tot service charge-ul, fără să oprească nimic. Nici comisionul de card.
+ th="""Din 1 octombrie 2024, tot bacșișul și tot service charge-ul se împart corect între toți din local, bucătăria inclusă. Firma nu-și oprește nimic, nici comisionul de card.
 
-Bacșișul dintr-o lună se împarte până la sfârșitul lunii următoare.
+Bacșișul dintr-o lună se împarte până la finalul lunii viitoare.
 
-Doar în Anglia, Scoția și Țara Galilor. Nu îi acoperă pe cei self-employed.""",
- li="""Since 1 October 2024, nobody can take a cut of a tip on its way to the worker.
+Doar Anglia, Scoția, Țara Galilor. Nu pe cont propriu.""",
+ li="""Since 1 October 2024, a tip does not belong to the business.
 
-The Employment (Allocation of Tips) Act 2023 requires an employer to pass on every qualifying tip, gratuity and service charge without deductions. The card processing fee the bank charged does not come out of it either: the amount that counts is what the customer actually paid, not what survived the payment provider. Whether a service charge is mandatory or discretionary makes no difference.
+The Employment (Allocation of Tips) Act 2023 requires an employer to pass on the whole of the qualifying tips, gratuities and service charges taken at a place of business and allocate them fairly between the workers there — kitchen staff and eligible agency workers included. The card processing fee the bank charged does not come out of it: the amount that counts is what the customer actually paid. Whether a service charge is mandatory or discretionary makes no difference.
 
-The timing: a tip paid in one month must be allocated by the end of the following month. The statutory Code's own example — a tip left on 23 June must be distributed by 31 July at the latest.
+Worth saying plainly: it is a fair share of the pooled total, not the note left on your own table, and income tax still comes off.
 
-What else the Act gives a worker: the employer must have a written tipping policy and must keep records for three years. A worker can request their records in writing — what was collected at that place of business and what was allocated to them. The employer has four weeks to respond, and a worker may ask once every three months.
+The timing: a tip paid in one month must be allocated by the end of the following month. The statutory Code's own example — a tip left on 23 June must be distributed by 31 July at the latest. Agency workers are a two-stage chain: to the agency within that window, then on to the worker by the end of the month after that, so 31 August for the same tip.
 
-Enforcement is by employment tribunal, and the two time limits are different: twelve months for a complaint about allocation or payment, but only three months for one about the written policy or the records. Compensation for financial loss is capped at £5,366 — note that this is no longer the £5,000 printed in the Act as enacted; it was uprated on 6 April 2026.
+What else the Act gives a worker: where tips arise at a site more than occasionally, the employer must have a written tipping policy and must keep records for three years. A worker can request their records in writing. The employer has four weeks to respond, and may be asked once every three months.
+
+Enforcement is by employment tribunal. Two different time limits: twelve months for a complaint about allocation or payment, and six months — not three, since 1 October 2026 — for one about the written policy or the records. Compensation is for financial loss, capped at £5,366.
 
 Who is not covered:
 — the Act extends to England, Wales and Scotland. Northern Ireland is outside it
 — self-employed contractors, who are not workers
-— a cash tip handed straight to a worker and kept, with no employer control or involvement. The line is control, not the payment method: an employer who collects cash tips and shares them out at the end of a shift is squarely back inside the Act
-— tips paid before 1 October 2024
+— a cash tip handed straight to a worker and kept, with no employer involvement, and app tipping that goes straight to staff and bypasses the employer. The line is control, not the payment method: an employer who collects cash tips and shares them out at the end of a shift is back inside the Act
 
-On the tax, since that is what we get asked: tips are always taxable income, and the Act changed nothing about that. National Insurance is the part that varies. There is no NI on a tip a worker receives directly from a customer and keeps; there is always NI on a mandatory service charge distributed by the business. Between the two sits the tronc, where what matters is who decides the allocation.
+On the tax, since that is what we get asked: tips are always taxable income, and the Act changed nothing there. National Insurance is the part that varies. There is no NI on a tip a worker takes directly from a customer and keeps, as long as the employer has no hand in it; there is always NI on a mandatory service charge distributed by the business. Between the two sits the tronc, where what matters is who decides the allocation.
 
 Not sure what comes out of your tips?""",
- bsky="""Since 1 Oct 2024 employers must pass on tips in full, no deductions — not even the card fee. England, Wales and Scotland only.""",
- pin_title="UK tipping law: employers must pass on tips in full",
- pin="""Since 1 October 2024 the Employment (Allocation of Tips) Act 2023 requires employers in England, Wales and Scotland to pass on all qualifying tips, gratuities and service charges without deductions, including card processing fees. A tip paid in one month must be allocated by the end of the following month. Employers must keep a written tipping policy and three years of records. Not covered: Northern Ireland, self-employed contractors, and cash tips kept by a worker with no employer involvement.""",
+ bsky="""Since 1 Oct 2024 tips are shared out fairly among staff — the business keeps none, not even the card fee. Not Northern Ireland.""",
+ pin_title="UK tipping law: the employer keeps none of the tips",
+ pin="""Since 1 October 2024 the Employment (Allocation of Tips) Act 2023 makes employers in England, Wales and Scotland share all tips and service charges taken at a site fairly between its staff, kitchen and agency staff included, with nothing deducted for card fees. A tip paid in one month must be allocated by the end of the next month; through an agency, a month later. Where tips are more than occasional: a written policy and three years of records. Not covered: Northern Ireland, the self-employed, cash tips kept with no employer involvement, app tips paid direct to staff.""",
  source="legislation.gov.uk/ukpga/2023/13, codul statutar de practică privind împărțirea bacșișului, SI 2024/829, Employment Rights Act 1996 Part 2B și broșura HMRC E24",
  source_en="legislation.gov.uk/ukpga/2023/13, the statutory Code of Practice on fair and transparent distribution of tips, SI 2024/829, Employment Rights Act 1996 Part 2B, and HMRC booklet E24",
  disc_ro="Informații generale. Pentru o plângere la locul de muncă, întreabă ACAS sau Citizens Advice.",
@@ -2473,63 +2466,59 @@ Not sure what comes out of your tips?""",
 
 # ------------------------------------------------------------------ 43
 C["plata-esalonata-ianuarie"] = dict(
- ro="""Dacă factura din ianuarie te sperie, nu trebuie să aștepți până în ianuarie ca să începi să o plătești.
+ ro="""Îți faci singur declarația la HMRC — Self Assessment? Nu aștepta ianuarie ca să începi să plătești taxa.
 
-HMRC are un plan care se cheamă Budget Payment Plan. Pui deoparte o sumă în fiecare săptămână sau în fiecare lună, prin debit direct, iar banii se scad din factura care vine. Îl pornești singur, din contul tău HMRC: intri la Direct Debit și alegi Budget Payment Plan. Tu alegi cât și cât de des.
+Planul se cheamă Budget Payment Plan. Pui deoparte o sumă săptămânal sau lunar, prin debit direct, iar banii se scad din ce ai de plătit. Tu alegi cât și cât de des. Îl pornești tu, din contul tău HMRC online: intri la Direct Debit și îl alegi. Îți trebuie parola de Government Gateway și numărul UTR (10 cifre de la HMRC), iar HMRC verifică întâi dacă te încadrezi.
 
-Un lucru pe care trebuie să îl știi de la început, pentru că aici se încurcă lumea: termenul nu se mută. Dacă ce ai pus deoparte nu acoperă toată factura, restul se plătește tot până pe 31 ianuarie 2027, la 23:59. După, vin dobânda și penalizarea. Dacă ai pus mai mult decât era nevoie, poți cere diferența înapoi.
+Aici se încurcă lumea: termenul nu se mută. Ce nu acoperă planul se plătește tot până pe 31 ianuarie 2027, la 23:59. Din 1 februarie curge dobânda, iar penalizarea vine mai târziu: 5% din taxa neplătită la 30 de zile, adică pe 2 martie 2027, apoi iar la 6 și la 12 luni. Deci dacă rămâi descoperit, plătește repede — până pe 2 martie nu s-a adăugat nicio penalizare de plată.
 
 Dobânda HMRC pentru plata întârziată e 7,75% până pe 23 noiembrie 2026, apoi 8%.
 
-Ce e flexibil: poți opri plățile până la 6 luni, dacă ai nevoie.
+Și 31 ianuarie nu e singura dată. Dacă ai plăți în avans — payments on account — pe 31 ianuarie plătești ce datorezi pe anul trecut plus prima dintre ele, iar a doua pe 31 iulie. Pui debitul la jumătate din cât ai nevoie și ianuarie iese bine, dar te prinde iulie. Socotește ambele termene.
 
-Cine NU îl poate folosi: trebuie să fii la zi cu plățile de la declarația trecută. Textul de pe gov.uk e clar — planul se deschide doar dacă nu ai restanțe. Dacă ai sărit deja un termen de plată, drumul tău e altul: Time to Pay, unde HMRC se uită la veniturile și cheltuielile tale și decide ce îți permiți.
+Poți opri plățile până la 6 luni. Dacă ai pus mai mult, ceri diferența înapoi.
 
-Și nu e pentru orice taxă. E pentru Self Assessment. Nu acoperă TVA, PAYE sau impozitul pe firmă.
+Cine NU îl poate folosi: trebuie să fii la zi cu plățile de la declarația trecută. Dacă ai sărit deja un termen de plată, drumul tău e altul: Time to Pay, eșalonarea pentru datoriile deja restante.
 
-Încă un amănunt util: banii din Budget Payment Plan nu apar în calculul SA302. O să vezi factura întreagă acolo, nu cât a mai rămas de plată. Nu e o greșeală.
-
-Se aplică în tot Regatul Unit. Pentru primul debit direct, lasă 5 zile lucrătoare.
+E doar pentru Self Assessment: nu TVA, nu taxa oprită din salariu (PAYE), nu impozitul pe firmă.
 
 Nu știi cât să pui deoparte pe lună?""",
- th="""Factura din ianuarie te sperie? Nu trebuie să aștepți ca să începi să o plătești.
+ th="""Îți faci singur declarația la HMRC și taxa din ianuarie te sperie? Poți pune deoparte pentru ea de pe acum, săptămânal sau lunar, prin debit direct.
 
-HMRC are Budget Payment Plan: pui deoparte o sumă săptămânal sau lunar, prin debit direct, iar banii se scad din factură.
+Termenele nu se mută: 31 ianuarie 2027 și, dacă ai plăți în avans, 31 iulie. Și trebuie să fii la zi cu plățile.""",
+ li="""If you fill in your own tax return — Self Assessment — and the January bill worries you, you do not have to wait until January to start paying it.
 
-Termenul nu se mută: restul se plătește tot până pe 31 ianuarie 2027. Și trebuie să fii la zi cu plățile.""",
- li="""If the January bill worries you, you do not have to wait until January to start paying it.
+HMRC runs a Budget Payment Plan. You put an amount aside every week or every month by Direct Debit, and it comes off the bill when it arrives. You set it up yourself inside your HMRC online account: go to Direct Debit and choose the Budget Payment Plan option. Have your Government Gateway sign-in and your UTR — the 10-digit number HMRC gave you — to hand, and HMRC checks first whether you can use the plan. You choose the amount and the frequency.
 
-HMRC runs a Budget Payment Plan. You put an amount aside every week or every month by Direct Debit, and it comes off the bill when it arrives. You set it up yourself inside your HMRC online account: go to Direct Debit and choose the Budget Payment Plan option. You choose the amount and the frequency.
-
-One thing to understand before you start, because this is where people come unstuck: the deadline does not move. If what you have put aside does not cover the whole bill, the rest is still due by 11:59pm on 31 January 2027, after which interest and a penalty follow. If you are in credit, you can ask for a refund.
+One thing to understand before you start, because this is where people come unstuck: the deadline does not move. If what you have put aside does not cover the whole bill, the rest is still due by 11:59pm on 31 January 2027. Interest runs from 1 February. The penalty comes later: 5% of the tax still unpaid 30 days after the deadline, which is 2 March 2027, and 5% again at six months and at twelve months. So if you are left short, paying quickly still counts — no late-payment penalty has been added before 2 March. If you are in credit, you can ask for a refund.
 
 HMRC's late payment interest rate is 7.75% until 23 November 2026, and 8.00% from 24 November 2026.
 
+And 31 January is not the only date. If you make payments on account, the 31 January payment is last year's balance plus the first of them, and the second falls due on 31 July. Set the Direct Debit at half of what you need and January will look fine while July catches you out. Work out both dates before you choose the amount.
+
 What is flexible: you can pause the payments for up to six months if you need to.
 
-Who cannot use it: you must be up to date with the payments from your last Self Assessment bill. GOV.UK is unambiguous — the plan only opens if you are not in arrears. If you have already missed a payment deadline, your route is the other one: Time to Pay, where HMRC assesses your income and spending and decides what is affordable.
+Who cannot use it: you must be up to date with the payments from your last Self Assessment bill. GOV.UK is unambiguous — the plan only opens if you are not in arrears. If you have already missed a payment deadline, your route is the other one: Time to Pay, the arrangement for tax that is already overdue, where HMRC assesses your income and spending and decides what is affordable.
 
-It is also Self Assessment only. It is not a route for VAT, PAYE or Corporation Tax.
-
-A detail worth knowing: money paid into a Budget Payment Plan does not appear in the SA302 tax calculation. You will see the gross bill there, not the balance. That is not an error.
+It is also Self Assessment only. It is not a route for VAT, for tax taken out of wages through PAYE, or for Corporation Tax.
 
 UK-wide. Allow five working days for a first Direct Debit to be set up.
 
 Not sure what to put aside each month?""",
- bsky="""HMRC's Budget Payment Plan lets you pay Self Assessment monthly before it is due. The 31 January deadline does not move.""",
+ bsky="""Pay Self Assessment monthly before it is due, by Direct Debit. The dates do not move: 31 January, plus 31 July if you pay on account.""",
  pin_title="HMRC Budget Payment Plan: pay Self Assessment in instalments",
- pin="""HMRC's Budget Payment Plan lets a Self Assessment taxpayer put money aside weekly or monthly by Direct Debit towards the next tax bill, set up in their own HMRC online account. Payments can be paused for up to six months. The deadline does not move: anything the plan has not covered is still due by 31 January 2027, with interest and a penalty after that. You cannot set one up unless you are up to date with payments from your last bill — an overdue bill goes down the Time to Pay route instead. Self Assessment only. UK-wide.""",
- gbp="""Worried about the Self Assessment bill due on 31 January 2027? You do not have to wait until January to start paying it.
+ pin="""HMRC's Budget Payment Plan lets a Self Assessment taxpayer put money aside weekly or monthly by Direct Debit towards the next tax bill, set up in their own HMRC online account with a Government Gateway sign-in and a UTR. The deadline does not move: anything the plan has not covered is still due by 31 January 2027, with interest from 1 February and a 5% penalty on tax still unpaid 30 days later. Nor is January the only date: if you make payments on account, a second one falls due on 31 July. Be up to date with payments from your last bill, or the route is Time to Pay.""",
+ gbp="""Do you fill in your own tax return? If the Self Assessment bill due on 31 January 2027 worries you, you do not have to wait until January to start paying it.
 
-HMRC runs a Budget Payment Plan: you put an amount aside every week or every month by Direct Debit, set up inside your own HMRC online account, and it comes off the bill when it lands. You choose the amount and the frequency, and you can pause the payments for up to six months.
+HMRC runs a Budget Payment Plan: you put an amount aside every week or every month by Direct Debit, set up inside your own HMRC online account — you will need your Government Gateway sign-in and your UTR — and it comes off the bill when it lands. You choose the amount and the frequency, and you can pause the payments for up to six months.
 
-Two things to know. The deadline does not move — whatever the plan has not covered is still due by 11:59pm on 31 January 2027, and interest and a penalty follow after that. And you can only set one up if you are up to date with the payments from your last Self Assessment bill. If you have already missed a payment deadline, the route is Time to Pay instead, where HMRC assesses what you can afford.
+Three things to know. The deadline does not move: whatever the plan has not covered is still due by 11:59pm on 31 January 2027, interest runs from 1 February and a 5% penalty is charged on anything still unpaid 30 days after that. 31 January is not the only date either — if you make payments on account, the second one falls due on 31 July. And you can only set a plan up if you are up to date with the payments from your last Self Assessment bill; if you have already missed a payment deadline, the route is Time to Pay instead, where HMRC assesses what you can afford.
 
-It is for Self Assessment only — not VAT, PAYE or Corporation Tax.
+It is for Self Assessment only — not VAT, not tax taken from wages through PAYE, not Corporation Tax.
 
 Ola Accountancy, Luton and Birmingham. Call 0330 133 1886.""",
- source="gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly, gov.uk/difficulties-paying-hmrc/pay-in-instalments, gov.uk/self-assessment-tax-returns/deadlines și tabelul HMRC de dobânzi actualizat pe 6 noiembrie 2026",
- source_en="gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly, gov.uk/difficulties-paying-hmrc/pay-in-instalments, gov.uk/self-assessment-tax-returns/deadlines, and the HMRC interest rates table updated 6 November 2026",
+ source="gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly, gov.uk/difficulties-paying-hmrc/pay-in-instalments, gov.uk/self-assessment-tax-returns/deadlines, gov.uk/self-assessment-tax-returns/penalties și tabelul HMRC de dobânzi actualizat pe 6 noiembrie 2026",
+ source_en="gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly, gov.uk/difficulties-paying-hmrc/pay-in-instalments, gov.uk/self-assessment-tax-returns/deadlines, gov.uk/self-assessment-tax-returns/penalties, and the HMRC interest rates table updated 6 November 2026",
 )
 
 # ------------------------------------------------------------------ 44
@@ -2606,48 +2595,48 @@ C["tva-la-incasare"] = dict(
 
 Asta e regula normală: TVA-ul se datorează la data facturii, nu la data încasării. Există o schemă care mută data: Cash Accounting Scheme. TVA-ul pe vânzări se datorează când intră banii.
 
-Partea care se spune mai rar, și care decide dacă îți folosește: merge în ambele sensuri. TVA-ul de pe cumpărături îl iei înapoi abia după ce îți plătești furnizorul.
+Partea care decide dacă îți folosește: TVA-ul de pe cumpărături îl iei înapoi abia după ce îți plătești furnizorul.
 
-Cum intri: te aștepți să vinzi £1,35 milioane sau mai puțin, fără TVA, în următoarele 12 luni. Nu există cerere și nu anunți pe nimeni: începi de la prima zi a unei perioade de TVA. Nu se aplică pe trecut.
+Cum intri: ești deja înregistrat la TVA și te aștepți să vinzi £1,35 milioane sau mai puțin, fără TVA, în următoarele 12 luni. Nu există cerere și nu anunți pe nimeni: începi din prima zi a unei perioade de TVA, perioada pentru care depui declarația.
 
-Un câștig care nu se vede de la început: dacă un client nu te plătește niciodată, nu ai plătit TVA pe factura aceea. Pe regulile normale l-ai fi plătit și apoi ai fi așteptat 6 luni ca să-l ceri înapoi.
+Un câștig care nu se vede de la început: dacă un client nu te plătește niciodată, nu ai plătit TVA pe factura aceea.
 
-Cui NU îi folosește, în cuvintele HMRC: celui plătit pe loc, la vânzare, și celui care ia înapoi mai mult TVA decât încasează. Dacă ai magazin sau fast-food și clientul plătește la casă, schema nu îți mută nimic. Subcontractorilor din construcții care facturează mai ales la reverse charge, HMRC le spune direct că nu-i ajută.
+Cui s-ar putea să nu-i folosească, zice HMRC: celui plătit pe loc, la vânzare; celui care cere de la HMRC mai mult TVA decât îi dă; și celui care facturează servicii lună de lună, la contract. Ai magazin sau fast-food și clientul plătește la casă? Schema nu îți mută nimic.
 
-Cine NU poate intra deloc: cine are declarații sau plăți de TVA restante; cine e pe Flat Rate Scheme; un grup de TVA a cărui cifră totală trece de £1,35 milioane, chiar dacă fiecare firmă în parte e sub.
+Iar dacă ești subcontractor în construcții și facturezi la reverse charge, nu e vorba de mai puțin folos: facturile alea sunt în afara schemei prin lege. Nu ai ce amâna, dar TVA-ul de pe materiale tot îl iei înapoi mai târziu. Ieși în pierdere.
 
-Cine trebuie să iasă: când vânzările pe ultimele 12 luni trec de £1,6 milioane. Ieși la sfârșitul perioadei de TVA în curs, și atunci datorezi tot TVA-ul rămas, chiar dacă nu ai fost plătit.
+Cine NU poate intra: cine are declarații de TVA nedepuse sau plăți restante — dar dacă ai o înțelegere cu HMRC să-ți achiți restanțele, poți intra; și cine e pe Flat Rate Scheme.
 
-Rămân în afara schemei, oricum: leasingul și hire purchase, importurile și achizițiile, reverse charge-ul, și facturile plătibile la peste 6 luni.
+Cine trebuie să iasă: când vânzările pe ultimele 12 luni trec de £1,6 milioane — dar dacă ai sărit pragul o singură dată, dintr-o vânzare mare, cum e o dubă sau un utilaj, s-ar putea să poți rămâne. Când ieși, datorezi tot TVA-ul rămas, chiar dacă nu ai fost plătit.
 
 Nu știi dacă te-ar ajuta pe tine?""",
- th="""Factura în august, banii în noiembrie, TVA-ul plătit în septembrie. Din buzunarul tău.
+ th="""Factura în august, banii în noiembrie, TVA-ul plătit în septembrie. Din banii tăi.
 
-Cash Accounting Scheme mută data: plătești TVA când te plătește clientul. Intri dacă vinzi sub £1,35 milioane pe an.
+Cash Accounting Scheme mută data: plătești TVA când te plătește clientul. Intri dacă ești înregistrat la TVA și vinzi sub £1,35 mil.
 
-Dar merge în ambele sensuri: TVA-ul pe cumpărături îl iei înapoi abia după ce plătești furnizorul.""",
+Facturile la reverse charge rămân în afara schemei: subcontractorii în construcții nu câștigă nimic.""",
  li="""You invoiced in August, the customer pays in November, and you handed the VAT to HMRC in September. Out of your own money.
 
 That is the normal rule: VAT is due at the date of the invoice, not the date of payment. There is a scheme that moves the date — the Cash Accounting Scheme — under which VAT on sales is due when the money lands in your account.
 
 The half that gets mentioned less, and the half that decides whether it suits you: it runs both ways. You reclaim VAT on purchases only once you have paid your supplier, not when their invoice arrives.
 
-How you join: you expect taxable supplies of £1.35 million or less, excluding VAT, over the next 12 months. There is no application and nobody to notify — you simply start on the first day of a VAT accounting period. It cannot be applied retrospectively; invoices from before you start stay on the normal rules.
+How you join: you are already registered for VAT, and you expect taxable supplies of £1.35 million or less, excluding VAT, over the next 12 months. It is not open to a business that is not VAT registered. There is no application and nobody to notify — you simply start on the first day of a VAT accounting period. It cannot be applied retrospectively; invoices from before you start stay on the normal rules.
 
 A benefit that is easy to miss: if a customer never pays, you never paid VAT on that invoice. Under the normal rules you would have paid it, then waited six months from the due date to reclaim it, with the debt written off in your accounts first.
 
-Who it does not help — and this is HMRC's own list, not our opinion: a business usually paid as soon as it makes a sale, one that often reclaims more VAT than it pays, and one making continuous supplies of services. If you run a shop or a takeaway and the customer pays at the till, the scheme moves nothing for you. If you are a construction subcontractor and most of your sales fall under the domestic reverse charge, HMRC says plainly that it may not benefit you.
+Who it may not help, in HMRC's words: a business usually paid as soon as it makes a sale, one that often reclaims more VAT than it pays, and one making continuous supplies of services. If you run a shop or a takeaway and the customer pays at the till, the scheme moves nothing for you.
 
-Who cannot join at all: anyone with VAT returns or payments outstanding; anyone on the Flat Rate Scheme, which has its own cash-based turnover method; and a VAT group whose combined turnover exceeds £1,350,000, even where each member sits below it.
+A construction subcontractor invoicing under the domestic reverse charge is a harder case than that. Those supplies are outside the scheme as a matter of law, so there is no output tax to defer, while the input tax on materials still waits until the supplier has been paid. The scheme leaves that business worse off than the normal rules.
 
-Who has to leave: once taxable supplies in the last 12 months exceed £1.6 million. You leave at the end of the current VAT period, and all outstanding VAT then becomes due whether or not your customers have paid.
+Who cannot join at all: anyone with VAT returns outstanding, or payments outstanding unless they have arranged with HMRC to clear the lot; anyone on the Flat Rate Scheme, which has its own cash-based method.
 
-Outside the scheme regardless: lease purchase and hire purchase, imports and acquisitions, reverse charge supplies, and invoices where full payment is not due within six months.
+Who has to leave: once taxable supplies in the last 12 months exceed £1.6 million — though a one-off sale that takes you over, such as a capital asset, can let you stay on, if it has not happened before and you expect under £1.35 million over the next 12 months. On leaving, all outstanding VAT becomes due whether or not your customers have paid, and you can report and pay it over six months.
 
 Not sure whether it would help you?""",
- bsky="""The VAT Cash Accounting Scheme: pay VAT when the customer pays you, and reclaim only once you have paid your supplier.""",
+ bsky="""VAT Cash Accounting: pay VAT when the customer pays, reclaim once you have paid your supplier. Reverse charge sales stay outside it.""",
  pin_title="VAT Cash Accounting Scheme: pay VAT when you are paid",
- pin="""The VAT Cash Accounting Scheme lets a UK business account for VAT on sales when the customer pays, rather than when the invoice is issued — and reclaim VAT on purchases only once the supplier has been paid. You can join if you expect taxable supplies of £1.35 million or less in the next 12 months; there is no application and you start at the beginning of a VAT period. You must leave once taxable supplies in the last 12 months exceed £1.6 million. HMRC says it may not benefit a business usually paid as soon as it makes a sale. Not available alongside the Flat Rate Scheme.""",
+ pin="""The VAT Cash Accounting Scheme lets a VAT-registered UK business pay VAT on sales when the customer pays, not when invoiced, and reclaim VAT on purchases only once the supplier has been paid. You can join if you expect taxable supplies of £1.35 million or less in the next 12 months. Supplies under a domestic reverse charge are outside the scheme by law, so a construction subcontractor invoicing that way gains nothing. HMRC says it may not benefit a business usually paid as soon as it makes a sale. You must leave above £1.6 million, unless a one-off sale took you over.""",
  source="VAT Notice 731 (gov.uk/guidance/vat-cash-accounting-scheme-notice-731), regulamentele 58 și 60 din VAT Regulations 1995 și manualul HMRC VCAS",
  source_en="VAT Notice 731 (gov.uk/guidance/vat-cash-accounting-scheme-notice-731), gov.uk/vat-cash-accounting-scheme, regulations 58 and 60 of the VAT Regulations 1995, and HMRC's VCAS manual",
 )

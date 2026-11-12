@@ -1,4 +1,4 @@
-# Textele postării — Bacșișul e al tău, tot — legea din 1 octombrie 2024
+# Textele postării — Bacșișul nu e al patronului — legea din 1 octombrie 2024
 
 Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 și TikTok; engleză pe LinkedIn, Bluesky, Pinterest și Google Business.
@@ -7,25 +7,22 @@ Limba urmează regula rețelelor: română pe Instagram, Facebook, Threads
 
 ## RO — Instagram, Facebook, Threads, TikTok
 
-De la 1 octombrie 2024, bacșișul nu mai poate fi oprit de nimeni pe drum.
+De la 1 octombrie 2024, bacșișul nu mai rămâne la firmă.
 
-Legea se cheamă Employment (Allocation of Tips) Act 2023 și spune că localul trebuie să dea mai departe tot bacșișul și tot service charge-ul, fără deduceri. Nici comisionul pe care îl ia banca pentru plata cu cardul nu se scade din el: suma care contează e cea plătită de client.
+Legea se cheamă Employment (Allocation of Tips) Act 2023. Tot bacșișul și tot service charge-ul (procentul pus pe notă, obligatoriu sau nu) se împart corect între toți cei care lucrează în local, bucătărie și colegi de la agenție incluși. Firma nu-și oprește nimic, nici comisionul luat de bancă la plata cu cardul. Primești partea ta din tot ce s-a strâns.
 
-Nu contează dacă service charge-ul e obligatoriu sau la alegerea clientului. Intră oricum.
+Până când: bacșișul lăsat într-o lună se împarte până la sfârșitul lunii următoare. Lăsat pe 23 iunie, împărțit până pe 31 iulie. Dacă ești prin agenție, mai trece o lună: la tine până pe 31 august.
 
-Până când: bacșișul lăsat într-o lună trebuie împărțit până la sfârșitul lunii următoare. Exemplul din codul oficial: lăsat pe 23 iunie, împărțit până pe 31 iulie cel târziu.
+Dacă în local se lasă bacșiș des, nu doar de câteva ori pe an, trebuie să existe politică scrisă și evidență ținută trei ani. Poți cere evidența ta în scris, o dată la trei luni.
 
-Ce îți mai dă legea: localul trebuie să aibă o politică scrisă și să țină evidența trei ani. Poți cere în scris evidența ta. Au patru săptămâni să răspundă, iar tu poți cere o dată la trei luni.
-
-Dacă nu se respectă, se merge la employment tribunal. Două termene diferite: douăsprezece luni pentru împărțirea bacșișului, dar doar trei luni pentru politica scrisă și evidențe. Despăgubirea e plafonată la £5.366.
+Dacă nu se respectă, mergi la employment tribunal. Douăsprezece luni pentru împărțirea bacșișului, șase luni pentru politica scrisă și evidențe. Despăgubirea acoperă banii pierduți, până la £5.366.
 
 Pe cine NU o acoperă:
 — legea se aplică în Anglia, Scoția și Țara Galilor. În Irlanda de Nord nu;
-— pe cei care lucrează ca self-employed, nu ca angajați sau workers;
-— bacșișul în bani primit direct de la client și păstrat de tine. Dar dacă patronul îi strânge și îi împarte el, s-au întors sub lege;
-— bacșișul lăsat înainte de 1 octombrie 2024.
+— pe cei care lucrează pe cont propriu (self-employed), nu ca angajați sau workers;
+— banii primiți în mână de la client și ținuți de tine, și bacșișul dat prin aplicație. Dar dacă patronul îi strânge și îi împarte el, s-au întors sub lege.
 
-Partea de taxe: bacșișul e venit impozabil întotdeauna, iar legea nouă nu a schimbat nimic aici. National Insurance e partea care diferă — pe banii primiți direct de la client și păstrați de tine nu se plătește NI, iar pe service charge-ul obligatoriu împărțit de firmă se plătește mereu.
+Partea de taxe: bacșișul e mereu venit impozabil. National Insurance e partea care diferă — pe banii luați direct de la client și ținuți de tine, fără ca patronul să se bage, nu se plătește NI; pe service charge-ul obligatoriu împărțit de firmă se plătește mereu. Între ele e troncul, fondul comun ținut de un coleg, nu de firmă: contează cine face împărțeala.
 
 Nu știi ce se reține din bacșișul tău?
 
@@ -42,23 +39,24 @@ Sursă: legislation.gov.uk/ukpga/2023/13, codul statutar de practică privind î
 
 ## EN — LinkedIn  (postat ca document PDF, nu ca imagini multiple)
 
-Since 1 October 2024, nobody can take a cut of a tip on its way to the worker.
+Since 1 October 2024, a tip does not belong to the business.
 
-The Employment (Allocation of Tips) Act 2023 requires an employer to pass on every qualifying tip, gratuity and service charge without deductions. The card processing fee the bank charged does not come out of it either: the amount that counts is what the customer actually paid, not what survived the payment provider. Whether a service charge is mandatory or discretionary makes no difference.
+The Employment (Allocation of Tips) Act 2023 requires an employer to pass on the whole of the qualifying tips, gratuities and service charges taken at a place of business and allocate them fairly between the workers there — kitchen staff and eligible agency workers included. The card processing fee the bank charged does not come out of it: the amount that counts is what the customer actually paid. Whether a service charge is mandatory or discretionary makes no difference.
 
-The timing: a tip paid in one month must be allocated by the end of the following month. The statutory Code's own example — a tip left on 23 June must be distributed by 31 July at the latest.
+Worth saying plainly: it is a fair share of the pooled total, not the note left on your own table, and income tax still comes off.
 
-What else the Act gives a worker: the employer must have a written tipping policy and must keep records for three years. A worker can request their records in writing — what was collected at that place of business and what was allocated to them. The employer has four weeks to respond, and a worker may ask once every three months.
+The timing: a tip paid in one month must be allocated by the end of the following month. The statutory Code's own example — a tip left on 23 June must be distributed by 31 July at the latest. Agency workers are a two-stage chain: to the agency within that window, then on to the worker by the end of the month after that, so 31 August for the same tip.
 
-Enforcement is by employment tribunal, and the two time limits are different: twelve months for a complaint about allocation or payment, but only three months for one about the written policy or the records. Compensation for financial loss is capped at £5,366 — note that this is no longer the £5,000 printed in the Act as enacted; it was uprated on 6 April 2026.
+What else the Act gives a worker: where tips arise at a site more than occasionally, the employer must have a written tipping policy and must keep records for three years. A worker can request their records in writing. The employer has four weeks to respond, and may be asked once every three months.
+
+Enforcement is by employment tribunal. Two different time limits: twelve months for a complaint about allocation or payment, and six months — not three, since 1 October 2026 — for one about the written policy or the records. Compensation is for financial loss, capped at £5,366.
 
 Who is not covered:
 — the Act extends to England, Wales and Scotland. Northern Ireland is outside it
 — self-employed contractors, who are not workers
-— a cash tip handed straight to a worker and kept, with no employer control or involvement. The line is control, not the payment method: an employer who collects cash tips and shares them out at the end of a shift is squarely back inside the Act
-— tips paid before 1 October 2024
+— a cash tip handed straight to a worker and kept, with no employer involvement, and app tipping that goes straight to staff and bypasses the employer. The line is control, not the payment method: an employer who collects cash tips and shares them out at the end of a shift is back inside the Act
 
-On the tax, since that is what we get asked: tips are always taxable income, and the Act changed nothing about that. National Insurance is the part that varies. There is no NI on a tip a worker receives directly from a customer and keeps; there is always NI on a mandatory service charge distributed by the business. Between the two sits the tronc, where what matters is who decides the allocation.
+On the tax, since that is what we get asked: tips are always taxable income, and the Act changed nothing there. National Insurance is the part that varies. There is no NI on a tip a worker takes directly from a customer and keeps, as long as the employer has no hand in it; there is always NI on a mandatory service charge distributed by the business. Between the two sits the tronc, where what matters is who decides the allocation.
 
 Not sure what comes out of your tips?
 
@@ -74,9 +72,9 @@ Source: legislation.gov.uk/ukpga/2023/13, the statutory Code of Practice on fair
 
 ---
 
-## EN — Bluesky  (limită 300 de caractere; aici 295)
+## EN — Bluesky  (limită 300 de caractere; aici 296)
 
-Since 1 Oct 2024 employers must pass on tips in full, no deductions — not even the card fee. England, Wales and Scotland only.
+Since 1 Oct 2024 tips are shared out fairly among staff — the business keeps none, not even the card fee. Not Northern Ireland.
 
 General information. For a workplace complaint, contact ACAS or Citizens Advice.
 
@@ -86,9 +84,9 @@ General information. For a workplace complaint, contact ACAS or Citizens Advice.
 
 ## EN — Pinterest  (descriere pin)
 
-**Titlu:** UK tipping law: employers must pass on tips in full
+**Titlu:** UK tipping law: the employer keeps none of the tips
 
-Since 1 October 2024 the Employment (Allocation of Tips) Act 2023 requires employers in England, Wales and Scotland to pass on all qualifying tips, gratuities and service charges without deductions, including card processing fees. A tip paid in one month must be allocated by the end of the following month. Employers must keep a written tipping policy and three years of records. Not covered: Northern Ireland, self-employed contractors, and cash tips kept by a worker with no employer involvement.
+Since 1 October 2024 the Employment (Allocation of Tips) Act 2023 makes employers in England, Wales and Scotland share all tips and service charges taken at a site fairly between its staff, kitchen and agency staff included, with nothing deducted for card fees. A tip paid in one month must be allocated by the end of the next month; through an agency, a month later. Where tips are more than occasional: a written policy and three years of records. Not covered: Northern Ireland, the self-employed, cash tips kept with no employer involvement, app tips paid direct to staff.
 
 General information. For a workplace complaint, contact ACAS or Citizens Advice.
 
@@ -98,7 +96,7 @@ General information. For a workplace complaint, contact ACAS or Citizens Advice.
 
 ## Surse primare
 
-- Employment (Allocation of Tips) Act 2023 — long title: 'An Act to ensure that tips, gratuities and service charges paid by customers are allocated to workers.' Inserted ERA 1996 s.27D(1): 'An employer must ensure that the total amount of the qualifying tips, gratuities and service charges paid at, or otherwise attributable to, a place of business of the employer is allocated fairly between workers of the employer at that place of business.' s.27C(6): the amount paid by a customer 'means the actual amount paid by the customer (and accordingly any deductions from the amount paid, whether deducted by the employer or any other person, are to be disregarded)'. s.27G: the employer must allocate and pay 'no later than the end of the month following the month in which the tip, gratuity or service charge was paid by the customer'. s.27I: written policy. s.27J: records kept 'for a period of three years', a worker may request them, 'may not make more than one request for records under this section in any three month period', and the employer has a four-week 'response period'. s.27K(3): a tribunal complaint about allocation must be presented 'before the end of the period of twelve months'. s.27N(2): a complaint about the policy or records, 'before the end of the period of three months'. s.27Y: the Part applies to tips paid on or after commencement. s.13: 'This Act extends to England and Wales and Scotland.'
+- Employment (Allocation of Tips) Act 2023 — long title: 'An Act to ensure that tips, gratuities and service charges paid by customers are allocated to workers.' Inserted ERA 1996 s.27D(1): 'An employer must ensure that the total amount of the qualifying tips, gratuities and service charges paid at, or otherwise attributable to, a place of business of the employer is allocated fairly between workers of the employer at that place of business.' s.27C(6): the amount paid by a customer 'means the actual amount paid by the customer (and accordingly any deductions from the amount paid, whether deducted by the employer or any other person, are to be disregarded)'. s.27G: the employer must allocate and pay 'no later than the end of the month following the month in which the tip, gratuity or service charge was paid by the customer'. s.27I: written policy. s.27J: records kept 'for a period of three years', a worker may request them, 'may not make more than one request for records under this section in any three month period', and the employer has a four-week 'response period'. s.27K(3): a tribunal complaint about allocation must be presented 'before the end of the period of twelve months'. s.27N(2), as amended and live on 12 November 2026: a complaint about the policy or records must be presented 'before the end of the period of [six] months beginning with the date of the failure to comply'. 'Three' was substituted by 'six' on 1 October 2026 by the Employment Rights Act 2025 (c. 36), s. 159(3), Sch. 12 para. 4(4)(a), commenced by S.I. 2026/954, reg. 3. The twelve months in s.27K(3) for an allocation or payment complaint is unamended. s.27Y: the Part applies to tips paid on or after commencement. s.13: 'This Act extends to England and Wales and Scotland.'
   https://www.legislation.gov.uk/ukpga/2023/13  (citit 2026-11-12)
 - The Employment (Allocation of Tips) Act 2023 (Commencement No. 2) Regulations 2024, reg 3 — the allocation, tronc and timing provisions 'come into force on 1st October 2024'. Reg 1: 'These Regulations extend to England and Wales and Scotland.'
   https://www.legislation.gov.uk/uksi/2024/829/made  (citit 2026-11-12)
