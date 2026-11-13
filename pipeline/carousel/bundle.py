@@ -39,6 +39,7 @@ def card_lines(cards, label):
 
 for t in topics.DAY:
     slug = t["slug"]
+    EN_ONLY = "RO" not in t          # Birmingham and En brands: English only
     post = REPO / "posts" / "carousel" / f"{MONTH}-{slug}"
 
     # ---- captions.md, shipped with the images

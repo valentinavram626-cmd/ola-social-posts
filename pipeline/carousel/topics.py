@@ -4888,3 +4888,29 @@ ARCHIVE = [COD_URGENTA, VANZARI_ONLINE, CHELTUIELI, SSP_PRIMA_ZI,
            LATE_PAYMENT_5, SAVINGS_PSA, FSM_UNIVERSAL_CREDIT]
 
 BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
+
+
+# ===================================================================== SOLOS
+# The single-image posts, set by Valentin on 13 November 2026: three a brand, a
+# day, alongside the carousels. One problem, one answer, one frame, Ola branded.
+# His example: "did you know that from 6 November you can get £100 from the
+# government if you apply on this site" — and his instruction with it, that
+# everything must be real and professional. So the rule is the carousels' rule:
+# every figure, date and condition read at primary source, and card 3's question
+# ("who does NOT get it") answered inside the one frame, because there is no
+# card 3 to put it on.
+#
+# Each entry:
+#   slug    — unique, lowercase-hyphenated, prefixed with its brand
+#   brand   — "ola" | "bham" | "en"
+#   lang    — "ro" for the Ola brand's Romanian feeds, otherwise "en"
+#   slide   — one dict of type "solo": kicker, h1, rows, ask, phone, disc
+#   caption — the post text for the network, counted against its limit
+#   SOURCES — the primary-source URL behind every figure, with the date read
+#   SCOPE   — nation, category, who does NOT get it, from when
+#
+# This list is rewritten every evening by Content Studio. It ships empty so that
+# a run which fails before writing it cannot republish yesterday's posts.
+SOLOS = []
+
+SOLO_BY_SLUG = {s["slug"]: s for s in SOLOS}

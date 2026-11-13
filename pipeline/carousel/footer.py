@@ -28,7 +28,14 @@ D = pathlib.Path(__file__).parent
 # scales with the frame's WIDTH, not with a flat constant: 125px at 1080 wide,
 # and 116px on Pinterest's 1000-wide render. A flat 125 flags all 16 en-pin
 # frames of a healthy day, which is a gate that cries wolf rather than a gate.
-FOOTER_AT_1080 = 125
+# Two footer variants exist, and they are not the same height. A slide inside a
+# carousel carries the "swipe ->" cue; a single-frame post does not, because
+# there is nothing to swipe to (carousel.html: `const solo = (n===1)`). Measured
+# on 13 November 2026: 125px with the cue, 124px without, on a 1080-wide frame.
+# One constant for both made every single-frame render fail by exactly 1px, and
+# the 1200-wide Google Business post passed only because floor() rounded its way.
+FOOTER_CAROUSEL_AT_1080 = 125
+FOOTER_SINGLE_AT_1080 = 124
 LINE = re.compile(r"slide (\d+) +frame (\d+).*?ftTop (\d+)")
 
 fails, n = [], 0
@@ -42,12 +49,16 @@ for t in topics.DAY:
         if not rows:
             fails.append(f"{slug}/{job}: measure.js returned nothing")
             continue
-        W = {"ro-feed": 1080, "ro-tiktok": 1080, "en-feed": 1080,
-             "en-bsky": 1080, "en-pin": 1000, "en-gbp": 1200}[job]
+        # Read the width and the frame count from the job itself rather than a
+        # hardcoded table: a table goes stale the moment a job is added, and it
+        # fails with KeyError instead of saying what it does not know.
+        slides, W, _H, _lang = build.jobs_for(t)[job]
+        single = len(slides) == 1
         # floor, not round: a frame cannot be asked for a fraction of a pixel.
         # The 1200-wide Google Business solo footer measures 138, and round()
         # asks for 139, which fails a frame that is demonstrably intact.
-        need = math.floor(FOOTER_AT_1080 * W / 1080)
+        base = FOOTER_SINGLE_AT_1080 if single else FOOTER_CAROUSEL_AT_1080
+        need = math.floor(base * W / 1080)
         for slide, H, ft in rows:
             H, ft = int(H), int(ft)
             n += 1
