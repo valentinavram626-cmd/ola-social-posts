@@ -2682,8 +2682,8 @@ Do you know what your director's loan account balance was at your last year end?
   bsky="""Money taken out of your Ltd before 6 April 2026 and still owed 9 months and 1 day after year end? The company pays HMRC 33.75%.""",
   pin_title="Director's loan account and the 9 months and 1 day rule",
   pin="""Take money out of your limited company that is not salary and not a declared dividend and it sits in your director's loan account. Clear it within 9 months and 1 day of your company year end and nothing is due. Leave it outstanding and the company pays HMRC 33.75% of the balance for money taken out between 6 April 2022 and 5 April 2026, or 35.75% for money taken out on or after 6 April 2026. Repay later and the company can reclaim that tax, but not the interest. Sole traders are not caught at all. Ola Accountancy, Luton and Birmingham.""",
-  source="Surse: gov.uk — Director's loans; HMRC Company Taxation Manual CTM61505; gov.uk — Tax on dividends. Citite la 13 noiembrie 2026.",
-  source_en="Sources: gov.uk — Director's loans; HMRC Company Taxation Manual CTM61505; gov.uk — Tax on dividends. Read 13 November 2026.",
+  source="gov.uk — Director's loans; HMRC Company Taxation Manual CTM61505; gov.uk — Tax on dividends. Citite la 13 noiembrie 2026.",
+  source_en="gov.uk — Director's loans; HMRC Company Taxation Manual CTM61505; gov.uk — Tax on dividends. Read 13 November 2026.",
 )
 
 C["ola-alocatie-investitii"] = dict(
@@ -2732,8 +2732,8 @@ What did you buy for the business this year that never made it onto the books?""
   bsky="""Tools, machines and goods vans come off this year's profit, up to £1m — but only the business share of the cost. Cars never qualify.""",
   pin_title="Annual Investment Allowance: what you can write off in year one",
   pin="""Buy tools, machinery, equipment, computers or a goods van for work and the cost comes off the profit of the year you paid, up to £1 million a year under the Annual Investment Allowance. Use the item privately as well and you claim only the business share: HMRC's example gives £40,000 on a £50,000 minibus with 20% private use. Cars never qualify. Nor do items you already owned, items you were given, leased items you do not own, or land and buildings. A partnership with a company as a member gets nothing. Ola Accountancy, Luton and Birmingham.""",
-  source="Surse: gov.uk — Claim capital allowances (Annual investment allowance, What you can claim on); gov.uk — Cash basis; HMRC Capital Allowances Manual CA23082, CA23510 și CA27005; HMRC Business Income Manual BIM70035; Budget 2026 Annex A. Citite la 13 noiembrie 2026.",
-  source_en="Sources: gov.uk — Claim capital allowances (Annual investment allowance, What you can claim on); gov.uk — Cash basis; HMRC Capital Allowances Manual CA23082, CA23510 and CA27005; HMRC Business Income Manual BIM70035; Budget 2026 Annex A. Read 13 November 2026.",
+  source="gov.uk — Claim capital allowances (Annual investment allowance, What you can claim on); gov.uk — Cash basis; HMRC Capital Allowances Manual CA23082, CA23510 și CA27005; HMRC Business Income Manual BIM70035; Budget 2026 Annex A. Citite la 13 noiembrie 2026.",
+  source_en="gov.uk — Claim capital allowances (Annual investment allowance, What you can claim on); gov.uk — Cash basis; HMRC Capital Allowances Manual CA23082, CA23510 and CA27005; HMRC Business Income Manual BIM70035; Budget 2026 Annex A. Read 13 November 2026.",
 )
 
 C["ola-pension-credit"] = dict(
@@ -2779,8 +2779,8 @@ Who in your life has never been told to look at this?""",
   bsky="""Pension Credit lifts weekly income to £238 single, £363.25 a couple. Partner under State Pension age? Usually nothing yet.""",
   pin_title="Pension Credit: the top-up and who gets nothing",
   pin="""Pension Credit lifts weekly income to £238 for a single person and £363.25 for a couple over State Pension age. You get the difference, not the whole figure. It also opens Housing Benefit, a Council Tax Reduction, help with heating, a free TV licence from 75, and, on Guarantee Credit, help with NHS dental and glasses. Savings up to £10,000 are ignored. Nobody under State Pension age qualifies, and a couple with one partner under it generally gets nothing until they reach it. England, Scotland and Wales.""",
-  source="Surse: gov.uk — Pension Credit (Overview, What you'll get, Eligibility, How to claim). Citite la 13 noiembrie 2026.",
-  source_en="Sources: gov.uk — Pension Credit (Overview, What you'll get, Eligibility, How to claim). Read 13 November 2026.",
+  source="gov.uk — Pension Credit (Overview, What you'll get, Eligibility, How to claim). Citite la 13 noiembrie 2026.",
+  source_en="gov.uk — Pension Credit (Overview, What you'll get, Eligibility, How to claim). Read 13 November 2026.",
   disc_ro="Informații generale. Pension Credit se cere la Pension Service, prin gov.uk.",
   disc_en="General information. Pension Credit is claimed from the Pension Service, through gov.uk.",
 )
@@ -2831,8 +2831,8 @@ Has anyone checked how your termination payment was split?""",
   bsky="""Statutory redundancy pay: 2 years' service, a week capped at £751, maximum £22,530. Notice you did not work is taxed in full.""",
   pin_title="Statutory redundancy pay: the formula, the caps and who gets nothing",
   pin="""Statutory redundancy pay is set by law, not an employer. You need two years of continuous service as an employee. You get half a week's pay for each year worked up to age 22, a week for each year from 22 to 40 and a week and a half for each year from 41. A week's pay is capped at £751 and service at 20 years, giving a maximum of £22,530. Northern Ireland uses £783 and £23,490. Under £30,000 it is not taxed, but post-employment notice pay never shares that £30,000 and is taxed in full. Self-employed people and contractors get nothing.""",
-  source="Surse: gov.uk — Making staff redundant (Redundancy pay); Employment Rights (Increase of Limits) Order 2026; Employment Rights (Increase of Limits) Order (Northern Ireland) 2026; gov.uk — Redundancy: your rights; HMRC Employment Income Manual EIM13760. Citite la 13 noiembrie 2026.",
-  source_en="Sources: gov.uk — Making staff redundant (Redundancy pay); Employment Rights (Increase of Limits) Order 2026; Employment Rights (Increase of Limits) Order (Northern Ireland) 2026; gov.uk — Redundancy: your rights; HMRC Employment Income Manual EIM13760. Read 13 November 2026.",
+  source="gov.uk — Making staff redundant (Redundancy pay); Employment Rights (Increase of Limits) Order 2026; Employment Rights (Increase of Limits) Order (Northern Ireland) 2026; gov.uk — Redundancy: your rights; HMRC Employment Income Manual EIM13760. Citite la 13 noiembrie 2026.",
+  source_en="gov.uk — Making staff redundant (Redundancy pay); Employment Rights (Increase of Limits) Order 2026; Employment Rights (Increase of Limits) Order (Northern Ireland) 2026; gov.uk — Redundancy: your rights; HMRC Employment Income Manual EIM13760. Read 13 November 2026.",
   disc_ro="Informații generale. Pentru drepturile tale la locul de muncă, îndrumarea oficială este pe gov.uk.",
   disc_en="General information. For your rights at work, the official guidance is on gov.uk.",
 )
@@ -2879,8 +2879,8 @@ Have you ever compared the two on your own numbers?""",
   bsky="""The VAT Flat Rate Scheme: one fixed percentage of your takings instead of per-sale VAT. But you stop reclaiming VAT on purchases.""",
   pin_title="VAT Flat Rate Scheme: the thresholds, the discount and the catch",
   pin="""On the VAT Flat Rate Scheme you pay HMRC a fixed percentage of your takings including VAT, instead of working out the VAT on every sale. You still charge customers VAT and keep the difference. Join if you are VAT registered and expect taxable turnover of £150,000 or less excluding VAT, and take a 1% reduction for your first year of VAT registration. You leave above £230,000 including VAT. The catch: you stop reclaiming VAT on purchases. Buy very few goods and you are put on 16.5%, which hands back almost all the VAT you charged.""",
-  source="Surse: gov.uk — VAT Flat Rate Scheme (Overview, Eligibility, Who can join, Work out your flat rate); HMRC VAT Notice 733, secțiunile 3, 4 și 15. Citite la 13 noiembrie 2026.",
-  source_en="Sources: gov.uk — VAT Flat Rate Scheme (Overview, Eligibility, Who can join, Work out your flat rate); HMRC VAT Notice 733, sections 3, 4 and 15. Read 13 November 2026.",
+  source="gov.uk — VAT Flat Rate Scheme (Overview, Eligibility, Who can join, Work out your flat rate); HMRC VAT Notice 733, secțiunile 3, 4 și 15. Citite la 13 noiembrie 2026.",
+  source_en="gov.uk — VAT Flat Rate Scheme (Overview, Eligibility, Who can join, Work out your flat rate); HMRC VAT Notice 733, sections 3, 4 and 15. Read 13 November 2026.",
   gbp="""If you are VAT registered in Luton or Birmingham, the Flat Rate Scheme is worth ten minutes of arithmetic.
 
 Instead of working out the VAT on every sale, you pay HMRC one fixed percentage of your takings including VAT. The percentage depends on your trade. You still charge customers VAT normally, and you keep the difference between what you collect and what you pay over.
@@ -3022,7 +3022,7 @@ Some companies get neither the 19% rate nor Marginal Relief at all. A company th
 None of this changes the profit. It changes the rate that profit is taxed at.
 
 Do you know how many associated companies yours is counted alongside?""",
-  source_en="Sources: gov.uk Marginal Relief for Corporation Tax; Corporation Tax rates and allowances; Corporation Tax Act 2010 Part 3A (ss.18A, 18D, 18E, 18L, 18N); HMRC Company Taxation Manual CTM03951.",
+  source_en="gov.uk Marginal Relief for Corporation Tax; Corporation Tax rates and allowances; Corporation Tax Act 2010 Part 3A (ss.18A, 18D, 18E, 18L, 18N); HMRC Company Taxation Manual CTM03951.",
 )
 
 C["en-vat-on-food"] = dict(
@@ -3042,7 +3042,7 @@ Then there is the list that does not care what you do with it. Crisps and savour
 And the fine distinctions are real: a cake is zero-rated, a plain biscuit is zero-rated, the same biscuit with chocolate on it is 20%.
 
 Getting this wrong at the till means getting it wrong on every return afterwards. Does your till know which of your lines are zero-rated?""",
-  source_en="Sources: VAT Notice 709/1 (Catering, takeaway food); VAT Notice 701/14 (Food products); HMRC VAT Food manual VFOOD4220; gov.uk VAT thresholds; gov.uk Register for VAT.",
+  source_en="VAT Notice 709/1 (Catering, takeaway food); VAT Notice 701/14 (Food products); HMRC VAT Food manual VFOOD4220; gov.uk VAT thresholds; gov.uk Register for VAT.",
 )
 
 C["en-property-allowance"] = dict(
@@ -3062,7 +3062,7 @@ It is not for everyone. You cannot use it where the rent comes from a company yo
 That matters more than it looks. If you cannot use the allowance, you lose the no-reporting rule with it. A director renting his own company a parking space for £800 has to report that £800, small as it is.
 
 Is there £1,000 sitting in your year that you have been worrying about for nothing?""",
-  source_en="Sources: gov.uk Tax-free allowances on property and trading income; HMRC Property Income Manual PIM4432; HMRC policy paper, Income Tax: new tax allowance for property and trading income.",
+  source_en="gov.uk Tax-free allowances on property and trading income; HMRC Property Income Manual PIM4432; HMRC policy paper, Income Tax: new tax allowance for property and trading income.",
 )
 
 C["en-pension-tax-relief"] = dict(
@@ -3078,7 +3078,7 @@ All of that describes a pension your money goes into after tax, with the provide
 Two limits sit over the whole thing. Relief goes on contributions up to 100% of what you earned in the year, or £3,600 gross if that is more — someone with no earnings can still put in £2,880 and have it topped up to £3,600. The other is the annual allowance, £60,000 this tax year, counting everything going in, employer's share included.
 
 Have you checked which kind of scheme yours is?""",
-  source_en="Sources: gov.uk Tax on your private pension contributions — Tax relief; gov.uk Claim tax relief on your private pension payments; HMRC Pensions Tax Manual PTM041000; gov.uk Pension schemes rates and allowances.",
+  source_en="gov.uk Tax on your private pension contributions — Tax relief; gov.uk Claim tax relief on your private pension payments; HMRC Pensions Tax Manual PTM041000; gov.uk Pension schemes rates and allowances.",
 )
 
 C["en-student-loan-plans"] = dict(
@@ -3098,7 +3098,7 @@ Which plan you are on is not a choice: it follows who funded the course and when
 One thing worth knowing if you earn under your plan's figure. Your employer checks each pay packet against a weekly or monthly line, not your year, so a bonus can push one month over and a repayment is taken even though the year is under. It does not come back on its own — you sign in to your repayment account and ask, once the tax year has ended.
 
 Your payslip shows the plan number. Which is on yours?""",
-  source_en="Sources: gov.uk Rates and thresholds for employers 2026 to 2027; Student loan and postgraduate loan repayment guidance for employers; Repaying your student loan — How much you repay, Which repayment plan you're on, and Getting a refund.",
+  source_en="gov.uk Rates and thresholds for employers 2026 to 2027; Student loan and postgraduate loan repayment guidance for employers; Repaying your student loan — How much you repay, Which repayment plan you're on, and Getting a refund.",
   disc_en="General information. Your plan type comes from the Student Loans Company; for how it is deducted from your pay, speak to an accountant.",
 )
 
