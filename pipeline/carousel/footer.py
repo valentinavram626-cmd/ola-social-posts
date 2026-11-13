@@ -38,7 +38,40 @@ FOOTER_CAROUSEL_AT_1080 = 125
 FOOTER_SINGLE_AT_1080 = 124
 LINE = re.compile(r"slide (\d+) +frame (\d+).*?ftTop (\d+)")
 
+def measure(jobs, slug):
+    """Measure every frame of one post's renders against the footer budget."""
+    for job, (slides, W, _H, _lang) in jobs.items():
+        out = subprocess.run(["node", str(D / "measure.js"), job],
+                             cwd=D, capture_output=True, text=True).stdout
+        rows = LINE.findall(out)
+        if not rows:
+            fails.append(f"{slug}/{job}: measure.js returned nothing")
+            continue
+        single = len(slides) == 1
+        base = FOOTER_SINGLE_AT_1080 if single else FOOTER_CAROUSEL_AT_1080
+        need = math.floor(base * W / 1080)
+        for slide, H, ft in rows:
+            H, ft = int(H), int(ft)
+            globals()["n"] += 1
+            room = H - ft
+            if room < need:
+                fails.append(
+                    f"{slug}/{job} slide {slide}: footer starts at {ft} in a {H} frame "
+                    f"— {room}px left, needs {need}. "
+                    + ("FOOTER IS OFF-FRAME." if room <= 0 else "Footer is clipped."))
+
+
 fails, n = [], 0
+
+# The single-image posts, added 13 November 2026, are measured here too. They are
+# the frames most likely to fail it: one frame carries the whole message, and the
+# footer variant without the swipe cue is a pixel shorter, which is the bug that
+# made every single-frame render fail by exactly one pixel before this file
+# modelled both.
+for s in topics.SOLOS:
+    build.build_solo(s["slug"])
+    measure(build.jobs_for_solo(s), s["slug"])
+
 for t in topics.DAY:
     slug = t["slug"]
     build.build(slug)                      # every job this topic needs

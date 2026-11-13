@@ -113,9 +113,23 @@ def check_loss():
 
 # -------------------------------------------------------------------- 3 format
 def check_format(topic):
+    """Four cards, three of content, the ask only on the last.
+
+    13 Nov 2026: the two English-only brands have no RO block at all, and this
+    check demanded one — so a brand working exactly as Valentin connected it
+    failed the gate. The languages a topic must have are now the ones its brand
+    publishes, and an Ola topic is still required to have both.
+    """
     slug = topic["slug"]
-    for lang, body, cta in (("RO", topic.get("RO"), topic.get("CTA_RO")),
-                            ("EN", topic.get("EN"), topic.get("CTA_EN"))):
+    langs = [("EN", topic.get("EN"), topic.get("CTA_EN"))]
+    if topic.get("brand", "ola") == "ola":
+        langs.insert(0, ("RO", topic.get("RO"), topic.get("CTA_RO")))
+    else:
+        for k in ("RO", "CTA_RO"):
+            if topic.get(k):
+                fail("FORMAT", f"{slug}: brand {topic['brand']!r} publishes in English "
+                               f"only but carries a {k} block")
+    for lang, body, cta in langs:
         if not body:
             fail("FORMAT", f"{slug}: no {lang} cards"); continue
         if len(body) != 3:
@@ -156,7 +170,7 @@ def check_sources(topic):
 def check_alt(topic):
     import build, alt
     slug = topic["slug"]
-    for lang in ("ro", "en"):
+    for lang in (("ro", "en") if topic.get("brand", "ola") == "ola" else ("en",)):
         cards = build.cards(topic, lang)
         a = alt.alt_for(cards)
         if len(a) != len(cards):
@@ -168,12 +182,83 @@ def check_alt(topic):
                 fail("ALT", f"{slug}: {lang} frame {i} alt text still contains markup")
 
 
+
+# ----------------------------------------------------------------------- 7 solo
+def check_solos():
+    """A single-image post has no card 3, so the exclusion has to be on the frame.
+
+    Set by Valentin on 13 November 2026 with the format itself: "noi vreau sa
+    facem totul real si profesional". A headline in the shape "you can get £X" is
+    a claim of entitlement, and the row that keeps it honest is the one naming who
+    gets nothing. Without it the post overstates, so it does not ship.
+    """
+    import alt, topics
+    seen = set()
+    for s in topics.SOLOS:
+        slug = s.get("slug", "<no slug>")
+        if slug in seen:
+            fail("SOLO", f"{slug}: two single-image posts share a slug")
+        seen.add(slug)
+        brand = s.get("brand")
+        if brand not in ("ola", "bham", "en"):
+            fail("SOLO", f"{slug}: brand {brand!r} is not one of ola, bham, en")
+        if brand in ("bham", "en") and s.get("lang") != "en":
+            fail("SOLO", f"{slug}: brand {brand!r} publishes in English only, "
+                         f"lang is {s.get('lang')!r}")
+        if not slug.startswith(f"{brand}-"):
+            fail("SOLO", f"{slug}: slug is not prefixed with its brand")
+        sl = s.get("slide") or {}
+        if sl.get("type") != "solo":
+            fail("SOLO", f"{slug}: slide type is {sl.get('type')!r}, needs 'solo'")
+        rows = sl.get("rows") or []
+        if len(rows) != 3:
+            fail("SOLO", f"{slug}: {len(rows)} rows, needs exactly 3")
+        labels = [str(r[0]) for r in rows if r]
+        excl = [l for l in labels if "exclu" in l.lower()]
+        if not excl:
+            fail("SOLO", f"{slug}: no row says who is EXCLUDED — labels are {labels}")
+        for fld in ("kicker", "h1", "ask", "phone", "disc"):
+            if not str(sl.get(fld, "")).strip():
+                fail("SOLO", f"{slug}: slide.{fld} is empty")
+        # 13 Nov 2026, Valentin: the nation does not go in the headline. On a
+        # UK-wide brand it goes in a row instead; on Birmingham it is not needed.
+        h1 = str(sl.get("h1", ""))
+        for nation in ("England", "Scotland", "Wales", "Northern Ireland",
+                       "Anglia", "Scoția", "Țara Galilor", "Irlanda de Nord"):
+            if nation in h1:
+                fail("SOLO", f"{slug}: the nation {nation!r} is in the headline")
+        if "<em>" not in h1:
+            fail("SOLO", f"{slug}: the headline carries no <em> figure")
+        if not str(s.get("caption", "")).strip():
+            fail("SOLO", f"{slug}: no caption")
+        if not str(s.get("tt_title", "")).strip():
+            fail("SOLO", f"{slug}: no TikTok title (a photo post is rejected without one)")
+        src = s.get("SOURCES") or []
+        if not src:
+            fail("SOURCES", f"{slug}: no sources at all")
+        for one in src:
+            if len(one) < 3 or not str(one[1]).startswith("http"):
+                fail("SOURCES", f"{slug}: a source has no URL")
+            elif not re.match(r"^\d{4}-\d{2}-\d{2}$", str(one[2])):
+                fail("SOURCES", f"{slug}: source {one[1]} has no date it was read")
+        sc = s.get("SCOPE") or {}
+        for k in ("nation", "category", "excluded", "from_when"):
+            if not str(sc.get(k, "")).strip():
+                fail("SCOPE", f"{slug}: SCOPE.{k} is empty")
+        if len(str(sc.get("excluded", ""))) < 40:
+            fail("SCOPE", f"{slug}: SCOPE.excluded is too thin to be a real answer")
+        a = alt.alt_for([sl])
+        if len(a) != 1 or not a[0].strip():
+            fail("ALT", f"{slug}: no alt text for the single frame")
+
+
 def main():
     import topics
     only = sys.argv[1] if sys.argv[1:] else None
     print("preflight")
     check_identities()
     check_loss()
+    check_solos()
     for slug, t in topics.BY_SLUG.items():
         if only and slug != only:
             continue

@@ -20,8 +20,21 @@ BRAND_TAGS = ("#OlaAccountancy #ValentinTheAccountant "
               "#OlaAccountancyLuton #OlaAccountancyBirmingham")
 
 
+# Each brand leads with its own name. Set by Valentin on 13 November 2026 when he
+# opened the two English brands: the Birmingham page leads with Birmingham, and the
+# UK-wide En brand names no city at all, because a city tag on a UK-wide account is
+# the sort of small inconsistency a reader notices before a figure.
+BRAND_TAGS_BHAM = "#OlaAccountancyBirmingham #OlaAccountancy"
+BRAND_TAGS_EN = "#OlaAccountancy #UKTax"
+
+
+def brand_tags(brand):
+    return {"bham": BRAND_TAGS_BHAM, "en": BRAND_TAGS_EN}.get(brand or "ola", BRAND_TAGS)
+
+
 def tags(topic, lang):
-    return BRAND_TAGS + " " + (topic["tags_ro"] if lang == "ro" else topic["tags_en"])
+    bt = brand_tags(topic.get("brand", "ola"))
+    return bt + " " + (topic["tags_ro"] if lang == "ro" else topic["tags_en"])
 
 
 # ===================================================================== 1
@@ -4816,7 +4829,7 @@ TVA_LA_INCASARE = dict(
 )
 
 
-DAY = [SACC_BUNICI, BACSIS_INTEGRAL, PLATA_ESALONATA, TVA_LA_INCASARE]
+# Published 13 November 2026; see ARCHIVE below.
 
 # HEALTHY_START held 12 Nov 2026 for publication on the 13th. Three grounds, and the
 # first is the one that decides it. (1) The under-18 pregnancy route is a standalone
@@ -4872,13 +4885,806 @@ DAY = [SACC_BUNICI, BACSIS_INTEGRAL, PLATA_ESALONATA, TVA_LA_INCASARE]
 # Advice Authority grounds, but a frame that COUNTS the conditions claims completeness and
 # so misleads. Whether to state a published immigration-control condition is the regulated
 # boundary and is Valentin's call, exactly as Child Benefit was on 6 November.
+
+
+# ============================================ OLA — 14 November 2026
+OLA_IMPRUMUT_DIRECTOR = dict(
+  slug="ola-imprumut-director", brand="ola",
+  title="Director's loan account and the section 455 charge",
+  tags_ro="#DirectorsLoan #LimitedCompany #HMRC #ContabilitateUK #FirmaLimited #Dividende",
+  tags_en="#DirectorsLoan #Section455 #LimitedCompany #HMRC #SmallBusinessUK #CorporationTax",
+
+  RO=[
+    dict(type="hook",
+      kicker="Director's loan · HMRC",
+      h1="Ai scos bani din firma ta limited care nu sunt nici salariu, nici dividend.",
+      say="HMRC îi numește director's loan: un împrumut de la firmă către tine. Ceasul pornește la finalul anului contabil."),
+    dict(type="step",
+      step="Cât plătește firma",
+      fig="33,75%",
+      say="Mai e ceva nereturnat la 9 luni și 1 zi de la finalul anului contabil? Firma plătește HMRC 33,75% din rest, pentru banii scoși între 6 aprilie 2022 și 5 aprilie 2026.",
+      note="Pentru banii scoși de la 6 aprilie 2026 încolo, cota este 35,75%."),
+    dict(type="step",
+      step="Cine nu plătește",
+      fig="Zero",
+      say="Directorul care returnează tot în cele 9 luni și 1 zi nu plătește nimic. Cine este self-employed nu are de la cine să împrumute, deci nu există director's loan.",
+      note="Taxa este pe close companies — practic, aproape orice firmă limited mică."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Ola Accountancy · Luton și Birmingham",
+    h1="Nu știi până la ce dată trebuie returnat împrumutul?",
+    say="Scrie-ne pe WhatsApp data la care se încheie anul contabil și îți spunem ziua limită.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația firmei tale, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+      kicker="Director's loan account · HMRC",
+      h1="You took money out of your limited company that was not salary and not a dividend.",
+      say="HMRC calls that a director's loan. The clock starts at your company year end."),
+    dict(type="step",
+      step="What the company pays",
+      fig="33.75%",
+      say="Still owed 9 months and 1 day after your year end? The company pays HMRC 33.75% of what is left, on money taken out between 6 April 2022 and 5 April 2026.",
+      note="Money taken out on or after 6 April 2026 is charged at 35.75% instead."),
+    dict(type="step",
+      step="Who does not pay",
+      fig="Zero",
+      say="A director who clears the whole balance inside the 9 months and 1 day pays nothing. If you are self-employed there is no company to borrow from, so no loan exists.",
+      note="The charge is on close companies — in practice almost every small limited company."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy · Luton and Birmingham",
+    h1="Not sure what date the loan has to be back by?",
+    say="Send us your company year end on WhatsApp and we will tell you the deadline date.",
+    phone=PHONE,
+    disc="General information. For your own company, speak to an accountant."),
+
+  SOURCES=[
+    ["Director's loan rules: repayment deadline is '9 months and 1 day after the end of the Corporation Tax accounting period'; benefit-in-kind arises where 'you owe your company more than £10,000 ... at any time in the year'; the page states the charge as '33.75% of the outstanding amount, or 32.5% if the loan was made before 6 April 2022'; tax is reclaimable once the loan is repaid but interest is not",
+     "https://www.gov.uk/directors-loans/you-owe-your-company-money", "2026-11-13"],
+    ["CTA10/S455 is charged at the dividend upper rate in ITA07/S8(2) FOR THE TAX YEAR IN WHICH THE LOAN IS MADE: '25 per cent' up to 5 April 2016, '32.5 per cent' 2016-17 to 2021-22, '33.75 per cent' for loans made on or after 6 April 2022, '35.75 per cent' from 6 April 2026. The worked example applies two different rates to two loans inside one accounting period, confirming the rate is fixed by the date the money was taken out, not by the date the deadline falls",
+     "https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm61505", "2026-11-13"],
+    ["Dividend higher (upper) rate for 6 April 2026 to 5 April 2027 is 35.75%, confirming the S455 rate for loans made in the current tax year",
+     "https://www.gov.uk/tax-on-dividends", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK. Corporation Tax and the CTA 2010 s.455 charge apply across the United Kingdom, so no nation is named anywhere on the cards.",
+    category="Directors and other participators (and their associates) of CLOSE companies — in practice almost every owner-managed UK limited company, but not every limited company, which is why card 3 names close companies rather than saying the charge 'only' exists for limited companies. Turnover and profit are irrelevant; the charge is triggered by an outstanding balance, not by size.",
+    excluded="Sole traders, partners in ordinary partnerships and anyone else who is self-employed are outside this entirely — there is no separate legal person, so money drawn from the business is already theirs and no director's loan can exist. Card 1 now names the limited company in the headline so that a self-employed reader is not told on card 1 that they are in trouble and told on card 3 to ignore it. A director who clears the whole balance within 9 months and 1 day of the company year end pays nothing under s.455. A company that is not a close company is outside s.455 altogether. Money correctly paid as salary through payroll, or as a properly declared and documented dividend, is not a loan and is not caught. Deliberately left off the cards: the £10,000 benefit-in-kind threshold and the official rate of interest, which were moved to the captions so that card 2 could carry the rate-by-date rule instead; the s.455 repayment claim mechanics (relief only due 9 months and 1 day after the end of the accounting period in which the repayment was made, and interest never refunded); the bed-and-breakfasting and 30-day rules; and the write-off/release route with its Class 1 NI and Self Assessment consequences.",
+    from_when="Automatic, not claimed. The rate is set by the date the money was taken out: 33.75% for loans made between 6 April 2022 and 5 April 2026, 35.75% for loans made on or after 6 April 2026, 32.5% for loans made between 6 April 2016 and 5 April 2022. Publishing on 14 November 2026 reaches directors whose 9-months-and-1-day deadline falls now, on accounting periods ending roughly December 2025 to June 2026, so almost every live balance was drawn before 6 April 2026 and carries 33.75%. The charge falls due with the company's Corporation Tax for the period."),
+)
+
+OLA_ALOCATIE_INVESTITII = dict(
+  slug="ola-alocatie-investitii", brand="ola",
+  title="Annual Investment Allowance: writing off what you buy for the business",
+  tags_ro="#AnnualInvestmentAllowance #CapitalAllowances #SelfEmployed #ContabilitateUK #CheltuieliDeductibile #HMRC",
+  tags_en="#AnnualInvestmentAllowance #CapitalAllowances #SelfEmployed #SmallBusinessUK #HMRC #TaxRelief",
+
+  RO=[
+    dict(type="hook",
+      kicker="Annual Investment Allowance · gov.uk",
+      h1="Ai cumpărat o furgonetă de marfă pentru muncă?",
+      say="Costul se scade din profitul anului în care ai plătit, nu pe mai mulți ani."),
+    dict(type="step",
+      step="Cât poți scădea",
+      fig="<cur>£</cur>1 mil.",
+      say="Până la £1 milion pe an pentru unelte, utilaje, echipamente, calculatoare și vehicule construite pentru transport de marfă.",
+      note="Dacă îl folosești și personal, scazi doar partea folosită pentru muncă."),
+    dict(type="step",
+      step="Cine nu primește",
+      fig="Mașinile",
+      say="Mașinile nu intră niciodată, nici dacă le folosești doar la muncă. Iar un partnership care are o firmă printre membri nu primește nimic, deloc.",
+      note="Contează pentru ce a fost construit vehiculul: să care marfă sau să care oameni."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Ola Accountancy · Luton și Birmingham",
+    h1="Nu știi dacă ce ai cumpărat se scade acum sau pe mai mulți ani?",
+    say="Scrie-ne pe WhatsApp ce ai cumpărat și îți spunem în ce categorie intră.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația afacerii tale, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+      kicker="Annual Investment Allowance · gov.uk",
+      h1="You bought a goods van for work.",
+      say="The cost comes off the profit of the year you paid for it, not later years."),
+    dict(type="step",
+      step="The limit",
+      fig="<cur>£</cur>1m",
+      say="Up to £1 million a year on tools, machinery, equipment, computers and vehicles built to carry goods.",
+      note="Use it privately as well and you claim only the business share of the cost."),
+    dict(type="step",
+      step="Who gets nothing",
+      fig="Cars",
+      say="Cars never qualify, however much you drive for work. And a partnership with a company among its members gets nothing at all.",
+      note="What matters is what the vehicle was built to carry: goods, or people."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy · Luton and Birmingham",
+    h1="Not sure whether what you bought comes off now or over several years?",
+    say="Message us on WhatsApp with what you bought and we will tell you which category it falls into.",
+    phone=PHONE,
+    disc="General information. For your own business, speak to an accountant."),
+
+  SOURCES=[
+    ["'The AIA amount is £1 million'; you can claim AIA 'on most plant and machinery'; you cannot claim AIA on 'business cars', 'items you owned for another reason before you started using them in your business', or 'items given to you or your business'",
+     "https://www.gov.uk/capital-allowances/annual-investment-allowance", "2026-11-13"],
+    ["What plant and machinery covers (fixtures such as fitted kitchens, fire alarm and CCTV systems; integral features such as lighting and heating) and what no capital allowances can be claimed on at all: 'things you lease (unless you have a hire purchase contract or long funding lease) - you must own them', business entertainment items, land, buildings and structures",
+     "https://www.gov.uk/capital-allowances/what-you-can-claim-on", "2026-11-13"],
+    ["Where a person buys an asset 'partly to use in a qualifying activity and partly for other purposes' they 'must reduce the AIA or FYA on a just and reasonable basis'. Worked example: a £50,000 minibus with 20% private use gives AIA of £40,000, not £50,000",
+     "https://www.gov.uk/hmrc-internal-manuals/capital-allowances-manual/ca27005", "2026-11-13"],
+    ["Who may claim AIA: a 'qualifying person' is 'an individual', 'a partnership of which all the members are individuals', or 'a company'. 'A partnership of which a company is a member, for example, is not eligible to claim.' 'Trusts ... do not fall within the definition of a qualifying person either.'",
+     "https://www.gov.uk/hmrc-internal-manuals/capital-allowances-manual/ca23082", "2026-11-13"],
+    ["CAA01/S268A: a 'car' excludes 'a vehicle of a construction primarily suited for the conveyance of goods or burden of any description' — which is why a goods van is not a car and does qualify for AIA",
+     "https://www.gov.uk/hmrc-internal-manuals/capital-allowances-manual/ca23510", "2026-11-13"],
+    ["'Cash basis accounting is the standard way to record your income and expenses', for 'a sole trader or partnership without corporate partners'; 'Some businesses cannot use cash basis, for example, limited companies'",
+     "https://www.gov.uk/simpler-income-tax-cash-basis/getting-started", "2026-11-13"],
+    ["Under the cash basis, capital expenditure is 'treated as an allowable business expense' except for listed categories including cars (for which 'capital allowances continue to be available') and land — so a default-basis sole trader deducts a goods van as an ordinary expense and claims no capital allowance at all",
+     "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim70035", "2026-11-13"],
+    ["Annual Investment Allowance confirmed at £1 million for both 2026 to 2027 and 2027 to 2028",
+     "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK. Capital allowances are a UK-wide part of Income Tax and Corporation Tax, so no nation is named anywhere on the cards.",
+    category="Any individual, any partnership whose members are all individuals, and any company carrying on a qualifying activity, where the business keeps traditional accounts. No turnover or profit test. The allowance is capped at £1 million of qualifying spend per year. Card 1 now names the cash basis first, because gov.uk calls it the standard way for sole traders and partnerships without corporate partners, and for those readers the van is an ordinary expense and no capital allowance is claimed at all.",
+    excluded="A partnership with a company among its members gets no Annual Investment Allowance at all, and neither do trusts — the allowance is only available to an individual, a partnership of individuals, or a company. The default-basis self-employed tradesman this post speaks to claims no AIA either: under the cash basis, capital spending other than cars and land is simply an allowable expense, so there is nothing to claim and card 1 says so rather than sending him to the wrong mechanism. Cars are excluded from AIA in every case, however exclusively they are used for work; they fall into writing down allowances instead, which spread the cost over years, so a car owner gets less rather than nothing and the people who get nothing at all are named alongside. Where an asset is bought partly for the business and partly for other purposes the allowance is reduced on a just and reasonable basis, so a van with any private use attracts only the business share — HMRC's own example gives £40,000 on a £50,000 minibus with 20% private use. Items already owned for some other reason before the business began using them, and items given to the business, are outside AIA. No capital allowances at all are available on leased items the business does not own unless there is a hire purchase contract or long funding lease, on items used only for business entertainment, or on land, buildings and structures. Deliberately left off the cards: full expensing and the 50% first-year allowance for companies, the special rate pool, short-life assets, balancing charges on disposal, and the rules on cars with zero emissions.",
+    from_when="Claimed, not automatic, where it applies at all — AIA goes on the Self Assessment return or the Company Tax Return for the accounting period in which the expenditure was incurred. On the cash basis nothing is claimed; the cost is deducted as an expense. The £1 million limit is confirmed for 2026 to 2027 and 2027 to 2028."),
+)
+
+OLA_PENSION_CREDIT = dict(
+  slug="ola-pension-credit", brand="ola",
+  title="Pension Credit: the top-up and what it unlocks",
+  tags_ro="#PensionCredit #Pensionari #HousingBenefit #CouncilTax #AjutorDeStat #StatePension",
+  tags_en="#PensionCredit #Pensioners #HousingBenefit #CouncilTaxReduction #StatePension #UnclaimedBenefits",
+
+  RO=[
+    dict(type="hook",
+      kicker="Pension Credit · gov.uk",
+      h1="Peste vârsta de State Pension, cu sub £238 pe săptămână?",
+      say="Pension Credit îți dă diferența. Nu înlocuiește State Pension și trebuie cerut."),
+    dict(type="step",
+      step="Pentru un cuplu",
+      fig="<cur>£</cur>363,25",
+      say="Dacă ai partener, veniturile voastre se adună și sunt ridicate împreună la £363,25 pe săptămână. Cererea se face o singură dată, pentru amândoi.",
+      note="Deschide și Housing Benefit, Council Tax Reduction, ajutor la încălzire și TV licence gratuită de la 75 de ani."),
+    dict(type="step",
+      step="Cine nu primește",
+      fig="Zero",
+      say="Ai partener care nu a ajuns la vârsta de State Pension? De regulă nu primiți nimic până ajunge și el acolo. Nimeni sub vârsta de State Pension nu poate cere.",
+      note="Anglia, Scoția și Țara Galilor. Irlanda de Nord are schema ei."),
+  ],
+  CTA_RO=dict(type="cta",
+      kicker="Ola Accountancy · Luton și Birmingham",
+      h1="Ai o întrebare despre impozitul pe pensie?",
+      say="Scrie-ne pe WhatsApp și îți explicăm ce se impozitează.",
+      phone=PHONE,
+      disc="Informații generale. Pension Credit se cere la Pension Service, pe gov.uk."),
+
+  EN=[
+    dict(type="hook",
+      kicker="Pension Credit · gov.uk",
+      h1="Over State Pension age on less than £238 a week?",
+      say="Pension Credit pays the difference. It is not the State Pension and has to be claimed."),
+    dict(type="step",
+      step="For a couple",
+      fig="<cur>£</cur>363.25",
+      say="With a partner, your two incomes are added together and lifted to £363.25 a week. One claim covers both of you.",
+      note="It also opens Housing Benefit, a Council Tax Reduction, help with heating and a free TV licence from 75."),
+    dict(type="step",
+      step="Who gets nothing",
+      fig="Zero",
+      say="Partner not yet at State Pension age? Usually you get nothing until they reach it. Nobody below State Pension age can claim.",
+      note="England, Scotland and Wales. Northern Ireland runs its own."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy · Luton and Birmingham",
+    h1="We do not make the Pension Credit claim, but we can answer the tax side.",
+    say="Message us on WhatsApp with a question about tax on a pension or on other income.",
+    phone=PHONE,
+    disc="General information. Pension Credit is claimed from the Pension Service, through gov.uk."),
+
+  SOURCES=[
+    ["Guarantee Credit tops 'your weekly income to £238 if you're single' and 'your joint weekly income to £363.25 if you have a partner'; extra amounts of £86.05 a week (severe disability) and £48.15 a week (carers)",
+     "https://www.gov.uk/pension-credit/what-youll-get", "2026-11-13"],
+    ["Pension Credit 'is separate from your State Pension' and 'You can get Pension Credit even if you have other income, savings or own your own home'; it can also bring Housing Benefit, Cold Weather Payments (Winter Heating Payment in Scotland), Support for Mortgage Interest, a Council Tax Reduction, 'a free TV licence if you're aged 75 or over', the Warm Home Discount, a Royal Mail redirection discount, and 'help with NHS dental treatment, glasses and transport costs for hospital appointments' — that last one only 'if you get the Guarantee Credit part of Pension Credit'",
+     "https://www.gov.uk/pension-credit", "2026-11-13"],
+    ["'You must live in England, Scotland or Wales and have reached State Pension age to qualify for Pension Credit'; for couples 'You'll be eligible if either: you and your partner have both reached State Pension age' or 'one of you is getting Housing Benefit for people over State Pension age'; 'You must include your partner on your application'; savings of £10,000 or less are ignored and above that 'every £500 over £10,000 counts as £1 income a week'",
+     "https://www.gov.uk/pension-credit/eligibility", "2026-11-13"],
+    ["'You can start your application up to 4 months before you reach State Pension age' and 'your application can only be backdated by 3 months'",
+     "https://www.gov.uk/pension-credit/how-to-claim", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="England, Scotland and Wales only — gov.uk states you must live in England, Scotland or Wales to qualify. Northern Ireland runs its own arrangements. Because the scheme is not UK-wide, the nation is carried in the note on content card 3, never in a headline.",
+    category="People who have reached State Pension age and are on a low income. For a couple, gov.uk gives two routes: both partners have reached State Pension age, or one of them is getting Housing Benefit for people over State Pension age. It is means-tested on income; savings and home ownership do not rule you out, but savings above £10,000 are treated as producing income at £1 a week for every £500.",
+    excluded="A couple where only one partner has reached State Pension age generally gets nothing until the younger partner reaches it, unless one of them is already getting Housing Benefit for people over State Pension age. That is the commonest wasted claim in this audience and it is now the first thing card 3 says, in both languages. Nobody below State Pension age can get Pension Credit at all, whatever their income. Anyone whose income is already at or above the level the top-up lifts you to gets no Guarantee Credit, because Pension Credit pays only the difference. People living in Northern Ireland are outside this scheme entirely. Anyone moving away from Great Britain permanently cannot get it. What claiming 'costs': it is means-tested, so savings above £10,000 reduce the award, and the claim can only be backdated 3 months, so delay is lost money rather than deferred money. Deliberately left off the cards: Savings Credit, because the closed-cohort condition could not be confirmed on the pages read; the child and disabled-child additions; the capital-above-£10,000 arithmetic; and the fact that help with NHS dental treatment, glasses and hospital travel depends on receiving the Guarantee Credit part — all of which sit in the captions, where that condition is now stated in Romanian as well as English.",
+    from_when="Claimed, not automatic, and one claim covers both partners. An application can be started up to 4 months before reaching State Pension age and can be backdated by at most 3 months. The weekly amounts quoted were read on gov.uk on 13 November 2026."),
+)
+
+OLA_PLATA_REDUNDANTA = dict(
+  slug="ola-plata-redundanta", brand="ola",
+  title="Statutory redundancy pay: the formula, the caps and who gets nothing",
+  tags_ro="#Redundancy #DrepturiLaMunca #Angajati #SalariuUK #HMRC #PlataCompensatorie",
+  tags_en="#Redundancy #EmploymentRights #StatutoryRedundancyPay #UKEmployment #Payroll #HMRC",
+
+  RO=[
+    dict(type="hook",
+      kicker="Statutory redundancy pay · gov.uk",
+      h1="Plata de redundancy nu ține de bunăvoința angajatorului.",
+      say="Suma este stabilită prin lege. Sub £30.000 nu se impozitează."),
+    dict(type="step",
+      step="Cum se calculează",
+      fig="<cur>£</cur>751",
+      say="Fiecare an lucrat până la 22 de ani valorează o jumătate de salariu săptămânal, între 22 și 40 un salariu, iar de la 41 unul și jumătate. Săptămâna se socotește cel mult £751.",
+      note="Zece ani lucrați de la 41 de ani în sus, la £600 pe săptămână, înseamnă 15 săptămâni: £9.000."),
+    dict(type="step",
+      step="Cine nu primește",
+      fig="2 ani",
+      say="Sub doi ani de vechime neîntreruptă nu primești nimic. Nici cei self-employed și nici contractorii nu intră: plata este doar pentru angajați.",
+      note="Irlanda de Nord are cifre proprii: £783 pe săptămână, maximum £23.490."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Ola Accountancy · Luton și Birmingham",
+    h1="Ai primit o plată de redundancy și nu înțelegi rândurile din ea?",
+    say="Scrie-ne pe WhatsApp și îți explicăm ce înseamnă fiecare fel de plată dintr-o astfel de scrisoare.",
+    phone=PHONE,
+    disc="Informații generale. Pentru drepturile tale la locul de muncă, îndrumarea oficială este pe gov.uk."),
+
+  EN=[
+    dict(type="hook",
+      kicker="Statutory redundancy pay · gov.uk",
+      h1="Redundancy pay is not your employer's choice.",
+      say="The law sets the amount. Under £30,000 it is not taxed."),
+    dict(type="step",
+      step="How it is worked out",
+      fig="<cur>£</cur>751",
+      say="Each full year counts as half a week's pay up to 22, a week from 22 to 40, and a week and a half from 41. A week counts as £751 at most.",
+      note="Ten years all worked from the age of 41, on £600 a week, comes to 15 weeks: £9,000."),
+    dict(type="step",
+      step="Who gets nothing",
+      fig="2 years",
+      say="Under two years of continuous service, nothing is due. Self-employed people and contractors are outside the scheme entirely.",
+      note="Northern Ireland has its own: £783 a week, £23,490 maximum."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy · Luton and Birmingham",
+    h1="Had a redundancy payment and cannot follow the lines on it?",
+    say="Message us on WhatsApp and we will explain what each kind of payment in a redundancy letter is.",
+    phone=PHONE,
+    disc="General information. For your rights at work, the official guidance is on gov.uk."),
+
+  SOURCES=[
+    ["Formula: '1.5 weeks' pay for each full year of employment after their 41st birthday', 'a week's pay for each full year of employment after their 22nd birthday', 'half a week's pay for each full year of employment up to their 22nd birthday'; 'at least 2 years continuous service'; 'Length of service is capped at 20 years'; 'Weekly pay is capped at £751'; 'The maximum amount of statutory redundancy pay is £22,530'",
+     "https://www.gov.uk/staff-redundant/redundancy-pay", "2026-11-13"],
+    ["The limit on a week's pay under s.227(1) Employment Rights Act 1996 rises from £719 to £751; 'This Order comes into force on 6th April 2026'",
+     "https://www.legislation.gov.uk/uksi/2026/310/made", "2026-11-13"],
+    ["Northern Ireland: the limit on a week's pay for redundancy payments is £783, coming into operation 6 April 2026",
+     "https://www.legislation.gov.uk/nisr/2026/57/schedule/made", "2026-11-13"],
+    ["Northern Ireland maximum statutory redundancy pay of £23,490, weekly cap £783, same age bands and two-year continuous service rule",
+     "https://www.nidirect.gov.uk/articles/redundancy-pay", "2026-11-13"],
+    ["'Statutory redundancy pay under £30,000 is not taxable'",
+     "https://www.gov.uk/redundancy-your-rights/tax-and-national-insurance", "2026-11-13"],
+    ["Statutory redundancy payments 'benefit from the £30,000 threshold available in section 403 ITEPA 2003' and 'all payments in respect of a termination, excluding post-employment notice pay' must be added together in applying that threshold — so post-employment notice pay is the one component that gets no share of the £30,000",
+     "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim13760", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Not UK-wide in figures. England, Scotland and Wales use a £751 weekly cap and a £22,530 maximum; Northern Ireland runs its own Order with a £783 cap and a £23,490 maximum. Both apply from 6 April 2026. The nation is carried in the note on content card 3, never in a headline.",
+    category="Employees with at least two years of continuous service who are dismissed by reason of redundancy. Age bands drive the multiplier: half a week's pay per year worked up to 22, one week per year from 22 to 40, one and a half weeks per year from 41. Service counts for a maximum of 20 years and a week's pay is capped. Card 2 now carries a worked example, because the bands and the cap read as arithmetic a reader cannot complete.",
+    excluded="Anyone with under two years of continuous service gets nothing at all. Anyone who is not an employee gets nothing: self-employed people, contractors and the genuinely self-employed working through their own company are outside the statutory scheme however long the working relationship lasted. High earners gain nothing from the excess above the weekly cap, because a week's pay is counted at no more than £751 (£783 in Northern Ireland) regardless of actual salary, and nothing beyond 20 years of service counts. On tax, the £30,000 exemption is not a per-item allowance: all termination payments OTHER THAN post-employment notice pay are added together against it. Post-employment notice pay — the part of a settlement covering notice that was not worked — gets no share of the £30,000 at all and is taxed and NIC'd in full. That exclusion is now stated in both long captions, not only in this block. Holiday pay, arrears of wages and bonuses paid alongside are ordinary earnings taxed in full. Deliberately left off the cards: post-employment notice pay itself, which is carried in the captions and needs a post of its own; the £22,530 maximum, moved to the captions so card 2 could carry the worked example; the loss of entitlement where an employee unreasonably refuses suitable alternative employment; fixed-term contracts and lay-offs; the Insolvency Service route; and contractual schemes paying more than the statutory minimum.",
+    from_when="Automatic entitlement on a qualifying redundancy — it does not have to be claimed from HMRC, although it may have to be pursued from the employer or, on insolvency, from the Insolvency Service. The £751 and £783 figures apply where the redundancy takes effect on or after 6 April 2026."),
+)
+
+OLA_TVA_COTA_FIXA = dict(
+  slug="ola-tva-cota-fixa", brand="ola",
+  title="The VAT Flat Rate Scheme: one percentage instead of every sale",
+  tags_ro="#FlatRateScheme #TVA #VAT #HMRC #AfaceriMici #ContabilitateUK",
+  tags_en="#FlatRateScheme #VAT #HMRC #SmallBusinessUK #SelfEmployed #MakingTaxDigital",
+
+  RO=[
+    dict(type="hook",
+      kicker="VAT Flat Rate Scheme · HMRC",
+      h1="Un singur procent fix din încasări pleacă la HMRC.",
+      say="Clienților le facturezi TVA ca până acum, iar diferența ți-o lasă HMRC."),
+    dict(type="step",
+      step="Cum intri",
+      fig="<cur>£</cur>150.000",
+      say="Trebuie să fii deja înregistrat la TVA și să te aștepți la o cifră de afaceri impozabilă — vânzările pe care le facturezi cu TVA — de £150.000 sau mai puțin, fără TVA.",
+      note="În primul an de la înregistrarea TVA primești 1% reducere la procent."),
+    dict(type="step",
+      step="Pe cine nu ajută",
+      fig="16,5%",
+      say="Odată intrat în schemă, nu mai recuperezi TVA pe cumpărături. Iar dacă bunurile cumpărate costă foarte puțin, HMRC te pune pe 16,5% și dai înapoi aproape tot TVA-ul încasat.",
+      note="Nu poate intra nimeni care a ieșit din schemă în ultimele 12 luni sau a fost într-un VAT group în ultimele 24."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Ola Accountancy · Luton și Birmingham",
+    h1="Nu știi ce procent i se dă meseriei tale?",
+    say="Scrie-ne pe WhatsApp ce lucrezi și îți spunem ce procent îi revine în tabelul HMRC.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația afacerii tale, vorbește cu un contabil."),
+
+  EN=[
+    dict(type="hook",
+      kicker="VAT Flat Rate Scheme · HMRC",
+      h1="One fixed percentage of your takings goes to HMRC.",
+      say="You still charge customers VAT as normal, and HMRC lets you keep the difference."),
+    dict(type="step",
+      step="How you join",
+      fig="<cur>£</cur>150,000",
+      say="You must already be VAT registered and expect taxable turnover — the sales you charge VAT on — of £150,000 or less, excluding VAT.",
+      note="Your rate drops by 1% for your first year as a VAT-registered business."),
+    dict(type="step",
+      step="Who it does not help",
+      fig="16.5%",
+      say="On the scheme you stop reclaiming VAT on what you buy. Buy very little and HMRC puts you on 16.5%, which hands back almost all the VAT you charged.",
+      note="Nobody can join who left the scheme in the last 12 months, or was in a VAT group in the last 24."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy · Luton and Birmingham",
+    h1="Not sure what percentage your trade is given?",
+    say="Message us what you do and we will tell you the rate HMRC's table sets for it.",
+    phone=PHONE,
+    disc="General information. For your own business, speak to an accountant."),
+
+  GBP=[dict(type="solo",
+      kicker="VAT Flat Rate Scheme · HMRC",
+      h1="You pay one rate on takings, <em>1%</em> off year one.",
+      rows=[["<cur>£</cur>150,000", "the limit for joining"],
+            ["On request",          "HMRC sets the start date"],
+            ["Excluded",            "VAT groups, 24 months"]],
+      ask="Not sure which rate your trade gets? We will tell you.",
+      phone=PHONE,
+      disc="General information. For your business, speak to an accountant.")],
+  SOURCES=[
+    ["Overview: 'you pay a fixed rate of VAT to HMRC', 'you keep the difference between what you charge your customers and pay to HMRC', 'you cannot reclaim the VAT on your purchases - except for certain capital assets over £2,000'; eligibility 'your VAT turnover is £150,000 or less (excluding VAT)'",
+     "https://www.gov.uk/vat-flat-rate-scheme", "2026-11-13"],
+    ["Six bars on joining, read in full: 'you left the scheme in the last 12 months'; 'you committed a VAT offence in the last 12 months, for example VAT evasion'; 'you joined (or were eligible to join) a VAT group in the last 24 months'; 'you registered for VAT as a business division in the last 24 months'; 'your business is closely associated with another business'; 'you've joined a margin or capital goods VAT scheme'. These are the people shut out altogether, as distinct from a limited cost business, which is on the scheme and simply gets less",
+     "https://www.gov.uk/vat-flat-rate-scheme/who-can-join", "2026-11-13"],
+    ["'You get a 1% discount if you're in your first year as a VAT-registered business'; limited cost business where goods cost less than 2% of turnover or less than £1,000 a year, flat rate 16.5%",
+     "https://www.gov.uk/vat-flat-rate-scheme/how-much-you-pay", "2026-11-13"],
+    ["VAT Notice 733: joining test 'your taxable turnover (excluding VAT) in the next year will be £150,000 or less' (3.1); leaving where 'the total value of your income for the year ending is more than £230,000' including VAT (3.5); 'you do not recover input tax or VAT on imports' (2.4); capital expenditure goods reclaimable where 'the amount of the purchase, including VAT, is £2,000 or more' (15.2); the 1% reduction runs 'until the day before your first anniversary of becoming VAT registered' (4.7); limited cost business rate 16.5% with the 2% / £1,000 a year (£250 a quarter) test (4.4); 'The flat rate you use depends on the business sector that you belong in' (4.1)",
+     "https://www.gov.uk/guidance/flat-rate-scheme-for-small-businesses-vat-notice-733--2", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK. VAT and the Flat Rate Scheme are UK-wide, so no nation is named anywhere on the cards or on the Google Business frame.",
+    category="VAT-registered businesses expecting taxable turnover of £150,000 or less excluding VAT in the next year. The flat rate percentage itself is set by trade sector. The scheme must be left once total income for the year ending exceeds £230,000 including VAT.",
+    excluded="Several groups cannot join at all, and the Google Business frame's exclusion row now names one of them rather than naming limited cost businesses, which are on the scheme and get less rather than nothing: anyone who left the scheme in the last 12 months, anyone who committed a VAT offence in the last 12 months, anyone who joined or was eligible to join a VAT group in the last 24 months, anyone who registered for VAT as a business division in the last 24 months, a business closely associated with another business, and anyone already on a margin or capital goods scheme. That 24-month bar is now in the Romanian caption as well as the English one. The scheme also cannot be used alongside the Cash Accounting Scheme, and anyone not VAT registered is outside it entirely. It helps nobody who buys a lot of goods: all input VAT is lost apart from a single capital purchase of £2,000 or more including VAT. A limited cost business — spending less than 2% of flat rate turnover on relevant goods, or more than 2% but under £1,000 a year — is put on 16.5%, at which point almost the whole of the VAT charged is handed back: on £120 collected, £19.80 of the £20 goes to HMRC. Deliberately left off the cards: the sector percentage table, the quarterly £250 pro-rating, the choice-of-sector reasonableness rule, and the leaving mechanics.",
+    from_when="Applied for, not automatic — you apply to HMRC to join and HMRC confirms the start date. The 1% reduction runs until the day before the first anniversary of VAT registration, not of joining the scheme, and is lost if registration came more than 12 months after it was required."),
+)
+
+
+# ============================================ BHAM — 14 November 2026
+BHAM_BUSINESS_RATES_RELIEF = dict(
+  slug="bham-business-rates-relief", brand="bham",
+  title="Small Business Rate Relief — one property, no bill",
+  tags_en="#Birmingham #WestMidlands #BusinessRates #SmallBusinessUK #HighStreet #Takeaway",
+  EN=[
+    dict(type="hook", kicker="Small Business Rate Relief · gov.uk",
+      h1="Your shop could be paying no business rates at all.",
+      say="It turns on the rateable value — the figure the Valuation Office puts on your property. That is not your rent and not your takings."),
+    dict(type="step", step="Rateable value", fig="<cur>£</cur>12,000",
+      say="Rated at £12,000 or less and you pay nothing on it. Above that the relief slides down, and it has run out by £15,000.",
+      note="At £13,500 you get half off. At £14,000, a third."),
+    dict(type="step", step="Who gets nothing", fig="<cur>£</cur>15,000",
+      say="At £15,000 or more there is no small business rate relief. An empty property gets none, and a charity on charitable relief cannot have both.",
+      note="The relief sits on one property only."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="The relief is not added for you.",
+    say="Our Birmingham office will show you where the rateable value sits on the bill and where the council takes the application.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["Relief if rateable value is under £15,000 and the business uses one property; 'You will not pay business rates on a property with a rateable value of £12,000 or less, if that's the only property your business uses'; £12,001–£15,000 relief goes down gradually from 100% to 0%; worked examples £13,500 = 50% off and £14,000 = 33% off; second property: relief kept on the main property for 12 months if the second was taken before 27 November 2025, 36 months if on or after; afterwards only if 'none of your other properties have a rateable value above £2,899' and 'the total rateable value of all your properties is less than £20,000 (£28,000 in London)'; 'You cannot get small business rate relief and charitable rate relief at the same time'; your local council decides which reliefs you are eligible for",
+     "https://www.gov.uk/business-rates-relief/small-business-rate-relief", "2026-11-13"],
+    ["Birmingham City Council takes the application online and states the same thresholds; 'You can only get relief: on one property; if that property is occupied'",
+     "https://www.birmingham.gov.uk/info/20148/business_rates/252/business_rates_reductions/4", "2026-11-13"],
+    ["2026 to 2027 multipliers in England: 48p at rateable value £51,000–£499,999, 43.2p below £51,000; retail, hospitality and leisure 43p and 38.2p; 'This is set by the Valuation Office (VO) and used by the local council'",
+     "https://www.gov.uk/calculate-your-business-rates", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="England. Business rates relief is set separately in Scotland, Wales and Northern Ireland, but the audience is in England, so no nation is named on the frame.",
+    category="Rateable value of an occupied non-domestic property, and how many properties the business uses. Not turnover, not profit, not the rent paid.",
+    excluded="A business whose property is rated at £15,000 or more gets no small business rate relief at all — the taper has run out by then. An empty property gets nothing: Birmingham's rule is that the property must be occupied. A charity already on charitable rate relief cannot have this as well; the council decides which one applies. A business using more than one property never gets the relief on more than one of them, and gets nothing at all once the grace period after taking the second property has run, unless every other property is rated at £2,899 or below and the lot together comes to under £20,000. And a sole trader working from home or from a client's premises usually has no rateable property at all, so none of it reaches them. Deliberately left off the cards: the £2,899 and £20,000 second-property tests, which are in the caption in full — card 2 and card 3 previously contradicted each other over them, so the cards now carry only the plain one-property rule and the caption carries the detail; the £28,000 London total, which is irrelevant here; the retail, hospitality and leisure multipliers and supporting small business relief, which are separate schemes; and the 2026 revaluation appeal route, which needs its own post.",
+    from_when="Thresholds as published on gov.uk on 13 November 2026, applying to the 2026 to 2027 billing year. It is not automatic — Birmingham City Council takes the application online, and the council, not HMRC, grants it."),
+)
+
+BHAM_CLEAN_AIR_ZONE = dict(
+  slug="bham-clean-air-zone", brand="bham",
+  title="The Birmingham Clean Air Zone — what a day costs",
+  tags_en="#Birmingham #CleanAirZone #WestMidlands #Tradespeople #TaxiDrivers #SmallBusinessUK",
+  EN=[
+    dict(type="hook", kicker="Clean Air Zone · birmingham.gov.uk",
+      h1="Inside the Middleway, an older van costs £8 a day.",
+      say="The zone is everything inside the A4540 Middleway, but not the Middleway itself. It runs all day, every day, and cameras read the plate."),
+    dict(type="step", step="What a day costs", fig="<cur>£</cur>8",
+      say="£8 for a car, a taxi or a van that does not meet the standard. £50 for a coach, a bus or an HGV. One charge covers midnight to midnight.",
+      note="Cross midnight and it counts as two days."),
+    dict(type="step", step="Who pays nothing", fig="<cur>£</cur>0",
+      say="A diesel at Euro 6 or better, a petrol at Euro 4 or better and anything fully electric pay nothing. The GOV.UK checker tells you which yours is.",
+      note="Disabled tax class, historic and accredited-retrofit vehicles pay nothing either."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="Checking a registration costs nothing.",
+    say="Our Birmingham office will point you to the GOV.UK checker and the council's exemption pages.",
+    phone=PHONE,
+    disc="General information about the Clean Air Zone. Check your own vehicle with Birmingham City Council."),
+  SOURCES=[
+    ["'£8 per day for cars, taxi and LGVs', '£50 a day for coaches, buses and HGVs'; charges apply within the A4540 Middleway but not the Middleway itself; payment window of six days before, the day of, and six days after; 'If you do not pay during that allocated 13-day payment window you will be subject to a Penalty Charge Notice of £120, reduced to £60 if paid within 14 days'; a day is midnight to midnight and crossing midnight is two days; no notification is sent",
+     "https://www.brumbreathes.co.uk/info/32/charges-operation/34/paying-drive-clean-air-zone/4", "2026-11-13"],
+    ["'The Clean Air Zone daily fee applies to all vehicles (except for motorcycles/mopeds) that do not meet the emission standards'; compliant: diesel Euro 6 (VI) or better, petrol Euro 4 or better, gas Euro 6, hybrids whose engine meets those, full electric or zero emission",
+     "https://www.brumbreathes.co.uk/info/25/welcome-2/45/charges-operation-1/2", "2026-11-13"],
+    ["National exemptions, needing no application: 'You're automatically entitled to a national exemption, and do not have to pay a charge, if you have: a vehicle that's ultra low emission; a disabled passenger tax class vehicle; a disabled tax class vehicle; a military vehicle; a historic vehicle; a vehicle retrofitted with technology accredited by the Clean Vehicle Retrofit Accreditation Scheme; certain types of agricultural vehicles'; 'There are some national and local exemptions from the charge'; 'You can check if you'll need to pay a charge for a vehicle before you drive in a Clean Air Zone'",
+     "https://www.gov.uk/guidance/driving-in-a-clean-air-zone", "2026-11-13"],
+    ["Birmingham Clean Air Zone Charging Order 2021 (sealed). Annex 2 Part 1 (national register, no application): historic vehicles (Sch. 2 para 1A(1) VERA 1994), military vehicles, and vehicles for disabled people (Sch. 2 paras 19 or 20). Annex 2 Part 2 (local register): qualifying emergency service vehicles, agricultural and similar vehicles, non-UK registered vehicles for disabled people, recovery vehicles, showman's vehicles, special vehicles, qualifying community transport vehicles. Order art.2(3): 'Article 7 of the Scheme shall come into force on 1st June 2021'; Scheme art.1(1)(s): '\"commencement date\" means 1st June 2021'",
+     "https://www.brumbreathes.co.uk/download/downloads/id/113/charging-order-sealed.pdf", "2026-11-13"],
+    ["'The Worker exemption ended on 31 May 2022. The Resident exemption ended on 31 May 2023. Current exemptions are only open to: Recovery vehicles, Community transport vehicles, School transport vehicles' — this is the list of local permits a Birmingham applicant can apply for, and the page frames them as 'Temporary exemption permits'; it does not restate the national non-chargeable classes",
+     "https://www.brumbreathes.co.uk/homepage/13/exemptions", "2026-11-13"],
+    ["Zone operates 24 hours a day, seven days a week, 365 days a year, enforced by ANPR cameras; medical voucher scheme for eligible visits to hospitals inside the zone",
+     "https://www.brumbreathes.co.uk/info/25/welcome-2/45/charges-operation-1", "2026-11-13"],
+    ["Checking and paying is done through the GOV.UK clean air zone service",
+     "https://www.gov.uk/clean-air-zones", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="England, and within it one city: the charge applies only inside Birmingham's A4540 Middleway. No nation is named on the frame.",
+    category="Vehicle type and emissions standard, not income or business size. Cars, taxis and vans at £8; coaches, buses and HGVs at £50.",
+    excluded="A vehicle that meets the standard pays nothing at all, however often it drives in: diesel at Euro 6 (VI) or better, petrol at Euro 4 or better, gas at Euro 6, a hybrid whose engine meets those, and anything fully electric or hydrogen. Motorcycles and mopeds are outside the charge altogether, whatever their age. A second group pays nothing whatever the engine and applies for nothing: GOV.UK's national list is ultra low emission vehicles, disabled tax class and disabled passenger tax class vehicles, military vehicles, historic vehicles, vehicles retrofitted with technology accredited by the Clean Vehicle Retrofit Accreditation Scheme, and certain agricultural vehicles — Annex 2 Part 1 of Birmingham's sealed Charging Order makes historic, military and disabled-class vehicles non-chargeable in the same way, and Annex 2 Part 2 adds emergency service, agricultural, recovery, showman's, special and qualifying community transport vehicles on the council's local register. Separately from all of that, the local permits a Birmingham applicant can still apply for are recovery, community transport and school transport, plus the medical voucher scheme for eligible hospital visits: the worker exemption ended on 31 May 2022 and the resident exemption on 31 May 2023. Anyone driving on the Middleway itself without entering the ring pays nothing, and anyone whose work never takes them inside it pays nothing. Deliberately left off the cards: the scrappage and commercial vehicle grants, which have their own eligibility and would need a post each; the full Annex 2 Part 2 list, which is in the caption; and motorcycles and mopeds, which are in the caption because card 3's space went to the disabled, historic and retrofit classes instead.",
+    from_when="Charges have applied since 1 June 2021 — article 7 of the sealed Birmingham Clean Air Zone Charging Order 2021 came into force that day, and the Scheme itself defines 1 June 2021 as the commencement date. Current on 13 November 2026. Nothing is automatic and nothing is billed to you: the driver pays, in a window running from six days before the journey to six days after."),
+)
+
+BHAM_FOOD_BUSINESS_REGISTRATION = dict(
+  slug="bham-food-business-registration", brand="bham",
+  title="Registering a food business — 28 days, free, cannot be refused",
+  tags_en="#Birmingham #WestMidlands #FoodBusiness #Takeaway #StreetFood #FoodHygieneRating",
+  EN=[
+    dict(type="hook", kicker="Food business registration · gov.uk",
+      h1="Register 28 days before you sell your first meal.",
+      say="It is free, and the council cannot refuse it. You are registering, not asking for permission."),
+    dict(type="step", step="Also counts", fig="Your home",
+      say="A shop, a takeaway, a stall, a van — and your kitchen at home if you cook to sell. Online only, with no premises, counts too.",
+      note="Two places means two registrations."),
+    dict(type="step", step="Who does not", fig="Ofsted",
+      say="A childminder registered with Ofsted in England is already covered. Very limited, infrequent food activity may not need it — and only the council can say so.",
+      note="Already trading without it? Register now rather than wait."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="Not sure which council to register with?",
+    say="Our Birmingham office will send you the GOV.UK registration link and the right council for the address you trade from.",
+    phone=PHONE,
+    disc="General information about registration, not food safety advice. Speak to Birmingham City Council's food team."),
+  SOURCES=[
+    ["'You are required to register at least 28 days before trading'; registration applies to businesses trading from physical premises, from home, from a mobile unit or temporary premises such as a stall or van, and online or by distance selling; each site is registered with the local authority it sits in; a childminder in England registered with Ofsted is registered as a food business through Ofsted and does not register separately (page last updated 25 June 2026)",
+     "https://www.gov.uk/food-business-registration", "2026-11-13"],
+    ["'Registration of your food business is free and can't be refused'; 'You are required to register at least 28 days before trading'; 'If you are already trading and have not registered yet' you should register as soon as possible; scope line 'Applies to England, Northern Ireland and Wales'. This is the live address: food.gov.uk/business-guidance/getting-ready-to-start-your-food-business now returns 302 to this page",
+     "https://www.gov.uk/guidance/starting-a-food-business", "2026-11-13"],
+    ["'If the food activity is very limited and infrequent, the local authority may decide that registration is not needed' (updated 4 September 2026)",
+     "https://www.gov.uk/government/publications/providing-food-at-community-and-charity-events/providing-food-at-community-and-charity-events", "2026-11-13"],
+    ["Birmingham City Council: 'It is a legal requirement to register your food business 28 days before you start trading' and registration is made on GOV.UK (page last updated 3 July 2026)",
+     "https://www.birmingham.gov.uk/info/50025/running_a_food_business/768/starting_and_setting_up_a_food_business", "2026-11-13"],
+    ["Birmingham's food hygiene ratings run 5 (very good) down to 0 (urgent improvement necessary), given by the council's environmental health officers, with appeal, revisit and right to reply routes",
+     "https://www.birmingham.gov.uk/foodhygiene", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="England. The GOV.UK guidance carrying the 28-day rule and the 'free and can't be refused' wording states 'Applies to England, Northern Ireland and Wales'. Scotland is outside that page and this post is not written for it; Food Standards Scotland is the regulator there, not a separate registration route, and registration there is still made with the local council. No nation is named on the frame.",
+    category="Activity, not size or turnover: selling, cooking, storing, handling, preparing or distributing food, from any premises including a home kitchen, a stall, a van or an online-only operation.",
+    excluded="Someone whose food activity is very limited and infrequent may not have to register at all — but that is the council's decision, not the cook's, so the card hedges exactly as the guidance does and tells the reader the council is the only one who can say so. A childminder in England already registered with Ofsted or a childminder agency is registered as a food business through them and sends nothing separately. Someone who buys food and does not sell, supply or distribute it is not a food business. Registration carries no fee and no refusal, so nobody is excluded by cost or by a decision — the only people who gain nothing from the post are those already registered. Deliberately left off the cards: allergen labelling and PPDS rules, which are a post of their own; approval (rather than registration) for premises handling products of animal origin; and anything on alcohol or street trading licences, which are separate permissions. Also left off: what a hygiene inspection looks at, which is food safety and not ours to brief.",
+    from_when="Rules as published on 13 November 2026. Registration must be made at least 28 days before trading starts, and it is an active step — nothing happens automatically, except for Ofsted-registered childminders in England."),
+)
+
+BHAM_SELECTIVE_LICENSING = dict(
+  slug="bham-selective-licensing", brand="bham",
+  title="Birmingham selective licensing — £700 a property",
+  tags_en="#Birmingham #WestMidlands #Landlords #SelectiveLicensing #PrivateRented #BuyToLet",
+  EN=[
+    dict(type="hook", kicker="Selective licensing · birmingham.gov.uk",
+      h1="In 25 of Birmingham's 69 wards, letting needs a licence.",
+      say="The scheme started on 5 June 2023. In a covered ward every privately rented property needs its own licence, whoever collects the rent."),
+    dict(type="step", step="What it costs", fig="<cur>£</cur>700",
+      say="£700 a property: £375 when you apply, £325 when the council grants it. Ten properties means ten licences and ten fees.",
+      note="A licence runs up to five years and cannot be transferred."),
+    dict(type="step", step="Who is outside it", fig="44 wards",
+      say="The other 44 wards need no licence at all. Inside the 25, neither does an empty property, a housing association let, or an HMO — a house in multiple occupation.",
+      note="The council's address checker gives the ward for your address."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="Not sure which ward you are in?",
+    say="Our Birmingham office will point you to the council's address checker and its application page.",
+    phone=PHONE,
+    disc="General information about licensing, not legal advice. Check your property with Birmingham City Council."),
+  SOURCES=[
+    ["'we now have permission for a selective licensing scheme covering 25 of Birmingham's 69 wards. The scheme started on 5 June 2023. Each licence costs £700 and will last for a maximum of 5 years'; not needed where the property is licensed as an HMO, managed directly by an educational establishment, or let by a registered social landlord; enforcement: civil penalty up to £40,000, criminal prosecution with an unlimited fine, and rent repayment orders (page last updated 18 June 2026)",
+     "https://www.birmingham.gov.uk/info/20175/private_housing/2649/selective_licensing", "2026-11-13"],
+    ["'Landlords must pay £700 per licence for each property they own in a ward covered by the scheme. There are no discounts'; 'we will take £375 when you apply for the licence and £325 when we have made the decision to grant your draft licence'; 'You do not need a selective licence if your property is empty'; 'The licence is non-transferable'; 'There is no \"tacit consent\" when you apply for a licence' — chase if nothing is heard within 28 days (page last updated 8 August 2025)",
+     "https://www.birmingham.gov.uk/info/20175/private_housing/2649/selective_licensing/5", "2026-11-13"],
+    ["Housing Act 2004 s.95: a person having control of or managing an unlicensed Part 3 house commits an offence, liable on summary conviction to a fine; s.96: rent repayment orders for unlicensed houses",
+     "https://www.legislation.gov.uk/ukpga/2004/34/part/3", "2026-11-13"],
+    ["Housing Act 2004 s.249A(4) as amended: a financial penalty imposed by a local housing authority 'must not be more than £40,000'",
+     "https://www.legislation.gov.uk/ukpga/2004/34/section/249A", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="England. Selective licensing under Part 3 of the Housing Act 2004 is an England and Wales power, and this designation is Birmingham's. No nation is named on the frame.",
+    category="Location and tenure: a privately rented home inside one of the 25 designated wards. Not the landlord's income, and not the number of tenants.",
+    excluded="A landlord whose property sits in any of the other 44 wards needs no selective licence and pays nothing — that is the largest excluded group by far, and it is now on card 3 in the body as well as in the figure. Inside the 25 wards, a property already licensed as a house in multiple occupation, one let by a housing association or other registered social landlord, and one managed directly by an educational establishment are all outside the scheme, as is a property standing empty. A tenant pays nothing either way — the fee and the offence both belong to whoever controls or manages the property. Deliberately left out: the ward list itself. Birmingham publishes an address checker rather than a list, and a wrong ward in a post is worse than no post, so the cards send the reader to the checker. Also left out: temporary exemption notices, and any suggestion about how the fee is treated in a tax computation, which depends on the letting and is not safe to state in a card.",
+    from_when="The designation started on 5 June 2023. The council's selective licensing page was last updated on 18 June 2026 and its further-information page on 8 August 2025; both were read on 13 November 2026. A licence must be applied for — nothing is granted automatically, and the council states there is no tacit consent."),
+)
+
+BHAM_PAYROLLING_BENEFITS = dict(
+  slug="bham-payrolling-benefits", brand="bham",
+  title="Mandatory payrolling of benefits in kind — April 2027",
+  tags_en="#Birmingham #WestMidlands #Payroll #SmallBusinessUK #Employers #BenefitsInKind",
+  EN=[
+    dict(type="hook", kicker="Payrolling benefits in kind · gov.uk",
+      h1="From April 2027 a company van goes through payroll.",
+      say="A van your employee also uses privately is taxed income. The tax comes off their pay each payday, not after the year end."),
+    dict(type="step", step="What is in first", fig="Apr 2027",
+      say="Company cars and car fuel, vans and van fuel, and medical cover must go through the payroll from 6 April 2027. Most other benefits follow on 6 April 2028.",
+      note="You do not register for it — on 6 April 2027 it simply starts."),
+    dict(type="step", step="Who has nothing to do", fig="Wages",
+      say="An employer who gives wages and nothing else — no car, no van, no fuel, no medical cover — has nothing to payroll and nothing to change.",
+      note="Employer loans and living accommodation are left out for now; HMRC will confirm them later."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="Does your payroll software do this yet?",
+    say="Our Birmingham office will send you HMRC's list of the benefits that must be payrolled from April 2027.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["'From 6 April 2027, as an employer you must report these benefits in kind through your payroll on your Full Payment Submission: company cars and fuel, company vans and fuel, medical insurance'; Income Tax and Class 1A National Insurance deducted in real time; 'You will not need to report payrolled benefits using the P11D and P11D(b) forms'; 'All other benefits except loans and accommodation must be payrolled from 6 April 2028' (published 9 November 2026)",
+     "https://www.gov.uk/guidance/prepare-for-mandatory-payrolling-of-benefits-in-kind", "2026-11-13"],
+    ["'From April 2027, mandatory payrolling will apply to: company cars, car fuel, vans and van fuel, employer-provided medical benefits. From April 2028, mandatory payrolling will extend to most remaining benefits in kind. Mandatory payrolling for employer-provided loans and accommodation will be confirmed at a later date'; a temporary easement from penalties for certain non-deliberate inaccuracies in the first year (updated 28 October 2026). This is the page the card hedges to: HMRC has not closed the question",
+     "https://www.gov.uk/government/publications/changes-to-reporting-of-benefits-in-kind-from-april-2027", "2026-11-13"],
+    ["'You will not need to register to payroll mandatory company cars, car fuel, company vans, van fuel and private medical benefits from 6 April 2027'; voluntary payrolling of other benefits needs registration by 5 April 2027 for the 2027 to 2028 tax year; the July 2027 overlap where Class 1A on 2026 to 2027 benefits is paid under P11D while real-time Class 1A has begun; employees get an annual payrolled benefits statement instead of a P11D copy; tax codes stop carrying the estimated benefit adjustment",
+     "https://www.gov.uk/guidance/draft-guidance-and-legislation-to-aid-preparation-for-reporting-benefits-in-kind-in-real-time/getting-ready-for-mandatory-payrolling-of-benefits-in-kind", "2026-11-13"],
+    ["'It will not be mandatory for employer-provided loans and accommodation to be payrolled' (updated 9 November 2026); payrolling remains voluntary for the 2026 to 2027 tax year; existing valuation, making good and exemption rules continue",
+     "https://www.gov.uk/guidance/draft-guidance-and-legislation-to-aid-preparation-for-reporting-benefits-in-kind-in-real-time/annex-5-background-information", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="United Kingdom. PAYE and benefits reporting are UK-wide, so no nation is named anywhere on the frame.",
+    category="Employer status and the kind of benefit given, not company size or turnover. One employee with a company van brings an employer into this.",
+    excluded="An employer who gives no benefits in kind at all — wages only, no car, no van, no fuel, no medical cover — has nothing to payroll and nothing to change. A sole trader with no employees is outside it entirely; a director's own car in their own company is not, because the company is the employer. Employer-provided loans and living accommodation are left out of both the April 2027 and the April 2028 stages as HMRC's guidance stands today, but the position is not settled: the two newer guidance pages exclude them and the annex says payrolling them will not be mandatory, while HMRC's own policy paper of 28 October 2026 says it 'will be confirmed at a later date'. The card and the caption therefore hedge rather than state it as closed. Benefits already covered by an exemption, such as mileage paid at the approved rates, are not reportable now and will not become so. For the 2026 to 2027 tax year payrolling stays voluntary, so nobody has to do anything before 6 April 2027. Deliberately left off the cards: the 5 April 2027 voluntary registration deadline, which sat one day from the 6 April 2027 start date on the adjacent card and read as a contradiction — it is in the caption in full; Class 1A National Insurance and the P11D, which are unexplained terms on a card and are explained in the caption; the exception route for globally mobile employees, which sits too close to residency to be worth a line here; and the detail of corrections, leavers and unpaid tax.",
+    from_when="6 April 2027 for cars, car fuel, vans, van fuel and medical cover; 6 April 2028 for most remaining benefits. Mandatory payrolling needs no registration — it simply starts. Voluntary payrolling of other benefits for 2027 to 2028 must be registered by 5 April 2027."),
+)
+
+
+# ============================================ EN — 14 November 2026
+EN_CORPORATION_TAX_MARGINAL_RELIEF = dict(
+  slug="en-corporation-tax-marginal-relief", brand="en",
+  title="The 19%, the 25% and the bit in between",
+  tags_en="#CorporationTax #LimitedCompany #SmallBusinessUK #UKBusiness #TaxRates #CompanyAccounts",
+  EN=[
+    dict(type="hook",
+      kicker="Corporation Tax · gov.uk",
+      h1="A company's tax rate depends on how much it made.",
+      say="Profit of £50,000 or less for the year is taxed at 19%. Over £250,000, 25%. Dividends from companies yours does not own count in too."),
+    dict(type="step",
+      step="In between",
+      fig="<cur>£</cur>50–250k",
+      say="In this band the company starts at 25% and then takes Marginal Relief off the bill. The further above £50,000 the profit sits, the closer the real rate gets to 25%.",
+      note="Control two companies and each one's £50,000 and £250,000 halve. Three, and they are a third each."),
+    dict(type="step",
+      step="No 19% at all",
+      fig="25%",
+      say="A company that mainly holds investments instead of trading gets neither the 19% rate nor Marginal Relief. Nor does a company that is not UK resident.",
+      note="Sole traders and partnerships are outside it too — they pay Income Tax, not Corporation Tax."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Not sure which rate your company is on?",
+    say="Call us and we will tell you which figures the £50,000 and £250,000 limits are measured against.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["Small profits rate 19%, main rate 25%, lower limit £50,000, upper limit £250,000, standard fraction 3/200 — all unchanged for the financial year beginning 1 April 2026",
+     "https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax", "2026-11-13"],
+    ["Eligibility is tested on 'your profits (including distributions from unrelated, unassociated companies)'; limits divided by the number of associated companies including your own; short accounting periods reduce the limits proportionately; non-UK resident companies and close investment holding companies cannot claim Marginal Relief",
+     "https://www.gov.uk/guidance/corporation-tax-marginal-relief", "2026-11-13"],
+    ["CTA 2010 s.18A(1)(c): the small profits rate applies where 'its augmented profits of the accounting period do not exceed the lower limit' — so £50,000 exactly is inside the 19%, and the company must be UK resident and not a close investment-holding company; s.18L(1) defines augmented profits as taxable total profits plus exempt distributions of a qualifying kind received, s.18L(3) excluding only distributions from 51% subsidiaries and quasi-subsidiaries, so a dividend from an unconnected company counts; s.18D(2) limits £50,000/£250,000 and s.18D(4) 'For an accounting period of less than 12 months the lower limit and the upper limit are proportionately reduced'; s.18E(4) associated = one controls the other or both under common control; s.18E(3) a company that has not carried on a trade or business in the period is ignored",
+     "https://www.legislation.gov.uk/ukpga/2010/4/part/3A", "2026-11-13"],
+    ["HMRC CTM03951: close investment-holding companies 'are not eligible for the standard small profits rate or marginal relief' (CTA10/S18N)",
+     "https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm03951", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK. Corporation Tax is a UK-wide tax; the rates, the limits and the fraction are identical in England, Scotland, Wales and Northern Ireland, so no nation is named anywhere in this carousel.",
+    category="Limited companies, by level of augmented profit for the accounting period: £50,000 or less, between £50,000 and £250,000, and over £250,000. The statutory test is 'do not exceed the lower limit' (CTA 2010 s.18A(1)(c)), so a company at exactly £50,000 is on the 19% rate — the cards and the caption say 'or less', not 'under'.",
+    excluded="A close investment-holding company gets nothing from this post: it is denied both the small profits rate and Marginal Relief by CTA 2010 s.18A and s.18N and pays the main rate on every pound. A company that is not UK resident is likewise outside the small profits rate entirely. Both are card 3, and card 3's note adds the group outside the tax altogether — sole traders and partnerships, who pay Income Tax and cannot be in any of these three situations. Companies with ring-fence profits (oil and gas) are on a separate regime and are deliberately left off the cards as irrelevant to this audience. A company whose limits are divided down by associated companies may be pushed into the 25% band on a profit that would otherwise have been taxed at 19%, so the associated-company point is help, not detail. The augmented-profits rule is no longer kept off the frames: card 1 carries the plain version — dividends from companies yours does not own count towards both limits — because a reader with £45,000 of trade and £10,000 of dividends would otherwise read card 1 and believe they were on 19%. The full definition, the term 'augmented profits' and a worked £55,000 example are in the caption. The 3/200 fraction stays off both, because it is arithmetic the reader cannot act on.",
+    from_when="Financial year beginning 1 April 2026. The same rates and limits have applied continuously since 1 April 2023. Marginal Relief is claimed in the company's Corporation Tax return; it is not automatic."),
+)
+
+EN_VAT_ON_FOOD = dict(
+  slug="en-vat-on-food", brand="en",
+  title="Why a sandwich is sometimes 20% and sometimes nothing",
+  tags_en="#VAT #Takeaway #CafeOwner #BakeryBusiness #HospitalityUK #SmallBusinessUK",
+  EN=[
+    dict(type="hook",
+      kicker="VAT on food · gov.uk",
+      h1="The same sandwich, two different prices.",
+      say="Cold, in a bag, out of the door: no VAT. Eaten at your table in the shop: 20%."),
+    dict(type="step",
+      step="Hot food",
+      fig="20%",
+      say="It is 20% if the food is hot when you hand it over and any one of HMRC's five tests is met: heated to be eaten hot, heated to order, kept hot, packed to hold the heat, or sold as hot.",
+      note="Crisps, sweets and fizzy drinks are always 20%."),
+    dict(type="step",
+      step="If you are not registered",
+      fig="<cur>£</cur>90,000",
+      say="If everything you sell adds up to less than £90,000 over twelve months, you do not have to register for VAT. Then none of this reaches your till — you charge nothing at all.",
+      note="Go over £90,000, or expect to within 30 days, and you must register — then every line above matters."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Not sure which of your lines carry VAT?",
+    say="Call us with the line you are least sure about and we will tell you where HMRC answers it.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["VAT Notice 709/1: catering is standard-rated; food for consumption on the premises is standard-rated; cold takeaway food is generally zero-rated; hot takeaway food is standard-rated where it is hot when provided and one or more of five tests is met — heated to be consumed hot, heated to order, kept hot after heating, provided in packaging that retains heat, or advertised or marketed as supplied hot; 'premises' are areas occupied by the retailer or set aside for customers, and do not include tables and chairs for general public use such as public picnic benches",
+     "https://www.gov.uk/guidance/catering-takeaway-food-and-vat-notice-7091", "2026-11-13"],
+    ["VAT Notice 701/14: most food for human consumption is zero-rated; the excepted items always standard-rated are confectionery, savoury snacks including potato crisps and salted nuts, soft drinks and cordials, ice cream, and alcohol; 'All hot beverages and any drinks, including zero-rated drinks sold for consumption on your premises are standard-rated'; cakes and plain biscuits are zero-rated but wholly or partly chocolate-coated biscuits are standard-rated; plain bread, rolls, baps and pitta are zero-rated; cold sandwiches taken away are zero-rated unless supplied in the course of catering",
+     "https://www.gov.uk/guidance/food-products-and-vat-notice-70114", "2026-11-13"],
+    ["HMRC VAT Food manual VFOOD4220: whether a supply is one of hot take-away food for VAT purposes",
+     "https://www.gov.uk/hmrc-internal-manuals/vat-food/vfood4220", "2026-11-13"],
+    ["VAT registration threshold £90,000 of taxable turnover; deregistration threshold £88,000 — a business below it need not be registered and charges no VAT",
+     "https://www.gov.uk/how-vat-works/vat-thresholds", "2026-11-13"],
+    ["You must register if your 'total taxable turnover for the last 12 months goes over £90,000', and also if you 'expect your taxable turnover to go over £90,000 in the next 30 days', the registration deadline being the end of that 30-day period",
+     "https://www.gov.uk/register-for-vat", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK. VAT is a UK-wide tax and the liability of food is the same in all four nations, so no nation is named.",
+    category="Food and drink retailers — takeaways, bakeries, coffee shops, sandwich bars — and their customers. Category turns on three things: whether the business is registered for VAT at all, hot or cold and eaten in or taken away, and whether the item is on the excepted list.",
+    excluded="A business whose sales stay under the £90,000 registration threshold is outside the whole post: it charges no VAT on anything it sells, whatever the liability of the food, and the rate structure on cards 1 and 2 never touches its till. That is now card 3 itself, not a note, because it is the only group for whom none of this post applies and it is most of the market stalls and sandwich bars this post is addressed to. Its note gives them the two triggers that would put them inside — £90,000 over the last twelve months, or expecting to cross it within 30 days. Customers of such a business see no difference. The rules also give nothing to anyone selling only the always-standard-rated list — crisps and savoury snacks, confectionery, ice cream, soft drinks and cordials, alcohol and all hot drinks — because those carry 20% however they are sold; that is card 2's note and the caption. The zero-rated list that used to sit on card 3 (plain bread, cakes, plain and chocolate biscuits, cold sandwiches) has moved into the caption in full, with cakes and biscuits both treated, so no reader is left guessing at a half-list. Deliberately left off the cards: the detailed borderline case law (Jaffa cakes, caramel and icing coatings, chocolate chips in the dough), the 'significant element of service' test for delivered catering, and the temporary reduced rate for certain children's meals that ran from 25 June 2026 to 1 September 2026 and has already ended — it would be a date the reader can no longer hit.",
+    from_when="Current law, in force now, with no end date. Liability follows the sale: the business must apply it at the till, nothing is claimed and nothing is automatic. Registration is not automatic either — the business has to register once it crosses the threshold."),
+)
+
+EN_PROPERTY_ALLOWANCE = dict(
+  slug="en-property-allowance", brand="en",
+  title="The £1,000 property allowance",
+  tags_en="#PropertyAllowance #RentalIncome #LandlordUK #SelfAssessment #SideIncome #UKTaxTips",
+  EN=[
+    dict(type="hook",
+      kicker="Property allowance · gov.uk",
+      h1="£1,000 a year from property, and no tax return.",
+      say="A garage, a driveway, a parking space, a field. If the total for the year is £1,000 or less, HMRC usually does not need to hear about it."),
+    dict(type="step",
+      step="If you take more",
+      fig="A choice",
+      say="Take more than that and you have two ways to go: take your real costs off the income, or take £1,000 off instead. You use whichever leaves you better off, never both.",
+      note="The £1,000 cannot take you below nil, so it will not create a loss."),
+    dict(type="step",
+      step="Who cannot use it",
+      fig="Excluded",
+      say="It is out if the rent comes from your own company, a partnership you are in, or your employer. Those rents have to be reported however small they are.",
+      note="A room let in your own home has its own scheme, Rent a Room, and this £1,000 does not reach it."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Not sure if your letting is under the £1,000?",
+    say="Call us and we will tell you what counts towards the £1,000 and what does not.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["'The property allowance is a tax exemption of up to £1,000 a year for individuals with income from land or property'; full relief — 'If your annual gross property income is £1,000 or less, you will not need to tell HMRC, unless you cannot use the allowances', so the no-reporting rule falls away wherever the allowance is blocked; partial relief — 'If you use the allowances you can deduct up to £1,000, but not more than the amount of your income', so it cannot create a loss; joint owners each have their own £1,000; 'You cannot use the allowances in a tax year, if you have any trade or property income from: a company you or someone connected to you owns or controls, a partnership where you or someone connected to you are partners, your employer or the employer of your spouse or civil partner'; and separately 'You cannot use the property allowance if you: claim the tax reducer for finance costs such as mortgage interest for a residential property, deduct expenses from income from letting a room in your own home instead of using the Rent a Room Scheme'",
+     "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income", "2026-11-13"],
+    ["HMRC Property Income Manual PIM4432: property allowance computations overview",
+     "https://www.gov.uk/hmrc-internal-manuals/property-income-manual/pim4432", "2026-11-13"],
+    ["Original measure: Income Tax — new tax allowance for property and trading income",
+     "https://www.gov.uk/government/publications/income-tax-new-tax-allowance-for-property-and-trading-income/income-tax-new-tax-allowance-for-property-and-trading-income", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK. The property allowance is an Income Tax exemption that applies in all four nations at the same £1,000, so no nation is named. The rate of tax on anything above it differs in Scotland for non-savings income, but no rate is quoted anywhere in this carousel, so no Scottish point arises.",
+    category="Individuals with gross income from land or property — a garage, a driveway, a parking space, a field, a storage yard, a holiday let. It is a per-person allowance against gross income, not against profit, and joint owners each get their own.",
+    excluded="Four groups get nothing, and for three of them the loss is bigger than it looks. Anyone whose property income comes from a company they or a connected person owns or controls, from a partnership they or a connected person is a partner in, or from their own employer or their spouse's or civil partner's employer cannot use the allowance — and because gov.uk's full-relief rule reads 'you will not need to tell HMRC, unless you cannot use the allowances', the £1,000 no-reporting promise on card 1 falls away with it. A director renting his own company a parking space for £800 has to report that £800. Card 3 now says so in terms, rather than leaving the reader to think only the deduction is lost. Fourth, anyone letting a room in their own home, which is Rent a Room's territory and not this allowance's — card 3's note names the scheme and explains it rather than dropping the name bare. On top of that, anyone claiming the tax reducer for residential finance costs in the year cannot use the allowance at all; that stays in the caption. Anyone whose real expenses exceed £1,000 gains nothing by choosing it, and the allowance cannot create or increase a loss, so a landlord sitting on a loss gets no benefit. Card 1 now reads 'usually does not need to hear about it', because the source hedges and so must the card. Deliberately left off the cards: the interaction with the separate £1,000 trading allowance, and the rule that claiming the allowance in one business bars actual expenses in another.",
+    from_when="In force now, for the current tax year, with no end date. Full relief is automatic where it is available — there is nothing to claim and nothing to report. Partial relief is an election made on the tax return."),
+)
+
+EN_PENSION_TAX_RELIEF = dict(
+  slug="en-pension-tax-relief", brand="en",
+  title="Tax relief on money you put into a pension yourself",
+  tags_en="#PensionTaxRelief #Pensions #SelfAssessment #HigherRateTax #RetirementPlanning #UKTaxTips",
+  EN=[
+    dict(type="hook",
+      kicker="Pension tax relief · gov.uk",
+      h1="Put in £80 and £100 lands in your pension.",
+      say="Your pension provider claims the other £20 back from the government at the basic 20% rate. You do nothing to make that happen."),
+    dict(type="step",
+      step="If you pay more tax",
+      fig="20%",
+      say="A 40% taxpayer gets another 20% back, worked out on what they put in. It never arrives on its own: you claim it on a Self Assessment return, or online if you do not file one.",
+      note="Scotland has its own bands, so the extra there is 1%, 22%, 25% or 28% instead of 20%."),
+    dict(type="step",
+      step="Net pay schemes",
+      fig="<cur>£</cur>0",
+      say="If your employer takes your pension money out of your pay before any tax, the relief is already there. Nobody adds £20 and there is nothing to claim back, whatever rate you pay.",
+      note="Your payslip settles it: the pension figure comes off above the tax figure."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Paid 40% tax and never claimed the rest?",
+    say="Call us and we will tell you which kind of scheme you are in and which route the claim takes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["'You can get tax relief on private pension contributions worth up to 100% of your annual earnings'; two schemes give relief automatically — 'your employer takes workplace pension contributions out of your pay before deducting Income Tax' and 'your pension provider claims tax relief from the government at the basic 20% rate and adds it to your pension pot'; contributions up to 80% of earnings, or £2,880 if you have no earnings, are topped up; additional relief of '20% up to the amount of any income you have paid 40% tax on' and '25% up to the amount of any income you have paid 45% tax on'; 'You can claim additional tax relief on your Self Assessment tax return' and, separately, 'If you do not file a Self Assessment tax return, find out how to claim tax relief'; Scotland — at a 19% rate the provider still claims 20% and you do not pay the difference, and the claim rises in steps of 1% (21% band), 22% (42% band), 25% (45% band) and 28% (48% band)",
+     "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief", "2026-11-13"],
+    ["HMRC's claim service for people who do not file a return: 'If you complete a Self Assessment tax return, you must claim through your tax return', otherwise you claim online through this service or by post. 'A net pay scheme is where the employer takes your pension contributions from your pay before any tax is deducted'; a lump-sum claim is only open where the payment is 'not under a net pay scheme'",
+     "https://www.gov.uk/guidance/claim-tax-relief-on-your-private-pension-payments", "2026-11-13"],
+    ["HMRC Pensions Tax Manual PTM041000: relief on member contributions is available on up to 100 per cent of their relevant UK earnings 'or £3,600 whichever is the greater'; no relief from age 75",
+     "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm041000", "2026-11-13"],
+    ["Annual allowance £60,000 for 2026 to 2027; money purchase annual allowance £10,000; tapered annual allowance threshold income £200,000 and adjusted income £260,000",
+     "https://www.gov.uk/government/publications/rates-and-allowances-pension-schemes/pension-schemes-rates", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK, with one difference handled on card 2's note and never in a headline: the extra relief a Scottish taxpayer claims back goes up in different steps because the Scottish bands are different, and the note now says 'instead of 20%' so the 1% step reads as a real figure rather than a missing digit. The basic 20% added by the provider is the same everywhere, including for a Scottish taxpayer on the 19% starter rate, who keeps the difference.",
+    category="Individuals paying into a personal or workplace pension out of their own money, split first by how the scheme gets the relief — relief at source, which is card 1's £80-becomes-£100 mechanism, or net pay, which is card 3 — and then by the rate of Income Tax they actually pay.",
+    excluded="A member of a net pay workplace scheme gets nothing from this post at all, and that is now card 3. Their employer takes the contribution out of pay before any tax is worked out, so there is no provider top-up to see, no £20 added, and nothing to claim at any tax rate — card 1's whole premise never happens to them. The card tells them how to recognise it on a payslip. Basic-rate taxpayers in a relief-at-source scheme get nothing EXTRA — their 20% is already in and there is nothing further to claim — but they do get card 1, which is why they have moved off card 3 and into the caption: card 3 belongs to the people for whom none of it applies, not to the people who get less. Someone earning below the personal allowance still gets the 20% added by a relief-at-source scheme but has nothing more to reclaim. Nobody gets relief on more than they earned in the year, so a large one-off contribution out of savings is capped at earnings, and someone with no earnings is capped at £3,600 gross, £2,880 of their own money. These two sit together in one caption sentence now — on the old card 3 they were two lines apart and read as a contradiction. From age 75 there is no tax relief on member contributions at all. Deliberately left off the cards and kept to the caption: the £60,000 annual allowance, the tapered annual allowance, the money purchase annual allowance and carry forward. Deliberately left out entirely: anything touching residency, which is outside what this firm may advise on.",
+    from_when="Tax year 2026 to 2027, in force now. The basic 20% is automatic in a relief-at-source scheme, and the relief is automatic in a net pay scheme because it comes off gross pay. The higher-rate and Scottish extra is NOT automatic — it has to be claimed, on a Self Assessment return if you file one and from HMRC online if you do not."),
+)
+
+EN_STUDENT_LOAN_PLANS = dict(
+  slug="en-student-loan-plans", brand="en",
+  title="Why two people on the same wage repay different amounts",
+  tags_en="#StudentLoan #StudentFinance #Payslip #PAYE #PayrollUK #UKWages",
+  EN=[
+    dict(type="hook",
+      kicker="Student loan repayments · gov.uk",
+      h1="Two people on £32,000 repay very different amounts.",
+      say="One is on Plan 5, which starts taking money at £25,000: 9% of the £7,000 above that is £630 a year. The other is on Plan 4 and pays nothing."),
+    dict(type="step",
+      step="What comes out",
+      fig="9%",
+      say="Plan 1 starts at £26,900. Plan 2 at £29,385. Plan 4 at £33,795. Plan 5 at £25,000. Above your own plan's figure, 9% of the extra comes out.",
+      note="A Postgraduate Loan from England or Wales is separate: £21,000, and 6% on top of the 9%."),
+    dict(type="step",
+      step="Under your plan's figure",
+      fig="<cur>£</cur>0",
+      say="Earn under it all year and nothing is due. But the check runs every payday, so a bonus can push one month over — and you only get that back by asking.",
+      note="Plan 4 is the Scotland plan; Plan 1 covers Northern Ireland."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Not sure which plan you are on?",
+    say="Call us and we will tell you where the plan number sits on your payslip.",
+    phone=PHONE,
+    disc="General information. Plan type comes from the Student Loans Company; the payroll side, from an accountant."),
+  SOURCES=[
+    ["2026 to 2027 thresholds and rates: Plan 1 £26,900 (£2,241.66 a month, £517.30 a week), Plan 2 £29,385 (£2,448.75 / £565.09), Plan 4 £33,795 (£2,816.25 / £649.90), Plan 5 £25,000 (£2,083.33 / £480.76), student loan deductions 9%; Postgraduate Loan £21,000 (£1,750 / £403.84), deductions 6%",
+     "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-13"],
+    ["Opened and checked 13 November 2026: 'Student loan and postgraduate loan repayment guidance for employers' repeats the same 2026 to 2027 annual thresholds (Plan 1 £26,900, Plan 2 £29,385, Plan 4 £33,795, Plan 5 £25,000, Postgraduate Loan £21,000) and the 9% and 6% rates, applying from April 2026",
+     "https://www.gov.uk/guidance/special-rules-for-student-loans", "2026-11-13"],
+    ["'You repay a percentage of your income over the income threshold' — repayment is on the slice above the threshold, not the whole wage; 'The income thresholds are different for each plan type, and depend on how often you get paid' and 'You'll make a repayment if your income goes over the weekly or monthly threshold for your plan', so PAYE tests each pay packet, not the year; with a Postgraduate Loan alongside another plan you pay '6% of your income over the Postgraduate Loan threshold (£21,000 a year)' and '9% of your income over the lowest threshold for any other plan types you have'",
+     "https://www.gov.uk/repaying-your-student-loan/what-you-pay", "2026-11-13"],
+    ["Which plan you are on: Student Awards Agency Scotland funding means Plan 4, 'whether you studied an undergraduate course or a postgraduate course'; Student Finance Northern Ireland means Plan 1, likewise undergraduate or postgraduate; the Postgraduate Loan plan is for postgraduate master's or doctoral courses funded by Student Finance England or Student Finance Wales; England — Plan 5 for courses starting on or after 1 August 2023, Plan 2 for 1 September 2012 to 31 July 2023, Plan 1 before 1 September 2012; Wales — Plan 2 from 1 September 2012, Plan 1 before",
+     "https://www.gov.uk/repaying-your-student-loan/which-repayment-plan-you-are-on", "2026-11-13"],
+    ["Refunds: 'If your annual salary is less than this, your employer may still have deducted repayments' — for example where 'you were paid a bonus that put you over the monthly threshold for your plan', in which case the employer 'would deduct a repayment for that month'. The refund is not automatic in that case: 'Sign into your student loan repayment account and ask for a refund', and 'You can only ask for a refund for tax years that have ended'",
+     "https://www.gov.uk/repaying-your-student-loan/getting-a-refund", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK, with the nation handled on card 3's note and never in a headline: Plan 4 is the Scotland plan, for anyone funded by the Student Awards Agency Scotland, and Plan 1 is the Northern Ireland plan. Card 2's note adds the scoping that matters for the Postgraduate Loan line — that plan belongs to England and Wales funding only, because a SAAS-funded postgraduate is on Plan 4 and a Student Finance NI postgraduate is on Plan 1. The caption carries the whole map. The thresholds and percentages themselves are set UK-wide and operated through PAYE everywhere.",
+    category="Anyone repaying a student loan through their pay, by plan type and by earnings relative to that plan's starting figure. The word 'threshold' does not appear on any frame; the cards say 'your plan's figure', which is the same thing in words the reader already has.",
+    excluded="Anyone earning under their plan's figure for the whole year repays nothing — on £32,000 that is every Plan 4 borrower, because the Plan 4 figure is £33,795. That is card 3, and card 1 now names both plans so the £630 can be checked by the reader rather than taken on trust. Card 3 no longer says nothing comes out 'at all', because PAYE tests each pay packet against a weekly or monthly line rather than the year: somebody on £24,000 with a December bonus does have money taken, and does not get it back unless they ask the Student Loans Company, after the tax year has ended. The card says so and the caption gives the route. Nobody repays 9% of their whole wage; the deduction is only on the part above the figure, which card 2 states. Someone who has not yet reached the April after leaving their course repays nothing yet. Interest still accrues on the balance while nothing is being repaid, which is why the post makes no claim that a low earner is better off. Deliberately left off the cards: write-off dates, voluntary overpayments, the separate Self Assessment calculation for the self-employed, the two-job case where each job is looked at separately, and mortgage-style pre-1998 loans.",
+    from_when="Tax year 2026 to 2027, in force now. Deductions are automatic through PAYE once the employer has the plan type; nothing is claimed. A refund of a bonus-month deduction is the exception — it is not automatic and has to be asked for once the tax year has ended."),
+)
+
+
+DAY = [
+  # ola — Romanian feeds plus the English LinkedIn, Bluesky, Pinterest and GBP surfaces
+  OLA_IMPRUMUT_DIRECTOR, OLA_ALOCATIE_INVESTITII, OLA_PENSION_CREDIT,
+  OLA_PLATA_REDUNDANTA, OLA_TVA_COTA_FIXA,
+  # bham — English only, Birmingham and the West Midlands
+  BHAM_BUSINESS_RATES_RELIEF, BHAM_CLEAN_AIR_ZONE, BHAM_FOOD_BUSINESS_REGISTRATION,
+  BHAM_SELECTIVE_LICENSING, BHAM_PAYROLLING_BENEFITS,
+  # en — English only, UK-wide, no city named
+  EN_CORPORATION_TAX_MARGINAL_RELIEF, EN_VAT_ON_FOOD, EN_PROPERTY_ALLOWANCE,
+  EN_PENSION_TAX_RELIEF, EN_STUDENT_LOAN_PLANS,
+]
+
 HELD = [WINTER_FUEL, CHILD_BENEFIT, CARD_SECTIUNEA_75, CH_IDENTITY, CARERS_ALLOWANCE,
         HEALTHY_START]
 
 # Shipped on an earlier day. Kept so preflight's LOSS check can still see every
 # topic that was in the last commit: a topic that leaves DAY has not been lost,
 # it has been published.
-ARCHIVE = [COD_URGENTA, VANZARI_ONLINE, CHELTUIELI, SSP_PRIMA_ZI,
+ARCHIVE = [SACC_BUNICI, BACSIS_INTEGRAL, PLATA_ESALONATA, TVA_LA_INCASARE,
+           COD_URGENTA, VANZARI_ONLINE, CHELTUIELI, SSP_PRIMA_ZI,
            PAYMENTS_ON_ACCOUNT, MTD_INCOME_TAX, VAT_THRESHOLD, MARRIAGE_ALLOWANCE,
            CIS_20_30, TAX_CODE_30_DEC, TRADING_ALLOWANCE, MIN_WAGE,
            MILEAGE_55P, LTD_DEADLINES, EMPLOYMENT_ALLOWANCE, COLD_WEATHER, RETURN_30_DAYS,
@@ -4911,6 +5717,290 @@ BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
 #
 # This list is rewritten every evening by Content Studio. It ships empty so that
 # a run which fails before writing it cannot republish yesterday's posts.
-SOLOS = []
+SOLOS = [
+dict(slug="ola-solo-tax-free-childcare", brand="ola", lang="ro",
+  slide=dict(type="solo",
+    kicker="Tax-Free Childcare · gov.uk",
+    h1="Statul îți adaugă până la <em>£2.000</em> pe an pentru fiecare copil.",
+    rows=[["<cur>£</cur>8.000", "cât pui tu, ca să iei maximul"],
+          ["La 3 luni",         "confirmi datele, altfel plățile se opresc"],
+          ["Exclus",            "cine ia Universal Credit sau childcare vouchers"]],
+    ask="Verificarea și cererea se fac pe gov.uk. Dacă ai întrebări despre venitul tău din self-employment, biroul nostru din Luton îți răspunde.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  caption="""Dacă plătești creșă, grădiniță, after-school sau un childminder înregistrat, statul poate pune bani lângă ai tăi.
+
+Se numește Tax-Free Childcare. La fiecare £8 pe care îi pui tu în cont, guvernul adaugă £2. Pentru fiecare copil poți primi până la £500 la fiecare 3 luni, adică £2.000 pe an — asta înseamnă £8.000 puși de tine într-un an. Pentru un copil cu dizabilitate, până la £1.000 la 3 luni, adică £4.000 pe an.
+
+Copilul trebuie să aibă 11 ani sau mai puțin, ori 16 dacă are o dizabilitate. Tu și partenerul, dacă ai unul, trebuie fiecare să munciți și să vă așteptați să câștigați un minim în următoarele 3 luni: £2.643,68 de fiecare, dacă aveți 21 de ani sau peste. Contul se confirmă din 3 în 3 luni, altfel se oprește.
+
+Nu primești nimic dacă tu sau partenerul vă așteptați la un venit ajustat peste £100.000 în anul fiscal curent. Și nu îl poți avea în același timp cu Universal Credit sau cu childcare vouchers.
+
+Cererea se face pe gov.uk, gratuit. Înainte să o faci, verifică acolo ce se întâmplă cu ajutoarele pe care le primești deja.
+
+Scrie-ne pe WhatsApp: 0330 133 1886
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #TaxFreeChildcare #Cresa #ParintiInUK""",
+  tt_title="£2.000 pe an pentru creșă: cum se cer",
+  SOURCES=[
+    ["'For every £8 you pay into the account, the government will top it up by £2'; 'The total top up you can get for each child is £500 every 3 months (up to £2,000 a year)'; 'This goes up to £1,000 every 3 months if your child is disabled (up to £4,000 a year)'; 'your child must be 11 or younger (16 or younger if they're disabled)'",
+     "https://www.gov.uk/tax-free-childcare", "2026-11-13"],
+    ["'You (and your partner, if you have one) must each expect, over the next 3 months, to earn at least' the stated minimum — the test applies to each adult separately, not to the applicant alone: £2,643.68 if 21 or over, £2,256.80 if 18 to 20, £1,664 if under 18 or an apprentice; cannot claim where expected adjusted net income is 'over £100,000 for the current tax year'; 'If you claim either Universal Credit or childcare vouchers, you cannot get Tax-Free Childcare at the same time'; details must be confirmed 'every 3 months'; cannot claim if the child does not usually live with you, if you foster the child, or if you get a childcare bursary or grant",
+     "https://www.gov.uk/tax-free-childcare/check-if-youre-eligible", "2026-11-13"],
+    ["'You cannot get Tax-Free Childcare at the same time as claiming Universal Credit.' The page says nothing about what happens to an existing Universal Credit award if a Tax-Free Childcare application succeeds, which is why the frame and the caption state only that the two cannot be held together and send the reader to gov.uk before applying",
+     "https://www.gov.uk/help-with-childcare-costs/universal-credit", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK. Tax-Free Childcare is a UK-wide HMRC scheme, so no nation appears on the frame. (The separate free-hours entitlements do differ by nation and are deliberately not mentioned.)",
+    category="Working parents and carers whose child is 11 or younger, or 16 or younger if the child is disabled. EACH adult in the household must expect to earn at least the stated minimum over the next 3 months — gov.uk applies the test to 'you (and your partner, if you have one) ... each', and the Romanian caption now says so — and neither may expect adjusted net income over £100,000 in the current tax year.",
+    excluded="You cannot hold Tax-Free Childcare at the same time as Universal Credit or childcare vouchers, which is why this is the exclusion row. What happens to an existing Universal Credit award once a Tax-Free Childcare application succeeds could not be established at primary source: gov.uk says only that the two cannot be held at the same time. The frame and caption therefore no longer present it as a straight choice between two things of known value; the caption tells the reader to check on gov.uk what happens to the help they already receive before applying, and nothing in the copy encourages anyone to close a Universal Credit claim. A parent or partner expecting adjusted net income over £100,000 for the current tax year gets nothing, and because it is a household test one high earner removes the whole award. Nothing is paid where the child does not usually live with you, where you foster the child, or where you or your partner receive a childcare bursary or grant. Anyone earning below the 3-month minimum gets nothing. The account has to be reconfirmed every 3 months or payments stop, which is now row 2 of the frame. Deliberately left off the frame and carried in the caption: the £2-per-£8 ratio, the £4,000 disabled-child figure, the £100,000 test and the earnings minimums. Deliberately left out altogether: anything touching residence or status, and the free-hours entitlements.",
+    from_when="Claimed, not automatic — the account is opened on gov.uk, free of charge, and the top-up is added as you pay money in. Details must be reconfirmed every 3 months. Eligibility is checked by HMRC on gov.uk, not by this firm, which is what the ask now says."),
+),
+
+dict(slug="ola-solo-taxa-locala-singur", brand="ola", lang="ro",
+  slide=dict(type="solo",
+    kicker="Council Tax · gov.uk",
+    h1="Dacă locuiești singur, plătești cu <em>25%</em> mai puțin la council tax.",
+    rows=[["50%",       "dacă toți adulții din casă sunt scutiți"],
+          ["Pe cerere", "o ceri la council, nu vine automat"],
+          ["Exclus",    "chiriașul, când factura este pe proprietar"]],
+    ask="Decizia este a council-ului, nu a noastră. Dacă ai întrebări despre impozitele tale din UK, biroul nostru din Luton îți răspunde.",
+    phone=PHONE,
+    disc="Informații generale. Council tax există în Anglia, Scoția și Țara Galilor, nu și în Irlanda de Nord."),
+  caption="""Locuiești singur? Factura de council tax scade cu 25%. Reducerea se numește single person discount și nu vine de la sine — o ceri la council, iar council-ul hotărăște.
+
+Nu contează câți oameni dorm în casă, ci câți adulți se pun la socoteală. Unii nu se pun deloc: cei sub 18 ani, studenții la zi, tinerii de 18 și 19 ani în învățământ full-time, ucenicii pe anumite scheme, asistentele medicale în formare, cine are o afecțiune mintală severă recunoscută, și îngrijitorul care locuiește în casă, dacă nu este soțul, partenerul sau copilul sub 18 ani al celui îngrijit.
+
+Dacă toți adulții din casă sunt scutiți, reducerea urcă la 50%.
+
+Council tax există în Anglia, Scoția și Țara Galilor. În Irlanda de Nord nu există council tax, ci rates.
+
+Nu primești nimic dacă stai în chirie într-o casă unde council tax-ul este pe numele proprietarului și intră în chirie. Acolo factura nu este a ta, deci nici reducerea.
+
+Scrie-ne pe WhatsApp: 0330 133 1886
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #CouncilTax #SinglePersonDiscount #ViataInUK""",
+  tt_title="Locuiești singur? 25% mai puțin la council tax",
+  SOURCES=[
+    ["'You'll get 25% off your bill if you pay Council Tax and either: you live on your own'; the list of disregarded people (under 18, certain apprentices, 18 or 19 in full-time education, full-time students, student nurses, severely mentally impaired, live-in carers, diplomats and others); 'You'll get 50% off your bill if everyone living in your household is disregarded'",
+     "https://www.gov.uk/council-tax/who-has-to-pay", "2026-11-13"],
+    ["ENGLAND ONLY as now consolidated. Local Government Finance Act 1992 s.11 is headed 'Discounts: England' and the words 'in England' were inserted into s.11(1), s.11(2) and s.11(5) with effect from 1 April 2026 by the Local Government Finance (Wales) Act 2024. s.11(3): 'the appropriate percentage' means '25 per cent', subject to order",
+     "https://www.legislation.gov.uk/ukpga/1992/14/section/11", "2026-11-13"],
+    ["SCOTLAND. Local Government Finance Act 1992 Part II is headed 'Council Tax: Scotland'; s.79 'Discounts' gives the discount where 'there is only one resident of the dwelling' who is not disregarded, and s.79(3): 'In this section \"the appropriate percentage\" means 25 per cent.'",
+     "https://www.legislation.gov.uk/ukpga/1992/14/section/79", "2026-11-13"],
+    ["WALES, statutory route. From 1 April 2026 Welsh discounts sit in new s.11E 'Discounts: Wales' and s.11F, with s.12 omitted; s.11E sets the discount by regulations made by the Welsh Ministers rather than stating a percentage in the Act, so the 25% figure for Wales is taken from the Welsh Government page below and not from s.11",
+     "https://www.legislation.gov.uk/ukpga/1992/14/part/I/chapter/I/crossheading/amounts-of-tax-payable", "2026-11-13"],
+    ["WALES, the figure. A 25% discount applies 'when there is only one adult living in the property', or where all other adults are disregarded, and 50% 'when all adults in the property are disregarded'; 'Your local authority is responsible for calculating any discount'",
+     "https://www.gov.wales/council-tax-discounts-disregards-exemptions-and-reductions", "2026-11-13"],
+    ["Northern Ireland has domestic rates, not council tax: 'Rateable Capital Value of your property X (Domestic Regional Rate + Domestic District Rate) = Rates payable'",
+     "https://www.nidirect.gov.uk/articles/how-rate-bills-are-calculated", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="England, Scotland and Wales, each on its own statutory footing: s.11 of the Local Government Finance Act 1992 now reads 'Discounts: England' and covers England alone, Scotland is s.79 of the same Act, and Wales moved to new ss.11E and 11F on 1 April 2026 with the percentage set by Welsh Ministers' regulations. Council tax does not exist in Northern Ireland, which has domestic rates instead. The nation is carried in the disclaimer line of the frame, never in the headline; it moved there from row 1 so that the three row labels are the same kind of thing — an amount, how it arrives, who is excluded.",
+    category="Anyone liable for the council tax bill on a dwelling where only one adult counts as resident. Adults who are disregarded — under 18s, full-time students, 18 and 19 year olds in full-time education, certain apprentices, student nurses, people with a recognised severe mental impairment, live-in carers who are not the partner, spouse or child under 18 of the person cared for, and diplomats — are not counted, so a household can qualify even with more than one person in it.",
+    excluded="Anyone who is not the person liable for the bill gets nothing, and the commonest case in this audience is a lodger or a tenant in a house where the council tax is in the landlord's name and bundled into the rent. The exclusion row now names that person rather than naming the abstraction, because 'excluded from a discount on a bill you do not receive' reads as circular: the point is that the tenant has no claim on the reduction even though the rent reflects the bill. Anyone living in Northern Ireland is outside this entirely — there is no council tax there at all. A household with two or more adults who are all counted gets no discount. The discount is the council's decision either way, which is why the ask says so and offers no view on whether a particular home qualifies. Deliberately left off the frame and carried in the caption: the full list of disregarded categories. Deliberately left out altogether: Council Tax Reduction (a separate, means-tested scheme run by each council), band challenges, student exemptions in full, and anything touching residence or immigration status — including the resettlement-scheme disregard listed by mygov.scot, which cannot be explained without crossing into status.",
+    from_when="Claimed, not automatic — you apply to your council, which decides and which is also where the discount is backdated or refused. Both the 25% figure and the 50% figure are long-standing statutory percentages, so no start date is put on the frame."),
+),
+
+dict(slug="bham-solo-attendance-allowance", brand="bham", lang="en",
+  slide=dict(type="solo",
+    kicker="Attendance Allowance · gov.uk",
+    h1="You can get <em>£114.60</em> a week if you need help day and night.",
+    rows=[["<cur>£</cur>76.70", "the lower rate, day only or night only"],
+          ["Claimed",          "from State Pension age, never automatic"],
+          ["Excluded",         "anyone on Personal Independence Payment"]],
+    ask="This is not an accountancy question: the claim is free at gov.uk, and the helpline on that page is where to ask about a particular case.",
+    phone=PHONE,
+    disc="General information, not benefits advice. The claim is free at gov.uk."),
+  caption="""Attendance Allowance is for someone of State Pension age who needs help looking after themselves: washing, dressing, eating, or someone keeping an eye on them for safety.
+
+There are two rates, and the difference is when you need help. £76.70 a week where you need frequent help or supervision during the day, or supervision at night. £114.60 a week — the higher rate — where you need help or supervision throughout both day and night, or a medical professional has said you are nearing the end of life.
+
+It is not means-tested: savings and earnings make no difference. It is not taxed. It does not cover getting about.
+
+You must have needed that help for at least six months. And gov.uk says plainly that you do not have to have anyone caring for you in order to claim.
+
+Getting it can also lift Pension Credit, Housing Benefit or Council Tax Reduction.
+
+Who gets nothing: anyone already paid Personal Independence Payment (PIP), Disability Living Allowance (DLA), Adult Disability Payment or Armed Forces Independence Payment, and usually anyone whose care home fees the council pays.
+
+The claim is free at gov.uk, and the helpline number is on the same page. Nobody needs paying to fill the form in.
+
+Ola Accountancy — Birmingham, 0330 133 1886. General information, not benefits advice.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #AttendanceAllowance #StatePension""",   # 1393
+  tt_title="Attendance Allowance: two rates, not means-tested",   # 49
+  SOURCES=[["Both weekly rates for the current tax year — lower £76.70, higher £114.60. Lower rate: 'Frequent help or constant supervision during the day, or supervision at night'. Higher rate: 'Help or supervision throughout both day and night, or a medical professional has said you're nearing the end of life'. 'Attendance Allowance is not means-tested - what you earn or how much you have in savings will not affect what you get'; it can lead to extra Pension Credit, Housing Benefit or Council Tax Reduction", "https://www.gov.uk/attendance-allowance/what-youll-get", "2026-11-13"],
+           ["State Pension age condition; 'you have needed that help for at least 6 months'; not payable to anyone getting DLA, PIP, ADP, Scottish Adult DLA or AFIP; 'You cannot usually get Attendance Allowance if you live in a care home and your care is paid for by your local authority'", "https://www.gov.uk/attendance-allowance/eligibility", "2026-11-13"],
+           ["'You do not have to have someone caring for you in order to claim'; 'It does not cover mobility needs'; in Scotland you apply for Pension Age Disability Payment instead", "https://www.gov.uk/attendance-allowance", "2026-11-13"],
+           ["Attendance Allowance is listed among the state benefits you do not pay Income Tax on", "https://www.gov.uk/income-tax/taxfree-and-taxable-state-benefits", "2026-11-13"]],
+  SCOPE=dict(nation="Great Britain, and in practice England and Wales: Scotland runs Pension Age Disability Payment instead. No nation is named on the frame, because the audience is in England and naming it would say nothing.",
+             category="Age and care need: State Pension age or older, needing help with personal care or supervision, and having needed it for at least 6 months. Not an income or savings test. The frame now attaches each rate to its own condition — the higher £114.60 rate requires help or supervision throughout both day and night, or a medical professional saying the person is nearing the end of life; the lower £76.70 rate is for help or supervision in the day, or supervision at night.",
+             excluded="Nobody under State Pension age can get it. Anyone already receiving Personal Independence Payment, Disability Living Allowance, Adult Disability Payment, Scottish Adult DLA or Armed Forces Independence Payment gets nothing, because the two cannot be held together — that is the single most common wasted application, and Personal Independence Payment is named in full in the exclusion row so the frame carries no bare acronym. Someone living in a care home whose care is paid for by the local authority usually cannot get it, though someone paying their own care home costs still can. Someone in Scotland would get nothing by claiming it and should claim Pension Age Disability Payment. It covers care needs only, so someone whose difficulty is purely getting about gains nothing. Deliberately left off the frame: the residence and presence conditions, which run close to immigration and residency and are not ours to explain; and the faster route for people nearing the end of life, which deserves its own post rather than a line. Also deliberately not on the frame: any offer to assess a reader's entitlement. The ask sends the reader to gov.uk and its helpline, because an accountancy office has no standing to answer a disability-benefit eligibility question.",
+             from_when="Rates are the current tax year's rates, read at gov.uk on 13 November 2026. It must be claimed — it is never automatic — and the six-month care condition must already be met at the point of claiming.")),
+
+dict(slug="bham-solo-prescription-prepayment", brand="bham", lang="en",
+  slide=dict(type="solo",
+    kicker="Prescription prepayment · nhsbsa.nhs.uk",
+    h1="You can cap a year of NHS prescriptions at <em>£114.50</em>.",
+    rows=[["<cur>£</cur>32.05", "the same certificate, for three months"],
+          ["Monthly",          "the year one, in ten Direct Debits"],
+          ["Excluded",         "under 16s, and anyone 60 or over"]],
+    ask="The certificate is sold by the NHS Business Services Authority at nhsbsa.nhs.uk; other sites add a fee to the same form.",
+    phone=PHONE,
+    disc="General information about NHS charges, not medical advice."),
+  caption="""A prescription costs £9.90 an item. Two items a month and you are paying £237.60 a year without noticing.
+
+A prepayment certificate covers all your NHS prescriptions for one price: £114.50 for 12 months, or £32.05 for 3 months. The 12-month one can be paid in 10 monthly Direct Debit instalments.
+
+The sum is simple. You are better off with a certificate if you need more than 11 items in 12 months, or more than 3 items in 3 months. Below that, pay per item.
+
+If your prescriptions are mostly hormone replacement therapy, there is a separate HRT certificate at £19.80 for 12 months, the price of two items.
+
+Plenty of people should never buy one, because they already pay nothing: under 16, aged 16 to 18 in full-time education, 60 or over, holding a valid maternity or medical exemption certificate, on Pension Credit Guarantee Credit, or holding an HC2 certificate from the NHS Low Income Scheme.
+
+Buy it from the NHS Business Services Authority itself, at nhsbsa.nhs.uk. Other sites sell the same certificate with a fee added on top, for a form the NHS gives you for nothing.
+
+Ola Accountancy — Birmingham, 0330 133 1886. General information, not medical advice.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #PrescriptionCharges #CostOfLiving""",   # 1270
+  tt_title="Cap a year of prescriptions at £114.50",   # 38
+  SOURCES=[["'The prescription charge in England is £9.90. A PPC costs: £32.05 for 3 months, £114.50 for 12 months'; 'You will save money if you need more than 3 items in 3 months, or 11 items in 12 months'; HRT PPC £19.80 for 12 months; the 12-month PPC can be paid in 10 monthly Direct Debit instalments", "https://www.nhsbsa.nhs.uk/help-nhs-prescription-costs/prescription-prepayment-certificates", "2026-11-13"],
+           ["'In England, most working-age adults have to pay for their prescriptions'; the charge is £9.90 for each prescribed item; some items such as contraceptives are always free", "https://www.nhsbsa.nhs.uk/help-nhs-prescription-costs", "2026-11-13"],
+           ["Who already pays nothing: under 16; aged 16, 17 or 18 and in full-time education; 60 or over; valid maternity or medical exemption certificate; Pension Credit Guarantee Credit; HC2 certificate from the NHS Low Income Scheme; war pension exemption certificate for the accepted disability. Pension Credit Savings Credit alone does not qualify", "https://www.nhsbsa.nhs.uk/help-nhs-prescription-costs/free-nhs-prescriptions", "2026-11-13"]],
+  SCOPE=dict(nation="England. Prescription charges exist only in England, which is exactly why no nation is named on the frame — to a Birmingham reader, saying England says nothing, and the brand rule forbids naming a nation whose scheme covers England.",
+             category="Anyone in England who pays for NHS prescriptions and is not in an exempt group. Not an income band, though the NHS Low Income Scheme is one route to paying nothing.",
+             excluded="Anyone who already gets free prescriptions gains nothing from a certificate and should not buy one: under 16s, 16 to 18 year olds in full-time education, anyone aged 60 or over, anyone holding a valid maternity or medical exemption certificate, anyone on Pension Credit Guarantee Credit, anyone with an HC2 certificate from the NHS Low Income Scheme, and war pensioners for their accepted disability. The exclusion row names the two largest of those groups and is written so the two age limits cannot be read as one phrase. Someone on Pension Credit Savings Credit alone is not automatically exempt. Someone needing fewer than four items in three months, or fewer than twelve in a year, loses money on a certificate — the caption says so. Deliberately left off the frame: the Universal Credit route, which turns on take-home pay in the last assessment period and cannot be reduced to a flat rule; and dental charges, which are a separate scheme with separate prices. Also deliberately not on the frame: any offer to work out a reader's own saving. NHS charges are not an accountancy question, and the ask now says where the certificate is sold and what the other sites do, which is what the old disclaimer hinted at without explaining.",
+             from_when="Charge and certificate prices as published by the NHS Business Services Authority and read on 13 November 2026. A certificate must be bought; nothing arrives automatically, and a refund is only possible with an FP57 receipt taken at the time of paying.")),
+
+dict(slug="bham-solo-companies-house-penalty", brand="bham", lang="en",
+  slide=dict(type="solo",
+    kicker="Private company accounts · gov.uk",
+    h1="Your accounts arrive a day late and Companies House adds <em>£150</em>.",
+    rows=[["<cur>£</cur>375", "once they are over a month late"],
+          ["Automatic",      "from 9 months after your year end"],
+          ["Excluded",       "sole traders, who file with HMRC only"]],
+    ask="Your filing date is on the free public register. Our Birmingham office will show you where to look it up.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  caption="""A private limited company has 9 months from the end of its financial year to get its accounts to Companies House. Miss it and the penalty is imposed automatically — nobody weighs up whether you meant to. The registrar has, in its own words, very limited discretion not to collect one.
+
+For a private company or an LLP the ladder runs: £150 up to one month late, £375 from one to three months, £750 from three to six months, £1,500 beyond six months. A public company files in 6 months, not 9, and its ladder is £750, £1,500, £3,000 and £7,500.
+
+File late two financial years in a row and the penalty is doubled.
+
+Two things people get wrong.
+
+A company that never traded still files. Large or small, trading or not, the accounts go in.
+
+And this is not HMRC. A late Company Tax Return brings its own £200, another £200 at three months, then percentages of the unpaid tax, on top of whatever Companies House has charged.
+
+Not filing at all is a criminal offence, and the registrar can strike the company off.
+
+Your filing date is on the free public register, and it does not move because the deadline falls on a Sunday.
+
+Ola Accountancy — Birmingham, 0330 133 1886. General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #LimitedCompany #CompaniesHouse""",   # 1334
+  tt_title="Private company accounts late: £150 straight away",   # 49
+  SOURCES=[["Private company and LLP ladder: not more than 1 month £150; more than 1 but not more than 3 months £375; more than 3 but not more than 6 months £750; more than 6 months £1,500. Public company ladder: £750; £1,500; £3,000; £7,500. 'a private company or LLP has 9 months from the end of the accounting reference period to deliver its accounts. A public company has 6 months.' 'A penalty is automatically imposed if the accounts are late.' 'The registrar has very limited discretion to not collect a late filing penalty.' 'The late filing penalty will be doubled if accounts are filed late in 2 successive financial years'. 'All companies must send their accounts and reports to Companies House every year, whether: private or public, large or small, trading or non-trading'. Not filing is a criminal offence; the registrar could strike the company off; the deadline does not move for a Sunday or bank holiday (guidance updated 16 January 2026)", "https://www.gov.uk/government/publications/late-filing-penalties-from-companies-house/late-filing-penalties", "2026-11-13"],
+           ["HMRC's separate penalties for a late Company Tax Return: £200 at 1 day, another £200 at 3 months, 10% of the unpaid tax at 6 months and a further 10% at 12 months; £1,000 each where the return is late 3 times in a row", "https://www.gov.uk/company-tax-returns/penalties-for-late-filing", "2026-11-13"]],
+  SCOPE=dict(nation="United Kingdom. Companies House is a UK register, so no nation appears anywhere on the frame.",
+             category="Company status, not size or income: the figures on the frame are the private company and LLP ladder and the private company and LLP nine-month deadline, and the kicker names that category on the frame rather than leaving it to the caption. Dormant and never-traded companies are included.",
+             excluded="A sole trader or an ordinary partnership is not on the Companies House register and cannot receive this penalty at all — they file with HMRC only, and that is what the exclusion row says. A public company is on a separate and much heavier ladder running from £750 to £7,500 and files in 6 months rather than 9, so none of the frame's figures are theirs; the caption states its deadline and its ladder in full. The penalty attaches to accounts only: a late confirmation statement is dealt with through a different route, and a late Company Tax Return is HMRC's penalty, not Companies House's. A company that filed on time but filed something wrong is not penalised under this regime. Deliberately left off the frame: the registrar's very limited discretion not to collect a penalty, which is in the caption in the registrar's own words rather than on the frame, because the old row said flatly that there was none; appeals on the ground of a reasonable excuse, which turn entirely on the facts and would read as an invitation to file late; and first-year filing dates, which run from incorporation rather than the year end and need their own post.",
+             from_when="Guidance as updated 16 January 2026 and read on 13 November 2026. The penalty applies automatically from the day after the filing deadline; the doubling applies where accounts are filed late in two successive financial years beginning on or after 6 April 2008.")),
+
+dict(
+  slug="en-solo-vat-penalty-points", brand="en", lang="en",
+  slide=dict(type="solo",
+    kicker="VAT penalty points · gov.uk",
+    h1="You get a <em>£200</em> fine the moment your VAT points hit the limit.",
+    rows=[["The limit", "4 if quarterly, 5 monthly, 2 yearly"],
+          ["Repeats",   "the same again for each late return"],
+          ["Excluded",  "after registering, after cancelling, one-offs"]],
+    ask="Not sure how many points your business is carrying? Call us and we will tell you where to look for them.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  caption="""VAT late submission penalties do not start with a fine. They start with points.
+
+Send a VAT return in late and HMRC gives the business one point. Nothing is charged. Keep going and you reach the limit for how often you file: 5 points if you file monthly, 4 if you file quarterly, 2 if you file once a year. Hit the limit and HMRC charges £200 — and every late return after that is another £200 while you stay there.
+
+A nil return counts. A repayment return counts. If it was due, it was due on time.
+
+Three returns never pick up a point: the first one after you register, the last one after you cancel the registration, and a one-off return covering a period that is not a month, a quarter or a year.
+
+Points do clear. A single point drops off on its own after about two years. To clear a full set you need every return on time for a set run — 6 months if you file monthly, 12 months quarterly, 24 months annually — and every return due in the previous 24 months actually submitted.
+
+Ola Accountancy — 0330 133 1886
+General information. For your own situation, speak to an accountant.
+#OlaAccountancy #UKTax #VAT #VATReturn #MakingTaxDigital #SmallBusinessUK #HMRC""",
+  tt_title="VAT points: £200 when you hit the limit",
+  SOURCES=[
+    ["Penalty point thresholds by accounting period — annually 2, quarterly 4, monthly 5; reaching the threshold triggers a £200 penalty and each further late return while at the threshold triggers another £200; late submission penalties apply to 'nil or repayment returns' for VAT accounting periods starting on or after 1 January 2023; no point is given for the first return after registering, the final return after cancelling registration, or a one-off return covering a period other than a month, quarter or year",
+     "https://www.gov.uk/guidance/penalty-points-and-penalties-if-you-submit-your-vat-return-late", "2026-11-13"],
+    ["Removing points: a single point below the threshold expires on the last day of the month 24 months after the return's deadline (25 months where the deadline was a month end); to remove a full set at the threshold you must complete a period of compliance with all returns on time — 24 months annually (2 returns), 12 months quarterly (4 returns), 6 months monthly (6 returns) — AND have submitted all outstanding returns for the previous 24 months",
+     "https://www.gov.uk/guidance/remove-penalty-points-youve-received-after-submitting-your-vat-return-late", "2026-11-13"],
+    ["HMRC Compliance Handbook CH192280: liability to financial penalties on reaching a penalty point maximum",
+     "https://www.gov.uk/hmrc-internal-manuals/compliance-handbook/ch192280", "2026-11-13"],
+    ["HMRC Compliance Handbook CH192170: award of penalty points, overview",
+     "https://www.gov.uk/hmrc-internal-manuals/compliance-handbook/ch192170", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK. VAT and the late submission penalty regime are UK-wide, so no nation is named anywhere on the frame.",
+    category="VAT-registered businesses, split by how often they file: monthly, quarterly or annually. Row 1 now carries the noun ('The limit') that the three figures belong to, so the three filing frequencies read as three limits rather than as six words separated by a dash.",
+    excluded="All three point-free returns are now on the exclusion row as well as in the caption: after registering, after cancelling, and a one-off return covering a period that is not a month, a quarter or a year. The row says 'after cancelling' rather than 'your final return', because a reader could not tell whether 'final' meant the last return of the year or the last one the business ever files; the caption spells the same three out in full. A business that is not VAT-registered is outside the regime entirely. The row deliberately does NOT say that nil or repayment returns escape — they do not, and that is the assumption this post exists to correct, so it is stated flatly in the caption. Deliberately left off the frame: the separate late payment penalties and late payment interest, which are a different regime with different rules and would not fit one frame; and the exact 24-versus-25-month expiry of a single point, which is hedged as 'about two years' in the caption rather than stated wrongly.",
+    from_when="In force for VAT accounting periods starting on or after 1 January 2023 and running now. Points are awarded automatically by HMRC; the £200 is charged automatically on reaching the threshold. Removal of a full set of points is not automatic in the sense that it requires a clean period of compliance plus every outstanding return of the previous 24 months being filed."),
+),
+
+dict(
+  slug="en-solo-paternity-pay", brand="en", lang="en",
+  slide=dict(type="solo",
+    kicker="Statutory Paternity Pay · gov.uk",
+    h1="You can get <em>£194.32</em> a week for two weeks off when your baby arrives.",
+    rows=[["90%",       "of your weekly pay, whichever is lower"],
+          ["26 weeks",  "with one employer, 15 weeks before the due date"],
+          ["Excluded",  "working for yourself is outside the scheme"]],
+    ask="Running the payroll for someone expecting a baby? Call us and we will go through the dates with you.",
+    phone=PHONE,
+    disc="General information on an employment right, not tax advice. If an employer refuses it, gov.uk and Acas say what to do."),
+  caption="""A new father who is employed can take up to two weeks off and be paid for it. The rate is £194.32 a week, or 90% of his average weekly earnings if that comes to less.
+
+To qualify he needs 26 weeks with the same employer by the end of the qualifying week — the 15th week before the week the baby is due — and average earnings of at least £129 a week before tax. Notice matters too: tell the employer at least 15 weeks before the baby is due, and give 28 days' notice of the actual start date.
+
+In England, Scotland and Wales the two weeks can be taken together or as two separate single weeks, and the leave has to end within 52 weeks of the birth, or of the due date if the baby comes early. Northern Ireland has its own rules: one or two weeks, consecutive if two, finishing within 56 days of the birth.
+
+There is no statutory paternity pay for someone working for themselves, however long they have been trading. It is paid by an employer through payroll, so working for yourself is outside the scheme.
+
+Ola Accountancy — 0330 133 1886
+General information on an employment right, not tax advice. If an employer refuses it, gov.uk and Acas say what to do.
+#OlaAccountancy #UKTax #Payroll #StatutoryPay #NewParents #SmallBusinessUK #Employers""",
+  tt_title="£194.32 a week when your baby arrives",
+  SOURCES=[
+    ["Statutory Paternity Pay 2026 to 2027: '£194.32 or 90% of the employee's average weekly earnings, whichever is lower'",
+     "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-13"],
+    ["Same rate on the public-facing page: '£194.32, or 90% of your average weekly earnings (whichever is lower)'",
+     "https://www.gov.uk/paternity-pay-leave/pay", "2026-11-13"],
+    ["Eligibility: 'have been continuously employed by your employer for at least 26 weeks' up to the end of any day in the qualifying week; 'The qualifying week is the 15th week before the baby is due'; must 'earn an average of at least £129 a week (before tax)'; an employer that refuses must say why within 28 days on form SPP1",
+     "https://www.gov.uk/paternity-pay-leave/eligibility", "2026-11-13"],
+    ["Leave: 'You can take up to 2 weeks' leave. You can take both weeks together or take them separately in one-week blocks.' and 'It must end within 52 weeks of the baby's birth (or the due date if the baby is early).' The same page then states 'There are different rules if you live in Northern Ireland'",
+     "https://www.gov.uk/paternity-pay-leave/leave", "2026-11-13"],
+    ["Northern Ireland: 'you can take either one or two weeks' Paternity Leave' and 'If you take two weeks, you must take consecutive weeks'; single days are not allowed; 'It has to finish within 56 days of the baby's birth', or from the first day of the expected week where the baby arrives early",
+     "https://www.nidirect.gov.uk/articles/paternity-leave", "2026-11-13"],
+    ["Northern Ireland pay conditions match Great Britain: '£194.32 or 90 per cent of your average weekly earnings if this is less', 'continued to work for the same employer without a break for at least 26 weeks' 'by the 15th week before the baby is due', and 'earning an average of at least £129 a week (before tax)'",
+     "https://www.nidirect.gov.uk/articles/statutory-paternity-pay", "2026-11-13"],
+    ["Notice: the employee must tell the employer at least 15 weeks before the baby is expected, and give at least 28 days' notice of the leave start date and length",
+     "https://www.gov.uk/employers-paternity-pay-leave/notice-period", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="Whole UK. Every figure and condition on the frame — £194.32, the 90% alternative, 26 weeks' continuous employment measured at the 15th week before the due date, £129 a week average earnings, and the two weeks themselves — is identical in Northern Ireland, confirmed on nidirect, so no nation is named on the frame and none needs to be. Where the two systems diverge is the leave-booking rules, and the caption now names that divergence instead of describing the Great Britain rule as if it were universal: in England, Scotland and Wales the two weeks can be split into two single weeks and must end within 52 weeks of the birth, while in Northern Ireland they must be consecutive if two are taken and must finish within 56 days.",
+    category="Employees — the father, or the mother's or adopter's partner — by length of service with the employer and by average weekly earnings.",
+    excluded="Someone working for themselves is outside the scheme entirely. There is no statutory paternity pay for a person working for themselves, however long they have been trading, because it is paid by an employer through payroll — and that is the exclusion row, phrased as the scheme's boundary rather than as a verdict on the reader. Beyond that: an employee with less than 26 weeks' continuous service with that employer by the end of the qualifying week gets nothing; an employee averaging less than £129 a week before tax gets nothing; an employee who misses the notice deadlines can lose it; and anyone whose 90% of average weekly earnings is below £194.32 gets the lower 90% figure, not the headline rate, which is why row one now reads 'whichever is lower' so the comparison has both sides on the frame. A worker who is not an employee is outside it. Deliberately left off the frame: the adoption and surrogacy variants with their own qualifying weeks, the bereaved partner's paternity leave rules, the temporary relaxation of the 15-week notice requirement for babies due between 5 April and 25 July 2026 — a window the reader can no longer act on — and leave entitlement as opposed to pay, beyond the Northern Ireland point the caption now has to carry.",
+    from_when="Tax year 2026 to 2027, in force now. It is not automatic: the employee has to give the employer notice — at least 15 weeks before the baby is due, and 28 days before the leave starts — and the employer pays it through payroll."),
+),
+]
 
 SOLO_BY_SLUG = {s["slug"]: s for s in SOLOS}

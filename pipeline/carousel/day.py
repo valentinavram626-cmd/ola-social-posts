@@ -52,14 +52,22 @@ for t in topics.DAY:
     # LinkedIn renders a multi-image post as a static grid; a PDF document post
     # is the only native format there that swipes. Built from the English feed
     # frames, in order.
+    #
+    # Only the brands that actually render en-feed get one. Added 13 Nov 2026:
+    # the En brand is TikTok only, so it has no en-feed frames at all, and
+    # building the PDF unconditionally raised IndexError on an empty list and
+    # took the whole day's run down after nine carousels had already passed.
     from PIL import Image
     ims = [Image.open(f).convert("RGB")
            for f in sorted((dest / "en-feed").glob("*.jpg"))]
-    pdf = dest / f"linkedin-{slug}.pdf"
-    ims[0].save(pdf, save_all=True, append_images=ims[1:], resolution=96.0)
+    extra = ""
+    if ims:
+        pdf = dest / f"linkedin-{slug}.pdf"
+        ims[0].save(pdf, save_all=True, append_images=ims[1:], resolution=96.0)
+        extra = f"  (+{pdf.name})"
 
-    results[slug] = ("OK", f"{dest.relative_to(REPO)}  (+{pdf.name})")
-    print("  staged →", dest.relative_to(REPO), "and", pdf.name)
+    results[slug] = ("OK", f"{dest.relative_to(REPO)}{extra}")
+    print("  staged →", dest.relative_to(REPO), extra or "(no LinkedIn PDF: this brand has no en-feed)")
 
 print("\n================ DAY SUMMARY")
 for slug, (state, detail) in results.items():

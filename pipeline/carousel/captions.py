@@ -2642,6 +2642,497 @@ Not sure whether it would help you?""",
 )
 
 
+
+# ===================================================== 14 November 2026
+
+# ---------------------------------------------------------------- ola
+C["ola-imprumut-director"] = dict(
+  ro="""Ai o firmă limited și din când în când mai scoți bani din contul ei. Nu e salariu, nu e dividend declarat. Este un împrumut de la firmă către tine, iar HMRC îi spune director's loan.
+
+Regula e simplă, dar costisitoare dacă o afli târziu.
+
+Firma are un an contabil. De la ziua în care se încheie, ai 9 luni și 1 zi ca să returnezi banii. Dacă în acea zi mai e ceva neachitat, firma plătește HMRC un procent din suma rămasă. Cota ține de data la care ai scos banii, nu de data la care cade termenul: 33,75% pentru banii scoși între 6 aprilie 2022 și 5 aprilie 2026, și 35,75% pentru cei scoși de la 6 aprilie 2026 încolo.
+
+Banii nu se pierd definitiv. Când returnezi împrumutul, firma poate cere taxa înapoi, însă abia la 9 luni și 1 zi după finalul anului contabil în care ai returnat. Dobânda plătită între timp nu se recuperează.
+
+Mai există un prag separat. Dacă la un moment dat în an datorezi firmei peste £10.000, suma se tratează ca benefit in kind: se raportează și se impozitează, afară de cazul în care plătești firmei dobândă la rata oficială HMRC.
+
+Pe cine nu îl prinde deloc regula aceasta: pe cei self-employed. Acolo banii afacerii sunt deja ai tăi și nu există director's loan. Iar directorul care returnează tot în termen nu plătește nimic.
+
+Știi exact cât ai scos din firmă anul acesta?""",
+  th="""Scoți bani din firma ta limited care nu sunt salariu și nu sunt dividend? HMRC îi numește director's loan. Dacă nu îi returnezi în 9 luni și 1 zi de la finalul anului contabil, firma plătește 33,75% din rest pentru banii scoși înainte de 6 aprilie 2026. Pe cei self-employed nu îi prinde.""",
+  tt_title="Bani scoși din firmă: ce costă după 9 luni",
+  li="""A director takes money out of their limited company over the year. Not salary. Not a declared dividend. On the books it sits in the director's loan account, and HMRC treats it as a loan from the company to the director.
+
+Here is the part that catches people.
+
+Your company has an accounting period. From the day it ends, you have 9 months and 1 day to clear the balance. Anything still outstanding on that date triggers the section 455 charge.
+
+The rate is fixed by the date the money was taken out, not by the date the deadline falls: 33.75% for loans made between 6 April 2022 and 5 April 2026, and 35.75% for loans made on or after 6 April 2026. Almost every balance falling due this winter was drawn before April 2026, so 33.75% is the live figure.
+
+It is not a permanent loss. Repay the loan and the company can reclaim the tax, but not until 9 months and 1 day after the end of the accounting period in which the repayment was made. Interest paid in the meantime is not refunded.
+
+There is a second, separate threshold. Owe your company more than £10,000 at any point in the year and the loan is treated as a benefit in kind. It is reported and taxed, unless you pay the company interest at HMRC's official rate.
+
+Who is not caught at all: sole traders and anyone self-employed. There is no separate legal person, the money is already yours, and no director's loan exists. A director who clears the balance inside the window also pays nothing.
+
+The fix is almost always timing and record-keeping rather than anything clever. Know what the balance is before the year end, not nine months after it.
+
+Do you know what your director's loan account balance was at your last year end?""",
+  bsky="""Money taken out of your Ltd before 6 April 2026 and still owed 9 months and 1 day after year end? The company pays HMRC 33.75%.""",
+  pin_title="Director's loan account and the 9 months and 1 day rule",
+  pin="""Take money out of your limited company that is not salary and not a declared dividend and it sits in your director's loan account. Clear it within 9 months and 1 day of your company year end and nothing is due. Leave it outstanding and the company pays HMRC 33.75% of the balance for money taken out between 6 April 2022 and 5 April 2026, or 35.75% for money taken out on or after 6 April 2026. Repay later and the company can reclaim that tax, but not the interest. Sole traders are not caught at all. Ola Accountancy, Luton and Birmingham.""",
+  source="Surse: gov.uk — Director's loans; HMRC Company Taxation Manual CTM61505; gov.uk — Tax on dividends. Citite la 13 noiembrie 2026.",
+  source_en="Sources: gov.uk — Director's loans; HMRC Company Taxation Manual CTM61505; gov.uk — Tax on dividends. Read 13 November 2026.",
+)
+
+C["ola-alocatie-investitii"] = dict(
+  ro="""Ai cumpărat anul acesta unelte, un utilaj, un laptop sau o furgonetă de marfă pentru muncă? Costul nu se întinde pe ani. Se scade din profitul anului în care ai plătit.
+
+Dacă ții socotelile pe cash basis, cum ține majoritatea celor self-employed, costul intră direct în cheltuieli și nu ceri nimic separat. Dacă ții contabilitate tradițională, același lucru se face prin Annual Investment Allowance, cu o limită de £1 milion pe an, mai mult decât va cheltui aproape oricine citește asta.
+
+Intră unelte, utilaje, echipamente, calculatoare și vehiculele construite pentru transport de marfă. Intră și unele lucruri fixate în clădire, cum ar fi o bucătărie montată sau un sistem de alarmă.
+
+Atenție la folosirea personală: dacă obiectul este folosit și în afara muncii, scazi doar partea de muncă. Exemplul HMRC: un microbuz de £50.000 folosit 20% personal dă o deducere de £40.000, nu de £50.000.
+
+Nu intră, oricât de nedrept ar părea:
+— mașinile, niciodată, nici dacă le folosești doar la muncă. Pentru ele există writing down allowances, care împart costul pe mai mulți ani;
+— lucrurile pe care le aveai deja și le-ai adus mai târziu în afacere;
+— lucrurile primite cadou;
+— lucrurile luate în leasing, pe care nu le deții tu, în afară de hire purchase sau long funding lease;
+— terenul și clădirile.
+
+Și cine nu primește nimic: un partnership în care unul dintre membri este o firmă, și trusturile. Se dă doar persoanelor fizice, partnership-urilor formate numai din persoane fizice și companiilor.
+
+Ai cumpărat ceva pentru muncă anul acesta și nu l-ai trecut nicăieri?""",
+  th="""Ai luat unelte, un utilaj sau o furgonetă de marfă pentru muncă? Costul se scade din profitul anului în care ai plătit, până la £1 milion, dar numai partea folosită pentru muncă. Mașinile nu intră niciodată, nici dacă le folosești doar la muncă.""",
+  tt_title="Unelte și furgonete: le scazi din profit în același an",
+  li="""Buy a goods van, a machine, a laptop or a set of tools for the business and you do not have to spread the cost over several years. It comes off the profit of the year you paid for it.
+
+How that happens depends on how you keep your books. On the cash basis, which gov.uk calls the standard way for sole traders and partnerships without corporate partners, capital spending other than cars and land is simply an allowable expense. With traditional accounts, the same result comes through the Annual Investment Allowance.
+
+The AIA limit is £1 million a year, confirmed for 2026 to 2027 and 2027 to 2028. For most owner-managed businesses that limit is theoretical. What matters is that the relief exists and that it is claimed.
+
+What qualifies: most plant and machinery. Tools, machinery, equipment, computers, and vehicles whose construction is primarily suited to carrying goods. Some fixtures count too, such as a fitted kitchen, a bathroom suite, or a fire alarm and CCTV system. So do integral features like lighting and heating systems.
+
+Private use matters. Where something is bought partly for the business and partly for other purposes, the allowance is reduced on a just and reasonable basis. HMRC's own example: a £50,000 minibus with 20% private use gives an allowance of £40,000, not £50,000. That applies to the van as much as to anything else.
+
+What does not qualify:
+- Cars. Never, even where the only use is business. Cars go into writing down allowances instead, which spread the cost over years.
+- Anything you already owned for another reason before the business started using it.
+- Anything given to you or to the business.
+- Anything you lease rather than own, unless it is a hire purchase or long funding lease.
+- Land, buildings and structures.
+
+And the group that gets nothing at all: a partnership with a company among its members, and trusts. The allowance is only available to an individual, a partnership whose members are all individuals, or a company.
+
+The common mistake is not a wrong claim. It is a van or a machine bought in March and never written down anywhere.
+
+What did you buy for the business this year that never made it onto the books?""",
+  bsky="""Tools, machines and goods vans come off this year's profit, up to £1m — but only the business share of the cost. Cars never qualify.""",
+  pin_title="Annual Investment Allowance: what you can write off in year one",
+  pin="""Buy tools, machinery, equipment, computers or a goods van for work and the cost comes off the profit of the year you paid, up to £1 million a year under the Annual Investment Allowance. Use the item privately as well and you claim only the business share: HMRC's example gives £40,000 on a £50,000 minibus with 20% private use. Cars never qualify. Nor do items you already owned, items you were given, leased items you do not own, or land and buildings. A partnership with a company as a member gets nothing. Ola Accountancy, Luton and Birmingham.""",
+  source="Surse: gov.uk — Claim capital allowances (Annual investment allowance, What you can claim on); gov.uk — Cash basis; HMRC Capital Allowances Manual CA23082, CA23510 și CA27005; HMRC Business Income Manual BIM70035; Budget 2026 Annex A. Citite la 13 noiembrie 2026.",
+  source_en="Sources: gov.uk — Claim capital allowances (Annual investment allowance, What you can claim on); gov.uk — Cash basis; HMRC Capital Allowances Manual CA23082, CA23510 and CA27005; HMRC Business Income Manual BIM70035; Budget 2026 Annex A. Read 13 November 2026.",
+)
+
+C["ola-pension-credit"] = dict(
+  ro="""Pension Credit nu este State Pension și nu îl înlocuiește. Este o completare săptămânală pentru cine a trecut de vârsta de State Pension și are venituri mici.
+
+Nu primești suma întreagă în plus, ci doar diferența. Dacă locuiești singur, venitul săptămânal este ridicat la £238. Dacă ai partener, veniturile voastre se adună și sunt ridicate împreună la £363,25 pe săptămână.
+
+Partea cu adevărat importantă nu este suma. Pension Credit deschide alte ajutoare: Housing Benefit dacă stai în chirie, Council Tax Reduction, Warm Home Discount și Cold Weather Payments la încălzire, Support for Mortgage Interest dacă ai casă pe credit, și TV licence gratuită de la 75 de ani. Dacă primești partea de Guarantee Credit, mai vine și ajutor la dentist, la ochelari și la transportul către spital.
+
+Se poate obține și dacă ai economii sau casa ta. Primele £10.000 economii nu contează deloc. Peste atât, fiecare £500 în plus se socotește ca £1 venit pe săptămână.
+
+Cine nu primește nimic: oricine nu a ajuns la vârsta de State Pension, oricât de mic i-ar fi venitul; și cine are deja venit peste nivelul la care se face completarea. Dacă ai partener care nu a ajuns încă la vârsta de State Pension, de regulă nu primiți nimic până ajunge și el acolo — excepția este cazul în care unul dintre voi primește Housing Benefit pentru persoane peste vârsta de State Pension. Schema este pentru Anglia, Scoția și Țara Galilor; Irlanda de Nord are sistemul ei.
+
+Se cere, nu vine singur. Cererea se poate da înapoi cel mult 3 luni, iar aplicarea se poate începe cu 4 luni înainte de vârsta de State Pension.
+
+Știi pe cineva care ar trebui să verifice?""",
+  th="""Dacă ai trecut de vârsta de State Pension și ai sub £238 pe săptămână, Pension Credit îți dă diferența, sau până la £363,25 pentru un cuplu. Deschide și Housing Benefit, Council Tax Reduction și TV licence gratuită de la 75 de ani. Cu partener sub vârsta de State Pension, de regulă nu primiți nimic.""",
+  tt_title="Pension Credit: cum se ridică venitul la £238",
+  li="""Pension Credit is a weekly top-up for people over State Pension age on a low income. It is not the State Pension and it does not replace it.
+
+You do not receive the headline figure on top of what you have. You receive the difference. It brings a single person's weekly income up to £238, or a couple's joint weekly income up to £363.25.
+
+The amount is not the main point. What Pension Credit unlocks is:
+- Housing Benefit, if you rent
+- A Council Tax Reduction
+- Warm Home Discount and Cold Weather Payments (Winter Heating Payment in Scotland)
+- Support for Mortgage Interest, if you own with a mortgage
+- A free TV licence from age 75
+- A discount on Royal Mail redirection when moving
+- Help with NHS dental treatment, glasses and travel costs, on Guarantee Credit
+
+Savings do not rule you out and neither does owning your home. The first £10,000 of savings is ignored entirely. Above that, every £500 counts as £1 a week of income.
+
+There are extra amounts on top for carers and for severe disability, and for dependent children.
+
+Who gets nothing: anyone below State Pension age, whatever their income, and anyone whose income already sits above the level the top-up lifts you to. Couples matter here. If one partner is below State Pension age, the couple generally gets nothing until that partner reaches it — the exception is where one of you is getting Housing Benefit for people over State Pension age. The scheme covers England, Scotland and Wales. Northern Ireland runs its own.
+
+It has to be claimed, and one claim covers both partners. A claim can be backdated by no more than 3 months, and an application can be started up to 4 months before State Pension age.
+
+If you have a parent, a neighbour or a client who has never checked, the check costs nothing and takes minutes on gov.uk.
+
+Who in your life has never been told to look at this?""",
+  bsky="""Pension Credit lifts weekly income to £238 single, £363.25 a couple. Partner under State Pension age? Usually nothing yet.""",
+  pin_title="Pension Credit: the top-up and who gets nothing",
+  pin="""Pension Credit lifts weekly income to £238 for a single person and £363.25 for a couple over State Pension age. You get the difference, not the whole figure. It also opens Housing Benefit, a Council Tax Reduction, help with heating, a free TV licence from 75, and, on Guarantee Credit, help with NHS dental and glasses. Savings up to £10,000 are ignored. Nobody under State Pension age qualifies, and a couple with one partner under it generally gets nothing until they reach it. England, Scotland and Wales.""",
+  source="Surse: gov.uk — Pension Credit (Overview, What you'll get, Eligibility, How to claim). Citite la 13 noiembrie 2026.",
+  source_en="Sources: gov.uk — Pension Credit (Overview, What you'll get, Eligibility, How to claim). Read 13 November 2026.",
+  disc_ro="Informații generale. Pension Credit se cere la Pension Service, prin gov.uk.",
+  disc_en="General information. Pension Credit is claimed from the Pension Service, through gov.uk.",
+)
+
+C["ola-plata-redundanta"] = dict(
+  ro="""Dacă îți pierzi locul de muncă prin redundancy, plata nu ține de bunăvoința angajatorului. Statutory redundancy pay este stabilită prin lege, iar formula este fixă.
+
+Întâi condiția de intrare: cel puțin doi ani de vechime neîntreruptă, ca angajat.
+
+Apoi calculul, pe fiecare an întreg lucrat:
+— o jumătate de salariu săptămânal pentru anii lucrați până la 22 de ani;
+— un salariu săptămânal pentru anii lucrați între 22 și 40;
+— un salariu săptămânal și jumătate pentru anii lucrați de la 41 în sus.
+
+Două plafoane taie suma. Săptămâna se socotește cel mult £751, iar vechimea cel mult 20 de ani. De aici maximul: £22.530. Un exemplu: zece ani lucrați de la 41 de ani în sus, la £600 pe săptămână, înseamnă 15 săptămâni, adică £9.000.
+
+Pe plata aceasta nu se plătește impozit sub £30.000 și nu se reține National Insurance. Atenție la ce vine odată cu ea: concediul neluat, salariul restant și bonusurile se impozitează normal. Iar plata pentru preavizul nelucrat, post-employment notice pay, nu intră sub cei £30.000: se impozitează și are National Insurance reținut integral. Restul plăților de încetare se adună față de pragul de £30.000.
+
+Irlanda de Nord are cifrele ei proprii: săptămâna se socotește cel mult £783, iar maximul este £23.490. Ambele seturi se aplică de la 6 aprilie 2026.
+
+Cine nu primește nimic: cine are sub doi ani de vechime neîntreruptă; și cine nu este angajat, adică self-employed și contractorii. Plata există doar pentru angajați.
+
+Ai primit o plată de redundancy și nu înțelegi rândurile din ea?""",
+  th="""Statutory redundancy pay e stabilită prin lege. Minim doi ani de vechime, între jumătate și o săptămână și jumătate de salariu pe an lucrat, săptămâna cel mult £751, maximum £22.530. Sub £30.000 nu se impozitează, dar preavizul nelucrat, integral.""",
+  tt_title="Redundancy: cât îți dă legea, exact",
+  li="""Statutory redundancy pay is not something an employer decides. The law sets the amount, the formula is fixed, and it is worth knowing the shape of it before a conversation rather than after.
+
+The entry condition: at least two years of continuous service, as an employee.
+
+The calculation, for each full year worked:
+- half a week's pay for years worked up to age 22
+- one week's pay for years worked from 22 to 40
+- one and a half weeks' pay for years worked from 41
+
+Two caps then bite. A week's pay counts as no more than £751, and length of service counts for no more than 20 years. That gives the maximum: £22,530. Both figures apply where the redundancy takes effect on or after 6 April 2026. Worked through: ten full years, all after the age of 41, on £600 a week, is 15 weeks' pay, so £9,000.
+
+Northern Ireland runs its own limits. There a week's pay counts as no more than £783 and the maximum is £23,490, also from 6 April 2026.
+
+On tax: statutory redundancy pay under £30,000 is not taxable and no National Insurance is deducted. The trap is everything paid alongside it. Holiday pay, arrears of wages and bonuses are ordinary earnings and are taxed as such.
+
+And one component never shares in the £30,000 at all: post-employment notice pay, the part of a settlement covering notice you did not work. It is taxed in full and National Insurance is deducted in full. Every other termination payment is added together against the £30,000 threshold; PENP sits outside it.
+
+Who gets nothing at all: anyone with under two years of continuous service, and anyone who is not an employee. Self-employed people and contractors are outside the scheme entirely, whatever the length of the working relationship.
+
+If a payment has already landed, the question worth asking is not whether the total looks right, but which parts of it were taxed and which should not have been.
+
+Has anyone checked how your termination payment was split?""",
+  bsky="""Statutory redundancy pay: 2 years' service, a week capped at £751, maximum £22,530. Notice you did not work is taxed in full.""",
+  pin_title="Statutory redundancy pay: the formula, the caps and who gets nothing",
+  pin="""Statutory redundancy pay is set by law, not an employer. You need two years of continuous service as an employee. You get half a week's pay for each year worked up to age 22, a week for each year from 22 to 40 and a week and a half for each year from 41. A week's pay is capped at £751 and service at 20 years, giving a maximum of £22,530. Northern Ireland uses £783 and £23,490. Under £30,000 it is not taxed, but post-employment notice pay never shares that £30,000 and is taxed in full. Self-employed people and contractors get nothing.""",
+  source="Surse: gov.uk — Making staff redundant (Redundancy pay); Employment Rights (Increase of Limits) Order 2026; Employment Rights (Increase of Limits) Order (Northern Ireland) 2026; gov.uk — Redundancy: your rights; HMRC Employment Income Manual EIM13760. Citite la 13 noiembrie 2026.",
+  source_en="Sources: gov.uk — Making staff redundant (Redundancy pay); Employment Rights (Increase of Limits) Order 2026; Employment Rights (Increase of Limits) Order (Northern Ireland) 2026; gov.uk — Redundancy: your rights; HMRC Employment Income Manual EIM13760. Read 13 November 2026.",
+  disc_ro="Informații generale. Pentru drepturile tale la locul de muncă, îndrumarea oficială este pe gov.uk.",
+  disc_en="General information. For your rights at work, the official guidance is on gov.uk.",
+)
+
+C["ola-tva-cota-fixa"] = dict(
+  ro="""Pe VAT Flat Rate Scheme nu mai calculezi TVA la fiecare vânzare și la fiecare bon. Plătești HMRC un singur procent fix din tot ce ai încasat, TVA inclus. Procentul depinde de meseria ta.
+
+Clienților le facturezi TVA ca până acum. Se schimbă doar cât dai mai departe: diferența dintre ce încasezi și ce dai ți-o lasă HMRC.
+
+Ca să intri: trebuie să fii deja înregistrat la TVA și să te aștepți la o cifră de afaceri impozabilă de £150.000 sau mai puțin, fără TVA, în următorul an. În primul an de la înregistrarea TVA primești 1% reducere la procent, până în ziua dinaintea primei aniversări a înregistrării.
+
+Ce dai la schimb: nu mai recuperezi TVA pe cumpărături. Singura excepție este un bun de capital cumpărat o dată, de £2.000 sau mai mult cu tot cu TVA.
+
+Pe cine nu ajută:
+— pe cine cumpără foarte puține bunuri. Dacă bunurile costă sub 2% din cifra pe schemă, sau peste 2% dar sub £1.000 pe an, HMRC te pune pe 16,5%. La cota aceea dai înapoi aproape tot TVA-ul încasat: din £120 încasați, £19,80 din cele £20 TVA pleacă la HMRC;
+— pe cine cumpără multă marfă, materiale sau unelte, pentru că TVA-ul acela nu se mai recuperează.
+
+Cine nu poate intra deloc: cine a ieșit din schemă în ultimele 12 luni; cine a avut o abatere de TVA în ultimele 12 luni; cine a intrat, sau putea să intre, într-un VAT group în ultimele 24 de luni; cine s-a înregistrat la TVA ca business division în ultimele 24 de luni; cine are o firmă strâns legată de alta; și cine este deja pe o schemă de marjă sau de capital goods.
+
+Ieși din schemă când venitul anului încheiat trece de £230.000, cu tot cu TVA.
+
+Vrei să știi ce procent îi revine meseriei tale?""",
+  th="""VAT Flat Rate Scheme: plătești HMRC un procent fix din încasări, în loc să calculezi TVA la fiecare vânzare. Intri sub £150.000 cifră impozabilă, cu 1% reducere în primul an de TVA. Dar nu mai recuperezi TVA pe cumpărături, iar cine cumpără foarte puține bunuri ajunge pe 16,5%.""",
+  tt_title="TVA la cotă fixă: când iese bine și când nu",
+  li="""The VAT Flat Rate Scheme replaces line-by-line VAT with one number. Instead of working out the VAT on every sale and every purchase, you pay HMRC a fixed percentage of your flat rate turnover, which is everything your business supplies including VAT. The percentage depends on your trade sector.
+
+You still charge customers VAT in the normal way. What changes is how much of it you hand over. The difference between what you collect and what you pay to HMRC is yours to keep, and that is the point of the scheme.
+
+To join, you must already be VAT registered and expect taxable turnover of £150,000 or less, excluding VAT, in the next year. There is a 1% reduction on your rate for your first year as a VAT-registered business, running until the day before the first anniversary of registration, not the anniversary of joining the scheme.
+
+What you give up: you stop reclaiming input VAT on purchases. The single exception is capital expenditure goods bought in one transaction costing £2,000 or more including VAT.
+
+Who it does not help:
+- Businesses that buy very few goods. If spending on relevant goods is under 2% of flat rate turnover, or over 2% but under £1,000 a year, you are a limited cost business and the rate is 16.5%. At 16.5% of gross takings you hand back almost all the VAT you charged: on £120 collected, £19.80 of the £20 goes to HMRC.
+- Businesses that buy a lot of stock, materials or equipment, because that input VAT is gone.
+
+Who cannot join at all: anyone who left the scheme in the last 12 months, anyone who committed a VAT offence in the last 12 months, anyone who joined or was eligible to join a VAT group in the last 24 months, anyone who registered for VAT as a business division in the last 24 months, a business closely associated with another, and anyone already on a margin or capital goods scheme.
+
+You leave when income for the year ending is more than £230,000 including VAT.
+
+It is an arithmetic question, not a preference. Run both versions on last year's figures before you decide.
+
+Have you ever compared the two on your own numbers?""",
+  bsky="""The VAT Flat Rate Scheme: one fixed percentage of your takings instead of per-sale VAT. But you stop reclaiming VAT on purchases.""",
+  pin_title="VAT Flat Rate Scheme: the thresholds, the discount and the catch",
+  pin="""On the VAT Flat Rate Scheme you pay HMRC a fixed percentage of your takings including VAT, instead of working out the VAT on every sale. You still charge customers VAT and keep the difference. Join if you are VAT registered and expect taxable turnover of £150,000 or less excluding VAT, and take a 1% reduction for your first year of VAT registration. You leave above £230,000 including VAT. The catch: you stop reclaiming VAT on purchases. Buy very few goods and you are put on 16.5%, which hands back almost all the VAT you charged.""",
+  source="Surse: gov.uk — VAT Flat Rate Scheme (Overview, Eligibility, Who can join, Work out your flat rate); HMRC VAT Notice 733, secțiunile 3, 4 și 15. Citite la 13 noiembrie 2026.",
+  source_en="Sources: gov.uk — VAT Flat Rate Scheme (Overview, Eligibility, Who can join, Work out your flat rate); HMRC VAT Notice 733, sections 3, 4 and 15. Read 13 November 2026.",
+  gbp="""If you are VAT registered in Luton or Birmingham, the Flat Rate Scheme is worth ten minutes of arithmetic.
+
+Instead of working out the VAT on every sale, you pay HMRC one fixed percentage of your takings including VAT. The percentage depends on your trade. You still charge customers VAT normally, and you keep the difference between what you collect and what you pay over.
+
+You can join if you are already VAT registered and expect taxable turnover of £150,000 or less, excluding VAT, over the next year. Your rate drops by 1% for your first year as a VAT-registered business, until the day before the first anniversary of registration.
+
+The trade-off: you stop reclaiming VAT on purchases, apart from a single capital purchase of £2,000 or more including VAT. And if you spend very little on goods — under 2% of your takings, or over 2% but under £1,000 a year — HMRC calls you a limited cost business and puts you on 16.5%. At that rate you hand back almost all the VAT you charged.
+
+Some cannot join at all: anyone who left the scheme or committed a VAT offence in the last 12 months, or was in a VAT group in the last 24.
+
+Tell us your trade and we will tell you the percentage HMRC's table gives it. Call 0330 133 1886.""",
+)
+
+# ---------------------------------------------------------------- bham
+C["bham-business-rates-relief"] = dict(
+  en="""A barber's chair, a takeaway counter, a workshop under the arches. One property, and the business rates on it can come to nothing.
+
+It all turns on the rateable value. That is the figure the Valuation Office Agency puts on your property. It is not your rent, and it is not your takings.
+
+If your only property is rated at £12,000 or less, you pay no business rates on it. Above £12,000 the relief slides down from 100% to 0% — at £13,500 you get half off, at £14,000 a third off. By £15,000 it has run out: at £15,000 or more there is no small business rate relief at all.
+
+Above £15,000 you are not left with nothing. For the 2026 to 2027 year a property rated under £51,000 is billed at 43.2p in the pound instead of 48p, and at 38.2p if it is retail, hospitality or leisure.
+
+Three things catch people out.
+
+The relief sits on one property only, and only while that property is occupied.
+
+If you take a second property you keep the relief on your main one for a while. gov.uk puts that at 36 months where the second property came to you on or after 27 November 2025, and 12 months where it came earlier. After that you keep it only if none of your other properties is rated above £2,899 and the lot together comes to less than £20,000.
+
+You cannot have small business rate relief and charitable rate relief at the same time. The council decides which one you get.
+
+And it is not something to assume is already on the bill. Birmingham City Council takes the application online, and it is the council, not HMRC, that grants it.
+
+When did you last read the rateable value on your own bill?""",   # 1589
+  tt_title="No business rates under a £12,000 rateable value",   # 48
+  source_en="gov.uk, Business rates relief: small business rate relief. gov.uk, Estimate your business rates (2026 to 2027 multipliers). birmingham.gov.uk, Business rates reductions: reductions for small businesses. Read 13 November 2026.",
+)
+
+C["bham-clean-air-zone"] = dict(
+  en="""The zone is everything inside the A4540 Middleway, but not the Middleway itself. It runs all day, every day, and cameras read the plate.
+
+If the vehicle does not meet the standard, it is £8 a day for a car, taxi or van, £50 for a coach, bus or HGV.
+
+Plenty pay nothing: a diesel at Euro 6 or better, a petrol at Euro 4 or better, a hybrid whose engine meets those, and anything fully electric. Motorcycles and mopeds are never charged. You need not know your Euro rating: type the registration into the GOV.UK checker.
+
+A second group is never charged whatever the engine, and applies for nothing. GOV.UK's national list: ultra low emission vehicles, disabled and disabled passenger tax class vehicles, military vehicles, historic vehicles, vehicles retrofitted under the Clean Vehicle Retrofit Accreditation Scheme, and certain agricultural vehicles. Birmingham's sealed Charging Order adds emergency service, recovery, showman's, special and community transport.
+
+The local permits you apply for are a shorter list: the worker exemption ended on 31 May 2022 and the resident exemption on 31 May 2023, leaving recovery, community transport and school transport, plus the medical voucher scheme for hospital visits in the zone.
+
+A charged day runs midnight to midnight: four trips in and out is one charge, crossing midnight two days.
+
+You have 13 days to pay: six before the journey, the day itself, six after. Nothing is sent to remind you. Miss it and it is £120, or £60 within 14 days.
+
+For a van crossing most days, that is about £40 a week. Is it in your mileage records?""",   # 1697
+  tt_title="Birmingham Clean Air Zone: who pays the £8",   # 42
+  source_en="brumbreathes.co.uk (Birmingham City Council), charges and operation, do I need to pay the daily fee, exemptions; Birmingham Clean Air Zone Charging Order 2021 (sealed), Annex 2. gov.uk, driving in a clean air zone. Read 13 November 2026.",
+  disc_en="General information about the Clean Air Zone, not vehicle or legal advice. Check your own vehicle and any exemption with Birmingham City Council.",
+)
+
+C["bham-food-business-registration"] = dict(
+  en="""You must register a food business with the council at least 28 days before you start trading. It is free, and it cannot be refused.
+
+That last part is worth saying twice, because people put it off expecting a fight. The Food Standards Agency's words on GOV.UK are plain: registration is free and can't be refused. You are registering, not asking for permission.
+
+It is not only for a shop with a shutter. You register if you sell, cook, store, handle, prepare or distribute food — from a takeaway, from a market stall, from a van, from your own kitchen at home, or online only with no premises at all. If you trade from more than one place, each place is registered with the council it sits in.
+
+Some people do not have to. If the food activity is very limited and infrequent, the council may decide no registration is needed — but that decision is the council's, not yours. A childminder registered with Ofsted in England is registered as a food business through Ofsted, with nothing separate to send.
+
+If you are already trading and never registered, the FSA's advice is to do it now rather than wait.
+
+What follows is the inspection. Birmingham's environmental health officers visit and give a food hygiene rating from 5, very good, down to 0, urgent improvement necessary, and it goes up on the national site for anyone to read. If you think yours is unfair you can appeal it, ask for a revisit, or use your right to reply so your own words sit beside the rating.
+
+Twenty-eight days is sooner than most people think. When are you opening?""",   # 1542
+  tt_title="Register a food business 28 days before you open",   # 48
+  source_en="gov.uk, food business registration. gov.uk, starting a food business (Food Standards Agency). gov.uk, providing food at community and charity events. birmingham.gov.uk, starting and setting up a food business; food hygiene rating scheme. Read 13 November 2026.",
+  disc_en="General information about food business registration, not food safety or legal advice. For your own premises, speak to Birmingham City Council's food team.",
+)
+
+C["bham-selective-licensing"] = dict(
+  en="""If you let out a house or a flat in Birmingham, there is a licence you may need and a lot of landlords have never heard of it.
+
+The selective licensing scheme covers 25 of Birmingham's 69 wards. It started on 5 June 2023. In a covered ward, every privately rented property needs its own licence.
+
+It costs £700 per property. You pay £375 when you apply and £325 when the council decides to grant it. There is no discount for owning several: ten properties means ten licences and ten fees. A licence runs for up to five years, and it cannot be transferred — sell the property, or change managing agent where the agent holds the licence, and a new licence is applied for at the full fee.
+
+The largest group outside it is simply everyone else: if your property is in one of the other 44 wards, none of this applies. The council's address checker is the thing to trust, not a list in a post.
+
+Inside the 25 wards, some properties are still outside the scheme: one already licensed as a house in multiple occupation (an HMO), one let by a housing association or other registered social landlord, one managed directly by an educational establishment, and a property standing empty.
+
+Letting without a licence where one is needed is not a paperwork slip. The council can impose a civil penalty of up to £40,000, it can prosecute instead, and your tenants can apply for a rent repayment order to get rent back.
+
+There is no tacit consent either: if you have heard nothing 28 days after applying, chase it.
+
+Do you know which ward your property sits in?""",   # 1544
+  tt_title="Birmingham landlords: the £700 selective licence",   # 48
+  source_en="birmingham.gov.uk, selective licensing (page updated 18 June 2026) and applying for a selective licence: further information (page updated 8 August 2025). legislation.gov.uk, Housing Act 2004 ss.95, 96 and 249A (maximum financial penalty £40,000). Read 13 November 2026.",
+  disc_en="General information about licensing, not legal or housing advice. For your own property, check the ward with Birmingham City Council.",
+)
+
+C["bham-payrolling-benefits"] = dict(
+  en="""If you run a small company and one of your people has a van, the way you tell HMRC about it is changing.
+
+From 6 April 2027 you must report company cars and car fuel, company vans and van fuel, and medical cover through your payroll, on the Full Payment Submission you already send each payday. Income Tax and Class 1A National Insurance come off in real time, across the year, instead of being settled after it. For those benefits there is no P11D and no P11D(b) any more.
+
+Most other benefits follow from 6 April 2028. Employer loans and living accommodation sit outside both dates for now: HMRC's policy paper says mandatory payrolling for them "will be confirmed at a later date".
+
+Three practical things.
+
+You do not register for the mandatory ones — they simply start. If you want to payroll other benefits voluntarily from the 2027 to 2028 tax year, you register by 5 April 2027.
+
+Budget for July 2027. You will still be paying Class 1A on 2026 to 2027 benefits under the old P11D timetable while real-time Class 1A has already begun. Two sets in one summer, once.
+
+Tell your staff before their payslip tells them. Tax codes stop carrying an estimate for the benefit, take-home pay moves, and HMRC's own line is that they will not pay more tax because of this. An annual payrolled benefits statement replaces the P11D copy they used to get.
+
+HMRC has said it will allow a temporary easement from penalties for certain non-deliberate mistakes in the first year.
+
+Does your payroll software do this yet?""",   # 1508
+  tt_title="Company van? It goes through payroll from 2027",   # 46
+  source_en="gov.uk, prepare for mandatory payrolling of benefits in kind (published 9 November 2026). gov.uk, changes to reporting of benefits in kind from April 2027 (updated 28 October 2026). gov.uk, getting ready for mandatory payrolling of benefits in kind; annex 5 background information. Read 13 November 2026.",
+)
+
+# ---------------------------------------------------------------- en
+C["en-corporation-tax-marginal-relief"] = dict(
+  tt_title="19%, 25% and the bit in between",
+  en="""A limited company does not have one Corporation Tax rate. It has three situations.
+
+Profit of £50,000 or less for the year is taxed at 19%. Profit over £250,000 is taxed at 25%. Anything in between is charged at 25% and then has Marginal Relief taken off, so the rate the company actually ends up paying climbs smoothly from 19% towards 25%. On a £120,000 profit, Marginal Relief takes £1,950 off a £30,000 bill.
+
+Start from the right profit figure. The limits are tested against the profit plus dividends received from companies yours does not own — HMRC calls that total augmented profits. £45,000 of trading profit and £10,000 of dividends from an unconnected company is £55,000 for the test, so that company is in the marginal band, not on 19%.
+
+Two more things catch people out.
+
+The first is associated companies. The £50,000 and £250,000 limits are divided by the number of associated companies, counting the company itself. Two companies under the same control and the limits are £25,000 and £125,000 each. A company that has not carried on a trade or business at all in the period is left out of the count.
+
+The second is a short accounting period. If the accounts cover less than twelve months, both limits are cut in proportion: six months of trading means £25,000 and £125,000.
+
+Some companies get neither the 19% rate nor Marginal Relief at all. A company that exists mainly to hold investments rather than to trade — a close investment-holding company — pays the main rate on every pound. So does a company that is not UK resident.
+
+None of this changes the profit. It changes the rate that profit is taxed at.
+
+Do you know how many associated companies yours is counted alongside?""",
+  source_en="Sources: gov.uk Marginal Relief for Corporation Tax; Corporation Tax rates and allowances; Corporation Tax Act 2010 Part 3A (ss.18A, 18D, 18E, 18L, 18N); HMRC Company Taxation Manual CTM03951.",
+)
+
+C["en-vat-on-food"] = dict(
+  tt_title="Why a sandwich is 20% or nothing",
+  en="""The same sandwich can be 20% or nothing. It depends on three things: whether it is hot, where it is eaten, and what it is made of.
+
+Before any of that: if your taxable sales over the last twelve months have stayed under £90,000, you do not have to be registered for VAT and you charge none of this on anything you sell. Go over £90,000, or expect to in the next 30 days, and everything below starts applying at your till.
+
+Cold food sold to take away is generally zero-rated. The customer pays what is on the label and the till adds nothing.
+
+Eat it in and it becomes catering, and catering is standard-rated at 20%. "In" means anywhere the shop occupies or has set aside for customers to eat — your tables, your chairs, your upstairs room. Public benches in a square that anyone can use are not your premises.
+
+Hot takeaway food is standard-rated if it is hot when you hand it over and any one of HMRC's five tests is met: it was heated so it could be eaten hot, heated to order, kept hot after heating, put in packaging that holds the heat, or advertised as hot.
+
+Then there is the list that does not care what you do with it. Crisps and savoury snacks, sweets and chocolate, ice cream, fizzy drinks and cordials, and alcohol are standard-rated cold, hot, in or out. So are all hot drinks.
+
+And the fine distinctions are real: a cake is zero-rated, a plain biscuit is zero-rated, the same biscuit with chocolate on it is 20%.
+
+Getting this wrong at the till means getting it wrong on every return afterwards. Does your till know which of your lines are zero-rated?""",
+  source_en="Sources: VAT Notice 709/1 (Catering, takeaway food); VAT Notice 701/14 (Food products); HMRC VAT Food manual VFOOD4220; gov.uk VAT thresholds; gov.uk Register for VAT.",
+)
+
+C["en-property-allowance"] = dict(
+  tt_title="£1,000 of property income, no tax return",
+  en="""There is £1,000 of property income a year that, for most people, does not have to go anywhere near a tax return.
+
+It is called the property allowance, and it covers income from land or property of almost any kind: a lock-up garage, a driveway you rent to a commuter, a parking space, a field let for grazing, a holiday let, a storage yard.
+
+If your gross property income for the year is £1,000 or less, you do not have to tell HMRC about it at all. Not on a return, not in a letter. Gross means before you take a single cost off. If you already file a return for something else, you still do not have to put this on it. Keep your records anyway.
+
+If you take more than £1,000, you get a choice. You can deduct your actual costs, or you can deduct the £1,000 allowance instead and ignore the costs. You take whichever leaves you better off. The allowance cannot take you below nil, so it will not create a loss for you.
+
+Two people letting the same garage together get £1,000 each against their own share.
+
+It is not for everyone. You cannot use it where the rent comes from a company you or a connected person controls, from a partnership you are a member of, or from your own employer, or your spouse's employer. You cannot use it on a room let in your own home under Rent a Room. And you cannot use it in a year you claim the tax reducer for residential finance costs.
+
+That matters more than it looks. If you cannot use the allowance, you lose the no-reporting rule with it. A director renting his own company a parking space for £800 has to report that £800, small as it is.
+
+Is there £1,000 sitting in your year that you have been worrying about for nothing?""",
+  source_en="Sources: gov.uk Tax-free allowances on property and trading income; HMRC Property Income Manual PIM4432; HMRC policy paper, Income Tax: new tax allowance for property and trading income.",
+)
+
+C["en-pension-tax-relief"] = dict(
+  tt_title="Put in £80, £100 lands in your pension",
+  en="""Put £80 into a personal pension and £100 lands in it. The provider claims the other £20 back from the government at the basic 20% rate, and you do nothing to make it happen.
+
+If you pay tax above the basic rate, that is only the first part. A 40% taxpayer can claim another 20% on the part of their income taxed at 40%; a 45% taxpayer another 25% on the part taxed at 45%. That second part does not arrive on its own. If you fill in a Self Assessment return it goes on there. If you do not file one, you claim it from HMRC online instead — registering for Self Assessment is not the price of getting it.
+
+Scotland is different, because the bands are. At the 19% starter rate the provider still claims 20% and you keep the difference. Above that the extra goes up in steps — 1%, 22%, 25% or 28% — by band.
+
+All of that describes a pension your money goes into after tax, with the provider topping it up. Plenty of workplace pensions work the other way round: the employer takes your contribution out of your pay before any tax is worked out. That is a net pay scheme, and in one there is no £20 top-up to look for and nothing to claim at any tax rate, because the relief already came off your gross pay. Your payslip settles it — in a net pay scheme the pension figure comes off above the tax figure.
+
+Two limits sit over the whole thing. Relief goes on contributions up to 100% of what you earned in the year, or £3,600 gross if that is more — someone with no earnings can still put in £2,880 and have it topped up to £3,600. The other is the annual allowance, £60,000 this tax year, counting everything going in, employer's share included.
+
+Have you checked which kind of scheme yours is?""",
+  source_en="Sources: gov.uk Tax on your private pension contributions — Tax relief; gov.uk Claim tax relief on your private pension payments; HMRC Pensions Tax Manual PTM041000; gov.uk Pension schemes rates and allowances.",
+)
+
+C["en-student-loan-plans"] = dict(
+  tt_title="Same wage, different student loan",
+  en="""Two people earning £32,000 can repay very different amounts of student loan, and neither is doing anything wrong.
+
+Repayments are not a percentage of your wage. They are a percentage of the part above your plan's starting figure, and every plan has its own.
+
+Plan 1 starts at £26,900 a year. Plan 2 at £29,385. Plan 4 at £33,795. Plan 5 at £25,000. Above that figure, 9% comes out.
+
+On £32,000: someone on Plan 5 repays about £630 over the year — 9% of the £7,000 above their £25,000 — someone on Plan 1 about £459, someone on Plan 2 about £235, and someone on Plan 4 nothing, because £32,000 is under their figure.
+
+A Postgraduate Loan is separate: it starts at £21,000 and takes 6%, and runs alongside one of the others, so both percentages can come out of one wage. That plan is for postgraduate loans from England and Wales. A postgraduate funded by the Student Awards Agency Scotland is on Plan 4, and one funded by Student Finance Northern Ireland is on Plan 1.
+
+Which plan you are on is not a choice: it follows who funded the course and when. Plan 4 is Scotland's. Plan 1 covers Northern Ireland and English or Welsh courses from before September 2012. Plan 5 is English courses from 1 August 2023 on.
+
+One thing worth knowing if you earn under your plan's figure. Your employer checks each pay packet against a weekly or monthly line, not your year, so a bonus can push one month over and a repayment is taken even though the year is under. It does not come back on its own — you sign in to your repayment account and ask, once the tax year has ended.
+
+Your payslip shows the plan number. Which is on yours?""",
+  source_en="Sources: gov.uk Rates and thresholds for employers 2026 to 2027; Student loan and postgraduate loan repayment guidance for employers; Repaying your student loan — How much you repay, Which repayment plan you're on, and Getting a refund.",
+  disc_en="General information. Your plan type comes from the Student Loans Company; for how it is deducted from your pay, speak to an accountant.",
+)
+
+
+# ---------------------------------------------------------------------------
+# The two English-only brands, opened 13 November 2026. They have one body each
+# and it goes to every network they carry — Instagram, Facebook and TikTok on
+# Birmingham, TikTok alone on En. The brand tags come from topics.brand_tags, so
+# the Birmingham page leads with Birmingham and the UK-wide page names no city.
+def brand_caption(slug):
+    t = topics.BY_SLUG[slug]
+    c = C[slug]
+    disc = c.get("disc_en", DISC_EN)
+    src = c.get("source_en", c.get("source", ""))
+    return (f"{c['en']}\n\n{WA_EN}\n\n{disc}\n\nSource: {src}\n\n{tags(t, 'en')}")
+
+
+def caption_for(slug, network):
+    """The caption a given network actually gets, chosen by the topic's brand.
+
+    One place to ask, so a scheduler cannot pair an English brand with the
+    Romanian body by reaching for ro_caption out of habit.
+    """
+    brand = topics.BY_SLUG[slug].get("brand", "ola")
+    if brand != "ola":
+        return brand_caption(slug)
+    return {"threads": th_caption, "linkedin": li_caption, "bluesky": bsky_caption,
+            "pinterest": pin_caption, "gmb": gbp_caption}.get(network, ro_caption)(slug)
+
+
+def solo_caption(slug):
+    """A single-image post carries its caption whole, written with its own tags."""
+    return topics.SOLO_BY_SLUG[slug]["caption"]
+
 WA_TH = f"WhatsApp: {PHONE}"
 
 
@@ -2692,6 +3183,18 @@ def gbp_caption(slug):
 def assert_lengths():
     bad = []
     for slug in C:
+        # 13 Nov 2026: two English-only brands joined, and they have none of the
+        # Romanian or Ola-only surfaces. Asking them for a Bluesky caption raised
+        # KeyError and took the whole gate down with it, which is a check that
+        # cannot fail on the thing it is for.
+        if topics.BY_SLUG.get(slug, {}).get("brand", "ola") != "ola":
+            cap = brand_caption(slug)
+            for net, lim in (("instagram", 2200), ("tiktok", 2200)):
+                if len(cap) > lim:
+                    bad.append(f"{net} {slug}: {len(cap)} chars (cap {lim})")
+            if len(C[slug].get("tt_title", "")) > 90:
+                bad.append(f"tiktok title {slug}: {len(C[slug]['tt_title'])} chars (cap 90)")
+            continue
         b = bsky_caption(slug)
         if len(b) > 300:
             bad.append(f"bluesky {slug}: {len(b)} chars (cap 300)")
@@ -2718,6 +3221,17 @@ def assert_lengths():
             bad.append(f"pinterest {slug}: {len(pin)} chars (cap 800)")
         if len(C[slug]["pin_title"]) > 100:
             bad.append(f"pinterest title {slug}: {len(C[slug]['pin_title'])} chars (cap 100)")
+    # The single-image posts carry their caption whole, so they are measured here
+    # rather than anywhere else. Every brand sends them to at least TikTok.
+    for s in topics.SOLOS:
+        cap = s.get("caption", "")
+        if not cap.strip():
+            bad.append(f"solo {s['slug']}: no caption at all")
+        for net, lim in (("instagram", 2200), ("tiktok", 2200)):
+            if len(cap) > lim:
+                bad.append(f"{net} solo {s['slug']}: {len(cap)} chars (cap {lim})")
+        if len(s.get("tt_title", "")) > 90:
+            bad.append(f"tiktok title solo {s['slug']}: {len(s['tt_title'])} chars (cap 90)")
     return bad
 
 
