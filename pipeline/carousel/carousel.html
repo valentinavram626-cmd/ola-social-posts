@@ -39,9 +39,28 @@
   .slide.solo h1{font-size:68px}
   .slide.solo .bd{padding-top:20px;padding-bottom:12px}
   .slide.solo .kicker{font-size:22px;margin-bottom:24px}
-  .slide.solo .rows{margin:26px 0 4px;gap:13px}
-  .slide.solo .rows div{font-size:34px}
-  .slide.solo .rows b{font-size:45px;min-width:176px}
+  /* The three rows are a real two-column grid, not a flex row with a min-width
+     guess. The guess was 176px, which is narrower than "Automatic" and wider
+     than "£100", so the explanations lined up with nothing and every row had a
+     different gap. `display:contents` lets the <b> and the <span> of each row
+     become grid items, so column 1 sizes itself to the widest label and the gap
+     is identical on every row, whatever words a post uses.
+     Valentin, 13 Nov 2026: "este foarte mare discrepanta de spatiu". */
+  .slide.solo .rows{margin:26px 0 4px;display:grid;
+      grid-template-columns:max-content 1fr;column-gap:32px;row-gap:15px;
+      align-items:baseline}
+  .slide.solo .rows>div{display:contents}
+  .slide.solo .rows span{font-size:34px;color:#E4E9F2}
+  /* The figure is the reason the post exists, so it is the biggest thing after
+     the headline. Valentin, 13 Nov 2026: "ar trebui sa marim cifrele cand
+     spunem cat ar putea oamenii sa castige". */
+  .slide.solo .rows b{font-size:58px;min-width:0}
+  /* The currency sign was set at .56em and raised half an em, which read as a
+     footnote next to a 58px figure. */
+  .slide.solo .rows b cur{font-size:.70em;vertical-align:.22em;margin-right:.04em}
+  .slide.solo.squat .rows{row-gap:13px}
+  .slide.solo.squat .rows b{font-size:45px}
+  .slide.solo.squat .rows b cur{font-size:.62em;vertical-align:.34em}
   .slide.solo .ask p{font-size:35px;margin-bottom:26px}
   .slide.solo .ask .num{padding:19px 34px}
   .slide.solo .ask .num span{font-size:47px}
@@ -148,9 +167,14 @@ function slide(s,i,n){
     : { swipe:'Glisează', save:'Salvează', site:'ola-accountancy.co.uk' };
   const W=CFG.w||1080, H=CFG.h||1350;
   const LH=Math.round(H*1080/W), Z=W/1080, tall=(H/W)>1.5;
+  // The 1200x1200 Google Business frame is the shortest one relative to its
+  // width, so the enlarged solo figures of 13 Nov 2026 push its footer off
+  // the frame. It keeps the earlier sizes; the 4:5 and 9:16 frames, which
+  // have the room, get the bigger numbers Valentin asked for.
+  const squat=(LH<1150);
   const el=document.createElement('div');
   el.className='slide'+(s.type==='hook'?' hook':'')+(s.type==='solo'?' solo':'')
-    +(s.type==='cta'?' cta':'')+(tall?' tall':'');
+    +(s.type==='cta'?' cta':'')+(tall?' tall':'')+(squat?' squat':'');
   el.id='s'+i;
   el.style.setProperty('--LH', LH+'px');
   el.style.setProperty('--Z', Z);
