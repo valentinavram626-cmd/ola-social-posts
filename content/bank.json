@@ -1,0 +1,614 @@
+[
+ {
+  "id": "marriage-allowance",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-03-15",
+  "brands": [
+   "ola"
+  ],
+  "title": "Marriage Allowance",
+  "official_page": "https://www.gov.uk/marriage-allowance",
+  "figures": [
+   {
+    "value": "£1,260",
+    "what": "Personal Allowance the lower earner transfers to their spouse or civil partner",
+    "source": "https://www.gov.uk/marriage-allowance",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "up to £252",
+    "what": "Maximum Income Tax saving for the couple in one tax year",
+    "source": "https://www.gov.uk/marriage-allowance",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "6 April 2022",
+    "what": "Earliest tax year a claim can be backdated to — four tax years back from 2026/27",
+    "source": "https://www.gov.uk/marriage-allowance",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Married couples and civil partners where one pays no Income Tax and the other pays basic rate (starter, basic or intermediate in Scotland)",
+   "excluded": "Couples living together but not married or in a civil partnership. Anyone already claiming Married Couple's Allowance. A higher earner above the basic rate — above £50,270, or above £43,662 for a Scottish taxpayer.",
+   "from_when": "Current for 2026/27; backdating to 2022/23",
+   "automatic": false,
+   "how_to_claim": "The LOWER earner applies, free, on gov.uk. It then renews automatically until cancelled."
+  },
+  "notes": "The claim is made by the lower earner, not the higher — the commonest error. Scotland: the test is the Scottish band, so a Scot on £46,000 does NOT qualify while someone on £46,000 in England does. No Budget 2026 change.",
+  "used": []
+ },
+ {
+  "id": "trading-allowance",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-03-15",
+  "brands": [
+   "ola"
+  ],
+  "title": "The Trading Allowance",
+  "official_page": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
+  "figures": [
+   {
+    "value": "£1,000",
+    "what": "Trading allowance for the current tax year, 2026/27",
+    "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£3,000",
+    "what": "New trading allowance and reporting threshold from 6 April 2027, announced at Budget 2026",
+    "source": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance/increasing-the-trading-allowance",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "5 October",
+    "what": "Deadline to register for Self Assessment, in the tax year after the one you went over",
+    "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "People with trading income from self-employment, casual work such as babysitting or gardening, or hiring out their own equipment",
+   "excluded": "Anyone whose trading income comes from a company they control, a partnership they are in, or their own or their partner's employer. It cannot be combined with claiming actual expenses — it is one or the other.",
+   "from_when": "£1,000 now; £3,000 from 6 April 2027",
+   "automatic": true,
+   "how_to_claim": "Automatic below £1,000 gross. Above it, register for Self Assessment by 5 October in the following tax year."
+  },
+  "notes": "The test is GROSS income, not profit: £1,200 earned with £400 of costs is over the threshold even though the profit is £800. Budget 2026 raised it to £3,000 from 6 April 2027 — that does NOT apply to this tax year.",
+  "used": []
+ },
+ {
+  "id": "mileage-allowance-car",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-03-15",
+  "brands": [
+   "ola"
+  ],
+  "title": "Business mileage rates for your own car",
+  "official_page": "https://www.gov.uk/government/publications/rates-and-allowances-travel-mileage-and-fuel-allowances/travel-mileage-and-fuel-rates-and-allowances",
+  "figures": [
+   {
+    "value": "55p a mile",
+    "what": "2026/27 rate for the first 10,000 business miles — raised from 45p, backdated to 6 April 2026",
+    "source": "https://www.gov.uk/government/publications/rates-and-allowances-travel-mileage-and-fuel-allowances/travel-mileage-and-fuel-rates-and-allowances",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "25p a mile",
+    "what": "2026/27 rate for every business mile after the first 10,000",
+    "source": "https://www.gov.uk/government/publications/rates-and-allowances-travel-mileage-and-fuel-allowances/travel-mileage-and-fuel-rates-and-allowances",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "45p a mile",
+    "what": "The old first-10,000 rate, which applied from 2011/12 to 2025/26",
+    "source": "https://www.gov.uk/government/publications/increase-to-approved-mileage-allowance-payments-amaps-and-self-employed-simplified-mileage-rates/increasing-mileage-rates",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Employees and directors using their OWN car or van for business journeys, and the self-employed using the simplified rates",
+   "excluded": "A company car or any vehicle the employer provides — those use Advisory Fuel Rates instead. Ordinary commuting from home to a permanent workplace never counts. Where the employer pays less than the approved rate, you claim tax relief on the shortfall, not the full pence per mile.",
+   "from_when": "55p applies for the whole of 2026/27, backdated to 6 April 2026",
+   "automatic": false,
+   "how_to_claim": "Normally paid by the employer. Where they pay less, claim Mileage Allowance Relief through Self Assessment or form P87."
+  },
+  "notes": "HIGHEST-RISK FIGURE: almost all third-party material still says 45p. The 10,000-mile counter resets each tax year and is per person, not per vehicle. Do NOT state a 2027/28 first-10,000 rate — only the over-10,000 rate rising to 35p has been announced.",
+  "used": []
+ },
+ {
+  "id": "high-income-child-benefit-charge",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-03-15",
+  "brands": [
+   "ola"
+  ],
+  "title": "The High Income Child Benefit Charge",
+  "official_page": "https://www.gov.uk/child-benefit-tax-charge",
+  "figures": [
+   {
+    "value": "£60,000",
+    "what": "Adjusted net income above which the charge starts",
+    "source": "https://www.gov.uk/child-benefit-tax-charge",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "1% per £200",
+    "what": "How the charge builds, for every £200 of income above £60,000",
+    "source": "https://www.gov.uk/child-benefit-tax-charge",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£80,000",
+    "what": "Income at which the charge equals all of the Child Benefit received",
+    "source": "https://www.gov.uk/child-benefit-tax-charge",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Whichever partner has the higher adjusted net income, where that is over £60,000 and someone in the household receives Child Benefit",
+   "excluded": "Anyone with adjusted net income of £60,000 or less. Where both partners are over £60,000, only the higher earner pays it. A household where nobody receives Child Benefit at all.",
+   "from_when": "£60,000 threshold applies from 2024/25 onwards, including this year",
+   "automatic": false,
+   "how_to_claim": "Claim Child Benefit to keep the National Insurance credits, then opt out of the payments to avoid the charge. The charge itself is paid through Self Assessment."
+  },
+  "notes": "The real story is the opt-out: staying registered but stopping the payments keeps the National Insurance credits that count towards the State Pension, and the child still gets a National Insurance number at 16. Not claiming at all forfeits those credits. The test is ADJUSTED net income, so pension contributions reduce it. The threshold is per person, not per household: two people on £59,000 pay nothing.",
+  "used": []
+ },
+ {
+  "id": "personal-savings-allowance",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-03-15",
+  "brands": [
+   "ola"
+  ],
+  "title": "The Personal Savings Allowance",
+  "official_page": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+  "figures": [
+   {
+    "value": "£1,000",
+    "what": "Tax-free savings interest for a basic rate taxpayer",
+    "source": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£500",
+    "what": "Tax-free savings interest for a higher rate taxpayer",
+    "source": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£5,000",
+    "what": "The starting rate for savings — a separate band taxed at 0%",
+    "source": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Individuals with interest from bank, building society and credit union accounts",
+   "excluded": "Additional rate taxpayers get nothing at all — zero, not a reduced amount. The separate £5,000 starting rate is not available to anyone whose other income reaches £17,570. Interest inside an ISA is already tax-free and does not use the allowance.",
+   "from_when": "Current for the 2026/27 tax year",
+   "automatic": true,
+   "how_to_claim": "Automatic. Banks report interest to HMRC and any tax due is usually collected through the tax code."
+  },
+  "notes": "It is a 0% band, not a deduction: going £1 over does not tax the whole amount. Budget 2026 did not change the allowance, but raised the tax rates charged above it to 24/44/49% from 6 April 2027.",
+  "used": []
+ },
+ {
+  "id": "small-business-rate-relief-england",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham"
+  ],
+  "title": "Small Business Rate Relief (England)",
+  "official_page": "https://www.gov.uk/apply-for-business-rate-relief/small-business-rate-relief",
+  "figures": [
+   {
+    "value": "£12,000",
+    "what": "Rateable value at or below which 100% relief applies — no business rates at all",
+    "source": "https://www.gov.uk/apply-for-business-rate-relief/small-business-rate-relief",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£12,001 to £15,000",
+    "what": "Taper band — relief falls gradually from 100% to 0%",
+    "source": "https://www.gov.uk/apply-for-business-rate-relief/small-business-rate-relief",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "50% at £13,500, 33% at £14,000",
+    "what": "gov.uk's own worked examples inside the taper",
+    "source": "https://www.gov.uk/apply-for-business-rate-relief/small-business-rate-relief",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£2,899 / £20,000 (£28,000 London)",
+    "what": "Limits on other properties if you are to keep relief on the main one",
+    "source": "https://www.gov.uk/apply-for-business-rate-relief/small-business-rate-relief",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "England",
+   "who": "Businesses using one property with a rateable value under £15,000, and some with more than one property within the limits above",
+   "excluded": "Properties with a rateable value of £15,000 or more. Businesses whose other properties breach the £2,899 or £20,000 limits. Businesses already receiving charitable rate relief.",
+   "from_when": "Ongoing. Second properties taken on from 27 November 2025 keep relief for 36 months rather than 12.",
+   "automatic": false,
+   "how_to_claim": "Apply to the billing authority — Birmingham City Council for Birmingham."
+  },
+  "notes": "England only — Scotland and Wales run different schemes on different thresholds. Relief is based on RATEABLE VALUE, not turnover or profit; that is the commonest misunderstanding. The £12,000 headline is misleading without the taper band beside it.",
+  "used": []
+ },
+ {
+  "id": "household-energy-payment-2027",
+  "verified": "2026-11-13",
+  "recheck_after": "2026-12-15",
+  "brands": [
+   "bham"
+  ],
+  "title": "£100 Household Energy Payment (England, from January 2027)",
+  "official_page": "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027",
+  "figures": [
+   {
+    "value": "£100",
+    "what": "One-off payment per eligible household",
+    "source": "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "Bands A to D",
+    "what": "Council tax bands covered by the core scheme",
+    "source": "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "January 2027",
+    "what": "When payments are expected to begin",
+    "source": "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "England",
+   "who": "Households in England in council tax bands A to D, at their sole or main residence, delivered through the council tax system",
+   "excluded": "Bands E to H are outside the core scheme, though a separate £100m discretionary fund lets councils reach some of them. A property that is not a sole or main residence. Scotland, Wales and Northern Ireland entirely.",
+   "from_when": "Expected to begin January 2027",
+   "automatic": false,
+   "how_to_claim": "NOT YET PUBLISHED. MHCLG says detailed guidance on eligibility and payment arrangements is still to come."
+  },
+  "notes": "NOT READY ON MECHANISM. Confirmed: amount, nation, bands, timing. NOT confirmed at primary source: whether households must apply, and whether it arrives as a bill credit or a separate payment. Council websites asserting it is automatic are not primary sources. DO NOT PUBLISH 'automatic' until MHCLG publishes guidance. It is the Household Energy Payment — not a Winter Fuel Payment, not a council tax rebate.",
+  "used": []
+ },
+ {
+  "id": "employment-allowance",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham"
+  ],
+  "title": "Employment Allowance",
+  "official_page": "https://www.gov.uk/claim-employment-allowance",
+  "figures": [
+   {
+    "value": "£10,500",
+    "what": "Maximum reduction in employers' Class 1 National Insurance for 2026/27",
+    "source": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "50%",
+    "what": "An employer doing less than half its work for the public sector can claim",
+    "source": "https://www.gov.uk/claim-employment-allowance/eligibility",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Businesses and charities with employer Class 1 National Insurance, where less than half the work is in or for the public sector",
+   "excluded": "A limited company where the sole director is the only employee paid above the Secondary Threshold. Public authorities that are not charities. Employers of a nanny, cleaner or gardener, unless that person is a care or support worker. All but one company in a group of connected companies. Payments caught by the off-payroll working rules.",
+   "from_when": "£10,500 for 2026/27. The old £100,000 eligibility cap was removed from April 2025.",
+   "automatic": false,
+   "how_to_claim": "Through payroll software, by sending an Employment Payment Summary. Must be claimed again every tax year."
+  },
+  "notes": "The single-director exclusion catches a large share of small limited companies. The claim does not roll forward — it is re-made each year. Do not assert anything about de minimis state aid; it was not on any page that loaded.",
+  "used": []
+ },
+ {
+  "id": "nmw-nlw-april-2027",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-04-01",
+  "brands": [
+   "bham"
+  ],
+  "title": "National Minimum Wage and National Living Wage from 1 April 2027",
+  "official_page": "https://www.gov.uk/national-minimum-wage-rates",
+  "figures": [
+   {
+    "value": "£13.21",
+    "what": "National Living Wage, 21 and over, from 1 April 2027 (up from £12.71)",
+    "source": "https://www.gov.uk/national-minimum-wage-rates",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£11.27",
+    "what": "Ages 18 to 20, from 1 April 2027 (up from £10.85)",
+    "source": "https://www.gov.uk/national-minimum-wage-rates",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£8.31",
+    "what": "Under 18 and the apprentice rate, from 1 April 2027 (up from £8.00)",
+    "source": "https://www.gov.uk/national-minimum-wage-rates",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Workers of school leaving age and over; the National Living Wage applies from age 21",
+   "excluded": "Anyone aged 20 or under does not get the National Living Wage — they get the lower age rate. Apprentices under 19, and those 19 or over in their first year, get the apprentice rate instead of their age rate. Genuinely self-employed contractors are not covered at all.",
+   "from_when": "1 April 2027; the April 2026 rates apply until then",
+   "automatic": true,
+   "how_to_claim": "A statutory entitlement — nothing to claim. Enforced by HMRC."
+  },
+  "notes": "UK-wide, not devolved. The National Living Wage starts at 21 — not 18, not 23. Entirely separate from the voluntary Real Living Wage set by a charity, which is higher and is NOT a legal rate.",
+  "used": []
+ },
+ {
+  "id": "council-tax-reduction-england",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-04-01",
+  "brands": [
+   "bham"
+  ],
+  "title": "Council Tax Reduction",
+  "official_page": "https://www.gov.uk/council-tax-reduction",
+  "figures": [
+   {
+    "value": "up to 100%",
+    "what": "Maximum reduction of a council tax bill under a local scheme",
+    "source": "https://www.gov.uk/council-tax-reduction",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "England",
+   "who": "People on a low income or on benefits who are liable for council tax where they live, whether they own or rent, whether working or not",
+   "excluded": "People subject to immigration control, and people not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man, are excluded by law from every council's scheme. Beyond that each council sets its own working-age rules, so income and savings limits differ by council.",
+   "from_when": "In force since April 2013. Local rules usually change each 1 April.",
+   "automatic": false,
+   "how_to_claim": "Apply to your own council. It is not applied to the bill automatically."
+  },
+  "notes": "Not a single national scheme — Birmingham, Solihull, Sandwell, Dudley and Walsall genuinely differ. Never quote one council's rules as regional, and never state a national savings cut-off. Distinct from the Single Person Discount and the Disabled Band Reduction. Replaced Council Tax Benefit in 2013; never use the old name.",
+  "used": []
+ },
+ {
+  "id": "self-assessment-31-january-2027",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "en"
+  ],
+  "title": "Self Assessment: 31 January 2027",
+  "official_page": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+  "figures": [
+   {
+    "value": "11:59pm, 31 January 2027",
+    "what": "Deadline to file the 2025/26 return online AND to pay the tax owed for it",
+    "source": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "half of last year's bill",
+    "what": "How each payment on account is calculated",
+    "source": "https://www.gov.uk/understand-self-assessment-bill/payments-on-account",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£1,000",
+    "what": "No payments on account if last year's Self Assessment bill was under this",
+    "source": "https://www.gov.uk/understand-self-assessment-bill/payments-on-account",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "80%",
+    "what": "No payments on account if more than this share of last year's tax was collected at source",
+    "source": "https://www.gov.uk/understand-self-assessment-bill/payments-on-account",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Anyone issued a notice to file, plus sole traders with gross trading income over £1,000, partners, those with Capital Gains Tax, and those with untaxed income such as rent or dividends",
+   "excluded": "Anyone who meets none of the criteria and has had no notice to file. No payments on account are due where last year's bill was under £1,000, or where more than 80% of last year's tax was already collected at source. The paper deadline was 31 October 2026 and has passed.",
+   "from_when": "For the 2025/26 tax year",
+   "automatic": false,
+   "how_to_claim": "File online and pay by 11:59pm on 31 January 2027."
+  },
+  "notes": "THREE obligations fall on 31 January 2027, not one: the return, the balancing payment for 2025/26, and the first payment on account for 2026/27. Payments on account include Class 4 National Insurance but not Capital Gains Tax or student loan repayments. Budget 2026 changed nothing here; more frequent in-year payments start only from April 2029.",
+  "used": []
+ },
+ {
+  "id": "vat-registration-deregistration-thresholds",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en"
+  ],
+  "title": "VAT registration and deregistration thresholds",
+  "official_page": "https://www.gov.uk/register-for-vat",
+  "figures": [
+   {
+    "value": "£90,000",
+    "what": "Registration threshold — taxable turnover in any rolling 12 months",
+    "source": "https://www.gov.uk/register-for-vat",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£90,000 in the next 30 days alone",
+    "what": "The forward-look test, which triggers immediate registration",
+    "source": "https://www.gov.uk/register-for-vat",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£88,000",
+    "what": "Deregistration threshold — you may ask HMRC to cancel below this",
+    "source": "https://www.gov.uk/register-for-vat/cancel-your-registration",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "30 days",
+    "what": "Time to register after the end of the month you went over",
+    "source": "https://www.gov.uk/vat-registration/when-to-register",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Any business whose taxable turnover exceeds £90,000 in any rolling 12-month period, or which expects to exceed it in the next 30 days alone",
+   "excluded": "Businesses selling only goods or services that are VAT exempt or outside the scope of VAT, whatever their turnover. Businesses at £90,000 or below, who may still register voluntarily. Businesses whose supplies are wholly or mainly zero-rated can apply for exemption from registration.",
+   "from_when": "Unchanged since 1 April 2024, and confirmed unchanged for April 2026 and April 2027 at Budget 2026",
+   "automatic": false,
+   "how_to_claim": "Register online with HMRC within 30 days of the end of the month the test was breached."
+  },
+  "notes": "ROLLING 12 months — any consecutive twelve, checked monthly. NOT the tax year, NOT the accounting year, NOT profit. Turnover is sales value before costs. Zero-rated sales count; exempt and out-of-scope sales do not. The forward-look test is the next 30 DAYS, so one large contract can trigger it.",
+  "used": []
+ },
+ {
+  "id": "making-tax-digital-income-tax",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en"
+  ],
+  "title": "Making Tax Digital for Income Tax",
+  "official_page": "https://www.gov.uk/guidance/check-if-youre-eligible-for-making-tax-digital-for-income-tax",
+  "figures": [
+   {
+    "value": "£50,000",
+    "what": "Qualifying income in 2024/25 — in scope since 6 April 2026",
+    "source": "https://www.gov.uk/guidance/check-if-youre-eligible-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£30,000",
+    "what": "Qualifying income in 2025/26 — in scope from 6 April 2027",
+    "source": "https://www.gov.uk/guidance/check-if-youre-eligible-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£20,000",
+    "what": "Qualifying income in 2026/27 — in scope from 6 April 2028",
+    "source": "https://www.gov.uk/guidance/check-if-youre-eligible-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Sole traders and landlords in Self Assessment whose qualifying income — gross self-employment and property income added together, before expenses — exceeds the threshold for the year",
+   "excluded": "Anyone with qualifying income of £20,000 or less is automatically exempt with nothing to apply for. Partnerships are not in yet. Employees and company directors with no self-employment or property income are outside it entirely, and limited company profits stay under Corporation Tax. Various further exemptions exist, including for foster and kinship carers.",
+   "from_when": "Live since 6 April 2026 for the first tranche",
+   "automatic": false,
+   "how_to_claim": "Sign up through HMRC's service and use compatible software for quarterly updates and a final declaration."
+  },
+  "notes": "Qualifying income is GROSS, not profit, and the two sources are added together. The look-back is two years, so the 6 April 2027 start is set by the 2025/26 return being filed now. Being exempt does NOT remove the duty to file an ordinary Self Assessment return. Budget 2026 added a penalty easement for the April 2027 cohort and new exemptions, but did not move the thresholds.",
+  "used": []
+ },
+ {
+  "id": "cis-monthly-returns",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en"
+  ],
+  "title": "CIS monthly returns",
+  "official_page": "https://www.gov.uk/what-you-must-do-as-a-cis-contractor/file-your-monthly-returns",
+  "figures": [
+   {
+    "value": "the 19th",
+    "what": "The return must REACH HMRC by the 19th of the month after the tax month",
+    "source": "https://www.gov.uk/what-you-must-do-as-a-cis-contractor/file-your-monthly-returns",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "20%",
+    "what": "Deduction for a subcontractor registered for CIS",
+    "source": "https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor/how-payments-are-made",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "30%",
+    "what": "Deduction where the subcontractor is not registered, or HMRC cannot match their details",
+    "source": "https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor/how-payments-are-made",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£100 / £200 / £300 or 5%",
+    "what": "Penalties at 1 day, 2 months, and 6 and 12 months late",
+    "source": "https://www.gov.uk/what-you-must-do-as-a-cis-contractor/file-your-monthly-returns",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Every CIS contractor — construction businesses paying subcontractors, and businesses outside construction spending over £3 million on construction in the previous 12 months",
+   "excluded": "Householders having work done on their own home are not contractors and file nothing. Subcontractors do not file these returns at all — the duty is the contractor's. A contractor who has notified HMRC of a period of inactivity, up to 6 months.",
+   "from_when": "Ongoing, every tax month",
+   "automatic": false,
+   "how_to_claim": "File the CIS300 online by the 19th. With no payments made, file a nil return or notify inactivity by the same date."
+  },
+  "notes": "The 19th is a RECEIPT deadline and does not move for weekends or bank holidays. Penalties stack. The 30% rate also applies when HMRC simply cannot match the subcontractor's details. Deductions come from the LABOUR element only — materials and VAT are excluded. Budget 2026 contained no CIS measure.",
+  "used": []
+ },
+ {
+  "id": "companies-house-confirmation-statement",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en"
+  ],
+  "title": "Companies House confirmation statement",
+  "official_page": "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement",
+  "figures": [
+   {
+    "value": "once every 12 months",
+    "what": "How often a confirmation statement must be filed",
+    "source": "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "14 days",
+    "what": "Filing window after the end of the review period",
+    "source": "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£50 online, £110 on paper",
+    "what": "The fee",
+    "source": "https://www.gov.uk/government/publications/companies-house-fees/companies-house-fees",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "up to £5,000",
+    "what": "Fine for failing to file, and the company may be struck off",
+    "source": "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Every company on the register, including dormant and non-trading companies",
+   "excluded": "Sole traders, ordinary partnerships and unincorporated bodies file nothing, because they are not registered companies. A company already dissolved and removed from the register. No fee is due on a second statement filed within the same 12-month payment period.",
+   "from_when": "First review period ends 12 months after incorporation",
+   "automatic": false,
+   "how_to_claim": "File online within 14 days of the end of the review period, or by paper form CS01."
+  },
+  "notes": "NOT the annual accounts and NOT the Corporation Tax return — a separate, third filing, and a company that files accounts on time can still be struck off for missing this. There is no 'nothing to report' exemption: the duty is to CONFIRM. Failure is a criminal offence and directors can be prosecuted. Companies House fees are set administratively, not by the Budget.",
+  "used": []
+ }
+]
