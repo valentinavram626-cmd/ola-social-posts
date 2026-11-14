@@ -6004,3 +6004,972 @@ General information on an employment right, not tax advice. If an employer refus
 ]
 
 SOLO_BY_SLUG = {s["slug"]: s for s in SOLOS}
+
+
+# ===================================================================== 15 Nov 2026
+# Written fresh this run. Every figure from content/bank.json; nothing researched here.
+
+NI_SELF_EMPLOYED = dict(
+  slug="ola-ni-pe-cont-propriu", brand="ola",
+  title="National Insurance când lucrezi pe cont propriu",
+  tags_ro="#NationalInsurance #PeContPropriu #SelfAssessment #HMRC #Class4 #RomaniInUK",
+  tags_en="#NationalInsurance #SelfEmployed #SelfAssessment #HMRC #Class4 #SmallBusinessUK",
+  RO=[
+    dict(type="hook", kicker="National Insurance · gov.uk",
+         h1="Lucrezi pe cont propriu? Class 2 nu mai cere nimic de la <em>£7,105</em>",
+         say="Ai muncit pe cont propriu tot anul și ți-au rămas, să zicem, £20,000 profit. Class 2 National Insurance nu îți cere niciun ban. De la £7,105 profit pe an în sus, HMRC îl consideră plătit și anul îți rămâne în istoric."),
+    dict(type="step", step="Class 4, partea care se plătește", fig="<cur>£</cur>12,570",
+         say="Class 4 se plătește doar pe profitul de peste £12,570 pe an: 6% până la £50,270 și 2% peste. Nu se cere separat — se calculează și se plătește prin Self Assessment, odată cu impozitul.",
+         note="Profitul nu e totalul încasat. E ce rămâne după ce scazi cheltuielile de lucru."),
+    dict(type="step", step="Cine nu plătește", fig="<cur>£</cur>7,105",
+         say="Sub £7,105 profit pe an nu ești obligat să plătești nimic. Poți plăti Class 2 de bunăvoie, £3.65 pe săptămână, dacă vrei să îți păstrezi anul în istoricul de National Insurance.",
+         note="Nu plătesc nici slujitorii cultelor care nu primesc salariu sau stipendiu."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy · Luton și Birmingham",
+    h1="Nu știi cât iese <em>National Insurance</em> la profitul tău?",
+    say="Scrie-ne pe WhatsApp, ne spui cât ai încasat și ce cheltuieli ai avut, iar noi facem socoteala cu tine, în română. Prima consultație £120 (TVA inclus).",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="National Insurance · gov.uk",
+         h1="Self-employed? Class 2 asks nothing of you from <em>£7,105</em>",
+         say="Say your self-employed profit for the year comes to £20,000. Class 2 National Insurance costs you nothing at all. At £7,105 of profit or more it is treated as paid, and the year still counts on your record."),
+    dict(type="step", step="Class 4, the part you do pay", fig="<cur>£</cur>12,570",
+         say="Class 4 is charged on profit above £12,570 a year: 6% up to £50,270, then 2% above that. There is nothing to apply for — it is worked out and paid through Self Assessment with your Income Tax.",
+         note="Profit is not turnover. It is what is left after your allowable costs."),
+    dict(type="step", step="Who does not pay", fig="<cur>£</cur>7,105",
+         say="Below £7,105 of profit a year, nothing is required of you. You can still choose to pay Class 2 at £3.65 a week if you want the year on your National Insurance record.",
+         note="Ministers of religion who receive no salary or stipend do not pay either."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Luton and Birmingham",
+    h1="Want your <em>National Insurance</em> worked out properly?",
+    say="Message us on WhatsApp with what you invoiced and what you spent, and we will go through the figures with you. First consultation £120 (VAT included).",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["Class 2 Small Profits Threshold £7,105, Class 4 Lower Profits Limit £12,570 and Upper Profits Limit £50,270 for 2026 to 2027",
+     "https://www.gov.uk/government/publications/rates-and-allowances-national-insurance-contributions/rates-and-allowances-national-insurance-contributions", "2026-11-14"],
+    ["Voluntary Class 2 at £3.65 a week, Class 4 main rate 6% and additional rate 2%",
+     "https://www.gov.uk/self-employed-national-insurance-rates", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="National Insurance",
+    excluded="Self-employed people with profits below £7,105 are not required to pay anything (payment is voluntary only). Ministers of religion who receive no salary or stipend do not pay. People who make investments for themselves or others do not pay, provided they do not do it as a business and receive no fee or commission. Examiners, moderators, invigilators and people who set exam questions pay Class 4 where due through Special Class 4 National Insurance arranged with the National Insurance office rather than through Self Assessment.",
+    from_when="6 April 2026"),
+)
+
+CHILD_BENEFIT_CHARGE = dict(
+  slug="ola-child-benefit-taxa", brand="ola",
+  title="Taxa pe Child Benefit când un părinte câștigă peste £60,000",
+  tags_ro="#ChildBenefit #HMRC #SelfAssessment #VenitNetAjustat #Parinti #RomaniInUK",
+  tags_en="#ChildBenefit #HICBC #SelfAssessment #HMRC #FamilyFinances #UKTax",
+  RO=[
+    dict(type="hook", kicker="High Income Child Benefit Charge · gov.uk",
+         h1="Câștigi peste <em>£60,000</em> și acasă intră Child Benefit?",
+         say="Să zicem că ai un venit de £64,000 și în casă se primesc banii de Child Benefit. Atunci apare High Income Child Benefit Charge. Nu se oprește nimic de la sine — tu, cel cu venitul mai mare, dai o parte înapoi prin Self Assessment."),
+    dict(type="step", step="Cum crește taxa", fig="1% la fiecare £200",
+         say="Pentru fiecare £200 de venit peste £60,000 dai înapoi 1% din Child Benefit-ul primit în anul acela. La £80,000 taxa ajunge egală cu tot Child Benefit-ul primit.",
+         note="Se uită la venitul net ajustat, nu la salariul brut. Contribuțiile la pensie îl scad."),
+    dict(type="step", step="Cine nu plătește", fig="<cur>£</cur>60,000",
+         say="Cu venit net ajustat de £60,000 sau mai puțin, nu plătești nimic. Pragul este pe persoană, nu pe familie: doi părinți cu câte £59,000 fiecare nu plătesc deloc.",
+         note="Dacă amândoi sunteți peste £60,000, plătește doar cel cu venitul mai mare."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy · Luton și Birmingham",
+    h1="Merită să oprești plățile de <em>Child Benefit</em>?",
+    say="Poți rămâne înscris și să oprești doar plățile: așa păstrezi creditele de National Insurance. Scrie-ne pe WhatsApp și ne uităm pe cifrele tale, în română.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="High Income Child Benefit Charge · gov.uk",
+         h1="Earning over <em>£60,000</em> with Child Benefit coming in?",
+         say="Say your income is £64,000 and Child Benefit is being paid into the household. The High Income Child Benefit Charge then applies. Nothing stops by itself — the higher earner pays some of it back through Self Assessment."),
+    dict(type="step", step="How the charge builds", fig="1% per £200",
+         say="For every £200 of income above £60,000, you pay back 1% of the Child Benefit received that year. At £80,000 the charge matches the full Child Benefit received.",
+         note="It is measured on adjusted net income, not gross pay. Pension contributions reduce it."),
+    dict(type="step", step="Who does not pay it", fig="<cur>£</cur>60,000",
+         say="On adjusted net income of £60,000 or less, there is nothing to pay. The threshold is per person, not per household: two parents on £59,000 each pay nothing.",
+         note="Where both partners are over £60,000, only the higher earner pays the charge."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Luton and Birmingham",
+    h1="Should you keep the <em>Child Benefit</em> payments?",
+    say="You can stay registered and stop only the payments, which keeps the National Insurance credits. Message us on WhatsApp and we will look at your numbers with you.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["The £60,000 threshold, the 1% for every £200 above it, and the charge equalling the full Child Benefit at £80,000",
+     "https://www.gov.uk/child-benefit-tax-charge", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="Child Benefit",
+    excluded="Anyone with adjusted net income of £60,000 or less. Where both partners are over £60,000, only the higher earner pays it. A household where nobody receives Child Benefit at all.",
+    from_when="£60,000 threshold applies from 2024/25 onwards, including this year"),
+)
+
+UNIVERSAL_CREDIT = dict(
+  slug="ola-universal-credit", brand="ola",
+  title="Cât este suma de bază la Universal Credit în 2026/27",
+  tags_ro="#UniversalCredit #DWP #AjutorSocial #Luton #Birmingham #RomaniInUK",
+  tags_en="#UniversalCredit #DWP #CostOfLiving #BenefitsAdvice #UKSupport",
+  RO=[
+    dict(type="hook", kicker="Universal Credit · gov.uk",
+         h1="Suma de bază la Universal Credit: <em>£424.90</em> pe lună",
+         say="Ai 28 de ani, stai singur în Luton și ai rămas fără lucru. Suma de bază pe care se construiește Universal Credit este £424.90 pe lună în anul 2026/27. Nu vine de la sine — trebuie cerută."),
+    dict(type="step", step="Cele patru sume de bază", fig="<cur>£</cur>666.97",
+         say="Singur, sub 25 de ani: £338.58 pe lună. Singur, 25 de ani sau peste: £424.90. În cuplu, amândoi sub 25: £528.34. În cuplu, unul are 25 sau peste: £666.97.",
+         note="Sumele pentru cuplu sunt pentru amândoi la un loc, nu de fiecare. Cuplurile cer împreună."),
+    dict(type="step", step="Cine nu primește", fig="<cur>£</cur>16,000",
+         say="Cu peste £16,000 în bani, economii și investiții nu primești Universal Credit. Nici cuplurile în care amândoi au ajuns la vârsta de pensionare de stat — acolo cererea se oprește.",
+         note="În Irlanda de Nord este un serviciu separat. Majoritatea studenților la zi nu primesc, în afara câtorva excepții."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy · Luton și Birmingham",
+    h1="Nu ești sigur dacă te încadrezi la <em>Universal Credit</em>?",
+    say="Scrie-ne pe WhatsApp. Ne spui cum stai cu lucrul și cu economiile, iar noi îți explicăm în română ce înseamnă cifrele pentru tine.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Universal Credit · gov.uk",
+         h1="The Universal Credit standard allowance is <em>£424.90</em> a month",
+         say="You are 28, living on your own, and the work has dried up. The standard allowance that Universal Credit is built on is £424.90 a month for 2026/27. It does not arrive by itself — you have to claim it."),
+    dict(type="step", step="The four standard allowances", fig="<cur>£</cur>666.97",
+         say="Single and under 25: £338.58 a month. Single and 25 or over: £424.90. A couple both under 25: £528.34. A couple where either is 25 or over: £666.97.",
+         note="The couple figures are for the two of you together, not each. Couples claim jointly."),
+    dict(type="step", step="Who does not get it", fig="<cur>£</cur>16,000",
+         say="With more than £16,000 in money, savings and investments, Universal Credit is not available. Nor to couples where both partners have reached State Pension age — the claim stops there.",
+         note="Northern Ireland runs a separate service. Most full-time students cannot claim, apart from a few set exceptions."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Luton and Birmingham",
+    h1="Not sure whether <em>Universal Credit</em> applies to you?",
+    say="Message us on WhatsApp. Tell us how work and savings stand at the moment and we will talk you through what the figures mean for you.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["The four 2026/27 standard allowance rates and the rules on who can claim",
+     "https://www.gov.uk/universal-credit/what-youll-get", "2026-11-14"],
+    ["The same four standard allowance rates in the DWP benefit and pension rates 2026 to 2027 table",
+     "https://www.gov.uk/government/publications/benefit-and-pension-rates-2026-to-2027/proposed-benefit-and-pension-rates-2026-to-2027", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="Great Britain. The GOV.UK Universal Credit guide directs Northern Ireland residents to Universal Credit in Northern Ireland, which is run separately.",
+    category="Benefits",
+    excluded="People with more than £16,000 in money, savings and investments. Couples where both partners have reached State Pension age - the claim stops at that point. Most people in full-time education, unless they meet one of the listed exceptions. People who do not live in the UK. Northern Ireland residents must use the separate Northern Ireland service.",
+    from_when="2026 to 2027 rates, in force from April 2026."),
+)
+
+ISA_ALLOWANCE = dict(
+  slug="ola-isa-20000", brand="ola",
+  title="Cât poți pune în ISA în anul fiscal 2026/27",
+  tags_ro="#ISA #LifetimeISA #Economii #PlanificareFinanciara #HMRC #RomaniInUK",
+  tags_en="#ISA #LifetimeISA #Savings #FinancialPlanning #UKTax",
+  RO=[
+    dict(type="hook", kicker="ISA · gov.uk",
+         h1="Poți pune <em>£20,000</em> în conturi ISA în anul fiscal acesta",
+         say="Pui bani deoparte lună de lună și te întrebi până unde poți merge. £20,000 este totalul pe care îl poți depune în conturile tale ISA într-un an fiscal, de la 6 aprilie 2026. Ce nu folosești anul acesta nu se reportează anul viitor."),
+    dict(type="step", step="Lifetime ISA", fig="<cur>£</cur>4,000",
+         say="Într-un Lifetime ISA poți pune cel mult £4,000 pe an, iar banii aceia intră în cei £20,000, nu peste ei. Statul adaugă 25% la ce depui, până la £1,000 pe an.",
+         note="Anul acesta nu există o limită separată pentru cash ISA: £20,000 este totalul."),
+    dict(type="step", step="Cine nu poate deschide", fig="40 de ani",
+         say="Un ISA se deschide de la 18 ani; pentru copii există Junior ISA. Un Lifetime ISA se deschide doar înainte de 40 de ani, iar după 50 nu mai poți depune și nu mai primești bonusul.",
+         note="Contul este pe o singură persoană — un ISA nu se ține în doi."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy · Luton și Birmingham",
+    h1="Nu știi ce loc are un <em>ISA</em> în planul tău?",
+    say="Scrie-ne pe WhatsApp și discutăm, în română, cum arată anul tău fiscal și ce ai de pus în ordine până pe 5 aprilie.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="ISA · gov.uk",
+         h1="You can pay <em>£20,000</em> into ISAs this tax year",
+         say="You put a little aside each month and want to know where the ceiling is. £20,000 is the total you can pay into your ISAs in one tax year, from 6 April 2026. Anything you do not use this year does not roll over."),
+    dict(type="step", step="Lifetime ISA", fig="<cur>£</cur>4,000",
+         say="A Lifetime ISA takes a maximum of £4,000 a year, and that sits inside the £20,000 rather than on top of it. The government adds 25% to what you pay in, up to £1,000 a year.",
+         note="There is no separate cash ISA limit this year: £20,000 is the whole of it."),
+    dict(type="step", step="Who cannot open one", fig="Age 40",
+         say="An ISA starts at 18; under that, a Junior ISA is the route. A Lifetime ISA can only be opened before 40, and after 50 you can no longer pay in or earn the bonus.",
+         note="An ISA is held by one person. You cannot hold one jointly with anyone."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Luton and Birmingham",
+    h1="Not sure where an <em>ISA</em> fits in your plan?",
+    say="Message us on WhatsApp and we will talk through how your tax year looks and what is worth tidying up before 5 April.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["The £20,000 overall ISA allowance for the 2026 to 2027 tax year",
+     "https://www.gov.uk/individual-savings-accounts", "2026-11-14"],
+    ["The £4,000 a year Lifetime ISA limit and the 25% bonus of up to £1,000 a year",
+     "https://www.gov.uk/lifetime-isa", "2026-11-14"],
+    ["The £12,000 cash ISA limit for savers under 65, announced and taking effect 6 April 2027",
+     "https://www.gov.uk/government/publications/reduction-in-the-cash-individual-savings-account-isa-limit/cash-individual-savings-account-isa-limit-reduction", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="Savings and investments",
+    excluded="Anyone under 18 (children can have a Junior ISA instead); anyone aged 40 or over cannot open a Lifetime ISA, and no one can pay in or earn the bonus after turning 50; non-UK residents, unless they fall into the armed forces or Crown servant categories; anyone wanting to hold an ISA jointly — you cannot hold an ISA with someone else.",
+    from_when="6 April 2026"),
+)
+
+SA_REGISTRATION = dict(
+  slug="ola-inregistrare-self-assessment", brand="ola",
+  title="Până când îi spui lui HMRC că depui Self Assessment",
+  tags_ro="#SelfAssessment #HMRC #PeContPropriu #Termene #Penalizari #RomaniInUK",
+  tags_en="#SelfAssessment #HMRC #SelfEmployed #TaxDeadlines #Penalties",
+  RO=[
+    dict(type="hook", kicker="Self Assessment · gov.uk",
+         h1="Ai început pe cont propriu? Anunță HMRC până pe <em>5 octombrie 2027</em>",
+         say="Să zicem că ai început să lucrezi pe cont propriu în mai 2026. Anul fiscal acela s-a încheiat pe 5 aprilie 2027, deci îi spui lui HMRC până pe 5 octombrie 2027 că ai de depus declarație. Regula e mereu aceeași: 5 octombrie după încheierea anului fiscal."),
+    dict(type="step", step="Nu e data declarației", fig="5 octombrie",
+         say="Pe 5 octombrie doar te înregistrezi și primești numărul tău de contribuabil, Unique Taxpayer Reference. Nu este data la care depui declarația și nici data la care plătești impozitul.",
+         note="Te înregistrezi pe gov.uk, prin serviciul Check how to register for Self Assessment."),
+    dict(type="step", step="Cine nu se înregistrează din nou", fig="<cur>£</cur>0",
+         say="Dacă HMRC ți-a trimis deja cererea de a depune declarația, sau dacă te-ai înregistrat și ai depus declarație și anul trecut, nu mai ai ce înregistra.",
+         note="Penalizarea e un procent din impozitul rămas neplătit. Dacă nu rămâne impozit neplătit, nu e penalizare."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy · Luton și Birmingham",
+    h1="Nu știi dacă trebuie să te înregistrezi la <em>Self Assessment</em>?",
+    say="Scrie-ne pe WhatsApp, ne spui ce ai lucrat anul acesta și îți spunem clar dacă trebuie și până când. Prima consultație £120 (TVA inclus).",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Self Assessment · gov.uk",
+         h1="New to self-employment? Tell HMRC by <em>5 October 2027</em>",
+         say="Say you started working for yourself in May 2026. That tax year ended on 5 April 2027, so you have until 5 October 2027 to tell HMRC a return is coming. The rule never moves: 5 October after the tax year ends."),
+    dict(type="step", step="Not the filing date", fig="5 October",
+         say="5 October is only the date you register and get your Unique Taxpayer Reference. It is not the date the return is due, and it is not the date the tax is paid.",
+         note="You register through the Check how to register for Self Assessment service on gov.uk."),
+    dict(type="step", step="Who does not register again", fig="<cur>£</cur>0",
+         say="If HMRC has already sent you a notice to file, or you registered and filed a return last year, there is nothing to register.",
+         note="The penalty is a percentage of the tax left unpaid. No unpaid tax means no penalty."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Luton and Birmingham",
+    h1="Unsure whether you need to register for <em>Self Assessment</em>?",
+    say="Message us on WhatsApp, tell us what you have earned this year, and we will tell you plainly whether you need to register and by when. First consultation £120 (VAT included).",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["The 5 October deadline to tell HMRC you need to complete a tax return for the previous tax year",
+     "https://www.gov.uk/register-for-self-assessment", "2026-11-14"],
+    ["Six months from the end of the tax year as the statutory time limit for notifying chargeability",
+     "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf210", "2026-11-14"],
+    ["Failure to notify penalties as a percentage of the tax unpaid, from 0% to 100% depending on behaviour and disclosure",
+     "https://www.gov.uk/government/publications/compliance-checks-penalties-for-failure-to-notify-ccfs11/compliance-checks-penalties-for-failure-to-notify-ccfs11", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="Self Assessment",
+    excluded="Anyone who has already been sent a notice to file, or who registered and filed for the previous year, does not need to re-register. A statutory exception also covers people with no chargeable gains (or gains within the annual exempt amount) who have either no net income tax liability for the year or enough tax deducted at source to cover it. Where no tax is unpaid there is no failure-to-notify penalty, and HMRC will not charge one where there is a reasonable excuse for a non-deliberate failure notified without unreasonable delay.",
+    from_when="Standing rule under s.7 Taxes Management Act 1970. The deadline for the 2026/27 tax year is 5 October 2027."),
+)
+
+
+BHAM_COUNCIL_TAX_REDUCTION = dict(
+  slug="bham-council-tax-reduction", brand="bham",
+  title="Council Tax Reduction — the bill can come down, but only if you ask",
+  tags_en="#Birmingham #WestMidlands #CouncilTax #CostOfLiving #BirminghamCityCouncil",
+  EN=[
+    dict(type="hook", kicker="Council Tax Reduction · gov.uk",
+      h1="Your council tax bill can be cut by <em>up to 100%</em>.",
+      say="If money is tight, your council can take some of the council tax off you, and in some cases all of it. You can be working or not working, renting or buying. What counts is that the bill is in your name."),
+    dict(type="step", step="Nobody does it for you", fig="Your council",
+      say="It is not a discount that appears on the bill because somebody noticed you were struggling. You apply to the council that sends your bill, and until you do, nothing comes off.",
+      note="Local rules usually change each 1 April."),
+    dict(type="step", step="Who gets nothing", fig="2 groups",
+      say="Two groups are outside every council's scheme by law: people subject to immigration control, and people who are not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man.",
+      note="Beyond those two, each council writes its own working-age rules, so the income and savings limits differ from one council to the next."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="Is the council tax the bill <em>keeping you awake</em>?",
+    say="Come and see us at our Birmingham office on Washwood Heath Road in Saltley, and we will show you where your own council takes the application.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["Council Tax Reduction can cut a bill by up to 100%; it is for people on a low income or on benefits who are liable for council tax, whether they own or rent and whether working or not; each council runs its own scheme and you apply to your own council; people subject to immigration control and people not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man are excluded",
+     "https://www.gov.uk/council-tax-reduction", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="England. The reader is in England, so no nation is named on the frame. It is not a single national scheme: each council in England writes its own working-age rules.",
+    category="People on a low income or on benefits who are liable for council tax where they live, whether they own or rent, whether working or not.",
+    excluded="People subject to immigration control, and people not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man, are outside every council's scheme. Beyond that each council sets its own working-age rules, so income and savings limits differ by council. Distinct from the Single Person Discount and the Disabled Band Reduction, which are separate reductions applied for separately.",
+    from_when="In force since April 2013. Local rules usually change each 1 April. Not automatic: you apply to your own council."),
+)
+
+BHAM_ENERGY_PRICE_CAP = dict(
+  slug="bham-energy-price-cap", brand="bham",
+  title="The energy price cap — what £1,723 actually means",
+  tags_en="#Birmingham #WestMidlands #EnergyBills #PriceCap #Ofgem #SmallBusinessUK",
+  EN=[
+    dict(type="hook", kicker="Energy price cap · 1 Oct–31 Dec 2026 · Ofgem",
+      h1="<em>£1,723</em> is not the most your energy bill can be.",
+      say="That figure is what a typical household paying by Direct Debit would spend in a year. Use more than typical and you pay more. Ofgem says it plainly: the cap does not limit the cost of your total bill."),
+    dict(type="step", step="What is actually capped", fig="26.32p",
+      say="The price of each unit you use, and the standing charge you pay every day whether you use anything or not. Electricity is capped at 26.32p a unit and 54.83p a day. Gas is 7.97p a unit and 29.68p a day.",
+      note="Those are averages across England, Scotland and Wales. Ofgem's electricity figures leave VAT out; the gas figures have the 5% VAT in them."),
+    dict(type="step", step="Who the cap does not cover", fig="11 million",
+      say="Around 11 million households are on a fixed tariff they agreed with their supplier, and the October rise did not touch them. Nor does the cap reach a business energy contract, a heat network or heating oil.",
+      note="Ofgem's cap levels and its postcode checker cover England, Scotland and Wales. Northern Ireland is not in it."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="Your <em>business</em> energy is not in this cap.",
+    say="Shop, unit or takeaway, your energy is a business contract and no cap sits over it. Bring the bills to our Birmingham office on Washwood Heath Road and we will go through the costs with you.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["What the price cap is and what it does not do — Ofgem: the cap 'does not limit the cost of your total bill' and 'the more energy you use, the higher your bill will be'",
+     "https://www.ofgem.gov.uk/information-consumers/energy-advice-households/energy-price-cap-explained", "2026-11-14"],
+    ["£1,723 a year for a typical dual-fuel household paying by Direct Debit, 1 October to 31 December 2026, up 4% (£60 a year) from £1,663; around 22 million households on default tariffs covered; around 11 million households on fixed tariffs not affected",
+     "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026", "2026-11-14"],
+    ["The cap period currently in force: 1 October 2026 to 31 December 2026",
+     "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges", "2026-11-14"],
+    ["Capped electricity 26.32p per kWh and 54.83p a day, and capped gas 7.97p per kWh and 29.68p a day — Direct Debit, default tariff, average across England, Scotland and Wales; the gas figures include 5% VAT",
+     "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="Great Britain — England, Scotland and Wales only; not Northern Ireland. The cards say what Ofgem's cap covers rather than claiming it is UK-wide.",
+    category="Domestic customers on a standard variable (default) tariff. Covers Direct Debit, standard credit, prepayment meter and Economy 7 customers.",
+    excluded="Households in Northern Ireland; anyone who has agreed a fixed tariff with their supplier; anyone on a business energy contract; anyone on a heat network or using heating oil.",
+    from_when="1 October 2026, running to 31 December 2026. Automatic — nothing is claimed. Levels reset quarterly."),
+)
+
+BHAM_REVERSE_CHARGE_VAT = dict(
+  slug="bham-reverse-charge-vat", brand="bham",
+  title="VAT reverse charge for construction — when you send the bill with no VAT on it",
+  tags_en="#Birmingham #WestMidlands #VAT #CIS #Construction #Tradespeople",
+  EN=[
+    dict(type="hook", kicker="VAT domestic reverse charge · gov.uk",
+      h1="On some jobs you send the bill with <em>no VAT</em> on it.",
+      say="Builder working for another builder? Often you do not add VAT to your invoice at all. The firm you worked for puts that VAT on its own VAT return instead. The money never passes through your account."),
+    dict(type="step", step="When it applies", fig="CIS",
+      say="All of this has to be true: the work is standard-rated or reduced-rated building work, you report it under the Construction Industry Scheme, your customer is VAT registered in the UK, and your customer has not told you in writing that it is the end user.",
+      note="This is how it has worked for invoices dated on or after 1 March 2021."),
+    dict(type="step", step="Who charges VAT as normal", fig="Normal VAT",
+      say="You charge VAT the usual way when your customer is a private household or is not VAT registered, when the work is zero-rated such as a new build, when you are an employment business supplying workers, or when the job sits outside CIS.",
+      note="Also when your customer writes to say it is the end user — the business the work is actually for, not passing it on. Keep that letter or email with your records."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="Not sure <em>which rule</em> your last job fell under?",
+    say="Bring one recent invoice to our Birmingham office on Washwood Heath Road and we will tell you whether the VAT belonged on it. Message us first and we will make the time.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["Which supplies the domestic reverse charge applies to: standard-rated and reduced-rated building and construction services where the customer is VAT registered in the UK and the supply is reported under CIS; the lists of specified services and of supplies the charge does not apply to",
+     "https://www.gov.uk/guidance/vat-domestic-reverse-charge-for-building-and-construction-services", "2026-11-14"],
+    ["The charge applies to invoices with a tax point on or after 1 March 2021; the end user and intermediary supplier exceptions, the written notification, and the end user disregard where under 5% by value is re-supplied",
+     "https://www.gov.uk/guidance/vat-reverse-charge-technical-guide", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK, including Northern Ireland. The cards do not frame it as a Birmingham or West Midlands rule; the brand is local, the rule is not.",
+    category="Standard-rated and reduced-rated building and construction services where the customer is VAT registered in the UK, the supply is reported within CIS, the supplier is not an employment business, and the customer has not given written end user or intermediary notice.",
+    excluded="The charge does not apply where the customer has notified the supplier in writing that it is an end user or an intermediary supplier; where the customer is not VAT registered, including private domestic customers; where the supply is zero-rated; where the supplier is an employment business supplying staff; or where the supply is outside CIS. Specified services supplied on their own are also outside it — architects, surveyors and consultants, security systems, signwriting, blinds, shutters and seating, and manufacturing or delivering materials to site. Where the charge does not apply, normal VAT rules apply.",
+    from_when="Tax points on or after 1 March 2021. Automatic where the conditions are met; to disapply it the customer must notify the supplier in writing."),
+)
+
+BHAM_FPS_DEADLINE = dict(
+  slug="bham-fps-deadline", brand="bham",
+  title="PAYE: the payroll report that has to reach HMRC on payday",
+  tags_en="#Birmingham #WestMidlands #PAYE #Payroll #HMRC #SmallBusinessUK",
+  EN=[
+    dict(type="hook", kicker="PAYE Real Time Information · gov.uk",
+      h1="Pay your staff on Friday, tell HMRC <em>on Friday</em>.",
+      say="Every time you pay someone, your payroll software sends HMRC a report of what you paid them and what you took off. It goes on the payday or before it. Not at the end of the month, not when the money clears."),
+    dict(type="step", step="If the report is late", fig="<cur>£</cur>100",
+      say="£100 a month with 1 to 9 people on the payroll. £200 for 10 to 49, £300 for 50 to 249, £400 for 250 or more. It is charged every month it is late, and separately for each PAYE scheme you run.",
+      note="Three months late and HMRC can add 5% of the tax and National Insurance that should have been on the missing report. That one is for the worst cases."),
+    dict(type="step", step="When there is no penalty", fig="3 days",
+      say="No penalty if everything on the report is within 3 days of payday — though doing that every week is not a free pass. None for your first late report in a tax year, unless yours is a once-a-year payroll scheme. And a brand new employer is not penalised if the first report went in within 30 days of the first payday.",
+      note="Paid nobody at all in a tax month? No report is due. You send an Employer Payment Summary instead."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="One employee is <em>still</em> a payroll.",
+    say="Come to our Birmingham office on Washwood Heath Road and we will go through your paydays with you and set out exactly what has to reach HMRC, and when.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["The Full Payment Submission reporting pay, payrolled benefits and deductions must be sent on or before the payday unless an exception applies",
+     "https://www.gov.uk/guidance/what-payroll-information-to-report-to-hmrc", "2026-11-14"],
+    ["Late filing penalties of £100 (1 to 9 employees), £200 (10 to 49), £300 (50 to 249) and £400 (250 or more) per month; no penalty where all reported payments are within 3 days of payday; no penalty for the first failure in the tax year, which does not apply to annual schemes; no penalty where a new employer sent its first FPS within 30 days of paying an employee",
+     "https://www.gov.uk/guidance/what-happens-if-you-dont-report-payroll-information-on-time", "2026-11-14"],
+    ["The additional 3-month extended failure penalty of 5% of the PAYE tax, employee NIC and student loan deductions that should have been on the missing return; discretionary, for the most serious or persistent failures",
+     "https://www.gov.uk/hmrc-internal-manuals/compliance-handbook/ch62880", "2026-11-14"],
+    ["FPS may be sent within 7 days in set situations, and 14 days after the end of the tax month for an expense or benefit attracting National Insurance but not Income Tax",
+     "https://www.gov.uk/running-payroll/fps-after-payday", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK. A UK-wide PAYE obligation, so it reaches employers in Birmingham and the West Midlands on exactly the same terms as everywhere else.",
+    category="All employers operating PAYE must send an FPS on or before each payday. Penalties are charged per PAYE scheme.",
+    excluded="No late filing penalty where all reported payments on the FPS are within 3 days of payday; where it is the employer's first failure in the tax year (this does NOT apply to annual schemes); or where a new employer sent its first FPS within 30 days of paying an employee. No FPS is required for a tax month in which no employees were paid — an Employer Payment Summary is sent instead. A late FPS is permitted without penalty in listed situations with a late reporting reason code. A penalty already charged can be appealed on reasonable excuse grounds.",
+    from_when="Ongoing obligation; guidance last updated 6 April 2026. Not a claim: the employer or its agent submits the FPS through payroll software."),
+)
+
+BHAM_DORMANT_COMPANY = dict(
+  slug="bham-dormant-company", brand="bham",
+  title="Dormant companies — two offices, two tests, two sets of paperwork",
+  tags_en="#Birmingham #WestMidlands #DormantCompany #CompaniesHouse #LimitedCompany #HMRC",
+  EN=[
+    dict(type="hook", kicker="Dormant companies · gov.uk",
+      h1="The company traded <em>nothing</em> all year. The filing still comes.",
+      say="You set a limited company up and never got going, or you stopped. Telling HMRC it is dormant does not switch Companies House off. The accounts and the confirmation statement are still due, on the same dates and with the same late penalties as any trading company."),
+    dict(type="step", step="Two offices, two tests", fig="2 tests",
+      say="Companies House calls a company dormant if it has had no significant transactions in the financial year. HMRC calls it dormant for Corporation Tax if it has stopped trading and has no other income. Passing one test does not pass the other.",
+      note="You have to tell HMRC, through its online service. Companies House is not told anything — it simply gets the accounts, by the normal deadline."),
+    dict(type="step", step="What breaks dormancy", fig="3 exceptions",
+      say="Only three things are ignored at Companies House: the fees you paid Companies House, a penalty for filing accounts late, and the money paid for shares when the company was set up. Everything else counts. One bank charge, or a few pence of interest landing in the account, and the company is not dormant that year.",
+      note="Still VAT registered because you plan to restart? Nil VAT returns still have to go in."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy · Birmingham",
+    h1="Not sure <em>which kind</em> of dormant you are?",
+    say="Come to our Birmingham office on Washwood Heath Road and we will check what Companies House is waiting for and what HMRC has actually been told. Message us before a penalty lands.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["A company or association may be dormant if it is not trading and has no other income; the two separate tests",
+     "https://www.gov.uk/dormant-company", "2026-11-14"],
+    ["The Companies House test — no 'significant' transactions in the financial year; significant transactions do not include filing fees paid to Companies House, penalties for late filing of accounts, or money paid for shares when the company was incorporated; a dormant company that also qualifies as small can file dormant accounts and does not need an auditor's report",
+     "https://www.gov.uk/dormant-company/dormant-for-companies-house", "2026-11-14"],
+    ["Dormant for Corporation Tax: stopped trading with no other income, a new company not yet trading, an unincorporated association or club owing less than £100 Corporation Tax, or a flat management company; a company dormant for Corporation Tax 'must still file annual accounts and a confirmation statement'",
+     "https://www.gov.uk/dormant-company/dormant-for-corporation-tax", "2026-11-14"],
+    ["Dormant company accounts do not need to include a profit and loss account; dormant companies have the same accounts filing deadlines and the same late filing penalties as other companies",
+     "https://www.gov.uk/government/publications/life-of-a-company-annual-requirements/life-of-a-company-part-1-accounts", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK. Companies House and HMRC obligations apply identically across the UK.",
+    category="A company or association that is not trading and has no other income. Companies House and Corporation Tax apply separate tests.",
+    excluded="A company that has had any significant accounting transaction in the financial year is not dormant for Companies House — only filing fees, late filing penalties and share money paid at incorporation are disregarded. A company dormant for Companies House that does not also qualify as small cannot file dormant accounts. Dormancy does not excuse filing: annual accounts and a confirmation statement are still due, and a Company Tax Return must still be filed if HMRC has issued a notice to deliver one. Being dormant for Corporation Tax does not make a company dormant for Companies House, or vice versa. A dormant company still registered for VAT must still send nil VAT returns.",
+    from_when="Current GOV.UK guidance as at 14 November 2026. Not automatic: dormancy for Corporation Tax must be notified to HMRC."),
+)
+
+
+EN_CONFIRMATION_STATEMENT = dict(
+  slug="en-confirmation-statement", brand="en",
+  title="The third filing nobody told you about",
+  tags_en="#CompaniesHouse #LimitedCompany #ConfirmationStatement #SmallBusinessUK #CompanyDirector #DormantCompany",
+  EN=[
+    dict(type="hook",
+      kicker="Confirmation statement · gov.uk",
+      h1="You filed the accounts. There is still a <em>third</em> form.",
+      say="Every company on the register has to send Companies House a confirmation statement once every 12 months. It is not your accounts and it is not your Corporation Tax return. Miss it and the fine runs up to £5,000, and the company can be struck off."),
+    dict(type="step",
+      step="You get 14 days",
+      fig="14 days",
+      say="Your first 12 months end a year after the company was set up, and it is once every 12 months after that. When the 12 months end you have 14 days to file: <cur>£</cur>50 online, or <cur>£</cur>110 if you post the paper form CS01.",
+      note="There is no 'nothing has changed' excuse. The job is to confirm it, even when nothing has changed."),
+    dict(type="step",
+      step="Who does not have to",
+      fig="Sole traders",
+      say="Work for yourself as a sole trader, or in an ordinary partnership? You send nothing. You are not a registered company, so no confirmation statement exists for you. Neither does a company already dissolved and taken off the register.",
+      note="And if you have already paid the <cur>£</cur>50 this year, a second statement inside the same 12-month payment period costs nothing."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Do you know <em>when</em> your 12 months end?",
+    say="Send us the company name and we will tell you the date Companies House is counting to, and what the statement has to confirm.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["A confirmation statement is filed at least once every 12 months, within 14 days of the end of the review period; the fine for not filing is up to £5,000 and the company may be struck off; failing to file is a criminal offence and directors can be prosecuted; every company on the register must file, including dormant and non-trading companies",
+     "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement", "2026-11-13"],
+    ["Confirmation statement fee: £50 online, £110 on paper",
+     "https://www.gov.uk/government/publications/companies-house-fees/companies-house-fees", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="Every company on the register, including dormant and non-trading companies",
+    excluded="Sole traders, ordinary partnerships and unincorporated bodies file nothing, because they are not registered companies. A company already dissolved and removed from the register. No fee is due on a second statement filed within the same 12-month payment period.",
+    from_when="First review period ends 12 months after incorporation"),
+)
+
+EN_CLASS_1_NIC = dict(
+  slug="en-class-1-national-insurance", brand="en",
+  title="Two starting lines on the same wage",
+  tags_en="#NationalInsurance #PAYE #Payroll #Employers #PayslipCheck #SmallBusinessUK",
+  EN=[
+    dict(type="hook",
+      kicker="National Insurance 2026/27 · gov.uk",
+      h1="Your employer starts paying at <em>£5,000</em>. You start at <em>£12,570</em>.",
+      say="National Insurance only comes out of your own pay once you earn more than £12,570 a year. Your employer has been paying on your wages since £5,000. Same job, same payslip, two different starting points."),
+    dict(type="step",
+      step="What comes out of your pay",
+      fig="8%",
+      say="On the slice of your pay between <cur>£</cur>12,570 and <cur>£</cur>50,270 a year, <b>8%</b> goes to National Insurance. Above <cur>£</cur>50,270 it drops to <b>2%</b>. Your employer pays <b>15%</b> on everything over <cur>£</cur>5,000, with no upper limit at all.",
+      note="These are the standard figures, category A. A few people sit on a different National Insurance letter, where the rates are not the same."),
+    dict(type="step",
+      step="Who does not have to pay",
+      fig="Over pension age",
+      say="Earn under <cur>£</cur>12,570 a year and nothing comes out of your pay. Nobody under 16 pays it. And once you are over State Pension age you stop paying, even if you carry on working — though your employer still pays theirs.",
+      note="Worth knowing: earn under <cur>£</cur>6,708 a year and that year does not count as a qualifying year towards the State Pension and the other benefits National Insurance pays for."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Does your payslip match these figures?",
+    say="Send us the National Insurance line off your payslip, or your payroll figures if you are the employer, and we will check it against the table.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["2026/27 Class 1 thresholds: Lower Earnings Limit £129 a week, £6,708 a year; Primary Threshold £242 a week, £12,570 a year; Secondary Threshold £96 a week, £5,000 a year; Upper Earnings Limit £967 a week, £50,270 a year",
+     "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+    ["2026/27 Class 1 rates: employee category A 8% between the Primary Threshold and the Upper Earnings Limit and 2% above it; employer 15% on all earnings above the Secondary Threshold with no upper limit; category X for employees who pay no National Insurance, such as those under 16; category C for employees over State Pension age, where the employee rate is not applicable while employer Class 1 still applies",
+     "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="All employers operating PAYE anywhere in the UK, and their employees. Rates differ by National Insurance category letter — the figures above are category A, the standard category.",
+    excluded="Employees whose earnings fall below the relevant threshold pay no employee Class 1 NIC (below the Primary Threshold) and attract no employer Class 1 NIC (below the Secondary Threshold). Employees who do not have to pay National Insurance at all — for example because they are under 16 — are reported under category letter X. Employees over State Pension age are category C, for which no employee contributions are due, while employer Class 1 NIC still applies. Earnings below the Lower Earnings Limit do not count towards the employee's qualifying year for contributory benefits.",
+    from_when="6 April 2026"),
+)
+
+EN_VAT_RETURN_DEADLINE = dict(
+  slug="en-vat-return-deadline", brand="en",
+  title="One month and 7 days, and who does not get the 7",
+  tags_en="#VAT #VATReturn #HMRCDeadlines #SmallBusinessUK #Bookkeeping #LimitedCompany",
+  EN=[
+    dict(type="hook",
+      kicker="VAT deadlines · gov.uk",
+      h1="Quarter ends 31 December. HMRC wants it by <em>7 February</em>.",
+      say="One calendar month and 7 days after your VAT period ends. That is the day the return has to be filed and the day the money has to be in HMRC's account. Not posted that day. In the account that day."),
+    dict(type="step",
+      step="One date, two jobs",
+      fig="1 month + 7 days",
+      say="The same date covers sending the return and paying. A return is due for every period even when there is nothing to pay — a nil return still goes in, and so does one where HMRC owes you money.",
+      note="A weekend or a bank holiday does not push it back. Pay by Direct Debit and HMRC takes the money 3 bank working days after that date."),
+    dict(type="step",
+      step="Who does not get the 7 days",
+      fig="7 days",
+      say="The extra 7 days come with filing online and paying electronically. Post a cheque and you get none of them: it has to clear by the end of the month after your period, even though the return on screen shows the later date.",
+      note="Same if you are on the Annual Accounting Scheme or you make payments on account. An annual return carries two months after the period end instead of one."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Which of the two dates is your business on?",
+    say="Tell us when your VAT period ends and how you pay, and we will give you the date the return is due and the date the money has to land.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["The deadline for submitting the online VAT Return and for the payment to reach HMRC's account is 1 calendar month and 7 days after the end of the accounting period; there is no extension where the deadline falls on a weekend or bank holiday",
+     "https://www.gov.uk/submit-vat-return", "2026-11-14"],
+    ["Statutory return due date is the last day of the month following the end of the return period; 7 extra calendar days for returns filed online and paid electronically; annual returns are due in 2 months rather than 1; Direct Debit is collected 3 bank working days after the extended deadline; Payment on Account and Annual Accounting Scheme businesses do not get the 7-day extension, and businesses paying by cheque by post get no extension at all",
+     "https://www.gov.uk/hmrc-internal-manuals/vat-accounting/vatac1300", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="All UK VAT-registered businesses on standard (normally quarterly) accounting periods that file the return online and pay electronically. A return is due for every period even if there is no VAT to pay or reclaim.",
+    excluded="Payment on Account businesses and Annual Accounting Scheme businesses do not get the 7-day extension to either the return or the payment; an annual return carries two months rather than one month. Businesses paying by cheque by post get no 7-day extension at all. Nil and repayment paper returns from businesses exempt from online filing must arrive by the standard due date.",
+    from_when="Current rule as read on 14 November 2026."),
+)
+
+EN_P11D_DEADLINE = dict(
+  slug="en-p11d-deadline", brand="en",
+  title="The company car is a form in July",
+  tags_en="#P11D #BenefitsInKind #Payroll #Employers #CompanyDirector #SmallBusinessUK",
+  EN=[
+    dict(type="hook",
+      kicker="Expenses and benefits · gov.uk",
+      h1="A company car or private medical cover? That is a form by <em>6 July</em>.",
+      say="If your company gave a director or an employee something on top of their wages, you tell HMRC about it on a P11D and a P11D(b) by 6 July after the tax year ends. For the year ending 5 April 2027, that is 6 July 2027."),
+    dict(type="step",
+      step="Two forms, three dates",
+      fig="22 July",
+      say="By 6 July the forms go to HMRC and each person gets a copy of what you reported about them. By 22 July you pay the National Insurance on those benefits — <b>15%</b> of what they were worth. 19 July if you pay by cheque.",
+      note="Late forms cost <cur>£</cur>100 for every 50 employees, for each month or part of a month."),
+    dict(type="step",
+      step="Who does not have to send one",
+      fig="No P11D",
+      say="If every benefit you gave somebody already went through your payroll and was taxed there, you send no P11D for them. Same if they had no taxable benefits at all, and same for an employer that gave none and owes no Class 1A.",
+      note="But the P11D(b) still goes in — that is the form that pays the National Insurance. And anyone taken off payrolling part-way through the year needs a P11D after all."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Not sure if what you gave counts?",
+    say="Tell us what the company paid for and we will tell you whether it is a reportable benefit, and which of the July dates it lands on.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["Deadline of 6 July following the end of the tax year to report expenses and benefits on P11D and P11D(b)",
+     "https://www.gov.uk/guidance/how-to-complete-forms-p11d-and-p11db", "2026-11-14"],
+    ["6 July deadline to give each director and relevant employee a copy of the information reported on their P11D; 22 July deadline to pay Class 1A National Insurance, or 19 July if paying by cheque; penalty of £100 per 50 employees for each month or part month a P11D(b) is late; no P11D is required for an employee whose benefits are all taxed through payroll, but a P11D(b) is still needed to pay any Class 1A owed",
+     "https://www.gov.uk/employer-reporting-expenses-benefits/deadlines", "2026-11-14"],
+    ["Class 1A National Insurance rate on expenses and benefits 2026/27 is 15%",
+     "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+    ["Payrolling benefits in kind becomes mandatory from 6 April 2027; until then payrolling is voluntary and the employer must register before the start of the tax year in which it wants to payroll",
+     "https://www.gov.uk/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="All UK employers that provided taxable expenses or benefits to directors or employees in the tax year.",
+    excluded="No P11D is required for an employee whose benefits are all being taxed through payroll, nor where there are no taxable items for that person. Payrolling does NOT remove the P11D(b): it is still needed to pay any Class 1A National Insurance owed. A P11D is still required after the end of the tax year for any employee removed from payrolling part-way through. Employers that provided no taxable expenses or benefits in the year and owe no Class 1A National Insurance have nothing to file.",
+    from_when="6 July after the end of each tax year (6 July 2027 for the 2026/27 tax year); Class 1A payment by 22 July, or 19 July by cheque"),
+)
+
+EN_CGT_EXEMPT_AMOUNT = dict(
+  slug="en-cgt-exempt-amount", brand="en",
+  title="The first £3,000 of a gain is free",
+  tags_en="#CapitalGainsTax #SelfAssessment #BuyToLet #Investing #UKProperty #SmallBusinessUK",
+  EN=[
+    dict(type="hook",
+      kicker="Capital Gains Tax 2026/27 · gov.uk",
+      h1="Sold shares or a second flat? The first <em>£3,000</em> of profit is free.",
+      say="What gets taxed is the profit you made, not the money you sold it for. The first £3,000 of that profit in a tax year is free of tax. Everyone gets it, once a year, and it starts again on 6 April."),
+    dict(type="step",
+      step="What you pay above it",
+      fig="18% / 24%",
+      say="Above the <cur>£</cur>3,000 it is <b>18%</b> or <b>24%</b>, and which one depends on your income, not on what you sold. The gain sits on top of your taxable income: the part inside the basic rate band, <cur>£</cur>37,700, is 18%, and the part above it is 24%.",
+      note="Sell a property that is not your own home and it is reported and paid within 60 days of completion — not the following January."),
+    dict(type="step",
+      step="Who does not use it",
+      fig="Your own home",
+      say="Selling the home you live in is normally not taxed at all, so none of the <cur>£</cur>3,000 is used. Nothing inside an ISA or a pension is taxed either. And a company gets no <cur>£</cur>3,000 — it pays Corporation Tax on its gains instead.",
+      note="Two limits: the <cur>£</cur>3,000 is yours alone — you cannot pass the unused part to a husband, wife or civil partner — and you cannot carry it into next year."),
+  ],
+  CTA_EN=dict(type="cta",
+    kicker="Ola Accountancy",
+    h1="Sold something this tax year?",
+    say="Tell us what you sold and when it completed, and we will tell you whether there is anything to report and by which date.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["CGT annual exempt amount 2026/27: £3,000 for individuals, £1,500 for other trustees; 18% for individuals on gains within the basic rate band and 24% above it",
+     "https://www.gov.uk/guidance/capital-gains-tax-rates-and-allowances", "2026-11-14"],
+    ["Basic rate band of £37,700 used to decide whether a gain is taxed at 18% or 24% for 2026/27",
+     "https://www.gov.uk/capital-gains-tax/rates", "2026-11-14"],
+    ["Residential property CGT rates for 2026-27 of 18% and 24% — the same as other assets",
+     "https://www.gov.uk/government/publications/budget-2025-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances", "2026-11-14"],
+    ["Annual exempt amounts and rates of £3,000 / £1,500 / 18% / 24% confirmed for 2026-27 at Budget 2026",
+     "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="UK-resident individuals disposing of chargeable assets in the tax year 6 April 2026 to 5 April 2027. CGT is reserved, so the same exempt amount and rates apply across England, Wales, Northern Ireland and Scotland.",
+    excluded="Companies do not pay CGT — they pay Corporation Tax on chargeable gains and get no annual exempt amount. Trustees other than trustees for disabled people get £1,500, not £3,000. Gains on your own home are normally not chargeable at all because of Private Residence Relief, and gains on assets inside an ISA or a pension are exempt. The £3,000 is per person per tax year, is not transferable between spouses or civil partners, and cannot be carried forward if unused. Gifts and transfers between spouses or civil partners living together are on a no-gain-no-loss basis, so no exempt amount is used.",
+    from_when="6 April 2026"),
+)
+
+
+DAY = [NI_SELF_EMPLOYED, CHILD_BENEFIT_CHARGE, UNIVERSAL_CREDIT, ISA_ALLOWANCE, SA_REGISTRATION,
+       BHAM_COUNCIL_TAX_REDUCTION, BHAM_ENERGY_PRICE_CAP, BHAM_REVERSE_CHARGE_VAT,
+       BHAM_FPS_DEADLINE, BHAM_DORMANT_COMPANY,
+       EN_CONFIRMATION_STATEMENT, EN_CLASS_1_NIC, EN_VAT_RETURN_DEADLINE,
+       EN_P11D_DEADLINE, EN_CGT_EXEMPT_AMOUNT]
+
+BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
+
+
+# ===================================================================== SOLOS
+# Written fresh every night. Never left in place from the previous run.
+SOLOS = [
+
+dict(slug="ola-solo-alocatia-personala", brand="ola", lang="ro",
+  slide=dict(type="solo",
+    kicker="Personal Allowance · gov.uk",
+    h1="Poți câștiga <em>£12.570</em> pe an fără Income Tax.",
+    rows=[["<cur>£</cur>12.570", "valabil din 6 aprilie 2026"],
+          ["Automat",           "prin codul de taxă din salariu"],
+          ["Exclus",            "venit de £125.140 sau peste"]],
+    ask="Nu ești sigur dacă ai codul de taxă corect? Ne uităm împreună peste cifrele tale.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  caption="""Primii £12.570 pe care îi câștigi într-un an nu se impozitează. Asta este Personal Allowance: partea din venitul tău pe care HMRC o lasă neatinsă înainte să înceapă Income Tax.
+
+Cum ajunge la tine. Nu depui nicio cerere. Dacă ești angajat, alocația intră în codul de taxă care apare pe fluturașul tău de salariu. Dacă ești self-employed, se aplică în calculul de Self Assessment.
+
+De când. Din 6 aprilie 2026, pentru anul fiscal 2026/27.
+
+Cine nu o primește. Peste £100.000 venit, Personal Allowance scade cu £1 pentru fiecare £2 în plus. La £125.140 sau peste, nu mai rămâne nimic din ea.
+
+Un singur lucru merită verificat: codul de taxă. Dacă este greșit, fie plătești prea mult în fiecare lună, fie rămâi dator la HMRC mai târziu. Se întâmplă des când schimbi jobul sau când ai două locuri de muncă în paralel.
+
+Nu ești sigur ce cod ai? Scrie-ne și ne uităm împreună peste cifrele tale.
+
+Ola Accountancy — Luton · Birmingham, 0330 133 1886
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #PersonalAllowance #IncomeTax #HMRC #SelfAssessment #RomaniInUK""",
+  tt_title="Personal Allowance 2026/27: £12.570 pe an fără Income Tax",
+  SOURCES=[["Standard Personal Allowance of £12,570 for 2026/27, the £1-for-every-£2 taper and the £125,140 point at which the allowance is nil", "https://www.gov.uk/income-tax-rates", "2026-11-14"],
+           ["£100,000 income limit above which the Personal Allowance is tapered", "https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past", "2026-11-14"],
+           ["Budget 2026 confirming the Personal Allowance and £100,000 income limit unchanged for 2026-27", "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances", "2026-11-14"]],
+  SCOPE=dict(nation="UK for everything on this frame. The £12,570 Personal Allowance and the £100,000/£125,140 taper are reserved and apply to Scottish taxpayers too, so no nation is named. The 20/40/45% rates and the £37,700 basic rate limit, which ARE England, Wales and Northern Ireland only, were deliberately kept off the frame for that reason.",
+             category="Income Tax — the tax-free Personal Allowance for 2026/27",
+             excluded="Anyone with adjusted net income of £125,140 or more gets no Personal Allowance at all, because of the taper that starts at £100,000. Companies are outside Income Tax entirely — they pay Corporation Tax. Deliberately left off the frame: the 20/40/45% rates and the Scottish bands, which would have required a nation row and crowded out the real exclusion.",
+             from_when="6 April 2026. Automatic — it is applied through the tax code, never claimed.")),
+
+dict(slug="ola-solo-maternity-pay", brand="ola", lang="ro",
+  slide=dict(type="solo",
+    kicker="Statutory Maternity Pay · gov.uk",
+    h1="Poți primi până la <em>£194,32</em> pe săptămână, 39 de săptămâni.",
+    rows=[["<cur>£</cur>194,32",  "sau 90% din salariu, dacă e mai mic"],
+          ["Prin angajator",      "îl anunți cu 28 de zile înainte"],
+          ["Exclus",              "self-employed sau sub 26 de săptămâni vechime"]],
+    ask="Nu știi dacă te califici? Verificăm împreună vechimea și salariul tău.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  caption="""Dacă ești angajată și aștepți un copil, angajatorul îți plătește Statutory Maternity Pay prin salariu, până la 39 de săptămâni.
+
+Cum se împarte:
+— primele 6 săptămâni: 90% din salariul tău săptămânal mediu, fără plafon;
+— următoarele 33 de săptămâni: £194,32 pe săptămână sau 90% din salariul mediu, dacă acesta este mai mic.
+
+Ce ai de făcut. Îți anunți angajatorul cu 28 de zile înainte de ziua în care vrei să înceapă plata și îi duci dovada sarcinii, de obicei certificatul MATB1 de la medic sau de la moașă. Dovada trebuie să ajungă la el în primele 3 săptămâni de la începerea perioadei de plată.
+
+Concediul poate începe cel mai devreme cu 11 săptămâni înainte de săptămâna în care este așteptat copilul.
+
+Cine nu primește Statutory Maternity Pay. Cei care nu au cel puțin 26 de săptămâni de vechime neîntreruptă la același angajator, continuate până în a 15-a săptămână dinainte de naștere. Cei care nu erau pe payroll în acea săptămână. Cei al căror salariu săptămânal mediu este sub Lower Earnings Limit, pragul minim de câștiguri pentru National Insurance. Și cei care nu dau anunțul sau dovada cerută. Dacă ești self-employed nu intri aici, dar se poate să ai dreptul la Maternity Allowance.
+
+Ești angajator? Recuperezi de la HMRC 92% din ce plătești, sau 109% dacă National Insurance Class 1 din anul fiscal trecut a fost £45.000 sau mai puțin.
+
+Nu știi dacă te califici? Verificăm împreună vechimea și salariul tău.
+
+Ola Accountancy — Luton · Birmingham, 0330 133 1886
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #StatutoryMaternityPay #Payroll #HMRC #RomaniInUK""",
+  tt_title="Statutory Maternity Pay: până la £194,32 pe săptămână, 39 de săptămâni",
+  SOURCES=[["SMP standard rate of £194.32 a week for the remaining 33 weeks, 90% of average weekly earnings for the first 6 weeks, and the 92% / 109% employer recovery against the £45,000 Class 1 National Insurance threshold", "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+           ["SMP paid for up to 39 weeks and maternity leave starting at the earliest 11 weeks before the expected week of childbirth", "https://www.gov.uk/employers-maternity-pay-leave", "2026-11-14"],
+           ["Qualifying conditions: at least 26 weeks' continuous employment into the qualifying week, average weekly earnings at or above the Lower Earnings Limit, 28 days' notice, and medical evidence within 3 weeks of the start of the maternity pay period", "https://www.gov.uk/hmrc-internal-manuals/statutory-payments-manual/spm120200", "2026-11-14"],
+           ["Proof of pregnancy the employee must give the employer (doctor's letter or MATB1 maternity certificate)", "https://www.gov.uk/employers-maternity-pay-leave/eligibility-and-proof-of-pregnancy", "2026-11-14"]],
+  SCOPE=dict(nation="UK",
+             category="Statutory pay — Statutory Maternity Pay for employees",
+             excluded="Employees with less than 26 weeks' continuous employment into the qualifying week; those not on the payroll in the qualifying week; those whose average weekly earnings are below the Lower Earnings Limit; those who do not give the required 28 days' notice; and those who do not supply evidence of the due or birth date. Anyone who is not an employee of a UK employer — including the self-employed — is excluded, and may be able to claim Maternity Allowance instead.",
+             from_when="SMP rate for the 2026/27 tax year. Not automatic: notice and medical evidence must be given to the employer.")),
+
+dict(slug="bham-solo-household-energy-payment", brand="bham", lang="en",
+  slide=dict(type="solo",
+    kicker="Household Energy Payment · gov.uk",
+    h1="You can get <em>£100</em> towards your energy costs.",
+    rows=[["<cur>£</cur>100",     "one payment, bands A to D"],
+          ["Through the council", "expected to start in January 2027"],
+          ["Excluded",            "bands E to H, second homes"]],
+    ask="The detailed rules have not been published yet. Our Birmingham office on Washwood Heath Road will go through your band with you when they are.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  caption="""From January 2027 the government is putting £100 towards household energy costs, and it comes through the council tax system.
+
+The core scheme is for homes in council tax bands A to D. One payment of £100 per eligible household, at your sole or main residence. A property that is not your main home is outside it.
+
+Bands E to H are not in the core scheme. There is a separate £100 million discretionary fund that lets councils reach some households in those bands, and each council decides how it uses its share.
+
+Now the part that matters more than the figure.
+
+The department has published the amount, the bands and the timing. It has not yet published the detail on who exactly qualifies and how the payment is made — whether anything has to be applied for, and whether the £100 arrives as a credit on your bill or as a payment to you. Plenty of pages are already saying it is automatic. That is not coming from the department, so we are not saying it either.
+
+So there is nothing to do today. Watch for the official guidance on gov.uk, and when someone messages you a link asking for a fee to claim it for you, that is not how this works.
+
+One more thing worth being clear about. This is the Household Energy Payment. It is not the Winter Fuel Payment and it is not a council tax rebate.
+
+Your band is printed on your council tax bill.
+
+Ola Accountancy — Birmingham, 0330 133 1886. General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #CouncilTax #CostOfLiving""",
+  tt_title="£100 towards energy from January: who gets it",
+  SOURCES=[["£100 one-off payment per eligible household, council tax bands A to D, expected to begin January 2027, delivered through the council tax system at the sole or main residence; the separate £100 million discretionary fund for bands E to H; MHCLG's statement that detailed guidance on eligibility and payment arrangements is still to come",
+            "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027", "2026-11-13"]],
+  SCOPE=dict(
+    nation="England. The scheme covers England and the audience is in England, so no nation is named anywhere on the frame.",
+    category="Households in England in council tax bands A to D, at their sole or main residence, delivered through the council tax system.",
+    excluded="Bands E to H are outside the core scheme, though a separate £100m discretionary fund lets councils reach some of them. A property that is not a sole or main residence. Scotland, Wales and Northern Ireland entirely.",
+    from_when="Expected to begin January 2027. NOT stated as automatic: MHCLG has published the amount, the nation, the bands and the timing, but not whether households must apply or whether the £100 arrives as a bill credit or a separate payment. Nothing on the frame or in the caption says it is automatic. Recheck after 15 December 2026.")),
+
+dict(slug="bham-solo-vat-annual-accounting", brand="bham", lang="en",
+  slide=dict(type="solo",
+    kicker="VAT Annual Accounting Scheme · gov.uk",
+    h1="Under <em>£1,350,000</em> of sales, you file one VAT return a year.",
+    rows=[["<cur>£</cur>1,350,000", "expected turnover, before VAT"],
+          ["Apply",                 "on form VAT600AA, never automatic"],
+          ["Excluded",              "VAT groups, insolvency, growing VAT debts"]],
+    ask="Not sure whether one return a year would suit your cash flow? Our Birmingham office on Washwood Heath Road will work it through with you.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  caption="""Four VAT returns a year, four deadlines, four hunts for the paperwork. There is a scheme that turns that into one.
+
+It is called the VAT Annual Accounting Scheme. You send HMRC one VAT return a year instead of four, and you pay towards the bill as you go.
+
+By default you make nine monthly instalments, each one 10% of last year's VAT liability. Ask HMRC and you can make three instalments instead, each 25%, due in months 4, 7 and 10. Then, two months after your accounting year ends, you send the one return and either pay the balance or claim the difference back.
+
+For a takeaway, a barber shop, a taxi firm or a small building outfit, that is the useful part. The VAT starts to look like a standing order instead of a bill that lands four times a year and has to be found.
+
+You can join if you expect taxable supplies of £1,350,000 or less. That figure leaves out the VAT itself, exempt supplies and the sale of capital assets such as a van. You are withdrawn from the scheme once taxable supplies go over £1,600,000 a year, usually at the end of the accounting year in which it happens.
+
+You cannot join if you are registered for VAT as part of a group or as a division, if you stopped using annual accounting in the last 12 months, if the business is insolvent, or if you have a growing VAT debt. A small debt with agreed repayment proposals may still be alright.
+
+None of it is automatic. You apply on form VAT600AA at gov.uk. If you are not VAT registered yet you can register and apply at the same time, and if you want annual accounting alongside the Flat Rate Scheme that is form VAT600FRS as well.
+
+One timing point to keep in mind. If an accounting period under the scheme runs for less than 4 months, the return and the balancing payment are due 1 month after the period ends, not 2.
+
+Ola Accountancy — Birmingham, 0330 133 1886. General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Sparkhill #VAT #SmallBusinessUK""",
+  tt_title="One VAT return a year instead of four",
+  SOURCES=[["£1,350,000 of expected taxable supplies is the limit to join the scheme; the figure excludes VAT, exempt supplies and sales of capital assets; £1,600,000 is the point above which you are withdrawn; nine instalments of 10% by default or three of 25% on request in months 4, 7 and 10; the annual return and balancing payment due within 2 months of the year end, or 1 month for a part-year period under 4 months; who cannot use the scheme, and application on form VAT600AA with VAT600FRS alongside the Flat Rate Scheme",
+            "https://www.gov.uk/guidance/vat-annual-accounting-notice-732", "2026-11-14"],
+           ["Official scheme page", "https://www.gov.uk/vat-annual-accounting-scheme", "2026-11-14"]],
+  SCOPE=dict(
+    nation="UK. The scheme is UK-wide with no Northern Ireland difference, so no nation appears anywhere on the frame.",
+    category="VAT-registered businesses expecting taxable supplies of up to £1,350,000, filing one VAT Return a year instead of four and paying by instalments.",
+    excluded="You cannot use the scheme if you are registered for VAT as part of a company group or as a division; if you stopped using annual accounting in the previous 12 months; if your business is insolvent; or if you have a growing VAT debt (a small debt with agreed repayment proposals may still allow entry). You must also leave once taxable supplies exceed £1,600,000 a year.",
+    from_when="Current rule as read on 14 November 2026. Not automatic: it must be applied for on form VAT600AA.")),
+
+dict(slug="en-solo-hmrc-interest", brand="en", lang="en",
+  slide=dict(type="solo",
+    kicker="HMRC interest rates · gov.uk",
+    h1="You have until 24 November before late payment interest rises to <em>8%</em>.",
+    rows=[["7.75<cur>%</cur>", "the rate charged until then"],
+          ["Automatic",        "HMRC adds it, nothing to claim"],
+          ["Excluded",         "Corporation Tax instalments, charged separate rates"]],
+    ask="Paid HMRC late this year and not sure what it has cost you? Send us the amounts and the dates and we will work the figure out with you.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  caption="""Interest is not a penalty. It is the price of paying HMRC late, and it runs for every day the money is outstanding.
+
+Today HMRC charges 7.75% a year on tax paid late. From 24 November 2026 that goes up to 8.00%. It works the other way too: if HMRC owes you money, repayment interest is 2.75% now and 3.00% from 24 November 2026.
+
+Nobody claims any of this. HMRC applies it automatically, charged when you pay late and added when you are owed.
+
+Two things worth knowing.
+
+Late payment interest sits on top of any late payment penalty. They are two separate charges.
+
+Corporation Tax paid by quarterly instalments is not charged the main rate. Separate rates apply to those instalments.
+
+And if you pay in full and on time, no late payment interest is charged at all. That is the whole of it.
+
+Paid HMRC late this year and not sure what it has cost you? Send us the amounts and the dates and we will work the figure out with you.
+
+Ola Accountancy
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #SelfAssessment #HMRC #SmallBusinessUK #SoleTrader #LimitedCompany #TaxDeadline""",
+  tt_title="HMRC late payment interest is 7.75% today and 8% from 24 November",
+  SOURCES=[["Late payment interest 7.75% and repayment interest 2.75% in force from 9 January 2026; 8.00% and 3.00% from 24 November 2026; separate Corporation Tax instalment rates", "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates", "2026-11-14"],
+           ["Bank Rate of 4% set on 5 November 2026, which drives the HMRC rate change", "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate", "2026-11-14"]],
+  SCOPE=dict(nation="UK",
+    category="HMRC late payment and repayment interest",
+    excluded="Corporation Tax paid by quarterly instalments is not charged the main rates — separate and lower rates apply. Taxpayers who pay in full and on time are charged no late payment interest at all. Repayment interest is not paid below its 0.5% floor.",
+    from_when="9 January 2026 for the 7.75% and 2.75% rates currently in force; 24 November 2026 for the 8.00% and 3.00% rates")),
+
+dict(slug="en-solo-budget-payment-plan", brand="en", lang="en",
+  slide=dict(type="solo",
+    kicker="Budget Payment Plan · gov.uk",
+    h1="You can pay your next tax bill in advance and pause for <em>6 months</em>.",
+    rows=[["Weekly or monthly", "Direct Debit, an amount you choose"],
+          ["Applied for",       "in your Self Assessment online account"],
+          ["Excluded",          "anyone behind on last year's payments"]],
+    ask="Not sure what you should be putting aside? Tell us what you paid HMRC last time and we will work the figure out with you.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  caption="""The Self Assessment bill is never a surprise in itself. The size of it is.
+
+HMRC runs something called a Budget Payment Plan. You pay towards your next bill in advance by Direct Debit, weekly or monthly. You choose how often and you choose how much. Every payment is credited against that next bill, so there is less to find when the deadline arrives.
+
+If money gets tight, you can pause the payments for up to 6 months.
+
+Three things to know before you set one up.
+
+You must be up to date with any payments from your last Self Assessment tax bill. If you are behind, this is not your route. Someone who has missed a deadline or cannot pay what they owe needs a Time to Pay arrangement instead.
+
+You need your payment reference: 11 characters, your UTR followed by the letter K.
+
+If what you have paid does not cover the whole bill, the rest is still due by the deadline. If you end up in credit, you can ask for a refund.
+
+You set it up yourself. Sign in to your Self Assessment online account, choose Direct Debit, then the Budget Payment Plan option, and pick your amount and frequency. It costs nothing to do.
+
+Not sure what you should be putting aside? Tell us what you paid HMRC last time and we will work the figure out with you.
+
+Ola Accountancy
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #SelfAssessment #HMRC #BudgetPaymentPlan #SoleTrader #SmallBusinessUK #DirectDebit""",
+  tt_title="Pay your next tax bill in advance with HMRC's Budget Payment Plan",
+  SOURCES=[["Weekly or monthly Direct Debit towards the next Self Assessment bill, amount and frequency chosen by the taxpayer; payments can be paused for up to 6 months; the 11-character payment reference is the UTR followed by K; you must be up to date with any payments from your last Self Assessment tax bill", "https://www.gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly", "2026-11-14"]],
+  SCOPE=dict(nation="UK",
+    category="Self Assessment payment facility",
+    excluded="You cannot set up a Budget Payment Plan unless you are up to date with any payments from your last Self Assessment tax bill. It is not a route for paying off an overdue bill: anyone who has missed a Self Assessment payment deadline or cannot pay what they owe needs a Time to Pay arrangement instead. It also requires a Self Assessment online account and a Direct Debit.",
+    from_when="Standing HMRC facility, available now; payments count towards the next Self Assessment bill.")),
+]
+
+SOLO_BY_SLUG = {s["slug"]: s for s in SOLOS}
+
+
+# --- register fixes applied after the checker round, 14 Nov 2026 ---
+_FIXES = {'ola-ni-pe-cont-propriu': {'RO': [{'type': 'hook', 'kicker': 'National Insurance · gov.uk', 'h1': 'Ești self-employed? Class 2 nu mai cere nimic de la <em>£7,105</em>', 'say': 'Să zicem că ai avut un an bun și ți-au rămas £20,000 profit. Class 2 National Insurance nu îți cere niciun ban. De la £7,105 profit pe an în sus, HMRC îl consideră plătit și anul îți rămâne în istoric.'}, {'type': 'step', 'step': 'Class 4, partea care se plătește', 'fig': '<cur>£</cur>12,570', 'say': 'Class 4 se plătește doar pe profitul de peste £12,570 pe an: 6% până la £50,270 și 2% peste. Nu se cere separat — se calculează și se plătește prin Self Assessment, odată cu impozitul.', 'note': 'Profitul nu e totalul încasat. E ce rămâne după ce scazi cheltuielile de lucru.'}, {'type': 'step', 'step': 'Cine nu plătește', 'fig': '<cur>£</cur>7,105', 'say': 'Sub £7,105 profit pe an nu ești obligat să plătești nimic. Poți plăti Class 2 de bunăvoie, £3.65 pe săptămână, dacă vrei să îți păstrezi anul în istoricul de National Insurance.', 'note': 'Nu plătesc nici preoții și pastorii care nu primesc salariu sau stipendiu.'}], 'caption_ro': 'Ești self-employed în UK și te întrebi ce înseamnă, de fapt, National Insurance pe hârtiile tale? Hai să îl luăm pe bucăți, simplu.\n\nClass 2. În anul 2026/27, dacă profitul tău este de £7,105 pe an sau mai mult, Class 2 este considerat plătit. Adică nu scoți niciun ban din buzunar pentru el, iar anul tot îți rămâne în istoricul de National Insurance.\n\nClass 4. Aici chiar plătești, dar doar pe profitul de peste £12,570 pe an: 6% până la £50,270 și 2% pe ce trece de £50,270. Nu ceri nimic și nu completezi niciun formular separat — se calculează singur în Self Assessment și se plătește odată cu impozitul.\n\nAtenție la un lucru pe care mulți îl încurcă: profitul nu e totalul încasat. Profitul este ce rămâne după ce scazi cheltuielile de lucru din banii intrați.\n\nCine nu plătește:\n• dacă profitul tău este sub £7,105 pe an, nu ești obligat la nimic. Poți plăti Class 2 de bunăvoie, £3.65 pe săptămână, dacă vrei să îți păstrezi anul în istoric\n• preoții și pastorii care nu primesc salariu sau stipendiu\n• cei care fac investiții pentru ei sau pentru alții, atât timp cât nu e o activitate comercială și nu primesc onorariu sau comision\n\nSumele de mai sus sunt pentru anul fiscal care a început pe 6 aprilie 2026 și sunt valabile în tot Regatul Unit.\n\nScrie-ne pe WhatsApp: 0330 133 1886\nLuton · Birmingham\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#NationalInsurance #PeContPropriu #SelfAssessment #HMRC #Class4 #RomaniInUK'}, 'ola-inregistrare-self-assessment': {'RO': [{'type': 'hook', 'kicker': 'Self Assessment · gov.uk', 'h1': 'Ai început ca self-employed? Anunță HMRC până pe <em>5 octombrie 2027</em>', 'say': 'Să zicem că ai început să lucrezi ca self-employed în mai 2026. Anul fiscal acela s-a încheiat pe 5 aprilie 2027, iar de la încheierea lui ai la dispoziție șase luni ca să îi spui lui HMRC că ai de depus declarație. Regula e mereu aceeași, în orice an.'}, {'type': 'step', 'step': 'Nu e data declarației', 'fig': '5 octombrie', 'say': 'Pe 5 octombrie doar te înregistrezi și primești numărul tău de contribuabil, Unique Taxpayer Reference. Nu este data la care depui declarația și nici data la care plătești impozitul.', 'note': 'Te înregistrezi pe gov.uk, prin serviciul Check how to register for Self Assessment.'}, {'type': 'step', 'step': 'Cine nu se înregistrează din nou', 'fig': '<cur>£</cur>0', 'say': 'Dacă HMRC ți-a trimis deja cererea de a depune declarația, sau dacă te-ai înregistrat și ai depus declarație și anul trecut, nu mai ai ce înregistra.', 'note': 'Penalizarea e un procent din impozitul rămas neplătit. Dacă nu rămâne impozit neplătit, nu e penalizare.'}], 'EN': [{'type': 'hook', 'kicker': 'Self Assessment · gov.uk', 'h1': 'New to self-employment? Tell HMRC by <em>5 October 2027</em>', 'say': 'Say you started working for yourself in May 2026. That tax year ended on 5 April 2027, and from that year end you have six months to tell HMRC a return is coming. The rule never moves, whatever the year.'}, {'type': 'step', 'step': 'Not the filing date', 'fig': '5 October', 'say': '5 October is only the date you register and get your Unique Taxpayer Reference. It is not the date the return is due, and it is not the date the tax is paid.', 'note': 'You register through the Check how to register for Self Assessment service on gov.uk.'}, {'type': 'step', 'step': 'Who does not register again', 'fig': '<cur>£</cur>0', 'say': 'If HMRC has already sent you a notice to file, or you registered and filed a return last year, there is nothing to register.', 'note': 'The penalty is a percentage of the tax left unpaid. No unpaid tax means no penalty.'}], 'CTA_EN': {'type': 'cta', 'kicker': 'Ola Accountancy · Luton and Birmingham', 'h1': 'Unsure whether you need to register for <em>Self Assessment</em>?', 'say': 'Message us on WhatsApp, tell us what you have earned this year, and we will tell you plainly where you stand and by when. First consultation £120 (VAT included).', 'phone': '0330 133 1886', 'disc': 'General information. For your own situation, speak to an accountant.'}, 'caption_ro': 'Ai început să lucrezi ca self-employed și nimeni nu ți-a spus clar până când trebuie să anunți HMRC? Uite regula, pe scurt.\n\nÎi spui lui HMRC că ai de depus declarație până pe 5 octombrie de după încheierea anului fiscal. Anul fiscal începe pe 6 aprilie și se încheie pe 5 aprilie.\n\nUn exemplu cu date reale: ai început ca self-employed în mai 2026. Anul fiscal acela s-a încheiat pe 5 aprilie 2027, deci îl anunți pe HMRC până pe 5 octombrie 2027. În lege este scris ca șase luni de la încheierea anului fiscal — tot acolo ajungi.\n\nȘi ca să nu rămână niciun dubiu: 5 octombrie nu este data la care depui declarația și nu este data la care plătești impozitul. Pe 5 octombrie doar te înregistrezi și primești numărul tău de contribuabil, Unique Taxpayer Reference. Te înregistrezi pe gov.uk, prin serviciul Check how to register for Self Assessment.\n\nCine nu are ce înregistra:\n• cine a primit deja de la HMRC cererea de a depune declarația\n• cine s-a înregistrat și a depus declarație și pentru anul trecut\n• mai există și o excepție prevăzută de lege, pentru cine nu rămâne cu impozit de plată pe anul acela și nu are câștiguri de impozitat\n\nDespre penalizări: nu este o sumă fixă, ci un procent din impozitul rămas neplătit. Dacă nu a rămas impozit neplătit, nu există penalizare.\n\nScrie-ne pe WhatsApp: 0330 133 1886\nLuton · Birmingham\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#SelfAssessment #HMRC #PeContPropriu #Termene #RomaniInUK'}, 'ola-child-benefit-taxa': {'RO': [{'type': 'hook', 'kicker': 'High Income Child Benefit Charge · gov.uk', 'h1': 'Câștigi peste <em>£60,000</em> și acasă intră Child Benefit?', 'say': 'Să zicem că ai un venit de £64,000 și în casă se primesc banii de Child Benefit. Atunci apare și taxa, iar ea cade pe cel cu venitul mai mare: nu se oprește nimic de la sine, o parte din bani se dă înapoi prin Self Assessment.'}, {'type': 'step', 'step': 'Cum crește taxa', 'fig': '1% la fiecare £200', 'say': 'Pentru fiecare £200 de venit peste £60,000 dai înapoi 1% din Child Benefit-ul primit în anul acela. La £80,000 taxa ajunge egală cu toată suma.', 'note': 'Se uită la venitul net ajustat, nu la salariul brut. Contribuțiile la pensie îl scad.'}, {'type': 'step', 'step': 'Cine nu plătește', 'fig': '<cur>£</cur>60,000', 'say': 'Cu venit net ajustat de £60,000 sau mai puțin, nu plătești nimic. Pragul este pe persoană, nu pe familie: doi părinți cu câte £59,000 fiecare nu plătesc deloc.', 'note': 'Dacă amândoi sunteți peste £60,000, plătește doar cel cu venitul mai mare.'}], 'EN': [{'type': 'hook', 'kicker': 'High Income Child Benefit Charge · gov.uk', 'h1': 'Earning over <em>£60,000</em> with Child Benefit coming in?', 'say': 'Say your income is £64,000 and Child Benefit is being paid into the household. The charge then applies to the higher earner. Nothing stops by itself — some of it is paid back through Self Assessment.'}, {'type': 'step', 'step': 'How the charge builds', 'fig': '1% per £200', 'say': 'For every £200 of income above £60,000, you pay back 1% of the Child Benefit received that year. At £80,000 the charge matches the full amount.', 'note': 'It is measured on adjusted net income, not gross pay. Pension contributions reduce it.'}, {'type': 'step', 'step': 'Who does not pay it', 'fig': '<cur>£</cur>60,000', 'say': 'On adjusted net income of £60,000 or less, there is nothing to pay. The threshold is per person, not per household: two parents on £59,000 each pay nothing.', 'note': 'Where both partners are over £60,000, only the higher earner pays the charge.'}]}, 'ola-universal-credit': {'RO': [{'type': 'hook', 'kicker': 'Universal Credit · gov.uk', 'h1': 'Suma de bază la Universal Credit: <em>£424.90</em> pe lună', 'say': 'Ai 28 de ani, stai singur în Luton și ai rămas fără lucru. Suma de bază pe care se construiește Universal Credit este £424.90 pe lună în anul 2026/27. Nu vine de la sine — trebuie cerută.'}, {'type': 'step', 'step': 'Cele patru sume de bază', 'fig': '<cur>£</cur>666.97', 'say': 'Singur, sub 25 de ani: £338.58 pe lună. Singur, 25 de ani sau peste: £424.90. În cuplu, amândoi sub 25: £528.34. În cuplu, unul are 25 sau peste: £666.97.', 'note': 'Sumele pentru cuplu sunt pentru amândoi la un loc, nu de fiecare. Cuplurile cer împreună.'}, {'type': 'step', 'step': 'Cine nu primește', 'fig': '<cur>£</cur>16,000', 'say': 'Cu peste £16,000 în bani, economii și investiții nu primești Universal Credit. Nici cuplurile în care amândoi au ajuns la State Pension age — acolo cererea se oprește.', 'note': 'În Irlanda de Nord este un serviciu separat. Majoritatea studenților la zi nu primesc, în afara câtorva excepții.'}], 'caption_ro': 'Cât înseamnă, în bani, suma de bază de la Universal Credit în anul 2026/27? Iată cifrele, fără ocolișuri.\n\nSuma de bază, pe lună:\n• singur, sub 25 de ani — £338.58\n• singur, 25 de ani sau peste — £424.90\n• în cuplu, amândoi sub 25 de ani — £528.34\n• în cuplu, unul dintre voi are 25 sau peste — £666.97\n\nDouă precizări importante. Sumele pentru cuplu sunt pentru amândoi la un loc, nu de fiecare în parte, iar cuplurile fac o cerere împreună. Și nimic din toate astea nu vine de la sine: Universal Credit trebuie cerut, iar calea obișnuită este contul online de pe gov.uk.\n\nCine nu primește:\n• cine are peste £16,000 în bani, economii și investiții\n• cuplurile în care amândoi au ajuns la State Pension age — acolo cererea se oprește\n• majoritatea celor care fac studii la zi, în afara unor excepții clare\n• cine nu locuiește în Regatul Unit\n\nUn lucru de reținut: în Irlanda de Nord, Universal Credit este un serviciu separat, cu cerere separată. Cifrele de mai sus sunt cele din ghidul pentru Marea Britanie, în vigoare din aprilie 2026.\n\nScrie-ne pe WhatsApp: 0330 133 1886\nLuton · Birmingham\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#UniversalCredit #DWP #Luton #Birmingham #RomaniInUK'}, 'bham-fps-deadline': {'EN': [{'type': 'hook', 'kicker': 'PAYE Real Time Information · gov.uk', 'h1': 'Pay your staff on Friday, tell HMRC <em>on Friday</em>.', 'say': 'Every time you pay someone, your payroll software sends HMRC a report of what you paid them and what you took off. It goes on the payday or before it. Not at the end of the month, not when the money clears.'}, {'type': 'step', 'step': 'If the report is late', 'fig': '<cur>£</cur>100', 'say': '£100 a month with 1 to 9 people on the payroll. £200 for 10 to 49, £300 for 50 to 249, £400 for 250 or more. It is charged every month it is late, and separately for each PAYE scheme you run.', 'note': 'Three months late and HMRC can add 5% of the tax and National Insurance that should have been on the missing report. That one is for the worst cases.'}, {'type': 'step', 'step': 'When there is no penalty', 'fig': '3 days', 'say': 'No penalty if everything on the report is within 3 days of payday — though if that happens every week, HMRC may still contact you or consider a penalty. None for your first late report in a tax year, unless yours is a once-a-year payroll scheme. And a brand new employer is not penalised if the first report went in within 30 days of the first payday.', 'note': 'Paid nobody at all in a tax month? No report is due. You send an Employer Payment Summary instead.'}]}}
+_SOLO_FIXES = {'ola-solo-maternity-pay': {'slide': {'type': 'solo', 'kicker': 'Statutory Maternity Pay · gov.uk', 'h1': 'Poți primi până la <em>£194.32</em> pe săptămână, 39 de săptămâni.', 'rows': [['<cur>£</cur>194.32', 'sau 90% din salariu, dacă e mai mic'], ['Prin angajator', 'îl anunți cu 28 de zile înainte'], ['Exclus', 'self-employed sau sub 26 de săptămâni vechime']], 'ask': 'Nu știi dacă te califici? Verificăm împreună vechimea și salariul tău.', 'phone': '0330 133 1886', 'disc': 'Informații generale. Pentru situația ta, vorbește cu un contabil.'}, 'caption': 'Dacă ești angajată și aștepți un copil, angajatorul îți plătește Statutory Maternity Pay prin salariu, până la 39 de săptămâni.\n\nCum se împarte:\n— primele 6 săptămâni: 90% din salariul tău săptămânal mediu, fără plafon;\n— următoarele 33 de săptămâni: £194.32 pe săptămână sau 90% din salariul mediu, dacă acesta este mai mic.\n\nCe ai de făcut. Îți anunți angajatorul cu 28 de zile înainte de ziua în care vrei să înceapă plata și îi duci dovada sarcinii, de obicei certificatul MATB1 de la medic sau de la moașă. Dovada trebuie să ajungă la el în primele 3 săptămâni de la începerea perioadei de plată.\n\nConcediul poate începe cel mai devreme cu 11 săptămâni înainte de săptămâna în care este așteptat copilul.\n\nCine nu primește Statutory Maternity Pay. Cei care nu au cel puțin 26 de săptămâni de vechime neîntreruptă la același angajator, continuate până în a 15-a săptămână dinainte de naștere. Cei care nu erau pe payroll în acea săptămână. Cei al căror salariu săptămânal mediu este sub Lower Earnings Limit, pragul minim de câștiguri pentru National Insurance. Și cei care nu dau anunțul sau dovada cerută. Dacă ești self-employed nu intri aici, dar se poate să ai dreptul la Maternity Allowance.\n\nCa să știi de unde vin banii: angajatorul recuperează de la HMRC 92% din ce îți plătește, sau 109% dacă National Insurance Class 1 din anul fiscal trecut a fost £45,000 sau mai puțin.\n\nNu știi dacă te califici? Verificăm împreună vechimea și salariul tău.\n\nOla Accountancy — Luton · Birmingham, 0330 133 1886\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #StatutoryMaternityPay #Payroll #HMRC #RomaniInUK'}}
+
+for _sl, _f in _FIXES.items():
+    _t = BY_SLUG[_sl]
+    for _k in ("RO", "EN", "CTA_RO", "CTA_EN"):
+        if _k in _f:
+            _t[_k] = _f[_k]
+for _sl, _f in _SOLO_FIXES.items():
+    _s = SOLO_BY_SLUG[_sl]
+    if "slide" in _f: _s["slide"] = _f["slide"]
+    if "caption" in _f: _s["caption"] = _f["caption"]
+_CAPTION_FIXES = {sl: {k[8:]: v for k, v in f.items() if k.startswith("caption_")}
+                  for sl, f in _FIXES.items()}
+_CAPTION_FIXES = {k: v for k, v in _CAPTION_FIXES.items() if v}
+
+# Yesterday's five-per-brand set retires into ARCHIVE so nothing is silently lost.
+ARCHIVE = ARCHIVE + [
+  OLA_IMPRUMUT_DIRECTOR, OLA_ALOCATIE_INVESTITII, OLA_PENSION_CREDIT,
+  OLA_PLATA_REDUNDANTA, OLA_TVA_COTA_FIXA,
+  BHAM_BUSINESS_RATES_RELIEF, BHAM_CLEAN_AIR_ZONE, BHAM_FOOD_BUSINESS_REGISTRATION,
+  BHAM_SELECTIVE_LICENSING, BHAM_PAYROLLING_BENEFITS,
+  EN_CORPORATION_TAX_MARGINAL_RELIEF, EN_VAT_ON_FOOD, EN_PROPERTY_ALLOWANCE,
+  EN_PENSION_TAX_RELIEF, EN_STUDENT_LOAN_PLANS,
+]
+BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
+
+# --- layout trims: the footer gate measured these frames as clipped. Figures and
+# --- exclusions are unchanged; only the sentence length moves.
+_T = BY_SLUG
+_t = _T["ola-child-benefit-taxa"]
+_t["RO"][1]["say"] = "Pentru fiecare £200 peste £60,000 dai înapoi 1% din Child Benefit-ul primit. La £80,000, taxa ajunge egală cu toată suma."
+_t["RO"][1]["note"] = "Contează venitul net ajustat, nu salariul brut."
+_t["EN"][1]["say"] = "For every £200 above £60,000 you pay back 1% of the Child Benefit received. At £80,000 the charge matches the full amount."
+_t["EN"][1]["note"] = "It is measured on adjusted net income, not gross pay."
+
+_t = _T["ola-inregistrare-self-assessment"]
+_t["RO"][1]["say"] = "Pe 5 octombrie doar te înregistrezi și primești Unique Taxpayer Reference, numărul tău de contribuabil. Nu e data declarației și nici data plății."
+_t["RO"][1]["note"] = "Te înregistrezi pe gov.uk."
+
+_t = _T["bham-energy-price-cap"]
+_t["EN"][1]["say"] = "The price of each unit you use, and the standing charge you pay every day whether you use anything or not. Electricity: 26.32p a unit, 54.83p a day. Gas: 7.97p a unit, 29.68p a day."
+_t["EN"][1]["note"] = "Averages for England, Scotland and Wales. The gas figures include the 5% VAT; the electricity figures do not."
+
+_t = _T["bham-reverse-charge-vat"]
+_t["EN"][1]["say"] = "All of this has to be true: the work is standard-rated or reduced-rated building work, you report it under the Construction Industry Scheme, and your customer is VAT registered in the UK."
+_t["EN"][1]["note"] = "This is how it has worked since 1 March 2021."
+_t["EN"][2]["say"] = "You charge VAT as usual when your customer is a private household or is not VAT registered, when the work is zero-rated such as a new build, or when the job sits outside CIS."
+_t["EN"][2]["note"] = "Also when your customer writes to say it is the end user. Keep that email with your records."
+
+_t = _T["bham-fps-deadline"]
+_t["EN"][2]["say"] = "Three ways there is no penalty: everything on the report is within 3 days of payday; it is your first late report of the tax year, unless yours is an annual scheme; or you are a new employer whose first report went in within 30 days of the first payday."
+_t["EN"][2]["note"] = "Paid nobody in a tax month? No report is due — you send an Employer Payment Summary."
+
+_t = _T["bham-dormant-company"]
+_t["EN"][0]["say"] = "You set a limited company up and never got going, or you stopped. Telling HMRC it is dormant does not switch Companies House off: the accounts and the confirmation statement are still due, on the same dates."
+_t["EN"][1]["say"] = "Companies House calls a company dormant if it has had no significant transactions in the financial year. HMRC calls it dormant for Corporation Tax if it has stopped trading and has no other income."
+_t["EN"][1]["note"] = "You tell HMRC online. Companies House simply gets the accounts, by the normal deadline."
+_t["EN"][2]["say"] = "Only three things are ignored at Companies House: the fees you paid Companies House, a late filing penalty, and the money paid for shares at the start. One bank charge, or a few pence of interest, and the company is not dormant that year."
+_t["EN"][2]["note"] = "Still VAT registered? Nil VAT returns still have to go in."
+
+# --- second layout trim pass
+_t = BY_SLUG["ola-child-benefit-taxa"]
+_t["RO"][1]["say"] = "Pentru fiecare £200 peste £60,000 dai înapoi 1% din Child Benefit. La £80,000, taxa e egală cu toată suma."
+_t["EN"][1]["say"] = "For every £200 above £60,000 you pay back 1% of the Child Benefit. At £80,000 the charge matches it in full."
+_t["EN"][1]["note"] = "Measured on adjusted net income, not gross pay."
+
+_t = BY_SLUG["ola-inregistrare-self-assessment"]
+_t["RO"][0]["say"] = "Să zicem că ai început ca self-employed în mai 2026. Anul fiscal acela s-a încheiat pe 5 aprilie 2027, iar de atunci ai șase luni ca să îi spui lui HMRC că ai de depus declarație."
+_t["RO"][1]["say"] = "Pe 5 octombrie doar te înregistrezi și primești Unique Taxpayer Reference. Nu e data declarației și nici data plății."
+
+BY_SLUG["bham-reverse-charge-vat"]["EN"][2]["note"] = "Also when your customer writes to say it is the end user. Keep that email."
+
+_t = BY_SLUG["bham-dormant-company"]
+_t["EN"][2]["say"] = "Only three things are ignored at Companies House: its own fees, a late filing penalty, and the money paid for shares at the start. One bank charge, or a few pence of interest, and the company is not dormant that year."
+_t["EN"][2]["note"] = "Still VAT registered? Nil VAT returns still go in."
+
+# --- third layout trim pass: the long hero figure was the driver on card 2
+BY_SLUG["ola-child-benefit-taxa"]["RO"][1]["fig"] = "1%"
+BY_SLUG["ola-child-benefit-taxa"]["EN"][1]["fig"] = "1%"
+BY_SLUG["bham-reverse-charge-vat"]["EN"][2]["say"] = "You charge VAT as usual when your customer is a private household or is not VAT registered, when the work is zero-rated, or when the job sits outside CIS."
+BY_SLUG["bham-dormant-company"]["EN"][2]["say"] = "Only three things are ignored at Companies House: its own fees, a late filing penalty, and the money paid for shares at the start. One bank charge and the company is not dormant that year."

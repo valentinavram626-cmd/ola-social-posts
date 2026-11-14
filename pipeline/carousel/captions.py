@@ -3246,3 +3246,568 @@ if __name__ == "__main__":
     print("\nLENGTH FAILURES:", len(bad))
     for x in bad: print("  -", x)
     raise SystemExit(1 if bad else 0)
+
+
+# ===================================================================== 15 Nov 2026
+C["ola-ni-pe-cont-propriu"] = dict(
+ ro="""Lucrezi pe cont propriu în UK și te întrebi ce înseamnă, de fapt, National Insurance pe hârtiile tale? Hai să îl luăm pe bucăți, simplu.
+
+Class 2. În anul 2026/27, dacă profitul tău este de £7,105 pe an sau mai mult, Class 2 este considerat plătit. Adică nu scoți niciun ban din buzunar pentru el, iar anul tot îți rămâne în istoricul de National Insurance.
+
+Class 4. Aici chiar plătești, dar doar pe profitul de peste £12,570 pe an: 6% până la £50,270 și 2% pe ce trece de £50,270. Nu ceri nimic și nu completezi niciun formular separat — se calculează singur în Self Assessment și se plătește odată cu impozitul.
+
+Atenție la un lucru pe care mulți îl încurcă: profitul nu e totalul încasat. Profitul este ce rămâne după ce scazi cheltuielile de lucru din banii intrați.
+
+Cine nu plătește:
+• dacă profitul tău este sub £7,105 pe an, nu ești obligat la nimic. Poți plăti Class 2 de bunăvoie, £3.65 pe săptămână, dacă vrei să îți păstrezi anul în istoric
+• slujitorii cultelor care nu primesc salariu sau stipendiu
+• cei care fac investiții pentru ei sau pentru alții, atât timp cât nu e o activitate comercială și nu primesc onorariu sau comision
+
+Sumele de mai sus sunt pentru anul fiscal care a început pe 6 aprilie 2026 și sunt valabile în tot Regatul Unit.
+
+Scrie-ne pe WhatsApp: 0330 133 1886
+Luton · Birmingham
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#NationalInsurance #PeContPropriu #SelfAssessment #HMRC #Class4 #RomaniInUK""",
+ li="""Self-employed National Insurance for 2026/27, set out plainly.
+
+Class 2: at £7,105 of profit a year or more, Class 2 is treated as paid. Nothing leaves your account for it, and the year still counts towards your National Insurance record.
+
+Class 4: charged on profit above £12,570 a year at 6%, then 2% on anything above £50,270. There is nothing to apply for — it is calculated and collected through Self Assessment alongside your Income Tax.
+
+The distinction worth repeating: profit is not turnover. It is what remains after allowable costs.
+
+Who falls outside it:
+- Profits below £7,105 a year carry no requirement at all. Voluntary Class 2 at £3.65 a week remains an option for anyone who wants to protect a qualifying year.
+- Ministers of religion who receive no salary or stipend.
+- People making investments for themselves or others, provided it is not carried on as a business and no fee or commission is received.
+- Examiners, moderators and invigilators pay Class 4, where due, through Special Class 4 National Insurance arranged with the National Insurance office rather than through Self Assessment.
+
+These figures apply across the UK for the tax year beginning 6 April 2026.
+
+Ola Accountancy works with self-employed people and small limited companies from offices in Luton and Birmingham. WhatsApp 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#NationalInsurance #SelfEmployed #SelfAssessment #HMRC #Class4 #SmallBusinessUK""",
+ bsky="""Self-employed, 2026/27: Class 2 is treated as paid once profit reaches £7,105, so nothing is due. Class 4 starts above £12,570 at 6%, then 2% over £50,270.""",
+ pin_title="Self-employed National Insurance 2026/27: the two classes explained",
+ pin="""A clear guide to self-employed National Insurance for the 2026/27 tax year. Class 2 is treated as paid once your profit reaches £7,105 a year, so nothing is actually charged. Class 4 is due on profit above £12,570 at 6%, and 2% on profit above £50,270, collected through Self Assessment. Below £7,105 nothing is required, though voluntary Class 2 at £3.65 a week protects your record. Ola Accountancy, Luton and Birmingham.
+
+#NationalInsurance #SelfEmployed #SelfAssessment #HMRC #UKTax""",
+ source="https://www.gov.uk/self-employed-national-insurance-rates",
+)
+
+C["ola-child-benefit-taxa"] = dict(
+ ro="""Primești Child Benefit acasă și unul dintre voi câștigă peste £60,000? Atunci merită să citești până la capăt, ca să nu te prindă nepregătit.
+
+Se numește High Income Child Benefit Charge. Pe scurt: dacă în casă se primește Child Benefit și unul dintre părinți are venitul net ajustat peste £60,000, acela dă înapoi o parte din bani, prin Self Assessment.
+
+Cum crește: pentru fiecare £200 de venit peste £60,000 dai înapoi 1% din Child Benefit-ul primit în anul acela. La un venit de £80,000, taxa ajunge egală cu tot Child Benefit-ul primit.
+
+Două lucruri care se încurcă des:
+• nu se uită nimeni la salariul brut, ci la venitul net ajustat. Contribuțiile la pensie îl scad
+• pragul este pe persoană, nu pe familie. Doi părinți cu câte £59,000 fiecare nu plătesc nimic
+
+Cine nu plătește:
+• oricine are venitul net ajustat de £60,000 sau mai puțin
+• dacă amândoi sunteți peste £60,000, plătește doar cel cu venitul mai mare, nu amândoi
+• casele în care nimeni nu primește Child Benefit
+
+Și partea pe care mulți nu o știu: poți rămâne înscris la Child Benefit și să oprești doar plățile. Așa nu mai apare taxa, dar păstrezi creditele de National Insurance care contează la pensia de stat.
+
+Scrie-ne pe WhatsApp: 0330 133 1886
+Luton · Birmingham
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#ChildBenefit #HMRC #SelfAssessment #Parinti #RomaniInUK""",
+ li="""The High Income Child Benefit Charge, and the decision most families get wrong.
+
+Where Child Benefit is received by a household and one partner has adjusted net income above £60,000, that partner pays the High Income Child Benefit Charge through Self Assessment.
+
+How it builds: 1% of the Child Benefit received for every £200 of income above £60,000. At £80,000, the charge equals the whole of the Child Benefit received for the year.
+
+Two points that are regularly misread:
+- The test is adjusted net income, not gross salary. Pension contributions reduce it.
+- The threshold is per person, not per household. Two parents on £59,000 each pay nothing at all.
+
+Who is outside the charge:
+- Anyone with adjusted net income of £60,000 or less.
+- Where both partners are above £60,000, only the higher earner pays it — not both.
+- Any household where nobody receives Child Benefit.
+
+The part worth planning around: you can claim Child Benefit and opt out of receiving the payments. That removes the charge while keeping the National Insurance credits that count towards the State Pension.
+
+Ola Accountancy, Luton and Birmingham. WhatsApp 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#ChildBenefit #HICBC #SelfAssessment #HMRC #UKTax""",
+ bsky="""Child Benefit at home and income over £60,000? The charge is 1% of it for every £200 above, reaching the full amount at £80,000. Per person: two parents on £59,000 pay nothing.""",
+ pin_title="High Income Child Benefit Charge: the £60,000 rule explained",
+ pin="""If your household receives Child Benefit and one partner has adjusted net income above £60,000, the High Income Child Benefit Charge applies to the higher earner through Self Assessment. It builds at 1% of the Child Benefit received for every £200 of income above £60,000, and equals the full amount at £80,000. The threshold is per person, so two parents on £59,000 each pay nothing. Ola Accountancy, Luton and Birmingham.
+
+#ChildBenefit #HICBC #SelfAssessment #HMRC #UKTax""",
+ source="https://www.gov.uk/child-benefit-tax-charge",
+)
+
+C["ola-universal-credit"] = dict(
+ ro="""Cât înseamnă, în bani, suma de bază de la Universal Credit în anul 2026/27? Iată cifrele, fără ocolișuri.
+
+Suma de bază, pe lună:
+• singur, sub 25 de ani — £338.58
+• singur, 25 de ani sau peste — £424.90
+• în cuplu, amândoi sub 25 de ani — £528.34
+• în cuplu, unul dintre voi are 25 sau peste — £666.97
+
+Două precizări importante. Sumele pentru cuplu sunt pentru amândoi la un loc, nu de fiecare în parte, iar cuplurile fac o cerere împreună. Și nimic din toate astea nu vine de la sine: Universal Credit trebuie cerut, iar calea obișnuită este contul online de pe gov.uk.
+
+Cine nu primește:
+• cine are peste £16,000 în bani, economii și investiții
+• cuplurile în care amândoi au ajuns la vârsta de pensionare de stat — acolo cererea se oprește
+• majoritatea celor care fac studii la zi, în afara unor excepții clare
+• cine nu locuiește în Regatul Unit
+
+Un lucru de reținut: în Irlanda de Nord, Universal Credit este un serviciu separat, cu cerere separată. Cifrele de mai sus sunt cele din ghidul pentru Marea Britanie, în vigoare din aprilie 2026.
+
+Scrie-ne pe WhatsApp: 0330 133 1886
+Luton · Birmingham
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#UniversalCredit #DWP #Luton #Birmingham #RomaniInUK""",
+ li="""Universal Credit standard allowance rates for 2026/27.
+
+Monthly standard allowance:
+- Single, under 25: £338.58
+- Single, 25 or over: £424.90
+- Couple, both under 25: £528.34
+- Couple, either 25 or over: £666.97
+
+Two things worth stating clearly. The couple figures are for both people together, not each, and couples make a joint claim. And Universal Credit has to be claimed — the usual route is an online Universal Credit account on GOV.UK.
+
+Who cannot claim:
+- Anyone with more than £16,000 in money, savings and investments.
+- Couples where both partners have reached State Pension age; the claim stops at that point.
+- Most people in full-time education, unless they meet one of the listed exceptions.
+- People who do not live in the UK.
+
+One point of scope: these are the figures from the Great Britain guidance. Universal Credit in Northern Ireland is run separately and has its own service.
+
+Ola Accountancy, Luton and Birmingham. WhatsApp 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#UniversalCredit #DWP #CostOfLiving #BenefitsAdvice #UKSupport""",
+ bsky="""Universal Credit standard allowance 2026/27, a month: £338.58 single under 25, £424.90 single 25+, £528.34 a couple both under 25, £666.97 where either is 25+.""",
+ pin_title="Universal Credit standard allowance rates for 2026/27",
+ pin="""The Universal Credit standard allowance for 2026/27, per month: £338.58 if you are single and under 25, £424.90 if you are single and 25 or over, £528.34 for a couple both under 25, and £666.97 for a couple where either of you is 25 or over. Couple figures are for both of you together, and couples claim jointly. Not available with more than £16,000 in savings. Northern Ireland runs a separate service. Ola Accountancy, Luton and Birmingham.
+
+#UniversalCredit #DWP #BenefitsUK #CostOfLiving""",
+ source="https://www.gov.uk/universal-credit/what-youll-get",
+)
+
+C["ola-isa-20000"] = dict(
+ ro="""Pui bani deoparte și te întrebi cât poți duce într-un ISA? Pentru anul fiscal care a început pe 6 aprilie 2026, răspunsul este £20,000.
+
+Atât poți depune în total în conturile tale ISA, într-un an fiscal. Anul acesta nu există o limită separată pentru cash ISA — £20,000 este totalul. Și încă un lucru de știut: suma nu se reportează. Ce nu folosești anul acesta nu se adaugă la anul viitor.
+
+Lifetime ISA, pe scurt. Poți pune cel mult £4,000 pe an, iar banii aceia intră în cei £20,000, nu peste ei. Statul adaugă 25% la ce depui, până la £1,000 pe an. Bonusul îl adaugă furnizorul contului, nu ai de depus nicio cerere separată.
+
+Cine nu poate:
+• cine nu a împlinit 18 ani. Pentru copii există Junior ISA
+• pentru Lifetime ISA, cine are 40 de ani sau peste nu mai poate deschide unul, iar după 50 de ani nu se mai poate depune și nu se mai primește bonusul
+• cine nu este rezident în Regatul Unit, în afara militarilor și a funcționarilor Coroanei
+• oricine ar vrea un cont în doi. Un ISA se ține pe o singură persoană
+
+De pus în calendar pentru mai târziu: s-a anunțat o limită separată de £12,000 pentru cash ISA, pentru cei sub 65 de ani, care intră în vigoare pe 6 aprilie 2027. Plafonul total de £20,000 rămâne neschimbat.
+
+Scrie-ne pe WhatsApp: 0330 133 1886
+Luton · Birmingham
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#ISA #LifetimeISA #Economii #HMRC #RomaniInUK""",
+ li="""The ISA allowance for 2026/27 is £20,000, and there is no separate cash ISA limit this year.
+
+That £20,000 is the total you can pay into your ISAs across the tax year beginning 6 April 2026. It does not carry forward: unused allowance is simply gone on 6 April.
+
+Lifetime ISA. The maximum is £4,000 a year, and it counts towards the £20,000 rather than sitting on top of it. The government adds a 25% bonus on what is paid in, up to £1,000 a year, applied by the provider with no separate claim by the saver.
+
+Who cannot use one:
+- Anyone under 18. A Junior ISA is the route for children.
+- For a Lifetime ISA, anyone aged 40 or over cannot open one, and nobody can pay in or earn the bonus after turning 50.
+- Non-UK residents, unless they are members of the armed forces, Crown servants, or the spouse or civil partner of one of these.
+- Anyone hoping to hold an ISA jointly. An ISA is held by one person only.
+
+Worth diarising: a separate £12,000 cash ISA limit for savers under 65 has been announced and takes effect on 6 April 2027. The overall £20,000 allowance is unchanged.
+
+Ola Accountancy, Luton and Birmingham. WhatsApp 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#ISA #LifetimeISA #Savings #FinancialPlanning #UKTax""",
+ bsky="""ISA allowance for 2026/27 is £20,000, with no separate cash ISA limit this year, and it does not carry forward. A Lifetime ISA takes £4,000 of that, with a 25% bonus up to £1,000.""",
+ pin_title="ISA allowance 2026/27: £20,000, and how the Lifetime ISA fits in",
+ pin="""For the tax year starting 6 April 2026, you can pay £20,000 in total into your ISAs, with no separate cash ISA limit this year. The allowance does not carry forward. A Lifetime ISA takes a maximum of £4,000 a year, counting towards that £20,000, and the government adds 25% on what you pay in, up to £1,000 a year. Under 18s use a Junior ISA, and a Lifetime ISA cannot be opened at 40 or over. Ola Accountancy, Luton and Birmingham.
+
+#ISA #LifetimeISA #Savings #UKTax #FinancialPlanning""",
+ source="https://www.gov.uk/individual-savings-accounts",
+)
+
+C["ola-inregistrare-self-assessment"] = dict(
+ ro="""Ai început să lucrezi pe cont propriu și nimeni nu ți-a spus clar până când trebuie să anunți HMRC? Uite regula, pe scurt.
+
+Îi spui lui HMRC că ai de depus declarație până pe 5 octombrie de după încheierea anului fiscal. Anul fiscal începe pe 6 aprilie și se încheie pe 5 aprilie.
+
+Un exemplu cu date reale: ai început pe cont propriu în mai 2026. Anul fiscal acela s-a încheiat pe 5 aprilie 2027, deci îl anunți pe HMRC până pe 5 octombrie 2027. În lege este scris ca șase luni de la încheierea anului fiscal — tot acolo ajungi.
+
+Și ca să nu rămână niciun dubiu: 5 octombrie nu este data la care depui declarația și nu este data la care plătești impozitul. Pe 5 octombrie doar te înregistrezi și primești numărul tău de contribuabil, Unique Taxpayer Reference. Te înregistrezi pe gov.uk, prin serviciul Check how to register for Self Assessment.
+
+Cine nu are ce înregistra:
+• cine a primit deja de la HMRC cererea de a depune declarația
+• cine s-a înregistrat și a depus declarație și pentru anul trecut
+• mai există și o excepție prevăzută de lege, pentru cine nu rămâne cu impozit de plată pe anul acela și nu are câștiguri de impozitat
+
+Despre penalizări: nu este o sumă fixă, ci un procent din impozitul rămas neplătit. Dacă nu a rămas impozit neplătit, nu există penalizare.
+
+Scrie-ne pe WhatsApp: 0330 133 1886
+Luton · Birmingham
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#SelfAssessment #HMRC #PeContPropriu #Termene #RomaniInUK""",
+ li="""The Self Assessment registration deadline, stated as a rule rather than as this year's date.
+
+You must tell HMRC that you need to complete a tax return by 5 October following the end of that tax year — six months from the end of the tax year in which the liability arises. The tax year runs 6 April to 5 April.
+
+A worked example: start working for yourself in May 2026, and that tax year ends on 5 April 2027, so HMRC must be told by 5 October 2027.
+
+5 October is not the filing date and not the payment date. It is the date by which you register and obtain a Unique Taxpayer Reference, through the Check how to register for Self Assessment service on GOV.UK.
+
+Who does not need to register:
+- Anyone already sent a notice to file.
+- Anyone who registered and filed a return for the previous year.
+- Those within the statutory exception: no chargeable gains, or gains not exceeding the annual exempt amount, and either no net income tax liability for the year or sufficient tax deducted at source to cover it.
+
+On penalties, because this is widely misreported: a failure to notify penalty is a percentage of the tax unpaid, not a fixed sum. Where no tax is unpaid there is no penalty, and HMRC will not charge one where there is a reasonable excuse for a non-deliberate failure notified without unreasonable delay.
+
+Ola Accountancy, Luton and Birmingham. WhatsApp 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#SelfAssessment #HMRC #SelfEmployed #TaxDeadlines #Penalties""",
+ bsky="""Self Assessment: tell HMRC by 5 October after the tax year ends. Start in May 2026, that year ends 5 April 2027, so the date is 5 October 2027. Not the filing date, not the payment date.""",
+ pin_title="Self Assessment registration: the 5 October rule explained",
+ pin="""You must tell HMRC you need to file a Self Assessment return by 5 October following the end of that tax year, which is six months from the year end. Start working for yourself in May 2026 and the deadline is 5 October 2027. It is not the filing date and not the payment date: it is when you register and get your Unique Taxpayer Reference. Failure to notify penalties are a percentage of the unpaid tax, not a flat fee. Ola Accountancy, Luton and Birmingham.
+
+#SelfAssessment #HMRC #SelfEmployed #TaxDeadline #UKTax""",
+ source="https://www.gov.uk/register-for-self-assessment",
+)
+
+C["bham-council-tax-reduction"] = dict(
+ en="""Council tax is the bill people in Saltley, Small Heath and Erdington tell us they are quietly behind on. There is a scheme that can cut it, and plenty of people have never heard of it.
+
+It is called Council Tax Reduction. If your income is low, or you are on benefits, your council can take money off your council tax bill — up to 100% of it. You can be working or not working, renting or buying your home. What matters is that the bill is in your name.
+
+Two things catch people out.
+
+The first: nobody applies it for you. It is not a discount that lands on the bill because the council worked out you were struggling. You apply to the council that sends your bill, and until you do, nothing comes off.
+
+The second: there is no single national scheme. Birmingham, Sandwell, Solihull, Dudley and Walsall each write their own rules for people of working age, so the income and savings limits are genuinely different from one council to the next. A friend being turned down by their council tells you nothing about yours. Apply to the one that bills you.
+
+Two groups are outside every council's scheme by law: people subject to immigration control, and people who are not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man.
+
+This is not the same thing as the Single Person Discount, and not the same thing as the Disabled Band Reduction. Those are separate, and you can be looking at more than one of them.
+
+The scheme has run since April 2013. Local rules usually change each 1 April, so a no last year is not a no this year.
+
+If council tax is the bill keeping you awake, the application is the thing to do this week.
+
+Ola Accountancy — Birmingham
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #CouncilTax #CostOfLiving""",
+ tt_title="Council tax cut by up to 100% — but only if you ask",
+ source_en="https://www.gov.uk/council-tax-reduction",
+)
+
+C["bham-energy-price-cap"] = dict(
+ en="""The figure in the news is £1,723 a year. It is not a cap on your bill.
+
+That number is what Ofgem reckons a typical household paying by Direct Debit would spend in a year on gas and electricity. Use more than typical and you pay more than £1,723. Ofgem puts it plainly: the cap does not limit the cost of your total bill, and the more energy you use, the higher your bill will be.
+
+What is actually capped is the price of each unit you use and the standing charge you pay every day whether you use anything or not. For 1 October to 31 December 2026, on a default tariff paid by Direct Debit, averaged across England, Scotland and Wales:
+
+Electricity — 26.32p a unit and 54.83p a day
+Gas — 7.97p a unit and 29.68p a day
+
+One detail worth knowing: Ofgem's electricity figures for this period leave VAT out, while the gas figures have the 5% VAT in them. Your own rates also vary by region, by meter type and by how you pay.
+
+The cap went up 4% on 1 October — about £60 a year on the typical figure, up from £1,663. It covers around 22 million households on default tariffs. Levels are reset every three months, so this set of rates runs only to 31 December 2026.
+
+Who the cap does not cover:
+
+Around 11 million households on a fixed tariff they agreed with their supplier. The October change did not touch them.
+Anyone on a business energy contract — your shop, your unit, your takeaway.
+Anyone on a heat network, and anyone using heating oil.
+Northern Ireland: Ofgem's cap levels and its postcode checker cover England, Scotland and Wales.
+
+There is nothing to claim. The cap is a legal maximum Ofgem places on suppliers, and it applies to a default tariff on its own.
+
+Ola Accountancy — Birmingham
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #EnergyBills #PriceCap #Ofgem""",
+ tt_title="£1,723 is not a cap on your energy bill",
+ source_en="https://www.ofgem.gov.uk/information-consumers/energy-advice-households/energy-price-cap-explained",
+)
+
+C["bham-reverse-charge-vat"] = dict(
+ en="""If you are a builder in Birmingham invoicing another builder, there is a good chance you should not be putting VAT on that invoice.
+
+It is called the VAT domestic reverse charge for building and construction services, and it has applied to invoices with a tax point on or after 1 March 2021. Instead of you charging the VAT and paying it over to HMRC, your customer accounts for it on their own VAT Return. The money never passes through your account.
+
+It applies when all of these are true:
+The work is standard-rated or reduced-rated building or construction work.
+The work is reported under the Construction Industry Scheme.
+Your customer is VAT registered in the UK.
+You are not an employment business supplying staff or workers.
+Your customer has not told you in writing that it is an end user or an intermediary supplier.
+
+Charge VAT the normal way when:
+Your customer is a private household, or any customer that is not VAT registered.
+The work is zero-rated — a new build, for instance.
+You are an employment business supplying workers.
+The job sits outside CIS.
+Your customer has written to you, by letter, by email or in a clause of the contract, to say it is the end user. An end user is a VAT and CIS registered business that is not passing the work on. An intermediary supplier — one re-supplying the work unchanged to a connected or linked end user, such as a landlord to a tenant — can give you the same notice. Keep the notice with your records.
+
+Some work is outside the charge even on a building site, when it is supplied on its own: architects, surveyors and consultants; security systems, CCTV and alarms; signwriting and signboards; blinds, shutters and seating; and manufacturing or delivering materials or plant to site.
+
+If an end user notice turns out to be invalid, it is the customer who has to account for the VAT that should have been charged.
+
+Ola Accountancy — Birmingham
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #VAT #CIS #Construction""",
+ tt_title="Builder invoicing a builder? No VAT on that invoice",
+ source_en="https://www.gov.uk/guidance/vat-domestic-reverse-charge-for-building-and-construction-services",
+)
+
+C["bham-fps-deadline"] = dict(
+ en="""Pay someone on Friday, tell HMRC on Friday. That is the rule, and it catches out more small employers than almost anything else in payroll.
+
+Every time you pay an employee, your payroll software sends HMRC a Full Payment Submission — an FPS. It reports what you paid, any payrolled benefits, and what you deducted. It has to go on or before the payday. Not at the end of the month, not once the wages have cleared.
+
+Late, and the penalty is charged monthly, and separately for each PAYE scheme you run:
+1 to 9 employees — £100 a month
+10 to 49 — £200 a month
+50 to 249 — £300 a month
+250 or more — £400 a month
+
+Leave it more than three months and HMRC can add a further 5% of the PAYE tax, employee National Insurance and student loan deductions that should have been on the missing return. That one is discretionary — it is kept for the most serious or persistent cases.
+
+When there is no penalty:
+Everything on the FPS is within 3 days of payday. Do that every week, though, and HMRC may still contact you or consider a penalty.
+It is your first late report in the tax year — this does not apply if you are registered as an annual scheme.
+You are a new employer and your first FPS went in within 30 days of paying someone.
+
+You send no FPS at all for a tax month where nobody was paid. You send an Employer Payment Summary instead.
+
+A late FPS is also allowed, with a late reporting reason on the submission, in set situations: a payday falling on a non-banking day, a PAYE reference that has not arrived yet, foreign tax still being worked out, pay that cannot be calculated in advance. And a penalty already charged can be appealed if you had a reasonable excuse, such as ill health, an IT failure, or fire or flood.
+
+Ola Accountancy — Birmingham
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #PAYE #Payroll #HMRC""",
+ tt_title="Pay staff on Friday, tell HMRC on Friday",
+ source_en="https://www.gov.uk/guidance/what-payroll-information-to-report-to-hmrc",
+)
+
+C["bham-dormant-company"] = dict(
+ en="""A limited company that did nothing all year still has paperwork. This is the one people get wrong more than any other.
+
+Dormant means two different things, to two different offices, and telling one does not tell the other.
+
+Companies House calls your company dormant if it has had no significant transactions in the financial year. Only three things are disregarded: fees you paid Companies House, a penalty for filing accounts late, and the money paid for shares when the company was incorporated. Everything else counts. One bank charge, or a few pence of bank interest landing in the account, and the company is not dormant for Companies House that year.
+
+HMRC calls your company dormant for Corporation Tax if it has stopped trading and has no other income, or if it is a new company that has not started trading yet, or a flat management company. An unincorporated association or club owing less than £100 Corporation Tax is usually dormant for Corporation Tax too.
+
+You have to tell HMRC. There is an online service for it, and you will need the company name, its 10-digit Unique Taxpayer Reference, and the date it stopped trading if it ever traded.
+
+Telling HMRC does nothing at Companies House. A dormant company still files annual accounts and a confirmation statement, on the normal deadlines, with the normal late filing penalties.
+
+What dormancy does save you: a company that is dormant for Companies House and also qualifies as small can file dormant accounts, which need no profit and loss account and no auditor's report.
+
+Two more traps. A company dormant for Companies House that does not also qualify as small cannot file dormant accounts at all. And if the company is still VAT registered because you plan to restart, nil VAT returns still have to go in.
+
+Ola Accountancy — Birmingham
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #DormantCompany #CompaniesHouse #LimitedCompany""",
+ tt_title="Dormant company? Two offices, two different tests",
+ source_en="https://www.gov.uk/dormant-company",
+)
+
+C["en-confirmation-statement"] = dict(
+ en="""Your company has three filings, not two.
+
+The accounts go to Companies House. The Corporation Tax return goes to HMRC. And then there is a third one, which is the one people miss: the confirmation statement.
+
+It is due once every 12 months. Your first 12 months end a year after the company was set up, and you then have 14 days to file. It costs £50 online, or £110 if you post the paper form CS01.
+
+It is not your accounts and it is not your tax return. It is the form where you confirm that what Companies House already holds about your company is still correct. There is no "nothing has changed" exemption, because confirming is the whole job.
+
+Miss it and the fine runs up to £5,000, and the company can be struck off — taken off the register and closed down. A company that filed its accounts perfectly on time can still be struck off for this one. Not filing is a criminal offence, and directors can be prosecuted for it.
+
+Who does not have to file one. If you work for yourself as a sole trader, or you are in an ordinary partnership, there is nothing to send — you are not a registered company, so no confirmation statement exists for you. Neither does a company that has already been dissolved and removed from the register.
+
+And a small piece of good news: if you have already paid the £50 this year, a second statement inside the same 12-month payment period costs nothing.
+
+Every company on the register has to do it, including a dormant company that has never traded a penny.
+
+Do you know the date Companies House is counting to for yours?
+
+Ola Accountancy
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #CompaniesHouse #LimitedCompany #ConfirmationStatement #CompanyDirector""",
+ tt_title="Your company has a third filing, and it is not the accounts",
+ source_en="https://www.gov.uk/guidance/filing-your-companys-confirmation-statement",
+)
+
+C["en-class-1-national-insurance"] = dict(
+ en="""Two different starting lines on the same wage.
+
+National Insurance comes out of your pay once you earn more than £12,570 a year — £242 a week, or £1,048 a month. Your employer is already paying on your wages from £5,000 a year: £96 a week, £417 a month. Same job, same payslip, two different starting points.
+
+What comes out of your pay: 8% of the slice between £12,570 and £50,270 a year. Above £50,270 a year the rate drops to 2%.
+
+What your employer pays: 15% on everything above £5,000, with no upper limit at all. That is why taking somebody on costs a company more than the wage it agreed.
+
+These are the standard figures, National Insurance category A. A few people sit on a different category letter where the rates are not the same.
+
+Who pays nothing. Earn under £12,570 a year and no National Insurance comes out of your pay. Nobody under 16 pays it — they go on category X. And once you are over State Pension age you stop paying it, even if you carry on working: that is category C, where HMRC's table shows no employee rate at all. Your employer still pays theirs on your wages.
+
+One thing worth knowing if your hours are low. Earn under £6,708 a year and that year does not count as a qualifying year towards the things National Insurance pays for, including the State Pension. Low pay is not only a smaller payslip — it can be a gap in your record.
+
+These figures apply from 6 April 2026 and they are the same everywhere in the UK. National Insurance is not devolved, so the thresholds and rates are identical in England, Scotland, Wales and Northern Ireland.
+
+Worth holding your own payslip up against them?
+
+Ola Accountancy
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #NationalInsurance #PAYE #Payroll #Employers #PayslipCheck""",
+ tt_title="Your employer starts paying NI at £5,000. You start at £12,570.",
+ source_en="https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+)
+
+C["en-vat-return-deadline"] = dict(
+ en="""One calendar month and 7 days. That is the whole VAT rule, and it covers two jobs at once.
+
+If your VAT period ends on 31 December 2026, the return has to be filed and the money has to be in HMRC's account by 7 February 2027. Not posted on the 7th. In the account on the 7th.
+
+Those 7 days are an extension sitting on top of the real deadline, which is the last day of the month after your period ends. You get them for filing online and paying electronically, and only then.
+
+A return is due for every period even when there is nothing to pay. Nil return: still due. HMRC owes you money: still due.
+
+A weekend or a bank holiday does not push the date back. There is no extension for that.
+
+Who does not get the 7 days.
+
+Post a cheque and you get no extension at all. The cheque has to clear by the standard date — the end of the month after your period — even though the return on your screen is displaying the later one. That mismatch is exactly how people end up late while looking at a date they thought was theirs.
+
+On the Annual Accounting Scheme, or making payments on account? The 7 days do not apply to your return or your payment. An annual return carries two months after the period end instead of one month.
+
+And if you are one of the businesses exempt from filing online, a nil or repayment paper return has to arrive by the standard due date.
+
+Paying by Direct Debit works differently: HMRC collects 3 bank working days after the extended date. The money leaves your account after the deadline, and that is how it is meant to work.
+
+UK-wide, with no Northern Ireland difference.
+
+Do you know which of the two dates your business is actually on?
+
+Ola Accountancy
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #VAT #VATReturn #HMRCDeadlines #Bookkeeping""",
+ tt_title="VAT: one month and 7 days, and who does not get the 7",
+ source_en="https://www.gov.uk/submit-vat-return",
+)
+
+C["en-p11d-deadline"] = dict(
+ en="""A company car. Private medical cover. If your company gave a director or an employee something on top of their wages last year, July is when you tell HMRC about it.
+
+Three dates, and they are not the same date.
+
+6 July — the P11D and the P11D(b) go to HMRC, and every director and relevant employee gets a copy of what you reported about them.
+22 July — you pay the Class 1A National Insurance on those benefits. It is 15% of what they were worth.
+19 July — that payment date instead, if you are paying by cheque.
+
+For the tax year ending 5 April 2027, that is 6 July 2027 and 22 July 2027.
+
+Miss the forms and the penalty is £100 for every 50 employees, for each month or part of a month you are late. Three days into a month counts as the whole month.
+
+Who does not have to send a P11D. If every benefit you gave somebody already went through your payroll and was taxed there, there is no P11D for that person — HMRC's own words are that you do not need to submit one if you are paying tax on all their benefits through your payroll. Same if they had no taxable benefits at all. And an employer that gave no taxable expenses or benefits, and owes no Class 1A, has nothing to file.
+
+Two traps sit inside that. Payrolling does not get rid of the P11D(b): that is the form that declares and pays the Class 1A, and it is still due by 6 July. And if somebody came off payrolling part-way through the year, they need a P11D after the year ends after all.
+
+Worth planning for now: from 6 April 2027 payrolling benefits becomes mandatory. Until then it is voluntary, and you have to register with HMRC before the start of the tax year you want to payroll in.
+
+Not sure whether what your company paid for counts as a benefit?
+
+Ola Accountancy
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #P11D #BenefitsInKind #Payroll #Employers""",
+ tt_title="Company car? The forms are due 6 July, the money 22 July",
+ source_en="https://www.gov.uk/employer-reporting-expenses-benefits/deadlines",
+)
+
+C["en-cgt-exempt-amount"] = dict(
+ en="""You sold some shares, or a flat you had been renting out, or some crypto. What gets taxed is the profit you made, not the money you sold it for.
+
+And the first £3,000 of that profit in a tax year is free of tax. Everyone gets it, once a year, and it starts again on 6 April.
+
+Above the £3,000 you pay 18% or 24%. Which one depends on your income, not on what you sold. The gain is stacked on top of your taxable income: the part that falls inside the basic rate band — £37,700 of taxable income — is taxed at 18%, and the part above it at 24%. Since the rates were aligned, a second property is taxed at the same 18% and 24% as everything else.
+
+Dates matter here. Sell a residential property that is not your own home and it has to be reported, and the tax paid, within 60 days of completion, through HMRC's UK Property Account. Other gains go on a Self Assessment return or through HMRC's real-time service.
+
+Who does not use the £3,000.
+
+Your own home. Gains on it are normally not taxable at all, because of Private Residence Relief, so none of the £3,000 is used up.
+Anything inside an ISA or a pension. Those gains are exempt, so the allowance stays intact.
+A company. Companies do not pay Capital Gains Tax and get no annual exempt amount — they pay Corporation Tax on their gains instead.
+Giving something to your husband, wife or civil partner while you are living together. It passes across with no gain and no loss, so nothing is used.
+
+Two limits people trip over. The £3,000 is per person, per tax year, and you cannot hand your unused part to your spouse. And you cannot carry it forward — unused on 5 April, gone.
+
+It is the same figure across the whole UK, Scotland included.
+
+Sold something this tax year and not sure whether you have to report it?
+
+Ola Accountancy
+0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #CapitalGainsTax #SelfAssessment #BuyToLet #UKProperty""",
+ tt_title="The first £3,000 of a gain is tax free. Who never uses it?",
+ source_en="https://www.gov.uk/guidance/capital-gains-tax-rates-and-allowances",
+)
+
+# --- register fixes applied after the checker round, 14 Nov 2026 ---
+for _sl, _d in getattr(topics, "_CAPTION_FIXES", {}).items():
+    C[_sl].update(_d)
