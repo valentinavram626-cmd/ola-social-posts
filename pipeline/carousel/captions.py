@@ -3811,3 +3811,395 @@ General information. For your own situation, speak to an accountant.
 # --- register fixes applied after the checker round, 14 Nov 2026 ---
 for _sl, _d in getattr(topics, "_CAPTION_FIXES", {}).items():
     C[_sl].update(_d)
+
+
+# ----------------------------------------------------- 16 NOV 2026 captions
+C["ola-plati-reduse"] = dict(
+ ro="""Pe 31 ianuarie plătești de două ori. O dată impozitul pe anul fiscal încheiat, și încă o jumătate din el în avans, pentru anul în care ești acum. A doua jumătate vine pe 31 iulie. HMRC le numește payments on account, și fiecare e cam jumătate din impozitul de anul trecut.
+
+De ce te interesează: ele sunt socotite dintr-un an care s-a terminat deja. Dacă anul ăsta ai încasat mai puțin, îi poți cere HMRC să scadă cele două plăți — online, în contul tău HMRC, sau pe formularul SA303. Pentru plățile în avans din 2025-26, cererea se face până pe 31 ianuarie 2027.
+
+Partea care costă: cererea nu e o dorință, e o estimare motivată. Dacă tai prea mult și impozitul real iese mai mare, HMRC îți cere dobândă pe diferență, socotită de la datele originale de plată, nu de la ziua în care ai aflat cifra adevărată. Dacă ceri prea puțin și plătești în plus, banii se întorc la tine. Deci prudența costă puțin, optimismul costă real.
+
+Cine NU are ce reduce:
+— dacă impozitul tău de anul trecut a fost sub £1.000, nu ai plăți în avans;
+— dacă peste 80% din impozitul de anul trecut a fost deja reținut la sursă, tot nu ai;
+— Capital Gains Tax și ratele de student loan nu intră niciodată în plățile în avans, deci un SA303 nu le atinge.
+
+Ca să faci cererea ai nevoie de UTR și de adresa biroului HMRC scrisă în capul statement-ului tău.
+
+Vrei să verificăm împreună dacă plățile tale în avans sunt prea mari?""",
+ th="""Pe 31 ianuarie plătești impozitul pe anul trecut plus o jumătate din el în avans. Dacă anul ăsta câștigi mai puțin, poți cere HMRC plăți mai mici, pe formularul SA303 — până pe 31 ianuarie 2027 pentru 2025-26. Tai prea mult și plătești dobândă. Sub £1.000 impozit anul trecut? Nu ai plăți în avans.""",
+ li="""Your 31 January Self Assessment payment usually does two jobs at once. It settles the tax for the year just ended, and it pays the first half of next year's bill in advance. The second half falls due on 31 July. HMRC calls these payments on account, and each is roughly half of the previous year's tax.
+
+They are calculated from a year that has already happened. If your profits have fallen, your reliefs have gone up, or more of your tax is now being taken at source, you can ask HMRC to reduce them — online in your HMRC account, or on form SA303. For 2025-26 payments on account, the claim has to be in by 31 January 2027.
+
+The risk is not symmetric, and that is the part worth understanding before you file a claim. Reduce too far and HMRC charges interest on the shortfall, running from the original payment dates rather than from the day the true figure emerged. Reduce too little and any overpayment comes back to you. A claim has to state what you expect the liability to be and the grounds for that belief: a reasoned estimate, not a hopeful one. HMRC can also charge a penalty, capped at the difference between what should have been paid and what was actually paid, where an incorrect statement in a claim was made fraudulently or negligently.
+
+Some people have nothing to reduce at all. If last year's tax came to less than £1,000, or more than 80% of it was collected at source, no payments on account arise. Capital gains tax and student loan repayments sit outside the payments on account calculation entirely, so an SA303 cannot reach them.
+
+If your January instalments look larger than the year you are actually having, send us the statement figure and your expected profit and we will tell you whether a claim fits.""",
+ bsky="""January is two bills: last year's tax plus half of it again up front. Under £1,000 last year and there are no instalments at all.""",
+ pin_title="Payments on account: how to ask HMRC for less with form SA303",
+ pin="""Self Assessment instalments explained. On 31 January you settle last year's tax and pay half of next year's in advance; the other half falls due on 31 July. If your income has fallen you can ask HMRC to reduce the instalments, online or on form SA303, by 31 January 2027 for 2025-26. Reduce too far and HMRC charges interest on the shortfall, running from the original due dates. If last year's tax came to under £1,000, or more than 80% was taken at source, there are no instalments to reduce.""",
+ source="gov.uk/guidance/claim-to-reduce-payments-on-account",
+ source_en="https://www.gov.uk/guidance/claim-to-reduce-payments-on-account",
+ tt_title="Pe 31 ianuarie plătești de două ori. Iată de ce",
+)
+
+C["ola-baza-de-numerar"] = dict(
+ ro="""Dacă ești self-employed, HMRC îți socotește profitul după banii care au intrat și au ieșit din cont. Nu după facturile pe care le-ai emis și nu le-ai încasat încă. Metoda se numește cash basis și, din anul fiscal 2024-25, este cea standard. Nu trebuie să ceri nimic: dacă nu spui altfel, asta e metoda ta.
+
+Înainte era pe dos. Intrai în cash basis doar dacă aveai încasări sub £150.000 și trebuia să ieși la £300.000. Ambele limite au dispărut din 2024-25. A dispărut și plafonul de £500 pe dobânzile pe care le puteai scădea, așa că dobânda plătită pentru afacere se scade acum întreagă.
+
+Dacă vrei metoda cealaltă — accruals, adică socoteala pe facturi emise și primite, nu pe bani mișcați — trebuie să bifezi pe declarație că ai folosit traditional accounting. Nu se întâmplă singur. Accruals rămâne utilă dacă ai stoc mare, mulți clienți care îți datorează bani, sau dacă o bancă îți cere conturi în regulă.
+
+Cine NU poate folosi cash basis: o companie limited, o LLP, un parteneriat care are o firmă ca partener, un Lloyd's underwriter, o fermă cu herd basis sau cu averaging claim, o afacere cu mineral extraction, una care a cerut business premises renovation allowance în ultimii 7 ani, și oricine a cerut vreodată research and development allowance. Veniturile din chirii se socotesc separat, după alte reguli.
+
+Vrei să îți spunem pe ce metodă ai fost pus pe declarația de anul trecut?""",
+ th="""Din 2024-25, cash basis e metoda standard pentru self-employed: profitul se socotește după banii intrați și ieșiți, nu după facturi. Vine automat, nu ceri nimic — accruals e cea pe care trebuie să o bifezi pe declarație. Nu o pot folosi companiile limited, LLP-urile și parteneriatele cu o firmă ca partener.""",
+ li="""Cash basis is now the default way a sole trader's or partnership's trading profit is calculated for income tax, and has been since the 2024-25 tax year. Profit is money received less money paid out, so an invoice you have issued but not yet been paid for does not appear in it.
+
+The change matters because the default flipped. Businesses used to elect into cash basis; now they elect out of it, and electing out means stating on the Self Assessment return that traditional accounting was used. A business whose return is prepared without that box being considered has quietly moved onto cash basis.
+
+Three restrictions that are still widely quoted no longer exist: the £150,000 turnover limit for entering cash basis, the £300,000 limit for leaving it, and the £500 cap on deductible interest. Interest incurred wholly and exclusively for the trade is now deductible without that cap. The loss position improved too — cash basis losses can be set against general income of the same year or carried back under the usual loss relief rules, rather than only carried forward.
+
+Accruals still earns its keep. Businesses with significant stock, large debtors and creditors, or lenders who want proper accounts are better served by it, and GOV.UK points complex businesses and those seeking finance that way itself.
+
+Cash basis is not available to a limited company, an LLP, a partnership with a corporate partner, a Lloyd's underwriter, a farming business with a herd basis election or a profit averaging claim, a mineral extraction trade, a business that claimed business premises renovation allowance in the previous 7 years, or any business that has ever claimed research and development allowance. Property businesses sit under a separate regime.
+
+If you are not certain which basis last year's return used, we can check it.""",
+ bsky="""Cash basis is the default for sole traders since 2024-25: money in, money out. Accruals is now the thing you have to choose.""",
+ pin_title="Cash basis is the default for the UK self-employed",
+ pin="""Cash basis vs accruals for the UK self-employed. Since the 2024-25 tax year, cash basis is the default: profit is money received less money paid out, and no claim is needed. To use traditional accruals accounting you must say so on your Self Assessment return. The old £150,000 entry limit, £300,000 exit limit and £500 cap on deductible interest have all been removed. Cash basis is not available to limited companies, LLPs, or partnerships with a corporate partner.""",
+ source="gov.uk/simpler-income-tax-cash-basis",
+ source_en="https://www.gov.uk/simpler-income-tax-cash-basis",
+ tt_title="Cash basis: metoda standard pentru self-employed din 2024-25",
+)
+
+C["ola-concediu-partajat"] = dict(
+ ro="""Mama poate da o parte din concediul de maternitate celuilalt părinte. Se numește Shared Parental Leave, iar banii se numesc Statutory Shared Parental Pay.
+
+Nu e un concediu în plus. Mama renunță la o parte din maternity leave, și ce rămâne se împarte între cei doi părinți. Maximul este 50 de săptămâni de concediu și 37 de săptămâni plătite, pentru că primele 2 săptămâni de maternity leave și 2 săptămâni de maternity pay le ia mama, obligatoriu.
+
+Plata pentru 2026-27 este £194,32 pe săptămână, sau 90% din salariul săptămânal mediu, dacă acesta e mai mic. Angajatorul o plătește prin payroll și apoi își recuperează banii de la HMRC.
+
+Ce trebuie făcut: anunți angajatorul în scris cu cel puțin 8 săptămâni înainte, cu o declarație că partenerul îndeplinește condițiile, apoi îți rezervi concediul în până la 3 blocuri separate. Totul în primul an de la naștere.
+
+Cine NU primește:
+— părinții self-employed nu pot lua nici concediul, nici plata;
+— angajatul care nu are 26 de săptămâni neîntrerupte la același angajator, până în a 15-a săptămână înainte de data nașterii;
+— cine câștigă în medie sub £129 pe săptămână;
+— angajatul al cărui partener nu a lucrat 26 de săptămâni din cele 66 de dinaintea nașterii, cu cel puțin £30 pe săptămână în 13 dintre ele.
+
+În Irlanda de Nord schema are propria legislație, cu reguli separate.
+
+Vrei să facem socoteala pentru voi doi?""",
+ th="""Mama poate da o parte din concediu celuilalt părinte: Shared Parental Leave, maxim 50 de săptămâni, din care 37 plătite. Statutory Shared Parental Pay e £194,32 pe săptămână în 2026-27, sau 90% din salariul mediu, dacă e mai mic. Părinții self-employed nu pot lua nici concediul, nici plata.""",
+ li="""Shared Parental Leave is not an extra entitlement sitting on top of maternity leave. It converts what the mother does not take. She curtails her maternity leave or pay, and what is left can be shared between both parents — up to 50 weeks of leave and 37 weeks of pay, because 2 weeks of maternity leave and 2 weeks of maternity pay are hers by law.
+
+Statutory Shared Parental Pay is £194.32 a week for 2026-27, or 90% of average weekly earnings if that is lower. The employer pays it through payroll and reclaims it from HMRC.
+
+To qualify, an employee needs 26 weeks' continuous service with the same employer up to and including the 15th week before the expected week of birth, must still be employed in the week before the leave starts, and must share main responsibility for the child. The other parent has to pass the employment and earnings test: 26 weeks of work, not necessarily consecutive, in the 66 weeks before the expected week of birth, averaging at least £30 a week in 13 of them. Average weekly earnings of at least £129 are needed for the pay.
+
+Who gets neither: self-employed parents. If both parents are self-employed, neither qualifies, though the mother may be able to claim Maternity Allowance instead. Agency workers cannot take the leave but may receive the pay if they qualify for SMP, SAP or SPP.
+
+For employers, the process is 8 weeks' written notice of entitlement with the partner's declaration, then leave booked in up to 3 blocks, all within a year of the birth. The employer is not required to verify the partner's declaration.
+
+Northern Ireland runs a parallel scheme under its own legislation, so a GB employer with a Belfast-based employee should check NI guidance separately.
+
+If you run the payroll and want the notice and pay side checked before it lands, talk to us.""",
+ bsky="""Shared Parental Leave: up to 50 weeks shared, 37 of them paid at £194.32 a week. Self-employed parents get neither.""",
+ pin_title="Shared Parental Leave and pay: the 2026-27 rules and rates",
+ pin="""Shared Parental Leave and Statutory Shared Parental Pay, UK 2026-27. If the mother ends her maternity leave early, the remainder can be shared: up to 50 weeks of leave and 37 weeks of pay. ShPP is £194.32 a week, or 90% of average weekly earnings if that is lower. You need 26 weeks with the same employer by the 15th week before the due date, and average earnings of at least £129 a week. Self-employed parents get neither the leave nor the pay.""",
+ source="gov.uk/shared-parental-leave-and-pay-employer-guide/eligibility",
+ source_en="https://www.gov.uk/shared-parental-leave-and-pay-employer-guide/eligibility",
+)
+
+C["ola-sprijin-deces"] = dict(
+ ro="""Când îți moare partenerul, există o plată de la DWP care nu depinde de cât câștigi sau de cât ai pus deoparte. Se numește Bereavement Support Payment.
+
+Sunt două rate. Rata mai mare: £3.500 o singură dată, plus £350 pe lună, până la 18 luni. O primești dacă luai Child Benefit pentru un copil care locuia cu tine, dacă ți se spusese că ai dreptul la el, sau dacă erai însărcinată când a murit partenerul. Altfel, rata este £2.500 o dată, plus £100 pe lună.
+
+Ceasul cererii contează mult:
+— ceri în primele 3 luni de la deces: primești suma de o dată și toate cele 18 plăți lunare;
+— între 3 și 12 luni: primești suma de o dată, dar mai puține plăți lunare;
+— după 12 luni: suma plătită o dată se pierde;
+— după 21 de luni: de obicei nu se mai primește nimic.
+
+Nu vine singură. Se cere la DWP Bereavement Service, online sau pe formularul BSP1; în Irlanda de Nord, la Department for Communities. Schema cere ca partenerul să fi plătit National Insurance Class 1 sau Class 2 într-un an fiscal de după 6 aprilie 1975, sau să fi murit din cauza unui accident de muncă ori a unei boli luate la muncă.
+
+Cine NU primește: cine era deja la vârsta de State Pension când a murit partenerul; cine este în închisoare; partenerii care locuiau împreună fără căsătorie sau civil partnership și care nu luau Child Benefit pentru un copil și nu erau însărcinate; decesurile de dinainte de 6 aprilie 2017, unde poate fi vorba de Widowed Parent's Allowance.
+
+Vrei să ne uităm împreună la ce rată ți se potrivește?""",
+ th="""Bereavement Support Payment: £3.500 o dată plus £350 pe lună, până la 18 luni, sau £2.500 plus £100. Nu depinde de cât câștigi. Ceri în primele 3 luni de la deces și primești tot; după 12 luni, suma plătită o dată se pierde. Nu primește cine era la vârsta de State Pension atunci.""",
+ li="""Bereavement Support Payment is one of the few things in the benefits system that is not means-tested: earnings and savings make no difference to it.
+
+There are two rates. The higher rate is £3,500 as a one-off payment plus £350 a month for up to 18 months, and it applies where the surviving partner was getting Child Benefit for a child living with them, had been told they were entitled to it, or was pregnant when their partner died. Otherwise the rate is £2,500 plus £100 a month.
+
+The timing of the claim decides how much of it survives. Claim within 3 months of the death and the one-off payment and all 18 monthly payments are made. Between 3 and 12 months, the one-off payment is still paid but some monthly payments are lost. After 12 months the one-off payment goes. After 21 months, a claim usually gets nothing.
+
+It has to be claimed — through the DWP Bereavement Service, online or on form BSP1, or the Department for Communities in Northern Ireland. The late partner must have paid Class 1 or Class 2 National Insurance in any one tax year since 6 April 1975, or have died because of a work accident or a disease caused by work.
+
+Not available to: anyone over State Pension age when their partner died, anyone in prison, cohabiting partners who were neither receiving Child Benefit for a child living with them nor pregnant, and deaths before 6 April 2017, where Widowed Parent's Allowance may apply instead. The rates are the same across the UK, and this benefit has not been devolved to Social Security Scotland.
+
+If you are helping someone through this and are not sure which rate applies or how long is left to claim, we can go through it with you.""",
+ bsky="""Bereavement Support Payment: £3,500 then £350 a month, or £2,500 then £100. Claim within 3 months to keep every payment.""",
+ pin_title="Bereavement Support Payment: 2026-27 rates and the claim clock",
+ pin="""Bereavement Support Payment, UK 2026-27 rates. The higher rate is £3,500 as a one-off payment plus £350 a month for up to 18 months; the standard rate is £2,500 plus £100 a month. It is not means-tested, so earnings and savings make no difference. Claim within 3 months of the death for the full amount; between 3 and 12 months some monthly payments are lost; after 12 months the one-off payment goes; after 21 months a claim usually gets nothing. It has to be claimed from the DWP Bereavement Service.""",
+ source="gov.uk/bereavement-support-payment",
+ source_en="https://www.gov.uk/bereavement-support-payment",
+ tt_title="Bereavement Support Payment: £3.500 și £350 pe lună",
+)
+
+C["ola-corectare-declaratie"] = dict(
+ ro="""Ai depus declarația de Self Assessment și apoi ai văzut o cifră greșită. Se repară, și nu e mare lucru.
+
+Ai 12 luni ca să corectezi, măsurate de la termenul de depunere, 31 ianuarie. Pentru declarația pe anul fiscal 2024-25, poți corecta până pe 31 ianuarie 2027. Nu trebuie să explici de ce și nu primești amendă pentru corectura în sine.
+
+Online: aștepți 3 zile (72 de ore) de la depunere, pentru că mai repede sistemul nu te lasă. Apoi intri în contul tău HMRC, la More Self Assessment details, apoi At a glance, apoi Tax return options, alegi anul, corectezi cifra și depui din nou. Pe hârtie: trimiți paginile SA100 corectate, marcate amendment, cu numele tău și UTR-ul. Dacă nu găsești adresa pe actele tale de Self Assessment, este BX9 1AS.
+
+Când NU mai merge pe drumul ăsta:
+— în primele 3 zile de la depunere, sistemul nu te lasă;
+— după ce trec cele 12 luni nu mai poți corecta declarația: scrii la HMRC, iar ca să îți iei banii înapoi faci o cerere de overpayment relief, în maximum 4 ani de la finalul anului fiscal la care se referă;
+— cererea de overpayment relief o semnezi tu personal, sau un director în cazul unei companii limited. Nici contabilul nu poate semna în locul tău;
+— dacă ai depus prin software comercial, întâi vorbești cu furnizorul software-ului, și doar dacă el nu poate face corectura mergi la HMRC.
+
+Ai găsit o cifră care nu e bună în declarația ta?""",
+ th="""Ai depus declarația și ai văzut o greșeală? Ai 12 luni de la termenul de 31 ianuarie ca să corectezi — pentru 2024-25, până pe 31 ianuarie 2027. Nu explici nimic și nu iei amendă pentru corectură. Dar trebuie să aștepți 3 zile de la depunere, iar după cele 12 luni se scrie la HMRC.""",
+ li="""Filing a Self Assessment return and then spotting an error is ordinary, and so is the fix. You have 12 months from the filing deadline to amend your own return, which means 31 January 2027 for the 2024-25 return. No explanation is required and there is no penalty for the amendment itself.
+
+Two practical points. You cannot amend in the first 3 days (72 hours) after filing — the service will not let you. And if you filed through commercial software, you cannot necessarily amend through HMRC's own service: contact the software provider first, and approach HMRC only if the software cannot make the correction.
+
+Online, the route is: sign in, More Self Assessment details, At a glance, Tax return options, pick the year, correct the figures and file again. On paper, send the corrected SA100 pages marked 'amendment' with your name and UTR to the address on your Self Assessment paperwork, or to BX9 1AS if you cannot find it.
+
+Once the 12 months are up, this is no longer an amendment. You write to HMRC, and to recover tax you make a formal overpayment relief claim within 4 years of the end of the tax year concerned. That claim must state the year, why you believe you overpaid and how much — and it must be signed by the taxpayer personally, or by a company officer for a limited company. No one else, including a tax agent, can sign it, and HMRC rejects incomplete claims.
+
+Worth keeping separate from all of this: HMRC's own power to correct obvious errors in a return, which it exercises within 9 months, and voluntary disclosure of undeclared income, which is a different process and can carry penalties.
+
+If you have found a figure you no longer believe, send us the year and we will tell you which route is still open.""",
+ bsky="""Filed and spotted a mistake? You have 12 months from the deadline to amend: 31 January 2027 for the 2024-25 return.""",
+ pin_title="How to amend a Self Assessment return after filing",
+ pin="""How to amend a UK Self Assessment tax return. You have 12 months from the 31 January filing deadline to correct your own return, so 31 January 2027 for the 2024-25 return. Wait 3 days (72 hours) after filing, then sign in, go to Tax return options, pick the year and file again. On paper, send corrected SA100 pages marked amendment with your name and UTR. Once the window closes you must write to HMRC instead, or claim overpayment relief within 4 years of the end of the tax year.""",
+ source="gov.uk/self-assessment-tax-returns/corrections",
+ source_en="https://www.gov.uk/self-assessment-tax-returns/corrections",
+ tt_title="Ai greșit declarația? Ai 12 luni să o corectezi",
+)
+
+C["bham-sdlt-first-time-buyers"] = dict(
+ en="""Buying your first home in Birmingham? The first £300,000 is free of stamp duty.
+
+Stamp duty is the tax you pay HMRC when you buy a property. First-time buyers get a break on it.
+
+How it works
+No stamp duty at all on the first £300,000 of the price. On the part between £300,001 and £500,000 you pay 5% — and only on that part, not on the whole price.
+
+So £320,000 for a house in Erdington: nothing on the first £300,000, 5% on the last £20,000. That is £1,000.
+
+The dates
+Your solicitor files a stamp duty return and pays the tax within 14 days of completion. The first-time buyer break is not given automatically — somebody has to claim it on that return. Worth asking your conveyancer to confirm they did.
+
+Who does not get it
+Pay over £500,000 and the break is gone completely — not reduced, gone. You pay the ordinary rates instead: nothing on the first £125,000, 2% up to £250,000, then 5% above that.
+It also goes if you, or anyone buying with you, has ever owned a home — anywhere in the world. Companies and most trusts cannot claim it. And you have to be planning to live there as your main home.
+
+One thing worth checking
+Figures from before April 2025 still float around online. The old £625,000 price cap is not the rule any more. £500,000 is.
+
+Buying with a partner who owned a flat years ago is the one that catches people out. Has anyone actually confirmed the break went on your return?""",
+ tt_title="First home in Birmingham: no stamp duty on the first £300,000",
+ source_en="https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+)
+
+C["bham-vat-entertainment"] = dict(
+ en="""You took a client out for a curry. That VAT does not come back.
+
+How it works
+HMRC calls it business entertainment when three things are all true at once: you provide hospitality — food, drink, a hotel room, event tickets — the people getting it are not your employees, and they get it free. When all three are true the VAT is blocked. It cannot go in box 4 of your VAT return, however clearly the meal won you the work.
+
+Your own staff are different
+VAT on staff entertainment — the Christmas do, a team-building day, a works outing — is not blocked by those rules. You reclaim it the normal way, with a proper VAT invoice behind it.
+
+Who does not count as staff
+A meal out for the directors or the partners on their own: that VAT is not input tax at all, so there is nothing to reclaim. The same directors at the staff party alongside everyone else are fine.
+Pensioners, people who used to work for you, people you are interviewing and shareholders who do not work in the business are not staff for this.
+Table of employees and customers together? Only the employee share comes back.
+
+One thing worth checking
+Subsistence is not entertainment. A fitter's lunch while working away from the yard runs on different rules — do not lump it in with the client dinner and do not block it by mistake.
+
+A quick one for the bookkeeping: on your last VAT return, did any client lunches end up in box 4?""",
+ tt_title="Staff party VAT comes back. The client curry does not.",
+ source_en="https://www.gov.uk/guidance/business-entertainment-and-vat-notice-70065",
+)
+
+C["bham-holiday-pay-irregular"] = dict(
+ en="""Zero-hours staff in the shop build up paid holiday at 12.07% of the hours they actually work.
+
+How it works
+Work out 12.07% of the hours someone worked in each pay period and round it to the nearest hour. That is the paid holiday they have earned. It comes to the same 5.6 weeks a full-year worker gets, just measured in hours as they go.
+
+It is only for two groups: workers whose paid hours vary from one pay period to the next under their contract — casual and zero-hours staff — and part-year workers, who have at least a week in the year when they are neither working nor paid.
+
+The dates
+This method applies to leave years that began on or after 1 April 2024.
+You can pay the holiday with their wages each payday — rolled-up holiday pay — as long as it shows as its own separate line on the payslip. You do not have to. The other option is a 52-week average of their pay. Rolled up is a choice, not a rule.
+
+Who you cannot use it for
+Staff on the same fixed hours all year round. They get 5.6 weeks of leave, capped at 28 days, and 12.07% underpays them. A rotating shift pattern with fixed hours each week counts as fixed, not irregular.
+Genuinely self-employed people get no statutory holiday at all.
+Running payroll for staff in Northern Ireland? Different holiday rules there — this is the Great Britain method.
+
+Worth a look at the payroll: is anyone on fixed weekly hours being paid 12.07%?""",
+ tt_title="12.07% holiday pay: who it is for, and who it underpays",
+ source_en="https://www.gov.uk/government/publications/simplifying-holiday-entitlement-and-holiday-pay-calculations/holiday-pay-and-entitlement-reforms-from-1-january-2024",
+)
+
+C["bham-employer-ni"] = dict(
+ en="""Take someone on in Birmingham and you start paying employer National Insurance at £96 a week.
+
+Employer National Insurance is a payment you make to HMRC on top of wages. It is your cost, not a deduction from their pay.
+
+How it works
+For the main National Insurance categories — A, B, C and J — you pay 15% on everything an employee earns above £96 a week, £417 a month, or £5,000 a year. Nothing below that.
+There is no ceiling on it either. Unlike the employee's own National Insurance, yours does not drop to a lower rate once their pay gets high.
+
+The dates
+These are the 2026-27 figures, from 6 April 2026. Same rate and same threshold as last year, and the same across England, Scotland, Wales and Northern Ireland — National Insurance does not change by nation the way Scottish income tax does.
+
+Who you do not pay it for
+Employees under 21, apprentices under 25 on an approved scheme, and veterans in their first year of civilian work: 0% up to £967 a week, and 15% only above that.
+Freeport and Investment Zone employees: 0% up to £481 a week.
+And the one people get wrong — staff over State Pension age. The employee pays nothing, but you still pay 15% from £96 a week.
+
+One thing worth checking
+Those zero rates are not claimed on a form. They come from the National Insurance category letter on the payroll. An 18-year-old sitting on category A costs you 15% from £96 instead of from £967, every payday.
+
+When did anyone last check the category letters on your payroll?""",
+ tt_title="Employer NI 2026-27: 15% from £96 a week, and the letters that stop it",
+ source_en="https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+)
+
+C["bham-housing-element"] = dict(
+ en="""Renting a two-bed in Birmingham for £900 a month? Universal Credit's help with rent stops at £750.
+
+The housing element is the part of a Universal Credit payment that goes towards rent. For private tenants it is capped by the Local Housing Allowance — a figure set for your area and the number of bedrooms your household is treated as needing. It is not based on what your landlord charges.
+
+The Birmingham rates, 2026-27
+Shared accommodation £341.58 a month. One bedroom £695. Two bedrooms £750. Three bedrooms £825. Four bedrooms £1,100 — and four is as high as it goes, there is no five-bedroom rate.
+
+So on that £900 two-bed, £150 a month is yours to find out of the rest of your money. The gap is never topped up.
+
+The dates
+These rates run from April to March, not the tax year. The England table was last updated on 8 April 2026.
+
+Who does not get the bedroom rate
+Single, living alone and under 35: you are normally held to the shared accommodation rate, £341.58, even in a self-contained flat. There are exceptions, including care leavers under 25, people who have spent three months or more in a homeless hostel, and people getting certain disability or care benefits.
+Council and housing association tenants are not on Local Housing Allowance at all — their rent help is worked out a different way.
+Each person aged 21 or over living with you who is not your partner takes £96.55 a month off the housing element, unless an exemption applies.
+
+One thing worth checking
+"Birmingham" as a rent area is not the same shape as the city. Check your own cap by postcode on the Valuation Office Agency's LHA Direct tool before you sign anything.
+
+Is the cap for your postcode above or below the rent you are being asked for?""",
+ tt_title="Birmingham rent caps 2026-27: £695 one bed, £750 two bed",
+ source_en="https://www.gov.uk/housing-and-universal-credit/renting-from-private-landlord",
+)
+
+C["en-ch-id-verification"] = dict(
+ en="""If you are a director of a UK company, Companies House now has to know who you really are.
+
+Since 18 November 2025 every director, and every person who owns or controls a UK company, has to prove their identity once. People already on the register before that date were given 12 months to do it, and that runs out on 18 November 2026.
+
+How it works: you verify once, free, through the Companies House "Verify your identity" service using GOV.UK One Login. You get back a personal code of 11 characters. The code belongs to you, not to the company, and you quote it on the filing. An AML-supervised accountant or solicitor registered as an authorised agent can verify you instead, for a fee. Never post or email your ID documents to Companies House.
+
+Who is not being asked yet: shareholders who do not control the company, employees, and a company secretary who is not a director. It is also not in yet for limited partnerships, for a company that is itself a director, or for people who only file at Companies House on a company's behalf. Verified once already? That is it. Do not verify again unless you are told to.
+
+The one thing worth checking: a company cannot file its confirmation statement until all of its directors are verified. One director who has not done it holds up the whole company.
+
+Company law is the same in England, Wales, Scotland and Northern Ireland, so this applies right across the UK.
+
+Do you know whether every director of your company has a personal code on file?""",
+ tt_title="Company directors: the identity deadline is 18 November 2026",
+ source_en="https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+)
+
+C["en-vat-bad-debt-relief"] = dict(
+ en="""A customer never paid you, and you have already paid HMRC the VAT on that sale. You can get that VAT back.
+
+How it works: once the invoice has gone unpaid for 6 months, you write the debt off in your VAT records, move it to a separate bad debt account, and put the VAT in box 4 of your VAT return.
+
+The dates: count the 6 months from whichever is later, the day the invoice was due to be paid or the day you supplied the goods or did the work. The claim goes on the return for the period in which you first meet all the conditions, and it cannot go on a return for an earlier period. You have 4 years and 6 months from that same later date to claim, and you keep the invoices and the bad debt account for 4 years from the claim.
+
+Who does not need it: if you are on the Cash Accounting Scheme you only pay HMRC VAT on money you have actually received, so there is nothing to reclaim. Some retail schemes work the same way. You also cannot claim if the debt was sold or passed to a factoring company, or if a guarantor paid it, and a credit note is not a substitute just because someone has not paid.
+
+The bit most people miss: it works the other way too. If you have not paid one of your own suppliers within 6 months, you have to give back the VAT you already claimed on that bill, by reducing box 4.
+
+VAT is UK-wide, so this is the same in England, Wales, Scotland and Northern Ireland.
+
+Is there an invoice on your books that has been unpaid for more than six months?""",
+ tt_title="Unpaid invoice? You can claim the VAT back after 6 months",
+ source_en="https://www.gov.uk/guidance/relief-from-vat-on-bad-debts-notice-70018",
+)
+
+C["en-company-car-benefit"] = dict(
+ en="""An electric company car is no longer free of tax.
+
+If your company makes a car available to you and you can use it privately, HMRC treats that use as pay. You are taxed on a percentage of the car's price.
+
+How it works: start with the list price the maker published the day before the car was first registered, not what your company actually paid, so a discount or a second-hand buy does not bring it down. Add accessories fitted later costing more than £100, take off up to £5,000 if you put your own money in, then apply the percentage set by the car's CO2.
+
+The figures for the tax year 6 April 2026 to 5 April 2027: 4% for a fully electric car. For a plug-in hybrid putting out 1 to 50g/km it depends on how far it runs on electricity alone, 4% at 130 miles or more, 7% at 70 to 129 miles, 10% at 40 to 69, 14% at 30 to 39 and 16% under 30 miles. The lowest petrol band, 51 to 54g/km, is 17%, and the top of the scale is 37%. Most diesels add 4% on top, capped at 37%.
+
+Who is not charged: a pool car meeting HMRC's conditions, and a car genuinely not available for private use. Vans sit outside this charge and have their own rules. The charge is cut for any period of 30 or more consecutive days when the car was not available to you, and a shorter gap gives you nothing.
+
+Worth knowing: the benefit value is identical anywhere in the UK, but a Scottish taxpayer pays a different amount of income tax on it, because Scotland sets its own income tax rates.
+
+Do you know which percentage your car falls into this year?""",
+ tt_title="Company car tax 2026-27: 4% electric, up to 37% on the rest",
+ source_en="https://www.gov.uk/guidance/company-car-benefit-the-appropriate-percentage-480-appendix-2",
+)
+
+C["en-associated-companies"] = dict(
+ en="""Own more than one company? The low corporation tax band is not yours twice over.
+
+Corporation tax is 19% on profits up to £50,000 and 25% on profits over £250,000, with a sliding scale called marginal relief in between.
+
+How it works: those two figures are divided by the number of associated companies plus one. Two companies under the same control and each one gets £25,000 and £125,000. Four and each gets £12,500 and £62,500.
+
+A worked example: you control four companies and one of them makes £70,000. Its upper limit is now £62,500, so it pays the full 25% on all of its profit, where £70,000 on its own would have fallen in the marginal relief band and cost less.
+
+Two companies are associated if one controls the other, or if the same person or people control both. That counts even if one of them is registered abroad, and even if they were only associated for part of the accounting period.
+
+Which ones you leave out: a company that has carried on no trade or business at any time in the period is disregarded, so a genuinely dormant holding company or an untraded shelf company does not divide your limits.
+
+Who cannot claim marginal relief at all: a company that is not UK resident, a close investment holding company, and any company whose profits are over the upper limit. A company making £50,000 or less does not need it, because it already pays 19%.
+
+The limits are reduced again if the accounting period is shorter than 12 months, and that stacks with the division.
+
+Corporation tax is not devolved, so this is the same across the UK.
+
+How many companies do you and your business partners control between you?""",
+ tt_title="Two companies? Your £50,000 corporation tax band gets split",
+ source_en="https://www.gov.uk/guidance/corporation-tax-marginal-relief",
+)
+
+C["en-appeal-penalty"] = dict(
+ en="""A £100 late filing penalty from HMRC is not always the end of it. If something real stopped you filing on time, you can appeal and ask for it to be cancelled.
+
+The dates: you get 30 days from the date on the penalty notice. HMRC in practice allows 37, the 30 days plus 7 for printing and posting. The penalty itself is due within 30 days of the notice.
+
+How to appeal: online through HMRC's appeal service, or on form SA370 by post, SA371 for a partnership penalty. Have ready the date the penalty was issued, the date you filed, the date you paid and your reason.
+
+What HMRC says it accepts: a death in the close family shortly before the deadline, an unexpected stay in hospital that stopped you dealing with your tax, a serious or life-threatening illness, a fire, flood or theft, computer or software failure while you were preparing the return, problems with HMRC's online services, postal delays you could not have predicted, delays related to a disability or mental illness you have, not knowing or misunderstanding the obligation, and relying on someone else to send the return who then did not.
+
+What gov.uk says it does not accept: your payment failed because there was not enough money in the account, you found HMRC's online system too difficult to use, you did not get a reminder, or you made a mistake on your return.
+
+Two things decide most appeals. The reason has to cover the whole period you were late, and you have to send the return or the payment as soon as you are able. And appealing does not pause the debt: if you do not pay and the appeal is refused, interest runs from the day the penalty was due. If HMRC refuses, you can ask for a review of the decision.
+
+Penalty appeals work the same across the UK.
+
+Have you got a penalty notice you do not think you owe?""",
+ tt_title="HMRC says no to four of the excuses people try on a penalty",
+ source_en="https://www.gov.uk/tax-appeals/reasonable-excuses",
+)
