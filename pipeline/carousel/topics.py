@@ -8085,3 +8085,701 @@ General information. For your own situation, speak to an accountant.
 ]
 
 SOLO_BY_SLUG = {s["slug"]: s for s in SOLOS}
+
+
+# ================ 17 November 2026 — written by the evening Content Studio run
+# Ola brand — five carousels for 17 November 2026
+# Four cards each: three content cards, then the CTA card.
+
+BADR = dict(
+  slug="ola-vanzare-afacere-badr", brand="ola",
+  title="Business Asset Disposal Relief — 18% pe câștig, și ce se schimbă pe 6 aprilie 2027",
+  tags_ro="#selfemployed #CapitalGainsTax #HMRC #impozite #Luton",
+  tags_en="#BusinessAssetDisposalRelief #CapitalGainsTax #HMRC #BusinessExit #UKTax",
+  RO=[
+    dict(type="hook",
+      kicker="Business Asset Disposal Relief · gov.uk",
+      h1="„Am vândut afacerea. Câștigul a fost <em>£300.000</em>.”",
+      say="Pe câștigul din vânzare se plătește Capital Gains Tax. Dacă vânzarea se califică pentru Business Asset Disposal Relief, cota e 18% pentru vânzări făcute de la 6 aprilie 2026."),
+    dict(type="step", step="Cât intră la cota de 18%", fig="<cur>£</cur>1.000.000",
+      say="Cota merge pe câștigurile care se califică, până la <cur>£</cur>1.000.000 adunat pe toată viața ta — nu pe an. Ce trece peste se impozitează la cotele normale de Capital Gains Tax.",
+      note="Pentru vânzări făcute de la 6 aprilie 2027, limita pe viață scade la <cur>£</cur>500.000."),
+    dict(type="step", step="Cine NU primește cota asta", fig="5%",
+      say="Închirierea de proprietăți nu se consideră business aici. Iar la vânzarea de acțiuni îți trebuie minimum 5% din acțiuni și din voturi, plus să fii director sau angajat în firmă.",
+      note="Condițiile trebuie îndeplinite timp de 2 ani, până la data vânzării."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Business Asset Disposal Relief · gov.uk",
+    h1="Ai vândut afacerea sau te gândești să o vinzi?",
+    say="Scrie-ne pe WhatsApp data vânzării și cât estimezi câștigul. Verificăm dacă se califică și până când se poate depune cererea. Consultație financiară: £420 (TVA inclus), 60 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Business Asset Disposal Relief · gov.uk",
+      h1="“I sold the business. The gain came to <em>£300,000</em>.”",
+      say="The gain is charged to capital gains tax. Where the sale qualifies for Business Asset Disposal Relief, the rate is 18% on disposals made on or after 6 April 2026."),
+    dict(type="step", step="What the 18% covers", fig="<cur>£</cur>1,000,000",
+      say="It applies to qualifying gains up to <cur>£</cur>1,000,000 across a lifetime, not per year. Anything above that is taxed at the ordinary capital gains rates.",
+      note="For disposals on or after 6 April 2027 the lifetime limit falls to <cur>£</cur>500,000."),
+    dict(type="step", step="Who the relief misses", fig="5%",
+      say="A property letting business does not count as a business for this relief. On a share sale you need at least 5% of the ordinary shares and votes, and to be an officer or employee.",
+      note="The conditions must be met throughout the two years ending on the disposal."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Is your exit on the right side of 6 April 2027?",
+    say="Send us the disposal date and the expected gain. We will tell you whether the relief fits and when the claim falls due. Financial consultation £420 incl. VAT, 60 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the 18% Capital Gains Tax rate on gains qualifying for Business Asset Disposal Relief, for disposals on or after 6 April 2026", "https://www.gov.uk/government/publications/entrepreneurs-relief-hs275-self-assessment-helpsheet/hs275-business-asset-disposal-relief-2026", "2026-11-15"],
+    ["the £1,000,000 lifetime limit on qualifying gains for 2026-27, cumulative over a lifetime and not annual", "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances", "2026-11-15"],
+    ["the reduced £500,000 lifetime limit for qualifying disposals made on or after 6 April 2027", "https://www.gov.uk/government/publications/capital-gains-tax-reduction-in-the-business-asset-disposal-relief-lifetime-limit/capital-gains-tax-new-business-asset-disposal-relief-lifetime-limit", "2026-11-15"],
+    ["the 2-year qualifying period ending on the date of disposal, and the 5% ordinary share capital and voting rights test for a personal company", "https://www.gov.uk/government/publications/entrepreneurs-relief-hs275-self-assessment-helpsheet/hs275-business-asset-disposal-relief-2026", "2026-11-15"],
+    ["the 14% rate that applied to disposals from 6 April 2025 to 5 April 2026", "https://www.gov.uk/government/publications/entrepreneurs-relief-hs275-self-assessment-helpsheet/hs275-business-asset-disposal-relief-2026", "2026-11-15"],
+  ],
+  SCOPE=dict(
+    nation="United Kingdom. Capital Gains Tax is not devolved, so the rate is the same for Scottish and Welsh taxpayers even though their income tax bands differ. No nation is named on any card.",
+    category="Capital Gains Tax relief on selling a business, business assets after cessation, or shares in a personal company — rate and lifetime limit for 2026-27.",
+    excluded="From the bank entry, in full: Companies. Trusts that are wholly discretionary settlements. Personal representatives, unless the disposal happened while the deceased was alive. Property letting businesses, which do not count as a business for BADR. Shares held as investments, holdings below 5%, non-trading companies, and holders who are not an officer or employee. Goodwill sold to a close company in which the seller and connected persons hold 5% or more (subject to a 28-day share-disposal exception). Anyone who has already used up their lifetime limit. Gains above the lifetime limit, which are taxed at normal CGT rates. Card 3 carries the property letting exclusion and the 5% / officer-or-employee test, with the 2-year condition as its note; the caption adds that companies do not get it, that gains over the limit go to the normal rates, and that a used-up lifetime limit leaves nothing to claim. The trust, personal-representative and close-company goodwill points were kept off the cards and out of the captions as too narrow for this audience.",
+    from_when="The 18% rate applies to qualifying disposals made on or after 6 April 2026. The £1 million lifetime limit has applied since 11 March 2020 and still applies for 2026-27; it falls to £500,000 for disposals on or after 6 April 2027. Not automatic — claimed on the Self Assessment tax return, or in writing to HMRC, by the first anniversary of the 31 January following the end of the tax year of disposal."),
+)
+
+MILEAGE = dict(
+  slug="ola-mile-cu-masina", brand="ola",
+  title="55p pe milă — rata pentru mașina ta a crescut, cu efect de la 6 aprilie 2026",
+  tags_ro="#selfemployed #mileage #HMRC #impozite #Luton",
+  tags_en="#Mileage #HMRC #SelfEmployed #Expenses #UKTax",
+  RO=[
+    dict(type="hook",
+      kicker="Mileage rates · gov.uk",
+      h1="„<em>8.400</em> de mile de business, cu mașina mea.”",
+      say="La rata aprobată pentru 2026/27 — 55p pe milă pentru primele 10.000 de mile — asta face <cur>£</cur>4.620. Rata a crescut de la 45p și se aplică de la 6 aprilie 2026."),
+    dict(type="step", step="Cum se socotesc milele", fig="55p / 25p",
+      say="Primele 10.000 de mile de business din anul fiscal: 55p fiecare. Fiecare milă de după: 25p — la 12.000 de mile iese <cur>£</cur>6.000.",
+      note="Contorul de 10.000 repornește la fiecare an fiscal și merge pe persoană, nu pe mașină."),
+    dict(type="step", step="Ce NU se pune la socoteală", fig="Commuting",
+      say="Drumul de acasă la locul tău de muncă obișnuit nu se consideră niciodată business. Și mașina primită de la firmă nu intră aici: pentru ea se folosesc Advisory Fuel Rates.",
+      note="Dacă angajatorul îți plătește mai puțin decât rata aprobată, ceri doar pe diferență."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Mileage rates · gov.uk",
+    h1="Ți-ai notat milele de business din anul ăsta?",
+    say="Scrie-ne pe WhatsApp câte mile ai făcut și cât ți-a plătit angajatorul pe milă. Îți spunem ce poți cere. Prima consultație: £120 (TVA inclus), 30 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Mileage rates · gov.uk",
+      h1="“I did <em>8,400</em> business miles in my own car.”",
+      say="At the 2026/27 approved rate of 55p for the first 10,000 miles, that is <cur>£</cur>4,620. The rate went up from 45p, backdated to 6 April 2026."),
+    dict(type="step", step="How the two rates work", fig="55p / 25p",
+      say="The first 10,000 business miles in a tax year are 55p each. Every mile after that is 25p — so 12,000 miles comes to <cur>£</cur>6,000.",
+      note="The 10,000-mile counter resets each tax year and follows the person, not the vehicle."),
+    dict(type="step", step="What never counts", fig="Commuting",
+      say="Home to a permanent workplace is ordinary commuting and never qualifies. A company car sits outside these rates entirely — it uses Advisory Fuel Rates.",
+      note="Where the employer pays below the approved rate, relief is on the shortfall only."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Is your mileage still being paid at 45p?",
+    say="Send us your business mileage for the year and what your employer pays per mile. We will tell you what is claimable. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the 2026/27 rate of 55p a mile for the first 10,000 business miles in your own car, raised from 45p and backdated to 6 April 2026", "https://www.gov.uk/government/publications/rates-and-allowances-travel-mileage-and-fuel-allowances/travel-mileage-and-fuel-rates-and-allowances", "2026-11-13"],
+    ["the 2026/27 rate of 25p a mile for every business mile after the first 10,000", "https://www.gov.uk/government/publications/rates-and-allowances-travel-mileage-and-fuel-allowances/travel-mileage-and-fuel-rates-and-allowances", "2026-11-13"],
+    ["the old first-10,000 rate of 45p a mile, which applied from 2011/12 to 2025/26", "https://www.gov.uk/government/publications/increase-to-approved-mileage-allowance-payments-amaps-and-self-employed-simplified-mileage-rates/increasing-mileage-rates", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="UK. Approved mileage rates are UK-wide and not devolved. No nation is named on any card.",
+    category="Travel expenses — approved mileage rates for an employee's, director's or self-employed person's own car or van, 2026/27.",
+    excluded="From the bank entry, in full: A company car or any vehicle the employer provides — those use Advisory Fuel Rates instead. Ordinary commuting from home to a permanent workplace never counts. Where the employer pays less than the approved rate, you claim tax relief on the shortfall, not the full pence per mile. All three sit on card 3: commuting and the company car in the body, the shortfall point as the note, and all three again in the captions. No 2027/28 first-10,000 rate is stated anywhere, because only the over-10,000 rate has been announced for that year.",
+    from_when="55p applies for the whole of 2026/27, backdated to 6 April 2026. Not automatic — normally paid by the employer; where they pay less, Mileage Allowance Relief is claimed through Self Assessment or on form P87."),
+)
+
+NIC = dict(
+  slug="ola-national-insurance-salariu", brand="ola",
+  title="National Insurance pe fluturașul tău — de unde încep cei 8% în 2026/27",
+  tags_ro="#NationalInsurance #payroll #HMRC #salariu #Luton",
+  tags_en="#NationalInsurance #Payroll #HMRC #Employers #UKTax",
+  RO=[
+    dict(type="hook",
+      kicker="Class 1 National Insurance · gov.uk",
+      h1="„Câștig <em>£2.000</em> pe lună. Ce e linia de National Insurance?”",
+      say="E contribuția care se oprește din salariu prin payroll, în fiecare perioadă de plată. În 2026/27 se plătește 8% din cât trece peste <cur>£</cur>1.048 într-o lună — aici, <cur>£</cur>76,16."),
+    dict(type="step", step="De unde până unde merg cei 8%", fig="8%",
+      say="Cei 8% se plătesc pe partea de salariu dintre <cur>£</cur>12.570 și <cur>£</cur>50.270 pe an. Peste <cur>£</cur>50.270 rămâne 2%.",
+      note="Angajatorul plătește separat 15% pe tot ce trece peste <cur>£</cur>5.000 pe an, fără plafon."),
+    dict(type="step", step="Cine NU plătește", fig="<cur>£</cur>12.570",
+      say="Sub <cur>£</cur>12.570 pe an — adică <cur>£</cur>1.048 pe lună — nu se oprește National Insurance din salariul tău. Nici angajații care au trecut vârsta de State Pension nu plătesc partea de angajat.",
+      note="Angajatorul continuă să plătească 15% și pentru ei."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Class 1 National Insurance · gov.uk",
+    h1="Nu-ți dai seama ce s-a oprit din salariul tău?",
+    say="Trimite-ne pe WhatsApp un fluturaș de salariu și îți explicăm fiecare linie, rând cu rând. Prima consultație: £120 (TVA inclus), 30 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Class 1 National Insurance · gov.uk",
+      h1="“I earn <em>£2,000</em> a month. What is the NI line?”",
+      say="National Insurance comes out of pay through payroll, every pay period. For 2026/27 an employee pays 8% of whatever the month's pay exceeds <cur>£</cur>1,048 — here, <cur>£</cur>76.16."),
+    dict(type="step", step="Where the 8% starts and stops", fig="8%",
+      say="Employees pay 8% on the slice of pay between <cur>£</cur>12,570 and <cur>£</cur>50,270 a year, then 2% on anything above <cur>£</cur>50,270.",
+      note="Employers pay 15% on everything above <cur>£</cur>5,000 a year, with no upper limit at all."),
+    dict(type="step", step="Who pays nothing", fig="<cur>£</cur>12,570",
+      say="Below <cur>£</cur>12,570 a year — <cur>£</cur>1,048 a month — no employee National Insurance is deducted. Employees over State Pension age pay no employee contributions either.",
+      note="Employer contributions still run on those employees."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Running payroll on the 2026/27 thresholds?",
+    say="Send us your pay figures and category letters and we will check the thresholds and the employer cost with you. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the 2026/27 Primary Threshold of £242 a week, £1,048 a month, £12,570 a year", "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+    ["the 2026/27 Upper Earnings Limit of £967 a week, £4,189 a month, £50,270 a year", "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+    ["the employee Class 1 rate of 8% between the Primary Threshold and the Upper Earnings Limit, and 2% above it, on category A", "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+    ["the employer Class 1 rate of 15% on earnings above the Secondary Threshold of £96 a week, £417 a month, £5,000 a year, with no upper limit", "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+    ["the 2026/27 Lower Earnings Limit of £129 a week, £559 a month, £6,708 a year, below which earnings do not count towards a qualifying year", "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK. National Insurance is not devolved, so these thresholds and rates are identical in England, Scotland, Wales and Northern Ireland. Income tax is different — Scotland sets its own rates and bands — so no income tax figure is paired with these anywhere in the carousel.",
+    category="Payroll — Class 1 National Insurance thresholds and rates for 2026/27, category A (the standard category).",
+    excluded="From the bank entry, in full: Employees whose earnings fall below the relevant threshold pay no employee Class 1 NIC (below the Primary Threshold) and attract no employer Class 1 NIC (below the Secondary Threshold). Employees who do not have to pay National Insurance at all — for example because they are under 16 — are reported under category letter X. Employees over State Pension age are category C, for which HMRC's rate table shows the employee rate as not applicable, so no employee contributions are due, while employer Class 1 NIC still applies. The employee rate is also shown as not applicable for categories K and S. Earnings below the Lower Earnings Limit do not count towards the employee's qualifying year for contributory benefits. Card 3 carries the below-Primary-Threshold case and the State Pension age case, with employer contributions continuing as its note; the captions add the under-16 category X point and the Lower Earnings Limit qualifying-year point. Categories K and S were kept off both as too narrow.",
+    from_when="6 April 2026. Automatic — not a claim. Employee and employer Class 1 National Insurance are calculated and deducted through payroll each pay period on the correct category letter and reported to HMRC on the Full Payment Submission on or before payday."),
+)
+
+SSP = dict(
+  slug="ola-statutory-sick-pay", brand="ola",
+  title="Statutory Sick Pay 2026/27 — se plătește de la prima zi, fără condiție de câștig",
+  tags_ro="#StatutorySickPay #payroll #HMRC #angajati #Luton",
+  tags_en="#StatutorySickPay #Payroll #HMRC #Employment #UKTax",
+  RO=[
+    dict(type="hook",
+      kicker="Statutory Sick Pay · gov.uk",
+      h1="„Am stat acasă bolnav <em>5 zile</em>.”",
+      say="Dacă ai contract de muncă, angajatorul îți plătește Statutory Sick Pay pentru zilele în care trebuia să lucrezi: <cur>£</cur>123,25 pe săptămână, sau 80% din salariul tău mediu săptămânal, dacă iese mai puțin."),
+    dict(type="step", step="Ce s-a schimbat pe 6 aprilie 2026", fig="prima zi",
+      say="Zilele de așteptare neplătite de la începutul bolii nu mai există. Se plătește de la prima zi în care trebuia să lucrezi, oricât câștigi.",
+      note="Trebuie totuși să fii bolnav cel puțin o zi întreagă de lucru."),
+    dict(type="step", step="Cine NU primește", fig="28 de săptămâni",
+      say="Dacă ai primit deja 28 de săptămâni de Statutory Sick Pay, atât se plătește în total. Iar fără contract de muncă — dacă ești self-employed — nu se aplică deloc.",
+      note="Nu se plătește nici alături de Statutory Maternity Pay sau Maternity Allowance."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Statutory Sick Pay · gov.uk",
+    h1="Nu ți s-a plătit Statutory Sick Pay pe zilele acelea?",
+    say="Scrie-ne pe WhatsApp zilele în care ai lipsit și ce scrie pe fluturașul de salariu. Verificăm împreună ce ți se cuvenea. Prima consultație: £120 (TVA inclus), 30 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Statutory Sick Pay · gov.uk",
+      h1="“I was off sick for <em>five days</em>.”",
+      say="With an employment contract, your employer pays Statutory Sick Pay for the days you were due to work: <cur>£</cur>123.25 a week, or 80% of your average weekly earnings if that is lower."),
+    dict(type="step", step="What changed on 6 April 2026", fig="Day one",
+      say="The unpaid waiting days at the start of a sickness absence are gone. SSP now runs from the first day you were due to work, whatever you earn.",
+      note="You still need to have been sick for at least one full working day."),
+    dict(type="step", step="Who gets none of it", fig="28 weeks",
+      say="Once 28 weeks of SSP have been paid, that is the total. And without an employment contract — if you are self-employed — SSP does not apply at all.",
+      note="It also does not run alongside Statutory Maternity Pay or Maternity Allowance."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Is your payroll still applying waiting days?",
+    say="Send us the absence dates and the payslip and we will check what SSP was due and whether an SSP1 was needed. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the 2026/27 Statutory Sick Pay rate of £123.25 a week, or 80% of the employee's average weekly earnings, whichever is lower", "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-14"],
+    ["waiting days no longer applying from 6 April 2026, so SSP is payable from the first qualifying day of sickness", "https://www.gov.uk/guidance/sickness-absences-that-start-before-and-end-on-or-after-6-april-2026", "2026-11-14"],
+    ["SSP being available from 6 April 2026 to all eligible employees regardless of earnings, with no Lower Earnings Limit earnings test", "https://www.gov.uk/guidance/sickness-absences-that-start-before-and-end-on-or-after-6-april-2026", "2026-11-14"],
+    ["the requirement to be sick for at least one full working day, the 28-week maximum, and who is not eligible", "https://www.gov.uk/employers-sick-pay/eligibility-and-form-ssp1", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK. HMRC's employer rates page and the transitional guidance both present the 2026/27 rate and the removal of waiting days UK-wide without a nation caveat. The bank entry flags that Northern Ireland's devolved legislative position was not separately verified, so no nation is named on any card and nothing NI-specific is claimed.",
+    category="Statutory payments — Statutory Sick Pay rate and eligibility for 2026/27, after the 6 April 2026 reform.",
+    excluded="From the bank entry, in full: Employees who: have already received the maximum 28 weeks of SSP; are getting Statutory Maternity Pay or Maternity Allowance; are off work for a pregnancy-related illness in the 4 weeks before the week (Sunday to Saturday) the baby is due; were in custody or on strike on the first day of sickness (including any linked periods); are working outside the EU where the employer is not liable for their National Insurance contributions; or received Employment and Support Allowance within 12 weeks of starting or returning to work for that employer. Also excluded are employees with a continuous series of linked periods lasting more than 3 years, and anyone who is not an employee (no employment contract). An employee who fails to tell the employer within the notification deadline may lose some SSP. Card 3 carries the 28-week maximum, the no-employment-contract case, and Statutory Maternity Pay or Maternity Allowance as its note; the captions add the pregnancy-related 4-week window, the Employment and Support Allowance within 12 weeks point, and the notification deadline. Kept off both the cards and the captions: the custody-or-strike case, and the working-outside-the-EU case, which could not be written without straying into a reader's own circumstances abroad.",
+    from_when="6 April 2026 — the rate, the removal of waiting days and the removal of the earnings test. Not automatic — the employee must tell the employer they cannot work, usually by the employer's own deadline or within 7 days if none is set, and provide proof of illness when required. The employer pays SSP through payroll; the employee does not claim from HMRC. If the employee does not qualify, the employer must send form SSP1 within 7 days of the first day off sick."),
+)
+
+MARRIAGE = dict(
+  slug="ola-marriage-allowance", brand="ola",
+  title="Marriage Allowance — £252 pe an, și cine o cere de fapt",
+  tags_ro="#MarriageAllowance #impozite #HMRC #familie #Luton",
+  tags_en="#MarriageAllowance #IncomeTax #HMRC #PersonalTax #UKTax",
+  RO=[
+    dict(type="hook",
+      kicker="Marriage Allowance · gov.uk",
+      h1="„Suntem căsătoriți și nimeni nu ne-a spus de <em>£252</em>.”",
+      say="Dacă tu nu plătești impozit pe venit și partenerul tău plătește cota de bază, îi poți transfera <cur>£</cur>1.260 din Personal Allowance — partea de venit pe care nu se plătește impozit. Impozitul scade cu până la <cur>£</cur>252 pe an."),
+    dict(type="step", step="Cine face cererea", fig="2022/23",
+      say="Cererea o face cel care câștigă mai puțin, gratuit, pe gov.uk — și se poate cere și pentru ani trecuți, până la anul fiscal 2022/23.",
+      note="Odată aprobată, se reînnoiește automat până o oprești."),
+    dict(type="step", step="Cine NU o poate cere", fig="<cur>£</cur>50.270",
+      say="Trebuie să fii căsătorit sau într-un civil partnership; traiul împreună, fără una din cele două, nu e de ajuns. Și nu se poate dacă partenerul tău trece de <cur>£</cur>50.270, sau de <cur>£</cur>43.662 ca Scottish taxpayer.",
+      note="Nici dacă unul din cei doi primește deja Married Couple's Allowance."),
+  ],
+  CTA_RO=dict(type="cta",
+    kicker="Marriage Allowance · gov.uk",
+    h1="Tu plătești impozit pe venit și partenerul tău nu?",
+    say="Scrie-ne pe WhatsApp cât câștigă fiecare într-un an fiscal. Îți spunem dacă Marriage Allowance se potrivește și pentru ce ani se poate cere. Prima consultație: £120 (TVA inclus), 30 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Marriage Allowance · gov.uk",
+      h1="“Married, and nobody told us about <em>£252</em>.”",
+      say="Where one spouse or civil partner pays no income tax and the other pays basic rate, the lower earner can transfer <cur>£</cur>1,260 of their personal allowance across. That takes up to <cur>£</cur>252 off the couple's income tax for the year."),
+    dict(type="step", step="Who makes the claim", fig="2022/23",
+      say="The lower earner applies, free, on gov.uk — and the claim can be backdated as far as the 2022/23 tax year.",
+      note="Once granted it renews itself each year until you cancel it."),
+    dict(type="step", step="Who cannot claim it", fig="<cur>£</cur>50,270",
+      say="Living together is not enough — you need to be married or in a civil partnership. And the higher earner must not be above <cur>£</cur>50,270, or above <cur>£</cur>43,662 as a Scottish taxpayer.",
+      note="A couple already claiming Married Couple's Allowance cannot have this as well."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="One of you pays basic rate, the other pays nothing?",
+    say="Send us both incomes for the year and we will tell you whether Marriage Allowance fits and which years are still open. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the £1,260 of Personal Allowance the lower earner transfers to their spouse or civil partner", "https://www.gov.uk/marriage-allowance", "2026-11-13"],
+    ["the maximum income tax saving of up to £252 for the couple in one tax year", "https://www.gov.uk/marriage-allowance", "2026-11-13"],
+    ["backdating a claim to 6 April 2022, four tax years back from 2026/27", "https://www.gov.uk/marriage-allowance", "2026-11-13"],
+    ["the claim being made by the lower earner, free, on gov.uk, and renewing automatically until cancelled", "https://www.gov.uk/marriage-allowance", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="UK. The allowance itself is UK-wide, but the basic-rate test is read against the band that applies to the higher earner, so the Scottish figure of £43,662 is named on card 3 alongside £50,270 rather than left to be guessed.",
+    category="Income Tax allowances — transferring Personal Allowance between spouses and civil partners, 2026/27, with backdating.",
+    excluded="From the bank entry, in full: Couples living together but not married or in a civil partnership. Anyone already claiming Married Couple's Allowance. A higher earner above the basic rate — above £50,270, or above £43,662 for a Scottish taxpayer. All three sit on card 3 and all three are repeated in the captions, because each one is a case where people apply and are turned down.",
+    from_when="Current for 2026/27, with backdating to the 2022/23 tax year. Not automatic — the lower earner applies, free, on gov.uk, and it then renews automatically until cancelled."),
+)
+
+OLA_CAROUSELS = [BADR, MILEAGE, NIC, SSP, MARRIAGE]
+
+
+# ---------------------------------------------------------------- captions
+
+
+# Ola Accountancy En — five carousels for 17 November 2026
+# English only. UK-wide audience. No city named anywhere. TikTok only.
+
+AMEND_RETURN = dict(
+  slug="en-amend-tax-return", brand="en",
+  title="Changing a tax return after you have sent it — the 12 months you get",
+  tags_en="#OlaAccountancy #UKTax #HMRC #SelfAssessment #TaxReturn",
+  EN=[
+    dict(type="hook", kicker="Change a filed return · gov.uk",
+      h1="Sent it, then spotted a <em>mistake</em>?",
+      say="You can go back in and change it yourself. The door stays open for 12 months after the filing deadline — for the 2024 to 2025 return, that is 31 January 2027."),
+    dict(type="step", step="How you do it", fig="12 months",
+      say="Sign in to your HMRC account, pick the year, correct the figure and file it again. No explanation needed, and no penalty for the change itself.",
+      note="On paper: send the corrected pages marked 'amendment' with your name and UTR."),
+    dict(type="step", step="Who cannot use it", fig="Not in 72 hours",
+      say="Nobody can change a return in the first 3 days — 72 hours — after filing; the system is locked. Once the 12 months are up, this route closes and you write to HMRC instead.",
+      note="To get tax back after that, the claim must be in within 4 years of the end of that tax year."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Not sure if your return needs changing?",
+    say="Send us the year and what you think is wrong. We will tell you whether it is an amendment or a letter to HMRC. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["12 months to correct a return, measured from the Self Assessment filing deadline, and 31 January 2027 for the 2024 to 2025 return", "https://www.gov.uk/self-assessment-tax-returns/corrections", "2026-11-15"],
+    ["the 3-day (72-hour) wait after filing before the return can be updated, and the 4-year overpayment relief limit once the window has closed", "https://www.gov.uk/self-assessment-tax-returns/corrections", "2026-11-15"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide. The amendment window is set in UK-wide Self Assessment law and applies identically in England, Wales, Scotland and Northern Ireland.",
+    category="Self Assessment",
+    excluded="You cannot amend in the first 3 days (72 hours) after filing - the system will not let you. You cannot use the amendment route at all once the 12-month window has passed, or for any earlier tax year: you must write to HMRC instead, and to recover tax you must make a formal overpayment relief claim within 4 years of the end of the tax year. If you filed through commercial software you cannot necessarily amend via HMRC's own service - you must contact your software provider first and only approach HMRC if the software cannot make the correction. And a tax agent is excluded from signing an overpayment relief claim: the declaration must be signed by the taxpayer personally, or a company officer for a limited company - 'No one else, including a tax agent, can sign on your behalf.'",
+    from_when="The window runs to 12 months after the 31 January filing deadline. For the 2024-25 return that is 31 January 2027; for the 2025-26 return being filed this season it will be 31 January 2028."),
+)
+
+ANNUAL_INVESTMENT_ALLOWANCE = dict(
+  slug="en-annual-investment-allowance", brand="en",
+  title="Buying kit for the business — the £1 million Annual Investment Allowance",
+  tags_en="#OlaAccountancy #UKTax #HMRC #LimitedCompany #CapitalAllowances",
+  EN=[
+    dict(type="hook", kicker="Annual Investment Allowance · gov.uk",
+      h1="Bought a van? Take off the <em>whole</em> cost.",
+      say="Most tools, machines and vans you buy for the business come off the profit you pay tax on — the full cost, in the year you bought them."),
+    dict(type="step", step="How much, and when", fig="£1 million",
+      say="The limit is <cur>£</cur>1 million of spending in your accounting year, in total, not per item. A year shorter than 12 months gets a smaller share of it.",
+      note="You have to ask for it — the claim goes on your tax return."),
+    dict(type="step", step="What it does not cover", fig="Not cars",
+      say="Not cars — a van or a lorry counts, a car does not, and a car gets a smaller amount each year instead. Also out: anything you owned before you brought it into the business, and anything given to you.",
+      note="Two companies controlled by the same person share one <cur>£</cur>1 million, not one each."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Bought something big this year?",
+    say="Send us the invoice and your year end. We will tell you whether it is a full claim or the slower route. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the AIA amount is £1 million, giving 100% of cost up to the limit on most plant and machinery, pro-rated for accounting periods that are not 12 months", "https://www.gov.uk/capital-allowances/annual-investment-allowance", "2026-11-14"],
+    ["AIA cannot be claimed on business cars, items owned for another reason before business use, or items given to you; two or more companies under the same control share one AIA", "https://www.gov.uk/capital-allowances/annual-investment-allowance", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="Capital allowances",
+    excluded="AIA cannot be claimed on: business cars (claim writing down allowances instead); \"items you owned for another reason before you started using them in your business\"; and \"items given to you or your business\". Mixed partnerships cannot claim at all — \"AIA (annual investment allowance) is only available for partnerships where all the members are individuals\", so a partnership with a corporate member is excluded. A business that is closing cannot claim AIA on items bought in its final accounting period. Sole traders and partnerships cannot claim the full value of an item also used outside the business — the claim is reduced by the private-use proportion. Two or more limited companies controlled by the same person get only one AIA between them, not one each.",
+    from_when="The £1 million limit is the permanent AIA amount (it was legislated at £1m rather than reverting to £200,000). Confirmed in force on the GOV.UK guide as read on 14 November 2026 (public update date 22 October 2024)."),
+)
+
+TAX_CODE_30_DECEMBER = dict(
+  slug="en-tax-code-30-december", brand="en",
+  title="Owe under £3,000? File by 30 December and HMRC can take it from your pay",
+  tags_en="#OlaAccountancy #UKTax #HMRC #SelfAssessment #PAYE",
+  EN=[
+    dict(type="hook", kicker="Pay through your tax code · gov.uk",
+      h1="File by <em>30 December</em>, skip the lump sum.",
+      say="Owe less than <cur>£</cur>3,000 and also get paid through PAYE — a job or a company pension? HMRC can take it out of your pay bit by bit instead."),
+    dict(type="step", step="What you have to do", fig="30 December",
+      say="There is no form. File your 2025 to 2026 return online by 30 December 2026 and HMRC changes your tax code instead of asking for the money in one go.",
+      note="On paper, that deadline was 31 October 2026."),
+    dict(type="step", step="Who cannot do it", fig="£3,000 or more",
+      say="Owe <cur>£</cur>3,000 or more and you are out — and paying a bit off to get under it will not work; HMRC refuses that. No PAYE pay or pension, no route either.",
+      note="HMRC also says no if it would take over half your PAYE pay in tax, or more than double your usual tax."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Not sure what you will owe in January?",
+    say="Send us your figures before 30 December and we will tell you if this route is open to you. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["a Self Assessment balance of less than £3,000 can be collected through the PAYE tax code; file online by 30 December or on paper by 31 October", "https://www.gov.uk/pay-self-assessment-tax-bill/through-your-tax-code", "2026-11-16"],
+    ["HMRC will not use the tax code if it would mean paying more than 50% of PAYE income in tax, or more than twice as much tax as normal", "https://www.gov.uk/pay-self-assessment-tax-bill/through-your-tax-code", "2026-11-16"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide. The route works the same for taxpayers in England, Scotland, Wales and Northern Ireland, because it is a PAYE and Self Assessment mechanism, not a devolved scheme.",
+    category="Self Assessment / PAYE",
+    excluded="You cannot use it if you owe £3,000 or more (you cannot make a part payment to get under the threshold — HMRC will refuse it); if you do not have enough PAYE income for HMRC to collect the amount; if it would mean paying more than 50% of your PAYE income in tax; or if you would end up paying more than twice as much tax as normal. Self-employed people generally cannot pay Class 2 National Insurance this way unless it has been due since before 6 April 2015. People with no PAYE income at all (for example a sole trader with no employment or pension) are outside it entirely.",
+    from_when="For the 2025-26 tax return: file online by 30 December 2026. Tax is then collected through the PAYE code in a later tax year, not on 31 January 2027."),
+)
+
+ASSOCIATED_COMPANIES = dict(
+  slug="en-associated-companies", brand="en",
+  title="Own more than one company? Your corporation tax bands get divided",
+  tags_en="#OlaAccountancy #UKTax #HMRC #LimitedCompany #CorporationTax",
+  EN=[
+    dict(type="hook", kicker="Associated companies · gov.uk",
+      h1="Four companies, a <em>quarter</em> of the band each.",
+      say="Corporation tax is 19% on profits up to <cur>£</cur>50,000 and 25% above <cur>£</cur>250,000. Those two numbers get divided by how many companies you control."),
+    dict(type="step", step="How the dividing works", fig="£12,500 / £62,500",
+      say="With four companies the lower number becomes <cur>£</cur>12,500 and the upper one <cur>£</cur>62,500. So <cur>£</cur>70,000 of profit pays the full 25%, when on its own it would have paid less.",
+      note="Companies count as connected when the same person or people control them — wherever they are."),
+    dict(type="step", step="Who gets no relief", fig="Above the top number",
+      say="Above your upper number there is no tapering at all; it is the full 25%. A company that is not UK resident cannot have the relief either, nor can one that only holds investments.",
+      note="A company that did no trade or business all year is left out of the count, so a dormant one does not divide your bands."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="More than one company in your name?",
+    say="Send us the list and the year ends. We will work out what band each company actually gets. Financial consultation £420 incl. VAT, 60 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the £50,000 lower profit limit and £250,000 upper profit limit are divided by the number of associated companies plus one — £12,500 and £62,500 where there are three other associated companies", "https://www.gov.uk/guidance/corporation-tax-marginal-relief", "2026-11-15"],
+    ["corporation tax main rate 25% on profits over £250,000 and small profits rate 19% on profits of £50,000 or less, both from 1 April 2023", "https://www.gov.uk/corporation-tax-rates", "2026-11-15"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide",
+    category="Corporation tax",
+    excluded="Marginal relief cannot be claimed by: non-UK resident companies; close investment holding companies; and companies whose profits exceed the upper limit of £250,000, including where that is reached by adding distributions received from unrelated, unassociated companies. Companies with profits of £50,000 or less do not need marginal relief because they pay the 19% small profits rate. When counting associated companies, a company that has not carried on any trade or business at any time in the accounting period is disregarded, and a company associated for only part of the period that carried on no trade or business in that part is also disregarded.",
+    from_when="1 April 2023, when the 25% main rate, the 19% small profits rate and the £50,000 and £250,000 limits were introduced."),
+)
+
+CIS_MONTHLY_RETURN = dict(
+  slug="en-cis-monthly-return", brand="en",
+  title="CIS monthly return — the 19th, even in a month you paid nobody",
+  tags_en="#OlaAccountancy #UKTax #HMRC #CIS #Construction",
+  EN=[
+    dict(type="hook", kicker="CIS monthly return · gov.uk",
+      h1="Paid no subcontractors? You <em>still</em> file.",
+      say="If you pay subcontractors for construction work, a return is due by the 19th of every month. A quiet month does not get you out of it — you file showing zero."),
+    dict(type="step", step="The dates and the penalties", fig="£100",
+      say="The next two are due 19 December 2026 and 19 January 2027. One day late is <cur>£</cur>100, and at 2 months another <cur>£</cur>200 goes on top.",
+      note="At 6 months and again at 12 months it is <cur>£</cur>300 each time, or 5% of the deductions on the return if that is more."),
+    dict(type="step", step="Who does not have to file", fig="Not subcontractors",
+      say="If you are the subcontractor being paid, these monthly returns are not yours and these penalties cannot reach you.",
+      note="A contractor who has told HMRC they have stopped using subcontractors for a while does not file zero returns for those months."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Behind on your CIS returns?",
+    say="Tell us which months are missing. We will work out what the penalties come to and file what is outstanding. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the CIS monthly return is due by the 19th of every month — 19 December 2026 for the month to 5 December 2026 and 19 January 2027 for the month to 5 January 2027", "https://www.gov.uk/what-you-must-do-as-a-cis-contractor/file-your-monthly-returns", "2026-11-16"],
+    ["late filing penalties: £100 at 1 day, a further £200 at 2 months, and a further £300 or 5% of the CIS deductions, whichever is higher, at 6 months and again at 12 months", "https://www.gov.uk/what-you-must-do-as-a-cis-contractor/file-your-monthly-returns", "2026-11-16"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide. The Construction Industry Scheme runs identically in England, Scotland, Wales and Northern Ireland.",
+    category="CIS",
+    excluded="Subcontractors do not file monthly CIS returns and are not exposed to these penalties. A contractor who has told HMRC they have temporarily stopped using subcontractors (an inactivity request) does not need to file nil returns for the months that request covers, so no penalty arises for them.",
+    from_when="Continuing monthly obligation. Returns in this window: due 19 December 2026 and 19 January 2027."),
+)
+
+EN_CAROUSELS = [AMEND_RETURN, ANNUAL_INVESTMENT_ALLOWANCE, TAX_CODE_30_DECEMBER, ASSOCIATED_COMPANIES, CIS_MONTHLY_RETURN]
+
+
+
+_PREV_DAY = DAY
+DAY = [BADR, MILEAGE, NIC, SSP, MARRIAGE,
+       AMEND_RETURN, ANNUAL_INVESTMENT_ALLOWANCE, TAX_CODE_30_DECEMBER, CIS_MONTHLY_RETURN]
+ARCHIVE = ARCHIVE + _PREV_DAY + [ASSOCIATED_COMPANIES]
+BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
+SOLOS = []
+SOLO_BY_SLUG = {s["slug"]: s for s in SOLOS}
+
+
+# ---- Birmingham, 17 Nov 2026 (one rewrite round applied)
+# Ola Accountancy Birmingham - five carousels for 17 November 2026
+# English only. Figures, dates, scope and sources taken only from briefs/bham-carousel.json
+
+BHAM_BUSINESS_RATES_RHL = dict(
+  slug="bham-business-rates-rhl", brand="bham",
+  title="Business rates for shops, cafes and gyms - the 40% discount has gone and a lower multiplier took its place",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #BusinessRates #SmallBusiness #Retail #Hospitality",
+  EN=[
+    dict(type="hook", kicker="Business rates - gov.uk",
+      h1="Shops, cafes and gyms: <em>38.2p</em> in the pound.",
+      say="Rateable value is the yearly rent figure the Valuation Office puts on your premises. A shop, cafe, pub, takeaway, salon or gym under <cur>£</cur>51,000 is billed at 38.2p in the pound, and anything else that size at 43.2p."),
+    dict(type="step", step="What changed", fig="1 April 2026",
+      say="Until 31 March 2026 qualifying places got 40% off the bill, capped at <cur>£</cur>110,000 per business. From 1 April 2026 that discount closed and the lower rate in the pound took over - permanent, and with no cash cap.",
+      note="Rateable value from £51,000 to under £500,000: 43p, not 48p."),
+    dict(type="step", step="Who does not get it", fig="£500,000",
+      say="A property with a rateable value of <cur>£</cur>500,000 or more pays 50.8p instead, shop or not. The lower rate also leaves out financial, professional and health services, betting shops, car parks and taxi firms.",
+      note="Warehouses used for online selling are out too, and so is empty property."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Not sure your rates bill is on the right rate?",
+    say="Send us the latest bill and tell us what the premises are used for. We will tell you which rate it should be on. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["38.2p small business multiplier for 2026/27 for qualifying retail, hospitality or leisure property with a rateable value under £51,000", "https://www.gov.uk/government/publications/effects-of-the-business-rates-retail-hospitality-and-leisure-multipliers-and-high-value-multiplier/effects-of-the-business-rates-retail-hospitality-and-leisure-multipliers-and-high-value-multiplier", "2026-11-14"],
+    ["43.2p small business non-RHL multiplier, 43p standard RHL multiplier, 48p standard non-RHL multiplier and 50.8p high-value multiplier for 2026/27", "https://www.gov.uk/government/publications/effects-of-the-business-rates-retail-hospitality-and-leisure-multipliers-and-high-value-multiplier/effects-of-the-business-rates-retail-hospitality-and-leisure-multipliers-and-high-value-multiplier", "2026-11-14"],
+    ["the £110,000 per business cash cap that applied to the old 40% relief, now closed to new claims", "https://www.gov.uk/government/publications/effects-of-the-business-rates-retail-hospitality-and-leisure-multipliers-and-high-value-multiplier/effects-of-the-business-rates-retail-hospitality-and-leisure-multipliers-and-high-value-multiplier", "2026-11-14"],
+    ["no per-business cash cap on the new multipliers, and the cap on a 2026/27 bill increase for a property that lost the 40% relief", "https://www.gov.uk/government/publications/budget-2025-retail-hospitality-and-leisure-factsheet/budget-2025-retail-hospitality-and-leisure-factsheet", "2026-11-14"],
+    ["which uses qualify, which are excluded, and that no new claim can be made for retail, hospitality and leisure relief", "https://www.gov.uk/guidance/business-rates-multipliers-qualifying-retail-hospitality-or-leisure", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="England only (business rates are devolved)",
+    category="Business rates multipliers for retail, hospitality and leisure",
+    excluded="Property with a rateable value of £500,000 or more, which pays the 50.8p high-value multiplier instead. The Schedule 1 excluded uses: financial services, medical and health services, professional services, warehouses used for online sales, certain business-use recording or film studios, crematoria, taxi firms, show homes, conference centres, betting shops, postal sorting offices, citizens advice bureaux, job centres, car parks and most public transport (bicycle docking stations are not excluded). Also outside it: schools, colleges, nurseries and universities; breweries not mainly open to the public; film and theatre production companies; accommodation providing significant nursing care; and unoccupied property, which reverts to the national multipliers once Empty Property Relief ends. The former 40% RHL relief itself is closed - GOV.UK states 'You cannot make a new claim for retail, hospitality and leisure relief.'",
+    from_when="The lower RHL multipliers took effect from 1 April 2026 (the 2026/27 rating year) and are permanent, replacing the temporary RHL relief that ran to 31 March 2026. The 2027/28 multipliers have already been announced."),
+)
+
+BHAM_CHILD_BENEFIT = dict(
+  slug="bham-child-benefit", brand="bham",
+  title="Child Benefit 2026/27 - £27.05 a week for your eldest child, and why you claim even if you do not take the money",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #ChildBenefit #HMRC #Families #Saltley",
+  EN=[
+    dict(type="hook", kicker="Child Benefit - gov.uk",
+      h1="<em>£27.05</em> a week for your eldest child.",
+      say="If you are the one looking after a child under 16, Child Benefit pays <cur>£</cur>27.05 a week for your eldest or only child and <cur>£</cur>17.90 a week for each child after that. It goes to one person, usually every 4 weeks."),
+    dict(type="step", step="Nobody sends it to you", fig="You claim it",
+      say="Child Benefit is never paid automatically - you claim it from HMRC. Claiming also gets your child their National Insurance number, and gives you National Insurance credits towards your own State Pension while a child is under 12.",
+      note="These rates run from 6 April 2026. The child can stay on them to 20 if they stay in approved education or training."),
+    dict(type="step", step="Who does not get it", fig="One per child",
+      say="Only one person can get it for a child, and if two people cannot agree, HMRC decides which of them. A foster carer cannot claim if the council pays anything towards the child's accommodation or upkeep.",
+      note="It also stops if the child starts an apprenticeship, or paid work of 24 hours a week or more outside approved education."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Never claimed it, or stopped it and want it back?",
+    say="Tell us the children's ages and who is claiming for them. We will tell you what HMRC needs and what it is worth. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["£27.05 a week for the eldest or only child, 2026 to 2027 tax year", "https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance/tax-credits-child-benefit-and-guardians-allowance", "2026-11-14"],
+    ["£17.90 a week for each additional child, 2026 to 2027 tax year", "https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance/tax-credits-child-benefit-and-guardians-allowance", "2026-11-14"],
+    ["who can claim, only one person per child, payment every 4 weeks, the National Insurance number and the National Insurance credits while a child is under 12", "https://www.gov.uk/child-benefit/what-youll-get", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="United Kingdom. GOV.UK sets the residence condition simply as living in the UK, and Child Benefit is administered by HMRC across the UK; there is no devolved replacement in Scotland, Wales or Northern Ireland.",
+    category="Child Benefit rates and entitlement",
+    excluded="Two people cannot get Child Benefit for the same child - if claimants cannot agree, HMRC decides. Foster carers cannot claim where the local council pays towards the child's accommodation or maintenance. Entitlement ends if the child starts paid work of 24 hours or more a week while not in approved education or training, starts an apprenticeship in England, or starts getting certain benefits in their own right. People with pre-settled status under the EU Settlement Scheme qualify only in limited circumstances (for example working or earning above the National Insurance primary threshold for 3 continuous months, looking for work for up to 91 days, or having sufficient resources), and pre-settled status holders claiming Income Support, income-based Jobseeker's Allowance, Pension Credit or Universal Credit may not be eligible.",
+    from_when="Rates apply for the 2026 to 2027 tax year (from 6 April 2026)."),
+)
+
+BHAM_COMPANY_CAR_TAX = dict(
+  slug="bham-company-car-tax", brand="bham",
+  title="Company car tax 2026/27 - an electric car is taxed on 4% of its list price, a car at 155g/km CO2 or more on 37%",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #CompanyCar #BenefitInKind #LimitedCompany #HMRC",
+  EN=[
+    dict(type="hook", kicker="Company car benefit - gov.uk",
+      h1="An electric company car adds <em>4%</em> of its price to your taxable pay.",
+      say="That is the rule this year where the car is fully electric and you are allowed to use it privately. A car putting out 155g/km of CO2 or more adds 37% instead."),
+    dict(type="step", step="How the number is worked out", fig="List price",
+      say="Start with the list price on the day before the car was first registered, take off up to <cur>£</cur>5,000 if you put your own money into buying it, then apply your car's percentage.",
+      note="It is the list price, not what the company paid. Most diesels add 4% on top - not those certified RDE2 - capped at 37%."),
+    dict(type="step", step="When there is nothing to tax", fig="Pool car",
+      say="There is no charge on a proper pool car, or on a car that genuinely is not available to you for private use. Vans sit outside these rules altogether and have their own.",
+      note="A car off the road 30 days or more in a row cuts the charge. A week in the garage does not."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Thinking of putting a car through the company?",
+    say="Send us the model, its CO2 figure and the list price. We will tell you what it adds to your tax bill before you sign anything. Financial consultation £420 incl. VAT, 60 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["4% appropriate percentage for a zero-emission car and 37% maximum, reached at 155g/km and above, 2026-27", "https://www.gov.uk/guidance/company-car-benefit-the-appropriate-percentage-480-appendix-2", "2026-11-15"],
+    ["the list price rule, the £5,000 cap on the employee's capital contributions, the 4% diesel supplement with its RDE2 exemption, the 37% overall cap and the 30 consecutive day unavailability rule", "https://www.gov.uk/guidance/how-to-work-out-the-benefit-of-a-company-car-480-chapter-12", "2026-11-15"],
+    ["pool cars, cars genuinely unavailable for private use, and vans being outside the car benefit charge", "https://www.gov.uk/guidance/how-to-work-out-the-benefit-of-a-company-car-480-chapter-12", "2026-11-15"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide",
+    category="Company car benefit in kind",
+    excluded="No car benefit charge arises where: the car is a pool car meeting the pool car conditions; the car is genuinely not available for private use; or the car is made available for reasons unrelated to the employment. The charge is also reduced or removed by periods of unavailability of 30 or more consecutive days (shorter gaps give no reduction, and a replacement car that is not materially better is not separately charged) and by payments the employee is required to make specifically for private use, which can reduce the charge to nil - but payments for services such as petrol or insurance do not count. Certain accessories are left out of the price: those necessary for the job, gas-conversion equipment, disability equipment, mobile phones, accessories added before 1 August 1993, and later accessories costing £100 or less. The new car registration fee is excluded from the list price. Diesel cars certified to Euro standard 6d (RDE2) are exempt from the diesel supplement, as are all non-diesels. Vans and commercial vehicles are outside this charge and have their own van benefit rules.",
+    from_when="The 2026-27 appropriate percentages apply for the tax year 6 April 2026 to 5 April 2027. The 4% diesel supplement has applied since 2018-19, and the RDE2 exemption since April 2018."),
+)
+
+BHAM_COUNCIL_TAX_REDUCTION = dict(
+  slug="bham-council-tax-reduction", brand="bham",
+  title="Council Tax Reduction - up to 100% off the bill, and why Birmingham's rules are not Sandwell's",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #CouncilTax #CostOfLiving #Saltley #AlumRock",
+  EN=[
+    dict(type="hook", kicker="Council Tax Reduction - gov.uk",
+      h1="On a low income? Up to <em>100%</em> off your council tax.",
+      say="If the council tax bill is in your name and you are on a low income or on benefits, your council can take money off it - up to the whole bill. It makes no difference whether you own the place or rent it, or whether you are working."),
+    dict(type="step", step="You have to ask for it", fig="Your own council",
+      say="It is never taken off the bill for you. You apply to the council that sends you the bill, and Birmingham, Sandwell, Solihull, Dudley and Walsall each run their own scheme.",
+      note="The schemes have been going since April 2013. The local rules usually change each 1 April."),
+    dict(type="step", step="Who does not get it", fig="No national rule",
+      say="There is no national income or savings cut-off, so a cousin in the next borough being turned down tells you nothing about your own bill. Each council writes its own working-age rules.",
+      note="The law also keeps out people subject to immigration control, and people not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Want to know if your council tax bill can come down?",
+    say="Tell us which council bills you and roughly what comes into the house each month. We will point you at the right form and what it asks for. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["a council tax bill can be reduced by up to 100% under a local scheme", "https://www.gov.uk/council-tax-reduction", "2026-11-13"],
+    ["who can apply, that you apply to your own council and that it is not applied to the bill automatically", "https://www.gov.uk/apply-council-tax-reduction", "2026-11-13"],
+    ["the groups excluded by law from every council's scheme and the fact that each council sets its own working-age rules", "https://www.gov.uk/council-tax-reduction", "2026-11-13"],
+  ],
+  SCOPE=dict(
+    nation="England",
+    category="Council Tax Reduction (local council tax support)",
+    excluded="People subject to immigration control, and people not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man, are excluded by law from every council's scheme. Beyond that each council sets its own working-age rules, so income and savings limits differ by council.",
+    from_when="In force since April 2013. Local rules usually change each 1 April."),
+)
+
+BHAM_FREE_SCHOOL_MEALS = dict(
+  slug="bham-free-school-meals", brand="bham",
+  title="Free school meals - since September 2026 any household on Universal Credit qualifies, whatever it earns",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #FreeSchoolMeals #UniversalCredit #Families #Schools",
+  EN=[
+    dict(type="hook", kicker="Free school meals - gov.uk",
+      h1="On Universal Credit <em>and working</em>? The meals are still free.",
+      say="Since the start of the 2026 to 2027 school year, any child in a household getting Universal Credit can have free school meals, however much that household earns. What you earn used to decide it."),
+    dict(type="step", step="You still have to apply", fig="September 2026",
+      say="It does not switch on by itself. You apply through the council - Birmingham City Council if your child's school is in the city - and the school or the council checks it.",
+      note="Reception, year 1 and year 2 at a state school eat free anyway, whatever the household earns. Applying still helps the school."),
+    dict(type="step", step="Who does not get it", fig="No qualifying benefit",
+      say="A household on none of the qualifying benefits does not get it, apart from those infant years. And the protection that let a pupil keep meals after the family stopped qualifying ran out with the 2025 to 2026 school year.",
+      note="£7,400 a year of earnings is the line that brings the school extra pupil premium money. It no longer decides whether your child eats free."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Not sure whether your household qualifies now?",
+    say="Tell us which benefits come into the house and your children's year groups. We will tell you whether to apply and where. First consultation £120 incl. VAT, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["all households on Universal Credit qualify regardless of earnings, from the start of the 2026 to 2027 academic year, under the Children's Wellbeing and Schools Act 2026", "https://www.gov.uk/government/publications/free-school-meals-guidance-for-schools-and-local-authorities/free-school-meals-guidance-for-local-authorities-local-authority-maintained-schools-academies-and-free-schools", "2026-11-14"],
+    ["the £7,400 a year earnings threshold that still defines targeted free school meals and the disadvantage funding that goes with it, and the end of the transitional protections at the close of the 2025 to 2026 academic year", "https://www.gov.uk/government/publications/free-school-meals-guidance-for-schools-and-local-authorities/free-school-meals-guidance-for-local-authorities-local-authority-maintained-schools-academies-and-free-schools", "2026-11-14"],
+    ["universal infant free school meals for reception, year 1 and year 2 at a state-funded school, and how to apply through your local authority", "https://www.gov.uk/apply-free-school-meals", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="England only",
+    category="Free school meals, including the expanded Universal Credit entitlement",
+    excluded="Households receiving none of the qualifying benefits, apart from the universal infant entitlement for reception to year 2. Pupils who kept eligibility only through the transitional protections that ran from 1 April 2018: those ended at the close of the 2025 to 2026 academic year, so from the 2026 to 2027 academic year a household must actually meet the criteria to keep provision (such a pupil still counts in the 'Ever 6' cohort for school funding). Expanded free school meals cover the meal only and bring no disadvantage funding, so a Universal Credit household earning over £7,400 does not attract pupil premium. Children educated otherwise than at school (EOTAS) have no specific legal entitlement, and the local authority considers equivalent food provision case by case. The duty described in the guidance applies to maintained schools, academies, free schools, school-based and maintained nursery schools and non-maintained special schools, so independent schools are outside it. Scotland, Wales and Northern Ireland run their own schemes and are not covered.",
+    from_when="The expanded Universal Credit entitlement is in force now, from the start of the 2026 to 2027 academic year (September 2026). GOV.UK's application page was last updated 27 October 2026 and states it."),
+)
+
+BHAM_CAROUSELS = [BHAM_BUSINESS_RATES_RHL, BHAM_CHILD_BENEFIT, BHAM_COMPANY_CAR_TAX, BHAM_COUNCIL_TAX_REDUCTION, BHAM_FREE_SCHOOL_MEALS]
+
+
+
+DAY = DAY + [BHAM_BUSINESS_RATES_RHL, BHAM_CHILD_BENEFIT, BHAM_COMPANY_CAR_TAX, BHAM_FREE_SCHOOL_MEALS]
+HELD = HELD + [BHAM_COUNCIL_TAX_REDUCTION]
+BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
+
+
+# --- layout trims, 17 Nov 2026 run
+BY_SLUG["ola-vanzare-afacere-badr"]["RO"][1]["say"] = "Cota se aplică pe câștigurile care se califică, până la <cur>£</cur>1.000.000 pe toată viața ta — nu pe an. Ce trece peste merge la cotele normale de Capital Gains Tax."
+BY_SLUG["ola-mile-cu-masina"]["RO"][2]["say"] = "Drumul de acasă la locul tău de muncă obișnuit nu e niciodată business. Mașina de la firmă nu intră aici: pentru ea se folosesc Advisory Fuel Rates."
+BY_SLUG["ola-mile-cu-masina"]["EN"][2]["say"] = "Home to a permanent workplace is commuting and never qualifies. A company car is outside these rates — it uses Advisory Fuel Rates."
+BY_SLUG["ola-statutory-sick-pay"]["RO"][2]["say"] = "După 28 de săptămâni de Statutory Sick Pay, atât se plătește în total. Fără contract de muncă — dacă ești self-employed — nu se aplică deloc."
+BY_SLUG["en-amend-tax-return"]["EN"][2]["say"] = "Nobody can change a return in the first 72 hours after filing. Once the 12 months are up, this route closes and you write to HMRC instead."
+BY_SLUG["en-amend-tax-return"]["EN"][2]["note"] = "To get tax back after that, claim within 4 years of the end of that tax year."
+BY_SLUG["en-tax-code-30-december"]["EN"][1]["say"] = "No form needed. File your 2025 to 2026 return online by 30 December 2026 and HMRC collects it through your tax code instead."
+BY_SLUG["en-cis-monthly-return"]["EN"][2]["say"] = "If you are the subcontractor being paid, these returns are not yours and these penalties cannot reach you."
+BY_SLUG["en-cis-monthly-return"]["EN"][2]["note"] = "A contractor who told HMRC they have temporarily stopped using subcontractors files no zero returns."
+BY_SLUG["bham-business-rates-rhl"]["EN"][1]["say"] = "Until 31 March 2026 qualifying places got 40% off, capped at <cur>£</cur>110,000 per business. From 1 April 2026 the lower rate in the pound replaced it - permanent, with no cash cap."
+BY_SLUG["bham-business-rates-rhl"]["EN"][2]["say"] = "At a rateable value of <cur>£</cur>500,000 or more it is 50.8p, shop or not. Also out: financial, professional and health services, betting shops, car parks, taxi firms."
+BY_SLUG["bham-child-benefit"]["EN"][1]["say"] = "Child Benefit is never automatic - you claim it from HMRC. It also gets your child a National Insurance number and you NI credits towards your State Pension while a child is under 12."
+BY_SLUG["bham-child-benefit"]["EN"][1]["note"] = "These rates run from 6 April 2026. Payment can continue to 20 in approved education or training."
+BY_SLUG["bham-child-benefit"]["EN"][2]["say"] = "Only one person can get it for a child; if two cannot agree, HMRC decides. A foster carer cannot claim if the council pays anything towards the child's accommodation or upkeep."
+BY_SLUG["bham-free-school-meals"]["EN"][0]["say"] = "Since the start of the 2026 to 2027 school year, any child in a household on Universal Credit can have free school meals, whatever that household earns."
+BY_SLUG["bham-free-school-meals"]["EN"][1]["say"] = "It does not switch on by itself. You apply through the council - Birmingham City Council if your child's school is in the city."
+BY_SLUG["bham-free-school-meals"]["EN"][1]["note"] = "Reception, year 1 and year 2 at a state school eat free anyway. Applying still helps the school."
+BY_SLUG["bham-free-school-meals"]["EN"][2]["say"] = "No qualifying benefit, no free meals - apart from those infant years. And the protection for pupils whose family stopped qualifying ended with the 2025 to 2026 school year."
+BY_SLUG["bham-free-school-meals"]["EN"][2]["note"] = "£7,400 of earnings still sets the school's pupil premium funding, but no longer decides who eats free."
+
+# --- layout trims, 17 Nov 2026 run (second pass: wide hero figures and tall bodies)
+BY_SLUG["ola-vanzare-afacere-badr"]["RO"][1]["say"] = "Cota se aplică pe câștigurile care se califică, până la <cur>£</cur>1.000.000 pe viață — nu pe an. Ce trece peste merge la cotele normale de Capital Gains Tax."
+BY_SLUG["ola-vanzare-afacere-badr"]["RO"][1]["note"] = "De la 6 aprilie 2027, limita pe viață scade la <cur>£</cur>500.000."
+BY_SLUG["ola-mile-cu-masina"]["RO"][2]["fig"] = "0p"
+BY_SLUG["ola-mile-cu-masina"]["EN"][2]["fig"] = "0p"
+BY_SLUG["ola-statutory-sick-pay"]["RO"][2]["fig"] = "28 săpt."
+BY_SLUG["ola-statutory-sick-pay"]["RO"][2]["say"] = "După 28 de săptămâni de Statutory Sick Pay, atât se plătește. Fără contract de muncă — dacă ești self-employed — nu se aplică deloc."
+BY_SLUG["en-tax-code-30-december"]["EN"][1]["fig"] = "30 Dec"
+BY_SLUG["en-cis-monthly-return"]["EN"][2]["fig"] = "Who pays, files"
+BY_SLUG["bham-business-rates-rhl"]["EN"][1]["say"] = "Until 31 March 2026 qualifying places got 40% off, capped at <cur>£</cur>110,000 per business. From 1 April 2026 the lower rate replaced it - permanent, no cap."
+BY_SLUG["bham-business-rates-rhl"]["EN"][2]["say"] = "At <cur>£</cur>500,000 rateable value or more it is 50.8p, shop or not. The lower rate also leaves out financial, professional and health services."
+BY_SLUG["bham-business-rates-rhl"]["EN"][2]["note"] = "Betting shops, car parks, taxi firms, online-selling warehouses and empty property are out too."
+BY_SLUG["bham-child-benefit"]["EN"][1]["say"] = "Child Benefit is never automatic - you claim it from HMRC. Claiming also gives you National Insurance credits towards your State Pension while a child is under 12."
+BY_SLUG["bham-child-benefit"]["EN"][1]["note"] = "These rates run from 6 April 2026. Payment can run to 20 in approved education or training."
+BY_SLUG["bham-child-benefit"]["EN"][2]["say"] = "Only one person can get it for a child; if two cannot agree, HMRC decides. A foster carer cannot claim if the council pays towards the child's upkeep."
+BY_SLUG["bham-child-benefit"]["EN"][2]["note"] = "It stops too if the child leaves education for an apprenticeship or paid work of 24 hours or more a week."
+BY_SLUG["bham-free-school-meals"]["EN"][1]["fig"] = "Sept 2026"
+BY_SLUG["bham-free-school-meals"]["EN"][2]["fig"] = "Not everyone"
+BY_SLUG["bham-free-school-meals"]["EN"][2]["say"] = "No qualifying benefit, no free meals - apart from those infant years. Protection for families who stopped qualifying ended with the 2025 to 2026 year."
+BY_SLUG["bham-free-school-meals"]["EN"][2]["note"] = "£7,400 of earnings still sets pupil premium funding, not who eats free."
+
+# --- layout trims, 17 Nov 2026 run (third pass)
+BY_SLUG["en-cis-monthly-return"]["EN"][2]["say"] = "As the subcontractor being paid, these returns are not yours and these penalties cannot reach you."
+BY_SLUG["en-cis-monthly-return"]["EN"][2]["note"] = "A contractor who told HMRC they have paused using subcontractors files no zero returns."
+BY_SLUG["bham-business-rates-rhl"]["EN"][1]["say"] = "To 31 March 2026 qualifying places got 40% off, capped at <cur>£</cur>110,000 per business. From 1 April 2026 the lower rate replaced it - permanent, no cap."
+BY_SLUG["bham-business-rates-rhl"]["EN"][1]["note"] = "Rateable value £51,000 to under £500,000: 43p, not 48p."
+BY_SLUG["bham-business-rates-rhl"]["EN"][2]["say"] = "At <cur>£</cur>500,000 rateable value or more it is 50.8p, shop or not. Financial, professional and health services are out of the lower rate too."
+BY_SLUG["bham-business-rates-rhl"]["EN"][2]["note"] = "Betting shops, car parks, taxi firms, online-selling warehouses and empty property are out too."
+BY_SLUG["bham-child-benefit"]["EN"][1]["say"] = "Child Benefit is never automatic - you claim it from HMRC. It also gives you NI credits towards your State Pension while a child is under 12."
+BY_SLUG["bham-child-benefit"]["EN"][1]["note"] = "These rates run from 6 April 2026. Payment can run to 20 in approved education."
+BY_SLUG["bham-child-benefit"]["EN"][2]["say"] = "Only one person can get it for a child; if two cannot agree, HMRC decides. A foster carer cannot claim if the council pays towards the upkeep."
+BY_SLUG["bham-child-benefit"]["EN"][2]["note"] = "It stops too if the child leaves education for an apprenticeship or 24 hours a week of paid work."
+BY_SLUG["bham-free-school-meals"]["EN"][2]["say"] = "No qualifying benefit, no free meals - apart from those infant years. Protection for families who stopped qualifying ran out with the 2025 to 2026 year."
+BY_SLUG["bham-free-school-meals"]["EN"][2]["note"] = "£7,400 of earnings sets pupil premium funding, not who eats free."
+
+# --- layout trims, 17 Nov 2026 run (fourth pass)
+BY_SLUG["en-cis-monthly-return"]["EN"][2]["fig"] = "Not subs"
+BY_SLUG["en-cis-monthly-return"]["EN"][2]["say"] = "As the subcontractor being paid, these returns and these penalties are not yours."
+BY_SLUG["en-cis-monthly-return"]["EN"][2]["note"] = "A contractor who told HMRC they paused using subcontractors files no zero returns."
+BY_SLUG["bham-business-rates-rhl"]["EN"][1]["fig"] = "Apr 2026"
+BY_SLUG["bham-business-rates-rhl"]["EN"][1]["say"] = "To 31 March 2026 qualifying places got 40% off, capped at <cur>£</cur>110,000 per business. From 1 April 2026 the lower rate took over."
+BY_SLUG["bham-business-rates-rhl"]["EN"][2]["say"] = "At <cur>£</cur>500,000 rateable value or more it is 50.8p, shop or not. Financial, professional and health services are out too."
+BY_SLUG["bham-child-benefit"]["EN"][1]["fig"] = "Claim it"
+BY_SLUG["bham-child-benefit"]["EN"][1]["say"] = "Child Benefit is never automatic - you claim it. It also gives NI credits towards your State Pension while a child is under 12."
+BY_SLUG["bham-child-benefit"]["EN"][1]["note"] = "These rates run from 6 April 2026, and can run to 20 in approved education."
+BY_SLUG["bham-child-benefit"]["EN"][2]["say"] = "Only one person gets it per child; HMRC decides if two cannot agree. A foster carer cannot claim if the council pays towards upkeep."
+BY_SLUG["bham-child-benefit"]["EN"][2]["note"] = "It stops too if the child leaves education for an apprenticeship or 24+ hours a week of work."
+BY_SLUG["bham-free-school-meals"]["EN"][2]["say"] = "No qualifying benefit, no free meals - apart from those infant years."
+BY_SLUG["bham-free-school-meals"]["EN"][2]["note"] = "Transitional protection ended with the 2025 to 2026 year; £7,400 now sets only pupil premium."
+
+# --- layout trims, 17 Nov 2026 run (fifth pass)
+BY_SLUG["bham-business-rates-rhl"]["EN"][2]["say"] = "<cur>£</cur>500,000 rateable value or more: 50.8p, shop or not. Financial, professional and health services are out too."
+BY_SLUG["bham-child-benefit"]["EN"][2]["fig"] = "One claim"
+BY_SLUG["bham-child-benefit"]["EN"][2]["say"] = "One person gets it per child; HMRC decides if two cannot agree. A foster carer cannot claim if the council pays towards upkeep."
+BY_SLUG["bham-child-benefit"]["EN"][2]["note"] = "It also stops for an apprenticeship, or 24+ hours a week of work outside education."
+
+# --- layout trims, 17 Nov 2026 run (sixth pass)
+BY_SLUG["bham-business-rates-rhl"]["EN"][2]["fig"] = "<cur>£</cur>500k"

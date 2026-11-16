@@ -4203,3 +4203,467 @@ Have you got a penalty notice you do not think you owe?""",
  tt_title="HMRC says no to four of the excuses people try on a penalty",
  source_en="https://www.gov.uk/tax-appeals/reasonable-excuses",
 )
+
+
+# ---- 17 November 2026
+C["ola-vanzare-afacere-badr"] = dict(
+ ro="""Ai vândut afacerea, sau te gândești serios să o vinzi. Întrebarea care vine imediat e cât rămâne la tine după impozit.
+
+Pe câștigul din vânzare se plătește Capital Gains Tax. Dacă vânzarea se califică pentru Business Asset Disposal Relief, cota e 18% pentru vânzări făcute de la 6 aprilie 2026. În anul fiscal trecut era 14%.
+
+Cota merge pe câștigurile care se califică, până la £1.000.000 adunat pe toată viața ta, nu pe an. Ce trece peste limită se impozitează la cotele normale de Capital Gains Tax.
+
+Aici intervine calendarul: pentru vânzări făcute de la 6 aprilie 2027, limita pe viață scade la £500.000.
+
+Cine nu primește cota de 18%: închirierea de proprietăți nu se consideră business pentru Business Asset Disposal Relief; la vânzarea de acțiuni îți trebuie minimum 5% din acțiuni și din voturi, plus să fii director sau angajat în firmă; companiile nu o primesc, e numai pentru persoane fizice; iar dacă ți-ai folosit deja limita pe viață, nu mai rămâne nimic de cerut.
+
+De reținut: condițiile trebuie îndeplinite timp de 2 ani, până la data vânzării, iar cererea se face pe Self Assessment, cu termen. Nu se aplică singură.
+
+Dacă vrei să vedem dacă vânzarea ta se califică, scrie-ne și ne uităm împreună la date și la cifre.
+
+Ola Accountancy — Luton · Birmingham, 0330 133 1886
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #CapitalGainsTax #HMRC #Luton""",
+ th="""Ai vândut afacerea? Pe câștigul care se califică pentru Business Asset Disposal Relief, cota e 18% la vânzări făcute de la 6 aprilie 2026, până la £1.000.000 pe toată viața.
+
+De la 6 aprilie 2027, limita scade la £500.000. Închirierea de proprietăți nu se califică.
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.""",
+ li="""Two dates decide what a business exit costs.
+
+Business Asset Disposal Relief charges qualifying gains at 18% on disposals made on or after 6 April 2026. For disposals in the year before that, the rate was 14%.
+
+The relief is capped at £1,000,000 of qualifying gains across a lifetime — not per tax year. Gains above the cap are charged at the ordinary capital gains rates. For disposals made on or after 6 April 2027, that lifetime cap falls to £500,000.
+
+It is neither automatic nor broad. A property letting business does not count as a business for the relief. On a share disposal the seller needs at least 5% of the ordinary share capital and voting rights, and must be an officer or employee of the trading company. The conditions have to be met throughout the two years ending on the disposal. Companies do not qualify at all — this is a relief for individuals.
+
+The claim goes on the Self Assessment return, and the deadline is the first anniversary of the 31 January following the tax year of disposal.
+
+So the planning question on a sale is not only the price. It is which side of 6 April 2027 the disposal falls on.
+
+Financial consultation £420 incl. VAT, 60 minutes. Ola Accountancy — Luton and Birmingham, 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #CapitalGainsTax #BusinessExit #UKTax""",
+ bsky="""Business Asset Disposal Relief: 18% on qualifying gains for disposals from 6 April 2026, capped at £1,000,000 for life. From 6 April 2027 the cap halves.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+ pin_title="Business Asset Disposal Relief: 18%, the £1m limit, and the 2027 cut",
+ pin="""Selling your business or your shares in it? Business Asset Disposal Relief charges qualifying gains at 18% for disposals made on or after 6 April 2026, up to a lifetime limit of £1,000,000 — cumulative over a lifetime, not annual. Gains above it are charged at the ordinary capital gains rates, and for disposals on or after 6 April 2027 the limit falls to £500,000. The relief is not automatic: it is claimed on the Self Assessment return. A property letting business does not count, and a share disposal needs at least 5% of the ordinary shares and votes plus officer or employee status, with the conditions met throughout the two years ending on the disposal. Ola Accountancy, Luton and Birmingham. General information. For your own situation, speak to an accountant.""",
+)
+
+C["ola-mile-cu-masina"] = dict(
+ ro="""Dacă îți folosești mașina ta pentru muncă, rata aprobată s-a schimbat — și foarte multe materiale încă spun 45p.
+
+Pentru 2026/27, rata este 55p pe milă pentru primele 10.000 de mile de business din anul fiscal, și 25p pentru fiecare milă de după. Creșterea se aplică pe tot anul fiscal, de la 6 aprilie 2026.
+
+O socoteală simplă: 8.400 de mile de business fac £4.620. La 12.000 de mile iese £6.000 — 10.000 de mile cu 55p, plus 2.000 de mile cu 25p.
+
+Contorul de 10.000 repornește la fiecare an fiscal și merge pe persoană, nu pe mașină. Dacă folosești două mașini, milele se adună tot la tine.
+
+Ce nu intră la socoteală: drumul de acasă la locul tău de muncă obișnuit nu se consideră niciodată business. Nici mașina primită de la firmă nu intră aici — pentru ea se folosesc Advisory Fuel Rates, care sunt altceva.
+
+Partea practică: dacă angajatorul îți plătește mai puțin decât rata aprobată, ceri scutire de impozit doar pe diferență, nu pe toată rata pe milă. Se face prin Self Assessment sau pe formularul P87.
+
+Dacă nu știi câte mile ai de pus pe hârtie, scrie-ne și le trecem împreună.
+
+Ola Accountancy — Luton · Birmingham, 0330 133 1886
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #Mileage #HMRC #selfemployed""",
+ th="""Rata pentru mașina ta este 55p pe milă la primele 10.000 de mile de business din 2026/27, apoi 25p. A crescut de la 45p, pe tot anul fiscal, de la 6 aprilie 2026.
+
+Drumul de acasă la locul de muncă obișnuit nu se pune. Mașina de la firmă are alte rate.
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.""",
+ li="""If your expense policy still says 45p a mile, it is a tax year out of date.
+
+For 2026/27 the approved mileage rate for an employee's or director's own car or van is 55p a mile for the first 10,000 business miles, and 25p a mile after that. The increase from 45p applies to the whole of 2026/27, backdated to 6 April 2026. The self-employed using the simplified rates are on the same figures.
+
+What it does to a claim: 8,400 business miles comes to £4,620. A heavier year of 12,000 miles comes to £6,000 — 10,000 miles at 55p, plus 2,000 at 25p.
+
+Three things that get missed in practice. The 10,000-mile counter resets each tax year, and it follows the person, not the vehicle. Ordinary commuting from home to a permanent workplace has never qualified and still does not. And a company car sits outside these rates altogether — those journeys use Advisory Fuel Rates.
+
+Where an employer pays below the approved rate, the employee claims tax relief on the shortfall only, through Self Assessment or on form P87.
+
+Worth a look at your expense policy and your payroll settings before the next claim run.
+
+First consultation £120 incl. VAT, 30 minutes. Ola Accountancy — Luton and Birmingham, 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #Mileage #Payroll #UKTax""",
+ bsky="""Approved mileage in your own car is 55p for the first 10,000 business miles in 2026/27, then 25p. Up from 45p, backdated to 6 April 2026.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+ pin_title="Mileage rates 2026/27: 55p a mile, not 45p",
+ pin="""Using your own car for work? For 2026/27 the approved mileage rate is 55p a mile for the first 10,000 business miles and 25p a mile after that. The first-10,000 rate rose from 45p and applies to the whole of 2026/27, backdated to 6 April 2026 — most third-party material still quotes 45p. Worked through: 8,400 business miles comes to £4,620, and 12,000 miles to £6,000. The 10,000-mile counter resets each tax year and follows the person, not the vehicle. Commuting from home to a permanent workplace never counts, and a company car uses Advisory Fuel Rates instead. Where an employer pays below the approved rate, relief is claimed on the shortfall only. Ola Accountancy, Luton and Birmingham. General information. For your own situation, speak to an accountant.""",
+)
+
+C["ola-national-insurance-salariu"] = dict(
+ ro="""Te uiți pe fluturașul de salariu și vezi o linie de National Insurance. De unde vine cifra?
+
+În 2026/27, un angajat plătește 8% din partea de salariu care trece peste Primary Threshold: £242 pe săptămână, £1.048 pe lună, £12.570 pe an. Peste Upper Earnings Limit — £50.270 pe an — rata scade la 2%.
+
+Un exemplu cu cifre: la £2.000 pe lună, cei 8% se aplică pe £952, adică pe cât trece peste £1.048. Iese £76,16 în luna aceea.
+
+Nu ai nimic de cerut aici. Se calculează automat în payroll, în fiecare perioadă de plată, și se raportează la HMRC pe Full Payment Submission, cel târziu în ziua de plată.
+
+Cine nu plătește: sub £12.570 pe an nu se oprește nimic din salariul tău. Angajații care au trecut vârsta de State Pension nu plătesc partea de angajat, dar angajatorul plătește în continuare 15% pentru ei. Iar un angajat sub 16 ani nu plătește deloc.
+
+Două lucruri de știut dacă ai un salariu mic. Angajatorul plătește 15% pe tot ce trece peste £5.000 pe an, fără plafon — deci plătește și pe sume pentru care tu nu plătești nimic. Și dacă un an întreg câștigi sub Lower Earnings Limit, £129 pe săptămână, anul acela nu se pune la socoteală pentru beneficiile bazate pe contribuții. Cifrele de aici sunt pentru category letter A, categoria standard; alte categorii au alte rate.
+
+Dacă vrei să înțelegi exact ce s-a oprit din salariul tău, scrie-ne și îți explicăm fiecare linie.
+
+Ola Accountancy — Luton · Birmingham, 0330 133 1886
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #NationalInsurance #payroll #HMRC""",
+ th="""În 2026/27, un angajat plătește 8% National Insurance pe partea de salariu care trece peste £12.570 pe an, adică £1.048 pe lună, și 2% peste £50.270.
+
+Sub £12.570 nu se oprește nimic. Angajatorul plătește 15% peste £5.000 pe an, fără plafon.
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.""",
+ li="""The gap between the two National Insurance thresholds is where the employer cost now sits.
+
+For 2026/27, on category A: employees pay 8% on earnings between the Primary Threshold (£242 a week, £1,048 a month, £12,570 a year) and the Upper Earnings Limit (£967 a week, £4,189 a month, £50,270 a year), then 2% above it. Employers pay 15% on everything above the Secondary Threshold — £96 a week, £417 a month, £5,000 a year — with no upper limit.
+
+Read those two thresholds together. The Secondary Threshold is £5,000 a year and the Primary Threshold is £12,570, so employer contributions start on earnings the employee pays nothing on. Class 1A on expenses and benefits is also 15%.
+
+A worked figure: on £2,000 of monthly pay, the employee's 8% applies to the £952 above £1,048 — £76.16 for that month.
+
+Where nothing is due: below the Primary Threshold there is no employee contribution, and below the Secondary Threshold no employer contribution. Employees over State Pension age sit on category C, where no employee contribution is due but employer contributions continue. Employees who pay no National Insurance at all, such as those under 16, are reported on category letter X.
+
+Two things worth checking in your payroll: that every employee is on the right category letter, and that earnings below the Lower Earnings Limit of £129 a week are understood for what they are — they do not build a qualifying year for contributory benefits.
+
+First consultation £120 incl. VAT, 30 minutes. Ola Accountancy — Luton and Birmingham, 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #NationalInsurance #Payroll #UKTax""",
+ bsky="""2026/27 employee National Insurance: 8% between £12,570 and £50,270, then 2%. Employers pay 15% above £5,000, no upper limit.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+ pin_title="National Insurance 2026/27: the thresholds that set your payslip",
+ pin="""Where does the National Insurance line on a UK payslip come from? For 2026/27, an employee on category A pays 8% on the slice of pay between the Primary Threshold (£1,048 a month, £12,570 a year) and the Upper Earnings Limit (£50,270 a year), then 2% above that. On £2,000 of monthly pay, the 8% applies to the £952 above £1,048 — £76.16. Employers separately pay 15% on everything above the Secondary Threshold of £5,000 a year, with no upper limit, so employer contributions start well below the point where the employee pays anything. Below the Primary Threshold no employee contribution is due, and employees over State Pension age pay none while employer contributions continue. Ola Accountancy, Luton and Birmingham. General information. For your own situation, speak to an accountant.""",
+)
+
+C["ola-statutory-sick-pay"] = dict(
+ ro="""Dacă ai contract de muncă și te îmbolnăvești, angajatorul îți plătește Statutory Sick Pay pentru zilele în care trebuia să lucrezi.
+
+Rata pentru 2026/27 este £123,25 pe săptămână, sau 80% din salariul tău mediu săptămânal, dacă acela iese mai mic. Suma pe zi depinde de câte zile de lucru ai într-o săptămână.
+
+Două lucruri s-au schimbat pe 6 aprilie 2026. Zilele de așteptare neplătite de la începutul bolii nu mai există, deci se plătește de la prima zi în care trebuia să lucrezi. Și condiția de câștig a dispărut: nu mai contează cât câștigi pe săptămână.
+
+Trebuie totuși să fii bolnav cel puțin o zi întreagă de lucru. Concediul de odihnă nu întrerupe perioada. Iar două perioade de boală aflate la 8 săptămâni sau mai puțin una de alta se leagă între ele.
+
+Cine nu primește: cineva care a primit deja cele 28 de săptămâni, care este maximul; cineva care nu are contract de muncă, deci și cine este self-employed; cineva care primește Statutory Maternity Pay sau Maternity Allowance; cineva care lipsește pentru o boală legată de sarcină în cele 4 săptămâni înainte de săptămâna în care e așteptat copilul; și cineva care a primit Employment and Support Allowance în cele 12 săptămâni înainte de a începe sau de a reveni la lucru la acel angajator.
+
+Partea practică: anunță angajatorul în termenul pus de el, sau în 7 zile dacă nu a pus un termen. Dacă întârzii anunțul, poți pierde o parte din plată. Iar dacă nu te califici, angajatorul trebuie să-ți trimită formularul SSP1 în 7 zile de la prima zi de absență.
+
+Dacă nu ți se pare în regulă ce ai primit, scrie-ne cu zilele și cu fluturașul și verificăm împreună.
+
+Ola Accountancy — Luton · Birmingham, 0330 133 1886
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #StatutorySickPay #payroll #HMRC""",
+ th="""Statutory Sick Pay în 2026/27: £123,25 pe săptămână, sau 80% din salariul mediu săptămânal, dacă acela iese mai mic.
+
+Din 6 aprilie 2026 nu mai există zile de așteptare neplătite și nici condiție de câștig. Fără contract de muncă nu se aplică.
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.""",
+ li="""Two changes took effect on 6 April 2026, and some payrolls are still running the old rules.
+
+Statutory Sick Pay for 2026/27 is £123.25 a week, or 80% of the employee's average weekly earnings, whichever is lower. Waiting days no longer apply, so SSP is payable from the first qualifying day of sickness. And the earnings test has gone — SSP is available to all eligible employees regardless of what they earn, so the Lower Earnings Limit is no longer a qualifying condition for it.
+
+What still has to be true: the employee has an employment contract, has done some work under it, has been sick for at least one full working day, and has given notice and proof of illness where required. Annual leave does not interrupt a period of incapacity for work. Separate periods of sickness link where they fall 8 weeks or less apart.
+
+Where SSP is not due: the 28-week maximum has been reached; the employee is getting Statutory Maternity Pay or Maternity Allowance; the absence is a pregnancy-related illness in the 4 weeks before the week the baby is due; the employee received Employment and Support Allowance within 12 weeks of starting or returning to work for that employer; or there is no employment contract at all. Linked periods running continuously for more than 3 years also end eligibility.
+
+The administration to get right: where the employee does not qualify, form SSP1 goes out within 7 days of the first day of sickness. Where SSP ends unexpectedly while the employee is still sick, SSP1 goes within 7 days of it ending; where SSP is expected to end before the sickness does, SSP1 goes on or before the start of the 23rd week.
+
+First consultation £120 incl. VAT, 30 minutes. Ola Accountancy — Luton and Birmingham, 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #StatutorySickPay #Payroll #UKTax""",
+ bsky="""SSP 2026/27: £123.25 a week, or 80% of average weekly earnings if lower. From 6 April 2026, no waiting days and no earnings test.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+ pin_title="Statutory Sick Pay 2026/27: paid from day one, no earnings test",
+ pin="""Statutory Sick Pay for 2026/27 is £123.25 a week, or 80% of the employee's average weekly earnings, whichever is lower, paid by the employer through payroll. Two things changed on 6 April 2026: waiting days no longer apply, so SSP runs from the first qualifying day of sickness, and the earnings test has gone, so SSP is available to all eligible employees whatever they earn. The employee still needs an employment contract, at least one full working day of sickness, and to give notice and proof when required. SSP is not due once the 28-week maximum is reached, where Statutory Maternity Pay or Maternity Allowance is in payment, or where there is no employment contract. Ola Accountancy, Luton and Birmingham. General information. For your own situation, speak to an accountant.""",
+)
+
+C["ola-marriage-allowance"] = dict(
+ ro="""Ești căsătorit sau într-un civil partnership? Dacă tu nu plătești impozit pe venit și partenerul tău plătește cota de bază, sunt până la £252 pe an care nu se cer singuri.
+
+Se numește Marriage Allowance. Cel care câștigă mai puțin transferă £1.260 din Personal Allowance — partea de venit pe care nu se plătește impozit — către celălalt. Impozitul cuplului scade cu până la £252 într-un an fiscal.
+
+Cererea o face cel care câștigă mai puțin. Asta e greșeala cea mai frecventă: o face cel cu venitul mare și nu merge. Se face gratuit, pe gov.uk, și pe urmă se reînnoiește automat, până o oprești.
+
+Se poate cere și pentru ani fiscali trecuți, până la anul fiscal 2022/23.
+
+Cine nu o poate cere: trebuie să fii căsătorit sau într-un civil partnership, iar traiul împreună fără una din cele două nu e de ajuns; nu se poate dacă unul din cei doi primește deja Married Couple's Allowance; și nu se poate dacă cel care câștigă mai mult trece de £50.270 — sau de £43.662, dacă este Scottish taxpayer.
+
+Atenție la pragul scoțian, pentru că aici se încurcă lumea: cineva cu £46.000 în Scoția nu se califică, în timp ce cineva cu £46.000 în Anglia se califică.
+
+Dacă nu ești sigur dacă se potrivește în cazul tău, scrie-ne cu cele două venituri și ne uităm împreună.
+
+Ola Accountancy — Luton · Birmingham, 0330 133 1886
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #MarriageAllowance #HMRC #Luton""",
+ th="""Marriage Allowance: cel care câștigă mai puțin transferă £1.260 din Personal Allowance, iar impozitul cuplului scade cu până la £252 pe an.
+
+Cererea o face cel cu venitul mic, gratuit, pe gov.uk, și se poate cere până la anul fiscal 2022/23.
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.""",
+ li="""A small allowance that is routinely claimed by the wrong person, and so routinely refused.
+
+Marriage Allowance lets the lower earner in a marriage or civil partnership transfer £1,260 of their personal allowance to the other, worth up to £252 off the couple's income tax in a tax year. The application is made by the lower earner — the one paying no income tax — not by the higher earner who gets the benefit. It is free, it is made on gov.uk, and once granted it renews automatically until cancelled.
+
+It can be backdated as far as the 2022/23 tax year, so four earlier years may still be open alongside the current one.
+
+Who cannot claim it: couples living together who are not married or in a civil partnership; anyone already claiming Married Couple's Allowance; and couples where the higher earner is above the basic rate — above £50,270, or above £43,662 for a Scottish taxpayer.
+
+That last line is where it goes wrong. The test is read against the band that applies to the higher earner, so someone on £46,000 in Scotland does not qualify while someone on £46,000 in England does.
+
+Nothing in Budget 2026 changed this for 2026/27.
+
+First consultation £120 incl. VAT, 30 minutes. Ola Accountancy — Luton and Birmingham, 0330 133 1886.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #MarriageAllowance #IncomeTax #UKTax""",
+ bsky="""Marriage Allowance: the lower earner transfers £1,260 of personal allowance, worth up to £252 a year. The lower earner applies. Backdate to 2022/23.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+ pin_title="Marriage Allowance: £252 a year, and who actually applies",
+ pin="""Marriage Allowance lets the lower earner in a marriage or civil partnership transfer £1,260 of their personal allowance to their spouse, cutting the couple's income tax by up to £252 in a tax year. The commonest mistake is the wrong person applying: it is the lower earner who applies, free, on gov.uk — and it then renews automatically until cancelled. A claim can be backdated as far as 2022/23. It is not available to unmarried couples, to anyone already claiming Married Couple's Allowance, or where the higher earner is above £50,270 — or above £43,662 for a Scottish taxpayer, so someone on £46,000 in Scotland does not qualify while someone on £46,000 in England does. Ola Accountancy, Luton and Birmingham. General information. For your own situation, speak to an accountant.""",
+)
+
+C["en-amend-tax-return"] = dict(
+ en="""Sent your Self Assessment return and then spotted a mistake? You can change it yourself. Nothing to explain, and no penalty for the change itself.
+
+How it works: sign in to your HMRC account, go to your Self Assessment details, then Tax return options, pick the year, correct the figure and file it again. On paper, you send the corrected pages marked "amendment" with your name and UTR to the address on your Self Assessment paperwork. If there is no address on it, HMRC's Self Assessment post goes to BX9 1AS.
+
+From when: you get 12 months from the filing deadline. For the 2024 to 2025 return that is 31 January 2027. For the 2025 to 2026 return you are filing this season, it will be 31 January 2028.
+
+Who cannot use it: nobody can change a return in the first 3 days (72 hours) after filing, because the system is locked. Once the 12 months are up the route closes completely: you write to HMRC instead, and to get tax back you have to make a formal overpayment relief claim within 4 years of the end of that tax year. If you filed through commercial software, ask that provider to make the correction first and only go to HMRC if the software cannot do it. And an overpayment relief claim has to carry your own signature, or a company officer's for a limited company — an accountant cannot sign it for you.
+
+One warning: an amendment and a disclosure are not the same thing. HMRC says an incomplete overpayment relief claim is rejected outright, and the 4 years is a hard stop.
+
+If you are not sure which of the two you are dealing with, send us the year and what you think is wrong and we will tell you.
+
+Ola Accountancy — 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #HMRC #SelfAssessment #TaxReturn #SelfEmployed #SmallBusiness""",
+ tt_title="You can change a tax return after you have filed it — you get 12 months",
+ source_en="https://www.gov.uk/self-assessment-tax-returns/corrections",
+)
+
+C["en-annual-investment-allowance"] = dict(
+ en="""Bought a van, a machine or a set of tools for the business this year? Most of it comes off the profit you pay tax on — the full cost, in the year you bought it.
+
+How it works: the Annual Investment Allowance covers most plant and machinery up to £1 million of spending in your accounting year. That is £1 million in total, not per item. If your accounting year is shorter than 12 months, the £1 million is cut back in proportion.
+
+It is not automatic. You have to claim it — on the Company Tax Return for a limited company, or on the Self Assessment return for a sole trader or a partnership.
+
+Who cannot claim, or cannot claim it all: not cars. A van or a lorry counts, a car does not, and a car gets a smaller amount each year instead. Not anything you already owned before you brought it into the business, and not anything given to you. A partnership cannot claim at all if one of its members is a company — every member has to be a person. A business in its final accounting period cannot claim on what it buys then. And if you are a sole trader or in a partnership and you use the item privately as well, the claim is reduced by the private share.
+
+One warning for anyone with more than one company: two or more limited companies controlled by the same person share a single £1 million between them. Not £1 million each.
+
+Send us the invoice and your year end and we will tell you which route the purchase takes.
+
+Ola Accountancy — 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #HMRC #LimitedCompany #CapitalAllowances #SelfEmployed #SmallBusiness""",
+ tt_title="Bought a van? The £1 million allowance, explained simply",
+ source_en="https://www.gov.uk/capital-allowances/annual-investment-allowance",
+)
+
+C["en-tax-code-30-december"] = dict(
+ en="""Owe less than £3,000 on your tax return and you are also paid through PAYE? You do not have to find it all in one go in January. HMRC can take it out of your pay instead.
+
+How it works: there is no separate form and nothing to apply for. You file your 2025 to 2026 Self Assessment return online by 30 December 2026, and if you meet the conditions HMRC adjusts your tax code and collects the money gradually through your wages or pension. If you file on paper, that deadline was 31 October 2026.
+
+From when: the tax then comes out through your tax code in a later tax year, rather than as a lump sum on 31 January 2027.
+
+Who cannot use it: anyone who owes £3,000 or more — and you cannot pay part of the bill to get under that, HMRC will refuse it. Anyone without enough PAYE income for HMRC to collect it from, and anyone with no PAYE income at all, such as a sole trader with no job and no pension. HMRC also says no if using your code would mean paying more than 50% of your PAYE income in tax, or more than twice as much tax as you normally pay. Self-employed Class 2 National Insurance generally cannot go through your code either, unless it has been owed since before 6 April 2015.
+
+One warning, and it is the thing people get wrong: 30 December is not an extension of 31 January. Miss 30 December and your return is still due by 31 January 2027, and the whole bill is still payable on 31 January 2027.
+
+If you want to know whether this route is open to you, send us your figures before 30 December.
+
+Ola Accountancy — 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #HMRC #SelfAssessment #PAYE #TaxCode #SelfEmployed""",
+ tt_title="Owe under £3,000? File by 30 December and skip the January lump sum",
+ source_en="https://www.gov.uk/pay-self-assessment-tax-bill/through-your-tax-code",
+)
+
+C["en-associated-companies"] = dict(
+ en="""Own more than one limited company? The profit bands that decide your corporation tax rate get divided between them. Plenty of people find that out only when the bill arrives.
+
+How it works: corporation tax is 19% on profits of £50,000 or less and 25% on profits over £250,000, with relief that tapers in between. Those two numbers get divided by the number of companies you control. Control four companies and each one's lower number becomes £12,500 and its upper number £62,500 — so a company making £70,000 pays the full 25%, when on its own it would have paid less.
+
+Companies count as connected if one controls the other, or if the same person or people control both. A company counts even if it was connected for only part of the year, and even if it is tax resident abroad.
+
+From when: 1 April 2023, when the 25% main rate, the 19% small profits rate and the £50,000 and £250,000 limits came in.
+
+Who gets no relief: companies with profits above the upper number pay the main rate with no tapering at all. Companies that are not UK resident cannot have the relief, nor can a company that exists only to hold investments. And companies at or below the lower number do not need it, because they already pay 19%.
+
+The helpful part: a company that carried on no trade or business at any time in the year is left out of the count, so a genuinely dormant company does not divide your bands. But an accounting year shorter than 12 months cuts the numbers down again on top of the division.
+
+Send us the list of your companies and their year ends and we will work out what band each one actually gets.
+
+Ola Accountancy — 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #HMRC #LimitedCompany #CorporationTax #SmallBusiness""",
+ tt_title="Own four companies? Your corporation tax band is a quarter of the size",
+ source_en="https://www.gov.uk/guidance/corporation-tax-marginal-relief",
+)
+
+C["en-cis-monthly-return"] = dict(
+ en="""If you pay subcontractors for construction work, HMRC wants a return from you by the 19th of every month. Even in a month when you paid nobody. That is where most of the £100 penalties come from.
+
+How it works: you file the monthly return online by the 19th, covering the tax month that has just ended. The next two are due by 19 December 2026 for the month to 5 December 2026, and by 19 January 2027 for the month to 5 January 2027. If you used no subcontractors in the month, you still file, showing payments of zero.
+
+The penalties stack, they do not replace each other. One day late is £100. At 2 months another £200 goes on. At 6 months, and again at 12 months, it is £300 each time or 5% of the deductions on that return, whichever is higher — so a big month can produce far more than £300. Beyond 12 months HMRC can add up to £3,000 or 100% of the deductions.
+
+Who does not have to file: subcontractors. If you are the one being paid, these monthly returns and these penalties are not yours. And if you have told HMRC you have temporarily stopped using subcontractors, you do not have to file zero returns for the months that request covers.
+
+One warning on dates: the return is due on the 19th even if you pay HMRC electronically by the 22nd. Filing and paying are two different dates, and the 22nd does not buy you three extra days to file.
+
+If you have months missing, tell us which ones and we will work out where you stand.
+
+Ola Accountancy — 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #HMRC #CIS #Construction #Subcontractors #SmallBusiness""",
+ tt_title="CIS: the return is due on the 19th even if you paid nobody",
+ source_en="https://www.gov.uk/what-you-must-do-as-a-cis-contractor/file-your-monthly-returns",
+)
+
+
+# ---- Birmingham 17 Nov
+C["bham-business-rates-rhl"] = dict(
+ en="""If you run a shop, a cafe, a takeaway, a salon, a pub or a gym, look at the multiplier printed on your business rates bill.
+
+From 1 April 2026, a qualifying retail, hospitality or leisure property with a rateable value under £51,000 is billed at 38.2p in the pound. Anything else that size pays 43.2p. From £51,000 to under £500,000 it is 43p instead of 48p.
+
+What it replaced: the 40% discount that ran to 31 March 2026, capped at £110,000 per business. That one is closed - GOV.UK says you cannot make a new claim for retail, hospitality and leisure relief. The lower multipliers are permanent and carry no cash cap at all.
+
+Who does not get them: property with a rateable value of £500,000 or more, which pays 50.8p whatever it is used for. Also left out are financial and professional services, health services, betting shops, car parks, taxi firms, warehouses used for online selling, and empty property once Empty Property Relief ends.
+
+One practical warning. If your 2026/27 bill looks higher than last year's, the thing to look at is transitional relief and the Supporting Small Business scheme, not RHL relief - that door is shut. For a property that lost the 40% discount, the increase this year is capped at whichever is more: £800, or the transitional relief percentage for its rateable value (5%, 15% or 30%).
+
+The multiplier should land on the bill without you applying for anything, because the council has to decide what each property is used for. In practice councils round here often send a short form asking you to confirm it. Check the bill, and send that form back.
+
+Bring your latest bill in if you want a second pair of eyes on it.
+
+Ola Accountancy Birmingham - 22-42 Washwood Heath Rd, B8 1RB, 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #BusinessRates #SmallBusiness #Retail #Hospitality #Saltley #AlumRock""",
+ tt_title="Your rates bill: 38.2p or 43.2p in the pound? Check which one you are on",
+ source_en="https://www.gov.uk/guidance/business-rates-multipliers-qualifying-retail-hospitality-or-leisure",
+)
+
+C["bham-child-benefit"] = dict(
+ en="""Child Benefit is £27.05 a week for your eldest or only child in the 2026 to 2027 tax year, and £17.90 a week for every child after that.
+
+It goes to one person for each child, and it is usually paid every 4 weeks. You can claim for a child under 16, or under 20 if they stay in approved education or training.
+
+Here is the part people miss: it is never paid automatically. You have to claim it from HMRC. Claiming also gets your child their National Insurance number, and while a child is under 12 it gives the claiming parent National Insurance credits that count towards their own State Pension.
+
+You can even claim and ask HMRC not to pay you the money, and still keep the credits and the child's National Insurance number. Plenty of people never think of that.
+
+Who does not get it: only one person can claim for a child, and if two people cannot agree, HMRC decides which of them. A foster carer cannot claim if the council pays anything towards the child's accommodation or upkeep. It also stops if the child takes paid work of 24 hours a week or more while not in approved education or training, or starts an apprenticeship, or starts getting certain benefits in their own name.
+
+One practical warning. These rates run from 6 April 2026, and the rates you may have seen for 2027 to 2028 are still only provisional - do not budget on them.
+
+If you have never claimed, or you stopped it years ago and have been meaning to sort it out, come and ask us.
+
+Ola Accountancy Birmingham - 22-42 Washwood Heath Rd, B8 1RB, 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #ChildBenefit #HMRC #Families #StatePension #Saltley""",
+ tt_title="£27.05 a week per eldest child - and nobody sends it to you, you claim it",
+ source_en="https://www.gov.uk/child-benefit/what-youll-get",
+)
+
+C["bham-company-car-tax"] = dict(
+ en="""Your company buys the car, so there is nothing to pay, right? No. If you can use it privately, part of that car's value is added to the income you pay tax on every year.
+
+How much depends on the car. A fully electric car is 4% of its list price in 2026-27. A plug-in hybrid putting out 1 to 50g/km runs from 4% if it does 130 electric miles or more, through 7%, 10% and 14%, up to 16% if its electric range is under 30 miles. The lowest petrol or diesel band, 51 to 54g/km, is 17%, and 155g/km and above is 37%.
+
+The sum itself: take the list price on the day before the car was first registered, add qualifying accessories, take off up to £5,000 if you put your own money into buying it, then apply the car's percentage. Diesel adds 4% on top unless the car meets the RDE2 standard, and nothing ever goes above 37%. Your company pays Class 1A National Insurance on the same figure and reports it through payroll or on a P11D.
+
+Where people get caught: it is the list price that counts, not what the company actually paid. A big discount, a nearly-new buy, a bargain off a forecourt - none of it reduces the benefit.
+
+When there is nothing to tax: a proper pool car, or a car that genuinely is not available to you for private use. Vans are outside these rules completely and have their own. A car off the road for 30 or more days in a row cuts the charge, but a week in the garage does not.
+
+These rates apply for 6 April 2026 to 5 April 2027 and the percentages rise again in later years, so an electric car is no longer the free perk it was.
+
+Send us the model and the list price before you order anything.
+
+Ola Accountancy Birmingham - 22-42 Washwood Heath Rd, B8 1RB, 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #CompanyCar #BenefitInKind #LimitedCompany #HMRC""",
+ tt_title="Company car tax 2026-27: 4% on an electric, 37% at the top end",
+ source_en="https://www.gov.uk/guidance/company-car-benefit-the-appropriate-percentage-480-appendix-2",
+)
+
+C["bham-council-tax-reduction"] = dict(
+ en="""If the council tax bill has your name on it and money is tight, your council can take up to 100% of that bill off. All of it, in some cases.
+
+It does not matter whether you own your home or rent it, and it does not matter whether you are working. What matters is that you are the one liable for the council tax and you are on a low income or on benefits.
+
+It is never taken off the bill for you. You apply to the council that sends the bill, and the schemes have worked this way since April 2013.
+
+Now the bit that causes most of the confusion round here. There is no single national scheme. Birmingham, Sandwell, Solihull, Dudley and Walsall each write their own working-age rules, with their own income and savings limits, and they usually change them each 1 April. So a cousin in another borough being turned down tells you nothing about your own bill, and anyone quoting you a national savings cut-off is guessing.
+
+Who does not get it: the law keeps two groups out of every council's scheme - people subject to immigration control, and people who are not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man. GOV.UK sets out both.
+
+One practical warning. This is not the Single Person Discount and it is not the Disabled Band Reduction - they are separate things, and you may be entitled to more than one. And it has not been called Council Tax Benefit since 2013, so if a form or a website calls it that, the information is old.
+
+If you want a hand working out what to apply for, come and see us.
+
+Ola Accountancy Birmingham - 22-42 Washwood Heath Rd, B8 1RB, 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #CouncilTax #CostOfLiving #Saltley #AlumRock""",
+ tt_title="Up to 100% off your council tax - but every council has its own rules",
+ source_en="https://www.gov.uk/apply-council-tax-reduction",
+)
+
+C["bham-free-school-meals"] = dict(
+ en="""On Universal Credit and working? Your child can get free school meals now. Your earnings no longer decide it.
+
+Since the start of the 2026 to 2027 school year, any child in a household getting Universal Credit is entitled to free school meals, whatever that household earns. The law behind it is the Children's Wellbeing and Schools Act 2026.
+
+Other households still qualify too, including those getting income-related Employment and Support Allowance or the guarantee element of Pension Credit. And every pupil in reception, year 1 and year 2 at a state school eats free anyway, whatever comes into the house.
+
+It does not switch on by itself. You apply through the council - Birmingham City Council if your child's school is in the city - and the school or the council does the checking. Even for an infant who already eats free, it is worth applying, because a confirmed check brings the school extra money.
+
+Who does not get it: a household on none of the qualifying benefits, apart from those infant years. And the protection that used to let a pupil keep their meals after the family stopped qualifying ran out at the end of the 2025 to 2026 school year, so a family now has to actually meet the rules. Independent schools are outside this, and a child educated at home has no automatic entitlement - the council looks at those one at a time.
+
+One practical warning about the £7,400 figure you may see. Earnings of £7,400 a year or less is what makes a claim count as targeted, which brings the school pupil premium funding. It no longer decides whether your child gets the meal. Two tiers, one dinner.
+
+Not sure which benefits in your house count? Ask us.
+
+Ola Accountancy Birmingham - 22-42 Washwood Heath Rd, B8 1RB, 0330 133 1886
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #FreeSchoolMeals #UniversalCredit #Schools #Families""",
+ tt_title="On Universal Credit and working? Free school meals now count you in",
+ source_en="https://www.gov.uk/apply-free-school-meals",
+)
