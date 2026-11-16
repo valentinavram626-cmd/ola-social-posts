@@ -117,7 +117,9 @@
    "how_to_claim": "Normally paid by the employer. Where they pay less, claim Mileage Allowance Relief through Self Assessment or form P87."
   },
   "notes": "HIGHEST-RISK FIGURE: almost all third-party material still says 45p. The 10,000-mile counter resets each tax year and is per person, not per vehicle. Do NOT state a 2027/28 first-10,000 rate — only the over-10,000 rate rising to 35p has been announced.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "high-income-child-benefit-charge",
@@ -1425,7 +1427,9 @@
    "how_to_claim": "The employee must tell their employer they cannot work, usually by the employer's own deadline, or within 7 days if the employer has not set one, and provide proof of illness when required. The employer then pays SSP through payroll — the employee does not claim from HMRC. If the employee does not qualify, the employer must send form SSP1 within 7 days of the first day off sick. If SSP ends unexpectedly while the employee is still sick, SSP1 must be sent within 7 days of SSP ending; if SSP is expected to end before the sickness does, SSP1 must be sent on or before the beginning of the 23rd week."
   },
   "notes": "The SSP reform took effect on 6 April 2026: waiting days are abolished and the earnings test removed, with the rate now the lower of £123.25 a week and 80% of average weekly earnings. HMRC's employer rates page and the transitional guidance both present this UK-wide without a nation caveat. I verified the rate and the removal of waiting days only on those UK-wide HMRC pages; I did not separately verify Northern Ireland's devolved legislative position, so NI-specific content should be checked before publication. Daily SSP amounts depend on the number of qualifying days the employee works each week. UK-wide, so valid for Birmingham/West Midlands and for Romanian-speaking audiences across the UK. Where income tax arises in related content, Scotland sets its own income tax rates and bands.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "statutory-maternity-pay",
@@ -1587,7 +1591,9 @@
    "how_to_claim": "Not a claim. Employee and employer Class 1 NIC are calculated and deducted automatically through payroll each pay period on the correct category letter, and reported to HMRC on the Full Payment Submission on or before payday."
   },
   "notes": "UK-wide — National Insurance is not devolved, so these thresholds and rates are identical in England, Scotland, Wales and Northern Ireland, which is why this is valid for Birmingham/West Midlands and for Romanian-speaking audiences across the UK. Income tax is different: Scotland sets its own income tax rates and bands, so any content pairing NIC with income tax must state the Scottish position separately. Note the Secondary Threshold (£5,000 a year) is far below the Primary Threshold (£12,570 a year), so employers pay NIC on earnings their employees pay nothing on. Employer Class 1 NIC has no upper limit. Category letters other than A carry different rates and should be checked on the same page. Rates page last updated 1 September 2026.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "p11d-benefits-deadline",
@@ -2127,7 +2133,9 @@
    "how_to_claim": "Must be claimed from HMRC - it is never paid automatically. Claiming also gets the child a National Insurance number, and GOV.UK states you get National Insurance credits automatically if you claim Child Benefit and your child is under 12. Payment is usually every 4 weeks, and a claimant can claim but decline the payments to keep the other advantages."
   },
   "notes": "Northern Ireland: no separate scheme - HMRC pays Child Benefit at these rates across the UK. Scotland: no devolved replacement for Child Benefit itself. The same HMRC rates table also shows provisional 2027 to 2028 rates of £28.00 (eldest or only child) and £18.55 (other children), read 2026-11-14 at https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance/tax-credits-child-benefit-and-guardians-allowance - provisional, not yet in force. The High Income Child Benefit Charge threshold was NOT stated on any page read, so no figure for it is reported here.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "universal-credit-standard-allowance",
@@ -3009,7 +3017,9 @@
    "how_to_claim": "The multipliers are not a discretionary relief: the billing authority must determine whether each hereditament meets the legal definition and bill accordingly, so it should appear on the bill without an application. In practice many councils (Birmingham and other West Midlands authorities included) publish a short form asking the ratepayer to confirm the property's RHL use, so check the bill and complete any confirmation the council requests."
   },
   "notes": "The headline for a 2026/27 client conversation is that the 40% RHL relief with its £110,000 cash cap has gone and been replaced by permanently lower multipliers with no cash cap — so a business comparing its 2026/27 bill with 2025/26 should look at transitional relief and the Supporting Small Business scheme, not at RHL relief. Claims for RHL relief for earlier years may still be made to the council. A separate Pubs and Live Music Venue Relief exists for 2026/27 in England (GOV.UK business rates information letter 3/2026); its percentage and cap were not reproduced on the letter and so are not reported here. For 2027/28 GOV.UK states vape shops and adult gaming centres lose eligibility for the RHL multipliers. Northern Ireland, Scotland and Wales set their own rates reliefs.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "warm-home-discount",
@@ -3117,7 +3127,9 @@
    "how_to_claim": "Apply through your local authority — for a Birmingham reader, Birmingham City Council; GOV.UK routes applications through the council finder on its 'apply for free school meals' page. The claim must be made and verified by the school or local authority. Universal infant free school meals in reception to year 2 need no application, but GOV.UK still asks families on a qualifying benefit to apply, because a targeted eligibility check brings extra funding to the school. Families with no recourse to public funds should ask the school or local authority, as they may still be eligible."
   },
   "notes": "Two tiers now sit behind one meal: 'expanded' free school meals (any Universal Credit household) and 'targeted' free school meals (Universal Credit household earning £7,400 a year or less), and only the targeted tier carries pupil premium and other disadvantage funding — the distinction matters to schools' budgets, not to the child's meal. Eligible children also qualify for the Holiday Activities and Food programme. Scotland: mygov.scot. Wales: gov.wales. Northern Ireland: nidirect.gov.uk. Not verified in this pass: the further education free meals criteria, which GOV.UK holds in a separate guide.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "healthy-start-scheme",
@@ -3721,7 +3733,9 @@
    "how_to_claim": "Online: sign in, go to More Self Assessment details, then At a glance, then Tax return options, pick the year, correct it and file again. On paper: send corrected SA100 pages marked 'amendment' with your name and UTR to the address on your Self Assessment paperwork. Outside the window: write to HMRC, or claim overpayment relief."
   },
   "notes": "Two separate things get muddled here. An amendment (inside 12 months) is you changing your own return - no explanation needed, no penalty for the amendment itself. A disclosure or overpayment relief claim (outside 12 months) is a formal letter, and for overpayment relief it must state the tax year, why you believe you overpaid, how much, and carry your own signature - HMRC says an incomplete claim will be rejected outright. The 4-year overpayment relief limit is a hard stop, not a discretion. Nation differences: none - this is UK-wide HMRC administration, not a devolved scheme. Commonly confused with: HMRC's own power to correct obvious errors in your return (a different thing, done by HMRC within 9 months); a return under HMRC enquiry, where your right to amend is restricted; and voluntary disclosure of undeclared income, which is a disclosure not an amendment and can carry penalties.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "sa303-reducing-payments-on-account",
@@ -5047,7 +5061,9 @@
    "how_to_claim": "Nothing to claim - the charge arises automatically once a car is made available for private use. The employer reports it, either by payrolling the benefit (reporting it through PAYE in real time) or on form P11D after the tax year, and pays Class 1A NICs. The calculation is: take the list price published by the manufacturer, importer or distributor on the day before first registration (including standard accessories, VAT and delivery, but excluding the new car registration fee); add qualifying accessories (later accessories over £100); deduct the employee's capital contributions up to £5,000; multiply by the appropriate percentage for the car's CO2 emissions and, for 1-50g/km hybrids, its electric range, adding the 4% diesel supplement if it applies and capping at 37%; then reduce for any days of unavailability and for required private use payments. Where a car is 15 years old or more and worth £15,000 or more, market value less capital contributions replaces the list price. Where two or more chargeable employees share a car concurrently, each benefit is calculated and then reduced on a just and reasonable basis."
   },
   "notes": "UK-wide rules, but the tax paid on the benefit differs by nation because Scotland sets its own income tax rates and bands on non-savings income, so a Scottish taxpayer with the same company car pays a different amount of income tax from an employee in England, Wales or Northern Ireland; the benefit value itself and the employer's Class 1A NICs are identical across the UK. Electric cars are no longer a zero-rated perk: the appropriate percentage for a 0g/km car is 4% in 2026-27 and rises again in later years, so this is worth re-checking each April. For cars first registered on or after 6 April 2020 use the WLTP CO2 figure. Commonly confused: the appropriate percentage is applied to the list price, not to what the employer actually paid, so a discounted or second-hand purchase does not reduce the benefit; capital contributions are capped at £5,000 while private use payments are uncapped but must be required and specifically for private use; the car benefit and the car fuel benefit are two separate charges, and providing electricity for an electric company car is not a fuel benefit; and the electric range bands only matter for cars emitting 1 to 50g/km. Caution for content: chapter 12 of booklet 480 still carries engine-size percentage tables for cars with no CO2 figure that were last updated in April 2021, so those particular figures should not be quoted as current.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "trivial-benefits-exemption-employees-and-directors",
@@ -6876,7 +6892,9 @@
    "how_to_claim": "There is no separate form. File the 2025-26 Self Assessment return online by 30 December 2026 (or the paper return by 31 October 2026) and meet all the conditions on the GOV.UK page; HMRC then adjusts your tax code instead of asking for a lump sum."
   },
   "notes": "The thing readers get wrong: 30 December is NOT an extension of the 31 January filing deadline — it is only the cut-off for this one payment route. Miss 30 December and the return is still due by 31 January 2027 and the bill is still payable in full on 31 January 2027. Also, the £3,000 test is on what you owe, not on your income, and you cannot part-pay your way under it. Nation makes no difference here.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "paye-cis-monthly-payment-deadlines-22nd",
@@ -6990,7 +7008,9 @@
    "how_to_claim": "Nothing to claim. File the monthly return online by the 19th, or make an inactivity request if you have temporarily stopped using subcontractors."
   },
   "notes": "The penalty that catches people out is on the NIL return: if you used no subcontractors in the month you must still file showing 0, or ask HMRC for an inactivity period — forgetting it costs £100 even though no tax was due. The penalties stack rather than replace each other, and the 6 and 12 month charges are the higher of £300 or 5% of the deductions on the return, so a big month can produce a penalty far above £300. Note the CIS return date is the 19th even for contractors who pay HMRC electronically by the 22nd — filing and paying have different dates.",
-  "used": []
+  "used": [
+   "2026-11-16"
+  ]
  },
  {
   "id": "cgt-60-day-uk-residential-property-return",
