@@ -1277,7 +1277,9 @@
    "how_to_claim": "Nothing to claim — points and penalties are issued automatically by HMRC. Points can be adjusted when you change accounting periods, and those adjustments cannot be appealed. Separate HMRC guidance covers removing penalty points."
   },
   "notes": "Submitting on time once at the threshold keeps you at the threshold without a further £200 charge; it does not clear the points. Late payment interest is charged separately, from the first day the payment is overdue until it is paid in full, in addition to any late payment penalty. The second late payment penalty runs from day 31 until the balance is paid or just before the 2-year assessment time limit. No Northern Ireland difference. The 1 April 2025 commencement of the higher rates is not stated on the gov.uk late payment penalties guidance page itself — its update history only records on 10 July 2025 that 'the value of late payment penalties charged has been increased' — so the date is cited to the HMRC policy publication instead.",
-  "used": []
+  "used": [
+   "2026-11-17"
+  ]
  },
  {
   "id": "vat-reverse-charge-construction",
@@ -3993,7 +3995,9 @@
    "how_to_claim": "Nothing to claim - choose a method that clears in time. For a last-minute payment use Faster Payments, approve a payment through your online bank account, CHAPS, or a debit or corporate credit card online, and always quote the 11-character reference (UTR plus K)."
   },
   "notes": "The trap is that the deadline is when the money reaches HMRC, not when you press send. A Bacs payment started on 30 January arrives late and triggers the late payment penalty and interest. If the deadline falls on a weekend or bank holiday, HMRC expects the payment to reach it by the last working day before - except for Faster Payments and card payments, which are exempt from that rule. The second trap is the reference: use the wrong one and HMRC may delay the payment or set it against a different tax bill you owe, which looks like non-payment on your record. Nation differences: none. Commonly confused with: Time to Pay, which is a payment plan rather than a payment method; paying a Self Assessment penalty, which uses a different gov.uk route and a different reference; and the old Post Office and personal credit card routes, both of which people still ask for and neither of which is available.",
-  "used": []
+  "used": [
+   "2026-11-17"
+  ]
  },
  {
   "id": "cash-basis-default-self-employed",
@@ -5177,7 +5181,9 @@
    "how_to_claim": "Nothing to claim and nothing to report. Where the four conditions are met the benefit is exempt automatically, so it does not go on a P11D, is not payrolled, and carries no Class 1 or Class 1A National Insurance. Employers should keep a record of trivial benefits given, and close companies in particular need a running total per director and per family or household member so the £300 annual cap is not breached."
   },
   "notes": "UK-wide, identical in England, Wales, Scotland and Northern Ireland - and because the benefit is exempt there is no Scottish income tax difference to worry about here. For most owner-managed companies, which are close companies, the practical position is £50 per benefit and £300 per director per tax year, and the £300 cap applies separately to the director's family or household members where benefits are provided to them. Commonly confused: the £50 is a cap on the cost of providing each individual benefit, not an annual allowance, so an employee of a non-close company can receive any number of £50 benefits; a benefit costing £51 is wholly taxable, not taxable on £1; the £300 cap is not a fifth condition but a separate restriction for close companies; and trivial benefits are completely separate from the annual staff entertaining exemption for an annual function (the separate £150 per head limit), from long service awards, and from the rules on gift vouchers - a non-cash gift voucher can qualify as a trivial benefit, but a cash voucher cannot. Also note that providing a trivial benefit does not stop the £150 per head annual function exemption being used as well, as they are different exemptions.",
-  "used": []
+  "used": [
+   "2026-11-17"
+  ]
  },
  {
   "id": "associated-companies-and-marginal-relief-thresholds",
@@ -5786,7 +5792,9 @@
    "how_to_claim": "There is nothing to claim to pay the surcharge - it is reported and paid on the SDLT return within 14 days of completion. Where the higher rates were paid because the former main residence had not yet sold, a refund can be applied for from HMRC once that property is sold within the 36-month window."
   },
   "notes": "Scotland and Wales have their own equivalents, at their own rates - never state this as UK-wide. Commonly confused: the test is applied to a spouse or civil partner as well as to the buyer, so one spouse buying alone is caught if the other would be caught, unless the couple are legally or permanently separated; transfers of interests between spouses or civil partners living together are disregarded. Also often misstated: the surcharge is 5 percentage points on top of the whole standard rate ladder, not a flat 5% of the price, and it applies even where the buyer's other property is abroad. Companies pay the 17% flat rate on dwellings over £500,000 unless a relief applies.",
-  "used": []
+  "used": [
+   "2026-11-17"
+  ]
  },
  {
   "id": "business-asset-disposal-relief-limit-and-rate",
@@ -6904,7 +6912,9 @@
    "how_to_claim": "Nothing to claim to be charged - local authorities will collect the surcharge on behalf of central government and are fully compensated for their administration costs. A deferral scheme, discounts and exemptions were confirmed at Budget 2026 but the detail, including how to apply, has not yet been published."
   },
   "notes": "Three things to get right. First, this is England only - it is not a UK property tax. Scotland and Wales set their own council tax policy and are not in scope, and Northern Ireland does not have council tax at all (it has domestic rates), so the surcharge cannot apply there. Second, it is a surcharge on top of existing Council Tax, not a replacement for it and not a reband: a property stays in its existing Council Tax band and the surcharge is added. Third, the valuation date matters more than the charge date - values are assessed in 2026 but the charge starts in April 2028, so an owner whose home is near the £2 million line should care about the 2026 assessment, not the 2028 market. The amounts actually payable, the value bands above £2 million, the deferral scheme and the list of discounts and exemptions are NOT yet in the published factsheet; only the £2 million entry threshold, the England-only scope, the April 2028 start, the 100% empty-homes premium and the £400 million revenue estimate are confirmed at primary source. Do not quote a surcharge amount until Finance Bill 2026-27 detail is published. Separately, the £100 Household Energy Payment for Council Tax bands A to D is a different England-only measure and should not be conflated with this.",
-  "used": []
+  "used": [
+   "2026-11-17"
+  ]
  },
  {
   "id": "paye-coding-out-self-assessment-30-december",
@@ -7635,7 +7645,9 @@
    "how_to_claim": "Nominated partner files SA800 online by 31 January 2027 (HMRC online service does not support SA800 - commercial software or an agent is needed). Each partner separately files their own return by the same date."
   },
   "notes": "The trap clients get wrong: a late partnership return multiplies. HMRC charges the £100 on all persons who were partners at any time in the return period, so a four-partner firm one day late is £400, and £800 once six months pass. EM4585 also confirms partners get no capping or reduction where their own tax liability is lower than the penalty - unlike individuals and trustees. Only the nominated partner can appeal, and that one appeal covers every partner's penalty. Daily penalties under s93A(3) exist but need an authorised officer's agreement and are reserved for large cases.",
-  "used": []
+  "used": [
+   "2026-11-17"
+  ]
  },
  {
   "id": "trust-registration-service-taxable-trust-31-january-declaration",
@@ -7881,7 +7893,9 @@
    "how_to_claim": "Enter the donation in box 8 on page TR 4 of the 2025-26 SA100 (or the equivalent box in the online return) and file by 31 January 2027."
   },
   "notes": "This is the one 31 January election that cannot be fixed afterwards. Everything else on a tax return can normally be amended up to 31 January 2028, but a Gift Aid carry-back claim is lost the moment the original return is filed without it, and lost outright if the return goes in after the filing date. Two conditions both have to hold: the return must be the original one, and it must be in on time. It is worth the most where income dropped between the two years - a client who was a higher-rate taxpayer in 2025-26 and a basic-rate taxpayer now gets 40% relief instead of none by carrying back. HS342 as published also carries an apparent typo referring to 'the year ended 5 April 2025' in the carry-back paragraph; the surrounding text and the box reference make clear it means the 2025-26 return.",
-  "used": []
+  "used": [
+   "2026-11-17"
+  ]
  },
  {
   "id": "sdlt-return-14-day-deadline-and-late-filing-penalties",
@@ -8372,7 +8386,9 @@
    "how_to_claim": "Apply to your local council; the council arranges an assessment, usually by an occupational therapist, before approving the work"
   },
   "notes": "Three nations, three different ceilings, and Scotland is simply not in the scheme — getting that wrong sends a reader to a dead end. The most valuable fact for families is the children's carve-out: for a disabled child under 18 the parents' income and savings are not tested at all, so households that assume they earn too much are often entitled to the full amount. Landlords are in the same position, which matters for private tenants whose landlord will not pay for adaptations. Two practical traps: the grant is approved before the work, not after, so paying for a stairlift first usually forfeits it; and the £30,000 England figure is a statutory maximum, not an entitlement — many councils top it up under their own discretionary housing assistance policies, so always ask what local top-up exists. A referral to the council's occupational therapy service is the real first step, because the assessment drives what the grant will cover.",
-  "used": []
+  "used": [
+   "2026-11-17"
+  ]
  },
  {
   "id": "child-trust-fund-maturing-and-tracing",
@@ -8574,7 +8590,9 @@
    "how_to_claim": "No claim and no reporting if the conditions are met. If they are not, the employer reports the full cost per head on form P11D (or payrolls the benefit) and pays Class 1A NICs - or covers it for staff through a PAYE Settlement Agreement."
   },
   "notes": "The trap, in HMRC's own words at EIM21690: 'The figure of £150 is not an allowance.' Spend £151 a head and the WHOLE £151 is taxable, not the £1 over. Cost per head is the total cost of the event divided by everyone who attended, including non-employee guests, and it includes VAT plus any transport or overnight accommodation laid on so people can get there. So if partners come, dividing by heads can actually help you. Where there are two events and the combined total is over £150, HMRC lets you apply the £150 to whichever combination of events uses it best and taxes the rest. This is separate from the trivial benefits exemption - a party is not a trivial benefit, and the two do not stack on the same spend. No Scottish or Welsh difference: s264 is a UK-wide exemption, so nothing is taxed and devolved rates never come into it.",
-  "used": []
+  "used": [
+   "2026-11-17"
+  ]
  },
  {
   "id": "pre-trading-expenditure-seven-year-rule",

@@ -50,11 +50,11 @@ def post(prio, label, brand, when, info):
     out.append(dict(prio=prio, label=label, blogId=BRAND[brand],
                     date=f"{DAY}T{when}:00+00:00", info=info))
 
-def base(text, media, alts, providers, **nd):
+def base(when, text, media, alts, providers, **nd):
     i = dict(autoPublish=True, draft=False, hasNotReadNotes=False, shortener=False,
              smartLinkData={"ids": []}, media=media, mediaAltText=alts,
              providers=[{"network": n} for n in providers],
-             publicationDate={"dateTime": f"{DAY}T00:00:00", "timezone": TZ},
+             publicationDate={"dateTime": f"{DAY}T{when}:00", "timezone": TZ},
              text=text)
     i.update(nd)
     return i
@@ -75,45 +75,45 @@ for brand in ("ola", "bham", "en"):
         a_feed = alt_for(cards(t, lang))
         if brand == "ola" and feed:
             check(t["caption"], "instagram"); check(t["caption"], "facebook")
-            post(1, f"{slug} IG+FB", brand, when, base(t["caption"], feed, a_feed,
+            post(1, f"{slug} IG+FB", brand, when, base(when, t["caption"], feed, a_feed,
                  ["instagram", "facebook"], instagramData={"type": "POST"}, facebookData={"type": "POST"}))
         elif feed:
             check(t["caption"], "instagram")
-            post(1, f"{slug} IG+FB", brand, when, base(t["caption"], feed, a_feed,
+            post(1, f"{slug} IG+FB", brand, when, base(when, t["caption"], feed, a_feed,
                  ["instagram", "facebook"], instagramData={"type": "POST"}, facebookData={"type": "POST"}))
         if tik:
             check(t["caption"], "tiktok")
-            post(1, f"{slug} TikTok", brand, when, base(t["caption"], tik, alt_for(cards(t, lang)),
+            post(1, f"{slug} TikTok", brand, when, base(when, t["caption"], tik, alt_for(cards(t, lang)),
                  ["tiktok"], tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE"}))
         if brand == "ola" and feed:
             check(t["caption_threads"], "threads")
-            post(2, f"{slug} Threads", brand, when, base(t["caption_threads"], feed, a_feed,
+            post(2, f"{slug} Threads", brand, when, base(when, t["caption_threads"], feed, a_feed,
                  ["threads"], threadsData={"allowedCountryCodes": []}))
         # Stories: first frame of the 9:16 render, same time as its own feed post.
         # No text: a Story has no caption and it is the only network of the post.
         if brand in ("ola", "bham") and tik:
-            post(3, f"{slug} Story", brand, when, base("", tik[:1], alt_for(cards(t, lang))[:1],
+            post(3, f"{slug} Story", brand, when, base(when, "", tik[:1], alt_for(cards(t, lang))[:1],
                  ["instagram", "facebook"], instagramData={"type": "STORY"}, facebookData={"type": "STORY"}))
         if brand == "ola":
             p = pdf(slug)
             if p:
                 check(t["caption_li"], "linkedin")
                 post(2, f"{slug} LinkedIn", brand, TIMES[("ola","li")][n],
-                     base(t["caption_li"], [p], [a_feed[0]], ["linkedin"],
+                     base(TIMES[("ola","li")][n], t["caption_li"], [p], [a_feed[0]], ["linkedin"],
                           linkedinData={"documentTitle": t["title"][:95], "type": "post"}))
             bsky = staged(slug, "en-bsky")
             if bsky:
                 check(t["caption_bsky"], "bluesky")
                 a_en = alt_for(cards(t, "en"))
                 post(2, f"{slug} Bluesky", brand, TIMES[("ola","bsky")][n],
-                     base(t["caption_bsky"], bsky, a_en, ["bluesky"],
+                     base(TIMES[("ola","bsky")][n], t["caption_bsky"], bsky, a_en, ["bluesky"],
                           blueskyData={"postLanguages": ["en"]}))
             pin = staged(slug, "en-pin")
             if pin:
                 check(t["caption_pin_desc"], "pinterest")
                 check(t["caption_pin_title"], "pinterest_title")
                 post(2, f"{slug} Pinterest", brand, TIMES[("ola","pin")][n],
-                     base(t["caption_pin_desc"], pin[:1], [alt_for(cards(t, "en"))[0]], ["pinterest"],
+                     base(TIMES[("ola","pin")][n], t["caption_pin_desc"], pin[:1], [alt_for(cards(t, "en"))[0]], ["pinterest"],
                           pinterestData={"boardId": BOARD, "pinTitle": t["caption_pin_title"],
                                          "pinLink": SITE}))
         n += 1
@@ -131,11 +131,11 @@ for brand in ("ola", "bham", "en"):
         a = alt_for([s["slide"]])
         if brand in ("ola", "bham") and feed:
             check(s["caption"], "instagram")
-            post(4, f"{s['slug']} IG+FB", brand, when, base(s["caption"], feed, a,
+            post(4, f"{s['slug']} IG+FB", brand, when, base(when, s["caption"], feed, a,
                  ["instagram", "facebook"], instagramData={"type": "POST"}, facebookData={"type": "POST"}))
         if tik:
             check(s["caption"], "tiktok")
-            post(4, f"{s['slug']} TikTok", brand, when, base(s["caption"], tik, a,
+            post(4, f"{s['slug']} TikTok", brand, when, base(when, s["caption"], tik, a,
                  ["tiktok"], tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE"}))
         m += 1
 
