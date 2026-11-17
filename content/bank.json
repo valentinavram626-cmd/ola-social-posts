@@ -249,42 +249,66 @@
  },
  {
   "id": "household-energy-payment-2027",
-  "verified": "2026-11-13",
-  "recheck_after": "2026-12-15",
+  "verified": "2026-11-17",
+  "recheck_after": "2026-12-08",
   "brands": [
    "bham"
   ],
   "title": "£100 Household Energy Payment (England, from January 2027)",
-  "official_page": "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027",
+  "official_page": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
   "figures": [
    {
     "value": "£100",
-    "what": "One-off payment per eligible household",
-    "source": "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027",
-    "read": "2026-11-13"
+    "what": "One-off payment per eligible household, for this financial year only, announced at the Autumn Budget 2026",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
    },
    {
     "value": "Bands A to D",
-    "what": "Council tax bands covered by the core scheme",
-    "source": "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027",
-    "read": "2026-11-13"
+    "what": "Council tax bands covered by the core scheme, in England",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
    },
    {
     "value": "January 2027",
-    "what": "When payments are expected to begin",
+    "what": "When payments begin. Councils are expected to start making payments from January 2027, with scheme funding provided to them in advance and a reconciliation process afterwards",
     "source": "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027",
-    "read": "2026-11-13"
+    "read": "2026-11-17"
+   },
+   {
+    "value": "Up to 20 million households",
+    "what": "Number eligible in England - the government says this includes an estimated 83% of fuel-stressed households in England and 88% of households in the bottom three income deciles. The MHCLG letter to councils puts it as 'over 20 million households'",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100 million",
+    "what": "Separate discretionary fund given to councils in England to support households that are not eligible for the £100, including some in bands above D. Councils set their own criteria and publish their own application details",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "No action needed if you pay by Direct Debit",
+    "what": "The payment mechanism, now confirmed on gov.uk: 'If you pay by direct debit and live in bands A to D, you don't need to do anything - the rebate will be paid directly into your bank account.' For everyone else: 'If you don't pay by direct debit, your council will invite you to apply for the rebate directly'",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£150",
+    "what": "The Warm Home Discount, which gov.uk flags as separate support for households on means-tested benefits - it is not the same thing as the £100 Household Energy Payment and the two are not alternatives",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
    }
   ],
   "scope": {
    "nation": "England",
-   "who": "Households in England in council tax bands A to D, at their sole or main residence, delivered through the council tax system",
-   "excluded": "Bands E to H are outside the core scheme, though a separate £100m discretionary fund lets councils reach some of them. A property that is not a sole or main residence. Scotland, Wales and Northern Ireland entirely.",
-   "from_when": "Expected to begin January 2027",
+   "who": "Households in England that are liable for council tax on, and live in, a property in council tax bands A to D as their main home. Most households exempt from council tax are included. Delivered through the council tax system by local authorities.",
+   "excluded": "Second homes, empty properties, and households where the householder is not responsible for paying council tax (so many people in houses in multiple occupation, and tenants whose landlord pays the council tax, get nothing). Bands E to H are outside the core scheme, though the separate £100 million discretionary fund lets councils reach some of them. Scotland, Wales and Northern Ireland are outside the scheme entirely - they receive additional funding instead and their own governments decide how to use it, so there is no guarantee of a £100 payment there. Northern Ireland has domestic rates rather than council tax, so a band-based council tax scheme could not run there as designed.",
+   "from_when": "Payments from January 2027. One-off, for the 2026-27 financial year only.",
    "automatic": false,
-   "how_to_claim": "NOT YET PUBLISHED. MHCLG says detailed guidance on eligibility and payment arrangements is still to come."
+   "how_to_claim": "It depends on how you pay your council tax, and this is the single most important thing to get right. If you pay council tax by Direct Debit and live in a band A to D property, gov.uk says you do not need to do anything and the money will be paid straight into your bank account. If you do NOT pay by Direct Debit, your council will invite you to apply for it directly - so a sizeable minority must act. For the separate £100 million discretionary fund, every council sets its own eligibility criteria and publishes its own application route on its website once local arrangements are in place. gov.uk also warns that nobody other than your council should contact you asking you to claim, and to double check with the council if a message looks doubtful."
   },
-  "notes": "NOT READY ON MECHANISM. Confirmed: amount, nation, bands, timing. NOT confirmed at primary source: whether households must apply, and whether it arrives as a bill credit or a separate payment. Council websites asserting it is automatic are not primary sources. DO NOT PUBLISH 'automatic' until MHCLG publishes guidance. It is the Household Energy Payment — not a Winter Fuel Payment, not a council tax rebate.",
+  "notes": "RE-CHECKED 17 November 2026 and this entry has CHANGED materially: the payment mechanism is now confirmed at primary source, which it was not at the last check. The Department for Energy Security and Net Zero page 'What the Autumn Budget 2026 means for your energy bills' (gov.uk, published 28 October 2026) states that Direct Debit payers in bands A to D need do nothing and will be paid straight into their bank account, and that anyone not paying by Direct Debit will be invited by their council to apply. That is why 'automatic' is set to false rather than true: it is automatic for Direct Debit payers only, and copy that just says 'it's automatic, you don't need to do anything' will cause non-Direct-Debit households to miss out. The second piece of newly confirmed detail is the exclusions - second homes, empty properties, and households where the householder is not responsible for paying the council tax - plus the fact that most council-tax-exempt households ARE included. Still NOT published, checked again today: MHCLG's detailed delivery guidance. Council tax information letter 6/2026 (published 29 October 2026, unchanged) says the department 'will shortly publish detailed guidance' covering eligibility criteria, payment arrangements, monitoring and assurance, and expectations of the discretionary fund. So the full eligibility criteria are still described on gov.uk as 'to be published in due course', and anything beyond the outline above is not yet verifiable. Naming traps: gov.uk calls it both the Household Energy Payment and, in the consumer questions, 'the rebate' - it is not a Winter Fuel Payment, not the Warm Home Discount (that is a separate £150 for people on means-tested benefits) and not a general council tax rebate. Nation trap: this is England only. Scotland, Wales and Northern Ireland get additional funding and decide for themselves, so do not promise readers outside England a £100 payment, and remember Northern Ireland has domestic rates rather than council tax bands. Band trap: band A to D is the property's band, not an income test, so a high earner in a band C flat qualifies and a low earner in a band E house does not - the £100 million discretionary fund is the only route for the latter. Scam trap worth repeating in any copy: gov.uk says nobody other than your council should get in touch asking you to claim.",
   "used": []
  },
  {
@@ -729,7 +753,7 @@
  },
  {
   "id": "self-assessment-late-payment-penalties",
-  "verified": "2026-11-16",
+  "verified": "2026-11-17",
   "recheck_after": "2026-11-24",
   "brands": [
    "bham",
@@ -741,80 +765,92 @@
   "figures": [
    {
     "value": "5%",
-    "what": "First late payment penalty - 5% of the tax still unpaid 30 days after the due date. Statute: paragraph 3, Schedule 56 Finance Act 2009",
+    "what": "First late payment penalty - 5% of the tax still unpaid 30 days after the due date. Statute: paragraph 3(2), Schedule 56 Finance Act 2009",
     "source": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf308a",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "5%",
-    "what": "Second late payment penalty - a further 5% of tax still unpaid at the end of 5 months beginning with the penalty date (about 6 months late)",
+    "what": "Second late payment penalty - a further 5% of tax still unpaid at the end of the period of 5 months beginning with the penalty date (about 6 months late). Paragraph 3(3), Schedule 56",
     "source": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf308a",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "5%",
-    "what": "Third late payment penalty - a further 5% of tax still unpaid at the end of 11 months beginning with the penalty date (about 12 months late)",
+    "what": "Third late payment penalty - a further 5% of tax still unpaid at the end of the period of 11 months beginning with the penalty date (about 12 months late). Paragraph 3(4), Schedule 56",
     "source": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf308a",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "5% at 30 days, 6 months and 12 months late",
-    "what": "The same three penalties as stated on the public guidance page: 'You'll get penalties of 5% of the tax unpaid at' 30 days, 6 months and 12 months, plus interest on the amount owed",
+    "what": "The same three penalties as stated on the public guidance page: “You’ll get penalties of 5% of the tax unpaid at” 30 days, 6 months and 12 months, plus interest on the amount owed",
     "source": "https://www.gov.uk/self-assessment-tax-returns/penalties",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "30 days",
-    "what": "Time limit to pay a penalty once charged - payment is due within 30 days of the date on the penalty notice; appeal is possible on reasonable excuse grounds",
-    "source": "https://www.gov.uk/self-assessment-tax-returns/penalties",
-    "read": "2026-11-16"
+    "what": "Time limit to pay a penalty once charged - payment is due within 30 days of the date on the penalty notice, and late payment interest then runs on the unpaid penalty from the end of that 30-day period. Appeal is possible on reasonable excuse grounds and there is no obligation to pay the penalty before an appeal is determined",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf308a",
+    "read": "2026-11-17"
    },
    {
     "value": "7.75%",
-    "what": "Late payment interest charged alongside the penalties - the rate in force today, 16 November 2026, applying from 9 January 2026 to 23 November 2026",
+    "what": "Late payment interest charged alongside the penalties - the rate in force today, 17 November 2026, applying from 9 January 2026 to 23 November 2026",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "8.00%",
-    "what": "Late payment interest rate from 24 November 2026 (not yet in force today)",
+    "what": "Late payment interest rate from 24 November 2026, one week from today and not yet in force",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "2.75%",
     "what": "Repayment interest rate in force today (from 9 January 2026), rising to 3.00% from 24 November 2026",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "Bank of England base rate plus 4 percentage points",
-    "what": "Formula for the late payment interest rate from 6 April 2025; base rate is 4% following the MPC decision published 5 November 2026",
+    "what": "Formula for the late payment interest rate from 6 April 2025; base rate is 4% following the MPC decision published 5 November 2026, with the next decision due 17 December 2026",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "3% at day 15, 3% at day 30, then 10% a year from day 31",
-    "what": "The DIFFERENT penalties that apply instead for 2026-27 to taxpayers using Making Tax Digital for Income Tax - no penalty up to 15 days late; 3% of the tax owed at day 15 if 16 to 30 days late; 3% at day 15 plus 3% at day 30 if 31 days or more late, plus an annual rate of 10% charged daily from day 31 until paid or for up to 2 years. For 2027-28 the two fixed charges are 4% each. In the first year of the new penalties there are 30 days, not 15, before penalties start",
+    "what": "The DIFFERENT late payment penalties that apply instead for the 2026-27 tax year to taxpayers using Making Tax Digital for Income Tax - no penalty up to 15 days late; 3% of the tax owed at day 15 if 16 to 30 days late; 3% at day 15 plus 3% at day 30 if 31 days or more late, plus an annual rate of 10% charged daily from day 31 until the tax is paid, or for up to 2 years. For 2027-28 the two fixed charges are 4% each",
     "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
+   },
+   {
+    "value": "30 days, once only",
+    "what": "In your first year of the new Making Tax Digital penalties you get 30 days, not 15, from the due date to pay in full or contact HMRC about a payment plan before penalties start. HMRC states you only get that 30-day period once: someone who volunteered early and is then mandated continues to have 15 days",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "4 points, £200",
+    "what": "The Making Tax Digital late SUBMISSION penalty, which is points based and separate from the late payment penalties: one point per missed quarterly update or tax return deadline, a £200 penalty at 4 points and a further £200 for each later miss. There are no penalties for missing a quarterly update deadline in the 2026-27 tax year. Points are separate from VAT penalty points",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-17"
    },
    {
     "value": "Over £50,000 from 6 April 2026",
-    "what": "Who is pulled into Making Tax Digital for Income Tax (and so into the new penalty regime): qualifying self-employment and property income over £50,000 on the 2024-25 return, from 6 April 2026; over £30,000 on the 2025-26 return from 6 April 2027; over £20,000 on the 2026-27 return from 6 April 2028",
+    "what": "Who is pulled into Making Tax Digital for Income Tax, and so into the new penalty regime: qualifying self-employment and property income over £50,000 on the 2024-25 return, from 6 April 2026; over £30,000 on the 2025-26 return from 6 April 2027; over £20,000 on the 2026-27 return from 6 April 2028",
     "source": "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/before-you-use-this-guide",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    }
   ],
   "scope": {
    "nation": "Whole of the UK. Self Assessment late payment penalties and interest are UK-wide and identical in England, Scotland, Wales and Northern Ireland - Scottish and Welsh taxpayers are in the same system because HMRC collects Scottish and Welsh income tax.",
-   "who": "Self Assessment taxpayers - individuals, sole traders, partners (for their own tax), trustees - who still have Self Assessment tax, including Class 4 National Insurance, unpaid after the due date. The penalties also reach tax shown as due in an amended or discovery assessment. They are charged on top of late payment interest, which runs from the due date.",
-   "excluded": "A late payment penalty is NOT charged where: (1) there is no tax unpaid at the relevant penalty date - the penalty bites only on what is still outstanding at 30 days, 5 months and 11 months from the penalty date, so paying before each date stops that penalty, and someone who owes nothing gets nothing; (2) a Time to Pay arrangement is requested and HMRC agrees to defer payment before the penalty date - no penalty arises on that amount for the deferral period, measured from the date of the request, as long as the plan is kept (break it, or miss a condition, and HMRC can charge the penalty); (3) the taxpayer has a reasonable excuse for the failure (paragraph 16, Schedule 56 FA 2009) - shortage of funds counts only where it is attributable to events outside the taxpayer's control, and relying on someone else is not an excuse unless reasonable care was taken; (4) the tax is postponed pending an appeal in an enquiry; (5) additional tax arising from an amendment is paid within 60 days of the amendment (interest still runs from the original due date); (6) HMRC applies a special reduction for special circumstances (paragraph 9) - inability to pay does not count as a special circumstance; and (7) taxpayers inside Making Tax Digital for Income Tax, from the tax year they join - they are outside the three 5% penalties and get the reformed penalties instead. The MTD penalties themselves do not apply to payments on account, nor to non-resident company, trust or estate, or partnership returns, which keep the existing penalties.",
-   "from_when": "The three 5% penalties apply to Income Tax and Capital Gains Tax for 2010-11 onwards under Schedule 56 Finance Act 2009. The reformed Making Tax Digital penalties apply from the tax year a taxpayer joins Making Tax Digital for Income Tax, mandation starting 6 April 2026. The interest rate charged is 7.75% to 23 November 2026 and 8.00% from 24 November 2026.",
+   "who": "Self Assessment taxpayers - individuals, sole traders, partners (for their own tax), trustees - who still have Self Assessment tax unpaid after the due date. The manual confirms the penalty bites on Capital Gains Tax, on Class 4 National Insurance contributions (treated as income tax) and on student loan repayments collected through Self Assessment, as well as on tax shown as due in an amended self assessment or a discovery assessment. The penalties are charged on top of late payment interest, which runs from the due date.",
+   "excluded": "A late payment penalty is NOT charged where: (1) there is no tax unpaid at the relevant penalty date - the penalty bites only on what is still outstanding at 30 days, 5 months and 11 months from the penalty date, so paying before each date stops that penalty, and someone who owes nothing gets nothing; (2) a Time to Pay arrangement is requested and HMRC agrees to defer payment before the penalty date - no penalty arises on that amount for the deferral period, measured from the date of the request, as long as the plan is kept (break it, or miss a condition, and HMRC can serve notice charging the penalty); (3) the taxpayer has a reasonable excuse for the failure (paragraph 16, Schedule 56 FA 2009) - an insufficiency of funds counts only where it is attributable to events outside the taxpayer's control, and reliance on another person is not an excuse unless the taxpayer took reasonable care; (4) the tax is postponed pending an appeal in an enquiry; (5) additional tax arising from an amendment is paid within 60 days of the amendment (interest still runs from the original due date); (6) HMRC applies a special reduction for special circumstances (paragraph 9) - ability to pay does not count as a special circumstance; and (7) taxpayers inside Making Tax Digital for Income Tax, from the tax year they join - they are outside the three 5% penalties and get the reformed penalties instead. The reformed Making Tax Digital penalties themselves do not apply to payments on account, nor to non-resident company, trust or estate, or partnership returns, which keep the existing penalties.",
+   "from_when": "The three 5% penalties apply to Income Tax and Capital Gains Tax for 2010-11 onwards under Schedule 56 Finance Act 2009. The reformed Making Tax Digital penalties apply from the tax year a taxpayer joins Making Tax Digital for Income Tax, mandation starting 6 April 2026 - so for someone mandated from 6 April 2026 the current penalties still apply to the 2025-26 return due 31 January 2027, and the new ones bite on 2026-27. The interest rate charged is 7.75% to 23 November 2026 and 8.00% from 24 November 2026.",
    "automatic": false,
-   "how_to_claim": "Nothing to claim - the penalties and interest are charged automatically by HMRC. What the taxpayer has to do is act to avoid them: pay before each penalty date, or contact HMRC and agree a Time to Pay arrangement before the penalty date (penalties are paused from the date of contact if a plan is agreed and kept). A penalty already charged can be appealed on reasonable excuse grounds using form SA370, and HMRC can reduce a penalty for special circumstances."
+   "how_to_claim": "Nothing to claim - the penalties and interest are charged automatically by HMRC, which must serve a notice of assessment for each penalty. What the taxpayer has to do is act to avoid them: pay before each penalty date, or contact HMRC and agree a Time to Pay arrangement before the penalty date (penalties are paused from the date of contact if a plan is agreed and kept - the same rule is stated for the Making Tax Digital regime). A penalty already charged can be appealed on reasonable excuse grounds using form SA370, and HMRC can reduce a penalty for special circumstances."
   },
-  "notes": "Two things a reader would get wrong. First, the timing: the penalties are not at 'month 1, month 6, month 12' exactly - the manual measures the second and third from the penalty date, at the end of 5 months and 11 months beginning with the penalty date, which in practice lands around 6 and 12 months after the due date. Second, and more important for anything published now: the three 5% penalties are no longer universal. Sole traders and landlords in Making Tax Digital for Income Tax (mandatory from 6 April 2026 above £50,000 of qualifying income) are on a completely different and front-loaded regime - 3% at day 15, another 3% at day 30, then 10% a year accruing daily from day 31. Copy that says 'you get three 5% penalties' is now wrong for a growing slice of clients, so any article should say which regime the reader is in. Interest is separate from the penalties, runs from the due date regardless of any penalty, is not reduced for a reasonable excuse, and does not change on the day the Bank of England moves: it is 7.75% today and 8.00% from 24 November 2026. The public guidance page does not mention Time to Pay or the MTD regime at all - those come from the HMRC manual SALF308A (updated 13 October 2026) and the MTD penalties guidance. No nation differences.",
+  "notes": "RE-CHECKED 17 November 2026: all penalty figures confirmed unchanged at SALF308A and on the public penalties page, and the Making Tax Digital penalty table confirmed unchanged on guidance last updated 30 March 2026. One correction to the previous entry: it said the public guidance page does not mention the Making Tax Digital regime at all. It now does - the page carries the line 'If you use Making Tax Digital for Income Tax different penalties apply for updates, returns and payments' with a link. It still says nothing about Time to Pay, which comes only from the manual. Two things a reader would get wrong. First, the timing: the penalties are not at 'month 1, month 6, month 12' exactly - the manual measures the second and third from the penalty date, at the end of 5 months and 11 months beginning with the penalty date, which in practice lands around 6 and 12 months after the due date. Second, and more important for anything published now: the three 5% penalties are no longer universal. Sole traders and landlords in Making Tax Digital for Income Tax (mandatory from 6 April 2026 above £50,000 of qualifying income) are on a completely different and front-loaded regime - 3% at day 15, another 3% at day 30, then 10% a year accruing daily from day 31. Copy saying 'you get three 5% penalties' is now wrong for a growing slice of clients, so any article should say which regime the reader is in. But note the lag that catches people out: the new penalties apply from the tax year you join, so somebody mandated from 6 April 2026 is still on the old three 5% penalties for the 2025-26 bill due 31 January 2027, and only moves to the new regime for 2026-27. The first-year 30-day grace before Making Tax Digital penalties start is also given once only - a volunteer who is later mandated keeps the 15 days. Interest is separate from the penalties, runs from the due date regardless of any penalty, is not reduced for a reasonable excuse, and does not change on the day the Bank of England moves: it is 7.75% today and 8.00% from 24 November 2026. Interest also runs on an unpaid penalty itself, from 30 days after the penalty notice. No nation differences.",
   "used": []
  },
  {
@@ -3193,8 +3229,8 @@
  },
  {
   "id": "ofgem-energy-price-cap",
-  "verified": "2026-11-14",
-  "recheck_after": "2026-12-31",
+  "verified": "2026-11-17",
+  "recheck_after": "2026-11-25",
   "brands": [
    "bham"
   ],
@@ -3203,50 +3239,68 @@
   "figures": [
    {
     "value": "£1,723 a year",
-    "what": "price cap level for a typical dual-fuel household paying by Direct Debit, 1 October to 31 December 2026 (up 4%, £60 a year, from £1,663)",
-    "source": "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026",
-    "read": "2026-11-14"
+    "what": "Price cap level IN FORCE TODAY for a typical dual-fuel household paying by Direct Debit, 1 October to 31 December 2026 (up 4%, £60 a year, from £1,663). Ofgem: 'From 1 October to 31 December 2026, the price cap will be £1,723 per year'",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
+    "read": "2026-11-17"
    },
    {
     "value": "1 October 2026 to 31 December 2026",
-    "what": "the cap period currently in force",
+    "what": "The cap period currently in force",
     "source": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
-    "read": "2026-11-14"
+    "read": "2026-11-17"
+   },
+   {
+    "value": "Not yet announced",
+    "what": "The cap for 1 January to 31 March 2027. Checked today: no Ofgem announcement exists, and the most recent price cap press release is still the one of 26 August 2026 covering October to December 2026",
+    "source": "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "25 November 2026",
+    "what": "The date Ofgem says it will announce the cap for 1 January to 31 March 2027 - eight days from today. Any copy about the January cap must wait for this",
+    "source": "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
+    "read": "2026-11-17"
    },
    {
     "value": "26.32p per kWh and 54.83p a day",
-    "what": "capped electricity unit rate and daily standing charge, Direct Debit, default tariff, average across England, Scotland and Wales",
-    "source": "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
-    "read": "2026-11-14"
+    "what": "Capped electricity unit rate and daily standing charge, Direct Debit, default tariff, average across England, Scotland and Wales. These figures carry NO VAT - Ofgem states 'There is no VAT on electricity from 1 October 2026 to 31 March 2027'",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
+    "read": "2026-11-17"
    },
    {
     "value": "7.97p per kWh and 29.68p a day",
-    "what": "capped gas unit rate and daily standing charge, Direct Debit, default tariff, average across England, Scotland and Wales, including 5% VAT",
-    "source": "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
-    "read": "2026-11-14"
+    "what": "Capped gas unit rate and daily standing charge, Direct Debit, default tariff, average across England, Scotland and Wales, including 5% VAT on gas",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
+    "read": "2026-11-17"
    },
    {
     "value": "around 22 million households",
-    "what": "households on default tariffs covered by the cap",
+    "what": "Households on default (standard variable) tariffs protected by the cap",
     "source": "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026",
-    "read": "2026-11-14"
+    "read": "2026-11-17"
    },
    {
     "value": "around 11 million households",
-    "what": "households on fixed tariffs not affected by the October 2026 change",
+    "what": "Households on fixed tariffs, about 35% of the total, not affected by the October 2026 cap change",
     "source": "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026",
-    "read": "2026-11-14"
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£1,862 rising to £1,935",
+    "what": "What the same two cap levels would have been on the old (2023) typical domestic consumption values. Ofgem reduced the TDCV in July 2026 after finding households use about 7% less electricity and 17% less gas than at the last review, which is why £1,663 to £1,723 cannot be compared with headline figures published before July 2026",
+    "source": "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026",
+    "read": "2026-11-17"
    }
   ],
   "scope": {
-   "nation": "Great Britain — England, Scotland and Wales only; not Northern Ireland",
-   "who": "Domestic customers on a standard variable (default) tariff, where the unit rate can rise or fall with the energy market. Covers Direct Debit, standard credit, prepayment meter and Economy 7 customers.",
-   "excluded": "Households in Northern Ireland (Ofgem's cap levels and its postcode checker cover England, Scotland and Wales only); anyone who has agreed a fixed tariff with their supplier; anyone on a business energy contract; anyone who gets heat from a heat network or uses heating oil.",
-   "from_when": "1 October 2026 (the cap level in force runs to 31 December 2026)",
+   "nation": "Great Britain - England, Scotland and Wales only; not Northern Ireland",
+   "who": "Domestic customers on a standard variable (default) tariff, where the unit rate can rise or fall with the energy market. Covers Direct Debit, standard credit and prepayment meter customers; the level and the standing charge vary by where you live, how you pay, the fuel and the meter type.",
+   "excluded": "Households in Northern Ireland (Ofgem's cap levels and its postcode checker cover England, Scotland and Wales only, and Ofgem does not regulate the Northern Ireland retail market). Ofgem states you are NOT protected by the price cap if you have agreed a fixed tariff with your supplier, have a business energy contract, or get your heat from a heat network or use heating oil.",
+   "from_when": "1 October 2026 (the cap level in force runs to 31 December 2026). The next level, for 1 January to 31 March 2027, is due to be announced on 25 November 2026.",
    "automatic": true,
    "how_to_claim": "Nothing to claim. The cap is a legal maximum Ofgem places on suppliers, applied automatically to the tariff of anyone on a default tariff."
   },
-  "notes": "The cap sets the maximum a supplier can charge per unit of energy and for the daily standing charge — Ofgem states it 'does not limit the cost of your total bill' and 'the more energy you use, the higher your bill will be'. The headline £1,723 is an illustration for typical consumption, not a cap on what any household pays. Actual rates vary by region, meter type and payment method. The October 2026 electricity figures quoted by Ofgem exclude VAT for 1 October 2026 to 31 March 2027; the gas figures include 5% VAT. Note on the nation field: no single Ofgem page says the words 'not Northern Ireland' — the basis is that every cap page scopes its levels and its postcode tool to England, Scotland and Wales, and Ofgem does not regulate the Northern Ireland retail market. Levels are reset quarterly, so this moves before 1 January 2027.",
+  "notes": "RE-CHECKED 17 November 2026. Every in-force figure confirmed unchanged. The one change to make: the cap for 1 January to 31 March 2027 has NOT been announced - Ofgem's own October-to-December page says it will be announced on 25 November 2026, eight days from today, so this entry's recheck date has been pulled forward from 31 December to 25 November. Do not publish a January figure before then, and from 25 November this entry must be rewritten to carry both the in-force £1,723 (to 31 December 2026) and the newly announced January level with its own dates. The cap sets the maximum a supplier can charge per unit of energy and for the daily standing charge - Ofgem states it 'does not limit the cost of your total bill' and 'the more energy you use, the higher your bill will be'. The headline £1,723 is an illustration for typical consumption, not a cap on what any household pays, and actual rates vary by region, meter type and payment method. Two VAT and consumption traps, both strengthened at this re-check. First, VAT: Ofgem states plainly that there is no VAT on electricity from 1 October 2026 to 31 March 2027 and that 'costs cannot be compared directly to previous periods because of this change'. The electricity unit rate and standing charge above therefore carry no VAT, while the gas figures still include 5%. Separately, gov.uk (Department for Energy Security and Net Zero, 28 October 2026) says the electricity VAT cut is being extended until July 2027, which Ofgem's cap pages do not yet reflect because they only describe the current cap period - so do not write that electricity VAT returns on 1 April 2027. Second, typical consumption: Ofgem cut the typical domestic consumption values in July 2026, so the £1,663 and £1,723 figures sit on a different basis from any headline published before that. On the old values they would have been £1,862 and £1,935. Any year-on-year comparison of the headline pound figure is therefore wrong twice over, on VAT and on TDCV. Prepayment customers pay the lowest cap rates - Ofgem puts the saving at about £45 a year against Direct Debit - and fixed deals were available at £100 or more below the October cap, so 'the cap is the cheapest you can get' is false. Note on the nation field: no single Ofgem page says the words 'not Northern Ireland' - the basis is that every cap page scopes its levels and its postcode tool to England, Scotland and Wales. Levels are reset every 3 months.",
   "used": []
  },
  {
@@ -3455,7 +3509,7 @@
  },
  {
   "id": "hmrc-interest-rates",
-  "verified": "2026-11-16",
+  "verified": "2026-11-17",
   "recheck_after": "2026-11-24",
   "brands": [
    "en",
@@ -3467,74 +3521,74 @@
   "figures": [
    {
     "value": "7.75%",
-    "what": "Late payment interest rate IN FORCE TODAY (16 November 2026) on Income Tax, NICs, Capital Gains Tax, Stamp Duty Land Tax, Stamp Duty, Stamp Duty Reserve Tax, VAT (periods starting on or after 1 January 2023), Alcohol Duty (from 1 September 2025) and Vaping Product Duty (from 1 October 2026) - applies from 9 January 2026 until 23 November 2026",
+    "what": "Late payment interest rate IN FORCE TODAY (17 November 2026) on Income Tax, NICs, Capital Gains Tax, Stamp Duty Land Tax, Stamp Duty, Stamp Duty Reserve Tax, VAT (periods starting on or after 1 January 2023), Alcohol Duty (from 1 September 2025) and Vaping Product Duty (from 1 October 2026) - applies from 9 January 2026 until 23 November 2026",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "2.75%",
-    "what": "Repayment interest rate IN FORCE TODAY (16 November 2026) on the same taxes - applies from 9 January 2026 until 23 November 2026",
+    "what": "Repayment interest rate IN FORCE TODAY (17 November 2026) on the same taxes - applies from 9 January 2026 until 23 November 2026",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "8.00%",
-    "what": "Late payment interest rate applying FROM 24 November 2026 (not yet in force today) - follows the Bank Rate rise to 4% on 5 November 2026",
+    "what": "Late payment interest rate applying FROM 24 November 2026, so one week from today and not yet in force - follows the Bank Rate rise to 4% on 5 November 2026. Still shown on the page as the top row of the table",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "3.00%",
-    "what": "Repayment interest rate applying FROM 24 November 2026 (not yet in force today)",
+    "what": "Repayment interest rate applying FROM 24 November 2026, not yet in force today",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "Bank of England base rate plus 4 percentage points",
     "what": "Formula for the late payment interest rate, from 6 April 2025 (it was base rate plus 2.5 percentage points before that date)",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "Bank of England base rate minus 1 percentage point, with a 0.5% floor",
     "what": "Formula for the repayment interest rate - it can never go below 0.5% however low the base rate goes",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "4%",
     "what": "Bank Rate set by the Monetary Policy Committee, raised from 3.75% at the decision published 5 November 2026 - this is what feeds the 8.00%/3.00% HMRC rates from 24 November 2026",
     "source": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
-    "value": "5 November 2026",
-    "what": "Date of the most recent MPC decision (Bank Rate increased to 4%); the next decision is due 17 December 2026",
+    "value": "17 December 2026",
+    "what": "Date of the NEXT MPC decision, shown on the Bank of England page today as 'Next due: 17 December 2026'. The most recent decision was 5 November 2026, when Bank Rate was raised to 4%; the Bank also said CPI inflation had risen to 3.5% and is expected to reach about 5% by mid-2027",
     "source": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "6.50%",
-    "what": "Corporation Tax interest charged on UNDERPAID quarterly instalment payments - applies from 16 November 2026, so this rate is in force from today (it was 6.25% from 29 December 2025)",
+    "what": "Corporation Tax interest charged on UNDERPAID quarterly instalment payments - applies from 16 November 2026, so in force today (it was 6.25% from 29 December 2025)",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "3.75%",
-    "what": "Corporation Tax interest paid on OVERPAID quarterly instalment payments and on early payments of Corporation Tax not due by instalments - applies from 16 November 2026, in force from today (it was 3.50% from 29 December 2025)",
+    "what": "Corporation Tax interest paid on OVERPAID quarterly instalment payments and on early payments of Corporation Tax not due by instalments - applies from 16 November 2026, in force today (it was 3.50% from 29 December 2025)",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    }
   ],
   "scope": {
    "nation": "Whole of the UK - England, Scotland, Wales and Northern Ireland. The rates are set by HMRC and are the same everywhere; Scottish and Welsh income tax are collected by HMRC and carry the same interest rates.",
    "who": "Anyone who pays HMRC late (individuals, sole traders, partnerships, trustees, companies) is charged late payment interest; anyone HMRC owes money to is paid repayment interest. Covers Income Tax, National Insurance contributions, Capital Gains Tax, Stamp Duty Land Tax, Stamp Duty, Stamp Duty Reserve Tax, VAT for accounting periods starting on or after 1 January 2023, Alcohol Duty from 1 September 2025 and Vaping Product Duty from 1 October 2026.",
-   "excluded": "The 7.75%/2.75% (and from 24 November 2026 the 8.00%/3.00%) main rates do NOT apply to Corporation Tax quarterly instalment payments: large companies in the instalment regime have their own lower rates, 6.50% on underpaid and 3.75% on overpaid instalments from 16 November 2026. VAT periods that started before 1 January 2023 are outside the harmonised rates, as is Alcohol Duty before 1 September 2025 and Vaping Product Duty before 1 October 2026. Repayment interest is not paid below the 0.5% floor, so a base rate below 1.5% would not cut it further. Corporation Tax pay and file, Inheritance Tax, Petroleum Revenue Tax and judgment debts each sit in their own separate tables on the same page with different rates, so the headline figures must not be quoted for those.",
-   "from_when": "7.75% late payment / 2.75% repayment have applied since 9 January 2026 and remain in force to 23 November 2026. 8.00%/3.00% apply from 24 November 2026. The Corporation Tax quarterly instalment rates of 6.50% (underpaid) and 3.75% (overpaid) apply from 16 November 2026 - today. Bank Rate has been 4% since the MPC decision published 5 November 2026.",
+   "excluded": "The 7.75%/2.75% (and from 24 November 2026 the 8.00%/3.00%) main rates do NOT apply to Corporation Tax quarterly instalment payments: large companies in the instalment regime have their own lower rates, 6.50% on underpaid and 3.75% on overpaid instalments from 16 November 2026. VAT periods that started before 1 January 2023 are outside the harmonised rates, as is Alcohol Duty before 1 September 2025 and Vaping Product Duty before 1 October 2026. Repayment interest is not paid below the 0.5% floor, so a base rate below 1.5% would not cut it further. Corporation Tax pay and file, Inheritance Tax, Petroleum Revenue Tax and judgment debts each sit in their own separate tables on the same page with different rates and older rate histories, so the headline figures must not be quoted for those.",
+   "from_when": "7.75% late payment / 2.75% repayment have applied since 9 January 2026 and remain in force to 23 November 2026. 8.00%/3.00% apply from 24 November 2026. The Corporation Tax quarterly instalment rates of 6.50% (underpaid) and 3.75% (overpaid) apply from 16 November 2026, so they changed yesterday. Bank Rate has been 4% since the MPC decision published 5 November 2026.",
    "automatic": true,
    "how_to_claim": "Nothing to claim. HMRC charges late payment interest and pays repayment interest automatically, by statute, and the rate changes follow the Bank Rate automatically without any application."
   },
-  "notes": "Every figure in the banked entry is confirmed at primary source today; nothing needed correcting. The one thing a reader would get wrong is the dates. Interest rate changes do not take effect on the day the MPC moves: Bank Rate went to 4% on 5 November 2026, but the main HMRC rates only change on 24 November 2026, while the Corporation Tax quarterly instalment rates changed earlier, on 16 November 2026 (today). So between 16 and 23 November 2026 the main rates are still 7.75%/2.75% while the instalment rates are already 6.50%/3.75%. Anything published before 24 November 2026 should say 7.75%/2.75% as the current main rates with 8.00%/3.00% flagged as coming. Interest is not a penalty and is not reduced for a reasonable excuse. The gov.uk page was last updated 6 November 2026 and already carries the 24 November figures. No nation differences.",
+  "notes": "RE-CHECKED 17 November 2026: every figure confirmed unchanged at primary source, including the 8.00%/3.00% row dated 24 November 2026 and the Corporation Tax instalment rates of 6.50%/3.75% from 16 November 2026. The gov.uk page is still last updated 6 November 2026. Bank Rate is 4% and the Bank of England page now shows the next MPC decision as due 17 December 2026. The one thing a reader would get wrong is the dates. Interest rate changes do not take effect on the day the MPC moves: Bank Rate went to 4% on 5 November 2026, but the main HMRC rates only change on 24 November 2026, while the Corporation Tax quarterly instalment rates changed earlier, on 16 November 2026. So for the week of 16 to 23 November 2026 the main rates are still 7.75%/2.75% while the instalment rates are already 6.50%/3.75% - a genuinely confusing week to publish into. Anything published before 24 November 2026 should say 7.75%/2.75% as the current main rates with 8.00%/3.00% flagged as coming; anything published on or after 24 November must be rewritten. Note also that 8.00% is not new ground: the main rate was already 8.00% from 27 August 2025 to 8 January 2026, so 'highest ever' or 'record' framing is wrong. Interest is not a penalty, runs from the due date, and is not reduced for a reasonable excuse. No nation differences.",
   "used": []
  },
  {
@@ -4549,8 +4603,8 @@
  },
  {
   "id": "companies-house-identity-verification-directors-pscs",
-  "verified": "2026-11-16",
-  "recheck_after": "2026-11-19",
+  "verified": "2026-11-17",
+  "recheck_after": "2026-11-20",
   "brands": [
    "en",
    "ola",
@@ -4563,90 +4617,102 @@
     "value": "8 April 2025",
     "what": "Date voluntary identity verification opened - individuals could verify with Companies House via GOV.UK One Login or an Authorised Corporate Service Provider (ACSP) from this date",
     "source": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "18 November 2025",
-    "what": "Date identity verification became a legal requirement for directors (and equivalents) and PSCs; also the start of the 12-month transition period. Companies House states explicitly that this date 'is not a deadline'",
-    "source": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
-    "read": "2026-11-16"
+    "what": "Date identity verification became a legal requirement for directors (and equivalents) and PSCs, and the start of the 12-month transition period. The Companies House campaign site still states in terms, checked again today: 'This date is not a deadline. It marks the start of a 12-month transition period'",
+    "source": "https://changestoukcompanylaw.campaign.gov.uk/identity-verification/",
+    "read": "2026-11-17"
    },
    {
     "value": "12 months from 18 November 2025",
-    "what": "Transition period for people already registered as directors or PSCs before 18 November 2025. It is a window, not a deadline: within it each person's own due date is set by their company's confirmation statement date (directors, and PSCs who are also directors) or their birth month (PSCs who are not directors)",
+    "what": "Transition period for people already registered as directors or PSCs before 18 November 2025 - so it closes on 18 November 2026, tomorrow. It is a window, not a single deadline: within it each person's own due date is set by their company's confirmation statement date (directors, and PSCs who are also directors) or their birth month (PSCs who are not directors)",
     "source": "https://www.gov.uk/government/news/companies-house-confirms-identity-verification-rollout-from-18-november-2025",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "next confirmation statement on or after 18 November 2025",
-    "what": "The actual deadline rule for an existing director: give your Companies House personal code in the company's next confirmation statement. If you are a director of more than one company you must do it for each. Overseas companies must confirm all directors have verified by the anniversary of registration of the UK establishment",
+    "what": "The actual deadline rule for an existing director: give your Companies House personal code in the company's next confirmation statement. A director of more than one company must do it for each. Overseas companies must confirm all directors have verified by the anniversary of registration of the UK establishment",
     "source": "https://www.gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "14 days",
-    "what": "Window in which a PSC must give their personal code via the 'Provide identity verification details for a PSC' service. For a PSC who is also a director of the same company the 14 days start the day AFTER the company's confirmation statement date. For a PSC who is not a director the window is the first 14 days of their birth month (e.g. a 22 January birthday gives 1-14 January). A PSC newly added after 18 November 2025 can give the code when first added or within 14 days of being added. Filing an early confirmation statement does not move these dates, and the code cannot be given before the window opens",
+    "what": "Window in which a PSC must give their personal code via the 'Provide identity verification details for a PSC' service. For a PSC who is also a director of the same company the 14 days start the day AFTER the company's confirmation statement date. For a PSC who is not a director the window is the first 14 days of their birth month (a 22 January birthday gives 1-14 January). A PSC added after 18 November 2025 can give the code when first added or within 14 days of being added. Filing an early confirmation statement does not move these dates. Companies House says the dates of your 14-day period can be checked on the public register",
     "source": "https://www.gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "up to 14 days",
     "what": "Extension the registrar may grant to a PSC's identity verification due date, requested online before the deadline passes. A PSC granted an extension stays compliant. After 2 digital extensions a further request goes to an examiner with supporting evidence",
     "source": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
+   },
+   {
+    "value": "usually up to 2 months",
+    "what": "How long Companies House says it will pause enforcement if it accepts a written representation about extenuating circumstances. Representations received outside the timeframe Companies House gives are not considered, and its decision is final",
+    "source": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+    "read": "2026-11-17"
    },
    {
     "value": "11 characters",
-    "what": "Length of the Companies House personal code - 'an 11 character code that is given to a person once they've verified their identity'. It belongs to the individual, not the company; the same code covers all their appointments; it can be shared with an accountant filing on their behalf",
+    "what": "Length of the Companies House personal code given to a person once they have verified. It belongs to the individual, not the company; the same code covers all their appointments; it can be shared with someone trusted to file on their behalf",
     "source": "https://www.gov.uk/guidance/companies-house-personal-codes-for-identity-verification",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "6 to 7 million",
-    "what": "Companies House estimate of the number of individuals who will need to verify their identity by mid-November 2026",
+    "what": "Companies House press-release estimate of the number of individuals who will need to verify their identity by mid-November 2026",
     "source": "https://www.gov.uk/government/news/companies-house-confirms-identity-verification-rollout-from-18-november-2025",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "more than 7 million",
-    "what": "The figure used on the Companies House outline transition plan (policy paper, last updated 23 October 2026) for individuals on the register requiring identity verification - slightly higher than the '6 to 7 million' press-release estimate. Quote whichever source you cite",
+    "what": "The figure used on the Companies House outline transition plan (policy paper, still last updated 23 October 2026 when read today) for individuals on the register requiring identity verification - higher than the '6 to 7 million' press-release estimate. Quote whichever source you cite",
     "source": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
+   },
+   {
+    "value": "3 directors fined, 16 September 2026",
+    "what": "First Insolvency Service prosecutions for identity verification offences, at City of London Magistrates' Court: fines of £166, £307 and £80, each plus £85 costs and a victim surcharge. One director had verified herself but was fined for not stopping a co-director acting while unverified. Proof that enforcement is already live for people who missed their own due dates, well before general compliance activity starts",
+    "source": "https://www.gov.uk/government/news/directors-warned-to-verify-identities-with-companies-house-following-first-insolvency-service-prosecutions",
+    "read": "2026-11-17"
    },
    {
     "value": "£0",
     "what": "Cost of verifying directly with Companies House using GOV.UK One Login - 'It is free of charge'. Verifying through an ACSP instead is not free: the ACSP 'may charge a fee for their services' and Companies House does not set or publish that fee",
     "source": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "no earlier than the end of 2026",
-    "what": "When Companies House expects to complete the transition period for all individuals on the register requiring identity verification and 'start compliance activity against those who have failed to verify their identity'",
+    "what": "When Companies House still expects, as at today, to complete the transition period for all individuals on the register requiring identity verification and 'start compliance activity against those who have failed to verify their identity'. No firmer date has been announced",
     "source": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "section 167M, Companies Act 2006",
-    "what": "The offence an unverified director commits by continuing to act. Companies House: 'It is unlawful for a director to act as a director without completing identity verification.' The company may also be in breach for failing to fix it, and Companies House may refer the case to The Insolvency Service",
+    "what": "The offence an unverified director commits by continuing to act. Companies House: 'It is unlawful for a director to act as a director without completing identity verification.' The company may also be in breach for failing to rectify it, and Companies House may refer the case to The Insolvency Service",
     "source": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    },
    {
     "value": "3 or more offences over 5 years",
-    "what": "The point at which Companies House says non-compliance is likely to be treated as serious. Prosecution may lead to a criminal conviction, director disqualification and fines",
+    "what": "The point at which Companies House says non-compliance is likely to be treated as serious. Prosecution may lead to a criminal conviction, director disqualification and fines. Companies House calls this a guideline for its decision making, not a rule",
     "source": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
-    "read": "2026-11-16"
+    "read": "2026-11-17"
    }
   ],
   "scope": {
    "nation": "UK-wide (England and Wales, Scotland and Northern Ireland). Companies House is a UK-wide registrar and the requirement comes from the Economic Crime and Corporate Transparency Act 2023 amending the Companies Act 2006; there is no separate devolved rule. Guidance is also published in Welsh.",
-   "who": "Individual directors of UK companies and their equivalents - LLP members, general partners and managing officers; directors of overseas companies registered in the UK; individual people with significant control (PSCs); and Authorised Corporate Service Providers (ACSPs). Applies both to people appointed or registered on or after 18 November 2025 and to everyone already on the register before that date. Verification is normally needed only once per person, but the personal code must then be linked to each company role separately.",
-   "excluded": "Shareholders who are not PSCs, employees, and company secretaries do not have to verify - Companies House states that 'currently, only directors and people with significant control need to verify their identity'. Specifically outside the requirement as at 16 November 2026: sole traders (not registered at Companies House); corporate or legal-entity PSCs, including relevant legal entities (RLEs) - 'there are currently no identity verification requirements if a PSC is a limited company'; a PSC who has died (they stay on the register until a grant of probate or letters of administration is received); and anyone whose company is already dissolved, since there is no live confirmation statement or PSC due date to attach a code to. Deferred to a later date, so not yet required: people who file at Companies House on a company's behalf (expected no earlier than November 2027, with at least 6 months' notice - this group was removed from the 'who needs to verify' guidance on 1 June 2026), limited partnerships, corporate directors, corporate LLP members, and officers of corporate PSCs.",
-   "from_when": "Voluntary from 8 April 2025. A legal requirement from 18 November 2025 for new incorporations and new appointments. For people already on the register before 18 November 2025, during the 12-month transition period that began that day - each person's own due date being their company's next confirmation statement (directors, and PSCs who are also directors of the same company) or the first 14 days of their birth month (PSCs who are not directors). Due dates for each role have been shown on the public register since 18 November 2025.",
+   "who": "Individual directors of UK companies and their equivalents - LLP members, general partners and managing officers; directors of overseas companies registered in the UK; individual people with significant control (PSCs); and Authorised Corporate Service Providers (ACSPs). Applies both to people appointed or registered on or after 18 November 2025 and to everyone already on the register before that date. Verification is normally needed only once per person - Companies House says 'you must not verify again unless we tell you to' - but the personal code must then be linked to each company role separately.",
+   "excluded": "Shareholders who are not PSCs, employees, and company secretaries do not have to verify - Companies House lists only directors (and equivalents), PSCs and ACSPs as the people who must verify by law. Specifically outside the requirement as at 17 November 2026: sole traders (not registered at Companies House); corporate or legal-entity PSCs, including relevant legal entities (RLEs); a PSC who has died (Companies House confirms no verification is needed and the PSC stays on the register until a grant of probate or letters of administration is received); and anyone whose company is already dissolved, since there is no live confirmation statement or PSC due date to attach a code to. Deferred to a later date, so not yet required: people who file at Companies House on a company's behalf (expected no earlier than November 2027, with at least 6 months' notice - this group was removed from the 'who needs to verify' guidance on 1 June 2026), limited partnerships, corporate directors, corporate LLP members, and officers of corporate PSCs.",
+   "from_when": "Voluntary from 8 April 2025. A legal requirement from 18 November 2025 for new incorporations and new appointments. For people already on the register before 18 November 2025, during the 12-month transition period that began that day and closes on 18 November 2026 - each person's own due date being their company's next confirmation statement (directors, and PSCs who are also directors of the same company) or the first 14 days of their birth month (PSCs who are not directors). Due dates for each role have been shown on the public register since 18 November 2025.",
    "automatic": false,
-   "how_to_claim": "The individual must act. Verify once, either free with Companies House using GOV.UK One Login (online, or in person at a Post Office with the right documents) or through an Authorised Corporate Service Provider, which may charge. You are then given your 11-character personal code. You must then actively link it to each role: a director gives the code in the company's confirmation statement; a PSC gives it through the 'Provide identity verification details for a PSC' service within their own 14-day window. Someone who is both a director and a PSC of the same company must do both separately. Nothing happens automatically and no one does it for you - an accountant can file using your code but cannot verify your identity on your behalf."
+   "how_to_claim": "The individual must act. Verify once, either free with Companies House using GOV.UK One Login (online, or in person at a participating Post Office with the right documents) or through an Authorised Corporate Service Provider, which may charge. You are then given your 11-character personal code. You must then actively link it to each role: a director gives the code in the company's confirmation statement; a PSC gives it through the 'Provide identity verification details for a PSC' service within their own 14-day window. Someone who is both a director and a PSC of the same company must do both separately. Nothing happens automatically and no one does it for you - an accountant can file using your code but cannot verify your identity on your behalf, and Companies House says it cannot verify identities for people either."
   },
-  "notes": "The single most misreported point: 18 November 2026 is not a cliff-edge deadline for existing directors and PSCs. It is only the end of the 12-month transition window that opened on 18 November 2025. Each existing director's real deadline is their own company's next confirmation statement - the first one whose statement (review-period) date falls on or after 18 November 2025 - and the statement itself may be filed up to 14 days after that date. Because a confirmation statement date can be as late as 17 November 2026, the last individual verification due dates fall in the days after 18 November 2026, not on it. So a company whose confirmation statement date is, say, 14 November 2026 has until around 28 November 2026 to file with its directors' codes, and is not late on 18 November. Equally, a company whose confirmation statement date was in December 2025 was due a year ago - plenty of existing directors' deadlines passed long before 18 November 2026. Do not write 'you must verify by 18 November 2026': write 'by your company's next confirmation statement'. Second trap: PSCs are not on the confirmation statement timetable in the same way. A PSC who is also a director of the same company has a 14-day window starting the day AFTER the confirmation statement date - which means if the company files on the confirmation statement date itself (about 1 in 5 do), the PSC verification cannot go in the same filing and must be submitted the next day. A PSC who is not a director has nothing to do with the confirmation statement at all: their window is the first 14 days of their birth month. Third trap: the code is linked per role, not per person - one verification, but a separate act for every directorship and every PSC entry, so someone who is both a director and a PSC of one company must do it twice. Fourth trap: consequences. The published Companies House enforcement approach (in force since 17 November 2025) is a default letter first, then possible financial penalties, annotation of the register, prosecution, disqualification or referral to The Insolvency Service; an unverified director who keeps acting commits an offence under section 167M Companies Act 2006. But Companies House's own transition plan says it will only 'start compliance activity against those who have failed to verify' from no earlier than the end of 2026 - so do not promise readers penalties will land on 19 November 2026. The campaign site's line that 'you will not be able to make any filings for your company or start a new company' does not appear in the detailed enforcement guidance, so treat it as a general warning rather than a described mechanism. A PSC can also ask online for a 14-day extension before their deadline passes, and representations on extenuating circumstances are considered, so a missed date is not automatically an enforcement case. Finally, verifying is free only if done directly with Companies House via GOV.UK One Login; the ACSP route is a commercial service at the provider's own price.",
+  "notes": "RE-CHECKED 17 November 2026, the day before the transition period closes. Nothing has changed at primary source and no new announcement has been made: the guidance page is still last updated 1 June 2026, the 'when you need to verify' page 30 July 2026, the approach to non-compliance 5 December 2025, and the outline transition plan 23 October 2026. There is no Companies House news item of any kind later than 23 October 2026, and nothing about 18 November 2026. The campaign site still carries the words 'This date is not a deadline.' The single most misreported point therefore stands: 18 November 2026 is not a cliff-edge deadline for existing directors and PSCs. It is only the end of the 12-month transition window that opened on 18 November 2025. Each existing director's real deadline is their own company's next confirmation statement - the first one whose statement (review-period) date falls on or after 18 November 2025 - and the statement itself may be filed up to 14 days after that date. Because a confirmation statement date can be as late as 17 November 2026, the last individual verification due dates fall in the days after 18 November 2026, not on it: a company whose confirmation statement date is 14 November 2026 has until around 28 November 2026 and is not late on 18 November. Equally, a company whose statement date fell in December 2025 was due a year ago, so plenty of existing directors' deadlines passed long before 18 November 2026. Do not write 'you must verify by 18 November 2026': write 'by your company's next confirmation statement'. Second trap: PSCs are not on the confirmation statement timetable in the same way. A PSC who is also a director of the same company has a 14-day window starting the day AFTER the confirmation statement date, so if the company files on the statement date itself the PSC verification cannot go in the same filing and must be submitted the next day. A PSC who is not a director has nothing to do with the confirmation statement at all: their window is the first 14 days of their birth month. Third trap: the code is linked per role, not per person - one verification, but a separate act for every directorship and every PSC entry, so someone who is both a director and a PSC of one company must do it twice. Fourth trap, and this is the point corrected at this re-check: the consequences are more concrete than the earlier version of this entry allowed. The main guidance page itself sets out that if you do not comply you may be prosecuted and fined through the courts or given a financial penalty; that in future Companies House will publish a note against your name on the public register; and that you will be unable to be appointed as a new director of an existing company, register a new company or entity, or register as an ACSP. It also states that a company will be unable to file its confirmation statement unless all its directors are verified, which is the practical bite for most small companies. The campaign site's broader line that 'you will not be able to make any filings for your company or start a new company' is still wider than anything the guidance describes, so do not quote it as a mechanism. Also corrected: the approach to non-compliance is a document last updated 5 December 2025, not 'in force since 17 November 2025'. Fifth point, new at this re-check: enforcement is not theoretical. Three directors were fined at City of London Magistrates' Court on 16 September 2026 in the first Insolvency Service prosecutions for identity verification offences - one of them for failing to stop a co-director acting while unverified, even though he had verified himself. Those were people who had missed their own due dates. So the honest line is: penalties are already landing on people whose own due dates have passed, but Companies House's own transition plan still says general compliance activity against those who have failed to verify starts no earlier than the end of 2026, so do not promise readers that a wave of penalties lands on 19 November 2026. A PSC can ask online for a 14-day extension before their deadline passes, and an accepted representation on extenuating circumstances usually pauses enforcement for up to 2 months, so a missed date is not automatically an enforcement case. Companies House also emails companies before their confirmation statement filing deadline telling them they must provide identity verification statements for each director. Finally, verifying is free only if done directly with Companies House via GOV.UK One Login; the ACSP route is a commercial service at the provider's own price.",
   "used": []
  },
  {
@@ -7262,6 +7328,1504 @@
    "how_to_claim": "Nothing to claim. File the Company Tax Return online with HMRC by the 12-month deadline, having already paid the Corporation Tax at 9 months and one day."
   },
   "notes": "Two separate mistakes to head off. First, paying and filing are different dates: for a 31 December 2025 year end the tax was due 1 October 2026 but the return is not due until 31 December 2026 — paying late accrues interest even if the return is on time. Second, a company filing late can be penalised TWICE, once by HMRC on the tax return and once by Companies House on the accounts; these are different regimes with different deadlines and different appeal routes. A loss-making or break-even company still has to file. Note the HMRC fixed penalties are £200, not the £100 figure that older write-ups still quote.",
+  "used": []
+ },
+ {
+  "id": "state-pension-rates-2027-28",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "State Pension Rates Proposed for 2027 to 2028",
+  "official_page": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+  "figures": [
+   {
+    "value": "£250.70 a week",
+    "what": "new State Pension full rate proposed for 2027 to 2028",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£241.30 a week",
+    "what": "new State Pension full rate for 2026 to 2027 (the rate it rises from)",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£192.10 a week",
+    "what": "old (basic) State Pension Category A or B rate proposed for 2027 to 2028",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£184.90 a week",
+    "what": "old (basic) State Pension Category A or B rate for 2026 to 2027",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "3.50%",
+    "what": "increase applied to State Pension increments and the statutory minimum increase for non-state pensions in 2027 to 2028 (3.80% in 2026 to 2027)",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain. DWP sets these rates; Northern Ireland legislates its own matching rates separately through the Department for Communities.",
+   "who": "People who have reached State Pension age. The £250.70 full rate is the new State Pension, for people who reached State Pension age on or after 6 April 2016. The £192.10 rate is the Category A or B basic pension of the old scheme.",
+   "excluded": "Anyone who reached State Pension age before 6 April 2016 is on the old scheme and gets the £192.10 basic rate, not £250.70. Anyone who has not yet reached State Pension age gets nothing. The full rate is only paid where the National Insurance record is complete — a short record pays a proportion, not £250.70. These are PROPOSED rates and are not yet law, so nobody is entitled to them yet.",
+   "from_when": "Proposed for the 2027 to 2028 tax year, published 11 November 2026",
+   "automatic": true,
+   "how_to_claim": "The uprating is automatic for people already being paid State Pension. A first claim must still be made — State Pension is not paid until it is claimed."
+  },
+  "notes": "This is a PROPOSED rates document published 11 November 2026, not final law: the figures take effect through a Social Security Benefits Up-rating Order that is normally laid in January or February and debated before April. The new State Pension rises about 3.9% (£241.30 to £250.70) while the separate increment and non-state-pension figure on the same page is 3.50% — do not confuse the two. The £250.70 headline is above the frozen personal allowance territory, so pensioners with any other income can be pushed into tax; the page says nothing about tax. Northern Ireland keeps parity but is a separate legal instrument. Scotland has devolved some disability benefits but NOT the State Pension.",
+  "used": []
+ },
+ {
+  "id": "statutory-paternity-pay-2027-28",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Statutory Paternity Pay Rate and Threshold for 2027 to 2028",
+  "official_page": "https://www.gov.uk/employers-paternity-pay-leave/eligibility",
+  "figures": [
+   {
+    "value": "£201.11 a week",
+    "what": "Statutory Paternity Pay standard rate proposed for 2027 to 2028",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£194.32 a week",
+    "what": "Statutory Paternity Pay standard rate for 2026 to 2027 (the rate it rises from)",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£133.00 a week",
+    "what": "average weekly earnings threshold to qualify for Statutory Paternity Pay in 2027 to 2028 (up from £129.00)",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "90% of average weekly earnings",
+    "what": "what is paid instead of the standard rate where 90% of average weekly earnings is lower",
+    "source": "https://www.gov.uk/paternity-pay-leave/pay",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "26 weeks",
+    "what": "continuous employment with the same employer needed up to any day in the qualifying week (the 15th week before the baby is due)",
+    "source": "https://www.gov.uk/employers-paternity-pay-leave/eligibility",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (England, Scotland and Wales). Northern Ireland runs its own equivalent scheme.",
+   "who": "An employee who is the father, the husband or partner of the mother or adopter, the child's adopter, or an intended parent in a surrogacy arrangement; who is on the employer's payroll up to the child's birth or placement; who has at least 26 weeks' continuous employment up to the qualifying week; and whose average weekly earnings reach the threshold.",
+   "excluded": "Anyone who is not classed as an employee — workers, contractors and the self-employed get no paternity leave and no paternity pay. Employees averaging less than the earnings threshold (£129 in 2026 to 2027, £133 proposed for 2027 to 2028) over the 8-week relevant period. Employees with under 26 weeks' continuous employment with that employer at the qualifying week. Employees who do not give the employer correct notice. Employees who are not taking the time off to care for the child or the mother, or who are not responsible for the child's upbringing.",
+   "from_when": "£201.11 proposed for the 2027 to 2028 tax year; £194.32 applies for 2026 to 2027",
+   "automatic": false,
+   "how_to_claim": "The employee must give the employer the correct notice and claim from the employer, who pays it through payroll. Tax and National Insurance are deducted from Statutory Paternity Pay."
+  },
+  "notes": "Two separate numbers move and clients mix them up: the pay rate (£194.32 to £201.11) and the earnings threshold to qualify at all (£129 to £133). An employee just above £129 this year may still be below £133 next year if their pay has not moved — they lose entitlement, not just value. Paternity leave itself needs no qualifying service (day one of employment), but paternity PAY needs 26 weeks — an employer who conflates the two underpays or overpays. The 2027 to 2028 figures are PROPOSED (published 11 November 2026) and take effect through an uprating order not yet made. Northern Ireland has a separate scheme at parity rates. Statutory Paternity Pay counts towards the benefit cap for the household.",
+  "used": []
+ },
+ {
+  "id": "benefit-cap-frozen-2027-28",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Benefit Cap Held at the Same Level for 2027 to 2028",
+  "official_page": "https://www.gov.uk/benefit-cap",
+  "figures": [
+   {
+    "value": "£25,323 a year (£2,110.25 a month, £486.98 a week)",
+    "what": "benefit cap for a couple, or a single claimant with a child, in Greater London — unchanged from 2026 to 2027",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£22,020 a year (£1,835.00 a month, £423.46 a week)",
+    "what": "benefit cap for a couple, or a single claimant with a child, in the rest of Great Britain — unchanged from 2026 to 2027",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£16,967 a year (£1,413.92 a month, £326.29 a week)",
+    "what": "benefit cap for a single adult with no children in Greater London — unchanged from 2026 to 2027",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£14,753 a year (£1,229.42 a month, £283.71 a week)",
+    "what": "benefit cap for a single adult with no children in the rest of Great Britain — unchanged from 2026 to 2027",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£881 a month",
+    "what": "combined household earnings after tax and National Insurance that exempt a Universal Credit household from the cap",
+    "source": "https://www.gov.uk/benefit-cap/when-youre-not-affected",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain, with a higher cap inside Greater London and a lower one everywhere else. Northern Ireland operates its own benefit cap and its own mitigation arrangements.",
+   "who": "Households getting Universal Credit or Housing Benefit whose total capped benefits exceed the limit. The benefits counted towards the cap include Universal Credit, Housing Benefit, Child Benefit, Employment and Support Allowance, Jobseeker's Allowance, Maternity Allowance, Incapacity Benefit, Severe Disablement Allowance, Bereavement Allowance and Widowed Parent's Allowance.",
+   "excluded": "Not affected if you, your partner or a child under 18 living with you gets any of: Personal Independence Payment, Disability Living Allowance, Adult Disability Payment, Child Disability Payment, Scottish Adult Disability Living Allowance, Pension Age Disability Payment, Attendance Allowance, Carer's Allowance, Carer Support Payment, Guardian's Allowance, Armed Forces Independence Payment, Armed Forces Compensation Scheme payments, Industrial Injuries Benefits, war pensions, War Widow's or War Widower's Pension, or the support component of Employment and Support Allowance. Also not affected if you are over State Pension age, if you have limited capability for work and work-related activity on Universal Credit, if you are caring for someone with a disability, or if combined household earnings are £881 or more a month after tax and National Insurance. A Universal Credit household with enough recent earnings also gets a delay of up to 9 months before the cap starts.",
+   "from_when": "Levels published 11 November 2026 as the proposed 2027 to 2028 figures, identical to 2026 to 2027",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim — the cap is applied automatically by DWP or the council. Exemption is also automatic once the qualifying benefit is in payment, so the action is to make sure that benefit is claimed."
+  },
+  "notes": "The news here is the freeze, not a figure: every one of the four cap levels is the same in 2027 to 2028 as in 2026 to 2027, while most benefits on the same page rise. A capped household therefore gets nothing from the uprating — the increase is clawed straight back. Greater London is a hard administrative boundary, so the same family a mile either side of it has a different cap. Birmingham and the West Midlands sit on the lower, rest-of-Great-Britain figures. Northern Ireland has domestic rates rather than council tax and runs its own cap, so do not quote these numbers there. The single quickest exemption route for a working household is getting combined take-home earnings to £881 a month.",
+  "used": []
+ },
+ {
+  "id": "universal-credit-child-element-and-childcare-costs-2027-28",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Universal Credit Child Element and Childcare Costs for 2027 to 2028",
+  "official_page": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+  "figures": [
+   {
+    "value": "£364.20 a month",
+    "what": "Universal Credit child element proposed for 2027 to 2028 for a first child born before 6 April 2017 (up from £351.88)",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£314.58 a month",
+    "what": "Universal Credit child element proposed for 2027 to 2028 for a first child born on or after 6 April 2017 and for subsequent children (up from £303.94)",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£1,108.58 a month",
+    "what": "maximum Universal Credit childcare costs amount for one child proposed for 2027 to 2028 (up from £1,071.09)",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£1,900.43 a month",
+    "what": "maximum Universal Credit childcare costs amount for two or more children shown for 2027 to 2028 (up from £1,836.16) — being replaced by an amount that rises with each additional child",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain. Northern Ireland runs Universal Credit through the Department for Communities at parity rates.",
+   "who": "Universal Credit claimants responsible for a child or qualifying young person get the child element. The childcare costs amount is a separate element on top, for claimants paying for registered childcare.",
+   "excluded": "A first child born on or after 6 April 2017 gets the lower £314.58 rate, not £364.20 — the higher rate is closed to children born from that date. The childcare costs amount is not paid to households that are not getting Universal Credit, and the figures above are MAXIMUMS, not entitlements: a household paying less than the maximum gets the lower actual-cost figure, and the amount is capped as a percentage of the childcare actually paid for. The two-or-more-children figure of £1,900.43 is itself provisional — the page says this maximum is being replaced by one that rises for each additional child and that the table will be updated once the regulations are laid, so a household with three or more children cannot yet be told its figure.",
+   "from_when": "Proposed for the 2027 to 2028 tax year, published 11 November 2026",
+   "automatic": true,
+   "how_to_claim": "The uprating is automatic. The childcare costs element must be claimed and the childcare costs reported through the Universal Credit account each assessment period, in arrears."
+  },
+  "notes": "The structural change matters more than the uprating: the current flat cap for two or more children is being replaced with an amount that increases per additional child, and the published table is explicitly incomplete until the regulations are laid. A family with three or more children in childcare should not be quoted a 2027 to 2028 figure yet. The 6 April 2017 birth-date split in the child element is the single most common thing clients get wrong — it is the child's date of birth that decides the rate, not the date of the claim. Childcare costs are paid in arrears against receipts, which is a cash-flow problem for low-paid clients and is not something an uprating fixes. These are PROPOSED figures, not yet law.",
+  "used": []
+ },
+ {
+  "id": "csop-emi-option-limits-april-2027",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "CSOP and EMI Share Option Limits Rise from April 2027",
+  "official_page": "https://www.gov.uk/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
+  "figures": [
+   {
+    "value": "£120,000",
+    "what": "new CSOP individual share option limit from 6 April 2027",
+    "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£60,000",
+    "what": "current CSOP individual share option limit, in force since 6 April 2023 (£30,000 for options granted before that date)",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/employee-tax-advantaged-share-scheme-user-manual/etassum41180",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "15 years",
+    "what": "new maximum CSOP exercise period from 6 April 2027 (current tax-free window is between 3 and 10 years after grant)",
+    "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "180 days",
+    "what": "new window to exercise EMI options after a disqualifying event, from 6 April 2027",
+    "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "15 years",
+    "what": "extended period for which certain shares and options reserved by third parties are excepted from the disguised remuneration rules",
+    "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom",
+   "who": "Companies that operate a Schedule 4 Company Share Option Plan or an Enterprise Management Incentives scheme, and the employees and directors holding options under them. Also companies arranging to become controlled by an Employee Ownership Trust, where the existing EMI exception is being extended.",
+   "excluded": "A company that does not operate a tax-advantaged CSOP or EMI scheme gets nothing from this — it is not a relief you claim, it is a change to scheme limits. Options granted before 6 April 2027 stay under the current £60,000 CSOP limit until the change takes effect; there is no retrospective uplift. The £120,000 is not per plan: the CSOP limit is tested on the aggregate market value at grant across the individual's subsisting options under that scheme AND under any other Schedule 4 CSOP run by the same company or an associated company, so running a second plan does not double it. The limit is fixed at grant and is not recalculated if the share price later falls. The measure does not change the EMI individual option limit or the EMI company size and trade qualifying tests, so a company too large for EMI is still too large for EMI.",
+   "from_when": "6 April 2027",
+   "automatic": false,
+   "how_to_claim": "Nothing to claim, but scheme rules, option agreements and the plan's exercise-period drafting will need amending to use the higher limit and longer window. The change is to be legislated in Finance Bill 2026-27 and is not yet law."
+  },
+  "notes": "The policy paper was first published at Budget on 28 October 2026 and UPDATED on 12 November 2026 (impacts table added) — the 12 November update is what is new this week. The figures are not on the policy paper itself; they are in the Budget 2026 Overview of Tax Legislation and Rates, measure 1.6. Doubling the CSOP individual limit to £120,000 and stretching the exercise window to 15 years makes CSOP a realistic option for owner-managed companies that outgrew EMI, which is the practical point for clients. Two traps: the limit is aggregated across associated companies, and the removal of the CSOP/EMI limit interaction only takes effect from 6 April 2027, so an option granted in, say, February 2027 is still caught by the old interaction. Nothing should be granted on the new basis before the Finance Bill is enacted.",
+  "used": []
+ },
+ {
+  "id": "partnership-tax-return-and-partner-penalties",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-02-07",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Partnership Tax Return: 31 January 2027 Deadline and the Separate Penalty Each Partner Gets",
+  "official_page": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+  "figures": [
+   {
+    "value": "31 January 2027",
+    "what": "Online filing deadline for the 2025-26 Partnership Tax Return (SA800), tax year 6 April 2025 to 5 April 2026",
+    "source": "https://assets.publishing.service.gov.uk/media/69c525cacdfd19de13d0f6d0/SA800man-2026.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "31 October 2026",
+    "what": "Paper filing deadline for the same 2025-26 SA800 (already passed)",
+    "source": "https://assets.publishing.service.gov.uk/media/69c525cacdfd19de13d0f6d0/SA800man-2026.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100",
+    "what": "Automatic fixed late-filing penalty charged on EACH relevant partner under TMA 1970 s93A(2) when the partnership return is late - not £100 for the partnership",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/enquiry-manual/em4585",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100",
+    "what": "Further fixed penalty on each relevant partner if the failure continues beyond six months from the filing date (s93A(4)) - so £200 per partner in total",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/enquiry-manual/em4585",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (HMRC Self Assessment)",
+   "who": "The nominated partner files one SA800 for the partnership for 2025-26. Every individual partner then reports their share on their own SA100 partnership pages by the same 31 January 2027 date.",
+   "excluded": "Sole traders (no SA800 exists for them). Limited companies, which file a CT600 instead. A partnership that has not been issued a notice to file. A person who was not a partner at any time in the period covered by the return is not a 'relevant partner' and gets no penalty. Partnerships that include a company as a partner do NOT get the 31 October / 31 January dates - HMRC sets different filing dates for them. Partnerships issued a notice to file after 31 July 2026 also get a different date.",
+   "from_when": "2025-26 return, due 31 January 2027",
+   "automatic": false,
+   "how_to_claim": "Nominated partner files SA800 online by 31 January 2027 (HMRC online service does not support SA800 - commercial software or an agent is needed). Each partner separately files their own return by the same date."
+  },
+  "notes": "The trap clients get wrong: a late partnership return multiplies. HMRC charges the £100 on all persons who were partners at any time in the return period, so a four-partner firm one day late is £400, and £800 once six months pass. EM4585 also confirms partners get no capping or reduction where their own tax liability is lower than the penalty - unlike individuals and trustees. Only the nominated partner can appeal, and that one appeal covers every partner's penalty. Daily penalties under s93A(3) exist but need an authorised officer's agreement and are reserved for large cases.",
+  "used": []
+ },
+ {
+  "id": "trust-registration-service-taxable-trust-31-january-declaration",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-02-07",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Trust Registration Service: the 31 January Declaration and 90-Day Deadlines",
+  "official_page": "https://www.gov.uk/guidance/manage-your-trusts-registration-service",
+  "figures": [
+   {
+    "value": "31 January 2027",
+    "what": "Date by which trustees of a taxable trust must declare on the Trust Registration Service that the trust's details are up to date, for a 2025-26 relevant UK tax liability",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/trust-registration-service-manual/trsm40030",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "90 days",
+    "what": "Window to register a trust created on or after 6 April 2021 from the date it becomes liable to a relevant UK tax; also the window to update the register after any change to trust details",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/trust-registration-service-manual/trsm40030",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "5 October 2026",
+    "what": "Registration deadline for a pre-6 April 2021 trust with a FIRST-time Income Tax or CGT liability arising in 2025-26 (earlier than the 31 January date)",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/trust-registration-service-manual/trsm40030",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "60 days",
+    "what": "Separate deadline to report and pay CGT on a disposal of UK residential property by the trust, from the date of sale - the trust must be registered as taxable before the CGT on UK property account can be used",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/trust-registration-service-manual/trsm40030",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (HMRC register under the Money Laundering Regulations). Trust law itself differs in Scotland and Northern Ireland but the registration duty is the same.",
+   "who": "Trustees of a UK express trust, and of a non-UK trust with UK tax liabilities or UK land. Trustees of a TAXABLE trust (liable to Income Tax, CGT, Inheritance Tax, SDLT, LBTT, LTT or Stamp Duty Reserve Tax) must also make the annual 31 January declaration that the register is current.",
+   "excluded": "Non-taxable trusts do NOT make the 31 January declaration - they only have to keep the register updated within 90 days of a change. Schedule 3A excluded trusts need no registration at all unless they become liable to UK tax: statutory trusts created by court order or by law, UK registered pension scheme trusts, life policy trusts paying out only on death, illness or disability, trusts for a registered UK charity, trusts set up to open a child's bank account, will trusts wound up within 2 years of death, pilot trusts holding under £100 set up before 6 October 2020, co-ownership trusts holding jointly owned property as tenants in common, client-money and professional-services trusts, trusts set up by a UK government body or public authority, and Scottish survivorship destination trusts.",
+   "from_when": "Annual duty; the next declaration date is 31 January 2027 for 2025-26 liabilities",
+   "automatic": false,
+   "how_to_claim": "Trustee or agent signs into the Manage your trust's details service on GOV.UK with the trust's Government Gateway credentials, checks the details and submits the declaration. Agents need an agent services account and the client's authorisation."
+  },
+  "notes": "Two things clients get wrong. First, the 31 January declaration is NOT the same thing as the SA900 Trust and Estate Tax Return - a taxable trust that files SA900 still has to go into TRS separately and declare the register is current, and HMRC will not issue the SA900 Unique Taxpayer Reference until the trust is registered. Second, a trust that was non-taxable and becomes taxable in a year moves onto the taxable-trust deadlines, so the 31 January declaration starts applying. TRSM40030 also warns that where more than one tax could set a deadline, the EARLIER deadline applies - that is how a pre-2021 trust with a first Income Tax liability ends up with a 5 October date rather than 31 January.",
+  "used": []
+ },
+ {
+  "id": "corporation-tax-quarterly-instalment-payments-large-companies",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Corporation Tax Quarterly Instalments: £1.5 Million Threshold and the 14 January 2027 Payment",
+  "official_page": "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
+  "figures": [
+   {
+    "value": "£1.5 million",
+    "what": "Annual rate of taxable profits above which a company is 'large' and must pay Corporation Tax by quarterly instalments instead of 9 months and 1 day after the year end",
+    "source": "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£20 million",
+    "what": "Profits level at and above which a company is 'very large' and pays all its instalments inside the accounting period itself, on a different timetable",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm92520",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£10 million",
+    "what": "Ceiling for the first-year let-off: a company with profits no more than £10 million does not have to pay by instalments if it was not large in any accounting period ending in the previous 12 months",
+    "source": "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "14 January 2027",
+    "what": "Third instalment for a large company with a 12-month accounting period running 1 January to 31 December 2026 (instalments 14 July 2026, 14 October 2026, 14 January 2027, 14 April 2027)",
+    "source": "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "6 months and 13 days",
+    "what": "Gap from the start of a 12-month accounting period to the first instalment; the remaining three fall at 3-month intervals, the last one 3 months and 14 days after the period ends",
+    "source": "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (Corporation Tax is not devolved)",
+   "who": "Companies and other Corporation Tax payers with taxable profits at an annual rate of more than £1.5 million but less than £20 million. Payment must be made electronically.",
+   "excluded": "Companies with profits at an annual rate of £1.5 million or less - they pay in one go 9 months and 1 day after the year end. Companies with profits up to £10 million in their first large year, where they were not large in any accounting period ending in the preceding 12 months, including a newly incorporated company that had no accounting period in that period. Very large companies with profits of £20 million or more are outside this timetable and follow the separate, earlier very-large schedule.",
+   "from_when": "Current rules; the £1.5m threshold reverted to being divided by the number of associated companies for accounting periods beginning on or after 1 April 2023",
+   "automatic": false,
+   "how_to_claim": "Company estimates its own liability and pays each instalment electronically by the due date without waiting for a demand from HMRC."
+  },
+  "notes": "The trap is associated companies. Both the £1.5 million and the £10 million limits are divided by the number of associated or related 51% group companies plus the company itself, so a company in a group of five hits instalments at £300,000 of profits, not £1.5 million. The same associated-company count drives the marginal relief thresholds, so a client who has just picked up a second company can find itself paying in instalments on profits it would have paid annually the year before. Short accounting periods also get a proportionately reduced threshold, and a period of 3 months or less produces one payment rather than instalments. Nothing on this page is a filing deadline - the CT600 is still due 12 months after the period end.",
+  "used": []
+ },
+ {
+  "id": "paye-quarterly-payment-small-employers-22-january",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-01-30",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Quarterly PAYE Payers: £1,500 a Month Rule and the 22 January 2027 Deadline",
+  "official_page": "https://www.gov.uk/running-payroll/paying-hmrc",
+  "figures": [
+   {
+    "value": "£1,500",
+    "what": "Average monthly PAYE and NIC payment below which an employer can pay HMRC quarterly instead of monthly (less than £18,000 a year)",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm520055",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "22 January 2027",
+    "what": "Electronic payment deadline for quarter 3, the tax period 6 October 2026 to 5 January 2027 - cleared funds must reach HMRC by this date",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm520055",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "19 January 2027",
+    "what": "Deadline for the same quarter if paying by cheque through the post",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm520055",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "22 December 2026",
+    "what": "Electronic deadline for the monthly period 6 November to 5 December 2026, for employers who pay monthly rather than quarterly (19 December 2026 by post)",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm520055",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (PAYE is not devolved; Scottish and Welsh rate taxpayers are still paid over through the same PAYE scheme)",
+   "who": "Employers with reasonable grounds to believe their average monthly PAYE, NIC, student loan and CIS payment across the full tax year will be under £1,500. Quarters run to 5 July, 5 October, 5 January and 5 April.",
+   "excluded": "Employers paying £1,500 a month or more on average (£18,000 or more a year) cannot pay quarterly - they must pay monthly. The quarterly option does not change RTI reporting: the FPS is still due on or before each payday whatever the payment frequency. It is not available simply because one quarter happens to be small; the test is the expected average across the whole tax year.",
+   "from_when": "Current rules; quarter 3 of 2026-27 is payable by 22 January 2027",
+   "automatic": false,
+   "how_to_claim": "Employer contacts the HMRC payment helpline to confirm eligibility to pay quarterly, then pays by Faster Payments, Bacs, debit card or direct debit so cleared funds reach HMRC by the 22nd."
+  },
+  "notes": "Two traps. First, quarterly payment is a payment concession only - the RTI Full Payment Submission is still due on or before every payday, so an employer who stops filing monthly because they now pay quarterly collects late-filing penalties. Second, the 19th and 22nd are dates by which HMRC must have the money, not dates to send it: Faster Payments is same or next day but Bacs takes three working days, and 19 December 2026 falls on a Saturday, so anyone still posting a cheque for the November-December month needs to be clear of that weekend. The 22nd itself is a Friday in January 2027 and a Tuesday in December 2026, so there is no weekend shift on the electronic dates.",
+  "used": []
+ },
+ {
+  "id": "employment-intermediaries-quarterly-report-5-february",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-02-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Employment Intermediary Report: 5 February 2027 Deadline and £250 to £1,000 Penalties",
+  "official_page": "https://www.gov.uk/send-employment-intermediary-report",
+  "figures": [
+   {
+    "value": "5 February 2027",
+    "what": "Deadline to send the employment intermediary report for the quarter 6 October 2026 to 5 January 2027",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/employment-status-manual/esm2115",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "5 May 2027",
+    "what": "Last date a report for that 6 October to 5 January quarter can be replaced or corrected",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/employment-status-manual/esm2115",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£250",
+    "what": "Penalty for the first late quarterly report in a 12-month period",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm570245",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£500",
+    "what": "Penalty for the second late report in a 12-month period",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm570245",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£1,000",
+    "what": "Penalty for the third and each later late report in a 12-month period",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm570245",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£10 a day, capped at £600",
+    "what": "Daily penalty where a report stays outstanding: £300 after 30 days and a further £300 after 60 days, then daily penalties for that return stop",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm570245",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (HMRC)",
+   "who": "An agency or intermediary that, at any time in the quarter, supplies the services of individuals to a client, has a contract with that client, provides MORE THAN ONE worker's services, provides those services in the UK, and makes one or more payments for the services including payments to third parties.",
+   "excluded": "You do not report if you only introduce workers to clients, or only supply workers to another intermediary rather than holding the client contract. Personal service companies that supply a client with only one worker do not report. Intermediaries that operate PAYE on the workers' payments do not report. Anyone who has told HMRC they are no longer an intermediary, or who for a whole year does not provide more than one worker's services or make payments for services, is out. Separately, workers you leave OUT of a report include your own employees, workers with no UK tax liability, workers you did not find work for or did not pay in the period, actors, singers, musicians, other entertainers and fashion, photographic or artist models, and anyone whose payment details are already in another organisation's payroll submission.",
+   "from_when": "Current quarterly duty; next deadline 5 February 2027",
+   "automatic": false,
+   "how_to_claim": "Upload a CSV report through the Submit an employment intermediary report service on GOV.UK using a Government Gateway account."
+  },
+  "notes": "The trap most often missed is the nil report. If you are a specified intermediary but supplied no workers in the quarter, you must still file a nil report by 5 February 2027 - silence is a late report and attracts the £250. Penalties escalate on a rolling 12-month count, so an intermediary already two quarters behind is at £1,000 per report. The replacement window runs to 5 May 2027, which means an error spotted in March can be corrected without a penalty for inaccuracy. Supplying workers to another intermediary rather than to the end client shifts the duty up the chain, which is why construction and care sector clients with layered contracts should check who actually holds the client contract.",
+  "used": []
+ },
+ {
+  "id": "gift-aid-carry-back-claim-original-return-31-january",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-02-07",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Gift Aid Carry Back: Must Be in the Original Return by 31 January 2027",
+  "official_page": "https://www.gov.uk/government/publications/charitable-giving-hs342-self-assessment-helpsheet/hs342-charitable-giving-2026",
+  "figures": [
+   {
+    "value": "31 January 2027",
+    "what": "Filing date for the 2025-26 return; a Gift Aid donation made on or after 6 April 2026 can only be carried back into the 2025-26 return if that return reaches HMRC before the filing date",
+    "source": "https://www.gov.uk/government/publications/charitable-giving-hs342-self-assessment-helpsheet/hs342-charitable-giving-2026",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "Box 8, page TR 4",
+    "what": "Where the carry-back amount goes on the SA100 for 2025-26",
+    "source": "https://www.gov.uk/government/publications/charitable-giving-hs342-self-assessment-helpsheet/hs342-charitable-giving-2026",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide. Scottish and Welsh taxpayers can carry back in the same way, but the relief follows their own rates and bands.",
+   "who": "Self Assessment taxpayers who have made Gift Aid donations since 6 April 2026 and want the relief given against 2025-26 income instead, typically because they paid higher-rate tax in 2025-26 but not now. The claim must be made in the ORIGINAL 2025-26 return.",
+   "excluded": "HMRC cannot accept a first claim, or an increased claim, in an AMENDED return - so anyone who files by 31 January and then tries to add the carry-back later in the amendment window loses it. Anyone who did not pay enough Income Tax or Capital Gains Tax in 2025-26 to cover the tax the charity reclaims cannot carry back that amount. Anyone not in Self Assessment for 2025-26 has no return to make the claim in. Donations made in 2025-26 itself are relieved in 2025-26 anyway and need no carry-back election.",
+   "from_when": "2025-26 return, claim must be in the return filed by 31 January 2027",
+   "automatic": false,
+   "how_to_claim": "Enter the donation in box 8 on page TR 4 of the 2025-26 SA100 (or the equivalent box in the online return) and file by 31 January 2027."
+  },
+  "notes": "This is the one 31 January election that cannot be fixed afterwards. Everything else on a tax return can normally be amended up to 31 January 2028, but a Gift Aid carry-back claim is lost the moment the original return is filed without it, and lost outright if the return goes in after the filing date. Two conditions both have to hold: the return must be the original one, and it must be in on time. It is worth the most where income dropped between the two years - a client who was a higher-rate taxpayer in 2025-26 and a basic-rate taxpayer now gets 40% relief instead of none by carrying back. HS342 as published also carries an apparent typo referring to 'the year ended 5 April 2025' in the carry-back paragraph; the surrounding text and the box reference make clear it means the 2025-26 return.",
+  "used": []
+ },
+ {
+  "id": "sdlt-return-14-day-deadline-and-late-filing-penalties",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en"
+  ],
+  "title": "Stamp Duty Land Tax: 14 Days to File and Pay, £100 and £200 Penalties",
+  "official_page": "https://www.gov.uk/guidance/check-if-you-need-to-send-a-stamp-duty-land-tax-return",
+  "figures": [
+   {
+    "value": "14 days",
+    "what": "Time from the effective date of the transaction to send the SDLT return and pay any tax - the return is due even if no tax is owed",
+    "source": "https://www.gov.uk/guidance/check-if-you-need-to-send-a-stamp-duty-land-tax-return",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100",
+    "what": "Automatic fixed penalty for filing the SDLT return up to 3 months after the filing date",
+    "source": "https://www.gov.uk/guidance/penalties-and-interest-on-a-late-stamp-duty-land-tax-return",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£200",
+    "what": "Automatic fixed penalty for filing more than 3 months after the filing date",
+    "source": "https://www.gov.uk/guidance/penalties-and-interest-on-a-late-stamp-duty-land-tax-return",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "Up to 100% of the tax due",
+    "what": "Additional tax-based penalty where the return is still not filed 12 months after the filing date, on top of the fixed penalty",
+    "source": "https://www.gov.uk/guidance/penalties-and-interest-on-a-late-stamp-duty-land-tax-return",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£40,000",
+    "what": "Chargeable consideration at or above which a return is generally required; at £39,999 or less no return is needed",
+    "source": "https://www.gov.uk/guidance/check-if-you-need-to-send-a-stamp-duty-land-tax-return",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "England and Northern Ireland only",
+   "who": "The purchaser in a land transaction in England or Northern Ireland, within 14 days of the effective date - usually completion, but it can be earlier where the contract is substantially performed, for example on paying about 90% of the price, taking possession or making the first rent payment.",
+   "excluded": "Scotland (Land and Buildings Transaction Tax, Revenue Scotland) and Wales (Land Transaction Tax, Welsh Revenue Authority) are outside SDLT entirely and have their own returns and deadlines. No SDLT return is needed where no money or other consideration was given, where the property was left to you in a will, where the transfer arises from a divorce or dissolution of a civil partnership, or where the price or value is £39,999 or less.",
+   "from_when": "Current rules",
+   "automatic": false,
+   "how_to_claim": "File the SDLT return online (usually by the conveyancer) and pay within 14 days of the effective date."
+  },
+  "notes": "Two things clients get wrong. First, the 14-day clock can start before completion: substantial performance - paying roughly 90% of the price, taking possession, or paying the first rent - is the effective date, which catches long-delayed completions and some lease arrangements. Second, the return itself is the obligation. A £100 penalty lands on a nil-tax transaction filed late, which happens on transfers of equity and low-value purchases people assume need nothing. Interest on late-paid tax runs from the day after the due date at the HM Treasury rate, is not a penalty, and cannot be appealed - though the fixed penalties can be.",
+  "used": []
+ },
+ {
+  "id": "ct61-return-income-tax-on-company-interest-14-january",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-01-20",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "CT61: 20% Tax on Interest a Company Pays, Due 14 January 2027",
+  "official_page": "https://www.gov.uk/government/publications/corporation-tax-return-of-income-tax-on-company-payments-ct61",
+  "figures": [
+   {
+    "value": "20%",
+    "what": "Basic rate Income Tax the company must deduct from yearly interest and certain other payments, using the rate in force on the date the payment is made",
+    "source": "https://assets.publishing.service.gov.uk/media/5a7e0a5ce5274a2e8ab4573c/ct61-notes-2010.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "14 days",
+    "what": "Time after the end of each return period to send the CT61 and pay the tax, without waiting for a demand",
+    "source": "https://assets.publishing.service.gov.uk/media/5a7e0a5ce5274a2e8ab4573c/ct61-notes-2010.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "14 January 2027",
+    "what": "Due date for the CT61 return and payment for the return period ended 31 December 2026",
+    "source": "https://assets.publishing.service.gov.uk/media/5a7e0a5ce5274a2e8ab4573c/ct61-notes-2010.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "31 March, 30 June, 30 September, 31 December",
+    "what": "The standard quarter dates on which CT61 return periods end; a company may also need an extra return period to match its accounting period end",
+    "source": "https://assets.publishing.service.gov.uk/media/5a7e0a5ce5274a2e8ab4573c/ct61-notes-2010.pdf",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (Corporation Tax and Income Tax deduction at source, not devolved)",
+   "who": "A company that pays yearly interest to someone other than a UK bank - most commonly interest on a loan from a director, a family member or a private individual - and also certain royalties, annuities and other annual payments, alternative finance payments, and payments under non-charitable deeds of covenant. The company deducts 20%, pays it to HMRC and reports it on form CT61.",
+   "excluded": "No deduction and no CT61 where the recipient is a UK-resident company, or a listed tax-exempt body such as a charity, local authority or approved pension fund. Interest paid to a UK bank is outside it. Donations to charities and interest on quoted Eurobonds are not subject to deduction. Short interest - interest on a loan not capable of lasting a year or more - is not yearly interest and is not caught. A company that makes no such payments in a quarter has no CT61 to file for that quarter.",
+   "from_when": "Current rules; return period ended 31 December 2026 is due 14 January 2027",
+   "automatic": false,
+   "how_to_claim": "Request form CT61 from HMRC, complete it for the return period and send it with payment to the Accounts Office within 14 days of the period end."
+  },
+  "notes": "This is the deadline owner-managed companies miss most often, because nothing in the payroll or VAT cycle prompts it. If a company pays interest on a director's loan, or on a loan from a family member, it must withhold 20% and account for it quarterly on a CT61 - the director then shows the gross interest and the tax credit on their own Self Assessment return. Paying the director the gross amount and sorting it out at the year end is not an option: the obligation is quarterly and the 14-day window is short. There is no CT61 for interest paid to a UK bank or to another UK company, which is why most companies never meet the form. The deducted tax is not Corporation Tax and does not go on the CT600.",
+  "used": []
+ },
+ {
+  "id": "flat-rate-job-expenses-uniforms-tools",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Flat Rate Tax Relief for Uniforms, Work Clothing and Tools",
+  "official_page": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+  "figures": [
+   {
+    "value": "£60",
+    "what": "default annual flat rate expense if your job is not on HMRC's industry list",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£12",
+    "what": "actual tax saved on a £60 flat rate claim at the 20% basic rate — HMRC's own worked example",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£125",
+    "what": "annual flat rate for nurses, midwives and certain other listed health roles",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£80",
+    "what": "annual flat rate for uniformed fire fighters and fire officers",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£720",
+    "what": "annual flat rate for cabin crew",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£1,022",
+    "what": "annual flat rate for pilots, co-pilots, helicopter pilots and uniformed flight deck crew",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£2,500",
+    "what": "maximum total job expenses per tax year that can be claimed on form P87; above this you must file a Self Assessment return instead",
+    "source": "https://www.gov.uk/guidance/send-an-income-tax-relief-claim-for-job-expenses-by-post-or-phone",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "4 tax years",
+    "what": "how far back a claim can go — it must be made within 4 years from the end of the tax year claimed for",
+    "source": "https://www.gov.uk/guidance/send-an-income-tax-relief-claim-for-job-expenses-by-post-or-phone",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (Income Tax relief; the cash value differs because Scottish and Welsh taxpayers relieve at their own rates)",
+   "who": "Employees taxed under PAYE who use their own money to buy, clean, repair or replace a uniform, specialist work clothing or tools they need for the job and use only for work. No receipts are needed for a flat rate claim.",
+   "excluded": "Anyone whose employer repays the full cost or provides the item instead gets nothing — and if the employer pays part, you deduct that part first. Anyone who paid no Income Tax in the year claimed for gets nothing, because relief cannot exceed the tax paid. The self-employed are outside this scheme entirely (they deduct actual costs as business expenses). A claim over £2,500 in a year cannot use form P87. Ordinary everyday clothing worn to work is never allowable.",
+   "from_when": "Flat rates are set per tax year and apply for 2026-27 (6 April 2026 to 5 April 2027)",
+   "automatic": false,
+   "how_to_claim": "Check the industry table on the GOV.UK guidance page for your job's rate (£60 if not listed), subtract any employer contribution, then claim online through the HMRC job expenses service, by post on form P87, or in box 18 of SA102 if you file Self Assessment"
+  },
+  "notes": "The commonest misunderstanding is that a £60 flat rate puts £60 in your pocket. It does not — it reduces taxable pay by £60, so a basic rate taxpayer saves £12 and a higher rate taxpayer £24. HMRC states the £12 figure itself. Second trap: once HMRC puts the allowance in your tax code it usually keeps rolling forward, so the win is really in the backdated years, not the current one. Third trap: only form P87 is accepted for postal claims — HMRC rejects claims sent on anything else. Flat rates are UK-wide but the saving is bigger for Scottish taxpayers in the higher bands.",
+  "used": []
+ },
+ {
+  "id": "help-to-save-bonus",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Help to Save: 50% Government Bonus on Savings",
+  "official_page": "https://www.gov.uk/get-help-savings-low-income",
+  "figures": [
+   {
+    "value": "50p for every £1 saved",
+    "what": "the government bonus rate",
+    "source": "https://www.gov.uk/get-help-savings-low-income",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£50 per calendar month",
+    "what": "maximum you can pay in; the minimum is £1 and you do not have to pay in every month",
+    "source": "https://www.gov.uk/get-help-savings-low-income",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£2,400",
+    "what": "the most you can save over the 4 years",
+    "source": "https://www.gov.uk/get-help-savings-low-income/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£1,200",
+    "what": "the most you can earn in bonuses over 4 years",
+    "source": "https://www.gov.uk/get-help-savings-low-income/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£1 or more",
+    "what": "the take-home pay you must have had in your last monthly Universal Credit assessment period to qualify",
+    "source": "https://www.gov.uk/get-help-savings-low-income/eligibility",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "4 years",
+    "what": "the life of the account; it closes 4 years after opening and cannot be reopened or replaced",
+    "source": "https://www.gov.uk/get-help-savings-low-income",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide — you must live in the UK",
+   "who": "People receiving Universal Credit who had take-home pay of £1 or more in their last monthly assessment period. On a joint claim the couple's pay is assessed together but each partner needs their own account and applies separately.",
+   "excluded": "Anyone not on Universal Credit. Anyone whose take-home pay was below £1 in their last monthly assessment period. Anyone living overseas, unless they are a Crown servant or a member of the British armed forces, or the spouse or civil partner of one. Anyone who has already had a Help to Save account — you cannot open a second. Savers whose highest balance does not rise in years 3 and 4 get no final bonus at all.",
+   "from_when": "Accounts run for 4 years from the date you open them",
+   "automatic": false,
+   "how_to_claim": "Apply through the Help to Save service on GOV.UK or the HMRC app; you need a Government Gateway account"
+  },
+  "notes": "Two bonuses, not one, and the second is easy to lose. The first bonus is 50% of your HIGHEST balance in years 1 and 2. The final bonus is 50% of the difference between your highest balance in years 3 and 4 and your highest balance in years 1 and 2 — so if you withdraw and never save above the old peak again, the second bonus is zero. Bonuses are paid into your bank account, not back into the Help to Save account. Ending your Universal Credit claim does NOT shut the account: once open, you keep saving for the full 4 years. Because the bonus is based on the highest balance rather than the closing balance, money can be withdrawn without destroying the first bonus already banked.",
+  "used": []
+ },
+ {
+  "id": "attendance-allowance-2026-27",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Attendance Allowance Weekly Rates",
+  "official_page": "https://www.gov.uk/attendance-allowance",
+  "figures": [
+   {
+    "value": "£76.70 a week",
+    "what": "lower rate — for frequent help or constant supervision during the day, or supervision at night",
+    "source": "https://www.gov.uk/attendance-allowance/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£114.60 a week",
+    "what": "higher rate — for help or supervision through both day and night, or if a medical professional has said you are nearing the end of life",
+    "source": "https://www.gov.uk/attendance-allowance/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "6 months",
+    "what": "how long you must have needed the help before you qualify (different rules if nearing the end of life)",
+    "source": "https://www.gov.uk/attendance-allowance/eligibility",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "2 of the last 3 years",
+    "what": "how long you must have lived in Great Britain; does not apply to refugees or people with humanitarian protection",
+    "source": "https://www.gov.uk/attendance-allowance/eligibility",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "England and Wales. Scotland has replaced it with Pension Age Disability Payment; Northern Ireland runs its own Attendance Allowance through nidirect.",
+   "who": "People who have reached State Pension age with a physical disability (including sensory), a mental disability (including learning difficulties) or a health condition severe enough that they need help caring for themselves or supervision for their own or someone else's safety, for at least 6 months. It is not means-tested, so earnings and savings do not affect it, and you do not need to have anyone actually caring for you.",
+   "excluded": "Anyone living in Scotland must apply for Pension Age Disability Payment instead. Anyone already getting DLA, PIP, Adult Disability Payment, Scottish Adult Disability Living Allowance or Armed Forces Independence Payment cannot have Attendance Allowance as well. People living in a care home where the local authority pays for their care usually cannot get it — you can claim if you pay all the care home fees yourself. Anyone subject to immigration control, unless a sponsored immigrant. Anyone not habitually resident in the UK, Ireland, the Isle of Man or the Channel Islands. It covers nothing for mobility needs. If you also get Constant Attendance Allowance, your Attendance Allowance is reduced by that amount.",
+   "from_when": "Rates as published on GOV.UK on 17 November 2026; uprated each April",
+   "automatic": false,
+   "how_to_claim": "Apply online on GOV.UK, or print the claim form, or call 0800 731 0122 to be sent one. The claim starts on the day you apply online, the day DWP receives a posted form, or the day of your call if you return the form within 6 weeks."
+  },
+  "notes": "This is the single most under-claimed pensioner benefit and the reason is a wrong belief that it is means-tested. It is not: savings, a pension and a paid-off house make no difference. It is also not paid for having a diagnosis — it is paid for needing help or supervision, and you do not have to be getting that help from anyone. The big knock-on is that an Attendance Allowance award can unlock extra Pension Credit, Housing Benefit and Council Tax Reduction, so it is worth more than the headline rate. Call timing matters: ring the helpline for a form and the claim is backdated to the date of the call, provided you send it in within 6 weeks — applying straight online starts it the day you apply, with nothing before that. Scottish readers must not be sent to this page; Pension Age Disability Payment is a separate Social Security Scotland benefit.",
+  "used": []
+ },
+ {
+  "id": "maternity-allowance-2026-27",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Maternity Allowance for Those Who Cannot Get Statutory Maternity Pay",
+  "official_page": "https://www.gov.uk/maternity-allowance",
+  "figures": [
+   {
+    "value": "£194.32 a week or 90% of average weekly earnings, whichever is less",
+    "what": "Maternity Allowance for up to 39 weeks for the employed or recently stopped working",
+    "source": "https://www.gov.uk/maternity-allowance/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£27 to £194.32 a week",
+    "what": "range for the self-employed over 39 weeks, depending on Class 2 National Insurance contributions paid",
+    "source": "https://www.gov.uk/maternity-allowance/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£27 a week for 14 weeks",
+    "what": "the lower award for doing unpaid work in a spouse's or civil partner's self-employed business",
+    "source": "https://www.gov.uk/maternity-allowance/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "26 of the 66 weeks before the due date",
+    "what": "how long you must have been employed or registered self-employed to get the 39-week award",
+    "source": "https://www.gov.uk/maternity-allowance/eligibility",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£30 a week in at least 13 weeks",
+    "what": "the earnings test — you must have earned, or been treated as earning, at least this much in 13 of those 66 weeks; the weeks need not be consecutive",
+    "source": "https://www.gov.uk/maternity-allowance/eligibility",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (England, Scotland and Wales). Northern Ireland runs its own Maternity Allowance through nidirect on the same rules.",
+   "who": "Pregnant women who cannot get Statutory Maternity Pay: the self-employed, recent job-leavers, people who changed jobs or had gaps in work, and those doing unpaid work in a spouse's or civil partner's business. You may still qualify if the baby was stillborn from the start of the 24th week of pregnancy, or born alive at any point.",
+   "excluded": "Anyone entitled to Statutory Maternity Pay from an employer gets SMP instead, not Maternity Allowance. Anyone who cannot meet the 26-weeks-in-66 work test, or the 13-weeks-at-£30 earnings test, gets nothing. For the 14-week award you must NOT have been employed or self-employed yourself, and your spouse or civil partner must have been registered self-employed with HMRC and paying Class 2 National Insurance in the same 26 weeks. Jobseeker's Allowance stops if you get Maternity Allowance, and Universal Credit is reduced pound for pound by the Maternity Allowance paid. The benefit cap may apply.",
+   "from_when": "Rates as published on GOV.UK on 17 November 2026; uprated each April",
+   "automatic": false,
+   "how_to_claim": "Claim on form MA1, available on GOV.UK, with proof of income and your MATB1 maternity certificate"
+  },
+  "notes": "This is the award for people the SMP rules leave out, and it is routinely missed by the newly self-employed. Read the difference carefully. SMP is paid by the employer and starts at 90% of average weekly earnings with no cap for the first 6 weeks; Maternity Allowance is paid by DWP and is capped at £194.32 from week one, so it can be worth materially less than SMP over the 39 weeks. The self-employed amount is not a single figure — it depends on Class 2 contributions, and someone with gaps can land near £27 a week rather than £194.32, which is why checking the Class 2 record before claiming is worth real money. The two-tier nature of the £27 route is also missed: 14 weeks, not 39, and only if you did unpaid work for a spouse's or civil partner's business. Finally, Maternity Allowance reduces Universal Credit pound for pound, so for a household on UC the net gain can be nil — but it still protects the National Insurance record.",
+  "used": []
+ },
+ {
+  "id": "cold-weather-payment-2026-27",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-01",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Cold Weather Payment: £25 per Cold Week",
+  "official_page": "https://www.gov.uk/cold-weather-payment",
+  "figures": [
+   {
+    "value": "£25",
+    "what": "paid for each 7-day period of very cold weather",
+    "source": "https://www.gov.uk/cold-weather-payment",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "zero degrees Celsius or below over 7 consecutive days",
+    "what": "the trigger — an average temperature recorded as, or forecast to be, at or below freezing for 7 days running at your local weather station",
+    "source": "https://www.gov.uk/cold-weather-payment",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "1 November 2026 to 31 March 2027",
+    "what": "the scheme season",
+    "source": "https://www.gov.uk/cold-weather-payment",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "England, Wales and Northern Ireland. Scotland is excluded — Scottish households get the annual Winter Heating Payment instead, paid regardless of the weather.",
+   "who": "People receiving Pension Credit; income-related Employment and Support Allowance in the work-related activity group or support group, or in neither group but with a severe or enhanced disability premium, a pensioner premium, a disabled child or a child under 5 living with them; Universal Credit where the claimant and any partner are not employed or gainfully self-employed and either has limited capability for work or has a child under 5, or where the claim includes a disabled child amount regardless of work; and Support for Mortgage Interest where treated as receiving a qualifying benefit.",
+   "excluded": "Anyone living in Scotland. Anyone not on one of those four benefits — so most low-income working households, and anyone on Housing Benefit or Council Tax Reduction alone, get nothing. Universal Credit claimants (or their partners) who are employed or gainfully self-employed, unless they have limited capability for work, a child under 5, or a disabled child amount. Income-related ESA claimants in neither group with none of the listed premiums or children. It is tied to your local weather station, so a cold spell in your town that does not average zero over 7 full days triggers nothing.",
+   "from_when": "1 November 2026",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim — it is paid automatically into the account that receives your benefit. You should report a change if you have a baby or a child under 5 comes to live with you, because that can make you eligible."
+  },
+  "notes": "The thing readers get wrong is thinking this is paid for a cold winter. It is not. It needs a SEVEN consecutive day average at or below zero at the weather station linked to your postcode — a sharp two-day freeze pays nothing, and neighbouring postcodes can get different answers. Check the postcode checker on GOV.UK rather than guessing. Scotland must never be told to look for this: Winter Heating Payment there is a fixed annual sum, paid whether it is cold or not. Northern Ireland uses a separate checker. The action a reader can actually take is not claiming the £25 — it is making sure DWP knows about a new baby or a child under 5 in the household, and making sure a Pension Credit entitlement is actually claimed, because Pension Credit is the gateway.",
+  "used": []
+ },
+ {
+  "id": "budgeting-advance-universal-credit",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Budgeting Advance: Interest-Free Help With Unexpected Costs",
+  "official_page": "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs",
+  "figures": [
+   {
+    "value": "£348",
+    "what": "maximum Budgeting Advance if you are single",
+    "source": "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£464",
+    "what": "maximum if you are part of a couple",
+    "source": "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£812",
+    "what": "maximum if you have children",
+    "source": "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100",
+    "what": "the smallest advance you can get",
+    "source": "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£2,600 (£3,600 for couples)",
+    "what": "the most you can have earned in the past 6 months and still qualify",
+    "source": "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "24 months",
+    "what": "the repayment period, taken from Universal Credit payments starting with the next one",
+    "source": "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (England, Scotland and Wales). Northern Ireland runs its own Universal Credit advances through nidirect.",
+   "who": "Universal Credit claimants who need money for an unexpected cost and who have either been on Universal Credit, Employment and Support Allowance or Pension Credit for 6 months or more, or need the money to help start a new job or stay in work.",
+   "excluded": "Anyone who earned more than £2,600 in the past 6 months, or £3,600 as a couple. Anyone who has not finished repaying a previous Budgeting Advance — you can only hold one at a time. Anyone who has been on Universal Credit for less than 6 months and is not using the money to start or keep a job. It is not a grant: every pound comes back out of future Universal Credit payments, so it reduces your monthly award for up to 24 months.",
+   "from_when": "Amounts as published on GOV.UK on 17 November 2026",
+   "automatic": false,
+   "how_to_claim": "Ask through your Universal Credit online journal or call the Universal Credit helpline; a work coach decides"
+  },
+  "notes": "The headline is that it is interest-free, and that is the real value against a doorstep or high-cost lender — but it is a LOAN, not support, and that is the part people miss. The repayment is deducted at source for up to 24 months, which makes an already tight monthly award tighter. Two further traps. First, the £812 figure needs children in the claim, not just a partner. Second, the 6-month earnings test is cumulative over the whole half year, so someone who worked briefly and stopped can be refused. Do not confuse this with a Budgeting Loan, which is the older Social Fund loan for people on legacy benefits such as Pension Credit or income-related ESA rather than Universal Credit — and note Scotland also has the Scottish Welfare Fund crisis grants, which are grants rather than loans and are claimed from the council.",
+  "used": []
+ },
+ {
+  "id": "disabled-facilities-grant",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Disabled Facilities Grant for Home Adaptations",
+  "official_page": "https://www.gov.uk/disabled-facilities-grants",
+  "figures": [
+   {
+    "value": "up to £30,000",
+    "what": "maximum Disabled Facilities Grant in England",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "up to £36,000",
+    "what": "maximum in Wales",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "up to £25,000",
+    "what": "maximum in Northern Ireland",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£6,000",
+    "what": "the savings level above which household savings are taken into account in the means test",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "5 years",
+    "what": "the period within which a council may require a landlord to let the property to another disabled person if the tenant moves out",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "England, Wales and Northern Ireland. Scotland does not have Disabled Facilities Grants at all — adaptations there are arranged through the council or housing association under separate Scottish schemes.",
+   "who": "Disabled people, or someone living with them, who need the home adapted — widening doors, ramps, a stairlift, a downstairs bathroom, improved heating or access to rooms. Applications go to the local council, which must be satisfied the work is necessary, appropriate and reasonably practicable. Some councils pay more than the statutory maximum.",
+   "excluded": "Anyone living in Scotland — there is no Disabled Facilities Grant there. Most applicants are means-tested on household income and on savings over £6,000, so a household with means may get only a contribution, or nothing, and has to pay towards the cost. There are two important carve-outs from the means test: disabled children under 18 get a grant without their parents' income being counted, and landlords get a grant without their income and savings being counted. Work already started or finished before the council approves the grant is normally not funded.",
+   "from_when": "Maximum amounts as published on GOV.UK on 17 November 2026",
+   "automatic": false,
+   "how_to_claim": "Apply to your local council; the council arranges an assessment, usually by an occupational therapist, before approving the work"
+  },
+  "notes": "Three nations, three different ceilings, and Scotland is simply not in the scheme — getting that wrong sends a reader to a dead end. The most valuable fact for families is the children's carve-out: for a disabled child under 18 the parents' income and savings are not tested at all, so households that assume they earn too much are often entitled to the full amount. Landlords are in the same position, which matters for private tenants whose landlord will not pay for adaptations. Two practical traps: the grant is approved before the work, not after, so paying for a stairlift first usually forfeits it; and the £30,000 England figure is a statutory maximum, not an entitlement — many councils top it up under their own discretionary housing assistance policies, so always ask what local top-up exists. A referral to the council's occupational therapy service is the real first step, because the assessment drives what the grant will cover.",
+  "used": []
+ },
+ {
+  "id": "child-trust-fund-maturing-and-tracing",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-06-30",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Unclaimed Child Trust Funds and the Free HMRC Tracing Service",
+  "official_page": "https://www.gov.uk/child-trust-funds/find-a-child-trust-fund",
+  "figures": [
+   {
+    "value": "more than £1.6 billion",
+    "what": "total value of matured Child Trust Funds sitting unclaimed",
+    "source": "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "more than 750,000",
+    "what": "number of unclaimed matured accounts",
+    "source": "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "about £2,200",
+    "what": "average value of an unclaimed account",
+    "source": "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "16 or over",
+    "what": "the age at which you can use the HMRC tool to trace your own Child Trust Fund",
+    "source": "https://www.gov.uk/child-trust-funds/find-a-child-trust-fund",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "within 7 weeks",
+    "what": "how long HMRC usually takes to reply to an online tracing request; postal requests take longer, and you should chase after 9 weeks",
+    "source": "https://www.gov.uk/child-trust-funds/find-a-child-trust-fund",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (HMRC administers Child Trust Funds across the UK)",
+   "who": "Young adults who were children when Child Trust Funds were running and never claimed the matured account, and parents or guardians of a child still under 18 who have lost track of the provider. The HMRC tracing service is free and tells you which provider holds the account.",
+   "excluded": "The tool cannot be used to find a Junior ISA — only a Child Trust Fund. A parent or guardian can use it only while the child is under 18; after that only the account holder can apply. You cannot save the form and come back to it, so you need your National Insurance number before you start. HMRC does not pay out the money — it only names the provider, and you must then claim from that provider. Children born outside the Child Trust Fund years have no account to find.",
+   "from_when": "Figures from the HMRC and HM Treasury news story published 29 June 2026",
+   "automatic": false,
+   "how_to_claim": "Use the free Find a Child Trust Fund tool on GOV.UK with your National Insurance number, or the free Share Foundation service at findctf.sharefound.org. HMRC posts the provider's details. If nothing arrives within 9 weeks, write to Charities, Savings and International 1, HMRC, BX9 1AU, quoting any reference number."
+  },
+  "notes": "This is the easiest unclaimed money in the UK and the average is not small — around £2,200 a head across more than 750,000 people. The one warning worth shouting is that the search is FREE from HMRC and free from the Share Foundation: a trade in paid tracing services exists and takes a cut of an account you could have found yourself with a National Insurance number and ten minutes. Second point: HMRC gives you the provider's name, not the money, so finding the account is step one of two — the provider then has its own identity checks. Third: the tool will not find a Junior ISA, which is where many of these funds were later transferred, so if the provider says the CTF was moved, follow it to the Junior ISA provider rather than starting again. Note the editor's notes on the same GOV.UK story describe the total as hundreds of millions, which contradicts the £1.6 billion headline figure on the page — cite the headline figure and the URL, and recheck when HMRC next updates it.",
+  "used": []
+ },
+ {
+  "id": "section-75-consumer-credit-act-claims",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-11-17",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Section 75: Your Credit Card Company Is Liable Too",
+  "official_page": "https://www.legislation.gov.uk/ukpga/1974/39/section/75",
+  "figures": [
+   {
+    "value": "over £100",
+    "what": "the lower limit — section 75(3)(b) excludes a claim relating to a single item with a cash price not exceeding £100",
+    "source": "https://www.legislation.gov.uk/ukpga/1974/39/section/75",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£30,000",
+    "what": "the upper limit — section 75(3)(b) excludes a claim relating to a single item with a cash price of more than £30,000",
+    "source": "https://www.legislation.gov.uk/ukpga/1974/39/section/75",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "jointly and severally liable",
+    "what": "the effect of section 75(1): the creditor is liable alongside the supplier for misrepresentation or breach of contract, so you can claim the whole amount from the lender",
+    "source": "https://www.legislation.gov.uk/ukpga/1974/39/section/75",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (Consumer Credit Act 1974)",
+   "who": "A debtor under a debtor-creditor-supplier agreement falling within section 12(b) or (c) of the Act — in practice a credit card, store card or point-of-sale credit purchase — who has a claim against the supplier for misrepresentation or breach of contract. The debtor has the same claim against the creditor, who is jointly and severally liable with the supplier.",
+   "excluded": "Claims under a non-commercial agreement. Claims relating to any single item with a cash price not exceeding £100, or more than £30,000 — so a £95 item and a £40,000 item are both outside section 75. Certain running-account credit agreements under section 75(3)(c), where payments fall in periods of no more than three months (if not secured on land) and the whole credit is repayable in a single payment per period — charge cards of that kind are outside it. Debit cards are not covered at all, because there is no credit agreement; and a payment made through a third-party intermediary rather than directly to the supplier can break the debtor-creditor-supplier link.",
+   "from_when": "In force; Consumer Credit Act 1974",
+   "automatic": false,
+   "how_to_claim": "Claim in writing to the card issuer or lender. If refused, complain to the firm and then to the Financial Ombudsman Service."
+  },
+  "notes": "The statutory wording trips people up both ways. The limits bite on the cash price of the SINGLE ITEM, not on what you actually put on the card — so a £3,000 sofa bought with a £50 deposit on a credit card and the rest in cash is still covered in full, because the item price is over £100 and under £30,000. Equally, buying ten £60 items in one £600 transaction is not covered, because each single item is under the limit. Debit cards get nothing under section 75 — the route there is chargeback, which is a card scheme rule rather than a legal right, is time-limited, and gives no claim against the lender. Section 75 has no fixed deadline of its own and runs for as long as the underlying contract claim does, which is why it still works against a retailer or airline that has gone bust. Section 75A, a separate provision, covers linked loans above £30,000 on different conditions.",
+  "used": []
+ },
+ {
+  "id": "directors-loan-account-s455-charge-nine-month-rule",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Director's Loan Account: the Nine-Month Rule and the s455 Charge",
+  "official_page": "https://www.gov.uk/directors-loans/you-owe-your-company-money",
+  "figures": [
+   {
+    "value": "9 months",
+    "what": "period after the end of the company's Corporation Tax accounting period within which an overdrawn director's loan must be repaid to avoid the charge",
+    "source": "https://www.gov.uk/directors-loans/you-owe-your-company-money",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "35.75%",
+    "what": "CTA 2010 s455 Corporation Tax rate on an unrepaid loan, for loans made on or after 6 April 2026 (it tracks the dividend upper rate in ITA 2007 s8(2))",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm61505",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "33.75%",
+    "what": "s455 rate for loans made on or after 6 April 2022 and before 6 April 2026 - still the only rate shown on the public guidance page",
+    "source": "https://www.gov.uk/directors-loans/you-owe-your-company-money",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "32.5%",
+    "what": "s455 rate for loans made from 6 April 2016 to 5 April 2022",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm61505",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "25%",
+    "what": "s455 rate for loans made up to 5 April 2016",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm61505",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£10,000",
+    "what": "amount owed at any time in the year above which the loan is also a benefit in kind on the director personally, with Class 1 NICs due and the loan reported on the director's Self Assessment return",
+    "source": "https://www.gov.uk/directors-loans/you-owe-your-company-money",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£5,000 / 30 days",
+    "what": "bed-and-breakfasting rule: for a loan over £5,000, the charge still applies if another loan of £5,000 or more is taken up to 30 days before or after repaying it",
+    "source": "https://www.gov.uk/directors-loans/you-owe-your-company-money",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£15,000",
+    "what": "loans over this amount: the charge applies if another loan was arranged when the original was repaid, with no 30-day let-out",
+    "source": "https://www.gov.uk/directors-loans/you-owe-your-company-money",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (Corporation Tax is not devolved; the same rule applies in England, Scotland, Wales and Northern Ireland)",
+   "who": "Close companies that lend money to, or advance money to, a participator or an associate of a participator - in practice an owner-director who takes money out of the company other than as salary, dividend or expense reimbursement. The company, not the director, pays the s455 tax.",
+   "excluded": "The charge does NOT catch: a company that is not a close company when the loan is made; money drawn and properly recorded as salary through RTI payroll or as a lawfully declared dividend; reimbursed business expenses; a director's loan account that is in credit (the company owes the director); and any loan fully repaid, released or written off within 9 months of the accounting period end. Separately, the £10,000 benefit-in-kind charge does not bite where total loans stayed at £10,000 or below throughout the tax year, or where the director paid the company interest at or above HMRC's official rate. Note a written-off loan escapes s455 but is taxed on the director as a distribution instead - it is not a free way out.",
+   "from_when": "s455 has applied for decades; the 35.75% rate applies to loans made on or after 6 April 2026",
+   "automatic": false,
+   "how_to_claim": "Nothing to claim - the company self-assesses. Report the loan on the CT600A supplementary pages of the Company Tax Return and pay the s455 tax with the Corporation Tax for the period. Once the loan is repaid, the company reclaims the s455 tax under CTA 2010 s458, but it cannot be reclaimed until 9 months and one day after the end of the accounting period in which the repayment happened - so the cash sits with HMRC for a long time."
+  },
+  "notes": "The number people get wrong: the 9 months runs from the COMPANY year end, not the tax year end, and not from when the money was taken. The public guidance page at gov.uk/directors-loans still shows 33.75% as the top rate; HMRC's own Company Taxation Manual CTM61505 states the rate rose to 35.75% for loans made on or after 6 April 2026. Use the manual figure for a loan made in 2026-27 and expect the guidance page to catch up. Interest is charged on the s455 tax until it is paid or the loan is repaid, and that interest is never refundable even when the s455 tax itself is. Repaying on 31 December and re-borrowing on 5 January does not work - that is exactly what the 30-day rule is for. No Scottish or Welsh variation: devolved income tax rates do not touch the s455 charge, though a director's own dividend or write-off tax will follow their own residence rates.",
+  "used": []
+ },
+ {
+  "id": "staff-annual-function-exemption-150-per-head",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Staff Christmas Party: the £150 a Head Exemption",
+  "official_page": "https://www.gov.uk/expenses-benefits-social-functions-parties/whats-exempt",
+  "figures": [
+   {
+    "value": "£150",
+    "what": "maximum cost per person for an annual staff function to be exempt from tax and NICs (ITEPA 2003 s264)",
+    "source": "https://www.gov.uk/expenses-benefits-social-functions-parties/whats-exempt",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£150",
+    "what": "combined per-head limit where an employer holds more than one annual event in the year - the total of all events must not exceed it",
+    "source": "https://www.gov.uk/expenses-benefits-social-functions-parties/whats-exempt",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "Employers putting on an annual social function - a Christmas party, summer barbecue or equivalent, including a virtual or online party. The event must be annual, must be open to all employees, and must cost £150 or less per person attending. A one-director company counts: the director is an employee.",
+   "excluded": "The exemption does NOT cover: a one-off event that is not annual (a staff celebration of winning a contract, a leaving do, a birthday); an event open only to directors or to a selected group rather than all staff (separate departmental or site parties are fine so long as every employee can attend one of them); and anything provided under a salary sacrifice arrangement, which must be reported regardless. It does not apply to self-employed sole traders or partners entertaining themselves - they have no employment to exempt. And it gives no relief for entertaining customers or suppliers.",
+   "from_when": "ITEPA 2003 s264; the £150 figure has been unchanged since 2003",
+   "automatic": true,
+   "how_to_claim": "No claim and no reporting if the conditions are met. If they are not, the employer reports the full cost per head on form P11D (or payrolls the benefit) and pays Class 1A NICs - or covers it for staff through a PAYE Settlement Agreement."
+  },
+  "notes": "The trap, in HMRC's own words at EIM21690: 'The figure of £150 is not an allowance.' Spend £151 a head and the WHOLE £151 is taxable, not the £1 over. Cost per head is the total cost of the event divided by everyone who attended, including non-employee guests, and it includes VAT plus any transport or overnight accommodation laid on so people can get there. So if partners come, dividing by heads can actually help you. Where there are two events and the combined total is over £150, HMRC lets you apply the £150 to whichever combination of events uses it best and taxes the rest. This is separate from the trivial benefits exemption - a party is not a trivial benefit, and the two do not stack on the same spend. No Scottish or Welsh difference: s264 is a UK-wide exemption, so nothing is taxed and devolved rates never come into it.",
+  "used": []
+ },
+ {
+  "id": "pre-trading-expenditure-seven-year-rule",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Pre-Trading Expenses: the Seven-Year Rule",
+  "official_page": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim46351",
+  "figures": [
+   {
+    "value": "7 years",
+    "what": "period before the trade, profession or vocation starts within which qualifying revenue expenditure can be relieved",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim46351",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "Sole traders, partners and companies that incurred revenue expenses before the business began trading. ITTOIA 2005 s57 for income tax; CTA 2009 s61 for companies. The expense is treated as if it were incurred on the first day of trading and deducted in that first period.",
+   "excluded": "The seven-year rule does NOT give relief for: capital expenditure (no deduction at all under these rules - plant and machinery goes through capital allowances instead, where CAA 2001 s12 treats pre-trading capital spend as incurred on the day trading starts); the advance purchase of trading stock, which is relieved when it is sold, not when it is bought; anything that will already be deductible in a post-commencement period, such as rent paid in advance; and anything that would NOT have been deductible if the trade had already been running - so it fails the wholly and exclusively test, it fails here too. Client entertaining, fines and personal costs are still disallowed no matter when they were paid.",
+   "from_when": "ITTOIA 2005 s57 / CTA 2009 s61, long-standing",
+   "automatic": false,
+   "how_to_claim": "Include the expenditure in the accounts or tax computation for the first period of trading, as if it had been spent on day one. There is no separate claim form - but if the first return has already been filed without it, amend that return rather than putting the spend in a later year."
+  },
+  "notes": "The thing clients get wrong: they assume anything spent before they registered is lost, and they throw the receipts away. Seven years is generous - a laptop, a website, market research, professional fees, insurance, phone and travel from years before the first invoice can all land in the first period. But it only works if you can prove it, which is why this pairs with the record-keeping rule. Two further traps: the expense must have been incurred for the business that actually started, and the seven years run back from COMMENCEMENT of trading, which is not the date of incorporation and not the date HMRC was told. Setting up - writing the business plan - is not itself trading. No Scottish or Welsh variation in what qualifies; the deduction is a UK-wide income or corporation tax computation rule, though a Scottish taxpayer's saving will be at Scottish income tax rates and a company's at the Corporation Tax rate.",
+  "used": []
+ },
+ {
+  "id": "business-records-retention-and-failure-to-keep-penalty",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "How Long to Keep Business Records, and the Penalty if You Do Not",
+  "official_page": "https://www.gov.uk/self-employed-records/how-long-to-keep-your-records",
+  "figures": [
+   {
+    "value": "5 years",
+    "what": "minimum period after the 31 January filing deadline for which a self-employed person must keep records (TMA 1970 s12B: the fifth anniversary of the 31 January following the tax year)",
+    "source": "https://www.gov.uk/self-employed-records/how-long-to-keep-your-records",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£3,000",
+    "what": "maximum penalty per failure to keep or preserve adequate records, under TMA 1970 s12B(5)",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf211",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "1 year",
+    "what": "minimum retention period for someone NOT carrying on a business - the first anniversary of the 31 January following the tax year (TMA 1970 s12B(1)(b))",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf211",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "15 months",
+    "what": "retention period from the date of sending the return, where a return is filed more than 4 years after the deadline",
+    "source": "https://www.gov.uk/self-employed-records/how-long-to-keep-your-records",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (TMA 1970 applies across the UK)",
+   "who": "Anyone who files a Self Assessment return. The five-year rule applies to a person carrying on a trade, profession or business - and HMRC's SALF211 is explicit that for a business the five-year limit covers ALL records, not only the business ones.",
+   "excluded": "The five-year rule does NOT apply to someone with no trade, profession or business - an employee or pensioner filing only because of, say, dividends keeps records for just one year after the 31 January deadline. But the shorter period is overridden if HMRC opens an enquiry or can still open one: records must then be kept until the enquiry is closed by a final closure notice. Nothing here excludes you from the separate Companies House and Corporation Tax record rules, which run for 6 years from the end of the accounting period, or VAT records, which run for 6 years.",
+   "from_when": "TMA 1970 s12B, long-standing",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim. Keep the records - paper or digital, HMRC accepts scanned copies. If records are lost, stolen or destroyed and cannot be replaced, file using estimated or provisional figures and tell HMRC on the return which you have used; provisional figures must be followed up with the real ones."
+  },
+  "notes": "The miscount: five years from the FILING DEADLINE, not five years from the tax year or from when you filed. Records for 2025-26 (deadline 31 January 2027) must be kept until at least the end of January 2032. The £3,000 is per failure, and HMRC's manual wording is 'up to' - it is a maximum, rarely charged in full, and in practice the worse outcome is losing a deduction you cannot evidence. Note the separate point in the box above: a return filed more than four years late only needs records kept for 15 months afterwards, which sounds generous until you remember the late-filing penalties. Making Tax Digital for Income Tax changes HOW records are kept (digitally, quarterly) for those in scope but not how long. No Scottish or Welsh variation - record-keeping and the penalty are reserved UK tax administration, even for a Scottish taxpayer paying Scottish rates.",
+  "used": []
+ },
+ {
+  "id": "new-state-pension-qualifying-years-and-forecast",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "State Pension: Qualifying Years and How to Check Your Forecast",
+  "official_page": "https://www.gov.uk/new-state-pension",
+  "figures": [
+   {
+    "value": "10 qualifying years",
+    "what": "minimum National Insurance record needed to get any new State Pension at all",
+    "source": "https://www.gov.uk/new-state-pension",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "35 qualifying years",
+    "what": "years needed for the full rate of new State Pension, where the NI record started after April 2016",
+    "source": "https://www.gov.uk/new-state-pension/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£241.30 a week",
+    "what": "full rate of the new State Pension for 2026 to 2027",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2026-to-2027/proposed-benefit-and-pension-rates-2026-to-2027",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£184.90 a week",
+    "what": "basic State Pension (Category A or B) for 2026 to 2027, the old system rate",
+    "source": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2026-to-2027/proposed-benefit-and-pension-rates-2026-to-2027",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide and reserved - the State Pension is not devolved to Scotland, Wales or Northern Ireland",
+   "who": "Men born on or after 6 April 1951 and women born on or after 6 April 1953, claiming at State Pension age. Qualifying years come from years of paid National Insurance, from NI credits (unemployment, illness, caring for a child or a relative), and from voluntary contributions.",
+   "excluded": "The new State Pension does NOT apply to a man born before 6 April 1951 or a woman born before 6 April 1953 - they are on the old basic State Pension, with any Additional State Pension, and the 35-year test does not apply to them. Fewer than 10 qualifying years means no new State Pension at all, not a reduced one. And 35 years is NOT a guarantee of the full rate for everyone: HMRC and DWP confirm that where the NI record began before April 2016 and the person was contracted out of the additional State Pension, they will usually need MORE than 35 years. Nobody gets the full rate simply by reaching 35 years on a pre-2016 record.",
+   "from_when": "new State Pension rules apply from 6 April 2016; rates shown are 2026 to 2027",
+   "automatic": false,
+   "how_to_claim": "Check the forecast and the NI record free at https://www.gov.uk/check-state-pension - it shows the number of qualifying years so far, which years are incomplete, and the forecast amount. The pension itself must be claimed; it is not paid automatically on reaching State Pension age."
+  },
+  "notes": "This is the January question behind 'should I pay voluntary NI?' - and the forecast is the only honest way to answer it, because paying for a gap year is wasted money if the person is already on track for the full rate, or if they have fewer than 10 years and will not reach 10. Two things people get wrong: 35 years is the figure for a record that STARTED after April 2016, so anyone with a contracted-out pre-2016 history should read the Starting Amount on their own forecast rather than counting years; and NI credits count as qualifying years without a penny being paid, so a parent claiming Child Benefit or a carer may have years they did not know about. The £241.30 is the full new State Pension for 2026-27; the old basic rate of £184.90 is a different pension, not a reduced version of the same one. Same rules and same amounts in Scotland, Wales and Northern Ireland.",
+  "used": []
+ },
+ {
+  "id": "ordinary-commuting-and-temporary-workplace-24-month-rule",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Business Travel or Commuting: the 24-Month Rule",
+  "official_page": "https://www.gov.uk/guidance/ordinary-commuting-and-private-travel-490-chapter-3",
+  "figures": [
+   {
+    "value": "24 months",
+    "what": "length of continuous work at one place beyond which it stops being a temporary workplace and becomes a permanent one, so travel there is ordinary commuting with no relief",
+    "source": "https://www.gov.uk/guidance/ordinary-commuting-and-private-travel-490-chapter-3",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "40%",
+    "what": "proportion of working time at a place that makes the work there 'to a significant extent' - both this and the 24-month test must be met before the place becomes permanent",
+    "source": "https://www.gov.uk/guidance/ordinary-commuting-and-private-travel-490-chapter-3",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "80%",
+    "what": "fixed-term appointment test: attending a place for more than this share of the likely employment period, at 40% or more of working time, also makes it a permanent workplace",
+    "source": "https://www.gov.uk/guidance/ordinary-commuting-and-private-travel-490-chapter-3",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (ITEPA 2003 ss337-339; HMRC booklet 490 chapter 3)",
+   "who": "Employees and directors travelling to a temporary workplace - a place attended for a limited duration or temporary purpose. Relief covers the full cost of that travel, and the employer can reimburse it tax-free or the employee can claim relief.",
+   "excluded": "No relief for: ordinary commuting between home and a permanent workplace; travel between home and a place that is not a workplace at all; travel to another job's workplace; a site where the employee works, or expects to work, 40% or more of their time for a continuous period of more than 24 months - and crucially it becomes permanent from the moment the expectation changes, not after the 24 months have run; a fixed-term appointment caught by the 80% test; and a depot or base where the employee regularly starts work or is routinely allocated tasks, which is a permanent workplace however many sites they then drive to. HMRC is explicit that an employee's home being a workplace does not by itself make the journey from home relievable.",
+   "from_when": "ITEPA 2003, from 6 April 1998 in substance; booklet 490 is the current HMRC guidance",
+   "automatic": false,
+   "how_to_claim": "If the employer reimburses at or below the approved mileage rates or actual cost, nothing is reported. If not reimbursed, the employee claims relief - through the Self Assessment return if they file one, otherwise by a P87 claim to HMRC, which can go back the current tax year plus the 4 previous years."
+  },
+  "notes": "Two tests, not one, and people apply only the 24 months. Both the 40% of working time and the more-than-24-months conditions must be met before a site turns permanent - fail either and the workplace can still be temporary, so a two-day-a-week site visited for three years may well still qualify. The sharper trap runs the other way: relief stops as soon as it is EXPECTED that the period will exceed 24 months, so a contractor on a 'rolling' 18-month site that is clearly going to run for three years loses relief from the point the expectation changed, and a retrospective claim for the first 24 months is wrong. Driving to a depot to pick up a van is commuting, not business travel. Mileage reimbursement rates are a separate matter from whether the journey qualifies at all - this rule decides the latter. No Scottish or Welsh variation in the rules; the value of unreimbursed relief follows the taxpayer's own rates, so a Scottish intermediate or higher rate taxpayer gets relief at Scottish rates.",
+  "used": []
+ },
+ {
+  "id": "employee-homeworking-tax-relief-withdrawn-april-2026",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Working From Home Tax Relief Has Gone for Employees",
+  "official_page": "https://www.gov.uk/tax-relief-for-employees/working-at-home",
+  "figures": [
+   {
+    "value": "6 April 2026",
+    "what": "date from which employees can no longer claim tax relief for unreimbursed additional household costs of working from home",
+    "source": "https://www.gov.uk/government/publications/income-tax-removal-of-the-tax-relief-for-additional-homeworking-expenses/removal-of-tax-relief-on-non-reimbursed-homeworking-expenses",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "4 previous tax years",
+    "what": "how far back a claim can still be made for years before the withdrawal",
+    "source": "https://www.gov.uk/tax-relief-for-employees/working-at-home",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£6 a week",
+    "what": "the flat rate that could be claimed without receipts for earlier years, and still the amount an employer may reimburse tax-free",
+    "source": "https://www.gov.uk/expenses-and-benefits-homeworking/homeworking-expenses-and-benefits-that-are-exempt-from-tax",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£26 a month",
+    "what": "the monthly equivalent an employer can pay a monthly-paid homeworking employee tax and NIC free, with no evidence of actual cost",
+    "source": "https://www.gov.uk/expenses-and-benefits-homeworking/homeworking-expenses-and-benefits-that-are-exempt-from-tax",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "around 300,000",
+    "what": "individuals HMRC expects the withdrawal to affect",
+    "source": "https://www.gov.uk/government/publications/income-tax-removal-of-the-tax-relief-for-additional-homeworking-expenses/removal-of-tax-relief-on-non-reimbursed-homeworking-expenses",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (ITEPA 2003; new s360B inserted into Part 4 Chapter 11)",
+   "who": "Employees and directors who have to work from home and were not reimbursed by their employer. For 2026-27 onwards they can no longer claim; for 2022-23 to 2025-26 they still can, if they met the old conditions.",
+   "excluded": "The withdrawal does NOT affect: employers reimbursing homeworking household costs, which stays tax and NIC free at £6 a week or £26 a month under the s316A exemption where there is a homeworking arrangement and the employee works from home regularly; the self-employed, who continue to deduct use-of-home costs either on the simplified flat rate or by apportionment; or employer-provided equipment and services where private use is insignificant. And the relief it removes was never available to anyone who CHOSE to work from home - HMRC's guidance is blunt that there is no claim where the contract allows home working, or where the office exists but was full on the day.",
+   "from_when": "6 April 2026 (tax year 2026-27 onwards)",
+   "automatic": false,
+   "how_to_claim": "For 2025-26 and the three years before it, claim through the Self Assessment return or a P87 claim. For 2026-27 there is nothing to claim: the route is to ask the employer to reimburse instead, within the £6 a week / £26 a month exemption."
+  },
+  "notes": "This is the single most common January question that now has a different answer from last year. The £6 a week claim is dead for 2026-27 but alive for the four earlier years, and a backdated claim for 2022-23 must reach HMRC by 5 April 2027 before that year falls out of time - so this January is the last practical window for it. Do not confuse the two £6s: the employee DEDUCTION has gone, the employer REIMBURSEMENT exemption has not. Also note the relief was always worth only tax at the claimant's rate - £6 a week claimed at 20% was about £62 a year, not £312 - which is why the figure clients quote from social media is usually wrong by a factor of five. Scottish and Welsh taxpayers: the relief that has been withdrawn was given at their own income tax rates, so a Scottish higher or advanced rate taxpayer loses slightly more than an English one; the employer exemption amounts are identical across the UK.",
+  "used": []
+ },
+ {
+  "id": "corporation-tax-telling-hmrc-company-active-three-months",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Telling HMRC Your Company Is Active: the Three-Month Deadline",
+  "official_page": "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
+  "figures": [
+   {
+    "value": "3 months",
+    "what": "period from the start of the company's tax accounting period within which a company that is now active must tell HMRC",
+    "source": "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100",
+    "what": "expected annual Corporation Tax liability at or below which HMRC may treat a club or unincorporated organisation run for its members' benefit as dormant",
+    "source": "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "Any limited company within the charge to Corporation Tax that has become active. HMRC treats a company as active when it is carrying on a trade or profession, or receiving any other income - including earning bank interest or managing investments, not only selling things.",
+   "excluded": "A company HMRC accepts as dormant does NOT have to file a Company Tax Return - but only once it has actually told HMRC and HMRC has confirmed it. A company that simply stops trading and says nothing is still required to submit a Corporation Tax return and faces penalties if it does not. Pre-trading setup steps - writing a business plan, choosing a name - do not by themselves make a company active. Being dormant for Corporation Tax does not exempt the company from Companies House obligations: dormant accounts and a confirmation statement are still due.",
+   "from_when": "current HMRC guidance; the notification duty sits in CTA 2009 / FA 2004 s55",
+   "automatic": false,
+   "how_to_claim": "Register for Corporation Tax online through the company's HMRC business tax account within 3 months, giving the date business activity started, the company's registered details and the accounting reference date. To go dormant, tell HMRC separately - do not assume filing dormant accounts at Companies House tells HMRC anything."
+  },
+  "notes": "Two registers, two bodies, two sets of forms - and that is the whole misunderstanding. Companies House knows the company exists; HMRC does not know it has started trading until told, and a notice to deliver a return arriving two years later is how most people find out. The answer to 'I set up a company but never traded, do I have to file?' is: at Companies House yes, dormant accounts are still due; at HMRC only if HMRC has not been told it is dormant, in which case a return is required. HMRC's test for active is wider than clients expect - interest on a company bank account is 'other income' and can take a supposedly dormant company back into charge. Same rules in England, Scotland, Wales and Northern Ireland: Corporation Tax is not devolved, and Companies House covers the whole UK including Northern Ireland.",
   "used": []
  }
 ]
