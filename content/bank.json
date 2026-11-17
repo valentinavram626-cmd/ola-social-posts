@@ -8473,7 +8473,7 @@
  {
   "id": "directors-loan-account-s455-charge-nine-month-rule",
   "verified": "2026-11-17",
-  "recheck_after": "2027-04-10",
+  "recheck_after": "2026-11-17",
   "brands": [
    "en",
    "ola"
@@ -8538,7 +8538,7 @@
    "automatic": false,
    "how_to_claim": "Nothing to claim - the company self-assesses. Report the loan on the CT600A supplementary pages of the Company Tax Return and pay the s455 tax with the Corporation Tax for the period. Once the loan is repaid, the company reclaims the s455 tax under CTA 2010 s458, but it cannot be reclaimed until 9 months and one day after the end of the accounting period in which the repayment happened - so the cash sits with HMRC for a long time."
   },
-  "notes": "The number people get wrong: the 9 months runs from the COMPANY year end, not the tax year end, and not from when the money was taken. The public guidance page at gov.uk/directors-loans still shows 33.75% as the top rate; HMRC's own Company Taxation Manual CTM61505 states the rate rose to 35.75% for loans made on or after 6 April 2026. Use the manual figure for a loan made in 2026-27 and expect the guidance page to catch up. Interest is charged on the s455 tax until it is paid or the loan is repaid, and that interest is never refundable even when the s455 tax itself is. Repaying on 31 December and re-borrowing on 5 January does not work - that is exactly what the 30-day rule is for. No Scottish or Welsh variation: devolved income tax rates do not touch the s455 charge, though a director's own dividend or write-off tax will follow their own residence rates.",
+  "notes": "HELD — NOT AVAILABLE TO PUBLISH. Two primary sources disagree on the s455 rate: HMRC manual CTM61505 states 35.75% for loans made on or after 6 April 2026 (tracking the dividend upper rate), while the public gov.uk/directors-loans page still shows 33.75%. recheck_after is deliberately set to today so this entry fails the availability test and cannot be used until the conflict is resolved. The 9-month deadline, the GBP 10,000 benefit-in-kind threshold and the bed-and-breakfasting rules in this entry are all sound and uncontested - it is ONLY the rate that is in doubt. Resolve by asking HMRC or by waiting for the guidance page to catch up with the manual, then set a real recheck date. The number people get wrong: the 9 months runs from the COMPANY year end, not the tax year end, and not from when the money was taken. The public guidance page at gov.uk/directors-loans still shows 33.75% as the top rate; HMRC's own Company Taxation Manual CTM61505 states the rate rose to 35.75% for loans made on or after 6 April 2026. Use the manual figure for a loan made in 2026-27 and expect the guidance page to catch up. Interest is charged on the s455 tax until it is paid or the loan is repaid, and that interest is never refundable even when the s455 tax itself is. Repaying on 31 December and re-borrowing on 5 January does not work - that is exactly what the 30-day rule is for. No Scottish or Welsh variation: devolved income tax rates do not touch the s455 charge, though a director's own dividend or write-off tax will follow their own residence rates.",
   "used": []
  },
  {
