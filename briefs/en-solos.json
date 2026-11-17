@@ -1,0 +1,206 @@
+[
+ {
+  "id": "iht-nil-rate-band-and-residence-nil-rate-band",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Inheritance Tax: nil rate band, residence nil rate band and the taper",
+  "official_page": "https://www.gov.uk/guidance/inheritance-tax-residence-nil-rate-band",
+  "figures": [
+   {
+    "value": "£325,000",
+    "what": "Inheritance Tax nil-rate band for 2026-27",
+    "source": "https://www.gov.uk/government/publications/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026-to-5-april-2028",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£175,000",
+    "what": "Residence nil-rate band for 2026-27",
+    "source": "https://www.gov.uk/government/publications/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026-to-5-april-2028",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£2,000,000",
+    "what": "Taper threshold: the net estate value above which the residence nil-rate band starts to be withdrawn",
+    "source": "https://www.gov.uk/government/publications/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026-to-5-april-2028",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£1 for every £2",
+    "what": "Rate at which the residence nil-rate band is reduced for estate value above the £2 million taper threshold",
+    "source": "https://www.gov.uk/guidance/inheritance-tax-residence-nil-rate-band",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "5 April 2030",
+    "what": "End of the period for which all three thresholds are frozen rather than rising with CPI",
+    "source": "https://www.gov.uk/government/publications/inheritance-tax-nil-rate-band-and-residence-nil-rate-bands-from-6-april-2028/inheritance-tax-nil-rate-band-residence-nil-rate-band-from-6-april-2028",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom",
+   "who": "The nil-rate band applies to every estate and to chargeable lifetime transfers. The residence nil-rate band is for estates where a home the deceased owned and lived in is closely inherited by direct descendants - children, grandchildren and other lineal descendants, stepchildren, adopted children, fostered children, children for whom the deceased was appointed guardian or special guardian while under 18, and the spouses or civil partners (including widows, widowers and surviving civil partners) of those descendants.",
+   "excluded": "The residence nil-rate band is not available where no qualifying residential interest passes on death; where the home passes to anyone outside the direct-descendant list, such as nephews, nieces or siblings; where the home is left in a trust under which descendants do not become entitled at death (for example they must first reach a stated age); or on lifetime gifts and transfers into trust, which never attract it. It is withdrawn entirely once the net estate is large enough for the £1-for-£2 taper to exhaust it.",
+   "from_when": "£325,000 has applied since 6 April 2009 and £175,000 since 6 April 2020; the £2 million taper threshold has applied since the residence nil-rate band was introduced. All three are frozen at these levels for 2026-27 and 2027-28, and the freeze then runs on to the end of 2029-30.",
+   "automatic": false,
+   "how_to_claim": "The nil-rate band is applied automatically in the Inheritance Tax calculation. The residence nil-rate band must be claimed by the personal representatives - form IHT435 alongside the IHT400, with form IHT436 to claim any unused residence nil-rate band transferred from a late spouse or civil partner."
+  },
+  "notes": "UK-wide: Inheritance Tax is not devolved, so the same thresholds apply in England, Scotland, Wales and Northern Ireland. Commonly confused: the residence nil-rate band is not automatic - it is lost if nobody claims it, and a claim is needed even where the estate owes no tax so that the unused amount can be transferred later. Estate value for the taper is total assets less debts, before deducting spouse exemption or business and agricultural property relief, so a large estate can lose the residence nil-rate band even though it pays no tax. Also commonly confused: unused nil-rate band and unused residence nil-rate band are both transferable between spouses and civil partners as percentages, which is where the often-quoted '£1 million for a couple' comes from - that figure is not itself a threshold. Separately, a £2.5 million allowance applies to 100% agricultural and business property relief - a different £2m-plus figure that is easy to mix up with the taper threshold.",
+  "used": []
+ },
+ {
+  "id": "lifetime-isa-bonus-and-withdrawal-charge",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Lifetime ISA: the 25% bonus and the withdrawal charge",
+  "official_page": "https://www.gov.uk/lifetime-isa",
+  "figures": [
+   {
+    "value": "£4,000",
+    "what": "Maximum you can pay into a Lifetime ISA each tax year",
+    "source": "https://www.gov.uk/lifetime-isa",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "25%",
+    "what": "Government bonus added to what you pay in",
+    "source": "https://www.gov.uk/lifetime-isa",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£1,000",
+    "what": "Maximum government bonus per year",
+    "source": "https://www.gov.uk/lifetime-isa",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£20,000",
+    "what": "Overall ISA allowance for 2026-27, which the £4,000 Lifetime ISA payment counts towards",
+    "source": "https://www.gov.uk/lifetime-isa/summary",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "25%",
+    "what": "Withdrawal charge on cash or assets taken out for any non-qualifying reason, including transfer to another type of ISA before age 60 - charged on the whole amount withdrawn, bonus included",
+    "source": "https://www.gov.uk/lifetime-isa/withdrawing-money-from-your-lifetime-isa",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "20%",
+    "what": "Reduced withdrawal charge where the funds are used to buy a first home costing more than the £450,000 price cap",
+    "source": "https://www.gov.uk/lifetime-isa/withdrawing-money-from-your-lifetime-isa",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "29 October 2026",
+    "what": "Date from which the charge on withdrawals for a first home above the price cap was reduced from 25% to 20%",
+    "source": "https://www.gov.uk/government/publications/lifetime-isa-withdrawal-charge/reduce-lifetime-isa-withdrawal-charge-for-properties-over-the-property-price-cap",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£450,000",
+    "what": "First home property price cap - no withdrawal charge at or below this price",
+    "source": "https://www.gov.uk/lifetime-isa/withdrawing-money-from-your-lifetime-isa",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "18 to 39",
+    "what": "Age range in which you can open a Lifetime ISA (18 or over but under 40)",
+    "source": "https://www.gov.uk/lifetime-isa/who-can-open-a-lifetime-isa",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "age 50",
+    "what": "Age after which you can no longer pay in or earn the bonus, although the account stays open and keeps growing",
+    "source": "https://www.gov.uk/lifetime-isa",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "12 months",
+    "what": "Minimum period from the first payment into the account before a charge-free first-home withdrawal can be made",
+    "source": "https://www.gov.uk/lifetime-isa/withdrawing-money-from-your-lifetime-isa",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "age 60",
+    "what": "Age from which you can withdraw for any reason with no charge",
+    "source": "https://www.gov.uk/lifetime-isa/withdrawing-money-from-your-lifetime-isa",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom",
+   "who": "Individuals aged 18 or over but under 40 who are resident in the UK, or who are members of the armed forces or Crown servants serving overseas, or the spouse or civil partner of one. Funds can be used charge-free for a first home at or below £450,000 bought with a mortgage through a conveyancer or solicitor at least 12 months after the first payment, or for any purpose from age 60.",
+   "excluded": "Anyone under 18, and anyone aged 40 or over, cannot open one. Non-UK residents cannot open or continue paying in, unless they are armed forces, a Crown servant, or the spouse or civil partner of one. Nobody can pay in or earn the bonus after age 50. The charge-free first-home route is not available to anyone who owns or has ever owned a home, nor to a cash purchase without a mortgage, nor within 12 months of the first payment. Buy-to-let and second properties do not qualify.",
+   "from_when": "The Lifetime ISA, the £4,000 limit, the 25% bonus and the 25% withdrawal charge have applied since 6 April 2017. The reduced 20% charge for first homes above the £450,000 cap has effect from 29 October 2026.",
+   "automatic": false,
+   "how_to_claim": "Open an account with an ISA manager (bank, building society or investment provider) and make the first payment before age 40. The provider claims the 25% bonus from HMRC and adds it to the account - there is no separate claim by the saver. A first-home withdrawal is made by the provider to the conveyancer or solicitor."
+  },
+  "notes": "UK-wide: ISAs are not devolved, so the limits and charges are identical across England, Scotland, Wales and Northern Ireland. Commonly confused: the 25% withdrawal charge is not just the bonus being taken back - it is 25% of the whole amount withdrawn, bonus and growth included, so an unauthorised withdrawal leaves you with less than you paid in. From 29 October 2026 that penalty is softened to 20% only where the money is used to buy a first home above the £450,000 cap, which returns the bonus without a further loss; the 25% charge still applies to every other non-qualifying withdrawal. No charge arises on withdrawal from age 60, on terminal illness with less than 12 months to live, or on death. The £450,000 cap is a single UK-wide figure, not a regional one, and it is the purchase price, not the mortgage amount. The £4,000 sits inside the £20,000 overall ISA allowance, it is not on top of it.",
+  "used": []
+ },
+ {
+  "id": "starting-rate-for-savings",
+  "verified": "2026-11-14",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en",
+   "ola",
+   "bham"
+  ],
+  "title": "Starting Rate For Savings",
+  "official_page": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+  "figures": [
+   {
+    "value": "£5,000",
+    "what": "maximum starting rate for savings band — interest within it is not taxed",
+    "source": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "less than £17,570",
+    "what": "other taxable income (excluding savings interest and dividends) you must have to get the starting rate for savings",
+    "source": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£1 for every £1",
+    "what": "reduction in the starting rate band for each £1 of other income above the £12,570 Personal Allowance",
+    "source": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£12,570",
+    "what": "Personal Allowance, set against wages, pensions and other income first",
+    "source": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£1,000 basic rate, £500 higher rate, £0 additional rate",
+    "what": "Personal Savings Allowance, which can be used on top of the starting rate for savings",
+    "source": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free",
+    "read": "2026-11-14"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Individuals whose other taxable income — not counting savings interest or dividends — is less than £17,570. The Personal Allowance is used first against wages, pensions and other income; every £1 of other income above the Personal Allowance then reduces the £5,000 starting rate band by £1, so the full £5,000 is available only where other income does not exceed the Personal Allowance.",
+   "excluded": "Anyone whose other taxable income (excluding savings interest and dividends) is £17,570 or more gets no starting rate band at all, because £17,570 less the £12,570 Personal Allowance exhausts the £5,000. Anyone with other income between £12,570 and £17,570 gets only part of the band, not the full £5,000. Dividend income and savings interest do not count as 'other income' for the test and so cannot create entitlement.",
+   "from_when": "6 April 2026",
+   "automatic": true,
+   "how_to_claim": "Normally applied automatically — HMRC usually works it out from information from banks, building societies and (for those in Self Assessment) the tax return, and adjusts the tax code where relevant. No separate claim is needed, though tax already deducted in error is reclaimed from HMRC."
+  },
+  "notes": "The £5,000 is a band, not an allowance in its own right: it is only ever available in full to someone whose non-savings, non-dividend income is at or below the Personal Allowance, and it tapers £1 for £1 above that. HMRC's worked example: £16,000 of wages is £3,430 above the Personal Allowance, leaving a £1,570 starting rate band. It stacks with the Personal Savings Allowance. The gov.uk page does not pin the figures to a named tax year. Forward-looking point for content: tax on savings income rises by 2 percentage points across all bands from April 2027 (basic 20% to 22%, higher 40% to 42%, additional 45% to 47%); no change to the £5,000 starting rate band was announced alongside it, and the 2026/27 savings rates are unchanged.",
+  "used": []
+ }
+]

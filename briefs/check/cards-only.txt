@@ -1,0 +1,491 @@
+=== POST ola-petrecere-craciun-150-ro
+  CARD 1 [hook]
+    kicker: Petrecerea anuală · gov.uk
+    h1: Masa de Crăciun a firmei: <em>£150</em> de persoană.
+    say: Ai angajați și organizezi masa de Crăciun? Dacă stai în limita de <cur>£</cur>150 de persoană, nu se plătește impozit, nu se plătesc contribuții și nu ai nimic de declarat la HMRC.
+  CARD 2 [step]
+    step: O limită, nu o alocație
+    fig: £150
+    say: Costul total se împarte la toți cei prezenți, invitații inclusiv, și intră și TVA, transportul și cazarea. La <cur>£</cur>151 de persoană se impozitează toată suma, nu doar diferența.
+    note: Dacă ai mai multe evenimente anuale, cele £150 se împart între ele.
+  CARD 3 [step]
+    step: Unde nu se aplică
+    fig: Excluse
+    say: Un eveniment ocazional, cum e o plecare din firmă, nu e un eveniment anual. Nici o petrecere doar pentru directori. Evenimentul trebuie să fie deschis tuturor angajaților.
+    note: Dacă ești self-employed fără angajați, nu ai o angajare de scutit.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Vrei să știi dacă petrecerea ta se încadrează?
+    say: Trimite-ne costul total și numărul de persoane prezente, iar noi calculăm suma pe cap de om. Prima consultație este gratuită, 30 de minute.
+    disc: Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+=== POST ola-petrecere-craciun-150-en
+  CARD 1 [hook]
+    kicker: Staff annual function · gov.uk
+    h1: Your staff party is exempt up to <em>£150</em> a head.
+    say: Put on an annual event that every employee can attend and keep it within <cur>£</cur>150 per person, and there is no tax, no National Insurance and nothing to report.
+  CARD 2 [step]
+    step: A limit, not an allowance
+    fig: £150
+    say: Divide the full cost, VAT and any transport or overnight stay included, by everyone who turned up, guests as well. At <cur>£</cur>151 a head the whole amount is taxable, not the excess.
+    note: The £150 is a combined figure across all your annual events in the year.
+  CARD 3 [step]
+    step: Where it does not apply
+    fig: Excluded
+    say: A one-off celebration or a leaving do is not an annual event, and neither is a party for the board alone. Entertaining customers or suppliers gets no relief at all.
+    note: Anything given under salary sacrifice is reported whatever it cost.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Not sure your event stays inside the limit?
+    say: Send us the total cost and the number of people attending and we will work out the figure per head with you. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST ola-cadouri-mici-50-ro
+  CARD 1 [hook]
+    kicker: Trivial benefits · HMRC
+    h1: Un cadou pentru un angajat, scutit până la <em>£50</em>.
+    say: Dacă un cadou costă cel mult <cur>£</cur>50, nu se impozitează, nu intră pe P11D și nu se plătesc contribuții. HMRC numește asta trivial benefits, iar regula e în vigoare din 6 aprilie 2016.
+  CARD 2 [step]
+    step: Dacă ești director
+    fig: £300
+    say: Într-o firmă mică în care ești director, cadourile scutite se opresc la <cur>£</cur>300 pe an fiscal, fiecare rămânând sub <cur>£</cur>50. Ține o evidență, ca să nu depășești plafonul.
+    note: Angajații obișnuiți ai aceleiași firme nu au plafonul de £300.
+  CARD 3 [step]
+    step: Ce nu intră
+    fig: Excluse
+    say: Banii și tichetele preschimbabile în bani nu intră niciodată. Nici cadoul prevăzut în contract, cel dat prin salary sacrifice sau cel oferit ca răsplată pentru munca depusă.
+    note: Un cadou de £51 se impozitează integral, nu doar cu diferența.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Pregătești cadouri pentru echipă în decembrie?
+    say: Spune-ne ce vrei să oferi și cui, iar noi verificăm dacă se încadrează și ce trebuie trecut în evidență. Prima consultație este gratuită, 30 de minute.
+    disc: Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+=== POST ola-cadouri-mici-50-en
+  CARD 1 [hook]
+    kicker: Trivial benefits · HMRC
+    h1: A gift to staff is exempt up to <em>£50</em>.
+    say: Keep a single gift at <cur>£</cur>50 or less and there is no tax, no National Insurance, no P11D entry and nothing to payroll. The exemption has applied since 6 April 2016.
+  CARD 2 [step]
+    step: If you are a director
+    fig: £300
+    say: In a close company, which covers most owner-managed businesses, exempt trivial benefits to a director stop at <cur>£</cur>300 of total cost in the tax year, with each one still capped at <cur>£</cur>50.
+    note: Rank-and-file employees of a close company are not caught by the £300 cap.
+  CARD 3 [step]
+    step: What falls outside
+    fig: Excluded
+    say: Cash and cash vouchers never qualify. Nor does anything contractual, anything under salary sacrifice, or a gift given in recognition of work the employee has done.
+    note: A £51 gift is taxable in full, not on the £1 over the limit.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Planning gifts for your team this December?
+    say: Tell us what you intend to give and to whom, and we will confirm whether it qualifies and what to record. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST ola-plata-hmrc-timp-ro
+  CARD 1 [hook]
+    kicker: Plata către HMRC · gov.uk
+    h1: Până pe <em>31 ianuarie</em> banii trebuie să ajungă la HMRC.
+    say: Nu contează ziua în care apeși trimite, ci ziua în care HMRC primește suma. Un transfer pornit prin Bacs pe 30 ianuarie ajunge prea târziu, iar penalitatea și dobânda vin automat.
+  CARD 2 [step]
+    step: Metodele rapide
+    fig: Aceeași zi
+    say: Faster Payments, aprobarea plății din aplicația băncii, CHAPS și cardul de debit online ajung în aceeași zi sau a doua zi, inclusiv în weekend. Prin Bacs durează 3 zile lucrătoare.
+    note: Referința are 11 caractere: cele 10 cifre ale UTR-ului, urmate de litera K.
+  CARD 3 [step]
+    step: Ce nu prinde termenul
+    fig: Prea lent
+    say: La Post Office nu se mai plătește deloc. Un Direct Debit care nu e deja configurat la HMRC are nevoie de 5 zile lucrătoare, deci pornit la sfârșitul lui ianuarie nu ajunge la timp.
+    note: La ghișeul băncii poți plăti doar cu un paying-in slip primit de la HMRC.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Nu știi cât ai de plătit până pe 31 ianuarie?
+    say: Trimite-ne cifrele și îți spunem suma, data și o metodă de plată care ajunge la timp. Prima consultație este gratuită, 30 de minute.
+    disc: Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+=== POST ola-plata-hmrc-timp-en
+  CARD 1 [hook]
+    kicker: Paying HMRC · gov.uk
+    h1: The money has to reach HMRC by <em>31 January</em>.
+    say: The deadline is about arrival, not departure. A Bacs payment sent on 30 January lands after the date, and late means a penalty and interest on a bill you already had the money for.
+  CARD 2 [step]
+    step: The fast routes
+    fig: Same day
+    say: Faster Payments, approving a payment inside your online bank account, CHAPS and a debit or corporate credit card online all clear the same or next day. Bacs takes three working days.
+    note: Quote the 11-character reference: your 10-digit UTR followed by the letter K.
+  CARD 3 [step]
+    step: What will not make it
+    fig: Too slow
+    say: The Post Office route has gone entirely. A Direct Debit not already set up with HMRC takes five working days, so arranging one in late January will not meet the deadline.
+    note: A bank counter only works if HMRC has already sent you a paying-in slip.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Unsure what you owe on 31 January?
+    say: Send us your figures and we will confirm the amount, the date and a payment route that arrives in time. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST ola-attendance-allowance-ro
+  CARD 1 [hook]
+    kicker: Attendance Allowance · gov.uk
+    h1: Attendance Allowance: până la <em>£114,60</em> pe săptămână.
+    say: Dacă ai ajuns la State Pension age și ai nevoie de ajutor sau de supraveghere din cauza unei boli sau a unei dizabilități, poți primi această sumă. Economiile și pensia nu se iau în calcul.
+  CARD 2 [step]
+    step: Cele două rate
+    fig: £76,70
+    say: Rata mai mică, de <cur>£</cur>76,70 pe săptămână, e pentru ajutor frecvent ziua sau supraveghere noaptea. Rata mai mare, de <cur>£</cur>114,60, e pentru ajutor și ziua și noaptea.
+    note: Trebuie să ai nevoie de acest ajutor de cel puțin 6 luni.
+  CARD 3 [step]
+    step: Cine nu o poate primi
+    fig: Excluse
+    say: În Scoția se cere Pension Age Disability Payment în locul ei. Nu se poate primi în același timp cu PIP, DLA sau Adult Disability Payment, și nu acoperă nimic din nevoile de deplasare.
+    note: Într-un cămin de îngrijire plătit de autoritatea locală, de regulă nu se acordă.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Crezi că un părinte s-ar putea încadra?
+    say: Spune-ne de ce ajutor are nevoie în fiecare zi și verificăm împreună condițiile și cum se depune cererea. Prima consultație este gratuită, 30 de minute.
+    disc: Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+=== POST ola-attendance-allowance-en
+  CARD 1 [hook]
+    kicker: Attendance Allowance · gov.uk
+    h1: Up to <em>£114.60</em> a week, and savings do not count.
+    say: Attendance Allowance goes to people who have reached State Pension age and need help looking after themselves, or supervision to stay safe. It is not means-tested.
+  CARD 2 [step]
+    step: The two rates
+    fig: £76.70
+    say: The lower rate of <cur>£</cur>76.70 a week covers frequent help in the day or supervision at night. The higher rate of <cur>£</cur>114.60 is for help or supervision needed across both day and night.
+    note: You must have needed that help for at least six months.
+  CARD 3 [step]
+    step: Who cannot claim it
+    fig: Excluded
+    say: Scotland has replaced it with Pension Age Disability Payment. It cannot be held alongside PIP, DLA or Adult Disability Payment, and it pays nothing towards mobility needs.
+    note: Usually unavailable in a care home where the council pays the fees.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Think a parent might qualify?
+    say: Describe the help they need day to day and we will check the conditions with you and talk through the claim. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST ola-cresa-fara-taxa-ro
+  CARD 1 [hook]
+    kicker: Tax-Free Childcare · gov.uk
+    h1: Statul adaugă <em>£500</em> la trei luni pentru fiecare copil.
+    say: Deschizi un cont online pentru un copil de 11 ani sau mai puțin, pui bani pentru creșă sau after-school, iar HMRC adaugă <cur>£</cur>2 la fiecare <cur>£</cur>8 pe care îi pui tu.
+  CARD 2 [step]
+    step: Cât primești
+    fig: £2.000/an
+    say: Suma adăugată se oprește la <cur>£</cur>500 la fiecare trei luni pentru fiecare copil, adică până la <cur>£</cur>2.000 pe an. Pentru un copil cu dizabilități sunt <cur>£</cur>1.000 la trei luni.
+    note: Banii se pot plăti doar către o creșă sau o bonă înscrisă în schemă.
+  CARD 3 [step]
+    step: Cine nu poate folosi schema
+    fig: Excluse
+    say: Nu se poate avea în același timp cu Universal Credit sau cu childcare vouchers. Dacă tu sau partenerul tău vă așteptați la un venit peste <cur>£</cur>100.000, familia nu se încadrează.
+    note: Fiecare părinte de 21 de ani sau peste trebuie să câștige £2.643,68 în 3 luni.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Nu știi dacă familia ta se încadrează?
+    say: Trimite-ne vârstele copiilor și venitul la care te aștepți, iar noi verificăm condițiile împreună cu tine. Prima consultație este gratuită, 30 de minute.
+    disc: Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+=== POST ola-cresa-fara-taxa-en
+  CARD 1 [hook]
+    kicker: Tax-Free Childcare · gov.uk
+    h1: HMRC adds <em>£500</em> every three months per child.
+    say: Open an online childcare account for a child aged 11 or under, pay money in, and the government adds <cur>£</cur>2 for every <cur>£</cur>8 you put towards registered childcare.
+  CARD 2 [step]
+    step: What it is worth
+    fig: £2,000/yr
+    say: The top-up is capped at <cur>£</cur>500 every three months for each child, so up to <cur>£</cur>2,000 a year. Where the child is disabled it is <cur>£</cur>1,000 a quarter, up to <cur>£</cur>4,000 a year.
+    note: The money can only be paid to a provider signed up to the scheme.
+  CARD 3 [step]
+    step: Who cannot use it
+    fig: Excluded
+    say: It cannot be held alongside Universal Credit or childcare vouchers. If you or your partner expect adjusted net income above <cur>£</cur>100,000, the household is outside the scheme.
+    note: Each parent aged 21 or over must expect to earn £2,643.68 over three months.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Not sure whether your household qualifies?
+    say: Send us your expected earnings and your children's ages and we will check the conditions with you. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST bham-disabled-facilities-grant-en
+  CARD 1 [hook]
+    kicker: Disabled Facilities Grant · gov.uk
+    h1: Your council can pay up to <em>£30,000</em> to adapt your home.
+    say: A ramp, a stairlift, wider doors, a shower you can get into downstairs. If someone in the house is disabled, the council can pay for the work.
+  CARD 2 [step]
+    step: A child under 18
+    fig: Not tested
+    say: For a disabled child under 18, the parents' income and savings are not counted at all. Families who assume they earn too much often never ask. Landlords are not income-tested either.
+    note: Everyone else is means-tested, including savings above <cur>£</cur>6,000.
+  CARD 3 [step]
+    step: Who misses out
+    fig: Too late
+    say: If you pay for the stairlift yourself before the council approves the grant, the work is normally not funded. A household with means of its own may be asked to pay a share.
+    note: The council arranges an assessment first, usually an occupational therapist.
+  CARD 4 [cta]
+    kicker: Ola Accountancy Birmingham
+    h1: Is your home hard to live in for someone in the family?
+    say: Bring your benefit letters and an idea of the work needed. We will go through the council's form with you. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST bham-council-tax-surcharge-2028-en
+  CARD 1 [hook]
+    kicker: High Value Council Tax Surcharge · gov.uk
+    h1: A new council tax surcharge starts at <em>£2 million</em>.
+    say: It was announced at the Budget on 28 October 2026 and begins in April 2028. The value that counts is the one assessed in 2026, not what the house is worth by then.
+  CARD 2 [step]
+    step: How it works
+    fig: April 2028
+    say: The surcharge is added on top of the council tax bill, not instead of it. The home stays in the band it is in now. Your council collects it on behalf of central government.
+    note: A separate 100% premium applies to homes left empty for 12 months or more.
+  CARD 3 [step]
+    step: Who is not caught
+    fig: Under £2m
+    say: Every home valued below <cur>£</cur>2 million in the 2026 assessment is outside it, which is nearly all of them. An ordinary Birmingham household pays nothing extra.
+    note: Shops and offices pay business rates, so the surcharge does not reach them.
+  CARD 4 [cta]
+    kicker: Ola Accountancy Birmingham
+    h1: Is your property anywhere near the line?
+    say: Tell us what you own and roughly what it is worth, and we will tell you whether the 2026 assessment is worth watching. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST bham-sdlt-second-property-en
+  CARD 1 [hook]
+    kicker: Stamp duty higher rates · gov.uk
+    h1: A second property adds <em>5 points</em> to every band.
+    say: If you still own another home at the end of the day you complete, stamp duty rises by five points in every band. That is not the same as five per cent of the price.
+  CARD 2 [step]
+    step: What you pay
+    fig: 5% to 17%
+    say: Each slice of the price has its own rate: 5% to <cur>£</cur>125,000, 7% to <cur>£</cur>250,000, 10% to <cur>£</cur>925,000, 15% to <cur>£</cur>1.5 million and 17% above that.
+    note: A company buying a home over <cur>£</cur>500,000 pays 17% on the whole price.
+  CARD 3 [step]
+    step: Who does not pay it
+    fig: Under £40k
+    say: Buy for under <cur>£</cur>40,000 and the higher rates do not apply. Nor do they if you are replacing the home you live in and the old one sells on or before the day you complete.
+    note: Sold the old home within 36 months? You can ask HMRC to refund the extra.
+  CARD 4 [cta]
+    kicker: Ola Accountancy Birmingham
+    h1: Buying a second property in Birmingham?
+    say: Send us the price, the completion date and what else you own. We will work the stamp duty out before you commit. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST bham-priority-services-register-en
+  CARD 1 [hook]
+    kicker: Priority Services Register · Ofgem
+    h1: Extra help from your energy supplier is <em>free</em>.
+    say: State Pension age, pregnant, young children, a disability or a long-term condition, or equipment that needs a power supply? You can ask to go on the Priority Services Register.
+  CARD 2 [step]
+    step: Two separate lists
+    fig: Two lists
+    say: Your supplier keeps one. The company that owns the pipes and wires into your street keeps another, and that is the one that counts in a power cut. One does not put you on the other.
+    note: Gas and electricity from different suppliers? That is two phone calls.
+  CARD 3 [step]
+    step: Who is left off
+    fig: Ask again
+    say: Nobody signs you up for it. Only the circumstances Ofgem lists count, and when you switch supplier you drop off and have to ask the new one. It puts no money back on your bill.
+    note: Water is not part of it. Your water company runs its own scheme.
+  CARD 4 [cta]
+    kicker: Ola Accountancy Birmingham
+    h1: Would someone in your house need help in a power cut?
+    say: Bring your energy bill into the Saltley office. We will find both companies on it and write down what to tell them. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST bham-vat-margin-second-hand-en
+  CARD 1 [hook]
+    kicker: VAT margin scheme · gov.uk
+    h1: On second-hand stock, VAT can be <em>one-sixth</em> of the margin.
+    say: You buy a sofa for <cur>£</cur>200 and sell it for <cur>£</cur>500. Under the margin scheme the VAT is one-sixth of the <cur>£</cur>300 you made, not one-sixth of the <cur>£</cur>500.
+  CARD 2 [step]
+    step: The stock book
+    fig: 6 years
+    say: Every item needs its own line: what you paid, who you bought it from, what you sold it for and the VAT at one-sixth. Keep the records six years, longer if the item is still unsold.
+    note: The sales invoice must not show VAT separately. Showing it loses the scheme.
+  CARD 3 [step]
+    step: What cannot go in
+    fig: VAT paid
+    say: You have to be VAT registered to use it at all. And if you were charged VAT when you bought the item, that item can never go through the scheme, however you sell it on.
+    note: Gold, precious stones, cars, caravans and houseboats sit outside it.
+  CARD 4 [cta]
+    kicker: Ola Accountancy Birmingham
+    h1: Selling second-hand stock in Birmingham?
+    say: Bring a month of your purchase and sales paperwork. We will tell you whether the margin scheme fits and set the stock book up. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST en-gift-aid-carry-back-en
+  CARD 1 [hook]
+    kicker: Charity donations · gov.uk
+    h1: The Gift Aid claim you cannot add after <em>31 January</em>.
+    say: You gave to charity this spring. If you paid tax at the higher rate last year but not this year, you can ask for that donation to count against last year's income instead.
+  CARD 2 [step]
+    step: Put it in on time
+    fig: 31 Jan 2027
+    say: The donation goes in box 8 on page TR 4 of your 2025-26 return. That return has to reach HMRC by 31 January 2027, or the chance to move the donation back has gone.
+    note: It is the same return you were going to send anyway.
+  CARD 3 [step]
+    step: When it cannot be done
+    fig: One chance
+    say: File without it and send a correction afterwards and HMRC cannot accept the claim, even inside the normal window for corrections. You also had to pay enough tax last year to cover it.
+    note: If you send HMRC no tax return for 2025-26, there is no return to put it in.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Did you give to charity since April?
+    say: Send us the dates and amounts, and what you earned last year, and we will tell you whether moving the donation back is worth anything. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST en-partnership-return-en
+  CARD 1 [hook]
+    kicker: Partnership tax return · gov.uk
+    h1: One late return, <em>£100</em> for every partner.
+    say: One return, one day late, four partners. That is not <cur>£</cur>100 between you. HMRC charges the <cur>£</cur>100 to every person who was a partner at any time in the year the return covers.
+  CARD 2 [step]
+    step: One return, then yours
+    fig: 31 Jan 2027
+    say: One partner is nominated to send a single return for the partnership for the year to 5 April 2026. Everyone then puts their own share on their own return, both by 31 January 2027.
+    note: Six months past the date and a second <cur>£</cur>100 lands on each partner.
+  CARD 3 [step]
+    step: Who does not file one
+    fig: Other dates
+    say: Sole traders have no partnership return to file; limited companies send a different one. If one of your partners is a company, or HMRC sent your notice to file after 31 July 2026, your dates differ.
+    note: Someone who was not a partner at any point in that period gets no penalty.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Is the partnership return still sitting there?
+    say: Send us the partnership's figures and everyone who was a partner during the year, and we will put in the one return and each partner's own. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST en-vat-penalty-points-en
+  CARD 1 [hook]
+    kicker: VAT late submission · gov.uk
+    h1: The fourth late VAT return is the <em>£200</em> one.
+    say: Each late VAT return earns you a point rather than a fine straight away. Nothing is charged until you reach the limit set by how often you file, and that is four points if you file every quarter.
+  CARD 2 [step]
+    step: Where the line sits
+    fig: £200
+    say: Two late returns if you file once a year, four if you file quarterly, five if you file monthly. At that point HMRC charges <cur>£</cur>200, and another <cur>£</cur>200 for every late return after it.
+    note: Filing on time once stops the next <cur>£</cur>200. It does not clear the points.
+  CARD 3 [step]
+    step: When no point is given
+    fig: No point
+    say: Your first return after you register for VAT earns no point, and nor does your last one after you cancel. A one-off return covering something other than a month, a quarter or a year is also free.
+    note: Periods starting on or before 31 December 2022 sit under the older surcharge rules.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: How many points are on your VAT record?
+    say: Send us your VAT registration details and your filing dates and we will tell you where you stand and what the next late return would cost. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST en-company-active-hmrc-en
+  CARD 1 [hook]
+    kicker: Corporation Tax · gov.uk
+    h1: You get <em>3 months</em> to tell HMRC the company started.
+    say: Setting the company up at Companies House does not tell HMRC anything. Once it starts trading or takes in any income, you have to register it with HMRC separately.
+  CARD 2 [step]
+    step: What counts as started
+    fig: 3 months
+    say: Active is wider than selling things. Earning interest on the company bank account or managing investments counts too. You have three months from the start of the accounting period to register.
+    note: Writing a business plan or choosing a name is not trading on its own.
+  CARD 3 [step]
+    step: If it is not trading
+    fig: Say so
+    say: A company HMRC accepts as dormant does not have to send a Company Tax Return, but only once it has actually told HMRC and HMRC has agreed. Going quiet is not the same as being dormant.
+    note: Dormant accounts and a confirmation statement are still due at Companies House.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Set up a company and never told HMRC?
+    say: Send us the company number and the date the first money came in, and we will either register it or tell HMRC it is dormant, whichever is true. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST en-pre-trading-expenses-en
+  CARD 1 [hook]
+    kicker: Expenses before you start · gov.uk
+    h1: Spending from <em>7 years</em> before day one still counts.
+    say: Most people assume anything they bought before the business existed is lost, so the receipts go in the bin. A good deal of it can go into the accounts for your first year of trading.
+  CARD 2 [step]
+    step: How it is treated
+    fig: 7 years
+    say: A website, market research, professional fees, insurance, your phone, your travel. If you paid for it in the seven years before trading started, it is treated as spent on your first day.
+    note: The seven years run back from the day trading started, not incorporation.
+  CARD 3 [step]
+    step: What does not count
+    fig: Equipment
+    say: Equipment and other big one-off items do not come off under this rule; they are claimed another way. And anything that would not be allowable in a normal trading year is not allowable here either.
+    note: Stock you bought early counts when you sell it, and client entertaining never counts.
+  CARD 4 [cta]
+    kicker: Ola Accountancy
+    h1: Still got receipts from before you started?
+    say: Send us what you spent before the first invoice went out and when you spent it, and we will work out what belongs in your first year's accounts. First consultation free, 30 minutes.
+    disc: General information. For your own situation, speak to an accountant.
+
+=== POST ola-child-trust-fund
+    kicker: Child Trust Fund · gov.uk
+    h1: Poți avea un cont uitat, în medie <em>£2.200</em>.
+    ROW: [<cur>£</cur>2.200] din peste 750.000 de conturi nerevendicate
+    ROW: [Prin HMRC] căutare gratuită, de la 16 ani
+    ROW: [Exclus] Junior ISA și cine nu are cont
+    ask: Nu știi dacă ai un Child Trust Fund pe numele tău? La biroul din Luton îți arătăm cum faci căutarea.
+
+=== POST ola-alocatie-nevazatori
+    kicker: Blind Person's Allowance · gov.uk
+    h1: Poți avea încă <em>£3.250</em> de venit fără impozit.
+    ROW: [<cur>£</cur>3.250] se adaugă la Personal Allowance
+    ROW: [Prin HMRC] o ceri tu, nu vine automat
+    ROW: [Exclus] alte dizabilități; nu este ajutor social
+    ask: Crezi că ai dreptul la Blind Person's Allowance? Verificăm condițiile împreună și facem cererea la HMRC.
+
+=== POST ola-uniforma-deducere
+    kicker: Flat rate job expenses · gov.uk
+    h1: Pentru uniforma de serviciu plătești cu <em>£12</em> mai puțin impozit.
+    ROW: [<cur>£</cur>60] scade din venitul impozabil, nu din impozit
+    ROW: [Prin HMRC] cerere online, retroactiv până la 4 ani
+    ROW: [Exclus] angajatorul plătește, sau ești self-employed
+    ask: Porți uniformă sau îți cumperi uneltele? Verificăm dacă ai dreptul la deducere și calculăm anii din urmă.
+
+=== POST bham-household-energy-payment
+    kicker: Household Energy Payment · gov.uk
+    h1: You can get <em>£100</em> towards your energy bills.
+    ROW: [<cur>£</cur>100] one payment, council tax bands A to D
+    ROW: [Automatic] for Direct Debit payers; others apply
+    ROW: [Excluded] second homes, and where the landlord pays
+    ask: If your council tax does not go out by Direct Debit, our Birmingham office will check what you must do.
+
+=== POST bham-single-person-discount
+    kicker: Single person discount · gov.uk
+    h1: Living on your own? You can take <em>25%</em> off your council tax.
+    ROW: [25% off] the whole bill, year after year
+    ROW: [You apply] to your council; it is not automatic
+    ROW: [Excluded] two adults who count — students do not
+    ask: If you are the only adult in your house, bring your bill to our Birmingham office and we will check it.
+
+=== POST bham-sure-start-grant
+    kicker: Sure Start Maternity Grant · gov.uk
+    h1: Expecting a baby and on Universal Credit? You can get <em>£500</em>.
+    ROW: [<cur>£</cur>500] paid once, and you never repay it
+    ROW: [You apply] on form SF100, signed by a midwife
+    ROW: [Excluded] most families with a child under 16
+    ask: The claim closes six months after the birth, so bring the form to our Birmingham office early.
+
+=== POST en-inheritance-nil-rate-band
+    kicker: Inheritance Tax · gov.uk
+    h1: You can leave <em>£325,000</em> before any tax is due.
+    ROW: [<cur>£</cur>175,000] more, when the home goes to descendants
+    ROW: [Claimed] the family asks for it on IHT435
+    ROW: [Excluded] homes left to siblings, nieces or nephews
+    ask: Not sure whether your home qualifies for the second allowance? Ola Accountancy will check it with you.
+
+=== POST en-lifetime-isa
+    kicker: Lifetime ISA · gov.uk
+    h1: You can get <em>£1,000</em> a year added to your savings.
+    ROW: [25%] of the <cur>£</cur>4,000 you can pay in
+    ROW: [Automatic] your provider claims it from HMRC
+    ROW: [Excluded] anyone aged 40 or over opening one
+    ask: Thinking of opening one before you turn 40? Ola Accountancy will talk the numbers through with you.
+
+=== POST en-starting-rate-savings
+    kicker: Starting rate for savings · gov.uk
+    h1: You can earn <em>£5,000</em> of interest with no tax.
+    ROW: [<cur>£</cur>5,000] in full below <cur>£</cur>12,570 of other income
+    ROW: [Automatic] HMRC works it out from your bank
+    ROW: [Excluded] other income of <cur>£</cur>17,570 or more
+    ask: Not sure whether your savings interest is taxable at all? Ola Accountancy will work it out with you.

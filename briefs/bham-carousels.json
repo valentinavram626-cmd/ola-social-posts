@@ -1,0 +1,243 @@
+[
+ {
+  "id": "disabled-facilities-grant",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Disabled Facilities Grant for Home Adaptations",
+  "official_page": "https://www.gov.uk/disabled-facilities-grants",
+  "figures": [
+   {
+    "value": "up to £30,000",
+    "what": "maximum Disabled Facilities Grant in England",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "up to £36,000",
+    "what": "maximum in Wales",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "up to £25,000",
+    "what": "maximum in Northern Ireland",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£6,000",
+    "what": "the savings level above which household savings are taken into account in the means test",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "5 years",
+    "what": "the period within which a council may require a landlord to let the property to another disabled person if the tenant moves out",
+    "source": "https://www.gov.uk/disabled-facilities-grants/what-youll-get",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "England, Wales and Northern Ireland. Scotland does not have Disabled Facilities Grants at all — adaptations there are arranged through the council or housing association under separate Scottish schemes.",
+   "who": "Disabled people, or someone living with them, who need the home adapted — widening doors, ramps, a stairlift, a downstairs bathroom, improved heating or access to rooms. Applications go to the local council, which must be satisfied the work is necessary, appropriate and reasonably practicable. Some councils pay more than the statutory maximum.",
+   "excluded": "Anyone living in Scotland — there is no Disabled Facilities Grant there. Most applicants are means-tested on household income and on savings over £6,000, so a household with means may get only a contribution, or nothing, and has to pay towards the cost. There are two important carve-outs from the means test: disabled children under 18 get a grant without their parents' income being counted, and landlords get a grant without their income and savings being counted. Work already started or finished before the council approves the grant is normally not funded.",
+   "from_when": "Maximum amounts as published on GOV.UK on 17 November 2026",
+   "automatic": false,
+   "how_to_claim": "Apply to your local council; the council arranges an assessment, usually by an occupational therapist, before approving the work"
+  },
+  "notes": "Three nations, three different ceilings, and Scotland is simply not in the scheme — getting that wrong sends a reader to a dead end. The most valuable fact for families is the children's carve-out: for a disabled child under 18 the parents' income and savings are not tested at all, so households that assume they earn too much are often entitled to the full amount. Landlords are in the same position, which matters for private tenants whose landlord will not pay for adaptations. Two practical traps: the grant is approved before the work, not after, so paying for a stairlift first usually forfeits it; and the £30,000 England figure is a statutory maximum, not an entitlement — many councils top it up under their own discretionary housing assistance policies, so always ask what local top-up exists. A referral to the council's occupational therapy service is the real first step, because the assessment drives what the grant will cover.",
+  "used": []
+ },
+ {
+  "id": "high-value-council-tax-surcharge-england-2028",
+  "verified": "2026-11-16",
+  "recheck_after": "2027-03-31",
+  "brands": [
+   "bham"
+  ],
+  "title": "High Value Council Tax Surcharge on homes worth £2 million or more in England",
+  "official_page": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge",
+  "figures": [
+   {
+    "value": "£2 million or more",
+    "what": "Value a residential property in England must reach to be in scope of the surcharge",
+    "source": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge",
+    "read": "2026-11-16"
+   },
+   {
+    "value": "2026",
+    "what": "The year in which property values are assessed for the surcharge",
+    "source": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge",
+    "read": "2026-11-16"
+   },
+   {
+    "value": "April 2028",
+    "what": "Date the surcharge takes effect",
+    "source": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge",
+    "read": "2026-11-16"
+   },
+   {
+    "value": "100%",
+    "what": "Premium applied to homes left empty for 12 months or more, confirmed at Budget 2026",
+    "source": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge",
+    "read": "2026-11-16"
+   },
+   {
+    "value": "around £400 million a year",
+    "what": "Estimated revenue from 2028-29, to support local services",
+    "source": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge",
+    "read": "2026-11-16"
+   }
+  ],
+  "scope": {
+   "nation": "England only.",
+   "who": "Owners of residential property in England valued at £2 million or more, with values assessed in 2026. The surcharge is additional to the existing Council Tax bill on the property.",
+   "excluded": "Every residential property in England valued below £2 million in the 2026 assessment is outside the surcharge, which is the overwhelming majority of homes - an ordinary Birmingham or West Midlands household is not affected. All property outside England is excluded: Scotland and Wales run their own council tax and property tax policy and are not covered, and Northern Ireland has domestic rates rather than council tax so the surcharge has no application there at all. Non-residential and commercial property is excluded, as that pays business rates rather than Council Tax. The government confirmed at Budget 2026 that there will also be a set of discounts and exemptions and a deferral scheme, but the published factsheet does not yet specify who they cover - these are to be legislated in Finance Bill 2026-27.",
+   "from_when": "April 2028. Announced at Budget 2026 on 28 October 2026 and to be legislated in Finance Bill 2026-27.",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim to be charged - local authorities will collect the surcharge on behalf of central government and are fully compensated for their administration costs. A deferral scheme, discounts and exemptions were confirmed at Budget 2026 but the detail, including how to apply, has not yet been published."
+  },
+  "notes": "Three things to get right. First, this is England only - it is not a UK property tax. Scotland and Wales set their own council tax policy and are not in scope, and Northern Ireland does not have council tax at all (it has domestic rates), so the surcharge cannot apply there. Second, it is a surcharge on top of existing Council Tax, not a replacement for it and not a reband: a property stays in its existing Council Tax band and the surcharge is added. Third, the valuation date matters more than the charge date - values are assessed in 2026 but the charge starts in April 2028, so an owner whose home is near the £2 million line should care about the 2026 assessment, not the 2028 market. The amounts actually payable, the value bands above £2 million, the deferral scheme and the list of discounts and exemptions are NOT yet in the published factsheet; only the £2 million entry threshold, the England-only scope, the April 2028 start, the 100% empty-homes premium and the £400 million revenue estimate are confirmed at primary source. Do not quote a surcharge amount until Finance Bill 2026-27 detail is published. Separately, the £100 Household Energy Payment for Council Tax bands A to D is a different England-only measure and should not be conflated with this.",
+  "used": []
+ },
+ {
+  "id": "sdlt-higher-rates-additional-dwellings",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham"
+  ],
+  "title": "SDLT higher rates for additional dwellings (second homes and buy-to-let)",
+  "official_page": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+  "figures": [
+   {
+    "value": "5 percentage points",
+    "what": "The higher-rate surcharge added to each standard residential SDLT band when the purchase means you will own more than one dwelling",
+    "source": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "5%, 7%, 10%, 15%, 17%",
+    "what": "The resulting higher rates band by band (up to £125,000; £125,001-£250,000; £250,001-£925,000; £925,001-£1.5m; above £1.5m)",
+    "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "31 October 2024",
+    "what": "Effective date from which the surcharge rose from 3% to 5%",
+    "source": "https://www.gov.uk/government/publications/stamp-duty-land-tax-increase-to-the-higher-rates-of-stamp-duty-land-tax-and-to-the-single-rate-payable-by-non-natural-persons",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "17%",
+    "what": "Single flat rate on purchases of dwellings over £500,000 by companies and other non-natural persons (up from 15% on 31 October 2024)",
+    "source": "https://www.gov.uk/government/publications/stamp-duty-land-tax-increase-to-the-higher-rates-of-stamp-duty-land-tax-and-to-the-single-rate-payable-by-non-natural-persons",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£40,000",
+    "what": "Consideration threshold - purchases below £40,000 are outside the higher rates, and an interest worth under £40,000 in another dwelling is ignored",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/stamp-duty-land-tax-manual/sdltm09800",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "36 months",
+    "what": "Window for selling the former only or main residence to avoid, or reclaim, the higher rates",
+    "source": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "England and Northern Ireland",
+   "who": "Individuals who, at the end of the day of the transaction, own or are treated as owning a major interest in two or more dwellings and are not replacing their only or main residence; and companies and other non-natural persons buying residential property, including on their first purchase.",
+   "excluded": "Buyers in Scotland (Land and Buildings Transaction Tax, with its own Additional Dwelling Supplement) and Wales (Land Transaction Tax higher rates). Also outside the higher rates: purchases where the chargeable consideration is under £40,000; caravans, mobile homes and houseboats; buyers replacing their only or main residence where the previous one is disposed of before or on the day of completion; and buyers who hold only a small share in a recently inherited property.",
+   "from_when": "The 5% surcharge applies to transactions with an effective date on or after 31 October 2024 (it was 3% before that) and is unchanged for 2026-27.",
+   "automatic": false,
+   "how_to_claim": "There is nothing to claim to pay the surcharge - it is reported and paid on the SDLT return within 14 days of completion. Where the higher rates were paid because the former main residence had not yet sold, a refund can be applied for from HMRC once that property is sold within the 36-month window."
+  },
+  "notes": "Scotland and Wales have their own equivalents, at their own rates - never state this as UK-wide. Commonly confused: the test is applied to a spouse or civil partner as well as to the buyer, so one spouse buying alone is caught if the other would be caught, unless the couple are legally or permanently separated; transfers of interests between spouses or civil partners living together are disregarded. Also often misstated: the surcharge is 5 percentage points on top of the whole standard rate ladder, not a flat 5% of the price, and it applies even where the buyer's other property is abroad. Companies pay the 17% flat rate on dwellings over £500,000 unless a relief applies.",
+  "used": []
+ },
+ {
+  "id": "priority-services-register-energy-2026",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham"
+  ],
+  "title": "Priority Services Register: free extra help from your energy supplier",
+  "official_page": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/join-your-suppliers-priority-services-register",
+  "figures": [
+   {
+    "value": "Free",
+    "what": "Cost of joining - Ofgem describes the Priority Services Register as 'free extra help and support'",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/join-your-suppliers-priority-services-register",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "Two registers",
+    "what": "Your energy supplier and your network operator (pipes and wires) each keep a separate Priority Services Register",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/join-your-suppliers-priority-services-register",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (England, Scotland and Wales) for the energy Priority Services Register",
+   "who": "Energy customers in any of the circumstances Ofgem lists: you have reached State Pension age; you are pregnant or have young children; you struggle with speaking or reading English; you have a disability or long-term medical condition, including mental health conditions, conditions affecting sight, hearing or sense of smell, or a condition needing medical equipment with a power supply; or your circumstances have recently changed, for example after an injury or hospital stay, a bereavement or losing your job. Support includes priority help in an emergency, advance notice of planned power cuts where possible, an identification and password scheme so you can check a caller or doorstep visitor is genuine, nominating a family member, carer or trusted person to receive your bills and communications, help moving a prepayment meter you cannot safely reach to top up, regular meter readings, bills and account information in large print or braille, and help getting your gas supply reconnected.",
+   "excluded": "It is not open to people in none of the listed circumstances - Ofgem sets out who can join rather than a formal exclusion list, so there is no automatic entitlement. Critically, it does NOT cross over: membership does not transfer when you switch supplier, so you are excluded from the new supplier's register until you ask to join it; if different companies supply your gas and electricity you must contact each separately and are not on the other's register; and your supplier's register does not put you on your network operator's register. It gives no money off your bill - it is a service register, not a discount or grant. Water is not covered by it: water customers need their water company's own scheme.",
+   "from_when": "Support starts once your supplier or network operator has recorded your needs; there is no fixed date or annual cycle. Some entries are long-term, others are intended to cover a short period after a change in your life.",
+   "automatic": false,
+   "how_to_claim": "Not automatic - contact your energy supplier and your network operator directly, online, in writing or by phone, giving as much detail as you can about your needs; contact details are on their websites and on your energy bills. Repeat the request with each new supplier after a switch, and with each company if gas and electricity come from different suppliers. For water, contact your water company separately."
+  },
+  "notes": "Two traps worth leading with: it is per-company, so switching supplier silently drops you off and dual-fuel-from-two-suppliers means two phone calls; and the gas and electricity NETWORK operator register (the one that actually matters in a power cut) is separate from the supplier's. Water is a genuinely different scheme, not part of this one: Ofgem's PSR page does not mention water at all. Ofwat's own 'Priority Services' page confirms water companies in England and Wales offer special assistance to customers who need extra help because of age, health or disability, covering bills and literature in large print, disc or braille or read aloud over the phone, advance warning of planned supply interruptions for people with special medical needs such as home kidney dialysis, a doorstep password scheme, moving a hard-to-reach meter and help with meter readings - but that page sets out no formal eligibility criteria, does not state that the scheme is free and does not confirm a mandatory register, so do not quote water eligibility rules as settled. Nations: Ofgem regulates the Great Britain energy market, so England, Scotland and Wales. I could not confirm the Northern Ireland arrangement at primary source within the deadline - nidirect's 'Care registers' page would not load (302 redirect loop) - so do not state this as UK-wide, and check NI separately before any 'ola' or UK-wide use. Commonly confused with: the Warm Home Discount and Winter Fuel Payment (money off, means-tested or age-based, nothing to do with the PSR), WaterSure and water company social tariffs (bill caps, separate application), and the Medical Equipment Register some network operators run for life-supporting equipment.",
+  "used": []
+ },
+ {
+  "id": "vat-margin-scheme-second-hand-goods",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en",
+   "ola",
+   "bham"
+  ],
+  "title": "VAT margin scheme for second-hand goods",
+  "official_page": "https://www.gov.uk/vat-margin-schemes",
+  "figures": [
+   {
+    "value": "16.67% (one-sixth)",
+    "what": "Rate of VAT applied to the margin (the difference between what you paid for the item and what you sold it for) rather than to the full selling price",
+    "source": "https://www.gov.uk/vat-margin-schemes",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "one-sixth (16.67%)",
+    "what": "The VAT due figure that must be recorded against each sale in the stock book",
+    "source": "https://www.gov.uk/vat-margin-schemes/keeping-records",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "6 years",
+    "what": "Retention period for margin scheme VAT records; where stock bought more than 6 years ago is still to be sold under the scheme, the records must be kept until the item is sold",
+    "source": "https://www.gov.uk/vat-margin-schemes/keeping-records",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "A VAT-registered business selling eligible second-hand goods, works of art, antiques or collectors' items on which it was not charged VAT when it bought them, and which keeps the required stock book and purchase and sales invoices.",
+   "excluded": "Any item bought on which VAT was charged cannot go into the scheme, nor can precious metals, investment gold or precious stones. A business that does not meet all the scheme's requirements - in particular the stock book and invoicing conditions - must account for VAT on the full selling price of each item rather than on the margin. Separate rules apply to, and so are out of scope of the general scheme, second-hand vehicles, horses and ponies, houseboats and caravans, unredeemed pawns, auctioneers, agents, hire purchase and part-exchange goods, joint purchases and shares, imports and exports, and goods bought and sold between Northern Ireland and the EU; high volume low value stock may instead use the Global Accounting Scheme.",
+   "from_when": "Available now, with no start date to wait for - the scheme can be adopted at any time simply by keeping the correct records and reporting the sales on the VAT Return.",
+   "automatic": false,
+   "how_to_claim": "Optional, and self-applied: choose to use it, keep a stock book recording for each purchase a stock number in numerical sequence, the purchase date, the purchase invoice number, the purchase price, the seller's name and an item description, and for each sale the sale date, sales invoice number, selling price or method of disposal, buyer's name, the margin and the VAT due at one-sixth. Obtain a purchase invoice and issue a sales invoice showing the total price without VAT shown separately, the stock book number and one of the margin scheme phrases - 'margin scheme - second hand goods', 'margin scheme - works of art' or 'margin scheme - collectors' items and antiques'. Report the sales on the VAT Return. Keep the records for 6 years.",
+   "notes_on_source": "VAT Notices 718 and 718/1 are marked [Withdrawn] on GOV.UK as at 2026-11-15; the live primary guidance is the GOV.UK margin schemes guide and its sub-pages, supported by HMRC manual VATMARG."
+  },
+  "notes": "The two points most often got wrong: VAT is one-sixth of the margin, not one-sixth of the selling price, and the sales invoice must not show VAT separately - showing it defeats the scheme. An item bought with VAT charged on it can never be sold under the margin scheme, which catches businesses buying from other VAT-registered traders outside the scheme. Commonly confused with the Flat Rate Scheme and with the Global Accounting Scheme: Global Accounting is a variant of the margin scheme for high volume, low price items where individual stock-book tracking is impractical. Second-hand vehicles are the biggest carve-out and have their own dedicated guidance, so motor traders should not be pointed at the general scheme. Nation point: VAT is UK-wide, but the Northern Ireland Protocol/Windsor Framework affects goods, and HMRC publishes separate guidance for using a margin scheme when buying and selling goods between Northern Ireland and the EU - a Northern Ireland trader dealing with the EU must read that page, not just the general one. Note also that bad debt relief interacts with this scheme: relief is capped at the VAT on the margin (VAT Notice 700/18 section 5.7).",
+  "used": []
+ }
+]

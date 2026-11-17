@@ -1,0 +1,157 @@
+[
+ {
+  "id": "child-trust-fund-maturing-and-tracing",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-06-30",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Unclaimed Child Trust Funds and the Free HMRC Tracing Service",
+  "official_page": "https://www.gov.uk/child-trust-funds/find-a-child-trust-fund",
+  "figures": [
+   {
+    "value": "more than £1.6 billion",
+    "what": "total value of matured Child Trust Funds sitting unclaimed",
+    "source": "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "more than 750,000",
+    "what": "number of unclaimed matured accounts",
+    "source": "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "about £2,200",
+    "what": "average value of an unclaimed account",
+    "source": "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "16 or over",
+    "what": "the age at which you can use the HMRC tool to trace your own Child Trust Fund",
+    "source": "https://www.gov.uk/child-trust-funds/find-a-child-trust-fund",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "within 7 weeks",
+    "what": "how long HMRC usually takes to reply to an online tracing request; postal requests take longer, and you should chase after 9 weeks",
+    "source": "https://www.gov.uk/child-trust-funds/find-a-child-trust-fund",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (HMRC administers Child Trust Funds across the UK)",
+   "who": "Young adults who were children when Child Trust Funds were running and never claimed the matured account, and parents or guardians of a child still under 18 who have lost track of the provider. The HMRC tracing service is free and tells you which provider holds the account.",
+   "excluded": "The tool cannot be used to find a Junior ISA — only a Child Trust Fund. A parent or guardian can use it only while the child is under 18; after that only the account holder can apply. You cannot save the form and come back to it, so you need your National Insurance number before you start. HMRC does not pay out the money — it only names the provider, and you must then claim from that provider. Children born outside the Child Trust Fund years have no account to find.",
+   "from_when": "Figures from the HMRC and HM Treasury news story published 29 June 2026",
+   "automatic": false,
+   "how_to_claim": "Use the free Find a Child Trust Fund tool on GOV.UK with your National Insurance number, or the free Share Foundation service at findctf.sharefound.org. HMRC posts the provider's details. If nothing arrives within 9 weeks, write to Charities, Savings and International 1, HMRC, BX9 1AU, quoting any reference number."
+  },
+  "notes": "This is the easiest unclaimed money in the UK and the average is not small — around £2,200 a head across more than 750,000 people. The one warning worth shouting is that the search is FREE from HMRC and free from the Share Foundation: a trade in paid tracing services exists and takes a cut of an account you could have found yourself with a National Insurance number and ten minutes. Second point: HMRC gives you the provider's name, not the money, so finding the account is step one of two — the provider then has its own identity checks. Third: the tool will not find a Junior ISA, which is where many of these funds were later transferred, so if the provider says the CTF was moved, follow it to the Junior ISA provider rather than starting again. Note the editor's notes on the same GOV.UK story describe the total as hundreds of millions, which contradicts the £1.6 billion headline figure on the page — cite the headline figure and the URL, and recheck when HMRC next updates it.",
+  "used": []
+ },
+ {
+  "id": "blind-persons-allowance-2026-27",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Blind Person's Allowance: £3,250 of extra tax-free income",
+  "official_page": "https://www.gov.uk/blind-persons-allowance",
+  "figures": [
+   {
+    "value": "£3,250",
+    "what": "Blind Person's Allowance for the 2026 to 2027 tax year, added on top of the Personal Allowance",
+    "source": "https://www.gov.uk/blind-persons-allowance/what-youll-get",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom",
+   "who": "In England and Wales: you are registered with your local council as blind or severely sight impaired AND you hold a certificate confirming blindness or severe sight impairment, or a similar document from your doctor. In Scotland and Northern Ireland: you cannot do work for which eyesight is essential. The allowance is an Income Tax allowance, so it is worth something only where there is tax to relieve - but it can be transferred where there is not.",
+   "excluded": "In England and Wales, anyone not registered with their local council as blind or severely sight impaired, or without the certifying document - being sight impaired / partially sighted but not registered as severely sight impaired does not qualify. In Scotland and Northern Ireland, anyone who can still do work for which eyesight is essential. It is not a disability benefit, so people with other disabilities do not qualify. Anyone who neither pays Income Tax nor has an eligible spouse or civil partner to transfer it to gets no cash benefit from it.",
+   "from_when": "£3,250 applies for the 2026-27 tax year (6 April 2026 to 5 April 2027).",
+   "automatic": false,
+   "how_to_claim": "Not automatic - you must contact HMRC to claim it (HMRC Income Tax helpline, Monday to Friday 8am to 6pm except bank holidays). If you do not pay tax, or do not earn enough to use all of it, you can transfer the unused allowance to your spouse or civil partner, who must also be eligible for an allowance to receive it (HMRC form 575(T))."
+  },
+  "notes": "Nations: the allowance itself is UK-wide at the same £3,250, but the eligibility TEST differs - England and Wales turn on local-council registration as blind / severely sight impaired, while Scotland and Northern Ireland turn on being unable to do work for which eyesight is essential. Do not state a single test UK-wide. Because it is an allowance and not a benefit, it is not means-tested and does not affect benefit entitlement. Commonly confused with: Personal Independence Payment / Adult Disability Payment, Attendance Allowance, the Marriage Allowance and the Married Couple's Allowance (a separate figure uprated by the same statutory instrument), and the Severe Sight Impairment register itself, which is a local-authority list and not a tax claim. Worth flagging to clients: HMRC does not apply it unless asked, so long-registered clients are often years out of pocket.",
+  "used": []
+ },
+ {
+  "id": "flat-rate-job-expenses-uniforms-tools",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Flat Rate Tax Relief for Uniforms, Work Clothing and Tools",
+  "official_page": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+  "figures": [
+   {
+    "value": "£60",
+    "what": "default annual flat rate expense if your job is not on HMRC's industry list",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£12",
+    "what": "actual tax saved on a £60 flat rate claim at the 20% basic rate — HMRC's own worked example",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£125",
+    "what": "annual flat rate for nurses, midwives and certain other listed health roles",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£80",
+    "what": "annual flat rate for uniformed fire fighters and fire officers",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£720",
+    "what": "annual flat rate for cabin crew",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£1,022",
+    "what": "annual flat rate for pilots, co-pilots, helicopter pilots and uniformed flight deck crew",
+    "source": "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£2,500",
+    "what": "maximum total job expenses per tax year that can be claimed on form P87; above this you must file a Self Assessment return instead",
+    "source": "https://www.gov.uk/guidance/send-an-income-tax-relief-claim-for-job-expenses-by-post-or-phone",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "4 tax years",
+    "what": "how far back a claim can go — it must be made within 4 years from the end of the tax year claimed for",
+    "source": "https://www.gov.uk/guidance/send-an-income-tax-relief-claim-for-job-expenses-by-post-or-phone",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (Income Tax relief; the cash value differs because Scottish and Welsh taxpayers relieve at their own rates)",
+   "who": "Employees taxed under PAYE who use their own money to buy, clean, repair or replace a uniform, specialist work clothing or tools they need for the job and use only for work. No receipts are needed for a flat rate claim.",
+   "excluded": "Anyone whose employer repays the full cost or provides the item instead gets nothing — and if the employer pays part, you deduct that part first. Anyone who paid no Income Tax in the year claimed for gets nothing, because relief cannot exceed the tax paid. The self-employed are outside this scheme entirely (they deduct actual costs as business expenses). A claim over £2,500 in a year cannot use form P87. Ordinary everyday clothing worn to work is never allowable.",
+   "from_when": "Flat rates are set per tax year and apply for 2026-27 (6 April 2026 to 5 April 2027)",
+   "automatic": false,
+   "how_to_claim": "Check the industry table on the GOV.UK guidance page for your job's rate (£60 if not listed), subtract any employer contribution, then claim online through the HMRC job expenses service, by post on form P87, or in box 18 of SA102 if you file Self Assessment"
+  },
+  "notes": "The commonest misunderstanding is that a £60 flat rate puts £60 in your pocket. It does not — it reduces taxable pay by £60, so a basic rate taxpayer saves £12 and a higher rate taxpayer £24. HMRC states the £12 figure itself. Second trap: once HMRC puts the allowance in your tax code it usually keeps rolling forward, so the win is really in the backdated years, not the current one. Third trap: only form P87 is accepted for postal claims — HMRC rejects claims sent on anything else. Flat rates are UK-wide but the saving is bigger for Scottish taxpayers in the higher bands.",
+  "used": []
+ }
+]

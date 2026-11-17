@@ -1,0 +1,222 @@
+[
+ {
+  "id": "gift-aid-carry-back-claim-original-return-31-january",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-02-07",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Gift Aid Carry Back: Must Be in the Original Return by 31 January 2027",
+  "official_page": "https://www.gov.uk/government/publications/charitable-giving-hs342-self-assessment-helpsheet/hs342-charitable-giving-2026",
+  "figures": [
+   {
+    "value": "31 January 2027",
+    "what": "Filing date for the 2025-26 return; a Gift Aid donation made on or after 6 April 2026 can only be carried back into the 2025-26 return if that return reaches HMRC before the filing date",
+    "source": "https://www.gov.uk/government/publications/charitable-giving-hs342-self-assessment-helpsheet/hs342-charitable-giving-2026",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "Box 8, page TR 4",
+    "what": "Where the carry-back amount goes on the SA100 for 2025-26",
+    "source": "https://www.gov.uk/government/publications/charitable-giving-hs342-self-assessment-helpsheet/hs342-charitable-giving-2026",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide. Scottish and Welsh taxpayers can carry back in the same way, but the relief follows their own rates and bands.",
+   "who": "Self Assessment taxpayers who have made Gift Aid donations since 6 April 2026 and want the relief given against 2025-26 income instead, typically because they paid higher-rate tax in 2025-26 but not now. The claim must be made in the ORIGINAL 2025-26 return.",
+   "excluded": "HMRC cannot accept a first claim, or an increased claim, in an AMENDED return - so anyone who files by 31 January and then tries to add the carry-back later in the amendment window loses it. Anyone who did not pay enough Income Tax or Capital Gains Tax in 2025-26 to cover the tax the charity reclaims cannot carry back that amount. Anyone not in Self Assessment for 2025-26 has no return to make the claim in. Donations made in 2025-26 itself are relieved in 2025-26 anyway and need no carry-back election.",
+   "from_when": "2025-26 return, claim must be in the return filed by 31 January 2027",
+   "automatic": false,
+   "how_to_claim": "Enter the donation in box 8 on page TR 4 of the 2025-26 SA100 (or the equivalent box in the online return) and file by 31 January 2027."
+  },
+  "notes": "This is the one 31 January election that cannot be fixed afterwards. Everything else on a tax return can normally be amended up to 31 January 2028, but a Gift Aid carry-back claim is lost the moment the original return is filed without it, and lost outright if the return goes in after the filing date. Two conditions both have to hold: the return must be the original one, and it must be in on time. It is worth the most where income dropped between the two years - a client who was a higher-rate taxpayer in 2025-26 and a basic-rate taxpayer now gets 40% relief instead of none by carrying back. HS342 as published also carries an apparent typo referring to 'the year ended 5 April 2025' in the carry-back paragraph; the surrounding text and the box reference make clear it means the 2025-26 return.",
+  "used": []
+ },
+ {
+  "id": "partnership-tax-return-and-partner-penalties",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-02-07",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Partnership Tax Return: 31 January 2027 Deadline and the Separate Penalty Each Partner Gets",
+  "official_page": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+  "figures": [
+   {
+    "value": "31 January 2027",
+    "what": "Online filing deadline for the 2025-26 Partnership Tax Return (SA800), tax year 6 April 2025 to 5 April 2026",
+    "source": "https://assets.publishing.service.gov.uk/media/69c525cacdfd19de13d0f6d0/SA800man-2026.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "31 October 2026",
+    "what": "Paper filing deadline for the same 2025-26 SA800 (already passed)",
+    "source": "https://assets.publishing.service.gov.uk/media/69c525cacdfd19de13d0f6d0/SA800man-2026.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100",
+    "what": "Automatic fixed late-filing penalty charged on EACH relevant partner under TMA 1970 s93A(2) when the partnership return is late - not £100 for the partnership",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/enquiry-manual/em4585",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100",
+    "what": "Further fixed penalty on each relevant partner if the failure continues beyond six months from the filing date (s93A(4)) - so £200 per partner in total",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/enquiry-manual/em4585",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (HMRC Self Assessment)",
+   "who": "The nominated partner files one SA800 for the partnership for 2025-26. Every individual partner then reports their share on their own SA100 partnership pages by the same 31 January 2027 date.",
+   "excluded": "Sole traders (no SA800 exists for them). Limited companies, which file a CT600 instead. A partnership that has not been issued a notice to file. A person who was not a partner at any time in the period covered by the return is not a 'relevant partner' and gets no penalty. Partnerships that include a company as a partner do NOT get the 31 October / 31 January dates - HMRC sets different filing dates for them. Partnerships issued a notice to file after 31 July 2026 also get a different date.",
+   "from_when": "2025-26 return, due 31 January 2027",
+   "automatic": false,
+   "how_to_claim": "Nominated partner files SA800 online by 31 January 2027 (HMRC online service does not support SA800 - commercial software or an agent is needed). Each partner separately files their own return by the same date."
+  },
+  "notes": "The trap clients get wrong: a late partnership return multiplies. HMRC charges the £100 on all persons who were partners at any time in the return period, so a four-partner firm one day late is £400, and £800 once six months pass. EM4585 also confirms partners get no capping or reduction where their own tax liability is lower than the penalty - unlike individuals and trustees. Only the nominated partner can appeal, and that one appeal covers every partner's penalty. Daily penalties under s93A(3) exist but need an authorised officer's agreement and are reserved for large cases.",
+  "used": []
+ },
+ {
+  "id": "vat-late-submission-penalty-points",
+  "verified": "2026-11-14",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en",
+   "ola",
+   "bham"
+  ],
+  "title": "VAT late submission penalty points and late payment penalties",
+  "official_page": "https://www.gov.uk/guidance/penalty-points-and-penalties-if-you-submit-your-vat-return-late",
+  "figures": [
+   {
+    "value": "2 points (annual), 4 points (quarterly), 5 points (monthly)",
+    "what": "Penalty point thresholds for late submission, by return frequency",
+    "source": "https://www.gov.uk/guidance/penalty-points-and-penalties-if-you-submit-your-vat-return-late",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "2 points (over 20 weeks), 4 points (over 8 and up to 20 weeks), 5 points (8 weeks or less)",
+    "what": "Penalty point thresholds for non-standard accounting periods",
+    "source": "https://www.gov.uk/guidance/penalty-points-and-penalties-if-you-submit-your-vat-return-late",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£200",
+    "what": "Penalty charged on reaching the points threshold, and again for each further late return while at the threshold",
+    "source": "https://www.gov.uk/guidance/penalty-points-and-penalties-if-you-submit-your-vat-return-late",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "3%",
+    "what": "First late payment penalty, charged on the VAT outstanding at day 15 where payment is 16 or more days overdue",
+    "source": "https://www.gov.uk/guidance/how-late-payment-penalties-work-if-you-pay-vat-late",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "a further 3%",
+    "what": "Added to the first late payment penalty, on the balance outstanding at day 30, where payment is 31 or more days overdue",
+    "source": "https://www.gov.uk/guidance/how-late-payment-penalties-work-if-you-pay-vat-late",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "10% per year",
+    "what": "Second late payment penalty, charged as a daily rate on the outstanding balance from day 31 until paid in full",
+    "source": "https://www.gov.uk/guidance/how-late-payment-penalties-work-if-you-pay-vat-late",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "1 April 2025",
+    "what": "Date from which the late payment penalty rates rose from 2 to 3 percentage points at 15 days, 2 to 3 percentage points at 30 days, and 4 to 10 percentage points per annum from day 31, for taxpayers already in the Schedule 26 regime including VAT-registered businesses",
+    "source": "https://www.gov.uk/government/publications/increasing-vat-and-other-taxes-late-payment-penalties-percentage-rate-relating-to-penalty-reform",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "1 January 2023",
+    "what": "VAT accounting periods starting on or after this date are in the points-based late submission and late payment penalty regime; earlier periods fall under the VAT default surcharge",
+    "source": "https://www.gov.uk/guidance/penalty-points-and-penalties-if-you-submit-your-vat-return-late",
+    "read": "2026-11-14"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "All UK VAT-registered businesses, for VAT accounting periods starting on or after 1 January 2023. One penalty point is awarded for each late return until the frequency threshold is reached; at the threshold a £200 penalty is charged, and another £200 for each further late return while you remain at the threshold. Nil returns and repayment returns are covered. Late payment penalties apply to any VAT not paid in full by the due date.",
+   "excluded": "No penalty point is given for: your first VAT Return after becoming newly VAT registered; your final VAT Return after cancelling your registration; and one-off returns covering a period other than a month, a quarter or a year. For periods starting on or before 31 December 2022 the old VAT default surcharge applies instead, not this regime. The late payment penalties do not apply to payments on account or to Annual Accounting Scheme instalments (gov.uk late payment penalties guidance).",
+   "from_when": "Points-based regime: VAT accounting periods starting on or after 1 January 2023. Current late payment penalty rates of 3% / further 3% / 10% per annum: from 1 April 2025.",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim — points and penalties are issued automatically by HMRC. Points can be adjusted when you change accounting periods, and those adjustments cannot be appealed. Separate HMRC guidance covers removing penalty points."
+  },
+  "notes": "Submitting on time once at the threshold keeps you at the threshold without a further £200 charge; it does not clear the points. Late payment interest is charged separately, from the first day the payment is overdue until it is paid in full, in addition to any late payment penalty. The second late payment penalty runs from day 31 until the balance is paid or just before the 2-year assessment time limit. No Northern Ireland difference. The 1 April 2025 commencement of the higher rates is not stated on the gov.uk late payment penalties guidance page itself — its update history only records on 10 July 2025 that 'the value of late payment penalties charged has been increased' — so the date is cited to the HMRC policy publication instead.",
+  "used": []
+ },
+ {
+  "id": "corporation-tax-telling-hmrc-company-active-three-months",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Telling HMRC Your Company Is Active: the Three-Month Deadline",
+  "official_page": "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
+  "figures": [
+   {
+    "value": "3 months",
+    "what": "period from the start of the company's tax accounting period within which a company that is now active must tell HMRC",
+    "source": "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100",
+    "what": "expected annual Corporation Tax liability at or below which HMRC may treat a club or unincorporated organisation run for its members' benefit as dormant",
+    "source": "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "Any limited company within the charge to Corporation Tax that has become active. HMRC treats a company as active when it is carrying on a trade or profession, or receiving any other income - including earning bank interest or managing investments, not only selling things.",
+   "excluded": "A company HMRC accepts as dormant does NOT have to file a Company Tax Return - but only once it has actually told HMRC and HMRC has confirmed it. A company that simply stops trading and says nothing is still required to submit a Corporation Tax return and faces penalties if it does not. Pre-trading setup steps - writing a business plan, choosing a name - do not by themselves make a company active. Being dormant for Corporation Tax does not exempt the company from Companies House obligations: dormant accounts and a confirmation statement are still due.",
+   "from_when": "current HMRC guidance; the notification duty sits in CTA 2009 / FA 2004 s55",
+   "automatic": false,
+   "how_to_claim": "Register for Corporation Tax online through the company's HMRC business tax account within 3 months, giving the date business activity started, the company's registered details and the accounting reference date. To go dormant, tell HMRC separately - do not assume filing dormant accounts at Companies House tells HMRC anything."
+  },
+  "notes": "Two registers, two bodies, two sets of forms - and that is the whole misunderstanding. Companies House knows the company exists; HMRC does not know it has started trading until told, and a notice to deliver a return arriving two years later is how most people find out. The answer to 'I set up a company but never traded, do I have to file?' is: at Companies House yes, dormant accounts are still due; at HMRC only if HMRC has not been told it is dormant, in which case a return is required. HMRC's test for active is wider than clients expect - interest on a company bank account is 'other income' and can take a supposedly dormant company back into charge. Same rules in England, Scotland, Wales and Northern Ireland: Corporation Tax is not devolved, and Companies House covers the whole UK including Northern Ireland.",
+  "used": []
+ },
+ {
+  "id": "pre-trading-expenditure-seven-year-rule",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Pre-Trading Expenses: the Seven-Year Rule",
+  "official_page": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim46351",
+  "figures": [
+   {
+    "value": "7 years",
+    "what": "period before the trade, profession or vocation starts within which qualifying revenue expenditure can be relieved",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim46351",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "Sole traders, partners and companies that incurred revenue expenses before the business began trading. ITTOIA 2005 s57 for income tax; CTA 2009 s61 for companies. The expense is treated as if it were incurred on the first day of trading and deducted in that first period.",
+   "excluded": "The seven-year rule does NOT give relief for: capital expenditure (no deduction at all under these rules - plant and machinery goes through capital allowances instead, where CAA 2001 s12 treats pre-trading capital spend as incurred on the day trading starts); the advance purchase of trading stock, which is relieved when it is sold, not when it is bought; anything that will already be deductible in a post-commencement period, such as rent paid in advance; and anything that would NOT have been deductible if the trade had already been running - so it fails the wholly and exclusively test, it fails here too. Client entertaining, fines and personal costs are still disallowed no matter when they were paid.",
+   "from_when": "ITTOIA 2005 s57 / CTA 2009 s61, long-standing",
+   "automatic": false,
+   "how_to_claim": "Include the expenditure in the accounts or tax computation for the first period of trading, as if it had been spent on day one. There is no separate claim form - but if the first return has already been filed without it, amend that return rather than putting the spend in a later year."
+  },
+  "notes": "The thing clients get wrong: they assume anything spent before they registered is lost, and they throw the receipts away. Seven years is generous - a laptop, a website, market research, professional fees, insurance, phone and travel from years before the first invoice can all land in the first period. But it only works if you can prove it, which is why this pairs with the record-keeping rule. Two further traps: the expense must have been incurred for the business that actually started, and the seven years run back from COMMENCEMENT of trading, which is not the date of incorporation and not the date HMRC was told. Setting up - writing the business plan - is not itself trading. No Scottish or Welsh variation in what qualifies; the deduction is a UK-wide income or corporation tax computation rule, though a Scottish taxpayer's saving will be at Scottish income tax rates and a company's at the Corporation Tax rate.",
+  "used": []
+ }
+]

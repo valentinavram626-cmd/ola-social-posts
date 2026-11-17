@@ -1,0 +1,277 @@
+[
+ {
+  "id": "staff-annual-function-exemption-150-per-head",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Staff Christmas Party: the £150 a Head Exemption",
+  "official_page": "https://www.gov.uk/expenses-benefits-social-functions-parties/whats-exempt",
+  "figures": [
+   {
+    "value": "£150",
+    "what": "maximum cost per person for an annual staff function to be exempt from tax and NICs (ITEPA 2003 s264)",
+    "source": "https://www.gov.uk/expenses-benefits-social-functions-parties/whats-exempt",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£150",
+    "what": "combined per-head limit where an employer holds more than one annual event in the year - the total of all events must not exceed it",
+    "source": "https://www.gov.uk/expenses-benefits-social-functions-parties/whats-exempt",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "Employers putting on an annual social function - a Christmas party, summer barbecue or equivalent, including a virtual or online party. The event must be annual, must be open to all employees, and must cost £150 or less per person attending. A one-director company counts: the director is an employee.",
+   "excluded": "The exemption does NOT cover: a one-off event that is not annual (a staff celebration of winning a contract, a leaving do, a birthday); an event open only to directors or to a selected group rather than all staff (separate departmental or site parties are fine so long as every employee can attend one of them); and anything provided under a salary sacrifice arrangement, which must be reported regardless. It does not apply to self-employed sole traders or partners entertaining themselves - they have no employment to exempt. And it gives no relief for entertaining customers or suppliers.",
+   "from_when": "ITEPA 2003 s264; the £150 figure has been unchanged since 2003",
+   "automatic": true,
+   "how_to_claim": "No claim and no reporting if the conditions are met. If they are not, the employer reports the full cost per head on form P11D (or payrolls the benefit) and pays Class 1A NICs - or covers it for staff through a PAYE Settlement Agreement."
+  },
+  "notes": "The trap, in HMRC's own words at EIM21690: 'The figure of £150 is not an allowance.' Spend £151 a head and the WHOLE £151 is taxable, not the £1 over. Cost per head is the total cost of the event divided by everyone who attended, including non-employee guests, and it includes VAT plus any transport or overnight accommodation laid on so people can get there. So if partners come, dividing by heads can actually help you. Where there are two events and the combined total is over £150, HMRC lets you apply the £150 to whichever combination of events uses it best and taxes the rest. This is separate from the trivial benefits exemption - a party is not a trivial benefit, and the two do not stack on the same spend. No Scottish or Welsh difference: s264 is a UK-wide exemption, so nothing is taxed and devolved rates never come into it.",
+  "used": []
+ },
+ {
+  "id": "trivial-benefits-exemption-employees-and-directors",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en",
+   "ola",
+   "bham"
+  ],
+  "title": "Trivial benefits exemption for employees and directors",
+  "official_page": "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim21864",
+  "figures": [
+   {
+    "value": "£50",
+    "what": "maximum cost of providing a single benefit for the trivial benefits exemption to apply",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim21864",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£300",
+    "what": "annual cap on exempt trivial benefits where the employer is a close company and the recipient is a director or other office holder, or a member of their family or household",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim21864",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "6 April 2016",
+    "what": "date from which the statutory trivial benefits exemption applies",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim21864",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "4",
+    "what": "number of conditions that must all be met for the exemption to apply",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim21864",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "All employees and directors, and members of their family or household where the benefit is provided to them by reason of the employment. It also covers a benefit provided by a third party, such as a group management services company, on the employer's behalf, provided the employer ultimately bears the cost. Where the exact cost per person cannot practicably be worked out for a benefit provided to a group, the average cost per employee is used against the £50 limit.",
+   "excluded": "The exemption does not apply to: cash or a cash voucher; anything the employee is entitled to under a contractual obligation, including under a salary sacrifice arrangement; anything provided in recognition of particular services the employee performs as part of their duties, or in anticipation of such services; and any benefit costing more than £50 to provide. If any of the four conditions fails, the whole benefit is taxed in the normal way (subject to any other exemption or deduction) - it is not just the excess that is taxed. For a close company, exempt trivial benefits to a director or other office holder, or to their family or household, stop at £300 of total cost in the tax year, and benefits above that cap are taxable. Rank-and-file employees of a close company are not subject to the £300 cap.",
+   "from_when": "Benefits provided from 6 April 2016, under section 323A ITEPA 2003. HMRC's earlier non-statutory approach for 2015-16 and before is in EIM21860.",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim and nothing to report. Where the four conditions are met the benefit is exempt automatically, so it does not go on a P11D, is not payrolled, and carries no Class 1 or Class 1A National Insurance. Employers should keep a record of trivial benefits given, and close companies in particular need a running total per director and per family or household member so the £300 annual cap is not breached."
+  },
+  "notes": "UK-wide, identical in England, Wales, Scotland and Northern Ireland - and because the benefit is exempt there is no Scottish income tax difference to worry about here. For most owner-managed companies, which are close companies, the practical position is £50 per benefit and £300 per director per tax year, and the £300 cap applies separately to the director's family or household members where benefits are provided to them. Commonly confused: the £50 is a cap on the cost of providing each individual benefit, not an annual allowance, so an employee of a non-close company can receive any number of £50 benefits; a benefit costing £51 is wholly taxable, not taxable on £1; the £300 cap is not a fifth condition but a separate restriction for close companies; and trivial benefits are completely separate from the annual staff entertaining exemption for an annual function (the separate £150 per head limit), from long service awards, and from the rules on gift vouchers - a non-cash gift voucher can qualify as a trivial benefit, but a cash voucher cannot. Also note that providing a trivial benefit does not stop the £150 per head annual function exemption being used as well, as they are different exemptions.",
+  "used": []
+ },
+ {
+  "id": "hmrc-payment-clearing-times-31-january",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "How long each HMRC payment method takes to clear before 31 January",
+  "official_page": "https://www.gov.uk/pay-self-assessment-tax-bill",
+  "figures": [
+   {
+    "value": "Same or next day",
+    "what": "Approving a payment through your online bank account, online or telephone banking by Faster Payments, CHAPS, debit or corporate credit card online, and paying at your bank or building society with an HMRC paying-in slip",
+    "source": "https://www.gov.uk/pay-self-assessment-tax-bill",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "Same or next day, including weekends and bank holidays",
+    "what": "Faster Payments bank transfer clearing time",
+    "source": "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "Same working day if you pay within your bank's processing times",
+    "what": "CHAPS clearing time",
+    "source": "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "3 working days",
+    "what": "Bacs, and Direct Debit where already set up with HMRC",
+    "source": "https://www.gov.uk/pay-self-assessment-tax-bill",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "5 working days",
+    "what": "Direct Debit where not previously set up with HMRC",
+    "source": "https://www.gov.uk/pay-self-assessment-tax-bill",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "11 characters (10-digit UTR followed by the letter K)",
+    "what": "The payment reference you must quote, or the payment may be delayed or applied to a different tax bill",
+    "source": "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "31 January",
+    "what": "Deadline for any balancing payment for the previous tax year and your first payment on account",
+    "source": "https://www.gov.uk/pay-self-assessment-tax-bill",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "31 July",
+    "what": "Deadline for your second payment on account",
+    "source": "https://www.gov.uk/pay-self-assessment-tax-bill",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide. HMRC payment channels and clearing times are the same across England, Wales, Scotland and Northern Ireland.",
+   "who": "Anyone paying a Self Assessment balancing payment or payment on account - and the same timings apply to paying a Self Assessment penalty.",
+   "excluded": "You can no longer pay at the Post Office - gov.uk states this flatly, so that option is gone. Direct Debit is excluded as a last-minute option: if it is not already set up with HMRC it takes 5 working days, so setting one up in late January will not meet the deadline. Paying at a bank or building society counter is excluded unless you already hold a paying-in slip from HMRC. And the 'pay by the last working day before the deadline' rule does not apply to Faster Payments or to debit and credit card payments - those two are excluded from the weekend and bank holiday warning because they clear regardless.",
+   "from_when": "Current. Applies to the 31 January 2027 deadline for the 2025 to 2026 tax year and the 31 July 2027 second payment on account.",
+   "automatic": false,
+   "how_to_claim": "Nothing to claim - choose a method that clears in time. For a last-minute payment use Faster Payments, approve a payment through your online bank account, CHAPS, or a debit or corporate credit card online, and always quote the 11-character reference (UTR plus K)."
+  },
+  "notes": "The trap is that the deadline is when the money reaches HMRC, not when you press send. A Bacs payment started on 30 January arrives late and triggers the late payment penalty and interest. If the deadline falls on a weekend or bank holiday, HMRC expects the payment to reach it by the last working day before - except for Faster Payments and card payments, which are exempt from that rule. The second trap is the reference: use the wrong one and HMRC may delay the payment or set it against a different tax bill you owe, which looks like non-payment on your record. Nation differences: none. Commonly confused with: Time to Pay, which is a payment plan rather than a payment method; paying a Self Assessment penalty, which uses a different gov.uk route and a different reference; and the old Post Office and personal credit card routes, both of which people still ask for and neither of which is available.",
+  "used": []
+ },
+ {
+  "id": "attendance-allowance-2026-27",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-04-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Attendance Allowance Weekly Rates",
+  "official_page": "https://www.gov.uk/attendance-allowance",
+  "figures": [
+   {
+    "value": "£76.70 a week",
+    "what": "lower rate — for frequent help or constant supervision during the day, or supervision at night",
+    "source": "https://www.gov.uk/attendance-allowance/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£114.60 a week",
+    "what": "higher rate — for help or supervision through both day and night, or if a medical professional has said you are nearing the end of life",
+    "source": "https://www.gov.uk/attendance-allowance/what-youll-get",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "6 months",
+    "what": "how long you must have needed the help before you qualify (different rules if nearing the end of life)",
+    "source": "https://www.gov.uk/attendance-allowance/eligibility",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "2 of the last 3 years",
+    "what": "how long you must have lived in Great Britain; does not apply to refugees or people with humanitarian protection",
+    "source": "https://www.gov.uk/attendance-allowance/eligibility",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "England and Wales. Scotland has replaced it with Pension Age Disability Payment; Northern Ireland runs its own Attendance Allowance through nidirect.",
+   "who": "People who have reached State Pension age with a physical disability (including sensory), a mental disability (including learning difficulties) or a health condition severe enough that they need help caring for themselves or supervision for their own or someone else's safety, for at least 6 months. It is not means-tested, so earnings and savings do not affect it, and you do not need to have anyone actually caring for you.",
+   "excluded": "Anyone living in Scotland must apply for Pension Age Disability Payment instead. Anyone already getting DLA, PIP, Adult Disability Payment, Scottish Adult Disability Living Allowance or Armed Forces Independence Payment cannot have Attendance Allowance as well. People living in a care home where the local authority pays for their care usually cannot get it — you can claim if you pay all the care home fees yourself. Anyone subject to immigration control, unless a sponsored immigrant. Anyone not habitually resident in the UK, Ireland, the Isle of Man or the Channel Islands. It covers nothing for mobility needs. If you also get Constant Attendance Allowance, your Attendance Allowance is reduced by that amount.",
+   "from_when": "Rates as published on GOV.UK on 17 November 2026; uprated each April",
+   "automatic": false,
+   "how_to_claim": "Apply online on GOV.UK, or print the claim form, or call 0800 731 0122 to be sent one. The claim starts on the day you apply online, the day DWP receives a posted form, or the day of your call if you return the form within 6 weeks."
+  },
+  "notes": "This is the single most under-claimed pensioner benefit and the reason is a wrong belief that it is means-tested. It is not: savings, a pension and a paid-off house make no difference. It is also not paid for having a diagnosis — it is paid for needing help or supervision, and you do not have to be getting that help from anyone. The big knock-on is that an Attendance Allowance award can unlock extra Pension Credit, Housing Benefit and Council Tax Reduction, so it is worth more than the headline rate. Call timing matters: ring the helpline for a form and the claim is backdated to the date of the call, provided you send it in within 6 weeks — applying straight online starts it the day you apply, with nothing before that. Scottish readers must not be sent to this page; Pension Age Disability Payment is a separate Social Security Scotland benefit.",
+  "used": []
+ },
+ {
+  "id": "tax-free-childcare",
+  "verified": "2026-11-14",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en",
+   "ola",
+   "bham"
+  ],
+  "title": "Tax-Free Childcare",
+  "official_page": "https://www.gov.uk/tax-free-childcare",
+  "figures": [
+   {
+    "value": "£2 for every £8 you pay in (a 25% top-up)",
+    "what": "government top-up into a Tax-Free Childcare account",
+    "source": "https://www.gov.uk/tax-free-childcare",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£500 every 3 months per child (up to £2,000 a year)",
+    "what": "maximum top-up per child",
+    "source": "https://www.gov.uk/tax-free-childcare",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£1,000 every 3 months per child (up to £4,000 a year)",
+    "what": "maximum top-up where the child is disabled",
+    "source": "https://www.gov.uk/tax-free-childcare",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£2,643.68 before tax over the next 3 months (£203.36 a week)",
+    "what": "minimum expected earnings condition, each parent aged 21 or over - equivalent to National Minimum Wage or Living Wage for 16 hours a week",
+    "source": "https://www.gov.uk/tax-free-childcare/check-if-youre-eligible",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£2,256.80 before tax over the next 3 months (£173.60 a week)",
+    "what": "minimum expected earnings condition, each parent aged 18 to 20",
+    "source": "https://www.gov.uk/tax-free-childcare/check-if-youre-eligible",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£1,664 before tax over the next 3 months (£128 a week)",
+    "what": "minimum expected earnings condition, each parent under 18 or an apprentice",
+    "source": "https://www.gov.uk/tax-free-childcare/check-if-youre-eligible",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£100,000",
+    "what": "maximum expected adjusted net income for the current tax year, applied separately to you and to your partner; either being over it disqualifies the household",
+    "source": "https://www.gov.uk/tax-free-childcare/check-if-youre-eligible",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "11 or younger (16 or younger if disabled)",
+    "what": "child age condition - eligibility runs to the September after the 11th birthday, or the September after the 16th birthday for a disabled child",
+    "source": "https://www.gov.uk/tax-free-childcare/check-if-youre-eligible",
+    "read": "2026-11-14"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom. Tax-Free Childcare is an HMRC scheme applied for on GOV.UK; nidirect.gov.uk confirms Northern Ireland parents use it and apply through GOV.UK (Northern Ireland's own Childcare Subsidy Scheme requires parents to be claiming Tax-Free Childcare), and the GOV.UK eligibility page recognises Scottish disability benefits for the disabled-child route.",
+   "who": "Working parents - employed or self-employed, including those on parental, sick or annual leave - with a child aged 11 or younger (until the September after the 11th birthday), or 16 or younger if the child is disabled (until the September after the 16th birthday, where the child is certified blind or severely sight-impaired or gets DLA, PIP, Armed Forces Independence Payment, or in Scotland Child Disability Payment or Adult Disability Payment). You and your partner must each expect to earn at least the minimum amount above over the next 3 months, and each have expected adjusted net income of £100,000 or less. Self-employed people paid irregularly can use an average over the tax year, and there is no minimum if the business started less than 12 months ago. You need a National Insurance number (your partner too) and British or Irish citizenship, settled or pre-settled status (or a pending application), or permission to access public funds shown on an eVisa or UK residence card.",
+   "excluded": "You cannot claim if the child does not usually live with you; if you foster the child you are applying for; if you or your partner expect adjusted net income over £100,000; if you or your partner get a childcare bursary or grant; or if you claim Universal Credit or childcare vouchers at the same time (childcare vouchers are only available at all to people who had already joined a scheme). People below the minimum earnings threshold are excluded, and dividends, interest, property income and pension income do not count towards it. People without a National Insurance number or the required immigration permission are excluded. Payments can only be made to a childcare provider signed up to the scheme.",
+   "from_when": "Ongoing scheme; figures confirmed as at 14 November 2026 (GOV.UK pages last updated 9 November 2026).",
+   "automatic": false,
+   "how_to_claim": "Must be applied for - open a childcare account through the Tax-Free Childcare application on GOV.UK, then pay money in and the top-up is added. Check first that the childcare provider is signed up to the scheme."
+  },
+  "notes": "Northern Ireland: Tax-Free Childcare is available - nidirect.gov.uk describes it for NI parents and directs them to apply on GOV.UK, and NI's separate Childcare Subsidy Scheme requires a Tax-Free Childcare claim. Scotland: available, and the GOV.UK eligibility page lists Scottish Child Disability Payment and Adult Disability Payment as qualifying for the disabled-child route. Important interaction for client-facing copy: Tax-Free Childcare cannot be held at the same time as Universal Credit or childcare vouchers, and the £100,000 adjusted net income test applies to each partner individually. The funded childcare hours schemes referred to alongside it are England-only and were not verified here.",
+  "used": []
+ }
+]

@@ -1,0 +1,190 @@
+[
+ {
+  "id": "household-energy-payment-2027",
+  "verified": "2026-11-17",
+  "recheck_after": "2026-12-08",
+  "brands": [
+   "bham"
+  ],
+  "title": "£100 Household Energy Payment (England, from January 2027)",
+  "official_page": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+  "figures": [
+   {
+    "value": "£100",
+    "what": "One-off payment per eligible household, for this financial year only, announced at the Autumn Budget 2026",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "Bands A to D",
+    "what": "Council tax bands covered by the core scheme, in England",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "January 2027",
+    "what": "When payments begin. Councils are expected to start making payments from January 2027, with scheme funding provided to them in advance and a reconciliation process afterwards",
+    "source": "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "Up to 20 million households",
+    "what": "Number eligible in England - the government says this includes an estimated 83% of fuel-stressed households in England and 88% of households in the bottom three income deciles. The MHCLG letter to councils puts it as 'over 20 million households'",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£100 million",
+    "what": "Separate discretionary fund given to councils in England to support households that are not eligible for the £100, including some in bands above D. Councils set their own criteria and publish their own application details",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "No action needed if you pay by Direct Debit",
+    "what": "The payment mechanism, now confirmed on gov.uk: 'If you pay by direct debit and live in bands A to D, you don't need to do anything - the rebate will be paid directly into your bank account.' For everyone else: 'If you don't pay by direct debit, your council will invite you to apply for the rebate directly'",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£150",
+    "what": "The Warm Home Discount, which gov.uk flags as separate support for households on means-tested benefits - it is not the same thing as the £100 Household Energy Payment and the two are not alternatives",
+    "source": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "England",
+   "who": "Households in England that are liable for council tax on, and live in, a property in council tax bands A to D as their main home. Most households exempt from council tax are included. Delivered through the council tax system by local authorities.",
+   "excluded": "Second homes, empty properties, and households where the householder is not responsible for paying council tax (so many people in houses in multiple occupation, and tenants whose landlord pays the council tax, get nothing). Bands E to H are outside the core scheme, though the separate £100 million discretionary fund lets councils reach some of them. Scotland, Wales and Northern Ireland are outside the scheme entirely - they receive additional funding instead and their own governments decide how to use it, so there is no guarantee of a £100 payment there. Northern Ireland has domestic rates rather than council tax, so a band-based council tax scheme could not run there as designed.",
+   "from_when": "Payments from January 2027. One-off, for the 2026-27 financial year only.",
+   "automatic": false,
+   "how_to_claim": "It depends on how you pay your council tax, and this is the single most important thing to get right. If you pay council tax by Direct Debit and live in a band A to D property, gov.uk says you do not need to do anything and the money will be paid straight into your bank account. If you do NOT pay by Direct Debit, your council will invite you to apply for it directly - so a sizeable minority must act. For the separate £100 million discretionary fund, every council sets its own eligibility criteria and publishes its own application route on its website once local arrangements are in place. gov.uk also warns that nobody other than your council should contact you asking you to claim, and to double check with the council if a message looks doubtful."
+  },
+  "notes": "RE-CHECKED 17 November 2026 and this entry has CHANGED materially: the payment mechanism is now confirmed at primary source, which it was not at the last check. The Department for Energy Security and Net Zero page 'What the Autumn Budget 2026 means for your energy bills' (gov.uk, published 28 October 2026) states that Direct Debit payers in bands A to D need do nothing and will be paid straight into their bank account, and that anyone not paying by Direct Debit will be invited by their council to apply. That is why 'automatic' is set to false rather than true: it is automatic for Direct Debit payers only, and copy that just says 'it's automatic, you don't need to do anything' will cause non-Direct-Debit households to miss out. The second piece of newly confirmed detail is the exclusions - second homes, empty properties, and households where the householder is not responsible for paying the council tax - plus the fact that most council-tax-exempt households ARE included. Still NOT published, checked again today: MHCLG's detailed delivery guidance. Council tax information letter 6/2026 (published 29 October 2026, unchanged) says the department 'will shortly publish detailed guidance' covering eligibility criteria, payment arrangements, monitoring and assurance, and expectations of the discretionary fund. So the full eligibility criteria are still described on gov.uk as 'to be published in due course', and anything beyond the outline above is not yet verifiable. Naming traps: gov.uk calls it both the Household Energy Payment and, in the consumer questions, 'the rebate' - it is not a Winter Fuel Payment, not the Warm Home Discount (that is a separate £150 for people on means-tested benefits) and not a general council tax rebate. Nation trap: this is England only. Scotland, Wales and Northern Ireland get additional funding and decide for themselves, so do not promise readers outside England a £100 payment, and remember Northern Ireland has domestic rates rather than council tax bands. Band trap: band A to D is the property's band, not an income test, so a high earner in a band C flat qualifies and a low earner in a band E house does not - the £100 million discretionary fund is the only route for the latter. Scam trap worth repeating in any copy: gov.uk says nobody other than your council should get in touch asking you to claim.",
+  "used": []
+ },
+ {
+  "id": "council-tax-single-person-discount",
+  "verified": "2026-11-14",
+  "recheck_after": "2027-04-01",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Council Tax single person discount and the main discounts and exemptions",
+  "official_page": "https://www.gov.uk/council-tax/who-has-to-pay",
+  "figures": [
+   {
+    "value": "25%",
+    "what": "single person discount off the Council Tax bill where you live alone, or where everyone else in the home is 'disregarded'",
+    "source": "https://www.gov.uk/council-tax/who-has-to-pay",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "one band lower",
+    "what": "Disabled Band Reduction Scheme: the bill is charged at the next lowest Council Tax band",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "17%",
+    "what": "reduction for a Band A property under the Disabled Band Reduction Scheme (there is no lower band)",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "100%",
+    "what": "severe mental impairment discount where the person lives alone, or every other adult is also severely mentally impaired or a full-time student",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "50%",
+    "what": "severe mental impairment discount where everyone else in the household is 'disregarded'",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "25%",
+    "what": "discount where you live with someone who is severely mentally impaired and there are no other countable adults",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "up to 2 times the normal bill",
+    "what": "second homes premium a council may charge on a furnished second home",
+    "source": "https://www.gov.uk/council-tax/second-homes-and-empty-properties",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "up to 4 times the normal bill",
+    "what": "empty home premium where a home has been empty for at least 10 years",
+    "source": "https://www.gov.uk/council-tax/second-homes-and-empty-properties",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "up to 12 months",
+    "what": "period for which a second homes or empty homes premium may be waived, for example after a grant of probate or while the property is being marketed for sale or rent",
+    "source": "https://www.gov.uk/council-tax/second-homes-and-empty-properties",
+    "read": "2026-11-14"
+   }
+  ],
+  "scope": {
+   "nation": "England and Wales",
+   "who": "The person liable for Council Tax who is the only adult resident, or whose only other adult residents are all 'disregarded'. GOV.UK lists as disregarded: people under 18; some apprentices; 18 and 19 year olds in full-time education; full-time students; some under-25s funded by the Education and Skills Funding Agency; student nurses; some foreign language assistants; people who are severely mentally impaired; live-in carers; and diplomats. Separate reductions exist for disabled residents (band reduction) and for severe mental impairment (100%, 50% or 25%).",
+   "excluded": "No single person discount where two or more adults who are not 'disregarded' live in the property. The discount is not means-tested, so it is not available on income grounds to a household with two countable adults. GOV.UK's Council Tax guide signposts Scotland separately (mygov.scot) because the rules are different there, so these rules do not apply in Scotland. Second homes and long-term empty homes attract a premium rather than a discount, and the disabled band reduction is refused unless the property is larger than it would need to be if no one disabled lived there (an extra bathroom, kitchen or room needed for the disabled person, or extra internal space for wheelchair use) and is the main home of at least one disabled adult or child.",
+   "from_when": "Ongoing; the discount and the disregard categories are the standing rules, and bills and any second home or empty home premium are set annually by each council for the financial year starting 1 April.",
+   "automatic": false,
+   "how_to_claim": "Apply to your own billing authority (for a Birmingham or West Midlands reader, your city or borough council — Birmingham City Council, Solihull, Sandwell, Dudley, Walsall, Wolverhampton or Coventry). GOV.UK routes applications through the council finder on its 'apply for a Council Tax discount' page. Report a change (for example another adult moving in) to the council, as the discount is removed from the date the household changes."
+  },
+  "notes": "The rules are different in Scotland and GOV.UK links to mygov.scot for Scottish residents. Council Tax Reduction (formerly Council Tax Benefit) is a separate, means-tested scheme each council runs under its own local rules, so Birmingham's scheme differs from neighbouring authorities'. Valuation bands for England and Wales are checked with the Valuation Office Agency; Scotland uses a separate service. Not verified at primary source in this pass: whether Northern Ireland has Council Tax at all (it operates domestic rates), so no claim is made about Northern Ireland.",
+  "used": []
+ },
+ {
+  "id": "sure-start-maternity-grant-2026-27",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham"
+  ],
+  "title": "Sure Start Maternity Grant: £500 for a first baby",
+  "official_page": "https://www.gov.uk/sure-start-maternity-grant",
+  "figures": [
+   {
+    "value": "£500",
+    "what": "One-off Sure Start Maternity Grant, does not have to be repaid and does not affect other benefits",
+    "source": "https://www.gov.uk/sure-start-maternity-grant",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "11 weeks",
+    "what": "Earliest you can claim - from 11 weeks before the baby's due date",
+    "source": "https://www.gov.uk/sure-start-maternity-grant",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "6 months",
+    "what": "Latest you can claim - within 6 months after the baby's birth",
+    "source": "https://www.gov.uk/sure-start-maternity-grant",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "Under 16",
+    "what": "You must usually have no other children under 16 in your household",
+    "source": "https://www.gov.uk/sure-start-maternity-grant/eligibility",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "England and Wales",
+   "who": "You (or your partner) get income-related Employment and Support Allowance, Pension Credit or Universal Credit (a Support for Mortgage Interest loan may also qualify you), and you usually have no other children under 16. You can still qualify with other children under 16 if you are expecting a multiple birth; if you are caring for someone else's child who was over 12 months old when the arrangement started; if you have refugee status or humanitarian protection or came to the UK from Afghanistan or Ukraine (first UK-born child); or if you are claiming for a family member under 16 (or 16-19 in approved education or training) who is having their first child and lives with you. Adopters, surrogacy parental-order holders and some carers can claim if the baby is under 1 on the claim date.",
+   "excluded": "Anyone living in Scotland cannot get it at all - they claim the Pregnancy and Baby Payment from Social Security Scotland instead. Also excluded: people who already have a child under 16 and do not meet one of the listed exceptions; anyone not receiving one of the qualifying benefits; claims made outside the window (earlier than 11 weeks before the due date, or more than 6 months after birth); and, for the education-based route, people on employer-paid courses, on courses that form part of a job contract, or on 'advanced' courses such as university degrees or BTEC Higher National Certificates.",
+   "from_when": "Claim window opens 11 weeks before the due date and closes 6 months after the birth (or after adoption / the parental, residence or guardianship order, or the date you took responsibility for the baby).",
+   "automatic": false,
+   "how_to_claim": "Not automatic - you must apply on claim form SF100, signed by a health professional (for example using your MATB1), and post it to the address on the form. If you are on Universal Credit the grant decision waits until that claim is processed."
+  },
+  "notes": "Nations - this one is a genuine trap. The gov.uk £500 grant does not cover Scotland: Scotland replaced it with the Pregnancy and Baby Payment (part of Best Start Grant) from Social Security Scotland. Northern Ireland runs its own version, the Social Fund Sure Start Maternity Grant administered by the Department for Communities on form SF100 - same £500 headline, but nidirect sets out multiple-birth uplifts not stated on the gov.uk page (£500 for twins, £1,000 for triplets or more, for a first multiple birth only, with reduced or no payment if you have had multiples before). So the gov.uk scheme as written is England and Wales. Commonly confused with: Maternity Allowance and Statutory Maternity Pay (earnings replacement, nothing to do with this), Healthy Start vouchers, and Scotland's Best Start Grant / Best Start Foods.",
+  "used": []
+ }
+]

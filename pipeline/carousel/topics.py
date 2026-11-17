@@ -8783,3 +8783,1477 @@ BY_SLUG["bham-child-benefit"]["EN"][2]["note"] = "It also stops for an apprentic
 
 # --- layout trims, 17 Nov 2026 run (sixth pass)
 BY_SLUG["bham-business-rates-rhl"]["EN"][2]["fig"] = "<cur>£</cur>500k"
+
+
+# ================================================================ 18 Nov 2026
+# Run of 17 November 2026. Fifteen carousels and nine single-image posts across
+# three brands, no subject repeated on any of them. First consultation is FREE
+# from 17 Nov 2026 — any CTA quoting a price for it is wrong.
+
+OLA_PETRECERE_CRACIUN_150 = dict(
+  slug="ola-petrecere-craciun-150", brand="ola",
+  title="Petrecerea anuala a firmei: scutire de 150 de lire de persoana",
+  tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #HMRC #angajatori #contabilromania",
+  tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #PayrollUK #EmployeeBenefits #HMRC",
+  RO=[
+    dict(type="hook", kicker="Petrecerea anuală · gov.uk",
+      h1="Masa de Crăciun a firmei: <em>£150</em> de persoană.",
+      say="Ai angajați și organizezi masa de Crăciun? Dacă stai în limita de <cur>£</cur>150 de persoană, nu se plătește impozit, nu se plătesc contribuții și nu ai nimic de declarat la HMRC."),
+    dict(type="step", step="O limită, nu o alocație", fig="£150",
+      say="Costul total se împarte la toți cei prezenți, invitații inclusiv, și intră și TVA, transportul și cazarea. La <cur>£</cur>151 de persoană se impozitează toată suma, nu doar diferența.",
+      note="Dacă ai mai multe evenimente anuale, cele £150 se împart între ele."),
+    dict(type="step", step="Unde nu se aplică", fig="Excluse",
+      say="Un eveniment ocazional, cum e o plecare din firmă, nu e un eveniment anual. Nici o petrecere doar pentru directori. Evenimentul trebuie să fie deschis tuturor angajaților.",
+      note="Dacă ești self-employed fără angajați, nu ai o angajare de scutit."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy",
+    h1="Vrei să știi dacă petrecerea ta se încadrează?",
+    say="Trimite-ne costul total și numărul de persoane prezente, iar noi calculăm suma pe cap de om. Prima consultație este gratuită, 30 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Staff annual function · gov.uk",
+      h1="Your staff party is exempt up to <em>£150</em> a head.",
+      say="Put on an annual event that every employee can attend and keep it within <cur>£</cur>150 per person, and there is no tax, no National Insurance and nothing to report."),
+    dict(type="step", step="A limit, not an allowance", fig="£150",
+      say="Divide the full cost, VAT and any transport or overnight stay included, by everyone who turned up, guests as well. At <cur>£</cur>151 a head the whole amount is taxable, not the excess.",
+      note="The £150 is a combined figure across all your annual events in the year."),
+    dict(type="step", step="Where it does not apply", fig="Excluded",
+      say="A one-off celebration or a leaving do is not an annual event, and neither is a party for the board alone. Entertaining customers or suppliers gets no relief at all.",
+      note="Anything given under salary sacrifice is reported whatever it cost."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Not sure your event stays inside the limit?",
+    say="Send us the total cost and the number of people attending and we will work out the figure per head with you. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the £150 per head limit for an annual staff function to be exempt from tax and National Insurance", "https://www.gov.uk/expenses-benefits-social-functions-parties/whats-exempt", "2026-11-17"],
+    ["the £150 is a combined per-head limit across all annual events held in the year", "https://www.gov.uk/expenses-benefits-social-functions-parties/whats-exempt", "2026-11-17"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide",
+    category="Employment benefits - annual staff function exemption",
+    excluded="Not a one-off event that is not annual (a contract win, a leaving do, a birthday); not an event open only to directors or a selected group, though separate departmental or site parties are fine where every employee can attend one; not anything under salary sacrifice, which is reported regardless. No relief for entertaining customers or suppliers, and self-employed sole traders or partners entertaining themselves have no employment to exempt.",
+    from_when="ITEPA 2003 s264; the £150 figure has been unchanged since 2003"),
+  caption="""Organizezi masa de Crăciun pentru angajați?
+
+Legea îți dă o scutire de £150 de persoană pentru un eveniment anual al firmei. Dacă te încadrezi, nu se plătește impozit, nu se plătesc contribuții și nu ai nimic de declarat la HMRC.
+
+Trei lucruri de reținut:
+• Sunt £150 de persoană, dar nu e o alocație. La £151 se impozitează toată suma, nu doar £1 în plus.
+• Costul se împarte la toți cei prezenți, invitații inclusiv, și include TVA, transportul și cazarea.
+• Evenimentul trebuie să fie anual și deschis tuturor angajaților. Un eveniment ocazional sau unul doar pentru directori nu intră.
+
+Dacă ai mai multe evenimente anuale într-un an, cele £150 se împart între toate.
+
+Dacă firma ta are un singur director, și acolo se aplică: directorul este angajat.
+
+Nu ești sigur că te încadrezi? Scrie-ne pe WhatsApp la 0330 133 1886 cu costul total și numărul de persoane prezente. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #HMRC #angajatori #contabilromania""",
+  caption_threads="""£150 de persoană, atât îți dă legea scutit pentru petrecerea anuală a firmei. Dar e o limită, nu o alocație: la £151 se impozitează toată suma. Costul se împarte la toți cei prezenți, invitații inclusiv.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton""",
+  caption_bsky="""Your staff Christmas party is exempt up to £150 a head, but it is a limit, not an allowance. Spend £151 and the whole £151 is taxable.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+  caption_li="""Three things employers get wrong about the £150 staff party exemption.
+
+1. It is a limit, not an allowance. An event costing £151 a head is taxable on the full £151, not on the £1 over. There is no tapering and no partial relief.
+
+2. Cost per head means the whole cost divided by everyone who attended, employees, partners and guests alike, and it includes VAT, any transport laid on and any overnight accommodation. Guests dilute the figure, so bringing partners can work in your favour.
+
+3. The event has to be annual and open to every employee. A celebration of winning a contract, a leaving do or a party restricted to the board does not qualify. Separate parties by department or site are fine, provided everyone can attend one of them.
+
+Worth knowing: the £150 is a combined figure across all annual events in the year. Where the total goes over, HMRC lets you apply the exemption to whichever combination of events uses it best and taxes the rest.
+
+Where the conditions are not met, the full cost per head goes on a P11D or is payrolled, with Class 1A National Insurance on top, or you cover it for staff through a PAYE Settlement Agreement.
+
+A one-director company counts, incidentally. The director is an employee.
+
+This is separate from the trivial benefits exemption. A party is not a trivial benefit, and the two do not stack on the same spend.
+
+If you want the figure checked before you book, send us the total cost and the headcount. First consultation free, 30 minutes.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #PayrollUK #EmployeeBenefits #HMRC""",
+  caption_pin_title="The £150 staff party exemption, explained",
+  caption_pin_desc="""An annual staff function is exempt from tax and National Insurance up to £150 per person. It is a limit rather than an allowance: at £151 a head the whole amount becomes taxable. Cost per head is the total divided by everyone attending, guests included, with VAT, transport and accommodation counted in. The event must be annual and open to all employees. A leaving do, a one-off celebration or a directors-only party does not qualify, and entertaining customers gets no relief.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+)
+
+OLA_CADOURI_MICI_50 = dict(
+  slug="ola-cadouri-mici-50", brand="ola",
+  title="Trivial benefits: cadouri pentru angajati scutite pana la 50 de lire",
+  tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #HMRC #angajatori #contabilromania",
+  tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #PayrollUK #EmployeeBenefits #HMRC",
+  RO=[
+    dict(type="hook", kicker="Trivial benefits · HMRC",
+      h1="Un cadou pentru un angajat, scutit până la <em>£50</em>.",
+      say="Dacă un cadou costă cel mult <cur>£</cur>50, nu se impozitează, nu intră pe P11D și nu se plătesc contribuții. HMRC numește asta trivial benefits, iar regula e în vigoare din 6 aprilie 2016."),
+    dict(type="step", step="Dacă ești director", fig="£300",
+      say="Într-o firmă mică în care ești director, cadourile scutite se opresc la <cur>£</cur>300 pe an fiscal, fiecare rămânând sub <cur>£</cur>50. Ține o evidență, ca să nu depășești plafonul.",
+      note="Angajații obișnuiți ai aceleiași firme nu au plafonul de £300."),
+    dict(type="step", step="Ce nu intră", fig="Excluse",
+      say="Banii și tichetele preschimbabile în bani nu intră niciodată. Nici cadoul prevăzut în contract, cel dat prin salary sacrifice sau cel oferit ca răsplată pentru munca depusă.",
+      note="Un cadou de £51 se impozitează integral, nu doar cu diferența."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy",
+    h1="Pregătești cadouri pentru echipă în decembrie?",
+    say="Spune-ne ce vrei să oferi și cui, iar noi verificăm dacă se încadrează și ce trebuie trecut în evidență. Prima consultație este gratuită, 30 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Trivial benefits · HMRC",
+      h1="A gift to staff is exempt up to <em>£50</em>.",
+      say="Keep a single gift at <cur>£</cur>50 or less and there is no tax, no National Insurance, no P11D entry and nothing to payroll. The exemption has applied since 6 April 2016."),
+    dict(type="step", step="If you are a director", fig="£300",
+      say="In a close company, which covers most owner-managed businesses, exempt trivial benefits to a director stop at <cur>£</cur>300 of total cost in the tax year, with each one still capped at <cur>£</cur>50.",
+      note="Rank-and-file employees of a close company are not caught by the £300 cap."),
+    dict(type="step", step="What falls outside", fig="Excluded",
+      say="Cash and cash vouchers never qualify. Nor does anything contractual, anything under salary sacrifice, or a gift given in recognition of work the employee has done.",
+      note="A £51 gift is taxable in full, not on the £1 over the limit."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Planning gifts for your team this December?",
+    say="Tell us what you intend to give and to whom, and we will confirm whether it qualifies and what to record. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the £50 maximum cost of a single benefit for the trivial benefits exemption", "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim21864", "2026-11-15"],
+    ["the £300 annual cap for a close company director, office holder, or their family or household", "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim21864", "2026-11-15"],
+    ["the exemption applies to benefits provided from 6 April 2016", "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim21864", "2026-11-15"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide",
+    category="Employment benefits - trivial benefits exemption, section 323A ITEPA 2003",
+    excluded="Does not cover cash or a cash voucher; anything the employee is contractually entitled to, including under salary sacrifice; anything given in recognition of, or in anticipation of, particular services performed as part of their duties; or any benefit costing more than £50 to provide. If any of the four conditions fails the whole benefit is taxed, not just the excess. For a close company, exempt trivial benefits to a director or other office holder, or to their family or household, stop at £300 of total cost in the tax year. Rank-and-file employees of a close company are not subject to the £300 cap.",
+    from_when="Benefits provided from 6 April 2016, under section 323A ITEPA 2003"),
+  caption="""Vrei să dai angajaților un cadou de sărbători, fără impozit?
+
+Se numește trivial benefits și este o scutire în vigoare din 6 aprilie 2016. Dacă un cadou costă £50 sau mai puțin, nu se impozitează, nu intră pe P11D și nu se plătesc contribuții.
+
+Patru condiții, și trebuie îndeplinite toate:
+• Cadoul costă cel mult £50
+• Nu sunt bani și nici un tichet preschimbabil în bani
+• Nu e prevăzut în contract și nu vine printr-un salary sacrifice
+• Nu e o răsplată pentru munca depusă
+
+Dacă ești director într-o firmă mică, mai există o limită: £300 în total pe an fiscal pentru tine, și separat pentru fiecare membru al familiei tale care primește cadouri. Angajații obișnuiți nu au plafonul acesta.
+
+De reținut: un cadou de £51 se impozitează integral, nu doar cu £1 în plus. Iar un voucher cadou care nu se preschimbă în bani poate intra în scutire.
+
+Scutirea aceasta este separată de cele £150 de persoană pentru petrecerea anuală. Le poți folosi pe amândouă.
+
+Scrie-ne pe WhatsApp la 0330 133 1886 și verificăm împreună ce poți oferi. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #HMRC #angajatori #contabilromania""",
+  caption_threads="""Un cadou de până la £50 pentru un angajat nu se impozitează și nu se declară. Se numește trivial benefits. Banii nu intră niciodată, iar la £51 se impozitează toată suma. Dacă ești director de firmă mică, plafonul anual e £300.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+  caption_bsky="""A gift to an employee costing £50 or less is exempt from tax and NICs. Cash never qualifies, and £51 is taxable in full. Close company directors: £300 a year.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+  caption_li="""The trivial benefits exemption is one of the simplest reliefs in the employment tax code, and it is still routinely missed.
+
+Since 6 April 2016, a benefit provided to an employee or director is exempt from income tax and National Insurance where all four conditions are met:
+
+- it costs £50 or less to provide
+- it is not cash or a cash voucher
+- it is not contractual, including anything under salary sacrifice
+- it is not given in recognition of services performed
+
+Nothing is claimed and nothing is reported. No P11D entry, no payrolling, no Class 1 or Class 1A.
+
+Two points that catch people out.
+
+First, the £50 is a cap on the cost of each individual benefit, not an annual allowance. An employee of a company that is not a close company can receive any number of them. And a benefit costing £51 is taxable in full, because the excess is not carved out.
+
+Second, close companies, which covers most owner-managed businesses, have a separate £300 annual cap on exempt trivial benefits to each director or other office holder, applying separately again to members of their family or household. Rank-and-file employees are not caught by it. If you are a director, keep a running total.
+
+A non-cash gift voucher can qualify. A cash voucher cannot.
+
+This sits entirely apart from the £150 per head annual function exemption. Using one does not stop you using the other.
+
+Planning something for the team this December? Send us the detail and we will confirm it qualifies. First consultation free, 30 minutes.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #PayrollUK #EmployeeBenefits #HMRC""",
+  caption_pin_title="Trivial benefits: the £50 rule for staff gifts",
+  caption_pin_desc="""Since 6 April 2016, a gift to an employee or director costing £50 or less is exempt from tax and National Insurance, with nothing to report. Four conditions must all be met: £50 or less, not cash or a cash voucher, not contractual or under salary sacrifice, and not a reward for work done. A £51 gift is taxable in full rather than on the excess. In a close company, exempt trivial benefits to a director stop at £300 of total cost in a tax year.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+)
+
+OLA_PLATA_HMRC_TIMP = dict(
+  slug="ola-plata-hmrc-timp", brand="ola",
+  title="Cat dureaza fiecare metoda de plata catre HMRC inainte de 31 ianuarie",
+  tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #SelfAssessment #HMRC #contabilromania",
+  tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #SelfAssessment #HMRC #UKTax",
+  RO=[
+    dict(type="hook", kicker="Plata către HMRC · gov.uk",
+      h1="Până pe <em>31 ianuarie</em> banii trebuie să ajungă la HMRC.",
+      say="Nu contează ziua în care apeși trimite, ci ziua în care HMRC primește suma. Un transfer pornit prin Bacs pe 30 ianuarie ajunge prea târziu, iar penalitatea și dobânda vin automat."),
+    dict(type="step", step="Metodele rapide", fig="Aceeași zi",
+      say="Faster Payments, aprobarea plății din aplicația băncii, CHAPS și cardul de debit online ajung în aceeași zi sau a doua zi, inclusiv în weekend. Prin Bacs durează 3 zile lucrătoare.",
+      note="Referința are 11 caractere: cele 10 cifre ale UTR-ului, urmate de litera K."),
+    dict(type="step", step="Ce nu prinde termenul", fig="Prea lent",
+      say="La Post Office nu se mai plătește deloc. Un Direct Debit care nu e deja configurat la HMRC are nevoie de 5 zile lucrătoare, deci pornit la sfârșitul lui ianuarie nu ajunge la timp.",
+      note="La ghișeul băncii poți plăti doar cu un paying-in slip primit de la HMRC."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy",
+    h1="Nu știi cât ai de plătit până pe 31 ianuarie?",
+    say="Trimite-ne cifrele și îți spunem suma, data și o metodă de plată care ajunge la timp. Prima consultație este gratuită, 30 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Paying HMRC · gov.uk",
+      h1="The money has to reach HMRC by <em>31 January</em>.",
+      say="The deadline is about arrival, not departure. A Bacs payment sent on 30 January lands after the date, and late means a penalty and interest on a bill you already had the money for."),
+    dict(type="step", step="The fast routes", fig="Same day",
+      say="Faster Payments, approving a payment inside your online bank account, CHAPS and a debit or corporate credit card online all clear the same or next day. Bacs takes three working days.",
+      note="Quote the 11-character reference: your 10-digit UTR followed by the letter K."),
+    dict(type="step", step="What will not make it", fig="Too slow",
+      say="The Post Office route has gone entirely. A Direct Debit not already set up with HMRC takes five working days, so arranging one in late January will not meet the deadline.",
+      note="A bank counter only works if HMRC has already sent you a paying-in slip."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Unsure what you owe on 31 January?",
+    say="Send us your figures and we will confirm the amount, the date and a payment route that arrives in time. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["same or next day clearing for online bank approval, Faster Payments, CHAPS, debit or corporate credit card online, and a bank paying-in slip", "https://www.gov.uk/pay-self-assessment-tax-bill", "2026-11-15"],
+    ["Faster Payments clears same or next day, including weekends and bank holidays", "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details", "2026-11-15"],
+    ["Bacs and an existing Direct Debit take 3 working days; a new Direct Debit takes 5", "https://www.gov.uk/pay-self-assessment-tax-bill", "2026-11-15"],
+    ["the 11-character payment reference, a 10-digit UTR followed by the letter K", "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details", "2026-11-15"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide. HMRC payment channels and clearing times are the same in England, Wales, Scotland and Northern Ireland.",
+    category="Self Assessment - paying HMRC and payment clearing times",
+    excluded="Paying at the Post Office is no longer possible. Direct Debit is excluded as a last-minute option: not already set up with HMRC it takes 5 working days. Paying at a bank or building society counter is excluded unless you already hold an HMRC paying-in slip. The rule about paying by the last working day before a weekend or bank holiday deadline does not apply to Faster Payments or to debit and credit card payments, which clear regardless.",
+    from_when="Current. Applies to the 31 January 2027 deadline for the 2025 to 2026 tax year and the 31 July 2027 second payment on account."),
+  caption="""Pe 31 ianuarie nu contează când trimiți banii, ci când ajung la HMRC.
+
+Un transfer pornit pe 30 ianuarie prin Bacs ajunge prea târziu, pentru că Bacs are nevoie de 3 zile lucrătoare. Urmează penalitatea de întârziere și dobânda.
+
+Cât durează fiecare metodă:
+• Faster Payments, aprobarea plății din aplicația băncii, CHAPS, card de debit online — aceeași zi sau a doua zi
+• Bacs și un Direct Debit deja configurat — 3 zile lucrătoare
+• Un Direct Debit nou la HMRC — 5 zile lucrătoare
+
+Două capcane:
+• La Post Office nu se mai plătește deloc.
+• Referința are 11 caractere: cele 10 cifre ale UTR-ului urmate de litera K. Cu referința greșită, plata poate întârzia sau poate fi trecută la altă datorie.
+
+Dacă termenul pică în weekend sau într-o zi liberă, HMRC așteaptă banii până în ultima zi lucrătoare dinainte. Faster Payments și plata cu cardul fac excepție, pentru că ajung oricum.
+
+Termenul de 31 ianuarie 2027 acoperă restul de plată pentru anul fiscal 2025–2026 și prima plată în avans. A doua plată în avans este pe 31 iulie 2027.
+
+Scrie-ne pe WhatsApp la 0330 133 1886. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #SelfAssessment #HMRC #contabilromania""",
+  caption_threads="""Pe 31 ianuarie contează ziua în care banii ajung la HMRC, nu ziua în care îi trimiți. Bacs are nevoie de 3 zile lucrătoare, un Direct Debit nou are nevoie de 5. Faster Payments și cardul de debit ajung în aceeași zi.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+  caption_bsky="""31 January is when the money must reach HMRC, not when you send it. Bacs takes 3 working days. A new Direct Debit takes 5. Faster Payments clears same day.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+  caption_li="""Every January a number of Self Assessment payments arrive late, and almost none of them were sent late.
+
+The deadline is the date the money reaches HMRC. Not the date you press send. If a Bacs payment leaves your account on 30 January it clears three working days later, which is after the deadline, and that is a late payment penalty plus interest on a bill you had the money for.
+
+Clearing times, from GOV.UK:
+
+Same or next day. Faster Payments, approving a payment through your online bank account, online or telephone banking, CHAPS, a debit or corporate credit card online, and paying at your bank or building society with an HMRC paying-in slip.
+
+Three working days. Bacs, and Direct Debit where one is already set up with HMRC.
+
+Five working days. Direct Debit where it is not already set up. Arranging one in late January will not meet the deadline.
+
+Two further points. Paying at the Post Office is no longer possible at all. And the reference matters: eleven characters, your ten-digit UTR followed by the letter K. Use the wrong one and HMRC may delay the payment or set it against a different tax bill, which reads as non-payment on your record.
+
+Where the deadline falls on a weekend or bank holiday, HMRC expects the money by the last working day before. Faster Payments and card payments sit outside that rule, because they clear regardless.
+
+31 January 2027 covers the balancing payment for 2025 to 2026 and the first payment on account. The second payment on account is due 31 July 2027.
+
+If you do not yet know what you owe, send us your figures. First consultation free, 30 minutes.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #SelfAssessment #HMRC #UKTax""",
+  caption_pin_title="How long each HMRC payment method takes to clear",
+  caption_pin_desc="""The 31 January Self Assessment deadline is about when the money reaches HMRC, not when you send it. Faster Payments, approving a payment in your online bank account, CHAPS and a debit or corporate credit card online clear the same or next day. Bacs and an existing Direct Debit take three working days. A Direct Debit not already set up takes five. Paying at the Post Office is no longer possible. Quote the eleven-character reference: your ten-digit UTR followed by the letter K.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+)
+
+OLA_ATTENDANCE_ALLOWANCE = dict(
+  slug="ola-attendance-allowance", brand="ola",
+  title="Attendance Allowance: 76,70 sau 114,60 lire pe saptamana, fara verificarea veniturilor",
+  tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #AttendanceAllowance #pensionari #romaniinuk",
+  tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #AttendanceAllowance #PensionAge #UKBenefits",
+  RO=[
+    dict(type="hook", kicker="Attendance Allowance · gov.uk",
+      h1="Attendance Allowance: până la <em>£114,60</em> pe săptămână.",
+      say="Dacă ai ajuns la State Pension age și ai nevoie de ajutor sau de supraveghere din cauza unei boli sau a unei dizabilități, poți primi această sumă. Economiile și pensia nu se iau în calcul."),
+    dict(type="step", step="Cele două rate", fig="£76,70",
+      say="Rata mai mică, de <cur>£</cur>76,70 pe săptămână, e pentru ajutor frecvent ziua sau supraveghere noaptea. Rata mai mare, de <cur>£</cur>114,60, e pentru ajutor și ziua și noaptea.",
+      note="Trebuie să ai nevoie de acest ajutor de cel puțin 6 luni."),
+    dict(type="step", step="Cine nu o poate primi", fig="Excluse",
+      say="În Scoția se cere Pension Age Disability Payment în locul ei. Nu se poate primi în același timp cu PIP, DLA sau Adult Disability Payment, și nu acoperă nimic din nevoile de deplasare.",
+      note="Într-un cămin de îngrijire plătit de autoritatea locală, de regulă nu se acordă."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy",
+    h1="Crezi că un părinte s-ar putea încadra?",
+    say="Spune-ne de ce ajutor are nevoie în fiecare zi și verificăm împreună condițiile și cum se depune cererea. Prima consultație este gratuită, 30 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Attendance Allowance · gov.uk",
+      h1="Up to <em>£114.60</em> a week, and savings do not count.",
+      say="Attendance Allowance goes to people who have reached State Pension age and need help looking after themselves, or supervision to stay safe. It is not means-tested."),
+    dict(type="step", step="The two rates", fig="£76.70",
+      say="The lower rate of <cur>£</cur>76.70 a week covers frequent help in the day or supervision at night. The higher rate of <cur>£</cur>114.60 is for help or supervision needed across both day and night.",
+      note="You must have needed that help for at least six months."),
+    dict(type="step", step="Who cannot claim it", fig="Excluded",
+      say="Scotland has replaced it with Pension Age Disability Payment. It cannot be held alongside PIP, DLA or Adult Disability Payment, and it pays nothing towards mobility needs.",
+      note="Usually unavailable in a care home where the council pays the fees."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Think a parent might qualify?",
+    say="Describe the help they need day to day and we will check the conditions with you and talk through the claim. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the lower rate of £76.70 a week for frequent help or supervision by day, or supervision at night", "https://www.gov.uk/attendance-allowance/what-youll-get", "2026-11-17"],
+    ["the higher rate of £114.60 a week for help or supervision through both day and night", "https://www.gov.uk/attendance-allowance/what-youll-get", "2026-11-17"],
+    ["the help must have been needed for 6 months before you qualify", "https://www.gov.uk/attendance-allowance/eligibility", "2026-11-17"],
+  ],
+  SCOPE=dict(
+    nation="England and Wales. Scotland has replaced it with Pension Age Disability Payment; Northern Ireland runs its own Attendance Allowance through nidirect.",
+    category="Benefits - Attendance Allowance for people over State Pension age; not means-tested",
+    excluded="Anyone living in Scotland must apply for Pension Age Disability Payment instead. Anyone already getting DLA, PIP, Adult Disability Payment, Scottish Adult Disability Living Allowance or Armed Forces Independence Payment cannot also have Attendance Allowance. People in a care home where the local authority pays for their care usually cannot get it, though you can claim if you pay all the fees yourself. It covers nothing for mobility needs. Where Constant Attendance Allowance is also paid, Attendance Allowance is reduced by that amount.",
+    from_when="Rates as published on GOV.UK on 17 November 2026; uprated each April"),
+  caption="""Attendance Allowance este cel mai puțin cerut ajutor pentru pensionari, și motivul este o neînțelegere: lumea crede că se verifică veniturile. Nu se verifică.
+
+Economiile, pensia și o casă plătită nu contează deloc.
+
+Cât se primește pe săptămână:
+• £76,70 — pentru ajutor frecvent ziua sau supraveghere noaptea
+• £114,60 — pentru ajutor sau supraveghere și ziua și noaptea
+
+Condițiile:
+• Să fi ajuns la State Pension age
+• Să ai nevoie de ajutor sau de supraveghere de cel puțin 6 luni
+• Să fi locuit în Marea Britanie 2 din ultimii 3 ani
+
+Nu se dă pentru un diagnostic, ci pentru nevoia de ajutor sau de supraveghere. Și nu trebuie să ai pe cineva care chiar te ajută.
+
+Cine nu o primește: cei din Scoția, care cer Pension Age Disability Payment în locul ei, și cei care iau deja PIP, DLA sau Adult Disability Payment. Nu acoperă nevoile de deplasare. Într-un cămin de îngrijire plătit de autoritatea locală, de regulă nu se acordă.
+
+Cererea se depune online pe GOV.UK sau pe formular.
+
+Crezi că un părinte s-ar încadra? Scrie-ne pe WhatsApp la 0330 133 1886. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #AttendanceAllowance #pensionari #romaniinuk""",
+  caption_threads="""Attendance Allowance nu se calculează după venituri. Economiile și pensia nu contează. £76,70 sau £114,60 pe săptămână, pentru cine a ajuns la State Pension age și are nevoie de ajutor de cel puțin 6 luni.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+  caption_bsky="""Attendance Allowance is not means-tested. Savings and pension income make no difference. £76.70 or £114.60 a week once you reach State Pension age.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+  caption_li="""Attendance Allowance is the most under-claimed benefit for people over State Pension age, and the reason is a single misunderstanding: people assume it is means-tested.
+
+It is not. Savings, a private pension and a paid-off house make no difference to it.
+
+The rates are £76.70 a week for frequent help or constant supervision during the day, or supervision at night, and £114.60 a week where help or supervision is needed across both day and night.
+
+Two further things that are widely misread. It is not paid for having a diagnosis, it is paid for needing help or supervision. And you do not have to be receiving that help from anyone for it to be awarded.
+
+The conditions are State Pension age, a physical or mental disability or a health condition severe enough to need help caring for yourself or supervision for your own or someone else's safety, that need having lasted at least six months, and having lived in Great Britain for two of the last three years.
+
+Who is outside it: anyone living in Scotland, where Pension Age Disability Payment has replaced it, and anyone already receiving DLA, PIP, Adult Disability Payment, Scottish Adult Disability Living Allowance or Armed Forces Independence Payment. It covers nothing towards mobility needs. People in a care home funded by the local authority usually cannot get it, though a claim is possible where you pay all the fees yourself. Northern Ireland runs its own version through nidirect.
+
+An award can also unlock extra Pension Credit, Housing Benefit and Council Tax Reduction, so it is often worth more than the weekly rate alone suggests.
+
+If you think a parent might qualify, we will talk it through. First consultation free, 30 minutes.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #AttendanceAllowance #PensionAge #UKBenefits""",
+  caption_pin_title="Attendance Allowance rates and who can claim",
+  caption_pin_desc="""Attendance Allowance is paid at £76.70 or £114.60 a week to people who have reached State Pension age and need help caring for themselves or supervision to stay safe. It is not means-tested, so savings and pension income make no difference, and you do not need anyone to be actually caring for you. The need must have lasted at least six months. Scotland has replaced it with Pension Age Disability Payment, and it cannot be held alongside PIP, DLA or Adult Disability Payment. It pays nothing towards mobility needs.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+)
+
+OLA_CRESA_FARA_TAXA = dict(
+  slug="ola-cresa-fara-taxa", brand="ola",
+  title="Tax-Free Childcare: 2 lire adaugate de stat la fiecare 8 lire pe care ii pui",
+  tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #TaxFreeChildcare #HMRC #romaniinuk",
+  tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #TaxFreeChildcare #HMRC #UKTax",
+  RO=[
+    dict(type="hook", kicker="Tax-Free Childcare · gov.uk",
+      h1="Statul adaugă <em>£500</em> la trei luni pentru fiecare copil.",
+      say="Deschizi un cont online pentru un copil de 11 ani sau mai puțin, pui bani pentru creșă sau after-school, iar HMRC adaugă <cur>£</cur>2 la fiecare <cur>£</cur>8 pe care îi pui tu."),
+    dict(type="step", step="Cât primești", fig="£2.000/an",
+      say="Suma adăugată se oprește la <cur>£</cur>500 la fiecare trei luni pentru fiecare copil, adică până la <cur>£</cur>2.000 pe an. Pentru un copil cu dizabilități sunt <cur>£</cur>1.000 la trei luni.",
+      note="Banii se pot plăti doar către o creșă sau o bonă înscrisă în schemă."),
+    dict(type="step", step="Cine nu poate folosi schema", fig="Excluse",
+      say="Nu se poate avea în același timp cu Universal Credit sau cu childcare vouchers. Dacă tu sau partenerul tău vă așteptați la un venit peste <cur>£</cur>100.000, familia nu se încadrează.",
+      note="Fiecare părinte de 21 de ani sau peste trebuie să câștige £2.643,68 în 3 luni."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Ola Accountancy",
+    h1="Nu știi dacă familia ta se încadrează?",
+    say="Trimite-ne vârstele copiilor și venitul la care te aștepți, iar noi verificăm condițiile împreună cu tine. Prima consultație este gratuită, 30 de minute.",
+    phone=PHONE,
+    disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Tax-Free Childcare · gov.uk",
+      h1="HMRC adds <em>£500</em> every three months per child.",
+      say="Open an online childcare account for a child aged 11 or under, pay money in, and the government adds <cur>£</cur>2 for every <cur>£</cur>8 you put towards registered childcare."),
+    dict(type="step", step="What it is worth", fig="£2,000/yr",
+      say="The top-up is capped at <cur>£</cur>500 every three months for each child, so up to <cur>£</cur>2,000 a year. Where the child is disabled it is <cur>£</cur>1,000 a quarter, up to <cur>£</cur>4,000 a year.",
+      note="The money can only be paid to a provider signed up to the scheme."),
+    dict(type="step", step="Who cannot use it", fig="Excluded",
+      say="It cannot be held alongside Universal Credit or childcare vouchers. If you or your partner expect adjusted net income above <cur>£</cur>100,000, the household is outside the scheme.",
+      note="Each parent aged 21 or over must expect to earn £2,643.68 over three months."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Not sure whether your household qualifies?",
+    say="Send us your expected earnings and your children's ages and we will check the conditions with you. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the government adds £2 for every £8 paid into a Tax-Free Childcare account, a 25% top-up", "https://www.gov.uk/tax-free-childcare", "2026-11-14"],
+    ["the top-up is capped at £500 every 3 months per child, up to £2,000 a year", "https://www.gov.uk/tax-free-childcare", "2026-11-14"],
+    ["£1,000 every 3 months, up to £4,000 a year, where the child is disabled", "https://www.gov.uk/tax-free-childcare", "2026-11-14"],
+    ["minimum expected earnings of £2,643.68 over the next 3 months for each parent aged 21 or over", "https://www.gov.uk/tax-free-childcare/check-if-youre-eligible", "2026-11-14"],
+    ["each parent must expect adjusted net income of £100,000 or less", "https://www.gov.uk/tax-free-childcare/check-if-youre-eligible", "2026-11-14"],
+    ["the child must be 11 or younger, or 16 or younger if disabled", "https://www.gov.uk/tax-free-childcare/check-if-youre-eligible", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="United Kingdom. An HMRC scheme applied for on GOV.UK; Northern Ireland parents apply through GOV.UK, and the eligibility page recognises Scottish disability benefits for the disabled-child route.",
+    category="Childcare - Tax-Free Childcare top-up for working parents",
+    excluded="You cannot claim where the child does not usually live with you, or for a child you foster. You cannot claim if you or your partner expect adjusted net income over £100,000, applied to each of you separately, or if either of you gets a childcare bursary or grant. You cannot hold it at the same time as Universal Credit or childcare vouchers. Parents below the minimum expected earnings are excluded, and dividends, interest, property income and pension income do not count towards that minimum. Payments can only be made to a childcare provider signed up to the scheme.",
+    from_when="Ongoing scheme; figures confirmed as at 14 November 2026"),
+  caption="""Plătești creșa sau after-school? Statul îți adaugă un sfert din sumă.
+
+Se numește Tax-Free Childcare. Deschizi un cont online pentru fiecare copil, pui bani în el, iar HMRC adaugă £2 la fiecare £8 pe care îi pui tu.
+
+Cât primești:
+• Până la £500 la fiecare trei luni, pentru fiecare copil — adică până la £2.000 pe an
+• £1.000 la trei luni dacă are copilul dizabilități — până la £4.000 pe an
+
+Condițiile:
+• Copilul are 11 ani sau mai puțin, 16 dacă are dizabilități
+• Fiecare părinte de 21 de ani sau peste se așteaptă să câștige cel puțin £2.643,68 în următoarele 3 luni
+• Nici tu, nici partenerul tău nu vă așteptați la un venit peste £100.000
+
+Cine nu poate: cei care primesc Universal Credit sau childcare vouchers în același timp, și familiile în care unul dintre părinți trece de £100.000. Banii se pot plăti doar către o creșă sau o bonă înscrisă în schemă, deci verifică întâi dacă este.
+
+Dacă ești self-employed și câștigi neregulat, poți folosi o medie pe an fiscal. Iar dacă activitatea a început acum mai puțin de 12 luni, nu se cere un minim.
+
+Scrie-ne pe WhatsApp la 0330 133 1886. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #TaxFreeChildcare #HMRC #romaniinuk""",
+  caption_threads="""Tax-Free Childcare: pui £8 pentru creșă, statul adaugă £2. Până la £500 la trei luni pentru fiecare copil, adică £2.000 pe an. Nu merge în același timp cu Universal Credit sau cu childcare vouchers.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+  caption_bsky="""Tax-Free Childcare: pay £8 in, the government adds £2. Up to £500 a quarter per child. Not available alongside Universal Credit or childcare vouchers.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+  caption_li="""Tax-Free Childcare is worth up to £2,000 per child per year, and a lot of eligible households never open the account.
+
+The mechanism is simple. You open an online childcare account on GOV.UK for each child, pay money in, and the government adds £2 for every £8 you contribute, a 25% top-up. You then pay your provider out of the account.
+
+The top-up is capped at £500 every three months for each child, so up to £2,000 a year. Where the child is disabled it is £1,000 every three months, up to £4,000 a year.
+
+Eligibility, as GOV.UK sets it out:
+
+The child is 11 or younger, with eligibility running to the September after the 11th birthday. For a disabled child it is 16 or younger.
+
+You and your partner must each expect to earn at least a minimum over the next three months: £2,643.68 before tax if you are 21 or over. Dividends, interest, property income and pension income do not count towards it.
+
+You and your partner must each expect adjusted net income of £100,000 or less. The test applies to each of you separately, and either of you going over disqualifies the household.
+
+Where it does not work: you cannot hold it at the same time as Universal Credit or childcare vouchers, you cannot claim for a child you foster or one who does not usually live with you, and it is out if you or your partner receive a childcare bursary or grant. Payments can only go to a provider signed up to the scheme, so check that before you open the account.
+
+If you are self-employed and paid irregularly you can use an average across the tax year, and there is no minimum earnings test where the business started less than twelve months ago.
+
+Want the figures checked against your household? First consultation free, 30 minutes.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #TaxFreeChildcare #HMRC #UKTax""",
+  caption_pin_title="Tax-Free Childcare: £2 added for every £8 you pay in",
+  caption_pin_desc="""Tax-Free Childcare adds £2 for every £8 you pay into an online childcare account, a 25% top-up worth up to £500 every three months per child, or £2,000 a year. For a disabled child it is £1,000 a quarter, up to £4,000 a year. The child must be 11 or younger, or 16 or younger if disabled. Each parent must expect to earn at least the minimum over the next three months and have adjusted net income of £100,000 or less. It cannot be held alongside Universal Credit or childcare vouchers.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+)
+
+BHAM_DFG = dict(
+  slug="bham-disabled-facilities-grant", brand="bham",
+  title="Disabled Facilities Grant: your council can pay up to 30,000 pounds to adapt your home",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #BirminghamCityCouncil #DisabledFacilitiesGrant #HomeAdaptations",
+  EN=[
+    dict(type="hook", kicker="Disabled Facilities Grant · gov.uk",
+      h1="Your council can pay up to <em>£30,000</em> to adapt your home.",
+      say="A ramp, a stairlift, wider doors, a shower you can get into downstairs. If someone in the house is disabled, the council can pay for the work."),
+    dict(type="step", step="A child under 18", fig="Not tested",
+      say="For a disabled child under 18, the parents' income and savings are not counted at all. Families who assume they earn too much often never ask. Landlords are not income-tested either.",
+      note="Everyone else is means-tested, including savings above <cur>£</cur>6,000."),
+    dict(type="step", step="Who misses out", fig="Too late",
+      say="If you pay for the stairlift yourself before the council approves the grant, the work is normally not funded. A household with means of its own may be asked to pay a share.",
+      note="The council arranges an assessment first, usually an occupational therapist."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Is your home hard to live in for someone in the family?",
+    say="Bring your benefit letters and an idea of the work needed. We will go through the council's form with you. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the maximum grant in England", "https://www.gov.uk/disabled-facilities-grants/what-youll-get", "2026-11-17"],
+    ["the savings level above which savings are counted in the means test", "https://www.gov.uk/disabled-facilities-grants/what-youll-get", "2026-11-17"],
+  ],
+  SCOPE=dict(
+    nation="England, Wales and Northern Ireland, with a different maximum in each: up to £30,000 in England, up to £36,000 in Wales, up to £25,000 in Northern Ireland. Scotland has no Disabled Facilities Grant at all.",
+    category="Local council home adaptations grant for disabled people",
+    excluded="Anyone living in Scotland. Most applicants are means-tested on household income and on savings over £6,000, so a household with means may get only a contribution or nothing. Two carve-outs from the means test: disabled children under 18 are assessed without their parents' income, and landlords without their income and savings. Work started or finished before the council approves the grant is normally not funded.",
+    from_when="Maximum amounts as published on GOV.UK on 17 November 2026"),
+  caption="""Birmingham City Council can pay up to £30,000 towards adapting a home for a disabled person: a ramp, a stairlift, wider doorways, a shower downstairs, better heating.
+
+The part most families miss. For a disabled child under 18, the parents' income and savings are not counted at all. Households who assume they earn too much are often entitled to the full amount. Landlords are not income-tested either, which matters if you rent privately and your landlord will not pay for the work.
+
+Everyone else is means-tested, and savings above £6,000 are taken into account, so you may be asked to pay towards the cost.
+
+Two traps worth knowing. The grant is approved before the work, not after, so paying for the stairlift yourself usually forfeits it. And the council arranges an assessment first, normally by an occupational therapist, and that assessment decides what the grant will cover.
+
+£30,000 is the maximum the law sets, not an entitlement. Some councils pay more under their own housing assistance policy, so it is always worth asking what your council adds locally.
+
+Not sure where to start? Bring your benefit letters and an idea of the work needed to our office at 22-42 Washwood Heath Rd, Saltley. First consultation free, 30 minutes.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #BirminghamCityCouncil #DisabledFacilitiesGrant #HomeAdaptations""",
+)
+
+BHAM_SURCHARGE = dict(
+  slug="bham-council-tax-surcharge-2028", brand="bham",
+  title="A council tax surcharge on homes worth 2 million pounds or more starts in April 2028",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #CouncilTax #Budget2026 #PropertyTax",
+  EN=[
+    dict(type="hook", kicker="High Value Council Tax Surcharge · gov.uk",
+      h1="A new council tax surcharge starts at <em>£2 million</em>.",
+      say="It was announced at the Budget on 28 October 2026 and begins in April 2028. The value that counts is the one assessed in 2026, not what the house is worth by then."),
+    dict(type="step", step="How it works", fig="April 2028",
+      say="The surcharge is added on top of the council tax bill, not instead of it. The home stays in the band it is in now. Your council collects it on behalf of central government.",
+      note="A separate 100% premium applies to homes left empty for 12 months or more."),
+    dict(type="step", step="Who is not caught", fig="Under £2m",
+      say="Every home valued below <cur>£</cur>2 million in the 2026 assessment is outside it, which is nearly all of them. An ordinary Birmingham household pays nothing extra.",
+      note="Shops and offices pay business rates, so the surcharge does not reach them."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Is your property anywhere near the line?",
+    say="Tell us what you own and roughly what it is worth, and we will tell you whether the 2026 assessment is worth watching. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the value a home must reach to be in scope of the surcharge", "https://www.gov.uk/government/publications/high-value-council-tax-surcharge", "2026-11-16"],
+    ["that values are assessed in 2026 and the surcharge takes effect in April 2028", "https://www.gov.uk/government/publications/high-value-council-tax-surcharge", "2026-11-16"],
+    ["the 100% premium on homes left empty for 12 months or more", "https://www.gov.uk/government/publications/high-value-council-tax-surcharge", "2026-11-16"],
+  ],
+  SCOPE=dict(
+    nation="England only. Scotland and Wales set their own council tax policy and are not covered; Northern Ireland has domestic rates rather than council tax.",
+    category="Council tax surcharge on high value residential property",
+    excluded="Every residential property valued below £2 million in the 2026 assessment, which is the overwhelming majority of homes; an ordinary Birmingham or West Midlands household is not affected. All property outside England. Non-residential and commercial property, which pays business rates. Discounts, exemptions and a deferral scheme were confirmed at Budget 2026 but the published factsheet does not yet say who they cover.",
+    from_when="April 2028. Announced at Budget 2026 on 28 October 2026 and to be legislated in Finance Bill 2026-27."),
+  caption="""A new council tax surcharge is coming for homes worth £2 million or more. It starts in April 2028 and was announced at the Budget on 28 October 2026.
+
+Three things to get straight.
+
+It sits on top of the existing council tax bill. It is not a replacement and it is not a reband: the property stays in the band it is in and the surcharge is added. Your council collects it on behalf of central government.
+
+The valuation date matters more than the charge date. Values are assessed in 2026, but the charge does not start until April 2028. If a home is anywhere near the £2 million line, the 2026 assessment is the one to care about.
+
+Almost nobody in Birmingham is in this. Every home valued below £2 million in the 2026 assessment is outside it, and that is the overwhelming majority of homes. Shops, offices and other commercial property pay business rates, so they are out too.
+
+What is not published yet: how much will actually be payable, the value bands above £2 million, and the detail of the discounts, exemptions and deferral scheme confirmed at the Budget. Those go into Finance Bill 2026-27, so anyone quoting you a surcharge amount today is guessing.
+
+Separately, a 100% premium applies to homes left empty for 12 months or more, which is worth knowing if you are holding a property you cannot let.
+
+Own something near the line, or a property standing empty? Bring the details to our Saltley office. First consultation free, 30 minutes.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #CouncilTax #Budget2026 #PropertyTax""",
+)
+
+BHAM_SDLT = dict(
+  slug="bham-sdlt-second-property", brand="bham",
+  title="Stamp duty on a second property: five points on top of every band, 5 to 17 per cent",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #BirminghamProperty #StampDuty #BuyToLet",
+  EN=[
+    dict(type="hook", kicker="Stamp duty higher rates · gov.uk",
+      h1="A second property adds <em>5 points</em> to every band.",
+      say="If you still own another home at the end of the day you complete, stamp duty rises by five points in every band. That is not the same as five per cent of the price."),
+    dict(type="step", step="What you pay", fig="5% to 17%",
+      say="Each slice of the price has its own rate: 5% to <cur>£</cur>125,000, 7% to <cur>£</cur>250,000, 10% to <cur>£</cur>925,000, 15% to <cur>£</cur>1.5 million and 17% above that.",
+      note="A company buying a home over <cur>£</cur>500,000 pays 17% on the whole price."),
+    dict(type="step", step="Who does not pay it", fig="Under £40k",
+      say="Buy for under <cur>£</cur>40,000 and the higher rates do not apply. Nor do they if you are replacing the home you live in and the old one sells on or before the day you complete.",
+      note="Sold the old home within 36 months? You can ask HMRC to refund the extra."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Buying a second property in Birmingham?",
+    say="Send us the price, the completion date and what else you own. We will work the stamp duty out before you commit. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["the five percentage points added to each standard residential band", "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates", "2026-11-15"],
+    ["the resulting higher rates band by band: 5%, 7%, 10%, 15%, 17%", "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances", "2026-11-15"],
+    ["the consideration threshold below which the higher rates do not apply", "https://www.gov.uk/hmrc-internal-manuals/stamp-duty-land-tax-manual/sdltm09800", "2026-11-15"],
+    ["the 17% single rate on dwellings over £500,000 bought by companies", "https://www.gov.uk/government/publications/stamp-duty-land-tax-increase-to-the-higher-rates-of-stamp-duty-land-tax-and-to-the-single-rate-payable-by-non-natural-persons", "2026-11-15"],
+    ["the 36 month window to sell the former main home and reclaim", "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates", "2026-11-15"],
+  ],
+  SCOPE=dict(
+    nation="England and Northern Ireland. Scotland has Land and Buildings Transaction Tax with its own Additional Dwelling Supplement, and Wales has Land Transaction Tax higher rates, so this is not a UK-wide rate.",
+    category="Stamp Duty Land Tax higher rates for additional dwellings",
+    excluded="Buyers in Scotland and Wales. Purchases where the chargeable consideration is under £40,000, and an interest worth under £40,000 in another dwelling is ignored. Caravans, mobile homes and houseboats. Buyers replacing their only or main residence where the previous one is disposed of before or on the day of completion. Buyers holding only a small share in a recently inherited property.",
+    from_when="The five percentage point surcharge applies to transactions with an effective date on or after 31 October 2024, when it rose from 3%, and is unchanged for 2026-27."),
+  caption="""Buying a second property in Birmingham, or a buy-to-let? Stamp duty goes up by five percentage points in every band.
+
+The rates, slice by slice: 5% up to £125,000, 7% to £250,000, 10% to £925,000, 15% to £1.5 million, and 17% above that.
+
+The thing people get wrong most often: it is five points added to the whole ladder of rates, not a flat 5% of the purchase price. It also bites even when the other property you own is abroad.
+
+The test is applied at the end of the day you complete, and it looks at your husband, wife or civil partner too. One of you buying alone is still caught if the other would be caught, unless you are legally or permanently separated.
+
+You do not pay it if the price is under £40,000, if you are replacing the home you live in and the old one is sold on or before completion day, or if you are buying a caravan, mobile home or houseboat.
+
+Already paid it because your old home had not sold? If it sells within 36 months you can apply to HMRC for the extra back.
+
+Buying through a limited company is different again: 17% on the whole price for a dwelling over £500,000, unless a relief applies.
+
+Send us the price, the completion date and what else you own, and we will work it out before you commit. 22-42 Washwood Heath Rd, Saltley. First consultation free, 30 minutes.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #BirminghamProperty #StampDuty #BuyToLet""",
+)
+
+BHAM_PSR = dict(
+  slug="bham-priority-services-register", brand="bham",
+  title="The Priority Services Register: free extra help from your energy supplier, if you ask for it",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #PriorityServicesRegister #EnergyBills #CostOfLiving",
+  EN=[
+    dict(type="hook", kicker="Priority Services Register · Ofgem",
+      h1="Extra help from your energy supplier is <em>free</em>.",
+      say="State Pension age, pregnant, young children, a disability or a long-term condition, or equipment that needs a power supply? You can ask to go on the Priority Services Register."),
+    dict(type="step", step="Two separate lists", fig="Two lists",
+      say="Your supplier keeps one. The company that owns the pipes and wires into your street keeps another, and that is the one that counts in a power cut. One does not put you on the other.",
+      note="Gas and electricity from different suppliers? That is two phone calls."),
+    dict(type="step", step="Who is left off", fig="Ask again",
+      say="Nobody signs you up for it. Only the circumstances Ofgem lists count, and when you switch supplier you drop off and have to ask the new one. It puts no money back on your bill.",
+      note="Water is not part of it. Your water company runs its own scheme."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Would someone in your house need help in a power cut?",
+    say="Bring your energy bill into the Saltley office. We will find both companies on it and write down what to tell them. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["that the Priority Services Register is free extra help and support", "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/join-your-suppliers-priority-services-register", "2026-11-15"],
+    ["that your energy supplier and your network operator each keep a separate register", "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/join-your-suppliers-priority-services-register", "2026-11-15"],
+  ],
+  SCOPE=dict(
+    nation="Great Britain, meaning England, Scotland and Wales, for the energy Priority Services Register. The Northern Ireland arrangement could not be confirmed at primary source, so this is not stated as UK-wide.",
+    category="Free energy supplier and network operator support register",
+    excluded="Not open to people in none of the circumstances Ofgem lists, and there is no automatic entitlement. It does not cross over: membership does not transfer when you switch supplier, separate suppliers for gas and electricity mean separate registers, and your supplier's register does not put you on your network operator's. It gives no money off the bill. Water is not covered; water customers need their water company's own scheme.",
+    from_when="Support starts once your supplier or network operator has recorded your needs. There is no fixed date and no annual cycle."),
+  caption="""The Priority Services Register is free, and almost nobody is told about it.
+
+You can ask to join if you have reached State Pension age, are pregnant or have young children, struggle with speaking or reading English, have a disability or a long-term medical condition, rely on medical equipment that needs a power supply, or your circumstances have recently changed after an injury, a hospital stay, a bereavement or losing your job.
+
+What it gets you: priority help in an emergency, advance notice of planned power cuts where possible, a password scheme so you can check a caller or doorstep visitor is genuine, someone you trust nominated to receive your bills, help moving a prepayment meter you cannot safely reach to top up, regular meter readings, and bills in large print or braille.
+
+Two traps.
+
+It is per company. Switch supplier and you are quietly off the list until you ask the new one. If your gas and electricity come from different suppliers, that is two calls.
+
+Your supplier's register is not your network operator's. The network operator owns the pipes and wires, and theirs is the register that matters when the power goes off. Ask both.
+
+It is a service register, not a discount. Nothing comes off your bill. Water is a separate scheme run by your water company.
+
+Bring your energy bill into our Saltley office and we will find both companies on it and write down what to tell them. First consultation free, 30 minutes.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #PriorityServicesRegister #EnergyBills #CostOfLiving""",
+)
+
+BHAM_MARGIN = dict(
+  slug="bham-vat-margin-second-hand", brand="bham",
+  title="VAT margin scheme: one-sixth of the margin on second-hand goods, not of the selling price",
+  tags_en="#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #VAT #MarginScheme #SecondHand",
+  EN=[
+    dict(type="hook", kicker="VAT margin scheme · gov.uk",
+      h1="On second-hand stock, VAT can be <em>one-sixth</em> of the margin.",
+      say="You buy a sofa for <cur>£</cur>200 and sell it for <cur>£</cur>500. Under the margin scheme the VAT is one-sixth of the <cur>£</cur>300 you made, not one-sixth of the <cur>£</cur>500."),
+    dict(type="step", step="The stock book", fig="6 years",
+      say="Every item needs its own line: what you paid, who you bought it from, what you sold it for and the VAT at one-sixth. Keep the records six years, longer if the item is still unsold.",
+      note="The sales invoice must not show VAT separately. Showing it loses the scheme."),
+    dict(type="step", step="What cannot go in", fig="VAT paid",
+      say="You have to be VAT registered to use it at all. And if you were charged VAT when you bought the item, that item can never go through the scheme, however you sell it on.",
+      note="Gold, precious stones, cars, caravans and houseboats sit outside it."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Selling second-hand stock in Birmingham?",
+    say="Bring a month of your purchase and sales paperwork. We will tell you whether the margin scheme fits and set the stock book up. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["that VAT is charged at 16.67%, one-sixth, on the margin rather than on the full selling price", "https://www.gov.uk/vat-margin-schemes", "2026-11-15"],
+    ["the VAT due at one-sixth that must be recorded against each sale in the stock book", "https://www.gov.uk/vat-margin-schemes/keeping-records", "2026-11-15"],
+    ["the six year retention period for margin scheme records", "https://www.gov.uk/vat-margin-schemes/keeping-records", "2026-11-15"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide. HMRC publishes separate guidance for using a margin scheme on goods bought and sold between Northern Ireland and the EU.",
+    category="Optional VAT scheme for second-hand goods, works of art, antiques and collectors' items",
+    excluded="Any item on which VAT was charged when you bought it, plus precious metals, investment gold and precious stones. A business that does not meet all the scheme's requirements, in particular the stock book and invoicing conditions, must account for VAT on the full selling price. Separate rules sit outside the general scheme for second-hand vehicles, horses and ponies, houseboats and caravans, unredeemed pawns, auctioneers, agents, hire purchase and part-exchange goods, imports and exports, and goods bought and sold between Northern Ireland and the EU.",
+    from_when="Available now, with no start date to wait for."),
+  caption="""Furniture, phones, tools, clothes, antiques. If you sell second-hand goods you bought without being charged VAT, the margin scheme changes what you hand HMRC.
+
+You buy a sofa for £200 and sell it for £500. The VAT is one-sixth of the £300 margin, not one-sixth of the £500 selling price. That is the bit most often got wrong.
+
+To use it you have to be VAT registered and you have to keep a stock book. For each purchase: a stock number in order, the date, the purchase invoice number, what you paid, who you bought it from and a description. For each sale: the date, the sales invoice number, what you sold it for, who to, the margin and the VAT at one-sixth.
+
+Your sales invoice must show the total price with no VAT shown separately, the stock book number, and one of the scheme phrases, for example "margin scheme - second hand goods". Showing VAT separately defeats the scheme.
+
+Keep the records for six years, and longer where stock bought over six years ago is still unsold.
+
+What cannot go in: anything you were charged VAT on when you bought it, which catches buying from other VAT registered traders outside the scheme. Precious metals, investment gold and precious stones are out. Second-hand vehicles, caravans, houseboats, auctioneers and part-exchange goods all have their own separate rules, so motor traders need their own guidance.
+
+Get the records wrong and you account for VAT on the full selling price of every item.
+
+Bring a month of your paperwork to 22-42 Washwood Heath Rd, Saltley and we will tell you whether it fits. First consultation free, 30 minutes.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #VAT #MarginScheme #SecondHand""",
+)
+
+EN_GIFT_AID = dict(
+  slug="en-gift-aid-carry-back", brand="en",
+  title="Gift Aid you give now can count against last year's income, but only in the return you file by 31 January 2027",
+  tags_en="#OlaAccountancy #UKTax #GiftAid #SelfAssessment #TaxReturn #SelfEmployedUK",
+  EN=[
+    dict(type="hook", kicker="Charity donations · gov.uk",
+      h1="The Gift Aid claim you cannot add after <em>31 January</em>.",
+      say="You gave to charity this spring. If you paid tax at the higher rate last year but not this year, you can ask for that donation to count against last year's income instead."),
+    dict(type="step", step="Put it in on time", fig="31 Jan 2027",
+      say="The donation goes in box 8 on page TR 4 of your 2025-26 return. That return has to reach HMRC by 31 January 2027, or the chance to move the donation back has gone.",
+      note="It is the same return you were going to send anyway."),
+    dict(type="step", step="When it cannot be done", fig="One chance",
+      say="File without it and send a correction afterwards and HMRC cannot accept the claim, even inside the normal window for corrections. You also had to pay enough tax last year to cover it.",
+      note="If you send HMRC no tax return for 2025-26, there is no return to put it in."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Did you give to charity since April?",
+    say="Send us the dates and amounts, and what you earned last year, and we will tell you whether moving the donation back is worth anything. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["The 31 January 2027 filing date, and that a donation made on or after 6 April 2026 can only be carried back if the 2025-26 return reaches HMRC before it", "https://www.gov.uk/government/publications/charitable-giving-hs342-self-assessment-helpsheet/hs342-charitable-giving-2026", "2026-11-17"],
+    ["Box 8 on page TR 4 is where the carry-back amount goes on the 2025-26 return", "https://www.gov.uk/government/publications/charitable-giving-hs342-self-assessment-helpsheet/hs342-charitable-giving-2026", "2026-11-17"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide. Scottish and Welsh taxpayers can carry back in the same way, but the relief follows their own rates and bands.",
+    category="Income Tax, Self Assessment, Gift Aid carry-back election",
+    excluded="HMRC cannot accept a first or increased claim in an amended return, so filing on time without it and adding it later loses it. Anyone who did not pay enough Income Tax or Capital Gains Tax in 2025-26 to cover the tax the charity reclaims cannot carry back that amount. Anyone not in Self Assessment for 2025-26 has no return to claim in. Donations made in 2025-26 itself are relieved in 2025-26 anyway.",
+    from_when="2025-26 return; the claim must be in the return filed by 31 January 2027"),
+  caption="""Given to charity since 6 April 2026? There is a way to have that donation count against your 2025-26 income instead. It closes on 31 January 2027.
+
+It is worth doing when your income has dropped. If you paid tax at the higher rate last year and you do not this year, moving the donation back is the difference between relief at the higher rate and no relief at all.
+
+How it works: the amount goes in box 8 on page TR 4 of the 2025-26 return, and that return has to reach HMRC by 31 January 2027.
+
+The trap: it has to be in the ORIGINAL return. File on time without it, then try to add it as a correction, and HMRC cannot accept it, even though nearly everything else on a return can be corrected later. Send the return in late and the claim is gone outright.
+
+You also need to have paid enough Income Tax or Capital Gains Tax in 2025-26 to cover what the charity reclaims. And if you are not sending a 2025-26 return at all, there is nothing to put the claim in.
+
+Send us your donation dates and amounts and we will tell you whether it is worth claiming. First consultation free, 30 minutes.
+
+#OlaAccountancy #UKTax #GiftAid #SelfAssessment #TaxReturn #SelfEmployedUK""",
+)
+
+EN_PARTNERSHIP = dict(
+  slug="en-partnership-return", brand="en",
+  title="A late partnership tax return is 100 pounds for every partner, not 100 once, and the deadline is 31 January 2027",
+  tags_en="#OlaAccountancy #UKTax #Partnership #SelfAssessment #TaxDeadline #SmallBusinessUK",
+  EN=[
+    dict(type="hook", kicker="Partnership tax return · gov.uk",
+      h1="One late return, <em>£100</em> for every partner.",
+      say="One return, one day late, four partners. That is not <cur>£</cur>100 between you. HMRC charges the <cur>£</cur>100 to every person who was a partner at any time in the year the return covers."),
+    dict(type="step", step="One return, then yours", fig="31 Jan 2027",
+      say="One partner is nominated to send a single return for the partnership for the year to 5 April 2026. Everyone then puts their own share on their own return, both by 31 January 2027.",
+      note="Six months past the date and a second <cur>£</cur>100 lands on each partner."),
+    dict(type="step", step="Who does not file one", fig="Other dates",
+      say="Sole traders have no partnership return to file; limited companies send a different one. If one of your partners is a company, or HMRC sent your notice to file after 31 July 2026, your dates differ.",
+      note="Someone who was not a partner at any point in that period gets no penalty."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Is the partnership return still sitting there?",
+    say="Send us the partnership's figures and everyone who was a partner during the year, and we will put in the one return and each partner's own. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["31 January 2027 online filing deadline for the 2025-26 partnership return, for the year 6 April 2025 to 5 April 2026", "https://assets.publishing.service.gov.uk/media/69c525cacdfd19de13d0f6d0/SA800man-2026.pdf", "2026-11-17"],
+    ["31 October 2026 paper filing deadline for the same return, now passed", "https://assets.publishing.service.gov.uk/media/69c525cacdfd19de13d0f6d0/SA800man-2026.pdf", "2026-11-17"],
+    ["The automatic £100 late-filing penalty is charged on each relevant partner, with a further £100 each once the failure runs past six months", "https://www.gov.uk/hmrc-internal-manuals/enquiry-manual/em4585", "2026-11-17"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide (HMRC Self Assessment)",
+    category="Self Assessment, partnership return and partner penalties",
+    excluded="Sole traders, who have no partnership return. Limited companies, which file a Company Tax Return instead. A partnership that has not been issued a notice to file. A person who was not a partner at any time in the period covered by the return, who is not a relevant partner and gets no penalty. Partnerships that include a company as a partner do not get the 31 October / 31 January dates, and nor do partnerships issued a notice to file after 31 July 2026; HMRC sets different dates for both.",
+    from_when="2025-26 return, due 31 January 2027"),
+  caption="""If you are in a partnership, the late filing penalty is not what people think.
+
+The partnership sends one return for the year to 5 April 2026. The paper deadline was 31 October 2026, so it is an online return now, due 31 January 2027. Every partner then reports their own share on their own return by the same date.
+
+Here is the part that hurts. If the partnership return is late, HMRC charges £100 to each person who was a partner at any time in the period. Four partners, one day late, £400. Let it run past six months and a further £100 each lands on top, so £200 a partner.
+
+There is no reduction where a partner's own tax bill is smaller than the penalty, which is not how it works for individuals. Only the nominated partner can appeal, and that one appeal covers everybody.
+
+Who this is not about: sole traders have no partnership return, and limited companies file a Company Tax Return. If one of your partners is a company, or your notice to file arrived after 31 July 2026, HMRC has given you different dates.
+
+Not filed yet? Send us the figures and the list of partners. First consultation free, 30 minutes.
+
+#OlaAccountancy #UKTax #Partnership #SelfAssessment #TaxDeadline #SmallBusinessUK""",
+)
+
+EN_VAT_POINTS = dict(
+  slug="en-vat-penalty-points", brand="en",
+  title="Late VAT returns earn penalty points, and at the threshold HMRC charges 200 pounds, then 200 again for each late return after",
+  tags_en="#OlaAccountancy #UKTax #VAT #VATReturn #HMRC #SmallBusinessUK",
+  EN=[
+    dict(type="hook", kicker="VAT late submission · gov.uk",
+      h1="The fourth late VAT return is the <em>£200</em> one.",
+      say="Each late VAT return earns you a point rather than a fine straight away. Nothing is charged until you reach the limit set by how often you file, and that is four points if you file every quarter."),
+    dict(type="step", step="Where the line sits", fig="£200",
+      say="Two late returns if you file once a year, four if you file quarterly, five if you file monthly. At that point HMRC charges <cur>£</cur>200, and another <cur>£</cur>200 for every late return after it.",
+      note="Filing on time once stops the next <cur>£</cur>200. It does not clear the points."),
+    dict(type="step", step="When no point is given", fig="No point",
+      say="Your first return after you register for VAT earns no point, and nor does your last one after you cancel. A one-off return covering something other than a month, a quarter or a year is also free.",
+      note="Periods starting on or before 31 December 2022 sit under the older surcharge rules."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="How many points are on your VAT record?",
+    say="Send us your VAT registration details and your filing dates and we will tell you where you stand and what the next late return would cost. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["Penalty point thresholds by how often you file: 2 points annual, 4 quarterly, 5 monthly", "https://www.gov.uk/guidance/penalty-points-and-penalties-if-you-submit-your-vat-return-late", "2026-11-14"],
+    ["The £200 penalty on reaching the threshold, and again for each further late return while at it", "https://www.gov.uk/guidance/penalty-points-and-penalties-if-you-submit-your-vat-return-late", "2026-11-14"],
+    ["Periods starting on or after 1 January 2023 are in the points regime; earlier ones fall under the VAT default surcharge", "https://www.gov.uk/guidance/penalty-points-and-penalties-if-you-submit-your-vat-return-late", "2026-11-14"],
+    ["Late payment penalties: 3% of the VAT outstanding at day 15, a further 3% of the balance at day 30, then 10% a year as a daily rate from day 31", "https://www.gov.uk/guidance/how-late-payment-penalties-work-if-you-pay-vat-late", "2026-11-14"],
+  ],
+  SCOPE=dict(
+    nation="UK",
+    category="VAT late submission penalty points and late payment penalties",
+    excluded="No point is given for your first VAT Return after becoming newly registered, your final return after cancelling registration, or a one-off return covering a period other than a month, a quarter or a year. VAT periods starting on or before 31 December 2022 fall under the old VAT default surcharge instead. The late payment penalties do not apply to payments on account or to Annual Accounting Scheme instalments.",
+    from_when="Points regime: VAT accounting periods starting on or after 1 January 2023. Current late payment rates of 3% / a further 3% / 10% a year: from 1 April 2025."),
+  caption="""Late VAT returns do not work like a fine any more. They work like a driving licence.
+
+Each late return earns one point. Nothing is charged until you hit the limit for how often you file: 2 points if you file once a year, 4 if you file quarterly, 5 if you file monthly. Reach it and HMRC charges £200, and another £200 for every late return while you stay there.
+
+Filing on time once keeps you where you are without a further £200. It does not wipe the points off.
+
+Paying late is charged separately. 3% of the VAT still outstanding at day 15, a further 3% of what is left at day 30, then a daily charge working out at 10% a year from day 31 until it is paid. Interest runs on top of all of it.
+
+Three returns never earn a point: your first one after registering, your last one after you cancel, and a one-off return covering an odd length of time. And periods starting on or before 31 December 2022 sit under the older surcharge rules instead.
+
+Not sure where you stand? Send us your filing dates. First consultation free, 30 minutes.
+
+#OlaAccountancy #UKTax #VAT #VATReturn #HMRC #SmallBusinessUK""",
+)
+
+EN_COMPANY_ACTIVE = dict(
+  slug="en-company-active-hmrc", brand="en",
+  title="Your company has 3 months from starting to tell HMRC it is active, and setting it up at Companies House does not do that for you",
+  tags_en="#OlaAccountancy #UKTax #CorporationTax #LimitedCompany #CompanyDirector #SmallBusinessUK",
+  EN=[
+    dict(type="hook", kicker="Corporation Tax · gov.uk",
+      h1="You get <em>3 months</em> to tell HMRC the company started.",
+      say="Setting the company up at Companies House does not tell HMRC anything. Once it starts trading or takes in any income, you have to register it with HMRC separately."),
+    dict(type="step", step="What counts as started", fig="3 months",
+      say="Active is wider than selling things. Earning interest on the company bank account or managing investments counts too. You have three months from the start of the accounting period to register.",
+      note="Writing a business plan or choosing a name is not trading on its own."),
+    dict(type="step", step="If it is not trading", fig="Say so",
+      say="A company HMRC accepts as dormant does not have to send a Company Tax Return, but only once it has actually told HMRC and HMRC has agreed. Going quiet is not the same as being dormant.",
+      note="Dormant accounts and a confirmation statement are still due at Companies House."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Set up a company and never told HMRC?",
+    say="Send us the company number and the date the first money came in, and we will either register it or tell HMRC it is dormant, whichever is true. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["The three months from the start of the accounting period within which a company that is now active must tell HMRC", "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading", "2026-11-17"],
+    ["A company HMRC treats as dormant does not file a Company Tax Return, and what HMRC counts as active", "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading", "2026-11-17"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide",
+    category="Corporation Tax, telling HMRC a company is active",
+    excluded="A company HMRC accepts as dormant does not have to file a Company Tax Return, but only once it has told HMRC and HMRC has confirmed it. A company that simply stops trading and says nothing is still required to send a Corporation Tax return and faces penalties if it does not. Pre-trading setup steps such as writing a business plan or choosing a name do not by themselves make a company active. Being dormant for Corporation Tax does not remove Companies House obligations: dormant accounts and a confirmation statement are still due.",
+    from_when="Current HMRC guidance; the duty to notify sits in CTA 2009 and FA 2004 s55"),
+  caption="""Two bodies, two registers, and this is where it goes wrong.
+
+Companies House knows your company exists. HMRC does not know it has started until you tell them, and you have 3 months from the start of the company's accounting period to do it.
+
+HMRC's idea of active is wider than most directors expect. It is not only selling things. Carrying on a trade or profession counts, and so does receiving any other income, including interest on the company bank account or managing investments.
+
+The other half of it: a company HMRC accepts as dormant does not have to send a Company Tax Return, but only once it has actually told HMRC and HMRC has confirmed it. Filing dormant accounts at Companies House tells HMRC nothing. A company that quietly stops trading is still expected to send a return, and gets penalties when it does not.
+
+And being dormant for Corporation Tax does not get you out of Companies House: dormant accounts and a confirmation statement are still due.
+
+Not sure which side of the line your company is on? Send us the company number. First consultation free, 30 minutes.
+
+#OlaAccountancy #UKTax #CorporationTax #LimitedCompany #CompanyDirector #SmallBusinessUK""",
+)
+
+EN_PRE_TRADING = dict(
+  slug="en-pre-trading-expenses", brand="en",
+  title="Money you spent up to 7 years before you started trading can still come off your first year's profit",
+  tags_en="#OlaAccountancy #UKTax #SelfEmployed #SmallBusinessUK #BusinessExpenses #StartUpUK",
+  EN=[
+    dict(type="hook", kicker="Expenses before you start · gov.uk",
+      h1="Spending from <em>7 years</em> before day one still counts.",
+      say="Most people assume anything they bought before the business existed is lost, so the receipts go in the bin. A good deal of it can go into the accounts for your first year of trading."),
+    dict(type="step", step="How it is treated", fig="7 years",
+      say="A website, market research, professional fees, insurance, your phone, your travel. If you paid for it in the seven years before trading started, it is treated as spent on your first day.",
+      note="The seven years run back from the day trading started, not incorporation."),
+    dict(type="step", step="What does not count", fig="Equipment",
+      say="Equipment and other big one-off items do not come off under this rule; they are claimed another way. And anything that would not be allowable in a normal trading year is not allowable here either.",
+      note="Stock you bought early counts when you sell it, and client entertaining never counts."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy",
+    h1="Still got receipts from before you started?",
+    say="Send us what you spent before the first invoice went out and when you spent it, and we will work out what belongs in your first year's accounts. First consultation free, 30 minutes.",
+    phone=PHONE,
+    disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ["The seven years before a trade, profession or vocation starts, within which qualifying revenue spending can be relieved", "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim46351", "2026-11-17"],
+  ],
+  SCOPE=dict(
+    nation="UK-wide",
+    category="Income Tax and Corporation Tax, pre-trading expenditure (ITTOIA 2005 s57, CTA 2009 s61)",
+    excluded="The seven-year rule gives no relief for capital expenditure, which gets no deduction at all under these rules; plant and machinery goes through capital allowances instead. It does not cover the advance purchase of trading stock, relieved when it is sold rather than when it is bought, nor anything already deductible in a later period such as rent paid in advance, nor anything that would not have been deductible had the trade already been running. Client entertaining, fines and personal costs stay disallowed whenever they were paid.",
+    from_when="ITTOIA 2005 s57 and CTA 2009 s61, long-standing"),
+  caption="""The receipts you threw away before you started trading were probably worth money.
+
+Spending in the seven years before a business starts can be treated as if it happened on the first day of trading, and deducted in that first period. Sole traders, partners and companies all get it.
+
+So a website built two years early, market research, professional fees, insurance, phone and travel from long before the first invoice can all land in the first set of accounts.
+
+What it does not cover: equipment and other capital spending, which is claimed a different way. Stock bought in advance is relieved when you sell it. And if a cost would not have been allowable with the business already running, it is not allowable now either, so client entertaining, fines and personal costs stay out.
+
+Two things to get right: the spending has to have been for the business that actually started, and the seven years run back from the day trading began, which is not the day the company was set up and not the day you told HMRC.
+
+Started recently? Send us what you spent beforehand. First consultation free, 30 minutes.
+
+#OlaAccountancy #UKTax #SelfEmployed #SmallBusinessUK #BusinessExpenses #StartUpUK""",
+)
+
+# ------------------------------------------------------------------ carousels
+_PREV_DAY = DAY
+DAY = [OLA_PETRECERE_CRACIUN_150, OLA_CADOURI_MICI_50, OLA_PLATA_HMRC_TIMP,
+       OLA_ATTENDANCE_ALLOWANCE, OLA_CRESA_FARA_TAXA,
+       BHAM_DFG, BHAM_SURCHARGE, BHAM_SDLT, BHAM_PSR, BHAM_MARGIN,
+       EN_GIFT_AID, EN_PARTNERSHIP, EN_VAT_POINTS, EN_COMPANY_ACTIVE, EN_PRE_TRADING]
+ARCHIVE = ARCHIVE + _PREV_DAY
+BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
+
+# --------------------------------------------------------- single-image posts
+SOLOS = [
+  dict(slug="ola-child-trust-fund", brand="ola", lang="ro",
+    slide=dict(type="solo",
+      kicker="Child Trust Fund · gov.uk",
+      h1="Poți avea un cont uitat, în medie <em>£2.200</em>.",
+      rows=[["<cur>£</cur>2.200", "din peste 750.000 de conturi nerevendicate"],
+            ["Prin HMRC",         "căutare gratuită, de la 16 ani"],
+            ["Exclus",            "Junior ISA și cine nu are cont"]],
+      ask="Nu știi dacă ai un Child Trust Fund pe numele tău? La biroul din Luton îți arătăm cum faci căutarea.",
+      phone=PHONE,
+      disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+    caption="""Peste £1,6 miliarde stau în conturi Child Trust Fund pe care nu le-a cerut nimeni. Sunt peste 750.000 de conturi, iar valoarea medie a unuia este de aproximativ £2.200.
+
+Dacă te-ai născut în anii în care funcționa Child Trust Fund, s-ar putea să ai și tu unul și să nu știi cine îl administrează.
+
+Cum verifici:
+• De la 16 ani poți face singur căutarea. Pentru un copil sub 18 ani, cererea o face părintele sau tutorele; după 18 ani, doar titularul contului.
+• Căutarea este gratuită la HMRC. Ai nevoie de National Insurance number înainte să începi, pentru că formularul nu se poate salva și relua.
+• HMRC răspunde de obicei în 7 săptămâni la cererile online.
+• HMRC îți spune cine administrează contul, nu îți trimite banii. Pe aceia îi ceri furnizorului.
+
+Ce nu găsești pe această cale: un Junior ISA. Dacă ți se spune că fondul a fost mutat într-un Junior ISA, mergi mai departe la acel furnizor. Iar copiii născuți în afara anilor Child Trust Fund nu au un astfel de cont.
+
+Un lucru de reținut: căutarea este gratuită. Nu are rost să plătești pe cineva ca să caute în locul tău.
+
+Prima consultație este gratuită, 30 de minute. Scrie-ne pe WhatsApp la 0330 133 1886.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #ChildTrustFund #HMRC #RomaniInUK""",
+    SOURCES=[
+      ["valoarea medie de £2.200 a unui cont nerevendicat", "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings", "2026-11-17"],
+      ["cele peste 750.000 de conturi și totalul de peste £1,6 miliarde", "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings", "2026-11-17"],
+      ["vârsta de 16 ani pentru căutarea proprie și termenul de 7 săptămâni al HMRC", "https://www.gov.uk/child-trust-funds/find-a-child-trust-fund", "2026-11-17"],
+    ],
+    SCOPE=dict(
+      nation="UK-wide",
+      category="Child Trust Fund tracing",
+      excluded="Nu găsește un Junior ISA, ci doar un Child Trust Fund. Părintele sau tutorele poate folosi serviciul doar cât copilul are sub 18 ani; după aceea doar titularul. HMRC nu plătește banii, ci doar numește furnizorul. Copiii născuți în afara anilor Child Trust Fund nu au cont de găsit.",
+      from_when="Cifre din comunicatul HMRC si HM Treasury publicat la 29 iunie 2026")),
+
+  dict(slug="ola-alocatie-nevazatori", brand="ola", lang="ro",
+    slide=dict(type="solo",
+      kicker="Blind Person's Allowance · gov.uk",
+      h1="Poți avea încă <em>£3.250</em> de venit fără impozit.",
+      rows=[["<cur>£</cur>3.250", "se adaugă la Personal Allowance"],
+            ["Prin HMRC",         "o ceri tu, nu vine automat"],
+            ["Exclus",            "alte dizabilități; nu este ajutor social"]],
+      ask="Crezi că ai dreptul la Blind Person's Allowance? Verificăm condițiile împreună și facem cererea la HMRC.",
+      phone=PHONE,
+      disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+    caption="""Blind Person's Allowance adaugă £3.250 de venit fără impozit, peste Personal Allowance, pentru anul fiscal 2026-27.
+
+Nu este un ajutor social și nu se calculează în funcție de venit. Este o alocație de impozit pe venit: îți mărește partea de venit pe care o primești fără impozit și nu îți afectează alte beneficii.
+
+Condițiile diferă în funcție de nație:
+• În Anglia și Țara Galilor: ești înregistrat la consiliul local ca nevăzător sau cu deficiență severă de vedere și ai certificatul care confirmă acest lucru, ori un document asemănător de la medic.
+• În Scoția și Irlanda de Nord: nu poți presta o muncă pentru care vederea este esențială.
+
+HMRC nu o aplică singur. O ceri tu, la linia de Income Tax. De aici vine problema: oameni înregistrați de ani de zile nu au cerut-o niciodată.
+
+Dacă nu plătești impozit pe venit sau nu folosești toată alocația, poți transfera partea rămasă soțului, soției sau partenerului civil, cu condiția ca și acesta să aibă dreptul la o alocație.
+
+Cine nu are dreptul: persoanele cu alte dizabilități, pentru că nu este un beneficiu de dizabilitate. În Anglia și Țara Galilor, deficiența parțială de vedere, fără înregistrare ca severă, nu dă dreptul la alocație.
+
+Prima consultație este gratuită, 30 de minute. Scrie-ne pe WhatsApp la 0330 133 1886.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #BlindPersonsAllowance #HMRC #RomaniInUK""",
+    SOURCES=[
+      ["Blind Person's Allowance de £3.250 pentru anul fiscal 2026-27, peste Personal Allowance", "https://www.gov.uk/blind-persons-allowance/what-youll-get", "2026-11-15"],
+      ["condițiile de eligibilitate pe nații și faptul că alocația se cere la HMRC", "https://www.gov.uk/blind-persons-allowance", "2026-11-15"],
+    ],
+    SCOPE=dict(
+      nation="UK-wide; aceeasi suma, dar testul de eligibilitate difera intre Anglia si Tara Galilor si Scotia si Irlanda de Nord",
+      category="Blind Person's Allowance, alocatie de impozit pe venit",
+      excluded="In Anglia si Tara Galilor, cine nu este inregistrat la consiliul local ca nevazator sau cu deficienta severa de vedere. In Scotia si Irlanda de Nord, cine poate presta in continuare o munca pentru care vederea este esentiala. Nu este un beneficiu de dizabilitate, deci alte dizabilitati nu dau dreptul. Cine nu plateste impozit pe venit si nu are un so sau partener civil eligibil nu obtine un castig in bani.",
+      from_when="Anul fiscal 2026-27")),
+
+  dict(slug="ola-uniforma-deducere", brand="ola", lang="ro",
+    slide=dict(type="solo",
+      kicker="Flat rate job expenses · gov.uk",
+      h1="Pentru uniforma de serviciu plătești cu <em>£12</em> mai puțin impozit.",
+      rows=[["<cur>£</cur>60",  "scade din venitul impozabil, nu din impozit"],
+            ["Prin HMRC",       "cerere online, retroactiv până la 4 ani"],
+            ["Exclus",          "angajatorul plătește, sau ești self-employed"]],
+      ask="Porți uniformă sau îți cumperi uneltele? Verificăm dacă ai dreptul la deducere și calculăm anii din urmă.",
+      phone=PHONE,
+      disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+    caption="""Dacă îți cumperi, speli, repari sau înlocuiești pe banii tăi uniforma de serviciu, îmbrăcămintea specială de lucru ori uneltele de care ai nevoie la job, poți cere o deducere de la HMRC. Ești angajat pe PAYE și nu ai nevoie de bonuri pentru o cerere la rată fixă.
+
+Cum funcționează:
+• Rata standard este £60 pe an, dacă meseria ta nu apare în lista HMRC pe industrii.
+• Suma nu îți intră în buzunar. Ea scade din venitul impozabil, așa că la rata de bază de 20% economia reală este de £12 pe an. La rata superioară, £24.
+• Unele meserii au rate mai mari: £125 pentru asistente medicale, moașe și alte roluri medicale de pe listă, £80 pentru pompieri în uniformă, £720 pentru însoțitori de bord și £1.022 pentru piloți și echipaj de zbor în uniformă.
+• Cererea se poate face retroactiv: ai la dispoziție 4 ani de la sfârșitul anului fiscal pentru care ceri. Acolo sunt, de obicei, cei mai mulți bani.
+• Peste £2.500 de cheltuieli de serviciu într-un an fiscal nu mai poți folosi formularul P87 — atunci depui Self Assessment.
+
+Cine nu are dreptul: dacă angajatorul îți decontează integral costul sau îți dă el echipamentul, nu primești nimic. Dacă nu ai plătit impozit pe venit în anul respectiv, deducerea nu are ce să reducă. Persoanele self-employed nu intră în această schemă. Hainele obișnuite purtate la muncă nu se încadrează niciodată.
+
+Prima consultație este gratuită, 30 de minute. Scrie-ne pe WhatsApp la 0330 133 1886.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #HMRC #PAYE #RomaniInUK""",
+    SOURCES=[
+      ["rata standard de £60 pe an și economia reală de £12 la rata de bază de 20%", "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools", "2026-11-17"],
+      ["ratele de £125, £80, £720 și £1.022 pentru meseriile de pe lista HMRC", "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools", "2026-11-17"],
+      ["plafonul de £2.500 pentru formularul P87 și termenul de 4 ani pentru cerere", "https://www.gov.uk/guidance/send-an-income-tax-relief-claim-for-job-expenses-by-post-or-phone", "2026-11-17"],
+    ],
+    SCOPE=dict(
+      nation="UK-wide; valoarea in bani difera pentru contribuabilii din Scotia si Tara Galilor, care au propriile cote",
+      category="Flat rate job expenses pentru angajati PAYE",
+      excluded="Cine primeste costul integral de la angajator sau primeste direct echipamentul nu obtine nimic. Cine nu a platit impozit pe venit in anul respectiv nu obtine nimic. Persoanele self-employed sunt complet in afara schemei. O cerere de peste £2.500 intr-un an nu poate folosi formularul P87. Hainele obisnuite purtate la munca nu sunt niciodata deductibile.",
+      from_when="Anul fiscal 2026-27")),
+
+  dict(slug="bham-household-energy-payment", brand="bham", lang="en",
+    slide=dict(type="solo",
+      kicker="Household Energy Payment · gov.uk",
+      h1="You can get <em>£100</em> towards your energy bills.",
+      rows=[["<cur>£</cur>100",  "one payment, council tax bands A to D"],
+            ["Automatic",        "for Direct Debit payers; others apply"],
+            ["Excluded",         "second homes, and where the landlord pays"]],
+      ask="If your council tax does not go out by Direct Debit, our Birmingham office will check what you must do.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+    caption="""£100 towards your energy bill, paid out through the council tax system from January 2027.
+
+If your home is in council tax band A to D and you pay your council tax by Direct Debit, gov.uk says you do not need to do anything. The money goes straight into your bank account.
+
+If you do not pay by Direct Debit, your council will invite you to apply. That is the part people miss, and it is the difference between getting the £100 and getting nothing.
+
+It is one payment, for this financial year only. The band is the property's band, not a test of your income, so a band C flat qualifies whatever you earn and a band E house does not.
+
+Nobody other than your council should contact you asking you to claim it. If a text or an email asks you to claim, check with the council first.
+
+Bands E to H sit outside the main scheme, but councils have a separate £100 million pot and set their own rules for who gets help from it.
+
+Not sure where your household stands? Our office is at 22-42 Washwood Heath Road, Saltley. First consultation free, 30 minutes.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #CouncilTax #EnergyBills #CostOfLiving""",
+    SOURCES=[
+      ["the £100 one-off payment per eligible household, for this financial year only", "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills", "2026-11-17"],
+      ["council tax bands A to D are covered, and how the money reaches you", "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills", "2026-11-17"],
+      ["councils expected to start making payments from January 2027", "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027", "2026-11-17"],
+    ],
+    SCOPE=dict(
+      nation="England",
+      category="Household support paid through council tax",
+      excluded="Second homes, empty properties, and households where the householder is not responsible for paying the council tax, including many houses in multiple occupation and tenants whose landlord pays. Bands E to H are outside the core scheme, reachable only through the separate £100 million discretionary fund each council runs on its own criteria.",
+      from_when="Payments from January 2027. One-off, for the 2026-27 financial year only.")),
+
+  dict(slug="bham-single-person-discount", brand="bham", lang="en",
+    slide=dict(type="solo",
+      kicker="Single person discount · gov.uk",
+      h1="Living on your own? You can take <em>25%</em> off your council tax.",
+      rows=[["25% off",    "the whole bill, year after year"],
+            ["You apply",  "to your council; it is not automatic"],
+            ["Excluded",   "two adults who count — students do not"]],
+      ask="If you are the only adult in your house, bring your bill to our Birmingham office and we will check it.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+    caption="""A quarter off your council tax, for as long as you are the only adult in the house.
+
+The single person discount is 25% off the bill. It is not means-tested, so it has nothing to do with what you earn — it is about who lives with you.
+
+And some adults are not counted at all. GOV.UK leaves out people under 18, full-time students, 18 and 19 year olds in full-time education, some apprentices, student nurses, live-in carers and a few others. So a parent living with two full-time students can still get the 25%.
+
+There are separate reductions too: if a disabled person lives in the home and the property is bigger than it would otherwise need to be, the bill can be charged at the next band down, or cut by 17% in band A.
+
+None of it is automatic. You apply to your own council — Birmingham City Council, Solihull, Sandwell, Dudley, Walsall, Wolverhampton or Coventry — and you tell them when another adult moves in, because the discount stops from the day the household changes.
+
+Want someone to read your bill with you? Our office is at 22-42 Washwood Heath Road, Saltley. First consultation free, 30 minutes.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #CouncilTax #SinglePersonDiscount #MoneySaving""",
+    SOURCES=[
+      ["the 25% single person discount where you live alone or everyone else is disregarded", "https://www.gov.uk/council-tax/who-has-to-pay", "2026-11-14"],
+      ["who is disregarded, and the disabled band reduction of one band lower or 17% in band A", "https://www.gov.uk/council-tax/discounts-for-disabled-people", "2026-11-14"],
+    ],
+    SCOPE=dict(
+      nation="England and Wales",
+      category="Council Tax discounts and exemptions",
+      excluded="No single person discount where two or more adults who are not disregarded live in the property. It is not means-tested, so a household with two countable adults cannot get it on income grounds. Scotland runs different rules. Second homes and long-term empty homes attract a premium instead of a discount, and the disabled band reduction is refused unless the property is larger than it would need to be if no disabled person lived there.",
+      from_when="Ongoing standing rules; bills are set by each council for the financial year starting 1 April.")),
+
+  dict(slug="bham-sure-start-grant", brand="bham", lang="en",
+    slide=dict(type="solo",
+      kicker="Sure Start Maternity Grant · gov.uk",
+      h1="Expecting a baby and on Universal Credit? You can get <em>£500</em>.",
+      rows=[["<cur>£</cur>500",  "paid once, and you never repay it"],
+            ["You apply",        "on form SF100, signed by a midwife"],
+            ["Excluded",         "most families with a child under 16"]],
+      ask="The claim closes six months after the birth, so bring the form to our Birmingham office early.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+    caption="""£500 for a first baby, and it is not a loan. The Sure Start Maternity Grant is paid once, you never pay it back, and it does not reduce your other benefits.
+
+You or your partner need to be getting Universal Credit, Pension Credit or income-related Employment and Support Allowance. A Support for Mortgage Interest loan can qualify you too.
+
+The timing is the thing people get wrong. You can claim from 11 weeks before the due date, and the door closes 6 months after the birth. Miss that and the £500 is gone.
+
+You usually need to have no other children under 16 — but there are exceptions, including twins or triplets, caring for someone else's child who was over 12 months old when the arrangement started, and adopters or parental-order holders claiming while the baby is under one.
+
+It is not automatic and there is no online form. You fill in form SF100, have it signed by a health professional such as your midwife, and post it to the address on the form. If you are on Universal Credit the decision waits until that claim is sorted.
+
+Bring the form to us at 22-42 Washwood Heath Road, Saltley and we will go through it with you. First consultation free, 30 minutes.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #SureStartMaternityGrant #UniversalCredit #FamilyFinance""",
+    SOURCES=[
+      ["the £500 one-off grant, which is not repaid and does not affect other benefits", "https://www.gov.uk/sure-start-maternity-grant", "2026-11-15"],
+      ["the claim window: from 11 weeks before the due date to 6 months after the birth", "https://www.gov.uk/sure-start-maternity-grant", "2026-11-15"],
+      ["you must usually have no other children under 16, and the qualifying benefits", "https://www.gov.uk/sure-start-maternity-grant/eligibility", "2026-11-15"],
+    ],
+    SCOPE=dict(
+      nation="England and Wales",
+      category="Benefits: one-off maternity grant",
+      excluded="People already with a child under 16 who do not meet one of the listed exceptions; anyone not receiving a qualifying benefit; claims made outside the window. Scotland is outside the scheme entirely — the Pregnancy and Baby Payment from Social Security Scotland applies there instead.",
+      from_when="Claim window opens 11 weeks before the due date and closes 6 months after the birth.")),
+
+  dict(slug="en-inheritance-nil-rate-band", brand="en", lang="en",
+    slide=dict(type="solo",
+      kicker="Inheritance Tax · gov.uk",
+      h1="You can leave <em>£325,000</em> before any tax is due.",
+      rows=[["<cur>£</cur>175,000", "more, when the home goes to descendants"],
+            ["Claimed",             "the family asks for it on IHT435"],
+            ["Excluded",            "homes left to siblings, nieces or nephews"]],
+      ask="Not sure whether your home qualifies for the second allowance? Ola Accountancy will check it with you.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+    caption="""£325,000. That is how much of an estate passes on before Inheritance Tax is charged at all, and the figure has not moved since 2009.
+
+There is a second allowance on top: £175,000, where a home the person owned and lived in goes to children, grandchildren or other direct descendants, including stepchildren, adopted children and fostered children.
+
+Two things catch families out. The £175,000 is not automatic. Someone has to claim it, on form IHT435 alongside the IHT400, and the claim still matters when no tax is owed, because the unused part can pass to a surviving husband, wife or civil partner later on.
+
+And it shrinks. Once the estate is worth more than £2,000,000, that £175,000 falls by £1 for every £2 above the line, until none of it is left.
+
+All three figures are frozen at these levels until 5 April 2030, so more estates reach them every year.
+
+Send us the numbers and we will tell you where the estate stands. First consultation free, 30 minutes.
+
+#OlaAccountancy #UKTax #InheritanceTax #IHT #EstatePlanning #UKFinance #TaxTips""",
+    SOURCES=[
+      ["Inheritance Tax nil-rate band for 2026-27 is £325,000", "https://www.gov.uk/government/publications/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026-to-5-april-2028", "2026-11-15"],
+      ["Residence nil-rate band for 2026-27 is £175,000", "https://www.gov.uk/government/publications/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026/inheritance-tax-nil-rate-band-and-residence-nil-rate-band-thresholds-from-6-april-2026-to-5-april-2028", "2026-11-15"],
+      ["£2,000,000 taper threshold above which the residence nil-rate band is withdrawn, reduced by £1 for every £2; who counts as a direct descendant; claim on form IHT435", "https://www.gov.uk/guidance/inheritance-tax-residence-nil-rate-band", "2026-11-15"],
+    ],
+    SCOPE=dict(
+      nation="United Kingdom - Inheritance Tax is not devolved, so the same thresholds apply in England, Scotland, Wales and Northern Ireland.",
+      category="Inheritance Tax nil-rate band and residence nil-rate band",
+      excluded="No residence nil-rate band where no qualifying residential interest passes on death; where the home goes to anyone outside the direct-descendant list, such as nephews, nieces or siblings; where the home is left in a trust under which descendants do not become entitled at death; or on lifetime gifts and transfers into trust, which never attract it. It is withdrawn entirely once the net estate is large enough for the £1-for-£2 taper to exhaust it.",
+      from_when="£325,000 since 6 April 2009 and £175,000 since 6 April 2020. All three figures are frozen to the end of 2029-30.")),
+
+  dict(slug="en-lifetime-isa", brand="en", lang="en",
+    slide=dict(type="solo",
+      kicker="Lifetime ISA · gov.uk",
+      h1="You can get <em>£1,000</em> a year added to your savings.",
+      rows=[["25%",       "of the <cur>£</cur>4,000 you can pay in"],
+            ["Automatic", "your provider claims it from HMRC"],
+            ["Excluded",  "anyone aged 40 or over opening one"]],
+      ask="Thinking of opening one before you turn 40? Ola Accountancy will talk the numbers through with you.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+    caption="""Pay £4,000 into a Lifetime ISA in a tax year and the government adds £1,000 on top. That is 25%, and your provider claims it from HMRC for you, so there is no form for you to fill in.
+
+Who can open one: anyone aged 18 or over but under 40. After 50 you can no longer pay in or earn the bonus, though the account stays open and keeps growing.
+
+The part people miss is the way out. Take money out for a reason that does not qualify and you pay a 25% charge on the whole amount withdrawn, bonus and growth included. That leaves you with less than you paid in. It is not simply the bonus being handed back.
+
+The charge-free routes: a first home costing £450,000 or less, bought with a mortgage, at least 12 months after your first payment, or any reason at all from age 60. From 29 October 2026, a first home above the £450,000 cap costs 20% rather than 25%.
+
+And the £4,000 sits inside the £20,000 ISA allowance, not on top of it.
+
+First consultation free, 30 minutes.
+
+#OlaAccountancy #UKTax #LifetimeISA #LISA #FirstTimeBuyer #UKSavings #MoneyTips""",
+    SOURCES=[
+      ["£4,000 maximum paid into a Lifetime ISA each tax year, the 25% government bonus, the £1,000 maximum bonus a year, and no paying in or bonus after age 50", "https://www.gov.uk/lifetime-isa", "2026-11-15"],
+      ["£20,000 overall ISA allowance for 2026-27, which the £4,000 counts towards", "https://www.gov.uk/lifetime-isa/summary", "2026-11-15"],
+      ["25% withdrawal charge on the whole amount withdrawn for a non-qualifying reason, 20% reduced charge for a first home above the cap, £450,000 price cap, 12-month minimum, and no charge from age 60", "https://www.gov.uk/lifetime-isa/withdrawing-money-from-your-lifetime-isa", "2026-11-15"],
+      ["You can open a Lifetime ISA aged 18 or over but under 40", "https://www.gov.uk/lifetime-isa/who-can-open-a-lifetime-isa", "2026-11-15"],
+    ],
+    SCOPE=dict(
+      nation="United Kingdom - ISAs are not devolved, so the limits and charges are identical across the UK. The £450,000 cap is one UK-wide figure.",
+      category="Lifetime ISA bonus and withdrawal charge",
+      excluded="Anyone under 18, and anyone aged 40 or over, cannot open one. Non-UK residents cannot open or continue paying in, unless armed forces, a Crown servant, or the spouse or civil partner of one. Nobody can pay in or earn the bonus after age 50. The charge-free first-home route is not available to anyone who owns or has ever owned a home, nor to a cash purchase without a mortgage, nor within 12 months of the first payment. Buy-to-let and second properties do not qualify.",
+      from_when="Since 6 April 2017. The reduced 20% charge for first homes above the cap has effect from 29 October 2026.")),
+
+  dict(slug="en-starting-rate-savings", brand="en", lang="en",
+    slide=dict(type="solo",
+      kicker="Starting rate for savings · gov.uk",
+      h1="You can earn <em>£5,000</em> of interest with no tax.",
+      rows=[["<cur>£</cur>5,000", "in full below <cur>£</cur>12,570 of other income"],
+            ["Automatic",         "HMRC works it out from your bank"],
+            ["Excluded",          "other income of <cur>£</cur>17,570 or more"]],
+      ask="Not sure whether your savings interest is taxable at all? Ola Accountancy will work it out with you.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+    caption="""Savings interest is taxable, yet plenty of people never pay a penny on it. This is one of the reasons why.
+
+The starting rate for savings lets you receive up to £5,000 of interest with no tax taken on it. It sits on top of the £12,570 Personal Allowance, and on top of the Personal Savings Allowance, which is £1,000 at the basic rate, £500 at the higher rate and nothing at the additional rate.
+
+The catch is the way it tapers. Your wages, pension and other income are measured first, and savings interest and dividends are left out of that test. Every £1 of that other income above £12,570 takes £1 off the £5,000.
+
+HMRC's own example: £16,000 of wages is £3,430 above the Personal Allowance, so £1,570 of the band is left.
+
+Once other income reaches £17,570, the band has gone entirely.
+
+You do not claim it. HMRC normally works it out from what banks and building societies report, and from your tax return if you file one. Tax taken off in error is asked back from HMRC.
+
+First consultation free, 30 minutes.
+
+#OlaAccountancy #UKTax #SavingsInterest #PersonalAllowance #UKSavings #SelfAssessment #TaxTips""",
+    SOURCES=[
+      ["£5,000 maximum starting rate for savings band - interest within it is not taxed", "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free", "2026-11-14"],
+      ["Other taxable income, excluding savings interest and dividends, must be less than £17,570 to get the starting rate for savings, and the band is reduced by £1 for every £1 of other income above the £12,570 Personal Allowance", "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free", "2026-11-14"],
+      ["Personal Savings Allowance of £1,000 basic rate, £500 higher rate, £0 additional rate, usable on top of the starting rate for savings", "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free", "2026-11-14"],
+    ],
+    SCOPE=dict(
+      nation="UK",
+      category="Starting rate for savings",
+      excluded="Anyone whose other taxable income (excluding savings interest and dividends) is £17,570 or more gets no starting rate band at all. Anyone with other income between £12,570 and £17,570 gets only part of the band, not the full £5,000. Dividend income and savings interest do not count as other income for the test and so cannot create entitlement.",
+      from_when="6 April 2026")),
+]
+SOLO_BY_SLUG = {s["slug"]: s for s in SOLOS}
+
+
+# --- rewrite round, 17 Nov 2026 run. One round only: faults came from the fact,
+# --- scope, register, compliance and plain-language checkers; the wording is a
+# --- fresh writer's, never the checker's.
+B = BY_SLUG; S = SOLO_BY_SLUG
+
+# fact: £50 boundary and the close-company condition; register: "rank-and-file"
+B["ola-cadouri-mici-50"]["RO"][1]["say"] = "Dacă firma e controlată de tine și de câțiva asociați — HMRC îi spune close company — cadourile scutite se opresc la <cur>£</cur>300 pe an fiscal, fiecare de cel mult <cur>£</cur>50."
+B["ola-cadouri-mici-50"]["RO"][1]["note"] = "Ceilalți angajați ai firmei, care nu sunt directori, nu au plafonul de <cur>£</cur>300."
+B["ola-cadouri-mici-50"]["EN"][1]["note"] = "Employees who are not directors or office holders are outside the <cur>£</cur>300 cap."
+
+# fact: the weekend condition belongs to Faster Payments, not CHAPS
+B["ola-plata-hmrc-timp"]["RO"][1]["say"] = "Aprobarea plății din aplicația băncii, Faster Payments, CHAPS și cardul de debit online ajung în aceeași zi sau a doua. Faster Payments merge și în weekend; CHAPS, doar în zile lucrătoare."
+# register: a verdict on the reader's finances
+B["ola-plata-hmrc-timp"]["EN"][0]["say"] = "The deadline is about arrival, not departure. A Bacs payment sent on 30 January lands after the date, and a payment that arrives late carries a penalty and interest on the tax as well."
+
+# fact: the minimum earnings figure is before tax
+B["ola-cresa-fara-taxa"]["RO"][2]["note"] = "Fiecare părinte de 21 de ani sau peste trebuie să câștige <cur>£</cur>2.643,68 înainte de impozit în 3 luni."
+B["ola-cresa-fara-taxa"]["EN"][2]["note"] = "Each parent aged 21 or over must expect to earn <cur>£</cur>2,643.68 before tax over three months."
+
+# register: a colloquialism; scope: each language had lost a different exclusion
+B["ola-petrecere-craciun-150"]["EN"][2]["say"] = "A one-off celebration, such as a contract win or someone's last day, is not an annual event, and neither is a party for directors alone. Entertaining customers or suppliers gets no relief."
+B["ola-petrecere-craciun-150"]["EN"][2]["note"] = "Salary sacrifice is reported whatever it cost; a sole trader has no employment to exempt."
+B["ola-petrecere-craciun-150"]["RO"][2]["say"] = "Un eveniment ocazional, cum e plecarea unui coleg, nu e un eveniment anual, iar o petrecere doar pentru directori nu intră. Pentru clienți sau furnizori nu există nicio scutire."
+B["ola-petrecere-craciun-150"]["RO"][2]["note"] = "Ce dai prin salary sacrifice se declară oricât ar costa, indiferent de sumă."
+
+# compliance: unsourced ranked take-up claims
+B["ola-attendance-allowance"]["caption"] = B["ola-attendance-allowance"]["caption"].replace(
+  "Attendance Allowance este cel mai puțin cerut ajutor pentru pensionari, și motivul este o neînțelegere: lumea crede că se verifică veniturile. Nu se verifică.",
+  "Attendance Allowance, ajutorul pentru cine a ajuns la State Pension age, se încurcă într-o singură întrebare: dacă se verifică veniturile. Nu se verifică.")
+B["ola-attendance-allowance"]["caption_li"] = B["ola-attendance-allowance"]["caption_li"].replace(
+  "Attendance Allowance is the most under-claimed benefit for people over State Pension age, and the reason is a single misunderstanding: people assume it is means-tested.",
+  "Attendance Allowance for people over State Pension age turns on one question that is easy to get wrong: whether it is means-tested.")
+B["ola-plata-hmrc-timp"]["caption_li"] = B["ola-plata-hmrc-timp"]["caption_li"].replace(
+  "Every January a number of Self Assessment payments arrive late, and almost none of them were sent late.",
+  "A Self Assessment payment can leave your account before 31 January and still be late.")
+B["bham-priority-services-register"]["caption"] = B["bham-priority-services-register"]["caption"].replace(
+  "The Priority Services Register is free, and almost nobody is told about it.",
+  "The Priority Services Register is free, and nobody puts you on it — you have to ask.")
+B["bham-disabled-facilities-grant"]["caption"] = B["bham-disabled-facilities-grant"]["caption"].replace(
+  "Households who assume they earn too much are often entitled to the full amount.",
+  "So a family that earns well should still apply.")
+
+# compliance: unsourced claim about claim behaviour; scope: the means-test outcome
+B["bham-disabled-facilities-grant"]["EN"][1]["say"] = "For a disabled child under 18, the parents' income and savings are not counted at all, whatever they earn. If you rent privately, your landlord can apply too, and their income is not counted either."
+B["bham-disabled-facilities-grant"]["EN"][2]["say"] = "Pay for the stairlift yourself before the council approves the grant and the work is normally not funded. Where income and savings are counted, the grant may cover part of the cost, or nothing."
+B["bham-disabled-facilities-grant"]["EN"][2]["note"] = "The council's assessment, usually an occupational therapist, decides what the grant pays for."
+
+# plain language: the step label and the hero figure did not match
+B["bham-priority-services-register"]["EN"][2]["step"] = "Who is left off"
+B["bham-priority-services-register"]["EN"][2]["fig"] = "Switchers"
+
+# register: a verdict on the reader; plain language: card 3 left the reader stuck
+B["en-partnership-return"]["EN"][2]["say"] = "Sole traders have no partnership return, and limited companies send a different one. If one of your partners is a company, or your notice to file arrived after 31 July 2026, HMRC sets a different date."
+B["en-partnership-return"]["EN"][2]["note"] = "Ask HMRC for that date, and do not work to 31 January 2027 until you have it."
+B["en-partnership-return"]["CTA_EN"]["h1"] = "Who is filing the partnership return this year?"
+
+# register: three colloquialisms; scope: rent paid in advance
+B["en-pre-trading-expenses"]["EN"][0]["h1"] = "<em>7 years</em> of spending can come off your first year."
+B["en-pre-trading-expenses"]["EN"][0]["say"] = "Most people assume anything they bought before the business existed is lost, so they throw the receipts away. A good deal of it can go into the accounts for your first year of trading."
+B["en-pre-trading-expenses"]["EN"][2]["say"] = "Equipment and big one-off buys are not in this rule; they go through capital allowances instead. Nor is rent paid in advance, which comes off the year it covers."
+B["en-pre-trading-expenses"]["EN"][2]["note"] = "Stock you bought early counts when you sell it; client entertaining never counts."
+B["en-pre-trading-expenses"]["CTA_EN"]["h1"] = "Do you still have receipts from before you started?"
+
+# ---- single-image posts
+# scope: the eligibility test was dropped in both its forms
+S["ola-alocatie-nevazatori"]["slide"]["h1"] = "Poți cere de la HMRC încă <em>£3.250</em> de venit fără impozit."
+S["ola-alocatie-nevazatori"]["slide"]["rows"] = [
+  ["Anglia, Țara Galilor",    "înregistrat la consiliu, cu certificat"],
+  ["Scoția, Irlanda de Nord", "vederea te împiedică să muncești"],
+  ["Exclus",                  "vedere parțială neînregistrată; alte dizabilități"]]
+
+# compliance: a flat promise of a saving; fact: £12 is the 20% rate
+S["ola-uniforma-deducere"]["slide"]["h1"] = "Poți cere <em>£60</em> pe an pentru uniforma de serviciu."
+S["ola-uniforma-deducere"]["slide"]["rows"] = [
+  ["<cur>£</cur>60", "scad din venitul impozabil: <cur>£</cur>12 la 20%"],
+  ["Prin HMRC",      "cerere online, retroactiv până la 4 ani"],
+  ["Exclus",         "hainele obișnuite; angajatorul plătește; self-employed"]]
+
+# plain language: row 1 read as a share of a total; scope: HMRC names the provider
+S["ola-child-trust-fund"]["slide"]["rows"] = [
+  ["Peste 750.000", "conturi mature, încă nerevendicate"],
+  ["Prin HMRC",     "căutare gratuită; banii îi ceri furnizorului"],
+  ["Exclus",        "căutarea nu găsește un Junior ISA"]]
+
+# scope: the start date had been dropped from the whole frame
+S["bham-household-energy-payment"]["slide"]["h1"] = "From January 2027 you can get <em>£100</em> towards your energy bills."
+S["bham-household-energy-payment"]["slide"]["rows"] = [
+  ["<cur>£</cur>100", "one payment, council tax bands A to D"],
+  ["Automatic",       "for Direct Debit payers; everyone else applies"],
+  ["Excluded",        "second homes, empty homes, landlord-paid council tax"]]
+S["bham-household-energy-payment"]["slide"]["ask"] = "In council tax band E to H? Your council has a separate fund, and our Birmingham office will check it."
+
+# scope: the qualifying benefits and the 11-week opening; fact: health professional
+S["bham-sure-start-grant"]["slide"]["h1"] = "Expecting your first baby? You can get <em>£500</em> you never repay."
+S["bham-sure-start-grant"]["slide"]["rows"] = [
+  ["<cur>£</cur>500", "Universal Credit, Pension Credit or income-related ESA"],
+  ["You apply",       "on form SF100, signed by a health professional"],
+  ["Excluded",        "another child under 16, with some exceptions"]]
+S["bham-sure-start-grant"]["slide"]["ask"] = "Claim from 11 weeks before the due date until six months after the birth; bring the form to us."
+
+# register: the colloquial shape Valentin ruled out; plain language: row 3 a riddle
+S["bham-single-person-discount"]["slide"]["h1"] = "Your council tax is <em>25%</em> lower if you are the only adult."
+S["bham-single-person-discount"]["slide"]["rows"] = [
+  ["25% off",   "the whole bill, year after year"],
+  ["You apply", "to your council; it is not automatic"],
+  ["Excluded",  "homes with another adult; students do not count"]]
+
+# scope: the withdrawal charge was absent from the whole post
+S["en-lifetime-isa"]["slide"]["h1"] = "Take the money out for anything else and you lose <em>25%</em>."
+S["en-lifetime-isa"]["slide"]["rows"] = [
+  ["<cur>£</cur>1,000", "on top of <cur>£</cur>4,000, until age 50"],
+  ["First home",        "up to <cur>£</cur>450,000, or age 60"],
+  ["Excluded",          "cash buyers, past home owners, buy-to-let"]]
+S["en-lifetime-isa"]["slide"]["ask"] = "Opening one before 40, or thinking of taking money out? Ola Accountancy will run the numbers with you."
+
+# fact: the full band survives at exactly £12,570; plain language: the taper
+S["en-starting-rate-savings"]["slide"]["rows"] = [
+  ["<cur>£</cur>1 for <cur>£</cur>1", "it shrinks above <cur>£</cur>12,570 of other income"],
+  ["Automatic",                       "HMRC works it out from your bank"],
+  ["Excluded",                        "other income of <cur>£</cur>17,570 or more"]]
+
+# scope: the £1-for-£2 taper was missing from the frame
+S["en-inheritance-nil-rate-band"]["slide"]["rows"] = [
+  ["<cur>£</cur>175,000",             "more, for a home left to descendants"],
+  ["<cur>£</cur>1 for <cur>£</cur>2", "comes off it above a <cur>£</cur>2,000,000 estate"],
+  ["Excluded",                        "homes left to siblings, nieces or nephews"]]
+
+
+# --- TikTok photo posts are rejected without a title; preflight catches it.
+S["ola-child-trust-fund"]["tt_title"] = "Child Trust Fund: un cont uitat pe numele tău"
+S["ola-alocatie-nevazatori"]["tt_title"] = "Blind Person's Allowance: £3.250 fără impozit"
+S["ola-uniforma-deducere"]["tt_title"] = "Uniforma de serviciu: £60 pe an de la HMRC"
+S["bham-household-energy-payment"]["tt_title"] = "£100 towards your energy bills from January 2027"
+S["bham-single-person-discount"]["tt_title"] = "Council tax is 25% lower if you live alone"
+S["bham-sure-start-grant"]["tt_title"] = "Sure Start Maternity Grant: £500 you never repay"
+S["en-inheritance-nil-rate-band"]["tt_title"] = "Inheritance Tax: the first £325,000 is free of it"
+S["en-lifetime-isa"]["tt_title"] = "Lifetime ISA: the 25% charge nobody mentions"
+S["en-starting-rate-savings"]["tt_title"] = "£5,000 of savings interest with no tax on it"
+
+# --- layout trims, 17 Nov 2026 run. The 9:16 TikTok render clips a frame whose
+# --- body runs long; the footer and safe-area gate measures it. Figures and the
+# --- exclusion sentences are untouched — only secondary notes come off, and a
+# --- hook's second sentence where the hook itself was the frame that failed.
+def _trim(slug, lang, i, **kw):
+    c = BY_SLUG[slug][lang][i]
+    for k, v in kw.items():
+        if v is None:
+            c.pop(k, None)
+        else:
+            c[k] = v
+
+_trim("ola-plata-hmrc-timp", "RO", 0,
+      say="Nu contează ziua în care apeși trimite, ci ziua în care HMRC primește suma. Un transfer pornit prin Bacs pe 30 ianuarie ajunge prea târziu.")
+_trim("ola-plata-hmrc-timp", "RO", 1, note=None,
+      say="Aprobarea plății din aplicația băncii, Faster Payments, CHAPS și cardul de debit online ajung în aceeași zi sau a doua. CHAPS merge doar în zile lucrătoare.")
+_trim("ola-cresa-fara-taxa", "RO", 1, note=None)
+_trim("bham-disabled-facilities-grant", "EN", 1, note=None)
+_trim("bham-council-tax-surcharge-2028", "EN", 1, note=None)
+_trim("bham-council-tax-surcharge-2028", "EN", 2, note=None)
+_trim("bham-sdlt-second-property", "EN", 2, note=None)
+_trim("bham-priority-services-register", "EN", 2, note=None,
+      say="Nobody signs you up for it. Only the circumstances Ofgem lists count, and when you switch supplier you drop off and have to ask the new one.")
+_trim("en-gift-aid-carry-back", "EN", 0,
+      say="You gave to charity this spring. If you paid tax at the higher rate last year but not this year, that donation can count against last year's income.")
+_trim("en-gift-aid-carry-back", "EN", 1, note=None)
+_trim("en-gift-aid-carry-back", "EN", 2, note=None,
+      say="File without it and send a correction afterwards and HMRC cannot accept the claim. You also had to pay enough tax last year to cover it.")
+_trim("en-partnership-return", "EN", 1, note=None)
+_trim("en-partnership-return", "EN", 2, note=None,
+      say="Sole traders have no partnership return, and limited companies send a different one. If a partner is a company, HMRC sets you a different date.")
+_trim("en-company-active-hmrc", "EN", 0,
+      say="Setting the company up at Companies House does not tell HMRC anything. Once it starts trading or takes in any income, you register it separately.")
+_trim("en-company-active-hmrc", "EN", 1, note=None)
+_trim("en-pre-trading-expenses", "EN", 2, note=None, fig="Not kit",
+      say="Equipment and big one-off buys are not in this rule; they go through capital allowances. Nor is rent paid in advance, which comes off the year it covers.")

@@ -1,0 +1,71 @@
+--- ITEM C1
+Masa de Crăciun a firmei: £150 de persoană. Ai angajați și organizezi masa de Crăciun? Dacă stai în limita de £150 de persoană, nu se plătește impozit, nu se plătesc contribuții și nu ai nimic de declarat la HMRC.     Costul total se împarte la toți cei prezenți, invitații inclusiv, și intră și TVA, transportul și cazarea. La £151 de persoană se impozitează toată suma, nu doar diferența. Dacă ai mai multe evenimente anuale, cele £150 se împart între ele. £150 O limită, nu o alocație  Un eveniment ocazional, cum e o plecare din firmă, nu e un eveniment anual. Nici o petrecere doar pentru directori. Evenimentul trebuie să fie deschis tuturor angajaților. Dacă ești self-employed fără angajați, nu ai o angajare de scutit. Excluse Unde nu se aplică
+
+--- ITEM C2
+Un cadou pentru un angajat, scutit până la £50. Dacă un cadou costă cel mult £50, nu se impozitează, nu intră pe P11D și nu se plătesc contribuții. HMRC numește asta trivial benefits, iar regula e în vigoare din 6 aprilie 2016.     Într-o firmă mică în care ești director, cadourile scutite se opresc la £300 pe an fiscal, fiecare rămânând sub £50. Ține o evidență, ca să nu depășești plafonul. Angajații obișnuiți ai aceleiași firme nu au plafonul de £300. £300 Dacă ești director  Banii și tichetele preschimbabile în bani nu intră niciodată. Nici cadoul prevăzut în contract, cel dat prin salary sacrifice sau cel oferit ca răsplată pentru munca depusă. Un cadou de £51 se impozitează integral, nu doar cu diferența. Excluse Ce nu intră
+
+--- ITEM C3
+Până pe 31 ianuarie banii trebuie să ajungă la HMRC. Nu contează ziua în care apeși trimite, ci ziua în care HMRC primește suma. Un transfer pornit prin Bacs pe 30 ianuarie ajunge prea târziu, iar penalitatea și dobânda vin automat.     Faster Payments, aprobarea plății din aplicația băncii, CHAPS și cardul de debit online ajung în aceeași zi sau a doua zi, inclusiv în weekend. Prin Bacs durează 3 zile lucrătoare. Referința are 11 caractere: cele 10 cifre ale UTR-ului, urmate de litera K. Aceeași zi Metodele rapide  La Post Office nu se mai plătește deloc. Un Direct Debit care nu e deja configurat la HMRC are nevoie de 5 zile lucrătoare, deci pornit la sfârșitul lui ianuarie nu ajunge la timp. La ghișeul băncii poți plăti doar cu un paying-in slip primit de la HMRC. Prea lent Ce nu prinde termenul
+
+--- ITEM C4
+Attendance Allowance: până la £114,60 pe săptămână. Dacă ai ajuns la State Pension age și ai nevoie de ajutor sau de supraveghere din cauza unei boli sau a unei dizabilități, poți primi această sumă. Economiile și pensia nu se iau în calcul.     Rata mai mică, de £76,70 pe săptămână, e pentru ajutor frecvent ziua sau supraveghere noaptea. Rata mai mare, de £114,60, e pentru ajutor și ziua și noaptea. Trebuie să ai nevoie de acest ajutor de cel puțin 6 luni. £76,70 Cele două rate  În Scoția se cere Pension Age Disability Payment în locul ei. Nu se poate primi în același timp cu PIP, DLA sau Adult Disability Payment, și nu acoperă nimic din nevoile de deplasare. Într-un cămin de îngrijire plătit de autoritatea locală, de regulă nu se acordă. Excluse Cine nu o poate primi
+
+--- ITEM C5
+Statul adaugă £500 la trei luni pentru fiecare copil. Deschizi un cont online pentru un copil de 11 ani sau mai puțin, pui bani pentru creșă sau after-school, iar HMRC adaugă £2 la fiecare £8 pe care îi pui tu.     Suma adăugată se oprește la £500 la fiecare trei luni pentru fiecare copil, adică până la £2.000 pe an. Pentru un copil cu dizabilități sunt £1.000 la trei luni. Banii se pot plăti doar către o creșă sau o bonă înscrisă în schemă. £2.000/an Cât primești  Nu se poate avea în același timp cu Universal Credit sau cu childcare vouchers. Dacă tu sau partenerul tău vă așteptați la un venit peste £100.000, familia nu se încadrează. Fiecare părinte de 21 de ani sau peste trebuie să câștige £2.643,68 în 3 luni. Excluse Cine nu poate folosi schema
+
+--- ITEM C6
+Your council can pay up to £30,000 to adapt your home. A ramp, a stairlift, wider doors, a shower you can get into downstairs. If someone in the house is disabled, the council can pay for the work.     For a disabled child under 18, the parents' income and savings are not counted at all. Families who assume they earn too much often never ask. Landlords are not income-tested either. Everyone else is means-tested, including savings above £6,000. Not tested A child under 18  If you pay for the stairlift yourself before the council approves the grant, the work is normally not funded. A household with means of its own may be asked to pay a share. The council arranges an assessment first, usually an occupational therapist. Too late Who misses out
+
+--- ITEM C7
+A new council tax surcharge starts at £2 million. It was announced at the Budget on 28 October 2026 and begins in April 2028. The value that counts is the one assessed in 2026, not what the house is worth by then.     The surcharge is added on top of the council tax bill, not instead of it. The home stays in the band it is in now. Your council collects it on behalf of central government. A separate 100% premium applies to homes left empty for 12 months or more. April 2028 How it works  Every home valued below £2 million in the 2026 assessment is outside it, which is nearly all of them. An ordinary Birmingham household pays nothing extra. Shops and offices pay business rates, so the surcharge does not reach them. Under £2m Who is not caught
+
+--- ITEM C8
+A second property adds 5 points to every band. If you still own another home at the end of the day you complete, stamp duty rises by five points in every band. That is not the same as five per cent of the price.     Each slice of the price has its own rate: 5% to £125,000, 7% to £250,000, 10% to £925,000, 15% to £1.5 million and 17% above that. A company buying a home over £500,000 pays 17% on the whole price. 5% to 17% What you pay  Buy for under £40,000 and the higher rates do not apply. Nor do they if you are replacing the home you live in and the old one sells on or before the day you complete. Sold the old home within 36 months? You can ask HMRC to refund the extra. Under £40k Who does not pay it
+
+--- ITEM C9
+Extra help from your energy supplier is free. State Pension age, pregnant, young children, a disability or a long-term condition, or equipment that needs a power supply? You can ask to go on the Priority Services Register.     Your supplier keeps one. The company that owns the pipes and wires into your street keeps another, and that is the one that counts in a power cut. One does not put you on the other. Gas and electricity from different suppliers? That is two phone calls. Two lists Two separate lists  Nobody signs you up for it. Only the circumstances Ofgem lists count, and when you switch supplier you drop off and have to ask the new one. It puts no money back on your bill. Water is not part of it. Your water company runs its own scheme. Ask again Who is left off
+
+--- ITEM C10
+On second-hand stock, VAT can be one-sixth of the margin. You buy a sofa for £200 and sell it for £500. Under the margin scheme the VAT is one-sixth of the £300 you made, not one-sixth of the £500.     Every item needs its own line: what you paid, who you bought it from, what you sold it for and the VAT at one-sixth. Keep the records six years, longer if the item is still unsold. The sales invoice must not show VAT separately. Showing it loses the scheme. 6 years The stock book  You have to be VAT registered to use it at all. And if you were charged VAT when you bought the item, that item can never go through the scheme, however you sell it on. Gold, precious stones, cars, caravans and houseboats sit outside it. VAT paid What cannot go in
+
+--- ITEM C11
+The Gift Aid claim you cannot add after 31 January. You gave to charity this spring. If you paid tax at the higher rate last year but not this year, you can ask for that donation to count against last year's income instead.     The donation goes in box 8 on page TR 4 of your 2025-26 return. That return has to reach HMRC by 31 January 2027, or the chance to move the donation back has gone. It is the same return you were going to send anyway. 31 Jan 2027 Put it in on time  File without it and send a correction afterwards and HMRC cannot accept the claim, even inside the normal window for corrections. You also had to pay enough tax last year to cover it. If you send HMRC no tax return for 2025-26, there is no return to put it in. One chance When it cannot be done
+
+--- ITEM C12
+One late return, £100 for every partner. One return, one day late, four partners. That is not £100 between you. HMRC charges the £100 to every person who was a partner at any time in the year the return covers.     One partner is nominated to send a single return for the partnership for the year to 5 April 2026. Everyone then puts their own share on their own return, both by 31 January 2027. Six months past the date and a second £100 lands on each partner. 31 Jan 2027 One return, then yours  Sole traders have no partnership return to file; limited companies send a different one. If one of your partners is a company, or HMRC sent your notice to file after 31 July 2026, your dates differ. Someone who was not a partner at any point in that period gets no penalty. Other dates Who does not file one
+
+--- ITEM C13
+The fourth late VAT return is the £200 one. Each late VAT return earns you a point rather than a fine straight away. Nothing is charged until you reach the limit set by how often you file, and that is four points if you file every quarter.     Two late returns if you file once a year, four if you file quarterly, five if you file monthly. At that point HMRC charges £200, and another £200 for every late return after it. Filing on time once stops the next £200. It does not clear the points. £200 Where the line sits  Your first return after you register for VAT earns no point, and nor does your last one after you cancel. A one-off return covering something other than a month, a quarter or a year is also free. Periods starting on or before 31 December 2022 sit under the older surcharge rules. No point When no point is given
+
+--- ITEM C14
+You get 3 months to tell HMRC the company started. Setting the company up at Companies House does not tell HMRC anything. Once it starts trading or takes in any income, you have to register it with HMRC separately.     Active is wider than selling things. Earning interest on the company bank account or managing investments counts too. You have three months from the start of the accounting period to register. Writing a business plan or choosing a name is not trading on its own. 3 months What counts as started  A company HMRC accepts as dormant does not have to send a Company Tax Return, but only once it has actually told HMRC and HMRC has agreed. Going quiet is not the same as being dormant. Dormant accounts and a confirmation statement are still due at Companies House. Say so If it is not trading
+
+--- ITEM C15
+Spending from 7 years before day one still counts. Most people assume anything they bought before the business existed is lost, so the receipts go in the bin. A good deal of it can go into the accounts for your first year of trading.     A website, market research, professional fees, insurance, your phone, your travel. If you paid for it in the seven years before trading started, it is treated as spent on your first day. The seven years run back from the day trading started, not incorporation. 7 years How it is treated  Equipment and other big one-off items do not come off under this rule; they are claimed another way. And anything that would not be allowable in a normal trading year is not allowable here either. Stock you bought early counts when you sell it, and client entertaining never counts. Equipment What does not count
+
+--- ITEM S1
+Poți avea un cont uitat, în medie £2.200. £2.200 din peste 750.000 de conturi nerevendicate Prin HMRC căutare gratuită, de la 16 ani Exclus Junior ISA și cine nu are cont
+
+--- ITEM S2
+Poți avea încă £3.250 de venit fără impozit. £3.250 se adaugă la Personal Allowance Prin HMRC o ceri tu, nu vine automat Exclus alte dizabilități; nu este ajutor social
+
+--- ITEM S3
+Pentru uniforma de serviciu plătești cu £12 mai puțin impozit. £60 scade din venitul impozabil, nu din impozit Prin HMRC cerere online, retroactiv până la 4 ani Exclus angajatorul plătește, sau ești self-employed
+
+--- ITEM S4
+You can get £100 towards your energy bills. £100 one payment, council tax bands A to D Automatic for Direct Debit payers; others apply Excluded second homes, and where the landlord pays
+
+--- ITEM S5
+Living on your own? You can take 25% off your council tax. 25% off the whole bill, year after year You apply to your council; it is not automatic Excluded two adults who count — students do not
+
+--- ITEM S6
+Expecting a baby and on Universal Credit? You can get £500. £500 paid once, and you never repay it You apply on form SF100, signed by a midwife Excluded most families with a child under 16
+
+--- ITEM S7
+You can leave £325,000 before any tax is due. £175,000 more, when the home goes to descendants Claimed the family asks for it on IHT435 Excluded homes left to siblings, nieces or nephews
+
+--- ITEM S8
+You can get £1,000 a year added to your savings. 25% of the £4,000 you can pay in Automatic your provider claims it from HMRC Excluded anyone aged 40 or over opening one
+
+--- ITEM S9
+You can earn £5,000 of interest with no tax. £5,000 in full below £12,570 of other income Automatic HMRC works it out from your bank Excluded other income of £17,570 or more
