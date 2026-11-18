@@ -911,7 +911,9 @@
    "how_to_claim": "Sign in to your Self Assessment online account, select 'Direct Debit' and choose the Budget Payment Plan option, then decide whether to pay weekly or monthly and how much. You will need your 11-character payment reference (your UTR followed by the letter K)."
   },
   "notes": "The gov.uk page lists only the one eligibility condition (being up to date with the last bill) — no minimum or maximum payment amount and no debt threshold are stated at primary source, so content must not invent one. The distinction from Time to Pay is drawn by the page's own structure (Budget Payment Plan = paying ahead while up to date; Time to Pay = an overdue bill you cannot pay) rather than by a single explicit sentence. Note a naming inconsistency on gov.uk itself: the page heading is 'Pay weekly or monthly' and the scheme is written 'Budget Payment plan' in the body.",
-  "used": []
+  "used": [
+   "2026-11-19"
+  ]
  },
  {
   "id": "self-assessment-time-to-pay",
@@ -1223,7 +1225,9 @@
    "how_to_claim": "Must be applied for on form VAT600AA (VAT Notice 732 sections 8.1 and 8.2). If you are not yet VAT-registered you can register and apply at the same time. To use annual accounting alongside the Flat Rate Scheme, complete both VAT600AA and VAT600FRS (section 9.1)."
   },
   "notes": "Annual Accounting Scheme businesses do not get the 7-day online filing and electronic payment extension that applies to standard quarterly returns (HMRC VAT Accounting manual VATAC1300, read 2026-11-14) — the annual return and balancing payment are due 2 months after the year end. Annual Accounting instalments are also outside the late payment penalty regime (gov.uk late payment penalties guidance, read 2026-11-14). No Northern Ireland difference in the limits or instalment pattern.",
-  "used": []
+  "used": [
+   "2026-11-19"
+  ]
  },
  {
   "id": "vat-late-submission-penalty-points",
@@ -4909,7 +4913,9 @@
    "how_to_claim": "Nothing to claim - this is a compliance change. Before April 2028 a company (or its accountant) must have commercial accounts filing software capable of iXBRL, because the Companies House web and paper accounts filing routes close for accounts. Companies claiming audit exemption will need to file a directors' eligibility statement identifying the exemption and confirming the company qualifies."
   },
   "notes": "UK-wide, identical in England, Wales, Scotland and Northern Ireland. This is the subject with the biggest gap between what was legislated and what is actually happening, so it is worth being precise. The Economic Crime and Corporate Transparency Act 2023 as enacted splits the small and micro filing rules into new sections 443A and 444 of the Companies Act 2006, requires small companies to file a profit and loss account and directors' report, requires micro-entities to file a profit and loss account, and removes the option to file abridged accounts. But those provisions need secondary legislation to commence, and following the Small Business Regulatory Taskforce the government paused the profit and loss requirement and confirmed it will continue to allow abridged accounts. So as at 15 November 2026: abridged accounts are NOT abolished, filleting is NOT abolished, and profit and loss filing is NOT mandatory. What is firmly scheduled is software-only iXBRL accounts filing from April 2028. Commonly confused: the ECCTA company accounts factsheet on gov.uk still describes the removal of abridged accounts and mandatory profit and loss as if they were going ahead, and still quotes the pre-April-2025 small and micro size thresholds, so it should not be used as the current position. Also commonly confused: filleting (leaving the profit and loss out of the public filing) and abridging (preparing a reduced set of accounts with shareholder consent) are two different things, and neither is the same as the small company accounts exemption or audit exemption.",
-  "used": []
+  "used": [
+   "2026-11-19"
+  ]
  },
  {
   "id": "psc-register-duties-and-25-percent-tests",
@@ -5514,7 +5520,9 @@
    "how_to_claim": "Make a single claim within 6 months of completion (3 months if completed before 5 December 2023), either through the HMRC online service or by posting form VAT431NB to BT&C VAT, HM Revenue and Customs, BX9 1WR. The claim must include the building regulation completion certificate (copies accepted), evidence of planning permission, and plans of the building. HMRC does not accept hand-delivered or dropped-off claims and does not return original documents, so originals should not be sent."
   },
   "notes": "The scheme exists to put the self-builder in the same position as a buyer of a new house from a developer, which is why only materials are recoverable: a contractor's services on a qualifying new build should already be zero-rated, and if a contractor has charged 20% the answer is to go back to the contractor, not to claim it here. The single-claim rule and the time limit together are where most claims fail - the 6-month clock runs from completion, so the claim is prepared, not started, at completion. Commonly confused with the conversion version of the scheme (form VAT431C, different rules), with the 5% reduced rate for residential conversions and renovations in VAT Notice 708, and with the energy-saving materials relief. The 'no separate use or disposal' planning condition catches annexes and granny flats more often than people expect. No nation differences in the VAT treatment - it runs UK-wide - although building regulations and planning regimes differ by nation, which affects the completion certificate and planning evidence a claimant supplies rather than the VAT entitlement itself.",
-  "used": []
+  "used": [
+   "2026-11-19"
+  ]
  },
  {
   "id": "vat-zero-rating-childrens-clothing-footwear",
@@ -6034,7 +6042,9 @@
    "how_to_claim": "Nothing to claim in the donor's lifetime - the exemptions apply automatically. Keep records of gifts and of the exemptions used. On death the personal representatives report gifts made in the 7 years before death on form IHT403 with the IHT400, and taper relief is applied in the calculation."
   },
   "notes": "UK-wide: Inheritance Tax is not devolved. The single most common error: taper relief reduces the tax on the gift, not the value of the gift, and it only bites where the gifts exceed the nil-rate band - so a gift of £100,000 made 5 years before death with no other gifts is fully covered by the nil-rate band and taper relief is irrelevant. Second: the nil-rate band is set against gifts in date order before the rest of the estate, which is why early gifts shelter later ones. Third: the recipient, not the estate, becomes liable for the tax on their gift where gifts in the 7 years exceed £325,000, although in practice the estate usually pays. Gifts with reservation of benefit (for example giving away a house but continuing to live in it) are treated as still in the estate and the 7-year clock does not help.",
-  "used": []
+  "used": [
+   "2026-11-19"
+  ]
  },
  {
   "id": "lifetime-isa-bonus-and-withdrawal-charge",
@@ -6238,7 +6248,9 @@
    "how_to_claim": "Enter the residential finance costs in the residential finance costs box on the Self Assessment property pages (SA105) rather than as an expense. HMRC's calculation then applies the 20% reducer automatically; any amount unrelieved because profits or adjusted total income were the lowest figure is carried forward to later years."
   },
   "notes": "UK-wide: this is an income tax rule that applies to Scottish and Welsh taxpayers on the same basis, and the reducer is set at the basic rate - do not assume it follows Scotland's different income tax bands. Commonly confused: this is still widely called 'section 24', after section 24 of the Finance (No. 2) Act 2015; the legislation now sits at ITTOIA 2005 sections 272A, 272B and 274A to 274C. The effect clients miss is that gross rents now enter total income, so the restriction can push a landlord into the higher rate band, reduce child benefit, or taper the personal allowance even where real profit is unchanged, and the reducer can never create a repayment. Note also that the property income allowance is not available in a year the reducer is applied, so landlords with restricted finance costs must choose between the allowance and claiming expenses plus the reducer. Looking ahead: from April 2027 the property rates of income tax are separated from the main rates (24% basic, 44% higher, 49% additional), so recheck how the reducer interacts with those rates before April 2027.",
-  "used": []
+  "used": [
+   "2026-11-19"
+  ]
  },
  {
   "id": "bereavement-support-payment-2026-27",
@@ -7857,7 +7869,9 @@
    "how_to_claim": "Employer contacts the HMRC payment helpline to confirm eligibility to pay quarterly, then pays by Faster Payments, Bacs, debit card or direct debit so cleared funds reach HMRC by the 22nd."
   },
   "notes": "Two traps. First, quarterly payment is a payment concession only - the RTI Full Payment Submission is still due on or before every payday, so an employer who stops filing monthly because they now pay quarterly collects late-filing penalties. Second, the 19th and 22nd are dates by which HMRC must have the money, not dates to send it: Faster Payments is same or next day but Bacs takes three working days, and 19 December 2026 falls on a Saturday, so anyone still posting a cheque for the November-December month needs to be clear of that weekend. The 22nd itself is a Friday in January 2027 and a Tuesday in December 2026, so there is no weekend shift on the electronic dates.",
-  "used": []
+  "used": [
+   "2026-11-19"
+  ]
  },
  {
   "id": "employment-intermediaries-quarterly-report-5-february",
@@ -8392,7 +8406,9 @@
    "how_to_claim": "Ask through your Universal Credit online journal or call the Universal Credit helpline; a work coach decides"
   },
   "notes": "The headline is that it is interest-free, and that is the real value against a doorstep or high-cost lender — but it is a LOAN, not support, and that is the part people miss. The repayment is deducted at source for up to 24 months, which makes an already tight monthly award tighter. Two further traps. First, the £812 figure needs children in the claim, not just a partner. Second, the 6-month earnings test is cumulative over the whole half year, so someone who worked briefly and stopped can be refused. Do not confuse this with a Budgeting Loan, which is the older Social Fund loan for people on legacy benefits such as Pension Credit or income-related ESA rather than Universal Credit — and note Scotland also has the Scottish Welfare Fund crisis grants, which are grants rather than loans and are claimed from the council.",
-  "used": []
+  "used": [
+   "2026-11-19"
+  ]
  },
  {
   "id": "disabled-facilities-grant",

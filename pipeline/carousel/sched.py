@@ -84,7 +84,7 @@ for brand in ("ola", "bham", "en"):
         if tik:
             check(t["caption"], "tiktok")
             post(1, f"{slug} TikTok", brand, when, base(when, t["caption"], tik, alt_for(cards(t, lang)),
-                 ["tiktok"], tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE"}))
+                 ["tiktok"], tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE", "title": t["title"][:90]}))
         if brand == "ola" and feed:
             check(t["caption_threads"], "threads")
             post(2, f"{slug} Threads", brand, when, base(when, t["caption_threads"], feed, a_feed,
@@ -136,7 +136,7 @@ for brand in ("ola", "bham", "en"):
         if tik:
             check(s["caption"], "tiktok")
             post(4, f"{s['slug']} TikTok", brand, when, base(when, s["caption"], tik, a,
-                 ["tiktok"], tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE"}))
+                 ["tiktok"], tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE", "title": t["title"][:90]}))
         m += 1
 
 out.sort(key=lambda r: (r["prio"], r["blogId"], r["date"]))
