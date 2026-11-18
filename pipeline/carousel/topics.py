@@ -10257,3 +10257,1819 @@ _trim("en-company-active-hmrc", "EN", 0,
 _trim("en-company-active-hmrc", "EN", 1, note=None)
 _trim("en-pre-trading-expenses", "EN", 2, note=None, fig="Not kit",
       say="Equipment and big one-off buys are not in this rule; they go through capital allowances. Nor is rent paid in advance, which comes off the year it covers.")
+
+# ============================================================ 19 November 2026
+# Written by the evening Content Studio run of 18 Nov 2026 from content/bank.json.
+# Yesterday's DAY moves into ARCHIVE so BY_SLUG keeps resolving it; SOLOS is
+# replaced outright, never left in place, so a failed run cannot republish it.
+_PREV_DAY_19 = DAY
+
+OLA_CAR = [
+
+  # ============================================ 1 · HMRC Budget Payment Plan
+  dict(
+    slug="ola-plan-plata-buget", brand="ola",
+    title="Budget Payment Plan: pui bani în avans pentru următoarea factură de Self Assessment",
+    tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #SelfAssessment #HMRC #romaniinuk",
+    tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #SelfAssessment #HMRC #UKTax",
+
+    RO=[
+      dict(type="hook", kicker="Budget Payment Plan · gov.uk",
+        h1="Poți plăti din factura de la anul <em>lună de lună</em>.",
+        say="HMRC are o facilitate numită Budget Payment Plan: dai un Direct Debit săptămânal sau lunar și pui bani în avans pentru următoarea ta factură de Self Assessment. La termenul de plată ai mai puțin de plătit."),
+      dict(type="step", step="Tu alegi suma", fig="6 luni",
+        say="Tu hotărăști cât pui deoparte și cât de des. Dacă vine o perioadă mai grea, plățile se pot opri până la 6 luni, apoi le reiei.",
+        note="Dacă suma strânsă nu acoperă toată factura, diferența se plătește până la termen. Dacă ai pus mai mult decât era nevoie, poți cere banii înapoi."),
+      dict(type="step", step="Cine nu poate deschide planul", fig="La zi",
+        say="Planul se deschide doar dacă ești la zi cu plățile din ultima factură de Self Assessment. Cine are o sumă rămasă neplătită sau un termen depășit are nevoie de altceva: o înțelegere numită Time to Pay.",
+        note="Îți trebuie și cont online de Self Assessment și un Direct Debit, deci planul nu merge fără plată prin bancă."),
+    ],
+    CTA_RO=dict(type="cta",
+      kicker="Ola Accountancy · Luton și Birmingham",
+      h1="Nu știi ce sumă să pui deoparte în fiecare lună?",
+      say="Scrie-ne pe WhatsApp și ne uităm împreună la ultima ta declarație, ca să știi la ce sumă să te aștepți. Prima consultație este gratuită, 30 de minute.",
+      phone=PHONE,
+      disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+    EN=[
+      dict(type="hook", kicker="Budget Payment Plan · gov.uk",
+        h1="You can pay towards next year's tax bill <em>monthly</em>.",
+        say="HMRC lets you set up a weekly or monthly Direct Debit towards your next Self Assessment bill. Everything you pay in is credited against that bill, so there is less to find at the payment deadline."),
+      dict(type="step", step="You set the amount", fig="6 months",
+        say="You decide how much goes in and how often. If money gets tight, the payments can be paused for up to 6 months and then started again.",
+        note="If the total falls short of the next bill, the difference is still due by the deadline. If the account ends up in credit, you can ask for a refund."),
+      dict(type="step", step="Who cannot set one up", fig="Up to date",
+        say="You have to be up to date with payments from your last Self Assessment bill. Anyone with an unpaid or overdue balance needs a Time to Pay arrangement instead — this facility is for paying ahead, not for clearing arrears.",
+        note="It also needs a Self Assessment online account and a Direct Debit, so it is not open to anyone who cannot pay that way."),
+    ],
+    CTA_EN=dict(type="cta",
+      kicker="Ola Accountancy · Luton and Birmingham",
+      h1="Not sure what the monthly figure should be?",
+      say="Message us on WhatsApp and we will look at last year's return with you, so you know what you are aiming at. First consultation free, 30 minutes.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+
+    GBP=[dict(type="solo",
+      kicker="Budget Payment Plan · gov.uk",
+      h1="Pay ahead on your tax bill, and pause for <em>up to 6 months</em>.",
+      rows=[["Your amount",  "weekly or monthly, you choose"],
+            ["Direct Debit", "from your Self Assessment online account"],
+            ["Excluded",     "anyone still owing from last year"]],
+      ask="Not sure what to put aside? Talk to us.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant.")],
+
+    SOURCES=[
+      ("Budget Payment Plan: weekly or monthly Direct Debit towards your next Self Assessment bill, with the amount and frequency chosen by the taxpayer; payments are used against the next bill so there is less to pay at the payment deadline",
+       "https://www.gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly", "2026-11-14"),
+      ("To set up a plan you must be up to date with any payments from your last Self Assessment tax bill; payments can be paused for up to 6 months; where the amount paid does not cover the next bill the difference must still be paid, and a refund can be requested if the account is in credit",
+       "https://www.gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly", "2026-11-14"),
+      ("Set-up route and the 11-character payment reference, the UTR followed by the letter K",
+       "https://www.gov.uk/pay-self-assessment-tax-bill/pay-weekly-monthly", "2026-11-14"),
+    ],
+    SCOPE=dict(
+      nation="UK. A standing HMRC Self Assessment facility with no devolved variation, so no nation is named on the cards or on the Google Business frame.",
+      category="Self Assessment taxpayers who are up to date with their payments and want to pay towards their NEXT tax bill in advance, by weekly or monthly Direct Debit.",
+      excluded="Not available unless you are up to date with any payments from your last Self Assessment tax bill, so anyone with an outstanding or overdue balance is shut out. It is not a route for paying off an overdue bill at all: a missed payment deadline, or an amount that cannot be paid, needs a Time to Pay arrangement instead. It also requires a Self Assessment online account and a Direct Debit, so it is not open to anyone who cannot or will not pay by Direct Debit. Deliberately not claimed on the cards: any minimum or maximum payment amount, and any debt threshold — gov.uk states none, so none is written.",
+      from_when="Standing HMRC facility, available now; payments count towards the next Self Assessment bill.",
+      automatic=False,
+      how_to_claim="Sign in to the Self Assessment online account, select Direct Debit and choose the Budget Payment Plan option, then set the frequency and the amount. The 11-character payment reference is the UTR followed by the letter K."),
+
+    caption="""Știi că factura de Self Assessment vine la termen și nu vrei să o duci toată într-o singură lună. HMRC are o facilitate exact pentru asta.
+
+Se numește Budget Payment Plan. Dai un Direct Debit săptămânal sau lunar și pui bani în avans pentru următoarea ta factură de Self Assessment. Tu alegi suma și tu alegi cât de des.
+
+Cum funcționează:
+• Banii se scad din factura următoare, deci la termenul de plată ai mai puțin de plătit
+• Plățile se pot opri până la 6 luni, dacă ai o perioadă mai grea, și apoi se reiau
+• Îți trebuie referința de plată: 11 caractere, adică UTR-ul tău urmat de litera K
+
+Două lucruri de ținut minte. Dacă suma strânsă nu acoperă toată factura, diferența se plătește până la termenul de plată. Iar dacă ai pus mai mult decât era nevoie, poți cere banii înapoi.
+
+Cine nu poate deschide un astfel de plan: planul se deschide doar dacă ești la zi cu plățile din ultima factură de Self Assessment. Cine are o sumă rămasă neplătită sau un termen depășit are nevoie de altceva — o înțelegere cu HMRC numită Time to Pay. Budget Payment Plan este pentru plata în avans, nu pentru recuperarea unei restanțe.
+
+Mai e nevoie de un cont online de Self Assessment și de un Direct Debit, deci planul nu funcționează fără plată prin bancă.
+
+Se deschide din contul tău online de Self Assessment: alegi Direct Debit, apoi opțiunea Budget Payment Plan, și stabilești suma și ritmul.
+
+Scrie-ne pe WhatsApp la 0330 133 1886 și ne uităm împreună la ultima ta declarație, ca să știi la ce sumă să te aștepți. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #SelfAssessment #HMRC #romaniinuk""",
+
+    caption_threads="""Budget Payment Plan: pui bani în avans pentru următoarea factură de Self Assessment, printr-un Direct Debit săptămânal sau lunar. Tu alegi suma, iar plățile se pot opri până la 6 luni.
+
+Se deschide doar dacă ești la zi cu plățile din ultima factură. Pentru o restanță, HMRC are altceva: Time to Pay.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+
+    caption_li="""HMRC has a standing facility that lets you pay towards your Self Assessment bill before it arrives, rather than finding the whole of it in one month.
+
+It is called a Budget Payment Plan. You set up a weekly or monthly Direct Debit towards your next Self Assessment bill, choosing both the amount and the frequency yourself. Everything you pay in is credited against that next bill, so there is less to find at the payment deadline.
+
+The useful details:
+
+The amount and the frequency are yours to set.
+
+Payments can be paused for up to 6 months if cash flow turns against you, and then restarted.
+
+If the total you have paid in does not cover the whole of the next bill, the difference is still due by the payment deadline. If you end up in credit, you can ask HMRC for a refund.
+
+You will need your 11-character payment reference to set it up: your UTR followed by the letter K.
+
+Where it does not work, and this is the part worth knowing before you spend an afternoon on it. To set a plan up you must be up to date with any payments from your last Self Assessment tax bill. Anyone carrying an outstanding or overdue balance cannot use it, and it is not designed to clear one. A missed payment deadline, or a bill you cannot pay, is a Time to Pay arrangement — a different route with a different conversation at the other end of it. A Budget Payment Plan is for paying ahead while you are straight with HMRC.
+
+It also needs a Self Assessment online account and a Direct Debit, so it is not open to anyone who cannot or will not pay by bank mandate.
+
+To set it up: sign in to your Self Assessment online account, select Direct Debit, choose the Budget Payment Plan option, then set your figure and your frequency.
+
+Want a sensible monthly figure rather than a guess? Send us last year's return and we will work through it with you. First consultation free, 30 minutes.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #SelfAssessment #HMRC #UKTax""",
+
+    caption_bsky="""Budget Payment Plan: a weekly or monthly Direct Debit towards your next Self Assessment bill. You set the amount, and can pause for 6 months. Only if you are up to date on the last bill.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+
+    caption_pin_title="Budget Payment Plan: pay your next tax bill weekly or monthly",
+
+    caption_pin_desc="""A Budget Payment Plan is a weekly or monthly Direct Debit towards your next Self Assessment tax bill. You choose the amount and the frequency, and what you pay in is credited against the bill, so there is less to pay at the deadline. Payments can be paused for up to 6 months. If the total falls short of the bill, the difference is still due by the deadline; if you are in credit, you can ask for a refund. You must be up to date with payments from your last Self Assessment bill to set one up — an overdue bill needs a Time to Pay arrangement instead. Set it up in your Self Assessment online account; the payment reference is your UTR followed by the letter K.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+  ),
+
+  # ============================================ 2 · the 24-month rule
+  dict(
+    slug="ola-naveta-24-luni", brand="ola",
+    title="Loc de muncă temporar sau permanent: regula celor 24 de luni",
+    tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #HMRC #SelfAssessment #romaniinuk",
+    tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #HMRC #Payroll #UKTax",
+
+    RO=[
+      dict(type="hook", kicker="Booklet 490, capitolul 3 · HMRC",
+        h1="Drumul la un loc de muncă temporar se decontează. Peste <em>24 de luni</em>, nu.",
+        say="Dacă ești angajat sau director și mergi la un loc de muncă temporar, adică unul la care te duci pentru o perioadă limitată sau pentru un scop temporar, costul drumului intră la decontare. Drumul obișnuit de la casă la locul tău permanent de muncă nu intră niciodată."),
+      dict(type="step", step="Două condiții, nu una", fig="40%",
+        say="Un loc devine permanent doar dacă lucrezi acolo 40% sau mai mult din timpul tău de lucru ȘI perioada trece de 24 de luni, fără întrerupere. Dacă una dintre cele două nu se împlinește, locul rămâne temporar.",
+        note="Deci un șantier la care mergi două zile pe săptămână, chiar și de trei ani, poate rămâne temporar."),
+      dict(type="step", step="Cine nu decontează drumul", fig="Bază",
+        say="Nu se decontează drumul de la casă la locul permanent de muncă, nici drumul la locul de muncă al unui alt job. Nu se decontează nici drumul la baza sau depoul de unde pornești zilnic și de unde primești sarcinile — acela este loc permanent, oricâte adrese ai pe traseu după.",
+        note="Decontarea se oprește din momentul în care se știe că perioada va trece de 24 de luni, nu după ce trec ele. Faptul că lucrezi și de acasă nu face, singur, drumul de acasă decontabil."),
+    ],
+    CTA_RO=dict(type="cta",
+      kicker="Ola Accountancy · Luton și Birmingham",
+      h1="Nu știi dacă locul la care mergi este temporar sau permanent?",
+      say="Scrie-ne pe WhatsApp de când mergi acolo și câte zile pe săptămână, iar noi trecem împreună prin cele două condiții. Prima consultație este gratuită, 30 de minute.",
+      phone=PHONE,
+      disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+    EN=[
+      dict(type="hook", kicker="Booklet 490, chapter 3 · HMRC",
+        h1="Travel to a temporary workplace is relievable. Past <em>24 months</em>, it is not.",
+        say="An employee or director attending a workplace for a limited duration or a temporary purpose gets relief on the full cost of that travel. The employer can reimburse it tax-free, or the employee can claim the relief. The daily run between home and a permanent workplace never qualifies."),
+      dict(type="step", step="Two tests, not one", fig="40%",
+        say="A site only turns permanent where the employee works there 40% or more of their working time AND the continuous period runs beyond 24 months. Fail either test and the workplace can still be temporary.",
+        note="So a site attended two days a week for three years may well still qualify."),
+      dict(type="step", step="Where no relief is due", fig="Depot",
+        say="No relief for ordinary commuting between home and a permanent workplace, for travel to the workplace of another job, or for travel to a depot or base where the employee regularly starts work or is routinely allocated tasks. That base is a permanent workplace however many sites they drive to afterwards.",
+        note="Relief also stops the moment it is expected that the period will exceed 24 months, not once they have run. And a home that is a workplace does not by itself make the journey from home relievable."),
+    ],
+    CTA_EN=dict(type="cta",
+      kicker="Ola Accountancy · Luton and Birmingham",
+      h1="Not sure whether a site counts as temporary or permanent?",
+      say="Send us how long the posting has run and how much of the week is spent there, and we will work through both tests with you. First consultation free, 30 minutes.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+
+    SOURCES=[
+      ("Ordinary commuting and private travel, booklet 490 chapter 3: travel to a temporary workplace qualifies for relief, and a workplace stops being temporary where the employee works there 40% or more of their working time for a continuous period of more than 24 months",
+       "https://www.gov.uk/guidance/ordinary-commuting-and-private-travel-490-chapter-3", "2026-11-17"),
+      ("Both the 40% of working time test and the more-than-24-months test must be met before a workplace becomes permanent; the fixed-term appointment test uses more than 80% of the likely employment period at 40% or more of working time",
+       "https://www.gov.uk/guidance/ordinary-commuting-and-private-travel-490-chapter-3", "2026-11-17"),
+      ("No relief for ordinary commuting, for travel to a place that is not a workplace, for travel to another job's workplace, or for a depot or base where work regularly starts or tasks are routinely allocated; a home that is a workplace does not by itself make the journey from home relievable",
+       "https://www.gov.uk/guidance/ordinary-commuting-and-private-travel-490-chapter-3", "2026-11-17"),
+    ],
+    SCOPE=dict(
+      nation="UK-wide (ITEPA 2003 ss337-339; HMRC booklet 490 chapter 3). No Scottish or Welsh variation in the rules, so no nation is named on the cards.",
+      category="Employees and directors travelling to a temporary workplace — a place attended for a limited duration or a temporary purpose. Relief covers the full cost of that travel.",
+      excluded="No relief for: ordinary commuting between home and a permanent workplace; travel between home and a place that is not a workplace at all; travel to another job's workplace; a site where the employee works, or expects to work, 40% or more of their time for a continuous period of more than 24 months, which becomes permanent from the moment the expectation changes rather than after the 24 months have run; a fixed-term appointment caught by the 80% test; and a depot or base where the employee regularly starts work or is routinely allocated tasks, which is a permanent workplace however many sites they then drive to. HMRC is explicit that an employee's home being a workplace does not by itself make the journey from home relievable. Kept off the cards and put in the captions: the 80% fixed-term test and the claim mechanics.",
+      from_when="ITEPA 2003, from 6 April 1998 in substance; booklet 490 is the current HMRC guidance.",
+      automatic=False,
+      how_to_claim="Where the employer reimburses at or below the approved mileage rates or actual cost, nothing is reported. Where there is no reimbursement, the employee claims the relief through a Self Assessment return if they file one, otherwise by a P87 claim to HMRC, which can cover the current tax year plus the 4 previous years."),
+
+    caption="""Mergi la o adresă de lucru care nu este locul tău obișnuit. Se decontează drumul sau nu? HMRC are un capitol întreg despre asta: booklet 490, capitolul 3.
+
+Regula de bază. Dacă ești angajat sau director și te duci la un loc de muncă temporar — unul la care mergi pentru o perioadă limitată sau pentru un scop temporar — costul drumului intră la decontare, integral. Drumul obișnuit de la casă la locul tău permanent de muncă nu intră niciodată.
+
+Partea pe care o ratează cei mai mulți: sunt două condiții, nu una.
+
+Un loc devine permanent doar dacă se împlinesc amândouă:
+• lucrezi acolo 40% sau mai mult din timpul tău de lucru, și
+• perioada trece de 24 de luni, fără întrerupere
+
+Dacă una singură lipsește, locul rămâne temporar. Un șantier la care mergi două zile pe săptămână, chiar și de trei ani, poate rămâne temporar. Iar pentru un contract pe perioadă determinată există un al treilea test: dacă mergi acolo peste 80% din durata probabilă a contractului, la 40% sau mai mult din timpul de lucru, locul este permanent.
+
+Atenție la momentul în care se oprește decontarea: din clipa în care se știe că perioada va depăși 24 de luni, nu după ce trec ele. Dacă un contract de 18 luni se vede clar că va merge trei ani, decontarea se oprește când s-a schimbat așteptarea.
+
+Cine nu decontează drumul: cel care merge de la casă la locul permanent de muncă, cel care merge la locul de muncă al unui alt job, și cel care trece zilnic pe la baza sau depoul de unde își ia mașina și de unde primește sarcinile. Acea bază este loc permanent, oricâte adrese are pe traseu după. Faptul că lucrezi și de acasă nu face, singur, drumul de acasă decontabil.
+
+Cum se ia. Dacă angajatorul rambursează ratele aprobate sau costul real, nu se raportează nimic. Dacă nu rambursează nimeni, angajatul cere scutirea prin Self Assessment, dacă depune declarație, sau printr-o cerere P87 la HMRC, care acoperă anul fiscal curent plus cei 4 ani anteriori.
+
+Scrie-ne pe WhatsApp la 0330 133 1886 și trecem împreună prin cele două condiții. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #HMRC #SelfAssessment #romaniinuk""",
+
+    caption_threads="""Regula celor 24 de luni, pe scurt: un loc de muncă devine permanent doar dacă lucrezi acolo 40% sau mai mult din timp ȘI perioada trece de 24 de luni. Lipsește una, locul rămâne temporar.
+
+Dar drumul până la baza de unde îți iei zilnic mașina este navetă, nu deplasare de lucru.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+
+    caption_li="""The 24-month rule is one of the most misapplied pieces of HMRC guidance in payroll, and it goes wrong in both directions.
+
+The starting point, from booklet 490 chapter 3. An employee or director attending a temporary workplace — a place attended for a limited duration or a temporary purpose — gets relief on the full cost of that travel. The employer can reimburse it tax-free, or the employee claims the relief. Ordinary commuting between home and a permanent workplace never qualifies.
+
+There are two tests, not one.
+
+A workplace only becomes permanent where the employee works there 40% or more of their working time AND the continuous period runs beyond 24 months. Fail either and the workplace can still be temporary. A site attended two days a week for three years may well still qualify, which surprises people who have only ever heard the 24-month half of the rule.
+
+A third test catches fixed-term appointments: attending a place for more than 80% of the likely period of the employment, at 40% or more of working time, also makes it permanent.
+
+The sharper trap runs the other way. Relief stops as soon as it is EXPECTED that the period will exceed 24 months, not once the 24 months have run. A contractor on a rolling 18-month site that is clearly going to run for three years loses relief from the point the expectation changed, and a retrospective claim covering the first 24 months is wrong.
+
+Where no relief is due at all: ordinary commuting; travel between home and somewhere that is not a workplace; travel to the workplace of another job; and travel to a depot or base where the employee regularly starts work or is routinely allocated tasks. That base is a permanent workplace however many sites they drive to afterwards — picking the van up is commuting. HMRC is also explicit that a home being a workplace does not by itself make the journey from home relievable.
+
+Claiming it. Where the employer reimburses at or below the approved mileage rates or actual cost, nothing is reported. Where nobody reimburses, the employee claims through Self Assessment if they file, otherwise by a P87 to HMRC, covering the current tax year plus the 4 previous years. Note that whether the journey qualifies at all is a separate question from the rate at which it is reimbursed.
+
+Running a site team and unsure which postings still qualify? First consultation free, 30 minutes.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #HMRC #Payroll #UKTax""",
+
+    caption_bsky="""The 24-month rule: a workplace only turns permanent where someone works there 40% or more of their time AND for over 24 months. A depot you start the day at is permanent either way.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+
+    caption_pin_title="The 24-month rule: temporary workplace or permanent?",
+
+    caption_pin_desc="""Travel to a temporary workplace is relievable in full; ordinary commuting between home and a permanent workplace is not. A site only becomes permanent where the employee works there 40% or more of their working time AND the continuous period runs beyond 24 months — fail either test and it can still be temporary. A fixed-term appointment attended for more than 80% of the likely employment period is also permanent. Relief stops as soon as the period is expected to exceed 24 months. No relief for travel to another job's workplace, or to a depot or base where work regularly starts. Unreimbursed travel is claimed through Self Assessment or a P87.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+  ),
+
+  # ============================================ 3 · zero-rated children's clothing
+  dict(
+    slug="ola-tva-haine-copii", brand="ola",
+    title="Cota zero de TVA la haine și încălțăminte pentru copii mici",
+    tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #TVA #HMRC #romaniinuk",
+    tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #VAT #HMRC #UKTax",
+
+    RO=[
+      dict(type="hook", kicker="VAT Notice 714 · HMRC",
+        h1="Hainele de copii se vând fără TVA, dacă trec <em>4 condiții</em>.",
+        say="Cota zero înseamnă TVA de 0%, deci cumpărătorul nu plătește TVA deloc. Notice 714 cere toate patru: să fie haină sau încălțăminte, să nu fie din blană naturală, să fie proiectată pentru copii sub 14 ani și să fie potrivită numai pentru ei."),
+      dict(type="step", step="Croiala decide, nu vârsta copilului", fig="104 cm",
+        say="Notice 714 dă măsuri maxime. La cămăși și tricotaje: piept 104 cm la băieți, 105 cm la fete. La pantaloni și pantaloni scurți: talie 72 cm la băieți, 71 cm la fete. La încălțăminte: până la mărimea 6,5 la băieți, 3 la fete și 5,5 la modelele unisex.",
+        note="Contează pentru cine este proiectată și cum este pusă la vânzare — etichetă, ambalaj, expunere, factură, reclamă. Un adult poate cumpăra o haină de copil cu cota zero."),
+      dict(type="step", step="Ce rămâne cu TVA", fig="Blană",
+        say="Hainele făcute, integral sau parțial, din blană naturală se vând cu TVA; blana artificială poate avea cota zero. Lucrurile care nu sunt haine rămân cu TVA oricât de mici sunt: benzi reflectorizante, nasturi și capse, insigne și embleme, bentițe, elastice și clame de păr.",
+        note="Pălăriile de petrecere și cele de jucărie se taxează ca jucării. O haină în mărime unică, bună și pentru adulți, nu poate avea cota zero. Modificările, reparațiile și broderia se facturează cu TVA."),
+    ],
+    CTA_RO=dict(type="cta",
+      kicker="Ola Accountancy · Luton și Birmingham",
+      h1="Vinzi haine de copii și nu știi ce intră la cota zero?",
+      say="Scrie-ne pe WhatsApp ce produse ai și ce mărimi, iar noi trecem împreună prin condițiile din Notice 714. Prima consultație este gratuită, 30 de minute.",
+      phone=PHONE,
+      disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+    EN=[
+      dict(type="hook", kicker="VAT Notice 714 · HMRC",
+        h1="Children's clothing is sold without VAT if it meets <em>4 conditions</em>.",
+        say="Zero rate means VAT at 0%, so the customer pays none. Notice 714 requires all four conditions: it must be an article of clothing or footwear, not made of fur skin, designed for young children under 14, and suitable only for young children."),
+      dict(type="step", step="The garment decides, not the wearer", fig="104cm",
+        say="Notice 714 sets maximum measurements. Shirts and knitwear: chest 104cm for boys, 105cm for girls. Trousers and shorts: waist 72cm for boys, 71cm for girls. Footwear: up to and including size 6.5 for boys, size 3 for girls, size 5.5 for true unisex.",
+        note="What matters is the design and how the article is held out for sale — labelling, packaging, display, invoicing and advertising. An adult can buy a child-size garment at the zero rate."),
+      dict(type="step", step="What stays standard-rated", fig="Fur",
+        say="Articles wholly or partly of fur skin are standard-rated, though artificial fur can be zero-rated. Items that are not clothing at all remain standard-rated whatever their size: reflective armbands, fastenings, badges and patches, alice bands, hair ribbons, slides and scrunchies.",
+        note="Novelty, party and play hats are standard-rated as toys. A garment sold in one size to fit both children and adults cannot be zero-rated. Alteration, repair and embroidery are not zero-rated either."),
+    ],
+    CTA_EN=dict(type="cta",
+      kicker="Ola Accountancy · Luton and Birmingham",
+      h1="Selling children's clothing and unsure what is zero-rated?",
+      say="Send us your range and sizes, and we will work through the Notice 714 conditions. First consultation free, 30 minutes.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+
+    SOURCES=[
+      ("VAT Notice 714 section 1.3: all four conditions must be met — an article of clothing or footwear, not made of fur skin, designed for young children, and suitable only for young children. Sections 4.2 and following set the age as under 14, up to the eve of the 14th birthday",
+       "https://www.gov.uk/guidance/vat-on-young-childrens-clothing-and-footwear-notice-714", "2026-11-15"),
+      ("Section 4.2 maximum measurements: boys chest 104cm and girls chest 105cm for shirts and knitwear; boys waist 72cm and girls waist 71cm for trousers and shorts. Sections 4.3 and 4.3.3 footwear limits: boys up to and including size 6.5, girls up to and including size 3, true unisex up to and including size 5.5",
+       "https://www.gov.uk/guidance/vat-on-young-childrens-clothing-and-footwear-notice-714", "2026-11-15"),
+      ("Section 3 on fur skin and artificial fur; sections 2.2 and 4.4.2 on items that are not clothing, including reflective armbands, fastenings, badges, patches, alice bands, hair ribbons, slides, scrunchies and party hats; section 4.2.3 on one-size garments fitting children and adults; section 9.2 on alteration, repair and embroidery; section 5.2 on held out for sale",
+       "https://www.gov.uk/guidance/vat-on-young-childrens-clothing-and-footwear-notice-714", "2026-11-15"),
+    ],
+    SCOPE=dict(
+      nation="UK-wide. No nation differences, so no nation is named on the cards.",
+      category="Any supplier selling an article of clothing or footwear that meets all four conditions in VAT Notice 714 section 1.3. Suitability is normally shown by the article being held out for sale for young children, which covers labelling, packaging, display, invoicing and advertising.",
+      excluded="Articles wholly or partly of fur skin are standard-rated, though artificial fur can be zero-rated. Items that are not clothing at all are standard-rated whatever their size: reflective armbands, buoyancy aids, fastenings, badges, patches, hand muffs and ear muffs, and alice bands, hair ribbons and slides, scrunchies, sports headbands and sun visors. Novelty, party and play hats are standard-rated as toys. Garments sold in one size to fit both children and adults cannot be zero-rated. Anything exceeding the section 4.2 measurements needs HMRC's prior written agreement, and goods labelled to fit above the section 4.2.2 body-measurement table fail the suitability test. Alteration, repair and embroidery are not zero-rated. Goods that were zero-rated when bought are not automatically zero-rated when sold on. Deliberately kept off the cards and placed in the captions instead: the full outerwear and body-measurement tables, the named-item limits, school uniform agreements, hire, and the protective-equipment treatment.",
+      from_when="Long-standing relief, in force now. No pending change identified at primary source as at 15 November 2026.",
+      automatic=True,
+      how_to_claim="Nothing for the customer to claim. The retailer applies the zero rate at the till. The onus is on the supplier to satisfy the four conditions and to evidence the size and held-out-for-sale tests; larger-than-standard sizes require HMRC's written agreement in advance under section 4.2.1."),
+
+    caption="""Dacă vinzi haine sau încălțăminte pentru copii, multe dintre ele se vând cu TVA de 0%. Nu pentru că e o reducere, ci pentru că legea le dă cota zero. Regulile sunt în VAT Notice 714.
+
+Patru condiții, toate obligatorii:
+• să fie o haină sau o pereche de încălțări
+• să nu fie făcută din blană naturală
+• să fie proiectată pentru copii mici, adică sub 14 ani
+• să fie potrivită numai pentru copii mici
+
+Partea care surprinde: contează croiala și felul în care produsul este pus la vânzare, nu vârsta celui care îl poartă. Un adult poate cumpăra o haină în mărime de copil cu cota zero, iar un copil de 13 ani care cumpără o haină de adult plătește TVA. Potrivirea se arată prin etichetă, ambalaj, expunere și factură.
+
+Câteva măsuri maxime din secțiunea 4.2:
+• cămăși și tricotaje: piept 104 cm la băieți, 105 cm la fete
+• pantaloni și pantaloni scurți: talie 72 cm băieți, 71 cm fete
+• jachete și veste: piept 109 cm la băieți, 110 cm la fete
+• paltoane și haine de exterior: piept 114 cm la băieți, 115 cm la fete
+• încălțăminte: până la mărimea 6,5 la băieți, 3 la fete, 5,5 la modelele unisex
+
+Ce rămâne cu TVA. Hainele din blană naturală, integral sau parțial; blana artificială poate avea cota zero. Apoi lucrurile care nu sunt haine, oricât de mici: benzi reflectorizante, nasturi și capse, insigne și embleme, bentițe, elastice și clame de păr, bentițe de sport și cozoroace. Pălăriile de petrecere și de jucărie se taxează ca jucării. O haină în mărime unică, bună și pentru adulți, nu poate avea cota zero. Modificările, reparațiile și broderia se facturează cu TVA.
+
+Pentru mărimi peste cele din secțiunea 4.2 este nevoie de acordul scris al HMRC, dat înainte. Iar un produs cumpărat cu cota zero nu se revinde automat cu cota zero — condițiile se verifică din nou.
+
+Util de știut: căștile de bicicletă au cota zero indiferent de mărime, iar ghetele de patinaj și crampoanele sunt încălțăminte și trec prin testul de mărime.
+
+Scrie-ne pe WhatsApp la 0330 133 1886 și trecem împreună prin condiții pentru produsele tale. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #TVA #HMRC #romaniinuk""",
+
+    caption_threads="""Haine și încălțăminte de copii cu TVA 0%: Notice 714 cere patru condiții, toate. Haină sau încălțări, fără blană naturală, proiectată pentru copii sub 14 ani și potrivită numai pentru ei.
+
+Contează croiala și eticheta, nu vârsta celui care o poartă. Bentițele, clamele de păr și pălăriile de petrecere rămân cu TVA.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+
+    caption_li="""Zero rating on young children's clothing and footwear looks simple until a VAT inspection asks you to evidence it. VAT Notice 714 sets four conditions, and all four have to be met.
+
+The article must be clothing or footwear. It must not be made of fur skin. It must be designed for young children — under 14, with the measurements based on children up to the eve of the 14th birthday. And it must be suitable only for young children.
+
+The test is the garment and its marketing, not the age of the actual wearer. An adult can buy a child-size garment at the zero rate, and a large 13-year-old buying an adult-size garment pays VAT. Suitability is normally demonstrated by the article being held out for sale for young children, which section 5.2 frames as labelling, packaging, display, invoicing and advertising.
+
+Some of the section 4.2 maximum measurements:
+
+Shirts and knitwear: chest 104cm boys, 105cm girls, measured 2.5cm below the armhole and doubled, garment flat with buttons fastened.
+Trousers and shorts: waist 72cm boys, 71cm girls. Elasticated waistbands are measured at full stretch.
+Jackets and waistcoats: chest 109cm boys, 110cm girls. Top coats and outerwear: 114cm boys, 115cm girls.
+Footwear: up to and including size 6.5 boys, size 3 girls, size 5.5 true unisex.
+
+Section 4.2.2 also allows zero rating by reference to the body measurements of the under-14 child the garment is designed for, regardless of garment size.
+
+What stays standard-rated, and this is where retailers lose money or take a risk without knowing it. Anything wholly or partly of fur skin, though artificial fur can be zero-rated. Items that are not clothing at all, whatever their size: reflective armbands, buoyancy aids, fastenings, badges, patches, hand muffs, ear muffs, alice bands, hair ribbons, slides, scrunchies, sports headbands and sun visors. Novelty, party and play hats are standard-rated as toys. One-size garments fitting both children and adults cannot be zero-rated. Alteration, repair and embroidery are not zero-rated. And goods that were zero-rated when you bought them are not automatically zero-rated when you sell them on.
+
+Two further points worth having. Anything exceeding the section 4.2 measurements needs HMRC's prior written agreement before it can be zero-rated. And protective equipment is often wrongly assumed to be out: cycle helmets are zero-rated irrespective of size, other helmets qualify up to 59cm where designed and marketed exclusively for children, and riding hats qualify up to size 6 3/4.
+
+Reviewing a children's range before your next return? First consultation free, 30 minutes.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #VAT #HMRC #UKTax""",
+
+    caption_bsky="""Children's clothing is zero-rated for VAT only where all four Notice 714 conditions are met, size limits included. Fur, hair slides and party hats stay standard-rated.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+
+    caption_pin_title="Zero-rated VAT on children's clothing: the four conditions",
+
+    caption_pin_desc="""VAT Notice 714 zero-rates young children's clothing and footwear only where all four conditions are met: it is clothing or footwear, not made of fur skin, designed for young children under 14, and suitable only for young children. The test is the garment's design and how it is held out for sale, not the age of the wearer. Maximum measurements include chest 104cm for boys' shirts and knitwear, waist 72cm for boys' trousers, and footwear up to size 6.5 for boys and size 3 for girls. Fur, hair slides, alice bands, reflective armbands, party hats and one-size adult-and-child garments stay standard-rated, as do alteration, repair and embroidery.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+  ),
+
+  # ============================================ 4 · Budgeting Advance
+  dict(
+    slug="ola-avans-buget-uc", brand="ola",
+    title="Budgeting Advance: bani pentru o cheltuială neprevăzută, fără dobândă, dar de returnat",
+    tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #UniversalCredit #romaniinuk",
+    tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #UniversalCredit #UKBenefits",
+
+    RO=[
+      dict(type="hook", kicker="Budgeting Advance · gov.uk",
+        h1="Pentru o cheltuială neprevăzută poți cere până la <em>£812</em>, fără dobândă.",
+        say="Se numește Budgeting Advance și se cere dacă primești Universal Credit. Nu are dobândă, dar este un împrumut: se scade din plățile tale de Universal Credit, începând cu următoarea."),
+      dict(type="step", step="Cât poți primi", fig="<cur>£</cur>812",
+        say="Până la <cur>£</cur>348 dacă ești singur, <cur>£</cur>464 dacă sunteți în cuplu și <cur>£</cur>812 dacă ai copii în cerere. Cea mai mică sumă care se dă este <cur>£</cur>100.",
+        note="Suma se returnează din Universal Credit în până la 24 de luni, deci plata lunară rămâne mai mică în toată perioada asta."),
+      dict(type="step", step="Cine nu îl primește", fig="<cur>£</cur>2.600",
+        say="Nu se acordă dacă ai câștigat peste <cur>£</cur>2.600 în ultimele șase luni, sau peste <cur>£</cur>3.600 ca cuplu. Nici dacă mai ai de returnat un Budgeting Advance anterior — se poate avea doar unul în același timp.",
+        note="Dacă primești Universal Credit de mai puțin de șase luni, se poate numai dacă banii te ajută să începi sau să păstrezi un loc de muncă. Schema este pentru Anglia, Scoția și Țara Galilor; Irlanda de Nord are propriile avansuri, pe nidirect."),
+    ],
+    CTA_RO=dict(type="cta",
+      kicker="Ola Accountancy · Luton și Birmingham",
+      h1="Nu știi dacă te încadrezi sau cât ți-ar scădea plata lunară?",
+      say="Scrie-ne pe WhatsApp și trecem împreună prin condiții și prin ce înseamnă returnarea pentru bugetul tău lunar. Prima consultație este gratuită, 30 de minute.",
+      phone=PHONE,
+      disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+    EN=[
+      dict(type="hook", kicker="Budgeting Advance · gov.uk",
+        h1="An unexpected cost can be met with up to <em>£812</em>, interest-free.",
+        say="A Budgeting Advance is asked for through Universal Credit. It carries no interest, but it is a loan: it comes back out of your Universal Credit payments, starting with the next one."),
+      dict(type="step", step="What you can get", fig="<cur>£</cur>812",
+        say="Up to <cur>£</cur>348 if you are single, <cur>£</cur>464 as a couple, and <cur>£</cur>812 where there are children in the claim. The smallest advance available is <cur>£</cur>100.",
+        note="Repayment is taken from Universal Credit over up to 24 months, so the monthly award stays lower for that whole period."),
+      dict(type="step", step="Who does not get one", fig="<cur>£</cur>2,600",
+        say="Not available to anyone who earned more than <cur>£</cur>2,600 in the past six months, or <cur>£</cur>3,600 as a couple. Nor to anyone still repaying an earlier Budgeting Advance — only one can be held at a time.",
+        note="Anyone on Universal Credit for less than six months qualifies only where the money helps them start or stay in work. The scheme covers England, Scotland and Wales; Northern Ireland runs its own advances through nidirect."),
+    ],
+    CTA_EN=dict(type="cta",
+      kicker="Ola Accountancy · Luton and Birmingham",
+      h1="Not sure if you qualify, or what the repayment does to your month?",
+      say="Message us and we will go through the conditions and the repayment with you. First consultation free, 30 minutes.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+
+    SOURCES=[
+      ("Budgeting Advance maximum amounts: £348 if single, £464 for a couple, £812 if you have children; the smallest advance is £100",
+       "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs", "2026-11-17"),
+      ("Earnings test: you cannot get one if you earned more than £2,600, or £3,600 as a couple, in the past 6 months; and any previous Budgeting Advance must be repaid first",
+       "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs", "2026-11-17"),
+      ("Repayment is taken from Universal Credit payments starting with the next one, over up to 24 months; eligibility requires 6 months or more on Universal Credit, Employment and Support Allowance or Pension Credit, or that the money helps start a new job or stay in work",
+       "https://www.gov.uk/universal-credit-advance-hardship-payment/unexpected-costs", "2026-11-17"),
+    ],
+    SCOPE=dict(
+      nation="Great Britain — England, Scotland and Wales. Northern Ireland runs its own Universal Credit advances through nidirect, so the nation is named in a card note and never in a headline.",
+      category="Universal Credit claimants who need money for an unexpected cost, and who have either been on Universal Credit, Employment and Support Allowance or Pension Credit for 6 months or more, or need the money to help start a new job or stay in work.",
+      excluded="Anyone who earned more than £2,600 in the past 6 months, or £3,600 as a couple — the test is cumulative across the whole half year, so someone who worked briefly and stopped can be refused. Anyone who has not finished repaying a previous Budgeting Advance, since only one can be held at a time. Anyone on Universal Credit for less than 6 months who is not using the money to start or keep a job. And it is not a grant: every pound comes back out of future Universal Credit payments, reducing the monthly award for up to 24 months. The £812 figure needs children in the claim, not merely a partner.",
+      from_when="Amounts as published on GOV.UK on 17 November 2026.",
+      automatic=False,
+      how_to_claim="Ask through the Universal Credit online journal or by calling the Universal Credit helpline; a work coach decides."),
+
+    caption="""Se sparge mașina de spălat, pică mașina cu care mergi la muncă, vine o cheltuială pe care nu o ai în buget. Dacă primești Universal Credit, există o variantă fără dobândă înainte de a ajunge la un împrumut scump.
+
+Se numește Budgeting Advance. Se cere prin Universal Credit, nu are dobândă, iar un work coach decide.
+
+Cât se poate primi:
+• până la £348 dacă ești singur
+• până la £464 dacă sunteți în cuplu
+• până la £812 dacă ai copii în cerere
+• cea mai mică sumă care se dă este £100
+
+Atenție la £812: pentru suma asta trebuie să ai copii în cerere, nu doar partener.
+
+Partea pe care o ratează lumea: nu este ajutor, este împrumut. Suma se returnează din plățile tale de Universal Credit, începând cu următoarea plată, în până la 24 de luni. Adică plata lunară rămâne mai mică în toată perioada asta, iar un buget deja strâns devine mai strâns.
+
+Cine nu îl primește:
+• cine a câștigat peste £2.600 în ultimele șase luni, sau peste £3.600 ca cuplu — se adună tot ce ai câștigat în cele șase luni, deci cineva care a lucrat o perioadă scurtă și s-a oprit poate fi refuzat
+• cine mai are de returnat un Budgeting Advance anterior; se poate avea doar unul în același timp
+• cine primește Universal Credit de mai puțin de șase luni, dacă banii nu sunt pentru a începe sau a păstra un loc de muncă
+
+Schema este pentru Anglia, Scoția și Țara Galilor. Irlanda de Nord are propriile avansuri de Universal Credit, pe nidirect.
+
+Să nu se confunde cu Budgeting Loan, care este împrumutul mai vechi din Social Fund, pentru persoane cu alte beneficii, nu cu Universal Credit.
+
+Cererea se face din jurnalul online de Universal Credit sau la telefonul de Universal Credit.
+
+Scrie-ne pe WhatsApp la 0330 133 1886 și trecem împreună prin condiții și prin ce înseamnă returnarea pentru luna ta. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #UniversalCredit #romaniinuk""",
+
+    caption_threads="""Budgeting Advance, prin Universal Credit: până la £348 dacă ești singur, £464 în cuplu, £812 dacă ai copii în cerere. Minimul este £100. Fără dobândă.
+
+Dar este împrumut: se returnează din Universal Credit în până la 24 de luni. Nu se dă dacă ai câștigat peste £2.600 în ultimele șase luni.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+
+    caption_li="""A Budgeting Advance is the interest-free option that sits between an unexpected cost and a high-cost lender, and it is worth knowing about before somebody needs it rather than after.
+
+It is asked for through Universal Credit, for a cost the household has not budgeted for. The amounts published on GOV.UK:
+
+Up to £348 if you are single.
+Up to £464 for a couple.
+Up to £812 where there are children in the claim.
+The smallest advance available is £100.
+
+Note that the £812 figure needs children in the claim, not simply a partner.
+
+The headline is that it carries no interest, and against a doorstep or high-cost lender that genuinely matters. The part people miss is that it is a loan, not support. Repayment comes straight out of future Universal Credit payments, starting with the next one, over a period of up to 24 months. An already tight monthly award is tighter for that whole period, and that consequence belongs in the decision rather than after it.
+
+Who does not get one:
+
+Anyone who earned more than £2,600 in the past six months, or £3,600 as a couple. The test is cumulative across the whole half year, so somebody who worked briefly and then stopped can be refused even though they have no income now.
+
+Anyone still repaying an earlier Budgeting Advance. Only one can be held at a time.
+
+Anyone who has been on Universal Credit for less than six months, unless the money is to help them start a new job or stay in work. Otherwise eligibility needs six months or more on Universal Credit, Employment and Support Allowance or Pension Credit.
+
+The scheme covers England, Scotland and Wales. Northern Ireland runs its own Universal Credit advances through nidirect. It should not be confused with a Budgeting Loan, which is the older Social Fund loan for people on legacy benefits rather than Universal Credit.
+
+How to ask: through the Universal Credit online journal, or by calling the Universal Credit helpline. A work coach decides.
+
+Working out whether an advance or something else fits the month? First consultation free, 30 minutes.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #UniversalCredit #UKBenefits""",
+
+    caption_bsky="""Budgeting Advance is interest-free but it is a loan: up to £812, repaid out of Universal Credit for up to 24 months. Refused above £2,600 earned in six months.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+
+    caption_pin_title="Budgeting Advance: up to £812 interest-free, repaid from Universal Credit",
+
+    caption_pin_desc="""A Budgeting Advance helps with an unexpected cost if you get Universal Credit: up to £348 if you are single, £464 for a couple and £812 where there are children in the claim, with £100 the smallest advance. It is interest-free but it is a loan — repayment is taken from Universal Credit payments starting with the next one, over up to 24 months, so the monthly award stays lower. You cannot get one if you earned more than £2,600 in the past six months, or £3,600 as a couple, or while an earlier advance is still being repaid. Under six months on Universal Credit, the money must help you start or stay in work. England, Scotland and Wales; Northern Ireland uses nidirect.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+  ),
+
+  # ============================================ 5 · Section 75
+  dict(
+    slug="ola-section-75-card", brand="ola",
+    title="Secțiunea 75: banca emitentă a cardului de credit răspunde alături de magazin",
+    tags_ro="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #Section75 #romaniinuk",
+    tags_en="#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #Section75 #ConsumerCredit",
+
+    RO=[
+      dict(type="hook", kicker="Consumer Credit Act 1974, secțiunea 75",
+        h1="Peste <em>£100</em> pe cardul de credit? Răspunde și banca.",
+        say="Dacă magazinul nu a livrat, a livrat altceva sau a prezentat greșit produsul, banca emitentă a cardului răspunde alături de magazin pentru aceeași obligație. Asta înseamnă că poți cere toată suma de la bancă."),
+      dict(type="step", step="Contează prețul produsului", fig="<cur>£</cur>30.000",
+        say="Limitele se aplică prețului unui singur produs, nu sumei pe care ai pus-o efectiv pe card. O canapea de <cur>£</cur>3.000 plătită cu un avans de <cur>£</cur>50 pe cardul de credit intră în întregime, pentru că produsul costă peste <cur>£</cur>100 și nu trece de <cur>£</cur>30.000.",
+        note="Și invers: zece produse de <cur>£</cur>60 într-o singură plată de <cur>£</cur>600 nu intră, pentru că fiecare produs rămâne sub limita de jos."),
+      dict(type="step", step="Ce nu intră în secțiunea 75", fig="Debit",
+        say="Cardul de debit nu intră deloc, pentru că acolo nu există un contract de credit. Secțiunea nu se aplică nici la un produs cu preț de până la <cur>£</cur>100, nici la unul de peste <cur>£</cur>30.000, deci un obiect de <cur>£</cur>95 și unul de <cur>£</cur>40.000 sunt amândouă în afară.",
+        note="Plata făcută printr-un intermediar, nu direct către magazin, poate rupe legătura cerută de lege. Rămân în afară și contractele necomerciale și unele carduri la care tot creditul se achită la fiecare perioadă."),
+    ],
+    CTA_RO=dict(type="cta",
+      kicker="Ola Accountancy · Luton și Birmingham",
+      h1="Nu știi dacă plata ta intră în secțiunea 75?",
+      say="Scrie-ne pe WhatsApp ce ai cumpărat, cât costă produsul și cu ce card ai plătit, iar noi trecem împreună prin condițiile din lege. Prima consultație este gratuită, 30 de minute.",
+      phone=PHONE,
+      disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+
+    EN=[
+      dict(type="hook", kicker="Consumer Credit Act 1974, section 75",
+        h1="Over <em>£100</em> on a credit card? The lender is liable too.",
+        say="Where the supplier has misrepresented the goods or broken the contract, section 75 makes the card issuer jointly and severally liable with the supplier. You have the same claim against the lender as against the shop, for the whole amount."),
+      dict(type="step", step="The single item price decides", fig="<cur>£</cur>30,000",
+        say="The limits bite on the cash price of the single item, not on what you actually put on the card. A <cur>£</cur>3,000 sofa bought with a <cur>£</cur>50 deposit on a credit card is covered in full, because the item is priced over <cur>£</cur>100 and not more than <cur>£</cur>30,000.",
+        note="It cuts the other way too: ten <cur>£</cur>60 items in one <cur>£</cur>600 transaction are not covered, because each single item sits under the lower limit."),
+      dict(type="step", step="What falls outside section 75", fig="Debit",
+        say="Debit cards get nothing under it, because there is no credit agreement. A single item priced at <cur>£</cur>100 or less is outside it, and so is one priced above <cur>£</cur>30,000 — a <cur>£</cur>95 item and a <cur>£</cur>40,000 item are both out.",
+        note="A payment routed through a third-party intermediary rather than directly to the supplier can break the link the section requires. Non-commercial agreements are outside it, as are certain charge cards repaid in full each period."),
+    ],
+    CTA_EN=dict(type="cta",
+      kicker="Ola Accountancy · Luton and Birmingham",
+      h1="Not sure whether a purchase falls within section 75?",
+      say="Send us what you bought, the price of the item and which card paid for it, and we will work through the conditions with you. First consultation free, 30 minutes.",
+      phone=PHONE,
+      disc="General information. For your own situation, speak to an accountant."),
+
+    SOURCES=[
+      ("Section 75(1) Consumer Credit Act 1974: the creditor is jointly and severally liable with the supplier for misrepresentation or breach of contract, so the debtor has the same claim against the creditor",
+       "https://www.legislation.gov.uk/ukpga/1974/39/section/75", "2026-11-17"),
+      ("Section 75(3)(b): no claim relating to a single item with a cash price not exceeding £100, or with a cash price of more than £30,000",
+       "https://www.legislation.gov.uk/ukpga/1974/39/section/75", "2026-11-17"),
+      ("Section 75(3)(a) and (c): non-commercial agreements are excluded, as are certain running-account credit agreements where payments fall in periods of no more than three months and the whole credit is repayable in a single payment per period",
+       "https://www.legislation.gov.uk/ukpga/1974/39/section/75", "2026-11-17"),
+    ],
+    SCOPE=dict(
+      nation="UK-wide, Consumer Credit Act 1974. No nation is named on the cards.",
+      category="A debtor under a debtor-creditor-supplier agreement within section 12(b) or (c) of the Act — in practice a credit card, store card or point-of-sale credit purchase — who has a claim against the supplier for misrepresentation or breach of contract.",
+      excluded="Claims under a non-commercial agreement. Claims relating to any single item with a cash price not exceeding £100, or more than £30,000, so a £95 item and a £40,000 item are both outside section 75. Certain running-account credit agreements under section 75(3)(c), where payments fall in periods of no more than three months and the whole credit is repayable in a single payment per period — charge cards of that kind are outside it. Debit cards are not covered at all, because there is no credit agreement; the route there is chargeback, a card scheme rule rather than a legal right. A payment made through a third-party intermediary rather than directly to the supplier can break the debtor-creditor-supplier link. Section 75A is a separate provision covering linked loans above £30,000 on different conditions and is kept off the cards.",
+      from_when="In force; Consumer Credit Act 1974.",
+      automatic=False,
+      how_to_claim="Claim in writing to the card issuer or lender. If it is refused, complain to the firm and then to the Financial Ombudsman Service. Section 75 has no deadline of its own and runs for as long as the underlying contract claim does."),
+
+    caption="""Ai comandat ceva, ai plătit cu cardul de credit și marfa nu a venit niciodată, sau a venit altceva decât ți s-a spus. Legea din Marea Britanie îți dă o a doua adresă la care poți cere banii: banca emitentă a cardului.
+
+Se numește secțiunea 75 din Consumer Credit Act 1974. Pentru cumpărături pe card de credit, card de magazin sau credit luat la casă, banca răspunde alături de magazin pentru aceeași obligație. Poți cere toată suma de la bancă, nu doar partea pusă pe card.
+
+Partea pe care o înțelege greșit aproape toată lumea: limitele se aplică prețului unui singur produs, nu sumei pe care ai pus-o pe card.
+• O canapea de £3.000 plătită cu un avans de £50 pe cardul de credit și restul cash intră în întregime, pentru că produsul costă peste £100 și nu trece de £30.000.
+• Zece produse de £60 într-o singură plată de £600 nu intră, pentru că fiecare produs rămâne sub £100.
+
+Ce nu intră:
+• cardul de debit, deloc — acolo nu există un contract de credit; acolo se merge pe chargeback, care este o regulă a schemei de card, nu un drept dat de lege, și are termene
+• un produs cu preț de până la £100 sau de peste £30.000, deci un obiect de £95 și unul de £40.000 sunt amândouă în afară
+• contractele necomerciale
+• unele carduri la care tot creditul se achită la fiecare perioadă de până la trei luni
+• o plată trimisă printr-un intermediar, nu direct către magazin, poate rupe legătura cerută de lege
+
+Un lucru util de știut: secțiunea 75 nu are un termen propriu. Merge atâta timp cât merge și cererea din contractul de bază, și de asta funcționează și împotriva unui magazin sau a unei companii aeriene care a intrat în faliment.
+
+Cum se cere: în scris, la banca emitentă sau la creditor. Dacă se refuză, se face reclamație la firmă, apoi la Financial Ombudsman Service.
+
+Scrie-ne pe WhatsApp la 0330 133 1886 și trecem împreună prin condițiile din lege. Prima consultație este gratuită, 30 de minute.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #Section75 #romaniinuk""",
+
+    caption_threads="""Secțiunea 75: dacă ai plătit cu cardul de credit, banca răspunde alături de magazin. Limitele se aplică prețului unui singur produs — peste £100 și până la £30.000.
+
+Deci o canapea de £3.000 cu un avans de £50 pe card intră în întregime. Cardul de debit nu intră deloc.
+
+#OlaAccountancy #OlaAccountancyLuton""",
+
+    caption_li="""Section 75 of the Consumer Credit Act 1974 is one of the strongest consumer protections in UK law, and the way it is usually explained gets the key test wrong.
+
+What it does. Where a purchase is made under a debtor-creditor-supplier agreement — in practice a credit card, store card or point-of-sale credit — and the customer has a claim against the supplier for misrepresentation or breach of contract, section 75(1) gives them the same claim against the creditor, who is jointly and severally liable with the supplier. The whole amount can be pursued from the lender.
+
+The limits. Section 75(3)(b) excludes a claim relating to a single item with a cash price not exceeding £100, or more than £30,000. The limits bite on the cash price of the SINGLE ITEM, not on the amount actually charged to the card. Two consequences follow, and both surprise people:
+
+A £3,000 sofa bought with a £50 deposit on a credit card and the balance in cash is covered in full, because the item is priced over £100 and not more than £30,000.
+
+Ten £60 items in one £600 transaction are not covered at all, because each single item sits under the lower limit.
+
+What falls outside it. Non-commercial agreements. Single items at £100 or less, and single items above £30,000 — a £95 purchase and a £40,000 purchase are both out. Certain running-account credit agreements under section 75(3)(c), where payments fall in periods of no more than three months and the whole credit is repayable in a single payment per period, which takes charge cards of that kind outside the section. And debit cards get nothing under section 75, because there is no credit agreement; the route there is chargeback, a card scheme rule rather than a legal right, time-limited, and giving no claim against the lender. A payment routed through a third-party intermediary rather than directly to the supplier can also break the debtor-creditor-supplier link.
+
+Two points worth keeping. Section 75 has no deadline of its own and runs for as long as the underlying contract claim does, which is why it still works against a retailer or airline that has gone into administration. And section 75A is a separate provision covering linked loans above £30,000 on different conditions.
+
+How a claim is made: in writing to the card issuer or lender. If refused, complain to the firm and then to the Financial Ombudsman Service.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #Section75 #ConsumerCredit""",
+
+    caption_bsky="""Section 75: for a single item priced over £100 and up to £30,000 on a credit card, the lender is liable alongside the retailer. Debit cards get nothing under it.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+
+    caption_pin_title="Section 75: your credit card company is liable too",
+
+    caption_pin_desc="""Section 75 of the Consumer Credit Act 1974 makes a credit card issuer jointly and severally liable with the supplier where there has been misrepresentation or a breach of contract, so the whole amount can be claimed from the lender. The limits apply to the cash price of the single item, not the amount charged to the card: a £3,000 sofa bought with a £50 deposit on a credit card is covered in full, while ten £60 items in one £600 transaction are not. Items priced at £100 or less, or above £30,000, are outside it. Debit cards are not covered at all. Claims are made in writing to the lender, then to the Financial Ombudsman Service.
+
+#OlaAccountancy #OlaAccountancyLuton #OlaAccountancyBirmingham""",
+  ),
+
+]
+
+BHAM_CAR = [
+
+dict(
+  slug="bham-vat-diy-selfbuild", brand="bham",
+  title="VAT DIY Housebuilders Scheme: claiming back the VAT on a self-build",
+  tags_en="#SelfBuild #VATRefund #DIYHousebuilders #Birmingham #WestMidlands",
+  EN=[
+    dict(type="hook", kicker="VAT DIY Housebuilders Scheme · gov.uk",
+         h1="You have <em>6 months</em> to claim the VAT back on a self-build.",
+         say="Build a new home for yourself and you can ask HMRC for the VAT you paid on the materials. The clock starts the day the building is finished, not the day you start asking."),
+    dict(type="step", step="One claim, one deadline", fig="6 months",
+         say="You get one claim, and it has to reach HMRC no more than 6 months after the building is completed. If it was completed before 5 December 2023, the older limit of 3 months applies instead.",
+         note="Claim through the HMRC online service, or post form VAT431NB. It goes in with your building regulation completion certificate, evidence of your planning permission and the plans of the building — copies, because HMRC does not send original documents back and will not take a claim handed in at a counter."),
+    dict(type="step", step="Who cannot claim", fig="Excluded",
+         say="Anyone who means to sell the property, let it out or use it for a business cannot claim — and building a home because you need to live where you work counts as business use.",
+         note="A planning permission saying the property cannot be sold or used separately from another building also rules the claim out, which catches annexes and granny flats. Converting a building you already own runs on separate rules and a separate form, VAT431C. A builder's labour on a qualifying new home should already be free of VAT, so there is no VAT there to recover; where a contractor has charged 20%, that is a matter for the contractor. Carpets and underlay, washing machines, dryers, fridges, freezers, fitted furniture other than the kitchen, garden sheds, greenhouses, tool hire and the land itself are all off the list."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Finished a self-build?",
+    say="Bring the invoices to our Saltley office and we will go through what is claimable while the six months are still running. The first consultation is free and lasts 30 minutes.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("The claim must be made no more than 6 months after completion for buildings completed on or after 5 December 2023; 3 months applies to earlier completions; form VAT431NB or the HMRC online service; documents required",
+     "https://www.gov.uk/guidance/claim-a-vat-refund-for-a-new-home-or-charity-building-if-youre-a-diy-housebuilder",
+     "read 2026-11-15"),
+    ("Only one claim can be made under the scheme, with further invoices sent in support of that claim",
+     "https://www.gov.uk/guidance/vat-refunds-for-new-builds-if-youre-a-diy-housebuilder",
+     "read 2026-11-15"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide",
+    category="VAT refund scheme for private self-builders",
+    excluded="Anyone whose planning permission prohibits separate sale or use; anyone intending to sell, let or use the property for a business purpose, including a home built because the claimant needs to live where they work; buildings that are not dwellings, such as a loft converted into a flat; conversions of existing buildings, which use form VAT431C and separate rules; property developers; contractor services, which should already be zero-rated; non-reclaimable items including fitted furniture other than fitted kitchen furniture, most electrical and gas appliances, carpets and underlay, garden ornaments, sheds and greenhouses, plant, tools, equipment and tool hire, consumables not built into the building, and building land; and late claims.",
+    from_when="Long-standing scheme; the 6-month time limit applies to buildings completed on or after 5 December 2023, with 3 months for earlier completions.",
+    automatic=False,
+    how_to_claim="A single claim within 6 months of completion (3 months if completed before 5 December 2023), through the HMRC online service or by posting form VAT431NB to BT&C VAT, HM Revenue and Customs, BX9 1WR, with the building regulation completion certificate, evidence of planning permission and plans of the building."),
+  caption="""Built your own home? You can ask HMRC for the VAT back on the materials — but only once, and only inside the time limit.
+
+The VAT DIY Housebuilders Scheme exists to put a self-builder in the same position as someone who buys a new house from a developer. If the building was completed on or after 5 December 2023, you have 6 months from completion to claim. If it was completed before that date, the old 3-month limit applies. You get one claim only, so the work is prepared before completion, not started after it; further invoices can be sent in support of a claim already made.
+
+Claim through the HMRC online service, or post form VAT431NB. It has to go in with your building regulation completion certificate, evidence of your planning permission and the plans of the building. Send copies: HMRC does not return original documents and does not accept claims handed in or dropped off.
+
+Who cannot claim. Anyone who intends to sell the property, let it out, or use it for a business purpose — and a home built because you need to live where you work counts as a business purpose. If your planning permission says the property cannot be sold or used separately from another building, the claim is out, which catches annexes and granny flats more often than people expect. Converting a building you already own is a different scheme with a different form, VAT431C.
+
+A contractor building a qualifying new home should already be zero-rating its labour, so there is no VAT there to recover; if one has charged 20%, that goes back to the contractor rather than to HMRC. Carpets and underlay, washing machines, dryers, fridges and freezers, fitted furniture other than the kitchen, garden sheds, greenhouses, tool hire and the building land itself are all outside the claim.
+
+Our office is at 22-42 Washwood Heath Rd, Saltley, B8 1RB. Bring the invoices and we will go through what is claimable. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #SelfBuild #VATRefund #DIYHousebuilders #HMRC #BirminghamBuilders #SmallBusinessUK""",
+),
+
+dict(
+  slug="bham-small-company-accounts", brand="bham",
+  title="Small and micro company accounts: what changes at Companies House in April 2028",
+  tags_en="#CompaniesHouse #LimitedCompany #Birmingham #WestMidlands #SmallBusiness",
+  EN=[
+    dict(type="hook", kicker="Companies House · accounts filing",
+         h1="From <em>April 2028</em> company accounts can only be filed with software.",
+         say="If you run a small limited company, the Companies House website route and the paper route close for accounts, and everything goes in through commercial software in a format called iXBRL."),
+    dict(type="step", step="What else arrives with it", fig="2028",
+         say="From April 2028 the parts of the accounts and reports have to be filed together, there is a limit on how far a company can shorten its accounting period, and a company claiming audit exemption files a directors' statement naming the exemption and confirming the company qualifies.",
+         note="That statement is needed by the directors of any company claiming an exemption, the dormant company exemption included. The start date moved from April 2027 to April 2028, which is 21 months more to get ready."),
+    dict(type="step", step="What is not changing", fig="Paused",
+         say="A small company or a micro-entity does not have to file a profit and loss account. That requirement has been paused and has no start date.",
+         note="Abridged accounts are staying. So is leaving the profit and loss out of the public filing, which continues after 1 April 2028. And only accounts move to software: the confirmation statement and the other non-accounts forms still go in through the website. The earlier announcement was withdrawn and replaced on 23 October 2026."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Do you file your own company accounts?",
+    say="Come and talk through what April 2028 means for your company at our Saltley office, while there is still time to prepare. The first consultation is free and lasts 30 minutes.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("All UK registered companies must file accounts in iXBRL format using commercial software from April 2028, and smaller companies keep the option to remove profit and loss information after 1 April 2028",
+     "https://www.gov.uk/government/news/companies-house-update-to-accounts-filing-from-april-2028",
+     "read 2026-11-15"),
+    ("Moving software-only accounts filing from April 2027 to April 2028 gives 21 months more preparation time; the earlier announcement was withdrawn and replaced on 23 October 2026, confirming the profit and loss requirement is paused",
+     "https://www.gov.uk/government/news/companies-house-to-bring-in-changes-to-accounts-filing-from-april-2028",
+     "read 2026-11-15"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide",
+    category="Companies House filing and compliance change",
+    excluded="Small companies and micro-entities are not, as matters stand, required to file a profit and loss account: that requirement is paused with no start date. Abridged accounts are not being withdrawn. Smaller companies are not losing the ability to leave the profit and loss out of the public filing. Non-accounts filings are out of scope, so web filing stays open for the confirmation statement and other non-accounts forms. Entities that are not UK registered companies are outside this.",
+    from_when="April 2028 for software-only iXBRL accounts filing, the stronger audit exemption eligibility statement, filing the component parts of accounts and reports together, and the limit on shortening the accounting reference period. The profit and loss filing requirement for small companies and micro-entities is paused with no date; the filleting option continues after 1 April 2028.",
+    automatic=False,
+    how_to_claim="Nothing to claim; it is a compliance change. Before April 2028 a company or its accountant needs commercial accounts filing software capable of iXBRL, because the Companies House web and paper routes close for accounts. A company claiming audit exemption will file a directors' eligibility statement identifying the exemption and confirming the company qualifies."),
+  caption="""If you have a small limited company, one date is worth putting in the diary: April 2028.
+
+From April 2028 every UK registered company has to file its accounts in a format called iXBRL, using commercial software. The Companies House web filing route and the paper route close for accounts. It makes no difference whether you file your own accounts or your accountant files them for you — the route changes either way.
+
+Three other things start at the same time. The component parts of the accounts and reports have to be filed together. There is a limit on how far a company can shorten its accounting reference period. And a company claiming audit exemption will file a directors' eligibility statement that names the exemption and confirms the company qualifies, which applies to any company claiming one, including the dormant company exemption.
+
+The date moved. Software-only accounts filing was going to start in April 2027 and is now April 2028, which gives 21 months more to prepare.
+
+Now the part most people have heard wrong. Small companies and micro-entities do NOT have to file a profit and loss account. That requirement has been paused and has no start date — the earlier announcement was withdrawn and replaced on 23 October 2026. Abridged accounts are not being abolished. Leaving the profit and loss out of the public filing continues after 1 April 2028. And only accounts filing moves to software: the confirmation statement and the other non-accounts forms still go in through the website.
+
+So the thing to act on is the software, not the profit and loss.
+
+If you file your own accounts and you are not sure what this means for your company, our office is at 22-42 Washwood Heath Rd, Saltley, B8 1RB. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #CompaniesHouse #LimitedCompany #SmallBusinessUK #iXBRL #CompanyAccounts #BirminghamBusiness""",
+),
+
+dict(
+  slug="bham-vat-energy-saving", brand="bham",
+  title="Zero rate VAT on installing energy-saving materials",
+  tags_en="#VAT #EnergySaving #HeatPump #Insulation #Birmingham #WestMidlands",
+  EN=[
+    dict(type="hook", kicker="Energy-saving materials · VAT Notice 708/6",
+         h1="Insulation and heat pumps are fitted at <em>0%</em> VAT until 31 March 2027.",
+         say="Have insulation, solar panels or a heat pump put into your home and the installer charges no VAT on that job. You do not apply to HMRC for anything — it is on the installer's invoice."),
+    dict(type="step", step="What is on the list", fig="0%",
+         say="Insulation, draught stripping, solar panels, wind turbines, water turbines, ground source heat pumps, permanently fixed air source heat pumps, wood-fuelled boilers, micro combined heat and power units, and controls for central heating and hot water systems.",
+         note="Water source heat pumps, batteries that store electricity, smart diverters, and the groundworks or dredging needed to put in a ground or water source heat pump were added on 1 February 2024, along with buildings used solely for a charitable purpose. The zero rate runs from 1 May 2023 to 31 March 2027, and from 1 April 2027 these installations go to the reduced rate of 5%."),
+    dict(type="step", step="Who does not get it", fig="Excluded",
+         say="Buying the materials on their own, without the installer fitting them, is charged at the standard rate of VAT. That is the trap people fall into most often.",
+         note="Hospitals, prisons, hotels and inns are standard-rated, while homes and flats, care homes, hospices, children's homes, student accommodation, houseboats and caravans lived in permanently are covered. Also standard-rated: boilers that are not grant-funded, double glazing, fridge freezers, multi-fuel and dual-fuel boilers, stand-alone wood-burning stoves and log stores, portable air source heat pumps that are not fixed in place, carpets and curtains — and unrelated work in the same job, such as building an extension, which the installer has to separate out and charge at the standard rate."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Having work done on your home or your rental?",
+    say="If you are not sure whether the quote in front of you should carry VAT, bring it to our Saltley office and we will read it through with you. The first consultation is free and lasts 30 minutes.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("Zero rate on the installation of specified energy-saving materials from 1 May 2023 to 31 March 2027, reverting to the 5% reduced rate from 1 April 2027; the qualifying list; additions from 1 February 2024; supply without installation, and hospitals, prisons, hotels and inns, standard-rated",
+     "https://www.gov.uk/guidance/vat-on-energy-saving-materials-and-heating-equipment-notice-7086",
+     "read 2026-11-15"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide, including Northern Ireland from 1 May 2023; Northern Ireland applied the 5% reduced rate to residential installations from 1 October 2019 to 30 April 2023",
+    category="VAT relief applied by the installer",
+    excluded="Supplying the materials without installing them is standard-rated, which is the single most common trap. Hospitals, prisons, hotels and inns are standard-rated. Standard-rated items include other energy-efficient products such as boilers unless grant-funded, double glazing and fridge freezers; multi-fuel and dual-fuel boilers, stand-alone wood-burning stoves and log stores; portable air source heat pumps that are not permanently fixed; and curtains and carpets. Unrelated work carried out in the same job, such as building an extension, is standard-rated.",
+    from_when="1 May 2023 for the zero rate. Water source heat pumps, electricity-storage batteries, smart diverters, the associated groundworks and dredging, and the extension to relevant charitable purpose buildings apply from 1 February 2024. The zero rate ends 31 March 2027 and the rate reverts to 5% from 1 April 2027.",
+    automatic=True,
+    how_to_claim="Nothing to claim. The installer applies the zero rate to its own invoice for the qualifying installation, so the customer pays no VAT on it and makes no application to HMRC. Where a job mixes qualifying installation with unrelated work, the installer apportions and charges the standard rate on the unrelated part."),
+  caption="""Putting insulation, solar panels or a heat pump into a home? There should be no VAT on the installation at all.
+
+Since 1 May 2023 the installation of certain energy-saving materials in residential accommodation has been zero-rated for VAT. It is not something you claim: the installer applies it to their own invoice, so you simply pay no VAT on that work.
+
+The qualifying list in VAT Notice 708/6 covers insulation, draught stripping, solar panels, wind turbines, water turbines, ground source heat pumps, permanently fixed air source heat pumps, wood-fuelled boilers, micro combined heat and power units, and controls for central heating and hot water systems. Water source heat pumps, batteries that store electricity, smart diverters and the groundworks or dredging needed to install a ground or water source heat pump were added on 1 February 2024, as were buildings used solely for a charitable purpose.
+
+Two dates matter. The zero rate runs to 31 March 2027. From 1 April 2027 these installations move to the reduced rate of 5%.
+
+Where it does not apply. Buying the materials on their own, without the installer fitting them, is standard-rated — that is the mistake people make most often. Hospitals, prisons, hotels and inns are standard-rated, while homes and flats, care homes, hospices, children's homes, student accommodation, houseboats and caravans used as a permanent home are covered. Boilers that are not grant-funded, double glazing, fridge freezers, multi-fuel and dual-fuel boilers, stand-alone wood-burning stoves and log stores, portable air source heat pumps that are not fixed in place, carpets and curtains are all standard-rated. And unrelated work in the same job, such as an extension, has to be separated out and charged at the standard rate.
+
+If a quote for your home or your rental has VAT on it and you think it should not, our office is at 22-42 Washwood Heath Rd, Saltley, B8 1RB. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #VAT #HeatPump #Insulation #SolarPanels #BirminghamTrades #Landlords""",
+),
+
+dict(
+  slug="bham-landlord-mortgage-relief", brand="bham",
+  title="Landlords: mortgage interest now cuts your tax bill by 20%, not your rental profit",
+  tags_en="#Landlords #BuyToLet #SelfAssessment #Birmingham #WestMidlands",
+  EN=[
+    dict(type="hook", kicker="Residential landlords · mortgage interest",
+         h1="Mortgage interest comes off your tax bill at <em>20%</em>, not off your rent.",
+         say="If you let out a house or a flat in your own name, the interest you pay the lender is no longer an expense you take off the rent. It gives you a reduction in the tax you owe instead."),
+    dict(type="step", step="How the reduction is worked out", fig="20%",
+         say="The reduction is 20% of the lowest of three figures: your finance costs including anything carried forward from an earlier year, your property profits after losses brought forward, and your income above the personal allowance.",
+         note="The interest goes in the residential finance costs box on the property pages of your tax return, not in with the expenses, and HMRC's calculation applies the 20% itself. Anything the three-figure test leaves unrelieved is carried forward to a later year. It has worked this way in full since 6 April 2020, after being phased in from 6 April 2017, and it is unchanged for 2026-27. It covers interest on mortgages, loans taken out to buy furnishings, and the fees for taking out or repaying those loans."),
+    dict(type="step", step="Who is not affected", fig="Excluded",
+         say="A company that lets out property is outside this restriction and still takes its finance costs off its profit in full.",
+         note="Also outside it: loans wholly for commercial or non-residential property, and residential mobile home parks, which are generally treated as a trade. Repaying the capital on a mortgage gets no relief under either rule, old or new. Furnished holiday lets used to sit outside the restriction, but that ended for Income Tax on 6 April 2025. And an overseas property business of someone claiming relief under the Foreign Income and Gains regime from 6 April 2025 cannot claim residential finance cost relief for that year."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Letting out a property?",
+    say="Bring your mortgage statements and last year's figures to our Saltley office and we will work the interest through your return with you. The first consultation is free and lasts 30 minutes.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("Residential finance costs are relieved as a basic rate reduction of 20% rather than deducted from rental profit; none remains deductible from 2020-21; the restriction started 6 April 2017, phased 75/25, 50/50 and 25/75, and has been fully in force since 6 April 2020; the reducer is 20% of the lowest of finance costs, property profits and adjusted total income above the personal allowance",
+     "https://www.gov.uk/guidance/changes-to-tax-relief-for-residential-landlords-how-its-worked-out-including-case-studies",
+     "read 2026-11-15"),
+    ("The furnished holiday lettings rules ceased to apply for Income Tax from 6 April 2025, so furnished holiday lets are no longer outside the restriction",
+     "https://www.gov.uk/hmrc-internal-manuals/property-income-manual/pim2054",
+     "read 2026-11-15"),
+  ],
+  SCOPE=dict(
+    nation="United Kingdom",
+    category="Income Tax restriction on residential finance costs",
+    excluded="Companies carrying on a property business are not affected and continue to deduct finance costs in full. Also outside the restriction: loans wholly for commercial or non-residential property; residential mobile home parks, which are generally treated as a trade; and capital repayments of a mortgage, which get no relief under either rule. An overseas property business of a person claiming relief under the Foreign Income and Gains regime from 6 April 2025 cannot claim residential finance cost relief for that year. Furnished holiday lettings used to be excluded, but that exclusion ended for Income Tax from 6 April 2025.",
+    from_when="Finance costs incurred on or after 6 April 2017, phased in over four years and fully in force since 6 April 2020. Unchanged for 2026-27.",
+    automatic=False,
+    how_to_claim="Enter the residential finance costs in the residential finance costs box on the Self Assessment property pages (SA105) rather than as an expense. HMRC's calculation applies the 20% reduction; any amount unrelieved because profits or income above the personal allowance were the lowest figure is carried forward."),
+  caption="""Letting out a house or a flat in your own name? Your mortgage interest is not an expense any more.
+
+Since 6 April 2020 the interest a residential landlord pays the lender has been fully restricted. None of it comes off your rental income. Instead you get a reduction against your income tax bill, set at the basic rate of 20%. The restriction started on 6 April 2017 and was phased in — 75% deductible in 2017-18, half and half in 2018-19, a quarter in 2019-20 — and it has been fully in force since 6 April 2020. Nothing changes for 2026-27.
+
+How the reduction is worked out. It is 20% of the LOWEST of three figures: your finance costs, including anything carried forward from an earlier year; your property business profits after losses brought forward; and your income above the personal allowance. If the lowest figure leaves some of your interest unrelieved, that part carries forward to a later year.
+
+Where it goes on the return. The interest is entered in the residential finance costs box on the property pages, not in with your expenses, and HMRC's calculation applies the 20% itself. The rule covers interest on mortgages, on loans taken out to buy furnishings, and the fees for taking out or repaying those loans.
+
+Who is not affected. A company that lets out property is outside the restriction and still takes its finance costs off its profit in full. Loans wholly for commercial or non-residential property are outside it, and so are residential mobile home parks, which are generally treated as a trade. Repaying the capital on a mortgage gets no relief under either rule, old or new. Furnished holiday lets used to be outside the restriction — that ended for Income Tax on 6 April 2025.
+
+Bring your mortgage statements and last year's figures to 22-42 Washwood Heath Rd, Saltley, B8 1RB and we will work the interest through the return with you. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #Landlords #BuyToLet #SelfAssessment #PropertyTax #BirminghamLandlords #RentalIncome""",
+),
+
+dict(
+  slug="bham-psc-register", brand="bham",
+  title="The PSC register: who counts as a person with significant control, and what the company must file",
+  tags_en="#CompaniesHouse #PSCRegister #LimitedCompany #Birmingham #WestMidlands",
+  EN=[
+    dict(type="hook", kicker="People with significant control · Companies House",
+         h1="Hold <em>more than 25%</em> of a company and you belong on its PSC register.",
+         say="Every UK limited company has to work out who really controls it — its people with significant control — and tell Companies House who they are. More than a quarter of the shares, or more than a quarter of the votes, puts someone on the list."),
+    dict(type="step", step="What the company has to do", fig="14 days",
+         say="Once the company has confirmed someone's details it has 14 days to report them to Companies House, and if nothing has changed it still has to confirm the register is accurate at least once every 12 months.",
+         note="The details are the name, date of birth, nationality, country of residence, addresses and the date the person became a person with significant control. Shares and votes are reported in bands — over 25% up to 50%, over 50% up to 75%, or 75% or more — not as an exact percentage. The register is never left blank: if the details cannot be given, the company files a notice explaining why. Since 18 November 2025 there is no separate register kept at the company; Companies House holds it. Offences here can bring a fine, a prison sentence of up to 2 years, or both."),
+    dict(type="step", step="Who does not have to", fig="Excluded",
+         say="A company whose voting shares are traded on a UK or EEA regulated market, or on the listed markets in Switzerland, the United States, Japan and Israel, is outside these rules and reports under the Financial Conduct Authority's rules instead.",
+         note="Also outside them: an overseas company operating here through a UK establishment, which may be caught by its home country's rules; mutuals registered by the Financial Conduct Authority, such as building societies and co-operative societies; investment vehicles registered by the same body, such as open-ended investment companies; and Charitable Incorporated Organisations registered with the Charity Commission. One more point people get wrong: the tests are more than 25%, so holding exactly 25% does not by itself make someone a person with significant control."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Not sure who belongs on your company's PSC register?",
+    say="Bring your shareholding and your company number to our Saltley office and we will go through the conditions with you. The first consultation is free and lasts 30 minutes.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("More than 25% of the shares and more than 25% of the voting rights as conditions 1 and 2; the three reporting bands; 14 days to report confirmed information; confirmation at least every 12 months; up to 2 years in prison, a fine, or both; the excluded bodies; and the details the company must confirm",
+     "https://www.gov.uk/government/publications/people-with-significant-control-summary-guidance/summary-guidance-for-companies-register-of-people-with-significant-control-pscs",
+     "read 2026-11-15"),
+    ("Separate local PSC registers were abolished on 18 November 2025, with Companies House now holding the PSC register",
+     "https://assets.publishing.service.gov.uk/media/691c9c97e39a085bda43ef2b/register-of-people-with-significant-control-guidance-for-registered-unregistered-companies.pdf",
+     "read 2026-11-15"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide",
+    category="Companies House duty on company ownership and control",
+    excluded="The requirements do not apply to companies with voting shares admitted to trading on a UK or EEA regulated market, or on the specified markets in Switzerland, the USA, Japan and Israel listed in Schedule 1 to the Register of People with Significant Control Regulations 2016, which are covered instead by FCA DTR 5; overseas companies operating in the UK through a UK establishment, which may be caught by home-country beneficial ownership rules; mutuals registered by the FCA, such as building societies and co-operative societies; investment vehicles registered by the FCA, such as open-ended investment companies; and Charitable Incorporated Organisations registered with the Charity Commission. Condition 4, significant influence or control, does not apply where conditions 1 to 3 are already met.",
+    from_when="The PSC regime has applied since 2016 under the Register of People with Significant Control Regulations 2016. From 18 November 2025 the separate local register kept at the company was abolished and Companies House holds the register.",
+    automatic=False,
+    how_to_claim="Nothing to claim; it is a duty. The company takes reasonable steps to identify its PSCs, serves notices on people it believes are PSCs or who know who they are, confirms the details (name, date of birth, nationality, country of residence, addresses and the date they became a PSC), and files with Companies House within 14 days of confirming the information or a change. The register is never left blank: where details cannot be given, the company files a notice explaining why. A PSC at serious risk of violence or intimidation can apply for their details to be protected."),
+  caption="""If you have a limited company, Companies House wants to know who really controls it. That is the PSC register — people with significant control.
+
+Five conditions make someone a PSC. Holding more than 25% of the shares. Holding more than 25% of the voting rights. Having the right to appoint or remove a majority of the board. Otherwise having, or actually exercising, significant influence or control. And the trust or firm condition, which catches a trustee or firm member who meets any of the first four.
+
+Note the wording: more than 25%, not 25% or more. An exact quarter does not by itself make someone a PSC.
+
+What the company has to do. Take reasonable steps to identify its PSCs, confirm their details — name, date of birth, nationality, country of residence, addresses and the date they became a PSC — and file with Companies House within 14 days of confirming the information or a change. If nothing changes, the register still has to be confirmed as accurate at least every 12 months. It is never left blank: where the details cannot be given, the company files a notice explaining why. Shares and votes are reported in bands: over 25% up to 50%, over 50% up to 75%, or 75% or more. Since 18 November 2025 there is no separate register kept at the company — Companies House holds it. Offences can bring a fine, a prison sentence of up to 2 years, or both.
+
+Who does not have to. Companies whose voting shares trade on a UK or EEA regulated market, or on the specified markets in Switzerland, the USA, Japan and Israel, report under FCA rules instead. Also outside it: overseas companies operating here through a UK establishment, FCA-registered mutuals such as building societies and co-operative societies, FCA-registered investment vehicles such as open-ended investment companies, and Charitable Incorporated Organisations.
+
+Our office is at 22-42 Washwood Heath Rd, Saltley, B8 1RB. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #CompaniesHouse #PSCRegister #LimitedCompany #SmallBusinessUK #BirminghamBusiness #CompanyDirectors""",
+),
+
+]
+
+EN_CAR = [
+
+    dict(
+        slug="en-vat-annual-accounting", brand="en",
+        title="VAT Annual Accounting Scheme: one VAT Return a year instead of four",
+        tags_en="#VAT #VATReturn #SmallBusinessUK #SoleTrader #LimitedCompany #UKBusiness",
+        EN=[
+            dict(type="hook",
+                 kicker="VAT Annual Accounting Scheme · gov.uk",
+                 h1="Sales under <em>£1,350,000</em>? You can file one VAT Return a year, not four.",
+                 say="You pay HMRC in instalments through the year and settle up once, with a single return."),
+            dict(type="step", step="How you pay", fig="9 × 10%",
+                 say="By default, nine monthly payments of 10% of last year's VAT bill — or three payments of 25% in months 4, 7 and 10 if you ask HMRC for that instead.",
+                 note="The one return, and the balancing payment or refund claim, are due two months after your accounting year ends."),
+            dict(type="step", step="Who cannot use it", fig="<cur>£</cur>1.6m",
+                 say="You are taken off the scheme once your VAT-able sales pass £1,600,000 a year, usually at the end of the accounting year in which that happens.",
+                 note="You also cannot join if you are VAT-registered as part of a company group or a division, if you left the scheme in the last 12 months, if the business is insolvent, or if you have a growing VAT debt."),
+        ],
+        CTA_EN=dict(type="cta",
+                    kicker="Ola Accountancy · VAT",
+                    h1="Would one return a year suit your business?",
+                    say="It is not automatic — you apply on form VAT600AA. Message us on WhatsApp and we will go through your figures with you. The first consultation is free and lasts 30 minutes.",
+                    phone=PHONE,
+                    disc="General information. For your own situation, speak to an accountant."),
+        SOURCES=[
+            ("The scheme itself: one return a year, instalments through the year",
+             "https://www.gov.uk/vat-annual-accounting-scheme", "read 2026-11-14"),
+            ("£1,350,000 limit to join, £1,600,000 withdrawal point, 9 x 10% and 3 x 25% instalments, 2 months for the return and balancing payment, exclusions, form VAT600AA",
+             "https://www.gov.uk/guidance/vat-annual-accounting-notice-732", "read 2026-11-14"),
+        ],
+        SCOPE=dict(
+            nation="UK",
+            category="VAT",
+            excluded="Cannot be used by businesses registered for VAT as part of a company group or as a division, businesses that stopped using annual accounting in the previous 12 months, insolvent businesses, or businesses with a growing VAT debt (a small debt with agreed repayment proposals may still allow entry). You must leave once taxable supplies exceed £1,600,000 a year.",
+            from_when="Current rule as read on 14 November 2026. Where a part-year accounting period is under 4 months, the return and balancing payment are due 1 month rather than 2 months after the period end.",
+            automatic=False,
+            how_to_claim="Apply on form VAT600AA. If not yet VAT-registered you can register and apply at the same time. To use annual accounting alongside the Flat Rate Scheme, complete both VAT600AA and VAT600FRS."),
+        caption="""You are VAT registered, and every three months everything stops while you do a VAT Return. There is another way to run it.
+
+If you expect your taxable sales to be £1,350,000 a year or less, you can apply for the Annual Accounting Scheme and send HMRC one VAT Return instead of four. That £1,350,000 figure leaves out VAT itself, exempt sales, and anything you make selling off capital assets like equipment or a van.
+
+How the money works. By default you make nine monthly payments, each one 10% of last year's VAT bill. If you would rather pay less often, you can ask HMRC for three payments of 25% instead, due in months 4, 7 and 10. Then, two months after your accounting year ends, you send the single return and either pay the balancing payment that makes up the rest or claim the difference back.
+
+Who cannot use it. You must leave the scheme once your taxable supplies pass £1,600,000 a year, usually at the end of the accounting year in which that happens. And you cannot join in the first place if you are registered for VAT as part of a company group or as a division, if you stopped using annual accounting in the last 12 months, if the business is insolvent, or if you have a growing VAT debt — though a small debt with agreed repayment proposals may still let you in.
+
+One thing people get caught by: annual accounting does not come with the extra seven days that quarterly filers get for filing and paying online. And where a part-year accounting period runs under 4 months, the return and balancing payment are due 1 month after the period end, not 2.
+
+It is not automatic either. You apply on form VAT600AA, and if you are not VAT registered yet you can register and apply at the same time.
+
+Not sure whether one return a year would suit the way your business takes money in? Message us on WhatsApp and we will look at your figures with you. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #VAT #VATReturn #SmallBusinessUK #SoleTrader #LimitedCompany #UKBusiness""",
+    ),
+
+    dict(
+        slug="en-paye-quarterly", brand="en",
+        title="Quarterly PAYE: the £1,500 a month rule and the 22 January 2027 deadline",
+        tags_en="#PAYE #Payroll #SmallEmployer #UKBusiness #NationalInsurance #HMRC",
+        EN=[
+            dict(type="hook",
+                 kicker="Paying HMRC as an employer · gov.uk",
+                 h1="Paying HMRC under <em>£1,500</em> a month for your staff? You can pay four times a year.",
+                 say="The test is what you expect to average across the whole tax year, not one quiet quarter."),
+            dict(type="step", step="The next date", fig="22 Jan",
+                 say="For the quarter running 6 October 2026 to 5 January 2027, cleared funds have to be with HMRC by 22 January 2027.",
+                 note="It is 19 January 2027 if you are still sending a cheque by post. Faster Payments arrives the same or next day, but Bacs takes three working days, so the 22nd is the date HMRC must have the money, not the date you send it."),
+            dict(type="step", step="Who cannot pay quarterly", fig="<cur>£</cur>1,500",
+                 say="If your average monthly PAYE and National Insurance comes to £1,500 or more — £18,000 or more across the year — you have to carry on paying monthly.",
+                 note="And paying quarterly changes nothing about reporting: your Full Payment Submission is still due on or before every payday, whatever the payment frequency."),
+        ],
+        CTA_EN=dict(type="cta",
+                    kicker="Ola Accountancy · Payroll",
+                    h1="Not sure which deadline is yours?",
+                    say="You confirm quarterly payment with the HMRC payment helpline first — it does not apply automatically. Message us on WhatsApp and we will check your payroll figures with you. The first consultation is free and lasts 30 minutes.",
+                    phone=PHONE,
+                    disc="General information. For your own situation, speak to an accountant."),
+        SOURCES=[
+            ("How and when employers pay HMRC",
+             "https://www.gov.uk/running-payroll/paying-hmrc", "read 2026-11-17"),
+            ("£1,500 average monthly limit for quarterly payment, 22 January 2027 electronic deadline for the 6 October 2026 to 5 January 2027 quarter, 19 January 2027 by post, 22 December 2026 for the monthly period 6 November to 5 December 2026",
+             "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm520055", "read 2026-11-17"),
+        ],
+        SCOPE=dict(
+            nation="UK-wide (PAYE is not devolved; Scottish and Welsh rate taxpayers are paid over through the same PAYE scheme)",
+            category="Payroll / PAYE",
+            excluded="Employers averaging £1,500 a month or more (£18,000 or more a year) must pay monthly. The concession is not available simply because one quarter happens to be small — the test is the expected average across the whole tax year. Quarterly payment does not change RTI reporting: the Full Payment Submission remains due on or before each payday.",
+            from_when="Current rules; quarter 3 of 2026-27 is payable by 22 January 2027",
+            automatic=False,
+            how_to_claim="Contact the HMRC payment helpline to confirm eligibility to pay quarterly, then pay by Faster Payments, Bacs, debit card or direct debit so that cleared funds reach HMRC by the 22nd."),
+        caption="""You employ one or two people. Every month you work out the PAYE and National Insurance, pay HMRC, and do it again four weeks later. If the amounts are small, you may not have to.
+
+An employer who expects to average under £1,500 a month in PAYE, National Insurance, student loan deductions and CIS can pay HMRC quarterly instead of monthly. Under £1,500 a month is under £18,000 across the tax year. The quarters end on 5 July, 5 October, 5 January and 5 April.
+
+The next one. For the quarter from 6 October 2026 to 5 January 2027, cleared funds must reach HMRC by 22 January 2027. By post it is 19 January 2027. Read those as the dates HMRC must have the money, not the dates you send it — Faster Payments lands the same or next day, Bacs takes three working days.
+
+If you pay monthly rather than quarterly, the month from 6 November to 5 December 2026 is due by 22 December 2026, or 19 December 2026 by post. That 19th is a Saturday, so a cheque for that month needs to be clear of the weekend.
+
+Who cannot do it. If your average monthly bill is £1,500 or more, you must keep paying monthly. And it is not available just because one quarter was quiet — the test is what you expect to average over the full tax year.
+
+The trap worth repeating. Quarterly payment is about paying, not about reporting. Your Full Payment Submission is still due on or before every single payday. Employers who stop filing monthly because they now pay quarterly end up with late filing penalties, and that is an avoidable letter.
+
+Eligibility is confirmed with the HMRC payment helpline — it does not switch on by itself.
+
+Want someone to look at your payroll figures and tell you which deadline is yours? Message us on WhatsApp. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #PAYE #Payroll #SmallEmployer #UKBusiness #NationalInsurance #HMRC""",
+    ),
+
+    dict(
+        slug="en-capital-allowances-2027", brand="en",
+        title="Capital allowances: first-year allowance up to 50%, writing-down allowance down to 12%",
+        tags_en="#CapitalAllowances #Budget2026 #SmallBusinessUK #SoleTrader #LimitedCompany #UKTax",
+        EN=[
+            dict(type="hook",
+                 kicker="Capital allowances · gov.uk",
+                 h1="Buy equipment after 1 January 2027 and you can claim <em>50%</em> of the cost in year one.",
+                 say="Announced at Budget 2026, up from 40%, and it goes by the date you spend the money."),
+            dict(type="step", step="The other half of the change", fig="14% → 12%",
+                 say="The yearly allowance on equipment already sitting in your main pool falls from 14% to 12%, so relief on older spending comes through more slowly.",
+                 note="That starts with accounting periods beginning on or after 1 April 2027 for companies and 6 April 2027 for the self-employed. A period that spans the change gets a blended rate worked out across the two parts."),
+            dict(type="step", step="Who sees no change", fig="100%",
+                 say="If the Annual Investment Allowance or full expensing already covers everything you buy, you never reach these percentages, so neither figure makes any difference to you.",
+                 note="Long-life assets, integral features and most cars sit in the special rate pool, which stays at 6% and is untouched by both changes. A van and a car are not treated alike."),
+        ],
+        CTA_EN=dict(type="cta",
+                    kicker="Ola Accountancy · Capital allowances",
+                    h1="Planning to buy a van or machinery?",
+                    say="Nobody claims this for you — it goes on your tax return, and the first-year allowance has to be claimed in the period you spend the money. These figures are a Budget 2026 announcement due to be legislated in Finance Bill 2026-27. Message us on WhatsApp and we will look at the timing with you. The first consultation is free and lasts 30 minutes.",
+                    phone=PHONE,
+                    disc="General information. For your own situation, speak to an accountant."),
+        SOURCES=[
+            ("The measure: main rate writing-down allowance reduced and main rate first-year allowance increased",
+             "https://www.gov.uk/government/publications/reduce-the-main-rate-writing-down-allowance-and-increase-the-main-rate-first-year-allowance", "read 2026-11-16"),
+            ("Writing-down allowance 14% to 12%, first-year allowance 40% to 50%, special rate pool unchanged at 6%, 1 January 2027 start for the first-year allowance, around 600,000 businesses affected, commencement and hybrid rates",
+             "https://www.gov.uk/government/publications/reduce-the-main-rate-writing-down-allowance-and-increase-the-main-rate-first-year-allowance/capital-allowances-reduce-the-main-rate-writing-down-allowance-and-increase-the-main-rate-first-year-allowance", "read 2026-11-16"),
+        ],
+        SCOPE=dict(
+            nation="UK-wide. Capital allowances are a reserved tax matter, so the same rules apply in England, Scotland, Wales and Northern Ireland.",
+            category="Capital allowances",
+            excluded="Businesses whose plant and machinery spending is already fully covered by the Annual Investment Allowance or by full expensing see neither benefit nor loss, because they never reach the main rate percentages. Special rate pool expenditure (long-life assets, integral features, most cars) stays at 6% and is untouched. The 50% first-year allowance does not apply to expenditure incurred before 1 January 2027. Anyone not carrying on a business, and anyone whose assets do not qualify as plant and machinery, is outside this entirely.",
+            from_when="The 50% first-year allowance applies to expenditure incurred from 1 January 2027. The 12% writing-down allowance applies for chargeable periods beginning on or after 1 April 2027 for Corporation Tax and 6 April 2027 for Income Tax, with a hybrid apportioned rate for a period straddling those dates. Announced at Budget 2026 on 28 October 2026; to be legislated in Finance Bill 2026-27.",
+            automatic=False,
+            how_to_claim="Claimed on the tax return — the Company Tax Return (CT600) for a company, or the self-employment or property pages of the Self Assessment return for an unincorporated business. The first-year allowance has to be claimed in the period the expenditure is incurred."),
+        caption="""Two capital allowances figures changed at Budget 2026, and they pull in opposite directions. If you buy equipment, here is what each one does to you.
+
+The good one. From 1 January 2027, the main rate first-year allowance goes up from 40% to 50%. Buy qualifying plant or machinery on or after that date and you can write off half the cost against your profit in year one. This one goes by the date you spend the money.
+
+The less good one. The main rate writing-down allowance — the percentage you claim each year on equipment already carried in your main pool — drops from 14% to 12%. So relief on spending already in the pool arrives more slowly. This one goes by your accounting period, not by the date of purchase: periods beginning on or after 1 April 2027 for companies, 6 April 2027 for the self-employed. A period that spans the change gets a blended rate, apportioned across the part before and the part after.
+
+That mismatch is the real planning point: one change starts on a date, the other with an accounting period.
+
+Who sees no change at all. Most small businesses, honestly. If the Annual Investment Allowance or full expensing already covers everything you buy, you never touch these percentages and nothing moves for you. HMRC says plenty of businesses will not see the main rate writing-down allowance on future spending for exactly that reason.
+
+Also outside it: the special rate pool. Long-life assets, integral features and most cars stay at 6% and neither change touches them. Do not assume a van and a car work the same way.
+
+And nobody claims this for you. Capital allowances go on your tax return — CT600 for a company, or the self-employment or property pages of your Self Assessment. The first-year allowance has to be claimed in the period you incurred the cost.
+
+One honest caveat: these are Budget 2026 announcements, due to be legislated in Finance Bill 2026-27.
+
+Thinking about when to buy? Message us on WhatsApp and we will look at the timing. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #CapitalAllowances #Budget2026 #SmallBusinessUK #SoleTrader #LimitedCompany""",
+    ),
+
+    dict(
+        slug="en-iht-gifts-seven-year", brand="en",
+        title="Inheritance Tax on gifts: the 7-year rule, taper relief and the exempt gifts",
+        tags_en="#InheritanceTax #EstatePlanning #Gifts #UKTax #FamilyFinance #HMRC",
+        EN=[
+            dict(type="hook",
+                 kicker="Inheritance Tax on gifts · gov.uk",
+                 h1="Give money away and live <em>7 years</em>, and it is out of Inheritance Tax for good.",
+                 say="Die sooner and the gift can be counted back in — but only where the gifts add up to a large amount."),
+            dict(type="step", step="If the 7 years are not completed", fig="40% → 8%",
+                 say="Tax on the gift is 40% if death comes within 3 years, then 32%, 24%, 16% and 8% for each year after that, and nothing at 7 years or more.",
+                 note="This is called taper relief, and the thing people get wrong is what it reduces: it cuts the tax on the gift, not the value of the gift."),
+            dict(type="step", step="Where none of this bites", fig="<cur>£</cur>325,000",
+                 say="Gifts are only taxed, and taper relief only does anything at all, where gifts in the 7 years before death add up to more than £325,000.",
+                 note="Some gifts never start a 7-year clock: £3,000 of gifts each tax year, £250 each to any number of people you have used no other allowance on, and gifts to a husband, wife or civil partner living permanently in the UK, to charities and to political parties."),
+        ],
+        CTA_EN=dict(type="cta",
+                    kicker="Ola Accountancy · Inheritance Tax",
+                    h1="Helping family out with money?",
+                    say="There is nothing to claim while you are alive — the exemptions apply by themselves. What matters is keeping a record of what you gave, when, and which allowance it used. Message us on WhatsApp if you want that written down properly. The first consultation is free and lasts 30 minutes.",
+                    phone=PHONE,
+                    disc="General information. For your own situation, speak to an accountant."),
+        SOURCES=[
+            ("The 7-year rule, taper relief rates of 40%, 32%, 24%, 16% and 8%, the £325,000 threshold, the £3,000 annual exemption, £250 small gifts, wedding gifts of £5,000, £2,500 and £1,000, and the exempt gifts",
+             "https://www.gov.uk/inheritance-tax/gifts", "read 2026-11-15"),
+        ],
+        SCOPE=dict(
+            nation="United Kingdom",
+            category="Inheritance Tax",
+            excluded="Gifts that are already exempt never engage the 7-year rule: gifts to a spouse or civil partner living permanently in the UK (no limit), gifts to charities and political parties, and gifts within the annual, small gifts, wedding and normal-expenditure-out-of-income exemptions. Taper relief does not apply unless total gifts in the 7 years before death exceed £325,000. The small gifts exemption cannot be combined with another allowance to the same person, and wedding gifts cannot be combined with the small gifts exemption. Unused annual exemption carries forward one tax year only.",
+            from_when="Long-standing rules, unchanged for 2026-27; the £325,000 threshold is frozen to the end of 2029-30.",
+            automatic=True,
+            how_to_claim="Nothing to claim in the donor's lifetime — the exemptions apply automatically. Keep records of gifts and of the exemptions used. On death the personal representatives report gifts made in the 7 years before death on form IHT403 with the IHT400, and taper relief is applied in the calculation."),
+        caption="""You want to help your son with a deposit, or hand your daughter something while you are still here to see her use it. People hear "seven years" and worry. Here is what the rule says.
+
+A gift of money or property is outside Inheritance Tax once 7 years have passed. Where death comes inside those 7 years, the gift can be brought back into account.
+
+Then the years matter. Tax on the gift is 40% if death comes within 3 years of making it, 32% at 3 to 4 years, 24% at 4 to 5 years, 16% at 5 to 6 years and 8% at 6 to 7 years. At 7 years it is nothing. That sliding scale is taper relief, and the common mistake is what it reduces: the tax on the gift, not the value of the gift.
+
+Now the part that saves most families the worry. None of that bites unless gifts in the 7 years before death add up to more than £325,000. Below that figure the gifts are covered and taper relief is irrelevant. A gift of £100,000 made five years before death, with no other gifts, is simply covered.
+
+And some gifts never start a 7-year clock at all:
+— £3,000 of gifts each tax year. Unused, it carries forward one tax year only.
+— £250 each to as many people as you like, if you have used no other allowance on that person.
+— Wedding gifts: up to £5,000 to a child, £2,500 to a grandchild or great-grandchild, £1,000 to anyone else.
+— Gifts to a husband, wife or civil partner living permanently in the UK, with no limit.
+— Gifts to charities and to political parties.
+
+Two more things. The £325,000 is set against gifts in date order before the rest of the estate, so the earlier gifts use it first and the later ones carry the tax. And giving away a house while still living in it does not work: it is treated as still in the estate.
+
+Nothing to claim while you are alive — the exemptions apply by themselves. What matters is a written record of what you gave, when, and which allowance it used, because your executors will need it.
+
+Want help putting that record together properly? Message us on WhatsApp. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #InheritanceTax #EstatePlanning #Gifts #FamilyFinance #HMRC""",
+    ),
+
+    dict(
+        slug="en-simple-assessment", brand="en",
+        title="Simple Assessment and the PA302: a tax bill that arrives without a tax return",
+        tags_en="#SimpleAssessment #SelfAssessment #StatePension #UKTax #HMRC #PersonalTax",
+        EN=[
+            dict(type="hook",
+                 kicker="Simple Assessment · gov.uk",
+                 h1="Owe HMRC <em>£3,000</em> or more and a tax bill lands without you filing anything.",
+                 say="It is called a Simple Assessment, the letter is headed PA302, and it is an assessment you can be made to pay — not a statement to file away."),
+            dict(type="step", step="When you pay", fig="31 Jan",
+                 say="Letters going out now carry a payment date of 31 January 2027, unless your own letter shows a different one.",
+                 note="Where HMRC worked your figures out after 24 October, the date is 3 months and 7 days from that calculation instead — which is why you go by the date printed on your letter and not by the January everyone talks about."),
+            dict(type="step", step="Who does not get one", fig="None",
+                 say="If you are registered for Self Assessment you will not get one: gov.uk says so plainly, because your bill is adjusted through your return instead.",
+                 note="A check done part-way through the year produces a P800 tax calculation, which is not an assessment. And where HMRC's post has come back undelivered, the PA302 is held and not sent at all."),
+        ],
+        CTA_EN=dict(type="cta",
+                    kicker="Ola Accountancy · Personal tax",
+                    h1="Think the figures on your letter are wrong?",
+                    say="You have 60 days from the issue date to report a query to HMRC — that is a query, not an appeal — and 30 days to appeal in writing once the query is closed. A query left unresolved closes itself after 6 months. Message us on WhatsApp and we will read the letter with you. The first consultation is free and lasts 30 minutes.",
+                    phone=PHONE,
+                    disc="General information. For your own situation, speak to an accountant."),
+        SOURCES=[
+            ("What a Simple Assessment is and what to do with it",
+             "https://www.gov.uk/understand-simple-assessment", "read 2026-11-15"),
+            ("The PA302 reference and the 31 January 2027 payment date on current letters",
+             "https://www.gov.uk/government/news/hmrc-urges-customers-not-to-ignore-simple-assessment-letters", "read 2026-11-15"),
+            ("£3,000 or more generally cannot be collected through the tax code",
+             "https://www.gov.uk/tax-overpayments-and-underpayments", "read 2026-11-15"),
+            ("Due date of 31 January following, or 3 months and 7 days where reconciliation is after 24 October; an in-year reconciliation produces a P800 instead",
+             "https://www.gov.uk/hmrc-internal-manuals/paye-manual/paye96301", "read 2026-11-15"),
+            ("60 days to report a query, 30 days to appeal after closure, automatic closure after 6 months",
+             "https://www.gov.uk/hmrc-internal-manuals/paye-manual/paye96345", "read 2026-11-15"),
+        ],
+        SCOPE=dict(
+            nation="UK-wide. Simple Assessment is a UK-wide HMRC process under PAYE and income tax law — England, Wales, Scotland and Northern Ireland alike.",
+            category="Personal tax / PAYE",
+            excluded="People registered for Self Assessment do not get one — gov.uk is explicit that you will not receive a tax calculation letter or a Simple Assessment letter, because the bill is adjusted through the return instead. People with more complex tax affairs stay in Self Assessment. An in-year reconciliation never produces a Simple Assessment; it generates a P800. Where HMRC holds a returned-letter indicator because the address has gone away, the PA302 is suspended and not issued.",
+            from_when="Simple Assessment has operated for underpayments from the 2016-17 tax year onwards. Letters in circulation now carry a 31 January 2027 payment date unless a different date is shown on the letter.",
+            automatic=True,
+            how_to_claim="Nothing to claim and no return to file — HMRC issues the PA302 by post or to your Personal Tax Account. Check the figures against your own records, pay by the date on the letter, and report a query to HMRC within 60 days if anything is wrong."),
+        caption="""A letter arrives from HMRC headed PA302. It is not a statement and not something to put in a drawer. It is a tax bill with a payment date, and it can be enforced.
+
+It is called a Simple Assessment. HMRC works out what you owe for a past tax year and tells you, instead of asking you to file a return. You get one where the tax cannot be taken through your tax code — typically where you owe £3,000 or more, where you have tax to pay on your State Pension, or where you have untaxed income such as savings interest or dividends.
+
+When you pay. Letters going out now say 31 January 2027, unless your letter shows a different date. And it is not always January: if HMRC's calculation was done after 24 October, your date is 3 months and 7 days from that calculation. Go by the date printed on your own letter.
+
+Who does not get one. If you are registered for Self Assessment, you will not. Gov.uk puts it plainly — no tax calculation letter, no Simple Assessment letter — because your bill is adjusted through your return instead. People with more complicated tax affairs stay in Self Assessment and keep filing. A check done part-way through the tax year produces a P800 tax calculation rather than a Simple Assessment, and a P800 is not an assessment at all. And where HMRC's post has come back undelivered because the address has gone away, the letter is held and not issued.
+
+If you think the figures are wrong, there are two stages and people miss the first. You report a query to HMRC within 60 days of the issue date. That is a query, not an appeal. Only once HMRC closes the query do you have 30 days to appeal in writing. A query left unresolved closes itself after 6 months, which can quietly start that 30-day clock without anyone telling you.
+
+Nothing to claim, no return to file. Check the figures against your own records and pay by the date on the letter.
+
+Got one and unsure whether it is right? Message us on WhatsApp and we will go through it with you. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #SimpleAssessment #SelfAssessment #StatePension #HMRC #PersonalTax""",
+    ),
+
+]
+
+OLA_SOLO = [
+    dict(
+        slug="ola-maternity-allowance",
+        brand="ola",
+        lang="ro",
+        slide=dict(
+            type="solo",
+            kicker="Maternity Allowance · gov.uk",
+            h1="În concediu de maternitate poți primi până la <em>£194.32</em> pe săptămână.",
+            rows=[
+                ["<cur>£</cur>194.32", "39 de săptămâni, plătite de DWP"],
+                ["Cerere", "formularul MA1, numai în Marea Britanie"],
+                ["Exclus", "cine are Statutory Maternity Pay de la angajator"],
+            ],
+            ask="Nu știi dacă te încadrezi? La biroul din Luton verificăm împreună.",
+            phone=PHONE,
+            disc="Informații generale. Pentru situația ta, vorbește cu un contabil.",
+        ),
+        caption="""Aștepți un copil și lucrezi pe cont propriu? Statutory Maternity Pay se plătește de către angajator, deci pentru tine nu se aplică. Există însă Maternity Allowance, plătită de DWP.
+
+Cât poate fi: până la £194.32 pe săptămână sau 90% din câștigul săptămânal mediu, oricare este mai mică, timp de până la 39 de săptămâni.
+
+Dacă lucrezi pe cont propriu, suma nu este fixă. Merge de la £27 până la £194.32 pe săptămână, în funcție de contribuțiile Class 2 National Insurance pe care le-ai plătit. De aceea merită verificată fișa de contribuții înainte de a depune cererea.
+
+Condiția de muncă și cea de venit: să fi fost angajată sau înregistrată ca self-employed în 26 din cele 66 de săptămâni de dinainte de data probabilă a nașterii, și să fi câștigat cel puțin £30 pe săptămână în cel puțin 13 dintre acele săptămâni. Săptămânile nu trebuie să fie una după alta.
+
+Există și o variantă mai mică: £27 pe săptămână, timp de 14 săptămâni, pentru cine lucrează neplătit în afacerea soțului sau a partenerului civil. Aici condiția este să nu fi fost tu angajată sau self-employed, iar soțul sau partenerul civil să fi fost înregistrat ca self-employed la HMRC și să fi plătit Class 2 National Insurance în aceleași 26 de săptămâni.
+
+Cine nu primește Maternity Allowance: cine are dreptul la Statutory Maternity Pay de la angajator, pentru că atunci se plătește SMP în locul ei. Cine nu îndeplinește condiția celor 26 de săptămâni din 66 sau condiția de venit nu primește nimic. Jobseeker's Allowance se oprește, iar Universal Credit scade liră cu liră cu suma primită; se poate aplica și benefit cap.
+
+Cererea se face pe formularul MA1 de pe GOV.UK, cu dovada veniturilor și certificatul de maternitate MATB1.
+
+Regulile de mai sus sunt cele din Anglia, Scoția și Țara Galilor. În Irlanda de Nord, Maternity Allowance se cere prin nidirect, după aceleași reguli.
+
+Prima consultație la noi este gratuită și durează 30 de minute. Nu știi dacă te încadrezi? La biroul din Luton verificăm împreună.
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #MaternityAllowance #SelfEmployed #DWP""",
+        SOURCES=[
+            ("Maternity Allowance: suma săptămânală și cele 39 de săptămâni, inclusiv intervalul £27-£194.32 pentru self-employed și varianta de £27 pe 14 săptămâni",
+             "https://www.gov.uk/maternity-allowance/what-youll-get", "read 2026-11-17"),
+            ("Condiția celor 26 de săptămâni din 66 și cea de £30 pe săptămână în 13 săptămâni",
+             "https://www.gov.uk/maternity-allowance/eligibility", "read 2026-11-17"),
+            ("Pagina oficială a schemei și cererea pe formularul MA1",
+             "https://www.gov.uk/maternity-allowance", "read 2026-11-17"),
+        ],
+        SCOPE=dict(
+            nation="Marea Britanie (Anglia, Scoția, Țara Galilor). Irlanda de Nord administrează propria Maternity Allowance prin nidirect, după aceleași reguli.",
+            category="Ajutor de maternitate pentru cine nu poate primi Statutory Maternity Pay",
+            excluded="Cine are dreptul la Statutory Maternity Pay de la angajator primește SMP, nu Maternity Allowance. Cine nu îndeplinește condiția de 26 de săptămâni din 66 sau cea de £30 pe săptămână în 13 săptămâni nu primește nimic. Pentru varianta de 14 săptămâni nu trebuie să fi fost tu angajată sau self-employed, iar soțul sau partenerul civil trebuie să fi fost înregistrat ca self-employed și să fi plătit Class 2 National Insurance în aceleași 26 de săptămâni. Jobseeker's Allowance se oprește, Universal Credit scade liră cu liră, iar benefit cap se poate aplica.",
+            from_when="Rate publicate pe GOV.UK la 17 noiembrie 2026; actualizate în fiecare aprilie",
+        ),
+    ),
+    dict(
+        slug="ola-junior-isa",
+        brand="ola",
+        lang="ro",
+        slide=dict(
+            type="solo",
+            kicker="Junior ISA · gov.uk",
+            h1="Poți pune deoparte <em>£9,000</em> pe an pentru copilul tău.",
+            rows=[
+                ["<cur>£</cur>9,000", "maximum pentru un copil, fără impozit"],
+                ["Acces", "copilul preia contul la 16, banii la 18"],
+                ["Exclus", "copiii care nu locuiesc în Regatul Unit"],
+            ],
+            ask="Nu știi dacă te încadrezi? La biroul din Luton verificăm împreună.",
+            phone=PHONE,
+            disc="Informații generale. Pentru situația ta, vorbește cu un contabil.",
+        ),
+        caption="""Un Junior ISA este un cont de economii sau de investiții deschis pe numele copilului. În anul fiscal 2026-2027 se pot pune în el £9,000, iar limita rămâne £9,000 și pentru 2027-2028.
+
+Limita este pe copil, nu pe persoana care depune. Poți pune bani tu, pot pune bunicii, pot pune prietenii familiei, însă toți împreună până la £9,000 pentru copilul respectiv, indiferent dacă are un Junior ISA de cash, unul de stocks and shares sau pe amândouă.
+
+Dobânda, dividendele și creșterea de valoare nu se impozitează, și nu ai nimic de declarat la HMRC pentru ele. Limita aceasta este separată de alocația ta de ISA de adult, deci banii copilului nu îți consumă alocația ta.
+
+Partea pe care oamenii o află prea târziu: banii sunt ai copilului, definitiv. Contul este deschis și administrat de o persoană cu răspundere părintească, dar la 16 ani copilul poate cere furnizorului să preia administrarea contului, iar la 18 ani poate retrage banii sau îi poate lăsa să treacă într-un ISA de adult. Părintele care a depus banii nu îi poate lua înapoi pentru el, iar nimeni nu poate retrage înainte ca copilul să împlinească 18 ani, în afara situațiilor limitate permise de regulile ISA. Deci: la 16 ani trece controlul, la 18 ani trec banii.
+
+Cine nu poate avea un Junior ISA: cine a împlinit 18 ani; copiii care nu locuiesc în Regatul Unit, cu excepția copiilor aflați în întreținerea unui Crown servant, de exemplu din armată, din serviciul diplomatic sau din administrația din străinătate; și copilul care are un Child Trust Fund, pentru că nu se pot ține amândouă în același timp — fondul trebuie transferat în Junior ISA mai întâi.
+
+Junior ISA se deschide la un furnizor, nu la HMRC. Limita de £9,000 se aplică din 6 aprilie 2020 și nu s-a schimbat.
+
+Prima consultație la noi este gratuită și durează 30 de minute. Nu știi dacă te încadrezi? La biroul din Luton verificăm împreună.
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #JuniorISA #EconomiiPentruCopii #UKTax""",
+        SOURCES=[
+            ("Limita Junior ISA de £9,000 pentru 2026-2027, vârsta de 16 ani pentru administrare, vârsta de 18 ani pentru retragere, condiția de rezidență și interdicția de a ține Junior ISA și Child Trust Fund în același timp",
+             "https://www.gov.uk/junior-individual-savings-accounts", "read 2026-11-15"),
+            ("Limita Junior ISA confirmată nemodificată, £9,000, pentru 2027-2028",
+             "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances", "read 2026-11-15"),
+        ],
+        SCOPE=dict(
+            nation="Regatul Unit",
+            category="Economii fără impozit pentru copii",
+            excluded="Cine a împlinit 18 ani. Copiii care nu locuiesc în Regatul Unit, cu excepția celor aflați în întreținerea unui Crown servant. Copilul care are un Child Trust Fund, până la transferul fondului în Junior ISA. Persoana cu răspundere părintească nu poate retrage banii pentru ea, iar nimeni nu poate retrage înainte de 18 ani, în afara situațiilor limitate permise de regulile ISA.",
+            from_when="Limita de £9,000 se aplică din 6 aprilie 2020 și rămâne neschimbată pentru 2026-2027 și 2027-2028",
+        ),
+    ),
+    dict(
+        slug="ola-pensie-stat-2027",
+        brand="ola",
+        lang="ro",
+        slide=dict(
+            type="solo",
+            kicker="State Pension · rate propuse · gov.uk",
+            h1="Pensia ta de stat ar putea ajunge la <em>£250.70</em> pe săptămână.",
+            rows=[
+                ["<cur>£</cur>250.70", "pe săptămână, de la £241.30"],
+                ["Automat", "fără cerere, în Marea Britanie"],
+                ["Exclus", "cine s-a pensionat înainte de aprilie 2016"],
+            ],
+            ask="Nu știi dacă te încadrezi? La biroul din Luton verificăm împreună.",
+            phone=PHONE,
+            disc="Informații generale. Pentru situația ta, vorbește cu un contabil.",
+        ),
+        caption="""Pe 11 noiembrie 2026 s-au publicat ratele propuse pentru pensia de stat în anul fiscal 2027-2028.
+
+Noua State Pension, cea pentru persoanele care au împlinit vârsta de pensionare de la 6 aprilie 2016 încolo, ar urca de la £241.30 la £250.70 pe săptămână.
+
+Pensia de bază din schema veche, Category A sau B, ar urca de la £184.90 la £192.10 pe săptămână.
+
+Pe aceeași pagină apare și o creștere de 3,50% pentru incrementele de State Pension și pentru creșterea minimă legală a pensiilor care nu sunt de stat, față de 3,80% în 2026-2027. Este o cifră diferită de creșterea pensiei pline, deci nu le confunda.
+
+Un lucru important: acestea sunt rate propuse, nu sunt încă lege. Până la adoptarea ordinului de actualizare, nimeni nu are încă dreptul la ele.
+
+Cine nu primește £250.70: cine a împlinit vârsta de pensionare înainte de 6 aprilie 2016, pentru că acolo se aplică schema veche și rata de £192.10. Cine nu a ajuns încă la vârsta de pensionare nu primește nimic. Iar suma plină se plătește doar dacă fișa de National Insurance este completă: cu o fișă incompletă se primește o parte, nu £250.70.
+
+Creșterea vine automat pentru cine primește deja pensia de stat. Prima pensie însă trebuie cerută — nu se plătește până nu depui cererea.
+
+Ratele sunt stabilite de DWP pentru Marea Britanie. În Irlanda de Nord, Department for Communities adoptă separat rate echivalente.
+
+Prima consultație la noi este gratuită și durează 30 de minute. Nu știi dacă te încadrezi? La biroul din Luton verificăm împreună.
+
+Informații generale. Pentru situația ta, vorbește cu un contabil.
+
+#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham #StatePension #Pensie #UKTax""",
+        SOURCES=[
+            ("Rata plină propusă pentru noua State Pension, £250.70 pe săptămână în 2027-2028, față de £241.30 în 2026-2027, rata de bază de £192.10 față de £184.90, și creșterea de 3,50% pentru incremente și pentru pensiile care nu sunt de stat",
+             "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028", "read 2026-11-17"),
+        ],
+        SCOPE=dict(
+            nation="Marea Britanie. DWP stabilește aceste rate; Irlanda de Nord adoptă separat rate echivalente, prin Department for Communities.",
+            category="Pensia de stat, rate propuse",
+            excluded="Cine a împlinit vârsta de pensionare înainte de 6 aprilie 2016 este pe schema veche și primește rata de bază de £192.10, nu £250.70. Cine nu a ajuns la vârsta de pensionare nu primește nimic. Suma plină se plătește doar cu o fișă completă de National Insurance; o fișă incompletă aduce o parte din sumă. Sunt rate PROPUSE, încă neadoptate ca lege, deci nimeni nu are încă dreptul la ele.",
+            from_when="Propuse pentru anul fiscal 2027-2028, publicate la 11 noiembrie 2026",
+        ),
+    ),
+]
+
+BHAM_SOLO = [
+    dict(
+        slug="bham-companies-house-fees",
+        brand="bham",
+        lang="en",
+        slide=dict(
+            type="solo",
+            kicker="Companies House fees · gov.uk",
+            h1="You pay <em>£100</em> to register your company online.",
+            rows=[
+                ["<cur>£</cur>50", "a year for the confirmation statement"],
+                ["On paper", "registering costs £124 instead"],
+                ["Excluded", "no fee to file your accounts"],
+            ],
+            ask="Not sure which fee applies to your company? Our Birmingham office will check it with you.",
+            phone=PHONE,
+            disc="General information. For your own situation, speak to an accountant.",
+        ),
+        caption="""Setting up a limited company in Birmingham? Here is what Companies House actually charges you, and what it does not.
+
+Registering the company: £100 online or by software, £124 on paper, £156 for a same-day registration (software filing only).
+
+Confirmation statement: £50 filed online, £110 on paper. The £50 covers the first statement in each 12-month payment period, so if you file a second one inside that same period, there is nothing more to pay.
+
+Changing the company name: £20 online, £30 on paper, £85 same day.
+
+Now the part that saves people money. Plenty of filings carry no fee at all. Filing your annual accounts is free. Appointing or removing a director or secretary is free. Changing your registered office address is free. Changing your accounting reference date is free.
+
+Two things people mix up. Companies House fees are not tax, so they are not paid to HMRC. And a late filing penalty is not a fee, it is a separate charge for being late.
+
+One more thing worth knowing: if a filing is rejected because of an error on it, the fee is not refunded. Filing online is cheaper than paper on every one of these, so that is where the saving is.
+
+The current fees took effect on 1 February 2026.
+
+Not sure which fee applies to your company? Our Birmingham office is at 22-42 Washwood Heath Rd, Saltley, B8 1RB, Monday to Friday, 10:00 to 16:00. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #SmallBusinessBirmingham #CompaniesHouse #LimitedCompany #CompanyFormation #UKBusiness""",
+        SOURCES=[
+            ("Companies House fees: £100 online and £124 paper to register a company, £50 confirmation statement online and £110 on paper, £20 name change online, and the filings that carry no fee",
+             "https://www.gov.uk/government/publications/companies-house-fees/companies-house-fees",
+             "read 2026-11-15"),
+            ("Date the current round of Companies House fee increases took effect: 1 February 2026",
+             "https://www.gov.uk/government/news/companies-house-fees-are-changing-from-1-february-2026",
+             "read 2026-11-15"),
+        ],
+        SCOPE=dict(
+            nation="UK-wide, identical fees across England, Wales, Scotland and Northern Ireland",
+            category="Companies House filing fees for incorporation, confirmation statement and change of company name",
+            excluded="No fee for filing annual accounts, for appointing or removing a director or secretary, for changing the registered office address, for changing the accounting reference date, or for second and later confirmation statements inside the same 12-month payment period. Fees are not refunded on a rejected filing, and late filing penalties are a separate charge, not a fee.",
+            from_when="Current fees took effect 1 February 2026; fees publication last updated 25 September 2026",
+        ),
+    ),
+    dict(
+        slug="bham-valid-vat-invoice",
+        brand="bham",
+        lang="en",
+        slide=dict(
+            type="solo",
+            kicker="Simplified VAT invoice · gov.uk",
+            h1="You can issue a short VAT invoice up to <em>£250</em>.",
+            rows=[
+                ["4 items", "VAT number, date, description, VAT rate"],
+                ["Only if agreed", "your customer has to accept it"],
+                ["Excluded", "zero-rated sales and margin scheme goods"],
+            ],
+            ask="Not sure whether your invoices would pass an HMRC check? Our Birmingham office will go through them with you.",
+            phone=PHONE,
+            disc="General information. For your own situation, speak to an accountant.",
+        ),
+        caption="""If the sale is £250 or less, your VAT invoice can be the short version. But only if your customer agrees to it.
+
+A simplified VAT invoice shows four things: your name, address and VAT registration number; the time of supply, which is the date of the sale for VAT; a description of what you sold; and, for each VAT rate on it, the total amount payable including VAT and the rate itself.
+
+Over £250 you issue the full VAT invoice, and that one carries 11 items. A number that identifies the document on its own, the time of supply, the date of issue if that is different, your name, address and VAT number, the customer's name and address, a description of what you sold, and for each description the quantity, the VAT rate and the amount before VAT, then the total before VAT, the rate of any cash discount you offer, the total VAT, and the unit price. The VAT total has to be in sterling even where the rest of the invoice is in another currency.
+
+Timing. You normally issue the VAT invoice within 30 days of the tax point. And if a VAT-registered customer asks you for a full invoice, you give them one whatever the value.
+
+Where it does not apply. You do not have to issue a VAT invoice for zero-rated sales, or to a customer who is not VAT registered. Goods sold under a second-hand margin scheme must not go on a VAT invoice at all, because those schemes have their own invoices. Self-billing arrangements and authenticated receipts work differently. And if you take card payments and give a receipt as well as the card voucher, only one of the two can be the VAT invoice.
+
+The gap between a receipt and a VAT invoice is where most reclaimed VAT quietly gets lost. A till receipt with no VAT number and no VAT rate on it is neither a full nor a simplified VAT invoice.
+
+Not sure whether your invoices would pass an HMRC check? Our Birmingham office at 22-42 Washwood Heath Rd, Saltley, B8 1RB will go through them with you. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #VAT #VATInvoice #SmallBusinessBirmingham #Bookkeeping #UKTax""",
+        SOURCES=[
+            ("VAT Notice 700: the 11 items on a full VAT invoice, the 4 items on a simplified or retailer's invoice, the £250 ceiling for a simplified invoice, the 30-day issuing rule, the sterling VAT total, and the supplies for which no VAT invoice is required",
+             "https://www.gov.uk/guidance/vat-guide-notice-700",
+             "read 2026-11-18"),
+        ],
+        SCOPE=dict(
+            nation="UK, with extra rules for Northern Ireland businesses supplying customers in EU member states",
+            category="VAT invoice content: the full VAT invoice and the simplified invoice for supplies of £250 or less",
+            excluded="Zero-rated supplies need no VAT invoice; nor do supplies to customers who are not VAT registered. Self-billing arrangements, authenticated receipts and gifts of goods on which VAT is due are outside it. Goods sold under a second-hand margin scheme must not be invoiced as VAT supplies. Exempt supplies must not appear on a retailer's VAT invoice. A simplified invoice is not available where the customer does not agree, where the supply exceeds £250, or, for a Northern Ireland business, where the customer is from an EU member state.",
+            from_when="Current VAT guide, Notice 700, as published and read on 18 November 2026",
+        ),
+    ),
+    dict(
+        slug="bham-pension-allowance",
+        brand="bham",
+        lang="en",
+        slide=dict(
+            type="solo",
+            kicker="Pension annual allowance · gov.uk",
+            h1="Your pensions can take <em>£60,000</em> this tax year.",
+            rows=[
+                ["<cur>£</cur>60,000", "across every scheme, employer's money included"],
+                ["Automatic", "a cap; nothing to apply for"],
+                ["Excluded", "high earners, and anyone taking cash out"],
+            ],
+            ask="Not sure how much room you have left this year? Our Birmingham office will work it out with you.",
+            phone=PHONE,
+            disc="General information. For your own situation, speak to an accountant.",
+        ),
+        caption="""£60,000 is the most that can go into your pension this tax year before a tax charge arises. And that is everything added together, not just the money you put in yourself.
+
+The annual allowance for 6 April 2026 to 5 April 2027 is £60,000. It covers all the schemes you are a member of, and it counts your own contributions, your employer's contributions, the tax relief added on top, and the value of any final salary pension you are building up.
+
+There is nothing to claim. It is a cap, applied automatically.
+
+Who does not get the full £60,000:
+
+High earners. Where your threshold income is over £200,000 and your adjusted income is over £260,000, the allowance is reduced, down to a floor of £10,000 for the highest earners. Both tests have to be met, not just one of them.
+
+Anyone who has flexibly accessed a defined contribution pension, for example taking cash from a drawdown fund or from a pot you had not touched. From that point the Money Purchase Annual Allowance of £10,000 caps what can go into money purchase savings, and carry forward is not available against it.
+
+Two more things worth knowing. Tax relief on your own personal contributions is capped at 100% of your UK earnings, or £3,600 gross if you have little or no earnings, so a large allowance does not by itself mean a large relieved contribution. And you can carry forward unused allowance from the previous three tax years, though not against the Money Purchase Annual Allowance.
+
+If you do go over, your scheme sends you a pension savings statement where your savings in it exceed the standard allowance, and you report the excess on a Self Assessment return and pay the charge, or in some cases ask the scheme to pay it for you.
+
+These figures were confirmed unchanged for 2027/28 at Budget 2026.
+
+Not sure how much room you have left this year? Our Birmingham office at 22-42 Washwood Heath Rd, Saltley, B8 1RB will work it out with you. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancyBirmingham #OlaAccountancy #Birmingham #WestMidlands #Saltley #Pensions #AnnualAllowance #SelfAssessment #UKTax #SmallBusinessBirmingham""",
+        SOURCES=[
+            ("Standard pension annual allowance of £60,000 for the current tax year, and the £200,000 threshold income and £260,000 adjusted income limits for the taper",
+             "https://www.gov.uk/tax-on-your-private-pension/annual-allowance",
+             "read 2026-11-14"),
+            ("HMRC pension schemes rates: £60,000 annual allowance, £10,000 Money Purchase Annual Allowance and £10,000 tapered allowance floor for 2026/27",
+             "https://www.gov.uk/government/publications/rates-and-allowances-pension-schemes/pension-schemes-rates",
+             "read 2026-11-14"),
+            ("Budget 2026 confirmation that the £60,000 allowance, the £10,000 MPAA and the £260,000 adjusted income threshold are unchanged for 2026/27 and 2027/28",
+             "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
+             "read 2026-11-14"),
+        ],
+        SCOPE=dict(
+            nation="UK; pension tax relief is reserved, so the same allowance and taper apply throughout",
+            category="Pension annual allowance 2026/27, with the taper and the Money Purchase Annual Allowance",
+            excluded="You do not get the full £60,000 where the taper applies, which needs BOTH threshold income over £200,000 and adjusted income over £260,000, reducing to a floor of £10,000. You do not get the full allowance for money purchase savings once you have flexibly accessed a defined contribution pension, because the £10,000 Money Purchase Annual Allowance then applies and carry forward is not available against it. Separately, relief on your own contributions is capped at 100% of relevant UK earnings, or £3,600 gross. Companies are outside it: the allowance is a member-level limit, not an employer one.",
+            from_when="6 April 2026",
+        ),
+    ),
+]
+
+EN_SOLO = [
+    dict(
+        slug="en-hmrc-interest",
+        brand="en",
+        lang="en",
+        slide=dict(
+            type="solo",
+            kicker="HMRC interest rates · gov.uk",
+            h1="Pay HMRC late and you are charged <em>7.75%</em>.",
+            rows=[
+                ["8.00%", "the rate from 24 November 2026"],
+                ["Automatic", "added from the day payment was due"],
+                ["Excluded", "large companies paying by quarterly instalments"],
+            ],
+            ask="Not sure how much interest has built up on your bill? We will work it out with you.",
+            phone=PHONE,
+            disc="General information. For your own situation, speak to an accountant.",
+        ),
+        caption="""If you pay HMRC late, interest is already running.
+
+The late payment interest rate today is 7.75% a year. It covers Income Tax, National Insurance, Capital Gains Tax, Stamp Duty Land Tax and VAT for accounting periods starting on or after 1 January 2023. From 24 November 2026 it goes up to 8.00%, following the Bank of England base rate rise to 4% on 5 November 2026.
+
+Interest is not a penalty, and there is no form to fill in. HMRC adds it automatically from the day the payment was due, and it is not reduced because you had a good reason for being late. The rule is the base rate plus 4 percentage points.
+
+If HMRC owes you money, you are paid interest too, but at a much lower rate: 2.75% today, 3.00% from 24 November 2026.
+
+Who the main rate does not apply to: large companies that pay Corporation Tax in quarterly instalments. They have their own rates, 6.50% on underpaid instalments and 3.75% on overpaid ones, both in force since 16 November 2026.
+
+The rates are set by HMRC and are the same wherever you live in the UK.
+
+Not sure how much interest has built up on your bill? Message us on WhatsApp on 0330 133 1886. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #HMRC #SelfAssessment #SoleTrader #SmallBusinessUK #VAT #TaxTips""",
+        SOURCES=[
+            ("Late payment interest 7.75% and repayment interest 2.75% in force to 23 November 2026, 8.00% and 3.00% from 24 November 2026, the base rate plus 4 points formula, and the Corporation Tax quarterly instalment rates of 6.50% and 3.75% from 16 November 2026", "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates", "read 2026-11-18"),
+            ("Bank Rate raised to 4% at the decision published 5 November 2026", "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate", "read 2026-11-18"),
+        ],
+        SCOPE=dict(
+            nation="Whole of the UK. HMRC sets the rates and they are the same in England, Scotland, Wales and Northern Ireland.",
+            category="HMRC interest on late payments and repayments",
+            excluded="The main rates do not apply to Corporation Tax quarterly instalment payments, which carry their own rates of 6.50% on underpaid and 3.75% on overpaid instalments from 16 November 2026. Repayment interest never falls below its 0.5% floor. The current headline rate must not be quoted for a historic period on Corporation Tax pay and file, Inheritance Tax, Petroleum Revenue Tax or judgment debts.",
+            from_when="7.75% and 2.75% from 9 January 2026 to 23 November 2026; 8.00% and 3.00% from 24 November 2026",
+        ),
+    ),
+    dict(
+        slug="en-personal-allowance",
+        brand="en",
+        lang="en",
+        slide=dict(
+            type="solo",
+            kicker="Personal Allowance 2026/27 · gov.uk",
+            h1="You pay no Income Tax on your first <em>£12,570</em>.",
+            rows=[
+                ["<cur>£</cur>12,570", "then 20% to £50,270 outside Scotland"],
+                ["Automatic", "given through your tax code"],
+                ["Excluded", "anyone whose income reaches £125,140"],
+            ],
+            ask="Not sure whether your tax code is giving you the full allowance? We will check it with you.",
+            phone=PHONE,
+            disc="General information. For your own situation, speak to an accountant.",
+        ),
+        caption="""Your first £12,570 of income is not taxed.
+
+That is the Personal Allowance for the 2026/27 tax year, which runs from 6 April 2026 to 5 April 2027, and it is the same figure everywhere in the UK.
+
+Above it, if you are a taxpayer in England, Wales or Northern Ireland: 20% on income up to £50,270, 40% from £50,271 to £125,140, and 45% above £125,140. Scotland sets its own rates and bands on wages, self-employed profits and pensions, with a starter rate of 19%, basic 20%, intermediate 21%, higher 42%, advanced 45% and top 48%. So if you are a Scottish taxpayer, those are your rates, not these. Savings and dividend income is taxed at the same rates in all four nations.
+
+You do not claim the allowance. It comes through your tax code if you are paid through PAYE, or in your Self Assessment calculation if you file a return.
+
+Who does not get it: anyone whose income reaches £125,140. Above £100,000 the allowance drops by £1 for every £2 of income, so by £125,140 there is nothing left of it. If your income is near that line, a wrong tax code leaves you with tax to settle later.
+
+Budget 2026 confirmed that the £12,570 allowance, the £37,700 basic rate limit and the £100,000 limit stay the same for 2027/28 as well.
+
+Not sure whether your tax code is giving you the full allowance? Message us on WhatsApp on 0330 133 1886. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #PersonalAllowance #IncomeTax #SelfAssessment #PAYE #SoleTrader #TaxTips""",
+        SOURCES=[
+            ("Personal Allowance £12,570 for 2026/27, the 20% rate to £50,270, 40% to £125,140 and 45% above it for taxpayers in England, Wales and Northern Ireland, the £1 for every £2 taper and the £125,140 point at which the allowance is nil", "https://www.gov.uk/income-tax-rates", "read 2026-11-14"),
+            ("Basic rate limit £37,700 and the £100,000 income limit for the Personal Allowance, 2026/27", "https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past", "read 2026-11-14"),
+            ("Budget 2026 confirms the Personal Allowance, basic rate limit and £100,000 income limit unchanged for 2026-27 and 2027-28", "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances", "read 2026-11-14"),
+        ],
+        SCOPE=dict(
+            nation="The £12,570 Personal Allowance and the £100,000 income limit are UK-wide. The 20%, 40% and 45% rates and the £37,700 basic rate limit apply to taxpayers in England, Wales and Northern Ireland.",
+            category="Income Tax allowances, rates and bands",
+            excluded="Scottish taxpayers do not get these bands and rates on wages, self-employed profits and pensions, as Scotland sets its own starter 19%, basic 20%, intermediate 21%, higher 42%, advanced 45% and top 48% rates and its own thresholds. Anyone with adjusted net income of £125,140 or more gets no Personal Allowance at all. Dividend income is taxed at the separate dividend rates. Companies pay Corporation Tax and are outside Income Tax.",
+            from_when="6 April 2026",
+        ),
+    ),
+    dict(
+        slug="en-small-pension-pots",
+        brand="en",
+        lang="en",
+        slide=dict(
+            type="solo",
+            kicker="Small pension pots · gov.uk",
+            h1="You can take a pot worth <em>£10,000</em> or less as cash.",
+            rows=[
+                ["<cur>£</cur>10,000", "per pot, and up to three pots"],
+                ["On request", "you ask your pension provider to pay"],
+                ["Excluded", "anyone under 55; pots above £10,000"],
+            ],
+            ask="Not sure whether your old pension pot counts as a small pot? We will go through it with you.",
+            phone=PHONE,
+            disc="General information. For your own situation, speak to an accountant.",
+        ),
+        caption="""An old pension pot worth £10,000 or less can usually be paid out as one lump sum, and it does not touch the rest of your pension savings.
+
+HMRC calls it a small lump sum. From age 55, rising to 57 on 6 April 2028, a pot of £10,000 or less in a personal or stakeholder pension can be paid out in full. You can do this with up to three such pots, and the size of your other pensions makes no difference. Occupational and public service schemes have their own £10,000 version of the same rule.
+
+If you have not started drawing that pot, a quarter of the payment is free of Income Tax and the rest is taxed as pension income. If the pot is already in payment, the whole amount is taxable.
+
+Nothing happens on its own: you ask the scheme to pay it. The scheme has to run the payment through PAYE, which usually takes off more tax than you actually owe on a one-off payment, and you then claim the difference back from HMRC online at gov.uk/claim-pension-tax-refund or on form P53.
+
+Who cannot use it: anyone under 55 who does not meet the ill-health condition or hold a protected pension age, anyone who has already had three of these payments, and anyone whose pot is worth more than £10,000 on the day it is paid. Not even part of a bigger pot can go out this way. HMRC's own example is an offer of £9,990 that has grown to £10,010 by the payment date, which no longer qualifies.
+
+A different rule, often confused with this one: trivial commutation lets you take up to £30,000, but it looks at all your pension rights added together and ordinary personal pensions do not qualify for it at all.
+
+Not sure whether your old pension pot counts as a small pot? Message us on WhatsApp on 0330 133 1886. The first consultation is free and lasts 30 minutes.
+
+General information. For your own situation, speak to an accountant.
+
+#OlaAccountancy #UKTax #Pensions #PensionTax #RetirementUK #TaxRefund #SelfAssessment""",
+        SOURCES=[
+            ("The £10,000 small lump sum limit per arrangement, the maximum of three payments, the minimum age of 55 rising to 57 from 6 April 2028, the 25% tax-free share of uncrystallised rights, the £10,000 occupational scheme equivalent and the £9,990 growing to £10,010 warning", "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm063700", "read 2026-11-18"),
+            ("The £30,000 trivial commutation limit across all registered schemes, the 12-month commutation period and the full taxability of crystallised rights", "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm063500", "read 2026-11-18"),
+        ],
+        SCOPE=dict(
+            nation="UK",
+            category="Pension lump sums: small pots and trivial commutation",
+            excluded="Anyone under 55, rising to 57 from 6 April 2028, who does not meet the ill-health condition or hold a protected pension age. Any arrangement worth more than £10,000 on the date of payment, where no part of it can be taken this way. Anyone who has already had three regulation 11A small lump sums. Any payment that does not extinguish the entitlement under that arrangement. Crystallised rights get no 25% tax-free share. For trivial commutation, ordinary money purchase and personal pension pots do not qualify at all, nor does anyone whose total pension rights exceed £30,000 at the nominated date or who has no lump sum allowance left. A payment made to someone other than the member is fully taxable as pension income.",
+            from_when="The £10,000 small pot limit applies to payments made on or after 27 March 2014; both HMRC manual pages were last updated 2 November 2026",
+        ),
+    ),
+]
+
+DAY = OLA_CAR + BHAM_CAR + EN_CAR
+ARCHIVE = ARCHIVE + _PREV_DAY_19
+BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
+SOLOS = OLA_SOLO + BHAM_SOLO + EN_SOLO
+SOLO_BY_SLUG = {s["slug"]: s for s in SOLOS}
+
+# --- 19 Nov rewrite round: layout gate on two card 1s, plus named content faults.
+# --- Figures, dates and thresholds all retained.
+_trim("en-paye-quarterly", "EN", 0,
+      h1="Paying HMRC under <em>£1,500</em> a month? You can pay four times a year.",
+      say="The test is the average you expect across the tax year.")
+_trim("en-iht-gifts-seven-year", "EN", 0,
+      h1="A gift falls outside Inheritance Tax once <em>7 years</em> have passed.",
+      say="Death within those 7 years can bring it back into account.")
+_trim("en-iht-gifts-seven-year", "EN", 1,
+      note="This is taper relief. It reduces the tax on the gift, not the value of the gift.")
+_trim("en-iht-gifts-seven-year", "EN", 2,
+      step="Where no tax arises",
+      say="Gifts are taxed, and taper relief applies, only where gifts in the 7 years before death add up to more than £325,000.")
+_trim("en-vat-annual-accounting", "EN", 0,
+      h1="Sales of up to <em>£1,350,000</em>? One VAT Return a year, not four.",
+      say="You pay HMRC in instalments through the year, then one return settles the balance.")
+_trim("en-vat-annual-accounting", "EN", 1,
+      say="Nine monthly payments of 10% of last year's VAT bill, or three of 25% in months 4, 7 and 10 if you ask HMRC. Neither covers the whole bill.",
+      note="The return and the balancing payment for the rest are due two months after your accounting year ends.")
+_trim("en-vat-annual-accounting", "EN", 2,
+      fig="Leave",
+      say="You must leave once your taxable supplies pass <cur>£</cur>1,600,000 for the year, normally at the end of that accounting year.",
+      note="You cannot join as part of a company group or a division, if you left the scheme in the last 12 months, if insolvent, or if you have a growing VAT debt.")
+
+# --- 19 Nov Birmingham rewrite round: layout gate + checker faults ---
+_trim("bham-vat-diy-selfbuild", "EN", 0,
+      say="Build your own home and you can claim back the VAT on the materials. The clock starts the day the building is finished.")
+_trim("bham-vat-diy-selfbuild", "EN", 1, note=None,
+      say="One claim only, and it has to reach HMRC within 6 months of completion. For buildings completed before 5 December 2023, the limit is 3 months.")
+_trim("bham-vat-diy-selfbuild", "EN", 2,
+      say="No claim if you plan to sell the property, let it out, or use it for business — and living where you work counts as business use.",
+      note="A planning permission barring separate sale or use rules the claim out, annexes included. Carpets, appliances, fitted furniture outside the kitchen, sheds and tool hire are not claimable. Contractor labour should be zero-rated: if you were charged 20%, ask the contractor to correct the invoice.")
+
+_trim("bham-small-company-accounts", "EN", 0,
+      say="Web filing and paper filing both close for accounts. Company accounts will only go in through commercial software, in a format called iXBRL.")
+_trim("bham-small-company-accounts", "EN", 1,
+      say="Also from April 2028: the accounts and reports must be filed together, a company can only shorten its accounting period so far, and anyone claiming audit exemption files a directors' statement confirming the company qualifies.",
+      note="The start date moved from April 2027 to April 2028 — 21 months more to prepare.")
+_trim("bham-small-company-accounts", "EN", 2,
+      say="Small companies and micro-entities still do not file a profit and loss account. That plan is on hold with no date. Act on the software.",
+      note="Abridged accounts stay, and the profit and loss can still be left out of the public filing. Only accounts move to software — the confirmation statement still goes in through the website.")
+
+_trim("bham-landlord-mortgage-relief", "EN", 0,
+      say="Let a house or flat in your own name and the interest you pay the lender is no longer an expense against the rent. It cuts your tax bill instead.")
+_trim("bham-landlord-mortgage-relief", "EN", 1,
+      say="Take 20% of your mortgage interest — that is the reduction. It is capped: HMRC uses the lowest of your interest, your property profit, and your income above the personal allowance.",
+      note="It goes in the residential finance costs box, not in with the expenses. Anything unrelieved carries forward.")
+_trim("bham-landlord-mortgage-relief", "EN", 2,
+      step="What sits outside it",
+      say="A company that lets property is outside this rule and still deducts its finance costs in full.",
+      note="Also outside it: loans wholly for commercial or non-residential property, and residential mobile home parks, generally treated as a trade. Repaying mortgage capital never got relief, old rule or new. Furnished holiday lets left the exclusion on 6 April 2025.")
+
+# --- rewrite round, 18 Nov 2026. Layout gate failures on the 19 Nov ola set:
+# --- the body on these cards did not fit the frame. Say lines cut back and
+# --- secondary notes dropped where the exclusion is carried elsewhere.
+# --- Figures, dates, thresholds and exclusions are untouched.
+_trim("ola-plan-plata-buget", "RO", 0,
+      say="HMRC are Budget Payment Plan: dai un Direct Debit săptămânal sau lunar și pui bani în avans pentru următoarea ta factură de Self Assessment. La termen ai mai puțin de plătit.")
+_trim("ola-plan-plata-buget", "EN", 2,
+      say="You have to be up to date on your last Self Assessment bill. Still owe anything from it? Ask HMRC about Time to Pay instead.",
+      note="You also need a Self Assessment online account and a Direct Debit.")
+
+_trim("ola-tva-haine-copii", "RO", 0,
+      say="Cota zero înseamnă TVA 0%, deci cumpărătorul nu plătește TVA. Notice 714 cere toate patru: haină sau încălțăminte, fără blană naturală, proiectată pentru copii sub 14 ani și potrivită numai pentru ei.")
+_trim("ola-tva-haine-copii", "RO", 1, note=None,
+      say="Notice 714 dă măsuri maxime. Cămăși și tricotaje: piept 104 cm băieți, 105 cm fete. Pantaloni: talie 72 cm băieți, 71 cm fete. Încălțăminte: până la 6,5 băieți, 3 fete, 5,5 unisex.")
+_trim("ola-tva-haine-copii", "RO", 2,
+      say="Blana naturală, integral sau parțial, se vinde cu TVA; blana artificială poate avea cota zero. Ce nu e haină rămâne cu TVA: benzi reflectorizante, nasturi, insigne, bentițe, elastice și clame de păr.",
+      note="Mărimea unică, bună și pentru adulți, nu are cota zero. Pălăriile de petrecere se taxează ca jucării. Modificările, reparațiile și broderia au TVA.")
+_trim("ola-tva-haine-copii", "EN", 0,
+      say="Zero rate means VAT at 0%, so the customer pays none. Notice 714 requires all four conditions: it must be an article of clothing or footwear, not made of fur skin, designed for children under 14, and suitable only for them.")
+_trim("ola-tva-haine-copii", "EN", 1,
+      note="Labelling, packaging, display, invoicing and advertising all show who the article is designed for.")
+
+_trim("ola-avans-buget-uc", "RO", 0,
+      say="Se cere prin Universal Credit. Nu are dobândă, dar este un împrumut: se scade din plățile tale, începând cu următoarea.")
+_trim("ola-avans-buget-uc", "RO", 1,
+      say="Până la <cur>£</cur>348 dacă ești singur, <cur>£</cur>464 dacă ești în cuplu și <cur>£</cur>812 dacă ai copii în cerere. Cea mai mică sumă este <cur>£</cur>100.")
+_trim("ola-avans-buget-uc", "RO", 2,
+      say="Nu se acordă dacă ai câștigat peste <cur>£</cur>2.600 în ultimele șase luni, <cur>£</cur>3.600 ca cuplu. Nici dacă mai returnezi un avans anterior — doar unul odată.",
+      note="Sub șase luni pe Universal Credit, doar dacă banii te ajută să începi sau să păstrezi un loc de muncă. Irlanda de Nord are propriile avansuri, pe nidirect.")
+_trim("ola-avans-buget-uc", "EN", 0,
+      h1="Hit by an unexpected cost? You can ask for up to <em>£812</em>, interest-free.",
+      say="You ask for a Budgeting Advance through Universal Credit. It carries no interest, but it is a loan: it comes back out of your Universal Credit payments, starting with the next one.")
+_trim("ola-avans-buget-uc", "EN", 2,
+      say="You will be turned down if you earned over <cur>£</cur>2,600 in the past six months, <cur>£</cur>3,600 as a couple, or you are still repaying an earlier advance.",
+      note="On Universal Credit under six months? Only if the money helps you start or keep a job. Northern Ireland runs its own advances on nidirect.")
+
+# ---------------------------------------------------- cut to the floor, 18 Nov 2026
+# The layout gate failed 14 of 15 carousels on the first build: the copy was too
+# tall for the frames. One rewrite round was spent on three carousels per brand,
+# which is the floor Valentin set. The nine single-image posts are cut, which is
+# the first item in the documented cut order, and the other six carousels with them.
+DAY = [BY_SLUG[s] for s in (
+    "ola-plan-plata-buget", "ola-tva-haine-copii", "ola-avans-buget-uc",
+    "bham-vat-diy-selfbuild", "bham-small-company-accounts", "bham-landlord-mortgage-relief",
+    "en-vat-annual-accounting", "en-paye-quarterly", "en-iht-gifts-seven-year")]
+SOLOS = []
+SOLO_BY_SLUG = {}
+
+# Layout-only second trim, 18 Nov 2026, 20:17 UTC. Three cards still overflowed
+# after the one rewrite round and the ola brand was left with a single carousel,
+# below the three-per-brand floor. Words removed, nothing added: no figure, date,
+# threshold or exclusion is touched. The EN card 2 note deleted here repeats what
+# the caption already carries.
+_trim("ola-tva-haine-copii", "EN", 1, note=None)
+_trim("ola-avans-buget-uc", "EN", 0,
+      say="You ask for it through Universal Credit. It carries no interest, but it is a loan: it comes out of your next payments.")
+_trim("ola-avans-buget-uc", "RO", 0,
+      say="Se cere prin Universal Credit. Nu are dobândă, dar este un împrumut: se scade din plățile următoare.")
+_trim("ola-avans-buget-uc", "RO", 0,
+      h1="O cheltuială neprevăzută? Poți cere până la <em>£812</em>, fără dobândă.")
+
+# Source read-dates arrived from the bank in two shapes: "2026-11-14" and
+# "read 2026-11-17". preflight.py wants a bare ISO date, so the prefix is
+# stripped here. The DATE ITSELF IS NEVER CHANGED — only the wrapper around it.
+def _norm_sources(seq):
+    for t in seq:
+        fixed = []
+        for s in (t.get("SOURCES") or []):
+            s = list(s)
+            if len(s) > 2:
+                s[2] = str(s[2]).replace("read ", "").strip()
+            fixed.append(tuple(s))
+        if fixed:
+            t["SOURCES"] = fixed
+_norm_sources(DAY + HELD + ARCHIVE)
+_norm_sources(SOLOS)
+
+# Footer gate, 18 Nov 2026 20:25 UTC. qa.py passed these two frames but footer.py
+# measured the footer clipped on EN slide 1 and off-frame on EN slide 3. Words
+# removed only; the four conditions, the fur rule, the non-clothing list and the
+# three exclusions in the note all stay.
+_trim("ola-tva-haine-copii", "EN", 0,
+      say="Zero rate means VAT at 0%, so the customer pays none. All four conditions must hold: an article of clothing or footwear, not fur skin, designed for children under 14, and suitable only for them.")
+_trim("ola-tva-haine-copii", "EN", 2,
+      say="Articles of fur skin are standard-rated; artificial fur can be zero-rated. Items that are not clothing stay standard-rated whatever the size: armbands, badges, alice bands, hair ribbons and scrunchies.",
+      note="Novelty and party hats are standard-rated as toys. A one-size garment made to fit children and adults cannot be zero-rated. Alteration, repair and embroidery are not zero-rated.")
+
+# Remaining source dates arrive as "18 Nov 2026" rather than ISO. Same rule as
+# above: the wrapper is normalised, the date itself is never changed.
+import datetime as _dt
+def _iso_sources(seq):
+    for t in seq:
+        fixed = []
+        for s in (t.get("SOURCES") or []):
+            s = list(s)
+            if len(s) > 2:
+                v = str(s[2]).replace("read ", "").strip()
+                if not _re_iso.match(v):
+                    for f in ("%d %b %Y", "%d %B %Y", "%Y/%m/%d", "%d/%m/%Y"):
+                        try:
+                            v = _dt.datetime.strptime(v, f).strftime("%Y-%m-%d"); break
+                        except ValueError:
+                            pass
+                s[2] = v
+            fixed.append(tuple(s))
+        if fixed:
+            t["SOURCES"] = fixed
+import re as _re
+_re_iso = _re.compile(r"^\d{4}-\d{2}-\d{2}$")
+_iso_sources(DAY + HELD + ARCHIVE)
+
+# HELD, 18 Nov 2026 20:27 UTC: ola-tva-haine-copii. qa.py cleared it but
+# footer.py measured the footer clipped on EN slides 1 and 3 of the 1080x1350
+# frames, twice, after two trims. A clipped footer loses the wordmark and the
+# number, so it is held rather than hoped over. The ola brand therefore ships
+# TWO carousels tonight, one below the floor, and the report says so.
+HELD = HELD + [BY_SLUG["ola-tva-haine-copii"]]
+DAY = [t for t in DAY if t["slug"] != "ola-tva-haine-copii"]
+# Rebuild the index so the six cut carousels leave the gates: preflight.py reads
+# BY_SLUG, and it was still holding all fifteen from before the cut.
+BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
