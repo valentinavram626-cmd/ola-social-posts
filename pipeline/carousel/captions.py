@@ -4667,3 +4667,441 @@ General information. For your own situation, speak to an accountant.
  tt_title="On Universal Credit and working? Free school meals now count you in",
  source_en="https://www.gov.uk/apply-free-school-meals",
 )
+
+
+# ================================================================ 20 Nov 2026
+C["ola-transfer-alocatie"] = dict(
+ ro="""Marriage Allowance valorează până la £252 pe an, iar cererea o face cel care câștigă mai puțin. Exact aici se greșește cel mai des.
+
+Cum funcționează: partenerul cu venitul mic transferă £1.260 din alocația personală către celălalt. Impozitul celuilalt scade cu până la £252 într-un an fiscal. £252 e maximul, nu o sumă fixă.
+
+Condițiile: unul dintre cei doi nu plătește Income Tax, iar celălalt e pe rata de bază. În Scoția, partenerul care primește transferul trebuie să fie pe rata starter, de bază sau intermediară.
+
+Retroactiv: cererea poate ajunge până la 6 aprilie 2022, adică anul fiscal 2022/23 — dar numai pentru anii în care condițiile au fost îndeplinite de amândoi.
+
+Cine NU poate cere: cuplurile care locuiesc împreună fără să fie căsătorite sau în parteneriat civil nu intră deloc. Nici cuplurile în care cel care câștigă mai mult trece de £50.270 — sau de £43.662, dacă e contribuabil în Scoția. Și nici cine primește deja Married Couple's Allowance.
+
+Se aplică în tot Regatul Unit. Cererea e gratuită, se depune pe gov.uk de către cel cu venitul mai mic, și se reînnoiește singură până o anulezi.
+
+Vrei să verifici dacă ți se aplică și care ani mai sunt deschiși?""",
+ th="""Marriage Allowance: până la £252 pe an. Cel care câștigă mai puțin transferă £1.260 din alocația personală celuilalt — și cererea o depune el, nu celălalt. Se poate cere retroactiv până în 2022/23. Cuplurile necăsătorite care locuiesc împreună nu pot cere deloc.""",
+ li="""Marriage Allowance is worth up to £252 a year, and the claim is made by the lower earner. That single detail is where most claims go wrong.
+
+How it works: the partner with the smaller income transfers £1,260 of their Personal Allowance to the other. That takes up to £252 off the other partner's Income Tax for the tax year. £252 is the ceiling, not a fixed amount.
+
+The conditions: one of you pays no Income Tax, and the other pays the basic rate. In Scotland the receiving partner must be on the starter, basic or intermediate rate.
+
+Backdating: a claim can reach back to 6 April 2022 — the 2022/23 tax year — but only for the years in which both conditions were met. For a couple whose circumstances have been steady, that is four tax years of relief sitting unclaimed.
+
+Who does not qualify: couples who live together without being married or in a civil partnership cannot claim at all, which surprises a great many of them. Nor can a couple where the higher earner is above £50,270, or above £43,662 for a Scottish taxpayer. And it cannot be held alongside Married Couple's Allowance.
+
+UK-wide. The claim is free, it is made on gov.uk by the lower earner, and it then renews automatically until it is cancelled.
+
+Worth checking which years are still open for your household?""",
+ bsky="""Marriage Allowance: up to £252 a year, and the claim is made by the lower earner — the commonest mistake. Backdatable to 2022/23. Couples living together unmarried cannot claim.""",
+ pin="""UK Marriage Allowance, explained. The lower-earning partner transfers £1,260 of their Personal Allowance to a spouse or civil partner, cutting that partner's Income Tax by up to £252 in a tax year. One of you must pay no Income Tax and the other the basic rate; in Scotland, the starter, basic or intermediate rate. A claim can be backdated to 6 April 2022. Couples living together who are not married or in a civil partnership cannot claim at all, nor can one where the higher earner is above £50,270. UK-wide, free to claim, and never automatic.""",
+ pin_title="Marriage Allowance: £252 a year, and four years still open",
+ source="gov.uk, Marriage Allowance. Citit 13 noiembrie 2026.",
+ source_en="gov.uk, Marriage Allowance. Read 13 November 2026.",
+)
+
+C["ola-taxa-child-benefit-venit"] = dict(
+ ro="""Dacă venitul celui care câștigă mai mult din cuplu trece de £60.000 și cineva din casă primește Child Benefit, o parte din Child Benefit se întoarce la HMRC. Se plătește prin Self Assessment.
+
+Cum crește: 1% din cât a primit casa, pentru fiecare £200 de venit peste £60.000. La £80.000 se dă înapoi tot.
+
+Partea despre care se vorbește prea puțin e alta. Poți cere Child Benefit și, separat, să oprești plățile. Rămâi înregistrat, nu primești bani, nu ai taxa de plătit — și păstrezi creditele de National Insurance care contează la State Pension. Copilul primește tot numărul de National Insurance la 16 ani. Dacă nu ceri Child Benefit deloc, creditele acelea se pierd.
+
+Se uită la venitul tău după ce se scad contribuțiile la pensie, nu la salariul brut. Pentru mulți, asta e diferența dintre a plăti și a nu plăti.
+
+Cine NU plătește taxa: oricine are venitul de £60.000 sau mai puțin. Pragul e pe persoană, nu pe gospodărie — doi părinți cu £59.000 fiecare nu plătesc nimic. Dacă ambii părinți sunt peste £60.000, o plătește doar cel cu venitul mai mare. Și unde nimeni din casă nu primește Child Benefit, taxa nu apare deloc.
+
+Se aplică în tot Regatul Unit, iar pragul de £60.000 e în vigoare din 2024/25 încoace.
+
+Vrei să te uiți la cifre împreună cu noi înainte de 31 ianuarie?""",
+ th="""Peste £60.000 dai înapoi din Child Benefit: 1% pentru fiecare £200 peste prag, iar la £80.000 dai înapoi tot. Poți însă cere Child Benefit și opri plățile — păstrezi creditele de National Insurance pentru State Pension. Pragul e pe persoană: doi părinți cu £59.000 nu plătesc.""",
+ li="""The High Income Child Benefit Charge is one of the few tax rules where the right answer is to claim a benefit you then decline to be paid.
+
+How the charge works: where the higher-earning partner has income over £60,000 and someone in the household receives Child Benefit, 1% of the Child Benefit goes back for every £200 of income above £60,000. At £80,000 the charge equals the whole of the Child Benefit. It is paid through Self Assessment.
+
+So the instinct is to not claim at all. That is the expensive answer. Claiming Child Benefit and then opting out of the payments leaves you registered, unpaid and outside the charge, while the National Insurance credits that count towards the State Pension keep accruing. The child still receives a National Insurance number at 16. Declining to claim forfeits all of that.
+
+One more point worth knowing: the test is on income after pension contributions are deducted, not gross pay. For a household near the line, that is often the difference between paying the charge and not.
+
+Who does not pay it: anyone whose income is £60,000 or less. The threshold is per person rather than per household, so two parents on £59,000 each pay nothing at all. Where both partners are over £60,000, only the higher earner pays. And where nobody in the household receives Child Benefit, the charge does not arise.
+
+UK-wide, with the £60,000 threshold in place from 2024/25 onwards.
+
+Want the figures looked at before the January deadline?""",
+ bsky="""Over £60,000, 1% of your Child Benefit goes back for every £200. At £80,000, all of it. Claim it and opt out of the payments: the National Insurance credits keep running.""",
+ pin="""The UK High Income Child Benefit Charge, explained. Where the higher-earning partner has income over £60,000 and the household receives Child Benefit, 1% goes back for every £200 above £60,000, and at £80,000 the charge equals the whole payment. It is settled through Self Assessment. The move most people miss: claim Child Benefit and opt out of the payments, keeping the National Insurance credits that count towards the State Pension. Nobody on £60,000 or less pays, and the threshold is per person, so two parents on £59,000 pay nothing.""",
+ pin_title="High Income Child Benefit Charge: the opt-out most people miss",
+ source="gov.uk, High Income Child Benefit Charge. Citit 13 noiembrie 2026.",
+ source_en="gov.uk, High Income Child Benefit Charge. Read 13 November 2026.",
+)
+
+C["ola-credite-ni-bunici"] = dict(
+ ro="""Dacă stai cu un nepot sub 12 ani cât timp părintele lui e la muncă, anii aceia pot conta la propria ta State Pension.
+
+Se numesc Specified Adult Childcare Credits. Pentru fiecare săptămână de îngrijire, chiar și începută, se acordă un credit Class 3 de National Insurance. Se poate cere pentru perioade de la 6 aprilie 2011 încoace.
+
+Ce trebuie să fie adevărat: copilul are sub 12 ani, părintele lui primește Child Benefit, iar tu aveai peste 16 ani și nu împliniseși vârsta de pensionare la momentul îngrijirii. Nu e doar pentru bunici — intră și străbunicii, mătușile, unchii, frații și surorile, inclusiv vitregi și adoptivi, și părintele care nu locuiește cu copilul.
+
+Cum se cere: formularul CA9176 se completează online, se tipărește și se trimite prin poștă la HMRC. Semnezi tu și, pe același formular, cel care primește Child Benefit. Cererea pentru un an fiscal nu se poate depune mai devreme de 31 octombrie următor, așa că merită verificat ce ani sunt deja deschiși.
+
+Cine NU poate cere: dacă primești tu Child Benefit pentru un copil, ai deja creditele automat. Dacă ai deja un an complet de National Insurance pentru perioada aceea, nu se adaugă nimic. Partenerul care locuiește cu cel care primește Child Benefit folosește formularul CF411A, nu acesta.
+
+Un singur credit se acordă pentru fiecare cerere de Child Benefit, oricâte rude au ajutat. Și creditul se mută de la părinte, nu se creează unul în plus — dacă părintele are nevoie de el, nimeni nu ar trebui să ceară.
+
+Vrei să verifici ce ani ți s-ar putea recupera?""",
+ th="""Stai cu un nepot sub 12 ani cât părintele e la muncă? Pentru fiecare săptămână de îngrijire se poate obține un credit Class 3 de National Insurance, pentru perioade de la 6 aprilie 2011. Se cere pe formularul CA9176, semnat de amândoi. Dacă primești tu Child Benefit, ai deja creditele.""",
+ li="""A gap in a National Insurance record is usually treated as a gap in a working life. Sometimes it is a year spent looking after a grandchild — and that year can still count.
+
+Specified Adult Childcare Credits award one Class 3 National Insurance credit for each week, or part week, that an eligible relative cared for a child under 12 while the child's parent was working. Periods of care from 6 April 2011 onwards remain claimable.
+
+The conditions: the child is under 12, their parent receives Child Benefit, and the carer was 16 or over, under State Pension age and ordinarily resident in the UK when the care was given. The scheme is wider than grandparents — great-grandparents, aunts, uncles, brothers and sisters including half, step and adopted, and a non-resident parent all qualify.
+
+How it is claimed: form CA9176 is completed online, printed and posted to HMRC, signed by both the carer and the Child Benefit recipient. A claim for a tax year cannot be made before the 31 October that follows it, so the open years are worth establishing before anything is signed.
+
+Who does not get it: anyone receiving Child Benefit for a child already has the credits automatically. Anyone with a qualifying year of National Insurance for the same period gains nothing. A spouse or partner living with the Child Benefit recipient uses form CF411A instead.
+
+Two things worth saying plainly. Only one credit is available per Child Benefit claim, however many relatives helped. And the credit transfers the parent's spare credit rather than creating a second one — so if the parent needs that year themselves, nobody should apply.
+
+Want to know which years are still open?""",
+ bsky="""Mind a grandchild under 12 while their parent works? The parent's spare National Insurance credit can transfer to you, for care back to 2011. Form CA9176, signed by both of you.""",
+ pin="""Specified Adult Childcare Credits, explained. A grandparent or other eligible relative who cared for a child under 12 while the parent worked can claim one Class 3 National Insurance credit for every week of care, for periods from 6 April 2011 onwards. Form CA9176 is posted to HMRC, signed by both the carer and the Child Benefit recipient. Anyone already receiving Child Benefit gets the credits automatically and does not use this route. Only one credit per Child Benefit claim, and it transfers the parent's spare credit rather than creating a new one.""",
+ pin_title="Grandparents can claim National Insurance credits for childcare",
+ source="gov.uk, Apply for Specified Adult Childcare credits, și National Insurance credits. Citit 19 noiembrie 2026.",
+ source_en="gov.uk, Apply for Specified Adult Childcare credits, and National Insurance credits. Read 19 November 2026.",
+)
+
+C["ola-uniforma-unelte"] = dict(
+ ro="""Cel mai frecvent neînțeles în toată schema asta: £60 pe an nu înseamnă £60 în mână.
+
+Dacă ești angajat și îți cumperi, speli sau repari singur uniforma ori uneltele de care ai nevoie la muncă, HMRC îți scade o sumă fixă din venitul impozabil. Suma standard e £60 pe an, dacă meseria ta nu e pe lista HMRC. La rata de bază, economia reală e £12 pe an — cifra e dată de HMRC în propriul exemplu.
+
+Unele meserii au sume mai mari: £125 pentru asistenți medicali, moașe și alte roluri medicale de pe listă, £80 pentru pompierii în uniformă, £720 pentru însoțitorii de bord, £1.022 pentru piloți.
+
+Nu ai nevoie de bonuri pentru o sumă fixă. Se poate cere online, prin formularul P87 trimis la HMRC, sau în caseta 18 din SA102 dacă depui Self Assessment. Peste £2.500 pe an, P87 nu mai e acceptat — merge pe declarația de Self Assessment.
+
+Unde e banul adevărat: se poate cere pentru 4 ani fiscali în urmă. Odată pusă în codul tău fiscal, suma se reportează de obicei singură în anii următori, deci câștigul mare e în anii din spate, nu în cel de acum.
+
+Cine NU beneficiază: dacă angajatorul plătește tot costul sau îți dă el lucrurile, nu se cere nimic. Dacă a plătit o parte, scazi mai întâi partea lui. Dacă n-ai plătit Income Tax în anul respectiv, nu ai ce recupera. Cei care lucrează pe cont propriu nu intră în această schemă; ei scad costurile reale. Iar hainele obișnuite purtate la muncă nu se scad niciodată.
+
+Vrei să verifici ce sumă ți se potrivește și care ani mai sunt deschiși?""",
+ th="""£60 pe an nu înseamnă £60 în mână: suma se scade din venitul impozabil, deci la rata de bază economia e £12. Asistenți medicali £125, pompieri £80, însoțitori de bord £720, piloți £1.022. Se poate cere pentru 4 ani în urmă. Dacă angajatorul plătește tot, nu se cere nimic.""",
+ li="""The flat rate expense for uniforms and tools is probably the most misread line in the UK employment tax code. A £60 allowance does not put £60 in your pocket.
+
+It reduces taxable pay by £60. At the 20% basic rate that is £12 of tax saved — a figure HMRC states in its own worked example. A higher rate taxpayer saves £24.
+
+Who it is for: employees taxed under PAYE who use their own money to buy, clean, repair or replace a uniform, specialist work clothing or tools needed for the job. No receipts are required for a flat rate claim.
+
+The rates: £60 where the job is not on HMRC's industry list. £125 for nurses, midwives and certain other listed health roles. £80 for uniformed fire fighters and fire officers. £720 for cabin crew. £1,022 for pilots, co-pilots, helicopter pilots and uniformed flight deck crew.
+
+How to claim: online through the HMRC job expenses service, by post on form P87, or in box 18 of SA102 for anyone filing Self Assessment. Above £2,500 of job expenses in a year, P87 cannot be used and the claim goes on a Self Assessment return.
+
+Where the money actually is: a claim can go back 4 tax years, and once HMRC puts the allowance into a tax code it usually rolls forward on its own. The real win is in the backdated years rather than the current one.
+
+Who does not get it: anyone whose employer repays the full cost or provides the item. Where the employer pays part, that part is deducted first. Anyone who paid no Income Tax in the year claimed for, because relief cannot exceed the tax paid. The self-employed are outside the scheme entirely and deduct actual costs instead. Ordinary everyday clothing worn to work is never allowable.
+
+UK-wide, with the cash value following Scottish and Welsh rates where they apply.
+
+Worth having four years checked?""",
+ bsky="""A £60 uniform allowance is not £60 — it is £12 of tax at the basic rate. Nurses £125, cabin crew £720, pilots £1,022. Four tax years can still be claimed on form P87.""",
+ pin="""UK flat rate tax relief for uniforms, work clothing and tools, explained. A £60 flat rate does not pay £60 — it cuts taxable pay by £60, saving a basic rate taxpayer £12. Listed rates go higher: £125 for nurses and midwives, £80 for uniformed fire fighters, £720 for cabin crew, £1,022 for pilots. No receipts needed, claimed online or on form P87, and a claim can go back 4 tax years. Nothing is due where the employer provides or repays the cost, or where no Income Tax was paid that year.""",
+ pin_title="Uniform and tools tax relief: what £60 is actually worth",
+ gbp="""If you buy, wash or repair your own uniform or tools for work, you may be owed tax relief for the last four years — and most people have never claimed it.
+
+Here is the part that confuses everyone. A £60 flat rate allowance does not pay you £60. It takes £60 off your taxable pay, which saves a basic rate taxpayer £12 of tax. HMRC uses that £12 figure itself.
+
+Some jobs are worth more: £125 for nurses, midwives and certain other listed health roles, £80 for uniformed fire fighters, £720 for cabin crew, £1,022 for pilots. £60 is the rate where a job is not on HMRC's list.
+
+No receipts are needed for a flat rate claim. It can be made online, by post on form P87, or on a Self Assessment return. A claim can reach back four tax years, and that is usually where the money is.
+
+Who gets nothing: anyone whose employer provides the item or repays the full cost, and anyone who paid no Income Tax in the year claimed for. The self-employed are outside this scheme and deduct their actual costs instead.
+
+Tell us your job title and we will tell you the rate and which years are still open. Call or message 0330 133 1886. The first consultation is free and lasts 30 minutes.
+
+Ola Accountancy — Luton and Birmingham.""",
+ source="gov.uk, Job expenses for uniforms, work clothing and tools. Citit 17 noiembrie 2026.",
+ source_en="gov.uk, Job expenses for uniforms, work clothing and tools. Read 17 November 2026.",
+)
+
+C["ola-section-75-card"] = dict(
+ ro="""Dacă ai plătit cu cardul de credit și firma de la care ai cumpărat nu livrează, nu repară sau te-a dus în eroare, ai aceeași pretenție și față de banca ce ți-a dat creditul. Scrie în Consumer Credit Act 1974, secțiunea 75: cel care dă creditul răspunde alături de vânzător.
+
+Asta înseamnă că poți cere toată suma de la bancă, nu doar cât ai pus efectiv pe card. Și funcționează și când vânzătorul a dat faliment — de aceea mai are rost și după ce un magazin sau o companie aeriană s-a închis.
+
+Limitele se judecă pe prețul unui singur produs: peste £100 și nu mai mult de £30.000. Nu pe cât ai plătit cu cardul. O canapea de £3.000 cumpărată cu un avans de £50 pe card e acoperită integral, pentru că prețul produsului e în limite.
+
+Cererea se face în scris, la banca sau firma care a dat creditul. Dacă e refuzată, mergi mai departe cu o plângere la firmă și apoi la Financial Ombudsman Service.
+
+Cine NU e acoperit: cardul de debit nu intră deloc, pentru că acolo nu există credit. Nu intră nici cumpărăturile în care fiecare produs costă sub £100: zece produse de £60 într-o plată de £600 rămân pe dinafară. Nici un produs de peste £30.000. Nici plățile trimise prin intermediar, în loc de direct către vânzător. Unele charge cards rămân și ele în afară.
+
+Se aplică în tot Regatul Unit.
+
+Vrei să înțelegi ce drepturi ai înainte să scrii băncii?""",
+ th="""Ai plătit cu cardul de credit și nu ai primit ce ai cumpărat? Secțiunea 75 din Consumer Credit Act face banca răspunzătoare alături de vânzător, deci poți cere toată suma de la bancă. Limitele sunt pe prețul produsului: peste £100, până la £30.000. Cardul de debit nu intră deloc.""",
+ li="""Section 75 of the Consumer Credit Act 1974 is one of the strongest consumer protections in UK law, and it is routinely misread in both directions.
+
+What it does: where a purchase is made under a debtor-creditor-supplier agreement — in practice a credit card, store card or point-of-sale credit — the creditor is jointly and severally liable with the supplier for misrepresentation or breach of contract. The same claim you have against the seller, you have against the lender. You can pursue the whole amount from the lender, not merely the part that went on the card. It is why the route still works against a retailer or an airline that has ceased trading.
+
+The limits apply to the cash price of the single item: over £100, and not more than £30,000. That is the detail that trips people up. A £3,000 sofa bought with a £50 deposit on a credit card and the balance in cash is covered in full, because the item's price sits inside the limits. Conversely, ten £60 items bought in one £600 transaction are not covered, because each single item is below the lower limit.
+
+How a claim runs: in writing to the card issuer or lender; if refused, a complaint to the firm and then to the Financial Ombudsman Service.
+
+Who is not covered: debit card purchases, because there is no credit agreement — the route there is chargeback, a card scheme rule rather than a legal right. Non-commercial agreements. Single items over £30,000. Certain running-account agreements under section 75(3)(c), which puts some charge cards outside it. And a payment routed through a third-party intermediary rather than directly to the supplier can break the debtor-creditor-supplier link altogether.
+
+UK-wide.
+
+Want the position explained before you write to the lender?""",
+ bsky="""Paid by credit card? The lender is liable alongside the seller under section 75. The limits are on the single item: over £100, up to £30,000. Debit cards get nothing.""",
+ pin="""Section 75 of the Consumer Credit Act 1974, explained. Pay for something on a credit card and the lender is jointly and severally liable with the seller for misrepresentation or breach of contract, so the whole amount can be claimed from the lender — even if the retailer has gone bust. The limits apply to the cash price of the single item: over £100 and not more than £30,000, so a £3,000 sofa with a £50 card deposit is covered in full. Debit cards get nothing, because there is no credit agreement. UK-wide.""",
+ pin_title="Section 75: your credit card company is liable too",
+ source="legislation.gov.uk, Consumer Credit Act 1974, secțiunea 75. Citit 17 noiembrie 2026.",
+ source_en="legislation.gov.uk, Consumer Credit Act 1974, section 75. Read 17 November 2026.",
+)
+
+C["bham-small-business-rate-relief"] = dict(
+ en="""A barber's chair, a takeaway counter, a unit under the arches — one property, and the business rates on it can come to nothing.
+
+It turns on the rateable value: the figure the Valuation Office Agency puts on your premises. Not your rent. Not your takings.
+
+Rated at £12,000 or less, and your only property, and you pay no business rates on it at all.
+
+Above that it tapers. The relief slides from 100% down to nothing across £12,001 to £15,000, and gov.uk gives its own examples on the way: half off at £13,500, a third off at £14,000. At £15,000 or more there is no small business rate relief left.
+
+Three things catch people out.
+
+It is not on the bill unless you ask. Business rates are not HMRC's — it is the council that grants the relief, and for premises in the city it is Birmingham City Council that takes the application.
+
+A second property does not end it straight away. Take one on or after 27 November 2025 and you keep the relief on your main property for 36 months; before that date, 12 months. After that you keep it only if no other property is rated above £2,899 and they come to under £20,000 all together.
+
+And you cannot have this and charitable rate relief at the same time.
+
+When did you last look at the rateable value on your own bill?""",
+ tt_title="No business rates at all under a £12,000 rateable value",
+ source_en="gov.uk, Business rates relief: small business rate relief, and Apply for business rate relief. Read 13 November 2026.",
+)
+
+C["bham-council-tax-reduction-apply"] = dict(
+ en="""Council tax is the bill people tell us they are quietly behind on. There is a scheme that can cut it, and plenty of people in Saltley and Small Heath have never heard of it.
+
+It is called Council Tax Reduction. If your income is low, or you are on benefits, your council can take money off your council tax bill — up to 100% of it. Working or not working, renting or buying, it makes no difference. What matters is that the bill is in your name.
+
+Two things catch people out.
+
+First: nobody applies it for you. It is not a discount that appears because the council worked out you were struggling. You apply to the council that sends the bill — Birmingham City Council, if Birmingham bills you — and it is the council, not HMRC, that grants it. Until you apply, nothing comes off.
+
+Second: there is no single national scheme. Birmingham, Sandwell, Solihull, Dudley and Walsall each write their own rules for people of working age, so the income and savings limits are genuinely different from one to the next. A friend being turned down by their council tells you nothing about yours.
+
+Two groups are outside every council's scheme by law: people subject to immigration control, and people who are not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man.
+
+This is not the Single Person Discount, and not the Disabled Band Reduction. Those are separate, and more than one can apply to the same bill.
+
+The scheme has run since April 2013, and local rules usually change each 1 April — so a no last year is not a no this year.
+
+If council tax is the bill keeping you awake, the application is this week's job.""",
+ tt_title="Council Tax Reduction: up to 100% off, but you have to ask",
+ source_en="gov.uk, Council Tax Reduction, and Apply for Council Tax Reduction. Read 13 November 2026.",
+)
+
+C["bham-funded-childcare-hours"] = dict(
+ en="""Thirty hours a week of funded childcare, from the time your child is nine months old. The part people get wrong is the earnings test, so here it is in full.
+
+The hours: 30 a week for 38 weeks of the year, for a child aged 9 months to 4 years, with a registered provider.
+
+The earnings test looks forward, not back. Each parent — and a partner, if there is one — has to expect to earn at least a minimum over the three months after applying:
+
+Over 21: £203.36 a week, £2,643.68 across the three months
+18 to 20: £173.60 a week, £2,256.80 across the three months
+Under 18 or an apprentice: £128 a week, £1,664 across the three months
+
+You can be employed or self-employed, and you can be about to start a new job.
+
+Then the ceiling. If you or your partner expect more than £100,000 of income for this tax year — adjusted net income, foreign income counted — there is nothing to claim, however little the other parent earns.
+
+How it actually happens: set up a childcare account on GOV.UK, apply from when the child is 23 weeks old, and you are issued an 11-digit code. That code goes to your provider with your National Insurance number and the child's date of birth, and the provider validates it before the place can start. Reconfirm your details every three months or the code lapses.
+
+Two more things. The provider has to be registered, and no provider is obliged to offer the funded hours — a valid code is not a guaranteed place.
+
+It is not Tax-Free Childcare, and it is not the 15 hours that go to every 3- and 4-year-old.
+
+Back at work in January? The code is the December job.""",
+ tt_title="30 funded childcare hours from 9 months: the earnings test",
+ source_en="gov.uk, Free childcare if you're working, and its eligibility page. Read 19 November 2026.",
+)
+
+C["bham-minimum-wage-2027"] = dict(
+ en="""From 1 April 2027 the legal minimum goes to £13.21 an hour.
+
+That is the National Living Wage, up from £12.71. It applies from age 21 — not 18, not 23.
+
+The other rates move with it:
+
+18 to 20: £11.27 an hour, up from £10.85
+Under 18, and the apprentice rate: £8.31 an hour, up from £8.00
+
+Nobody has to claim any of this. They are legal floors, enforced by HMRC, and the rates set in April 2026 apply until 31 March 2027.
+
+Who does not get the headline rate. Anyone aged 20 or under is not on the National Living Wage — they are on the rate for their age. An apprentice under 19, or in the first year of their apprenticeship, is on the apprentice rate rather than their age rate. And someone genuinely self-employed is not covered by any of it.
+
+One more to keep straight. The Real Living Wage you see in the news is voluntary, set by a charity, higher than these figures and not a legal rate. These are the legal ones.
+
+Why it matters in November. For a workshop, a takeaway or a care agency with ten people on the floor, 50p an hour on the top rate is real money across a year — and it lands on your employer's National Insurance and your pension contributions as well, because both are worked out on the wage. The quotes you are giving now for work next spring are already priced at the new rates, whether you did that on purpose or not.
+
+What would your wage bill look like in April if you priced it today?""",
+ tt_title="Minimum wage £13.21 from April 2027: all three rates",
+ source_en="gov.uk, National Minimum Wage and National Living Wage rates. Read 13 November 2026.",
+)
+
+C["bham-employment-allowance"] = dict(
+ en="""£10,500. That is what Employment Allowance can take off the National Insurance your business pays as the employer this year — and it is claimed, not given.
+
+What it is: a reduction of up to £10,500 in your employer's Class 1 National Insurance for 2026/27. It does not change what comes out of your staff's wages. It reduces what the business pays on top of them.
+
+How you claim it: through your payroll software, by sending HMRC an Employment Payment Summary. And it has to be done again every tax year — the claim does not roll forward, so a business that claimed once and changed nothing since may have stopped claiming without anyone noticing.
+
+Who can claim: businesses and charities paying employer's Class 1 National Insurance, where less than half the work is in or for the public sector. The old £100,000 eligibility cap was removed in April 2025, so size is no longer the question it used to be.
+
+Who cannot. The one that catches the most companies: a limited company where the sole director is the only employee paid above the Secondary Threshold — the point at which employer's National Insurance starts. A one-person company with nobody else on the payroll is out.
+
+Also out: public authorities that are not charities; all but one company in a group of connected companies; payments caught by the off-payroll working rules; and anyone employing a nanny, cleaner or gardener, unless that person is a care or support worker.
+
+Five minutes well spent: open your payroll software and check whether the claim for this tax year was actually made.
+
+Has yours been claimed for 2026/27?""",
+ tt_title="Employment Allowance: £10,500 off employer's NI, if you claim",
+ source_en="gov.uk, Claim Employment Allowance and its eligibility page; Rates and thresholds for employers 2026 to 2027. Read 13 November 2026.",
+)
+
+C["en-self-assessment-january"] = dict(
+ en="""Three things fall on 31 January 2027, not one.
+
+By 11:59pm on 31 January 2027 you have to file your 2025/26 tax return, and pay the tax owed on it. That is two.
+
+The third is the one that catches people out. On the same night, most people also pay a first instalment towards the 2026/27 tax year. HMRC calls it a payment on account, and it is half of last year's bill. So you settle 2025/26 and put down half of it again, in one go, on one date.
+
+Who does not have to make payments on account. If last year's Self Assessment bill came to under £1,000, there are none — you pay the bill and nothing more. Same if more than 80% of last year's tax had already been taken off you at source.
+
+A payment on account includes Class 4 National Insurance. It does not include Capital Gains Tax or student loan repayments.
+
+One date has already gone: the paper deadline was 31 October 2026. Filing online is the only route left for 2025/26.
+
+And if nobody sent you a notice to file and none of the rules catch you — no self-employment over £1,000, no partnership, no Capital Gains Tax, no untaxed income such as rent or dividends — there is no return for you to send at all.
+
+Do you know which of the three you owe?""",
+ tt_title="On 31 January you pay twice, not once",
+ source_en="gov.uk, Self Assessment deadlines, and Understand your Self Assessment bill: payments on account. Read 13 November 2026.",
+)
+
+C["en-cis-returns-deadline"] = dict(
+ en="""The 19th is a date your return has to arrive by, not a date you post it.
+
+If you pay subcontractors for construction work, you are a CIS contractor and you send HMRC a monthly return. It has to reach them by the 19th of the month after the tax month it covers. The 19th does not move for a weekend or a bank holiday.
+
+You file even in a month when you paid nobody — a nil return, or a notice to HMRC that you have gone quiet for a while. That is where most £100 penalties come from.
+
+What you take off a subcontractor: 20% if they are registered for CIS, 30% if they are not — and 30% as well if HMRC simply cannot match the details you have given. The deduction comes off the labour only. Materials and VAT are left out of it.
+
+The penalties stack, they do not replace each other. One day late is £100. At two months another £200. At six months and again at twelve months it is £300 each time, or 5% of the deductions on that return, whichever is more.
+
+Who does not have to file. Subcontractors. If you are the one being paid, these returns and these penalties belong to the contractor, not to you. A householder having work done on their own home is not a contractor either, and files nothing. And a contractor who has told HMRC about a period of inactivity is covered for up to 6 months.
+
+It is not only construction firms. A business outside construction that spent over £3 million on construction in the previous 12 months is a contractor too.
+
+Which months are missing?""",
+ tt_title="CIS: the 19th is the day it must arrive, not the day you post it",
+ source_en="gov.uk, What you must do as a CIS contractor: file your monthly returns, and How payments are made to CIS subcontractors. Read 13 November 2026.",
+)
+
+C["en-vat-thresholds"] = dict(
+ en="""£90,000 is not a tax-year figure and it is not your profit.
+
+You register for VAT when your taxable turnover goes over £90,000 in any twelve months in a row. Any consecutive twelve, checked every month, rolling. Not the tax year. Not your accounting year. And turnover is the value of your sales before any costs come off, not what you are left with.
+
+There is a second test that works the other way. If you expect to take £90,000 in the next 30 days alone, you register straight away. One large contract can trigger it on its own, in a year that would otherwise be nowhere near.
+
+Timing on the look-back test: you have 30 days from the end of the month you went over to get registered.
+
+Which sales count: zero-rated sales do count, even though you charge no VAT on them. Exempt sales and sales outside the scope of VAT do not.
+
+Who does not have to register. A business selling only things that are VAT exempt or outside the scope of VAT never has to, whatever its turnover. At £90,000 or below nobody makes you, though you may still choose to register. And a business whose sales are wholly or mainly zero-rated can apply to be let off registering altogether.
+
+Going the other way: if you are registered and your turnover has dropped below £88,000, you may ask HMRC to cancel it.
+
+These figures have not moved since 1 April 2024, and Budget 2026 confirmed they stay put for April 2026 and April 2027.
+
+Have you added up your last twelve months?""",
+ tt_title="£90,000 is any twelve months in a row, and it is not your profit",
+ source_en="gov.uk, Register for VAT, Cancel your VAT registration, and VAT registration: when to register. Read 13 November 2026.",
+)
+
+C["en-late-filing-penalties"] = dict(
+ en="""Companies House is not HMRC. It has its own deadline for your annual accounts, and its own penalty when they turn up late.
+
+One day late: £150. More than a month late: £375. More than three months: £750. More than six months: £1,500. Those are the amounts for a private limited company or an LLP.
+
+The part most directors never hear: the penalty is doubled if accounts are filed late in two financial years in a row. More than six months late twice, and £1,500 becomes £3,000.
+
+Nobody at Companies House chooses to charge you. The law imposes the penalty automatically once accounts are delivered after the deadline, and the directors — or an LLP's designated members — are the people responsible for getting them in on time.
+
+A public company sits on a different and higher scale: £750, £1,500, £3,000, £7,500.
+
+Two things this is not. It is not the penalty for a late confirmation statement. And it is not HMRC's penalty for a late Company Tax Return — that is a separate charge on top of this one. Being dormant does not help either: a dormant company faces the same late filing penalties as a trading one.
+
+If you are not certain when your accounts are due, or last year's went in late, we will look at the dates with you.
+
+Do you know the date your accounts are due?""",
+ tt_title="Accounts one day late? Companies House charges £150",
+ source_en="gov.uk, Late filing penalties (Companies House), and Annual accounts: penalties for late filing. Read 14 November 2026.",
+)
+
+C["en-mtd-income-tax"] = dict(
+ en="""The return you are filing right now decides whether April 2027 applies to you.
+
+Making Tax Digital for Income Tax uses a two-year look-back. Your start date on 6 April 2027 is set by the 2025/26 figures going onto the return being filed this winter.
+
+The test is qualifying income, and it catches people out twice over. First, it is gross — your sales and your rent before a single pound of expenses comes off. Second, the two sources are added together, so a small trade plus one let flat can clear the line when neither would on its own.
+
+The three start dates: qualifying income over £50,000 in 2024/25 came in on 6 April 2026. Over £30,000 in 2025/26 comes in on 6 April 2027. Over £20,000 in 2026/27 comes in on 6 April 2028.
+
+Once you are in, you keep digital records and send HMRC an update every quarter through compatible software, then make a final declaration at the end of the year.
+
+Who is not caught. Qualifying income of £20,000 or less and you are exempt automatically — there is nothing to apply for. Partnerships are not in yet. Employees and company directors with no self-employment or property income are outside it entirely, and limited company profits stay under Corporation Tax. Further exemptions exist beyond those, including for foster and kinship carers.
+
+One thing being exempt does not do: it does not remove the ordinary Self Assessment return. That one still has to be filed as usual.
+
+Which figures are on your 2025/26 return?""",
+ tt_title="The return you file now decides if April 2027 catches you",
+ source_en="gov.uk, Check if you're eligible for Making Tax Digital for Income Tax, and Find out if and when you need to use it. Read 13 November 2026.",
+)
+
+
+# 19 Nov 2026 20:12 UTC. assert_lengths() died with KeyError('source') before it
+# could measure a single caption. Five ARCHIVE entries from an earlier day carry
+# source_en but no Romanian `source`, and ro_caption() reads `source` with no
+# fallback while li_caption() has one. Nothing about tonight's posts, and nothing
+# published changes: the Romanian source line is filled from the English one that
+# is already there, so the gate can run over the whole table. The text of each
+# source, and every date in it, is untouched.
+# Five of them have no source line of any kind, so it is built from the topic's
+# own SOURCES list — the URLs and read-dates the morning agent verified. Nothing
+# is invented and no date is altered.
+for _slug, _c in C.items():
+    if "source" not in _c:
+        if "source_en" in _c:
+            _c["source"] = _c["source_en"]
+        else:
+            _t = topics.BY_SLUG.get(_slug, {})
+            _urls = []
+            for _src in (_t.get("SOURCES") or []):
+                if len(_src) > 1 and _src[1] not in _urls:
+                    _urls.append(_src[1])
+            _read = ""
+            for _src in (_t.get("SOURCES") or []):
+                if len(_src) > 2 and _src[2]:
+                    _read = _src[2]; break
+            if _urls:
+                _c["source"] = ", ".join(_urls) + (f". Citit {_read}." if _read else "")
+                _c.setdefault("source_en", ", ".join(_urls) + (f". Read {_read}." if _read else ""))

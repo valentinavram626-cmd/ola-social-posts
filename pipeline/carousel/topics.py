@@ -12073,3 +12073,936 @@ DAY = [t for t in DAY if t["slug"] != "ola-tva-haine-copii"]
 # Rebuild the index so the six cut carousels leave the gates: preflight.py reads
 # BY_SLUG, and it was still holding all fifteen from before the cut.
 BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
+
+
+# ===================================================================== 20 Nov 2026
+# Tonight's set: 15 carousels (5 per brand) and 9 single-image posts (3 per brand).
+# Every figure comes from content/bank.json, verified at primary source by the
+# 09:41 research agent. The evening run does not research.
+#
+# en-confirmation-statement-2027 was WRITTEN and then HELD before build: the
+# duplication check found en-confirmation-statement already published on ~13 Nov
+# and still in ARCHIVE, so the subject repeats inside 12 weeks. Replaced with
+# en-late-filing-penalties. The bank's `used` list for that subject was EMPTY,
+# which is why availability did not catch it — see the report.
+
+OLA_TRANSFER_ALOCATIE = dict(
+  slug="ola-transfer-alocatie", brand="ola",
+  title="Marriage Allowance — cine transferă și cine nu poate cere",
+  tags_ro="#marriageallowance #personalallowance #hmrc #impozit #romaniinuk",
+  tags_en="#marriageallowance #personalallowance #incometax #hmrc #ukaccountant",
+  RO=[
+    dict(type="hook", kicker="Marriage Allowance · 2026/27",
+         h1="Până la <em>£252</em> pe an, dacă unul câștigă puțin.",
+         say="Dacă unul dintre soți nu plătește Income Tax și celălalt e pe rata de bază, o parte din alocația personală se poate muta. Cererea o face cel care câștigă mai puțin — aici se greșește cel mai des."),
+    dict(type="step", step="Cât se transferă", fig="<cur>£</cur>1.260",
+         say="Cel cu venitul mai mic transferă £1.260 din alocația personală către partener. Impozitul celuilalt scade cu până la £252 într-un an fiscal.",
+         note="Cererea e gratuită, se depune pe gov.uk și se reînnoiește singură până o anulezi."),
+    dict(type="step", step="Cine NU poate cere", fig="<cur>£</cur>50.270",
+         say="Dacă cel care câștigă mai mult trece de £50.270, nu se poate cere. Iar cuplurile care locuiesc împreună fără căsătorie sau parteneriat civil nu intră deloc.",
+         note="În Scoția limita e £43.662. Nici cine primește deja Married Couple's Allowance nu poate cere."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Marriage Allowance · 2026/27",
+    h1="Vrei să știi dacă <em>ți se aplică</em>?",
+    say="Scrie-ne un mesaj și verificăm condițiile și anii care se mai pot cere. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Marriage Allowance · 2026/27",
+         h1="A couple can keep up to <em>£252</em> a year.",
+         say="It applies where one spouse pays no Income Tax and the other pays the basic rate. The claim is made by the lower earner, which is where most of them go wrong."),
+    dict(type="step", step="What moves", fig="<cur>£</cur>1,260",
+         say="The lower earner transfers £1,260 of their Personal Allowance. That takes up to £252 off the other partner's Income Tax for the tax year.",
+         note="A claim can also reach back to 6 April 2022, for any year both conditions were met."),
+    dict(type="step", step="Who does NOT qualify", fig="<cur>£</cur>50,270",
+         say="Nobody qualifies where the higher earner is above £50,270. And couples who live together without being married or in a civil partnership cannot claim at all.",
+         note="In Scotland the figure is £43,662. Married Couple's Allowance cannot be held alongside it."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Marriage Allowance · 2026/27",
+    h1="Worth <em>checking</em> for your household?",
+    say="Message us and we will confirm the conditions and which years are still open. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("£1,260 of Personal Allowance transferred by the lower earner, and the up-to-£252 Income Tax saving for the couple",
+     "https://www.gov.uk/marriage-allowance", "2026-11-13"),
+    ("Backdating to 6 April 2022, the basic-rate condition, the £50,270 and Scottish £43,662 limits, and the Married Couple's Allowance exclusion",
+     "https://www.gov.uk/marriage-allowance", "2026-11-13"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK — Income Tax; in Scotland the receiving partner must be on the starter, basic or intermediate rate.",
+    category="Married couples and civil partners where one pays no Income Tax and the other pays the basic rate.",
+    excluded="Couples living together but not married or in a civil partnership. Anyone already claiming Married Couple's Allowance. A higher earner above the basic rate — above £50,270, or above £43,662 for a Scottish taxpayer.",
+    from_when="Current for 2026/27, with backdating to 2022/23. Not automatic — the lower earner applies, free, on gov.uk, and it then renews until cancelled."),
+)
+
+OLA_TAXA_CHILD_BENEFIT_VENIT = dict(
+  slug="ola-taxa-child-benefit-venit", brand="ola",
+  title="High Income Child Benefit Charge — și cum se păstrează anii de pensie",
+  tags_ro="#childbenefit #hmrc #selfassessment #statepension #romaniinuk",
+  tags_en="#childbenefit #hmrc #selfassessment #statepension #ukaccountant",
+  RO=[
+    dict(type="hook", kicker="High Income Child Benefit Charge · 2026/27",
+         h1="Peste <em>£60.000</em> dai înapoi din Child Benefit.",
+         say="Pentru fiecare £200 peste £60.000 se dă înapoi 1% din cât a primit casa. La £80.000 se dă înapoi tot. Se uită la venitul celui care câștigă mai mult din cuplu."),
+    dict(type="step", step="Cum păstrezi anii de pensie", fig="State Pension",
+         say="Ceri Child Benefit, dar oprești plățile. Rămâi înregistrat, nu ai taxa de plătit și păstrezi creditele de National Insurance care contează la State Pension.",
+         note="Copilul primește tot numărul de National Insurance la 16 ani. Dacă nu ceri deloc, creditele acelea se pierd."),
+    dict(type="step", step="Cine NU plătește taxa", fig="<cur>£</cur>60.000",
+         say="Dacă venitul tău, după ce se scad contribuțiile la pensie, e £60.000 sau mai puțin, nu plătești nimic. Pragul e pe persoană: doi părinți cu £59.000 fiecare nu plătesc.",
+         note="Dacă ambii părinți sunt peste £60.000, o plătește doar cel cu venitul mai mare. Unde nimeni din casă nu primește Child Benefit, taxa nu apare."),
+  ],
+  CTA_RO=dict(type="cta", kicker="High Income Child Benefit Charge · 2026/27",
+    h1="Nu ești sigur dacă <em>te privește</em>?",
+    say="Scrie-ne un mesaj și ne uităm la venit, la Child Benefit și la ce e de declarat. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="High Income Child Benefit Charge · 2026/27",
+         h1="Over <em>£60,000</em> you start paying Child Benefit back.",
+         say="For every £200 of income above £60,000, 1% of what the household received goes back. At £80,000 it is all of it. The test falls on whichever partner earns more."),
+    dict(type="step", step="Keeping the pension years", fig="State Pension",
+         say="Claim Child Benefit, then opt out of the payments. You stay registered, the charge does not arise, and the National Insurance credits that count towards your State Pension keep running.",
+         note="The child still receives a National Insurance number at 16. Not claiming at all forfeits those credits."),
+    dict(type="step", step="Who does NOT pay the charge", fig="<cur>£</cur>60,000",
+         say="Nobody pays where their income, after pension contributions come off, is £60,000 or less. The threshold is per person: two parents on £59,000 each pay nothing.",
+         note="Where both parents are over £60,000, only the higher earner pays. Where nobody in the household receives Child Benefit, the charge does not arise."),
+  ],
+  CTA_EN=dict(type="cta", kicker="High Income Child Benefit Charge · 2026/27",
+    h1="Unsure whether <em>it applies</em>?",
+    say="Message us and we will look at the income, the Child Benefit and what has to be reported. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("The £60,000 income level at which the charge starts, the 1% for every £200 above it, and the £80,000 point at which it equals all the Child Benefit received",
+     "https://www.gov.uk/child-benefit-tax-charge", "2026-11-13"),
+    ("Claiming Child Benefit and opting out of the payments to keep the National Insurance credits, and paying the charge through Self Assessment",
+     "https://www.gov.uk/child-benefit-tax-charge", "2026-11-13"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK — HMRC, no devolved variation.",
+    category="Whichever partner has the higher adjusted net income, where that is over £60,000 and someone in the household receives Child Benefit.",
+    excluded="Anyone with adjusted net income of £60,000 or less. Where both partners are over £60,000, only the higher earner pays it. A household where nobody receives Child Benefit at all.",
+    from_when="The £60,000 threshold applies from 2024/25 onwards, including this year. Not automatic — the charge is reported and paid through Self Assessment."),
+)
+
+OLA_CREDITE_NI_BUNICI = dict(
+  slug="ola-credite-ni-bunici", brand="ola",
+  title="Specified Adult Childcare Credits — creditele de pensie pentru cine stă cu copilul",
+  tags_ro="#statepension #nationalinsurance #childbenefit #hmrc #romaniinuk",
+  tags_en="#statepension #nationalinsurance #childbenefit #hmrc #ukaccountant",
+  RO=[
+    dict(type="hook", kicker="Specified Adult Childcare Credits · HMRC",
+         h1="Ai în grijă un nepot? <em>Un credit</em> pe săptămână.",
+         say="Dacă un copil sub 12 ani e în grija ta cât părintele e la muncă, poți primi credite de National Insurance care contează la propria ta State Pension. Se cere, nu vine singur."),
+    dict(type="step", step="Cât și de când", fig="6 aprilie 2011",
+         say="Se acordă un credit Class 3 pentru fiecare săptămână de îngrijire, chiar și începută. Se poate cere pentru perioade de la 6 aprilie 2011 încoace.",
+         note="Un singur credit pentru fiecare cerere de Child Benefit, oricâte rude au ajutat. Se cere pe formularul CA9176, trimis prin poștă la HMRC."),
+    dict(type="step", step="Cine NU poate cere", fig="Child Benefit",
+         say="Dacă primești tu Child Benefit pentru un copil, ai deja creditele automat. Și dacă ai deja un an complet de National Insurance pentru perioada aceea, nu se adaugă nimic.",
+         note="Creditul se mută de la părinte, nu se creează unul în plus — dacă părintele are nevoie de el, nimeni nu ar trebui să ceară."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Specified Adult Childcare Credits · HMRC",
+    h1="Vrei să știi <em>ce ani</em> se mai pot cere?",
+    say="Scrie-ne un mesaj și verificăm anii deschiși și cine ar trebui să depună cererea. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Specified Adult Childcare Credits · HMRC",
+         h1="Mind a grandchild? <em>One credit</em> a week.",
+         say="Where a child under 12 is in your care while their parent works, the parent's unused National Insurance credit can come to you instead, towards your own State Pension."),
+    dict(type="step", step="How much, and how far back", fig="6 April 2011",
+         say="One Class 3 National Insurance credit for every week of care, part weeks included. Periods of care from 6 April 2011 onwards can still be claimed.",
+         note="One credit per Child Benefit claim, however many relatives helped. Form CA9176 is printed and posted to HMRC, signed by both of you."),
+    dict(type="step", step="Who does NOT get it", fig="Child Benefit",
+         say="Anyone receiving Child Benefit for a child already has the credits automatically. And anyone with a qualifying year of National Insurance for the same period gains nothing.",
+         note="The credit moves the parent's spare credit across rather than creating a second one. If the parent needs that year themselves, nobody should apply."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Specified Adult Childcare Credits · HMRC",
+    h1="Want to know <em>which years</em> are open?",
+    say="Message us and we will work out the open years and who should sign the form. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("One Class 3 National Insurance credit for each week or part week of care, the child being under 12, credits available from 6 April 2011, one credit per Child Benefit claim, form CA9176 and the 31 October application date",
+     "https://www.gov.uk/guidance/apply-for-specified-adult-childcare-credits", "2026-11-19"),
+    ("The carer being 16 or over and under State Pension age at the time the care was given",
+     "https://www.gov.uk/national-insurance-credits/eligibility", "2026-11-19"),
+  ],
+  SCOPE=dict(
+    nation="All of the UK — National Insurance credits; distinct from Carer's Credit, which is Great Britain only.",
+    category="An eligible family member who cared for a child under 12 — a non-resident parent, grandparent, great-grandparent, aunt, uncle, brother or sister including half, step and adopted, and certain spouses, partners and children of those relatives. The carer must have been 16 or over, under State Pension age and ordinarily resident in the UK.",
+    excluded="Anyone who already has a qualifying year of National Insurance for the same period. Anyone receiving Child Benefit for any child, who therefore already gets credits automatically. People ordinarily resident in the Channel Islands or the Isle of Man. A spouse, partner or civil partner living with the Child Benefit recipient uses form CF411A instead, not this route.",
+    from_when="Credits are available for periods of care from 6 April 2011 onwards. Not automatic — form CA9176 is signed by both the carer and the Child Benefit recipient, and an application cannot be made until the 31 October following the end of the tax year claimed for."),
+)
+
+OLA_UNIFORMA_UNELTE = dict(
+  slug="ola-uniforma-unelte", brand="ola",
+  title="Suma fixă pentru uniformă și unelte — cât se economisește cu adevărat",
+  tags_ro="#uniforma #p87 #hmrc #impozit #romaniinuk",
+  tags_en="#p87 #uniformtaxrelief #hmrc #paye #ukaccountant",
+  GBP=True,
+  RO=[
+    dict(type="hook", kicker="Flat Rate Job Expenses · 2026/27",
+         h1="<em>£60</em> pe an nu înseamnă £60 în mână.",
+         say="Dacă îți cumperi, speli sau repari singur uniforma ori uneltele de care ai nevoie la muncă, se scad £60 din venitul impozabil. La rata de bază, economia reală e £12 pe an."),
+    dict(type="step", step="Suma pe meserie", fig="<cur>£</cur>125",
+         say="£60 e suma standard, dacă meseria ta nu e pe lista HMRC. Asistenții medicali și moașele au £125, pompierii în uniformă £80, însoțitorii de bord £720, piloții £1.022.",
+         note="Se poate cere pentru 4 ani fiscali în urmă. Peste £2.500 pe an nu se mai folosește formularul P87, ci declarația de Self Assessment."),
+    dict(type="step", step="Cine NU beneficiază", fig="<cur>£</cur>0",
+         say="Dacă angajatorul plătește tot costul sau îți dă el lucrurile, nu se cere nimic. Dacă a plătit o parte, scazi mai întâi partea lui. Fără Income Tax plătit în anul acela, nu ai ce recupera.",
+         note="Cei care lucrează pe cont propriu nu intră în această schemă; ei scad costurile reale. Hainele obișnuite purtate la muncă nu se scad niciodată."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Flat Rate Job Expenses · 2026/27",
+    h1="Vrei să verifici <em>ultimii 4 ani</em>?",
+    say="Scrie-ne un mesaj cu meseria ta și ne uităm la sumă și la anii care se mai pot cere. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Flat Rate Job Expenses · 2026/27",
+         h1="A <em>£60</em> allowance is not £60 in your pocket.",
+         say="If you buy, wash or repair your own uniform or tools for work, £60 comes off your taxable pay. At the basic rate that is £12 of tax saved — HMRC's own worked example."),
+    dict(type="step", step="The rate for the job", fig="<cur>£</cur>125",
+         say="£60 is the default where the job is not on HMRC's list. Nurses and midwives are on £125, uniformed fire fighters £80, cabin crew £720, pilots £1,022.",
+         note="A claim can go back 4 tax years. Above £2,500 in a year, form P87 cannot be used and the claim goes on a Self Assessment return."),
+    dict(type="step", step="Who does NOT get it", fig="<cur>£</cur>0",
+         say="Nothing is due where the employer repays the full cost or provides the item. Where the employer pays part, that part comes off first. And relief cannot exceed the tax you paid.",
+         note="The self-employed are outside the scheme altogether and deduct actual costs instead. Everyday clothing worn to work is never allowable."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Flat Rate Job Expenses · 2026/27",
+    h1="Worth <em>four years</em> of checking?",
+    say="Send us your job title and we will tell you the rate and which years are still open. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("The £60 default flat rate, the £12 of tax it saves at the basic rate, and the listed rates of £125 for nurses and midwives, £80 for fire fighters, £720 for cabin crew and £1,022 for pilots",
+     "https://www.gov.uk/guidance/job-expenses-for-uniforms-work-clothing-and-tools", "2026-11-17"),
+    ("The £2,500 limit on a form P87 claim and the 4-tax-year time limit for claiming",
+     "https://www.gov.uk/guidance/send-an-income-tax-relief-claim-for-job-expenses-by-post-or-phone", "2026-11-17"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide Income Tax relief; the cash value differs because Scottish and Welsh taxpayers relieve it at their own rates.",
+    category="Employees taxed under PAYE who use their own money to buy, clean, repair or replace a uniform, specialist work clothing or tools they need for the job and use only for work. No receipts are needed for a flat rate claim.",
+    excluded="Anyone whose employer repays the full cost or provides the item instead gets nothing — and if the employer pays part, that part is deducted first. Anyone who paid no Income Tax in the year claimed for gets nothing, because relief cannot exceed the tax paid. The self-employed are outside the scheme entirely and deduct actual costs as business expenses. A claim over £2,500 in a year cannot use form P87. Ordinary everyday clothing worn to work is never allowable.",
+    from_when="Flat rates are set per tax year and apply for 2026-27 (6 April 2026 to 5 April 2027). Not automatic — claimed online, on form P87 by post, or in box 18 of SA102."),
+)
+
+OLA_SECTION_75_CARD = dict(
+  slug="ola-section-75-card", brand="ola",
+  title="Secțiunea 75 — banca răspunde alături de vânzător",
+  tags_ro="#cardcredit #drepturileconsumatorului #section75 #bani #romaniinuk",
+  tags_en="#section75 #consumerrights #creditcards #chargeback #ukaccountant",
+  RO=[
+    dict(type="hook", kicker="Section 75 · Consumer Credit Act 1974",
+         h1="Plătit cu cardul de credit? Răspunde și <em>banca</em>.",
+         say="Dacă vânzătorul nu livrează sau te-a dus în eroare, ai aceeași pretenție și față de cel care ți-a dat creditul. Funcționează și după ce firma s-a închis."),
+    dict(type="step", step="Limitele, pe produs", fig="<cur>£</cur>100 – <cur>£</cur>30.000",
+         say="Se uită la prețul unui singur produs: peste £100 și nu mai mult de £30.000. Poți cere toată suma de la bancă, nu doar cât ai pus pe card.",
+         note="O canapea de £3.000 cu avans de £50 pe card e acoperită integral — contează prețul produsului, nu cât a trecut prin card."),
+    dict(type="step", step="Cine NU e acoperit", fig="Card de debit",
+         say="Cardul de debit nu intră deloc, pentru că acolo nu există credit. Nici cumpărăturile în care fiecare produs e sub £100: zece produse de £60 într-o plată de £600 rămân pe dinafară.",
+         note="Nici un produs de peste £30.000. Nici plățile trimise prin intermediar, în loc de direct către vânzător. Unele charge cards rămân și ele în afară."),
+  ],
+  CTA_RO=dict(type="cta", kicker="Section 75 · Consumer Credit Act 1974",
+    h1="Vrei să știi <em>unde te adresezi</em>?",
+    say="Scrie-ne un mesaj și îți spunem ce prevede legea și cui se trimite cererea. Fără obligații.",
+    phone=PHONE, disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+  EN=[
+    dict(type="hook", kicker="Section 75 · Consumer Credit Act 1974",
+         h1="Paid by credit card? The <em>lender</em> is liable too.",
+         say="If the seller misled you or never delivered, you have the same claim against whoever gave you the credit. It still works once the retailer has stopped trading."),
+    dict(type="step", step="The limits, per item", fig="<cur>£</cur>100 – <cur>£</cur>30,000",
+         say="The test is the cash price of the single item: over £100, and not more than £30,000. You can claim the whole amount from the lender, not just what went on the card.",
+         note="A £3,000 sofa bought with a £50 deposit on the card is covered in full. It is the item's price that counts, not the amount charged."),
+    dict(type="step", step="Who is NOT covered", fig="Debit cards",
+         say="Debit cards get nothing here, because there is no credit agreement. Nor does a purchase where each single item is under £100 — ten £60 items in one £600 payment fall outside it.",
+         note="Nor a single item over £30,000, nor a payment routed through a third-party intermediary rather than the supplier. Some charge cards sit outside it."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Section 75 · Consumer Credit Act 1974",
+    h1="Want to know <em>where to write</em>?",
+    say="Message us and we will point you to what the Act says and who the claim goes to. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("Section 75(1): the creditor is jointly and severally liable with the supplier, so the whole claim can be brought against the lender",
+     "https://www.legislation.gov.uk/ukpga/1974/39/section/75", "2026-11-17"),
+    ("Section 75(3)(b) and (c): the over-£100 and not-more-than-£30,000 limits on a single item's cash price, and the excluded running-account agreements",
+     "https://www.legislation.gov.uk/ukpga/1974/39/section/75", "2026-11-17"),
+  ],
+  SCOPE=dict(
+    nation="UK-wide — Consumer Credit Act 1974.",
+    category="A debtor under a debtor-creditor-supplier agreement within section 12(b) or (c) — in practice a credit card, store card or point-of-sale credit purchase — who has a claim against the supplier for misrepresentation or breach of contract.",
+    excluded="Claims under a non-commercial agreement. Claims relating to any single item with a cash price not exceeding £100, or more than £30,000 — so a £95 item and a £40,000 item are both outside section 75. Certain running-account credit agreements under section 75(3)(c), which puts charge cards of that kind outside it. Debit cards are not covered at all, because there is no credit agreement; and a payment made through a third-party intermediary rather than directly to the supplier can break the debtor-creditor-supplier link.",
+    from_when="In force; Consumer Credit Act 1974. Not automatic — the claim is made in writing to the card issuer or lender, and if refused goes to the firm's complaints process and then the Financial Ombudsman Service."),
+)
+
+BHAM_SMALL_BUSINESS_RATE_RELIEF = dict(
+  slug="bham-small-business-rate-relief", brand="bham",
+  title="Small Business Rate Relief — no rates under a £12,000 rateable value, and the taper to £15,000",
+  tags_ro="",
+  tags_en="#Birmingham #WestMidlands #BusinessRates #SmallBusiness #Saltley",
+  EN=[
+    dict(type="hook", kicker="Small Business Rate Relief · gov.uk",
+         h1="One property rated at <em>£12,000</em>? No business rates.",
+         say="Rateable value is the figure the Valuation Office Agency puts on your premises. It is not your rent and not your takings. If your only property is rated at <cur>£</cur>12,000 or less, you pay no business rates on it."),
+    dict(type="step", step="Between £12,000 and £15,000", fig="50% off at <cur>£</cur>13,500",
+         say="Above <cur>£</cur>12,000 the relief slides down from 100% to nothing. gov.uk's own examples inside that band: half off at <cur>£</cur>13,500, a third off at <cur>£</cur>14,000. At <cur>£</cur>15,000 it has run out.",
+         note="It is the council that grants this, not HMRC, and for premises in the city Birmingham City Council takes the application."),
+    dict(type="step", step="Who does not get it", fig="<cur>£</cur>15,000",
+         say="A property rated at <cur>£</cur>15,000 or more gets no small business rate relief at all. Nor can you have it at the same time as charitable rate relief.",
+         note="With more than one property, no other may be rated above <cur>£</cur>2,899 and they must come to under <cur>£</cur>20,000 all together."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Is your rateable value under <em>£15,000</em>?",
+    say="Send us the rateable value off your bill and tell us how many properties you use. We will tell you what to claim and where. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("100% relief at a rateable value of £12,000 or less", "https://www.gov.uk/apply-for-business-rate-relief/small-business-rate-relief", "2026-11-13"),
+    ("the £12,001 to £15,000 taper, and gov.uk's worked examples of 50% at £13,500 and 33% at £14,000", "https://www.gov.uk/apply-for-business-rate-relief/small-business-rate-relief", "2026-11-13"),
+    ("the £2,899 and £20,000 limits on other properties, and that you apply to the billing authority", "https://www.gov.uk/apply-for-business-rate-relief/small-business-rate-relief", "2026-11-13"),
+    ("who the relief is for and that charitable rate relief cannot be held alongside it", "https://www.gov.uk/business-rates-relief/small-business-rate-relief", "2026-11-13"),
+  ],
+  SCOPE=dict(nation="England", category="Small Business Rate Relief (business rates)",
+    excluded="Properties with a rateable value of £15,000 or more. Businesses whose other properties breach the £2,899 or £20,000 limits. Businesses already receiving charitable rate relief.",
+    from_when="Ongoing. Second properties taken on from 27 November 2025 keep relief for 36 months rather than 12."),
+)
+
+BHAM_COUNCIL_TAX_REDUCTION_APPLY = dict(
+  slug="bham-council-tax-reduction-apply", brand="bham",
+  title="Council Tax Reduction — up to 100% off the bill, and nobody applies it for you",
+  tags_ro="",
+  tags_en="#Birmingham #WestMidlands #CouncilTax #Saltley #SmallHeath",
+  EN=[
+    dict(type="hook", kicker="Council Tax Reduction · gov.uk",
+         h1="Low income? Up to <em>100%</em> off your council tax.",
+         say="If the council tax bill is in your name and your income is low, or you are on benefits, the council can take money off it — up to the whole bill. Owning or renting makes no difference, and nor does being in work."),
+    dict(type="step", step="You have to ask for it", fig="Your own council",
+         say="You apply to the council that sends your bill, and it is the council that grants it, not HMRC. Birmingham City Council takes the applications for Birmingham. Until you apply, nothing comes off.",
+         note="The scheme has run since April 2013, and local rules usually change each 1 April — so a no last year is not a no this year."),
+    dict(type="step", step="Who does not get it", fig="No national rule",
+         say="There is no national income or savings limit. Birmingham, Sandwell, Solihull, Dudley and Walsall each write their own working-age rules, so a friend being turned down next door tells you nothing.",
+         note="The law keeps out people subject to immigration control, and people not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Could your <em>council tax</em> bill come down?",
+    say="Tell us which council bills you and roughly what comes into the house each month. We will point you at the right form and what it asks for. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("a council tax bill can be reduced by up to 100% under a local scheme", "https://www.gov.uk/council-tax-reduction", "2026-11-13"),
+    ("who can apply, that you apply to your own council, and that it is not applied to the bill automatically", "https://www.gov.uk/apply-council-tax-reduction", "2026-11-13"),
+    ("the groups excluded by law from every council's scheme, and that each council sets its own working-age rules", "https://www.gov.uk/council-tax-reduction", "2026-11-13"),
+  ],
+  SCOPE=dict(nation="England", category="Council Tax Reduction (local council tax support)",
+    excluded="People subject to immigration control, and people not habitually resident in the UK, Ireland, the Channel Islands or the Isle of Man, are excluded by law from every council's scheme. Beyond that each council sets its own working-age rules, so income and savings limits differ by council.",
+    from_when="In force since April 2013. Local rules usually change each 1 April."),
+)
+
+BHAM_FUNDED_CHILDCARE_HOURS = dict(
+  slug="bham-funded-childcare-hours", brand="bham",
+  title="30 funded childcare hours from 9 months — the earnings test and the £100,000 ceiling",
+  tags_ro="",
+  tags_en="#Birmingham #WestMidlands #Childcare #WorkingParents #FundedHours",
+  EN=[
+    dict(type="hook", kicker="Funded childcare for working parents · gov.uk",
+         h1="<em>30 hours</em> of funded childcare from 9 months old.",
+         say="Working parents of a child aged 9 months to 4 years can get 30 hours a week, for 38 weeks of the year, with a registered provider. You apply for it — it does not arrive with the nursery place."),
+    dict(type="step", step="What each parent must expect to earn", fig="<cur>£</cur>203.36 a week",
+         say="Each parent over 21 must expect to earn at least that over the three months after applying, <cur>£</cur>2,643.68 in all. It is <cur>£</cur>173.60 a week at 18 to 20, and <cur>£</cur>128 under 18 or on an apprenticeship.",
+         note="Apply once the child is 23 weeks old, give the 11-digit code to your provider, then reconfirm your details every three months or the code lapses."),
+    dict(type="step", step="Who does not get it", fig="<cur>£</cur>100,000",
+         say="If you or your partner expect more than <cur>£</cur>100,000 of income this tax year — adjusted net income, foreign income counted — there is nothing to claim. Earning under the minimum for your age rules it out too.",
+         note="An unregistered provider does not count, and no provider is obliged to offer the hours, so a valid code is not a guaranteed place."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Not sure your earnings clear the <em>minimum</em>?",
+    say="Tell us how you are paid and what the next three months look like. We will work out whether you meet the earnings test before you apply. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("30 hours a week for 38 weeks a year for a child aged 9 months to 4 years", "https://www.gov.uk/free-childcare-if-working/check-youre-eligible", "2026-11-19"),
+    ("the minimum each parent must expect to earn: £2,643.68 over 3 months / £203.36 a week over 21, £2,256.80 / £173.60 at 18 to 20, £1,664 / £128 under 18 or an apprentice", "https://www.gov.uk/free-childcare-if-working/check-youre-eligible", "2026-11-19"),
+    ("the £100,000 adjusted net income ceiling, foreign income included, for the current tax year", "https://www.gov.uk/free-childcare-if-working/check-youre-eligible", "2026-11-19"),
+    ("applying from 23 weeks old, the 11-digit code validated by the provider, and reconfirming every 3 months", "https://www.gov.uk/free-childcare-if-working", "2026-11-19"),
+  ],
+  SCOPE=dict(nation="England", category="Funded childcare hours for working parents",
+    excluded="Anyone whose child does not usually live with them; anyone where the parent or their partner expects adjusted net income over £100,000 for the current tax year, foreign income included; anyone earning below the minimum for their age; anyone without a National Insurance number; anyone using an unregistered provider. Providers are not obliged to offer the hours, so a place is not guaranteed even with a valid code. Parents in Scotland, Wales and Northern Ireland are not covered.",
+    from_when="Ongoing. Entitlement starts the term after the child reaches the qualifying age; a place cannot start until the code has been validated by the provider."),
+)
+
+BHAM_MINIMUM_WAGE_2027 = dict(
+  slug="bham-minimum-wage-2027", brand="bham",
+  title="Minimum wage from 1 April 2027 — £13.21, £11.27 and £8.31, and who is on which",
+  tags_ro="",
+  tags_en="#Birmingham #WestMidlands #MinimumWage #Payroll #SmallBusiness",
+  EN=[
+    dict(type="hook", kicker="National Minimum Wage · gov.uk",
+         h1="From 1 April 2027 the legal minimum is <em>£13.21</em> an hour.",
+         say="That is the National Living Wage for anyone aged 21 and over, up from <cur>£</cur>12.71. If you employ anybody, every hour worked from that date has to be paid at the new rate."),
+    dict(type="step", step="The younger rates", fig="<cur>£</cur>11.27 and <cur>£</cur>8.31",
+         say="Workers aged 18 to 20 go to <cur>£</cur>11.27 an hour, up from <cur>£</cur>10.85. Under 18, and the apprentice rate, goes to <cur>£</cur>8.31, up from <cur>£</cur>8.00. Nobody claims any of it — HMRC enforces it.",
+         note="The rates set in April 2026 apply until 31 March 2027, so the new figures bite on work done from 1 April."),
+    dict(type="step", step="Who does not get the top rate", fig="21 and over",
+         say="Anyone aged 20 or under does not get the National Living Wage; they get the rate for their age. An apprentice under 19, or in the first year of the apprenticeship, gets the apprentice rate instead.",
+         note="Someone genuinely self-employed is not covered at all. The Real Living Wage set by a charity is higher than these figures and is not a legal rate."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Will your wage bill clear the <em>new rates</em>?",
+    say="Send us your hourly rates and your staff's ages. We will tell you which rates have to move in April and what it adds to the payroll. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("£13.21 National Living Wage for 21 and over from 1 April 2027, up from £12.71", "https://www.gov.uk/national-minimum-wage-rates", "2026-11-13"),
+    ("£11.27 for ages 18 to 20 from 1 April 2027, up from £10.85", "https://www.gov.uk/national-minimum-wage-rates", "2026-11-13"),
+    ("£8.31 for under 18s and the apprentice rate from 1 April 2027, up from £8.00", "https://www.gov.uk/national-minimum-wage-rates", "2026-11-13"),
+  ],
+  SCOPE=dict(nation="UK", category="National Minimum Wage and National Living Wage rates",
+    excluded="Anyone aged 20 or under does not get the National Living Wage — they get the lower age rate. Apprentices under 19, and those 19 or over in their first year, get the apprentice rate instead of their age rate. Genuinely self-employed contractors are not covered at all.",
+    from_when="1 April 2027; the April 2026 rates apply until then."),
+)
+
+BHAM_EMPLOYMENT_ALLOWANCE = dict(
+  slug="bham-employment-allowance", brand="bham",
+  title="Employment Allowance — £10,500 off employer's National Insurance, re-claimed every year",
+  tags_ro="",
+  tags_en="#Birmingham #WestMidlands #Payroll #EmploymentAllowance #SmallBusiness",
+  EN=[
+    dict(type="hook", kicker="Employment Allowance · gov.uk",
+         h1="<em>£10,500</em> off your employer's National Insurance.",
+         say="If you run a payroll, Employment Allowance takes up to <cur>£</cur>10,500 off the National Insurance your business pays as the employer this tax year. It does not change what comes out of your staff's wages."),
+    dict(type="step", step="Claimed, not given", fig="Every tax year",
+         say="You claim it through your payroll software, by sending HMRC an Employment Payment Summary. The claim does not roll forward — 2026/27 has to be claimed again, even if nothing about the business changed.",
+         note="You can claim where less than half your work is in or for the public sector. The old <cur>£</cur>100,000 eligibility cap was removed in April 2025."),
+    dict(type="step", step="Who does not get it", fig="Sole director",
+         say="A limited company cannot claim where its sole director is the only employee paid above the Secondary Threshold — the point at which employer's National Insurance starts. That catches a great many one-person companies.",
+         note="Also out: public authorities that are not charities, all but one company in a group, and employers of a nanny or gardener who is not a care or support worker."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Ola Accountancy Birmingham",
+    h1="Has your <em>£10,500</em> been claimed this year?",
+    say="Send us who is on your payroll and last month's figures. We will tell you whether the claim has been made for this year and whether you qualify. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("£10,500 maximum reduction in employers' Class 1 National Insurance for 2026/27", "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027", "2026-11-13"),
+    ("the public sector test — an employer doing less than half its work for the public sector can claim — and the exclusions, including the sole-director company", "https://www.gov.uk/claim-employment-allowance/eligibility", "2026-11-13"),
+    ("claiming through payroll software by Employment Payment Summary, and that the claim must be made again each tax year", "https://www.gov.uk/claim-employment-allowance", "2026-11-13"),
+  ],
+  SCOPE=dict(nation="UK", category="Employment Allowance (employer's Class 1 National Insurance)",
+    excluded="A limited company where the sole director is the only employee paid above the Secondary Threshold. Public authorities that are not charities. Employers of a nanny, cleaner or gardener, unless that person is a care or support worker. All but one company in a group of connected companies. Payments caught by the off-payroll working rules.",
+    from_when="£10,500 for 2026/27. The old £100,000 eligibility cap was removed from April 2025."),
+)
+
+EN_SELF_ASSESSMENT_JANUARY = dict(
+  slug="en-self-assessment-january", brand="en",
+  title="Three things fall on one date",
+  tags_ro="",
+  tags_en="#SelfAssessment #TaxReturn #HMRC #SoleTrader #Landlords",
+  EN=[
+    dict(type="hook", kicker="Self Assessment · 31 January 2027",
+         h1="On <em>31 January</em> you pay twice, not once.",
+         say="On 31 January 2027 you have to file the 2025/26 return and pay the tax on it, by 11:59pm. Most people pay a third thing the same night: a first instalment towards next year."),
+    dict(type="step", step="The instalment nobody expects", fig="half of last year's bill",
+         say="That instalment is called a payment on account, and it is half of last year's bill, paid up front towards 2026/27. So you settle 2025/26 and put down half of it again, on one date.",
+         note="The paper deadline was 31 October 2026 and has gone. Filing online is the only route left."),
+    dict(type="step", step="Who does not have to pay it", fig="Under <cur>£</cur>1,000",
+         say="If last year's Self Assessment bill came to under <cur>£</cur>1,000 there are no payments on account — you pay the bill and nothing more. Same if more than <b>80%</b> of last year's tax was already taken off at source.",
+         note="And if nobody sent you a notice to file and none of the rules catch you, there is no return to send at all."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Self Assessment · 31 January 2027",
+    h1="Do you know <em>which</em> of the three you owe?",
+    say="Send us your 2025/26 figures and we will tell you exactly what lands on 31 January. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("The 2025/26 online return must be filed and the tax owed paid by 11:59pm on 31 January 2027; the paper deadline was 31 October 2026",
+     "https://www.gov.uk/self-assessment-tax-returns/deadlines", "2026-11-13"),
+    ("Each payment on account is half of last year's bill; none are due where last year's Self Assessment bill was under £1,000, or where more than 80% of last year's tax was collected at source",
+     "https://www.gov.uk/understand-self-assessment-bill/payments-on-account", "2026-11-13"),
+  ],
+  SCOPE=dict(nation="UK",
+    category="Anyone issued a notice to file, plus sole traders with gross trading income over £1,000, partners, those with Capital Gains Tax, and those with untaxed income such as rent or dividends",
+    excluded="Anyone who meets none of the criteria and has had no notice to file. No payments on account are due where last year's bill was under £1,000, or where more than 80% of last year's tax was already collected at source. The paper deadline was 31 October 2026 and has passed.",
+    from_when="For the 2025/26 tax year"),
+)
+
+EN_CIS_RETURNS_DEADLINE = dict(
+  slug="en-cis-returns-deadline", brand="en",
+  title="The 19th is an arrival date",
+  tags_ro="",
+  tags_en="#CIS #Construction #Subcontractors #Contractors #HMRC",
+  EN=[
+    dict(type="hook", kicker="CIS monthly returns · gov.uk",
+         h1="The return has to reach HMRC by the <em>19th</em>.",
+         say="If you pay subcontractors for construction work, HMRC wants a return from you every month, and it has to reach them by the 19th. One day late is <cur>£</cur>100, even in a month when you paid nobody."),
+    dict(type="step", step="What you take off them", fig="20% or 30%",
+         say="You take <b>20%</b> off a subcontractor registered for CIS and <b>30%</b> off one who is not — or whose details HMRC cannot match. It comes off the labour only, never the materials and never the VAT.",
+         note="The 19th is the day it must arrive, not the day you post it, and it does not move for a weekend or a bank holiday."),
+    dict(type="step", step="Who does not have to file", fig="Subcontractors",
+         say="If you are the one being paid, these returns are not yours — the duty sits with the contractor. A householder having work done on their own home is not a contractor either, and files nothing.",
+         note="Told HMRC you have stopped using subcontractors for a while? That notice covers you for up to 6 months."),
+  ],
+  CTA_EN=dict(type="cta", kicker="CIS monthly returns · gov.uk",
+    h1="Are any of your <em>months</em> missing?",
+    say="Tell us which months you have not filed and we will work out where you stand. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("The monthly CIS return must reach HMRC by the 19th of the month following the tax month; penalties of £100 at 1 day, £200 at 2 months, and £300 or 5% at 6 and 12 months; a nil return or a notice of inactivity is still required",
+     "https://www.gov.uk/what-you-must-do-as-a-cis-contractor/file-your-monthly-returns", "2026-11-13"),
+    ("Deduction of 20% for a registered subcontractor, 30% where the subcontractor is not registered or HMRC cannot match their details",
+     "https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor/how-payments-are-made", "2026-11-13"),
+  ],
+  SCOPE=dict(nation="UK",
+    category="Every CIS contractor — construction businesses paying subcontractors, and businesses outside construction spending over £3 million on construction in the previous 12 months",
+    excluded="Householders having work done on their own home are not contractors and file nothing. Subcontractors do not file these returns at all — the duty is the contractor's. A contractor who has notified HMRC of a period of inactivity, up to 6 months.",
+    from_when="Ongoing, every tax month"),
+)
+
+EN_VAT_THRESHOLDS = dict(
+  slug="en-vat-thresholds", brand="en",
+  title="Any twelve months in a row",
+  tags_ro="",
+  tags_en="#VAT #VATRegistration #SoleTrader #Bookkeeping #UKBusiness",
+  EN=[
+    dict(type="hook", kicker="VAT registration · gov.uk",
+         h1="You register at <em>£90,000</em> — and it is not the tax year.",
+         say="Add up your sales for any twelve months in a row — not the tax year, not your accounting year. Over <cur>£</cur>90,000 and you have to register for VAT. It is the sales, before costs, not the profit."),
+    dict(type="step", step="Two tests, and one is 30 days", fig="30 days",
+         say="One test looks back over any twelve months in a row, checked every month. The other looks forward: expect <cur>£</cur>90,000 in the next 30 days alone and you register straight away. One big contract can do it.",
+         note="On the look-back test you have 30 days from the end of the month you went over. Zero-rated sales count towards the <cur>£</cur>90,000; exempt sales do not."),
+    dict(type="step", step="Who does not have to register", fig="Exempt sales",
+         say="Sell only things that are VAT exempt or outside VAT and you never have to register, whatever your sales come to. At <cur>£</cur>90,000 or below nobody makes you — you may still register by choice.",
+         note="Mainly zero-rated sales can apply to be let off registering. Registered and now under <cur>£</cur>88,000? You can ask HMRC to cancel it."),
+  ],
+  CTA_EN=dict(type="cta", kicker="VAT registration · gov.uk",
+    h1="Have you added up your last <em>twelve months</em>?",
+    say="Send us your last twelve months of sales and we will tell you where you sit. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("Registration threshold £90,000 of taxable turnover in any rolling 12 months, and the forward-look test of £90,000 expected in the next 30 days alone",
+     "https://www.gov.uk/register-for-vat", "2026-11-13"),
+    ("Deregistration threshold £88,000 — you may ask HMRC to cancel the registration below this",
+     "https://www.gov.uk/register-for-vat/cancel-your-registration", "2026-11-13"),
+    ("You have 30 days from the end of the month you went over the threshold to register",
+     "https://www.gov.uk/vat-registration/when-to-register", "2026-11-13"),
+  ],
+  SCOPE=dict(nation="UK",
+    category="Any business whose taxable turnover exceeds £90,000 in any rolling 12-month period, or which expects to exceed it in the next 30 days alone",
+    excluded="Businesses selling only goods or services that are VAT exempt or outside the scope of VAT, whatever their turnover. Businesses at £90,000 or below, who may still register voluntarily. Businesses whose supplies are wholly or mainly zero-rated can apply for exemption from registration.",
+    from_when="Unchanged since 1 April 2024, and confirmed unchanged for April 2026 and April 2027 at Budget 2026"),
+)
+
+EN_LATE_FILING_PENALTIES = dict(
+  slug="en-late-filing-penalties", brand="en",
+  title="Companies House Late Filing Penalties",
+  tags_ro="",
+  tags_en="#companieshouse #latefiling #limitedcompany #ukbusiness #smallbusinessuk",
+  EN=[
+    dict(type="hook", kicker="Companies House · November 2026",
+         h1="Accounts one day late is <em>£150</em>.",
+         say="Companies House is not HMRC, and it charges separately. Nobody there decides to fine you: the law imposes the penalty the moment late accounts arrive. File late two years running and it is doubled."),
+    dict(type="step", step="How it climbs", fig="<cur>£</cur>150 to <cur>£</cur>1,500",
+         say="Up to a month late is <cur>£</cur>150. More than a month, <cur>£</cur>375. More than three months, <cur>£</cur>750. More than six months, <cur>£</cur>1,500. That is a private company or an LLP.",
+         note="Late two financial years in a row and the penalty doubles: more than six months late twice turns <cur>£</cur>1,500 into <cur>£</cur>3,000."),
+    dict(type="step", step="Who these amounts do not cover", fig="Public companies",
+         say="These four figures are for private companies and LLPs. A public company is charged on a separate, higher scale, from <cur>£</cur>750 up to <cur>£</cur>7,500.",
+         note="Being dormant does not spare you. And this is the penalty for accounts only, not for a late confirmation statement or a late Company Tax Return."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Companies House · November 2026",
+    h1="Do you know the date your <em>accounts</em> are due?",
+    say="Tell us your company and we will check the deadline with you. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("private company and LLP late filing penalty bands: £150 / £375 / £750 / £1,500", "https://www.gov.uk/government/publications/late-filing-penalties-from-companies-house/late-filing-penalties", "2026-11-14"),
+    ("public company bands for the same four periods: £750 / £1,500 / £3,000 / £7,500", "https://www.gov.uk/government/publications/late-filing-penalties-from-companies-house/late-filing-penalties", "2026-11-14"),
+    ("the penalty is doubled where accounts are filed late in two successive financial years", "https://www.gov.uk/government/publications/late-filing-penalties-from-companies-house/late-filing-penalties", "2026-11-14"),
+    ("the same private company bands and the doubling rule restated on the GOV.UK guide", "https://www.gov.uk/annual-accounts/penalties-for-late-filing", "2026-11-14"),
+  ],
+  SCOPE=dict(nation="UK", category="Companies House late filing penalties for annual accounts",
+    excluded="The £150 / £375 / £750 / £1,500 bands are for private companies and LLPs; public companies are charged on a separate higher scale (£750 / £1,500 / £3,000 / £7,500). The doubling rule does not apply unless the earlier late financial year began on or after 6 April 2008. These penalties are for late accounts only: they are not the penalty for a late confirmation statement, and they are separate from HMRC's penalties for a late Company Tax Return. Dormant companies are not excluded and face the same penalties.",
+    from_when="Current Companies House guidance as at 14 November 2026; amounts apply to financial years beginning on or after 6 April 2008."),
+)
+
+EN_MTD_INCOME_TAX = dict(
+  slug="en-mtd-income-tax", brand="en",
+  title="The return you file now sets the start date",
+  tags_ro="",
+  tags_en="#MakingTaxDigital #MTD #SelfAssessment #Landlords #SoleTrader",
+  EN=[
+    dict(type="hook", kicker="Making Tax Digital for Income Tax · gov.uk",
+         h1="The return you file now decides whether <em>April 2027</em> catches you.",
+         say="Making Tax Digital for Income Tax looks back at your 2025/26 figures. Add your self-employment income and your rent together, before expenses: over <cur>£</cur>30,000 and 6 April 2027 is your start date."),
+    dict(type="step", step="It is gross, not profit", fig="<cur>£</cur>30,000",
+         say="Qualifying income is your sales and your rent added together, before a penny of expenses comes off. <cur>£</cur>50,000 started on 6 April 2026. <cur>£</cur>30,000 starts 6 April 2027. <cur>£</cur>20,000 starts 6 April 2028.",
+         note="The look-back is two years, so the 2025/26 return being filed this winter is what sets the April 2027 start."),
+    dict(type="step", step="Who is not caught", fig="<cur>£</cur>20,000 or less",
+         say="At <cur>£</cur>20,000 or less you are exempt automatically, with nothing to apply for. Partnerships are not in yet. Employees and directors with no self-employment or rent are outside it altogether.",
+         note="Being exempt does not remove the ordinary Self Assessment return. That one still has to be filed."),
+  ],
+  CTA_EN=dict(type="cta", kicker="Making Tax Digital for Income Tax · gov.uk",
+    h1="Does <em>April 2027</em> apply to you?",
+    say="Send us your self-employment and rental figures for 2025/26 and we will tell you your start date. The first consultation is free and lasts 30 minutes. No obligation.",
+    phone=PHONE, disc="General information. For your own situation, speak to an accountant."),
+  SOURCES=[
+    ("Qualifying income over £50,000 in 2024/25 brought into Making Tax Digital for Income Tax from 6 April 2026; over £30,000 in 2025/26 from 6 April 2027; over £20,000 in 2026/27 from 6 April 2028",
+     "https://www.gov.uk/guidance/check-if-youre-eligible-for-making-tax-digital-for-income-tax", "2026-11-13"),
+    ("Who needs to use Making Tax Digital for Income Tax and when, and the exemptions from it",
+     "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax", "2026-11-13"),
+  ],
+  SCOPE=dict(nation="UK",
+    category="Sole traders and landlords in Self Assessment whose qualifying income — gross self-employment and property income added together, before expenses — exceeds the threshold for the year",
+    excluded="Anyone with qualifying income of £20,000 or less is automatically exempt with nothing to apply for. Partnerships are not in yet. Employees and company directors with no self-employment or property income are outside it entirely, and limited company profits stay under Corporation Tax. Various further exemptions exist, including for foster and kinship carers.",
+    from_when="Live since 6 April 2026 for the first tranche"),
+)
+
+# ===================================================================== SOLOS
+# Written fresh every night. Never left in place from the previous run — a run
+# that fails before this point must not be able to republish yesterday's posts.
+SOLOS = [
+
+  dict(slug="ola-help-to-save", brand="ola", lang="ro",
+       slide=dict(type="solo",
+         kicker="Help to Save · gov.uk",
+         h1="Pui bani deoparte și statul îți adaugă până la <em>£1.200</em>.",
+         rows=[["50p", "adăugați la fiecare liră pusă deoparte"],
+               ["Pe cerere", "nu vine automat, o ceri tu"],
+               ["Exclus", "cine nu primește Universal Credit"]],
+         ask="Cererea se face pe gov.uk sau în aplicația HMRC, gratuit. Dacă ai întrebări despre venitul tău din self-employment, biroul nostru din Luton îți răspunde.",
+         phone=PHONE,
+         disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+       caption="""Dacă primești Universal Credit, poți deschide un cont de economii la care statul pune bani peste ai tăi. Se numește Help to Save.
+
+La fiecare liră pe care o pui deoparte, guvernul adaugă 50p. Poți pune între £1 și £50 pe lună și nu ești obligat să pui în fiecare lună. În patru ani poți strânge £2.400 din banii tăi și poți primi până la £1.200 bonus.
+
+Bonusul se plătește de două ori, nu o dată, și se calculează pe cel mai mare sold pe care l-ai avut, nu pe cât rămâne în cont la final. Primul bonus este 50% din cel mai mare sold din primii doi ani. Al doilea este 50% din diferența dintre cel mai mare sold din anii trei și patru și cel mai mare sold din primii doi ani. Deci, dacă retragi bani și nu mai treci niciodată peste vechiul maxim, al doilea bonus este zero.
+
+Ca să ai dreptul, trebuie să locuiești în UK, să primești Universal Credit și să fi avut un venit net de £1 sau mai mult în ultima perioadă lunară de evaluare. Pe o cerere comună, veniturile celor doi se socotesc împreună, dar fiecare partener are nevoie de contul lui și aplică separat.
+
+Nu primești nimic dacă nu ești pe Universal Credit, dacă venitul net a fost sub £1 în ultima perioadă de evaluare, sau dacă ai avut deja un cont Help to Save — un al doilea nu se poate deschide.
+
+Contul durează patru ani de la deschidere, apoi se închide și nu poate fi redeschis sau înlocuit. Bonusurile intră în contul tău bancar, nu în contul Help to Save.
+
+Cererea se face pe gov.uk sau în aplicația HMRC, gratuit. Ai nevoie de un cont Government Gateway.
+
+Scrie-ne pe WhatsApp: 0330 133 1886""",
+       SOURCES=[("bonusul de 50p pentru fiecare liră economisită, și durata de 4 ani a contului",
+                 "https://www.gov.uk/get-help-savings-low-income", "2026-11-17"),
+                ("maximum £50 pe lună, minimum £1, și faptul că nu trebuie depus în fiecare lună",
+                 "https://www.gov.uk/get-help-savings-low-income", "2026-11-17"),
+                ("£2.400 — cât se poate economisi în total în 4 ani — și £1.200, bonusul maxim pe 4 ani",
+                 "https://www.gov.uk/get-help-savings-low-income/what-youll-get", "2026-11-17"),
+                ("condiția de venit net de £1 sau mai mult în ultima perioadă lunară de evaluare Universal Credit, și regula cererii comune",
+                 "https://www.gov.uk/get-help-savings-low-income/eligibility", "2026-11-17")],
+       SCOPE=dict(nation="UK-wide — trebuie să locuiești în UK; nicio naționalitate pe frame.",
+                  category="Persoane care primesc Universal Credit și au avut un venit net de £1 sau mai mult în ultima perioadă lunară de evaluare.",
+                  excluded="Cine nu primește Universal Credit. Cine a avut un venit net sub £1 în ultima perioadă lunară de evaluare. Un al doilea cont Help to Save nu se poate deschide, deci cine a avut deja unul este în afara schemei definitiv. Al doilea bonus poate fi zero chiar pentru un titular eligibil, dacă retrage bani și nu mai depășește vechiul maxim.",
+                  from_when="Contul rulează 4 ani de la data la care îl deschizi. Nu este automat — se cere.")),
+
+  dict(slug="ola-plata-vreme-rece", brand="ola", lang="ro",
+       slide=dict(type="solo",
+         kicker="Cold Weather Payment · gov.uk",
+         h1="Primești <em>£25</em> pentru fiecare șapte zile de îngheț la rând.",
+         rows=[["Anglia, Țara Galilor, Irlanda de Nord", "Scoția are propria schemă"],
+               ["Automat", "intră în contul unde primești ajutorul"],
+               ["Exclus", "cine nu primește unul dintre ajutoarele cerute"]],
+         ask="Verificatorul după codul poștal este pe gov.uk. Dacă ai întrebări despre impozitele tale din UK, biroul nostru din Luton îți răspunde.",
+         phone=PHONE,
+         disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+       caption="""Cold Weather Payment nu se plătește pentru o iarnă grea. Se plătește pentru șapte zile la rând în care temperatura medie, măsurată sau prognozată la stația meteo a codului tău poștal, este zero grade sau mai puțin. Pentru fiecare astfel de perioadă primești £25. Sezonul ține de la 1 noiembrie 2026 până la 31 martie 2027.
+
+Aici se greșește cel mai des: un ger de două zile nu plătește nimic, iar coduri poștale vecine pot primi răspunsuri diferite. Pe gov.uk ai un verificator după codul poștal — folosește-l, nu ghici. Irlanda de Nord are un verificator separat.
+
+Există în Anglia, Țara Galilor și Irlanda de Nord. În Scoția se plătește altceva: Winter Heating Payment, o sumă anuală fixă, indiferent de cât de frig este.
+
+Plata merge la cine are Pension Credit; income-related Employment and Support Allowance, în work-related activity group sau support group, ori în niciunul dintre ele dar cu o primă de dizabilitate severă sau enhanced, o primă de pensionar, un copil cu dizabilitate sau un copil sub 5 ani în casă; Universal Credit, dacă nici tu nici partenerul nu sunteți angajați sau self-employed și unul dintre voi are limited capability for work sau un copil sub 5 ani, ori dacă cererea include suma pentru un copil cu dizabilitate; și Support for Mortgage Interest, dacă ești tratat ca primind un ajutor care dă dreptul.
+
+Housing Benefit sau Council Tax Reduction singure nu dau dreptul, așa că multe gospodării cu venituri mici din muncă nu primesc nimic.
+
+Nu se cere — banii intră automat în contul în care primești ajutorul. Anunță schimbarea dacă ți s-a născut un copil sau dacă vine la tine un copil sub 5 ani.
+
+Scrie-ne pe WhatsApp: 0330 133 1886""",
+       SOURCES=[("£25 plătiți pentru fiecare perioadă de 7 zile de vreme foarte rece",
+                 "https://www.gov.uk/cold-weather-payment", "2026-11-17"),
+                ("declanșatorul: o temperatură medie înregistrată sau prognozată la zero grade Celsius sau sub, timp de 7 zile consecutive, la stația meteo locală",
+                 "https://www.gov.uk/cold-weather-payment", "2026-11-17"),
+                ("sezonul 1 noiembrie 2026 – 31 martie 2027; ajutoarele care dau dreptul; plata automată; și Winter Heating Payment ca schemă separată a Scoției",
+                 "https://www.gov.uk/cold-weather-payment", "2026-11-17")],
+       SCOPE=dict(nation="NU acoperă toată țara: Anglia, Țara Galilor și Irlanda de Nord. Scoția este în afara schemei, de aceea naționalitatea stă într-un RÂND, nu în titlu.",
+                  category="Persoane care primesc Pension Credit, income-related Employment and Support Allowance, Universal Credit în condițiile publicate, sau Support for Mortgage Interest.",
+                  excluded="Oricine locuiește în Scoția. Oricine nu primește unul dintre cele patru ajutoare: Housing Benefit sau Council Tax Reduction singure nu dau dreptul. Beneficiarii de Universal Credit care sunt angajați sau self-employed, cu excepțiile publicate. Și, chiar pentru cine are dreptul, un val de frig care nu dă o medie la zero pe 7 zile întregi nu declanșează nimic.",
+                  from_when="1 noiembrie 2026 – 31 martie 2027. Automat, nu se cere.")),
+
+  dict(slug="ola-child-trust-fund", brand="ola", lang="ro",
+       slide=dict(type="solo",
+         kicker="Child Trust Fund · gov.uk",
+         h1="Poți avea bani uitați pe numele tău — în medie <em>£2.200</em>.",
+         rows=[["<cur>£</cur>1,6 miliarde", "stau nerevendicați în 750.000 de conturi"],
+               ["Gratuit", "căutarea se face la HMRC, fără comision"],
+               ["Exclus", "părintele, după ce copilul împlinește 18 ani"]],
+         ask="Instrumentul este pe gov.uk și îți cere numărul de National Insurance. Pentru întrebări despre impozitele tale din UK, biroul nostru din Luton îți răspunde.",
+         phone=PHONE,
+         disc="Informații generale. Pentru situația ta, vorbește cu un contabil."),
+       caption="""Peste 750.000 de conturi Child Trust Fund au ajuns la maturitate și nu au fost revendicate de nimeni. Împreună valorează mai mult de £1,6 miliarde, iar media unui cont este de aproximativ £2.200. Sunt bani pe numele unor oameni care astăzi sunt adulți și nu știu de ei.
+
+Dacă ai 16 ani sau peste, poți căuta singur contul tău cu instrumentul gratuit Find a Child Trust Fund de pe gov.uk. Ai nevoie de numărul tău de National Insurance. Formularul nu se poate salva și reluat mai târziu, așa că pregătește-l înainte să începi. Un părinte sau tutore poate căuta contul copilului doar cât timp copilul are sub 18 ani; după aceea, doar titularul contului poate cere.
+
+Două lucruri de ținut minte. Primul: căutarea este gratuită la HMRC și la Share Foundation. Există firme care cer un comision pentru o căutare pe care o poți face singur, cu numărul de National Insurance, în câteva minute.
+
+Al doilea: HMRC nu îți dă banii. Îți spune numele instituției care ține contul, iar de acolo ceri tu banii, după verificările lor de identitate.
+
+Răspunsul vine de obicei în 7 săptămâni dacă ceri online; prin poștă durează mai mult. Dacă nu primești nimic în 9 săptămâni, poți scrie la HMRC cu orice număr de referință pe care îl ai.
+
+Instrumentul găsește doar un Child Trust Fund, nu un Junior ISA. Multe dintre aceste conturi au fost mutate mai târziu într-un Junior ISA, așa că dacă instituția îți spune că fondul a fost transferat, mergi mai departe la instituția care ține Junior ISA-ul.
+
+Scrie-ne pe WhatsApp: 0330 133 1886""",
+       SOURCES=[("valoarea totală nerevendicată de peste £1,6 miliarde, peste 750.000 de conturi ajunse la maturitate și nerevendicate, și media de aproximativ £2.200 pe cont",
+                 "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings", "2026-11-17"),
+                ("vârsta de 16 ani sau peste pentru a-ți căuta singur contul, termenul de 7 săptămâni, faptul că instrumentul este gratuit și indică doar instituția, că nu găsește un Junior ISA, și regula că un părinte poate căuta doar cât timp copilul are sub 18 ani",
+                 "https://www.gov.uk/child-trust-funds/find-a-child-trust-fund", "2026-11-17")],
+       SCOPE=dict(nation="UK-wide — HMRC administrează Child Trust Fund în toată țara; nicio naționalitate pe frame.",
+                  category="Adulți tineri care erau copii în anii Child Trust Fund și nu au revendicat niciodată contul, și părinți sau tutori ai unui copil încă sub 18 ani.",
+                  excluded="Părintele sau tutorele nu mai poate căuta după ce copilul împlinește 18 ani — de la acel moment, doar titularul contului poate cere. Instrumentul nu găsește un Junior ISA. HMRC nu plătește banii: numește doar instituția. Copiii născuți în afara anilor Child Trust Fund nu au niciun cont de găsit.",
+                  from_when="Cifrele provin din comunicatul HMRC și HM Treasury din 29 iunie 2026. Nu este automat — se cere.")),
+]
+
+SOLOS = SOLOS + [
+
+  dict(slug="bham-household-energy-payment", brand="bham", lang="en",
+       slide=dict(type="solo",
+         kicker="Household Energy Payment · gov.uk",
+         h1="You can get <em>£100</em> towards your council tax.",
+         rows=[["<cur>£</cur>100", "a single payment, bands A to D"],
+               ["Automatic", "for households paying by Direct Debit"],
+               ["Excluded", "where the landlord pays the council tax"]],
+         ask="Not sure whether your household qualifies? Our Birmingham office will check it with you.",
+         phone=PHONE,
+         disc="General information. For your own situation, speak to an accountant."),
+       caption="""The Autumn Budget announced a one-off £100 Household Energy Payment, and it reaches you through your council tax bill, not through your energy supplier.
+
+Your home has to be in council tax band A to D and be your main home, and you have to be the person liable for the council tax. Councils are expected to start paying from January 2027. It is a one-off, for this financial year only.
+
+The part people will get wrong is how the money arrives. If you pay your council tax by Direct Debit and live in a band A to D property, gov.uk says you do not need to do anything: the rebate goes straight into your bank account. If you do not pay by Direct Debit, your council will invite you to apply. So a sizeable number of households do have to act, and anyone who hears "it is automatic" and leaves it there may end up with nothing.
+
+Band A to D is the property's band, not an income test. A high earner in a band C flat qualifies; a lower earner in a band E house does not. For bands above D there is a separate £100 million fund, and each council sets its own rules and publishes its own application route.
+
+Who gets nothing: second homes, empty properties, and households where the householder is not responsible for paying the council tax, so many people in shared houses and tenants whose landlord pays the bill.
+
+One warning worth repeating: gov.uk says nobody other than your council should contact you asking you to claim. If a message looks doubtful, check with the council directly.
+
+This is also not the Warm Home Discount. That is separate support for households on means-tested benefits, and the two are not alternatives.""",
+       SOURCES=[("£100 one-off payment per eligible household, for this financial year only, announced at the Autumn Budget 2026",
+                 "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills", "2026-11-17"),
+                ("council tax bands A to D are the bands covered by the core scheme",
+                 "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills", "2026-11-17"),
+                ("how the money arrives: automatic for Direct Debit payers in bands A to D, and an invitation to apply for everyone else; the exclusions for second homes, empty properties and householders not responsible for the council tax; and the warning that nobody other than your council should contact you asking you to claim",
+                 "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills", "2026-11-17"),
+                ("separate £100 million discretionary fund for councils to support households not eligible for the £100, including some above band D, with councils setting their own criteria",
+                 "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills", "2026-11-17"),
+                ("payments begin from January 2027, with scheme funding provided to councils in advance",
+                 "https://www.gov.uk/government/publications/council-tax-information-letter-62026-household-energy-payment-2027/council-tax-information-letter-62026-household-energy-payment-2027", "2026-11-17")],
+       SCOPE=dict(nation="England. The audience for this brand is in England, so no nation is named anywhere on the frame and the freed rows carry the amount and how the money arrives instead.",
+                  category="Households liable for council tax on, and living in, a band A to D property as their main home. It is a property-band test, not an income test.",
+                  excluded="Second homes, empty properties, and households where the householder is not responsible for paying the council tax — the commonest case in this audience, so the Excluded row names the tenant whose landlord pays the bill. Bands E to H are outside the core scheme; the separate £100 million discretionary fund is the only route for some of them.",
+                  from_when="Payments from January 2027, one-off for the 2026-27 financial year. Automatic only for Direct Debit payers in bands A to D; everyone else is invited by their council to apply.")),
+
+  dict(slug="bham-maternity-grant", brand="bham", lang="en",
+       slide=dict(type="solo",
+         kicker="Sure Start Maternity Grant · gov.uk",
+         h1="You can get <em>£500</em> for your first baby.",
+         rows=[["<cur>£</cur>500", "one payment, and never repaid"],
+               ["Claimed", "on form SF100, signed by a health professional"],
+               ["Excluded", "usually, if another child is under 16"]],
+         ask="The form is free, and nobody needs paying to fill it in. If you are self-employed and unsure how your income is counted, our Birmingham office will go through it with you.",
+         phone=PHONE,
+         disc="General information. For your own situation, speak to an accountant."),
+       caption="""If you are expecting your first baby and you or your partner get Universal Credit, Pension Credit or income-related Employment and Support Allowance, there is £500 you have to ask for.
+
+It is called the Sure Start Maternity Grant. One payment, it never has to be paid back, and it does not reduce your other benefits.
+
+The timing matters more than anything else. You can claim from 11 weeks before your due date, and the window closes 6 months after the birth. Miss it and it is gone.
+
+It is not automatic. You fill in form SF100, a health professional signs it, and you post it to the address on the form. If you are on Universal Credit, the decision waits until that claim has been processed.
+
+You must usually have no other children under 16 in your household. There are exceptions: a multiple birth, caring for someone else's child who was over 12 months old when the arrangement started, or claiming for a family member under 16 who lives with you and is having their first child. Adopters, parental-order holders and some carers can claim where the baby is under one on the date of the claim.
+
+Who gets nothing: anyone not receiving one of those qualifying benefits, anyone who already has a child under 16 and does not meet one of the exceptions, and anyone who claims outside the window.
+
+The form is free and nobody needs paying to fill it in. What we do see in the office is self-employed parents unsure how their own figures are counted for Universal Credit. That part we can go through with you.""",
+       SOURCES=[("£500 one-off Sure Start Maternity Grant: it does not have to be repaid and does not affect other benefits",
+                 "https://www.gov.uk/sure-start-maternity-grant", "2026-11-15"),
+                ("claim window from 11 weeks before the due date to 6 months after the birth; not automatic — form SF100, signed by a health professional, posted to the address on the form; on Universal Credit the decision waits until that claim is processed",
+                 "https://www.gov.uk/sure-start-maternity-grant", "2026-11-15"),
+                ("the usual condition of no other children under 16 in the household, the qualifying benefits, and the listed exceptions",
+                 "https://www.gov.uk/sure-start-maternity-grant/eligibility", "2026-11-15")],
+       SCOPE=dict(nation="England and Wales. The audience for this brand is in England, so no nation appears anywhere on the frame.",
+                  category="A first baby in a household receiving a qualifying benefit — Universal Credit, Pension Credit or income-related Employment and Support Allowance — where there are usually no other children under 16.",
+                  excluded="Anyone who already has a child under 16 and does not meet one of the listed exceptions, which is why the Excluded row says 'usually'. Anyone not receiving one of the qualifying benefits. Any claim made outside the window — earlier than 11 weeks before the due date, or more than 6 months after the birth — and there is no late route.",
+                  from_when="Claimed, not automatic. The window opens 11 weeks before the due date and closes 6 months after the birth.")),
+
+  dict(slug="bham-sdlt-14-days", brand="bham", lang="en",
+       slide=dict(type="solo",
+         kicker="Stamp Duty Land Tax · gov.uk",
+         h1="You have 14 days to file, or HMRC adds <em>£100</em>.",
+         rows=[["<cur>£</cur>200", "more than three months late"],
+               ["Automatic", "even where no tax is owed"],
+               ["Excluded", "inheritances, divorce transfers, prices under £40,000"]],
+         ask="Not sure whether a return is due, or when your clock started? Our Birmingham office will go through the dates with you.",
+         phone=PHONE,
+         disc="General information. For your own situation, speak to an accountant."),
+       caption="""When you buy a property, sending the stamp duty return is a separate job from paying the tax, and the clock is short: 14 days from the effective date of the transaction. File late and HMRC charges £100 automatically, £200 if you are more than three months late, and after 12 months a further penalty of up to 100% of the tax due on top of that.
+
+Two things catch people out.
+
+First, the 14 days do not always start at completion. The effective date is usually completion, but it can be earlier where the contract is substantially performed: paying roughly 90% of the price, taking possession of the property, or making the first rent payment. On a purchase that drags on, and on some leases, the clock may already be running.
+
+Second, the return is the obligation, not the tax. A £100 penalty lands on a transaction where no tax at all was owed, if the return went in late. That catches transfers of equity and low-value purchases people assume need nothing.
+
+When no return is needed at all: where nothing was given in exchange for the property, where it was left to you in a will, where the transfer comes out of a divorce or the dissolution of a civil partnership, or where the price or value is £39,999 or less.
+
+Interest on late-paid tax runs from the day after the due date. It is not a penalty and cannot be appealed. The fixed penalties can be.
+
+The return is normally filed online by your conveyancer. Your name is on it, so it is worth asking them which date they are working to.""",
+       SOURCES=[("14 days from the effective date of the transaction to send the return and pay any tax, and the return is due even where no tax is owed; the effective date is usually completion but can be earlier on substantial performance",
+                 "https://www.gov.uk/guidance/check-if-you-need-to-send-a-stamp-duty-land-tax-return", "2026-11-17"),
+                ("£100 automatic fixed penalty for filing up to 3 months after the filing date; £200 for more than 3 months; a further penalty of up to 100% of the tax due after 12 months; interest on late-paid tax cannot be appealed while the fixed penalties can",
+                 "https://www.gov.uk/guidance/penalties-and-interest-on-a-late-stamp-duty-land-tax-return", "2026-11-17"),
+                ("a return is generally required at £40,000 or more of chargeable consideration and not at £39,999 or less; no return where no consideration was given, where the property was left in a will, or where the transfer arises from a divorce or dissolution of a civil partnership",
+                 "https://www.gov.uk/guidance/check-if-you-need-to-send-a-stamp-duty-land-tax-return", "2026-11-17")],
+       SCOPE=dict(nation="England and Northern Ireland. The audience for this brand is in England, so no nation appears anywhere on the frame. Scotland and Wales are outside Stamp Duty Land Tax entirely.",
+                  category="A deadline post rather than a benefit, so the headline names the money at stake. It applies to the purchaser in a land transaction, within 14 days of the effective date.",
+                  excluded="Who does not have to file at all: where no money or other consideration was given, where the property was left in a will, where the transfer arises from a divorce or the dissolution of a civil partnership, and where the price or value is £39,999 or less.",
+                  from_when="Current rules, read at gov.uk on 17 November 2026. Filed and paid within 14 days of the effective date.")),
+]
+
+SOLOS = SOLOS + [
+
+  dict(slug="en-pension-higher-rate-relief", brand="en", lang="en",
+       slide=dict(type="solo",
+         kicker="Pension tax relief · gov.uk",
+         h1="You can claim <em>20% extra</em> relief on your pension.",
+         rows=[["20% or 25% extra", "if you pay 40% or 45% tax"],
+               ["Scotland", "1%, 22%, 25% or 28% extra instead"],
+               ["Excluded", "basic rate payers, and unregistered schemes"]],
+         ask="Pay tax above the basic rate and pay into a pension? Message us and we will check what you can still claim back.",
+         phone=PHONE,
+         disc="General information. For your own situation, speak to an accountant."),
+       caption="""Most people who pay higher rate tax are leaving money with HMRC without knowing it.
+
+When you pay into a personal pension, your provider adds 20% basic rate relief for you. That part is automatic. What is not automatic is the rest.
+
+If some of your income is taxed at 40%, you can claim a further 20% on the contributions sitting in that band. At 45%, it is a further 25%. Nobody writes to tell you. You claim it on a Self Assessment return, or through HMRC's online service if you do not file one.
+
+Two things people get wrong. The relief is limited to the income actually taxed at the higher or additional rate, not to the whole contribution. And Scottish taxpayers have their own figures: 1%, 22%, 25% and 28% extra on income taxed at 21%, 42%, 45% and 48%.
+
+Who gets nothing extra: basic rate payers, and a Scottish taxpayer on the 19% starter rate. Anyone whose scheme is not registered with HMRC gets no relief at all. There is no relief on contributions above 100% of your earnings, and HMRC can ask for it back. With no earnings at all you still get 20% on up to £2,880; with earnings but no tax to pay, on up to 80% of them.
+
+Pay into a pension and pay tax above the basic rate? Send us your contribution figures and we will tell you what there is to claim. The first consultation is free and lasts 30 minutes.""",
+       SOURCES=[("the automatic 20% basic rate relief at source, the further 20% for income taxed at 40% and 25% for income taxed at 45%, the Scottish extra relief of 1%, 22%, 25% and 28%, the 100%-of-earnings ceiling, the £2,880 figure for someone with no earnings and the 80%-of-earnings limit for a non-taxpayer, and the fact that relief above 20% must be claimed",
+                 "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief", "2026-11-19")],
+       SCOPE=dict(nation="All of the UK. The scheme is UK-wide, but the extra relief percentages differ for Scottish taxpayers, so Scotland is named in a row, never in the headline.",
+                  category="Anyone paying into an HMRC-registered pension scheme who pays tax above the basic rate. On relief-at-source schemes only the 20% arrives by itself; the rest is claimed.",
+                  excluded="Basic rate payers have nothing extra to claim, and a Scottish taxpayer on the 19% starter rate has nothing extra to claim. A scheme not registered with HMRC gets no relief at all. No relief on contributions above 100% of annual earnings, and HMRC can claw it back. Non-taxpayers are capped at 20% relief on 80% of earnings, or £2,880 with no earnings.",
+                  from_when="Ongoing. Percentages are those shown on the GOV.UK page as read on 19 November 2026.")),
+
+  dict(slug="en-directors-loan-s455", brand="en", lang="en",
+       slide=dict(type="solo",
+         kicker="Director's loan account · gov.uk",
+         h1="You have nine months, or the company pays <em>35.75%</em>.",
+         rows=[["35.75%", "on money taken out since April 2026"],
+               ["Nine months", "from the company's year end, not April"],
+               ["Excluded", "proper salary, dividends and reimbursed expenses"]],
+         ask="Taken money out of your own company and unsure where it stands? Message us before the nine months run out.",
+         phone=PHONE,
+         disc="General information. For your own situation, speak to an accountant."),
+       caption="""Nine months. That is the whole rule, and the number people get wrong.
+
+If you take money out of your own limited company and it is not salary through payroll, not a properly declared dividend and not a reimbursed business expense, the company has lent it to you. It sits on your director's loan account.
+
+The company has nine months and one day from the end of its accounting period to get it back. Not nine months from the day you took the money, and not from the end of the tax year — from the company's own year end.
+
+Miss that and the company pays Corporation Tax at 35.75% on whatever is still owed, for money taken out on or after 6 April 2026. It goes on the CT600A pages of the Company Tax Return and is paid with the Corporation Tax for the period.
+
+The company does get that tax back once you repay the loan, but slowly: the claim cannot be made until nine months and a day after the end of the accounting period in which the repayment happened, and it must be made within four years of the end of that financial year. The cash sits with HMRC in the meantime.
+
+Two more things worth knowing. Owe the company more than £10,000 at any point in the tax year and the loan is also a benefit in kind on you personally, with Class 1 National Insurance due and the loan on your own tax return. And repaying a loan of over £5,000 then taking another of £5,000 or more within 30 days either side does not work — the charge still applies.
+
+Not sure where your loan account stands? Message us. The first consultation is free and lasts 30 minutes.""",
+       SOURCES=[("the nine months after the end of the company's Corporation Tax accounting period to repay an overdrawn director's loan, the £10,000 benefit-in-kind point with Class 1 NICs, the £5,000 / 30-day rule, and the CT600A reporting route",
+                 "https://www.gov.uk/directors-loans/you-owe-your-company-money", "2026-11-17"),
+                ("the 35.75% s455 Corporation Tax rate on an unrepaid loan, for loans made on or after 6 April 2026",
+                 "https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm61505", "2026-11-17"),
+                ("the four-year time limit to claim s458 relief after repayment, release or writing off",
+                 "https://www.legislation.gov.uk/ukpga/2010/4/section/458", "2026-11-18")],
+       SCOPE=dict(nation="UK-wide. Corporation Tax is not devolved, so no nation is named on the frame.",
+                  category="Close companies that lend or advance money to a participator — in practice an owner-director taking money out other than as salary, dividend or expense reimbursement. The company, not the director, pays the s455 tax.",
+                  excluded="Not caught: a company that is not a close company when the loan is made; money properly recorded as salary through RTI payroll or as a lawfully declared dividend; reimbursed business expenses; a loan account in credit; and any loan fully repaid, released or written off within nine months of the accounting period end. The £10,000 benefit-in-kind charge does not bite where total loans stayed at £10,000 or below throughout the tax year.",
+                  from_when="s455 has applied for decades; the 35.75% rate applies to loans made on or after 6 April 2026.")),
+
+  dict(slug="en-insolvent-employer", brand="en", lang="en",
+       slide=dict(type="solo",
+         kicker="Redundancy Payments Service · gov.uk",
+         h1="Employer gone bust? You can claim up to <em>£22,530</em>.",
+         rows=[["<cur>£</cur>22,530", "plus 8 weeks' wages, 6 weeks' holiday"],
+               ["Great Britain only", "Northern Ireland has its own scheme"],
+               ["Excluded", "contractors, and anyone not an employee"]],
+         ask="Lost your job because the company went under? Message us and we will take you through the claim.",
+         phone=PHONE,
+         disc="General information. For your own situation, speak to an accountant."),
+       caption="""If the business you worked for goes bust, the money you were owed does not simply disappear. The state pays it.
+
+You claim from the Redundancy Payments Service, using the CN case reference the insolvency practitioner or official receiver gives you. Four things are covered.
+
+Redundancy pay, if you had at least two years' service — up to £22,530, with weekly pay counted up to £751 for redundancies on or after 6 April 2026 (£719 before that date).
+Unpaid wages, up to 8 weeks.
+Holiday pay you never took, up to 6 weeks.
+Statutory notice pay, up to 12 weeks, at one week per full year of service. That one is a separate, later claim and needs an LN reference, usually issued after the notice period would have ended.
+
+Wages, holiday and notice pay do not need two years' service. Redundancy pay does. And there is a deadline: six months from the date you were dismissed to claim your redundancy pay.
+
+Who is not covered. Contractors, and anyone who was not classed as an employee, including the self-employed — they register as a creditor in the insolvency instead. The scheme only pays where the employer has formally become insolvent. Tribunal awards for discrimination or injury to feelings cannot be paid, and nothing above the caps is paid either. Benefits you received, or could have received, are taken off the notice pay. A director can claim, if they were also an employee.
+
+This is the Great Britain service. Northern Ireland runs its own.
+
+Owed money by an employer that has gone under? Message us. The first consultation is free and lasts 30 minutes.""",
+       SOURCES=[("the £22,530 maximum statutory redundancy payment, the £751 weekly cap for redundancies on or after 6 April 2026 and £719 before it, the 8-week cap on arrears of pay, the 6-week cap on holiday pay, the 12-week maximum statutory notice pay, and the two years' service needed for redundancy pay",
+                 "https://www.gov.uk/government/publications/redundancy-payments-from-the-insolvency-service/explaining-your-redundancy-payment", "2026-11-19"),
+                ("the six-month limit to claim redundancy pay after dismissal, the online claim using the CN reference, the separate later notice pay claim needing an LN reference, and who can claim",
+                 "https://www.gov.uk/your-rights-if-your-employer-is-insolvent/apply-money-owed", "2026-11-19")],
+       SCOPE=dict(nation="Great Britain only. Northern Ireland runs its own Redundancy Payments Service on a separate claim route, so the nation is named in a row, never in the headline.",
+                  category="Former employees of an employer that has formally become insolvent. Redundancy pay needs two years' service; arrears of wages, holiday pay and notice pay do not.",
+                  excluded="Contractors are not eligible and must register as a creditor in the insolvency instead; the same follows for anyone not classed as an employee, including the self-employed. The scheme only pays where the employer is formally insolvent. Tribunal awards for injury to feelings, discrimination or compensatory awards cannot be paid. Amounts above the £22,530 and weekly £751 caps are not paid.",
+                  from_when="The £751 weekly cap applies to redundancies on or after 6 April 2026; £719 applies before that date.")),
+]
+
+SOLO_BY_SLUG = {s["slug"]: s for s in SOLOS}
+
+# Yesterday's set retires into ARCHIVE so nothing is silently lost and its
+# caption entries still resolve.
+_PREV_DAY_20 = DAY
+ARCHIVE = ARCHIVE + _PREV_DAY_20
+
+DAY = [
+  OLA_TRANSFER_ALOCATIE, OLA_TAXA_CHILD_BENEFIT_VENIT, OLA_CREDITE_NI_BUNICI,
+  OLA_UNIFORMA_UNELTE, OLA_SECTION_75_CARD,
+  BHAM_SMALL_BUSINESS_RATE_RELIEF, BHAM_COUNCIL_TAX_REDUCTION_APPLY,
+  BHAM_FUNDED_CHILDCARE_HOURS, BHAM_MINIMUM_WAGE_2027, BHAM_EMPLOYMENT_ALLOWANCE,
+  EN_SELF_ASSESSMENT_JANUARY, EN_CIS_RETURNS_DEADLINE, EN_VAT_THRESHOLDS,
+  EN_LATE_FILING_PENALTIES, EN_MTD_INCOME_TAX,
+]
+BY_SLUG = {t["slug"]: t for t in DAY + HELD + ARCHIVE}
+
+# solo_caption() returns the caption whole, so each single-image post carries its
+# own disclaimer and its own brand tags. Appended here from the one source of
+# truth for each brand rather than typed into nine captions by hand.
+_SOLO_DISC = {"ro": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+              "en": "General information. For your own situation, speak to an accountant."}
+_SOLO_TAGS = {
+  "ola": BRAND_TAGS + " #contabilitate #romaniinuk",
+  "bham": BRAND_TAGS_BHAM + " #Birmingham #WestMidlands",
+  "en": BRAND_TAGS_EN + " #UKBusiness #HMRC",
+}
+for _s in SOLOS:
+    _disc = _SOLO_DISC[_s["lang"]]
+    _tag = _SOLO_TAGS[_s["brand"]]
+    if _disc not in _s["caption"]:
+        _s["caption"] = _s["caption"].rstrip() + "\n\n" + _disc
+    if _tag.split()[0] not in _s["caption"]:
+        _s["caption"] = _s["caption"].rstrip() + "\n\n" + _tag
+
+_norm_sources(DAY)
+_norm_sources(SOLOS)
+_iso_sources(DAY)
+_iso_sources(SOLOS)
+
+# 19 Nov 2026 20:15 UTC. day.py died at ola-uniforma-unelte: the en-gbp render
+# (1200x1200, Google Business) timed out in the renderer and build._render then
+# raised TypeError on a bool, which took the whole run down and left ELEVEN
+# carousels unbuilt. GBP is one post a day. Eleven carousels are not. The flag is
+# dropped so en-gbp is never rendered tonight; the Google Business slot is skipped
+# and the report says so. Nothing about the cards or the captions changes.
+OLA_UNIFORMA_UNELTE.pop("GBP", None)
