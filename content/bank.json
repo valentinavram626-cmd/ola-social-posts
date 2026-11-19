@@ -37,7 +37,9 @@
    "how_to_claim": "The LOWER earner applies, free, on gov.uk. It then renews automatically until cancelled."
   },
   "notes": "The claim is made by the lower earner, not the higher — the commonest error. Scotland: the test is the Scottish band, so a Scot on £46,000 does NOT qualify while someone on £46,000 in England does. No Budget 2026 change.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "trading-allowance",
@@ -321,7 +323,9 @@
    "how_to_claim": "It depends on how you pay your council tax, and this is the single most important thing to get right. If you pay council tax by Direct Debit and live in a band A to D property, gov.uk says you do not need to do anything and the money will be paid straight into your bank account. If you do NOT pay by Direct Debit, your council will invite you to apply for it directly - so a sizeable minority must act. For the separate £100 million discretionary fund, every council sets its own eligibility criteria and publishes its own application route on its website once local arrangements are in place. gov.uk also warns that nobody other than your council should contact you asking you to claim, and to double check with the council if a message looks doubtful."
   },
   "notes": "RE-CHECKED 17 November 2026 and this entry has CHANGED materially: the payment mechanism is now confirmed at primary source, which it was not at the last check. The Department for Energy Security and Net Zero page 'What the Autumn Budget 2026 means for your energy bills' (gov.uk, published 28 October 2026) states that Direct Debit payers in bands A to D need do nothing and will be paid straight into their bank account, and that anyone not paying by Direct Debit will be invited by their council to apply. That is why 'automatic' is set to false rather than true: it is automatic for Direct Debit payers only, and copy that just says 'it's automatic, you don't need to do anything' will cause non-Direct-Debit households to miss out. The second piece of newly confirmed detail is the exclusions - second homes, empty properties, and households where the householder is not responsible for paying the council tax - plus the fact that most council-tax-exempt households ARE included. Still NOT published, checked again today: MHCLG's detailed delivery guidance. Council tax information letter 6/2026 (published 29 October 2026, unchanged) says the department 'will shortly publish detailed guidance' covering eligibility criteria, payment arrangements, monitoring and assurance, and expectations of the discretionary fund. So the full eligibility criteria are still described on gov.uk as 'to be published in due course', and anything beyond the outline above is not yet verifiable. Naming traps: gov.uk calls it both the Household Energy Payment and, in the consumer questions, 'the rebate' - it is not a Winter Fuel Payment, not the Warm Home Discount (that is a separate £150 for people on means-tested benefits) and not a general council tax rebate. Nation trap: this is England only. Scotland, Wales and Northern Ireland get additional funding and decide for themselves, so do not promise readers outside England a £100 payment, and remember Northern Ireland has domestic rates rather than council tax bands. Band trap: band A to D is the property's band, not an income test, so a high earner in a band C flat qualifies and a low earner in a band E house does not - the £100 million discretionary fund is the only route for the latter. Scam trap worth repeating in any copy: gov.uk says nobody other than your council should get in touch asking you to claim.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "employment-allowance",
@@ -8142,7 +8146,9 @@
    "how_to_claim": "Check the industry table on the GOV.UK guidance page for your job's rate (£60 if not listed), subtract any employer contribution, then claim online through the HMRC job expenses service, by post on form P87, or in box 18 of SA102 if you file Self Assessment"
   },
   "notes": "The commonest misunderstanding is that a £60 flat rate puts £60 in your pocket. It does not — it reduces taxable pay by £60, so a basic rate taxpayer saves £12 and a higher rate taxpayer £24. HMRC states the £12 figure itself. Second trap: once HMRC puts the allowance in your tax code it usually keeps rolling forward, so the win is really in the backdated years, not the current one. Third trap: only form P87 is accepted for postal claims — HMRC rejects claims sent on anything else. Flat rates are UK-wide but the saving is bigger for Scottish taxpayers in the higher bands.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "help-to-save-bonus",
@@ -8202,7 +8208,9 @@
    "how_to_claim": "Apply through the Help to Save service on GOV.UK or the HMRC app; you need a Government Gateway account"
   },
   "notes": "Two bonuses, not one, and the second is easy to lose. The first bonus is 50% of your HIGHEST balance in years 1 and 2. The final bonus is 50% of the difference between your highest balance in years 3 and 4 and your highest balance in years 1 and 2 — so if you withdraw and never save above the old peak again, the second bonus is zero. Bonuses are paid into your bank account, not back into the Help to Save account. Ending your Universal Credit claim does NOT shut the account: once open, you keep saving for the full 4 years. Because the bonus is based on the highest balance rather than the closing balance, money can be withdrawn without destroying the first bonus already banked.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "attendance-allowance-2026-27",
@@ -8649,7 +8657,9 @@
    "how_to_claim": "Nothing to claim - the company self-assesses. Report the loan on the CT600A supplementary pages of the Company Tax Return and pay the s455 tax with the Corporation Tax for the period. Once the loan is repaid, the company reclaims the s455 tax under CTA 2010 s458, but it cannot be reclaimed until 9 months and one day after the end of the accounting period in which the repayment happened - so the cash sits with HMRC for a long time. The s458 claim must be made within 4 years from the end of the financial year in which the repayment, release or writing off occurs (s458(3))."
   },
   "notes": "The s455 rate question is settled at primary source and this entry is now publishable. CTA 2010 s455(2) does not state a percentage: it imports the dividend upper rate in ITA 2007 s8(2) for the tax year the loan is made. ITA 2007 s8(2) now reads 35.75%, substituted for 2026-27 onwards by Finance Act 2026 s4(1)(b). So 35.75% is the operative rate for a loan made on or after 6 April 2026 as a matter of statute, and HMRC manual CTM61505 is correct. The public gov.uk/directors-loans page still shows 33.75% (and 32.5% pre-April-2022): that page is simply out of date, and it is not a competing authority, because the rate is not set there. Do NOT publish 33.75% for a loan made in 2026-27. The citation chain is s455(2) -> ITA 2007 s8(2) -> FA 2026 s4(1)(b). The rate also holds at 35.75% for 2027-28 per Budget 2026 Annex A. The number people get wrong: the 9 months runs from the COMPANY accounting period end, not the tax year end, and not from when the money was taken. Asymmetry worth using: the tax falls due 9 months and a day after the accounting period in which the loan was MADE (s455(3)), but relief cannot be given until 9 months after the end of the accounting period in which the REPAYMENT happened (s458(5)) - that is what strands the cash. There are two different £15,000 figures in this subject doing opposite jobs: the £15,000 bed-and-breakfasting trigger on the guidance page, and the £15,000 s456 safe harbour for a full-time employee or director with no material interest. An owner-director almost always has a material interest, so the safe harbour will not help the typical reader - copy must not imply 'under £15,000 is fine'. No Scottish or Welsh variation. NOT RE-VERIFIED at primary source this pass: the claim that interest on the s455 tax is not refundable even when the tax is - do not publish that point until it is read at the CTM61600 series.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "staff-annual-function-exemption-150-per-head",
@@ -10893,7 +10903,9 @@
    "how_to_claim": "Claim the extra relief on a Self Assessment return. Those who do not file a return use HMRC's online how to claim tax relief service. Relief is limited to the amount of income actually taxed at the higher or additional rate, not the whole contribution."
   },
   "notes": "The relief is only automatic in full where contributions come out of pay before tax under a net pay arrangement; on relief-at-source schemes, including most personal pensions and SIPPs, only the 20% arrives by itself. Important for the writer: the GOV.UK page does NOT state a four-year backdating window, and does not mention the gross £3,600 figure or an over-75 cut-off, so none of those should be asserted without separate verification. Not the same as the pension annual allowance, which caps how much can go in.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "redundancy-and-wages-from-insolvent-employer",
@@ -10964,7 +10976,9 @@
    "how_to_claim": "Apply online to the Redundancy Payments Service using the CN case reference number given by the insolvency practitioner or official receiver. Redundancy, unpaid wages and holiday pay go in first; statutory notice pay is a separate later claim needing an LN reference, usually issued after the notice period would have ended."
   },
   "notes": "Great Britain only. Northern Ireland has its own NI Redundancy Payments Service, which applies the same 8-week wages, 6-week holiday and 12-week notice caps but is a separate claim route — do not present the gov.uk service as covering Northern Ireland. Neither gov.uk page states the territory explicitly, so the nation line rests on the existence of the separate Northern Ireland service. This is not the same as statutory redundancy pay from a solvent employer, which the employer itself pays.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "ask-employer-to-join-workplace-pension",
