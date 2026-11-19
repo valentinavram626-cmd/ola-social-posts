@@ -175,7 +175,7 @@
  },
  {
   "id": "personal-savings-allowance",
-  "verified": "2026-11-13",
+  "verified": "2026-11-19",
   "recheck_after": "2027-03-15",
   "brands": [
    "ola"
@@ -325,7 +325,7 @@
  },
  {
   "id": "employment-allowance",
-  "verified": "2026-11-13",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "bham"
@@ -359,7 +359,7 @@
  },
  {
   "id": "nmw-nlw-april-2027",
-  "verified": "2026-11-13",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-01",
   "brands": [
    "bham"
@@ -473,7 +473,7 @@
  },
  {
   "id": "vat-registration-deregistration-thresholds",
-  "verified": "2026-11-13",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "en"
@@ -1583,7 +1583,7 @@
  },
  {
   "id": "class-1-nic-thresholds",
-  "verified": "2026-11-14",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "en",
@@ -1777,7 +1777,7 @@
  },
  {
   "id": "personal-allowance-income-tax-bands",
-  "verified": "2026-11-14",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "en",
@@ -1867,7 +1867,7 @@
  },
  {
   "id": "dividend-allowance",
-  "verified": "2026-11-14",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "en",
@@ -1927,7 +1927,7 @@
  },
  {
   "id": "capital-gains-tax-annual-exempt-amount",
-  "verified": "2026-11-14",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "en",
@@ -2089,7 +2089,7 @@
  },
  {
   "id": "pension-annual-allowance",
-  "verified": "2026-11-14",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "en",
@@ -2155,7 +2155,7 @@
  },
  {
   "id": "child-benefit-rates",
-  "verified": "2026-11-14",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "en",
@@ -2535,7 +2535,7 @@
  },
  {
   "id": "corporation-tax-rates-marginal-relief",
-  "verified": "2026-11-14",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "en",
@@ -3341,8 +3341,8 @@
  },
  {
   "id": "isa-allowance",
-  "verified": "2026-11-14",
-  "recheck_after": "2027-04-06",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-02-01",
   "brands": [
    "en",
    "ola",
@@ -3370,10 +3370,10 @@
     "read": "2026-11-14"
    },
    {
-    "value": "£12,000",
-    "what": "annual cash ISA limit for savers under 65 — announced, NOT yet in force; takes effect 6 April 2027",
-    "source": "https://www.gov.uk/government/publications/reduction-in-the-cash-individual-savings-account-isa-limit/cash-individual-savings-account-isa-limit-reduction",
-    "read": "2026-11-14"
+    "value": "£20,000",
+    "what": "annual cash ISA limit retained from 6 April 2027 — the reduction announced at Autumn Budget 2025 will NOT take effect and the regulations setting a £12,000 cash limit will be revoked",
+    "source": "https://www.gov.uk/government/publications/tax-free-savings-newsletter-24/tax-free-savings-newsletter-24-october-2026",
+    "read": "2026-11-19"
    }
   ],
   "scope": {
@@ -3384,12 +3384,12 @@
    "automatic": false,
    "how_to_claim": "You must open an ISA with a provider and pay money in; the allowance is per tax year and cannot be carried forward. The Lifetime ISA bonus is added by the provider on payments made, with no separate claim by the saver."
   },
-  "notes": "There is NO separate cash ISA limit in force for 2026/27 — the gov.uk ISA guidance gives only the single £20,000 overall figure. A reduction of the cash ISA limit to £12,000 for savers under 65 is announced and takes effect 6 April 2027; the overall £20,000 ISA limit is unchanged, and savers aged 65 and over keep the full £20,000 cash ISA limit. HMRC's policy paper (published 17 September 2026) describes the ISA Regulations as a measure that 'will be amended' and does not confirm the amending regulations have been made, so for 2026/27 content the correct line is £20,000 with no cash sub-limit, with the 2027 change flagged as coming. Accompanying anti-circumvention rules announced 23 June 2026 include restrictions on transfers from non-cash ISAs into cash ISAs and a flat 22% charge on interest on cash held in non-cash ISAs.",
+  "notes": "There is NO separate cash ISA limit in force for 2026/27 — the gov.uk ISA guidance gives only the single £20,000 overall figure. A reduction of the cash ISA limit to £12,000 for savers under 65 is announced and takes effect 6 April 2027; the overall £20,000 ISA limit is unchanged, and savers aged 65 and over keep the full £20,000 cash ISA limit. HMRC's policy paper (published 17 September 2026) describes the ISA Regulations as a measure that 'will be amended' and does not confirm the amending regulations have been made, so for 2026/27 content the correct line is £20,000 with no cash sub-limit, with the 2027 change flagged as coming. Accompanying anti-circumvention rules announced 23 June 2026 include restrictions on transfers from non-cash ISAs into cash ISAs and a flat 22% charge on interest on cash held in non-cash ISAs. CORRECTED 19 November 2026: this entry previously carried a £12,000 cash ISA limit taking effect 6 April 2027, from the Autumn Budget 2025 announcement. Budget 2026 dropped that measure. HMRC Tax-free savings newsletter 24 (October 2026) states the reduction of the cash ISA limit and associated anti-circumvention rules announced at Autumn Budget 2025 will not take effect, the £20,000 annual cash ISA limit will be retained from 6 April 2027, and the regulations setting the £12,000 limit will be revoked. Do not publish a cash ISA cut.",
   "used": []
  },
  {
   "id": "starting-rate-for-savings",
-  "verified": "2026-11-14",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "en",
@@ -5866,7 +5866,7 @@
  },
  {
   "id": "business-asset-disposal-relief-limit-and-rate",
-  "verified": "2026-11-15",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "bham",
@@ -5926,7 +5926,7 @@
  },
  {
   "id": "iht-nil-rate-band-and-residence-nil-rate-band",
-  "verified": "2026-11-15",
+  "verified": "2026-11-19",
   "recheck_after": "2027-04-06",
   "brands": [
    "bham",
@@ -7520,7 +7520,7 @@
  },
  {
   "id": "benefit-cap-frozen-2027-28",
-  "verified": "2026-11-17",
+  "verified": "2026-11-19",
   "recheck_after": "2027-02-01",
   "brands": [
    "en",
@@ -8247,7 +8247,7 @@
    "excluded": "Anyone living in Scotland must apply for Pension Age Disability Payment instead. Anyone already getting DLA, PIP, Adult Disability Payment, Scottish Adult Disability Living Allowance or Armed Forces Independence Payment cannot have Attendance Allowance as well. People living in a care home where the local authority pays for their care usually cannot get it — you can claim if you pay all the care home fees yourself. Anyone subject to immigration control, unless a sponsored immigrant. Anyone not habitually resident in the UK, Ireland, the Isle of Man or the Channel Islands. It covers nothing for mobility needs. If you also get Constant Attendance Allowance, your Attendance Allowance is reduced by that amount.",
    "from_when": "Rates as published on GOV.UK on 17 November 2026; uprated each April",
    "automatic": false,
-   "how_to_claim": "Apply online on GOV.UK, or print the claim form, or call 0800 731 0122 to be sent one. The claim starts on the day you apply online, the day DWP receives a posted form, or the day of your call if you return the form within 6 weeks."
+   "how_to_claim": "Apply online on GOV.UK, or print the claim form, or call the DWP Attendance Allowance helpline number published on GOV.UK to be sent one. The claim starts on the day you apply online, the day DWP receives a posted form, or the day of your call if you return the form within 6 weeks."
   },
   "notes": "This is the single most under-claimed pensioner benefit and the reason is a wrong belief that it is means-tested. It is not: savings, a pension and a paid-off house make no difference. It is also not paid for having a diagnosis — it is paid for needing help or supervision, and you do not have to be getting that help from anyone. The big knock-on is that an Attendance Allowance award can unlock extra Pension Credit, Housing Benefit and Council Tax Reduction, so it is worth more than the headline rate. Call timing matters: ring the helpline for a form and the claim is backdated to the date of the call, provided you send it in within 6 weeks — applying straight online starts it the day you apply, with nothing before that. Scottish readers must not be sent to this page; Pension Age Disability Payment is a separate Social Security Scotland benefit.",
   "used": []
@@ -9297,6 +9297,1848 @@
    "how_to_claim": "Nothing to claim. It is an obligation on the supplier: issue a compliant invoice within 30 days of the tax point. The customer needs the valid VAT invoice as evidence to reclaim input tax (para 16.2.1). An extension to the 30-day limit is automatic in four listed cases - awaiting supplier or subcontractor invoices, an approved extension of the 14-day rule, approved special accounting arrangements, and being newly registered and not yet notified of the VAT number, which gives 30 days from the date of advice of the number; otherwise you must write to HMRC's VAT Written Enquiries Team."
   },
   "notes": "The gap between a RECEIPT and a VAT INVOICE is where most input tax gets lost: a till receipt with no VAT number and no VAT rate is neither a full nor a simplified VAT invoice. HMRC is explicit that a retailer may be liable to a financial penalty for refusing to issue a VAT invoice when asked by a taxable person (para 16.6.2), but no penalty amount is stated on that page, so do not quote a figure. Fuel is the everyday example: a VAT-inclusive pump sale of £250 or less can be a less-detailed invoice, and above £250 the forecourt may show the vehicle registration number instead of the customer's name and address and need not show litres or the type of supply (para 17.1). The unit price can be omitted where it is not normally provided in that sector and the customer does not require it (para 16.3.2). Zero-rated and exempt items on a mixed invoice must clearly show no VAT payable and carry a separate total for their values (para 16.5). This is the invoice-CONTENT subject and does not overlap the existing VAT margin scheme or record-keeping subjects.",
+  "used": []
+ },
+ {
+  "id": "lbtt-residential-rates-and-first-time-buyer-relief",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "en"
+  ],
+  "title": "Land and Buildings Transaction Tax: residential rates and first-time buyer relief (Scotland only)",
+  "official_page": "https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property",
+  "figures": [
+   {
+    "value": "0% up to £145,000",
+    "what": "LBTT residential nil rate band",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "2% on £145,001 to £250,000",
+    "what": "LBTT residential second band",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "5% on £250,001 to £325,000",
+    "what": "LBTT residential third band",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "10% on £325,001 to £750,000",
+    "what": "LBTT residential fourth band",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "12% over £750,000",
+    "what": "LBTT residential top band",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£175,000",
+    "what": "nil rate band for first-time buyers claiming first-time buyer relief",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "up to £600",
+    "what": "maximum tax saving from first-time buyer relief, effective dates after 1 April 2021",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£40,000",
+    "what": "chargeable consideration below which a transaction is generally not notifiable",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Scotland",
+   "who": "Buyers of residential property in Scotland — houses, flats, dwellings under construction, buildings being converted into dwellings, and certain multiple-occupancy accommodation including school pupil, student and armed forces accommodation. Tax is worked out band by band and the amounts added together.",
+   "excluded": "Buyers anywhere outside Scotland — England and Northern Ireland pay Stamp Duty Land Tax to HMRC and Wales pays Land Transaction Tax to the Welsh Revenue Authority, so LBTT never applies to them. Within Scotland, purchases with chargeable consideration under £40,000 are generally not notifiable, and exempt transactions are outside the charge. University and college halls of residence are not treated as residential multiple-occupancy accommodation.",
+   "from_when": "Rates in force from 1 April 2021 and still current on the page as read on 19 November 2026.",
+   "automatic": false,
+   "how_to_claim": "The buyer, usually through their solicitor, submits an LBTT return to Revenue Scotland and pays the tax. First-time buyer relief must be claimed on that return — it is not applied automatically."
+  },
+  "notes": "Not the same tax as Stamp Duty Land Tax. SDLT covers England and Northern Ireland and is administered by HMRC; Wales has Land Transaction Tax, administered by the Welsh Revenue Authority. The three taxes have different bands, different thresholds and different first-time buyer treatment, so an England figure must never be quoted for a Scottish purchase. Scottish first-time buyer relief raises the nil rate band to £175,000, a different mechanism from the SDLT first-time buyer rules. The Additional Dwelling Supplement is a separate charge on top of LBTT.",
+  "used": []
+ },
+ {
+  "id": "lbtt-additional-dwelling-supplement",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "en"
+  ],
+  "title": "Additional Dwelling Supplement on second homes (Scotland only)",
+  "official_page": "https://revenue.scot/taxes/land-buildings-transaction-tax/additional-dwelling-supplement-ads",
+  "figures": [
+   {
+    "value": "8%",
+    "what": "ADS rate on the whole purchase price, for transactions with an effective date on or after 5 December 2024",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/additional-dwelling-supplement-ads",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6%",
+    "what": "ADS rate where the contract was entered into on or before 4 December 2024, even if the effective date falls on or after 5 December 2024",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/additional-dwelling-supplement-ads",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£40,000",
+    "what": "minimum consideration for ADS to apply at all",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/additional-dwelling-supplement-ads",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£40,000",
+    "what": "minimum value of a share in a jointly owned property for that share to count as owning a dwelling, for effective dates from 1 April 2024",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/additional-dwelling-supplement-ads",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "36 months",
+    "what": "window for selling the previous main residence and claiming an ADS repayment, and the look-back period for the disposal exemption",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/additional-dwelling-supplement-ads",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "the higher of 0.5% a year and the Bank of England base rate",
+    "what": "interest paid on an ADS repayment",
+    "source": "https://revenue.scot/taxes/land-buildings-transaction-tax/additional-dwelling-supplement-ads",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Scotland",
+   "who": "Buyers of a residential property in Scotland for £40,000 or more who already own one or more residential properties anywhere in the world and are not replacing their only or main residence. With joint buyers, ADS applies if any one buyer already owns a residential property. Most purchases by non-individuals, such as companies and certain trusts, pay ADS even with no other residential property.",
+   "excluded": "ADS does not apply if you own only one dwelling at the end of the effective date; if the consideration is under £40,000; if your other property is worth less than £40,000; if your share in a jointly owned property is worth less than £40,000 for effective dates from 1 April 2024; or if you disposed of your only or main residence within the 36 months before buying the new one, 18 months for earlier transactions. It never applies outside Scotland — buyers in England and Northern Ireland face the SDLT higher rates and buyers in Wales the LTT higher rates.",
+   "from_when": "8% applies to effective dates on or after 5 December 2024; the 36-month share and repayment rules apply to effective dates from 1 April 2024.",
+   "automatic": false,
+   "how_to_claim": "ADS is calculated alongside LBTT, declared on the LBTT return and paid at the same time. A repayment is claimed separately from Revenue Scotland if the previous main residence is sold within 36 months, that property was the only or main residence in the 36 months before the purchase, and the buyer has lived in the new property as their only or main residence."
+  },
+  "notes": "Not the same as the SDLT higher rates for additional dwellings, which apply in England and Northern Ireland at a different rate and with a different replacement-of-main-residence window, nor the same as the Welsh LTT higher rates. Where Multiple Dwellings Relief was claimed, an ADS repayment is based on the average consideration. Revenue Scotland has no discretion to allow a repayment on exceptional circumstances where the conditions are not met.",
+  "used": []
+ },
+ {
+  "id": "ltt-residential-rates-and-higher-rates-wales",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "en"
+  ],
+  "title": "Land Transaction Tax: main and higher residential rates (Wales only)",
+  "official_page": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+  "figures": [
+   {
+    "value": "0% up to and including £225,000",
+    "what": "LTT main residential nil rate band, effective dates on or after 10 October 2022",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6% over £225,000 to £400,000",
+    "what": "LTT main residential second band",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "7.5% over £400,000 to £750,000",
+    "what": "LTT main residential third band",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "10% over £750,000 to £1.5m",
+    "what": "LTT main residential fourth band",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "12% over £1.5m",
+    "what": "LTT main residential top band",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "5% up to and including £180,000",
+    "what": "LTT higher residential rate first band, effective dates on or after 11 December 2024",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "8.5% over £180,000 to £250,000",
+    "what": "LTT higher residential rate second band",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "10% over £250,000 to £400,000",
+    "what": "LTT higher residential rate third band",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "12.5% over £400,000 to £750,000",
+    "what": "LTT higher residential rate fourth band",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "15% over £750,000 to £1.5m",
+    "what": "LTT higher residential rate fifth band",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "17% over £1.5m",
+    "what": "LTT higher residential rate top band",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "0% up to and including £225,000",
+    "what": "LTT non-residential nil rate band, effective dates on or after 22 December 2020",
+    "source": "https://www.gov.wales/land-transaction-tax-rates-and-bands",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Wales",
+   "who": "Buyers of property in Wales. Main residential rates apply on buying a residential property. Higher residential rates apply on buying a residential property while you already own one or more; companies must pay the higher rates and trusts may have to. Non-residential rates apply to shops, offices and agricultural land.",
+   "excluded": "Buyers outside Wales never pay LTT — England and Northern Ireland pay Stamp Duty Land Tax and Scotland pays Land and Buildings Transaction Tax, both with different bands. Within Wales, the higher rates may not apply if you are replacing your main residence, and do not apply where contracts were exchanged before the relevant rate-change date. There is no first-time buyer relief in Wales at all, so a first-time buyer in Wales gets only the standard £225,000 nil rate band.",
+   "from_when": "Main residential rates from 10 October 2022; higher residential rates from 11 December 2024; non-residential rates from 22 December 2020.",
+   "automatic": false,
+   "how_to_claim": "The buyer, usually through their conveyancer, files an LTT return with the Welsh Revenue Authority and pays the tax."
+  },
+  "notes": "The biggest nation trap on this subject: England and Northern Ireland have SDLT first-time buyers' relief and Scotland raises the LBTT nil band to £175,000 for first-time buyers, but Wales has no first-time buyer relief. Quoting an English first-time buyer threshold to a Welsh buyer would be wrong. A relevant rent rule can also remove the 0% band on a lease premium.",
+  "used": []
+ },
+ {
+  "id": "scottish-child-payment",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-15",
+  "brands": [
+   "en"
+  ],
+  "title": "Scottish Child Payment (Scotland only)",
+  "official_page": "https://www.mygov.scot/scottish-child-payment",
+  "figures": [
+   {
+    "value": "£28.20 a week per child",
+    "what": "Scottish Child Payment rate for each eligible child",
+    "source": "https://www.mygov.scot/scottish-child-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£112.80 per child",
+    "what": "amount paid every 4 weeks per eligible child",
+    "source": "https://www.socialsecurity.gov.scot/scottish-child-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "under 16",
+    "what": "age limit for a qualifying child",
+    "source": "https://www.mygov.scot/scottish-child-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "14 days",
+    "what": "period within which a qualifying benefit must be awarded if you apply before DWP has approved it",
+    "source": "https://www.socialsecurity.gov.scot/scottish-child-payment",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Scotland",
+   "who": "A person living in Scotland who is responsible for a child under 16, or their partner, including kinship carers, where they or their partner receive Universal Credit, Income Support, Pension Credit, income-based Jobseeker's Allowance or income-related Employment and Support Allowance. There is no limit on the number of eligible children in a family.",
+   "excluded": "Anyone who does not live in Scotland gets nothing — there is no equivalent payment in England, Wales or Northern Ireland. Also excluded: people not responsible for a child, people whose child has turned 16, and people who receive none of the five qualifying benefits. Only one person can be paid per child. Applying before a qualifying benefit is approved only works if the benefit is awarded within 14 days.",
+   "from_when": "Current rate as published on 19 November 2026. The rate is reviewed yearly.",
+   "automatic": false,
+   "how_to_claim": "Apply to Social Security Scotland online through mygov.scot, on a paper form, by phone, or through the local delivery service. Online applications are not available to people who need a payment method other than a bank account, or to someone applying on another person's behalf such as an appointee."
+  },
+  "notes": "There is no equivalent of this payment anywhere else in the UK, so it must never be presented as a UK-wide benefit. It is separate from and paid on top of Child Benefit, which is UK-wide and run by HMRC, and separate from the Universal Credit child element. It is also distinct from Best Start Grant and Best Start Foods.",
+  "used": []
+ },
+ {
+  "id": "best-start-grant-and-best-start-foods",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-15",
+  "brands": [
+   "en"
+  ],
+  "title": "Best Start Grant and Best Start Foods (Scotland only)",
+  "official_page": "https://www.mygov.scot/best-start-grant-best-start-foods",
+  "figures": [
+   {
+    "value": "£796.65",
+    "what": "Pregnancy and Baby Payment for a first child, oldest child under 16",
+    "source": "https://www.mygov.scot/best-start-grant-best-start-foods",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£398.35",
+    "what": "Pregnancy and Baby Payment for each later child",
+    "source": "https://www.mygov.scot/best-start-grant-best-start-foods",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£1,593.35",
+    "what": "Pregnancy and Baby Payment for twins with no other children under 16",
+    "source": "https://www.mygov.scot/best-start-grant-best-start-foods",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£1,195.05",
+    "what": "Pregnancy and Baby Payment for twins where there are other children under 16",
+    "source": "https://www.mygov.scot/best-start-grant-best-start-foods",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£331.95",
+    "what": "Early Learning Payment per child, aged 2 to 3 years 6 months",
+    "source": "https://www.mygov.scot/best-start-grant-best-start-foods",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£331.95",
+    "what": "School Age Payment per child, for the year the child first becomes old enough to start primary school",
+    "source": "https://www.mygov.scot/best-start-grant-best-start-foods",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£22.40 every 4 weeks",
+    "what": "Best Start Foods during pregnancy, regardless of how many babies are expected",
+    "source": "https://www.mygov.scot/best-start-grant-best-start-foods",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£44.80 every 4 weeks",
+    "what": "Best Start Foods per child from birth to age one",
+    "source": "https://www.mygov.scot/best-start-grant-best-start-foods",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£22.40 every 4 weeks",
+    "what": "Best Start Foods per child aged one to three",
+    "source": "https://www.mygov.scot/best-start-grant-best-start-foods",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Scotland",
+   "who": "A person living in Scotland who is pregnant or responsible for a child of the right age, where they or their partner receive Universal Credit, Housing Benefit, Income Support, Pension Credit, income-based Jobseeker's Allowance or income-related Employment and Support Allowance, or have applied for one and are waiting. One application form covers all the payments.",
+   "excluded": "People living in England, Wales or Northern Ireland cannot get Best Start Grant or Best Start Foods at all — mygov.scot points them to the Sure Start Maternity Grant and Healthy Start instead. Also excluded: anyone not pregnant and with no child of the right age; anyone who is not the main person looking after the child, unless another condition applies; and anyone whose only payment is Child Benefit, because Child Benefit does not count on its own. Anyone waiting for a legal order must wait until they have it before applying.",
+   "from_when": "Amounts as published on 19 November 2026. School Age Payment window: children born 1 March 2021 to 28 February 2022 apply between 1 June 2026 and 28 February 2027.",
+   "automatic": false,
+   "how_to_claim": "One application to Social Security Scotland covers both. Best Start Foods can be applied for from when you know you are pregnant until the child turns 3. The Pregnancy and Baby Payment is applied for after the 24th week of pregnancy and up to 6 months after the birth."
+  },
+  "notes": "The comparison outside Scotland is less generous and structured differently: Great Britain outside Scotland and Northern Ireland have the Sure Start Maternity Grant, a single one-off payment, plus Healthy Start vouchers in England. There is no Early Learning Payment or School Age Payment anywhere else in the UK. Triplets: £1,991.70 with no other children under 16, £1,593.40 with other children under 16.",
+  "used": []
+ },
+ {
+  "id": "small-business-bonus-scheme-scotland",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "en"
+  ],
+  "title": "Small Business Bonus Scheme: non-domestic rates relief (Scotland only)",
+  "official_page": "https://www.mygov.scot/non-domestic-rates-relief/small-business",
+  "figures": [
+   {
+    "value": "£35,000 or less",
+    "what": "combined rateable value of all premises you occupy, to qualify at all",
+    "source": "https://www.mygov.scot/non-domestic-rates-relief/small-business",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£20,000 or less",
+    "what": "rateable value each individual property must not exceed",
+    "source": "https://www.mygov.scot/non-domestic-rates-relief/small-business",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "100% relief",
+    "what": "relief where you occupy one property with a rateable value up to £12,000 — no rates payable",
+    "source": "https://www.mygov.scot/non-domestic-rates-relief/small-business",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "tapers from 100% down to 25%",
+    "what": "relief on a single property with a rateable value of £12,001 to £15,000",
+    "source": "https://www.mygov.scot/non-domestic-rates-relief/small-business",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "tapers from 25% down to 0%",
+    "what": "relief on a single property with a rateable value of £15,001 to £20,000",
+    "source": "https://www.mygov.scot/non-domestic-rates-relief/small-business",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "100% relief",
+    "what": "relief on multiple properties with a combined rateable value up to £12,000",
+    "source": "https://www.mygov.scot/non-domestic-rates-relief/small-business",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "25% on each property with a rateable value of £15,000 or less",
+    "what": "relief on multiple properties with a combined rateable value of £12,001 to £15,000",
+    "source": "https://www.mygov.scot/non-domestic-rates-relief/small-business",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Scotland",
+   "who": "Occupiers of non-domestic property in Scotland where the combined rateable value of all premises occupied is £35,000 or less and each property is £20,000 or less. The property must be actively occupied, and where a short-term let licence is required the occupier must hold a valid one.",
+   "excluded": "Businesses outside Scotland cannot claim it — England has Small Business Rate Relief and Wales and Northern Ireland have their own separate schemes with different thresholds. Within Scotland the relief is not available for advertisements, car parks, betting shops, payday lending businesses, and some types of shooting. Unoccupied property is excluded because the property must be actively occupied, and an occupier who needs a short-term let licence but does not hold a valid one is excluded.",
+   "from_when": "Thresholds and taper as published on 19 November 2026. Non-domestic rates policy is set at the Scottish Budget each year.",
+   "automatic": false,
+   "how_to_claim": "Complete the local council's application form, usually online, giving your name, address and the rateable value of each business property you occupy, and sign an anti-fraud declaration. You do not have to provide staff numbers or turnover."
+  },
+  "notes": "Not the same as Small Business Rate Relief in England, which has different thresholds and a different taper. Wales and Northern Ireland run their own schemes on different terms. Scotland uses non-domestic rates rather than business rates, and the cumulative £35,000 test across all occupied properties is a Scotland-specific feature with no English equivalent.",
+  "used": []
+ },
+ {
+  "id": "ni-housing-benefit-and-rate-relief-homeowners",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "en"
+  ],
+  "title": "Help with domestic rates for pensioner homeowners: Housing Benefit and Rate Relief (Northern Ireland only)",
+  "official_page": "https://www.nidirect.gov.uk/articles/housing-benefit-and-rate-relief-homeowners",
+  "figures": [
+   {
+    "value": "£50,000",
+    "what": "maximum capital you can hold and still qualify — capital above this disqualifies you",
+    "source": "https://www.nidirect.gov.uk/articles/housing-benefit-and-rate-relief-homeowners",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "all or some of your rates",
+    "what": "what the scheme can pay towards",
+    "source": "https://www.nidirect.gov.uk/articles/housing-benefit-and-rate-relief-homeowners",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Northern Ireland",
+   "who": "Owner occupiers in Northern Ireland who have reached State Pension age — and whose partner has also reached State Pension age, if they have one — with capital of £50,000 or less. Capital counts stocks, shares and bank, building society and savings accounts. Administered by the Housing Executive.",
+   "excluded": "Nobody outside Northern Ireland can claim it, because Northern Ireland has domestic rates and no council tax at all — England, Scotland and Wales use council tax and their own council tax reduction or support schemes instead. Within Northern Ireland, excluded are: anyone who has not reached State Pension age, who must apply for Rate Rebate instead; anyone with capital over £50,000; anyone who is not an owner occupier; anyone in a co-ownership or rental buy scheme; and anyone already receiving Housing Benefit and Rate Relief from the Housing Executive or through Universal Credit.",
+   "from_when": "Rules as published on 19 November 2026.",
+   "automatic": false,
+   "how_to_claim": "Complete the application form and send it to the Housing Executive with supporting documents, giving details of your partner, any children or others living with you, any co-owners, your income including benefits and pensions, and any income from extra property or land."
+  },
+  "notes": "The clearest nation trap in the set: Northern Ireland has domestic rates, not council tax, so council tax language and England's Council Tax Reduction scheme simply do not apply there. Working-age claimants in Northern Ireland use the separate Rate Rebate Scheme for people on Universal Credit. Disabled Person's Allowance and Lone Pensioner's Allowance are applied for separately through Land and Property Services, not the Housing Executive.",
+  "used": []
+ },
+ {
+  "id": "pension-age-winter-heating-payment-scotland",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-09-01",
+  "brands": [
+   "en"
+  ],
+  "title": "Pension Age Winter Heating Payment, winter 2026 to 2027 (Scotland only)",
+  "official_page": "https://www.mygov.scot/pension-age-winter-heating-payment",
+  "figures": [
+   {
+    "value": "between £105.55 and £316.70",
+    "what": "annual payment range for winter 2026 to 2027",
+    "source": "https://www.mygov.scot/pension-age-winter-heating-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£35,000",
+    "what": "individual income above which HMRC takes the payment back; joint income over £35,000 does not trigger recovery",
+    "source": "https://www.mygov.scot/pension-age-winter-heating-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Monday 21 to Sunday 27 September 2026",
+    "what": "qualifying week for winter 2026 to 2027",
+    "source": "https://www.mygov.scot/pension-age-winter-heating-payment/check-if-youre-eligible",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "born on or before 27 June 1960",
+    "what": "date of birth requirement for winter 2026 to 2027",
+    "source": "https://www.mygov.scot/pension-age-winter-heating-payment/check-if-youre-eligible",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "from November 2026",
+    "what": "when letters confirming payment are sent",
+    "source": "https://www.mygov.scot/pension-age-winter-heating-payment",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Scotland",
+   "who": "People born on or before 27 June 1960 who lived in Scotland on at least the last day of the qualifying week, Monday 21 to Sunday 27 September 2026. Paid once a year into the same account as the State Pension or any Social Security Scotland benefit.",
+   "excluded": "People in England, Wales and Northern Ireland do not get this payment — they get the DWP Winter Fuel Payment instead, under different rules. Within Scotland, excluded are: people in hospital getting free treatment for the whole qualifying week and the 52 weeks before it; people in custody under a court sentence for the whole qualifying week; people who need permission to enter the UK whose leave says they cannot claim public funds; and people in residential care for the whole qualifying week who went into care before 29 June 2026 and received certain income-related benefits that week. Anyone with individual income over £35,000 keeps the payment only temporarily, as HMRC recovers it.",
+   "from_when": "Winter 2026 to 2027, based on the qualifying week of 21 to 27 September 2026.",
+   "automatic": true,
+   "how_to_claim": "Most eligible people are paid automatically with no application. A small number need to apply — the mygov.scot page has a Check if you need to apply section."
+  },
+  "notes": "This replaced the Winter Fuel Payment for people in Scotland; Winter Fuel Payment is run by the DWP and still applies in England, Wales and Northern Ireland. Do not treat the two as the same scheme or quote one's amounts for the other. It is also a different payment from Scotland's separate Winter Heating Payment, which is for people on certain low-income benefits rather than pension age. CAUTION FOR THE WRITER: only the official range is verified here, not the per-age-band amounts — the How much you might be paid sub-page did not load, so a post needing a single exact figure must have that sub-page read first.",
+  "used": []
+ },
+ {
+  "id": "discretionary-assistance-fund-wales",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "en"
+  ],
+  "title": "Discretionary Assistance Fund: emergency and individual assistance grants (Wales only)",
+  "official_page": "https://www.gov.wales/discretionary-assistance-fund-daf",
+  "figures": [
+   {
+    "value": "3 grants in the last rolling 12 months",
+    "what": "number of awards after which you cannot apply again — a rolling 12 months, not a calendar or tax year",
+    "source": "https://www.gov.wales/discretionary-assistance-fund-daf/how-apply",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "7 days",
+    "what": "period after receiving a grant during which you cannot apply again",
+    "source": "https://www.gov.wales/discretionary-assistance-fund-daf/how-apply",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "over 16, no upper age limit",
+    "what": "age requirement for both Emergency Assistance Payments and Individual Assistance Payments",
+    "source": "https://www.gov.wales/discretionary-assistance-fund-daf/eligibility",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "3 months",
+    "what": "minimum time in a care home or institution before leaving it qualifies you for an Individual Assistance Payment",
+    "source": "https://www.gov.wales/discretionary-assistance-fund-daf/eligibility",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 weeks",
+    "what": "discharge window within which someone in a care home or prison can still qualify for an Individual Assistance Payment",
+    "source": "https://www.gov.wales/discretionary-assistance-fund-daf/eligibility",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Wales",
+   "who": "People living in Wales and over 16. Emergency Assistance Payments are grants, not loans, for essential costs such as food, gas, electricity, heating oil or emergency travel, for people in extreme financial hardship facing an unexpected crisis. Individual Assistance Payments are grants for white goods and furniture to help someone live independently, and require receipt of a qualifying income-related benefit plus one qualifying circumstance.",
+   "excluded": "People outside Wales cannot apply — Scotland has the Scottish Welfare Fund and England has only patchwork local welfare assistance from individual councils. Within Wales, excluded are: anyone aged 16 or under; anyone who has received a grant in the last 7 days; anyone who has received 3 grants in the last rolling 12 months; anyone with savings or other money available, or who has not tried other affordable sources such as a credit union; anyone living in a care home or in prison, unless being discharged within 6 weeks; and members of a fully maintained religious order. Emergency Assistance Payments cannot be used for ongoing bills you cannot afford to pay.",
+   "from_when": "Rules as published on 19 November 2026.",
+   "automatic": false,
+   "how_to_claim": "Apply online at the DAF service, by post or phone using the contact details on the scheme's contact page, or with help from an approved partner. The heating oil Emergency Assistance Payment, all Individual Assistance Payments, and any application made on someone else's behalf are available only through an approved partner."
+  },
+  "notes": "The nearest equivalents are the Scottish Welfare Fund in Scotland and, in Northern Ireland, Discretionary Support. In England there is no national scheme at all, only whatever local welfare assistance an individual council chooses to run, so this must never be described as UK-wide. These are grants, not loans, which distinguishes them from a Universal Credit Budgeting Advance, which is repayable.",
+  "used": []
+ },
+ {
+  "id": "employers-liability-compulsory-insurance",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Employers' liability insurance: the £5 million minimum and the £2,500-a-day penalty",
+  "official_page": "https://www.gov.uk/employers-liability-insurance",
+  "figures": [
+   {
+    "value": "£5,000,000",
+    "what": "minimum cover required for claims arising from any one occurrence, including related costs and expenses, reg 3 Employers' Liability (Compulsory Insurance) Regulations 1998",
+    "source": "https://www.legislation.gov.uk/uksi/1998/2573/body/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£2,500 per day",
+    "what": "penalty for each day the employer is not properly insured",
+    "source": "https://www.gov.uk/employers-liability-insurance",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£1,000",
+    "what": "penalty for not displaying the certificate where employees can access it, or not producing it to an inspector on request",
+    "source": "https://www.gov.uk/employers-liability-insurance",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "10 days",
+    "what": "period within which an offshore employer must produce the certificate on request, reg 5(4)",
+    "source": "https://www.legislation.gov.uk/uksi/1998/2573/body/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Revoked from 1 October 2008",
+    "what": "the old 40-year certificate retention duty in reg 4(4) and (5) was omitted by reg 2(2) of SI 2008/1765; reg 5 was replaced so electronic availability with reasonable employee access now satisfies the display duty",
+    "source": "https://www.legislation.gov.uk/uksi/2008/1765/made",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (England, Scotland and Wales)",
+   "who": "Every employer, from the moment they become one. The policy must be with an insurer authorised by the FCA.",
+   "excluded": "Employers who employ only a close family member (spouse, civil partner, parent, child, grandparent, sibling, or a step or half relative); employers whose only employee is based outside England, Scotland and Wales; and the employers listed in Schedule 2 to the 1998 Regulations. It does not bite on a genuinely self-employed person with no employees. Northern Ireland employers are outside this instrument and sit under the Employer's Liability (Compulsory Insurance) Regulations (NI) 1999 instead.",
+   "from_when": "In force since 1999; reg 4(4) retention duty removed and electronic display allowed from 1 October 2008",
+   "automatic": false,
+   "how_to_claim": "Buy a policy of at least £5m from an FCA-authorised insurer before the first employee starts; display the certificate at each place of business where relevant employees work, or make it available electronically with reasonable access; produce it to an HSE or local-authority inspector on request."
+  },
+  "notes": "The 40-year certificate-retention rule is the most common error in third-party content on this: it was omitted with effect from 1 October 2008 and there is now no statutory retention period, though keeping old certificates remains sensible because long-latency disease claims can surface decades later. Employers' liability insurance is NOT public liability insurance and NOT motor insurance; only employers' liability is compulsory under the 1969 Act. A company whose only employee is a director owning at least 50 per cent of the share capital falls within the Schedule 2 exemptions, which is why many single-director companies do not need a policy.",
+  "used": []
+ },
+ {
+  "id": "riddor-reporting-deadlines",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "RIDDOR: the 10-day and 15-day deadlines for reporting accidents at work",
+  "official_page": "https://www.hse.gov.uk/riddor/when-do-i-report.htm",
+  "figures": [
+   {
+    "value": "Without delay, and a report received within 10 days",
+    "what": "deadline for a work-related death or a specified injury to a worker, and for a reportable dangerous occurrence",
+    "source": "https://www.hse.gov.uk/riddor/when-do-i-report.htm",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "15 days",
+    "what": "deadline for reporting an over-seven-day incapacitation of a worker, counted from the date of the incident",
+    "source": "https://www.hse.gov.uk/riddor/when-do-i-report.htm",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "More than seven consecutive days",
+    "what": "the incapacitation threshold that makes an injury reportable, not counting the day of the incident itself but including non-working days",
+    "source": "https://www.hse.gov.uk/riddor/when-do-i-report.htm",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "On diagnosis",
+    "what": "the trigger for reporting a reportable occupational disease — the duty arises once the responsible person receives the diagnosis",
+    "source": "https://www.hse.gov.uk/riddor/when-do-i-report.htm",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (Northern Ireland has its own RIDDOR regime enforced by HSENI)",
+   "who": "The responsible person — normally the employer in respect of their own workers, some self-employed people, and the person in control of work premises where a reportable incident happens.",
+   "excluded": "An injured person reporting their own injury must not use the system unless they are self-employed; members of the public must not report; and anyone without RIDDOR duties must not report. A report is not required for an injury that is not work-related, or where incapacitation does not exceed seven consecutive days. Northern Ireland employers report to HSENI under the NI regulations, not to HSE under these.",
+   "from_when": "RIDDOR 2013, in force since 1 October 2013",
+   "automatic": false,
+   "how_to_claim": "Report online using HSE's appropriate form for the incident type. A fatality or specified injury can alternatively be reported by phone on HSE's incident line — for those cases only. Report to the correct enforcing authority: HSE for most industrial premises, the local authority for most offices, shops and leisure."
+  },
+  "notes": "Two deadlines get mixed up constantly: 10 days for deaths, specified injuries and dangerous occurrences; 15 days for over-seven-day injuries. The seven-day count excludes the day of the accident but includes weekends and rest days, so a Friday accident keeping someone off until the following Monday week is usually reportable. RIDDOR reporting is NOT the same as the accident book, and NOT the same as notifying your insurer. The employer must also keep a record of reportable incidents; HSE's pages do not state a retention period, so no figure is given here.",
+  "used": []
+ },
+ {
+  "id": "p60-deadline-and-payroll-year-end",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "P60s by 31 May: the employer's payroll year-end timetable",
+  "official_page": "https://www.gov.uk/payroll-annual-reporting/overview",
+  "figures": [
+   {
+    "value": "31 May",
+    "what": "deadline to give a P60 to every employee on the payroll on the last day of the tax year",
+    "source": "https://www.gov.uk/payroll-annual-reporting/give-employees-p60-form",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "On or before employees' payday",
+    "what": "deadline to send the final payroll report of the tax year",
+    "source": "https://www.gov.uk/payroll-annual-reporting/overview",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "5 April",
+    "what": "the last day of the tax year — an employee must be on the payroll on this date to be entitled to a P60",
+    "source": "https://www.gov.uk/payroll-annual-reporting/give-employees-p60-form",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 April",
+    "what": "date from which employee payroll records and payroll software must be updated for the new tax year",
+    "source": "https://www.gov.uk/payroll-annual-reporting/overview",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom",
+   "who": "Every employer operating PAYE, including a single-director company paying itself a salary.",
+   "excluded": "An employee who left before 5 April does not get a P60 — the duty covers only those on the payroll on the last day of the tax year, and a leaver gets a P45 instead. Someone paid below the PAYE reporting threshold with no PAYE scheme is outside it. Subcontractors paid under CIS are not employees and get a CIS payment and deduction statement, not a P60.",
+   "from_when": "Standing annual duty; the P60 for 2026-27 is due by 31 May 2027",
+   "automatic": false,
+   "how_to_claim": "Send the final FPS of the year on or before the last payday, marking it as the final submission; issue a P60 to each employee still employed on 5 April by 31 May; update employee records and payroll software from 6 April. If a P60 figure later changes, issue a fresh P60 marked replacement or a letter confirming the change."
+  },
+  "notes": "The P60 is a year-end certificate for a current employee; the P45 is for a leaver; the P11D is for benefits in kind. Three different forms with three different triggers, routinely confused. A replacement P60 may be issued electronically. Expenses and benefits reporting falls on 6 July and is a separate subject. Employees need the P60 to claim a tax refund, prove income for a mortgage or complete a tax return, so late issue causes real complaints even where HMRC takes no action.",
+  "used": []
+ },
+ {
+  "id": "unfair-dismissal-award-limits-2026-27",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-15",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "What an unfair dismissal can cost an employer in 2026-27",
+  "official_page": "https://www.legislation.gov.uk/uksi/2026/310/made",
+  "figures": [
+   {
+    "value": "£123,543",
+    "what": "maximum compensatory award for unfair dismissal in Great Britain, s.124(1ZA)(a) ERA 1996, up from £118,223",
+    "source": "https://www.legislation.gov.uk/uksi/2026/310/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£123,785",
+    "what": "maximum compensatory award for unfair dismissal in Northern Ireland, art 158(1) of the 1996 Order, up from £118,455",
+    "source": "https://www.legislation.gov.uk/nisr/2026/57/schedule?view=plain",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£751",
+    "what": "the limit on a week's pay in Great Britain, s.227(1) ERA 1996, up from £719",
+    "source": "https://www.legislation.gov.uk/uksi/2026/310/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£783",
+    "what": "the limit on a week's pay in Northern Ireland, art 23(1) of the 1996 Order, up from £749",
+    "source": "https://www.legislation.gov.uk/nisr/2026/57/schedule?view=plain",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£9,157",
+    "what": "minimum basic award where the dismissal is unfair under s.100(1)(a) or (b), 101A(d), 102(1) or 103 ERA 1996 — health and safety, working time, trustee or employee-representative dismissals, s.120(1), up from £8,763",
+    "source": "https://www.legislation.gov.uk/uksi/2026/310/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£41",
+    "what": "limit on a guarantee payment per day, s.31(1) ERA 1996, up from £39; the same £41 applies in Northern Ireland under art 63(1)",
+    "source": "https://www.legislation.gov.uk/uksi/2026/310/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£5,366",
+    "what": "limit on the compensatory award for failing to allocate and pay tips fairly, s.27M(1), and for failing to have a written tips policy or keep records, s.27O(2), up from £5,135",
+    "source": "https://www.legislation.gov.uk/uksi/2026/310/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 April 2026",
+    "what": "date the new limits came into force, art 1(2); they do not apply where the appropriate date falls before that day, art 4(1)",
+    "source": "https://www.legislation.gov.uk/uksi/2026/310/made",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom, but with different amounts in Northern Ireland — Great Britain uses SI 2026/310, Northern Ireland uses NISR 2026/57",
+   "who": "Any employer facing a tribunal claim; the limits cap what a tribunal can award against them.",
+   "excluded": "The new figures do not apply where the appropriate date falls before 6 April 2026 — for unfair dismissal awards that date is the effective date of termination under s.97, so a dismissal on 5 April 2026 is still capped at the old £118,223. The compensatory award cap does not apply at all to dismissals for whistleblowing or for a discriminatory reason, where compensation is uncapped. A worker who is not an employee cannot bring ordinary unfair dismissal, which also still needs the qualifying period of service.",
+   "from_when": "6 April 2026, for cases whose appropriate date falls on or after that day",
+   "automatic": true,
+   "how_to_claim": "Nothing to file — these are the caps a tribunal applies. The employer's practical duty is to budget redundancy and settlement figures on the correct year's cap and the correct nation's cap, checking which year applies by reference to the effective date of termination, not the hearing date."
+  },
+  "notes": "The nation point is the trap: Northern Ireland's week's pay cap (£783) and compensatory award (£123,785) are HIGHER than Great Britain's (£751 and £123,543), set by a separate NI instrument. Quoting a single UK-wide figure is wrong. The £751 week's pay cap is the same figure that drives statutory redundancy pay, covered separately. The compensatory award is also subject to the separate statutory cap of 52 weeks' actual pay, so £123,543 is a ceiling, not an expectation.",
+  "used": []
+ },
+ {
+  "id": "written-health-and-safety-policy-five-employees",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Five employees: when your health and safety policy must be in writing",
+  "official_page": "https://www.hse.gov.uk/simple-health-safety/policy/index.htm",
+  "figures": [
+   {
+    "value": "Five or more employees",
+    "what": "the threshold at which the health and safety policy must be written down",
+    "source": "https://www.hse.gov.uk/simple-health-safety/policy/index.htm",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Every employer",
+    "what": "who owes the duty under s.2(3) Health and Safety at Work etc. Act 1974 to prepare and revise a written statement of general policy, and bring it and any revision to the notice of all employees",
+    "source": "https://www.legislation.gov.uk/ukpga/1974/37/section/2",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "So far as is reasonably practicable",
+    "what": "the standard of the general duty in s.2(1) to ensure the health, safety and welfare at work of all employees",
+    "source": "https://www.legislation.gov.uk/ukpga/1974/37/section/2",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (Northern Ireland has its own Health and Safety at Work (NI) Order 1978)",
+   "who": "Every employer must have a health and safety policy. An employer with five or more employees must have it in writing, revise it as often as appropriate, and bring it and every revision to the notice of all employees.",
+   "excluded": "An employer with fewer than five employees does not have to write the policy down — but still needs a policy, and HSE recommends writing it anyway. Section 2(3) also opens with Except in such cases as may be prescribed, so prescribed cases can be excepted by regulations. A genuinely self-employed person with no employees has no employees to owe the s.2 duty to. Northern Ireland employers are outside the 1974 Act.",
+   "from_when": "In force since the Health and Safety at Work etc. Act 1974",
+   "automatic": false,
+   "how_to_claim": "Write a statement of your general approach to health and safety setting out how you will manage it and clearly stating who is responsible for what, when and how; share it with employees; revise it when things change and tell employees about the revision."
+  },
+  "notes": "The five employees count is of employees, not full-time equivalents, so five part-timers cross the line. A common error is treating the policy as optional below five — it is the WRITING that becomes optional, not the policy. The written policy is NOT the same thing as a risk assessment, a separate duty with its own five-employee recording threshold, and NOT the same as the law poster, which is a separate duty under separate regulations.",
+  "used": []
+ },
+ {
+  "id": "health-and-safety-law-poster-or-leaflet",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "The health and safety law poster: display it or hand out the leaflet",
+  "official_page": "https://www.hse.gov.uk/simple-health-safety/display.htm",
+  "figures": [
+   {
+    "value": "Poster displayed in a readable condition, or the approved leaflet given to the employee",
+    "what": "the employer's choice of how to comply, reg 4(1)(a) and (b), Health and Safety Information for Employees Regulations 1989",
+    "source": "https://www.legislation.gov.uk/uksi/1989/682/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "A place reasonably accessible to the employee at work, positioned to be easily seen and read",
+    "what": "where the poster must be sited, reg 4(1)(a)",
+    "source": "https://www.legislation.gov.uk/uksi/1989/682/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "As soon as reasonably practicable after the employee starts",
+    "what": "when the leaflet must be given, if the leaflet route is used, reg 4(2)",
+    "source": "https://www.legislation.gov.uk/uksi/1989/682/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Six months",
+    "what": "the period within which the employer must amend the poster, or give written notice of the change to leaflet-holders, after the enforcing authority or EMAS details change, reg 5(2) and 5(5)",
+    "source": "https://www.legislation.gov.uk/uksi/1989/682/made",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "By the date the revision takes effect",
+    "what": "when a revised poster must be displayed, or fresh leaflets given, or employees notified in writing, after the approved form is revised, reg 4(3)",
+    "source": "https://www.legislation.gov.uk/uksi/1989/682/made",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain",
+   "who": "Every employer, in relation to each of their employees. The poster must carry the name and office address of the enforcing authority and the address of the local employment medical advisory service, clearly and indelibly written in the space provided, reg 5(1); a leaflet must come with a written notice giving the same details, reg 5(3).",
+   "excluded": "The Regulations do not apply in relation to the master and crew of a sea-going ship, reg 2(4). HSE may exempt any person or class of persons from all or any of the requirements by written certificate where satisfied the health, safety and welfare of those likely to be affected will not be prejudiced, reg 6. An employer with no employees has no one to display to. Northern Ireland employers are outside these Regulations.",
+   "from_when": "In force since 1989; approved poster form revised since, most recently following SI 2009/606",
+   "automatic": false,
+   "how_to_claim": "Either display the current approved poster somewhere workers can easily read it and keep it legible, or give every worker the equivalent approved leaflet. Fill in the enforcing authority and EMAS details."
+  },
+  "notes": "Either the poster or the leaflet will do — you do not need both, and the leaflet route suits employers with no fixed premises, such as mobile trades. The poster must be the current approved version and must be legible; a faded or superseded poster does not comply, and HSE publishes guidance on identifying a genuine law poster because counterfeits circulate. There is a due diligence defence in reg 7. This is NOT the same duty as the written health and safety policy, and NOT the same as the employers' liability certificate — three separate display duties.",
+  "used": []
+ },
+ {
+  "id": "paid-time-off-antenatal-appointments",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Paid time off for antenatal appointments — from day one",
+  "official_page": "https://www.acas.org.uk/pregnancy-at-work/antenatal-appointments",
+  "figures": [
+   {
+    "value": "Full pay",
+    "what": "the rate at which an employee's time off for antenatal appointments must be paid",
+    "source": "https://www.acas.org.uk/pregnancy-at-work/antenatal-appointments",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Day one",
+    "what": "when the right starts — there is no qualifying period of service",
+    "source": "https://www.acas.org.uk/pregnancy-at-work/antenatal-appointments",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "12 weeks",
+    "what": "the qualifying period an agency worker must complete before getting paid time off for antenatal appointments",
+    "source": "https://www.acas.org.uk/pregnancy-at-work/antenatal-appointments",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Two appointments, up to 6.5 hours each",
+    "what": "the separate UNPAID right of the partner to time off to attend antenatal appointments with the pregnant person",
+    "source": "https://www.acas.org.uk/pregnancy-at-work/antenatal-appointments",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "After the first appointment only",
+    "what": "when the employer may ask to see an appointment card or other evidence",
+    "source": "https://www.acas.org.uk/pregnancy-at-work/antenatal-appointments",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (Acas does not cover Northern Ireland, where the Labour Relations Agency is the equivalent body)",
+   "who": "Employees who are pregnant, from their first day, with a right to reasonable paid time off covering the appointment itself plus travel. Agency workers qualify after 12 weeks. The appointment must be made on the advice of a doctor, nurse or midwife, which covers medical checks and scans, antenatal and parentcraft classes, and pregnancy-related health, fitness or relaxation classes.",
+   "excluded": "Casual and zero-hours workers have no legal right to PAID time off for antenatal appointments — Acas treats giving it as good practice only. The partner's right is unpaid, not paid, and is capped at two appointments. Appointments not made on the advice of a doctor, nurse or midwife are not covered. The employer cannot demand evidence before the first appointment.",
+   "from_when": "Standing statutory right",
+   "automatic": false,
+   "how_to_claim": "The employee asks for the time off; the employer must allow reasonable paid time off including travel and must pay it at full pay. The employer may ask for an appointment card or other evidence for second and later appointments, but not for the first."
+  },
+  "notes": "Three distinctions get muddled. The pregnant employee's right is PAID and from day one; the partner's right is UNPAID and limited to two appointments at up to 6.5 hours each. A casual or zero-hours worker has no legal right to paid time off at all. And this is not annual leave and must not be deducted from holiday, nor treated as sickness absence. Refusing or docking pay also risks a pregnancy and maternity discrimination claim, which is uncapped, so the exposure is far larger than the few hours of pay at stake. Northern Ireland has an equivalent right under its own legislation; cite the LRA rather than Acas for NI.",
+  "used": []
+ },
+ {
+  "id": "reasonable-adjustments-duty-employers",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham"
+  ],
+  "title": "The duty to make reasonable adjustments for disabled staff",
+  "official_page": "https://www.legislation.gov.uk/ukpga/2010/15/section/20",
+  "figures": [
+   {
+    "value": "Three requirements",
+    "what": "the duty comprises s.20(3) provision, criterion or practice; s.20(4) physical features; s.20(5) auxiliary aids — Equality Act 2010",
+    "source": "https://www.legislation.gov.uk/ukpga/2010/15/section/20",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Substantial disadvantage compared with persons who are not disabled",
+    "what": "the trigger for each of the three requirements",
+    "source": "https://www.legislation.gov.uk/ukpga/2010/15/section/20",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Reasonable steps",
+    "what": "the standard of the duty — to take such steps as it is reasonable to have to take to avoid the disadvantage",
+    "source": "https://www.legislation.gov.uk/ukpga/2010/15/section/20",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Nil",
+    "what": "what the disabled person can be required to pay towards the employer's costs of complying — s.20(7) bars requiring the disabled person to pay any part of those costs, unless the Act expressly provides otherwise",
+    "source": "https://www.legislation.gov.uk/ukpga/2010/15/section/20",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Remove, alter, or provide a reasonable alternative means of avoiding it",
+    "what": "the ways of complying where the disadvantage comes from a physical feature, s.20(9)",
+    "source": "https://www.legislation.gov.uk/ukpga/2010/15/section/20",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "England, Wales and Scotland — section 20 is marked E+W+S and does not extend to Northern Ireland",
+   "who": "Employers, in respect of disabled employees, workers and job applicants. Where a provision, criterion or practice, a physical feature, or the absence of an auxiliary aid puts a disabled person at a substantial disadvantage compared with non-disabled people, the employer must take reasonable steps to avoid that disadvantage.",
+   "excluded": "The duty is owed only to people who are disabled within the meaning of the Act — it is not a general duty to accommodate every employee's preference, and someone who is not disabled cannot claim a failure to make reasonable adjustments. There is no duty to take steps that are not reasonable. The duty does not extend to Northern Ireland, where the Disability Discrimination Act 1995 as it applies there governs instead. The employer cannot pass the cost on to the disabled person.",
+   "from_when": "Equality Act 2010, in force since 1 October 2010",
+   "automatic": false,
+   "how_to_claim": "Identify the substantial disadvantage, consider adjustments with the employee, and take the reasonable steps — altering the practice, removing or altering the physical feature or offering a reasonable alternative, or providing the auxiliary aid — at the employer's own cost."
+  },
+  "notes": "The nation point is why this is tagged bham only: the Equality Act 2010 does not extend to Northern Ireland, which still runs on the Disability Discrimination Act 1995 as applied there with its own enforcement body, so publishing the Equality Act as a UK-wide employer duty is wrong. Further confusions worth heading off: it is a duty to take REASONABLE steps, not every step the employee requests; and the cost falls on the employer, who cannot ask the disabled person to contribute. There is no financial cap on a successful discrimination award, unlike unfair dismissal. Access to Work can fund some adjustments, separately from whether the duty is owed.",
+  "used": []
+ },
+ {
+  "id": "vat-error-correction-method-1-and-method-2-thresholds",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Correcting a VAT error: when you can fix it on the next return and when you must tell HMRC",
+  "official_page": "https://www.gov.uk/guidance/how-to-correct-vat-errors-and-make-adjustments-or-claims-vat-notice-70045",
+  "figures": [
+   {
+    "value": "£10,000",
+    "what": "Net error limit for method 1 — correcting on your current VAT return with no separate notification, Notice 700/45 s4.2 and s4.3",
+    "source": "https://www.gov.uk/guidance/how-to-correct-vat-errors-and-make-adjustments-or-claims-vat-notice-70045",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "1% of box 6",
+    "what": "Additional test for net errors between £10,000 and £50,000 — they must not exceed 1% of the box 6 net outputs figure for the period in which the error is discovered, or method 2 is required, s4.3",
+    "source": "https://www.gov.uk/guidance/how-to-correct-vat-errors-and-make-adjustments-or-claims-vat-notice-70045",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£50,000",
+    "what": "Net errors above this must always be notified to HMRC under method 2, whatever the box 6 figure, s4.3 and s4.4",
+    "source": "https://www.gov.uk/guidance/how-to-correct-vat-errors-and-make-adjustments-or-claims-vat-notice-70045",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "4 years",
+    "what": "Time limit for error correction, running from the end of the prescribed accounting period for over- and under-declared output tax and over-claimed input tax; for under-claimed input tax it runs from the due date of the return for the period in which the error occurred, s4.7",
+    "source": "https://www.gov.uk/guidance/how-to-correct-vat-errors-and-make-adjustments-or-claims-vat-notice-70045",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "VAT-registered businesses that find an error in a VAT return they have already submitted",
+   "excluded": "Deliberate errors can never be corrected on the next return — s4.1 and s4.3 require method 2 notification regardless of size, and s4.7 confirms the 4-year limit does not apply to deliberate errors at all. Method 1 is also unavailable where net errors exceed £50,000, or are between £10,000 and £50,000 and exceed 1% of box 6. Businesses that are not VAT registered have nothing to correct.",
+   "from_when": "Current rule, in force now",
+   "automatic": false,
+   "how_to_claim": "Method 1: adjust the VAT account and include the net value in the current return. Method 2: HMRC's online VAT error notification form, s4.5, or in writing to the VAT Error Correction Team, BT VAT, HMRC, BX9 1WR quoting the VAT registration number, s4.6. A method 2 notification must state how each error arose, the period, whether input or output tax, the amounts, how they were calculated, whether an amount not due was paid, and the total to be adjusted."
+  },
+  "notes": "UK-wide; VAT is not devolved, so there is no Scotland, Wales or Northern Ireland variation. The common confusion is treating the £10,000 as a do-not-bother threshold — it is not, the error still has to be corrected, only the notification route changes. It is also a NET figure: a £30,000 under-declaration and a £25,000 over-declaration net to £5,000. This is not the same as the late submission penalty points regime, and correcting an error under method 1 does not by itself protect against an inaccuracy penalty. Notice 700/45 no longer routes you to a form VAT652; the online notification form is the stated channel.",
+  "used": []
+ },
+ {
+  "id": "vat-pre-registration-input-tax-regulation-111",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Reclaiming VAT on things you bought before you registered",
+  "official_page": "https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit32000",
+  "figures": [
+   {
+    "value": "4 years",
+    "what": "Time limit for reclaiming VAT on GOODS bought before registration, for businesses with a registration date after 1 April 2010, VIT32000, regulation 111",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit32000",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 months",
+    "what": "Time limit for reclaiming VAT on SERVICES — the supply must have been received not more than six months before the date of registration, VIT32000",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit32000",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "10 years for land, 5 years for other capital items",
+    "what": "Capital Goods Scheme items are outside the 4-year goods limit, VIT32000",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit32000",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "A newly VAT-registered business, including a pre-incorporation claim, reclaiming VAT it was charged before its registration date, under regulation 111 of the VAT Regulations 1995",
+   "excluded": "Goods that are no longer on hand at the date of registration get nothing — the goods must still be on hand at registration and be used in the newly registered business, so stock already sold and materials already consumed are out. Services received more than six months before registration are out with no HMRC discretion unless the registration date is itself backdated. Anything bought for non-business or private purposes is out: VIT32000 states a business may not use regulation 111 to recover VAT on supplies purchased for non-business or private purposes. After deregistration, the right to deduct input tax stops at the date of deregistration and goods supplied after deregistration cannot be claimed at all.",
+   "from_when": "4-year goods limit applies to businesses with a registration date after 1 April 2010",
+   "automatic": false,
+   "how_to_claim": "The tax must be claimed on the FIRST VAT return the business is required to make, VIT32000. It is not a separate claim form."
+  },
+  "notes": "UK-wide. The trap for owner-managed businesses is the asymmetry: four years back for goods you still own, but only six months for services — so accountancy, legal, marketing, software subscriptions and professional fees from the start-up period are usually lost unless registration happens quickly. The second trap is the first-return rule: miss it on the first return and you are into error correction territory. This detail lives in the HMRC VAT Input Tax manual at VIT32000, not on the main register-for-VAT guidance. Post-deregistration services relating to the business carried on while registered CAN still be reclaimed; post-deregistration goods cannot.",
+  "used": []
+ },
+ {
+  "id": "vat-capital-goods-scheme-600000-threshold-from-july-2026",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "The Capital Goods Scheme changed in July 2026 — computers are out and the property threshold more than doubled",
+  "official_page": "https://www.gov.uk/government/publications/revenue-and-customs-brief-7-2026-changes-to-the-vat-capital-goods-scheme/changes-to-the-vat-capital-goods-scheme",
+  "figures": [
+   {
+    "value": "£600,000",
+    "what": "New Capital Goods Scheme threshold for land, buildings and civil engineering works excluding VAT, up from £250,000 — the scheme now only applies to these assets if capital expenditure is £600,000 or more",
+    "source": "https://www.gov.uk/government/publications/revenue-and-customs-brief-7-2026-changes-to-the-vat-capital-goods-scheme/changes-to-the-vat-capital-goods-scheme",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£250,000",
+    "what": "The OLD threshold for land, buildings and civil engineering works, which applied before 29 July 2026",
+    "source": "https://www.gov.uk/government/publications/revenue-and-customs-brief-7-2026-changes-to-the-vat-capital-goods-scheme/changes-to-the-vat-capital-goods-scheme",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£50,000",
+    "what": "Threshold for aircraft, ships, boats and other vessels — unchanged",
+    "source": "https://www.gov.uk/government/publications/revenue-and-customs-brief-7-2026-changes-to-the-vat-capital-goods-scheme/changes-to-the-vat-capital-goods-scheme",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "29 July 2026",
+    "what": "Date the changes take effect",
+    "source": "https://www.gov.uk/government/publications/revenue-and-customs-brief-7-2026-changes-to-the-vat-capital-goods-scheme/changes-to-the-vat-capital-goods-scheme",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "VAT-registered businesses with capital expenditure on land, buildings or civil engineering works of £600,000 or more excluding VAT, and on aircraft, ships, boats and other vessels of £50,000 or more excluding VAT, where use of the asset between taxable and exempt purposes may change over the adjustment period",
+   "excluded": "Computers and computer equipment are no longer covered by the Capital Goods Scheme at all from 29 July 2026 — the old £50,000 computer threshold is gone, so no threshold applies. Land, buildings and civil engineering works costing less than £600,000 excluding VAT are outside the scheme. Revenue, non-capital, expenditure is not a capital item. And the change is not retrospective: capital items already in the scheme under the old threshold stay in it until the end of their adjustment period.",
+   "from_when": "29 July 2026",
+   "automatic": true,
+   "how_to_claim": "Not claimed. Where an asset is a capital item, input tax recovery is adjusted annually over the adjustment period through the VAT return."
+  },
+  "notes": "UK-wide. This is one of the most out-of-date figures in circulation: a great deal of third-party commentary still quotes £250,000 for property and £50,000 for computers, and both are now wrong for new expenditure. Verified at HMRC Revenue and Customs Brief 7 (2026), not at a secondary source. This is NOT the same as partial exemption de minimis, and not the same as capital allowances. The transitional rule matters for advice: an asset bought at, say, £300,000 before 29 July 2026 is still in the scheme and still needs its annual adjustments to the end of its adjustment period.",
+  "used": []
+ },
+ {
+  "id": "vat-road-fuel-scale-charges-2026-27",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-01",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "VAT fuel scale charges: what private fuel in the company car costs you on the VAT return",
+  "official_page": "https://www.gov.uk/guidance/vat-road-fuel-scale-charges-from-1-may-2026-to-30-april-2027",
+  "figures": [
+   {
+    "value": "1 May 2026 to 30 April 2027",
+    "what": "Period for which the current scale charge table applies; businesses must use the new scales from the start of the next prescribed accounting period beginning on or after 1 May 2026",
+    "source": "https://www.gov.uk/guidance/vat-road-fuel-scale-charges-from-1-may-2026-to-30-april-2027",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£1,182.00, VAT £197.00",
+    "what": "12-month scale charge, and the VAT element, for a car in CO2 band 140",
+    "source": "https://www.gov.uk/guidance/vat-road-fuel-scale-charges-from-1-may-2026-to-30-april-2027",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£294.00, VAT £49.00",
+    "what": "3-month scale charge, and the VAT element, for a car in CO2 band 140",
+    "source": "https://www.gov.uk/guidance/vat-road-fuel-scale-charges-from-1-may-2026-to-30-april-2027",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£98.00, VAT £16.33",
+    "what": "1-month scale charge, and the VAT element, for a car in CO2 band 140",
+    "source": "https://www.gov.uk/guidance/vat-road-fuel-scale-charges-from-1-may-2026-to-30-april-2027",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£657.00, VAT £109.50",
+    "what": "12-month scale charge, and the VAT element, for the bottom band, CO2 120 or less",
+    "source": "https://www.gov.uk/guidance/vat-road-fuel-scale-charges-from-1-may-2026-to-30-april-2027",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£2,297.00, VAT £382.83",
+    "what": "12-month scale charge, and the VAT element, for the top band, CO2 225 or more",
+    "source": "https://www.gov.uk/guidance/vat-road-fuel-scale-charges-from-1-may-2026-to-30-april-2027",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "140 / 175 / 225 or more",
+    "what": "CO2 band to use where the car has no CO2 figure, by engine size: 1,400cc or less = band 140; more than 1,400cc but less than 2,000cc = band 175; more than 2,000cc = band 225 or more",
+    "source": "https://www.gov.uk/guidance/vat-road-fuel-scale-charges-from-1-may-2026-to-30-april-2027",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "50%",
+    "what": "Input tax block on leasing a qualifying car available for private use — Notice 700/64 s4.2 states you cannot normally recover 50% of the VAT charged",
+    "source": "https://www.gov.uk/guidance/vat-on-motoring-expenses-notice-70064",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "VAT-registered businesses that reclaim VAT on road fuel where business fuel is also made available for private use in a car. Notice 700/64 s9.1 sets out four options: reclaim all the VAT; reclaim all the VAT and apply the fuel scale charge; reclaim only the business-mileage VAT using detailed mileage records; or reclaim no VAT at all.",
+   "excluded": "You do not have to apply the scale charge to any car which is not made available for private use, Notice 700/64 s10.3. A business that reclaims no input tax on road fuel does not account for output tax on private use of that fuel at all, s9.6. A business that keeps detailed mileage records and reclaims only the business-mileage proportion does not use the scale charge either, s9.4 and s9.5. But if you do choose the scale charge you must apply it to every car where business fuel is made available for private use, s10.2 — you cannot use the scale charge for some cars and a different method for others. Commercial vehicles are outside the car definition in s2.2, including those with a payload of one tonne or more.",
+   "from_when": "1 May 2026, from the start of the next prescribed accounting period beginning on or after that date",
+   "automatic": false,
+   "how_to_claim": "Not claimed — it is output tax you declare. Add the VAT element of the scale charge to box 1 of the VAT return for each relevant car and each accounting period. If the CO2 figure is not a multiple of 5, round it DOWN to the nearest multiple of 5."
+  },
+  "notes": "UK-wide. The table is reset every year and runs 1 May to 30 April, not with the tax year, so a figure from the 1 May 2025 to 30 April 2026 table is stale. The choice is a genuine commercial decision and the common error is defaulting to the scale charge without doing the arithmetic: for a low-mileage car in a high CO2 band the scale charge can cost more than the fuel VAT being reclaimed, in which case reclaiming nothing is cheaper. All-or-nothing applies across the fleet. This is NOT the same as the income tax car fuel benefit charge, and not the same as the mileage allowance payment rates — three separate regimes routinely conflated.",
+  "used": []
+ },
+ {
+  "id": "vat-option-to-tax-land-and-buildings",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Opting to tax a commercial property: the 30 days, the 6 months and the 20 years",
+  "official_page": "https://www.gov.uk/guidance/opting-to-tax-land-and-buildings-notice-742a",
+  "figures": [
+   {
+    "value": "30 days",
+    "what": "Notification to HMRC should normally be made within 30 days of your decision to opt to tax; HMRC may accept a later notification only if satisfied the decision was made at the relevant time, Notice 742A para 4.2.1",
+    "source": "https://www.gov.uk/guidance/opting-to-tax-land-and-buildings-notice-742a",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 months",
+    "what": "The cooling off period — if you revoke the option within 6 months it is treated as invalid from the outset, para 4.5",
+    "source": "https://www.gov.uk/guidance/opting-to-tax-land-and-buildings-notice-742a",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "20 years",
+    "what": "An option to tax cannot normally be revoked until at least 20 years have passed, para 6.2",
+    "source": "https://www.gov.uk/guidance/opting-to-tax-land-and-buildings-notice-742a",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 years",
+    "what": "Minimum period for which records relating to the option must be kept, para 6.2",
+    "source": "https://www.gov.uk/guidance/opting-to-tax-land-and-buildings-notice-742a",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "A person with an interest in land or a building who wants to make their otherwise-exempt supplies of it taxable, so as to recover input tax on acquisition, construction or refurbishment costs",
+   "excluded": "The option has no effect on a list of supplies in section 3 of Notice 742A: buildings designed or adapted and intended for use as dwellings, 3.2; buildings for a relevant residential purpose, 3.3; buildings for conversion into dwellings or relevant residential use, where a VAT1614D certificate is needed, 3.4; buildings for a relevant charitable purpose other than as an office for general administration, 3.5; land sold to a relevant housing association for dwellings, with a VAT1614G certificate, 3.6; land sold to an individual to build a dwelling for their own use, 3.7; permanent residential caravan pitches and residential houseboat moorings, 3.8 and 3.9; and supplies arising from grants caught by the anti-avoidance measures in section 13.",
+   "from_when": "Current rule, in force now. HMRC no longer issues option to tax acknowledgement letters, para 4.2.4.",
+   "automatic": false,
+   "how_to_claim": "Make the decision, then notify HMRC in writing — form VAT1614A is the notification of an option to tax. Revocation within the cooling-off period uses VAT1614C; revocation after 20 years uses VAT1614J. The option has legal effect even without an acknowledgement, and an emailed notification gets only an automated response."
+  },
+  "notes": "UK-wide as a VAT matter, although the underlying land law differs between England and Wales, Scotland and Northern Ireland. Two things bite owner-managed businesses. HMRC stopped issuing acknowledgement letters, so the only proof the option exists is the business's own copy of the notification and the automated email response — which is why the 6-year record rule matters and why this comes up painfully on a later sale. And the decision and the notification are two separate events: the option takes effect from the date of the decision, and the 30 days is the notification window, not the decision deadline. The detailed cooling-off conditions at para 8.1 and the anti-avoidance tests at section 13 were cited rather than read, so a post going into those needs a second read of the notice.",
+  "used": []
+ },
+ {
+  "id": "vat-togc-conditions-transfer-of-a-going-concern",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Buying or selling a business: the TOGC conditions that decide whether VAT is due on the price",
+  "official_page": "https://www.gov.uk/guidance/transfer-a-business-as-a-going-concern-and-vat-notice-7009",
+  "figures": [
+   {
+    "value": "All conditions, not some",
+    "what": "Notice 700/9 s1.4 states that for a TOGC all of the listed conditions must apply — assets sold as part of the transfer, buyer intends to carry on the same kind of business, buyer is or becomes a taxable person, option to tax in place where land would be standard-rated, any part-business transferred must be capable of operating separately, and no series of immediately consecutive transfers",
+    "source": "https://www.gov.uk/guidance/transfer-a-business-as-a-going-concern-and-vat-notice-7009",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "On or before the relevant date",
+    "what": "Where standard-rated land or buildings are included, the buyer's option to tax must be notified to HMRC in writing no later than the relevant date, normally the transfer date, s2.3.2",
+    "source": "https://www.gov.uk/guidance/transfer-a-business-as-a-going-concern-and-vat-notice-7009",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 months",
+    "what": "Unclaimed bad debt relief transfers with the VAT registration number, and the buyer may need to repay input tax where supplies remain unpaid after 6 months, s3.3",
+    "source": "https://www.gov.uk/guidance/transfer-a-business-as-a-going-concern-and-vat-notice-7009",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "A buyer and seller transferring a business, or a separable part of a business, as a going concern — where the conditions are met the transfer is neither a supply of goods nor of services and no VAT is chargeable on the assets",
+   "excluded": "A transfer of assets alone is not a TOGC — s1.4 requires the buyer to have a business, not just a set of assets. The buyer must be registered, required to register on the transfer date, or have a voluntary registration already accepted and in place when the transaction occurs: s2.2.4 states that applying afterwards for backdated registration is NOT enough. A series of immediately consecutive transfers fails, s2.2.3. A significant break in the normal trading pattern before or immediately after the transfer breaks it, s2.2.7, although a seasonal off-season closure or a short closure for redecoration does not normally count. For a part transfer, an in-house function that only operates internally does not count as a separable part, s2.2.8. And where standard-rated land or buildings are included, failure by the buyer to opt to tax AND to notify the seller that the option is not disapplied, both by the relevant date, loses TOGC treatment.",
+   "from_when": "Current rule, in force now",
+   "automatic": true,
+   "how_to_claim": "TOGC treatment is not claimed or elected — it either applies on the facts or it does not. Separately, the buyer can apply to keep the seller's VAT registration number if both parties agree, online or using form VAT68."
+  },
+  "notes": "UK-wide. The practical danger is all one-way: getting it wrong on a property-inclusive deal means 20% VAT appearing on a seven-figure price, plus SDLT on the VAT-inclusive figure. The two conditions most often missed are the registration timing — the buyer must already be registered or registrable at the transfer date, and a retrospective application does not fix it — and the second limb of the land condition: the buyer must not only opt to tax but also notify the SELLER that the option will not be disapplied by VATA 1994 Schedule 10 paragraph 12. Taking the seller's VAT number is not free: the buyer becomes liable for outstanding VAT from the seller's registration. Unprofitable businesses and businesses under insolvency control can still qualify.",
+  "used": []
+ },
+ {
+  "id": "vat-deposits-and-prepayments-tax-point",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Taking a deposit: when the VAT is due, and the refundable-deposit myth",
+  "official_page": "https://www.gov.uk/guidance/vat-instalments-deposits-credit-sales",
+  "figures": [
+   {
+    "value": "The earlier of the two",
+    "what": "VAT on an advance payment or deposit arises on the earlier of issuing a VAT invoice for it or receiving it, and must go on the return covering that tax point; paying the balance before delivery creates a further tax point",
+    "source": "https://www.gov.uk/guidance/vat-instalments-deposits-credit-sales",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Up to a year in advance",
+    "what": "For continuous supplies of services a tax point arises each time you issue an invoice or receive a payment, and you can invoice a period of up to a year in advance",
+    "source": "https://www.gov.uk/guidance/vat-instalments-deposits-credit-sales",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "A tax point IS created",
+    "what": "HMRC VAT Time of Supply manual VATTOS5125 states: It is sometimes claimed that a refundable deposit or pre-payment cannot create a taxpoint. This is not so. Tribunal decisions have held a tax point is created even though the payer has some entitlement to a refund if the supply does not proceed",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/vat-time-of-supply/vattos5125",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "VATA 1994 s6(4)",
+    "what": "The statutory basis cited for the payment tax point",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/vat-time-of-supply/vattos5125",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "VAT-registered businesses that take deposits, advance payments, stage payments or prepayments for goods or services — builders, event and hospitality businesses, bespoke manufacturers, anyone taking a booking fee",
+   "excluded": "Returnable deposits on hired goods fall outside: you do not have to account for VAT where the deposit is either refunded in full to the customer when they return the goods safely, or kept by you to compensate you for loss or damage. Businesses on the cash accounting scheme cannot use it for credit and conditional sales. Non-VAT-registered businesses are outside the regime entirely.",
+   "from_when": "Current rule, in force now",
+   "automatic": true,
+   "how_to_claim": "Not claimed — output tax is declared on the return covering the tax point. Where a deposit is forfeited because the customer does not take up the goods or service, VAT remains due on the money received."
+  },
+  "notes": "UK-wide. This is the classic owner-managed cash-flow trap: the business takes a 50% deposit in one quarter, spends it, and has already triggered the VAT on it. The deeper point the headline page does not make is that it's refundable, so there's no VAT yet is simply wrong, and HMRC's VAT Time of Supply manual at VATTOS5125 says so in terms, citing East Kilbride Golf Club (VTD 5503) and Clowance PLC (VTD 2541); the manual records that the argument has consistently failed. The distinction that DOES work is the hired-goods security deposit that is returned in full or kept for damage. Hotel deposits and cancellation charges have their own treatment in VAT Notice 709/3.",
+  "used": []
+ },
+ {
+  "id": "postponed-vat-accounting-import-vat",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Postponed VAT accounting on imports: optional, not compulsory, and not for every parcel",
+  "official_page": "https://www.gov.uk/guidance/check-when-you-can-account-for-import-vat-on-your-vat-return",
+  "figures": [
+   {
+    "value": "No approval needed",
+    "what": "You do not need any approval to account for import VAT on your VAT Return — and the procedure is no longer mandatory in any case, the section When you must account for import VAT on your VAT Return having been removed by a 9 June 2025 update",
+    "source": "https://www.gov.uk/guidance/check-when-you-can-account-for-import-vat-on-your-vat-return",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£135",
+    "what": "Royal Mail Group consignments of more than £135 cannot use postponed VAT accounting, including Parcelforce where it is not acting as an express operator; for consignments valued at £135 or less separate rules apply. Excise goods are the exception — the option can be chosen for consignments of any value",
+    "source": "https://www.gov.uk/guidance/check-when-you-can-account-for-import-vat-on-your-vat-return",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Box 1, box 4, box 7",
+    "what": "Box 1: the VAT due in the period on imports accounted for through postponed VAT accounting. Box 4: the VAT reclaimed in the period on those imports. Box 7: the total value of all imports of goods in the period, not including any VAT",
+    "source": "https://www.gov.uk/guidance/complete-your-vat-return-to-account-for-import-vat",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Data Element 3/40",
+    "what": "The VAT number goes in Data Element 3/40 on the customs declaration, not method of payment G in 4/8, and the choice cannot be changed once the declaration is submitted",
+    "source": "https://www.gov.uk/guidance/check-when-you-can-account-for-import-vat-on-your-vat-return",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK — covers goods brought into Great Britain from outside the UK, and goods brought into Northern Ireland from outside the UK and EU",
+   "who": "Businesses registered for VAT in the UK, importing goods for use in their business where they have the right to dispose of the goods, usually as owner, and their VAT registration number is on the import declaration. Mixed-use goods qualify if you do not know at import that they will be used for business.",
+   "excluded": "A business not registered for VAT in the UK cannot use it. Royal Mail Group consignments of more than £135 are excluded, including Parcelforce where it is not acting as an express operator. Goods known at import to be for non-business use are excluded, except for bodies eligible to reclaim import VAT through a VAT refund scheme, which must instead choose immediate payment or a duty deferment account. Commercial goods in baggage cannot use it if you choose a simple online declaration instead. Non-established businesses cannot do it themselves — they need a customs agent.",
+   "from_when": "Current rule; no longer mandatory in any case following the 9 June 2025 guidance update",
+   "automatic": false,
+   "how_to_claim": "Select the option on the import declaration, VAT number in Data Element 3/40. Then take the figures for boxes 1 and 4 from the online monthly postponed import VAT statement, available through the Customs Declaration Service financial dashboard. If you delayed your import declaration and have no statement you must ESTIMATE the amount and adjust on the next return."
+  },
+  "notes": "The Northern Ireland boundary is the thing to state precisely: postponed VAT accounting covers goods into Great Britain from outside the UK, and goods into Northern Ireland from OUTSIDE the UK AND EU — movements between Northern Ireland and the EU are a separate regime. The most common stale claim in third-party material is that postponed VAT accounting is mandatory for delayed or simplified customs declarations: the current gov.uk page contains no mandatory triggers, and that section was removed on 9 June 2025. Two practical traps: the choice cannot be changed once the declaration is submitted; and if a freight forwarder imports on your behalf you must tell them IN WRITING. This is not the same as a duty deferment account, and not the same as a C79 import VAT certificate.",
+  "used": []
+ },
+ {
+  "id": "specified-adult-childcare-credits",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Grandparents and other relatives who mind a child can claim National Insurance credits",
+  "official_page": "https://www.gov.uk/guidance/apply-for-specified-adult-childcare-credits",
+  "figures": [
+   {
+    "value": "1 Class 3 National Insurance credit",
+    "what": "credit awarded for each week or part week of care provided",
+    "source": "https://www.gov.uk/guidance/apply-for-specified-adult-childcare-credits",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "under 12",
+    "what": "age of the child cared for",
+    "source": "https://www.gov.uk/guidance/apply-for-specified-adult-childcare-credits",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 April 2011",
+    "what": "earliest date credits can be claimed from",
+    "source": "https://www.gov.uk/guidance/apply-for-specified-adult-childcare-credits",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "1 credit per Child Benefit claim",
+    "what": "only one credit is available per Child Benefit claim, however many relatives helped",
+    "source": "https://www.gov.uk/guidance/apply-for-specified-adult-childcare-credits",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "16 or over but under State Pension age",
+    "what": "age condition for the carer at the time care was given",
+    "source": "https://www.gov.uk/national-insurance-credits/eligibility",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "An eligible family member who cared for a child under 12 — a non-resident parent, grandparent, great-grandparent, aunt, uncle, brother or sister including half, step and adopted, and certain spouses, partners and children of those relatives. Carer must be 16 or over, under State Pension age, and ordinarily resident in the UK.",
+   "excluded": "Anyone who already has a qualifying year of National Insurance for the same period; anyone receiving Child Benefit for any child, who therefore already gets credits automatically; people ordinarily resident in the Channel Islands or the Isle of Man. A spouse, partner or civil partner living with the Child Benefit recipient uses form CF411A instead, not this route.",
+   "from_when": "Credits available for periods of care from 6 April 2011 onwards; an application cannot be made until 31 October following the end of the tax year claimed for.",
+   "automatic": false,
+   "how_to_claim": "Complete form CA9176 online, print it, and post it to HMRC. Both the carer and the Child Benefit recipient must sign the declaration, and the Child Benefit recipient should check their own National Insurance record first."
+  },
+  "notes": "Not the same as Child Benefit's own automatic credits, and not the same as Carer's Credit, which is for caring for a sick or disabled adult and is Great Britain only. Covid concession: care given by phone or video counts for 2019-20 and 2020-21. The credit transfers the parent's unneeded credit to the relative — it does not create a second credit, so if the parent needs the credit themselves nobody should apply.",
+  "used": []
+ },
+ {
+  "id": "carers-credit",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Carer's Credit: 20 hours of unpaid caring a week protects your State Pension",
+  "official_page": "https://www.gov.uk/carers-credit",
+  "figures": [
+   {
+    "value": "20 hours a week",
+    "what": "minimum unpaid caring needed; hours for two or more people can be added together to reach it",
+    "source": "https://www.gov.uk/carers-credit",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "Class 3 credit",
+    "what": "class of National Insurance credit awarded",
+    "source": "https://www.gov.uk/national-insurance-credits/eligibility",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "16 or over and below State Pension age",
+    "what": "age condition",
+    "source": "https://www.gov.uk/carers-credit",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "start of the last full tax year",
+    "what": "how far back a claim can be backdated",
+    "source": "https://www.gov.uk/carers-credit",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "end of the following tax year",
+    "what": "deadline to apply — care given in a tax year must be claimed before the end of the next one",
+    "source": "https://www.gov.uk/carers-credit",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain",
+   "who": "People aged 16 or over and under State Pension age who care unpaid for one or more sick or disabled people for a total of 20 hours or more a week, and who are not already getting Carer's Allowance or Carer Support Payment. Income, savings and investments do not affect eligibility.",
+   "excluded": "Anyone under 16 or at or above State Pension age; anyone already getting Carer's Allowance or, in Scotland, Carer Support Payment, who receive Class 1 credits automatically and must not apply; anyone getting Child Benefit for a child under 12, where credits are automatic; foster carers, who use the separate National Insurance credits route; anyone caring fewer than 20 hours a week in total; anyone whose cared-for person does not get a qualifying benefit and for whom no signed Care Certificate is supplied; anyone not normally living in Great Britain, unless part of a family living overseas with HM Forces.",
+   "from_when": "Ongoing. Backdating is limited to the start of the last full tax year, and a claim must be made before the end of the tax year following the one claimed for.",
+   "automatic": false,
+   "how_to_claim": "Download the Carer's Credit claim form from GOV.UK or request it by phone from the Carer's Allowance Unit. It includes a Care Certificate that a health or social care professional must sign, unless the person cared for receives a qualifying benefit."
+  },
+  "notes": "Great Britain only — Northern Ireland runs its own Carer's Credit through nidirect, so this must never be written as UK-wide. Distinct from Carer's Allowance, a payment, and from Carer's Leave, unpaid time off — Carer's Credit is not money in hand, it fills gaps in the National Insurance record that determine State Pension. Late claims can sometimes be accepted if the applicant explains why the deadline was missed.",
+  "used": []
+ },
+ {
+  "id": "home-responsibilities-protection-missing-from-ni-record",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-11-19",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Missing Home Responsibilities Protection: check for State Pension you are owed",
+  "official_page": "https://www.gov.uk/home-responsibilities-protection-hrp/eligibility",
+  "figures": [
+   {
+    "value": "1978 to 2010",
+    "what": "the full tax years HRP covered; it was replaced by National Insurance credits from 6 April 2010",
+    "source": "https://www.gov.uk/home-responsibilities-protection-hrp/eligibility",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "up to 22 years",
+    "what": "maximum number of qualifying years HRP could cover, or be converted into as National Insurance credits for those reaching State Pension age on or after 6 April 2010",
+    "source": "https://www.gov.uk/home-responsibilities-protection-hrp/what-youll-get",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "39 years for women, 44 years for men",
+    "what": "qualifying years needed for a full basic State Pension before 6 April 2010",
+    "source": "https://www.gov.uk/home-responsibilities-protection-hrp/what-youll-get",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "30 years",
+    "what": "qualifying years needed for State Pension age between 6 April 2010 and 5 April 2016",
+    "source": "https://www.gov.uk/home-responsibilities-protection-hrp/what-youll-get",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "May 2000",
+    "what": "the dividing line — the problem mainly affects people who claimed Child Benefit before May 2000 without giving their National Insurance number",
+    "source": "https://www.gov.uk/government/publications/home-responsibilities-protection-communication-resources/information-to-help-answer-common-questions",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "current year plus 4 previous years",
+    "what": "limit on HMRC collecting tax on the resulting State Pension increase and arrears",
+    "source": "https://www.gov.uk/government/publications/home-responsibilities-protection-communication-resources/information-to-help-answer-common-questions",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "People who, for full tax years between 1978 and 2010, were awarded Child Benefit for a child under 16; or cared for a child while a partner claimed the Child Benefit instead; or got Income Support while caring for someone sick or disabled; or cared for a sick or disabled person claiming certain benefits, which counts only for 6 April 1978 to 5 April 2002. For 6 April 2003 to 5 April 2010 it also covers foster carers and kinship carers in Scotland. A personal representative can apply on behalf of someone who has died.",
+   "excluded": "Anyone whose first Child Benefit claim was after May 2000 is not affected, because National Insurance numbers were captured from then on. HRP cannot be given for any complete tax year in which a married woman or widow either paid the reduced rate Class 1 small stamp as an employee or chose not to pay Class 2 contributions when self-employed. Anyone who was getting Carer's Allowance did not need HRP, as credits came automatically.",
+   "from_when": "Applies to tax years 1978 to 2010 only. DWP and HMRC are running the correction exercise now and are prioritising people already receiving, or about to receive, their State Pension.",
+   "automatic": false,
+   "how_to_claim": "Check your National Insurance record for gaps between 1978 and 2010, use the GOV.UK eligibility checker, then apply online or by post on form CF411. Personal representatives of someone who has died must apply by post."
+  },
+  "notes": "A successful correction may bring a payment of State Pension arrears, taxed as income for the year they were due rather than the year they are paid. HRP is not a payment in itself — it reduces the number of qualifying years needed, or converts to National Insurance credits for later cohorts. The only nation-specific rule on the page is the foster and kinship carer route in Scotland. No application deadline is stated on any of the pages read.",
+  "used": []
+ },
+ {
+  "id": "higher-rate-tax-relief-personal-pension-contributions",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-15",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Higher and additional rate taxpayers must claim the extra tax relief on pension contributions themselves",
+  "official_page": "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief",
+  "figures": [
+   {
+    "value": "20%",
+    "what": "basic rate relief the pension provider claims automatically at source",
+    "source": "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "20% extra",
+    "what": "further relief a higher rate taxpayer can claim, up to the amount of income taxed at 40%",
+    "source": "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "25% extra",
+    "what": "further relief an additional rate taxpayer can claim, up to the amount of income taxed at 45%",
+    "source": "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "100% of annual earnings",
+    "what": "ceiling on contributions eligible for relief; HMRC can require repayment of relief above it",
+    "source": "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£2,880",
+    "what": "amount on which a person with no earnings in the year can still get 20% relief",
+    "source": "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "80% of earnings",
+    "what": "limit for 20% relief for a non-taxpayer with earnings",
+    "source": "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "1%, 22%, 25% and 28% extra",
+    "what": "extra relief claimable by Scottish taxpayers on income taxed at 21%, 42%, 45% and 48% respectively",
+    "source": "https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK, with different extra-relief percentages for Scottish taxpayers",
+   "who": "Anyone paying into an HMRC-registered pension scheme who pays tax above the basic rate. Relief above 20% is not given automatically on relief-at-source contributions and must be claimed.",
+   "excluded": "Anyone whose pension scheme is not registered with HMRC gets no relief at all. Relief is not available on contributions above 100% of annual earnings, and HMRC can claw it back. Contributions used for a personal term assurance policy get no relief unless it is a protected policy. Non-taxpayers are capped at 20% relief on 80% of earnings, or £2,880 if they have no earnings. A Scottish taxpayer on the 19% starter rate has nothing extra to claim and does not have to pay the difference back.",
+   "from_when": "Ongoing. Percentages reflect the rates shown on the page as read on 19 November 2026.",
+   "automatic": false,
+   "how_to_claim": "Claim the extra relief on a Self Assessment return. Those who do not file a return use HMRC's online how to claim tax relief service. Relief is limited to the amount of income actually taxed at the higher or additional rate, not the whole contribution."
+  },
+  "notes": "The relief is only automatic in full where contributions come out of pay before tax under a net pay arrangement; on relief-at-source schemes, including most personal pensions and SIPPs, only the 20% arrives by itself. Important for the writer: the GOV.UK page does NOT state a four-year backdating window, and does not mention the gross £3,600 figure or an over-75 cut-off, so none of those should be asserted without separate verification. Not the same as the pension annual allowance, which caps how much can go in.",
+  "used": []
+ },
+ {
+  "id": "redundancy-and-wages-from-insolvent-employer",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-15",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "If your employer goes bust, the state pays your redundancy, wages, holiday and notice pay",
+  "official_page": "https://www.gov.uk/your-rights-if-your-employer-is-insolvent/apply-money-owed",
+  "figures": [
+   {
+    "value": "£751 a week",
+    "what": "statutory maximum weekly pay used in the calculation for redundancies on or after 6 April 2026",
+    "source": "https://www.gov.uk/government/publications/redundancy-payments-from-the-insolvency-service/explaining-your-redundancy-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£719 a week",
+    "what": "the earlier weekly cap, applied to calculations before 6 April 2026",
+    "source": "https://www.gov.uk/government/publications/redundancy-payments-from-the-insolvency-service/explaining-your-redundancy-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£22,530",
+    "what": "maximum statutory redundancy payment; anything above it can only be pursued as a creditor in the insolvency",
+    "source": "https://www.gov.uk/government/publications/redundancy-payments-from-the-insolvency-service/explaining-your-redundancy-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "8 weeks",
+    "what": "cap on arrears of pay, including any protective award combined",
+    "source": "https://www.gov.uk/government/publications/redundancy-payments-from-the-insolvency-service/explaining-your-redundancy-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 weeks",
+    "what": "cap on holiday pay",
+    "source": "https://www.gov.uk/government/publications/redundancy-payments-from-the-insolvency-service/explaining-your-redundancy-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "12 weeks",
+    "what": "maximum statutory notice pay — one week per full year of service, capped at 12 years' service",
+    "source": "https://www.gov.uk/government/publications/redundancy-payments-from-the-insolvency-service/explaining-your-redundancy-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "2 years",
+    "what": "service with the employer needed to qualify for redundancy pay",
+    "source": "https://www.gov.uk/government/publications/redundancy-payments-from-the-insolvency-service/explaining-your-redundancy-payment",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "6 months",
+    "what": "time limit to claim redundancy pay after being dismissed",
+    "source": "https://www.gov.uk/your-rights-if-your-employer-is-insolvent/apply-money-owed",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain",
+   "who": "Former employees of an employer that has formally become insolvent. Claimant must have been an employee at the business and be a UK or EEA national, or a foreign national with permission to work in the UK. Company directors can claim if they were also employees. Redundancy pay needs 2 years' service; arrears of wages, holiday pay and notice pay do not.",
+   "excluded": "Contractors are not eligible and must register as a creditor in the insolvency instead; the same follows for anyone not classed as an employee, including the self-employed. The scheme only pays where the employer is formally insolvent. Tribunal awards for injury to feelings, discrimination or compensatory awards cannot be paid. Amounts above the £22,530 and weekly £751 caps are not paid by the scheme. Benefits received, or that could have been received, are deducted from the notice pay element.",
+   "from_when": "The £751 weekly cap applies to redundancies on or after 6 April 2026; £719 applies before that date.",
+   "automatic": false,
+   "how_to_claim": "Apply online to the Redundancy Payments Service using the CN case reference number given by the insolvency practitioner or official receiver. Redundancy, unpaid wages and holiday pay go in first; statutory notice pay is a separate later claim needing an LN reference, usually issued after the notice period would have ended."
+  },
+  "notes": "Great Britain only. Northern Ireland has its own NI Redundancy Payments Service, which applies the same 8-week wages, 6-week holiday and 12-week notice caps but is a separate claim route — do not present the gov.uk service as covering Northern Ireland. Neither gov.uk page states the territory explicitly, so the nation line rests on the existence of the separate Northern Ireland service. This is not the same as statutory redundancy pay from a solvent employer, which the employer itself pays.",
+  "used": []
+ },
+ {
+  "id": "ask-employer-to-join-workplace-pension",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-15",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Below the auto-enrolment threshold? You can ask to join and your employer cannot refuse",
+  "official_page": "https://www.gov.uk/workplace-pensions/joining-a-workplace-pension",
+  "figures": [
+   {
+    "value": "£10,000 a year, £833 a month, £192 a week",
+    "what": "earnings trigger for automatic enrolment, 2026-27",
+    "source": "https://www.thepensionsregulator.gov.uk/en/employers/new-employers/im-an-employer-who-has-to-provide-a-pension/declare-your-compliance/ongoing-duties-for-employers/earnings-thresholds",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£6,240 a year, £520 a month, £120 a week",
+    "what": "lower level of qualifying earnings, 2026-27 — at or below this the employer does not have to contribute",
+    "source": "https://www.thepensionsregulator.gov.uk/en/employers/new-employers/im-an-employer-who-has-to-provide-a-pension/declare-your-compliance/ongoing-duties-for-employers/earnings-thresholds",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£50,270 a year, £4,189 a month, £967 a week",
+    "what": "upper level of qualifying earnings, 2026-27",
+    "source": "https://www.thepensionsregulator.gov.uk/en/employers/new-employers/im-an-employer-who-has-to-provide-a-pension/declare-your-compliance/ongoing-duties-for-employers/earnings-thresholds",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "22 to State Pension age",
+    "what": "age range for automatic enrolment",
+    "source": "https://www.gov.uk/workplace-pensions/joining-a-workplace-pension",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Workers who do not meet the automatic enrolment criteria — because they are under 22, over State Pension age, or earn less than £10,000 a year — can usually still ask to join their employer's pension, and GOV.UK states the employer cannot refuse. Workers aged 22 to State Pension age earning at least £10,000 and usually working in the UK must be enrolled automatically.",
+   "excluded": "The employer does not have to contribute for anyone earning £520 a month, £120 a week or £480 over four weeks or less. GOV.UK also lists workers the employer need not enrol: anyone not classed as a worker; anyone who has given or received notice to leave the job; anyone with evidence of lifetime allowance protection; anyone who has already taken a qualifying employer-arranged pension; anyone who opted out of an employer-arranged pension more than 12 months before the staging date; members of an EU cross-border scheme; members of a limited liability partnership; and a director without an employment contract where the company employs at least one other person.",
+   "from_when": "Threshold figures are the 2026-27 tax year values published by The Pensions Regulator.",
+   "automatic": false,
+   "how_to_claim": "Ask the employer in writing to be put into the pension scheme. Automatic enrolment itself requires no action, but joining when you fall below the criteria does."
+  },
+  "notes": "The money not being claimed here is the employer contribution, which is only compelled above the £6,240 lower level of qualifying earnings — a worker earning between £6,240 and £10,000 who asks to join gets employer money they would otherwise never receive, whereas one below £6,240 can join but the employer need not pay in. The GOV.UK joining page does not state the 8% total or 3% employer minimum contribution percentages, so they are not recorded here and would need separate verification.",
+  "used": []
+ },
+ {
+  "id": "free-childcare-hours-working-parents-england",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-15",
+  "brands": [
+   "bham"
+  ],
+  "title": "30 hours of funded childcare from 9 months — England only, and you must apply for a code",
+  "official_page": "https://www.gov.uk/free-childcare-if-working",
+  "figures": [
+   {
+    "value": "30 hours a week for 38 weeks a year",
+    "what": "funded childcare for a child aged 9 months to 4 years",
+    "source": "https://www.gov.uk/free-childcare-if-working/check-youre-eligible",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£2,643.68 over 3 months, £203.36 a week",
+    "what": "minimum each parent must expect to earn before tax, aged over 21",
+    "source": "https://www.gov.uk/free-childcare-if-working/check-youre-eligible",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£2,256.80 over 3 months, £173.60 a week",
+    "what": "minimum each parent must expect to earn, aged 18 to 20",
+    "source": "https://www.gov.uk/free-childcare-if-working/check-youre-eligible",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£1,664 over 3 months, £128 a week",
+    "what": "minimum each parent must expect to earn, under 18 or an apprentice",
+    "source": "https://www.gov.uk/free-childcare-if-working/check-youre-eligible",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£100,000",
+    "what": "adjusted net income above which a parent or their partner is not eligible, including foreign income, for the current tax year",
+    "source": "https://www.gov.uk/free-childcare-if-working/check-youre-eligible",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "23 weeks old",
+    "what": "earliest age of the child at which a parent can apply",
+    "source": "https://www.gov.uk/free-childcare-if-working",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "11-digit code",
+    "what": "eligibility code issued on approval, to be given to the childcare provider and validated before the place starts",
+    "source": "https://www.gov.uk/free-childcare-if-working",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "every 3 months",
+    "what": "how often details must be reconfirmed in the childcare account",
+    "source": "https://www.gov.uk/free-childcare-if-working",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "England",
+   "who": "Working parents in England of a child aged 9 months to 4 years. Each parent, and a partner if there is one, must be in work or about to start a new job and must expect to earn at least the minimum shown for their age over the three months after applying. A National Insurance number is required, and the applicant must have British or Irish citizenship, settled or pre-settled status, or permission to access public funds. Childcare must be with a registered provider.",
+   "excluded": "Anyone whose child does not usually live with them; anyone where the parent or their partner expects adjusted net income over £100,000 for the current tax year, foreign income included; anyone earning below the minimum for their age; anyone without the required immigration status or a National Insurance number; anyone using an unregistered provider. Providers are not obliged to offer the hours, so a place is not guaranteed even with a valid code. Parents in Scotland, Wales and Northern Ireland are not covered.",
+   "from_when": "Ongoing. Entitlement starts the term after the child reaches the qualifying age; a place cannot start until the code has been validated by the provider.",
+   "automatic": false,
+   "how_to_claim": "Set up a childcare account on GOV.UK, apply from when the child is 23 weeks old, then give the 11-digit code plus National Insurance number and the child's date of birth to the provider for validation. Reconfirm details every three months or the code lapses."
+  },
+  "notes": "England only — Scotland, Wales and Northern Ireland run entirely separate childcare schemes, so this must never be written as UK-wide, which is why it is tagged bham only. Not the same as Tax-Free Childcare, a top-up account, and not the same as the universal 15 hours for all 3- and 4-year-olds or the 15 hours for eligible 2-year-olds, neither of which depends on working. GOV.UK describes the earnings test as equivalent to 16 hours a week at the National Minimum or Living Wage, so these cash figures will move when NMW rates change.",
+  "used": []
+ },
+ {
+  "id": "help-with-court-and-tribunal-fees",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-15",
+  "brands": [
+   "bham"
+  ],
+  "title": "Help with Fees: money off court and tribunal fees, and refunds up to 3 months back",
+  "official_page": "https://www.gov.uk/get-help-with-court-fees",
+  "figures": [
+   {
+    "value": "£4,250",
+    "what": "savings limit for applicants aged 65 or younger where the fee is £1,420 or less, which covers most fees; also the usual limit for someone claiming a qualifying benefit",
+    "source": "https://www.gov.uk/get-help-with-court-fees",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£16,000",
+    "what": "savings limit for applicants aged 66 or older, whatever the fee; also the limit for under-66s where the fee is over £7,000",
+    "source": "https://www.gov.uk/get-help-with-court-fees",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£1,420 a month or less",
+    "what": "monthly income threshold for a single applicant",
+    "source": "https://www.gov.uk/get-help-with-court-fees",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£2,130 a month or less",
+    "what": "monthly income threshold for an applicant with a partner",
+    "source": "https://www.gov.uk/get-help-with-court-fees",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "£425 per child aged 0 to 13; £710 per child aged 14 or over",
+    "what": "amount added to the monthly income threshold for each child",
+    "source": "https://www.gov.uk/get-help-with-court-fees",
+    "read": "2026-11-19"
+   },
+   {
+    "value": "3 months",
+    "what": "window for claiming a refund of a fee already paid, if you were eligible when you paid it",
+    "source": "https://www.gov.uk/get-help-with-court-fees",
+    "read": "2026-11-19"
+   }
+  ],
+  "scope": {
+   "nation": "England and Wales",
+   "who": "People paying a court or tribunal fee in England and Wales whose savings and monthly income fall within the thresholds, or who claim a qualifying benefit. A partner's savings count towards the limit. Those above the income thresholds may still get part of the fee covered, depending on the size of the fee.",
+   "excluded": "Anyone with savings above the applicable limit of £4,250, or £16,000 for those 66 or older and for fees over £7,000, counting a partner's savings; anyone whose monthly income exceeds the threshold by enough that no reduction applies. Court of Protection fees cannot be claimed through the online service or form EX160 and need form COP44A instead. Scotland and Northern Ireland have different rules and separate guidance. A fee paid more than 3 months ago cannot be refunded.",
+   "from_when": "Thresholds as read on GOV.UK on 19 November 2026; the current scheme rules apply to applications made or fees paid on or after 27 November 2023.",
+   "automatic": false,
+   "how_to_claim": "Apply online or on form EX160, normally at the same time as the court or tribunal application. If the fee has already been paid, apply for a refund within 3 months."
+  },
+  "notes": "England and Wales only — the EX160A publication states Applies to England and Wales on its face, and Scotland and Northern Ireland have separate publications, which is why this is tagged bham only. The help can be full or partial: GOV.UK describes getting money off the fee, and people above the income thresholds may still get some reduction, so nobody should be told they are definitely ineligible on income alone.",
   "used": []
  }
 ]
