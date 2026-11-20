@@ -4645,7 +4645,7 @@
  },
  {
   "id": "companies-house-identity-verification-directors-pscs",
-  "verified": "2026-11-18",
+  "verified": "2026-11-20",
   "recheck_after": "2027-01-12",
   "brands": [
    "en",
@@ -4668,10 +4668,10 @@
     "read": "2026-11-17"
    },
    {
-    "value": "12 months from 18 November 2025",
-    "what": "Transition period for people already registered as directors or PSCs before 18 November 2025 - so it closes on 18 November 2026, tomorrow. It is a window, not a single deadline: within it each person's own due date is set by their company's confirmation statement date (directors, and PSCs who are also directors) or their birth month (PSCs who are not directors)",
+    "value": "12 months beginning with 18 November 2025",
+    "what": "Transition period for people already registered as directors or PSCs before 18 November 2025. It ENDED at the end of 17 November 2026 - see the SI 2025/1118 reg. 4 figure below, which is the authority for the end date. Corrected 20 November 2026: an earlier version of this figure read 'closes on 18 November 2026', which is wrong and must never be published. It was a window, not a single deadline: within it each person's own due date was set by their company's confirmation statement date (directors, and PSCs who are also directors) or their birth month (PSCs who are not directors)",
     "source": "https://www.gov.uk/government/news/companies-house-confirms-identity-verification-rollout-from-18-november-2025",
-    "read": "2026-11-17"
+    "read": "2026-11-20"
    },
    {
     "value": "next confirmation statement on or after 18 November 2025",
@@ -4784,7 +4784,7 @@
    "automatic": false,
    "how_to_claim": "The individual must act. Verify once, either free with Companies House using GOV.UK One Login (online, or in person at a participating Post Office with the right documents) or through an Authorised Corporate Service Provider, which may charge. You are then given your 11-character personal code. You must then actively link it to each role: a director gives the code in the company's confirmation statement; a PSC gives it through the 'Provide identity verification details for a PSC' service within their own 14-day window. Someone who is both a director and a PSC of the same company must do both separately. Nothing happens automatically and no one does it for you - an accountant can file using your code but cannot verify your identity on your behalf, and Companies House says it cannot verify identities for people either."
   },
-  "notes": "RE-CHECKED 18 November 2026, the first day AFTER the transition period. CORRECTION to the previous entry: the transitional period is '12 months beginning with 18th November 2025' (SI 2025/1118 reg. 4), so it ended at the end of 17 November 2026 - NOT on 18 November 2026. Today is the first day after it, not its last day. Companies House's own prose nowhere states an end date: the campaign site says only 'a 12-month transition period' and still carries the words 'This date is not a deadline.' The position today: the transitional period is over; every existing non-director PSC window closed by 14 November 2026 at the latest (the last birth-month appointed day was 1 November 2026, with a 14-day window); but existing DIRECTORS' individual due dates still trail into late November 2026, because a confirmation statement dated as late as 17 November 2026 carries a 14-day filing window. Companies House published a news story on 18 November 2026 marking one year of mandatory verification, with register-wide figures. Enforcement is live against people whose own due dates have passed - three directors were fined on 16 September 2026 - but no wave of penalties landed today, and Companies House's transition plan still says general compliance activity starts 'no earlier than the end of 2026'. The single most misreported point therefore stands: 18 November 2026 was not a cliff-edge on which non-verifiers were fined. The next real milestone is the end of March 2027, by which Companies House says all companies must have met the requirement or be on a compliance or enforcement pathway. On penalties: a published fixed-penalty scale does exist (£250 to £2,000 depending on seriousness and how many times), but that document does NOT mention identity verification and the identity-verification non-compliance document does NOT cross-refer to it. So the honest line is 'the registrar's published fixed-penalty scale runs £250 to £2,000', never 'the fine for not verifying is £250'. Whether that scale is in fact applied to identity verification offences is NOT VERIFIED. The campaign site's wider line ('you will not be able to make any filings for your company or start a new company') is broader than the guidance - do not quote it as a mechanism. Verification is free via GOV.UK One Login; an ACSP may charge a fee that Companies House does not publish.",
+  "notes": "RE-VERIFIED 20 November 2026: no change at primary source since the 18 November check; the correction below stands and one figure-level wording error has been fixed today (a figure still read 'closes on 18 November 2026, tomorrow', written on 17 November and contradicted by the statutory position in this same entry - it now reads correctly). RE-CHECKED 18 November 2026, the first day AFTER the transition period. CORRECTION to the previous entry: the transitional period is '12 months beginning with 18th November 2025' (SI 2025/1118 reg. 4), so it ended at the end of 17 November 2026 - NOT on 18 November 2026. Today is the first day after it, not its last day. Companies House's own prose nowhere states an end date: the campaign site says only 'a 12-month transition period' and still carries the words 'This date is not a deadline.' The position today: the transitional period is over; every existing non-director PSC window closed by 14 November 2026 at the latest (the last birth-month appointed day was 1 November 2026, with a 14-day window); but existing DIRECTORS' individual due dates still trail into late November 2026, because a confirmation statement dated as late as 17 November 2026 carries a 14-day filing window. Companies House published a news story on 18 November 2026 marking one year of mandatory verification, with register-wide figures. Enforcement is live against people whose own due dates have passed - three directors were fined on 16 September 2026 - but no wave of penalties landed today, and Companies House's transition plan still says general compliance activity starts 'no earlier than the end of 2026'. The single most misreported point therefore stands: 18 November 2026 was not a cliff-edge on which non-verifiers were fined. The next real milestone is the end of March 2027, by which Companies House says all companies must have met the requirement or be on a compliance or enforcement pathway. On penalties: a published fixed-penalty scale does exist (£250 to £2,000 depending on seriousness and how many times), but that document does NOT mention identity verification and the identity-verification non-compliance document does NOT cross-refer to it. So the honest line is 'the registrar's published fixed-penalty scale runs £250 to £2,000', never 'the fine for not verifying is £250'. Whether that scale is in fact applied to identity verification offences is NOT VERIFIED. The campaign site's wider line ('you will not be able to make any filings for your company or start a new company') is broader than the guidance - do not quote it as a mechanism. Verification is free via GOV.UK One Login; an ACSP may charge a fee that Companies House does not publish.",
   "used": []
  },
  {
@@ -11153,6 +11153,78 @@
    "how_to_claim": "Apply online or on form EX160, normally at the same time as the court or tribunal application. If the fee has already been paid, apply for a refund within 3 months."
   },
   "notes": "England and Wales only — the EX160A publication states Applies to England and Wales on its face, and Scotland and Northern Ireland have separate publications, which is why this is tagged bham only. The help can be full or partial: GOV.UK describes getting money off the fee, and people above the income thresholds may still get some reduction, so nobody should be told they are definitely ineligible on income alone.",
+  "used": []
+ },
+ {
+  "id": "mtd-income-tax-penalties",
+  "verified": "2026-11-20",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en",
+   "ola",
+   "bham"
+  ],
+  "title": "Making Tax Digital for Income Tax: late submission and late payment penalties",
+  "official_page": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+  "figures": [
+   {
+    "value": "4 points",
+    "what": "The late submission penalty point threshold. One point for each missed submission deadline; reaching 4 points triggers the penalty",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-20"
+   },
+   {
+    "value": "£200",
+    "what": "The late submission penalty charged on reaching the 4-point threshold, and £200 again each time another submission deadline is missed after that",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-20"
+   },
+   {
+    "value": "3% + 3%",
+    "what": "Late payment penalties for the 2026 to 2027 tax year: 3% of the tax owed at day 15, and a further 3% of the tax owed at day 30. Nothing is charged if the payment is up to 15 days late",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-20"
+   },
+   {
+    "value": "4% + 4%",
+    "what": "Late payment penalties for the 2027 to 2028 tax year: 4% of the tax owed at day 15, and a further 4% at day 30. The percentages rise between the two years, so the year must be stated in any copy",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-20"
+   },
+   {
+    "value": "10% a year",
+    "what": "Additional late payment penalty from day 31: an annual rate of 10% on the outstanding amount, charged daily from day 31 until the tax is paid, or for up to 2 years. This is on top of the day 15 and day 30 charges. Separate from late payment interest, which HMRC also charges from the first day the payment is late",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-20"
+   },
+   {
+    "value": "30 days, reducing to 15",
+    "what": "The first-year payment easement: 'In your first year of new penalties, you have 30 days from the payment due date to either: make full payment; contact HMRC to set up a payment plan.' After 30 days penalties start. After the first year this drops to 15 days. It is given once only - someone who volunteered early and later becomes mandated 'will continue to have 15 days'",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-20"
+   },
+   {
+    "value": "No penalty points in the first tax year",
+    "what": "Confirmed by the guidance update of 19 November 2026 for people mandated into MTD for Income Tax from the 2027 to 2028 tax year: no penalty points for late quarterly updates in their first tax year. The tax return deadline is NOT covered by this - 'You will get a penalty point if you miss the tax return deadline'",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-20"
+   },
+   {
+    "value": "19 November 2026",
+    "what": "The date this guidance page was last updated, and what changed: it confirms the no-penalty-points-in-year-one position for those joining from 2027 to 2028. An earlier change of 30 March 2026 corrected the 2027 to 2028 late payment figures to 4% at day 15 and 4% at day 30",
+    "source": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+    "read": "2026-11-20"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom. Making Tax Digital for Income Tax sits within HMRC-administered Income Tax Self Assessment, which is UK-wide. The guidance page itself states no territorial scope, so do not attribute a nation statement to it - see notes.",
+   "who": "Individuals required to use Making Tax Digital for Income Tax - sole traders and landlords - from the tax year they are mandated in, and in respect of their personal Self Assessment tax return and their quarterly updates. The penalties bite in two separate ways: points for missed submissions, and percentage charges for paying late.",
+   "excluded": "These new penalties do NOT apply to three kinds of Self Assessment return, which stay on the current penalty rules: a non-resident company return submitted on behalf of the company; a trust or estate return submitted by a trustee; and a partnership return submitted by a nominated partner. Late payment penalties do NOT apply to payments on account. Someone who agrees a payment plan with HMRC and keeps to it has penalties paused from the date they made contact. People who joined MTD voluntarily rather than by mandation are covered by a separate HMRC page on volunteer penalties, not by this one, and they do not get the 30-day first-year period a second time on becoming mandated.",
+   "from_when": "The penalty percentages are set by tax year: 3% plus 3% for 2026 to 2027, rising to 4% plus 4% for 2027 to 2028. The first-year easements apply in a person's first year in the regime, so they run on a rolling basis as each cohort is mandated.",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim - HMRC charges these penalties automatically. The two actions that reduce them are within the taxpayer's control: submit on time to avoid points, and if payment will be late, contact HMRC to set up a payment plan, because penalties are paused from the date of contact if the plan is agreed and kept to."
+  },
+  "notes": "Verified at primary source 20 November 2026 from the HMRC guidance page, last updated 19 November 2026. Two traps for copy. First, the percentages differ by tax year - 3%+3% for 2026-27 and 4%+4% for 2027-28 - so a post that gives a bare percentage without the year will be wrong for half its readers. Second, the first-year easement is narrower than it sounds: it covers late quarterly updates and gives 30 days instead of 15 before late payment penalties start, but it does NOT cover the tax return deadline, and it is given once only, so someone who volunteered early does not get it again when mandated. The day-31 charge is an additional 10% a year charged daily for up to 2 years, and is separate from late payment interest, which runs from day one - do not merge the two into a single figure. Nation: the page states no territorial scope at all. The UK-wide statement in this entry follows from MTD for Income Tax being part of HMRC-administered Income Tax Self Assessment rather than from any words on the page, so write it as a fact about the tax, not as a quotation. Scottish and Welsh taxpayers pay income tax at their own rates but are administered by HMRC and are inside this regime.",
   "used": []
  }
 ]
