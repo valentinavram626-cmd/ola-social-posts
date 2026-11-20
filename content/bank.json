@@ -2053,7 +2053,9 @@
    "how_to_claim": "If your gross receipts from the letting are £7,500 or less (£3,750 if shared) the exemption is automatic — you are exempt from tax on that income and need do nothing. If your receipts exceed the threshold you must complete a Self Assessment tax return and choose between Method A (tax on your actual profit, which HMRC applies by default) and Method B (tax on gross receipts above the threshold, with no deduction for expenses). To use Method B, or to opt out of the exemption so you can claim a loss, you must notify HMRC within one year of the 31 January following the end of the tax year. Method B stops automatically if your rental income falls back below the threshold."
   },
   "notes": "This is a UK-wide income tax relief, reserved to Westminster, so it applies in England, Wales, Northern Ireland and Scotland on the same terms. The £7,500 limit is a fixed statutory figure, not an annually indexed one, and has been unchanged since April 2016 — it is not restated in Budget rates tables, so verify it on the live guidance page each year. The threshold is on GROSS receipts, including any amounts your lodger pays for meals, cleaning or laundry, not on profit. The HS223 helpsheet carrying the fullest list of exclusions is the 2026-published version covering the 2025 to 2026 tax year; the £7,500 figure for the current year is taken from the live GOV.UK guidance page read on 14 November 2026.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "property-income-allowance",
@@ -3253,7 +3255,9 @@
    "how_to_claim": "You must apply. Online at the NHS Healthy Start website for the Universal Credit route; by email or phone for the Pension Credit route and for under-18s more than 10 weeks pregnant. Non-British parents who cannot claim public funds because of their immigration status request an application form by email. If you are under 10 weeks pregnant when you apply you can add the pregnancy later without a new application."
   },
   "notes": "Scotland is a genuine carve-out, not a variation: Best Start Foods is a separate Scottish Government scheme with its own amounts and rules, so Healthy Start figures must never be quoted to a Scottish reader. Free Healthy Start vitamins are arranged differently in England, Wales and Northern Ireland, so point readers at their own local arrangement. Not verified at primary source in this pass: whether Income Support and income-based Jobseeker's Allowance remain listed qualifying benefits — the current NHS application page names only Universal Credit and Pension Credit as live routes, with income-related ESA mentioned in the scheme rules, so a legacy-benefit claimant should be told to check the scheme rules page rather than be given a list.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "ofgem-energy-price-cap",
@@ -6144,7 +6148,9 @@
    "how_to_claim": "Open an account with an ISA manager (bank, building society or investment provider) and make the first payment before age 40. The provider claims the 25% bonus from HMRC and adds it to the account - there is no separate claim by the saver. A first-home withdrawal is made by the provider to the conveyancer or solicitor."
   },
   "notes": "UK-wide: ISAs are not devolved, so the limits and charges are identical across England, Scotland, Wales and Northern Ireland. Commonly confused: the 25% withdrawal charge is not just the bonus being taken back - it is 25% of the whole amount withdrawn, bonus and growth included, so an unauthorised withdrawal leaves you with less than you paid in. From 29 October 2026 that penalty is softened to 20% only where the money is used to buy a first home above the £450,000 cap, which returns the bonus without a further loss; the 25% charge still applies to every other non-qualifying withdrawal. No charge arises on withdrawal from age 60, on terminal illness with less than 12 months to live, or on death. The £450,000 cap is a single UK-wide figure, not a regional one, and it is the purchase price, not the mortgage amount. The £4,000 sits inside the £20,000 overall ISA allowance, it is not on top of it.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "junior-isa-allowance-and-control",
@@ -6446,7 +6452,9 @@
    "how_to_claim": "Not automatic - you must contact HMRC to claim it (HMRC Income Tax helpline, Monday to Friday 8am to 6pm except bank holidays). If you do not pay tax, or do not earn enough to use all of it, you can transfer the unused allowance to your spouse or civil partner, who must also be eligible for an allowance to receive it (HMRC form 575(T))."
   },
   "notes": "Nations: the allowance itself is UK-wide at the same £3,250, but the eligibility TEST differs - England and Wales turn on local-council registration as blind / severely sight impaired, while Scotland and Northern Ireland turn on being unable to do work for which eyesight is essential. Do not state a single test UK-wide. Because it is an allowance and not a benefit, it is not means-tested and does not affect benefit entitlement. Commonly confused with: Personal Independence Payment / Adult Disability Payment, Attendance Allowance, the Marriage Allowance and the Married Couple's Allowance (a separate figure uprated by the same statutory instrument), and the Severe Sight Impairment register itself, which is a local-authority list and not a tax claim. Worth flagging to clients: HMRC does not apply it unless asked, so long-registered clients are often years out of pocket.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "lha-uc-housing-element-private-renters-2026-27",
@@ -8258,7 +8266,9 @@
    "how_to_claim": "Apply online on GOV.UK, or print the claim form, or call the DWP Attendance Allowance helpline number published on GOV.UK to be sent one. The claim starts on the day you apply online, the day DWP receives a posted form, or the day of your call if you return the form within 6 weeks."
   },
   "notes": "This is the single most under-claimed pensioner benefit and the reason is a wrong belief that it is means-tested. It is not: savings, a pension and a paid-off house make no difference. It is also not paid for having a diagnosis — it is paid for needing help or supervision, and you do not have to be getting that help from anyone. The big knock-on is that an Attendance Allowance award can unlock extra Pension Credit, Housing Benefit and Council Tax Reduction, so it is worth more than the headline rate. Call timing matters: ring the helpline for a form and the claim is backdated to the date of the call, provided you send it in within 6 weeks — applying straight online starts it the day you apply, with nothing before that. Scottish readers must not be sent to this page; Pension Age Disability Payment is a separate Social Security Scotland benefit.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "maternity-allowance-2026-27",
@@ -11153,7 +11163,9 @@
    "how_to_claim": "Apply online or on form EX160, normally at the same time as the court or tribunal application. If the fee has already been paid, apply for a refund within 3 months."
   },
   "notes": "England and Wales only — the EX160A publication states Applies to England and Wales on its face, and Scotland and Northern Ireland have separate publications, which is why this is tagged bham only. The help can be full or partial: GOV.UK describes getting money off the fee, and people above the income thresholds may still get some reduction, so nobody should be told they are definitely ineligible on income alone.",
-  "used": []
+  "used": [
+   "2026-11-20"
+  ]
  },
  {
   "id": "mtd-income-tax-penalties",
