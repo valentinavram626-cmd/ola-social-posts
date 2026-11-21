@@ -1,0 +1,958 @@
+[
+ {
+  "bank_id": "marriage-allowance",
+  "bank_title": "Marriage Allowance",
+  "published_in": "ARCHIVE",
+  "published_slug": "marriage-allowance",
+  "overlap": 1.0,
+  "used_field": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "bank_id": "trading-allowance",
+  "bank_title": "The Trading Allowance",
+  "published_in": "ARCHIVE",
+  "published_slug": "scutire-1000-lire",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "high-income-child-benefit-charge",
+  "bank_title": "The High Income Child Benefit Charge",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-taxa-child-benefit-venit",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "employment-allowance",
+  "bank_title": "Employment Allowance",
+  "published_in": "DAY",
+  "published_slug": "bham-employment-allowance-2026",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "self-assessment-31-january-2027",
+  "bank_title": "Self Assessment: 31 January 2027",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-self-assessment-january",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "making-tax-digital-income-tax",
+  "bank_title": "Making Tax Digital for Income Tax",
+  "published_in": "ARCHIVE",
+  "published_slug": "mtd-income-tax",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "cis-monthly-returns",
+  "bank_title": "CIS monthly returns",
+  "published_in": "DAY",
+  "published_slug": "en-cis-monthly-returns-2026",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-flat-rate-scheme",
+  "bank_title": "VAT Flat Rate Scheme",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-tva-cota-fixa",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-annual-accounting-scheme",
+  "bank_title": "VAT Annual Accounting Scheme",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-annual-accounting",
+  "overlap": 1.0,
+  "used_field": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "bank_id": "statutory-sick-pay",
+  "bank_title": "Statutory Sick Pay 2026/27",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-statutory-sick-pay",
+  "overlap": 1.0,
+  "used_field": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "bank_id": "property-income-allowance",
+  "bank_title": "Property Income Allowance",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "pension-credit",
+  "bank_title": "Pension Credit",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-pension-credit",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "winter-fuel-payment",
+  "bank_title": "Winter Fuel Payment, winter 2026 to 2027",
+  "published_in": "HELD",
+  "published_slug": "winter-fuel-35000",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "tax-free-childcare",
+  "bank_title": "Tax-Free Childcare",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-cresa-fara-taxa",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "companies-house-late-filing-penalties",
+  "bank_title": "Companies House Late Filing Penalties",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-late-filing-penalties",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "annual-investment-allowance",
+  "bank_title": "Annual Investment Allowance",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-alocatie-investitii",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "warm-home-discount",
+  "bank_title": "Warm Home Discount",
+  "published_in": "ARCHIVE",
+  "published_slug": "warm-home-150",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "isa-allowance",
+  "bank_title": "ISA Allowance",
+  "published_in": "DAY",
+  "published_slug": "bham-employment-allowance-2026",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "self-employed-national-insurance",
+  "bank_title": "Self-Employed National Insurance",
+  "published_in": "DAY",
+  "published_slug": "ola-ni-self-employed",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "appeal-sa-penalty-reasonable-excuse",
+  "bank_title": "Appealing a Self Assessment penalty - what HMRC accepts as a reasonable excuse",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-appeal-penalty",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "shared-parental-leave-and-pay-2026-27",
+  "bank_title": "Shared Parental Leave and Statutory Shared Parental Pay",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-concediu-partajat",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "company-car-benefit-in-kind-appropriate-percentages",
+  "bank_title": "Company car benefit in kind and the appropriate percentages",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-company-car-benefit",
+  "overlap": 1.0,
+  "used_field": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "bank_id": "associated-companies-and-marginal-relief-thresholds",
+  "bank_title": "Associated companies and the marginal relief thresholds",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-associated-companies",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-margin-scheme-second-hand-goods",
+  "bank_title": "VAT margin scheme for second-hand goods",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-vat-margin-second-hand",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "priority-services-register-energy-2026",
+  "bank_title": "Priority Services Register: free extra help from your energy supplier",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-priority-services-register",
+  "overlap": 1.0,
+  "used_field": []
+ },
+ {
+  "bank_id": "paye-quarterly-payment-small-employers-22-january",
+  "bank_title": "Quarterly PAYE Payers: £1,500 a Month Rule and the 22 January 2027 Deadline",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-paye-quarterly",
+  "overlap": 1.0,
+  "used_field": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "bank_id": "iht-gifts-seven-year-rule-and-taper-relief",
+  "bank_title": "Inheritance Tax on gifts: the 7-year rule, taper relief and the annual exemption",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-iht-gifts-seven-year",
+  "overlap": 0.88,
+  "used_field": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "bank_id": "lha-uc-housing-element-private-renters-2026-27",
+  "bank_title": "Local Housing Allowance: the cap on help with private rent",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-housing-element",
+  "overlap": 0.88,
+  "used_field": []
+ },
+ {
+  "bank_id": "small-micro-company-accounts-filing-changes-april-2028",
+  "bank_title": "Changes to small and micro company accounts filing",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-small-company-accounts",
+  "overlap": 0.86,
+  "used_field": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "bank_id": "mandatory-payrolling-benefits-in-kind-rti-april-2027",
+  "bank_title": "Employers must report company cars, vans, fuel and medical benefits through payroll from A",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-payrolling-benefits",
+  "overlap": 0.83,
+  "used_field": []
+ },
+ {
+  "bank_id": "small-business-rate-relief-england",
+  "bank_title": "Small Business Rate Relief (England)",
+  "published_in": "DAY",
+  "published_slug": "bham-small-business-rates",
+  "overlap": 0.8,
+  "used_field": []
+ },
+ {
+  "bank_id": "self-assessment-time-to-pay",
+  "bank_title": "Self Assessment Time to Pay Payment Plan",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-plan-plata-buget",
+  "overlap": 0.8,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-diy-housebuilders-scheme",
+  "bank_title": "VAT DIY Housebuilders Scheme: reclaiming VAT on a self-build",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-vat-diy-selfbuild",
+  "overlap": 0.8,
+  "used_field": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "bank_id": "blind-persons-allowance-2026-27",
+  "bank_title": "Blind Person's Allowance: £3,250 of extra tax-free income",
+  "published_in": "SOLOS",
+  "published_slug": "en-solo-blind-persons-allowance",
+  "overlap": 0.8,
+  "used_field": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "bank_id": "disabled-facilities-grant",
+  "bank_title": "Disabled Facilities Grant for Home Adaptations",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-disabled-facilities-grant",
+  "overlap": 0.8,
+  "used_field": [
+   "2026-11-17"
+  ]
+ },
+ {
+  "bank_id": "hmrc-budget-payment-plan",
+  "bank_title": "HMRC Budget Payment Plan",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-plan-plata-buget",
+  "overlap": 0.75,
+  "used_field": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "bank_id": "vat-return-payment-deadlines",
+  "bank_title": "VAT return and payment deadlines (one month and 7 days)",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-return-deadline",
+  "overlap": 0.75,
+  "used_field": []
+ },
+ {
+  "bank_id": "corporation-tax-rates-marginal-relief",
+  "bank_title": "Corporation Tax Rates and Marginal Relief",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-corporation-tax-marginal-relief",
+  "overlap": 0.75,
+  "used_field": []
+ },
+ {
+  "bank_id": "voluntary-national-insurance-class-3",
+  "bank_title": "Voluntary National Insurance Class 3",
+  "published_in": "ARCHIVE",
+  "published_slug": "employment-allowance-10500",
+  "overlap": 0.75,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-business-and-staff-entertainment",
+  "bank_title": "VAT on business and staff entertainment: what is recoverable",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-vat-entertainment",
+  "overlap": 0.75,
+  "used_field": []
+ },
+ {
+  "bank_id": "company-tax-return-filing-deadline-and-late-penalties",
+  "bank_title": "Company Tax Return: the 12-month filing deadline and HMRC's late filing penalties",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-return-deadline",
+  "overlap": 0.75,
+  "used_field": []
+ },
+ {
+  "bank_id": "sdlt-return-14-day-deadline-and-late-filing-penalties",
+  "bank_title": "Stamp Duty Land Tax: 14 Days to File and Pay, £100 and £200 Penalties",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-return-deadline",
+  "overlap": 0.75,
+  "used_field": []
+ },
+ {
+  "bank_id": "cold-weather-payment-2026-27",
+  "bank_title": "Cold Weather Payment: £25 per Cold Week",
+  "published_in": "ARCHIVE",
+  "published_slug": "cold-weather-25",
+  "overlap": 0.75,
+  "used_field": []
+ },
+ {
+  "bank_id": "landlord-mortgage-interest-restriction-tax-reducer",
+  "bank_title": "Landlords: the restriction on mortgage interest relief (the 20% tax reducer)",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-landlord-mortgage-relief",
+  "overlap": 0.71,
+  "used_field": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "bank_id": "council-tax-reduction-england",
+  "bank_title": "Council Tax Reduction",
+  "published_in": "HELD",
+  "published_slug": "bham-council-tax-reduction",
+  "overlap": 0.67,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-cash-accounting-scheme",
+  "bank_title": "VAT Cash Accounting Scheme",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-annual-accounting",
+  "overlap": 0.67,
+  "used_field": []
+ },
+ {
+  "bank_id": "rent-a-room-relief",
+  "bank_title": "Rent a Room Relief",
+  "published_in": "ARCHIVE",
+  "published_slug": "camera-inchiriata-7500",
+  "overlap": 0.67,
+  "used_field": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "bank_id": "pension-annual-allowance",
+  "bank_title": "Pension Annual Allowance 2026/27",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-alocatie-investitii",
+  "overlap": 0.67,
+  "used_field": []
+ },
+ {
+  "bank_id": "child-benefit-rates",
+  "bank_title": "Child Benefit rates 2026/27",
+  "published_in": "HELD",
+  "published_slug": "child-benefit-2026",
+  "overlap": 0.67,
+  "used_field": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "bank_id": "carers-allowance",
+  "bank_title": "Carer's Allowance 2026/27",
+  "published_in": "HELD",
+  "published_slug": "carer-allowance-86",
+  "overlap": 0.67,
+  "used_field": []
+ },
+ {
+  "bank_id": "healthy-start-scheme",
+  "bank_title": "NHS Healthy Start",
+  "published_in": "HELD",
+  "published_slug": "healthy-start-465",
+  "overlap": 0.67,
+  "used_field": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "bank_id": "ofgem-energy-price-cap",
+  "bank_title": "Ofgem Energy Price Cap",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-energy-price-cap",
+  "overlap": 0.67,
+  "used_field": []
+ },
+ {
+  "bank_id": "statutory-adoption-pay-and-leave-2026-27",
+  "bank_title": "Statutory Adoption Pay and Leave",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-concediu-partajat",
+  "overlap": 0.67,
+  "used_field": []
+ },
+ {
+  "bank_id": "companies-house-identity-verification-directors-pscs",
+  "bank_title": "Companies House identity verification for directors and PSCs",
+  "published_in": "DAY",
+  "published_slug": "ola-verificare-identitate-directori",
+  "overlap": 0.67,
+  "used_field": []
+ },
+ {
+  "bank_id": "lifetime-isa-bonus-and-withdrawal-charge",
+  "bank_title": "Lifetime ISA: the 25% bonus and the withdrawal charge",
+  "published_in": "SOLOS",
+  "published_slug": "en-solo-lifetime-isa-bonus",
+  "overlap": 0.67,
+  "used_field": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "bank_id": "high-value-council-tax-surcharge-england-2028",
+  "bank_title": "High Value Council Tax Surcharge on homes worth £2 million or more in England",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-council-tax-surcharge-2028",
+  "overlap": 0.67,
+  "used_field": [
+   "2026-11-17"
+  ]
+ },
+ {
+  "bank_id": "attendance-allowance-2026-27",
+  "bank_title": "Attendance Allowance Weekly Rates",
+  "published_in": "SOLOS",
+  "published_slug": "ola-solo-attendance-allowance",
+  "overlap": 0.67,
+  "used_field": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "bank_id": "directors-loan-account-s455-charge-nine-month-rule",
+  "bank_title": "Director's Loan Account: the Nine-Month Rule and the s455 Charge",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-imprumut-director",
+  "overlap": 0.67,
+  "used_field": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "bank_id": "carers-credit",
+  "bank_title": "Carer's Credit: 20 hours of unpaid caring a week protects your State Pension",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-pension-credit",
+  "overlap": 0.67,
+  "used_field": []
+ },
+ {
+  "bank_id": "cash-basis-default-self-employed",
+  "bank_title": "Cash basis is now the default for the self-employed - accruals is the thing you have to ch",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-baza-de-numerar",
+  "overlap": 0.62,
+  "used_field": []
+ },
+ {
+  "bank_id": "sdlt-residential-rates-and-first-time-buyers-relief",
+  "bank_title": "Stamp Duty Land Tax: residential rates and First Time Buyers' Relief",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-sdlt-first-time-buyers",
+  "overlap": 0.62,
+  "used_field": []
+ },
+ {
+  "bank_id": "gift-aid-carry-back-claim-original-return-31-january",
+  "bank_title": "Gift Aid Carry Back: Must Be in the Original Return by 31 January 2027",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-gift-aid-carry-back",
+  "overlap": 0.62,
+  "used_field": [
+   "2026-11-17"
+  ]
+ },
+ {
+  "bank_id": "free-childcare-hours-working-parents-england",
+  "bank_title": "30 hours of funded childcare from 9 months — England only, and you must apply for a code",
+  "published_in": "DAY",
+  "published_slug": "bham-funded-childcare-9-months",
+  "overlap": 0.62,
+  "used_field": []
+ },
+ {
+  "bank_id": "nmw-nlw-april-2027",
+  "bank_title": "National Minimum Wage and National Living Wage from 1 April 2027",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-minimum-wage-2027",
+  "overlap": 0.6,
+  "used_field": []
+ },
+ {
+  "bank_id": "self-assessment-late-filing-penalties",
+  "bank_title": "Self Assessment Late Filing Penalties",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-late-filing-penalties",
+  "overlap": 0.6,
+  "used_field": []
+ },
+ {
+  "bank_id": "paye-rti-fps-deadline",
+  "bank_title": "PAYE Real Time Information: Full Payment Submission deadline and late filing penalties",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-late-filing-penalties",
+  "overlap": 0.6,
+  "used_field": []
+ },
+ {
+  "bank_id": "class-1-nic-thresholds",
+  "bank_title": "Class 1 National Insurance thresholds and rates 2026/27",
+  "published_in": "ARCHIVE",
+  "published_slug": "employment-allowance-10500",
+  "overlap": 0.6,
+  "used_field": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "bank_id": "companies-house-accounts-deadline",
+  "bank_title": "Companies House Annual Accounts Filing Deadline",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-late-filing-penalties",
+  "overlap": 0.6,
+  "used_field": []
+ },
+ {
+  "bank_id": "employer-class-1-secondary-national-insurance-2026-27",
+  "bank_title": "Employer Class 1 Secondary National Insurance - Threshold and Rate",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-employer-ni",
+  "overlap": 0.6,
+  "used_field": []
+ },
+ {
+  "bank_id": "companies-house-filing-fees-incorporation-confirmation-statement-name-change",
+  "bank_title": "Companies House filing fees",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-late-filing-penalties",
+  "overlap": 0.6,
+  "used_field": []
+ },
+ {
+  "bank_id": "cis-late-filing-penalties-scale",
+  "bank_title": "CIS monthly return: the 19th deadline and the late filing penalty scale",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-late-filing-penalties",
+  "overlap": 0.6,
+  "used_field": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "bank_id": "child-trust-fund-maturing-and-tracing",
+  "bank_title": "Unclaimed Child Trust Funds and the Free HMRC Tracing Service",
+  "published_in": "SOLOS",
+  "published_slug": "en-solo-child-trust-fund",
+  "overlap": 0.6,
+  "used_field": []
+ },
+ {
+  "bank_id": "statutory-annual-leave-and-irregular-hours-holiday-pay-2026-27",
+  "bank_title": "Statutory Annual Leave and Holiday Pay for Irregular-Hours Workers",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-holiday-pay-irregular",
+  "overlap": 0.57,
+  "used_field": []
+ },
+ {
+  "bank_id": "business-asset-disposal-relief-limit-and-rate",
+  "bank_title": "Business Asset Disposal Relief: lifetime limit and CGT rate",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-vanzare-afacere-badr",
+  "overlap": 0.57,
+  "used_field": []
+ },
+ {
+  "bank_id": "free-school-meals-england",
+  "bank_title": "Free school meals in England, including the expanded Universal Credit entitlement",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-free-school-meals",
+  "overlap": 0.56,
+  "used_field": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "bank_id": "partnership-tax-return-and-partner-penalties",
+  "bank_title": "Partnership Tax Return: 31 January 2027 Deadline and the Separate Penalty Each Partner Get",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-partnership-return",
+  "overlap": 0.56,
+  "used_field": [
+   "2026-11-17"
+  ]
+ },
+ {
+  "bank_id": "mileage-allowance-car",
+  "bank_title": "Business mileage rates for your own car",
+  "published_in": "DAY",
+  "published_slug": "bham-small-business-rates",
+  "overlap": 0.5,
+  "used_field": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "bank_id": "personal-savings-allowance",
+  "bank_title": "The Personal Savings Allowance",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "companies-house-confirmation-statement",
+  "bank_title": "Companies House confirmation statement",
+  "published_in": "DAY",
+  "published_slug": "ola-verificare-identitate-directori",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "payments-on-account",
+  "bank_title": "Payments on Account",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-imprumut-director",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "self-assessment-late-payment-penalties",
+  "bank_title": "Self Assessment Late Payment Penalties and Interest",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-plan-plata-buget",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "self-assessment-registration-deadline",
+  "bank_title": "Self Assessment Registration Deadline",
+  "published_in": "DAY",
+  "published_slug": "en-self-assessment-31-jan",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-late-submission-penalty-points",
+  "bank_title": "VAT late submission penalty points and late payment penalties",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-penalty-points",
+  "overlap": 0.5,
+  "used_field": [
+   "2026-11-17"
+  ]
+ },
+ {
+  "bank_id": "vat-reverse-charge-construction",
+  "bank_title": "VAT domestic reverse charge for building and construction services",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-reverse-charge-vat",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "statutory-maternity-pay",
+  "bank_title": "Statutory Maternity Pay 2026/27",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-plata-redundanta",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "p11d-benefits-deadline",
+  "bank_title": "P11D, P11D(b) and Class 1A National Insurance: 6 July deadline",
+  "published_in": "ARCHIVE",
+  "published_slug": "employment-allowance-10500",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "personal-allowance-income-tax-bands",
+  "bank_title": "Personal Allowance and Income Tax Rates and Bands 2026/27",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "dividend-allowance",
+  "bank_title": "Dividend Allowance and Dividend Tax Rates 2026/27",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "universal-credit-standard-allowance",
+  "bank_title": "Universal Credit standard allowance 2026/27",
+  "published_in": "ARCHIVE",
+  "published_slug": "mese-gratuite-scoala",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "corporation-tax-payment-deadline",
+  "bank_title": "Corporation Tax Payment and Company Tax Return Deadlines",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-return-deadline",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "sa-paper-return-deadline-31-october",
+  "bank_title": "The 31 October paper Self Assessment deadline - and what missing it actually costs",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-return-deadline",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-bad-debt-relief-6-month-rule",
+  "bank_title": "VAT bad debt relief: the 6-month rule",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-bad-debt-relief",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "junior-isa-allowance-and-control",
+  "bank_title": "Junior ISA: the allowance and who controls the money",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "bereavement-support-payment-2026-27",
+  "bank_title": "Bereavement Support Payment: two rates and the claim clock",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-sprijin-deces",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "income-tax-property-and-savings-rates-april-2027",
+  "bank_title": "New higher Income Tax rates on rental and savings income from April 2027",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "capital-allowances-wda-12-percent-fya-50-percent-2027",
+  "bank_title": "Capital allowances: main pool writing-down allowance cut to 12%, first-year allowance rais",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "paye-coding-out-self-assessment-30-december",
+  "bank_title": "Asking HMRC to collect your Self Assessment bill through your tax code: 30 December deadli",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-inregistrare-self-assessment",
+  "overlap": 0.5,
+  "used_field": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "bank_id": "cgt-60-day-uk-residential-property-return",
+  "bank_title": "Capital Gains Tax on UK residential property: report and pay within 60 days",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "universal-credit-child-element-and-childcare-costs-2027-28",
+  "bank_title": "Universal Credit Child Element and Childcare Costs for 2027 to 2028",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-universal-credit",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "ct61-return-income-tax-on-company-interest-14-january",
+  "bank_title": "CT61: 20% Tax on Interest a Company Pays, Due 14 January 2027",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-gift-aid-carry-back",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "help-to-save-bonus",
+  "bank_title": "Help to Save: 50% Government Bonus on Savings",
+  "published_in": "ARCHIVE",
+  "published_slug": "help-to-save-50",
+  "overlap": 0.5,
+  "used_field": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "bank_id": "maternity-allowance-2026-27",
+  "bank_title": "Maternity Allowance for Those Who Cannot Get Statutory Maternity Pay",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "budgeting-advance-universal-credit",
+  "bank_title": "Budgeting Advance: Interest-Free Help With Unexpected Costs",
+  "published_in": "ARCHIVE",
+  "published_slug": "ola-universal-credit",
+  "overlap": 0.5,
+  "used_field": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "bank_id": "pre-trading-expenditure-seven-year-rule",
+  "bank_title": "Pre-Trading Expenses: the Seven-Year Rule",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-pre-trading-expenses",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "corporation-tax-telling-hmrc-company-active-three-months",
+  "bank_title": "Telling HMRC Your Company Is Active: the Three-Month Deadline",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-vat-return-deadline",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "married-couples-allowance-born-before-6-april-1935",
+  "bank_title": "Married Couple's Allowance 2026-27 - the allowance almost nobody claims",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "small-business-bonus-scheme-scotland",
+  "bank_title": "Small Business Bonus Scheme: non-domestic rates relief (Scotland only)",
+  "published_in": "ARCHIVE",
+  "published_slug": "bham-business-rates-relief",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "pension-age-winter-heating-payment-scotland",
+  "bank_title": "Pension Age Winter Heating Payment, winter 2026 to 2027 (Scotland only)",
+  "published_in": "HELD",
+  "published_slug": "winter-fuel-35000",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-capital-goods-scheme-600000-threshold-from-july-2026",
+  "bank_title": "The Capital Goods Scheme changed in July 2026 — computers are out and the property thresho",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "vat-option-to-tax-land-and-buildings",
+  "bank_title": "Opting to tax a commercial property: the 30 days, the 6 months and the 20 years",
+  "published_in": "ARCHIVE",
+  "published_slug": "en-property-allowance",
+  "overlap": 0.5,
+  "used_field": []
+ },
+ {
+  "bank_id": "help-with-court-and-tribunal-fees",
+  "bank_title": "Help with Fees: money off court and tribunal fees, and refunds up to 3 months back",
+  "published_in": "SOLOS",
+  "published_slug": "bham-solo-help-with-fees",
+  "overlap": 0.5,
+  "used_field": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "bank_id": "mtd-income-tax-penalties",
+  "bank_title": "Making Tax Digital for Income Tax: late submission and late payment penalties",
+  "published_in": "ARCHIVE",
+  "published_slug": "mtd-income-tax",
+  "overlap": 0.5,
+  "used_field": []
+ }
+]
