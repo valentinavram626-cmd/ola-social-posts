@@ -66,3 +66,48 @@ consequence that affects them, then say plainly what Ola does. The persuasive
 force comes from the facts being true, so an unsourceable opening is replaced,
 never dressed up. Invented figures, fabricated client stories, false urgency and
 guarantees are out, as they always were.
+
+## Two writing rules added on 21 November 2026
+
+From reviewing what the department actually published in the week to 21
+November, against what the platforms reward.
+
+### The first line may not lean on a name the reader does not know
+
+Posts have been opening on the name of the scheme. A reader who has never heard
+of it has no reason to stop, and most of the people a post reaches have never
+heard of it. The name is the answer, not the hook.
+
+The first line carries the figure and what the reader gets or loses. The scheme
+is named in the body, where it becomes useful rather than a barrier.
+
+> Not: "NHS Healthy Start. GBP 4.65 a week from the 10th week of pregnancy."
+> But: "GBP 9.30 a week for every child under one, and most parents never claim it."
+
+The test: show the first line alone to someone who has never heard of the
+scheme. If it means nothing to them, it is a heading, not a hook. Applies to the
+frame, the caption's opening line and the TikTok title.
+
+### Ask for the save, in the caption, never on the frame
+
+Saves and shares expand reach further than likes do, and this firm's content is
+unusually worth saving: amounts, thresholds and deadlines are reference material
+a reader wants back later. Nothing has been asking for it.
+
+One line in the caption, immediately before the general-information disclaimer.
+Vary the wording; the same sentence every day stops registering. Ask for a save
+when the post carries a figure or date the reader will need again, a share when
+the post is clearly about somebody other than the reader. Never both in one
+caption, and never ask for a like, which is the weakest of the three and spends
+the only ask available.
+
+### What is deliberately not adopted
+
+The Instagram growth advice in circulation optimises for reach in the millions.
+This firm does not need reach, it needs limited company owners in Luton and
+Birmingham. Do not chase reach at the cost of the audience, do not adopt a
+provocative tone to win it, and never raise posting volume for it. Instagram
+restricted activity on the Birmingham account on 21 November at the volume
+already running.
+
+The reels pipeline stays off. Valentin decided this on 21 November 2026.
