@@ -130,18 +130,22 @@ def _quote(p, size, A):
     story = size == "story"
     line_size = p.get("line_size") or (70 if story else 62)
     pad = "168px 84px 210px" if story else "80px 84px 72px"
+    # Romanian uses low-high quotes, English the curly pair. `quote_marks: "ro"` selects Romanian.
+    ro = p.get("quote_marks") == "ro"
+    open_q, close_q = ("&bdquo;", "&rdquo;") if ro else ("&ldquo;", "&rdquo;")
     inner = "\n".join([
         _logo(A, 390 if story else 360),
         '    <div style="margin-top:auto;"></div>',
         _slot(p["slot"]),
-        f'    <div style="margin:34px 0 0;font-size:150px;line-height:.5;color:{GOLD};font-weight:700;height:58px;">&ldquo;</div>',
         f'    <p style="margin:14px 0 0;max-width:{780 if story else 700}px;font-size:{line_size}px;'
-        f'font-weight:600;line-height:1.24;letter-spacing:-1.1px;color:#FFFFFF;">{p["line"]}</p>',
+        f'font-weight:600;line-height:1.24;letter-spacing:-1.1px;color:#FFFFFF;">{open_q}{p["line"]}{close_q}</p>',
+        f'    <div style="margin:{34 if story else 28}px 0 0;display:flex;align-items:center;gap:18px;">',
+        f'      <span style="display:block;width:54px;height:2px;background:{GOLD};"></span>',
+        f'      <span style="display:block;font-size:{34 if story else 31}px;font-weight:600;color:{GOLD};line-height:1.2;letter-spacing:-.2px;">{p.get("attrib","")}</span>',
+        "    </div>",
         '    <div style="margin-top:auto;"></div>',
         f'    <div style="padding-bottom:{40 if story else 6}px;">',
-        f'      <div style="width:180px;height:1px;background:rgba(200,161,90,.55);margin-bottom:24px;"></div>',
-        f'      <span style="display:block;font-size:{30 if story else 28}px;font-weight:600;color:{GOLD};line-height:1.2;">{p.get("attrib","Ola Accountancy")}</span>',
-        f'      <span style="display:block;margin-top:8px;font-size:{25 if story else 23}px;font-weight:500;color:{DIM};line-height:1.2;">ola-accountancy.co.uk &nbsp;·&nbsp; Luton &amp; Birmingham</span>',
+        f'      <span style="display:block;font-size:{25 if story else 23}px;font-weight:500;color:{DIM};line-height:1.2;">ola-accountancy.co.uk &nbsp;·&nbsp; Luton &amp; Birmingham</span>',
         "    </div>",
     ])
     return _shell(inner, w, h, "68% 30%", ".92", pad, A, grad_soft=".80", grad_fade=".18")
@@ -153,7 +157,7 @@ REQUIRED = {
     "acq": ("slot", "hero", "sub", "cta"),
     "edu": ("slot", "hero", "sub", "cta"),
     "joke": ("slot", "setup", "punch", "hook", "cta"),
-    "quote": ("slot", "line"),
+    "quote": ("slot", "line", "attrib"),
 }
 
 
