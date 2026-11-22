@@ -12,22 +12,23 @@ Monday 23 November 2026. Sunday 22 November still runs the previous format.
 
 **Instagram, Facebook and TikTok — on every brand — take 10 posts a day:**
 
-| # | Slot | What it is |
+| # | Slot label (RO / EN) | What it is |
 |---|---|---|
-| 1 | Morning tip | One verified, useful thing, posted first thing |
-| 2-4 | Acquisition | Three in the style of the live Meta ad: the Ltd-switching offer |
-| 5-7 | Educational | Three explaining one accounting point each |
-| 8-9 | Humour | Two jokes that land on a real accounting truth |
-| 10 | Evening thought | One reflection on business and life, written by us |
+| 1 | Gândul zilei / Thought of the day | A motivational thought on business and work, an example of something Ola does well, or something genuinely good that happened in the UK in the last 24 hours |
+| 2-4 | Vino la Ola Accountancy / Come to Ola Accountancy | Three warm invitations to move a limited company to us |
+| 5-7 | Educație financiară cu Ola Accountancy / Financial education with Ola Accountancy | Three explaining one point each, written beautifully |
+| 8 | Gluma zilei / Joke of the day | A joke that lands on a real accounting truth |
+| 9 | Gluma serii / Joke of the evening | The second joke, under its own name |
+| 10 | Citatul serii / Evening quote | A real quotation from a named philosopher, attributed |
 
 **Every other connected network takes 5 a day**, drawn from the same material:
 
 | # | Slot |
 |---|---|
-| 1 | Morning tip |
-| 2-3 | Acquisition, two of the three |
-| 4 | Humour, one of the two |
-| 5 | Evening thought |
+| 1 | Gândul zilei / Thought of the day |
+| 2-3 | Vino la Ola Accountancy, two of the three |
+| 4 | Gluma zilei, one of the two |
+| 5 | Citatul serii / Evening quote |
 
 That is Threads, LinkedIn, Bluesky and Pinterest.
 
@@ -57,6 +58,42 @@ itself, so the content arrives while it is still useful.
 The humour slots are where this shows most. A seasonal joke must tie the occasion
 to a real accounting point — Father Christmas and the undeducted sleigh, not a
 hat on a logo.
+
+## The five slots, set by Valentin on 22 November 2026
+
+He renamed all five and changed what three of them are for. His reasons are the rules.
+
+**Gândul zilei** replaces the morning tax tip. It is motivational, about business and work, or a
+concrete example of something Ola does well, or something genuinely good that happened in the UK in
+the last 24 hours. The 24 hours are counted back from the moment the run STARTS, not from the moment
+the post publishes, so the evening run can satisfy it. News must be verified at primary source and
+must be genuinely positive; where there is none, the motivational or the Ola angle is always
+available. This slot needs no figure.
+
+**Vino la Ola Accountancy** replaces the Ltd-switching eyebrow, and the change is not only the name.
+Valentin's words: the drafts opened on penalties, and "oamenii o sa interpreze ca sunt penalități pe
+care le dam noi si noi vrem sa luam clienti, nu sa ii alungam." On our own account a penalty figure
+in the opening line reads as though WE issue it. So an acquisition post opens on what the reader
+gains by being with us — one fixed monthly fee, we handle the handover and write the professional
+clearance letter, the free 30 minutes, someone who answers. A deadline may appear in the body as
+reassurance, never as the opening threat, and no penalty figure goes in the hero or the punch.
+
+**Educație financiară cu Ola Accountancy** replaces the plain educational slot. Every figure stays
+accurate and every exclusion stays present, but the wording was "prea directe" — write the way a
+good teacher explains something to someone they like, a sentence that opens a door rather than a
+line off a form. Warmth and rhythm, varied sentence lengths, still no jargon.
+
+**Gluma zilei and Gluma serii** are two different names, because both jokes carried the same one and
+a reader would think the post had repeated. And they must actually be funny: nobody understood the
+sleigh joke. A joke works when the reader recognises themselves or someone they know, in one beat,
+with no accounting knowledge needed to get the laugh; the accounting point lands underneath. A joke
+that needs explaining is replaced, not explained.
+
+**Citatul serii** replaces our own evening reflection with a real quotation from a named philosopher,
+the name carried on the frame. Only quotations whose wording and author are certain — misattribution
+is everywhere. Prefer authors long dead and in the public domain, and choose lines about work, time,
+patience, discipline, money or building something, so the quotation belongs on an accountancy firm's
+account rather than being generic inspiration.
 
 ## How every piece is written
 
