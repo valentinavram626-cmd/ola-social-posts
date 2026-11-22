@@ -130,15 +130,19 @@ def _quote(p, size, A):
     story = size == "story"
     line_size = p.get("line_size") or (70 if story else 62)
     pad = "168px 84px 210px" if story else "80px 84px 72px"
-    # Romanian uses low-high quotes, English the curly pair. `quote_marks: "ro"` selects Romanian.
-    ro = p.get("quote_marks") == "ro"
+    # The frame supplies the quotation marks, so a writer never has to: Romanian uses the
+    # low-high pair, English the curly pair, and Romanian is inferred from the post id when
+    # `quote_marks` is not set. Any marks the writer typed into `line` are stripped first,
+    # so the frame can never show doubled quotes.
+    ro = p.get("quote_marks") == "ro" or str(p.get("id", "")).startswith("ola-ro-")
     open_q, close_q = ("&bdquo;", "&rdquo;") if ro else ("&ldquo;", "&rdquo;")
+    line_text = str(p["line"]).strip().strip('"\'\u201c\u201d\u201e\u00ab\u00bb').strip()
     inner = "\n".join([
         _logo(A, 390 if story else 360),
         '    <div style="margin-top:auto;"></div>',
         _slot(p["slot"]),
         f'    <p style="margin:14px 0 0;max-width:{780 if story else 700}px;font-size:{line_size}px;'
-        f'font-weight:600;line-height:1.24;letter-spacing:-1.1px;color:#FFFFFF;">{open_q}{p["line"]}{close_q}</p>',
+        f'font-weight:600;line-height:1.24;letter-spacing:-1.1px;color:#FFFFFF;">{open_q}{line_text}{close_q}</p>',
         f'    <div style="margin:{34 if story else 28}px 0 0;display:flex;align-items:center;gap:18px;">',
         f'      <span style="display:block;width:54px;height:2px;background:{GOLD};"></span>',
         f'      <span style="display:block;font-size:{34 if story else 31}px;font-weight:600;color:{GOLD};line-height:1.2;letter-spacing:-.2px;">{p.get("attrib","")}</span>',
