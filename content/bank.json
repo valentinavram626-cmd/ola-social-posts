@@ -3285,90 +3285,86 @@
   },
   {
     "id": "ofgem-energy-price-cap",
-    "verified": "2026-11-21",
+    "verified": "2026-11-22",
     "recheck_after": "2026-11-25",
     "brands": [
-      "bham"
+      "bham",
+      "en",
+      "ola"
     ],
     "title": "Ofgem Energy Price Cap",
-    "official_page": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-and-standing-charges-explained",
+    "official_page": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
     "figures": [
       {
         "value": "£1,723 a year",
-        "what": "Price cap level IN FORCE TODAY for a typical dual-fuel household paying by Direct Debit, 1 October to 31 December 2026 (up 4%, £60 a year, from £1,663). Ofgem: 'From 1 October to 31 December 2026, the price cap will be £1,723 per year'",
+        "what": "Price cap level for a typical household paying by Direct Debit for the cap period 1 October to 31 December 2026 - the period currently in force; up 4% on the previous period",
         "source": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
-        "read": "2026-11-17"
+        "read": "2026-11-22"
       },
       {
         "value": "1 October 2026 to 31 December 2026",
         "what": "The cap period currently in force",
         "source": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
-        "read": "2026-11-17"
+        "read": "2026-11-22"
       },
       {
-        "value": "Not yet announced",
-        "what": "The cap for 1 January to 31 March 2027. Checked today: no Ofgem announcement exists, and the most recent price cap press release is still the one of 26 August 2026 covering October to December 2026",
+        "value": "26.32p per kWh",
+        "what": "Electricity unit rate cap, typical direct debit customer, average across England, Scotland and Wales, 1 October to 31 December 2026. Excludes VAT, which the government removed from electricity bills for 1 October 2026 to 31 March 2027",
         "source": "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
-        "read": "2026-11-17"
+        "read": "2026-11-22"
       },
       {
-        "value": "25 November 2026",
-        "what": "The date Ofgem says it will announce the cap for 1 January to 31 March 2027 - eight days from today. Any copy about the January cap must wait for this",
+        "value": "54.83p per day",
+        "what": "Electricity standing charge cap, typical direct debit customer, 1 October to 31 December 2026",
         "source": "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
-        "read": "2026-11-17"
+        "read": "2026-11-22"
       },
       {
-        "value": "26.32p per kWh and 54.83p a day",
-        "what": "Capped electricity unit rate and daily standing charge, Direct Debit, default tariff, average across England, Scotland and Wales. These figures carry NO VAT - Ofgem states 'There is no VAT on electricity from 1 October 2026 to 31 March 2027'",
+        "value": "7.97p per kWh",
+        "what": "Gas unit rate cap, typical direct debit customer, 1 October to 31 December 2026, including 5% VAT",
+        "source": "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "29.68p per day",
+        "what": "Gas standing charge cap, typical direct debit customer, 1 October to 31 December 2026",
+        "source": "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "NOT YET ANNOUNCED as at 22 November 2026",
+        "what": "The cap for 1 January to 31 March 2027. Ofgem states it will be announced on 25 November 2026, noting it may publish earlier if external reasons require it",
+        "source": "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "26 August 2026",
+        "what": "Date Ofgem announced the cap now in force (the 4% rise for 1 October to 31 December 2026)",
+        "source": "https://www.ofgem.gov.uk/energy-regulation/domestic-and-non-domestic/energy-pricing-rules/energy-price-cap",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "England, Scotland and Wales",
+        "what": "The nations the published cap figures cover; Ofgem gives them as an average for England, Scotland and Wales, and rates vary by region",
         "source": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
-        "read": "2026-11-17"
+        "read": "2026-11-22"
       },
       {
-        "value": "7.97p per kWh and 29.68p a day",
-        "what": "Capped gas unit rate and daily standing charge, Direct Debit, default tariff, average across England, Scotland and Wales, including 5% VAT on gas",
-        "source": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
-        "read": "2026-11-17"
-      },
-      {
-        "value": "around 22 million households",
-        "what": "Households on default (standard variable) tariffs protected by the cap",
-        "source": "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026",
-        "read": "2026-11-17"
-      },
-      {
-        "value": "around 11 million households",
-        "what": "Households on fixed tariffs, about 35% of the total, not affected by the October 2026 cap change",
-        "source": "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026",
-        "read": "2026-11-17"
-      },
-      {
-        "value": "£1,862 rising to £1,935",
-        "what": "What the same two cap levels would have been on the old (2023) typical domestic consumption values. Ofgem reduced the TDCV in July 2026 after finding households use about 7% less electricity and 17% less gas than at the last review, which is why £1,663 to £1,723 cannot be compared with headline figures published before July 2026",
-        "source": "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026",
-        "read": "2026-11-17"
-      },
-      {
-        "value": "Great Britain (England, Scotland and Wales)",
-        "what": "Ofgem's own positive scoping of who the price cap protects - the best single citation for the Northern Ireland exclusion",
-        "source": "https://www.ofgem.gov.uk/news/understand-your-energy-costs-if-you-are-not-protected-energy-price-cap",
-        "read": "2026-11-18"
-      },
-      {
-        "value": "30 June 2027",
-        "what": "Date to which the temporary 0% VAT rate on domestic electricity in Great Britain is to be extended - announced at Budget 2026, secondary legislation to be laid in early 2027, so announced but NOT yet legislated",
-        "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
-        "read": "2026-11-18"
+        "value": "Caps unit rates and standing charges, not the total bill",
+        "what": "Ofgem states the cap is a ceiling on the unit rate and standing charge combined and 'does not limit the cost of your total bill' - a household that uses more energy pays more",
+        "source": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-and-standing-charges-explained",
+        "read": "2026-11-22"
       }
     ],
     "scope": {
-      "nation": "Great Britain - England, Scotland and Wales. Northern Ireland is NOT covered by the Ofgem cap.",
-      "who": "Domestic customers on a standard variable (default) tariff, where the unit rate can rise or fall with the energy market. Covers Direct Debit, standard credit and prepayment meter customers; the level and the standing charge vary by where you live, how you pay, the fuel and the meter type.",
-      "excluded": "Households in Northern Ireland (Ofgem's cap levels and its postcode checker cover England, Scotland and Wales only, and Ofgem does not regulate the Northern Ireland retail market). Ofgem states you are NOT protected by the price cap if you have agreed a fixed tariff with your supplier, get your heat from a heat network, or use heating oil. Ofgem's fuller list also excludes anyone on a NON-DOMESTIC energy contract - 'for example businesses, charities or alternative home residents' - so it is not only businesses that fall outside the cap.",
-      "from_when": "1 October 2026 (the cap level in force runs to 31 December 2026). The next level, for 1 January to 31 March 2027, is due to be announced on 25 November 2026.",
+      "nation": "Great Britain only - England, Scotland and Wales. Ofgem publishes the cap figures as an average for England, Scotland and Wales, with rates varying by region.",
+      "who": "Domestic customers on a default or standard variable tariff. The figures quoted here are for a typical household paying by Direct Debit; prepayment and standard credit customers pay different capped rates.",
+      "excluded": "Northern Ireland is NOT covered - energy there is regulated by the Utility Regulator, not Ofgem, and the Ofgem price cap does not apply. Also excluded: customers on fixed-term fixed-rate tariffs, who are not covered by the cap, and business or non-domestic customers. The cap does NOT cap a household's total bill - only the unit rate and the daily standing charge - so a higher-usage household still pays more than the headline annual figure.",
+      "from_when": "Cap in force from 1 October 2026 to 31 December 2026. The next cap period runs 1 January to 31 March 2027, with its level due to be announced on 25 November 2026.",
       "automatic": true,
-      "how_to_claim": "Nothing to claim. The cap is a legal maximum Ofgem places on suppliers, applied automatically to the tariff of anyone on a default tariff."
+      "how_to_claim": "Nothing to claim or apply for. The cap applies automatically to default and standard variable tariffs; suppliers cannot charge above the capped unit rate and standing charge."
     },
-    "notes": "RE-CHECKED 18 November 2026. Every in-force figure confirmed unchanged. Ofgem has MOVED its cap explainer page: the old /information-consumers/energy-advice-households/ path now returns a 301 to /your-energy-supply/your-energy-bill/, and official_page has been updated accordingly. The cap for 1 January to 31 March 2027 has NOT been announced - Ofgem will announce it on 25 November 2026, seven days from today. Do not publish any January 2027 figure before then, and from 25 November this entry must be rewritten to carry both the in-force £1,723 (to 31 December 2026) and the newly announced January level with its own dates. The cap sets the maximum a supplier can charge per unit of energy and for the daily standing charge - Ofgem states it 'does not limit the cost of your total bill'. The headline £1,723 is an illustration for typical consumption, not a cap on what any household pays. Nation: Ofgem's own wording is that the cap protects people in 'Great Britain (England, Scotland and Wales)' - Northern Ireland is not covered and Ofgem does not regulate the Northern Ireland retail market. VAT, corrected 18 November 2026: the temporary zero rate of VAT on domestic electricity in Great Britain is being extended to 30 JUNE 2027 (not 'July 2027'), per Budget 2026 OOTLAR section 2.20, with 0% applying from 1 April 2027 to supplies that would otherwise be reduced-rate. That extension is ANNOUNCED BUT NOT YET LEGISLATED - the government will lay secondary legislation in early 2027. Note a live inconsistency between primary sources: Revenue and Customs Brief 10 (2026) predates the Budget and still says the zero rate runs only to 31 March 2027. So do NOT write that electricity VAT returns on 1 April 2027. In Northern Ireland domestic electricity remains liable to VAT at the reduced rate of 5%. TDCV trap, confirmed: £1,663 and £1,723 sit on the July 2026 revised typical consumption values; on the old 2023 values they would be £1,862 and £1,935, so any year-on-year comparison of the headline pound figure is wrong twice over, on VAT and on consumption basis. Ofgem's press release of 21 November 2025 gave £1,758 for January to March 2026 on the OLD basis, so £1,723 today is NOT a fall from £1,758. Levels reset every 3 months. RE-CHECKED 21 November 2026: £1,723 for 1 October to 31 December 2026 confirmed, together with the 26.32p/54.83p electricity and 7.97p/29.68p gas figures and the no-VAT-on-electricity point. No cap for 1 January to 31 March 2027 has been announced; nothing on ofgem.gov.uk supersedes the August 2026 announcement. The 25 November 2026 announcement date still stands, four days from today.",
+    "notes": "NOT CHANGED since 19-20 November 2026: the cap in force is still the 1 October to 31 December 2026 period at £1,723 a year for a typical direct debit household, announced 26 August 2026. THE JANUARY 2027 CAP IS NOT YET ANNOUNCED as at 22 November 2026 - Ofgem states it will be announced on 25 November 2026 (it reserves the right to publish earlier). Do not publish any January 2027 figure until that lands; re-pull on 25 November 2026 even though recheck_after is set to the start of the next cap period. Caution on a stale figure in circulation: an Ofgem press release headed 'Energy price cap will rise by 0.2% from January' at £1,758 a year is dated 21 November 2025 and covers January to March 2026 - it is a year old and must not be used as the current or the forthcoming cap. New nuance this period: the government removed VAT from electricity bills for 1 October 2026 to 31 March 2027, so the 26.32p electricity unit rate excludes VAT while the 7.97p gas rate includes 5% VAT - do not describe both as VAT-inclusive. Nation differences: the cap is Great Britain only. Northern Ireland is not covered, as energy there is regulated by the Utility Regulator - do not call this UK-wide. What this is NOT: not a cap on the total bill, and not a cap that applies to fixed-term tariffs.",
     "used": []
   },
   {
@@ -3577,86 +3573,98 @@
   },
   {
     "id": "hmrc-interest-rates",
-    "verified": "2026-11-21",
+    "verified": "2026-11-22",
     "recheck_after": "2026-11-24",
     "brands": [
+      "bham",
       "en",
-      "ola",
-      "bham"
+      "ola"
     ],
-    "title": "HMRC Late Payment And Repayment Interest",
+    "title": "HMRC Late Payment And Repayment Interest Rates",
     "official_page": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
     "figures": [
       {
         "value": "7.75%",
-        "what": "Late payment interest rate IN FORCE TODAY (18 November 2026) on Income Tax, NICs, Capital Gains Tax, Stamp Duty Land Tax, Stamp Duty, Stamp Duty Reserve Tax, VAT (periods starting on or after 1 January 2023), Alcohol Duty (from 1 September 2025) and Vaping Product Duty (from 1 October 2026) - applies from 9 January 2026 until 23 November 2026",
+        "what": "HMRC late payment interest rate IN FORCE TODAY (22 November 2026) for Income Tax, NIC, CGT, VAT, Corporation Tax Self Assessment - in force from 9 January 2026 until 23 November 2026",
         "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-        "read": "2026-11-18"
+        "read": "2026-11-22"
       },
       {
         "value": "2.75%",
-        "what": "Repayment interest rate IN FORCE TODAY (18 November 2026) on the same taxes - applies from 9 January 2026 until 23 November 2026",
+        "what": "HMRC repayment interest rate IN FORCE TODAY (22 November 2026) for the same taxes - in force from 9 January 2026 until 23 November 2026",
         "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-        "read": "2026-11-18"
+        "read": "2026-11-22"
       },
       {
         "value": "8.00%",
-        "what": "Late payment interest rate applying FROM 24 November 2026, so one week from today and not yet in force - follows the Bank Rate rise to 4% on 5 November 2026. Still shown on the page as the top row of the table",
+        "what": "HMRC late payment interest rate taking effect 24 November 2026 (already announced, not yet in force on the date of verification)",
         "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-        "read": "2026-11-18"
+        "read": "2026-11-22"
       },
       {
         "value": "3.00%",
-        "what": "Repayment interest rate applying FROM 24 November 2026, not yet in force today",
+        "what": "HMRC repayment interest rate taking effect 24 November 2026 (already announced, not yet in force on the date of verification)",
         "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-        "read": "2026-11-18"
-      },
-      {
-        "value": "Bank of England base rate plus 4 percentage points",
-        "what": "Formula for the late payment interest rate, from 6 April 2025 (it was base rate plus 2.5 percentage points before that date)",
-        "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-        "read": "2026-11-18"
-      },
-      {
-        "value": "Bank of England base rate minus 1 percentage point, with a 0.5% floor",
-        "what": "Formula for the repayment interest rate - it can never go below 0.5% however low the base rate goes",
-        "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-        "read": "2026-11-18"
-      },
-      {
-        "value": "4%",
-        "what": "Bank Rate set by the Monetary Policy Committee, raised from 3.75% at the decision published 5 November 2026 - this is what feeds the 8.00%/3.00% HMRC rates from 24 November 2026",
-        "source": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
-        "read": "2026-11-18"
-      },
-      {
-        "value": "17 December 2026",
-        "what": "Date of the NEXT MPC decision, shown on the Bank of England page today as 'Next due: 17 December 2026'. The most recent decision was 5 November 2026, when Bank Rate was raised to 4%; the Bank also said CPI inflation had risen to 3.5% and is expected to reach about 5% by mid-2027",
-        "source": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
-        "read": "2026-11-18"
+        "read": "2026-11-22"
       },
       {
         "value": "6.50%",
-        "what": "Corporation Tax interest charged on UNDERPAID quarterly instalment payments - applies from 16 November 2026, so in force today (it was 6.25% from 29 December 2025)",
+        "what": "Interest charged on underpaid Corporation Tax quarterly instalment payments, in force from 16 November 2026 (this part of the change has already taken effect)",
         "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-        "read": "2026-11-18"
+        "read": "2026-11-22"
       },
       {
         "value": "3.75%",
-        "what": "Corporation Tax interest paid on OVERPAID quarterly instalment payments and on early payments of Corporation Tax not due by instalments - applies from 16 November 2026, in force today (it was 3.50% from 29 December 2025)",
+        "what": "Interest paid on overpaid Corporation Tax quarterly instalments and early CT payments, in force from 16 November 2026",
         "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
-        "read": "2026-11-18"
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Bank of England base rate plus 4%",
+        "what": "HMRC's stated formula for late payment interest; the margin was increased from plus 2.5% to plus 4% from 6 April 2025, so plus 4% is the current margin",
+        "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Bank of England base rate minus 1%, with a lower limit of 0.5%",
+        "what": "HMRC's stated formula for repayment interest, including the 0.5% floor; repayment interest stays at the 0.5% floor until base rate rises above 1.5%",
+        "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "4.00%",
+        "what": "Bank of England Bank Rate, the base rate the HMRC rates are set from; raised from 3.75% to 4.00% by an 8-1 MPC vote",
+        "source": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "5 November 2026",
+        "what": "Date of the most recent Bank Rate decision announcement (MPC meeting ended 4 November 2026)",
+        "source": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "17 December 2026",
+        "what": "Date of the next scheduled MPC Bank Rate announcement",
+        "source": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "6 November 2026",
+        "what": "Publication date of HMRC's news story announcing the rate rise and the two effective dates (16 November 2026 for quarterly instalment payments, 24 November 2026 for non-quarterly instalment payments)",
+        "source": "https://www.gov.uk/government/news/hmrc-interest-rates-update--2",
+        "read": "2026-11-22"
       }
     ],
     "scope": {
-      "nation": "Whole of the UK - England, Scotland, Wales and Northern Ireland. The rates are set by HMRC and are the same everywhere; Scottish and Welsh income tax are collected by HMRC and carry the same interest rates.",
-      "who": "Anyone who pays HMRC late (individuals, sole traders, partnerships, trustees, companies) is charged late payment interest; anyone HMRC owes money to is paid repayment interest. Covers Income Tax, National Insurance contributions, Capital Gains Tax, Stamp Duty Land Tax, Stamp Duty, Stamp Duty Reserve Tax, VAT for accounting periods starting on or after 1 January 2023, Alcohol Duty from 1 September 2025 and Vaping Product Duty from 1 October 2026.",
-      "excluded": "The 7.75%/2.75% (and from 24 November 2026 the 8.00%/3.00%) main rates do NOT apply to Corporation Tax quarterly instalment payments: large companies in the instalment regime have their own lower rates, 6.50% on underpaid and 3.75% on overpaid instalments from 16 November 2026. VAT periods that started before 1 January 2023 are outside the harmonised rates, as is Alcohol Duty before 1 September 2025 and Vaping Product Duty before 1 October 2026. Repayment interest is not paid below the 0.5% floor, so a base rate below 1.5% would not cut it further. Corporation Tax pay and file, Inheritance Tax, Petroleum Revenue Tax and judgment debts each sit in their own separate tables on the same page. Re-read 18 November 2026: those tables carry the SAME current rates as the main rates (8.00%/3.00% from 24 November 2026; judgment debts 8.00%) - it is only their HISTORIC rates that diverge, from 2009 onwards. So the headline rate is safe for those taxes today, but the headline rate must not be quoted for a HISTORIC period on them. The same point applies to the Departmental interest rates table (default and statutory interest, covering Air Passenger Duty, Insurance Premium Tax, environmental taxes and pre-harmonisation VAT, Alcohol Duty and Vaping Product Duty): its current figures are also 8.00% default and 3.00% statutory, not different ones. Three further tables carry a late payment rate only and no repayment rate: Corporation Tax pre-pay and file / SDRT to 30 September 1999 / Petroleum Revenue Tax reg 3AA; Corporation Tax Self Assessment from the normal due date; and IT-CP and other duties attracting section 87 interest for accounting periods ending on or after 1 July 1999.",
-      "from_when": "7.75% late payment / 2.75% repayment have applied since 9 January 2026 and remain in force to 23 November 2026. 8.00%/3.00% apply from 24 November 2026. The Corporation Tax quarterly instalment rates of 6.50% (underpaid) and 3.75% (overpaid) apply from 16 November 2026, so they changed on 16 November 2026. Bank Rate has been 4% since the MPC decision published 5 November 2026.",
+      "nation": "UK-wide. HMRC interest rates apply across the whole United Kingdom, including Northern Ireland, because they are set by HMRC under UK-wide tax legislation.",
+      "who": "Anyone who pays or is repaid the main HMRC taxes and duties: Income Tax, National Insurance contributions, Capital Gains Tax, VAT, Stamp taxes, Corporation Tax Self Assessment. Relevant to Self Assessment taxpayers facing the 31 January payment deadline.",
+      "excluded": "Not a penalty, and separate from HMRC's late filing and late payment penalties, which are charged on their own basis. The headline 8.00%/3.00% rates do NOT apply to Corporation Tax quarterly instalment payments, which run on separate lower rates (6.50% underpaid / 3.75% overpaid) and changed on a different date (16 November 2026). Also excluded: the beneficial loan official rate and the Inheritance Tax instalment rules, which are published separately.",
+      "from_when": "7.75% late payment / 2.75% repayment applied from 9 January 2026 and are still the rates in force on 22 November 2026. 8.00% / 3.00% apply from 24 November 2026. Quarterly instalment rates changed earlier, on 16 November 2026.",
       "automatic": true,
-      "how_to_claim": "Nothing to claim. HMRC charges late payment interest and pays repayment interest automatically, by statute, and the rate changes follow the Bank Rate automatically without any application."
+      "how_to_claim": "Nothing to claim. Interest is calculated and applied automatically by HMRC on the daily balance of tax paid late or overpaid. Repayment interest is added automatically to repayments."
     },
-    "notes": "RE-CHECKED 18 November 2026: every figure confirmed unchanged at primary source, including the 8.00%/3.00% row dated 24 November 2026 and the Corporation Tax instalment rates of 6.50%/3.75% from 16 November 2026. The gov.uk page is still last updated 6 November 2026. Bank Rate is 4% and the Bank of England page now shows the next MPC decision as due 17 December 2026. The one thing a reader would get wrong is the dates. Interest rate changes do not take effect on the day the MPC moves: Bank Rate went to 4% on 5 November 2026, but the main HMRC rates only change on 24 November 2026, while the Corporation Tax quarterly instalment rates changed earlier, on 16 November 2026. So for the week of 16 to 23 November 2026 the main rates are still 7.75%/2.75% while the instalment rates are already 6.50%/3.75% - a genuinely confusing week to publish into. Anything published before 24 November 2026 should say 7.75%/2.75% as the current main rates with 8.00%/3.00% flagged as coming; anything published on or after 24 November must be rewritten. Note also that 8.00% is not new ground: the main rate was already 8.00% from 27 August 2025 to 8 January 2026, so 'highest ever' or 'record' framing is wrong. Interest is not a penalty, runs from the due date, and is not reduced for a reasonable excuse. No nation differences. RE-CHECKED 21 November 2026 by two independent researchers at primary source: 7.75%/2.75% confirmed in force to 23 November 2026, 8.00%/3.00% confirmed from 24 November 2026, Corporation Tax instalment rates 6.50%/3.75% confirmed in force from 16 November 2026. The gov.uk page is still shown as last updated 6 November 2026. One researcher flagged that the page's own 'Current rates' line reads '8.00% / 3.00% from 24 November 2026' without distinguishing today from the future, which is exactly how a reader gets this wrong. THIS ENTRY MUST BE REWRITTEN ON 24 NOVEMBER 2026.",
+    "notes": "CHANGED SINCE 19-20 NOVEMBER 2026 - and changing again in two days. The Bank of England raised Bank Rate from 3.75% to 4.00% on 5 November 2026 (an INCREASE, 8-1 vote), so HMRC's rates are going UP, not down. HMRC announced this on 6 November 2026 with two effective dates: 16 November 2026 for Corporation Tax quarterly instalment payments (already in force), and 24 November 2026 for everything else. CRITICAL FOR PUBLISHING: on 22 November 2026 the rates actually in force for Self Assessment and the main taxes are still 7.75% late payment and 2.75% repayment. The 8.00% / 3.00% figures take effect on 24 November 2026. Any copy published on or after 24 November must say 8.00% and 3.00%; copy published 22-23 November saying 8.00% would be wrong. Safest framing is to date the figure explicitly. The late payment margin is base rate plus 4%, raised from plus 2.5% on 6 April 2025 - do not use the old plus 2.5% margin. Repayment is base rate minus 1% with a 0.5% floor. What this is NOT: not a penalty, not a fine, and not the same as the quarterly instalment payment rates. Next scheduled change point is the MPC announcement on 17 December 2026.",
     "used": []
   },
   {
