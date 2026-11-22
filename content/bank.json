@@ -11262,5 +11262,1893 @@
     },
     "notes": "Verified at primary source 20 November 2026 from the HMRC guidance page, last updated 19 November 2026. Two traps for copy. First, the percentages differ by tax year - 3%+3% for 2026-27 and 4%+4% for 2027-28 - so a post that gives a bare percentage without the year will be wrong for half its readers. Second, the first-year easement is narrower than it sounds: it covers late quarterly updates and gives 30 days instead of 15 before late payment penalties start, but it does NOT cover the tax return deadline, and it is given once only, so someone who volunteered early does not get it again when mandated. The day-31 charge is an additional 10% a year charged daily for up to 2 years, and is separate from late payment interest, which runs from day one - do not merge the two into a single figure. Nation: the page states no territorial scope at all. The UK-wide statement in this entry follows from MTD for Income Tax being part of HMRC-administered Income Tax Self Assessment rather than from any words on the page, so write it as a fact about the tax, not as a quotation. Scottish and Welsh taxpayers pay income tax at their own rates but are administered by HMRC and are inside this regime.",
     "used": []
+  },
+  {
+    "id": "advisory-fuel-rates-company-cars",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-02-20",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Advisory Fuel Rates From 1 December 2026",
+    "official_page": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "figures": [
+      {
+        "value": "16 pence per mile",
+        "what": "Petrol, engine 1400cc or less - advisory fuel rate from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "19 pence per mile",
+        "what": "Petrol, engine 1401cc to 2000cc - advisory fuel rate from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "29 pence per mile",
+        "what": "Petrol, engine over 2000cc - advisory fuel rate from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "16 pence per mile",
+        "what": "Diesel, engine 1600cc or less - advisory fuel rate from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "18 pence per mile",
+        "what": "Diesel, engine 1601cc to 2000cc - advisory fuel rate from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "25 pence per mile",
+        "what": "Diesel, engine over 2000cc - advisory fuel rate from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "11 pence per mile",
+        "what": "LPG, engine 1400cc or less - advisory fuel rate from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "13 pence per mile",
+        "what": "LPG, engine 1401cc to 2000cc - advisory fuel rate from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "20 pence per mile",
+        "what": "LPG, engine over 2000cc - advisory fuel rate from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "7 pence per mile",
+        "what": "Advisory electric rate for fully electric company cars, home charging, from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "15 pence per mile",
+        "what": "Advisory electric rate for fully electric company cars, public charging, from 1 December 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "14 / 17 / 27 pence per mile",
+        "what": "Previous set, petrol 1400cc or less / 1401-2000cc / over 2000cc, 1 September 2026 to 30 November 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "15 / 16 / 22 pence per mile",
+        "what": "Previous set, diesel 1600cc or less / 1601-2000cc / over 2000cc, 1 September 2026 to 30 November 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "11 / 13 / 20 pence per mile",
+        "what": "Previous set, LPG 1400cc or less / 1401-2000cc / over 2000cc, 1 September 2026 to 30 November 2026",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 month",
+        "what": "Period for which the previous rates may still be used from the date new rates apply",
+        "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Employers across the UK, for employees using a company car. Used either to reimburse employees for business travel in their company cars, or to require employees to repay the cost of fuel used for private travel. Hybrid cars are treated as either petrol or diesel cars.",
+      "excluded": "Anyone not using a company car - these rates must not be used for employees driving their own or a private car (that is Mileage Allowance Payments / AMAP, a separate and much higher rate). Self-employed people do not use them. HMRC states plainly: 'You must not use these rates in any other circumstances.' There is no vans table on this page and no rate for a company car outside the listed engine-size bands other than by using your own evidenced cost per mile.",
+      "from_when": "The current set applies from 1 December 2026; it was published on 18 November 2026. The preceding set applied 1 September 2026 to 30 November 2026 and may still be used for up to 1 month from 1 December 2026.",
+      "automatic": false,
+      "how_to_claim": "Nothing to claim or apply for. The employer chooses to use the rates in payroll. Pay at or below the advisory rate for the car's fuel type and engine size and there is no taxable profit and no Class 1A National Insurance. Pay above it without being able to show a higher actual fuel cost per mile and the excess is taxable profit and earnings for Class 1 National Insurance. A higher rate than the advisory rate can be used where you can show the fuel cost per mile is genuinely higher."
+    },
+    "notes": "Reviewed and revised quarterly by HMRC, effective 1 March, 1 June, 1 September and 1 December. No nation differences - these are HMRC rates applying identically in England, Scotland, Wales and Northern Ireland. The commonest confusion is with AMAP (Mileage Allowance Payments) for employees using their OWN car - a different scheme at a different, far higher rate; these advisory fuel rates are for COMPANY cars only. The second confusion is the electric rate: since 1 September 2025 there are two advisory electric rates (home and public charger), not one, and mileage can be apportioned between home and public charging on a fair and reasonable basis. The over-2000cc petrol rate jumped sharply from 27p to 29p and diesel over 2000cc from 22p to 25p in this December 2026 revision, so anyone still running September figures is now under-reimbursing.",
+    "used": []
+  },
+  {
+    "id": "paye-settlement-agreement-psa-deadlines",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-06",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "PAYE Settlement Agreement Deadlines",
+    "official_page": "https://www.gov.uk/paye-settlement-agreements",
+    "figures": [
+      {
+        "value": "5 July",
+        "what": "Deadline to apply for and agree a PSA - 5 July following the first tax year it applies to (HMRC's manual: a PSA can be entered into at any time before 6 July following the end of the tax year to which it first applies)",
+        "source": "https://www.gov.uk/paye-settlement-agreements/deadlines-and-payment",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "5 July",
+        "what": "Agreement deadline as stated in HMRC's PAYE Settlement Agreements manual - 'before 6 July following the end of the tax year to which it first applies'",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/paye-settlement-agreements/psa1150",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "22 October",
+        "what": "Deadline to pay the tax and Class 1B National Insurance owed under a PSA, where paid by an approved electronic payment method, following the tax year the PSA applies to",
+        "source": "https://www.gov.uk/paye-settlement-agreements/deadlines-and-payment",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "19 October",
+        "what": "Deadline to pay the tax and Class 1B National Insurance owed under a PSA where you pay by post (non-electronic)",
+        "source": "https://www.gov.uk/paye-settlement-agreements/deadlines-and-payment",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "19 October (or 22 October by approved electronic payment)",
+        "what": "Final due date for payment of Class 1B NICs, confirmed at paragraph 13(1) of Schedule 4 to the Social Security Contributions Regulations 2001 (SI 2001 No 1004)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim18100",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£8,000",
+        "what": "Relocation expenses are tax-free below this amount; the excess over it is an example of an irregular benefit that can go in a PSA",
+        "source": "https://www.gov.uk/paye-settlement-agreements/whats-included",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "UK employers operating a PAYE scheme who want to make one annual payment covering all the tax and National Insurance due on minor, irregular or impracticable expenses or benefits for employees. With a PSA in place the employer does not put those items through payroll, does not include them on P11D forms, and pays Class 1B National Insurance instead of Class 1A.",
+      "excluded": "You cannot include wages, high-value benefits such as company cars, or cash payments such as employee bonuses, round sum allowances or beneficial loans. Trivial benefits do not need to be included (they are already exempt). Items that are neither minor, irregular nor impracticable do not qualify. If you apply after the start of the tax year there are extra restrictions on what you can include. Employers with no PAYE scheme have nothing to settle, and the agreement does not cover anyone who is not an employee.",
+      "from_when": "A PSA must be agreed by 5 July following the end of the first tax year it applies to. Tax and Class 1B NIC are then due by 22 October (electronic) or 19 October (post) following that tax year. So for the 2026 to 2027 tax year: agree by 5 July 2027, pay by 22 October 2027 (19 October 2027 by post).",
+      "automatic": false,
+      "how_to_claim": "You must apply to HMRC and reach a written agreement - a PSA is never automatic. Once it is in place you must tell HMRC the value of the benefits or expenses included in it every tax year, then pay the tax and Class 1B NIC by the October deadline. Payments of tax and NIC can be made at any time after the agreement is signed. Late or missing payment may attract a penalty or interest."
+    },
+    "notes": "No nation differences - a PSA is an HMRC agreement operating identically in England, Scotland, Wales and Northern Ireland. The gov.uk guide is also available in Welsh. Two confusions worth heading off. First, the two October dates are not alternatives you pick: 22 October applies only if you pay by an approved electronic method, and 19 October is the hard date for anything sent by post, so a cheque posted on 20 October is late. Second, Class 1B National Insurance is specific to PSAs and replaces the Class 1A you would otherwise pay on those benefits - it is not an extra charge on top. Note also that the application deadline (5 July) and the payment deadline (October) are more than three months apart and are frequently conflated; missing 5 July means no PSA for that year at all.",
+    "used": []
+  },
+  {
+    "id": "employer-ni-relief-veterans-and-investment-zones",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-06",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Employer NI Relief For Veterans And Investment Zones",
+    "official_page": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+    "figures": [
+      {
+        "value": "£967 per week, £4,189 per month, £50,270 per year",
+        "what": "Veterans upper secondary threshold (VUST) for 2026 to 2027 - employer NI is zero-rated on a qualifying veteran's earnings up to this level",
+        "source": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£481 per week, £2,083 per month, £25,000 per year",
+        "what": "Freeport upper secondary threshold (FUST) for 2026 to 2027",
+        "source": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£481 per week, £2,083 per month, £25,000 per year",
+        "what": "Investment Zone upper secondary threshold (IZUST) for 2026 to 2027",
+        "source": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£96 per week, £417 per month, £5,000 per year",
+        "what": "Secondary threshold for 2026 to 2027 - relief applies to earnings above this and up to the relevant upper secondary threshold",
+        "source": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "12 consecutive months",
+        "what": "Length of the veterans relief, running from the veteran's first day of civilian employment since leaving the regular armed forces",
+        "source": "https://www.gov.uk/government/publications/national-insurance-contributions-relief-for-employers-who-hire-veterans/national-insurance-contributions-relief-for-employers-who-hire-veterans",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "at least one day",
+        "what": "Service in the regular armed forces needed to qualify as a veteran, including completing at least one day of basic training",
+        "source": "https://www.gov.uk/government/publications/national-insurance-contributions-relief-for-employers-who-hire-veterans/national-insurance-contributions-relief-for-employers-who-hire-veterans",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "36 months per employee",
+        "what": "Length of the Freeport and Investment Zone special tax site employer NI relief for each qualifying new employee",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/paye-manual/paye70285",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "60% or more",
+        "what": "Share of working time a new employee must spend within the special tax site for the Freeport / Investment Zone relief to apply",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/paye-manual/paye70285",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "30 September 2031",
+        "what": "Date to which the special tax site relief is available for new hires in English Freeport tax sites (for the full 36-month period)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/paye-manual/paye70285",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "30 September 2034",
+        "what": "Date to which the relief is available for new hires in Scottish Green Freeport, Welsh Freeport and Investment Zone special tax sites (for the full 36-month period)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/paye-manual/paye70285",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "6 April 2022",
+        "what": "Date from which the Freeport and Investment Zone special tax site relief has been available for new hires",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/paye-manual/paye70285",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Two separate zero rates of secondary (employer) Class 1 National Insurance. VETERANS: any employer of a qualifying veteran - someone who has served at least one day in the regular armed forces, including at least one day of basic training - regardless of when the veteran left, provided the veteran has not previously been employed in a civilian capacity. Relief runs for 12 consecutive months from the first day of the veteran's first civilian employment, on earnings above the secondary threshold up to the VUST (£50,270 a year for 2026 to 2027). The 12-month clock does not reset or pause if that employment ends, so a later employer within the window can claim the remainder. SPECIAL TAX SITES: employers with a business premises inside a Freeport or Investment Zone special tax site, on the earnings of NEW employees who spend 60% or more of their working time within the site, above the secondary threshold and up to £25,000 a year, for 36 months per employee.",
+      "excluded": "VETERANS: self-employed businesses do not qualify at all, because the self-employed pay no secondary Class 1 National Insurance - and self-employed work does not trigger the qualifying period either. Employment with a reserve organisation is not treated as civilian employment, so it neither qualifies nor starts the clock. A veteran who has already completed 12 months of civilian employment since leaving the regular armed forces is outside the window and no employer can claim. Earnings above the VUST attract employer NI at the normal rate. SPECIAL TAX SITES: existing employees are excluded - the relief is for new hires only; employees who spend less than 60% of their working time in the site are excluded; employers with no business premises within a designated special tax site are excluded; earnings above £25,000 a year attract employer NI at the normal rate; and new hires taken on after 30 September 2031 (English Freeports) or 30 September 2034 (Scottish Green Freeport, Welsh Freeport, Investment Zones) are outside the scheme.",
+      "from_when": "Veterans relief has been available since April 2021 and has been applied in real time through PAYE from April 2022 onwards. Special tax site relief has been available for new hires from 6 April 2022. The threshold figures quoted here are the 2026 to 2027 figures, applying from 6 April 2026 to 5 April 2027.",
+      "automatic": false,
+      "how_to_claim": "Both are claimed by the employer through payroll, not applied for in advance. Veterans: apply the zero rate in real time through PAYE using the veteran's details; the employer must take reasonable care to confirm the person is a qualifying veteran and to establish the start date of their first civilian employment, and must keep records proving both. Acceptable evidence includes a veteran's identification card, a letter of employment or contract with HM Armed Forces, the veteran's P45 from leaving the forces, discharge papers, or the employment contract of a previous civilian employment. Special tax sites: employers self-assess eligibility, and from April 2025 must supply the workplace postcode for every qualifying employee on the RTI Full Payment Submission."
+    },
+    "notes": "These are two distinct reliefs that are often muddled, and they have different thresholds: the veterans ceiling is £50,270 a year, the Freeport and Investment Zone ceiling is only £25,000 a year. Both are reliefs on EMPLOYER secondary Class 1 NI only - the employee still pays their own primary National Insurance in full, and neither relief touches income tax. Nation coverage: the veterans relief is UK-wide with no nation variation. The special tax site relief covers sites across the UK, but the end date differs by nation - 30 September 2031 for English Freeport tax sites against 30 September 2034 for Scottish Green Freeport, Welsh Freeport and Investment Zone special tax sites, so a Scottish or Welsh site has three more years of new-hire eligibility than an English Freeport. Eligibility for the special tax site relief turns on geography down to the postcode: being in a Freeport town or an Investment Zone region is not enough, the business premises must be inside a designated special tax site, which is why HMRC now mandates the workplace postcode on the FPS. For the West Midlands in particular, note that an Investment Zone designation for the region does not by itself mean an employer's premises sit in a designated special tax site - that must be checked site by site.",
+    "used": []
+  },
+  {
+    "id": "apprenticeship-levy-threshold-and-allowance",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-06",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Apprenticeship Levy Rate Threshold And Allowance",
+    "official_page": "https://www.gov.uk/guidance/pay-apprenticeship-levy",
+    "figures": [
+      {
+        "value": "0.5%",
+        "what": "Apprenticeship Levy rate, charged on an employer's annual pay bill",
+        "source": "https://www.gov.uk/guidance/pay-apprenticeship-levy",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "0.5%",
+        "what": "Apprenticeship Levy charge confirmed for the 2026 to 2027 tax year",
+        "source": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£3 million",
+        "what": "Annual pay bill threshold - you pay the levy each month if your annual pay bill is more than this, or if you are connected to other companies or charities and the combined annual pay bill is more than this",
+        "source": "https://www.gov.uk/guidance/pay-apprenticeship-levy",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£15,000",
+        "what": "Annual Apprenticeship Levy allowance, which reduces the levy payable across the year",
+        "source": "https://www.gov.uk/guidance/pay-apprenticeship-levy",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£15,000",
+        "what": "Apprenticeship Levy allowance confirmed for the 2026 to 2027 tax year",
+        "source": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Employers anywhere in the UK whose annual pay bill is more than £3 million, or who are connected to other companies or charities for Employment Allowance purposes and whose combined annual pay bill is more than £3 million. The connected-company rules are the same as for the Employment Allowance. All sectors must pay if they are over the threshold. The annual pay bill is all payments to employees that are subject to employer Class 1 secondary National Insurance - wages, bonuses and commissions - and must include employees earning below the secondary threshold and the lower earnings limit, employees under 21, and apprentices under 25.",
+      "excluded": "Employers with an annual pay bill of £3 million or less, who are not connected to any other employer, do not pay the levy at all. Connected employers whose COMBINED pay bill is below £3 million also do not pay. Certain earnings are excluded from the pay bill calculation: earnings of employees under the age of 16, earnings of employees not subject to UK National Insurance contributions legislation, and earnings on which Class 1A National Insurance is payable such as benefits in kind. Unused allowance cannot be carried over into the next tax year, and connected companies or charities get only one £15,000 allowance to share between them - not one each.",
+      "from_when": "The Apprenticeship Levy has been in force since 6 April 2017. The 0.5% rate, £3 million threshold and £15,000 allowance all remain in force for the 2026 to 2027 tax year, which runs from 6 April 2026 to 5 April 2027. HMRC's guidance page was last updated on 6 April 2026.",
+      "automatic": false,
+      "how_to_claim": "The levy is not assessed for you - you must report and pay it monthly through your Employer Payment Summary as part of payroll. The £15,000 allowance is claimed by the employer: you must report how you have divided it the first time you have to pay the levy in a tax year, and you cannot change your share during that tax year. The allowance can be divided between all your PAYE schemes and between connected companies or charities as you choose. If you start or stop being an employer part way through the tax year you can still use the full annual allowance against the levy you owe. If you run a modified PAYE scheme, use a best estimate of earnings subject to Class 1 secondary NI, submit a monthly Employment Payment Summary on those estimates, then check against actual figures at year end and submit a further return to correct any difference."
+    },
+    "notes": "It has NOT been renamed or replaced. As at 22 November 2026 the Apprenticeship Levy is still the levy in force, still charged by HMRC at 0.5% with a £3 million pay bill threshold and a £15,000 annual allowance. The Growth and Skills Levy is a reform of what levy funds may be SPENT on, not a replacement of the charge: the Department for Education factsheet published 2 September 2026 is marked 'Applies to England' and introduces new fundable products - foundation apprenticeships at Level 2 for 16 to 21 year olds (or under 25 with an EHC plan, care leavers, or prisoners and prison leavers), a new Level 2 Administrative Assistant apprenticeship for 16 to 24 year olds, and short apprenticeship units of 30 to 140 delivery hours in areas such as AI leadership, battery manufacturing, welding and solar PV. Employers should expect to keep paying the Apprenticeship Levy exactly as before while the spending side changes in England. Nation differences matter here. The levy itself is a UK-wide HMRC charge with no nation variation, but apprenticeships are devolved, so access to the money differs: a levy-paying employer with employees in England uses an Apprenticeship Service account, and the funds in it are determined by the proportion of the employer's pay bill paid to employees living in England, recalculated quarterly in July, October, January and April. An employer with operations wholly or partly in Scotland, Wales or Northern Ireland must engage the relevant devolved funding authority for apprenticeships located there - those nations run their own apprenticeship programmes and decide how funding is spent, and there is no Apprenticeship Service account for them. This means a Birmingham employer with staff living in Wales pays levy on the whole pay bill but can only draw the English-resident share through the Apprenticeship Service. A further common error: the levy is charged on the pay bill, not on apprentice wages, and you still pay it even if you already contribute to an industry-wide training levy such as the Construction Industry Training Board Levy.",
+    "used": []
+  },
+  {
+    "id": "right-to-request-flexible-working",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-01-31",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Right To Request Flexible Working",
+    "official_page": "https://www.gov.uk/flexible-working/applying-for-flexible-working",
+    "figures": [
+      {
+        "value": "2 applications in any 12-month period",
+        "what": "Maximum flexible working applications an employee may make to the same employer, and no new application while another is proceeding - Employment Rights Act 1996 s.80F(4), (4A), (4B), substituted 6 April 2024",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/section/80F/data.html",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "2 months",
+        "what": "The 'decision period' - the employer must notify its decision within 2 months of the application being made, unless a longer period is agreed (ERA 1996 s.80G(1)(aa), (1B))",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/section/80G",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "day one",
+        "what": "No qualifying period of continuous service in Great Britain - employees can apply from their first day in the job (the 26-week condition was removed from 6 April 2024; s.80F(8)(a) leaves the duration condition to regulations)",
+        "source": "https://www.gov.uk/flexible-working/applying-for-flexible-working",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "8 statutory grounds",
+        "what": "Permitted grounds for refusal, now listed at ERA 1996 s.80G(1ZA): burden of additional costs; detrimental effect on ability to meet customer demand; inability to re-organise work among existing staff; inability to recruit additional staff; detrimental impact on quality; detrimental impact on performance; insufficiency of work during the periods the employee proposes to work; planned structural changes (plus any further ground set by regulations)",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/section/80G",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "26 weeks and 1 request a year",
+        "what": "The different Northern Ireland position: 26 weeks' continuous employment required, and no other application in the past 12 months",
+        "source": "https://www.nidirect.gov.uk/articles/flexible-working-and-work-life-balance",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "Great Britain",
+      "who": "Employees in England, Wales and Scotland (ERA 1996 Part 8A is extent E+W+S). Available from the first day of employment - no qualifying service. The request can be for a change to hours, the times of work, or the place of work (s.80F(1)).",
+      "excluded": "Agency workers are expressly excluded from being a qualifying employee (ERA 1996 s.80F(8)(b)), except certain agency workers returning from parental leave. The self-employed, contractors, freelancers and office holders are not employees and have no right to apply. An employee who has already made 2 applications to the same employer in the preceding 12 months, or who has an application still proceeding, cannot make another (s.80F(4)). Employees in Northern Ireland are outside this GB right and instead need 26 weeks' continuous service with only one request per 12 months.",
+      "from_when": "Right in force since 6 April 2003; the current form (day-one right, 2 requests a year, 2-month decision period, duty to consult before refusing) applies to applications made on or after 6 April 2024",
+      "automatic": false,
+      "how_to_claim": "The employee makes a written application to the employer stating that it is an application under the statutory right, specifying the change applied for and the proposed effective date (ERA 1996 s.80F(2)). The employer must deal with it in a reasonable manner, must not refuse without having consulted the employee, and must notify the decision within the 2-month decision period. If the employer breaches these duties the employee may complain to an employment tribunal under s.80H."
+    },
+    "notes": "Great Britain only - Northern Ireland has its own regime under the Employment Rights (Northern Ireland) Order 1996 and the Flexible Working Regulations (Northern Ireland) 2015, where 26 weeks' continuous service is still required, only one request may be made in any 12 months, and the process runs to a meeting within 28 days and a written decision within 14 days of that meeting. CURRENCY WARNING: Employment Rights Act 2025 s.9 adds a requirement that refusal must also be reasonable, and that a refusal notice must state the ground and explain why refusal is reasonable. legislation.gov.uk shows this substituted s.80G(1)(b) as the current text (page revised to 20 November 2026), but s.9 is recorded as commenced only 'for specified purposes' from 6 January 2026 under S.I. 2026/3 reg. 2(6), and the GOV.UK guidance page still does not mention a reasonableness test. Treat the reasonableness duty as live but confirm the commencement scope before advising on it; the 8 grounds, the day-one right, the 2-request limit, the 2-month decision period and the duty to consult are unaffected either way. This is a right to REQUEST, not a right to work flexibly - the employer can still refuse on a permitted ground. It is not the same as the separate right to request a predictable working pattern.",
+    "used": []
+  },
+  {
+    "id": "itemised-pay-statement-right",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-30",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Right To An Itemised Payslip",
+    "official_page": "https://www.acas.org.uk/payslips",
+    "figures": [
+      {
+        "value": "at or before payday",
+        "what": "When the written itemised pay statement must be given - 'at or before the time at which any payment of wages or salary is made' (ERA 1996 s.8(1))",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/section/8",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "5 required particulars",
+        "what": "What the payslip must show under ERA 1996 s.8(2): (a) gross wages or salary; (b) the amounts and purposes of variable deductions and of fixed deductions; (c) the net amount payable; (d) where paid in different ways, the amount and method of each part-payment; (e) where pay varies by reference to time worked, the total number of hours worked for that variable pay - either as a single aggregate figure or broken down by type of work or rate of pay",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/section/8",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "6 April 2019",
+        "what": "Date the payslip right was extended from employees to all workers, and the date the hours requirement at s.8(2)(e) was inserted",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/section/8",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "12 months",
+        "what": "How long a standing statement of fixed deductions remains valid before the employer must reissue it (ERA 1996 s.9); while a valid standing statement is in force the payslip need only show the aggregate of fixed deductions",
+        "source": "https://www.acas.org.uk/payslips",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "Great Britain",
+      "who": "All employees and workers in England, Wales and Scotland (ERA 1996 s.8 is extent E+W+S), from the first payday. 'Worker' includes zero-hours workers and agency workers - an agency worker gets the payslip from the agency that pays them.",
+      "excluded": "The self-employed, who account for their own tax and deductions. Also excluded by law: members of the armed forces; police officers; merchant seamen and women; and people paid by a share of the profits or gross earnings of a fishing vessel (share fishermen). Employees in Northern Ireland are outside s.8 and instead rely on Article 40 of the Employment Rights (Northern Ireland) Order 1996, which gives the right to EMPLOYEES only - NI workers are not covered, and the NI provision contains no requirement to show hours worked where pay varies by time worked.",
+      "from_when": "Right in force since the Employment Rights Act 1996; extended to workers and the hours requirement added with effect from 6 April 2019",
+      "automatic": true,
+      "how_to_claim": "Automatic - the employer must provide it without being asked. If it is missing or wrong, raise it with the manager, payroll or employer first, then a formal grievance. If still unresolved, the worker may refer the matter to an employment tribunal under ERA 1996 s.11; under s.12 the tribunal may make a declaration of what the statement should have contained and, where deductions were not notified, order the employer to repay them."
+    },
+    "notes": "Great Britain only - in Northern Ireland the equivalent right (Article 40, Employment Rights (Northern Ireland) Order 1996) is narrower: employees only, and no obligation to show hours worked where pay varies by time worked. Do not state the GB position as UK-wide. The hours requirement at s.8(2)(e) bites only on the part of pay that varies by reference to time worked - a salaried employee on fixed hours who also works variable paid overtime must have the variable hours shown, but the fixed hours need not be listed; where different rates apply to different work, hours should be broken down by rate. This is NOT a right to a particular format - an electronic payslip is fine. It is NOT the same as the separate right to a written statement of employment particulars under s.1. Acas does not state the tribunal time limit on its payslips page; the time limit for a s.11 reference was not confirmed at primary source here and should be checked before use, particularly as the Employment Rights Act 2025 has been extending employment tribunal time limits during 2026.",
+    "used": []
+  },
+  {
+    "id": "allocation-of-tips-employer-duties",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-03-31",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Tips And Service Charges: Employer Duties",
+    "official_page": "https://www.gov.uk/government/publications/distributing-tips-fairly-statutory-code-of-practice/code-of-practice-on-fair-and-transparent-distribution-of-tips-html-version",
+    "figures": [
+      {
+        "value": "end of the month following the month the tip was paid",
+        "what": "Deadline for allocating and paying qualifying tips to workers (ERA 1996 s.27G) - a tip left on 23 June must reach staff by 31 July",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/part/2B?view=plain",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "3 years",
+        "what": "How long the employer must keep the tipping record of how every qualifying tip was dealt with, running from the date the tip was paid (ERA 1996 s.27J(1)(b))",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/part/2B?view=plain",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "4 weeks",
+        "what": "The 'response period' - the employer must respond to a worker's written request for tipping records within four weeks of receiving it (ERA 1996 s.27J(4), (11))",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/part/2B?view=plain",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 request in any 3-month period",
+        "what": "How often a worker may request their tipping records (ERA 1996 s.27J(8)), covering consecutive whole months starting no more than three years before the request",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/part/2B?view=plain",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "12 months",
+        "what": "Time limit for a worker to present an employment tribunal complaint about a failure to allocate tips fairly or to pay them on time (ERA 1996 s.27K(3)), subject to extension and early conciliation",
+        "source": "https://www.legislation.gov.uk/ukpga/1996/18/part/2B?view=plain",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 October 2024",
+        "what": "Date the Employment (Allocation of Tips) Act 2023 duties and the statutory Code of Practice came into effect",
+        "source": "https://www.gov.uk/government/publications/distributing-tips-fairly-statutory-code-of-practice/code-of-practice-on-fair-and-transparent-distribution-of-tips-html-version",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "Great Britain",
+      "who": "All workers at a place of business in England, Wales or Scotland (ERA 1996 Part 2B is extent E+W+S), including eligible agency workers, who are treated as the principal's workers for this Part. Covers employer-received tips, gratuities and service charges, and worker-received tips that are subject to employer control or connected with such tips - card and digital tips that pass through the employer are in scope.",
+      "excluded": "The self-employed are not workers and are not covered. Cash tips given directly to a worker and kept by them, with no employer control, are outside the rules, as are digital tips paid directly to staff through an app outside the employer's control. The VAT element of a payment is excluded. Northern Ireland is not covered at all - Part 2B does not extend there, so NI employers are under no equivalent statutory duty to pass on tips, publish a policy or keep records.",
+      "from_when": "1 October 2024",
+      "automatic": true,
+      "how_to_claim": "The duties fall on the employer automatically - no claim is needed to be paid tips fairly. A worker may make a written request for their tipping records, to which the employer must respond within four weeks. A worker who is not paid fairly or on time may complain to an employment tribunal within 12 months (ERA 1996 s.27K); the tribunal must make a declaration if the complaint succeeds, may order the employer to revise an allocation or make payments (s.27L), and may award compensation for financial loss (s.27M)."
+    },
+    "notes": "Great Britain only - the Employment (Allocation of Tips) Act 2023 inserted Part 2B into the Employment Rights Act 1996 with extent England, Wales and Scotland. There is no equivalent Northern Ireland statute, so do not describe these duties as UK-wide. Three separate duties: (1) allocate the total tips at a place of business fairly among the workers there, having regard to the statutory Code of Practice (s.27D); (2) have a written tipping policy where qualifying tips are paid on more than an occasional and exceptional basis, made available to all workers at that place of business (s.27I); (3) keep a tipping record for three years and respond to worker requests (s.27J). The employer must pass on 100% of qualifying tips - no deductions except tax and NIC as required by law. Independent tronc arrangements are dealt with separately at s.27F. CURRENCY NOTE: a consultation on a revised tipping Code of Practice is live, so the Code (though not the three-year record period or the monthly payment deadline, which are in the Act) may be updated.",
+    "used": []
+  },
+  {
+    "id": "tupe-employee-rights-on-transfer",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-30",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "TUPE: Employee Rights On Transfer",
+    "official_page": "https://www.acas.org.uk/tupe/advice-for-employers-and-employees",
+    "figures": [
+      {
+        "value": "28 days",
+        "what": "Minimum period before the transfer by which the transferor must give the transferee the employee liability information (TUPE 2006 reg. 11(6), raised from 14 days on 31 January 2014)",
+        "source": "https://www.legislation.gov.uk/uksi/2006/246/regulation/11",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "13 weeks' pay",
+        "what": "Maximum 'appropriate compensation' per affected employee for a failure to inform and consult (TUPE 2006 reg. 16(3)); transferor and transferee are jointly and severally liable under reg. 15(9)",
+        "source": "https://www.legislation.gov.uk/uksi/2006/246",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "fewer than 50 employees, or fewer than 10 transferring",
+        "what": "The micro and small business exception at TUPE 2006 reg. 13A - where the employer has fewer than 50 employees, or fewer than 10 employees are transferring, and there are no appropriate representatives and none have been invited to be elected, the employer may inform and consult each affected employee directly instead of through representatives",
+        "source": "https://www.legislation.gov.uk/uksi/2006/246",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "sole or principal reason",
+        "what": "The test in TUPE 2006 reg. 7(1): a dismissal is automatically unfair for the purposes of Part 10 of the Employment Rights Act 1996 where the transfer is the sole or principal reason for it, unless the sole or principal reason is an economic, technical or organisational reason entailing changes in the workforce (reg. 7(2)-(3))",
+        "source": "https://www.legislation.gov.uk/uksi/2006/246/regulation/7/2021-12-24?view=plain",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "United Kingdom",
+      "who": "Employees assigned to an organised grouping of resources or employees that is the subject of a relevant transfer. TUPE 2006 reg. 1(3) provides that the Regulations extend to Northern Ireland except where otherwise provided, with Schedule 1 setting out how they apply there. A relevant transfer under reg. 3(1) is either (a) a business transfer - the transfer of an undertaking, business or part of one situated in the UK immediately before the transfer, where an economic entity transfers and retains its identity - or (b) a service provision change, where activities stop being done by a client in-house and pass to a contractor, pass from one contractor to another, or come back in-house, and the activities after the change are fundamentally the same.",
+      "excluded": "Genuinely self-employed contractors and consultants are not employees and do not transfer. A share sale is not a relevant transfer - buying the shares in a company leaves the employer unchanged, so TUPE is not engaged. A transfer of assets alone, with no transfer of an economic entity retaining its identity, is outside reg. 3. Employees not assigned to the transferring grouping do not transfer. An employee who objects to the transfer under reg. 4(7) does not transfer and is not treated as dismissed (reg. 4(8)). A service provision change is excluded where, immediately before the change, there was no organised grouping of employees in Great Britain whose principal purpose was carrying out those activities for the client, where the client intends the activities to be carried out only in connection with a single specific event or task of short-term duration, or where the activities consist wholly or mainly of supplying goods for the client's use. Occupational pension rights relating to old age, invalidity or survivors' benefits are excluded from the transfer by reg. 10, and criminal liabilities do not transfer (reg. 4(6)).",
+      "from_when": "6 April 2006 (as amended, notably by the Collective Redundancies and Transfer of Undertakings (Protection of Employment) (Amendment) Regulations 2014 from 31 January 2014)",
+      "automatic": true,
+      "how_to_claim": "Transfer of employment and of accrued rights is automatic by operation of law - no claim or election is needed and the contract takes effect as if originally made with the transferee (reg. 4(1), (2)). To enforce a breach, the employee brings a tribunal claim: unfair dismissal under Part 10 of the Employment Rights Act 1996 relying on reg. 7, or a complaint under reg. 15 for failure to inform and consult, which may be brought by affected employees, employee representatives or a recognised trade union."
+    },
+    "notes": "TUPE 2006 is genuinely UK-wide: reg. 1(3) extends the Regulations to Northern Ireland, with Schedule 1 adapting them, so unlike flexible working, payslips and tips this one can be stated for the whole UK. Note the service provision change limb at reg. 3(3) refers to an organised grouping of employees situated in GREAT BRITAIN. What transfers: the contracts of employment themselves, continuity of service, and the transferor's rights, powers, duties and liabilities under those contracts, including liability for the transferor's pre-transfer acts and omissions (reg. 4(2)). Variations to terms are void where the sole or principal reason is the transfer (reg. 4(4)), subject to the reg. 4(5)/(5B) exceptions. An employee can treat the contract as terminated and claim constructive dismissal where a substantial change in working conditions is to their material detriment (reg. 4(9)). Informing and consulting (reg. 13) must happen long enough before the transfer to allow consultation, and must cover the fact, date and reasons for the transfer, its legal, economic and social implications, the measures envisaged, and - for the transferor - the measures the transferee envisages, plus information about agency workers used. CURRENCY NOTE: the legislation.gov.uk page records amendments to the reg. 15 complaint time limit taking effect from 1 October 2026, and the current text gives six months beginning with the date the transfer is completed; confirm the time limit before relying on it, as the Employment Rights Act 2025 has been extending tribunal time limits through 2026. TUPE is NOT about redundancy pay and does NOT prevent post-transfer redundancies for a genuine ETO reason.",
+    "used": []
+  },
+  {
+    "id": "self-assessment-who-must-file",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-02-15",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Who Must File A Self Assessment Return",
+    "official_page": "https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return",
+    "figures": [
+      {
+        "value": "6 April 2025 to 5 April 2026",
+        "what": "the tax year covered by the return due on 31 January 2027 (the 2025 to 2026 tax year)",
+        "source": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "31 January 2027, 11:59pm",
+        "what": "deadline to file the 2025 to 2026 online return and to pay the tax owed",
+        "source": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "31 October 2026, 11:59pm",
+        "what": "deadline for a paper 2025 to 2026 return (already passed)",
+        "source": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "5 October 2026",
+        "what": "deadline to tell HMRC you need to file for 2025 to 2026 if you have not filed before",
+        "source": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "more than £1,000",
+        "what": "self-employed sole trader gross income (before expenses and reliefs) that requires a return; HMRC wording is 'earned more than £1,000 (before taking off anything you can claim tax relief on)'",
+        "source": "https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£2,500 or more",
+        "what": "untaxed income in the year that requires a Self Assessment record (State Pension collected through the PAYE code excluded)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-manual/sam100060",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "over £2,500",
+        "what": "untaxed income that still requires a return even for someone otherwise taxed only through PAYE",
+        "source": "https://www.gov.uk/government/publications/employer-bulletin-july-2024/july-2024-issue-of-the-employer-bulletin",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "over £1,000 up to £2,500",
+        "what": "gross property income band where you contact HMRC rather than automatically register for Self Assessment; over £2,500 gross you register",
+        "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "more than £10,000 gross, or more than £2,500 net",
+        "what": "property/land letting income that is Self Assessment criteria in HMRC's own manual (gross test applies irrespective of expenses)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-manual/sam100060",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£10,000 or more",
+        "what": "savings and investment income, or dividend income, before tax, that is Self Assessment criteria (2016-17 onwards)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-manual/sam100060",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "no threshold - removed",
+        "what": "the 'high earner' total income test: HMRC removed the income threshold for completing a return for PAYE-only taxpayers from the 2024 to 2025 tax year onwards, so there is no £100,000 or £150,000 income trigger for the return due 31 January 2027",
+        "source": "https://www.gov.uk/government/publications/employer-bulletin-july-2024/july-2024-issue-of-the-employer-bulletin",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Individuals anywhere in the UK for the 2025 to 2026 tax year (6 April 2025 to 5 April 2026), filing by 31 January 2027. A return is required if any one criterion is met: self-employed sole trader with gross income over £1,000; partner in a business partnership; Capital Gains Tax due on a disposal; High Income Child Benefit Charge not paid through PAYE; an off-payroll worker repaying a student or postgraduate loan; untaxed income of £2,500 or more; property income over the property tests; savings, investment or dividend income of £10,000 or more; or HMRC has asked you to send one.",
+      "excluded": "Taxpayers whose income is taxed only through PAYE are no longer caught by any income-level test - HMRC removed the income threshold for completing a return for PAYE-only taxpayers from 2024 to 2025, so a high salary alone (over £100,000 or over £150,000) no longer requires a return. Also not required: anyone with gross trading income of £1,000 or less and nothing else (the trading allowance covers it), anyone with gross property income of £1,000 or less and nothing else, and people whose only untaxed income is State Pension collected through their PAYE code. Being below a threshold does not remove liability if another criterion is met.",
+      "from_when": "In force for the 2025 to 2026 tax year, return due 31 January 2027. The removal of the income threshold for PAYE-only taxpayers has applied since the 2024 to 2025 tax year.",
+      "automatic": false,
+      "how_to_claim": "You must register for Self Assessment yourself (deadline 5 October after the end of the tax year), then file online at GOV.UK by 31 January 2027 and pay by the same date. HMRC does not file for you, and not receiving a notice to file does not remove the obligation."
+    },
+    "notes": "The figure people most often get wrong is the £1,000: it is GROSS self-employed income before any expenses, not profit. The old 'earn over £100,000 (then £150,000) and you must file' rule is gone for people taxed only through PAYE from 2024 to 2025 onwards - that is the change to flag this season, and high earners should check the other criteria instead. Income Tax rates and bands differ in Scotland, but the Self Assessment FILING criteria and the 31 January deadline are identical across England, Wales, Scotland and Northern Ireland, so this subject is safe to state UK-wide; only the amount of tax calculated differs for Scottish taxpayers. This is not the Making Tax Digital for Income Tax rules, which are a separate set of thresholds (over £50,000 for 2024 to 2025, over £30,000 for 2025 to 2026, over £20,000 for 2026 to 2027) for how sole traders and landlords already in Self Assessment must keep records and report quarterly.",
+    "used": []
+  },
+  {
+    "id": "crypto-reporting-to-hmrc-carf",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-03-31",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Crypto Reporting To HMRC Under CARF",
+    "official_page": "https://www.gov.uk/guidance/reporting-cryptoasset-user-and-transaction-data",
+    "figures": [
+      {
+        "value": "1 January 2026",
+        "what": "the date the Cryptoasset Reporting Framework came into effect, from which cryptoasset exchanges and other cryptoasset service providers must collect and record customer details",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/cryptoassets-manual/crypto10410",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 January 2026 to 31 December 2026",
+        "what": "the first reporting period providers must cover",
+        "source": "https://www.gov.uk/guidance/reporting-cryptoasset-user-and-transaction-data",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "31 May 2027",
+        "what": "deadline for a UK cryptoasset service provider to submit its first report to HMRC",
+        "source": "https://www.gov.uk/guidance/reporting-cryptoasset-user-and-transaction-data",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "up to £300",
+        "what": "penalty a user can face for giving inaccurate details, or not giving details, to a UK cryptoasset service provider - and the penalty could be higher for a non-UK provider",
+        "source": "https://www.gov.uk/guidance/information-youll-need-to-give-to-uk-cryptoasset-service-providers",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "up to £300 per user",
+        "what": "penalty a provider can face for not reporting, reporting late, or submitting inaccurate, incomplete or unverified reports",
+        "source": "https://www.gov.uk/guidance/reporting-cryptoasset-user-and-transaction-data",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "full name, date of birth, address and country of residence, tax identification number",
+        "what": "the details an individual user must give to every cryptoasset service provider they use, including providers not based in the UK",
+        "source": "https://www.gov.uk/guidance/information-youll-need-to-give-to-uk-cryptoasset-service-providers",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "legal business name, main business address, company registration number or tax identification number and country of issue",
+        "what": "the details an entity user (company, partnership, trust, charity) must give; some entities must also give details of their controlling person",
+        "source": "https://www.gov.uk/guidance/information-youll-need-to-give-to-uk-cryptoasset-service-providers",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "user details plus a summary of their transactions",
+        "what": "what a provider must report to HMRC, as an XML file of up to 250MB per file",
+        "source": "https://www.gov.uk/guidance/reporting-cryptoasset-user-and-transaction-data",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "SI 2025/744",
+        "what": "The Reporting Cryptoasset Service Providers (Due Diligence and Reporting Requirements) Regulations 2025 - the legislation behind the obligation",
+        "source": "https://www.legislation.gov.uk/uksi/2025/744/made",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Two groups. Providers: anyone providing cryptoasset services in the UK - exchanges and other cryptoasset service providers, which HMRC says can be entities or individuals effectuating exchange transactions as a business - must collect user data from 1 January 2026 and report it to HMRC, first report by 31 May 2027 covering 2026. Users: anyone, individual or entity, using a cryptoasset service provider must give their identifying details when asked, and must give them to EVERY provider they use, including providers not based in the UK.",
+      "excluded": "A provider with no information to report for a year does not need to submit a report. Providers only report on users who are tax resident in the UK or in another country signed up to CARF, so a user resident in a non-CARF country is not reportable. A user who is not eligible for a tax identification number - HMRC's example is living in a country that does not issue them - does not have to provide one. HMRC states the measure 'is not expected to have an impact on the majority of individuals' because the obligation falls on service providers, and CARF 'does not replace or amend existing legislation', so no user gains or loses a tax liability because of it.",
+      "from_when": "In force. The measure came into effect on 1 January 2026. First reporting period 1 January 2026 to 31 December 2026, first provider reports due by 31 May 2027. HMRC's online submission service for providers was not yet live when this guidance was read.",
+      "automatic": true,
+      "how_to_claim": "Nothing to claim. Users simply respond to their provider's request for details, accurately and promptly, to avoid a penalty of up to £300. Anyone with gains or income from cryptoassets reports and pays tax as they always have: gains on disposals through Capital Gains Tax (60-day rule does not apply - crypto is not residential property, so it goes on the Self Assessment return by 31 January, or through HMRC's real time service), and crypto received as income through Self Assessment."
+    },
+    "notes": "The line to hold: crypto gains and crypto income were ALWAYS taxable in the UK, and CARF changes REPORTING, not liability. HMRC's own CARF page says the framework 'does not replace or amend existing legislation' and describes it as a deterrent that encourages correct reporting - nobody owes tax they did not owe before 1 January 2026. What has changed is that HMRC will receive user details and a transaction summary from exchanges, and will exchange data with other CARF countries annually, so undeclared gains become far easier to spot. Two different £300 penalties exist and should not be conflated: up to £300 for a USER who gives inaccurate details or none to a UK provider (potentially more for a non-UK provider), and up to £300 PER USER for a PROVIDER that fails to report, reports late or reports inaccurately. Users must give details to overseas exchanges too, not just UK ones. This is UK-wide and not devolved; Capital Gains Tax on crypto disposals is the same across England, Wales, Scotland and Northern Ireland, though Scottish Income Tax rates and bands affect tax on crypto received as income.",
+    "used": []
+  },
+  {
+    "id": "rd-tax-relief-merged-scheme-and-eris",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-01",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "R&D Tax Relief: Merged Scheme And ERIS",
+    "official_page": "https://www.gov.uk/guidance/research-and-development-rd-tax-relief-the-merged-scheme-and-enhanced-rd-intensive-support",
+    "figures": [
+      {
+        "value": "20%",
+        "what": "Merged R&D expenditure credit rate on qualifying R&D expenditure, for accounting periods beginning on or after 1 April 2024. The credit is taxable as trading income.",
+        "source": "https://www.gov.uk/guidance/research-and-development-rd-tax-relief-the-merged-scheme-and-enhanced-rd-intensive-support",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "49%",
+        "what": "RDEC rate for ring fence trades (CTA 2009 s104M(2)), unchanged since 1 April 2013 - ring-fenced trades do not get the 20% rate",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/corporate-intangibles-research-and-development-manual/cird80260",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "86%",
+        "what": "ERIS additional deduction on top of the normal 100% deduction, giving a total deduction of 186% of qualifying R&D expenditure",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/corporate-intangibles-research-and-development-manual/cird127000",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "14.5%",
+        "what": "ERIS payable tax credit rate on the surrenderable loss. The payable credit is not liable to tax.",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/corporate-intangibles-research-and-development-manual/cird127000",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "30%",
+        "what": "R&D intensity threshold for ERIS (CTA 2009 s1045ZA): relevant R&D expenditure must be at least 30% of total relevant expenditure, aggregated across the claimant and all connected companies, for accounting periods beginning on or after 1 April 2024",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/corporate-intangibles-research-and-development-manual/cird123000",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "40%",
+        "what": "The OLD intensity threshold, which applies only to claims under the old SME scheme for accounting periods ending on or after 1 April 2023 but beginning before 1 April 2024",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/corporate-intangibles-research-and-development-manual/cird123000",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "6 months",
+        "what": "Claim notification (pre-notification) deadline: the claim notification period starts on the first day of the period of account and ends six months after the period of account ends. Miss it and the whole R&D claim is invalid.",
+        "source": "https://www.gov.uk/guidance/tell-hmrc-that-youre-planning-to-claim-research-and-development-rd-tax-relief",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "3 years",
+        "what": "Claim notification exemption: a company that claimed R&D relief within three years of the last day of its claim notification period does not need to submit the form (subject to exceptions)",
+        "source": "https://www.gov.uk/guidance/tell-hmrc-that-youre-planning-to-claim-research-and-development-rd-tax-relief",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 April 2027",
+        "what": "The claim notification form is not required for claims made on or after 1 April 2027",
+        "source": "https://www.gov.uk/guidance/tell-hmrc-that-youre-planning-to-claim-research-and-development-rd-tax-relief",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Companies within the charge to UK Corporation Tax carrying on a trade, with a project meeting the statutory definition of R&D. The merged R&D expenditure credit is the default for all company sizes for accounting periods beginning on or after 1 April 2024. ERIS is the alternative route for loss-making R&D-intensive SMEs: a company is loss-making if it has a trading loss for tax purposes before the additional deduction.",
+      "excluded": "Companies not trading or not chargeable to Corporation Tax; projects that do not meet the statutory R&D definition. For ERIS specifically: SMEs that are not loss-making, and SMEs whose R&D intensity is below 30% (they can still claim the merged 20% credit instead). You cannot claim both schemes for the same expenditure. Some overseas expenditure is restricted under both schemes - payments to overseas contractors and overseas externally provided workers are restricted (Northern Ireland SMEs claiming ERIS are NOT subject to those overseas restrictions). Costs consisting of a payment to a connected company are excluded from total relevant expenditure for the intensity test. Credit above the PAYE/NIC cap is restricted unless exempt; under the merged scheme any excess is carried forward to the next period. A claim with no valid claim notification form is invalid, and relief is lost entirely.",
+      "from_when": "Merged R&D expenditure credit and ERIS apply for accounting periods beginning on or after 1 April 2024. The 86%/14.5% ERIS rates apply to expenditure incurred on or after 1 April 2023. Claim notification applies to accounting periods beginning on or after 1 April 2023.",
+      "automatic": false,
+      "how_to_claim": "Three steps, all mandatory. 1) Submit a claim notification form in advance, no later than six months after the end of the period of account, unless exempt as a recent claimant. 2) Submit the online additional information form before or at the same time as the claim. 3) Make the claim in the Company Tax Return (CT600) with the R&D figures. Northern Ireland companies that opt out of the NI-specific treatment must also complete the additional information form at the time of claiming."
+    },
+    "notes": "This is NOT the old SME enhanced deduction plus 10% payable credit, and it is NOT the old standalone RDEC - both were replaced by the merged scheme for accounting periods beginning on or after 1 April 2024. The two numbers most often confused: the intensity threshold is 30% for the new ERIS rules but was 40% under the old SME scheme, and the switch is by accounting period start date, not expenditure date. There is a one-year lookback route to ERIS: a company can still qualify if it met the intensity condition in its last 12-month accounting period and made a valid SME or ERIS claim on expenditure incurred on or after 1 April 2023. The claim notification trap is the big one - it is a pre-notification, so the deadline can fall before the company has even decided to claim, and missing it invalidates the claim outright with no late-claim route. Northern Ireland: NI SMEs claiming ERIS are not subject to the overseas contractor and overseas externally provided worker restrictions, and NI companies that opt out of that treatment must still file the additional information form at the time of claiming.",
+    "used": []
+  },
+  {
+    "id": "structures-and-buildings-allowance",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-06",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Structures And Buildings Allowance",
+    "official_page": "https://www.gov.uk/guidance/claiming-capital-allowances-for-structures-and-buildings",
+    "figures": [
+      {
+        "value": "3%",
+        "what": "Annual SBA rate on qualifying expenditure, straight line, for a chargeable period of one year (CAA 2001 s270AA(5))",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/capital-allowances-manual/ca91300",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "33 1/3 years",
+        "what": "The allowance period over which the expenditure is relieved on the straight-line 3% basis, running from the later of first non-residential use and the date the qualifying expenditure is incurred",
+        "source": "https://www.gov.uk/guidance/claiming-capital-allowances-for-structures-and-buildings",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "2%",
+        "what": "The original SBA rate, which applied before 1 April 2020 for Corporation Tax and before 6 April 2020 for Income Tax",
+        "source": "https://www.gov.uk/guidance/claiming-capital-allowances-for-structures-and-buildings",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "29 October 2018",
+        "what": "All construction contracts must be signed on or after this date for the expenditure to qualify for SBA",
+        "source": "https://www.gov.uk/guidance/claiming-capital-allowances-for-structures-and-buildings",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "10% over 10 years",
+        "what": "The enhanced SBA rate available for qualifying expenditure in a designated special tax site",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/capital-allowances-manual/ca91300",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "nil",
+        "what": "Where there is no allowance statement, the qualifying expenditure on which the current owner's allowance is based is treated as nil (CAA 2001 s270IA(1)-(3))",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/capital-allowances-manual/ca94610",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Businesses within the charge to UK Corporation Tax or Income Tax that incur qualifying capital expenditure on constructing, renovating, converting or buying a non-residential structure or building, and use it for a qualifying activity taxable in the UK: a trade, profession or vocation; a UK or overseas property business; managing a company's investments; or mining, quarrying, fishing and other land-based trades such as running railways and toll roads. Qualifying expenditure includes construction costs, design fees, site preparation, construction works, renovation, repair and conversion costs, and fitting-out works.",
+      "excluded": "Any residence, and any structure in the grounds of a residence. Residential use is defined widely: a dwelling-house, residential accommodation for school pupils, student accommodation, residential accommodation for members of the armed forces, a home or other institution providing residential accommodation, and a prison or similar establishment - plus anything ancillary to those, with swimming pools in a dwelling's grounds and gyms, cinemas and car parks provided for a block of flats given as examples. Residential and furnished holiday lettings property businesses are excluded. Also excluded: the cost of land and of rights in or over land; fees, SDLT (or LBTT/LTT) and other incidental acquisition costs attributable to the land rather than the building; land reclamation, contaminated or derelict land remediation and landscaping (unless the landscaping creates a structure); planning permission costs; financing costs; public enquiry and legal costs; any cost that qualifies for plant and machinery allowances, and integral features or fixtures included in the price; any cost already used to claim another allowance; and any cost met by a grant or contribution. Site preparation costs are carved out of the land-alteration exclusion and do qualify.",
+      "from_when": "SBA applies where the earliest written construction contract was entered into on or after 29 October 2018. The rate is 3% from 1 April 2020 (Corporation Tax) or 6 April 2020 (Income Tax), and 2% before those dates.",
+      "automatic": false,
+      "how_to_claim": "Claim on your tax return. Before any claim you must hold a written allowance statement. If you are the first user you must create it; if you bought a used structure you must obtain a copy from a previous owner. It must contain: information identifying the building (such as address and description), the date of the earliest written construction contract, the amount of qualifying expenditure incurred on construction or purchase, the date the building was first brought into non-residential use, and the date each later qualifying construction cost was incurred."
+    },
+    "notes": "The allowance statement is the single biggest trap: it is a statutory condition, not paperwork. With no allowance statement the qualifying expenditure is nil, so a buyer who completes without getting a copy from the seller loses the whole remaining 33 1/3-year entitlement. A seller who is outside the UK tax charge must still prepare a statement for a later purchaser, and where part of a building is sold the relevant parts of the expenditure must be clearly identified on the statement. On sale there is no balancing allowance or balancing charge: the seller's allowances simply stop, and the total allowances claimed are added to the seller's disposal receipts, which increases the chargeable gain (Capital Gains Tax or Corporation Tax on the gain). The buyer picks up the remaining allowance period and, buying a used structure from a non-developer, claims the same amount the previous owner was entitled to - so SBA is a timing benefit on the building, clawed back through the gain, not a permanent deduction. SBA is also NOT an alternative to plant and machinery allowances: anything qualifying for P&M allowances, including integral features, is excluded from SBA, and the Annual Investment Allowance never applies to SBA expenditure. Claims also end if the structure is demolished or put to a non-qualifying purpose. The rules are UK-wide and identical in Northern Ireland; the only nation-specific point is which land transaction tax is excluded as a land acquisition cost (SDLT in England and Northern Ireland, LBTT in Scotland, LTT in Wales).",
+    "used": []
+  },
+  {
+    "id": "seis-eis-investor-income-tax-relief",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-06",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "SEIS And EIS Investor Income Tax Relief",
+    "official_page": "https://www.gov.uk/guidance/venture-capital-schemes-tax-relief-for-investors",
+    "figures": [
+      {
+        "value": "50%",
+        "what": "SEIS income tax relief rate - a reduction in the individual's Income Tax liability equal to 50% of the amount subscribed, excluding incidental costs",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/venture-capital-schemes-manual/vcm31130",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "30%",
+        "what": "EIS income tax relief rate - a reduction in the individual's Income Tax liability equal to 30% of the amount subscribed, excluding incidental costs (it was 20% for shares issued before 6 April 2011)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/venture-capital-schemes-manual/vcm10530",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£200,000",
+        "what": "SEIS maximum annual investment on which an individual can claim relief, for shares issued on or after 6 April 2023 (it was £100,000 up to 5 April 2023)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/venture-capital-schemes-manual/vcm31130",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£1 million",
+        "what": "EIS maximum annual investment for an individual, rising to £2 million per tax year provided at least £1 million of it goes into knowledge-intensive companies - no more than £1 million may go into non-knowledge-intensive companies",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/venture-capital-schemes-manual/vcm10530",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "3 years",
+        "what": "Minimum holding period for both SEIS and EIS shares - the investor must hold the shares for at least 3 years to keep the relief, and the company must keep meeting the scheme conditions for 3 years",
+        "source": "https://www.gov.uk/guidance/venture-capital-schemes-tax-relief-for-investors",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£250,000",
+        "what": "SEIS company limit: total SEIS investment plus any other de minimis State aid received in the three years up to the latest SEIS investment must not exceed £250,000, for shares issued after 5 April 2023 (previously £150,000)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/venture-capital-schemes-manual/vcm34130",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£350,000",
+        "what": "SEIS company gross assets limit - the company must have no more than £350,000 of gross assets at the time of the investment",
+        "source": "https://www.gov.uk/guidance/venture-capital-schemes-raise-money-by-offering-tax-reliefs-to-investors",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "fewer than 25",
+        "what": "SEIS company employee limit",
+        "source": "https://www.gov.uk/guidance/venture-capital-schemes-raise-money-by-offering-tax-reliefs-to-investors",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "less than 3 years old",
+        "what": "SEIS company age limit - and the company must not have previously carried on a different trade",
+        "source": "https://www.gov.uk/guidance/venture-capital-schemes-raise-money-by-offering-tax-reliefs-to-investors",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£24 million",
+        "what": "EIS lifetime limit on the amount a company can raise for most companies; higher limits may apply depending on the company's circumstances, such as research, development or innovation activity",
+        "source": "https://www.gov.uk/guidance/venture-capital-schemes-raise-money-by-offering-tax-reliefs-to-investors",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£30 million",
+        "what": "EIS company gross assets limit at the time of the investment, reduced to £15 million for 'specified companies'",
+        "source": "https://www.gov.uk/guidance/venture-capital-schemes-raise-money-by-offering-tax-reliefs-to-investors",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "fewer than 250",
+        "what": "EIS company employee limit",
+        "source": "https://www.gov.uk/guidance/venture-capital-schemes-raise-money-by-offering-tax-reliefs-to-investors",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "7 years",
+        "what": "EIS company age limit - no more than 7 years since the company's first commercial sale",
+        "source": "https://www.gov.uk/guidance/venture-capital-schemes-raise-money-by-offering-tax-reliefs-to-investors",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "20%",
+        "what": "The excluded-activities tolerance: a company may fail to qualify if more than 20% of its trade consists of non-qualifying (excluded) activities",
+        "source": "https://www.gov.uk/guidance/venture-capital-schemes-raise-money-by-offering-tax-reliefs-to-investors",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Individuals subscribing cash for new, full-risk ordinary shares in a qualifying unquoted company, who are within the charge to UK Income Tax. Relief reduces the investor's Income Tax liability for the year; the investor can elect to treat the shares as acquired in the preceding tax year, subject to that year's limit. The company must receive full payment in cash for newly issued full-risk ordinary shares and must not be listed on a recognised stock exchange.",
+      "excluded": "Relief cannot exceed the investor's Income Tax liability for the year - it reduces the liability to nil and any excess is simply lost, so there is nothing for an investor with no or low tax liability. Relief is withdrawn or restricted if the shares are disposed of within 3 years, if the investor receives value from the company, or if claims exceed the annual limit. Companies carrying on excluded activities (more than 20% of the trade) do not qualify, and the statutory list of excluded activities under ITA 2007 s192(1) and s303(1) is: dealing in land, commodities or futures or in shares, securities or other financial instruments; dealing in goods otherwise than in the course of an ordinary trade of wholesale or retail distribution; banking, insurance, money-lending, debt-factoring, hire-purchase financing or other financial activities; leasing, including letting ships on charter or other assets on hire; receiving royalties or licence fees; providing legal or accountancy services; property development; farming or market gardening; holding, managing or occupying woodlands, any other forestry activities or timber production; shipbuilding; producing coal; producing steel; operating or managing hotels or comparable establishments, and managing property used as such; operating or managing nursing homes or residential care homes, and managing property used as such; all energy generating activities; and activities excluded under ITA 2007 s199 (provision of services or facilities for another business). Listed companies are excluded. A company that has already received EIS or VCT investment cannot then qualify for SEIS.",
+      "from_when": "SEIS £200,000 investor limit and £250,000 company limit apply to shares issued on or after 6 April 2023 (the company limit to shares issued after 5 April 2023). The EIS £2 million investor limit including knowledge-intensive companies applies from 6 April 2018. The 30% EIS rate applies to shares issued on or after 6 April 2011.",
+      "automatic": false,
+      "how_to_claim": "The company first submits a compliance statement (SEIS1 or EIS1) confirming it met the conditions when the shares were issued; HMRC then issues an authority and the company gives each investor a SEIS3 or EIS3 certificate. The investor claims the relief on their Self Assessment tax return using the certificate. Where several reliefs apply, VCT relief is deducted first, then EIS, then SEIS."
+    },
+    "notes": "The two schemes are not interchangeable and the limits are routinely mixed up: SEIS gives 50% on up to £200,000 a year, EIS 30% on up to £1 million (£2 million only if at least £1 million goes to knowledge-intensive companies). The 3-year clock is two-sided - the investor must hold the shares for 3 years AND the company must keep meeting the conditions for 3 years, so a company breach claws back the investor's relief even though the investor did nothing. Relief is capped at the investor's actual Income Tax liability with no carry-forward of the excess, which is the most common disappointment. SEIS sits ahead of EIS in sequence: a company that has already taken EIS or VCT money can no longer use SEIS, so SEIS must come first. The SEIS £250,000 company limit counts other de minimis State aid received in the preceding three years, not just share subscriptions. 'Receiving royalties or licence fees' and 'property development' being excluded activities catches a lot of otherwise innovative businesses. These are UK-wide Income Tax reliefs with no Northern Ireland, Scotland or Wales variation - Scottish and Welsh rates of Income Tax do not change the 50% and 30% relief rates, which are set UK-wide. Figures here were read on 22 November 2026 and the EIS company limits in particular have been increased from their earlier levels, so recheck after the next Finance Act.",
+    "used": []
+  },
+  {
+    "id": "patent-box-reduced-corporation-tax",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-01",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Patent Box Reduced Corporation Tax",
+    "official_page": "https://www.gov.uk/guidance/corporation-tax-the-patent-box",
+    "figures": [
+      {
+        "value": "10%",
+        "what": "The effective rate of Corporation Tax on qualifying profits attributable to patented inventions and certain other qualifying IP ('relevant IP profits')",
+        "source": "https://www.gov.uk/guidance/corporation-tax-the-patent-box",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "2 years",
+        "what": "Election deadline - the election must be made within 2 years after the end of the accounting period in which the relevant profits arose",
+        "source": "https://www.gov.uk/guidance/corporation-tax-the-patent-box",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 April 2017",
+        "what": "The date from which the full 10% reduced rate applied, after being phased in over the first four financial years from 1 April 2013",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/corporate-intangibles-research-and-development-manual/cird201010",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "30 June 2016",
+        "what": "The nexus cut-off: companies electing into the Patent Box after 30 June 2016 are subject to the R&D fraction restriction and the streaming requirement",
+        "source": "https://www.gov.uk/guidance/corporation-tax-the-patent-box",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 July 2021",
+        "what": "From this date all companies in the Patent Box must stream IP income separately from other income",
+        "source": "https://www.gov.uk/guidance/corporation-tax-the-patent-box",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "R&D fraction of 1",
+        "what": "The R&D fraction equals 1, and the Patent Box deduction is unrestricted, where there are no patent acquisition costs and all R&D is done in-house or by unconnected third-party subcontractors",
+        "source": "https://www.gov.uk/guidance/corporation-tax-the-patent-box",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "A qualifying company liable to UK Corporation Tax that makes a profit from exploiting patented inventions, owns the qualifying patents or holds them under an exclusive licence, and has undertaken qualifying development on them. The development condition requires that the company, or another company in the same group, made a significant contribution to creating or developing the patented invention, or to a product incorporating it. Qualifying patents must be granted by the UK Intellectual Property Office, the European Patent Office, or a listed EEA state such as Germany, Poland or Sweden. Group companies must also meet an active ownership condition: a group member must actively own the patented invention and play a significant role in managing the whole portfolio of eligible patents. Relief is delivered as an additional deduction in the Corporation Tax computation, which brings the effective rate on relevant IP profits down to 10%; relevant IP profits are calculated in four stages - identify relevant IP income, remove a routine return, remove profits attributable to other intangibles (the marketing assets return), then apply the R&D fraction.",
+      "excluded": "Companies not liable to UK Corporation Tax, and companies that make no profit from exploiting patents. Companies that neither own the qualifying patents nor hold them under a qualifying exclusive licence. Companies that have not undertaken qualifying development on the patents. Patents granted by an authority outside the eligible jurisdictions (UK IPO, EPO and the listed EEA states). Group companies that do not actively own the patents or do not play a significant role in managing the patent portfolio. Exclusive licensees that lack the required rights - the licensee must have rights to develop, exploit and defend the invention, with exclusivity across an entire national territory, and must be able to bring infringement proceedings or be entitled to most of any damages awarded. The R&D fraction restricts relief where the company paid acquisition costs for the patents or paid connected parties to do its R&D. Partnerships and other non-corporates are outside the regime, which applies only to companies within the charge to Corporation Tax.",
+      "from_when": "Part 8A CTA 2010, introduced by Finance Act 2012 and effective from 1 April 2013, with the full 10% rate from 1 April 2017. The R&D fraction (nexus) and streaming rules apply to elections made after 30 June 2016, and to all companies in the Patent Box from 1 July 2021.",
+      "automatic": false,
+      "how_to_claim": "Elect in writing under CTA 2010 s357A(1), within 2 years after the end of the accounting period in which the relevant profits arose. There is no box on the Company Tax Return and no special form of words: include the election in the computations accompanying the return, or make it separately in writing. If the company has more than one trade the election covers all of them. Once elected, the company must include a Patent Box computation in its original or amended CT computation for that period and for subsequent periods, until it revokes the election."
+    },
+    "notes": "The 10% is an effective rate, not a separate tax rate: it is delivered through an additional deduction in the CT computation, so the company still pays Corporation Tax at the main or small profits rate on everything else. The commonest misunderstanding is that owning a patent is enough - it is not. The company must have done qualifying development on the invention, and in a group a member must also actively own and manage the portfolio, so a passive holding company that simply registers the IP will not qualify. The election is easy to miss because there is no box on the CT600: it must be made in writing, usually in the computations, within 2 years of the end of the accounting period, and after that the period is simply lost. The R&D 'nexus' fraction is the teeth of the regime: it scales the benefit down where the company bought the patents in or paid connected parties to do the R&D, and it only equals 1 (full benefit) where there are no acquisition costs and the R&D was done in-house or by unconnected subcontractors. That nexus requirement forces streaming - IP income has to be tracked and traced separately from other income, per IP right or per product stream, which is the real compliance cost. Patent Box is a Corporation Tax regime that applies UK-wide, including Northern Ireland, with no devolved variation; note only that Northern Ireland companies may also be interacting with separate NI-specific R&D treatment on the R&D relief side, which does not change the Patent Box rules. Patent Box and R&D tax relief are complementary, not alternatives - the same company can claim both, and the R&D it does feeds the nexus fraction.",
+    "used": []
+  },
+  {
+    "id": "pension-lump-sum-allowance-and-lsdba",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-06",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Lump Sum Allowance And Lump Sum And Death Benefit Allowance",
+    "official_page": "https://www.gov.uk/guidance/find-out-the-rules-around-individual-lump-sum-allowances",
+    "figures": [
+      {
+        "value": "£268,275",
+        "what": "Standard individual lump sum allowance (LSA) for 2026 to 2027",
+        "source": "https://www.gov.uk/government/publications/rates-and-allowances-pension-schemes/pension-schemes-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£268,275",
+        "what": "Lump sum allowance stated in HMRC's Pensions Tax Manual: an individual is entitled to a lump sum allowance of £268,275 unless they hold a protected right to a higher amount",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm171000",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£1,073,100",
+        "what": "Standard individual lump sum and death benefit allowance (LSDBA) for 2026 to 2027",
+        "source": "https://www.gov.uk/government/publications/rates-and-allowances-pension-schemes/pension-schemes-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£1,073,100",
+        "what": "Lump sum and death benefit allowance stated in HMRC's Pensions Tax Manual, unless a protected higher amount applies",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm172000",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Pension commencement lump sum; the 25% tax-free element of an uncrystallised funds pension lump sum; stand-alone lump sum",
+        "what": "The lump sums that count against the lump sum allowance (LSA)",
+        "source": "https://www.gov.uk/guidance/find-out-the-rules-around-individual-lump-sum-allowances",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Everything that counts against the LSA, plus serious ill-health lump sums and most authorised lump sum death benefits paid where death is before age 75",
+        "what": "What counts against the lump sum and death benefit allowance (LSDBA). Charity lump sum death benefits and trivial commutation lump sum death benefits are not relevant lump sum death benefits.",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm172000",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Income tax at the recipient's marginal rate",
+        "what": "Tax charge on any amount paid above the available LSA or LSDBA (there is no longer a separate lifetime allowance charge). The scheme administrator normally deducts the tax before payment; for a lump sum death benefit the legal personal representative reports the charge to HMRC.",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm172000",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "6 April 2024",
+        "what": "Date the LSA and LSDBA took effect and the lifetime allowance was completely abolished",
+        "source": "https://www.gov.uk/guidance/find-out-the-rules-around-individual-lump-sum-allowances",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Anyone taking a tax-free lump sum from a UK registered pension scheme (and, for the LSDBA, their beneficiaries on a lump sum death benefit). Same figures across England, Scotland, Wales and Northern Ireland because this is HMRC pensions tax law.",
+      "excluded": "Not everyone is held to the standard figures or caught by them at all: people with a protected right to a higher allowance (lifetime allowance protections or protected tax-free lump sum rights) have a higher LSA and/or LSDBA; trivial commutation lump sums and winding-up lump sums do not reduce available LSA; charity and trivial commutation lump sum death benefits are not relevant lump sum death benefits for the LSDBA; unauthorised payments are not relevant benefit crystallisation events and do not count against either allowance. Pension income (annuity, drawdown income, scheme pension) is taxed as income and is not measured against these lump sum allowances at all.",
+      "from_when": "6 April 2024 onwards; figures above confirmed for the 2026 to 2027 tax year",
+      "automatic": true,
+      "how_to_claim": "Nothing to claim. The scheme administrator tests each lump sum against your available allowance and deducts any income tax due before paying. A higher protected allowance must be evidenced to the scheme (protection certificate or a transitional tax-free amount certificate applied for from a scheme administrator)."
+    },
+    "notes": "This is NOT the lifetime allowance, which was abolished outright on 6 April 2024 — there is no longer a lifetime allowance charge, and the old 25%/55% excess rates are gone. The LSA caps tax-free lump sums only; it does not cap the total you can hold in a pension or the pension income you can draw. The LSA and LSDBA are two separate tests, and the same pension commencement lump sum uses up both. Common confusion: the LSDBA figure is the same number as the old lifetime allowance, but it does a different job. Excess amounts are taxed as income at the recipient's marginal rate, so where the recipient is a Scottish taxpayer the Scottish income tax rates and bands apply to non-savings income; pension tax relief on contributions likewise interacts with Scottish rates.",
+    "used": []
+  },
+  {
+    "id": "money-purchase-annual-allowance",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-06",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Money Purchase Annual Allowance",
+    "official_page": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm056500",
+    "figures": [
+      {
+        "value": "£10,000",
+        "what": "Money purchase annual allowance for 2026 to 2027",
+        "source": "https://www.gov.uk/government/publications/rates-and-allowances-pension-schemes/pension-schemes-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£10,000",
+        "what": "MPAA for tax year 2023-24 onwards (it was £4,000 from 2017-18 to 2022-23)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm056510",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£60,000",
+        "what": "The standard annual allowance the MPAA replaces for money purchase savings once triggered",
+        "source": "https://www.gov.uk/government/publications/rates-and-allowances-pension-schemes/pension-schemes-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£30,000",
+        "what": "Alternative annual allowance that applies to any defined benefit savings in a year the MPAA applies (reduced further if the tapered annual allowance also applies)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm056510",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Taking income from a newly designated flexi-access drawdown fund; converting a pre-6 April 2015 capped drawdown fund into flexi-access drawdown; having qualified for flexible drawdown before 6 April 2015; taking an uncrystallised funds pension lump sum (UFPLS); taking a stand-alone lump sum (where tax-free lump sum rights exceeded £375,000); taking a lifetime annuity that can reduce in amount; taking a scheme pension from a money purchase arrangement where fewer than 12 people are receiving a pension from the scheme; certain payments from overseas pension schemes",
+        "what": "The full list of MPAA trigger events",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm056520",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "A pension commencement lump sum (tax-free cash) on its own; a trivial commutation lump sum; a small pot lump sum from a money purchase arrangement; a scheme pension from a money purchase arrangement where at least 11 other people are receiving a scheme pension or dependants' scheme pension from the scheme; a lifetime annuity that cannot decrease except in prescribed circumstances; continuing to draw no more than the capped drawdown permitted maximum from a pre-6 April 2015 drawdown pension fund; payments from a beneficiary's flexi-access drawdown fund",
+        "what": "Payments and events that do NOT trigger the MPAA",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm056530",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "91 days",
+        "what": "Deadline for the member to pass on the flexible access statement, or tell the scheme they received one and the date of the relevant event, to every registered pension scheme under which they are an accruing member (money purchase or hybrid arrangement). If they become an accruing member later, 91 days run from that date. The scheme that issued the statement does not need to be told. The scheme administrator must issue the flexible access statement to the member in the first place.",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm166400",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Anyone with a money purchase (defined contribution) pension who flexibly accesses their pension savings. The £10,000 cap then applies to their money purchase contributions, employer contributions included, for that tax year and every later year. HMRC pensions tax rules, so identical across England, Scotland, Wales and Northern Ireland.",
+      "excluded": "The MPAA is NOT triggered by taking tax-free cash (a pension commencement lump sum) on its own, by a trivial commutation lump sum, by a small pot lump sum, by a scheme pension from a money purchase arrangement where at least 11 other people are already receiving a scheme pension or dependants' scheme pension from that scheme, by a lifetime annuity that cannot decrease except in prescribed circumstances, by staying within the capped drawdown permitted maximum on a pre-6 April 2015 drawdown fund, or by payments from a beneficiary's (inherited) flexi-access drawdown fund. Defined benefit pension income does not trigger it either — the MPAA bites on money purchase arrangements, and defined benefit savings in the same year are measured against the alternative annual allowance of £30,000 instead. Once triggered, carry-forward of unused allowance cannot be used to lift money purchase savings above £10,000.",
+      "from_when": "MPAA regime from 6 April 2015; the £10,000 figure applies from tax year 2023-24 onwards and is confirmed for 2026 to 2027",
+      "automatic": true,
+      "how_to_claim": "Nothing to claim — it is automatic from the date of the trigger event. The scheme administrator must give the member a flexible access statement; the member must then pass it on, or report that they received one and the date of the event, to every other registered pension scheme they are accruing benefits in, within 91 days."
+    },
+    "notes": "The commonest and most expensive mistake is assuming any touch of the pension triggers the MPAA. Taking the 25% tax-free cash and nothing else does not. Taking an UFPLS does, even though 25% of it is tax free. A single £1 of taxable drawdown income from a newly designated flexi-access fund triggers it permanently. It is NOT the tapered annual allowance (that is income-based) and NOT the annual allowance itself. The duty to tell the other schemes within 91 days sits on the member, not the provider. Where the member is a Scottish taxpayer, pension tax relief and any annual allowance charge interact with Scottish income tax rates and bands on non-savings income. Cross-reference for scheduling: the banked entry 'pension-annual-allowance' also carries the £10,000 MPAA figure among its figures, so these two subjects must not be published in the same week.",
+    "used": []
+  },
+  {
+    "id": "pension-annual-allowance-carry-forward",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-04-06",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Carry Forward Of Unused Annual Allowance",
+    "official_page": "https://www.gov.uk/guidance/check-if-you-have-unused-annual-allowances-on-your-pension-savings",
+    "figures": [
+      {
+        "value": "3 tax years",
+        "what": "How far back unused annual allowance can be carried forward (for 2019-20 onwards; it was a four-year window for 2016-17 to 2018-19 because of the 2015-16 transitional split)",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm055100",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£60,000",
+        "what": "Standard annual allowance for 2026 to 2027, used first before any carry-forward",
+        "source": "https://www.gov.uk/government/publications/rates-and-allowances-pension-schemes/pension-schemes-rates",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Member of a registered pension scheme at some point in the tax year concerned",
+        "what": "The membership requirement: there is no unused allowance to carry forward from a year you were not a scheme member. Membership as an active, pensioner, deferred or pension credit member all count; non-UK scheme membership can qualify in certain circumstances (PTM113300).",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm055100",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Current year's annual allowance first, then unused allowance from the earliest of the three carry-forward years first",
+        "what": "The order in which annual allowance is used",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm055100",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "The greater of £3,600 (the basic amount) and 100% of relevant UK earnings chargeable to income tax",
+        "what": "The limit on relievable member contributions in a tax year — carry-forward does not lift it",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm044100",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Anyone who was a member of a registered pension scheme in the relevant earlier years and whose pension savings this year would otherwise exceed the annual allowance. HMRC pensions tax rules, identical across England, Scotland, Wales and Northern Ireland.",
+      "excluded": "You cannot carry forward from a tax year in which you were not a member of a registered pension scheme — that year yields nothing, however little was paid in. Carry-forward cannot be used to lift money purchase savings above the money purchase annual allowance once that has been triggered, and it cannot lift your own contributions above the tax-relief limit of the greater of £3,600 and 100% of your relevant UK earnings. Nothing carries forward from further back than the three preceding tax years, and once a year drops out of the window its unused allowance is lost.",
+      "from_when": "Three-year window applies for 2019-20 onwards; figures confirmed for 2026 to 2027",
+      "automatic": true,
+      "how_to_claim": "Nothing to claim and no form to file to use it. It applies automatically when working out whether you have an annual allowance charge. Keep pension input amount records for the three earlier years; HMRC's 'check if you have unused annual allowances' tool works it out, and any annual allowance charge is reported on a Self Assessment return."
+    },
+    "notes": "Carry-forward is about the annual allowance, NOT about tax relief. Two separate caps apply at once: the annual allowance (with carry-forward) and the earnings cap on relievable contributions. A person with £20,000 of relevant UK earnings and three years of unused allowance still only gets tax relief on £20,000 of their own contributions — employer contributions are not limited by the member's earnings, which is why carry-forward is most useful for employer or company contributions. You do not have to have had earnings in the earlier years, only scheme membership. Where the member is a Scottish taxpayer, relief above basic rate and any annual allowance charge follow the Scottish income tax rates and bands for non-savings income.",
+    "used": []
+  },
+  {
+    "id": "automatic-enrolment-earnings-trigger-and-qualifying-band",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-03-01",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Automatic Enrolment Earnings Trigger And Qualifying Band",
+    "official_page": "https://www.thepensionsregulator.gov.uk/en/employers/new-employers/im-an-employer-who-has-to-provide-a-pension/declare-your-compliance/ongoing-duties-for-employers/earnings-thresholds",
+    "figures": [
+      {
+        "value": "£10,000 a year",
+        "what": "Automatic enrolment earnings trigger for 2026/27 (£833 a month, £192 a week, £768 every four weeks)",
+        "source": "https://www.thepensionsregulator.gov.uk/en/employers/new-employers/im-an-employer-who-has-to-provide-a-pension/declare-your-compliance/ongoing-duties-for-employers/earnings-thresholds",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£6,240 a year",
+        "what": "Lower limit of the qualifying earnings band for 2026/27 (£480 every four weeks)",
+        "source": "https://www.thepensionsregulator.gov.uk/en/business-advisers/automatic-enrolment-guide-for-business-advisers/automatic-enrolment-earnings-threshold",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£50,270 a year",
+        "what": "Upper limit of the qualifying earnings band for 2026/27 (£3,867 every four weeks)",
+        "source": "https://www.thepensionsregulator.gov.uk/en/business-advisers/automatic-enrolment-guide-for-business-advisers/automatic-enrolment-earnings-threshold",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£10,000 trigger, £6,240 lower limit, £50,270 upper limit",
+        "what": "The 2026/27 thresholds as set out in the DWP annual review laid before Parliament (unchanged from 2025/26)",
+        "source": "https://www.gov.uk/government/publications/review-of-the-automatic-enrolment-earnings-trigger-and-qualifying-earnings-band-for-202627/review-of-the-automatic-enrolment-earnings-trigger-and-qualifying-earnings-band-for-202627",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "8%",
+        "what": "Minimum total contribution, on qualifying earnings, from 6 April 2019 onwards",
+        "source": "https://www.thepensionsregulator.gov.uk/en/business-advisers/automatic-enrolment-guide-for-business-advisers/minimum-contribution-increases-planned-by-law-phasing",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "3%",
+        "what": "Minimum employer share of that 8% (the staff member makes up the remaining 5%, part of which is tax relief)",
+        "source": "https://www.thepensionsregulator.gov.uk/en/business-advisers/automatic-enrolment-guide-for-business-advisers/minimum-contribution-increases-planned-by-law-phasing",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Aged 22 to State Pension age",
+        "what": "Age range for an eligible jobholder who must be automatically enrolled",
+        "source": "https://www.thepensionsregulator.gov.uk/en/document-library/automatic-enrolment-detailed-guidance/3-assessing-the-workforce",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "8% of earnings between £6,240 and £50,270 for 2026/27",
+        "what": "How the minimum contribution is calculated: on the band of qualifying earnings, not on total pay",
+        "source": "https://www.thepensionsregulator.gov.uk/en/employers/new-employers/im-an-employer-who-has-to-provide-a-pension/choose-a-pension-scheme/understanding-your-costs/making-contributions-to-your-pension-scheme",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Every employer with at least one member of staff, for each worker aged 22 to State Pension age who is working or ordinarily working in the UK under their contract and earning more than the £10,000 trigger in the pay reference period. These are 'eligible jobholders' and must be put into a qualifying pension scheme automatically. The Pensions Regulator oversees it in Great Britain; Northern Ireland has corresponding legislation with the same thresholds, so the figures hold UK-wide.",
+      "excluded": "Workers who do NOT have to be automatically enrolled: anyone under 22 or over State Pension age; anyone earning at or below the £10,000 trigger. These are 'non-eligible jobholders' (aged 16 to 74, earning above the £6,240 lower limit but not meeting the eligible jobholder test) who can opt in and must then receive employer contributions; and 'entitled workers' (aged 16 to 74 earning at or below £6,240) who can ask to join but get no statutory employer contribution. Also outside the duty: anyone not working or ordinarily working in the UK. Eligible jobholders who are enrolled can opt out within one month of enrolment and have their contributions refunded. Earnings above £50,270 attract no further statutory minimum contribution, because the band is capped there.",
+      "from_when": "Thresholds above apply for the 2026/27 tax year (review published 18 December 2025, unchanged from 2025/26); the 8% / 3% minimum contribution rates have applied since 6 April 2019",
+      "automatic": true,
+      "how_to_claim": "Nothing for the worker to claim: the employer must assess staff each pay period and enrol eligible jobholders without being asked, then re-enrol roughly every three years and file a declaration of compliance with The Pensions Regulator. Workers who are not caught by the duty have to ask the employer to put them in."
+    },
+    "notes": "The £10,000 trigger and the £6,240 lower limit are different numbers doing different jobs and are constantly mixed up: the £10,000 decides WHETHER someone is enrolled, the £6,240 to £50,270 band decides WHAT contributions are calculated on. So someone earning £12,000 is enrolled, but minimum contributions are 8% of £5,760, not 8% of £12,000. The band is also not the same as the National Insurance thresholds, even though £6,240 and £50,270 coincide with figures used elsewhere. An employer may use a different, certified basis (such as total pay or basic pay) with different percentages, but the qualifying-earnings basis above is the statutory default. Thresholds are reviewed by DWP every year, so the figures must be rechecked before April. Tax relief on the staff member's share interacts with Scottish income tax rates where the worker is a Scottish taxpayer and the scheme uses relief at source or net pay.",
+    "used": []
+  },
+  {
+    "id": "mtd-for-vat-digital-links-and-records",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-05-22",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "MTD For VAT: Digital Links And Digital Records",
+    "official_page": "https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat",
+    "figures": [
+      {
+        "value": "All VAT-registered businesses",
+        "what": "VAT Notice 700/22 s1.2 — \"Making Tax Digital for VAT requires all VAT-registered businesses to keep records digitally and file their VAT Returns using software.\" There is no longer any turnover threshold",
+        "source": "https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 April 2022",
+        "what": "The Value Added Tax (Amendment) Regulations 2021 (SI 2021/986) reg 1(1)-(2) — came into force 1 April 2022, and reg 2 omits paragraphs (2) to (5) of reg 32B of the VAT Regulations 1995, removing the turnover exemption so MTD covers all VAT-registered businesses; effective from the first prescribed accounting period beginning on or after 1 April 2022",
+        "source": "https://www.legislation.gov.uk/uksi/2021/986/made",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Copy and paste is not a digital link",
+        "what": "VAT Notice 700/22 s3.2.1 — \"HMRC does not consider the use of 'cut and paste' or 'copy and paste' to select and move information, as a digital link.\" Same paragraph: \"Manually transferring data within or between software programs, products or applications ... is not acceptable under Making Tax Digital\"",
+        "source": "https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "A transfer or exchange of data made (or capable of being made) electronically, with no manual intervention",
+        "what": "VAT Notice 700/22 s3.2.1 — \"A digital link is where a transfer or exchange of data is made (or can be made) electronically between software programs, products or applications. A digital link does not need any manual intervention, such as the copying over of information by hand, or the manual relocation of data between 2 or more pieces of software.\" Linked cells in spreadsheets (a formula in one sheet mirroring a source cell) are a digital link",
+        "source": "https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Emailing a spreadsheet, portable device transfer, XML, CSV import/export, upload/download, automated data transfer, API transfer",
+        "what": "VAT Notice 700/22 s3.2.1 — HMRC's non-exhaustive list of what it accepts as digital links",
+        "source": "https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Designatory data; supplies made; supplies received; VAT Return summary data",
+        "what": "VAT Notice 700/22 s3.3 — \"The records listed in the following paragraphs must be kept, maintained and preserved digitally\" (the 'electronic account'): s3.3.1 designatory data (business name, address of principal place of business, VAT registration number, VAT accounting schemes used); s3.3.2 supplies made (time of supply/tax point, net value excluding VAT, rate of VAT charged); s3.3.3 supplies received; s3.3.5 VAT Return summary data. Retail scheme daily gross takings must also be kept digitally (s3.5)",
+        "source": "https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Invoices need not be kept digitally",
+        "what": "VAT Notice 700/22 s3.1 and s3.3 — \"You'll need to keep additional records, such as invoices. You do not have to keep these digitally but you may choose to do so.\" Some documents must still be kept in their original form, e.g. a C79 import VAT certificate",
+        "source": "https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "At least 6 years",
+        "what": "VAT Notice 700/21 s2.4 — \"Generally, you must keep all your business records for VAT purposes for at least 6 years.\" Records used for other taxes may need keeping longer; if the 6-year rule causes serious storage problems or undue expense you can ask HMRC. Notice 700/22 s3.1 says that if you deregister you no longer need digital records in software but \"you must still retain your VAT records for the required period\"",
+        "source": "https://www.gov.uk/guidance/record-keeping-for-vat-notice-70021",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Every VAT-registered business in the UK, whatever its turnover: it must keep the records specified in VAT Notice 700/22 s3.3 digitally within functional compatible software, keep each piece of that software digitally linked, and file VAT Returns through HMRC's API (Notice 700/22 s1.2, s3.1, s3.2).",
+      "excluded": "Businesses HMRC is satisfied are exempt under VAT Notice 700/22 s2.1: where it is not practical to use digital tools to keep records or submit returns, for reasons such as age, disability or location (s2.2 gives no internet access, or a disability preventing computer use, as examples); businesses subject to an insolvency procedure; businesses run entirely by practising members of a religious society or order whose beliefs are incompatible with electronic communications or electronic record-keeping; and businesses already exempt from filing VAT returns online. Also outside the digital requirement: records not specified in the notice and not needed to complete the VAT Return (s3.1), intra-group supplies for a VAT group (s3.3.2), original documents such as invoices (s3.1, s3.3), and data transferred from software that is not used to maintain the electronic account (s3.2.1).",
+      "from_when": "1 April 2022 for all VAT-registered businesses regardless of turnover — SI 2021/986 reg 1(1)-(2) and reg 2, effective from the first prescribed accounting period beginning on or after that date.",
+      "automatic": true,
+      "how_to_claim": "Nothing to claim — the digital record-keeping and digital link duties apply automatically. Exemption is the opposite: it must be claimed. Notice 700/22 s2.4 — \"To make a claim for exemption, contact VAT: general enquiries\"; HMRC decides and \"You'll always receive our decision in writing.\" You must keep filing as usual while waiting for a decision or an appeal outcome (s2.4). HMRC's route for this is its 'Applying for an exemption from Making Tax Digital for VAT' guidance: https://www.gov.uk/guidance/apply-for-an-exemption-from-making-tax-digital-for-vat"
+    },
+    "notes": "The usual trap is the spreadsheet. A spreadsheet is allowed and can be part of functional compatible software (Notice 700/22 s3.2), but once data is in the software that maintains your electronic account, every later transfer, recapture or modification of that data must travel by digital link (s3.2.1). Retyping figures, writing invoice details in a ledger and keying them in again, or copy-pasting a VAT total between two workbooks all break the chain. Linked cells (a formula in one sheet mirroring another) do not. Emailing a spreadsheet so it can be imported, or handing over a pen drive, are both accepted — the test is whether a human has to move the data by hand, not whether the internet is involved. Two further distinctions: MTD does not change what records you must keep for VAT generally (Notice 700/21), only which of them must be digital and linked, and it does not shorten the 6-year retention period, which still bites after deregistration. Note also that VAT Notice 700/22 was last updated 1 April 2022, so the notice itself does not state the commencement date — that is in SI 2021/986. MTD for VAT is UK-wide; it is a record-keeping and filing regime, not a goods rule, so the Windsor Framework does not bear on it.",
+    "used": []
+  },
+  {
+    "id": "vat-business-gifts-and-samples",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-05-22",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "VAT On Business Gifts And Samples",
+    "official_page": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+    "figures": [
+      {
+        "value": "£50",
+        "what": "VAT Notice 700/7 s2.3 — \"You do not have to account for VAT on business gifts made to the same person so long as the total cost of all gifts you make to that person does not exceed £50, excluding VAT, in any 12-month period.\" The figure is the total cost of all gifts to that one person, VAT-exclusive, not the cost of a single gift",
+        "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Output tax on the total cost value of all the gifts",
+        "what": "VAT Notice 700/7 s2.3 — once the £50 limit is breached, output tax is due on the total cost value of all the gifts (not just the excess over £50), where you were entitled to claim the VAT on the purchase as input tax. Any 12-month period that includes the day the gift is made is acceptable for testing the limit",
+        "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Samples: no VAT",
+        "what": "VAT Notice 700/7 s4.2 — \"If you provide free samples of products to individuals for marketing purposes and they meet the definition in paragraph 4.1, they are not liable to VAT.\" s4.1 defines a sample as \"A specimen of a product which is intended to promote the sales of that product and which allows the characteristics and qualities of that product to be assessed without resulting in final consumption, other than where final consumption is inherent in such promotional transactions.\" There is no monetary limit and no quantity limit on samples",
+        "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Free services: usually no supply, no VAT",
+        "what": "VAT Notice 700/7 s3.1 — \"If you provide a service to a customer free of charge there is usually no supply, so no VAT is due.\" But where you bought in the services and reclaimed the VAT as input tax, \"output tax is due on the services you pass on free of charge\". If you simply pay a third party to supply services to someone else, the VAT is not your input tax because the supply is not to you",
+        "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Gifts of goods with no £50 shelter: VAT on cost value",
+        "what": "VAT Notice 700/7 s2.1 — if you give away goods, were entitled to recover the VAT on them as input tax, and receive no payment or other consideration, \"you must account for VAT on their cost value. That is unless they can be treated as business gifts under paragraph 2.3\"",
+        "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "VAT-registered businesses in the UK that give away goods or services free of charge in the course of promoting the business. A 'business gift' is defined at VAT Notice 700/7 s2.2 as a gift of goods made in the course of promoting your business and for which you were entitled to reclaim the VAT on its purchase as input tax — 'a definite, voluntary and unconditional transfer of the goods for no consideration'. s2.2 lists long service awards and retirement gifts, goods supplied to employees under attendance or safety at work schemes, items distributed to trade customers, 'thank you' goods given to customers, and prizes of goods in free lotteries and competitions as business gifts.",
+      "excluded": "Not caught by the output tax charge: gifts to one person costing £50 or less in total, VAT-exclusive, in any 12-month period (s2.3); goods on which you were never entitled to reclaim input tax, since the deemed supply only arises where you were so entitled (s2.1, s2.3); goods never bought for business purposes, which \"are not business assets and any VAT incurred on their purchase is not reclaimable as input tax\" (s2.5); free samples meeting the s4.1 definition, which are not liable to VAT however many you give (s4.2); a prize or trophy given at an awards ceremony where attendees pay an admission fee and the s2.6 conditions are met; point of sale material given free to business customers that gives direct promotional support (s2.12); goods withdrawn from sale and donated or destroyed (s2.14); and services provided free of charge where you did not buy them in and reclaim input tax (s3.1). Gifts of goods to a charity may be zero-rated where the charity sells, lets or exports them (s2.7). Explicitly outside this notice: business entertainment, which s1.1 says the notice \"does not cover\" and which is dealt with in Notice 700/65; s3.2 confirms input tax on goods or services bought for business entertainment is not normally deductible.",
+      "from_when": "The current HMRC notice (VAT Notice 700/7, Business promotions) states the £50 rule as the rule in force; the notice itself gives no commencement date for the limit, so no start date is asserted here.",
+      "automatic": true,
+      "how_to_claim": "Nothing to claim or apply for. The £50 shelter and the sample treatment apply automatically if the conditions are met — the duty is on the business to track the running total of gifts per recipient over a 12-month period and to account for output tax once it is exceeded. Where output tax is accounted for on a gift to a VAT-registered recipient who uses the goods in business, s2.4 says you cannot issue a VAT invoice but may use your normal invoicing documentation with the wording: 'Tax Certificate — No payment is necessary for these goods. Output tax of £XX.XX (insert amount) has been accounted for on the supply.'"
+    },
+    "notes": "Three things get mixed up here. First, business gifts are not business entertainment: gifts of goods are covered by Notice 700/7 and can be sheltered by the £50 limit, while entertainment (hospitality of any kind) sits in Notice 700/65 and generally blocks input tax recovery outright. Second, the £50 is cumulative per recipient over any 12-month period and excludes VAT — it is not £50 per gift, and once you pass it output tax is due on the cost value of all the gifts in the period, not just the slice above £50. Third, samples are a separate relief with no monetary cap, but the definition is narrow: a discontinued line cannot be a sample because there is no product left to promote, and quantity matters — one bottle of wine to a prospective buyer is a sample, a case of twelve is not (s4.3). If you are given samples and then sell them, output tax is due on that sale (s4.4). Free services are the odd one out: giving your own labour away is usually no supply at all, but passing on bought-in services free of charge triggers output tax where you reclaimed the input tax. This is a UK-wide valuation and deemed-supply rule, so the Northern Ireland Protocol/Windsor Framework does not bear on it.",
+    "used": []
+  },
+  {
+    "id": "vat-retail-schemes",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-05-22",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "The VAT Retail Schemes",
+    "official_page": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+    "figures": [
+      {
+        "value": "£130 million",
+        "what": "VAT Notice 727 s3.2 — \"If your annual turnover of all taxable retail sales, excluding VAT, is above £130 million, you cannot use the published standard schemes. If you think your annual turnover is about to exceed £130 million, you should contact HMRC as soon as possible to agree a bespoke retail scheme.\" A bespoke scheme is tailored to the business and is likely to be an adaptation of one of the published schemes",
+        "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Point of sale scheme, 2 apportionment schemes, 2 direct calculation schemes",
+        "what": "VAT Notice 727 s3.1 — \"The standard schemes take their name from the principle on which they're based. They are: the point of sale scheme, 2 apportionment schemes, 2 direct calculation schemes. You can choose any of the published schemes for which you're eligible.\" Point of sale is detailed at s3.4, apportionment 1 at s3.5, apportionment 2 at s3.6, direct calculation 1 at s3.7, direct calculation 2 at s3.8",
+        "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£1 million",
+        "what": "VAT Notice 727 s3.5.1 and s3.5.2 — apportionment scheme 1 is \"the simpler scheme designed for smaller businesses with a tax exclusive retail turnover not exceeding £1 million\"; you \"can only use the scheme if your total tax exclusive turnover from retail sales does not exceed £1 million\"",
+        "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£130 million",
+        "what": "VAT Notice 727 s3.6.1 and s3.6.2 — apportionment scheme 2 \"is available for businesses with a tax exclusive retail turnover not exceeding £130 million\"; you \"can only use the scheme if your total tax exclusive retail turnover from retail sales does not exceed £130 million\"",
+        "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£1 million",
+        "what": "VAT Notice 727 s3.7.1 and s3.7.3 — \"Direct calculation scheme 1 is available to businesses with a tax exclusive retail turnover not exceeding £1 million\"; \"you cannot use direct calculation scheme 1 if your annual tax exclusive retail turnover exceeds £1 million\"",
+        "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£130 million",
+        "what": "VAT Notice 727 s3.8 — direct calculation scheme 2 works like scheme 1 but requires an annual stock adjustment: \"You can use the scheme if your annual tax exclusive retail turnover does not exceed £130 million\"",
+        "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£1 million",
+        "what": "VAT Notice 727 s7.5 — the catering adaptation may be used only if you can satisfy HMRC you are unable to operate the Point of Sale Scheme, you have reasonable grounds for believing the tax-exclusive value of your taxable retail catering sales will not exceed £1 million in the next 12 months, and the adaptation produces a fair and reasonable result. You must notify HMRC and may start on receiving HMRC's acknowledgement",
+        "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "VAT-registered businesses making retail sales that cannot account for VAT using normal accounting. VAT Notice 727 s2.1 — \"Retail is the selling of goods or services to consumers and the retail schemes are aimed at retailers that cannot account for VAT using normal accounting.\" Normal accounting requires you to identify, for each sale, the tax-exclusive value and the VAT, and to produce periodic totals (s2.2). Under s3.1 you can choose any published scheme for which you are eligible; where you qualify for more than one, s2.4 says you choose the one best suited to the business.",
+      "excluded": "Cannot use a published standard scheme: any business whose annual turnover of all taxable retail sales, excluding VAT, is above £130 million — it must agree a bespoke retail scheme with HMRC instead (s3.2). HMRC may also refuse use of a retail scheme \"if you can reasonably be expected to account for VAT in the normal way\", if the chosen scheme does not produce a fair and reasonable result, or for the protection of the revenue (s3.3). Non-retail sales can never go through a retail scheme — \"you can only use the retail schemes to account for retail sales\" and non-retail sales must use normal accounting (s2.3). Scheme-specific bars: apportionment scheme 1 is unavailable above £1 million tax-exclusive retail turnover and \"cannot be used for supplies of services, for supplies of goods which you have made or grown yourself\" (s3.5.2); apportionment scheme 2 is unavailable above £130 million and cannot be used \"for supplies of services or catering\" (s3.6.2); direct calculation scheme 1 is unavailable above £1 million (s3.7.3); catering sales \"must normally be accounted for using the Point of Sale Scheme\" (s7.1); and the Retail Chemist Adjustment \"cannot be used with Apportionment Scheme 2\" (s8.3).",
+      "from_when": "The schemes are a standing feature of the VAT Regulations; VAT Notice 727 states the current limits. Timing rules on moving between schemes: s4.2 — changes are normally made at the end of a complete scheme year, an earlier change needs HMRC approval, and you must stop using a scheme once you become ineligible. s4.3 — retrospective changes are \"not normally allowed\" but HMRC may allow them in exceptional cases.",
+      "automatic": false,
+      "how_to_claim": "For a published standard scheme there is no application and no HMRC permission: s3.1 — \"You can choose any of the published schemes for which you're eligible.\" The published scheme notices (727/3 point of sale, 727/4 apportionment, 727/5 direct calculation) set out rules some of which have force of law, and you must keep the daily gross takings record and comply with the DGT checklist in your scheme's notice (s6). Permission or notification IS needed in specific cases: above £130 million you must contact HMRC to agree a bespoke retail scheme (s3.2); to use the catering adaptation \"you must notify HMRC\" and may start \"as soon as you receive our acknowledgement\" (s7.5); an early change of scheme needs HMRC approval (s4.2); adjustments for transfers between parts of the business must be agreed with HMRC (s4.1); and \"You must always tell HMRC of changes to your business structure\" (s5.2)."
+    },
+    "notes": "The retail schemes are not a reduced rate or a saving — they are a way of working out output tax when you cannot identify the VAT on every individual sale, typically because you sell to the public at mixed rates. They are commonly confused with the Flat Rate Scheme (Notice 733), which is a different scheme with a much smaller turnover test and which you must apply to join; a retail scheme you simply adopt if eligible. The £130 million ceiling is on tax-exclusive taxable retail turnover and is the point at which the published schemes stop being available at all and a bespoke agreement with HMRC becomes compulsory; the £1 million figures are the separate, much lower ceilings on apportionment scheme 1 and direct calculation scheme 1. Two further traps: a scheme covers retail sales only, so a business with wholesale or trade sales alongside its shop must run normal accounting for that part, and catering normally has to go through the Point of Sale Scheme rather than apportionment. Retail scheme daily gross takings must also be kept digitally under Making Tax Digital (Notice 700/22 s3.5). UK-wide; a VAT accounting method rather than a goods rule, so the Windsor Framework does not bear on it.",
+    "used": []
+  },
+  {
+    "id": "vat-food-and-catering-hot-takeaway",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-05-22",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "VAT On Food, Catering And Hot Takeaway",
+    "official_page": "https://www.gov.uk/guidance/catering-takeaway-food-and-vat-notice-7091",
+    "figures": [
+      {
+        "value": "Zero rate, with two carve-outs",
+        "what": "VATA 1994 Schedule 8 Group 1 — the supply of anything comprised in the general items (item 1: \"Food of a kind used for human consumption\") is zero-rated \"except— (a) a supply in the course of catering; and (b) a supply of anything comprised in any of the excepted items set out below, unless it is also comprised in any of the items overriding the exceptions\". Notice 701/14 s1.3 confirms VATA 1994 s30 and Sch 8 Group 1 as the law",
+        "source": "https://www.legislation.gov.uk/ukpga/1994/23/schedule/8",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Consumption on the premises, and hot takeaway food",
+        "what": "VATA 1994 Sch 8 Group 1 Note (3) — \"A supply of anything in the course of catering includes— (a) any supply of it for consumption on the premises on which it is supplied; and (b) any supply of hot food for consumption off those premises\". Note (3A) — \"the premises on which food is supplied include any area set aside for the consumption of food by that supplier's customers, whether or not the area may also be used by the customers of other suppliers\"",
+        "source": "https://www.legislation.gov.uk/ukpga/1994/23/schedule/8",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Hot at the time provided to the customer, plus any one of five tests",
+        "what": "VATA 1994 Sch 8 Group 1 Note (3B) — \"'Hot food' means food which (or any part of which) is hot at the time it is provided to the customer and— (a) has been heated for the purposes of enabling it to be consumed hot, (b) has been heated to order, (c) has been kept hot after being heated, (d) is provided to a customer in packaging that retains heat (whether or not the packaging was primarily designed for that purpose) or in any other packaging that is specifically designed for hot food, or (e) is advertised or marketed in a way that indicates that it is supplied hot.\" The five tests are alternatives: meeting any one, together with being hot on provision, makes the food standard-rated. Notes (3B) to (3D) were inserted with effect from 1 October 2012 by Finance Act 2012 Sch 26 paras 2(4), 7(1)",
+        "source": "https://www.legislation.gov.uk/ukpga/1994/23/schedule/8",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Above the ambient air temperature",
+        "what": "VATA 1994 Sch 8 Group 1 Note (3C) — \"(a) something is 'hot' if it is at a temperature above the ambient air temperature, and (b) something is 'kept hot' after being heated if the supplier stores it in an environment which provides, applies or retains heat, or takes other steps to ensure it remains hot or to slow down the natural cooling process.\" Note (3D) — references to food being heated include it being cooked or reheated. Notice 709/1 s4.3 states the same ambient-air test and adds that for test (a) \"it's the purpose of the supplier (and not the customer)\" that counts, and that 'freshly baked' marketing does not meet test (e)",
+        "source": "https://www.legislation.gov.uk/ukpga/1994/23/schedule/8",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Always standard-rated",
+        "what": "VAT Notice 709/1 s3.1 — \"You must always charge VAT at the standard rate if you make a supply of food and drink for consumption on the premises.\" s3.2 defines premises as the areas occupied by the food retailer or any area set aside for the consumption of food by its customers; general public seating such as benches in a shopping centre or a picnic area is not included. s2.1 — \"Catering in its ordinary meaning includes the supply of prepared food and drink. It is characterised by a supply involving a significant element of service\"; s2.2 — any food supplied under a contract for catering is standard-rated",
+        "source": "https://www.gov.uk/guidance/catering-takeaway-food-and-vat-notice-7091",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Confectionery — excepted item 2",
+        "what": "VATA 1994 Sch 8 Group 1 excepted item 2 — \"Confectionery, not including cakes or biscuits other than biscuits wholly or partly covered with chocolate or some product similar in taste and appearance.\" Note (5) — \"for the purposes of item 2 of the excepted items 'confectionery' includes chocolates, sweets and biscuits; drained, glacé or crystallised fruits; and any item of sweetened prepared food which is normally eaten with the fingers.\" Items overriding the exceptions 2 and 3 (drained cherries, candied peels) are zero-rated. Notice 701/14 s3.6 adds that confectionery includes items that are inherently sweet, for example certain fruit and cereal bar products",
+        "source": "https://www.legislation.gov.uk/ukpga/1994/23/schedule/8",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Crisps and savoury snacks — excepted item 5",
+        "what": "VATA 1994 Sch 8 Group 1 excepted item 5 — \"Any of the following when packaged for human consumption without further preparation, namely, potato crisps, potato sticks, potato puffs, and similar products made from the potato, or from potato flour, or from potato starch, and savoury food products obtained by the swelling of cereals or cereal products; and salted or roasted nuts other than nuts in shell.\" Notice 701/14 s3.8 — \"Savoury snacks not falling within one or other of these 3 categories are zero-rated\", and gives tortilla chips, corn chips, bagel chips, Twiglets, savoury popcorn, prawn crackers made from cereals, and roasted pulses and legumes as standard-rated, against sliced and dried or roasted vegetables other than potatoes (beetroot, carrot) and tapioca prawn crackers as zero-rated. Roasted or salted nuts are standard-rated even when sold loose",
+        "source": "https://www.legislation.gov.uk/ukpga/1994/23/schedule/8",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Ice cream (item 1), alcoholic drinks (item 3), other beverages (item 4), sports drinks (item 4A), pet food (item 6), home brewing products (item 7)",
+        "what": "VATA 1994 Sch 8 Group 1, remaining excepted items. Item 1 ice cream, ice lollies, frozen yogurt, water ices and similar frozen products and mixes; item 3 beverages chargeable with alcohol duty; item 4 other beverages including fruit juices and bottled waters, and preparations for making them; item 4A sports drinks advertised or marketed as designed to enhance physical performance, accelerate recovery after exercise or build bulk (inserted 1 October 2012 by Finance Act 2012 Sch 26 paras 2(2), 7(1)); item 6 pet foods; item 7 products for domestic brewing and wine making. Items overriding the exceptions 4 to 7 restore the zero rate to tea, maté, herbal teas, cocoa, coffee, chicory and roasted coffee substitutes, milk, and preparations and extracts of meat, yeast or egg",
+        "source": "https://www.legislation.gov.uk/ukpga/1994/23/schedule/8",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Any UK business supplying food or drink: producers, manufacturers, wholesalers and retailers (Notice 701/14 s1.2), and caterers, restaurants, pubs, cafes and takeaways (Notice 709/1). Most food of a kind used for human consumption is zero-rated when it is not supplied in the course of catering (Notice 701/14 s2.2); a product is 'food of a kind used for human consumption' if the average person, knowing what it is and how it is used, would consider it food or drink, and it is fit for human consumption (s2.3).",
+      "excluded": "The zero rate does NOT reach: any supply in the course of catering, which Note (3) defines as including all food and drink supplied for consumption on the premises and all hot food supplied to take away — Notice 701/14 s2.1 says \"You must always standard rate food supplied in the course of catering including hot take-away food\"; and the excepted items — ice cream and similar frozen products, confectionery (apart from cakes and most biscuits), alcoholic drinks, other beverages and preparations for them, sports drinks, potato crisps and listed savoury snacks and salted or roasted nuts, pet food, and home brewing and wine-making products. Equally, the standard rate does NOT catch: cold takeaway food, since retail supplies of cold takeaway food are not catering (Notice 709/1 s2.1) and are zero-rated unless they are an excepted item such as crisps or sweets (s4.1); food that happens to be hot when sold but meets none of the five Note (3B) tests, which stays zero-rated (s4.4) — the notice's example is freshly baked bread and bakery products, and its worked Example 1 is a pasty still hot when sold but left to cool naturally, sold in a standard paper bag and not advertised as hot; food eaten on general public seating such as shopping centre benches or picnic areas, which is not 'premises' (s3.2); and catering in education (s2.6) and in hospitals and similar institutions (s2.7), which is not standard-rated under the s1.3 carve-out. Items overriding the exceptions put the zero rate back for yoghurt unsuitable for immediate consumption when frozen, drained cherries, candied peels, tea, maté, herbal teas, cocoa, coffee, chicory, milk, and preparations and extracts of meat, yeast or egg.",
+      "from_when": "The Group 1 zero rate and the excepted items are long-standing. The current statutory hot food definition in Notes (3B) to (3D), and excepted item 4A for sports drinks, took effect on 1 October 2012 (Finance Act 2012 Sch 26 paras 2(2), 2(4), 7(1)).",
+      "automatic": true,
+      "how_to_claim": "Nothing to claim or apply for. Liability follows the statutory tests, and the supplier must apply them at the point of sale. Where a business sells both standard-rated food for consumption on the premises and zero-rated cold takeaway food, Notice 709/1 s3.3 requires a fair apportionment with evidence kept to support it. Retailers who cannot identify the VAT on each sale may use a VAT retail scheme (Notice 727); catering sales must normally go through the Point of Sale Scheme (Notice 727 s7.1)."
+    },
+    "notes": "Food is zero-rated, which is why people assume all food is VAT-free, but Group 1 opens with two exceptions that do most of the damage: catering, and the excepted items. Catering is not just restaurant service — Note (3) makes it cover anything consumed on the premises and all hot takeaway food, and Note (3A) extends 'premises' to any area the supplier sets aside for customers to eat in, even shared seating in a food court. A takeaway counter and a few tables is therefore two different VAT answers on the same sandwich. The five hot food tests in Note (3B) are alternatives, not cumulative, and four of them are about how the trader behaves rather than the food: heating it so it can be eaten hot, heating it to order, keeping it hot, hot-retaining packaging, or marketing it as hot. 'Hot' is simply above ambient air temperature. So a pasty cooling on an open shelf in a paper bag can be zero-rated while the identical pasty in a foil bag, or under a heat lamp, or advertised as 'hot', is standard-rated — the supplier's purpose counts, not the customer's (Notice 709/1 s4.3). Confectionery and crisps are standard-rated regardless of temperature or location, which is why a cold sandwich takeaway with a packet of crisps and a chocolate bar is a three-rate transaction. Both notices carried a temporary reduced rate of VAT on certain supplies of children's meals from 25 June 2026 to 1 September 2026, which had ended before this entry was verified. This is a UK-wide liability rule based on the nature of the supply, so the Northern Ireland Protocol/Windsor Framework does not bear on it.",
+    "used": []
+  },
+  {
+    "id": "boiler-upgrade-scheme-grant",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-02-28",
+    "brands": [
+      "bham",
+      "en"
+    ],
+    "title": "Boiler Upgrade Scheme Grant",
+    "official_page": "https://www.ofgem.gov.uk/environmental-and-social-schemes/boiler-upgrade-scheme-bus/property-owners",
+    "figures": [
+      {
+        "value": "£7,500",
+        "what": "Grant for an air-to-water heat pump, or a ground source heat pump (including water source and shared ground loop systems)",
+        "source": "https://www.ofgem.gov.uk/environmental-and-social-schemes/boiler-upgrade-scheme-bus/property-owners",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£9,000",
+        "what": "Higher grant for an air-to-water or ground source heat pump in an eligible off-gas-grid property, available 21 July 2026 to 31 March 2027",
+        "source": "https://www.ofgem.gov.uk/environmental-and-social-schemes/boiler-upgrade-scheme-bus",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£5,000",
+        "what": "Grant for a biomass boiler (rural off-gas-grid properties only)",
+        "source": "https://www.ofgem.gov.uk/environmental-and-social-schemes/boiler-upgrade-scheme-bus/property-owners",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£2,500",
+        "what": "Grant for an air-to-air heat pump (residential properties only)",
+        "source": "https://www.ofgem.gov.uk/environmental-and-social-schemes/boiler-upgrade-scheme-bus",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "120 days",
+        "what": "Maximum period the system may have been commissioned before the grant application is properly made",
+        "source": "https://www.ofgem.gov.uk/environmental-and-social-schemes/boiler-upgrade-scheme-bus/property-owners",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "14 calendar days",
+        "what": "Time the property owner has to confirm consent to Ofgem once Ofgem makes contact about the application",
+        "source": "https://www.ofgem.gov.uk/environmental-and-social-schemes/boiler-upgrade-scheme-bus/property-owners",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "England and Wales",
+      "who": "Owners of property in England and Wales who replace an existing fossil fuel or electric heating system with an eligible low-carbon system fitted by an MCS-certified installer. The new system must meet the full space heating and hot water needs of the property.",
+      "excluded": "Social housing, including shared ownership. New build properties, except qualifying self-builds. Properties that have already had government or Energy Company Obligation funding towards the same heat pump or biomass boiler. Hybrid systems. Systems replacing an existing low-carbon system rather than a fossil fuel or electric one. Systems that do not meet the property's full space heating and hot water need. Biomass boilers outside rural properties not connected to the gas grid, biomass in eligible self-builds, and biomass that is not a standalone system providing both space heating and hot water. Air-to-air heat pumps in non-residential buildings. Systems commissioned more than 120 days before the application. Properties in Scotland and Northern Ireland are outside the scheme entirely.",
+      "from_when": "The scheme is open in England and Wales as at 22 November 2026. The higher £9,000 off-gas-grid rate runs from 21 July 2026 to 31 March 2027; the £7,500, £5,000 and £2,500 rates carry no published end date.",
+      "automatic": false,
+      "how_to_claim": "You do not apply yourself. Your chosen MCS-certified installer makes the application to Ofgem on your behalf and takes the grant off your quote as an upfront discount. Ofgem then contacts you and you must confirm your consent within 14 calendar days. Confirming consent does not commit you to that installer."
+    },
+    "notes": "England and Wales only - this is the nation trap on this subject. Scotland has its own separate support through Home Energy Scotland, and Northern Ireland has no equivalent scheme; do not present this as UK-wide. There is no EPC band condition and no loft or cavity wall insulation condition: Ofgem's property owner guidance sets no EPC requirement, and mentions EPCs only as advisory, noting that an EPC's 'changes you could make' section can suggest efficiency improvements and that heat pumps perform best in well-insulated homes. The grant is not cash to the householder - it is a discount the installer claims, so the saving appears on the quote. It is not a boiler grant despite the scheme name: a replacement gas or oil boiler gets nothing. Hybrid systems get nothing. The £9,000 off-gas-grid rate is time-limited and must be re-checked before 31 March 2027.",
+    "used": []
+  },
+  {
+    "id": "flight-delay-and-cancellation-compensation",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-05-31",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Flight Delay And Cancellation Compensation",
+    "official_page": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/delays/",
+    "figures": [
+      {
+        "value": "£220",
+        "what": "Compensation per passenger, flight under 1,500km, arriving more than 3 hours late",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/delays/",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£350",
+        "what": "Compensation per passenger, flight between 1,500km and 3,500km, arriving more than 3 hours late",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/delays/",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£260",
+        "what": "Compensation per passenger, flight over 3,500km, arriving between 3 and 4 hours late",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/delays/",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£520",
+        "what": "Compensation per passenger, flight over 3,500km, arriving more than 4 hours late",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/delays/",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "3 hours",
+        "what": "Minimum late arrival at the destination airport before delay compensation is payable",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/delays/",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "14 days",
+        "what": "Cancellation compensation is payable only where the airline gave less than 14 days' notice of the cancellation",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/cancellations/",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£110 / £175 / £260",
+        "what": "Reduced cancellation compensation (half rate) for the under 1,500km, 1,500-3,500km and over 3,500km bands where notice was 7 to 14 days and the replacement flight arrived within the shorter delay window",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/flight-delays-and-cancellations/cancellations/",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "6 years",
+        "what": "Time limit to bring a court claim in England and Wales, running from the date of the incident",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/travel-complaints/how-the-caa-can-help/",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "5 years",
+        "what": "Time limit to bring a court claim in Scotland, running from the date of the incident",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/travel-complaints/how-the-caa-can-help/",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "8 weeks",
+        "what": "Period after a written complaint to the airline, with no reply or an unsatisfactory reply, after which you can escalate to the CAA's PACT service",
+        "source": "https://www.caa.co.uk/air-passengers/travel-problems-and-rights/travel-complaints/how-the-caa-can-help/",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK-wide (UK261, retained in UK law), and the amounts are the same wherever in the UK the passenger lives",
+      "who": "Passengers on a flight that departs from a UK airport on any airline; or arrives at a UK airport on a UK or EU airline; or arrives at an EU airport on a UK airline. For delays, you must arrive more than 3 hours late at your destination airport. For cancellations, the airline must have given less than 14 days' notice. Compensation is a fixed sum per passenger and depends on the airline being at fault.",
+      "excluded": "Flights with no UK connection of the kind above - for example a flight arriving at a UK airport on a non-UK, non-EU airline, or a flight wholly outside the UK and EU. Delays where you arrive less than 3 hours late. Cancellations notified 14 days or more before departure. Any disruption caused by extraordinary circumstances outside the airline's responsibility, which the CAA gives as severe weather making the flight unsafe to operate, strikes by staff at other organisations such as airports, ground handlers, air traffic control or Border Force, terrorism or sabotage, security risks, political or civil unrest, and manufacturer recalls for hidden defects. Fixed compensation is also reduced or removed where the airline re-routes you close to the original times - no fixed compensation applies if the replacement flight departs up to two hours before, or any time after, the original departure and arrives less than four hours late. Court claims brought more than 6 years after the incident in England and Wales, or more than 5 years in Scotland.",
+      "from_when": "UK261 applies to affected flights now; claims can reach back 6 years in England and Wales and 5 years in Scotland from the date of the incident.",
+      "automatic": false,
+      "how_to_claim": "Claim in writing to the airline direct and free of charge. The airline must explain the cause of the disruption, and if it says extraordinary circumstances applied it must justify that. If you get no reply within 8 weeks, or you are dissatisfied with the reply, escalate to the airline's alternative dispute resolution scheme or to the CAA's Passenger Advice and Complaints Team. Otherwise you can go to court within 6 years (5 in Scotland)."
+    },
+    "notes": "This is UK261 - the EU regulation as retained in UK law - not EU261, though the structure is the same. The compensation amounts are fixed sums in sterling per passenger and are entirely separate from, and on top of, your right to a refund or re-routing and the airline's duty of care (meals, refreshments, accommodation and transport while you wait). An ordinary technical fault is NOT an extraordinary circumstance: the CAA cites Jet2 v Huzar (England, 2014), while KLM v van der Lans (2015) left room for a hidden manufacturing defect or damage from sabotage or terrorism to qualify. Distance is measured for the flight, and the delay that counts is arrival at the destination, not departure. Claim direct - claims companies take a cut of money the airline must pay you anyway. One practical trap: the CAA's PACT service will not take a complaint where there is less than a year left to take legal action, so do not sit on a claim until year five.",
+    "used": []
+  },
+  {
+    "id": "breathing-space-debt-respite-scheme",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-05-31",
+    "brands": [
+      "bham",
+      "en"
+    ],
+    "title": "Breathing Space Debt Respite Scheme",
+    "official_page": "https://www.gov.uk/options-for-dealing-with-your-debts/breathing-space",
+    "figures": [
+      {
+        "value": "60 days",
+        "what": "Maximum length of a standard breathing space; it ends automatically at 60 days unless cancelled earlier",
+        "source": "https://www.gov.uk/government/publications/debt-respite-scheme-breathing-space-guidance/debt-respite-scheme-breathing-space-guidance-for-money-advisers",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Length of treatment plus 30 days",
+        "what": "Length of a mental health crisis breathing space - it runs for as long as the crisis treatment lasts, plus a further 30 days",
+        "source": "https://www.gov.uk/options-for-dealing-with-your-debts/breathing-space",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Days 25 to 35",
+        "what": "Window in which the debt adviser must carry out the mandatory midway review of a standard breathing space",
+        "source": "https://www.gov.uk/government/publications/debt-respite-scheme-breathing-space-guidance/debt-respite-scheme-breathing-space-guidance-for-money-advisers",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "£0",
+        "what": "Cost of applying - applying for breathing space is free, although some debt advisers charge a fee for their wider advice service",
+        "source": "https://www.gov.uk/options-for-dealing-with-your-debts/breathing-space",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "4 May 2021",
+        "what": "Date the Debt Respite Scheme regulations came into force",
+        "source": "https://www.legislation.gov.uk/uksi/2020/1311/regulation/1/made",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "England and Wales only - the regulations expressly extend to England and Wales only and apply to debtors domiciled or ordinarily resident in England or Wales",
+      "who": "An individual with problem debt who lives or is ordinarily resident in England or Wales. The application must go through a debt adviser who is authorised by the Financial Conduct Authority to offer debt counselling, or a local authority providing debt advice to its residents. A representative, for example someone with power of attorney, can apply on the person's behalf. Where someone is receiving mental health crisis treatment and cannot speak to an adviser themselves, another person can do so for them.",
+      "excluded": "People who live outside England and Wales - advisers must not start a breathing space for a client living elsewhere, and Scotland has its own separate statutory solution. On debts, the following are excluded from the protections: secured debts such as a mortgage, hire purchase or conditional sale (only the arrears existing when the application is made are included); debts incurred through fraud; court-imposed fines, including interest, penalties and charges on them; obligations under a confiscation order; child maintenance and obligations under family court orders; social fund crisis loans and budgeting loans; student loans; damages for death or personal injury caused to someone else; advance Universal Credit payments; and council tax not yet fallen due. Some business debts are also excluded where the client is VAT registered or is a partner in a business with someone else.",
+      "from_when": "In force since 4 May 2021 and running now.",
+      "automatic": false,
+      "how_to_claim": "You cannot apply yourself and you cannot apply direct to the government. You must speak to a debt adviser who is FCA-authorised for debt counselling, or a local authority debt advice service; the adviser submits the application for you if breathing space is appropriate. Applying is free."
+    },
+    "notes": "England and Wales only - this is the nation trap. The regulations state in terms that they extend to England and Wales only and apply to debtors domiciled or ordinarily resident in England or Wales. Scotland has a separate statutory debt solution and is not covered by breathing space; Northern Ireland has no equivalent. Do not present this as UK-wide. What it does: for up to 60 days it pauses most enforcement action, stops creditors contacting you about enforcing an included debt, and requires creditors to stop applying interest, fees, penalties and charges on included debts. What it is NOT: it is not a payment holiday and it is not debt write-off. Ongoing liabilities and priority bills must still be paid during the breathing space, and some creditor actions, such as court-approved enforcement, can continue. Two common confusions worth naming: council tax is included once all the year's instalments have fallen due or a reminder notice has been served, and parking tickets are NOT treated as court-imposed fines, so they are not excluded. There is no self-service route - the gate is the FCA-authorised debt adviser or the council's debt advice service, and going through one is free.",
+    "used": []
+  },
+  {
+    "id": "tax-adviser-registration-payroll-only-agents-mmtar",
+    "verified": "2026-11-22",
+    "recheck_after": "2027-01-15",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "Tax Adviser Registration Opens For Payroll-Only Agents",
+    "official_page": "https://www.gov.uk/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
+    "figures": [
+      {
+        "value": "18 November 2026",
+        "what": "Date the registration window opened for businesses providing only third-party payroll services on behalf of clients with no other HMRC interaction",
+        "source": "https://www.gov.uk/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "midnight on 17 February 2027",
+        "what": "Deadline for payroll-only advisers to apply (3 months from the window opening)",
+        "source": "https://www.gov.uk/government/news/tax-adviser-registration-opens-for-payroll-professionals",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "3 months",
+        "what": "Length of the registration window from the date it opens, during which you can keep interacting with HMRC",
+        "source": "https://www.gov.uk/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "31 December 2026",
+        "what": "Window opening date for the next phase: financial services organisations without an agent services account",
+        "source": "https://www.gov.uk/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Free",
+        "what": "Cost of registration; it is an online application for an agent services account (ASA)",
+        "source": "https://www.gov.uk/government/news/tax-adviser-registration-opens-for-payroll-professionals",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Businesses paid to interact with HMRC on someone else's behalf about their tax affairs. The window that opened on 18 November 2026 is for businesses providing only third-party payroll services for clients, with no other HMRC interaction, that do not already hold an agent services account. HMRC states you must register even if you act for only one client, are a registered sole trader, or do not think of yourself as a tax adviser. Businesses based outside the UK must use a separate registration route.",
+      "excluded": "HMRC lists these as not needing to register: acting as an employer or as part of an in-house tax team, for example running payroll for your own staff; dealing with your own company group's tax affairs; giving tax advice for free, for example through a charity or helping friends or family; acting where the law requires it even if paid, for example insolvency practitioners or some pension or investment firms; responding to an HMRC request for information; developing or providing accounting or tax software, including payroll software; interacting with HMRC only on customs or import VAT; acting as a VAT representative; acting as a Northern Ireland tax representative; acting as a UK representative for Vaping Duty; acting as an intermediary for the Import One Stop Shop scheme; representing a client in appeals to a court or tribunal; dealing with business rates, council tax or property valuation. Advisers who already hold an agent services account do not register again, though HMRC may contact them between April 2027 and March 2028 to check conditions.",
+      "from_when": "Window opened 18 November 2026; applications must be made by midnight on 17 February 2027. In force now, not merely announced.",
+      "automatic": false,
+      "how_to_claim": "Use HMRC's online checker to confirm whether and when you must register, check you meet HMRC's registration conditions, then apply online for an agent services account. Once you have a registration number you can continue dealing with HMRC while the application is considered."
+    },
+    "notes": "This is the payroll phase of HMRC's Modernising and Mandating Tax Adviser Registration (MMTAR). It is a phased rollout: 18 May 2026 for unregistered advisers without an ASA, 18 August 2026 for those with a Self Assessment or Corporation Tax account but no ASA, 18 November 2026 for payroll-only advisers, and 31 December 2026 for financial services organisations. Common confusion: this is NOT the same as professional body membership, and it is NOT a replacement for client authorisation (64-8 or digital). It also does NOT re-register existing ASA holders. If you do not register, HMRC says it may limit your ability to act for clients and may take enforcement action including financial penalties. Anyone who has missed a window, or is new to the market, should register now. Reported on the HMRC organisation page on 18 November 2026 and covered in Agent Update issue 149 (19 November 2026). Applies UK-wide because it is an HMRC requirement, with no separate England, Scotland, Wales or Northern Ireland variants, though some Northern Ireland representative roles are among the listed exemptions.",
+    "used": []
+  },
+  {
+    "id": "aeoi-service-closes-15-december-2026",
+    "verified": "2026-11-22",
+    "recheck_after": "2026-12-08",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "AEOI Reporting Service Closes 15 December 2026",
+    "official_page": "https://www.gov.uk/guidance/how-to-report-automatic-exchange-of-information",
+    "figures": [
+      {
+        "value": "3pm on 15 December 2026",
+        "what": "Time and date the existing Automatic Exchange of Information (AEOI) service closes and can no longer be used",
+        "source": "https://www.gov.uk/guidance/how-to-report-automatic-exchange-of-information",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "January 2027",
+        "what": "When the replacement service begins launching in phases, allowing users to sign in and manage their details and financial institutions; report submission follows later in 2027",
+        "source": "https://www.gov.uk/guidance/how-to-report-automatic-exchange-of-information",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 January 2027",
+        "what": "Date from which all XML submissions must use the amended CRS or FATCA schema, including submissions for previous years",
+        "source": "https://www.gov.uk/guidance/how-to-report-automatic-exchange-of-information",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "31 January 2027",
+        "what": "Deadline for Electronic Money Institutions to register for CRS",
+        "source": "https://www.gov.uk/government/publications/agent-update-issue-149/issue-149-of-agent-update",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "UK financial institutions resident in the UK, and the UK-located part of a non-resident financial institution, that report under the Common Reporting Standard (CRS) or FATCA. Each entity is treated as a single financial institution responsible for a yearly return, though a group member can register and report for others in its group and collective investment schemes can report at umbrella or sub-fund level. Anyone with outstanding reports, corrections or amendments must submit them before the service closes.",
+      "excluded": "Businesses that are not UK financial institutions are outside the regime entirely. A non-resident financial institution is in scope only in respect of the part of it located in the UK, and UK branches of overseas institutions report only on the accounts they hold; only UK-held accounts are reported to HMRC, so accounts held outside the UK are not reported here. Existing users of the current service do NOT need to register again for the replacement service. A nil return is normally not required, although HMRC asks you to report if you are in a nil position because of the de minimis threshold on pre-existing accounts. HMRC's full list of non-reporting financial institutions and excluded accounts is in its internal manual at IEIM400600 rather than on this guidance page.",
+      "from_when": "Announced on the guidance page updated 20 November 2026. The closure takes effect at 3pm on 15 December 2026; the amended schema requirement applies from 1 January 2027. This is an operational deadline that is already fixed, not a proposal.",
+      "automatic": false,
+      "how_to_claim": "Nothing to claim. Affected financial institutions must act: submit all outstanding CRS and FATCA reports, corrections and amendments through the existing AEOI service before 3pm on 15 December 2026, and move to the amended CRS or FATCA schema for any submission made on or after 1 January 2027. Electronic Money Institutions that are not yet registered for CRS must register by 31 January 2027."
+    },
+    "notes": "Change announced in an update to HMRC's AEOI reporting guidance on 20 November 2026 and summarised in Agent Update issue 149 on 19 November 2026. The practical point is the hard cut-off: miss 3pm on 15 December 2026 and there is a gap, because the new service launches in phases from January 2027 and report submission only becomes available later in 2027. The combined CRS and FATCA schema is retired after that time, so from 1 January 2027 separate amended CRS and FATCA schemas must be used even for prior-year submissions. Common confusion: this is a change to the reporting service and schema, NOT a change to who must report or to the reporting thresholds, and it is NOT the Cryptoasset Reporting Framework, which is a separate regime with its own 31 May 2027 upload deadline. AEOI is a UK-wide HMRC regime with no separate rules for England, Scotland, Wales or Northern Ireland. The Electronic Money Institutions CRS registration deadline of 31 January 2027 is sourced from Agent Update issue 149, not from the AEOI guidance page, which does not mention it.",
+    "used": []
+  },
+  {
+    "id": "cbam-registration-threshold-50000-january-2027",
+    "verified": "2026-11-22",
+    "recheck_after": "2026-12-20",
+    "brands": [
+      "bham",
+      "en",
+      "ola"
+    ],
+    "title": "CBAM Starts January 2027 With £50,000 Registration Threshold",
+    "official_page": "https://www.gov.uk/guidance/work-out-the-date-youll-need-to-register-for-carbon-border-adjustment-mechanism-cbam",
+    "figures": [
+      {
+        "value": "£50,000",
+        "what": "Value of CBAM goods imported at or above which you must register for the Carbon Border Adjustment Mechanism",
+        "source": "https://www.gov.uk/guidance/work-out-the-date-youll-need-to-register-for-carbon-border-adjustment-mechanism-cbam",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "1 January 2027",
+        "what": "Date from which the CBAM registration tests apply",
+        "source": "https://www.gov.uk/guidance/work-out-the-date-youll-need-to-register-for-carbon-border-adjustment-mechanism-cbam",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Next 30 days",
+        "what": "Forward-looking test: you must register if you expect to import CBAM goods worth £50,000 or more within the next 30 days",
+        "source": "https://www.gov.uk/guidance/work-out-the-date-youll-need-to-register-for-carbon-border-adjustment-mechanism-cbam",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Previous 12 months",
+        "what": "Backward-looking test: on the first day of each month, check whether imports in the previous 12 months reached £50,000",
+        "source": "https://www.gov.uk/guidance/work-out-the-date-youll-need-to-register-for-carbon-border-adjustment-mechanism-cbam",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "Aluminium, cement, fertiliser, hydrogen, and iron and steel",
+        "what": "The sectors CBAM covers from 1 January 2027",
+        "source": "https://www.gov.uk/government/publications/agent-update-issue-149/issue-149-of-agent-update",
+        "read": "2026-11-22"
+      },
+      {
+        "value": "January 2028",
+        "what": "When HMRC says the CBAM registration service opens",
+        "source": "https://www.gov.uk/government/publications/agent-update-issue-149/issue-149-of-agent-update",
+        "read": "2026-11-22"
+      }
+    ],
+    "scope": {
+      "nation": "UK",
+      "who": "Businesses importing CBAM goods into the UK that meet either test from 1 January 2027: the forward-looking test (expecting to import £50,000 or more of CBAM goods within the next 30 days) or the backward-looking test (imports of CBAM goods in the previous 12 months reaching £50,000, checked on the first day of each month). Where both apply, the earliest liability date is the registration start date. From 1 January 2027 CBAM covers aluminium, cement, fertiliser, hydrogen, and iron and steel.",
+      "excluded": "Importers who meet neither test are not required to register: that is, those not expecting to import £50,000 or more of CBAM goods in the next 30 days and whose CBAM imports in the previous 12 months did not reach £50,000. Goods outside the five sectors CBAM covers from 1 January 2027 (aluminium, cement, fertiliser, hydrogen, and iron and steel) are not CBAM goods and do not count. Goods imported before 1 January 2027 are expressly excluded from the 12-month backward-looking calculation.",
+      "from_when": "CBAM applies from 1 January 2027 and the registration tests are first checked on or after that date. HMRC rates and default values were published 16 October 2026 and the registration guidance page was updated 10 November 2026. The registration service itself opens in January 2028, per Agent Update issue 149 (19 November 2026).",
+      "automatic": false,
+      "how_to_claim": "Nothing to claim. Importers must monitor both threshold tests from 1 January 2027 and register when a test is met. Because HMRC says the registration service does not open until January 2028, importers should work out and record their liability date now and watch for HMRC's registration service going live rather than assume they can register on day one."
+    },
+    "notes": "The UK Carbon Border Adjustment Mechanism starts on 1 January 2027, and was restated in Agent Update issue 149 on 19 November 2026; the registration date guidance page was last updated 10 November 2026. The practical trap is the gap between liability and registration: liability can start from 1 January 2027 but HMRC says the registration service does not open until January 2028, so an importer can be liable well before it is able to register, and should calculate and keep evidence of its liability date in the meantime. A second trap is the backward-looking test, which is checked on the first day of every month, not once a year, so a business can cross the threshold mid-year. Common confusion: the UK CBAM is NOT the EU CBAM, which has its own separate scope, thresholds and timetable, so an importer trading both ways has two regimes to meet. Note also that the registration guidance page states the £50,000 threshold and the two tests but does not itself list the goods in scope or any further exemptions beyond the threshold; the five sectors come from Agent Update issue 149, and detailed classification sits in HMRC's separate CBAM technical guidance, which should be checked for the specific commodity codes before advising a client. CBAM is a UK-wide customs and import measure.",
+    "used": []
   }
 ]
