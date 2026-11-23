@@ -1,0 +1,52 @@
+{
+ "en-01-tip": {
+  "caption": "It is never a convenient week when it happens. A lender wants the last few years of accounts by Friday. A landlord wants proof of income before he will take the lease seriously. Somebody interested in buying the business wants all of it at once. If the paperwork lives in a loft, a laptop and two old email accounts, that is an evening gone, and usually a worried one. We keep what we file for you, in order and in one place, and we can send it on the day you ask. There is nothing clever about it. It is simply the part that hurts when nobody has done it.",
+  "ask": "Share this with whoever you would ring if a lender asked you for paperwork tomorrow.",
+  "title": "The day somebody asks you for your accounts"
+ },
+ "en-02-acq": {
+  "caption": "Plenty of owners still choose an accountant by how far they have to drive. That made sense once. It does not now. We look after limited companies, sole traders, people working under CIS and small payrolls right across the UK - England, Scotland, Wales and Northern Ireland. You send us what you have, we ask for what we need, and we go through it together on a call or a screen share. Nothing in your year has to sit in an envelope waiting for a postbox, and no afternoon has to be given up to a meeting you could have had from your own kitchen. If that is how you would rather work, say hello.",
+  "ask": "Share this with somebody who thinks their accountant has to be local.",
+  "title": "Your accountant does not have to be local"
+ },
+ "en-03-acq": {
+  "caption": "The commonest reason people put off changing accountant is not the money. It is the idea that they ought to present something tidy first, as though there were a standard of readiness you have to reach before you are allowed to ask. There is not. Send us whatever exists. If that is a folder, good. If it is a login and a rough memory of what happened last year, that is a starting point too. We work out what is missing and ask for it one piece at a time, in an order that makes sense, and we sit on the phone to HMRC ourselves instead of sending you to queue. The first thirty minutes are free, and they are a conversation rather than a pitch.",
+  "ask": "Send this to anyone who thinks they have to tidy up before they ask for help.",
+  "title": "You do not have to tidy up before you change accountant"
+ },
+ "en-04-acq": {
+  "caption": "Three sets of people who have never spoken to each other: one does the company accounts, one runs the payroll, one does your personal return. All three ask you for the same bank statements. All three know a third of the picture. We do the lot, which means the figures agree with one another and you only have to explain yourself once. It sounds like a small thing right up until the year you need an answer quickly.",
+  "ask": "Share this with the owner who forwards the same email to three people.",
+  "title": "One firm for the company, the payroll and you"
+ },
+ "en-05-edu": {
+  "caption": "If a notice to file has landed, or you worked for yourself, or rent or dividends came in, or you sold something at a gain, then 31 January 2027 is your date. If none of that is you and nothing has arrived from HMRC, it is not - plenty of people worry about a deadline that was never theirs. For everybody else, three separate things fall due that day, all of them by 11:59pm. The 2025/26 return has to be filed. The tax owed on it has to be paid. And on the same day, a first payment towards 2026/27, worked out as half of last year's bill. Paying is not the same as filing: a return that goes in late carries a penalty of its own even when the money is already there. Two things stop the payment on account. If last year's Self Assessment bill came to under £1,000, none is due. Nor is any due if more than 80% of last year's tax was already collected at source, through PAYE for instance.",
+  "ask": "Save this - in January you will want the 11:59pm and the £1,000 in front of you.",
+  "title": "Three things fall due on 31 January, not one"
+ },
+ "en-06-edu": {
+  "caption": "A lot of directors believe that the moment profits pass £50,000, the whole lot is taxed at 25%. They are usually relieved to find out otherwise. Profits of £50,000 or less are charged at 19%, the small profits rate. Profits over £250,000 are charged at the main rate of 25%. Between the two, Marginal Relief tapers the rate up from one to the other, so the effective rate climbs gradually rather than falling off a cliff at £50,001. Two groups do not get it: companies that are not resident in the UK, and close investment-holding companies. And if you hold several companies, those £50,000 and £250,000 limits get divided between them, which catches directors out far more often than the rates themselves do.",
+  "ask": "Save this before you decide whether to take the extra work on.",
+  "title": "No, 25% does not land on your whole profit"
+ },
+ "en-07-edu": {
+  "caption": "This one catches a particular sort of company, and if it is not yours you can stop reading with a clear conscience. If your company borrowed money from you, or from a family member, and pays interest on that loan, it cannot simply hand over the full amount. It has to hold back 20% basic rate Income Tax, pay that over to HMRC, and report it on a form called CT61 - within 14 days of the end of each return period. For the period ending 31 December 2026, that means 14 January 2027. Nothing in the payroll or VAT cycle prompts you, which is why this is the deadline owner-managed companies miss most. You then show the gross interest and the tax credit on your own return. And if the interest goes to a UK bank, or to another UK company, or to a charity or an approved pension fund, none of it applies - which is why most companies never meet the form at all.",
+  "ask": "Save this if your company pays interest to a person rather than a bank.",
+  "title": "Your company pays you interest? Hold back 20%"
+ },
+ "en-08-joke": {
+  "caption": "Nobody sets out to mix the two. It happens because the nearest card wins, and because at half past four with the van running you are not thinking about who owns the coffee. Then the year ends and somebody goes down a bank statement line by line, in the evening, deciding which sandwich was work. One card for the business, and only the business, takes that whole job away. It also means that when you finally look at what the business spent, you are looking at the business, and not at a fortnight of family shopping in March.",
+  "ask": "Share this with anyone who owns two bank cards and one wallet.",
+  "title": "One wallet, two cards, and a coin toss at the till"
+ },
+ "en-09-joke": {
+  "caption": "Thirty days, it says on the invoice. Thirty days from when, exactly, turns out to be a matter of interpretation at their end. This is the part of running a business that nobody warns you about: you can be busy, profitable on paper, and still unable to pay your own bills, because the money that proves you are profitable is sitting in somebody else's account. Knowing what is owed to you, and how old each of it is, is not admin. It is the difference between a good year and a frightening one.",
+  "ask": "Share this with somebody who is still waiting to be paid.",
+  "title": "Your invoice says 30 days. Their calendar disagrees"
+ },
+ "en-10-quote": {
+  "caption": "Thoreau was not against hard work. He was against hard work that nobody has asked the purpose of. Busy is easy. Busy is the default setting of anybody running their own business - the day fills itself, and at the end of it you have certainly moved, without having necessarily moved forward. The question underneath is a business question as much as a philosophical one: of everything you did today, how much of it was the work, and how much of it was motion? Worth a minute of a dark evening.",
+  "ask": "Share this with somebody who has been flat out all week.",
+  "title": "Busy is easy. Busy at what is the real question"
+ }
+}

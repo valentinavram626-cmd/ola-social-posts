@@ -1,0 +1,662 @@
+{
+ "ola-ro-01-tip": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "tip",
+  "slot": "Gândul zilei",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Ai început de la zero, departe de casă. Nu e un lucru mic.",
+  "title": "Primul an e cel în care înveți totul pe rând",
+  "caption_full": "Primul an e cel în care înveți totul pe rând: cum se face o factură, de ce te sună banca, ce înseamnă un termen pe care nu l-ai mai văzut până atunci. Nimeni nu îți explică nimic la început și totuși mergi înainte. Pe 1 Decembrie ne gândim la toți românii care au ridicat ceva aici, de la o camionetă și o trusă de scule la o firmă cu angajați. Dacă ești unul dintre ei, munca ta are o valoare care nu se vede în niciun tabel. Partea cu tabelele o luăm noi.\n\nTrimite postarea unui om care a început aici de la zero.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Primul an e cel în care înveți totul pe rând: cum se face o factură, de ce te sună banca, ce înseamnă un termen pe care nu l-ai mai văzut până atunci. Nimeni nu îți explică nimic la început și totuși mergi înainte. Pe 1 Decembrie ne gândim la toți românii care au ridicat ceva aici, de la o camionetă și o trusă de scule la o firmă cu angajați. Dacă ești unul dintre ei, munca ta are o valoare care nu se vede în niciun tabel. Partea cu tabelele o luăm noi.\n\nTrimite postarea unui om care a început aici de la zero.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "Primul an e cel în care înveți totul pe rând: cum se face o factură, de ce te sună banca, ce înseamnă un termen pe care nu l-ai mai văzut până atunci. Nimeni nu îți explică nimic la început și totuși mergi înainte. Pe 1 Decembrie ne gândim la toți românii care au ridicat ceva aici, de la o camionetă și o trusă de scule la o firmă cu angajați. Dacă ești unul dintre ei, munca ta are o valoare care nu se vede în niciun tabel. Partea cu tabelele o luăm noi.",
+  "ask": "Trimite postarea unui om care a început aici de la zero.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-01-tip-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-01-tip-story.png",
+  "threads_text": "Primul an e cel în care înveți totul pe rând: cum se face o factură, de ce te sună banca, ce înseamnă un termen pe care nu l-ai mai văzut până atunci. Nimeni nu îți explică nimic la început și totuși mergi înainte. Pe 1 Decembrie ne gândim la toți românii care au ridicat ceva aici, de la o camionetă și o trusă de scule la o firmă cu angajați. Dacă ești unul dintre ei, munca ta are o valoare care nu se vede în niciun tabel.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil."
+ },
+ "ola-ro-02-acq": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "acq",
+  "slot": "Vino la Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Schimbi contabilul fără discuția incomodă cu cel de dinainte.",
+  "title": "Schimbi contabilul fără discuția incomodă",
+  "caption_full": "Cel mai greu lucru la schimbarea contabilului nu e hârtia. E discuția cu cel de dinainte. Pe asta o purtăm noi: scriem professional clearance letter, îi cerem actele firmei tale și le punem cap la cap. Tu semnezi o dată și nu mai ai de dat nicio explicație nimănui. Prima discuție e gratuită și durează 30 de minute. Birourile sunt în Luton și în Birmingham, iar termenele le urmărim noi, ca să nu le mai ții tu minte.\n\nSalvează postarea pentru ziua în care te hotărăști.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Cel mai greu lucru la schimbarea contabilului nu e hârtia. E discuția cu cel de dinainte. Pe asta o purtăm noi: scriem professional clearance letter, îi cerem actele firmei tale și le punem cap la cap. Tu semnezi o dată și nu mai ai de dat nicio explicație nimănui. Prima discuție e gratuită și durează 30 de minute. Birourile sunt în Luton și în Birmingham, iar termenele le urmărim noi, ca să nu le mai ții tu minte.\n\nSalvează postarea pentru ziua în care te hotărăști.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "Cel mai greu lucru la schimbarea contabilului nu e hârtia. E discuția cu cel de dinainte. Pe asta o purtăm noi: scriem professional clearance letter, îi cerem actele firmei tale și le punem cap la cap. Tu semnezi o dată și nu mai ai de dat nicio explicație nimănui. Prima discuție e gratuită și durează 30 de minute. Birourile sunt în Luton și în Birmingham, iar termenele le urmărim noi, ca să nu le mai ții tu minte.",
+  "ask": "Salvează postarea pentru ziua în care te hotărăști.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-02-acq-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-02-acq-story.png",
+  "threads_text": "Cel mai greu lucru la schimbarea contabilului nu e hârtia. E discuția cu cel de dinainte. Pe asta o purtăm noi: scriem professional clearance letter, îi cerem actele firmei tale și le punem cap la cap. Tu semnezi o dată și nu mai ai de dat nicio explicație nimănui. Prima discuție e gratuită și durează 30 de minute. Birourile sunt în Luton și în Birmingham, iar termenele le urmărim noi, ca să nu le mai ții tu minte.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil."
+ },
+ "ola-ro-03-acq": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "acq",
+  "slot": "Vino la Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Întrebi ceva și îți răspunde un om, în română.",
+  "title": "Un răspuns în cuvinte normale, nu un e-mail de trei paragrafe",
+  "caption_full": "L-ai întrebat pe contabil ceva simplu și ai primit un e-mail de trei paragrafe din care nu ai înțeles nimic? Se întâmplă des și nu e vina ta. Noi avem o regulă: dacă un răspuns nu încape în două propoziții, ți-l spunem la telefon, nu în scris. Iar dacă nu știm pe loc, îți spunem că verificăm și revenim cu un termen, nu îți dăm jumătate de răspuns ca să închidem discuția. Birourile sunt în Luton și în Birmingham, dar cei mai mulți clienți nu trec niciodată pe la noi: rezolvăm tot pe WhatsApp.\n\nDă mai departe cuiva care nu are pe cine să întrebe.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "L-ai întrebat pe contabil ceva simplu și ai primit un e-mail de trei paragrafe din care nu ai înțeles nimic? Se întâmplă des și nu e vina ta. Noi avem o regulă: dacă un răspuns nu încape în două propoziții, ți-l spunem la telefon, nu în scris. Iar dacă nu știm pe loc, îți spunem că verificăm și revenim cu un termen, nu îți dăm jumătate de răspuns ca să închidem discuția. Birourile sunt în Luton și în Birmingham, dar cei mai mulți clienți nu trec niciodată pe la noi: rezolvăm tot pe WhatsApp.\n\nDă mai departe cuiva care nu are pe cine să întrebe.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "L-ai întrebat pe contabil ceva simplu și ai primit un e-mail de trei paragrafe din care nu ai înțeles nimic? Se întâmplă des și nu e vina ta. Noi avem o regulă: dacă un răspuns nu încape în două propoziții, ți-l spunem la telefon, nu în scris. Iar dacă nu știm pe loc, îți spunem că verificăm și revenim cu un termen, nu îți dăm jumătate de răspuns ca să închidem discuția. Birourile sunt în Luton și în Birmingham, dar cei mai mulți clienți nu trec niciodată pe la noi: rezolvăm tot pe WhatsApp.",
+  "ask": "Dă mai departe cuiva care nu are pe cine să întrebe.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-03-acq-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-03-acq-story.png",
+  "threads_text": "L-ai întrebat pe contabil ceva simplu și ai primit un e-mail de trei paragrafe din care nu ai înțeles nimic? Se întâmplă des și nu e vina ta. Noi avem o regulă: dacă un răspuns nu încape în două propoziții, ți-l spunem la telefon, nu în scris. Iar dacă nu știm pe loc, îți spunem că verificăm și revenim cu un termen, nu îți dăm jumătate de răspuns ca să închidem discuția.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil."
+ },
+ "ola-ro-04-acq": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "acq",
+  "slot": "Vino la Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Prima discuție e gratuită și durează 30 de minute.",
+  "title": "Ce se întâmplă în primele 30 de minute, gratuit",
+  "caption_full": "Treizeci de minute sunt de ajuns ca să afli unde stai. Ca să nu le pierdem pe întrebări de bază, ajută dacă ai la îndemână numărul firmei de la Companies House, ultimele conturi depuse și o idee despre cât ai încasat anul acesta. Dacă nu le ai, nu e o problemă, le căutăm împreună. La final primești în scris ce urmează, până când și cine face fiecare lucru. Iar dacă hotărăști că nu e pentru tine, rămâi cu lucrurile limpezi și cu o listă cu ce ai de făcut.\n\nSalvează postarea și scrie-ne când ai 30 de minute libere.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Treizeci de minute sunt de ajuns ca să afli unde stai. Ca să nu le pierdem pe întrebări de bază, ajută dacă ai la îndemână numărul firmei de la Companies House, ultimele conturi depuse și o idee despre cât ai încasat anul acesta. Dacă nu le ai, nu e o problemă, le căutăm împreună. La final primești în scris ce urmează, până când și cine face fiecare lucru. Iar dacă hotărăști că nu e pentru tine, rămâi cu lucrurile limpezi și cu o listă cu ce ai de făcut.\n\nSalvează postarea și scrie-ne când ai 30 de minute libere.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "Treizeci de minute sunt de ajuns ca să afli unde stai. Ca să nu le pierdem pe întrebări de bază, ajută dacă ai la îndemână numărul firmei de la Companies House, ultimele conturi depuse și o idee despre cât ai încasat anul acesta. Dacă nu le ai, nu e o problemă, le căutăm împreună. La final primești în scris ce urmează, până când și cine face fiecare lucru. Iar dacă hotărăști că nu e pentru tine, rămâi cu lucrurile limpezi și cu o listă cu ce ai de făcut.",
+  "ask": "Salvează postarea și scrie-ne când ai 30 de minute libere.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-04-acq-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-04-acq-story.png"
+ },
+ "ola-ro-05-edu": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "edu",
+  "slot": "Educație financiară cu Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "La petrecerea de Crăciun pentru angajați, VAT-ul se recuperează.",
+  "title": "Două mese de Crăciun, două tratamente diferite",
+  "caption_full": "Decembrie aduce două mese care arată la fel pe extrasul de cont și se tratează complet diferit. Masa de Crăciun a echipei: VAT-ul se cere înapoi, iar directorii pot sta la aceeași masă cu angajații, fără să se schimbe nimic. Masa cu un client sau cu un partener de afaceri: VAT-ul nu se recuperează, oricât de mult ar semăna cu munca. Nici masa la care stau numai directorii nu dă drept de recuperare. Iar dacă la eveniment vin și angajați și invitați din afară, se recuperează numai partea angajaților. Două condiții fără care nimic din toate acestea nu se aplică: firma trebuie să fie înregistrată în VAT și să ceară suma prin VAT Return, iar tu trebuie să ai factura cu VAT, nu doar bonul de card.\n\nSalvează postarea înainte să rezervi masa.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Decembrie aduce două mese care arată la fel pe extrasul de cont și se tratează complet diferit. Masa de Crăciun a echipei: VAT-ul se cere înapoi, iar directorii pot sta la aceeași masă cu angajații, fără să se schimbe nimic. Masa cu un client sau cu un partener de afaceri: VAT-ul nu se recuperează, oricât de mult ar semăna cu munca. Nici masa la care stau numai directorii nu dă drept de recuperare. Iar dacă la eveniment vin și angajați și invitați din afară, se recuperează numai partea angajaților. Două condiții fără care nimic din toate acestea nu se aplică: firma trebuie să fie înregistrată în VAT și să ceară suma prin VAT Return, iar tu trebuie să ai factura cu VAT, nu doar bonul de card.\n\nSalvează postarea înainte să rezervi masa.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "Decembrie aduce două mese care arată la fel pe extrasul de cont și se tratează complet diferit. Masa de Crăciun a echipei: VAT-ul se cere înapoi, iar directorii pot sta la aceeași masă cu angajații, fără să se schimbe nimic. Masa cu un client sau cu un partener de afaceri: VAT-ul nu se recuperează, oricât de mult ar semăna cu munca. Nici masa la care stau numai directorii nu dă drept de recuperare. Iar dacă la eveniment vin și angajați și invitați din afară, se recuperează numai partea angajaților. Două condiții fără care nimic din toate acestea nu se aplică: firma trebuie să fie înregistrată în VAT și să ceară suma prin VAT Return, iar tu trebuie să ai factura cu VAT, nu doar bonul de card.",
+  "ask": "Salvează postarea înainte să rezervi masa.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-05-edu-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-05-edu-story.png"
+ },
+ "ola-ro-06-edu": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "edu",
+  "slot": "Educație financiară cu Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Pe 25, 28 decembrie și 1 ianuarie băncile nu lucrează.",
+  "title": "Băncile stau trei zile între Crăciun și Anul Nou",
+  "caption_full": "Între Crăciun și Anul Nou sunt trei bank holidays, iar asta mută toate plățile. Pe 25 și pe 28 decembrie 2026 și pe 1 ianuarie 2027 băncile nu lucrează, în Anglia, în Țara Galilor, în Scoția și în Irlanda de Nord. Luni, 4 ianuarie 2027, mai este un bank holiday, dar numai în Scoția: în Anglia, în Țara Galilor și în Irlanda de Nord e zi normală. Ce înseamnă asta pentru tine: contează ziua în care banii intră în contul HMRC, nu ziua în care i-ai trimis tu. Pornește de la termen și numără înapoi, nu de la ziua în care voiai să plătești. Și dacă ai angajați, hotărăște din timp ziua de salariu din decembrie.\n\nSalvează datele astea, îți trebuie în decembrie.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Între Crăciun și Anul Nou sunt trei bank holidays, iar asta mută toate plățile. Pe 25 și pe 28 decembrie 2026 și pe 1 ianuarie 2027 băncile nu lucrează, în Anglia, în Țara Galilor, în Scoția și în Irlanda de Nord. Luni, 4 ianuarie 2027, mai este un bank holiday, dar numai în Scoția: în Anglia, în Țara Galilor și în Irlanda de Nord e zi normală. Ce înseamnă asta pentru tine: contează ziua în care banii intră în contul HMRC, nu ziua în care i-ai trimis tu. Pornește de la termen și numără înapoi, nu de la ziua în care voiai să plătești. Și dacă ai angajați, hotărăște din timp ziua de salariu din decembrie.\n\nSalvează datele astea, îți trebuie în decembrie.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "Între Crăciun și Anul Nou sunt trei bank holidays, iar asta mută toate plățile. Pe 25 și pe 28 decembrie 2026 și pe 1 ianuarie 2027 băncile nu lucrează, în Anglia, în Țara Galilor, în Scoția și în Irlanda de Nord. Luni, 4 ianuarie 2027, mai este un bank holiday, dar numai în Scoția: în Anglia, în Țara Galilor și în Irlanda de Nord e zi normală. Ce înseamnă asta pentru tine: contează ziua în care banii intră în contul HMRC, nu ziua în care i-ai trimis tu. Pornește de la termen și numără înapoi, nu de la ziua în care voiai să plătești. Și dacă ai angajați, hotărăște din timp ziua de salariu din decembrie.",
+  "ask": "Salvează datele astea, îți trebuie în decembrie.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-06-edu-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-06-edu-story.png"
+ },
+ "ola-ro-07-edu": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "edu",
+  "slot": "Educație financiară cu Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "De la 1 decembrie, benzină până la 1400cc: 16p pe milă.",
+  "title": "Baremul pe milă pentru mașina firmei se schimbă",
+  "caption_full": "Un om din firma ta face 400 de mile cu mașina companiei în decembrie, o benzină de 1.4. La 16p pe milă îi dai 64 de lire pentru combustibil și nu apare nici venit impozabil, nici National Insurance. Asta fac baremele acestea. De la 1 decembrie 2026, benzină: 16p până la 1400cc, 19p între 1401 și 2000cc, 29p peste 2000cc. Diesel: 16p până la 1600cc, 18p între 1601 și 2000cc, 25p peste 2000cc. LPG: 11p, 13p și 20p pe aceleași trepte. Complet electric: 7p la încărcare acasă, 15p la încărcare publică. Dacă plătești mai mult decât baremul și nu poți arăta un cost real mai mare pe milă, diferența devine venit impozabil. Baremul vechi mai poate fi folosit încă o lună după 1 decembrie 2026. Două lucruri pe care tabelul nu le acoperă: camionetele, care nu au barem aici, și un motor în afara treptelor de mai sus, pentru care rămâne doar costul tău real pe milă, dovedit cu documente. Iar cine e self-employed nu folosește baremul acesta niciodată.\n\nSalvează lista, o să-ți trebuiască la următoarea rambursare.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Un om din firma ta face 400 de mile cu mașina companiei în decembrie, o benzină de 1.4. La 16p pe milă îi dai 64 de lire pentru combustibil și nu apare nici venit impozabil, nici National Insurance. Asta fac baremele acestea. De la 1 decembrie 2026, benzină: 16p până la 1400cc, 19p între 1401 și 2000cc, 29p peste 2000cc. Diesel: 16p până la 1600cc, 18p între 1601 și 2000cc, 25p peste 2000cc. LPG: 11p, 13p și 20p pe aceleași trepte. Complet electric: 7p la încărcare acasă, 15p la încărcare publică. Dacă plătești mai mult decât baremul și nu poți arăta un cost real mai mare pe milă, diferența devine venit impozabil. Baremul vechi mai poate fi folosit încă o lună după 1 decembrie 2026. Două lucruri pe care tabelul nu le acoperă: camionetele, care nu au barem aici, și un motor în afara treptelor de mai sus, pentru care rămâne doar costul tău real pe milă, dovedit cu documente. Iar cine e self-employed nu folosește baremul acesta niciodată.\n\nSalvează lista, o să-ți trebuiască la următoarea rambursare.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "Un om din firma ta face 400 de mile cu mașina companiei în decembrie, o benzină de 1.4. La 16p pe milă îi dai 64 de lire pentru combustibil și nu apare nici venit impozabil, nici National Insurance. Asta fac baremele acestea. De la 1 decembrie 2026, benzină: 16p până la 1400cc, 19p între 1401 și 2000cc, 29p peste 2000cc. Diesel: 16p până la 1600cc, 18p între 1601 și 2000cc, 25p peste 2000cc. LPG: 11p, 13p și 20p pe aceleași trepte. Complet electric: 7p la încărcare acasă, 15p la încărcare publică. Dacă plătești mai mult decât baremul și nu poți arăta un cost real mai mare pe milă, diferența devine venit impozabil. Baremul vechi mai poate fi folosit încă o lună după 1 decembrie 2026. Două lucruri pe care tabelul nu le acoperă: camionetele, care nu au barem aici, și un motor în afara treptelor de mai sus, pentru care rămâne doar costul tău real pe milă, dovedit cu documente. Iar cine e self-employed nu folosește baremul acesta niciodată.",
+  "ask": "Salvează lista, o să-ți trebuiască la următoarea rambursare.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-07-edu-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-07-edu-story.png"
+ },
+ "ola-ro-08-joke": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "joke",
+  "slot": "Gluma zilei",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "A ridicat punga de la magazin.",
+  "title": "Punga cu bonuri și de ce hârtia se face albă",
+  "caption_full": "Punga de supermarket plină de bonuri e un clasic și nu o judecăm. Dar problema nu e punga: pe un bon de casă nu există cerneală. Hârtia e acoperită cu un strat care se închide la căldură, iar același strat se estompează în câteva luni, mai ales într-o mașină caldă sau la lumină. Un bon uitat în torpedou peste vară poate ajunge o foaie albă. De aceea poza făcută în ziua cumpărării valorează mai mult decât bonul în sine. Scrie pe ea, într-un cuvânt, ce ai luat și pentru ce. Când punem cifrele cap la cap, ai dovada, nu o amintire.\n\nDă mai departe cuiva care are punga aceea în mașină.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Punga de supermarket plină de bonuri e un clasic și nu o judecăm. Dar problema nu e punga: pe un bon de casă nu există cerneală. Hârtia e acoperită cu un strat care se închide la căldură, iar același strat se estompează în câteva luni, mai ales într-o mașină caldă sau la lumină. Un bon uitat în torpedou peste vară poate ajunge o foaie albă. De aceea poza făcută în ziua cumpărării valorează mai mult decât bonul în sine. Scrie pe ea, într-un cuvânt, ce ai luat și pentru ce. Când punem cifrele cap la cap, ai dovada, nu o amintire.\n\nDă mai departe cuiva care are punga aceea în mașină.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "Punga de supermarket plină de bonuri e un clasic și nu o judecăm. Dar problema nu e punga: pe un bon de casă nu există cerneală. Hârtia e acoperită cu un strat care se închide la căldură, iar același strat se estompează în câteva luni, mai ales într-o mașină caldă sau la lumină. Un bon uitat în torpedou peste vară poate ajunge o foaie albă. De aceea poza făcută în ziua cumpărării valorează mai mult decât bonul în sine. Scrie pe ea, într-un cuvânt, ce ai luat și pentru ce. Când punem cifrele cap la cap, ai dovada, nu o amintire.",
+  "ask": "Dă mai departe cuiva care are punga aceea în mașină.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-08-joke-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-08-joke-story.png",
+  "threads_text": "Punga de supermarket plină de bonuri e un clasic și nu o judecăm. Dar problema nu e punga: pe un bon de casă nu există cerneală. Hârtia e acoperită cu un strat care se închide la căldură, iar același strat se estompează în câteva luni, mai ales într-o mașină caldă sau la lumină. Un bon uitat în torpedou peste vară poate ajunge o foaie albă. De aceea poza făcută în ziua cumpărării valorează mai mult decât bonul în sine.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil."
+ },
+ "ola-ro-09-joke": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "joke",
+  "slot": "Gluma serii",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Mă sună pe 31 ianuarie, seara.",
+  "title": "Promite din vară, sună în ultima seară din ianuarie",
+  "caption_full": "Toți spunem că anul ăsta facem actele din vară. Apoi vine ultima seară și sună telefonul. Cine așteaptă nu pierde bani. Pierde variante. În noiembrie mai ai timp să cauți o factură care nu se găsește, să întrebi dacă o cheltuială se trece sau nu, să strângi banii pe îndelete, să corectezi ceva scăpat anul trecut. Pe 31 ianuarie, seara, nu mai ai niciuna dintre variantele acestea. Ai doar suma.\n\nDă mai departe prietenului care spune mereu „săptămâna viitoare”.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Toți spunem că anul ăsta facem actele din vară. Apoi vine ultima seară și sună telefonul. Cine așteaptă nu pierde bani. Pierde variante. În noiembrie mai ai timp să cauți o factură care nu se găsește, să întrebi dacă o cheltuială se trece sau nu, să strângi banii pe îndelete, să corectezi ceva scăpat anul trecut. Pe 31 ianuarie, seara, nu mai ai niciuna dintre variantele acestea. Ai doar suma.\n\nDă mai departe prietenului care spune mereu „săptămâna viitoare”.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "Toți spunem că anul ăsta facem actele din vară. Apoi vine ultima seară și sună telefonul. Cine așteaptă nu pierde bani. Pierde variante. În noiembrie mai ai timp să cauți o factură care nu se găsește, să întrebi dacă o cheltuială se trece sau nu, să strângi banii pe îndelete, să corectezi ceva scăpat anul trecut. Pe 31 ianuarie, seara, nu mai ai niciuna dintre variantele acestea. Ai doar suma.",
+  "ask": "Dă mai departe prietenului care spune mereu „săptămâna viitoare”.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-09-joke-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-09-joke-story.png"
+ },
+ "ola-ro-10-quote": {
+  "set": "ola-ro",
+  "brand": "ola",
+  "kind": "quote",
+  "slot": "Citatul serii",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "În timp ce amânăm, viața trece în grabă.",
+  "title": "În timp ce amânăm, viața trece",
+  "caption_full": "Un gând de seară, de la un om care scria despre timp acum două mii de ani. Amânarea nu oprește nimic: ziua trece oricum, cu lucrul făcut sau nefăcut. Seneca i-a scris asta unui prieten și de atunci nu s-a schimbat mare lucru. Dacă e ceva ce tot muți de pe o săptămână pe alta, poate ăsta e semnul.\n\nTrimite citatul cuiva care amână de prea mult timp.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Un gând de seară, de la un om care scria despre timp acum două mii de ani. Amânarea nu oprește nimic: ziua trece oricum, cu lucrul făcut sau nefăcut. Seneca i-a scris asta unui prieten și de atunci nu s-a schimbat mare lucru. Dacă e ceva ce tot muți de pe o săptămână pe alta, poate ăsta e semnul.\n\nTrimite citatul cuiva care amână de prea mult timp.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil.",
+  "caption_bare": "Un gând de seară, de la un om care scria despre timp acum două mii de ani. Amânarea nu oprește nimic: ziua trece oricum, cu lucrul făcut sau nefăcut. Seneca i-a scris asta unui prieten și de atunci nu s-a schimbat mare lucru. Dacă e ceva ce tot muți de pe o săptămână pe alta, poate ăsta e semnul.",
+  "ask": "Trimite citatul cuiva care amână de prea mult timp.",
+  "disc": "Informații generale. Pentru situația ta, vorbește cu un contabil.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-10-quote-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-ro-10-quote-story.png",
+  "threads_text": "Un gând de seară, de la un om care scria despre timp acum două mii de ani. Amânarea nu oprește nimic: ziua trece oricum, cu lucrul făcut sau nefăcut. Seneca i-a scris asta unui prieten și de atunci nu s-a schimbat mare lucru. Dacă e ceva ce tot muți de pe o săptămână pe alta, poate ăsta e semnul.\n\nInformații generale. Pentru situația ta, vorbește cu un contabil."
+ },
+ "ola-en-01-tip": {
+  "set": "ola-en",
+  "brand": "ola",
+  "kind": "tip",
+  "slot": "Thought of the day",
+  "sizes": [
+   "feed"
+  ],
+  "alt": "Write down what this year taught you while you can still remember.",
+  "title": "What this year taught you, on one page",
+  "caption_full": "By February most of what this year taught you will be gone, because nobody writes it down. Do it now, while the year is still in your head, and keep the page somewhere you will actually look in January.\n\nSave this and give it a quiet evening before December fills up.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "By February most of what this year taught you will be gone, because nobody writes it down. Do it now, while the year is still in your head, and keep the page somewhere you will actually look in January.\n\nSave this and give it a quiet evening before December fills up.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "By February most of what this year taught you will be gone, because nobody writes it down. Do it now, while the year is still in your head, and keep the page somewhere you will actually look in January.",
+  "ask": "Save this and give it a quiet evening before December fills up.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-en-01-tip-feed.png",
+  "story": null,
+  "bsky_text": "By February most of what this year taught you will be gone, because nobody writes it down. Do it now, while the year is still in your head, and keep the page somewhere you will actually look in January.\n\nSave this and give it a quiet evening before December fills up."
+ },
+ "ola-en-02-acq": {
+  "set": "ola-en",
+  "brand": "ola",
+  "kind": "acq",
+  "slot": "Come to Ola Accountancy",
+  "sizes": [
+   "feed"
+  ],
+  "alt": "Hand us the filing calendar and it becomes our job, not yours.",
+  "title": "The filing calendar, off your desk and onto ours",
+  "caption_full": "Every limited company runs on a handful of dates, and somebody has to be the one watching them. With us that is a named job, not an evening task. We start early and send things out with room to read them.\n\nShare this with a director who keeps every date in their own head.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Every limited company runs on a handful of dates, and somebody has to be the one watching them. With us that is a named job, not an evening task. We start early and send things out with room to read them.\n\nShare this with a director who keeps every date in their own head.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Every limited company runs on a handful of dates, and somebody has to be the one watching them. With us that is a named job, not an evening task. We start early and send things out with room to read them.",
+  "ask": "Share this with a director who keeps every date in their own head.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-en-02-acq-feed.png",
+  "story": null,
+  "bsky_text": "Every limited company runs on a handful of dates, and somebody has to be the one watching them. With us that is a named job, not an evening task. We start early and send things out with room to read them.\n\nShare this with a director who keeps every date in their own head."
+ },
+ "ola-en-03-acq": {
+  "set": "ola-en",
+  "brand": "ola",
+  "kind": "acq",
+  "slot": "Come to Ola Accountancy",
+  "sizes": [
+   "feed"
+  ],
+  "alt": "Ask us what your numbers mean and you get an answer, not a lecture.",
+  "title": "Bring one figure you have never been sure of",
+  "caption_full": "Nobody is born able to read a set of accounts. It is a skill, and it is far quicker learnt sitting next to someone who does it all day. Come with one figure you have never been sure of.\n\nKeep this for the next set of accounts that tells you nothing.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Nobody is born able to read a set of accounts. It is a skill, and it is far quicker learnt sitting next to someone who does it all day. Come with one figure you have never been sure of.\n\nKeep this for the next set of accounts that tells you nothing.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Nobody is born able to read a set of accounts. It is a skill, and it is far quicker learnt sitting next to someone who does it all day. Come with one figure you have never been sure of.",
+  "ask": "Keep this for the next set of accounts that tells you nothing.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-en-03-acq-feed.png",
+  "story": null,
+  "bsky_text": "Nobody is born able to read a set of accounts. It is a skill, and it is far quicker learnt sitting next to someone who does it all day. Come with one figure you have never been sure of.\n\nKeep this for the next set of accounts that tells you nothing."
+ },
+ "ola-en-04-joke": {
+  "set": "ola-en",
+  "brand": "ola",
+  "kind": "joke",
+  "slot": "Joke of the day",
+  "sizes": [
+   "feed"
+  ],
+  "alt": "He said busy. Then he went quiet.",
+  "title": "I asked how the year had gone. He said busy.",
+  "caption_full": "I asked a client how the year had gone. He said busy. Then he went quiet. Busy and profitable are not the same thing, and the difference only shows up once somebody adds it all up properly.\n\nSend this to the busiest person you know.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "I asked a client how the year had gone. He said busy. Then he went quiet. Busy and profitable are not the same thing, and the difference only shows up once somebody adds it all up properly.\n\nSend this to the busiest person you know.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "I asked a client how the year had gone. He said busy. Then he went quiet. Busy and profitable are not the same thing, and the difference only shows up once somebody adds it all up properly.",
+  "ask": "Send this to the busiest person you know.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-en-04-joke-feed.png",
+  "story": null,
+  "bsky_text": "I asked a client how the year had gone. He said busy. Then he went quiet. Busy and profitable are not the same thing, and the difference only shows up once somebody adds it all up properly.\n\nSend this to the busiest person you know."
+ },
+ "ola-en-05-quote": {
+  "set": "ola-en",
+  "brand": "ola",
+  "kind": "quote",
+  "slot": "Evening quote",
+  "sizes": [
+   "feed"
+  ],
+  "alt": "Great works are performed not by strength but by perseverance.",
+  "title": "Not by strength, but by perseverance",
+  "caption_full": "Nothing worth having in a business is built in a burst. The accounts, the client list, the name people pass on: all of it is the same small thing done again when nobody is watching.\n\nShare this with someone in the slow part of building something.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #ValentinTheAccountant #OlaAccountancyLuton #OlaAccountancyBirmingham",
+  "caption_nohash": "Nothing worth having in a business is built in a burst. The accounts, the client list, the name people pass on: all of it is the same small thing done again when nobody is watching.\n\nShare this with someone in the slow part of building something.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Nothing worth having in a business is built in a burst. The accounts, the client list, the name people pass on: all of it is the same small thing done again when nobody is watching.",
+  "ask": "Share this with someone in the slow part of building something.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/ola-en-05-quote-feed.png",
+  "story": null,
+  "bsky_text": "Nothing worth having in a business is built in a burst. The accounts, the client list, the name people pass on: all of it is the same small thing done again when nobody is watching.\n\nShare this with someone in the slow part of building something."
+ },
+ "bham-01-tip": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "tip",
+  "slot": "Thought of the day",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "The hardest month to do paperwork is the month you are busiest.",
+  "title": "The busiest month is the worst month for paperwork",
+  "caption_full": "The evenings are dark by four and the phone has not stopped. This is the stretch where the shop, the van and the chair are all busy at once, and the paperwork quietly stacks up behind the counter because there is simply no hour left in the day for it. That is the point of us. You carry on serving, driving and cutting; we keep the records straight, tell you what is coming and ask you for things one at a time instead of all at once. Washwood Heath Road is five minutes from most of Saltley and Small Heath, and WhatsApp is quicker than that.\n\nSend this to the one person you know who is working seven days this month.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "The evenings are dark by four and the phone has not stopped. This is the stretch where the shop, the van and the chair are all busy at once, and the paperwork quietly stacks up behind the counter because there is simply no hour left in the day for it. That is the point of us. You carry on serving, driving and cutting; we keep the records straight, tell you what is coming and ask you for things one at a time instead of all at once. Washwood Heath Road is five minutes from most of Saltley and Small Heath, and WhatsApp is quicker than that.\n\nSend this to the one person you know who is working seven days this month.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "The evenings are dark by four and the phone has not stopped. This is the stretch where the shop, the van and the chair are all busy at once, and the paperwork quietly stacks up behind the counter because there is simply no hour left in the day for it. That is the point of us. You carry on serving, driving and cutting; we keep the records straight, tell you what is coming and ask you for things one at a time instead of all at once. Washwood Heath Road is five minutes from most of Saltley and Small Heath, and WhatsApp is quicker than that.",
+  "ask": "Send this to the one person you know who is working seven days this month.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-01-tip-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-01-tip-story.png"
+ },
+ "bham-02-acq": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "acq",
+  "slot": "Come to Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Your accountant should be a short drive away, not a hold queue.",
+  "title": "An accountant a short drive away, not a hold queue",
+  "caption_full": "You should be able to get to your accountant and back before the shop reopens. Ours is at 22-42 Washwood Heath Road in Saltley, B8 1RB, which is a short drive from Small Heath, Aston, Erdington and Digbeth, and there is a human being in the room rather than a menu of options. Bring the folder, the carrier bag, the shoebox, whatever it is in. We will go through it with you, tell you plainly where your limited company stands and what the next step is, and you will leave knowing it. If coming in is awkward, message us first and we will sort it from there.\n\nSave this so the address is in your phone when you need it.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "You should be able to get to your accountant and back before the shop reopens. Ours is at 22-42 Washwood Heath Road in Saltley, B8 1RB, which is a short drive from Small Heath, Aston, Erdington and Digbeth, and there is a human being in the room rather than a menu of options. Bring the folder, the carrier bag, the shoebox, whatever it is in. We will go through it with you, tell you plainly where your limited company stands and what the next step is, and you will leave knowing it. If coming in is awkward, message us first and we will sort it from there.\n\nSave this so the address is in your phone when you need it.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "You should be able to get to your accountant and back before the shop reopens. Ours is at 22-42 Washwood Heath Road in Saltley, B8 1RB, which is a short drive from Small Heath, Aston, Erdington and Digbeth, and there is a human being in the room rather than a menu of options. Bring the folder, the carrier bag, the shoebox, whatever it is in. We will go through it with you, tell you plainly where your limited company stands and what the next step is, and you will leave knowing it. If coming in is awkward, message us first and we will sort it from there.",
+  "ask": "Save this so the address is in your phone when you need it.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-02-acq-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-02-acq-story.png"
+ },
+ "bham-03-acq": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "acq",
+  "slot": "Come to Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "We already know what a West Midlands trade looks like on paper.",
+  "title": "We already know what your trade looks like on paper",
+  "caption_full": "Cash takings on a Saturday. A van on finance. Three jobs in one week and then a fortnight where the phone barely rings. A chair rented out at the back. None of that is unusual to us, because it is what most of the businesses we look after around Birmingham actually look like. That matters more than it sounds. It means you are not spending the first half hour explaining your trade before anyone can help you, and it means nobody tells you your figures look odd when they are simply the figures of a real West Midlands business. Move your limited company over and start from the middle, not the beginning.\n\nShare this with someone who is tired of explaining their trade from scratch.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "Cash takings on a Saturday. A van on finance. Three jobs in one week and then a fortnight where the phone barely rings. A chair rented out at the back. None of that is unusual to us, because it is what most of the businesses we look after around Birmingham actually look like. That matters more than it sounds. It means you are not spending the first half hour explaining your trade before anyone can help you, and it means nobody tells you your figures look odd when they are simply the figures of a real West Midlands business. Move your limited company over and start from the middle, not the beginning.\n\nShare this with someone who is tired of explaining their trade from scratch.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Cash takings on a Saturday. A van on finance. Three jobs in one week and then a fortnight where the phone barely rings. A chair rented out at the back. None of that is unusual to us, because it is what most of the businesses we look after around Birmingham actually look like. That matters more than it sounds. It means you are not spending the first half hour explaining your trade before anyone can help you, and it means nobody tells you your figures look odd when they are simply the figures of a real West Midlands business. Move your limited company over and start from the middle, not the beginning.",
+  "ask": "Share this with someone who is tired of explaining their trade from scratch.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-03-acq-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-03-acq-story.png"
+ },
+ "bham-04-acq": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "acq",
+  "slot": "Come to Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "A first conversation costs nothing and commits you to nothing.",
+  "title": "A first conversation that commits you to nothing",
+  "caption_full": "Plenty of people put off ringing an accountant because they assume the first conversation is the start of something they cannot get out of. It is not. You can walk in off Washwood Heath Road with whatever has been sitting at the back of your mind - how you are paying yourself, whether the limited company is still the right shape, what the last set of accounts was actually telling you - and simply ask. We will tell you in plain words what we can see, and if you want to go away and think about it for a month, go away and think about it for a month. Nothing has to be posted, nothing has to be signed, nobody chases you afterwards. The first 30 minutes are free, and the only thing you have to leave with is a clearer idea of where you stand.\n\nShare this with the person who has been meaning to change accountant since last winter.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "Plenty of people put off ringing an accountant because they assume the first conversation is the start of something they cannot get out of. It is not. You can walk in off Washwood Heath Road with whatever has been sitting at the back of your mind - how you are paying yourself, whether the limited company is still the right shape, what the last set of accounts was actually telling you - and simply ask. We will tell you in plain words what we can see, and if you want to go away and think about it for a month, go away and think about it for a month. Nothing has to be posted, nothing has to be signed, nobody chases you afterwards. The first 30 minutes are free, and the only thing you have to leave with is a clearer idea of where you stand.\n\nShare this with the person who has been meaning to change accountant since last winter.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Plenty of people put off ringing an accountant because they assume the first conversation is the start of something they cannot get out of. It is not. You can walk in off Washwood Heath Road with whatever has been sitting at the back of your mind - how you are paying yourself, whether the limited company is still the right shape, what the last set of accounts was actually telling you - and simply ask. We will tell you in plain words what we can see, and if you want to go away and think about it for a month, go away and think about it for a month. Nothing has to be posted, nothing has to be signed, nobody chases you afterwards. The first 30 minutes are free, and the only thing you have to leave with is a clearer idea of where you stand.",
+  "ask": "Share this with the person who has been meaning to change accountant since last winter.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-04-acq-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-04-acq-story.png"
+ },
+ "bham-05-edu": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "edu",
+  "slot": "Financial education with Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "From April 2027 a small shop or cafe could pay 39.5p, not 44.7p.",
+  "title": "Two different rates, and which one a small cafe pays",
+  "caption_full": "Business rates are worked out in pence on every pound of your property's rateable value, and the pence are changing. In England, from 1 April 2027, the small business rate for shops, cafes, pubs and similar retail, hospitality and leisure premises is 39.5p, against 44.7p for a small business outside those trades. The standard rates are 44.5p and 49.7p. Who is left out: these are England figures only, so Scotland, Wales and Northern Ireland each run their own system; vape shops and adult gaming centres are to be excluded from the retail, hospitality and leisure definition; and an empty unit cannot qualify for the lower rate. The regulations are still to come, so treat this as the position as announced.\n\nSave this for when your 2027-28 rates bill lands and you want to check the pence.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "Business rates are worked out in pence on every pound of your property's rateable value, and the pence are changing. In England, from 1 April 2027, the small business rate for shops, cafes, pubs and similar retail, hospitality and leisure premises is 39.5p, against 44.7p for a small business outside those trades. The standard rates are 44.5p and 49.7p. Who is left out: these are England figures only, so Scotland, Wales and Northern Ireland each run their own system; vape shops and adult gaming centres are to be excluded from the retail, hospitality and leisure definition; and an empty unit cannot qualify for the lower rate. The regulations are still to come, so treat this as the position as announced.\n\nSave this for when your 2027-28 rates bill lands and you want to check the pence.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Business rates are worked out in pence on every pound of your property's rateable value, and the pence are changing. In England, from 1 April 2027, the small business rate for shops, cafes, pubs and similar retail, hospitality and leisure premises is 39.5p, against 44.7p for a small business outside those trades. The standard rates are 44.5p and 49.7p. Who is left out: these are England figures only, so Scotland, Wales and Northern Ireland each run their own system; vape shops and adult gaming centres are to be excluded from the retail, hospitality and leisure definition; and an empty unit cannot qualify for the lower rate. The regulations are still to come, so treat this as the position as announced.",
+  "ask": "Save this for when your 2027-28 rates bill lands and you want to check the pence.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-05-edu-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-05-edu-story.png"
+ },
+ "bham-06-edu": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "edu",
+  "slot": "Financial education with Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Gifts to one customer add up: £50 in any 12 months, then VAT is due.",
+  "title": "The 50 pound gift rule people get wrong every Christmas",
+  "caption_full": "It is the season for dropping something off with a good customer, so here is the line that catches people. If you are VAT registered, you can give one customer gifts costing up to 50 pounds in total, excluding VAT, in any 12-month period, and there is no VAT for you to account for. The trap is the word total. It is not 50 pounds per gift. Three hampers at 30 pounds each to the same customer passes it, and VAT is then due on the cost of all of them, not just the amount over 50. And yes, a hamper or a bottle of wine is a gift of goods, so it sits inside that 50 pounds with everything else you gave that customer during the 12 months. What is a different rule altogether is hospitality you lay on yourself - a meal out, a box at the match - which counts as entertainment rather than a gift. Who is not caught: if you were never entitled to reclaim the VAT on the goods in the first place, there is nothing for you to account for, and genuine samples of what you sell are a separate rule with no cash limit at all.\n\nSave this before you order the Christmas hampers.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "It is the season for dropping something off with a good customer, so here is the line that catches people. If you are VAT registered, you can give one customer gifts costing up to 50 pounds in total, excluding VAT, in any 12-month period, and there is no VAT for you to account for. The trap is the word total. It is not 50 pounds per gift. Three hampers at 30 pounds each to the same customer passes it, and VAT is then due on the cost of all of them, not just the amount over 50. And yes, a hamper or a bottle of wine is a gift of goods, so it sits inside that 50 pounds with everything else you gave that customer during the 12 months. What is a different rule altogether is hospitality you lay on yourself - a meal out, a box at the match - which counts as entertainment rather than a gift. Who is not caught: if you were never entitled to reclaim the VAT on the goods in the first place, there is nothing for you to account for, and genuine samples of what you sell are a separate rule with no cash limit at all.\n\nSave this before you order the Christmas hampers.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "It is the season for dropping something off with a good customer, so here is the line that catches people. If you are VAT registered, you can give one customer gifts costing up to 50 pounds in total, excluding VAT, in any 12-month period, and there is no VAT for you to account for. The trap is the word total. It is not 50 pounds per gift. Three hampers at 30 pounds each to the same customer passes it, and VAT is then due on the cost of all of them, not just the amount over 50. And yes, a hamper or a bottle of wine is a gift of goods, so it sits inside that 50 pounds with everything else you gave that customer during the 12 months. What is a different rule altogether is hospitality you lay on yourself - a meal out, a box at the match - which counts as entertainment rather than a gift. Who is not caught: if you were never entitled to reclaim the VAT on the goods in the first place, there is nothing for you to account for, and genuine samples of what you sell are a separate rule with no cash limit at all.",
+  "ask": "Save this before you order the Christmas hampers.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-06-edu-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-06-edu-story.png"
+ },
+ "bham-07-edu": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "edu",
+  "slot": "Financial education with Ola Accountancy",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Challenge your Council Tax band inside 6 months and you can appeal.",
+  "title": "Only one way to challenge your Council Tax band lets you appeal",
+  "caption_full": "Most people who say they are going to get their Council Tax band changed do not realise there are two completely different processes, and only one of them lets you appeal. If you have been paying on the property for less than 6 months, or your band was changed by the Valuation Office within the last 6 months, you have a legal right to challenge. That is a proposal: a decision in up to 4 months, and if you disagree you can take it to the Valuation Tribunal, which costs nothing. Once you are past that 6 months, all that is open to you is a band review - up to 12 months to decide, and no right of appeal at all. Either way you must carry on paying your Council Tax while it is looked at, because a challenge is not a pause button. This is the England and Wales route: Scotland goes through the Scottish assessors, and Northern Ireland has domestic rates rather than Council Tax.\n\nSave this - the 6-month mark is the whole difference.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "Most people who say they are going to get their Council Tax band changed do not realise there are two completely different processes, and only one of them lets you appeal. If you have been paying on the property for less than 6 months, or your band was changed by the Valuation Office within the last 6 months, you have a legal right to challenge. That is a proposal: a decision in up to 4 months, and if you disagree you can take it to the Valuation Tribunal, which costs nothing. Once you are past that 6 months, all that is open to you is a band review - up to 12 months to decide, and no right of appeal at all. Either way you must carry on paying your Council Tax while it is looked at, because a challenge is not a pause button. This is the England and Wales route: Scotland goes through the Scottish assessors, and Northern Ireland has domestic rates rather than Council Tax.\n\nSave this - the 6-month mark is the whole difference.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Most people who say they are going to get their Council Tax band changed do not realise there are two completely different processes, and only one of them lets you appeal. If you have been paying on the property for less than 6 months, or your band was changed by the Valuation Office within the last 6 months, you have a legal right to challenge. That is a proposal: a decision in up to 4 months, and if you disagree you can take it to the Valuation Tribunal, which costs nothing. Once you are past that 6 months, all that is open to you is a band review - up to 12 months to decide, and no right of appeal at all. Either way you must carry on paying your Council Tax while it is looked at, because a challenge is not a pause button. This is the England and Wales route: Scotland goes through the Scottish assessors, and Northern Ireland has domestic rates rather than Council Tax.",
+  "ask": "Save this - the 6-month mark is the whole difference.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-07-edu-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-07-edu-story.png"
+ },
+ "bham-08-joke": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "joke",
+  "slot": "Joke of the day",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Nobody had any change.",
+  "title": "The queue was there at six. The change was not.",
+  "caption_full": "Every shop plans for the rush and then gets caught out by something small. A queue on the pavement at six in the morning and a drawer holding four pound coins and a fiver is not the detail anybody writes on the plan. Here is the part that matters once the doors shut. The money that was in the till before the doors opened is not money anybody paid you, so if it is still sitting in the count, the biggest day of the year reads higher than it was and the day after reads lower. Note what you started with, lift it back out before you add up, and keep the card machine total as its own figure. Three numbers, written down once, on the night. A record day is worth getting right.\n\nShare this with whoever is counting up on Friday night.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "Every shop plans for the rush and then gets caught out by something small. A queue on the pavement at six in the morning and a drawer holding four pound coins and a fiver is not the detail anybody writes on the plan. Here is the part that matters once the doors shut. The money that was in the till before the doors opened is not money anybody paid you, so if it is still sitting in the count, the biggest day of the year reads higher than it was and the day after reads lower. Note what you started with, lift it back out before you add up, and keep the card machine total as its own figure. Three numbers, written down once, on the night. A record day is worth getting right.\n\nShare this with whoever is counting up on Friday night.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Every shop plans for the rush and then gets caught out by something small. A queue on the pavement at six in the morning and a drawer holding four pound coins and a fiver is not the detail anybody writes on the plan. Here is the part that matters once the doors shut. The money that was in the till before the doors opened is not money anybody paid you, so if it is still sitting in the count, the biggest day of the year reads higher than it was and the day after reads lower. Note what you started with, lift it back out before you add up, and keep the card machine total as its own figure. Three numbers, written down once, on the night. A record day is worth getting right.",
+  "ask": "Share this with whoever is counting up on Friday night.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-08-joke-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-08-joke-story.png"
+ },
+ "bham-09-joke": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "joke",
+  "slot": "Joke of the evening",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "Nobody does the folder.",
+  "title": "The one job in a family shop that nobody claimed",
+  "caption_full": "In nearly every family business there is a job that was never given to anyone. The buying has an owner. The till has an owner. The folder sits on top of the fridge and belongs to nobody, and then it belongs to everybody at the worst possible moment. The fix is unglamorous and it works: say out loud whose job it is, give that person one slot a week, and let them be the one who sends things on to us. The month stops being an event and becomes a habit.\n\nShare this with the family member who will recognise the folder.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "In nearly every family business there is a job that was never given to anyone. The buying has an owner. The till has an owner. The folder sits on top of the fridge and belongs to nobody, and then it belongs to everybody at the worst possible moment. The fix is unglamorous and it works: say out loud whose job it is, give that person one slot a week, and let them be the one who sends things on to us. The month stops being an event and becomes a habit.\n\nShare this with the family member who will recognise the folder.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "In nearly every family business there is a job that was never given to anyone. The buying has an owner. The till has an owner. The folder sits on top of the fridge and belongs to nobody, and then it belongs to everybody at the worst possible moment. The fix is unglamorous and it works: say out loud whose job it is, give that person one slot a week, and let them be the one who sends things on to us. The month stops being an event and becomes a habit.",
+  "ask": "Share this with the family member who will recognise the folder.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-09-joke-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-09-joke-story.png"
+ },
+ "bham-10-quote": {
+  "set": "bham",
+  "brand": "bham",
+  "kind": "quote",
+  "slot": "Evening quote",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "alt": "A wise man will make more opportunities than he finds.",
+  "title": "Four hundred years old and still true in a slow week",
+  "caption_full": "Written four hundred years ago and still the most useful sentence for a quiet end of November. Work does not only arrive; a fair part of it is made, by the call you place, the price you put in writing, the customer you ring back when you said you would. Trade is slow in places this week and there is time to make one or two things happen rather than wait for them to.\n\nSave this one for a slow week.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancyBirmingham #OlaAccountancy #WestMidlandsBusiness #BirminghamBusiness #SmallBusinessUK",
+  "caption_nohash": "Written four hundred years ago and still the most useful sentence for a quiet end of November. Work does not only arrive; a fair part of it is made, by the call you place, the price you put in writing, the customer you ring back when you said you would. Trade is slow in places this week and there is time to make one or two things happen rather than wait for them to.\n\nSave this one for a slow week.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Written four hundred years ago and still the most useful sentence for a quiet end of November. Work does not only arrive; a fair part of it is made, by the call you place, the price you put in writing, the customer you ring back when you said you would. Trade is slow in places this week and there is time to make one or two things happen rather than wait for them to.",
+  "ask": "Save this one for a slow week.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-10-quote-feed.png",
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/bham-10-quote-story.png"
+ },
+ "en-01-tip": {
+  "set": "en",
+  "brand": "en",
+  "kind": "tip",
+  "slot": "Thought of the day",
+  "sizes": [
+   "story"
+  ],
+  "alt": "The day somebody asks for your accounts, you want them in one place.",
+  "title": "The day somebody asks you for your accounts",
+  "caption_full": "It is never a convenient week when it happens. A lender wants the last few years of accounts by Friday. A landlord wants proof of income before he will take the lease seriously. Somebody interested in buying the business wants all of it at once. If the paperwork lives in a loft, a laptop and two old email accounts, that is an evening gone, and usually a worried one. We keep what we file for you, in order and in one place, and we can send it on the day you ask. There is nothing clever about it. It is simply the part that hurts when nobody has done it.\n\nShare this with whoever you would ring if a lender asked you for paperwork tomorrow.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "It is never a convenient week when it happens. A lender wants the last few years of accounts by Friday. A landlord wants proof of income before he will take the lease seriously. Somebody interested in buying the business wants all of it at once. If the paperwork lives in a loft, a laptop and two old email accounts, that is an evening gone, and usually a worried one. We keep what we file for you, in order and in one place, and we can send it on the day you ask. There is nothing clever about it. It is simply the part that hurts when nobody has done it.\n\nShare this with whoever you would ring if a lender asked you for paperwork tomorrow.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "It is never a convenient week when it happens. A lender wants the last few years of accounts by Friday. A landlord wants proof of income before he will take the lease seriously. Somebody interested in buying the business wants all of it at once. If the paperwork lives in a loft, a laptop and two old email accounts, that is an evening gone, and usually a worried one. We keep what we file for you, in order and in one place, and we can send it on the day you ask. There is nothing clever about it. It is simply the part that hurts when nobody has done it.",
+  "ask": "Share this with whoever you would ring if a lender asked you for paperwork tomorrow.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-01-tip-story.png"
+ },
+ "en-02-acq": {
+  "set": "en",
+  "brand": "en",
+  "kind": "acq",
+  "slot": "Come to Ola Accountancy",
+  "sizes": [
+   "story"
+  ],
+  "alt": "Your accountant does not have to be down the road from you.",
+  "title": "Your accountant does not have to be local",
+  "caption_full": "Plenty of owners still choose an accountant by how far they have to drive. That made sense once. It does not now. We look after limited companies, sole traders, people working under CIS and small payrolls right across the UK - England, Scotland, Wales and Northern Ireland. You send us what you have, we ask for what we need, and we go through it together on a call or a screen share. Nothing in your year has to sit in an envelope waiting for a postbox, and no afternoon has to be given up to a meeting you could have had from your own kitchen. If that is how you would rather work, say hello.\n\nShare this with somebody who thinks their accountant has to be local.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "Plenty of owners still choose an accountant by how far they have to drive. That made sense once. It does not now. We look after limited companies, sole traders, people working under CIS and small payrolls right across the UK - England, Scotland, Wales and Northern Ireland. You send us what you have, we ask for what we need, and we go through it together on a call or a screen share. Nothing in your year has to sit in an envelope waiting for a postbox, and no afternoon has to be given up to a meeting you could have had from your own kitchen. If that is how you would rather work, say hello.\n\nShare this with somebody who thinks their accountant has to be local.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Plenty of owners still choose an accountant by how far they have to drive. That made sense once. It does not now. We look after limited companies, sole traders, people working under CIS and small payrolls right across the UK - England, Scotland, Wales and Northern Ireland. You send us what you have, we ask for what we need, and we go through it together on a call or a screen share. Nothing in your year has to sit in an envelope waiting for a postbox, and no afternoon has to be given up to a meeting you could have had from your own kitchen. If that is how you would rather work, say hello.",
+  "ask": "Share this with somebody who thinks their accountant has to be local.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-02-acq-story.png"
+ },
+ "en-03-acq": {
+  "set": "en",
+  "brand": "en",
+  "kind": "acq",
+  "slot": "Come to Ola Accountancy",
+  "sizes": [
+   "story"
+  ],
+  "alt": "You do not have to get everything straight before you talk to us.",
+  "title": "You do not have to tidy up before you change accountant",
+  "caption_full": "The commonest reason people put off changing accountant is not the money. It is the idea that they ought to present something tidy first, as though there were a standard of readiness you have to reach before you are allowed to ask. There is not. Send us whatever exists. If that is a folder, good. If it is a login and a rough memory of what happened last year, that is a starting point too. We work out what is missing and ask for it one piece at a time, in an order that makes sense, and we sit on the phone to HMRC ourselves instead of sending you to queue. The first thirty minutes are free, and they are a conversation rather than a pitch.\n\nSend this to anyone who thinks they have to tidy up before they ask for help.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "The commonest reason people put off changing accountant is not the money. It is the idea that they ought to present something tidy first, as though there were a standard of readiness you have to reach before you are allowed to ask. There is not. Send us whatever exists. If that is a folder, good. If it is a login and a rough memory of what happened last year, that is a starting point too. We work out what is missing and ask for it one piece at a time, in an order that makes sense, and we sit on the phone to HMRC ourselves instead of sending you to queue. The first thirty minutes are free, and they are a conversation rather than a pitch.\n\nSend this to anyone who thinks they have to tidy up before they ask for help.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "The commonest reason people put off changing accountant is not the money. It is the idea that they ought to present something tidy first, as though there were a standard of readiness you have to reach before you are allowed to ask. There is not. Send us whatever exists. If that is a folder, good. If it is a login and a rough memory of what happened last year, that is a starting point too. We work out what is missing and ask for it one piece at a time, in an order that makes sense, and we sit on the phone to HMRC ourselves instead of sending you to queue. The first thirty minutes are free, and they are a conversation rather than a pitch.",
+  "ask": "Send this to anyone who thinks they have to tidy up before they ask for help.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-03-acq-story.png"
+ },
+ "en-04-acq": {
+  "set": "en",
+  "brand": "en",
+  "kind": "acq",
+  "slot": "Come to Ola Accountancy",
+  "sizes": [
+   "story"
+  ],
+  "alt": "Your company, your payroll and your own return, all in one place.",
+  "title": "One firm for the company, the payroll and you",
+  "caption_full": "Three sets of people who have never spoken to each other: one does the company accounts, one runs the payroll, one does your personal return. All three ask you for the same bank statements. All three know a third of the picture. We do the lot, which means the figures agree with one another and you only have to explain yourself once. It sounds like a small thing right up until the year you need an answer quickly.\n\nShare this with the owner who forwards the same email to three people.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "Three sets of people who have never spoken to each other: one does the company accounts, one runs the payroll, one does your personal return. All three ask you for the same bank statements. All three know a third of the picture. We do the lot, which means the figures agree with one another and you only have to explain yourself once. It sounds like a small thing right up until the year you need an answer quickly.\n\nShare this with the owner who forwards the same email to three people.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Three sets of people who have never spoken to each other: one does the company accounts, one runs the payroll, one does your personal return. All three ask you for the same bank statements. All three know a third of the picture. We do the lot, which means the figures agree with one another and you only have to explain yourself once. It sounds like a small thing right up until the year you need an answer quickly.",
+  "ask": "Share this with the owner who forwards the same email to three people.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-04-acq-story.png"
+ },
+ "en-05-edu": {
+  "set": "en",
+  "brand": "en",
+  "kind": "edu",
+  "slot": "Financial education with Ola Accountancy",
+  "sizes": [
+   "story"
+  ],
+  "alt": "Three things fall due at 11:59pm on 31 January 2027, not one.",
+  "title": "Three things fall due on 31 January, not one",
+  "caption_full": "If a notice to file has landed, or you worked for yourself, or rent or dividends came in, or you sold something at a gain, then 31 January 2027 is your date. If none of that is you and nothing has arrived from HMRC, it is not - plenty of people worry about a deadline that was never theirs. For everybody else, three separate things fall due that day, all of them by 11:59pm. The 2025/26 return has to be filed. The tax owed on it has to be paid. And on the same day, a first payment towards 2026/27, worked out as half of last year's bill. Paying is not the same as filing: a return that goes in late carries a penalty of its own even when the money is already there. Two things stop the payment on account. If last year's Self Assessment bill came to under £1,000, none is due. Nor is any due if more than 80% of last year's tax was already collected at source, through PAYE for instance.\n\nSave this - in January you will want the 11:59pm and the £1,000 in front of you.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "If a notice to file has landed, or you worked for yourself, or rent or dividends came in, or you sold something at a gain, then 31 January 2027 is your date. If none of that is you and nothing has arrived from HMRC, it is not - plenty of people worry about a deadline that was never theirs. For everybody else, three separate things fall due that day, all of them by 11:59pm. The 2025/26 return has to be filed. The tax owed on it has to be paid. And on the same day, a first payment towards 2026/27, worked out as half of last year's bill. Paying is not the same as filing: a return that goes in late carries a penalty of its own even when the money is already there. Two things stop the payment on account. If last year's Self Assessment bill came to under £1,000, none is due. Nor is any due if more than 80% of last year's tax was already collected at source, through PAYE for instance.\n\nSave this - in January you will want the 11:59pm and the £1,000 in front of you.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "If a notice to file has landed, or you worked for yourself, or rent or dividends came in, or you sold something at a gain, then 31 January 2027 is your date. If none of that is you and nothing has arrived from HMRC, it is not - plenty of people worry about a deadline that was never theirs. For everybody else, three separate things fall due that day, all of them by 11:59pm. The 2025/26 return has to be filed. The tax owed on it has to be paid. And on the same day, a first payment towards 2026/27, worked out as half of last year's bill. Paying is not the same as filing: a return that goes in late carries a penalty of its own even when the money is already there. Two things stop the payment on account. If last year's Self Assessment bill came to under £1,000, none is due. Nor is any due if more than 80% of last year's tax was already collected at source, through PAYE for instance.",
+  "ask": "Save this - in January you will want the 11:59pm and the £1,000 in front of you.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-05-edu-story.png"
+ },
+ "en-06-edu": {
+  "set": "en",
+  "brand": "en",
+  "kind": "edu",
+  "slot": "Financial education with Ola Accountancy",
+  "sizes": [
+   "story"
+  ],
+  "alt": "Over £50,000 profit, your company is not suddenly all taxed at 25%.",
+  "title": "No, 25% does not land on your whole profit",
+  "caption_full": "A lot of directors believe that the moment profits pass £50,000, the whole lot is taxed at 25%. They are usually relieved to find out otherwise. Profits of £50,000 or less are charged at 19%, the small profits rate. Profits over £250,000 are charged at the main rate of 25%. Between the two, Marginal Relief tapers the rate up from one to the other, so the effective rate climbs gradually rather than falling off a cliff at £50,001. Two groups do not get it: companies that are not resident in the UK, and close investment-holding companies. And if you hold several companies, those £50,000 and £250,000 limits get divided between them, which catches directors out far more often than the rates themselves do.\n\nSave this before you decide whether to take the extra work on.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "A lot of directors believe that the moment profits pass £50,000, the whole lot is taxed at 25%. They are usually relieved to find out otherwise. Profits of £50,000 or less are charged at 19%, the small profits rate. Profits over £250,000 are charged at the main rate of 25%. Between the two, Marginal Relief tapers the rate up from one to the other, so the effective rate climbs gradually rather than falling off a cliff at £50,001. Two groups do not get it: companies that are not resident in the UK, and close investment-holding companies. And if you hold several companies, those £50,000 and £250,000 limits get divided between them, which catches directors out far more often than the rates themselves do.\n\nSave this before you decide whether to take the extra work on.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "A lot of directors believe that the moment profits pass £50,000, the whole lot is taxed at 25%. They are usually relieved to find out otherwise. Profits of £50,000 or less are charged at 19%, the small profits rate. Profits over £250,000 are charged at the main rate of 25%. Between the two, Marginal Relief tapers the rate up from one to the other, so the effective rate climbs gradually rather than falling off a cliff at £50,001. Two groups do not get it: companies that are not resident in the UK, and close investment-holding companies. And if you hold several companies, those £50,000 and £250,000 limits get divided between them, which catches directors out far more often than the rates themselves do.",
+  "ask": "Save this before you decide whether to take the extra work on.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-06-edu-story.png"
+ },
+ "en-07-edu": {
+  "set": "en",
+  "brand": "en",
+  "kind": "edu",
+  "slot": "Financial education with Ola Accountancy",
+  "sizes": [
+   "story"
+  ],
+  "alt": "If your company pays you interest on a loan, it must hold back 20%.",
+  "title": "Your company pays you interest? Hold back 20%",
+  "caption_full": "This one catches a particular sort of company, and if it is not yours you can stop reading with a clear conscience. If your company borrowed money from you, or from a family member, and pays interest on that loan, it cannot simply hand over the full amount. It has to hold back 20% basic rate Income Tax, pay that over to HMRC, and report it on a form called CT61 - within 14 days of the end of each return period. For the period ending 31 December 2026, that means 14 January 2027. Nothing in the payroll or VAT cycle prompts you, which is why this is the deadline owner-managed companies miss most. You then show the gross interest and the tax credit on your own return. And if the interest goes to a UK bank, or to another UK company, or to a charity or an approved pension fund, none of it applies - which is why most companies never meet the form at all.\n\nSave this if your company pays interest to a person rather than a bank.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "This one catches a particular sort of company, and if it is not yours you can stop reading with a clear conscience. If your company borrowed money from you, or from a family member, and pays interest on that loan, it cannot simply hand over the full amount. It has to hold back 20% basic rate Income Tax, pay that over to HMRC, and report it on a form called CT61 - within 14 days of the end of each return period. For the period ending 31 December 2026, that means 14 January 2027. Nothing in the payroll or VAT cycle prompts you, which is why this is the deadline owner-managed companies miss most. You then show the gross interest and the tax credit on your own return. And if the interest goes to a UK bank, or to another UK company, or to a charity or an approved pension fund, none of it applies - which is why most companies never meet the form at all.\n\nSave this if your company pays interest to a person rather than a bank.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "This one catches a particular sort of company, and if it is not yours you can stop reading with a clear conscience. If your company borrowed money from you, or from a family member, and pays interest on that loan, it cannot simply hand over the full amount. It has to hold back 20% basic rate Income Tax, pay that over to HMRC, and report it on a form called CT61 - within 14 days of the end of each return period. For the period ending 31 December 2026, that means 14 January 2027. Nothing in the payroll or VAT cycle prompts you, which is why this is the deadline owner-managed companies miss most. You then show the gross interest and the tax credit on your own return. And if the interest goes to a UK bank, or to another UK company, or to a charity or an approved pension fund, none of it applies - which is why most companies never meet the form at all.",
+  "ask": "Save this if your company pays interest to a person rather than a bank.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-07-edu-story.png"
+ },
+ "en-08-joke": {
+  "set": "en",
+  "brand": "en",
+  "kind": "joke",
+  "slot": "Joke of the day",
+  "sizes": [
+   "story"
+  ],
+  "alt": "Whichever comes out first is the business one.",
+  "title": "One wallet, two cards, and a coin toss at the till",
+  "caption_full": "Nobody sets out to mix the two. It happens because the nearest card wins, and because at half past four with the van running you are not thinking about who owns the coffee. Then the year ends and somebody goes down a bank statement line by line, in the evening, deciding which sandwich was work. One card for the business, and only the business, takes that whole job away. It also means that when you finally look at what the business spent, you are looking at the business, and not at a fortnight of family shopping in March.\n\nShare this with anyone who owns two bank cards and one wallet.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "Nobody sets out to mix the two. It happens because the nearest card wins, and because at half past four with the van running you are not thinking about who owns the coffee. Then the year ends and somebody goes down a bank statement line by line, in the evening, deciding which sandwich was work. One card for the business, and only the business, takes that whole job away. It also means that when you finally look at what the business spent, you are looking at the business, and not at a fortnight of family shopping in March.\n\nShare this with anyone who owns two bank cards and one wallet.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Nobody sets out to mix the two. It happens because the nearest card wins, and because at half past four with the van running you are not thinking about who owns the coffee. Then the year ends and somebody goes down a bank statement line by line, in the evening, deciding which sandwich was work. One card for the business, and only the business, takes that whole job away. It also means that when you finally look at what the business spent, you are looking at the business, and not at a fortnight of family shopping in March.",
+  "ask": "Share this with anyone who owns two bank cards and one wallet.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-08-joke-story.png"
+ },
+ "en-09-joke": {
+  "set": "en",
+  "brand": "en",
+  "kind": "joke",
+  "slot": "Joke of the evening",
+  "sizes": [
+   "story"
+  ],
+  "alt": "Their accounts team has its own calendar.",
+  "title": "Your invoice says 30 days. Their calendar disagrees",
+  "caption_full": "Thirty days, it says on the invoice. Thirty days from when, exactly, turns out to be a matter of interpretation at their end. This is the part of running a business that nobody warns you about: you can be busy, profitable on paper, and still unable to pay your own bills, because the money that proves you are profitable is sitting in somebody else's account. Knowing what is owed to you, and how old each of it is, is not admin. It is the difference between a good year and a frightening one.\n\nShare this with somebody who is still waiting to be paid.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "Thirty days, it says on the invoice. Thirty days from when, exactly, turns out to be a matter of interpretation at their end. This is the part of running a business that nobody warns you about: you can be busy, profitable on paper, and still unable to pay your own bills, because the money that proves you are profitable is sitting in somebody else's account. Knowing what is owed to you, and how old each of it is, is not admin. It is the difference between a good year and a frightening one.\n\nShare this with somebody who is still waiting to be paid.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Thirty days, it says on the invoice. Thirty days from when, exactly, turns out to be a matter of interpretation at their end. This is the part of running a business that nobody warns you about: you can be busy, profitable on paper, and still unable to pay your own bills, because the money that proves you are profitable is sitting in somebody else's account. Knowing what is owed to you, and how old each of it is, is not admin. It is the difference between a good year and a frightening one.",
+  "ask": "Share this with somebody who is still waiting to be paid.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-09-joke-story.png"
+ },
+ "en-10-quote": {
+  "set": "en",
+  "brand": "en",
+  "kind": "quote",
+  "slot": "Evening quote",
+  "sizes": [
+   "story"
+  ],
+  "alt": "It is not enough to be industrious; so are the ants. What are you industrious about?",
+  "title": "Busy is easy. Busy at what is the real question",
+  "caption_full": "Thoreau was not against hard work. He was against hard work that nobody has asked the purpose of. Busy is easy. Busy is the default setting of anybody running their own business - the day fills itself, and at the end of it you have certainly moved, without having necessarily moved forward. The question underneath is a business question as much as a philosophical one: of everything you did today, how much of it was the work, and how much of it was motion? Worth a minute of a dark evening.\n\nShare this with somebody who has been flat out all week.\n\nGeneral information, not advice. For your own situation, speak to an accountant.\n\n#OlaAccountancy #UKTax #LimitedCompany #SelfAssessment #SmallBusinessUK",
+  "caption_nohash": "Thoreau was not against hard work. He was against hard work that nobody has asked the purpose of. Busy is easy. Busy is the default setting of anybody running their own business - the day fills itself, and at the end of it you have certainly moved, without having necessarily moved forward. The question underneath is a business question as much as a philosophical one: of everything you did today, how much of it was the work, and how much of it was motion? Worth a minute of a dark evening.\n\nShare this with somebody who has been flat out all week.\n\nGeneral information, not advice. For your own situation, speak to an accountant.",
+  "caption_bare": "Thoreau was not against hard work. He was against hard work that nobody has asked the purpose of. Busy is easy. Busy is the default setting of anybody running their own business - the day fills itself, and at the end of it you have certainly moved, without having necessarily moved forward. The question underneath is a business question as much as a philosophical one: of everything you did today, how much of it was the work, and how much of it was motion? Worth a minute of a dark evening.",
+  "ask": "Share this with somebody who has been flat out all week.",
+  "disc": "General information, not advice. For your own situation, speak to an accountant.",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/valentinavram626-cmd/ola-social-posts/main/posts/2026-11-24/en-10-quote-story.png"
+ }
+}

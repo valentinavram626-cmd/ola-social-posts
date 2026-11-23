@@ -1,0 +1,123 @@
+[
+ {
+  "id": "ola-ro-01-tip",
+  "kind": "tip",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Gândul zilei",
+  "hero": "Ai început de la zero, departe de casă. Nu e un lucru mic.",
+  "sub": "Săptămâna viitoare e 1 Decembrie. Un gând bun pentru fiecare român care ține o firmă pe picioare aici. Tu ții afacerea, noi ținem cifrele în ordine.",
+  "cta": "Scrie-ne pe WhatsApp la 0330 133 1886"
+ },
+ {
+  "id": "ola-ro-02-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Vino la Ola Accountancy",
+  "hero": "Schimbi contabilul fără discuția incomodă cu cel de dinainte.",
+  "sub": "Noi ne ocupăm de professional clearance letter, vorbim cu fostul tău contabil și cerem actele firmei. Tu semnezi o dată, restul îl facem noi. Prima discuție e gratuită.",
+  "cta": "Scrie-ne pe WhatsApp la 0330 133 1886"
+ },
+ {
+  "id": "ola-ro-03-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Vino la Ola Accountancy",
+  "hero": "Întrebi ceva și îți răspunde un om, în română.",
+  "sub": "Fără robot, fără formulare, fără răspuns peste trei zile. Vorbești cu o persoană care îți explică pe înțeles ce ai de făcut, luni–vineri, între 10:00 și 16:00.",
+  "cta": "Scrie-ne pe WhatsApp la 0330 133 1886"
+ },
+ {
+  "id": "ola-ro-04-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Vino la Ola Accountancy",
+  "hero": "Prima discuție e gratuită și durează 30 de minute.",
+  "sub": "Ne spui ce faci, ne uităm la firma ta și la ce ai depus până acum, apoi îți spunem pe înțeles ce urmează. Nu ești obligat să rămâi cu noi după cele 30 de minute.",
+  "cta": "Scrie-ne pe WhatsApp la 0330 133 1886"
+ },
+ {
+  "id": "ola-ro-05-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Educație financiară cu Ola Accountancy",
+  "hero": "La petrecerea de Crăciun pentru angajați, VAT-ul <em>se recuperează</em>.",
+  "sub": "Doar o firmă înregistrată în VAT poate cere VAT-ul înapoi, prin VAT Return. Pentru masa cu clienții nu se recuperează nimic, nici pentru masa doar cu directorii.",
+  "cta": "Scrie-ne pe WhatsApp la 0330 133 1886"
+ },
+ {
+  "id": "ola-ro-06-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Educație financiară cu Ola Accountancy",
+  "hero": "Pe <em>25, 28 decembrie și 1 ianuarie</em> băncile nu lucrează.",
+  "sub": "Luni, 4 ianuarie 2027, e bank holiday numai în Scoția, nu în Anglia, Țara Galilor sau Irlanda de Nord. Banii trebuie să fie în contul HMRC până la termen, nu doar trimiși.",
+  "cta": "Scrie-ne pe WhatsApp la 0330 133 1886"
+ },
+ {
+  "id": "ola-ro-07-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Educație financiară cu Ola Accountancy",
+  "hero": "De la 1 decembrie, benzină până la 1400cc: <em>16p pe milă</em>.",
+  "sub": "Advisory Fuel Rates sunt numai pentru mașina firmei. Pe mașina personală a angajatului se folosesc Mileage Allowance Payments. Tabelul nu are barem pentru camionete.",
+  "cta": "Scrie-ne pe WhatsApp la 0330 133 1886"
+ },
+ {
+  "id": "ola-ro-08-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Gluma zilei",
+  "setup": "Am întrebat un client dacă are bonurile de luna trecută.",
+  "punch": "A ridicat punga de la magazin.",
+  "hook": "Punga e un început. Hârtia termică se decolorează de la căldură și lumină, așa că fotografiază bonul pe loc, cu telefonul.",
+  "cta": "Scrie-ne pe WhatsApp la 0330 133 1886"
+ },
+ {
+  "id": "ola-ro-09-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Gluma serii",
+  "setup": "În fiecare an îmi zice: de data asta fac actele din vară.",
+  "punch": "Mă sună pe 31 ianuarie, seara.",
+  "hook": "Termenul pentru Self Assessment e 31 ianuarie. Suma e aceeași și în noiembrie, și în ianuarie. Doar liniștea ta se schimbă.",
+  "cta": "Scrie-ne pe WhatsApp la 0330 133 1886"
+ },
+ {
+  "id": "ola-ro-10-quote",
+  "kind": "quote",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Citatul serii",
+  "line": "În timp ce amânăm, viața trece în grabă.",
+  "attrib": "Seneca"
+ }
+]

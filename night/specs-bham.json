@@ -1,0 +1,123 @@
+[
+ {
+  "id": "bham-01-tip",
+  "kind": "tip",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Thought of the day",
+  "hero": "The hardest month to do paperwork is the month you are busiest.",
+  "sub": "The evenings go dark and the takeaways, couriers and barbers go flat out. Hand the admin to someone else and keep both hands on the work that pays.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-02-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "Your accountant should be a short drive away, not a hold queue.",
+  "sub": "We are at 22-42 Washwood Heath Road, Saltley, B8 1RB. Bring the folder in, sit down with a real person, and leave knowing exactly what happens next.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-03-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "We already know what a West Midlands trade looks like on paper.",
+  "sub": "Cash takings, a van on finance, three jobs in one week and then a quiet fortnight. You will not have to explain how your work actually runs twice.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-04-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "A first conversation costs nothing and commits you to nothing.",
+  "sub": "Bring whatever you have been meaning to ask about your limited company. Nothing to post, nothing to sign, and you decide in your own time. The first 30 minutes are free.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-05-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "From April 2027 a small shop or cafe could pay <em>39.5p</em>, not 44.7p.",
+  "sub": "Pence on every pound of rateable value. The lower rate is for shops, cafes and the like in England from 1 April 2027 - not vape shops, adult gaming centres or empty units.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-06-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Gifts to one customer add up: <em>&pound;50</em> in any 12 months, then VAT is due.",
+  "sub": "VAT registered businesses only, on goods you reclaimed the VAT on. It is the total cost before VAT, not &pound;50 a gift. A hamper is a gift of goods; dinner out is entertainment.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-07-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Challenge your Council Tax band inside <em>6 months</em> and you can appeal.",
+  "sub": "Paid on the property under 6 months, or the Valuation Office changed your band in the last 6 months. After that, a band review: 12 months, no appeal. Either way, keep paying.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-08-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Joke of the day",
+  "setup": "Black Friday. Doors at six, queue at five.",
+  "punch": "Nobody had any change.",
+  "hook": "The cash you put in the drawer at six is not money you took. Take it out before you count up, or the day flatters you.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-09-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Joke of the evening",
+  "setup": "Dad does the buying. Mum does the till.",
+  "punch": "Nobody does the folder.",
+  "hook": "Every family shop has one job nobody claimed. Name it, give it to one person, and the month closes itself.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-10-quote",
+  "kind": "quote",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Evening quote",
+  "line": "A wise man will make more opportunities than he finds.",
+  "attrib": "Francis Bacon"
+ }
+]

@@ -1,0 +1,113 @@
+[
+ {
+  "id": "en-01-tip",
+  "kind": "tip",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Thought of the day",
+  "hero": "The day somebody asks for your accounts, you want them in one place.",
+  "sub": "We keep what we file for you - returns, accounts, payroll records. When a lender or a landlord asks, finding it is our job, not your evening.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-02-acq",
+  "kind": "acq",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "Your accountant does not have to be down the road from you.",
+  "sub": "We look after limited companies, sole traders, people in CIS and small payrolls right across the UK. Calls, messages, screen shares - nothing waits on the post.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-03-acq",
+  "kind": "acq",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "You do not have to get everything straight before you talk to us.",
+  "sub": "Unopened post, half-finished books, a whole year untouched: we have begun from worse. We start where you are and ask for one thing at a time.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-04-acq",
+  "kind": "acq",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "Your company, your payroll and your own return, all in one place.",
+  "sub": "Plenty of owners end up with three different people who have never spoken to each other. We handle all three, so nobody asks you the same thing twice.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-05-edu",
+  "kind": "edu",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Three things fall due at <em>11:59pm on 31 January 2027</em>, not one.",
+  "sub": "The 2025/26 return, the tax on it, and a first payment towards 2026/27. Not your date if you have had no notice to file and no trade, rent, dividends or gains.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-06-edu",
+  "kind": "edu",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Over <em>£50,000</em> profit, your company is not suddenly all taxed at 25%.",
+  "sub": "Between £50,000 and £250,000, Marginal Relief tapers the rate up from 19% to 25%. Companies not resident in the UK, and close investment-holding companies, do not get it.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-07-edu",
+  "kind": "edu",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "If your company pays you interest on a loan, it must hold back <em>20%</em>.",
+  "sub": "Deduct it, file form CT61 and pay by 14 January 2027 for the quarter to 31 December. None of it applies if the interest goes to a UK bank or to another UK company.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-08-joke",
+  "kind": "joke",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Joke of the day",
+  "setup": "Coffee, a drill bit, the big shop. Two bank cards, one wallet.",
+  "punch": "Whichever comes out first is the business one.",
+  "hook": "Keep one card for the business and nothing else. At the year end it turns an evening of guesswork into a short job.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-09-joke",
+  "kind": "joke",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Joke of the evening",
+  "setup": "Your invoice says payment within 30 days.",
+  "punch": "Their accounts team has its own calendar.",
+  "hook": "Late payment is how a profitable business runs out of cash. The profit is real - the money simply has not arrived yet.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-10-quote",
+  "kind": "quote",
+  "sizes": [
+   "story"
+  ],
+  "slot": "Evening quote",
+  "line": "It is not enough to be industrious; so are the ants. What are you industrious about?",
+  "attrib": "Henry David Thoreau"
+ }
+]

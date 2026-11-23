@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ola-en-01-tip",
+    "kind": "tip",
+    "sizes": [
+      "feed"
+    ],
+    "slot": "Thought of the day",
+    "hero": "Write down what this year taught you while you can still remember.",
+    "sub": "One page is enough: the job you would take again, the one you would not, and the client who always paid on time. Next year gets built on that page, not on memory.",
+    "cta": "Message us on WhatsApp 0330 133 1886"
+  },
+  {
+    "id": "ola-en-02-acq",
+    "kind": "acq",
+    "sizes": [
+      "feed"
+    ],
+    "slot": "Come to Ola Accountancy",
+    "hero": "Hand us the filing calendar and it becomes our job, not yours.",
+    "sub": "We put the dates in our own diary and work back from them, so the paperwork comes to you early instead of at the last minute. First 30 minutes free.",
+    "cta": "Message us on WhatsApp 0330 133 1886"
+  },
+  {
+    "id": "ola-en-03-acq",
+    "kind": "acq",
+    "sizes": [
+      "feed"
+    ],
+    "slot": "Come to Ola Accountancy",
+    "hero": "Ask us what your numbers mean and you get an answer, not a lecture.",
+    "sub": "We sit down and go through them with you: what came in, what went out, and what is actually yours to keep. Bring a figure you were never sure of. First 30 minutes free.",
+    "cta": "Message us on WhatsApp 0330 133 1886"
+  },
+  {
+    "id": "ola-en-04-joke",
+    "kind": "joke",
+    "sizes": [
+      "feed"
+    ],
+    "slot": "Joke of the day",
+    "setup": "I asked a client how the year had gone.",
+    "punch": "He said busy. Then he went quiet.",
+    "hook": "Busy and profitable are not the same thing, and only one of them is still there in January.",
+    "cta": "Message us on WhatsApp 0330 133 1886"
+  },
+  {
+    "id": "ola-en-05-quote",
+    "kind": "quote",
+    "sizes": [
+      "feed"
+    ],
+    "slot": "Evening quote",
+    "line": "Great works are performed not by strength but by perseverance.",
+    "attrib": "Samuel Johnson"
+  }
+]
