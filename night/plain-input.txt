@@ -1,0 +1,181 @@
+ola-ro-01-tip
+  slot: Gândul zilei
+  hero: Ai început de la zero, departe de casă. Nu e un lucru mic.
+  sub: Săptămâna viitoare e 1 Decembrie. Un gând bun pentru fiecare român care ține o firmă pe picioare aici. Tu ții afacerea, noi ținem cifrele în ordine.
+
+ola-ro-02-acq
+  slot: Vino la Ola Accountancy
+  hero: Schimbi contabilul fără discuția incomodă cu cel de dinainte.
+  sub: Noi ne ocupăm de professional clearance letter, vorbim cu fostul tău contabil și cerem actele firmei. Tu semnezi o dată, restul îl facem noi. Prima discuție e gratuită.
+
+ola-ro-03-acq
+  slot: Vino la Ola Accountancy
+  hero: Întrebi ceva și îți răspunde un om, în română.
+  sub: Fără robot, fără formulare, fără răspuns peste trei zile. Vorbești cu o persoană care îți explică pe înțeles ce ai de făcut, luni–vineri, între 10:00 și 16:00.
+
+ola-ro-04-acq
+  slot: Vino la Ola Accountancy
+  hero: Prima discuție e gratuită și durează 30 de minute.
+  sub: Ne spui ce faci, ne uităm la firma ta și la ce ai depus până acum, apoi îți spunem pe înțeles ce urmează. Nu ești obligat să rămâi cu noi după cele 30 de minute.
+
+ola-ro-05-edu
+  slot: Educație financiară cu Ola Accountancy
+  hero: La petrecerea de Crăciun pentru angajați, VAT-ul se recuperează.
+  sub: Masa cu clienții nu intră: acolo VAT-ul nu se recuperează. Nici masa doar cu directorii. La un eveniment cu angajați și invitați, se recuperează numai partea angajaților.
+
+ola-ro-06-edu
+  slot: Educație financiară cu Ola Accountancy
+  hero: Pe 25, 28 decembrie și 1 ianuarie băncile nu lucrează.
+  sub: Luni, 4 ianuarie 2027, e bank holiday numai în Scoția, nu în Anglia, Țara Galilor sau Irlanda de Nord. Banii trebuie să ajungă la HMRC până la termen, nu doar trimiși.
+
+ola-ro-07-edu
+  slot: Educație financiară cu Ola Accountancy
+  hero: De la 1 decembrie, benzină până la 1400cc: 16p pe milă.
+  sub: Advisory Fuel Rates sunt numai pentru mașina firmei. Dacă angajatul conduce mașina lui, se folosesc Mileage Allowance Payments, alt barem. Cei self-employed nu le folosesc.
+
+ola-ro-08-joke
+  slot: Gluma zilei
+  setup: L-am întrebat dacă are bonurile pe luna trecută.
+  punch: A ridicat punga de la magazin.
+  hook: Punga e un început. Dar hârtia se decolorează, așa că fotografiază bonul pe loc, cu telefonul.
+
+ola-ro-09-joke
+  slot: Gluma serii
+  setup: În fiecare an îmi zice: de data asta fac actele din vară.
+  punch: Mă sună pe 30 ianuarie.
+  hook: La Self Assessment, suma e aceeași în noiembrie și în ianuarie. Se schimbă doar cât de liniștit dormi.
+
+ola-ro-10-quote
+  slot: Citatul serii
+  line: În timp ce amânăm, viața trece în grabă.
+  attrib: Seneca
+
+ola-en-01-tip
+  slot: Thought of the day
+  hero: A good year does not end in a rush. It ends in a decision.
+  sub: December arrives whether you are ready or not. Spend one quiet evening on what worked this year and what did not, and next year starts with a plan instead of a scramble.
+
+ola-en-02-acq
+  slot: Come to Ola Accountancy
+  hero: A year where nothing is late and nobody has to chase you.
+  sub: That is most of what we do for a limited company. We watch the dates so you do not have to, and the paperwork reaches you early enough to read it. First 30 minutes free.
+
+ola-en-03-acq
+  slot: Come to Ola Accountancy
+  hero: You should be able to explain your numbers in one sentence.
+  sub: We sit down and go through them with you: what came in, what went out, what is actually yours to keep. No jargon, no lecture. Your first 30 minutes with us are free.
+
+ola-en-04-joke
+  slot: Joke of the day
+  setup: I asked a client how the year had gone.
+  punch: He said busy. Then he went quiet.
+  hook: Busy and profitable are not the same thing, and only one of them is still there in January.
+
+ola-en-05-quote
+  slot: Evening quote
+  line: Great works are performed not by strength but by perseverance.
+  attrib: Samuel Johnson
+
+bham-01-tip
+  slot: Thought of the day
+  hero: The hardest month to do paperwork is the month you are busiest.
+  sub: The evenings go dark and the takeaways, couriers and barbers go flat out. Hand the admin to someone else and keep both hands on the work that pays.
+
+bham-02-acq
+  slot: Come to Ola Accountancy
+  hero: Your accountant should be a short drive away, not a hold queue.
+  sub: We are at 22-42 Washwood Heath Road, Saltley, B8 1RB. Bring the folder in, sit down with a real person, and leave knowing exactly what happens next.
+
+bham-03-acq
+  slot: Come to Ola Accountancy
+  hero: We already know what a West Midlands trade looks like on paper.
+  sub: Cash takings, a van on finance, three jobs in one week and then a quiet fortnight. You will not have to explain how your work actually runs twice.
+
+bham-04-acq
+  slot: Come to Ola Accountancy
+  hero: Know what your bill will be before the new year starts.
+  sub: We would far rather tell you now than leave you guessing. The first 30 minutes with us are free, and we keep an eye on the dates so you do not have to.
+
+bham-05-edu
+  slot: Financial education with Ola Accountancy
+  hero: From April 2027 a small shop or cafe could pay 39.5p, not 44.7p.
+  sub: Pence on every pound of rateable value. The lower rate is for shops, cafes and the like in England from 1 April 2027 - not vape shops, adult gaming centres or empty units.
+
+bham-06-edu
+  slot: Financial education with Ola Accountancy
+  hero: Gifts to one client add up: &pound;50 a year before VAT, then VAT is due.
+  sub: That is the total of everything you give one person over any 12 months, not &pound;50 a gift. Pass it and VAT is due on all of them. Food and drink is entertainment, not a gift.
+
+bham-07-edu
+  slot: Financial education with Ola Accountancy
+  hero: Challenge your band in the first 6 months and you can appeal.
+  sub: After that it is only a band review: up to 12 months to decide and no appeal at all. England and Wales - Scotland has its own route, Northern Ireland has no Council Tax.
+
+bham-08-joke
+  slot: Joke of the day
+  setup: Stocked up, staff booked, signs in the window.
+  punch: Nobody ordered more receipt paper.
+  hook: A record day makes a record pile of paper. Till receipts fade, so photograph the day's total while you still can.
+
+bham-09-joke
+  slot: Joke of the evening
+  setup: Dad does the buying. Mum does the till.
+  punch: Nobody does the folder.
+  hook: Every family shop has one job nobody claimed. Name it, give it to one person, and the month closes itself.
+
+bham-10-quote
+  slot: Evening quote
+  line: A wise man will make more opportunities than he finds.
+  attrib: Francis Bacon
+
+en-01-tip
+  slot: Thought of the day
+  hero: The quietest weeks of the year are the best ones to plan in.
+  sub: Most weeks the work decides what you do. These few weeks, you decide. An hour on next year's numbers now is worth a week of it later, when everything is urgent.
+
+en-02-acq
+  slot: Come to Ola Accountancy
+  hero: Your accountant does not have to be down the road from you.
+  sub: We look after limited companies, sole traders, people in CIS and small payrolls right across the UK. Calls, messages, screen shares - nothing waits on the post.
+
+en-03-acq
+  slot: Come to Ola Accountancy
+  hero: The first half hour with us is free, and it is a real half hour.
+  sub: Thirty minutes, no charge, no form to fill in first. Bring the question you keep meaning to ask and we will tell you plainly where you stand.
+
+en-04-acq
+  slot: Come to Ola Accountancy
+  hero: Your company, your payroll and your own return, all in one place.
+  sub: Plenty of owners end up with three different people who have never spoken to each other. We handle all three, so nobody asks you the same thing twice.
+
+en-05-edu
+  slot: Financial education with Ola Accountancy
+  hero: On 31 January 2027 you pay last year's tax - and half of it again.
+  sub: The second part is a payment on account for next year: half of last year's bill. Not due if last year's bill was under £1,000, or if over 80% of your tax was taken at source.
+
+en-06-edu
+  slot: Financial education with Ola Accountancy
+  hero: Over £50,000 profit, your company is not suddenly all taxed at 25%.
+  sub: Between £50,000 and £250,000, Marginal Relief tapers the rate up from 19% to 25%. Companies not resident in the UK, and close investment-holding companies, do not get it.
+
+en-07-edu
+  slot: Financial education with Ola Accountancy
+  hero: If your company pays you interest on a loan, it must hold back 20%.
+  sub: Deduct it, file form CT61 and pay by 14 January 2027 for the quarter to 31 December. None of it applies if the interest goes to a UK bank or to another UK company.
+
+en-08-joke
+  slot: Joke of the day
+  setup: A customer asks how much. You give them a number.
+  punch: They say yes too fast. You priced it wrong.
+  hook: If every quote is accepted straight away, the price is low. Your own figures tell you that long before your gut does.
+
+en-09-joke
+  slot: Joke of the evening
+  setup: Your invoice says payment within 30 days.
+  punch: Their accounts team has its own calendar.
+  hook: Late payment is how a profitable business runs out of cash. The profit is real - the money simply has not arrived yet.
+
+en-10-quote
+  slot: Evening quote
+  line: It is not enough to be industrious; so are the ants. What are you industrious about?
+  attrib: Henry David Thoreau

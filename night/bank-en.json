@@ -1,0 +1,168 @@
+[
+ {
+  "id": "self-assessment-31-january-2027",
+  "verified": "2026-11-13",
+  "recheck_after": "2027-02-01",
+  "brands": [
+   "en"
+  ],
+  "title": "Self Assessment: 31 January 2027",
+  "official_page": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+  "figures": [
+   {
+    "value": "11:59pm, 31 January 2027",
+    "what": "Deadline to file the 2025/26 return online AND to pay the tax owed for it",
+    "source": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "half of last year's bill",
+    "what": "How each payment on account is calculated",
+    "source": "https://www.gov.uk/understand-self-assessment-bill/payments-on-account",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "£1,000",
+    "what": "No payments on account if last year's Self Assessment bill was under this",
+    "source": "https://www.gov.uk/understand-self-assessment-bill/payments-on-account",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "80%",
+    "what": "No payments on account if more than this share of last year's tax was collected at source",
+    "source": "https://www.gov.uk/understand-self-assessment-bill/payments-on-account",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Anyone issued a notice to file, plus sole traders with gross trading income over £1,000, partners, those with Capital Gains Tax, and those with untaxed income such as rent or dividends",
+   "excluded": "Anyone who meets none of the criteria and has had no notice to file. No payments on account are due where last year's bill was under £1,000, or where more than 80% of last year's tax was already collected at source. The paper deadline was 31 October 2026 and has passed.",
+   "from_when": "For the 2025/26 tax year",
+   "automatic": false,
+   "how_to_claim": "File online and pay by 11:59pm on 31 January 2027."
+  },
+  "notes": "THREE obligations fall on 31 January 2027, not one: the return, the balancing payment for 2025/26, and the first payment on account for 2026/27. Payments on account include Class 4 National Insurance but not Capital Gains Tax or student loan repayments. Budget 2026 changed nothing here; more frequent in-year payments start only from April 2029.",
+  "used": []
+ },
+ {
+  "id": "corporation-tax-rates-marginal-relief",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en",
+   "ola",
+   "bham"
+  ],
+  "title": "Corporation Tax Rates and Marginal Relief",
+  "official_page": "https://www.gov.uk/corporation-tax-rates",
+  "figures": [
+   {
+    "value": "19%",
+    "what": "small profits rate — \"you'll pay the 'small profits rate', which is 19%\", on profits of £50,000 or less",
+    "source": "https://www.gov.uk/corporation-tax-rates",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "25%",
+    "what": "main rate — \"If your company made more than £250,000 profit, you'll pay the main rate of Corporation Tax\"",
+    "source": "https://www.gov.uk/corporation-tax-rates",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£50,000",
+    "what": "Marginal Relief lower limit (\"£50,000 (the lower limit)\")",
+    "source": "https://www.gov.uk/guidance/corporation-tax-marginal-relief",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "£250,000",
+    "what": "Marginal Relief upper limit (\"£250,000 (the upper limit)\")",
+    "source": "https://www.gov.uk/guidance/corporation-tax-marginal-relief",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "19% / 25% / £50,000 / £250,000",
+    "what": "HMRC rates-and-allowances table confirms small profits rate 19%, main rate 25%, Marginal Relief lower limit £50,000 and upper limit £250,000 are unchanged for the financial year beginning 1 April 2026 (table updated 1 April 2026)",
+    "source": "https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "3/200",
+    "what": "standard marginal relief fraction",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm03910",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "1 April 2023",
+    "what": "date the 19%/25% two-rate structure and Marginal Relief took effect — \"From 1 April 2023\"",
+    "source": "https://www.gov.uk/guidance/corporation-tax-marginal-relief",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "divided by the number of associated companies plus one",
+    "what": "both limits are reduced in proportion for accounting periods shorter than 12 months and divided by the number of associated companies plus one (with 3 associated companies the limits become £12,500 and £62,500)",
+    "source": "https://www.gov.uk/guidance/corporation-tax-marginal-relief",
+    "read": "2026-11-14"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "UK-resident companies and organisations chargeable to Corporation Tax. Profits of £50,000 or less are charged at the small profits rate of 19%; profits over £250,000 at the main rate of 25%; profits between £50,000 and £250,000 are charged at the main rate with Marginal Relief, which tapers the effective rate between 19% and 25%. Both limits are proportionately reduced for accounting periods of less than 12 months and divided by the number of associated companies plus one.",
+   "excluded": "Non-UK resident companies cannot claim Marginal Relief (gov.uk/guidance/corporation-tax-marginal-relief). Close investment-holding companies are excluded from both the small profits rate and Marginal Relief — CTA 2010 s.18N: close investment-holding companies \"are chargeable at the CT main rate\" and \"are not eligible for the standard small profits rate or marginal relief\" (HMRC CTM03951). Companies whose augmented profits, including certain distributions from unrelated, unassociated companies, exceed £250,000 get no Marginal Relief. Ring fence profits (UK/UK continental shelf oil rights or extraction) are outside the standard rates and have their own small ring fence profits rate of 19% with a ring fence fraction of 11/400 (CTM03910); CTA 2010 s.18A(1) applies the standard small profits rate only to profits \"which are not ring fence profits\". A company in liquidation is not treated as a close investment-holding company for the accounting period beginning when winding up commences, if it was not one in the prior period (CTA 2010 s.18N(5)).",
+   "from_when": "The two-rate structure with Marginal Relief applies from 1 April 2023. The rates and limits above are confirmed unchanged for the financial year beginning 1 April 2026.",
+   "automatic": true,
+   "how_to_claim": "No separate application. CTA 2010 s.18A(1) charges Corporation Tax at the standard small profits rate where the company is UK resident, is not a close investment-holding company, and its augmented profits do not exceed the lower limit. CTA 2010 s.18B(1) states \"This section applies if—\" the company is UK resident, is not a close investment-holding company, and its augmented profits exceed the lower limit but not the upper limit — so the relief operates as a statutory reduction rather than on application. The figures are self-assessed in the Company Tax Return; HMRC publishes a Marginal Relief calculator at gov.uk/guidance/corporation-tax-marginal-relief, which describes it as checking \"how much Marginal Relief you may be able to claim\"."
+  },
+  "notes": "The GOV.UK guidance uses the language of claiming Marginal Relief, while the legislation (CTA 2010 ss.18A, 18B) frames both the small profits rate and the relief as applying automatically where the conditions are met — worth wording carefully in client copy. The associated-companies divisor is the commonest trap: a director with several companies loses the £50,000 band quickly. The gov.uk/corporation-tax-rates page itself does not mention the close investment-holding company exclusion; that comes from HMRC's Company Taxation Manual CTM03951 and CTA 2010 s.18N. CTM03910's published table runs to financial year 2025; FY2026 confirmation comes from the rates-and-allowances publication updated 1 April 2026.",
+  "used": []
+ },
+ {
+  "id": "ct61-return-income-tax-on-company-interest-14-january",
+  "verified": "2026-11-17",
+  "recheck_after": "2027-01-20",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "CT61: 20% Tax on Interest a Company Pays, Due 14 January 2027",
+  "official_page": "https://www.gov.uk/government/publications/corporation-tax-return-of-income-tax-on-company-payments-ct61",
+  "figures": [
+   {
+    "value": "20%",
+    "what": "Basic rate Income Tax the company must deduct from yearly interest and certain other payments, using the rate in force on the date the payment is made",
+    "source": "https://assets.publishing.service.gov.uk/media/5a7e0a5ce5274a2e8ab4573c/ct61-notes-2010.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "14 days",
+    "what": "Time after the end of each return period to send the CT61 and pay the tax, without waiting for a demand",
+    "source": "https://assets.publishing.service.gov.uk/media/5a7e0a5ce5274a2e8ab4573c/ct61-notes-2010.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "14 January 2027",
+    "what": "Due date for the CT61 return and payment for the return period ended 31 December 2026",
+    "source": "https://assets.publishing.service.gov.uk/media/5a7e0a5ce5274a2e8ab4573c/ct61-notes-2010.pdf",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "31 March, 30 June, 30 September, 31 December",
+    "what": "The standard quarter dates on which CT61 return periods end; a company may also need an extra return period to match its accounting period end",
+    "source": "https://assets.publishing.service.gov.uk/media/5a7e0a5ce5274a2e8ab4573c/ct61-notes-2010.pdf",
+    "read": "2026-11-17"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (Corporation Tax and Income Tax deduction at source, not devolved)",
+   "who": "A company that pays yearly interest to someone other than a UK bank - most commonly interest on a loan from a director, a family member or a private individual - and also certain royalties, annuities and other annual payments, alternative finance payments, and payments under non-charitable deeds of covenant. The company deducts 20%, pays it to HMRC and reports it on form CT61.",
+   "excluded": "No deduction and no CT61 where the recipient is a UK-resident company, or a listed tax-exempt body such as a charity, local authority or approved pension fund. Interest paid to a UK bank is outside it. Donations to charities and interest on quoted Eurobonds are not subject to deduction. Short interest - interest on a loan not capable of lasting a year or more - is not yearly interest and is not caught. A company that makes no such payments in a quarter has no CT61 to file for that quarter.",
+   "from_when": "Current rules; return period ended 31 December 2026 is due 14 January 2027",
+   "automatic": false,
+   "how_to_claim": "Request form CT61 from HMRC, complete it for the return period and send it with payment to the Accounts Office within 14 days of the period end."
+  },
+  "notes": "This is the deadline owner-managed companies miss most often, because nothing in the payroll or VAT cycle prompts it. If a company pays interest on a director's loan, or on a loan from a family member, it must withhold 20% and account for it quarterly on a CT61 - the director then shows the gross interest and the tax credit on their own Self Assessment return. Paying the director the gross amount and sorting it out at the year end is not an option: the obligation is quarterly and the 14-day window is short. There is no CT61 for interest paid to a UK bank or to another UK company, which is why most companies never meet the form. The deducted tax is not Corporation Tax and does not go on the CT600.",
+  "used": []
+ }
+]

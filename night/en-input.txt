@@ -1,0 +1,251 @@
+FRAME ola-en-01-tip
+  slot: Thought of the day
+  hero: A good year does not end in a rush. It ends in a decision.
+  sub: December arrives whether you are ready or not. Spend one quiet evening on what worked this year and what did not, and next year starts with a plan instead of a scramble.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: A good year does not end in a rush. It ends in a decision. Before December takes over, give yourself one quiet hour: what worked, what you will stop doing, what next year should look like. Worth more than all of January.
+  ask: Save this and come back to it on a quiet evening this week.
+  title: A good year does not end in a rush
+
+FRAME ola-en-02-acq
+  slot: Come to Ola Accountancy
+  hero: A year where nothing is late and nobody has to chase you.
+  sub: That is most of what we do for a limited company. We watch the dates so you do not have to, and the paperwork reaches you early enough to read it. First 30 minutes free.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: Most directors do not want more from an accountant. They want the work done on time, without being chased. We watch the dates, send the paperwork early, and leave you time to read it. First 30 minutes free, on WhatsApp 0330 133 1886.
+  ask: Share this with a director who is tired of chasing.
+  title: A year where nothing is filed late
+
+FRAME ola-en-03-acq
+  slot: Come to Ola Accountancy
+  hero: You should be able to explain your numbers in one sentence.
+  sub: We sit down and go through them with you: what came in, what went out, what is actually yours to keep. No jargon, no lecture. Your first 30 minutes with us are free.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: You do not need to be an accountant to understand your own business. You need someone to go through the numbers with you until they make sense: what came in, what went out, what is actually yours to keep. First 30 minutes free.
+  ask: Keep this for when accounts land and tell you nothing.
+  title: You should be able to explain your numbers
+
+FRAME ola-en-04-joke
+  slot: Joke of the day
+  setup: I asked a client how the year had gone.
+  punch: He said busy. Then he went quiet.
+  hook: Busy and profitable are not the same thing, and only one of them is still there in January.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: I asked a client how the year had gone. He said busy. Then he went quiet. Busy and profitable are not the same thing, and the difference only shows up once somebody adds it all up properly.
+  ask: Send this to the busiest person you know.
+  title: I asked how the year had gone. He said busy.
+
+FRAME ola-en-05-quote
+  slot: Evening quote
+  line: Great works are performed not by strength but by perseverance.
+  attrib: Samuel Johnson
+CAPTION
+  caption: Nothing worth having in a business is built in a burst. The accounts, the client list, the name people pass on: all of it is the same small thing done again when nobody is watching.
+  ask: Share this with someone in the slow part of building something.
+  title: Not by strength, but by perseverance
+
+FRAME bham-01-tip
+  slot: Thought of the day
+  hero: The hardest month to do paperwork is the month you are busiest.
+  sub: The evenings go dark and the takeaways, couriers and barbers go flat out. Hand the admin to someone else and keep both hands on the work that pays.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: The evenings are dark by four and the phone has not stopped. This is the stretch where the shop, the van and the chair are all busy at once, and the paperwork quietly stacks up behind the counter because there is simply no hour left in the day for it. That is the point of us. You carry on serving, driving and cutting; we keep the records straight, tell you what is coming and ask you for things one at a time instead of all at once. Washwood Heath Road is five minutes from most of Saltley and Small Heath, and WhatsApp is quicker than that.
+  ask: Send this to the one person you know who is working seven days this month.
+  title: The busiest month is the worst month for paperwork
+
+FRAME bham-02-acq
+  slot: Come to Ola Accountancy
+  hero: Your accountant should be a short drive away, not a hold queue.
+  sub: We are at 22-42 Washwood Heath Road, Saltley, B8 1RB. Bring the folder in, sit down with a real person, and leave knowing exactly what happens next.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: You should be able to get to your accountant and back before the shop reopens. Ours is at 22-42 Washwood Heath Road in Saltley, B8 1RB, which is a short drive from Small Heath, Aston, Erdington and Digbeth, and there is a human being in the room rather than a menu of options. Bring the folder, the carrier bag, the shoebox, whatever it is in. We will go through it with you, tell you plainly where your limited company stands and what the next step is, and you will leave knowing it. If coming in is awkward, message us first and we will sort it from there.
+  ask: Save this so the address is in your phone when you need it.
+  title: An accountant a short drive away, not a hold queue
+
+FRAME bham-03-acq
+  slot: Come to Ola Accountancy
+  hero: We already know what a West Midlands trade looks like on paper.
+  sub: Cash takings, a van on finance, three jobs in one week and then a quiet fortnight. You will not have to explain how your work actually runs twice.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: Cash takings on a Saturday. A van on finance. Three jobs in one week and then a fortnight where the phone barely rings. A chair rented out at the back. None of that is unusual to us, because it is what most of the businesses we look after around Birmingham actually look like. That matters more than it sounds. It means you are not spending the first half hour explaining your trade before anyone can help you, and it means nobody tells you your figures look odd when they are simply the figures of a real West Midlands business. Move your limited company over and start from the middle, not the beginning.
+  ask: Share this with someone who is tired of explaining their trade from scratch.
+  title: We already know what your trade looks like on paper
+
+FRAME bham-04-acq
+  slot: Come to Ola Accountancy
+  hero: Know what your bill will be before the new year starts.
+  sub: We would far rather tell you now than leave you guessing. The first 30 minutes with us are free, and we keep an eye on the dates so you do not have to.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: The worst version of this is finding out what you owe at the last minute, when the money has already been spent on stock, a van repair or Christmas. The better version is knowing the number now, in November, while there is still room to plan around it. That is most of what we do: get the records in order, work out the position, and tell you early and in plain words. The first 30 minutes with us are free, and we keep an eye on the dates so you are not the one remembering them. Message us and we will book you in.
+  ask: Save this if you would rather know the number early than late.
+  title: Know the number now, while there is still room to plan
+
+FRAME bham-05-edu
+  slot: Financial education with Ola Accountancy
+  hero: From April 2027 a small shop or cafe could pay 39.5p, not 44.7p.
+  sub: Pence on every pound of rateable value. The lower rate is for shops, cafes and the like in England from 1 April 2027 - not vape shops, adult gaming centres or empty units.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: Business rates are worked out in pence on every pound of your property's rateable value, and the pence are changing. In England, from 1 April 2027, the small business rate for shops, cafes, pubs and similar retail, hospitality and leisure premises is 39.5p, against 44.7p for a small business outside those trades. The standard rates are 44.5p and 49.7p. Who is left out: these are England figures only, so Scotland, Wales and Northern Ireland each run their own system; vape shops and adult gaming centres are to be excluded from the retail, hospitality and leisure definition; and an empty unit cannot qualify for the lower rate. The regulations are still to come, so treat this as the position as announced.
+  ask: Save this for when your 2027-28 rates bill lands and you want to check the pence.
+  title: Two different rates, and which one a small cafe pays
+
+FRAME bham-06-edu
+  slot: Financial education with Ola Accountancy
+  hero: Gifts to one client add up: &pound;50 a year before VAT, then VAT is due.
+  sub: That is the total of everything you give one person over any 12 months, not &pound;50 a gift. Pass it and VAT is due on all of them. Food and drink is entertainment, not a gift.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: It is the season for dropping something off with a good customer, so here is the line that catches people. If you are VAT registered, you can give one person gifts costing up to 50 pounds in total, excluding VAT, in any 12-month period, with no VAT for you to account for. The trap is the word total. It is not 50 pounds per gift. Three hampers at 30 pounds each to the same customer passes it, and VAT is then due on the cost of all of them, not just the amount over 50. Who is not caught: if you were never entitled to reclaim the VAT on the goods, there is nothing to account for, and genuine samples of what you sell are a separate rule with no cash limit. Food, drink and a night out are entertainment, not gifts.
+  ask: Save this before you order the Christmas hampers.
+  title: The 50 pound gift rule people get wrong every Christmas
+
+FRAME bham-07-edu
+  slot: Financial education with Ola Accountancy
+  hero: Challenge your band in the first 6 months and you can appeal.
+  sub: After that it is only a band review: up to 12 months to decide and no appeal at all. England and Wales - Scotland has its own route, Northern Ireland has no Council Tax.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: Most people who talk about getting their Council Tax band changed do not know there are two doors, and only one has a way back. If you have been paying on the property for less than six months, or the Valuation Office changed your band in the last six months, you have a legal right to challenge. That is a proposal: a decision in up to four months, and if you disagree you can appeal to the Valuation Tribunal, which costs nothing. Past six months, all that is open is a band review: up to twelve months, and no right of appeal at all. Either way you keep paying while it is looked at. This route is England and Wales. Scotland goes through the Scottish assessors, and Northern Ireland has domestic rates rather than Council Tax.
+  ask: Save this - the six-month point is the whole difference.
+  title: Two ways to challenge a band, and only one lets you appeal
+
+FRAME bham-08-joke
+  slot: Joke of the day
+  setup: Stocked up, staff booked, signs in the window.
+  punch: Nobody ordered more receipt paper.
+  hook: A record day makes a record pile of paper. Till receipts fade, so photograph the day's total while you still can.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: Every shop plans for the rush and nobody plans for the paper it produces. If Friday is the biggest day the till has ever seen, that is the day whose record you most want to be able to read in April. Till rolls are heat-printed and they fade, sometimes within months, so take a photograph of the day's total and the Z-reading before it goes ghostly, and keep the card machine summary with it. Same for the big supplier invoices you pick up this week. One photo on the night is worth an hour of guessing later.
+  ask: Share this with whoever is on the till on Friday.
+  title: Nobody ever orders enough receipt paper
+
+FRAME bham-09-joke
+  slot: Joke of the evening
+  setup: Dad does the buying. Mum does the till.
+  punch: Nobody does the folder.
+  hook: Every family shop has one job nobody claimed. Name it, give it to one person, and the month closes itself.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: In nearly every family business there is a job that was never given to anyone. The buying has an owner. The till has an owner. The folder sits on top of the fridge and belongs to nobody, and then it belongs to everybody at the worst possible moment. The fix is unglamorous and it works: say out loud whose job it is, give that person one slot a week, and let them be the one who sends things on to us. The month stops being an event and becomes a habit.
+  ask: Share this with the family member who will recognise the folder.
+  title: The one job in a family shop that nobody claimed
+
+FRAME bham-10-quote
+  slot: Evening quote
+  line: A wise man will make more opportunities than he finds.
+  attrib: Francis Bacon
+CAPTION
+  caption: Written four hundred years ago and still the most useful sentence for a quiet end of November. Work does not only arrive; a fair part of it is made, by the call you place, the price you put in writing, the customer you ring back when you said you would. Trade is slow in places this week and there is time to make one or two things happen rather than wait for them to.
+  ask: Save this one for a slow week.
+  title: Four hundred years old and still true in a slow week
+
+FRAME en-01-tip
+  slot: Thought of the day
+  hero: The quietest weeks of the year are the best ones to plan in.
+  sub: Most weeks the work decides what you do. These few weeks, you decide. An hour on next year's numbers now is worth a week of it later, when everything is urgent.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: Most of the year, the work decides what you do. These few weeks are the exception. The phone is quieter, the diary has gaps in it, and nothing is on fire. That is the moment to look at next year on purpose, rather than react to it once it has already started. An hour now - what you want the business to earn, what you want to take out of it, what you want to stop doing altogether - is worth a week of the same thinking done under pressure. Nobody has ever regretted deciding early.
+  ask: Share this with the business owner who has not stopped all year.
+  title: The quiet weeks are the planning weeks
+
+FRAME en-02-acq
+  slot: Come to Ola Accountancy
+  hero: Your accountant does not have to be down the road from you.
+  sub: We look after limited companies, sole traders, people in CIS and small payrolls right across the UK. Calls, messages, screen shares - nothing waits on the post.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: Plenty of owners still choose an accountant by how far they have to drive. That made sense once. It does not now. We look after limited companies, sole traders, people working under CIS and small payrolls right across the UK - England, Scotland, Wales and Northern Ireland. You send us what you have, we ask for what we need, and we go through it together on a call or a screen share. Nothing in your year has to sit in an envelope waiting for a postbox, and no afternoon has to be given up to a meeting you could have had from your own kitchen. If that is how you would rather work, say hello.
+  ask: Share this with somebody who thinks their accountant has to be local.
+  title: Your accountant does not have to be local
+
+FRAME en-03-acq
+  slot: Come to Ola Accountancy
+  hero: The first half hour with us is free, and it is a real half hour.
+  sub: Thirty minutes, no charge, no form to fill in first. Bring the question you keep meaning to ask and we will tell you plainly where you stand.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: The first thirty minutes with us costs nothing, and it is not a sales call with a timer on it. Bring the thing you have been meaning to ask: whether the company is still the right shape for what you now do, what the payroll ought to look like, whether your own return really is as simple as you are hoping. We will tell you plainly where you stand and what, if anything, we would do differently. If that is the end of it, you have spent half an hour. If it is not, you already know who you are dealing with.
+  ask: Save this for the next time you nearly asked and then did not.
+  title: The first half hour is free, and it is a real half hour
+
+FRAME en-04-acq
+  slot: Come to Ola Accountancy
+  hero: Your company, your payroll and your own return, all in one place.
+  sub: Plenty of owners end up with three different people who have never spoken to each other. We handle all three, so nobody asks you the same thing twice.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: Three sets of people who have never spoken to each other: one does the company accounts, one runs the payroll, one does your personal return. All three ask you for the same bank statements. All three know a third of the picture. We do the lot, which means the figures agree with one another and you only have to explain yourself once. It sounds like a small thing right up until the year you need an answer quickly.
+  ask: Share this with the owner who forwards the same email to three people.
+  title: One firm for the company, the payroll and you
+
+FRAME en-05-edu
+  slot: Financial education with Ola Accountancy
+  hero: On 31 January 2027 you pay last year's tax - and half of it again.
+  sub: The second part is a payment on account for next year: half of last year's bill. Not due if last year's bill was under £1,000, or if over 80% of your tax was taken at source.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: There is a surprise waiting on 31 January 2027 for anyone in their second year of Self Assessment. You file the 2025/26 return and pay the tax on it - and on the very same day, a first payment on account towards 2026/27, worked out as half of last year's bill. It is not a penalty and it is not a mistake. It is next year's tax asked for in advance, in two halves. Two things stop it. If last year's Self Assessment bill came to under £1,000, no payments on account are due at all. Nor are they if more than 80% of last year's tax was already collected at source, through PAYE for instance. Both the return and the payment are due by 11:59pm. Worth working out which of those you are well before the day itself.
+  ask: Save this - you will want the £1,000 figure in front of you in January.
+  title: Why your January bill could be half again
+
+FRAME en-06-edu
+  slot: Financial education with Ola Accountancy
+  hero: Over £50,000 profit, your company is not suddenly all taxed at 25%.
+  sub: Between £50,000 and £250,000, Marginal Relief tapers the rate up from 19% to 25%. Companies not resident in the UK, and close investment-holding companies, do not get it.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: A lot of directors believe that the moment profits pass £50,000, the whole lot is taxed at 25%. They are usually relieved to find out otherwise. Profits of £50,000 or less are charged at 19%, the small profits rate. Profits over £250,000 are charged at the main rate of 25%. Between the two, Marginal Relief tapers the rate up from one to the other, so the effective rate climbs gradually rather than falling off a cliff at £50,001. Two groups do not get it: companies that are not resident in the UK, and close investment-holding companies. And if you hold several companies, those £50,000 and £250,000 limits get divided between them, which catches directors out far more often than the rates themselves do.
+  ask: Save this before you decide whether to take the extra work on.
+  title: No, 25% does not land on your whole profit
+
+FRAME en-07-edu
+  slot: Financial education with Ola Accountancy
+  hero: If your company pays you interest on a loan, it must hold back 20%.
+  sub: Deduct it, file form CT61 and pay by 14 January 2027 for the quarter to 31 December. None of it applies if the interest goes to a UK bank or to another UK company.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: This one catches a particular sort of company, and if it is not yours you can stop reading with a clear conscience. If your company borrowed money from you, or from a family member, and pays interest on that loan, it cannot simply hand over the full amount. It has to hold back 20% basic rate Income Tax, pay that over to HMRC, and report it on a form called CT61 - within 14 days of the end of each return period. For the period ending 31 December 2026, that means 14 January 2027. Nothing in the payroll or VAT cycle prompts you, which is why this is the deadline owner-managed companies miss most. You then show the gross interest and the tax credit on your own return. And if the interest goes to a UK bank, or to another UK company, or to a charity or an approved pension fund, none of it applies - which is why most companies never meet the form at all.
+  ask: Save this if your company pays interest to a person rather than a bank.
+  title: Your company pays you interest? Hold back 20%
+
+FRAME en-08-joke
+  slot: Joke of the day
+  setup: A customer asks how much. You give them a number.
+  punch: They say yes too fast. You priced it wrong.
+  hook: If every quote is accepted straight away, the price is low. Your own figures tell you that long before your gut does.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: You give a price. They say yes before you have finished the sentence. The good feeling lasts about a day and a half, and then you are halfway through the job working out that you are doing it for very little. Quoting is not a test of nerve. It is arithmetic: what the work actually costs you in hours and materials, what you need to be left with at the end of it, and what you therefore have to charge. Owners who know their own cost per hour quote quicker and argue less.
+  ask: Share this with whoever quoted too low this week.
+  title: They said yes too fast and you knew why
+
+FRAME en-09-joke
+  slot: Joke of the evening
+  setup: Your invoice says payment within 30 days.
+  punch: Their accounts team has its own calendar.
+  hook: Late payment is how a profitable business runs out of cash. The profit is real - the money simply has not arrived yet.
+  cta: Message us on WhatsApp 0330 133 1886
+CAPTION
+  caption: Thirty days, it says on the invoice. Thirty days from when, exactly, turns out to be a matter of interpretation at their end. This is the part of running a business that nobody warns you about: you can be busy, profitable on paper, and still unable to pay your own bills, because the money that proves you are profitable is sitting in somebody else's account. Knowing what is owed to you, and how old each of it is, is not admin. It is the difference between a good year and a frightening one.
+  ask: Share this with somebody who is still waiting to be paid.
+  title: Your invoice says 30 days. Their calendar disagrees
+
+FRAME en-10-quote
+  slot: Evening quote
+  line: It is not enough to be industrious; so are the ants. What are you industrious about?
+  attrib: Henry David Thoreau
+CAPTION
+  caption: Thoreau was not against hard work. He was against hard work that nobody has asked the purpose of. Busy is easy. Busy is the default setting of anybody running their own business - the day fills itself, and at the end of it you have certainly moved, without having necessarily moved forward. The question underneath is a business question as much as a philosophical one: of everything you did today, how much of it was the work, and how much of it was motion? Worth a minute of a dark evening.
+  ask: Share this with somebody who has been flat out all week.
+  title: Busy is easy. Busy at what is the real question

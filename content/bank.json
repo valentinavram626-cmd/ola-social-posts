@@ -497,7 +497,9 @@
    "how_to_claim": "File online and pay by 11:59pm on 31 January 2027."
   },
   "notes": "THREE obligations fall on 31 January 2027, not one: the return, the balancing payment for 2025/26, and the first payment on account for 2026/27. Payments on account include Class 4 National Insurance but not Capital Gains Tax or student loan repayments. Budget 2026 changed nothing here; more frequent in-year payments start only from April 2029.",
-  "used": []
+  "used": [
+   "2026-11-24"
+  ]
  },
  {
   "id": "vat-registration-deregistration-thresholds",
@@ -2633,7 +2635,9 @@
    "how_to_claim": "No separate application. CTA 2010 s.18A(1) charges Corporation Tax at the standard small profits rate where the company is UK resident, is not a close investment-holding company, and its augmented profits do not exceed the lower limit. CTA 2010 s.18B(1) states \"This section applies if—\" the company is UK resident, is not a close investment-holding company, and its augmented profits exceed the lower limit but not the upper limit — so the relief operates as a statutory reduction rather than on application. The figures are self-assessed in the Company Tax Return; HMRC publishes a Marginal Relief calculator at gov.uk/guidance/corporation-tax-marginal-relief, which describes it as checking \"how much Marginal Relief you may be able to claim\"."
   },
   "notes": "The GOV.UK guidance uses the language of claiming Marginal Relief, while the legislation (CTA 2010 ss.18A, 18B) frames both the small profits rate and the relief as applying automatically where the conditions are met — worth wording carefully in client copy. The associated-companies divisor is the commonest trap: a director with several companies loses the £50,000 band quickly. The gov.uk/corporation-tax-rates page itself does not mention the close investment-holding company exclusion; that comes from HMRC's Company Taxation Manual CTM03951 and CTA 2010 s.18N. CTM03910's published table runs to financial year 2025; FY2026 confirmation comes from the rates-and-allowances publication updated 1 April 2026.",
-  "used": []
+  "used": [
+   "2026-11-24"
+  ]
  },
  {
   "id": "companies-house-accounts-deadline",
@@ -5760,7 +5764,9 @@
    "how_to_claim": "Recover the input tax on qualifying staff entertainment through box 4 of the VAT Return in the normal way, holding a valid VAT invoice. Do not recover input tax on business entertainment. Where an event covers both employees and non-employees, apportion and recover only the employee portion (paragraph 3.4), and where a cost is partly entertainment and partly other business use, apportion under paragraph 2.7."
   },
   "notes": "The line that decides most cases is in paragraph 2.1: it is only business entertainment if the recipients are not employees and it is provided free, which is why a staff Christmas party is recoverable and a client lunch is not. Subsistence is the point most often confused with entertainment - paragraph 2.5 says subsistence for employees working away from their normal base is not business entertainment and is not covered by these rules, with the relevant rules in VAT Notice 700, and paragraph 3.1 repeats that employee and director subsistence is not employee entertainment. The directors-only rule in paragraph 3.2 catches owner-managed companies in particular: a meal out for the directors alone is not input tax, but the same directors at the staff party are fine. The overseas customer rule is often oversold: recovery is available in principle, but the private benefit output tax charge in paragraph 2.6 frequently cancels it out, so it is rarely a clean win. Commonly confused with the separate income tax and NIC treatment of staff entertaining, including the annual function exemption, which is a different regime on different figures, and with VAT Notice 700/7 on business promotions and gifts. No nation differences.",
-  "used": []
+  "used": [
+   "2026-11-24"
+  ]
  },
  {
   "id": "sdlt-residential-rates-and-first-time-buyers-relief",
@@ -7388,7 +7394,9 @@
    "how_to_claim": "Nothing to claim. Use the dates to work backwards from HMRC deadlines of 19 December 2026, 22 December 2026, 19 January 2027, 22 January 2027 and 31 January 2027."
   },
   "notes": "Plain terms on the nation split: the Christmas and New Year holidays are the same across the UK this year, with one exception — Scotland gets Monday 4 January 2027 as the substitute for 2 January, England, Wales and Northern Ireland do not. The practical point for clients is banking days, not holidays: with 25 and 28 December shut and 1 January shut, a Bacs payment or a cheque posted in the Christmas week can easily miss a 19 or 22 December HMRC deadline, while Faster Payments usually still land the same or next day. Work backwards from the deadline rather than forwards from the date you intended to pay.",
-  "used": []
+  "used": [
+   "2026-11-24"
+  ]
  },
  {
   "id": "company-tax-return-filing-deadline-and-late-penalties",
@@ -8114,7 +8122,9 @@
    "how_to_claim": "Request form CT61 from HMRC, complete it for the return period and send it with payment to the Accounts Office within 14 days of the period end."
   },
   "notes": "This is the deadline owner-managed companies miss most often, because nothing in the payroll or VAT cycle prompts it. If a company pays interest on a director's loan, or on a loan from a family member, it must withhold 20% and account for it quarterly on a CT61 - the director then shows the gross interest and the tax credit on their own Self Assessment return. Paying the director the gross amount and sorting it out at the year end is not an option: the obligation is quarterly and the 14-day window is short. There is no CT61 for interest paid to a UK bank or to another UK company, which is why most companies never meet the form. The deducted tax is not Corporation Tax and does not go on the CT600.",
-  "used": []
+  "used": [
+   "2026-11-24"
+  ]
  },
  {
   "id": "flat-rate-job-expenses-uniforms-tools",
@@ -9223,7 +9233,9 @@
    "how_to_claim": "In England and Wales, use the Valuation Office online challenge service linked from gov.uk/challenge-council-tax-band, or the paper Council Tax challenge form, plus an Authority to act form if you are acting for someone else. In Scotland, go through the Scottish Assessors Association. If the band changes, the Valuation Office tells the council, which revises the bill and pays any refund due."
   },
   "notes": "The distinction that makes this worth publishing: a PROPOSAL - a legal right, available within 6 months of becoming the taxpayer or of a Valuation Office band change, or after a material change - gets a decision in up to 4 months AND carries a right of appeal to the Valuation Tribunal. A BAND REVIEW, which is all that is open to anyone who has been paying for more than 6 months, can take up to 12 months and has NO appeal right at all. Most people who talk about challenging their band are in the second category and do not know it. Wales has a band I above £424,000; England stops at H - do not reuse English band figures for a Welsh property. Removal from the list is a separate remedy from rebanding: demolition, dereliction or serious structural disrepair, major renovation affecting all or most of the property, or conversion to purely business use; if removal was for renovation, liability restarts from the completion or move-in date. Scotland's bands and valuation date have NOT been verified - do not state them. Only the Scottish route is verified, not the Scottish figures.",
-  "used": []
+  "used": [
+   "2026-11-24"
+  ]
  },
  {
   "id": "digital-platform-seller-reporting-30-sales-2000-euro-threshold",
@@ -11383,7 +11395,9 @@
    "how_to_claim": "Nothing to claim or apply for. The employer chooses to use the rates in payroll. Pay at or below the advisory rate for the car's fuel type and engine size and there is no taxable profit and no Class 1A National Insurance. Pay above it without being able to show a higher actual fuel cost per mile and the excess is taxable profit and earnings for Class 1 National Insurance. A higher rate than the advisory rate can be used where you can show the fuel cost per mile is genuinely higher."
   },
   "notes": "Reviewed and revised quarterly by HMRC, effective 1 March, 1 June, 1 September and 1 December. No nation differences - these are HMRC rates applying identically in England, Scotland, Wales and Northern Ireland. The commonest confusion is with AMAP (Mileage Allowance Payments) for employees using their OWN car - a different scheme at a different, far higher rate; these advisory fuel rates are for COMPANY cars only. The second confusion is the electric rate: since 1 September 2025 there are two advisory electric rates (home and public charger), not one, and mileage can be apportioned between home and public charging on a fair and reasonable basis. The over-2000cc petrol rate jumped sharply from 27p to 29p and diesel over 2000cc from 22p to 25p in this December 2026 revision, so anyone still running September figures is now under-reimbursing.",
-  "used": []
+  "used": [
+   "2026-11-24"
+  ]
  },
  {
   "id": "paye-settlement-agreement-psa-deadlines",
@@ -12661,7 +12675,9 @@
    "how_to_claim": "Nothing to claim or apply for. The £50 shelter and the sample treatment apply automatically if the conditions are met — the duty is on the business to track the running total of gifts per recipient over a 12-month period and to account for output tax once it is exceeded. Where output tax is accounted for on a gift to a VAT-registered recipient who uses the goods in business, s2.4 says you cannot issue a VAT invoice but may use your normal invoicing documentation with the wording: 'Tax Certificate — No payment is necessary for these goods. Output tax of £XX.XX (insert amount) has been accounted for on the supply.'"
   },
   "notes": "Three things get mixed up here. First, business gifts are not business entertainment: gifts of goods are covered by Notice 700/7 and can be sheltered by the £50 limit, while entertainment (hospitality of any kind) sits in Notice 700/65 and generally blocks input tax recovery outright. Second, the £50 is cumulative per recipient over any 12-month period and excludes VAT — it is not £50 per gift, and once you pass it output tax is due on the cost value of all the gifts in the period, not just the slice above £50. Third, samples are a separate relief with no monetary cap, but the definition is narrow: a discontinued line cannot be a sample because there is no product left to promote, and quantity matters — one bottle of wine to a prospective buyer is a sample, a case of twelve is not (s4.3). If you are given samples and then sell them, output tax is due on that sale (s4.4). Free services are the odd one out: giving your own labour away is usually no supply at all, but passing on bought-in services free of charge triggers output tax where you reclaimed the input tax. This is a UK-wide valuation and deemed-supply rule, so the Northern Ireland Protocol/Windsor Framework does not bear on it.",
-  "used": []
+  "used": [
+   "2026-11-24"
+  ]
  },
  {
   "id": "vat-retail-schemes",
@@ -13455,6 +13471,8 @@
    "how_to_claim": "Applied by the local billing authority. No application route is stated in the letter."
   },
   "notes": "These figures are for 2027-28 only and come from a letter that says details will follow in regulations and guidance 'in the coming weeks', so they may still change - hence the early recheck date. Do not mix them with the 2026-27 multipliers. Do NOT describe as UK-wide. Not the same as Small Business Rate Relief, which is a separate banked subject. The rateable value thresholds for the small business and high-value multipliers are not stated in the letter and must not be quoted.",
-  "used": []
+  "used": [
+   "2026-11-24"
+  ]
  }
 ]

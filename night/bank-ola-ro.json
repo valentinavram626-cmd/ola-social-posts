@@ -1,0 +1,224 @@
+[
+ {
+  "id": "vat-business-and-staff-entertainment",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "en",
+   "ola",
+   "bham"
+  ],
+  "title": "VAT on business and staff entertainment: what is recoverable",
+  "official_page": "https://www.gov.uk/guidance/business-entertainment-and-vat-notice-70065",
+  "figures": [
+   {
+    "value": "Blocked - no recovery",
+    "what": "VAT Notice 700/65 paragraph 1.2 - 'You cannot recover input tax incurred on the provision of business entertainment expenses'; input tax on entertaining UK business contacts, and non-UK contacts who are not customers, is blocked from recovery under a special legal provision",
+    "source": "https://www.gov.uk/guidance/business-entertainment-and-vat-notice-70065",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "Recoverable",
+    "what": "VAT Notice 700/65 paragraph 3.1 - VAT on staff entertainment such as staff parties, team building and outings is input tax and is not blocked from recovery under the business entertainment rules",
+    "source": "https://www.gov.uk/guidance/business-entertainment-and-vat-notice-70065",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "3 conditions",
+    "what": "VAT Notice 700/65 paragraph 2.1 - entertainment is business entertainment only where all three conditions are met: entertainment is provided, it goes to people who are not employees, and it is provided free. Paragraph 2.2 defines entertainment as 'hospitality of any kind', such as food, drink, accommodation and event tickets",
+    "source": "https://www.gov.uk/guidance/business-entertainment-and-vat-notice-70065",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "Not input tax - no recovery",
+    "what": "VAT Notice 700/65 paragraph 3.2 - where entertainment is provided only for directors or partners, the VAT incurred is not input tax, so cannot be recovered; but where directors and partners attend staff events alongside other employees, HMRC accepts the tax is input tax and is not blocked",
+    "source": "https://www.gov.uk/guidance/business-entertainment-and-vat-notice-70065",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "2 exceptions",
+    "what": "VAT Notice 700/65 paragraph 2.8 table - recovery is allowed and the spending is not treated as business entertainment for recognised sporting bodies providing free accommodation and meals to amateur sports people and officials attending an event, and for airlines providing catering and accommodation to delayed passengers",
+    "source": "https://www.gov.uk/guidance/business-entertainment-and-vat-notice-70065",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "Any VAT-registered business incurring entertainment costs. Input tax on entertaining employees is recoverable (paragraph 3.1). Employees for this purpose include people employed by the business, directors and anyone managing the business including partners, self-employed people for subsistence only, and helpers and stewards essential to sporting events (paragraph 2.3). Input tax on entertaining overseas customers may be recoverable where it is reasonable in scale and character; an overseas customer is any customer not ordinarily resident or carrying on a business in the UK, including the Isle of Man (paragraph 2.6).",
+   "excluded": "Input tax on business entertainment is blocked and cannot be recovered (paragraph 1.2), which covers entertaining UK business contacts and non-UK contacts who are not customers. Entertainment provided only for directors, partners or sole proprietors is not input tax at all and cannot be recovered (paragraph 3.2). Where an employee hosts non-employees, that is not staff entertainment (paragraph 3.3), and where an event entertains both employees and non-employees only the employee portion is recoverable (paragraph 3.4). Pensioners, former employees, job applicants, and shareholders who are not also employees are not treated as employees, so entertaining them is not staff entertainment (paragraph 2.4). For overseas customers, a private benefit to the person enjoying the entertainment can trigger an output tax charge that cancels out the recovery, and hospitality given out of politeness, out of expectation, or to improve relationships is not for strict business purposes (paragraph 2.6). Where a cost is partly entertainment and partly other business use, only the entertainment part is blocked and the remainder may be recoverable subject to partial exemption (paragraph 2.7).",
+   "from_when": "Long-standing blocking provision, in force now. No pending change identified at primary source as at 2026-11-15.",
+   "automatic": false,
+   "how_to_claim": "Recover the input tax on qualifying staff entertainment through box 4 of the VAT Return in the normal way, holding a valid VAT invoice. Do not recover input tax on business entertainment. Where an event covers both employees and non-employees, apportion and recover only the employee portion (paragraph 3.4), and where a cost is partly entertainment and partly other business use, apportion under paragraph 2.7."
+  },
+  "notes": "The line that decides most cases is in paragraph 2.1: it is only business entertainment if the recipients are not employees and it is provided free, which is why a staff Christmas party is recoverable and a client lunch is not. Subsistence is the point most often confused with entertainment - paragraph 2.5 says subsistence for employees working away from their normal base is not business entertainment and is not covered by these rules, with the relevant rules in VAT Notice 700, and paragraph 3.1 repeats that employee and director subsistence is not employee entertainment. The directors-only rule in paragraph 3.2 catches owner-managed companies in particular: a meal out for the directors alone is not input tax, but the same directors at the staff party are fine. The overseas customer rule is often oversold: recovery is available in principle, but the private benefit output tax charge in paragraph 2.6 frequently cancels it out, so it is rarely a clean win. Commonly confused with the separate income tax and NIC treatment of staff entertaining, including the annual function exemption, which is a different regime on different figures, and with VAT Notice 700/7 on business promotions and gifts. No nation differences.",
+  "used": []
+ },
+ {
+  "id": "uk-bank-holidays-december-2026-january-2027",
+  "verified": "2026-11-16",
+  "recheck_after": "2027-01-10",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Bank holidays over Christmas 2026 and New Year 2027, and what they do to payment timing",
+  "official_page": "https://www.gov.uk/bank-holidays",
+  "figures": [
+   {
+    "value": "Friday 25 December 2026",
+    "what": "Christmas Day — a bank holiday in England and Wales, Scotland and Northern Ireland",
+    "source": "https://www.gov.uk/bank-holidays",
+    "read": "2026-11-16"
+   },
+   {
+    "value": "Monday 28 December 2026",
+    "what": "Boxing Day substitute day — a bank holiday in England and Wales, Scotland and Northern Ireland",
+    "source": "https://www.gov.uk/bank-holidays",
+    "read": "2026-11-16"
+   },
+   {
+    "value": "Friday 1 January 2027",
+    "what": "New Year's Day — a bank holiday in England and Wales, Scotland and Northern Ireland",
+    "source": "https://www.gov.uk/bank-holidays",
+    "read": "2026-11-16"
+   },
+   {
+    "value": "Monday 4 January 2027",
+    "what": "substitute day for 2nd January — a bank holiday in SCOTLAND ONLY",
+    "source": "https://www.gov.uk/bank-holidays",
+    "read": "2026-11-16"
+   },
+   {
+    "value": "cleared funds by the due date",
+    "what": "HMRC's test for an electronic PAYE payment being on time and in full, which is why the number of banking days left matters over the holidays",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking/dmbm520935",
+    "read": "2026-11-16"
+   }
+  ],
+  "scope": {
+   "nation": "England and Wales, Scotland and Northern Ireland all have 25 December 2026, 28 December 2026 and 1 January 2027. Scotland additionally has Monday 4 January 2027. Northern Ireland has no extra bank holiday in this window.",
+   "who": "Anyone paying HMRC, a supplier or a payroll between mid-December 2026 and early January 2027, and employers planning pay dates and office closures.",
+   "excluded": "Monday 4 January 2027 is NOT a bank holiday in England, Wales or Northern Ireland — only in Scotland. Bank holidays are not an automatic entitlement to paid time off for workers; an employer's contracts decide that, so a reader should not treat this list as a statutory leave list.",
+   "from_when": "Dates confirmed for December 2026 and January 2027.",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim. Use the dates to work backwards from HMRC deadlines of 19 December 2026, 22 December 2026, 19 January 2027, 22 January 2027 and 31 January 2027."
+  },
+  "notes": "Plain terms on the nation split: the Christmas and New Year holidays are the same across the UK this year, with one exception — Scotland gets Monday 4 January 2027 as the substitute for 2 January, England, Wales and Northern Ireland do not. The practical point for clients is banking days, not holidays: with 25 and 28 December shut and 1 January shut, a Bacs payment or a cheque posted in the Christmas week can easily miss a 19 or 22 December HMRC deadline, while Faster Payments usually still land the same or next day. Work backwards from the deadline rather than forwards from the date you intended to pay.",
+  "used": []
+ },
+ {
+  "id": "advisory-fuel-rates-company-cars",
+  "verified": "2026-11-22",
+  "recheck_after": "2027-02-20",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Advisory Fuel Rates From 1 December 2026",
+  "official_page": "https://www.gov.uk/guidance/advisory-fuel-rates",
+  "figures": [
+   {
+    "value": "16 pence per mile",
+    "what": "Petrol, engine 1400cc or less - advisory fuel rate from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "19 pence per mile",
+    "what": "Petrol, engine 1401cc to 2000cc - advisory fuel rate from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "29 pence per mile",
+    "what": "Petrol, engine over 2000cc - advisory fuel rate from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "16 pence per mile",
+    "what": "Diesel, engine 1600cc or less - advisory fuel rate from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "18 pence per mile",
+    "what": "Diesel, engine 1601cc to 2000cc - advisory fuel rate from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "25 pence per mile",
+    "what": "Diesel, engine over 2000cc - advisory fuel rate from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "11 pence per mile",
+    "what": "LPG, engine 1400cc or less - advisory fuel rate from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "13 pence per mile",
+    "what": "LPG, engine 1401cc to 2000cc - advisory fuel rate from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "20 pence per mile",
+    "what": "LPG, engine over 2000cc - advisory fuel rate from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "7 pence per mile",
+    "what": "Advisory electric rate for fully electric company cars, home charging, from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "15 pence per mile",
+    "what": "Advisory electric rate for fully electric company cars, public charging, from 1 December 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "14 / 17 / 27 pence per mile",
+    "what": "Previous set, petrol 1400cc or less / 1401-2000cc / over 2000cc, 1 September 2026 to 30 November 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "15 / 16 / 22 pence per mile",
+    "what": "Previous set, diesel 1600cc or less / 1601-2000cc / over 2000cc, 1 September 2026 to 30 November 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "11 / 13 / 20 pence per mile",
+    "what": "Previous set, LPG 1400cc or less / 1401-2000cc / over 2000cc, 1 September 2026 to 30 November 2026",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "1 month",
+    "what": "Period for which the previous rates may still be used from the date new rates apply",
+    "source": "https://www.gov.uk/guidance/advisory-fuel-rates",
+    "read": "2026-11-22"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Employers across the UK, for employees using a company car. Used either to reimburse employees for business travel in their company cars, or to require employees to repay the cost of fuel used for private travel. Hybrid cars are treated as either petrol or diesel cars.",
+   "excluded": "Anyone not using a company car - these rates must not be used for employees driving their own or a private car (that is Mileage Allowance Payments / AMAP, a separate and much higher rate). Self-employed people do not use them. HMRC states plainly: 'You must not use these rates in any other circumstances.' There is no vans table on this page and no rate for a company car outside the listed engine-size bands other than by using your own evidenced cost per mile.",
+   "from_when": "The current set applies from 1 December 2026; it was published on 18 November 2026. The preceding set applied 1 September 2026 to 30 November 2026 and may still be used for up to 1 month from 1 December 2026.",
+   "automatic": false,
+   "how_to_claim": "Nothing to claim or apply for. The employer chooses to use the rates in payroll. Pay at or below the advisory rate for the car's fuel type and engine size and there is no taxable profit and no Class 1A National Insurance. Pay above it without being able to show a higher actual fuel cost per mile and the excess is taxable profit and earnings for Class 1 National Insurance. A higher rate than the advisory rate can be used where you can show the fuel cost per mile is genuinely higher."
+  },
+  "notes": "Reviewed and revised quarterly by HMRC, effective 1 March, 1 June, 1 September and 1 December. No nation differences - these are HMRC rates applying identically in England, Scotland, Wales and Northern Ireland. The commonest confusion is with AMAP (Mileage Allowance Payments) for employees using their OWN car - a different scheme at a different, far higher rate; these advisory fuel rates are for COMPANY cars only. The second confusion is the electric rate: since 1 September 2025 there are two advisory electric rates (home and public charger), not one, and mileage can be apportioned between home and public charging on a fair and reasonable basis. The over-2000cc petrol rate jumped sharply from 27p to 29p and diesel over 2000cc from 22p to 25p in this December 2026 revision, so anyone still running September figures is now under-reimbursing.",
+  "used": []
+ }
+]

@@ -1,0 +1,203 @@
+[
+ {
+  "id": "business-rates-multipliers-england-2027-28",
+  "verified": "2026-11-23",
+  "recheck_after": "2027-02-28",
+  "brands": [
+   "bham"
+  ],
+  "title": "Business Rates Multipliers in England for 2027-28",
+  "official_page": "https://www.gov.uk/government/publications/82026-details-of-the-budget-package-and-the-multipliers-for-20272028/82026-details-of-the-budget-package-and-the-multipliers-for-20272028",
+  "figures": [
+   {
+    "value": "49.7p",
+    "what": "Standard non-domestic rating multiplier, England, 2027-28.",
+    "source": "https://www.gov.uk/government/publications/82026-details-of-the-budget-package-and-the-multipliers-for-20272028/82026-details-of-the-budget-package-and-the-multipliers-for-20272028",
+    "read": "2026-11-23"
+   },
+   {
+    "value": "44.7p",
+    "what": "Small business non-domestic rating multiplier, England, 2027-28.",
+    "source": "https://www.gov.uk/government/publications/82026-details-of-the-budget-package-and-the-multipliers-for-20272028/82026-details-of-the-budget-package-and-the-multipliers-for-20272028",
+    "read": "2026-11-23"
+   },
+   {
+    "value": "44.5p",
+    "what": "Standard retail, hospitality and leisure multiplier, England, 2027-28.",
+    "source": "https://www.gov.uk/government/publications/82026-details-of-the-budget-package-and-the-multipliers-for-20272028/82026-details-of-the-budget-package-and-the-multipliers-for-20272028",
+    "read": "2026-11-23"
+   },
+   {
+    "value": "39.5p",
+    "what": "Small business retail, hospitality and leisure multiplier, England, 2027-28.",
+    "source": "https://www.gov.uk/government/publications/82026-details-of-the-budget-package-and-the-multipliers-for-20272028/82026-details-of-the-budget-package-and-the-multipliers-for-20272028",
+    "read": "2026-11-23"
+   },
+   {
+    "value": "52.5p",
+    "what": "High-value non-domestic rating multiplier, England, 2027-28. The rateable value threshold at which it applies is NOT stated in this letter and is not verified here.",
+    "source": "https://www.gov.uk/government/publications/82026-details-of-the-budget-package-and-the-multipliers-for-20272028/82026-details-of-the-budget-package-and-the-multipliers-for-20272028",
+    "read": "2026-11-23"
+   }
+  ],
+  "scope": {
+   "nation": "England only - a letter from MHCLG to English billing authorities dated 28 October 2026, marked 'Applies to England'",
+   "who": "Occupiers of non-domestic properties in England. The retail, hospitality and leisure multipliers apply to hereditaments meeting the qualifying definition in the Non-Domestic Rating (Definition of Qualifying Retail, Hospitality or Leisure Hereditament) Regulations 2025.",
+   "excluded": "Scotland, Wales and Northern Ireland are not covered - each runs its own system. Within England, vape shops and Adult Gaming Centres are to be excluded from the retail, hospitality and leisure definition, with details to follow; unoccupied properties cannot qualify for the retail, hospitality and leisure multiplier on 1 April of the year concerned.",
+   "from_when": "1 April 2027",
+   "automatic": true,
+   "how_to_claim": "Applied by the local billing authority. No application route is stated in the letter."
+  },
+  "notes": "These figures are for 2027-28 only and come from a letter that says details will follow in regulations and guidance 'in the coming weeks', so they may still change - hence the early recheck date. Do not mix them with the 2026-27 multipliers. Do NOT describe as UK-wide. Not the same as Small Business Rate Relief, which is a separate banked subject. The rateable value thresholds for the small business and high-value multipliers are not stated in the letter and must not be quoted.",
+  "used": []
+ },
+ {
+  "id": "vat-business-gifts-and-samples",
+  "verified": "2026-11-22",
+  "recheck_after": "2027-05-22",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "VAT On Business Gifts And Samples",
+  "official_page": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+  "figures": [
+   {
+    "value": "£50",
+    "what": "VAT Notice 700/7 s2.3 — \"You do not have to account for VAT on business gifts made to the same person so long as the total cost of all gifts you make to that person does not exceed £50, excluding VAT, in any 12-month period.\" The figure is the total cost of all gifts to that one person, VAT-exclusive, not the cost of a single gift",
+    "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "Output tax on the total cost value of all the gifts",
+    "what": "VAT Notice 700/7 s2.3 — once the £50 limit is breached, output tax is due on the total cost value of all the gifts (not just the excess over £50), where you were entitled to claim the VAT on the purchase as input tax. Any 12-month period that includes the day the gift is made is acceptable for testing the limit",
+    "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "Samples: no VAT",
+    "what": "VAT Notice 700/7 s4.2 — \"If you provide free samples of products to individuals for marketing purposes and they meet the definition in paragraph 4.1, they are not liable to VAT.\" s4.1 defines a sample as \"A specimen of a product which is intended to promote the sales of that product and which allows the characteristics and qualities of that product to be assessed without resulting in final consumption, other than where final consumption is inherent in such promotional transactions.\" There is no monetary limit and no quantity limit on samples",
+    "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "Free services: usually no supply, no VAT",
+    "what": "VAT Notice 700/7 s3.1 — \"If you provide a service to a customer free of charge there is usually no supply, so no VAT is due.\" But where you bought in the services and reclaimed the VAT as input tax, \"output tax is due on the services you pass on free of charge\". If you simply pay a third party to supply services to someone else, the VAT is not your input tax because the supply is not to you",
+    "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "Gifts of goods with no £50 shelter: VAT on cost value",
+    "what": "VAT Notice 700/7 s2.1 — if you give away goods, were entitled to recover the VAT on them as input tax, and receive no payment or other consideration, \"you must account for VAT on their cost value. That is unless they can be treated as business gifts under paragraph 2.3\"",
+    "source": "https://www.gov.uk/guidance/business-promotions-and-vat-notice-7007",
+    "read": "2026-11-22"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "VAT-registered businesses in the UK that give away goods or services free of charge in the course of promoting the business. A 'business gift' is defined at VAT Notice 700/7 s2.2 as a gift of goods made in the course of promoting your business and for which you were entitled to reclaim the VAT on its purchase as input tax — 'a definite, voluntary and unconditional transfer of the goods for no consideration'. s2.2 lists long service awards and retirement gifts, goods supplied to employees under attendance or safety at work schemes, items distributed to trade customers, 'thank you' goods given to customers, and prizes of goods in free lotteries and competitions as business gifts.",
+   "excluded": "Not caught by the output tax charge: gifts to one person costing £50 or less in total, VAT-exclusive, in any 12-month period (s2.3); goods on which you were never entitled to reclaim input tax, since the deemed supply only arises where you were so entitled (s2.1, s2.3); goods never bought for business purposes, which \"are not business assets and any VAT incurred on their purchase is not reclaimable as input tax\" (s2.5); free samples meeting the s4.1 definition, which are not liable to VAT however many you give (s4.2); a prize or trophy given at an awards ceremony where attendees pay an admission fee and the s2.6 conditions are met; point of sale material given free to business customers that gives direct promotional support (s2.12); goods withdrawn from sale and donated or destroyed (s2.14); and services provided free of charge where you did not buy them in and reclaim input tax (s3.1). Gifts of goods to a charity may be zero-rated where the charity sells, lets or exports them (s2.7). Explicitly outside this notice: business entertainment, which s1.1 says the notice \"does not cover\" and which is dealt with in Notice 700/65; s3.2 confirms input tax on goods or services bought for business entertainment is not normally deductible.",
+   "from_when": "The current HMRC notice (VAT Notice 700/7, Business promotions) states the £50 rule as the rule in force; the notice itself gives no commencement date for the limit, so no start date is asserted here.",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim or apply for. The £50 shelter and the sample treatment apply automatically if the conditions are met — the duty is on the business to track the running total of gifts per recipient over a 12-month period and to account for output tax once it is exceeded. Where output tax is accounted for on a gift to a VAT-registered recipient who uses the goods in business, s2.4 says you cannot issue a VAT invoice but may use your normal invoicing documentation with the wording: 'Tax Certificate — No payment is necessary for these goods. Output tax of £XX.XX (insert amount) has been accounted for on the supply.'"
+  },
+  "notes": "Three things get mixed up here. First, business gifts are not business entertainment: gifts of goods are covered by Notice 700/7 and can be sheltered by the £50 limit, while entertainment (hospitality of any kind) sits in Notice 700/65 and generally blocks input tax recovery outright. Second, the £50 is cumulative per recipient over any 12-month period and excludes VAT — it is not £50 per gift, and once you pass it output tax is due on the cost value of all the gifts in the period, not just the slice above £50. Third, samples are a separate relief with no monetary cap, but the definition is narrow: a discontinued line cannot be a sample because there is no product left to promote, and quantity matters — one bottle of wine to a prospective buyer is a sample, a case of twelve is not (s4.3). If you are given samples and then sell them, output tax is due on that sale (s4.4). Free services are the odd one out: giving your own labour away is usually no supply at all, but passing on bought-in services free of charge triggers output tax where you reclaimed the input tax. This is a UK-wide valuation and deemed-supply rule, so the Northern Ireland Protocol/Windsor Framework does not bear on it.",
+  "used": []
+ },
+ {
+  "id": "challenge-council-tax-band-voa",
+  "verified": "2026-11-18",
+  "recheck_after": "2027-05-18",
+  "brands": [
+   "bham",
+   "en"
+  ],
+  "title": "Challenging your Council Tax band - proposal versus band review, and the two different clocks",
+  "official_page": "https://www.gov.uk/challenge-council-tax-band",
+  "figures": [
+   {
+    "value": "1 April 1991",
+    "what": "The valuation date Council Tax bands are based on in England",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "1 April 2003",
+    "what": "The valuation date Council Tax bands are based on in Wales",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "6 months",
+    "what": "You have a LEGAL RIGHT to challenge, by making a proposal, if you have been paying Council Tax on the property for less than 6 months, or the Valuation Office changed your band in the last 6 months",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "up to 5",
+    "what": "Number of similar lower-banded comparable properties you must supply as evidence for a band review",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "1 April 1989 to 31 March 1993 in England, 1 April 2001 to 31 March 2005 in Wales",
+    "what": "The sale-price window the Valuation Office will accept as evidence",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "A up to £40,000, B to £52,000, C to £68,000, D to £88,000, E to £120,000, F to £160,000, G to £320,000, H over £320,000",
+    "what": "England band thresholds at April 1991 values",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "A up to £44,000, B to £65,000, C to £91,000, D to £123,000, E to £162,000, F to £223,000, G to £324,000, H to £424,000, I over £424,000",
+    "what": "Wales band thresholds at April 2003 values - note Wales has a band I and England does not",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "up to 28 days",
+    "what": "How long the Valuation Office may take just to acknowledge a challenge",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "up to 4 months",
+    "what": "Valuation Office decision time where you have a legal right to challenge (a proposal)",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "up to 12 months",
+    "what": "Valuation Office decision time for a band review, where there is no legal right to challenge",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "3 months in England, 4 months in Wales",
+    "what": "Time limit to appeal the decision to the Valuation Tribunal",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "free",
+    "what": "It costs nothing to appeal to the Valuation Tribunal, though you pay your own costs such as travel or an agent",
+    "source": "https://www.gov.uk/challenge-council-tax-band",
+    "read": "2026-11-18"
+   }
+  ],
+  "scope": {
+   "nation": "England and Wales - the Valuation Office. Scotland has a separate route and Northern Ireland does not have Council Tax at all",
+   "who": "The Council Tax payer, whether homeowner or tenant, for a property in England or Wales, or an appointed representative",
+   "excluded": "Scotland - challenges go to the assessor at the local Valuation Joint Board or council through the Scottish Assessors Association, not the Valuation Office. Northern Ireland - domestic rates apply, not Council Tax, so this route does not exist. Anyone wanting a property removed from the list merely for being in poor repair: gov.uk states outright you cannot have a property removed just because it is in poor repair, it must be derelict or in serious disrepair. Anyone who went down the BAND REVIEW route and disagrees with the outcome - you can only appeal the decision if you had a legal right to challenge, so there is no Valuation Tribunal appeal from a band review. Average house-price indices are excluded as evidence: the Valuation Office will not consider average house price information from property websites as strong evidence. Anyone wanting to use the online service to get a property removed from the list, or acting as someone else's representative, must use the paper form instead. And nobody gets to stop paying - you must continue paying Council Tax while the challenge is reviewed.",
+   "from_when": "Current process as published on 18 November 2026",
+   "automatic": false,
+   "how_to_claim": "In England and Wales, use the Valuation Office online challenge service linked from gov.uk/challenge-council-tax-band, or the paper Council Tax challenge form, plus an Authority to act form if you are acting for someone else. In Scotland, go through the Scottish Assessors Association. If the band changes, the Valuation Office tells the council, which revises the bill and pays any refund due."
+  },
+  "notes": "The distinction that makes this worth publishing: a PROPOSAL - a legal right, available within 6 months of becoming the taxpayer or of a Valuation Office band change, or after a material change - gets a decision in up to 4 months AND carries a right of appeal to the Valuation Tribunal. A BAND REVIEW, which is all that is open to anyone who has been paying for more than 6 months, can take up to 12 months and has NO appeal right at all. Most people who talk about challenging their band are in the second category and do not know it. Wales has a band I above £424,000; England stops at H - do not reuse English band figures for a Welsh property. Removal from the list is a separate remedy from rebanding: demolition, dereliction or serious structural disrepair, major renovation affecting all or most of the property, or conversion to purely business use; if removal was for renovation, liability restarts from the completion or move-in date. Scotland's bands and valuation date have NOT been verified - do not state them. Only the Scottish route is verified, not the Scottish figures.",
+  "used": []
+ }
+]

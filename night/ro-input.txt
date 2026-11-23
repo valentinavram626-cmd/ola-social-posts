@@ -1,0 +1,110 @@
+FRAME ola-ro-01-tip
+  slot: Gândul zilei
+  hero: Ai început de la zero, departe de casă. Nu e un lucru mic.
+  sub: Săptămâna viitoare e 1 Decembrie. Un gând bun pentru fiecare român care ține o firmă pe picioare aici. Tu ții afacerea, noi ținem cifrele în ordine.
+  cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+FRAME ola-ro-02-acq
+  slot: Vino la Ola Accountancy
+  hero: Schimbi contabilul fără discuția incomodă cu cel de dinainte.
+  sub: Noi ne ocupăm de professional clearance letter, vorbim cu fostul tău contabil și cerem actele firmei. Tu semnezi o dată, restul îl facem noi. Prima discuție e gratuită.
+  cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+FRAME ola-ro-03-acq
+  slot: Vino la Ola Accountancy
+  hero: Întrebi ceva și îți răspunde un om, în română.
+  sub: Fără robot, fără formulare, fără răspuns peste trei zile. Vorbești cu o persoană care îți explică pe înțeles ce ai de făcut, luni–vineri, între 10:00 și 16:00.
+  cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+FRAME ola-ro-04-acq
+  slot: Vino la Ola Accountancy
+  hero: Prima discuție e gratuită și durează 30 de minute.
+  sub: Ne spui ce faci, ne uităm la firma ta și la ce ai depus până acum, apoi îți spunem pe înțeles ce urmează. Nu ești obligat să rămâi cu noi după cele 30 de minute.
+  cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+FRAME ola-ro-05-edu
+  slot: Educație financiară cu Ola Accountancy
+  hero: La petrecerea de Crăciun pentru angajați, VAT-ul <em>se recuperează</em>.
+  sub: Masa cu clienții nu intră: acolo VAT-ul nu se recuperează. Nici masa doar cu directorii. La un eveniment cu angajați și invitați, se recuperează numai partea angajaților.
+  cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+FRAME ola-ro-06-edu
+  slot: Educație financiară cu Ola Accountancy
+  hero: Pe <em>25, 28 decembrie și 1 ianuarie</em> băncile nu lucrează.
+  sub: Luni, 4 ianuarie 2027, e bank holiday numai în Scoția, nu în Anglia, Țara Galilor sau Irlanda de Nord. Banii trebuie să ajungă la HMRC până la termen, nu doar trimiși.
+  cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+FRAME ola-ro-07-edu
+  slot: Educație financiară cu Ola Accountancy
+  hero: De la 1 decembrie, benzină până la 1400cc: <em>16p pe milă</em>.
+  sub: Advisory Fuel Rates sunt numai pentru mașina firmei. Dacă angajatul conduce mașina lui, se folosesc Mileage Allowance Payments, alt barem. Cei self-employed nu le folosesc.
+  cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+FRAME ola-ro-08-joke
+  slot: Gluma zilei
+  setup: L-am întrebat dacă are bonurile pe luna trecută.
+  punch: A ridicat punga de la magazin.
+  hook: Punga e un început. Dar hârtia se decolorează, așa că fotografiază bonul pe loc, cu telefonul.
+  cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+FRAME ola-ro-09-joke
+  slot: Gluma serii
+  setup: În fiecare an îmi zice: de data asta fac actele din vară.
+  punch: Mă sună pe 30 ianuarie.
+  hook: La Self Assessment, suma e aceeași în noiembrie și în ianuarie. Se schimbă doar cât de liniștit dormi.
+  cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+FRAME ola-ro-10-quote
+  slot: Citatul serii
+  line: În timp ce amânăm, viața trece în grabă.
+  attrib: Seneca
+
+CAPTION ola-ro-01-tip
+  caption: Ai venit aici cu o valiză și un plan. Acum ai o firmă, clienți, facturi și un telefon care sună. Săptămâna viitoare e 1 Decembrie și ne gândim la fiecare român care a construit ceva departe de casă, fără să-i explice nimeni nimic la început. Dacă ești unul dintre ei, știi exact despre ce vorbim. Tu ții afacerea pe picioare, noi ținem cifrele în ordine.
+  ask: Trimite gândul ăsta unui prieten care ține o firmă aici.
+  title: Ai început de la zero, departe de casă
+
+CAPTION ola-ro-02-acq
+  caption: Cel mai greu lucru la schimbarea contabilului nu e hârtia. E discuția cu cel de dinainte. Pe asta o purtăm noi: ne ocupăm de professional clearance letter, îi cerem actele firmei tale și le punem cap la cap. Tu semnezi o dată și de acolo mai departe ne ocupăm noi. Prima discuție e gratuită și durează 30 de minute. Birourile sunt în Luton și în Birmingham, iar noi urmărim termenele ca să nu le mai ții tu minte.
+  ask: Salvează postarea pentru ziua în care te hotărăști.
+  title: Schimbi contabilul fără discuția incomodă
+
+CAPTION ola-ro-03-acq
+  caption: Ai întrebat ceva un contabil și ai primit un e-mail cu trei paragrafe pe care nu le-ai înțeles? Se întâmplă des și nu e vina ta. La noi vorbești cu o persoană, în română, și primești răspunsul în cuvinte normale: ce trebuie depus, până când și de ce. Suntem pe WhatsApp luni–vineri, între 10:00 și 16:00, iar birourile sunt în Luton și în Birmingham. Dacă nu știm pe loc, îți spunem că verificăm și revenim, nu îți dăm un răspuns pe jumătate.
+  ask: Dă mai departe cuiva care nu are pe cine să întrebe.
+  title: Întrebi ceva și îți răspunde un om, în română
+
+CAPTION ola-ro-04-acq
+  caption: Prima discuție cu noi e gratuită și durează 30 de minute. Nu e o prezentare de vânzare. Ne spui ce faci și cum încasezi banii, ne uităm la firma ta și la ce ai depus până acum, apoi îți spunem pe înțeles ce urmează și ce ne-ar trebui de la tine. Dacă la final decizi că nu e pentru tine, e în regulă. Pleci măcar cu lucrurile limpezi și cu o listă de ce ai de făcut.
+  ask: Salvează postarea și scrie-ne când ai 30 de minute libere.
+  title: Ce se întâmplă în primele 30 de minute, gratuit
+
+CAPTION ola-ro-05-edu
+  caption: Decembrie aduce două mese care arată la fel pe extrasul de cont și se tratează complet diferit. Petrecerea de Crăciun pentru angajați: VAT-ul se recuperează, iar directorii pot veni și ei, alături de echipă. Masa cu un client sau cu un partener de afaceri: VAT-ul nu se recuperează, oricât de mult ar semăna cu munca. Masa doar cu directorii nu intră nici ea. Iar dacă la eveniment vin și angajați și invitați din afară, se recuperează numai partea angajaților. Un singur lucru practic: păstrează factura cu VAT, nu doar bonul de card.
+  ask: Salvează postarea înainte să rezervi masa.
+  title: Două mese de Crăciun, două tratamente diferite
+
+CAPTION ola-ro-06-edu
+  caption: Între Crăciun și Anul Nou se pierd zile de bancă, iar asta mută toate plățile. Pe 25 și pe 28 decembrie 2026 și pe 1 ianuarie 2027 băncile nu lucrează, în Anglia, în Țara Galilor, în Scoția și în Irlanda de Nord. Luni, 4 ianuarie 2027, mai este un bank holiday, dar numai în Scoția: în Anglia, în Țara Galilor și în Irlanda de Nord e zi normală. Ce înseamnă asta pentru tine: banii trebuie să ajungă la HMRC până la termen, nu doar să fie trimiși în ultima zi. Numără înapoi de la termen, nu înainte de la ziua în care voiai să plătești. Și dacă ai angajați, hotărăște din timp ziua de salariu din decembrie.
+  ask: Salvează datele astea, îți trebuie în decembrie.
+  title: Trei zile fără bancă între Crăciun și Anul Nou
+
+CAPTION ola-ro-07-edu
+  caption: De la 1 decembrie 2026 se schimbă baremul pe milă pentru mașinile firmei. Benzină: 16p până la 1400cc, 19p între 1401 și 2000cc, 29p peste 2000cc. Diesel: 16p până la 1600cc, 18p între 1601 și 2000cc, 25p peste 2000cc. LPG: 11p, 13p și 20p pe aceleași trepte. Complet electric: 7p dacă se încarcă acasă și 15p la încărcare publică. Se numesc Advisory Fuel Rates și sunt numai pentru mașina firmei. Dacă angajatul conduce mașina lui, se folosesc Mileage Allowance Payments, un barem complet diferit, iar cine e self-employed nu le folosește deloc. Baremul vechi poate fi folosit încă o lună de la 1 decembrie 2026.
+  ask: Salvează lista, o să-ți trebuiască la următoarea rambursare.
+  title: Baremul pe milă pentru mașina firmei se schimbă
+
+CAPTION ola-ro-08-joke
+  caption: Punga de supermarket plină de bonuri este un clasic și nu o judecăm. Problema nu e punga, e cerneala: bonurile pe hârtie termică se decolorează, iar în șase luni ții în mână o foaie albă. Fotografiază bonul pe loc, cu telefonul, și notează într-un cuvânt ce ai cumpărat și pentru ce. Când punem cifrele cap la cap, ai dovada, nu o amintire.
+  ask: Dă mai departe cuiva care are punga aceea în mașină.
+  title: Punga cu bonuri și ce se întâmplă cu cerneala
+
+CAPTION ola-ro-09-joke
+  caption: Toți spunem că anul ăsta facem actele din vară. Apoi vine 30 ianuarie și sună telefonul. Adevărul simplu e că suma de plătit la Self Assessment este aceeași în noiembrie și în ianuarie. Nu se face mai mică dacă aștepți și nu se face mai mare dacă începi acum. Se schimbă doar cât de liniștit dormi și cât timp are cineva să se uite cu atenție la ce ai de depus.
+  ask: Dă mai departe prietenului care spune mereu «săptămâna viitoare».
+  title: Toți spunem că facem actele din vară
+
+CAPTION ola-ro-10-quote
+  caption: Un gând de seară, de la un om care scria despre timp acum două mii de ani. Amânarea nu oprește nimic: ziua trece oricum, cu lucrul făcut sau nefăcut. Seneca i-a scris asta unui prieten și de atunci nu s-a schimbat mare lucru. Dacă e ceva ce tot muți de pe o săptămână pe alta, poate ăsta e semnul.
+  ask: Trimite citatul cuiva care amână de prea mult timp.
+  title: În timp ce amânăm, viața trece
