@@ -8,6 +8,52 @@ Monday 23 November 2026. Sunday 22 November still runs the previous format.
 **One static image per post. No carousels anywhere.** The `solo` slide type in
 `pipeline/carousel/` is the renderer. Nothing swipes, nothing animates.
 
+## Image format per network — the one that has already cost us a day
+
+**TikTok accepts JPEG. It refuses PNG outright.** Send it a `.png` and it answers:
+
+> The content format of the Tiktok photo is incorrect. The 'image/png' type is not
+> allowed, use 'image/jpeg' or 'image/webp' instead.
+
+Metricool accepts the post anyway. Nothing complains at scheduling time. The post
+simply fails hours later, when it is due to publish, with nobody watching. On
+24 November 2026 a run scheduled the raw PNG output and every TikTok post on all
+three brands failed this way — thirty posts, a whole day, discovered the next
+morning only because Valentin happened to look.
+
+**This is why `solo.py` writes story frames as `.jpg` and deletes the PNG.** The
+rule does not live in anybody's instructions, because an instruction can be
+forgotten and this one was. It lives in the renderer, where the wrong file simply
+does not exist to be picked up.
+
+What each network takes, and why the split is the way it is:
+
+| Network | Frame | Format | Note |
+|---|---|---|---|
+| TikTok | story 1080x1920 | **JPEG only** | PNG is rejected at publication, silently until then |
+| Instagram feed | feed 1080x1350 | PNG or JPEG | PNG is used, it is sharper on text |
+| Facebook feed | feed 1080x1350 | PNG or JPEG | as Instagram |
+| Instagram / Facebook Story | story 1080x1920 | PNG or JPEG | takes the same JPEG TikTok gets, so one file serves both |
+| LinkedIn | feed | PNG or JPEG | |
+| Bluesky | feed | PNG or JPEG | |
+| Pinterest | feed (1000x1500) | PNG or JPEG | |
+| Google Business | feed | PNG or JPEG | |
+
+**If the tactic changes, this table is what to re-check first.** A new network, a
+new frame size, a switch back to carousels or forward to video — whatever changes,
+the question to ask before anything is scheduled is: *what format does this network
+actually accept, and does the file we are about to point at match it?* The failure
+mode is always the same and it is the nasty one — accepted at scheduling, rejected
+at publication, hours later, with nobody there.
+
+Two rules that follow from it, and they are enforced in the agent prompt as gates:
+
+1. **No TikTok post may carry a URL that is not `.jpg` or `.jpeg`.** Assert it in
+   code over the URLs about to be sent, not over the ones you meant to build.
+2. **Every image URL must return HTTP 200 before the post is scheduled**, not after.
+   A `raw.githubusercontent.com` URL that 404s means the push never landed, and
+   Metricool will not tell you.
+
 ## The two grids
 
 **Instagram, Facebook and TikTok — on every brand — take 10 posts a day:**
