@@ -1,0 +1,191 @@
+{
+ "ola-ro": {
+  "ola-ro-01-tip": {
+   "caption": "Lunile liniștite nu seamănă cu o reușită, dar ele hotărăsc cum arată anul următor. Acum pui facturile la locul lor, strângi chitanțele, verifici ce ai încasat. Peste un an, munca aceasta se citește în cifre.",
+   "ask": "Păstrează gândul pentru luna în care nu-ți mai vine să faci nimic.",
+   "title": "Firma se întărește în lunile liniștite"
+  },
+  "ola-ro-02-acq": {
+   "caption": "Cel mai greu de pus în buget este cheltuiala care nu are o cifră. De aceea îți spunem suma înainte să semnezi, nu după ce se adună orele: aceeași în ianuarie și aceeași în iulie.",
+   "ask": "Pune numărul deoparte dacă anul acesta contabilitatea te-a costat mai mult decât credeai.",
+   "title": "Un abonament lunar fix, știut de la început"
+  },
+  "ola-ro-03-acq": {
+   "caption": "Mulți amână schimbarea contabilului de teama unei discuții incomode. Nu e nevoie de ea: cererea prin care ni se predau documentele pleacă de la noi, nu de la tine, iar tu afli când a ajuns totul la noi.",
+   "ask": "Dă postarea mai departe cuiva care amână mutarea de un an.",
+   "title": "Tu semnezi o scrisoare, restul îl facem noi"
+  },
+  "ola-ro-04-acq": {
+   "caption": "Când ai o întrebare despre bani, vrei un om, nu un formular. La noi scrii pe WhatsApp, în română, și îți răspunde o persoană care știe de firma ta, în timpul programului de lucru. Nu un număr de tichet și nu un robot care te trimite mai departe. Iar dacă e ceva mai serios decât o întrebare scurtă, prima discuție este gratuită, durează 30 de minute și o ai cu cineva care îți vorbește limba și îți explică pe înțelesul tău.",
+   "ask": "Arată-i numărul cuiva care așteaptă de săptămâni un răspuns de la contabil.",
+   "title": "Scrii pe WhatsApp și îți răspunde un om, în română"
+  },
+  "ola-ro-05-edu": {
+   "caption": "Multe firme își plătesc oamenii mai repede în decembrie, pentru că atelierul sau biroul se închide în perioada sărbătorilor. Banii pot pleca înainte de termen, dar în raportarea pe care o trimiți la HMRC pentru fiecare plată de salarii — Full Payment Submission — treci data de plată din contract, nu ziua în care banii au ieșit din cont. Exemplul HMRC: plata făcută pe 19 decembrie, data din contract 31 decembrie, se raportează 31 decembrie, iar Full Payment Submission se trimite cel târziu la acea dată. De ce contează: ziua reală, dacă e trecută în raportare, poate aduna două salarii în aceeași perioadă de evaluare pentru Universal Credit și poate micșora sau anula suma pe care angajatul o primește în luna aceea. Dacă plătești la data obișnuită din decembrie, nu ai ce schimba. Dacă data de plată din contract s-a schimbat definitiv, treci data nouă. Și nu este o amânare a taxelor: sumele raportate rămân aceleași, se schimbă doar câmpul datei, iar PAYE și contribuțiile se plătesc tot până pe 22, termenul obișnuit pentru plata electronică.",
+   "ask": "Notează-ți regula înainte să pregătești salariile din decembrie.",
+   "title": "Plătești oamenii înainte de Crăciun? Data raportată e cea din contract"
+  },
+  "ola-ro-06-edu": {
+   "caption": "Vine perioada cadourilor pentru clienți și întrebarea este mereu aceeași: ce pot scădea din profitul pe care îl impozitez? Un cadou pentru un client se scade doar dacă are o reclamă vizibilă a firmei chiar pe el — un pix, o agendă, un mouse pad — și doar dacă totalul cadourilor pentru același client, în perioada contabilă, rămâne sub 50 de lire. Limita se socotește pe client, nu pe fiecare cadou în parte. Cele 50 de lire sunt un prag, nu o primă parte scutită: dacă totalul îl depășește, nu se scade nimic, nici primele 50. Reclama trebuie să fie pe cadou, nu pe ambalaj. Mâncarea, băutura, tutunul și voucherele rămân în afara regulii, oricât ar costa. Nici masa cu clientul nu se scade, oricât de comercială ar fi discuția: orice formă de ospitalitate oferită clienților intră aici, inclusiv cea oferită de angajați sau de un director. Regula de VAT pentru cadouri este o discuție separată, cu alte condiții, iar cadourile pentru angajați și petrecerea de firmă au reguli proprii.",
+   "ask": "Reține cele 50 de lire înainte să comanzi cadourile pentru clienți.",
+   "title": "Cadouri pentru clienți: 50 de lire, cu reclama pe cadou, nu pe ambalaj"
+  },
+  "ola-ro-07-edu": {
+   "caption": "Ai donat 100 de lire cu Gift Aid și plătești impozit la 40%? Poți primi 25 de lire înapoi, dar numai dacă le ceri tu. Sunt două sume diferite, care vin din două locuri. Prima: cei 25p pentru fiecare liră donată, pe care organizația caritabilă îi cere singură de la HMRC, odată ce ai semnat declarația Gift Aid. A doua: diferența dintre rata la care plătești tu impozit și rata de bază, care se întoarce la tine — și aceasta nu vine singură. O ceri pe declarația de Self Assessment, sau scrii la HMRC și ceri schimbarea tax code-ului, codul după care ți se calculează impozitul pe salariu. Dacă plătești impozit doar la rata de bază, nu primești nimic în plus, pentru că reducerea de impozit a fost deja folosită prin cei 25p ai organizației. Donațiile dintr-un an nu pot depăși de 4 ori impozitul plătit în acel an, iar o declarație Gift Aid are sens doar dacă ai plătit impozit cât să acopere ce recuperează organizația — merită verificat înainte să semnezi una nouă. Unele plăți nu se califică deloc pentru Gift Aid.",
+   "ask": "Pune deoparte aceste cifre înainte de donațiile de sărbători.",
+   "title": "25 de lire înapoi pentru fiecare 100 de lire donate, dacă le ceri"
+  },
+  "ola-ro-08-joke": {
+   "caption": "Punga cu chitanțele de pe un an întreg. O cunoaștem toți. Problema nu e punga, e chitanța de la benzinărie, ștearsă, care în ianuarie nu se mai poate citi.",
+   "ask": "Ține minte: poza se face când primești chitanța, nu în ianuarie.",
+   "title": "Punga cu chitanțe de pe un an întreg"
+  },
+  "ola-ro-09-joke": {
+   "caption": "«O fac săptămâna viitoare» este cea mai scumpă propoziție din contabilitate. Spusă în martie, repetată în iulie, redescoperită pe 30 ianuarie, la unsprezece seara, cu punga de chitanțe pe masă. Declarația de Self Assessment pentru anul fiscal trecut se depune până la 31 ianuarie. O oră acum, în noiembrie, este o oră liniștită. Aceeași oră în ianuarie costă mult mai mult, și nu doar în bani.",
+   "ask": "Trimite gluma cuiva care spune de luni de zile că o face săptămâna viitoare.",
+   "title": "«O fac săptămâna viitoare», până devine 30 ianuarie"
+  },
+  "ola-ro-10-quote": {
+   "caption": "Rândul acesta are două mii de ani și se potrivește cu orice lucru pus pe lista de săptămâna viitoare. Timpul nu se întoarce. Declarația, în schimb, se poate face din timp.",
+   "ask": "Copiază citatul undeva la vedere, pentru serile în care amâni.",
+   "title": "În timp ce amânăm, viața trece pe lângă noi"
+  }
+ },
+ "ola-en": {
+  "ola-en-01-tip": {
+   "caption": "Ring Ola Accountancy on a Tuesday afternoon and the aim is simple: you start the conversation in the middle, not at the beginning. We are a small team by design and we keep it that way, so the person who picks up is usually the one who did your bookkeeping or filed your last return. They have your business on the screen and they remember what we agreed in September. That matters most on the day you need an answer by four o'clock and you have not got half an hour spare to explain yourself from scratch. A phone call to your accountant should feel like continuing a conversation, not opening a case.",
+   "ask": "Worth passing to anyone weighing up accountants this winter.",
+   "title": "A phone call that starts in the middle, not at the beginning",
+   "bluesky": "A call to your accountant should feel like continuing a conversation, not opening a case. We keep the team small, so the person who picks up is usually the one who did your books."
+  },
+  "ola-en-02-acq": {
+   "caption": "You know the question. It is the one you nearly asked out loud, or nearly typed into Google at eleven at night, and then left exactly where it was. Bring that one. The first conversation with us is free and lasts half an hour, and it is a conversation rather than a pitch: you say what you do and what is nagging at you, we tell you in plain English what we would look at first and what sorting it would involve. Afterwards you decide. Working with us is one ending; going away to think about it is a perfectly normal one too. We look after businesses in Luton and the towns around it, and plenty more the length of the UK.",
+   "ask": "Keep this somewhere for the week you decide to get it straightened out.",
+   "title": "Half an hour, free, for the question you keep leaving alone",
+   "bluesky": "The question you nearly asked and then left where it was: bring that one. Half an hour, free, a conversation rather than a pitch, and nothing to sign at the end. Luton, the towns round it, and across the UK.",
+   "gmb": "Ola Accountancy looks after small businesses, sole traders and limited companies in Luton and the towns around it, and clients the length of the UK.\n\nThe easiest way to start is a free 30 minute consultation. You tell us what you do and what is worrying you, and we tell you where you stand in plain English. No jargon, no sales script, and nothing to sign at the end of it. People come to us for all sorts of reasons: they want a phone that gets answered by someone who knows their file, the business has grown past the spreadsheet, or they would simply rather not carry the filing dates in their head.\n\nWe handle the bookkeeping, the VAT, the payroll, the annual accounts and the Self Assessment tax returns, and we keep the calendar so you do not have to. If you are moving from another accountant we deal with the handover ourselves, including the professional clearance letter to the outgoing firm.\n\nMessage us on WhatsApp 0330 133 1886."
+  },
+  "ola-en-03-acq": {
+   "caption": "The best version of this is dull. A short email from us in good time, a list of four things we need from you, you send them over, and some weeks later a line saying it has gone to HMRC with a copy attached. That is the service, and it is meant to be unexciting. We keep the calendar: the yearly accounts a limited company has to file, the VAT returns if you are registered for VAT, the payroll each month, and the Self Assessment tax return, which is due by 31 January. A tax return is just the form that tells HMRC what you earned and what you owe on it. Knowing when each one falls due is the part you are paying us to hold.",
+   "ask": "One to keep if the dates currently live in your head.",
+   "title": "The best version of an accountant is a dull one",
+   "bluesky": "The best version of an accountant is dull: an email in good time, a list of four things we need, then a line saying it has gone to HMRC. We hold the calendar, including the tax return due 31 January."
+  },
+  "ola-en-04-joke": {
+   "caption": "Every business has one. The invoice went out in August and the payment has been going out on Friday ever since. At some point you stopped being annoyed about it and started finding it funny, which is its own kind of warning sign. The uncomfortable part is that an invoice nobody chases quietly turns into a donation. So put the payment date on the invoice itself, send one reminder before that date and one after it, and if it is still sitting there once the date has gone, ring. None of that is aggressive; it is simply what being owed money looks like in a business that is run properly. The people who pay you on time are usually the ones who know you will notice.",
+   "ask": "Forward it to whoever keeps telling you Friday.",
+   "title": "The payment that has been going out on Friday since August",
+   "bluesky": "The invoice went out in August. The payment has been going out on Friday ever since. You stopped being annoyed and started finding it funny, which is the warning sign. An invoice nobody chases turns into a donation."
+  },
+  "ola-en-05-quote": {
+   "caption": "Marcus Aurelius ran an empire and still found it necessary to write this down for himself. Most of us do the same thing on a smaller scale. We plan the better business instead of doing the next hard, dull, useful thing in it: the invoice chased, the receipts filed, the pricing finally put up. The debate is comfortable because nothing changes while it is going on. The work is not comfortable, and it is the only part that counts. Pick the one thing you have been describing instead of doing, and do that today.",
+   "ask": "Save this for the next evening you spend planning instead of starting.",
+   "title": "Stop describing the business you want and run the one you have",
+   "bluesky": "\"Waste no more time arguing about what a good man should be. Be one.\" Marcus Aurelius. The same goes for the business you keep planning instead of doing the next dull useful thing in it."
+  }
+ },
+ "bham": {
+  "bham-01-tip": {
+   "caption": "Friday, half four, shutters coming down. Somebody is sat in the back with a folder and a mug of tea, writing down what the week took.\n\nThat is the habit. Invoices out while the job is still fresh in everyone's mind, receipts in one place instead of four, the takings written down on the day they happened. Twenty minutes, and nobody will ever congratulate you for it.\n\nWhat it buys you is the ability to answer a question. What did last month actually make. Can the second van wait until spring. Is the quiet patch real, or does it only feel real because December is dark. An owner who can answer those makes decisions. An owner who cannot makes guesses.\n\nBoring paperwork is not the opposite of ambition. It is what ambition stands on.\n\nIf yours is currently exciting, we can make it dull for you.",
+   "ask": "Send this to the person who keeps saying they will sort it after Christmas.",
+   "title": "Twenty minutes on a Friday with a folder and a mug of tea"
+  },
+  "bham-02-acq": {
+   "caption": "Some things are easier in a room. You can post the bag of receipts, or you can bring it in, put it on the desk, and have somebody go through it with you while you drink a cup of tea.\n\nWe are at 22-42 Washwood Heath Road, Saltley, B8 1RB. A real door, on a road you already drive down. You can park, walk in, and ask the question you have been meaning to ask since April.\n\nThe first conversation is free and lasts 30 minutes. Bring whatever you have, in whatever state it is in. Nobody here is going to be shocked by a shoebox.",
+   "ask": "Save this one so the address is in your phone when you need it.",
+   "title": "A real door in Saltley you can bring your paperwork through"
+  },
+  "bham-03-acq": {
+   "caption": "You should not have to teach your accountant your own job. If the first meeting goes on explaining what the Construction Industry Scheme is, why a contractor takes tax off your payment before it ever reaches you, why the van matters and why half the takings come in cash, you are paying somebody to learn.\n\nWe work with Birmingham trades every week: builders, electricians, plasterers, couriers, barbers, and the people who run the takeaways. We know what the records look like when a subcontractor starts on a Monday and is gone by the Friday, and we know what HMRC expects to see about it.\n\nOne fixed monthly fee, agreed before we start. We handle the handover from your old accountant and write the professional clearance letter ourselves, so you are not chasing anybody.\n\nCome and talk to us for 30 minutes, free, and see how far we get.",
+   "ask": "Share this with someone who is still doing their own books at midnight.",
+   "title": "We already know how the deductions, the van and the cash takings work"
+  },
+  "bham-04-acq": {
+   "caption": "Here is what being with us does to your January: nothing.\n\nYour year-end accounts and your tax return are inside the monthly fee. There is no separate invoice when the year closes, because the work has been done through the year, a bit at a time, while the paperwork was still fresh and somebody could still remember the job.\n\nWe keep an eye on the dates as well. You will hear from us before something is due, not after. That is one of the quieter benefits of having somebody who answers the phone.\n\nThirty minutes, free, whenever suits you. Bring the last set of accounts if you can find them.",
+   "ask": "Worth saving if you are not certain what your current fee actually covers.",
+   "title": "Year-end is already inside the monthly fee"
+  },
+  "bham-05-edu": {
+   "caption": "If you have people on the payroll, there is up to £10,500 you can take off the National Insurance you pay as their employer in 2026/27. It comes off your employer bill, not off anybody's wages.\n\nAnd nobody sends it to you. You claim it yourself, through your payroll software, by sending what is called an Employment Payment Summary. The claim also does not roll forward: it has to be made again every tax year, so an employer who claimed last April and assumed it carried on has quietly lost a year of it. The old £100,000 eligibility cap was removed in April 2025.\n\nThe employers it does not cover:\n\n— a limited company where the director is the only employee paid above the Secondary Threshold, the point at which employers' National Insurance starts\n— a public authority that is not a charity\n— an employer with half or more of its work in or for the public sector\n— an employer of a nanny, cleaner or gardener, unless that person is a care or support worker\n— every company but one in a group of connected companies\n— an employer paying a worker under the off-payroll working rules, for those payments\n\nIf you run a shop, a garage or a takeaway with three or four on the payroll, it is five minutes of somebody's time to check.",
+   "ask": "Save this for April, when the claim has to be made all over again.",
+   "title": "Up to £10,500 off the National Insurance you pay on your staff"
+  },
+  "bham-06-edu": {
+   "caption": "If you are the only adult living in your home, a quarter of your Council Tax bill can come off. That is the single person discount, 25%, and it applies in England and Wales.\n\nIt also applies when other adults do live with you and every one of them is, in the council's word, disregarded — someone the rules do not count when they add up the adults in a home. GOV.UK's list includes under-18s, some apprentices, 18 and 19 year olds in full-time education, full-time students, student nurses, live-in carers, people who are severely mentally impaired, and diplomats.\n\nOther reductions sit alongside it. The Disabled Band Reduction Scheme charges the bill at one band lower, or takes 17% off a Band A home where there is no lower band, and it applies only where the home is larger than it would need to be if nobody disabled lived there. Where someone in the home is severely mentally impaired, which is GOV.UK's own term, a discount of 100%, 50% or 25% may apply, depending on who else lives there.\n\nIt stops at a second adult. Where two or more adults who are counted live in the property there is no single person discount, and income makes no difference either way: a household with two counted adults does not get it however little it earns. Second homes and long-term empty homes carry a premium instead. Scotland works to its own rules.\n\nNothing happens automatically. You apply to your own billing authority — Birmingham City Council, or Solihull, Sandwell, Dudley, Walsall, Wolverhampton or Coventry — and you tell them when somebody moves in, because the discount ends from that date.",
+   "ask": "Save this and check your own bill before the next one lands.",
+   "title": "25% off Council Tax if you are the only adult in the house"
+  },
+  "bham-07-edu": {
+   "caption": "Black Friday is on Friday. If you run a shop or a takeaway, you are about to put through hundreds of small sales, some with VAT on them and some without, and your till is not going to hand you the VAT on each one.\n\nWhere that is genuinely your situation, you are allowed to work the VAT out from a whole day's takings instead. The rules for doing it are the retail schemes, and there are five published ones: point of sale, two apportionment schemes and two direct calculation schemes. Point of sale means the till does the work, rate by rate. The other four work backwards from your takings and from what you bought or sold at each rate.\n\nThree things to know. They are not a saving and they are not the Flat Rate Scheme; they are a way of totalling tax you already owe. For a published scheme there is no application and no permission — you simply use one you are eligible for. And they are only for retailers who cannot account for VAT the normal way, sale by sale: if your till already records the VAT on every sale, HMRC can refuse you a scheme, and can refuse one that does not give a fair and reasonable result.\n\nThe size limits. Apportionment scheme 1 and direct calculation scheme 1 are for retail sales, before VAT, of no more than £1 million. The other apportionment and direct calculation schemes run to £130 million. Above £130 million no published scheme is open to you and you agree a tailored one with HMRC.\n\nSome sales never go through a scheme at all. Wholesale and trade sales need normal accounting. Apportionment scheme 1 cannot cover services or goods you made or grew yourself, apportionment scheme 2 cannot cover services or catering, and catering normally goes through point of sale.\n\nWhichever you use, you keep a record of your daily gross takings, and under Making Tax Digital you keep it digitally.",
+   "ask": "Save this before the weekend, while the till is still quiet.",
+   "title": "Hundreds of small sales, mixed VAT rates, and five legal ways to total it"
+  },
+  "bham-08-joke": {
+   "caption": "Sixty per cent off, a 65-inch television in the boot, and by the time it is through the front door it has become a business expense for client presentations.\n\nThe test is not the price and it is not how good the deal was. It is whether the business needed the thing and whether the business uses it. Something that lives in a front room and is watched by the family is not a business cost, whatever the receipt says.\n\nThe one that genuinely catches people is the mixed purchase: a laptop used for work and for everything else, a phone, a van that also does the weekend shop. Those are not all or nothing. There is a proportion that belongs to the business, and if you write down an honest estimate at the time, nobody has to argue about it a year later.\n\nBuy the television if you want it. Buy it as yourself, and keep it out of the accounts.",
+   "ask": "Share this with the person who already has their Black Friday list written.",
+   "title": "The Black Friday television that somehow became a business expense"
+  },
+  "bham-09-joke": {
+   "caption": "The van says ACE PLUMBING. The invoice says Ace Plumbing & Heating Services. The bank account says a company name somebody registered in 2014 and nobody has said out loud since.\n\nThen a customer goes to pay, their banking app asks them to confirm the name on the account, and it does not match the invoice. So they ring you. You are under a sink. The money waits until Thursday.\n\nIt is the least glamorous reason invoices sit unpaid, and it costs nothing to fix. Decide what the business is called. Put that name on the invoice, and put the legal name underneath it where the two differ: your own name if you are a sole trader, or the registered company name and number if you are a limited company. Then make sure the bank account carries a name that matches, because the bank's check is on the account name and nothing else.\n\nOne name, three places, one afternoon. It gets you paid faster than any amount of chasing.",
+   "ask": "Share this with the trade whose van, invoices and bank account all disagree.",
+   "title": "Three names, one business, and a customer who cannot pay you"
+  },
+  "bham-10-quote": {
+   "caption": "Epictetus was a slave in Rome before he was a philosopher, and he had no patience for the idea that anything worth having arrives finished.\n\nThe fig does not negotiate. It takes the time it takes. Blossom, then fruit, then ripening, and skipping a stage is not available.\n\nA business is the same. The client list, the reputation on a street, the accounts that finally make sense — none of it appears in a week. It is built by somebody doing ordinary things repeatedly, in order, for longer than they wanted to.\n\nIf you are in the middle of that and it feels slow, it is not a sign you are doing it wrong.",
+   "ask": "Share this with someone who is building something slowly.",
+   "title": "Epictetus on why nothing good is built in a hurry"
+  }
+ },
+ "en": {
+  "en-01-tip": {
+   "caption": "Here is a question that decides how well you sleep: what did the business actually make last month? Most owners cannot answer it without going to look, and the going to look is the bit that never happens.\n\nIt is rarely about the size of the business. A one-van operation with current books is calmer than a six-figure one guessing. Three answers do most of the work: what you earned, what is still owed to you, and what is going out before the end of the month. Those three, in front of you, early.\n\nThat is most of what we actually do. Not clever schemes. Numbers you can trust, soon enough to change something while it still matters, and someone to talk them through with when they say something you did not expect.",
+   "ask": "Send this to an owner who could use a quieter week.",
+   "title": "The quiet week is the one where you know the numbers"
+  },
+  "en-02-acq": {
+   "caption": "Most people have had the year-end email. An attachment, a lot of columns, a polite line asking you to sign. Nobody reads it, because nobody wrote it to be read.\n\nWe do the other thing. We go through your figures with you, out loud, in plain English. Which month was the odd one and why. Where the money actually went, as opposed to where you thought it went. What your margin does when you take the one big client out of the picture. Questions you are allowed to interrupt with, because that is the point of the conversation.\n\nIt changes what the numbers are for. A set of accounts filed is a duty. A set of accounts explained is a decision you can make: put the price up, drop the job that looks busy and pays badly, hire in March rather than June. Same figures either way. The difference is whether anybody ever told you what they said.\n\nAnd the filing dates still get met while we are at it.\n\nThe first conversation is free and lasts 30 minutes.",
+   "ask": "Save this for the next time a set of accounts lands and means nothing to you.",
+   "title": "Your figures, explained out loud, in plain English"
+  },
+  "en-03-acq": {
+   "caption": "A lot of company directors are quietly being looked after twice, or not at all. One firm does the company. Somebody else, or nobody, does their own return. Each side assumes the other has the whole picture, and the dividend that was voted in March is the thing that falls down the gap.\n\nWith us it is one desk. The person who prepares the company accounts is the person who prepares your Self Assessment. They already know what salary came out, what dividends were voted and when, what you put in and took back. Nothing has to be explained twice, and nothing has to be reconciled by email between two firms who have never met.\n\nIt is quieter at the year end, and it is cheaper in the way that matters: no second firm charging you to learn what the first one already knows.\n\nWe watch both sets of dates so you are not holding them in your head.\n\nThe first conversation is free and lasts 30 minutes.",
+   "ask": "Save this if your company and your own return currently sit with two different people.",
+   "title": "One desk for the company and for your own return"
+  },
+  "en-04-acq": {
+   "caption": "Most owners are not bad at bookkeeping. They are doing bookkeeping that was designed, by nobody in particular, to need them every evening.\n\nSo we change the design. Receipts are photographed the moment they are handed over, by whoever is holding them, and the paper can go in the bin on the way out of the shop. The bank comes in by itself rather than being typed. The things that repeat every month are set up once and then simply happen. What is left for you is minutes a week, on your phone, standing up.\n\nThe real gain is not tidiness. It is that the records are current, so the figures mean something when you look at them, and nothing has to be reconstructed months later from memory and a folded pile of paper.\n\nWe set it up with you, we check it is still working, and we keep an eye on the filing dates while it runs.\n\nThe first conversation is free and lasts 30 minutes.",
+   "ask": "Share this with the one who still does the paperwork at ten at night.",
+   "title": "Set it up once and you stop keeping paper at all"
+  },
+  "en-05-edu": {
+   "caption": "55p a mile for the first 10,000 business miles you drive, and 25p a mile after that. Motorcycles are 24p. That 55p is the new rate, up from 45p, and it applies from 6 April 2026.\n\nHere is the trap this winter. The return you are filing by 31 January 2027 covers 2025-26, and for that year the first-band rate is still 45p. Use 55p on it and every mileage claim on the return is wrong. 55p belongs to the year you are living in now, not the year you are reporting on.\n\nFlat rates mean you claim pence per mile instead of adding up fuel, insurance, servicing and repairs. You keep a mileage log, and that is the record. Tolls, the congestion charge and parking sit outside the rate and are claimed separately.\n\nWorking from home has flat rates too: 10 pounds a month for 25 to 50 hours, 18 pounds for 51 to 100, 26 pounds for 101 hours or more. Below 25 hours a month you cannot use it at all, and it never covers your phone or your internet.\n\nExcluded: limited companies, and partnerships with a company as a partner. You also cannot use the mileage rate on a vehicle you have ever claimed capital allowances on, and once you use flat rates for a vehicle you stay on them until you replace it.",
+   "ask": "Save this one, because the two mileage rates are easy to swap by mistake.",
+   "title": "55p a mile now, 45p on the return you file in January"
+  },
+  "en-06-edu": {
+   "caption": "If you are a director of a UK company, Companies House now has to know that you are a real, identified person. You prove it once, and what comes back is an 11-character personal code. It belongs to you rather than to a company, and the same code covers every directorship you hold.\n\nWhat it costs depends entirely on the route. Doing it yourself with Companies House through GOV.UK One Login is free of charge - online, or in person at a participating Post Office with the right documents. There is also a paid route: an authorised provider can verify you instead, and may charge a fee for it. So 'it is free' is true of one route and not the other.\n\nNobody can do the identity check on your behalf. Companies House says it cannot verify people itself, and an accountant cannot verify you either - once you have your code, your accountant can file using it, but getting it is yours to do.\n\nThe code does not then file itself. A director gives it in the company's next confirmation statement. Someone who owns or controls the company gives it through the service for that, inside their own 14-day window. A director of four companies does it four times. If you are both, you do both, separately.\n\nAnd the timing, because this is the part that has moved. The 12-month transition period for people already on the register started on 18 November 2025 and is over: it ended at the end of 17 November 2026, a week before you are reading this. Companies House says all companies must have met the requirement, or be on a compliance or enforcement pathway, by the end of March 2027. A director who carries on acting unverified is committing an offence, and the first prosecutions have already been through a magistrates' court.\n\nOutside the requirement: shareholders who do not control the company, employees, company secretaries, and sole traders, who are not on the register at all.",
+   "ask": "Save this if you are a director and that code is still sitting unused.",
+   "title": "Directors: the year to prove who you are ended on 17 November"
+  },
+  "en-07-edu": {
+   "caption": "Directors take money out of their own company all the time and call it a loan. The line to know is £10,000.\n\nIf everything you owe the company, added together, stays under £10,000 for the whole tax year, there is no taxable benefit and nothing to report. An overdrawn director's loan account counts towards it. So does a loan to a relative.\n\nCross the line and the exemption is gone completely. The benefit is then worked out on the whole loan, not only the part above £10,000, using HMRC's official rate of interest, which is 3.75% from 6 April 2026. And it is tested at any moment in the year, not on the balance sitting there at your year end, so a short spike in the middle of the summer is enough to do it.\n\nOne more thing, because it catches people. This is a separate matter from the corporation tax charge on a loan to a participator - somebody with a stake in the company - which has its own rate and its own nine-month repayment rule. One overdrawn account can bring both. The £10,000 has nothing to do with that one.\n\nOutside the £10,000 rule: loans made in place of pay, under salary sacrifice, which have to be reported whatever the balance. Loans already exempt on other grounds do not need the rule at all.",
+   "ask": "Keep this one to hand before you take the next round out of the company.",
+   "title": "Under £10,000 all year and there is nothing to report"
+  },
+  "en-08-joke": {
+   "caption": "He rang up delighted. The whole Christmas party is going through the business, he said, so bring who you like.\n\nThen the guest list arrived. His cousin. His barber. A DJ he met once.\n\nWhat can count is an annual function for your own staff, within limits, and open to all of them. Start adding the people you simply like and the shape of the thing changes, and so does the tax treatment. Plus ones and other guests are their own question, and worth asking before you book rather than after.\n\nHave the party. Have a good one. Just tell us the guest list first, and we will tell you which part of it the business is actually buying.",
+   "ask": "Share this with whoever is organising the party.",
+   "title": "He is putting the whole Christmas party through the business"
+  },
+  "en-09-joke": {
+   "caption": "He set up one address for enquiries, one for invoices, and one he made in a hurry at the bank. Very organised. Three front doors.\n\nHe has not opened any of them since the summer. So the things that come on paper instead end up on the windowsill, behind the kettle, going slowly yellow.\n\nThis is the most ordinary problem in small business and it is not laziness. Post arrives in four places, so none of them is the place, so nobody checks any of them. The fix is boring and it works: one address that everything points at, one person who opens it, one evening a week. Change it at the bank, at HMRC, at Companies House, on the van.\n\nNothing that arrives at a company is ever urgent in week one and expensive in week one. It becomes expensive by sitting there.",
+   "ask": "Share this with whoever has three inboxes and reads none of them.",
+   "title": "Three email addresses for the business, and nobody opens one"
+  },
+  "en-10-quote": {
+   "caption": "Thoreau is writing about money, but not in the way people expect. He is saying a price is not really measured in pounds. It is measured in the hours of your life you hand over to earn them.\n\nIt is a useful test for a business owner, and an uncomfortable one. The cheap client who takes three times the work is not cheap. The job you took because the number looked good, which then ate your evenings for a month, cost more than it paid. The thing you are putting off because it is boring is quietly charging you interest.\n\nWe see this in the numbers more often than people would guess. Revenue up, life down. Those are not the same direction, and only one of them shows on the bank statement.",
+   "ask": "Save this one and read it again when you next quote a price.",
+   "title": "A price is paid in hours, not in pounds"
+  }
+ }
+}

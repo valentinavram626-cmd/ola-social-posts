@@ -1,0 +1,134 @@
+[
+ {
+  "id": "christmas-early-payroll-rti-reporting",
+  "verified": "2026-11-24",
+  "recheck_after": "2027-10-01",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Reporting PAYE When You Pay Staff Early At Christmas",
+  "official_page": "https://www.gov.uk/government/publications/employer-bulletin-october-2026/october-2026-issue-of-the-employer-bulletin",
+  "figures": [
+   {
+    "value": "the normal or contractual payment date",
+    "what": "the date an employer must enter as the payment date on the Full Payment Submission when staff are paid early over Christmas - NOT the earlier date the money actually left the account",
+    "source": "https://www.gov.uk/government/publications/employer-bulletin-october-2026/october-2026-issue-of-the-employer-bulletin",
+    "read": "2026-11-24"
+   },
+   {
+    "value": "19 December paid, 31 December reported",
+    "what": "HMRC's own worked example: pay run made on 19 December but contractual pay date 31 December must be reported as 31 December",
+    "source": "https://www.gov.uk/government/publications/employer-bulletin-october-2026/october-2026-issue-of-the-employer-bulletin",
+    "read": "2026-11-24"
+   },
+   {
+    "value": "on or before the contractual payment date",
+    "what": "when the FPS itself must be sent - so an FPS showing 31 December must be filed on or before 31 December",
+    "source": "https://www.gov.uk/government/publications/employer-bulletin-october-2026/october-2026-issue-of-the-employer-bulletin",
+    "read": "2026-11-24"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "Employers operating PAYE who bring the December pay date forward - typically because the business closes over the festive period",
+   "excluded": "Employers who pay on their normal contractual date in December have nothing to change - the easement only applies where the pay date is brought forward. It does not apply to a permanent change of pay date (if the contractual pay date itself has changed, the new date is reported). It is not a relief from any tax or NIC: the amounts reported are unchanged, only the date field.",
+   "from_when": "A permanent easement on Real Time Information reporting, restated in the October 2026 Employer Bulletin for the December 2026 pay runs",
+   "automatic": false,
+   "how_to_claim": "Nothing to claim or apply for. The employer simply enters the normal contractual payment date in the payment date field of the FPS and submits on or before that date."
+  },
+  "notes": "This is the single most common December payroll error and it costs employees money, not the employer. Reporting the early actual date can push two months' pay into one Universal Credit assessment period, cutting or wiping out that month's award and affecting future entitlement. HMRC's reason for the easement is expressly to protect eligibility for income-based benefits such as Universal Credit. It is NOT an extension of the PAYE payment deadline - the tax and NIC are still due by the normal 22nd (electronic) date for the tax month. UK-wide: PAYE and Universal Credit both operate across all four nations, so there is no Scotland, Wales or Northern Ireland variation here.",
+  "used": []
+ },
+ {
+  "id": "business-gifts-50-advertising-rule-and-client-entertaining-disallowance",
+  "verified": "2026-11-24",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Business Gifts: The £50 Advertising-Gift Rule And The Client Entertaining Disallowance",
+  "official_page": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim45070",
+  "figures": [
+   {
+    "value": "£50",
+    "what": "Maximum total cost of gifts to any one recipient in the basis period (tax year for unincorporated businesses, accounting period for companies) for the advertising-gift exception to apply; if the cost of the gift together with other gifts to the same recipient exceeds £50, no deduction is allowed at all",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim45070",
+    "read": "2026-11-24"
+   },
+   {
+    "value": "S47 ITTOIA 2005 / S1300 CTA 2009",
+    "what": "The statutory exception for small gifts carrying a conspicuous advertisement for the business (e.g. diaries, pens, mouse mats) - the advertisement must be on the gift itself, not just the wrapping",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim45070",
+    "read": "2026-11-24"
+   },
+   {
+    "value": "S45 ITTOIA 2005 / S1298 CTA 2009",
+    "what": "The general rule denying any deduction for expenses of providing business entertainment or gifts, even where the expense is incurred wholly and exclusively for the purposes of the trade",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim45005",
+    "read": "2026-11-24"
+   },
+   {
+    "value": "hospitality of any kind",
+    "what": "Statutory definition of 'entertainment' for the corporation tax disallowance; s1298(5)(a) also provides that 'employee' includes a director of the company and a person engaged in its management",
+    "source": "https://www.legislation.gov.uk/ukpga/2009/4/section/1298",
+    "read": "2026-11-24"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "All businesses computing taxable trading profits - sole traders, partnerships and companies - that give gifts to customers, prospects or other third parties",
+   "excluded": "Gifts of food, drink, tobacco, or a token or voucher exchangeable for goods are never allowable, whatever their cost (BIM45070). Gifts whose cost, together with other gifts to the same recipient in the same basis period, exceeds £50 get no deduction at all. Gifts that do not carry a conspicuous advertisement for the business on the gift itself get no deduction. All client and third-party entertaining - hospitality of any kind, including entertaining by employees and by directors or managers - is disallowed outright under s45 ITTOIA 2005 / s1298 CTA 2009 however commercial the purpose.",
+   "from_when": "In force; s45-s47 ITTOIA 2005 and s1298-s1300 CTA 2009",
+   "automatic": true,
+   "how_to_claim": "No claim. Allowable advertising gifts are simply deducted in the accounts and tax computation; disallowable entertaining and gifts must be added back in the tax computation (box for disallowable expenses on the CT600 computation or the Self Assessment self-employment pages)"
+  },
+  "notes": "Not the VAT rule. The VAT treatment of business gifts (a separate £50 limit, VAT-exclusive, per person per 12 months) is a different subject with different conditions. Not staff gifts or staff entertaining either: gifts to employees and staff functions sit under separate exceptions and under the trivial benefits and annual function exemptions. The £50 is a cliff edge, not a deductible first slice - exceed it and the whole cost is disallowed. The limit is per recipient per basis period, not per gift. BIM45070 read 24 November 2026.",
+  "used": []
+ },
+ {
+  "id": "gift-aid-higher-rate-relief-on-donations",
+  "verified": "2026-11-24",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Gift Aid: The Higher Rate Relief Donors Leave Unclaimed",
+  "official_page": "https://www.gov.uk/donating-to-charity/gift-aid",
+  "figures": [
+   {
+    "value": "25p for every £1",
+    "what": "the extra the charity can claim from HMRC on a Gift Aid donation (25% of the donation)",
+    "source": "https://www.gov.uk/donating-to-charity/gift-aid",
+    "read": "2026-11-24"
+   },
+   {
+    "value": "£25",
+    "what": "the amount a 40% taxpayer can claim back on a £100 Gift Aid donation - the difference between the tax paid on the donation and what the charity got back (GOV.UK worked example)",
+    "source": "https://www.gov.uk/donating-to-charity/gift-aid",
+    "read": "2026-11-24"
+   },
+   {
+    "value": "4 times",
+    "what": "the cap - donations in a tax year must not be more than 4 times what you have paid in tax in that tax year",
+    "source": "https://www.gov.uk/donating-to-charity/gift-aid",
+    "read": "2026-11-24"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide",
+   "who": "Individual taxpayers who pay Income Tax above the basic rate and make Gift Aid donations can claim back the difference between the rate they pay and the basic rate the charity has reclaimed. Claim on the Self Assessment return, or by asking HMRC to amend your tax code.",
+   "excluded": "Basic rate taxpayers get nothing extra - the charity's 25p already uses up the relief; anyone who has not paid enough tax to cover what the charity reclaims should not sign a Gift Aid declaration, and donations must not exceed 4 times the tax paid in the year; some payments do not qualify for Gift Aid at all; donations to a community amateur sports club cannot be made through Payroll Giving; and if you miss the Self Assessment deadline you cannot claim the earlier year's relief on current-year donations.",
+   "from_when": "Ongoing.",
+   "automatic": false,
+   "how_to_claim": "Include the donations on your Self Assessment tax return, or contact HMRC and ask for your tax code to be amended."
+  },
+  "notes": "Two different pots of money: the charity's 25p in the £1, which is automatic once the declaration is signed, and the donor's own higher rate relief, which is NOT automatic and is only paid if claimed. GOV.UK states the mechanism is 'the same if you live in Scotland' and links to Scottish income tax rates - because Scotland has more bands, the amount a Scottish taxpayer can reclaim differs from the rest of the UK at the same income. Welsh rates are currently set at the same level as England and Northern Ireland. Distinct from the Gift Aid carry-back election, which must be made on the original return by the filing deadline.",
+  "used": []
+ }
+]

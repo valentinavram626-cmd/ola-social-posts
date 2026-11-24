@@ -1,0 +1,242 @@
+### POST 01  [kind: edu]
+FRAME: Plătești oamenii mai devreme de Crăciun? Pe declarație treci data normală. | Exemplul HMRC: plata pe 19 decembrie, data din contract 31 decembrie — pe Full Payment Submission treci 31 decembrie. Plătești la data obișnuită? Nu schimbi nimic.
+CAPTION: Multe firme își plătesc oamenii mai devreme în decembrie, pentru că se închide peste sărbători. Banii pot pleca mai devreme, dar pe declarația către HMRC treci data normală de plată, cea din contract. Exemplul HMRC: plata făcută pe 19 decembrie, data din contract 31 decembrie, se raportează 31 decembrie, iar Full Payment Submission se trimite până la acea dată. De ce contează: data reală, mai devreme, poate aduna două salarii în aceeași perioadă de evaluare pentru Universal Credit și poate reduce sau șterge suma pe care angajatul o primește în luna aceea. Dacă plătești la data obișnuită din decembrie, nu ai ce schimba. Dacă data de plată din contract s-a schimbat definitiv, atunci treci data
+
+### POST 02  [kind: tip]
+FRAME: The firms that last in this city are not the loudest ones. | Their paperwork is boring. Invoices out on time, receipts kept, numbers known. Nobody claps for that, and it is why they are still trading in five years.
+CAPTION: The businesses in this city that are still here in ten years are rarely the ones with the biggest signage. They are the ones where the invoices went out on the Friday, the receipts went in the folder, and the owner could tell you what last month actually made.
+
+Steady is unglamorous. It is also the thing that survives a quiet quarter, a late customer and a van that needs a new gearbox. Boring paperwork is not the opposite of ambition. It is what ambition stands on.
+
+If your paperwork is currently exciting, we can make it dull for you.
+
+### POST 03  [kind: edu]
+FRAME: 55p a mile for the first 10,000 business miles, from April 2026. | After 10,000 miles it is 25p. The return due this January still uses 45p. Excluded: limited companies, and any vehicle you have ever claimed capital allowances on.
+CAPTION: 55p a mile for the first 10,000 business miles you drive, and 25p a mile after that. Motorcycles are 24p. That 55p is the new rate, up from 45p, and it applies from 6 April 2026.
+
+Here is the trap this winter. The return you are filing by 31 January 2027 covers 2025-26, and for that year the first-band rate is still 45p. Use 55p on it and every mileage claim on the return is wrong. 55p belongs to the year you are living in now, not the year you are reporting on.
+
+Flat rates mean you claim pence per mile instead of adding up fuel, insurance, servicing and repairs. You keep a mileage log, and that is the record. Tolls, the congestion charge and parking sit outside the rate and are claimed sepa
+
+### POST 04  [kind: edu]
+FRAME: 50 de lire per client, iar reclama firmei trebuie să fie pe cadou. | Peste 50 de lire nu se deduce nimic, nici primele 50. Mâncarea, băutura, tutunul și voucherele nu se deduc niciodată. Masa cu clientul nu se deduce deloc.
+CAPTION: Vine perioada cadourilor pentru clienți, așa că hai să fie limpede ce se deduce. Un cadou către un client se deduce doar dacă are o reclamă vizibilă a firmei pe el, un pix, o agendă, un mouse pad, și doar dacă totalul cadourilor către același client nu trece de 50 de lire în perioada contabilă. Peste 50 de lire nu se deduce nimic, nici măcar primele 50: limita taie tot, nu doar diferența. Reclama trebuie să fie pe cadou, nu pe ambalaj. Mâncarea, băutura, tutunul și voucherele nu se deduc niciodată, oricât ar costa. Iar masa cu clientul nu se deduce deloc, oricât de comercială ar fi discuția: orice formă de ospitalitate pentru clienți intră aici, inclusiv cea oferită de angajați, de directori
+
+### POST 05  [kind: joke]
+FRAME: My phone is silent for eleven months of the year. | Then 30 January arrives. | Everybody remembers Self Assessment on the same afternoon. Ring in November and you get a conversation instead of a queue.
+CAPTION: Eleven months of quiet. Then, on the afternoon of 30 January, every phone in every accountant's office in Birmingham rings at once.
+
+It is the same every year, and it is not because people are lazy. It is because the return is a job with no boss, so it sits behind every job that has one. Then the date gets close and it becomes the only job there is.
+
+The difference between ringing in November and ringing on 30 January is not the work. It is the attention. In November your return is a conversation, there is time to find the receipt you cannot find, and there is time to notice something you could have claimed. At the end of January it is a race.
+
+We are nine weeks out. The phone is still quiet
+
+### POST 06  [kind: tip]
+FRAME: You ring us, and whoever answers has already seen your file. | No queue, no ticket number, no starting again with somebody new. The same small team, your business on the screen, the phone picked up by a person.
+CAPTION: Most people's experience of ringing their accountant is a queue, a reference number, and explaining the whole thing again to someone who has never seen their books. That is not what happens here. You ring Ola Accountancy and you get a person who already has your file open, knows what you do for a living, and remembers what we agreed last time. It is a small thing until the week you need an answer by four o'clock, and then it is the whole thing. No call centre. No ticket. No new name every time.
+
+### POST 07  [kind: quote]
+FRAME: Waste no more time arguing about what a good man should be. Be one. | Marcus Aurelius
+CAPTION: Marcus Aurelius ran an empire and still found it necessary to write this down for himself. Most of us do the same thing on a smaller scale. We plan the better business instead of doing the next hard, dull, useful thing in it: the invoice chased, the receipts filed, the pricing finally put up. The debate is comfortable because nothing changes while it is going on. The work is not comfortable, and it is the only part that counts. Pick the one thing you have been describing instead of doing, and do that today.
+
+### POST 08  [kind: joke]
+FRAME: He says the whole Christmas party goes through the business. | He has invited his cousin, his barber and a DJ. | Only a party for your own staff can count, and only within limits. Your barber is a lovely man and he is not on the payroll.
+CAPTION: He rang up delighted. The whole Christmas party is going through the business, he said, so bring who you like.
+
+Then the guest list arrived. His cousin. His barber. A DJ who has never done a day's work for him.
+
+What can count is an annual function for your own staff, within limits, and open to all of them. Start adding the people you simply like and the shape of the thing changes, and so does the tax treatment. Plus ones and other guests are their own question, and worth asking before you book, not after.
+
+Have the party. Have a good one. Just tell us the guest list first, and we will tell you which part of it the business is actually buying.
+
+### POST 09  [kind: acq]
+FRAME: Never hold a filing date in your head again. | We keep the calendar for you: your accounts, your returns, the 31 January deadline. You hear from us in good time, with a short list of what we need.
+CAPTION: There is a particular kind of low-level dread that comes from half-remembering that something is due. You cannot name the date, you are fairly sure it is fine, and it sits there anyway. Our clients do not carry that. We keep the calendar: the annual accounts, the VAT returns, the payroll, the Self Assessment return due 31 January. You hear from us well before anything is due, with a short list of exactly what we need from you, and then you hear from us again when it is filed and done. It is not that the dates stop mattering. It is that they stop being yours to remember.
+
+### POST 10  [kind: acq]
+FRAME: One price, told to you up front, covering the whole year. | No hourly clock running while you ask a question. You know what you are paying before you say yes, and it does not move because the year turned out busy.
+CAPTION: One price, told to you up front, covering the whole year. That is it.
+
+No hourly clock running while you ask a question. No invoice three weeks after a phone call you had half forgotten. You know what you are paying before you say yes, and it does not move because the year turned out busier than anyone expected.
+
+The reason that matters is not really the money. It is that a fixed fee makes you ring. People with a meter running save their questions up, ask them too late, and pay for the delay instead of the advice. We would rather you asked on the day it came up.
+
+The first conversation is free and lasts 30 minutes.
+
+### POST 11  [kind: edu]
+FRAME: Five ways to work out the VAT on a day's takings, not every sale. | The VAT retail schemes. Excluded: wholesale and trade sales, services under apportionment 1, catering outside point of sale, and above £130m HMRC agrees a bespoke scheme.
+CAPTION: Black Friday is on Friday. If you run a shop or a takeaway, you are about to put through hundreds of small sales at different VAT rates, and no till receipt is going to tell you the VAT on each one.
+
+That is what the VAT retail schemes are for. There are five published ones: the point of sale scheme, two apportionment schemes and two direct calculation schemes. You work the VAT out from your daily gross takings instead of from each individual sale, and you choose the scheme you are eligible for. For a published scheme there is no application and no permission needed.
+
+They are not a discount and they are not the Flat Rate Scheme. They are a way of working out the tax you already owe when you
+
+### POST 12  [kind: joke]
+FRAME: Four months on the dashboard, in the sun. | He has brought me forty blank squares of paper. | Till paper fades, and a receipt nobody can read is a cost you cannot prove. Photograph them the day you are handed them.
+CAPTION: A bag arrives on the desk in late November. Four months of receipts, he says, every one of them kept.
+
+Kept on the dashboard. In the sun. What he has brought me is forty blank squares of paper.
+
+Till paper fades, and it fades fastest in heat and daylight. A receipt nobody can read is a cost you cannot prove, and a cost you cannot prove is one you should not be claiming. HMRC can ask to see the record behind a figure, and a white rectangle is not a record.
+
+The fix takes seconds and no system at all. Photograph it the day you are handed it, then do what you like with the paper. The photograph keeps. The dashboard does not.
+
+### POST 13  [kind: tip]
+FRAME: Firma nu se clădește în lunile bune, ci în cele liniștite. | Disciplina pe care nimeni nu o vede acum — facturile puse la locul lor, chitanțele strânse săptămânal — se vede în cifrele de anul viitor.
+CAPTION: Lunile liniștite nu arată nimic și decid totul. Acum pui facturile la locul lor, strângi chitanțele, verifici ce ai încasat. Peste un an, asta se vede în cifre.
+
+### POST 14  [kind: joke]
+FRAME: He bought a 65-inch telly at 60% off on Black Friday. | It is now "for client presentations". | An expense is what the business needed, not what was cheap. If it ends up in your lounge, it is not in the accounts.
+CAPTION: Black Friday, 60% off, and a 65-inch television that was absolutely bought for the business. For presentations. To clients. In the lounge.
+
+The test is not what it cost or how good the deal was. It is whether the business needed it and whether it is used for the business. Something that spends its life in your front room, watched by your family, is not a business expense no matter what the receipt says.
+
+Where people do get caught is the mixed one. A laptop used for work and for everything else, a phone, a van you also use at the weekend. Those are not all or nothing. There is a proportion, and if you keep an honest note of it at the time, nobody argues about it later.
+
+Buy the telly. Just b
+
+### POST 15  [kind: joke]
+FRAME: «O fac săptămâna viitoare.» Spus în martie. | A venit săptămâna aia. Este 30 ianuarie. | Self Assessment se depune până la 31 ianuarie. O oră acum, în noiembrie, valorează mai mult decât o noapte în ianuarie.
+CAPTION: «O fac săptămâna viitoare» este cea mai scumpă propoziție din contabilitate. Spusă în martie, repetată în iulie, redescoperită pe 30 ianuarie, la unsprezece seara, cu punga de chitanțe pe masă. Declarația de Self Assessment pentru anul fiscal trecut se depune până la 31 ianuarie, adică peste vreo nouă săptămâni. O oră acum, în noiembrie, este o oră liniștită. Aceeași oră în ianuarie costă mult mai mult, și nu doar în bani.
+
+### POST 16  [kind: acq]
+FRAME: You get the same person every time you ring. | No call centre, no being passed along, no explaining your business again from the start. The one who answers already knows your year and your numbers.
+CAPTION: You get the same person every time you ring. Not a department, not a ticket number, not whoever picked up.
+
+No call centre. No being passed along. No explaining your business again from the start to somebody who has your file open for the first time. The person who answers already knows your year, your trade and the thing you were worried about in August.
+
+It sounds like a small thing until you have lived the other way. Half the cost of bad accounting is the retelling: the context you lose, the detail you forget to mention because you are tired of saying it. Continuity is not a luxury. It is how anybody gets your situation right.
+
+The first conversation is free and lasts 30 minutes.
+
+### POST 17  [kind: joke]
+FRAME: Mi-a adus chitanțele de pe un an într-o pungă. | Sortate. După cum au intrat în pungă. | O chitanță contează doar dacă se mai poate citi. Fă-i poză când o primești: cinci secunde acum, nicio oră în ianuarie.
+CAPTION: Punga cu chitanțele de pe un an întreg. O cunoaștem toți. Problema nu e punga, e chitanța de la benzinărie, ștearsă, care în ianuarie nu se mai poate citi.
+
+### POST 18  [kind: quote]
+FRAME: The cost of a thing is the amount of what I will call life which is required to be exchanged for it. | Henry David Thoreau
+CAPTION: Thoreau is writing about money, but not in the way people expect. He is saying a price is not really measured in pounds. It is measured in the hours of your life you hand over to earn them.
+
+It is a useful test for a business owner, and an uncomfortable one. The cheap client who takes three times the work is not cheap. The job you took because the number looked good, which then ate your evenings for a month, cost more than it paid. The thing you are putting off because it is boring is quietly charging you interest.
+
+We see this in the numbers more often than people would guess. Revenue up, life down. Those are not the same direction, and only one of them shows on the bank statement.
+
+### POST 19  [kind: edu]
+FRAME: Up to £10,500 off your employers' National Insurance bill. | Employment Allowance, 2026/27. Excluded: a company whose only paid employee is its sole director, non-charity public authorities, nannies and cleaners, off-payroll work.
+CAPTION: If you pay staff, there is up to £10,500 you can take straight off your employers' National Insurance bill for 2026/27. It is called the Employment Allowance, and it reduces what you owe as the employer, not what comes out of anybody's wages.
+
+You claim it through your payroll software, by sending what is called an Employment Payment Summary. The old £100,000 eligibility cap was removed from April 2025. One thing that catches people: the claim does not roll forward. You have to make it again every tax year.
+
+Who cannot have it. A limited company where the sole director is the only employee paid above the Secondary Threshold. Public authorities that are not charities. Employers of a nanny, cl
+
+### POST 20  [kind: joke]
+FRAME: "It's going out Friday." He first said that in August. | It is still, somehow, Friday. | An invoice nobody chases is a donation. A date on it, a reminder, then a phone call, and your cash stops living on hope.
+CAPTION: Every business has one. The invoice went out in August. The payment has been going out on Friday ever since. You have stopped being annoyed about it and started finding it funny, which is its own kind of warning sign. The uncomfortable truth is that an invoice nobody chases quietly becomes a donation. Put a payment date on the invoice itself, send one reminder before it is due and one after, and pick up the phone on day fifteen. Not aggressive. Just expected. The clients who pay on time are usually the ones who know you will notice.
+
+### POST 21  [kind: edu]
+FRAME: Verifying is free, and one 11-character code covers every company. | Directors and people with significant control must verify, then hand the code over for each company. Excluded: shareholders, employees, company secretaries, sole traders.
+CAPTION: Verifying who you are costs nothing if you do it directly with Companies House through GOV.UK One Login, and you only do it once. What you get back is an 11-character personal code. It belongs to you, not to any company, and the same code covers every appointment you hold.
+
+The part people miss is that the code does not file itself. A director gives it in the company's confirmation statement. Somebody with significant control gives it through the service for that, inside their own 14-day window. If you are both a director and a person with significant control of the same company, you do both, separately. If you are a director of four companies, you do it for each of the four.
+
+Nobody can do 
+
+### POST 22  [kind: quote]
+FRAME: No great thing is created suddenly, any more than a bunch of grapes or a fig. | Epictetus
+CAPTION: Epictetus was a slave in Rome before he was a philosopher, and he had no patience for the idea that anything worth having arrives finished.
+
+The fig does not negotiate. It takes the time it takes. Blossom, then fruit, then ripening, and skipping a stage is not available.
+
+A business is the same. The client list, the reputation on a street, the accounts that finally make sense — none of it appears in a week. It is built by somebody doing ordinary things repeatedly, in order, for longer than they wanted to.
+
+If you are in the middle of that and it feels slow, it is not a sign you are doing it wrong.
+
+### POST 23  [kind: edu]
+FRAME: Donezi 100 de lire și plătești impozit de 40%? Ceri înapoi 25 de lire. | Se cere pe declarația de Self Assessment. La rata de bază nu primești nimic în plus, iar donațiile din an nu pot depăși de 4 ori impozitul plătit în acel an.
+CAPTION: Ai donat 100 de lire cu Gift Aid și plătești impozit la 40%? Poți cere înapoi 25 de lire, și majoritatea donatorilor nu le cer niciodată. Sunt două sume diferite. Prima: cei 25p pentru fiecare liră donată, pe care organizația caritabilă îi ia singură de la HMRC, odată ce ai semnat declarația Gift Aid. A doua: diferența dintre rata la care plătești tu impozit și rata de bază, care se întoarce la tine, dar numai dacă o ceri. Se cere pe declarația de Self Assessment sau îi scrii HMRC să îți modifice codul de impozitare. Dacă plătești impozit doar la rata de bază, nu primești nimic în plus, pentru că cei 25p ai organizației folosesc deja tot. Donațiile dintr-un an nu pot depăși de 4 ori impozitu
+
+### POST 24  [kind: acq]
+FRAME: There is a door you can walk into on Washwood Heath Road. | Bring the carrier bag of paperwork and put it on a desk in front of a person. We are at 22-42 Washwood Heath Rd, Saltley, B8 1RB. First 30 minutes free.
+CAPTION: Some things are easier in a room. You can post the bag of receipts, or you can bring it in, put it on the desk, and have somebody go through it with you while you drink a cup of tea.
+
+We are at 22-42 Washwood Heath Rd, Saltley, B8 1RB. A real door, on a road you already drive down. You can park, walk in, and ask the question you have been meaning to ask since April.
+
+The first conversation is free and lasts 30 minutes. Bring whatever you have, in whatever state it is in. Nobody here is going to be shocked by a shoebox.
+
+### POST 25  [kind: acq]
+FRAME: Un abonament lunar fix. Știi cât costă anul înainte să înceapă. | Contabilitate, salarii și declarații, într-o sumă pe care o poți pune în buget. Fără facturi care apar din senin și fără ore taxate separat.
+CAPTION: Un abonament lunar fix, stabilit de la început. Contabilitate, salarii și declarații, într-o sumă pe care o poți pune în buget. Fără facturi care apar din senin.
+
+### POST 26  [kind: acq]
+FRAME: Your year-end is already inside the monthly price. | Nothing extra lands on you in January. We keep the accounts moving through the year and we watch the dates, so the end of the year is a phone call, not a scramble.
+CAPTION: January is a strange month for a small business. The work slows, the money is thin, and that is exactly when a lot of people get an extra bill for the thing they thought they were already paying for.
+
+Not here. Your year-end accounts and your tax return are inside the monthly fee. There is no separate invoice in January because the work has been done through the year, a bit at a time, while the paperwork was still fresh.
+
+We also keep an eye on the dates for you. You will hear from us before something is due, not after. It is one of the quieter benefits of having somebody who answers the phone.
+
+Thirty minutes, free, whenever suits you.
+
+### POST 27  [kind: acq]
+FRAME: Thirty minutes to find out where you actually stand. | The first consultation is free and lasts 30 minutes. You bring the questions, we tell you straight, and nothing is signed at the end of it unless you want it to be.
+CAPTION: Most business owners we meet are not in trouble. They just do not know, with any certainty, where they stand. So we give you thirty minutes, free, to find out. You bring the questions you have been putting off: the tax you think is coming, the thing in the books you do not understand, whether you are paying yourself the sensible way. We give you a straight answer, in plain English, and no homework. At the end you decide whether you want to work with us. Plenty of people take the thirty minutes and go away happier knowing they were already fine. That is a good outcome too. Luton, the towns around it, and across the UK.
+
+### POST 28  [kind: edu]
+FRAME: Owe the company under GBP 10,000 all year: nothing to report. | Go over GBP 10,000 at any point and the whole loan is taxed, not just the bit over. Excluded: loans under salary sacrifice. The official rate of interest is 3.75%.
+CAPTION: Directors take money out of their own company all the time and call it a loan. The line to know is 10,000 pounds.
+
+If everything you owe the company, added together, stays under 10,000 pounds throughout the whole tax year, there is no taxable benefit and nothing to report. An overdrawn director's loan account counts. So does a loan to a relative.
+
+Cross it and the exemption is gone completely. The benefit is then worked out on the whole loan, not just the part above 10,000, using HMRC's official rate of interest, which is 3.75% from 6 April 2026. And it is tested at any moment in the year, not on the balance at your year end. A fortnight at 11,000 pounds in July decides it.
+
+One more thing, 
+
+### POST 29  [kind: acq]
+FRAME: You will not spend the first meeting explaining your own trade to us. | CIS deductions, the van, the cash takings, subcontractors who start Monday and are gone by Friday. We already know how Birmingham trades run. One fixed monthly fee.
+CAPTION: You should not have to teach your accountant your own job. If the first meeting is spent explaining what CIS is, what the 20% off your invoices means, why the van matters and why half the takings come in cash, you are paying to educate somebody.
+
+We work with Birmingham trades every week. Builders, sparkies, plasterers, couriers, barbers, takeaways. We know what a subcontractor who starts on Monday and disappears by Friday does to your records, and we know what the Revenue wants to see about it.
+
+One fixed monthly fee. We handle the handover from your old accountant and write the clearance letter ourselves, so you are not chasing anybody.
+
+Come and talk to us for 30 minutes, free, and see ho
+
+### POST 30  [kind: acq]
+FRAME: Your books are up to date inside your first month with us. | Not six months in. Not at the year end. You stop finding out what happened long after it happened, and you start deciding while the decision still counts.
+CAPTION: Most people come to us having found out in October what went wrong in March. By then it is a history lesson, not a decision.
+
+With us your books are up to date inside your first month. Not six months in, not at the year end when the figures are already cold. We take the handover, write the professional clearance letter to your old accountant, and get your records current before we ask you for anything clever.
+
+What changes is the timing. You see a thin month while it is still this month. You know whether to take the job, hire the person, buy the van. Same numbers, months earlier, and that is the whole difference.
+
+The first conversation is free and lasts 30 minutes.
+
+### POST 31  [kind: acq]
+FRAME: Semnezi o scrisoare și mutarea o facem noi, de la un capăt la altul. | Noi scriem scrisoarea profesională de clearance contabilului tău actual și strângem noi documentele. Nu trebuie să ai nicio discuție incomodă cu nimeni.
+CAPTION: Mutarea de la un contabil la altul se oprește, de obicei, la gândul discuției incomode. Tu semnezi o scrisoare. Noi scriem scrisoarea de clearance și strângem documentele.
+
+### POST 32  [kind: acq]
+FRAME: Scrii pe WhatsApp și îți răspunde un om, în română, în aceeași zi. | Nu un număr de tichet, nu trei săptămâni de așteptare. Vorbești cu persoana care îți ține contabilitatea, iar prima discuție este gratuită și durează 30 de minute.
+CAPTION: Cel mai des auzim aceeași frază: la contabilul de dinainte nu răspundea nimeni. La noi scrii pe WhatsApp, în română, și îți răspunde un om în aceeași zi. Nu un număr de tichet, nu un formular, nu trei săptămâni de așteptare. O întrebare de două minute primește un răspuns de două minute, nu o programare peste o lună. Iar dacă e ceva mai serios, prima discuție este gratuită și durează 30 de minute, cu un om care îți vorbește limba și îți explică pe înțeles.
+
+### POST 33  [kind: tip]
+FRAME: The owner who knows their numbers is never the one lying awake. | Confidence does not come from hoping it all worked out. It comes from knowing where you stand this month, while there is still time to do something about it.
+CAPTION: The owner who knows their numbers is never the one lying awake at three in the morning. It is not the size of the business that decides that, and it is not luck either. It is whether you can answer a simple question about your own money without having to go and look.
+
+Hoping is exhausting. Knowing is calm. A set of books that is current tells you what you earned, what is still owed to you and what is about to go out, and once you can see all three you stop bracing for a surprise that is not coming.
+
+That is most of what we do. Not magic, not clever schemes. Numbers you can trust, in front of you, early enough to act on.
+
+### POST 34  [kind: quote]
+FRAME: Cât timp amânăm, viața trece în grabă. | Seneca
+CAPTION: Seneca a scris asta acum două mii de ani și se potrivește cu orice lucru pe care l-ai pus pe lista de săptămâna viitoare. Timpul nu se întoarce. Declarația, în schimb, se poate face din timp.
+
+### POST 35  [kind: edu]
+FRAME: 25% off the Council Tax bill if you are the only adult at home. | England and Wales. The single person discount. No discount where two or more countable adults live there, and it is not means-tested. You apply to your own council.
+CAPTION: If you are the only adult living in your home, a quarter of your Council Tax bill can come off. That is the single person discount, 25%, and it applies in England and Wales.
+
+It also applies when other adults live with you but every one of them is what the rules call disregarded. GOV.UK's list includes people under 18, some apprentices, 18 and 19 year olds in full-time education, full-time students, student nurses, live-in carers, people who are severely mentally impaired and diplomats.
+
+There are separate reductions too. The Disabled Band Reduction Scheme charges the bill at one band lower, or 17% off for a Band A home where there is no lower band, and it only applies where the property is 
+

@@ -1,0 +1,266 @@
+[
+ {
+  "id": "simplified-expenses-flat-rates",
+  "verified": "2026-11-15",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Simplified expenses flat rates - mileage jumps to 55p, and the home rates stay put",
+  "official_page": "https://www.gov.uk/simpler-income-tax-simplified-expenses",
+  "figures": [
+   {
+    "value": "55p per mile",
+    "what": "Flat rate for cars and goods vehicles, first 10,000 business miles, for 2026-27 (up from 45p)",
+    "source": "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "25p per mile",
+    "what": "Flat rate for cars and goods vehicles after 10,000 business miles - unchanged",
+    "source": "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "24p per mile",
+    "what": "Flat rate for motorcycles",
+    "source": "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "From 45 pence per mile to 55 pence per mile",
+    "what": "The increase to the first-band rate, retrospective taking effect from 6 April 2026, covering self-employed simplified mileage rates as well as AMAPs",
+    "source": "https://www.gov.uk/government/publications/increase-to-approved-mileage-allowance-payments-amaps-and-self-employed-simplified-mileage-rates",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "45p per mile",
+    "what": "The first-band rate for 2025-26 and earlier years - still the rate for the return being filed this January",
+    "source": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim75005",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£10 per month",
+    "what": "Working from home flat rate for 25 to 50 hours worked from home per month",
+    "source": "https://www.gov.uk/simpler-income-tax-simplified-expenses/working-from-home",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£18 per month",
+    "what": "Working from home flat rate for 51 to 100 hours per month",
+    "source": "https://www.gov.uk/simpler-income-tax-simplified-expenses/working-from-home",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "£26 per month",
+    "what": "Working from home flat rate for 101 hours or more per month",
+    "source": "https://www.gov.uk/simpler-income-tax-simplified-expenses/working-from-home",
+    "read": "2026-11-15"
+   },
+   {
+    "value": "25 hours a month",
+    "what": "Minimum hours worked from home before the home flat rate can be used at all",
+    "source": "https://www.gov.uk/simpler-income-tax-simplified-expenses/working-from-home",
+    "read": "2026-11-15"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide. Simplified expenses are part of UK-wide income tax law and apply in England, Wales, Scotland and Northern Ireland.",
+   "who": "Sole traders and business partnerships that have no companies as partners. Optional, and you can mix methods across different vehicles.",
+   "excluded": "gov.uk: 'Simplified expenses cannot be used by limited companies or business partnerships involving a limited company.' You cannot use the mileage rate for a vehicle you have ever claimed capital allowances on, or whose costs are already in your business profits. Once you use flat rates for a vehicle you must keep using them for as long as that vehicle is in the business - you cannot switch to actual costs until you replace it. Cars designed for commercial use, such as black cabs and dual-control driving instructor cars, are outside the mileage rate (BIM75005). Under the cash basis, if you have deducted the cost of acquiring a goods vehicle or motorcycle you cannot then use the mileage rate for it. The home flat rate is excluded entirely below 25 hours a month, and it never covers telephone or internet - those must be claimed on actual business-use cost. Tolls, congestion charges and parking are not inside the mileage rate and are claimed separately.",
+   "from_when": "The 55p first-band mileage rate applies from 6 April 2026 (announced retrospectively), so it is the 2026-27 rate. For the 2025-26 return being filed by 31 January 2027 the rate is still 45p. The working from home rates of £10, £18 and £26 are the current rates and were not changed.",
+   "automatic": false,
+   "how_to_claim": "Nothing to register - keep contemporaneous mileage and hours records and enter the flat rate figures in the expenses boxes of the self-employment pages of your Self Assessment return instead of actual costs."
+  },
+  "notes": "The live risk this season is using the wrong year's mileage rate. 55p is the 2026-27 rate; the return due by 31 January 2027 covers 2025-26 and uses 45p. Get those the wrong way round and every mileage claim is wrong. The increase was announced as retrospective to 6 April 2026 and covers both employee AMAPs and self-employed simplified mileage, so the two stay aligned. Note what the flat rate does and does not absorb: it covers running costs and the capital cost of the vehicle, which is why claiming capital allowances on the same vehicle is barred for life, but it does not cover tolls, congestion charges or parking. On the home rate, the hours test is hours actually worked from home in the month, and the bands are not pro-rated within a month. Nation differences: none. Commonly confused with: the £6 a week employee working from home allowance, which is a different relief for employees under PAYE; the business proportion method, which is the alternative to flat rates and often gives a bigger deduction for a home office; and the cash basis, which is a separate choice.",
+  "used": []
+ },
+ {
+  "id": "companies-house-identity-verification-directors-pscs",
+  "verified": "2026-11-20",
+  "recheck_after": "2027-01-12",
+  "brands": [
+   "en",
+   "ola",
+   "bham"
+  ],
+  "title": "Companies House identity verification for directors and PSCs",
+  "official_page": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+  "figures": [
+   {
+    "value": "8 April 2025",
+    "what": "Date voluntary identity verification opened - individuals could verify with Companies House via GOV.UK One Login or an Authorised Corporate Service Provider (ACSP) from this date",
+    "source": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "18 November 2025",
+    "what": "Date identity verification became a legal requirement for directors (and equivalents) and PSCs, and the start of the 12-month transition period. The Companies House campaign site still states in terms, checked again today: 'This date is not a deadline. It marks the start of a 12-month transition period'",
+    "source": "https://changestoukcompanylaw.campaign.gov.uk/identity-verification/",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "12 months beginning with 18 November 2025",
+    "what": "Transition period for people already registered as directors or PSCs before 18 November 2025. It ENDED at the end of 17 November 2026 - see the SI 2025/1118 reg. 4 figure below, which is the authority for the end date. Corrected 20 November 2026: an earlier version of this figure read 'closes on 18 November 2026', which is wrong and must never be published. It was a window, not a single deadline: within it each person's own due date was set by their company's confirmation statement date (directors, and PSCs who are also directors) or their birth month (PSCs who are not directors)",
+    "source": "https://www.gov.uk/government/news/companies-house-confirms-identity-verification-rollout-from-18-november-2025",
+    "read": "2026-11-20"
+   },
+   {
+    "value": "next confirmation statement on or after 18 November 2025",
+    "what": "The actual deadline rule for an existing director: give your Companies House personal code in the company's next confirmation statement. A director of more than one company must do it for each. Overseas companies must confirm all directors have verified by the anniversary of registration of the UK establishment",
+    "source": "https://www.gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "14 days",
+    "what": "Window in which a PSC must give their personal code via the 'Provide identity verification details for a PSC' service. For a PSC who is also a director of the same company the 14 days start the day AFTER the company's confirmation statement date. For a PSC who is not a director the window is the first 14 days of their birth month (a 22 January birthday gives 1-14 January). A PSC added after 18 November 2025 can give the code when first added or within 14 days of being added. Filing an early confirmation statement does not move these dates. Companies House says the dates of your 14-day period can be checked on the public register",
+    "source": "https://www.gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "up to 14 days",
+    "what": "Extension the registrar may grant to a PSC's identity verification due date, requested online before the deadline passes. A PSC granted an extension stays compliant. After 2 digital extensions a further request goes to an examiner with supporting evidence",
+    "source": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "usually up to 2 months",
+    "what": "How long Companies House says it will pause enforcement if it accepts a written representation about extenuating circumstances. Representations received outside the timeframe Companies House gives are not considered, and its decision is final",
+    "source": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "11 characters",
+    "what": "Length of the Companies House personal code given to a person once they have verified. It belongs to the individual, not the company; the same code covers all their appointments; it can be shared with someone trusted to file on their behalf",
+    "source": "https://www.gov.uk/guidance/companies-house-personal-codes-for-identity-verification",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "6 to 7 million",
+    "what": "Companies House press-release estimate of the number of individuals who will need to verify their identity by mid-November 2026",
+    "source": "https://www.gov.uk/government/news/companies-house-confirms-identity-verification-rollout-from-18-november-2025",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "more than 7 million",
+    "what": "The figure used on the Companies House outline transition plan (policy paper, still last updated 23 October 2026 when read today) for individuals on the register requiring identity verification - higher than the '6 to 7 million' press-release estimate. Quote whichever source you cite",
+    "source": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "3 directors fined, 16 September 2026",
+    "what": "First Insolvency Service prosecutions for identity verification offences, at City of London Magistrates' Court: fines of £166, £307 and £80, each plus £85 costs and a victim surcharge. One director had verified herself but was fined for not stopping a co-director acting while unverified. Proof that enforcement is already live for people who missed their own due dates, well before general compliance activity starts",
+    "source": "https://www.gov.uk/government/news/directors-warned-to-verify-identities-with-companies-house-following-first-insolvency-service-prosecutions",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£0",
+    "what": "Cost of verifying directly with Companies House using GOV.UK One Login - 'It is free of charge'. Verifying through an ACSP instead is not free: the ACSP 'may charge a fee for their services' and Companies House does not set or publish that fee",
+    "source": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "no earlier than the end of 2026",
+    "what": "When Companies House still expects, as at today, to complete the transition period for all individuals on the register requiring identity verification and 'start compliance activity against those who have failed to verify their identity'. No firmer date has been announced",
+    "source": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "section 167M, Companies Act 2006",
+    "what": "The offence an unverified director commits by continuing to act. Companies House: 'It is unlawful for a director to act as a director without completing identity verification.' The company may also be in breach for failing to rectify it, and Companies House may refer the case to The Insolvency Service",
+    "source": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "3 or more offences over 5 years",
+    "what": "The point at which Companies House says non-compliance is likely to be treated as serious. Prosecution may lead to a criminal conviction, director disqualification and fines. Companies House calls this a guideline for its decision making, not a rule",
+    "source": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+    "read": "2026-11-17"
+   },
+   {
+    "value": "£250 to £2,000",
+    "what": "The registrar's published fixed financial penalty scale - minor £250/500/750/1,000, serious £500/750/1,000/1,500, very serious £750/1,000/1,500/2,000 for a first, second, third and fourth-or-later penalty. IMPORTANT: this document does not mention identity verification and the identity-verification non-compliance guidance does not cross-refer to it, so do not state this as the fine for not verifying",
+    "source": "https://www.gov.uk/government/publications/companies-house-approach-to-financial-penalties/companies-house-approach-to-financial-penalties",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "12 months beginning with 18 November 2025",
+    "what": "The statutory transitional period for existing directors and PSCs - SI 2025/1118 reg. 4, so it ended at the end of 17 November 2026",
+    "source": "https://www.legislation.gov.uk/uksi/2025/1118/made",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "1 November 2026",
+    "what": "The last existing non-director PSC appointed day, for November birthdays - with the 14-day window, the final existing-PSC deadline closed on 14 November 2026 (SI 2025/1118 reg. 5)",
+    "source": "https://www.legislation.gov.uk/uksi/2025/1118/made",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "end of March 2027",
+    "what": "Date by which Companies House says all companies must have met the identity verification requirement or be on a compliance or enforcement pathway",
+    "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
+    "read": "2026-11-18"
+   },
+   {
+    "value": "12.18 million appointments verified",
+    "what": "Verified appointments as at 11 November 2026 - 7.32m directors, 4.54m PSCs, 135,000 LLP members, being 85.55% of those due; 88.1% of companies had met the confirmation-statement-linked requirement and 11.4% were on a compliance or enforcement pathway",
+    "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
+    "read": "2026-11-18"
+   }
+  ],
+  "scope": {
+   "nation": "UK-wide (England and Wales, Scotland and Northern Ireland). Companies House is a UK-wide registrar and the requirement comes from the Economic Crime and Corporate Transparency Act 2023 amending the Companies Act 2006; there is no separate devolved rule. Guidance is also published in Welsh.",
+   "who": "Individual directors of UK companies and their equivalents - LLP members, general partners and managing officers; directors of overseas companies registered in the UK; individual people with significant control (PSCs); and Authorised Corporate Service Providers (ACSPs). Applies both to people appointed or registered on or after 18 November 2025 and to everyone already on the register before that date. Verification is normally needed only once per person - Companies House says 'you must not verify again unless we tell you to' - but the personal code must then be linked to each company role separately.",
+   "excluded": "Shareholders who are not PSCs, employees, and company secretaries do not have to verify - Companies House lists only directors (and equivalents), PSCs and ACSPs as the people who must verify by law. Specifically outside the requirement as at 17 November 2026: sole traders (not registered at Companies House); corporate or legal-entity PSCs, including relevant legal entities (RLEs); a PSC who has died (Companies House confirms no verification is needed and the PSC stays on the register until a grant of probate or letters of administration is received). Deferred to a later date, so not yet required: people who file at Companies House on a company's behalf (expected no earlier than November 2027, with at least 6 months' notice - this group was removed from the 'who needs to verify' guidance on 1 June 2026), limited partnerships, corporate directors, corporate LLP members, and officers of corporate PSCs.",
+   "from_when": "Voluntary from 8 April 2025. A legal requirement from 18 November 2025 for new incorporations and new appointments (SI 2025/1118 reg. 2(1)). For people already on the register before 18 November 2025: during the transitional period of 12 months beginning with 18 November 2025 (SI 2025/1118 reg. 4), which ENDED at the end of 17 November 2026. Within that period each person's own due date was set individually - for directors, by the company's next confirmation statement falling in the period (and if the company delivered none in the period, with the next one after); for a PSC who is also a director, within 14 days of the confirmation statement date; for a PSC who is not a director, within the first 14 days of their birth month, by appointed day running from December 2025 (December birthdays) through to 1 November 2026 (November birthdays). A company with an overdue confirmation statement at 18 November 2025 had its s.167M deferral end at the earlier of compliance or the end of 2 December 2025. Companies House says all companies must have met the requirement or be on a compliance or enforcement pathway by the end of March 2027.",
+   "automatic": false,
+   "how_to_claim": "The individual must act. Verify once, either free with Companies House using GOV.UK One Login (online, or in person at a participating Post Office with the right documents) or through an Authorised Corporate Service Provider, which may charge. You are then given your 11-character personal code. You must then actively link it to each role: a director gives the code in the company's confirmation statement; a PSC gives it through the 'Provide identity verification details for a PSC' service within their own 14-day window. Someone who is both a director and a PSC of the same company must do both separately. Nothing happens automatically and no one does it for you - an accountant can file using your code but cannot verify your identity on your behalf, and Companies House says it cannot verify identities for people either."
+  },
+  "notes": "RE-VERIFIED 20 November 2026: no change at primary source since the 18 November check; the correction below stands and one figure-level wording error has been fixed today (a figure still read 'closes on 18 November 2026, tomorrow', written on 17 November and contradicted by the statutory position in this same entry - it now reads correctly). RE-CHECKED 18 November 2026, the first day AFTER the transition period. CORRECTION to the previous entry: the transitional period is '12 months beginning with 18th November 2025' (SI 2025/1118 reg. 4), so it ended at the end of 17 November 2026 - NOT on 18 November 2026. Today is the first day after it, not its last day. Companies House's own prose nowhere states an end date: the campaign site says only 'a 12-month transition period' and still carries the words 'This date is not a deadline.' The position today: the transitional period is over; every existing non-director PSC window closed by 14 November 2026 at the latest (the last birth-month appointed day was 1 November 2026, with a 14-day window); but existing DIRECTORS' individual due dates still trail into late November 2026, because a confirmation statement dated as late as 17 November 2026 carries a 14-day filing window. Companies House published a news story on 18 November 2026 marking one year of mandatory verification, with register-wide figures. Enforcement is live against people whose own due dates have passed - three directors were fined on 16 September 2026 - but no wave of penalties landed today, and Companies House's transition plan still says general compliance activity starts 'no earlier than the end of 2026'. The single most misreported point therefore stands: 18 November 2026 was not a cliff-edge on which non-verifiers were fined. The next real milestone is the end of March 2027, by which Companies House says all companies must have met the requirement or be on a compliance or enforcement pathway. On penalties: a published fixed-penalty scale does exist (£250 to £2,000 depending on seriousness and how many times), but that document does NOT mention identity verification and the identity-verification non-compliance document does NOT cross-refer to it. So the honest line is 'the registrar's published fixed-penalty scale runs £250 to £2,000', never 'the fine for not verifying is £250'. Whether that scale is in fact applied to identity verification offences is NOT VERIFIED. The campaign site's wider line ('you will not be able to make any filings for your company or start a new company') is broader than the guidance - do not quote it as a mechanism. Verification is free via GOV.UK One Login; an ACSP may charge a fee that Companies House does not publish.",
+  "used": []
+ },
+ {
+  "id": "beneficial-loans-10000-exemption-and-official-rate-of-interest",
+  "verified": "2026-11-24",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Cheap Or Interest-Free Loans To Directors And Employees: The £10,000 Exemption",
+  "official_page": "https://www.gov.uk/guidance/beneficial-loan-arrangements-480-chapter-17",
+  "figures": [
+   {
+    "value": "£10,000",
+    "what": "No taxable benefit arises where the total balance outstanding on all the employee's or director's beneficial loans does not exceed £10,000 throughout the tax year (booklet 480 paragraph 17.16, section 180(1) ITEPA 2003)",
+    "source": "https://www.gov.uk/guidance/beneficial-loan-arrangements-480-chapter-17",
+    "read": "2026-11-24"
+   },
+   {
+    "value": "less than £10,000 throughout the whole tax year",
+    "what": "How the gov.uk employer guidance words the same exemption - loans with a combined outstanding value to an employee below £10,000 for the whole tax year do not have to be reported",
+    "source": "https://www.gov.uk/expenses-and-benefits-loans-provided-to-employees/whats-exempt",
+    "read": "2026-11-24"
+   },
+   {
+    "value": "3.75%",
+    "what": "HMRC official rate of interest for beneficial loans from 6 April 2026 (also 3.75% for 2025 to 2026) - the rate used to measure the benefit where the exemption does not apply",
+    "source": "https://www.gov.uk/government/publications/rates-and-allowances-beneficial-loan-arrangements-hmrc-official-rates/beneficial-loan-arrangements-hmrc-official-rates",
+    "read": "2026-11-24"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Directors and employees (and their relatives) who have a cheap or interest-free loan by reason of their employment - including an overdrawn director's loan account",
+   "excluded": "The £10,000 exemption does not apply to loans made under optional remuneration (salary sacrifice) arrangements - those must be reported (booklet 480 paragraph 17.16; gov.uk employer guidance). It is lost entirely if the total outstanding balance on all beneficial loans exceeds £10,000 at any time in the tax year, in which case the benefit on the whole loan, not just the excess, is chargeable. It is not needed for loans already exempt on other grounds: qualifying loans where the whole of the interest would attract tax relief (partial relief does not count), loans made in the ordinary course of a lending business on the same terms as to the general public, fixed-period fixed-rate loans meeting the strict conditions in paragraph 17.19, and loans made in the normal course of a domestic, family or personal relationship by an individual employer.",
+   "from_when": "In force; section 180 ITEPA 2003 (£10,000 since 6 April 2014, £5,000 for 2013 to 2014). Official rate of 3.75% applies from 6 April 2026",
+   "automatic": true,
+   "how_to_claim": "No claim - the exemption applies automatically and the loan is not reported. Where it does not apply, report the cash equivalent on form P11D (working sheet 4) and pay Class 1A National Insurance on it, or payroll the benefit"
+  },
+  "notes": "Separate from the section 455 corporation tax charge on a loan to a participator, which has its own rate and nine-month repayment rule: a director's overdrawn loan account can trigger both, and the £10,000 benefit-in-kind threshold has nothing to do with the s455 charge. The £10,000 is tested across all the individual's employment-related loans combined, including loans to a relative, and at any point in the year - not on the year-end balance. Booklet 480 notes that accrued interest is not added to the balance until it falls due for payment. Pages read 24 November 2026.",
+  "used": []
+ }
+]

@@ -1,0 +1,213 @@
+--- ola-ro-01-tip ---
+slot: Gândul zilei
+hero: Firma nu se clădește în lunile bune, ci în cele liniștite.
+sub: Disciplina pe care nimeni nu o vede acum — facturile puse la locul lor, chitanțele strânse săptămânal — se vede în cifrele de anul viitor.
+cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+--- ola-ro-02-acq ---
+slot: Vino la Ola Accountancy
+hero: Un abonament lunar fix. Știi cât costă anul înainte să înceapă.
+sub: Contabilitate, salarii și declarații, într-o sumă pe care o poți pune în buget. Fără facturi care apar din senin și fără ore taxate separat.
+cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+--- ola-ro-03-acq ---
+slot: Vino la Ola Accountancy
+hero: Semnezi o scrisoare și mutarea o facem noi, de la un capăt la altul.
+sub: Noi scriem scrisoarea profesională de clearance contabilului tău actual și strângem noi documentele. Nu trebuie să ai nicio discuție incomodă cu nimeni.
+cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+--- ola-ro-04-acq ---
+slot: Vino la Ola Accountancy
+hero: Scrii pe WhatsApp și îți răspunde un om, în română, în aceeași zi.
+sub: Nu un număr de tichet, nu trei săptămâni de așteptare. Vorbești cu persoana care îți ține contabilitatea, iar prima discuție este gratuită și durează 30 de minute.
+cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+--- ola-ro-05-edu ---
+slot: Educație financiară cu Ola Accountancy
+hero: Plătești oamenii mai devreme de Crăciun? Pe declarație treci data normală.
+sub: Exemplul HMRC: plata pe 19 decembrie, data din contract 31 decembrie — pe Full Payment Submission treci 31 decembrie. Plătești la data obișnuită? Nu schimbi nimic.
+cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+--- ola-ro-06-edu ---
+slot: Educație financiară cu Ola Accountancy
+hero: 50 de lire per client, iar reclama firmei trebuie să fie pe cadou.
+sub: Peste 50 de lire nu se deduce nimic, nici primele 50. Mâncarea, băutura, tutunul și voucherele nu se deduc niciodată. Masa cu clientul nu se deduce deloc.
+cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+--- ola-ro-07-edu ---
+slot: Educație financiară cu Ola Accountancy
+hero: Donezi 100 de lire și plătești impozit de 40%? Ceri înapoi 25 de lire.
+sub: Se cere pe declarația de Self Assessment. La rata de bază nu primești nimic în plus, iar donațiile din an nu pot depăși de 4 ori impozitul plătit în acel an.
+cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+--- ola-ro-08-joke ---
+slot: Gluma zilei
+setup: Mi-a adus chitanțele de pe un an într-o pungă.
+punch: Sortate. După cum au intrat în pungă.
+hook: O chitanță contează doar dacă se mai poate citi. Fă-i poză când o primești: cinci secunde acum, nicio oră în ianuarie.
+cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+--- ola-ro-09-joke ---
+slot: Gluma serii
+setup: «O fac săptămâna viitoare.» Spus în martie.
+punch: A venit săptămâna aia. Este 30 ianuarie.
+hook: Self Assessment se depune până la 31 ianuarie. O oră acum, în noiembrie, valorează mai mult decât o noapte în ianuarie.
+cta: Scrie-ne pe WhatsApp la 0330 133 1886
+
+--- ola-ro-10-quote ---
+slot: Citatul serii
+line: Cât timp amânăm, viața trece în grabă.
+attrib: Seneca
+
+--- ola-en-01-tip ---
+slot: Thought of the day
+hero: You ring us, and whoever answers has already seen your file.
+sub: No queue, no ticket number, no starting again with somebody new. The same small team, your business on the screen, the phone picked up by a person.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- ola-en-02-acq ---
+slot: Come to Ola Accountancy
+hero: Thirty minutes to find out where you actually stand.
+sub: The first consultation is free and lasts 30 minutes. You bring the questions, we tell you straight, and nothing is signed at the end of it unless you want it to be.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- ola-en-03-acq ---
+slot: Come to Ola Accountancy
+hero: Never hold a filing date in your head again.
+sub: We keep the calendar for you: your accounts, your returns, the 31 January deadline. You hear from us in good time, with a short list of what we need.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- ola-en-04-joke ---
+slot: Joke of the day
+setup: "It's going out Friday." He first said that in August.
+punch: It is still, somehow, Friday.
+hook: An invoice nobody chases is a donation. A date on it, a reminder, then a phone call, and your cash stops living on hope.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- ola-en-05-quote ---
+slot: Evening quote
+line: Waste no more time arguing about what a good man should be. Be one.
+attrib: Marcus Aurelius
+
+--- bham-01-tip ---
+slot: Thought of the day
+hero: The firms that last in this city are not the loudest ones.
+sub: Their paperwork is boring. Invoices out on time, receipts kept, numbers known. Nobody claps for that, and it is why they are still trading in five years.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- bham-02-acq ---
+slot: Come to Ola Accountancy
+hero: There is a door you can walk into on Washwood Heath Road.
+sub: Bring the carrier bag of paperwork and put it on a desk in front of a person. We are at 22-42 Washwood Heath Rd, Saltley, B8 1RB. First 30 minutes free.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- bham-03-acq ---
+slot: Come to Ola Accountancy
+hero: You will not spend the first meeting explaining your own trade to us.
+sub: CIS deductions, the van, the cash takings, subcontractors who start Monday and are gone by Friday. We already know how Birmingham trades run. One fixed monthly fee.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- bham-04-acq ---
+slot: Come to Ola Accountancy
+hero: Your year-end is already inside the monthly price.
+sub: Nothing extra lands on you in January. We keep the accounts moving through the year and we watch the dates, so the end of the year is a phone call, not a scramble.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- bham-05-edu ---
+slot: Financial education with Ola Accountancy
+hero: Up to £10,500 off your employers' National Insurance bill.
+sub: Employment Allowance, 2026/27. Excluded: a company whose only paid employee is its sole director, non-charity public authorities, nannies and cleaners, off-payroll work.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- bham-06-edu ---
+slot: Financial education with Ola Accountancy
+hero: 25% off the Council Tax bill if you are the only adult at home.
+sub: England and Wales. The single person discount. No discount where two or more countable adults live there, and it is not means-tested. You apply to your own council.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- bham-07-edu ---
+slot: Financial education with Ola Accountancy
+hero: Five ways to work out the VAT on a day's takings, not every sale.
+sub: The VAT retail schemes. Excluded: wholesale and trade sales, services under apportionment 1, catering outside point of sale, and above £130m HMRC agrees a bespoke scheme.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- bham-08-joke ---
+slot: Joke of the day
+setup: He bought a 65-inch telly at 60% off on Black Friday.
+punch: It is now "for client presentations".
+hook: An expense is what the business needed, not what was cheap. If it ends up in your lounge, it is not in the accounts.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- bham-09-joke ---
+slot: Joke of the evening
+setup: My phone is silent for eleven months of the year.
+punch: Then 30 January arrives.
+hook: Everybody remembers Self Assessment on the same afternoon. Ring in November and you get a conversation instead of a queue.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- bham-10-quote ---
+slot: Evening quote
+line: No great thing is created suddenly, any more than a bunch of grapes or a fig.
+attrib: Epictetus
+
+--- en-01-tip ---
+slot: Thought of the day
+hero: The owner who knows their numbers is never the one lying awake.
+sub: Confidence does not come from hoping it all worked out. It comes from knowing where you stand this month, while there is still time to do something about it.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- en-02-acq ---
+slot: Come to Ola Accountancy
+hero: Your books are up to date inside your first month with us.
+sub: Not six months in. Not at the year end. You stop finding out what happened long after it happened, and you start deciding while the decision still counts.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- en-03-acq ---
+slot: Come to Ola Accountancy
+hero: One price, told to you up front, covering the whole year.
+sub: No hourly clock running while you ask a question. You know what you are paying before you say yes, and it does not move because the year turned out busy.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- en-04-acq ---
+slot: Come to Ola Accountancy
+hero: You get the same person every time you ring.
+sub: No call centre, no being passed along, no explaining your business again from the start. The one who answers already knows your year and your numbers.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- en-05-edu ---
+slot: Financial education with Ola Accountancy
+hero: 55p a mile for the first 10,000 business miles, from April 2026.
+sub: After 10,000 miles it is 25p. The return due this January still uses 45p. Excluded: limited companies, and any vehicle you have ever claimed capital allowances on.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- en-06-edu ---
+slot: Financial education with Ola Accountancy
+hero: Verifying is free, and one 11-character code covers every company.
+sub: Directors and people with significant control must verify, then hand the code over for each company. Excluded: shareholders, employees, company secretaries, sole traders.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- en-07-edu ---
+slot: Financial education with Ola Accountancy
+hero: Owe the company under GBP 10,000 all year: nothing to report.
+sub: Go over GBP 10,000 at any point and the whole loan is taxed, not just the bit over. Excluded: loans under salary sacrifice. The official rate of interest is 3.75%.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- en-08-joke ---
+slot: Joke of the day
+setup: He says the whole Christmas party goes through the business.
+punch: He has invited his cousin, his barber and a DJ.
+hook: Only a party for your own staff can count, and only within limits. Your barber is a lovely man and he is not on the payroll.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- en-09-joke ---
+slot: Joke of the evening
+setup: Four months on the dashboard, in the sun.
+punch: He has brought me forty blank squares of paper.
+hook: Till paper fades, and a receipt nobody can read is a cost you cannot prove. Photograph them the day you are handed them.
+cta: Message us on WhatsApp 0330 133 1886
+
+--- en-10-quote ---
+slot: Evening quote
+line: The cost of a thing is the amount of what I will call life which is required to be exchanged for it.
+attrib: Henry David Thoreau
+

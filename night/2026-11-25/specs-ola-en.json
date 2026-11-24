@@ -1,0 +1,57 @@
+[
+ {
+  "id": "ola-en-01-tip",
+  "kind": "tip",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Thought of the day",
+  "hero": "Ring us and you reach <em>the same small team</em>, with your file open.",
+  "sub": "We are small enough that the person on the phone is usually the one who did the work. Your business is on the screen, and what we agreed last time is in front of them.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "ola-en-02-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "Bring the question you keep <em>putting off</em>.",
+  "sub": "The first consultation is free and lasts 30 minutes. Plain answers to the things you have been meaning to ask, and nothing to sign at the end of it.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "ola-en-03-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "We watch <em>the dates</em> so they stop living in your head.",
+  "sub": "Your yearly accounts, your VAT, your payroll, your tax return. We aim to ask for what we need in good time, and to tell you once it has gone to HMRC.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "ola-en-04-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Joke of the day",
+  "setup": "\"It's going out Friday.\" He first said that in August.",
+  "punch": "It is still, somehow, Friday.",
+  "hook": "An invoice nobody chases is a donation. A date on it, a reminder, then a phone call, and your cash stops living on hope.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "ola-en-05-quote",
+  "kind": "quote",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Evening quote",
+  "line": "Waste no more time arguing about what a good man should be. Be one.",
+  "attrib": "Marcus Aurelius"
+ }
+]

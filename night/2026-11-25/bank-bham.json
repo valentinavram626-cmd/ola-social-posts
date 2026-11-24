@@ -1,0 +1,180 @@
+[
+ {
+  "id": "employment-allowance",
+  "verified": "2026-11-19",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham"
+  ],
+  "title": "Employment Allowance",
+  "official_page": "https://www.gov.uk/claim-employment-allowance",
+  "figures": [
+   {
+    "value": "£10,500",
+    "what": "Maximum reduction in employers' Class 1 National Insurance for 2026/27",
+    "source": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+    "read": "2026-11-13"
+   },
+   {
+    "value": "50%",
+    "what": "An employer doing less than half its work for the public sector can claim",
+    "source": "https://www.gov.uk/claim-employment-allowance/eligibility",
+    "read": "2026-11-13"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "Businesses and charities with employer Class 1 National Insurance, where less than half the work is in or for the public sector",
+   "excluded": "A limited company where the sole director is the only employee paid above the Secondary Threshold. Public authorities that are not charities. Employers of a nanny, cleaner or gardener, unless that person is a care or support worker. All but one company in a group of connected companies. Payments caught by the off-payroll working rules.",
+   "from_when": "£10,500 for 2026/27. The old £100,000 eligibility cap was removed from April 2025.",
+   "automatic": false,
+   "how_to_claim": "Through payroll software, by sending an Employment Payment Summary. Must be claimed again every tax year."
+  },
+  "notes": "The single-director exclusion catches a large share of small limited companies. The claim does not roll forward — it is re-made each year. Do not assert anything about de minimis state aid; it was not on any page that loaded.",
+  "used": []
+ },
+ {
+  "id": "council-tax-single-person-discount",
+  "verified": "2026-11-14",
+  "recheck_after": "2027-04-01",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Council Tax single person discount and the main discounts and exemptions",
+  "official_page": "https://www.gov.uk/council-tax/who-has-to-pay",
+  "figures": [
+   {
+    "value": "25%",
+    "what": "single person discount off the Council Tax bill where you live alone, or where everyone else in the home is 'disregarded'",
+    "source": "https://www.gov.uk/council-tax/who-has-to-pay",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "one band lower",
+    "what": "Disabled Band Reduction Scheme: the bill is charged at the next lowest Council Tax band",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "17%",
+    "what": "reduction for a Band A property under the Disabled Band Reduction Scheme (there is no lower band)",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "100%",
+    "what": "severe mental impairment discount where the person lives alone, or every other adult is also severely mentally impaired or a full-time student",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "50%",
+    "what": "severe mental impairment discount where everyone else in the household is 'disregarded'",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "25%",
+    "what": "discount where you live with someone who is severely mentally impaired and there are no other countable adults",
+    "source": "https://www.gov.uk/council-tax/discounts-for-disabled-people",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "up to 2 times the normal bill",
+    "what": "second homes premium a council may charge on a furnished second home",
+    "source": "https://www.gov.uk/council-tax/second-homes-and-empty-properties",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "up to 4 times the normal bill",
+    "what": "empty home premium where a home has been empty for at least 10 years",
+    "source": "https://www.gov.uk/council-tax/second-homes-and-empty-properties",
+    "read": "2026-11-14"
+   },
+   {
+    "value": "up to 12 months",
+    "what": "period for which a second homes or empty homes premium may be waived, for example after a grant of probate or while the property is being marketed for sale or rent",
+    "source": "https://www.gov.uk/council-tax/second-homes-and-empty-properties",
+    "read": "2026-11-14"
+   }
+  ],
+  "scope": {
+   "nation": "England and Wales",
+   "who": "The person liable for Council Tax who is the only adult resident, or whose only other adult residents are all 'disregarded'. GOV.UK lists as disregarded: people under 18; some apprentices; 18 and 19 year olds in full-time education; full-time students; some under-25s funded by the Education and Skills Funding Agency; student nurses; some foreign language assistants; people who are severely mentally impaired; live-in carers; and diplomats. Separate reductions exist for disabled residents (band reduction) and for severe mental impairment (100%, 50% or 25%).",
+   "excluded": "No single person discount where two or more adults who are not 'disregarded' live in the property. The discount is not means-tested, so it is not available on income grounds to a household with two countable adults. GOV.UK's Council Tax guide signposts Scotland separately (mygov.scot) because the rules are different there, so these rules do not apply in Scotland. Second homes and long-term empty homes attract a premium rather than a discount, and the disabled band reduction is refused unless the property is larger than it would need to be if no one disabled lived there (an extra bathroom, kitchen or room needed for the disabled person, or extra internal space for wheelchair use) and is the main home of at least one disabled adult or child.",
+   "from_when": "Ongoing; the discount and the disregard categories are the standing rules, and bills and any second home or empty home premium are set annually by each council for the financial year starting 1 April.",
+   "automatic": false,
+   "how_to_claim": "Apply to your own billing authority (for a Birmingham or West Midlands reader, your city or borough council — Birmingham City Council, Solihull, Sandwell, Dudley, Walsall, Wolverhampton or Coventry). GOV.UK routes applications through the council finder on its 'apply for a Council Tax discount' page. Report a change (for example another adult moving in) to the council, as the discount is removed from the date the household changes."
+  },
+  "notes": "The rules are different in Scotland and GOV.UK links to mygov.scot for Scottish residents. Council Tax Reduction (formerly Council Tax Benefit) is a separate, means-tested scheme each council runs under its own local rules, so Birmingham's scheme differs from neighbouring authorities'. Valuation bands for England and Wales are checked with the Valuation Office Agency; Scotland uses a separate service. Not verified at primary source in this pass: whether Northern Ireland has Council Tax at all (it operates domestic rates), so no claim is made about Northern Ireland.",
+  "used": []
+ },
+ {
+  "id": "vat-retail-schemes",
+  "verified": "2026-11-22",
+  "recheck_after": "2027-05-22",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "The VAT Retail Schemes",
+  "official_page": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+  "figures": [
+   {
+    "value": "£130 million",
+    "what": "VAT Notice 727 s3.2 — \"If your annual turnover of all taxable retail sales, excluding VAT, is above £130 million, you cannot use the published standard schemes. If you think your annual turnover is about to exceed £130 million, you should contact HMRC as soon as possible to agree a bespoke retail scheme.\" A bespoke scheme is tailored to the business and is likely to be an adaptation of one of the published schemes",
+    "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "Point of sale scheme, 2 apportionment schemes, 2 direct calculation schemes",
+    "what": "VAT Notice 727 s3.1 — \"The standard schemes take their name from the principle on which they're based. They are: the point of sale scheme, 2 apportionment schemes, 2 direct calculation schemes. You can choose any of the published schemes for which you're eligible.\" Point of sale is detailed at s3.4, apportionment 1 at s3.5, apportionment 2 at s3.6, direct calculation 1 at s3.7, direct calculation 2 at s3.8",
+    "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "£1 million",
+    "what": "VAT Notice 727 s3.5.1 and s3.5.2 — apportionment scheme 1 is \"the simpler scheme designed for smaller businesses with a tax exclusive retail turnover not exceeding £1 million\"; you \"can only use the scheme if your total tax exclusive turnover from retail sales does not exceed £1 million\"",
+    "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "£130 million",
+    "what": "VAT Notice 727 s3.6.1 and s3.6.2 — apportionment scheme 2 \"is available for businesses with a tax exclusive retail turnover not exceeding £130 million\"; you \"can only use the scheme if your total tax exclusive retail turnover from retail sales does not exceed £130 million\"",
+    "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "£1 million",
+    "what": "VAT Notice 727 s3.7.1 and s3.7.3 — \"Direct calculation scheme 1 is available to businesses with a tax exclusive retail turnover not exceeding £1 million\"; \"you cannot use direct calculation scheme 1 if your annual tax exclusive retail turnover exceeds £1 million\"",
+    "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "£130 million",
+    "what": "VAT Notice 727 s3.8 — direct calculation scheme 2 works like scheme 1 but requires an annual stock adjustment: \"You can use the scheme if your annual tax exclusive retail turnover does not exceed £130 million\"",
+    "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+    "read": "2026-11-22"
+   },
+   {
+    "value": "£1 million",
+    "what": "VAT Notice 727 s7.5 — the catering adaptation may be used only if you can satisfy HMRC you are unable to operate the Point of Sale Scheme, you have reasonable grounds for believing the tax-exclusive value of your taxable retail catering sales will not exceed £1 million in the next 12 months, and the adaptation produces a fair and reasonable result. You must notify HMRC and may start on receiving HMRC's acknowledgement",
+    "source": "https://www.gov.uk/guidance/retail-schemes-notice-727",
+    "read": "2026-11-22"
+   }
+  ],
+  "scope": {
+   "nation": "UK",
+   "who": "VAT-registered businesses making retail sales that cannot account for VAT using normal accounting. VAT Notice 727 s2.1 — \"Retail is the selling of goods or services to consumers and the retail schemes are aimed at retailers that cannot account for VAT using normal accounting.\" Normal accounting requires you to identify, for each sale, the tax-exclusive value and the VAT, and to produce periodic totals (s2.2). Under s3.1 you can choose any published scheme for which you are eligible; where you qualify for more than one, s2.4 says you choose the one best suited to the business.",
+   "excluded": "Cannot use a published standard scheme: any business whose annual turnover of all taxable retail sales, excluding VAT, is above £130 million — it must agree a bespoke retail scheme with HMRC instead (s3.2). HMRC may also refuse use of a retail scheme \"if you can reasonably be expected to account for VAT in the normal way\", if the chosen scheme does not produce a fair and reasonable result, or for the protection of the revenue (s3.3). Non-retail sales can never go through a retail scheme — \"you can only use the retail schemes to account for retail sales\" and non-retail sales must use normal accounting (s2.3). Scheme-specific bars: apportionment scheme 1 is unavailable above £1 million tax-exclusive retail turnover and \"cannot be used for supplies of services, for supplies of goods which you have made or grown yourself\" (s3.5.2); apportionment scheme 2 is unavailable above £130 million and cannot be used \"for supplies of services or catering\" (s3.6.2); direct calculation scheme 1 is unavailable above £1 million (s3.7.3); catering sales \"must normally be accounted for using the Point of Sale Scheme\" (s7.1); and the Retail Chemist Adjustment \"cannot be used with Apportionment Scheme 2\" (s8.3).",
+   "from_when": "The schemes are a standing feature of the VAT Regulations; VAT Notice 727 states the current limits. Timing rules on moving between schemes: s4.2 — changes are normally made at the end of a complete scheme year, an earlier change needs HMRC approval, and you must stop using a scheme once you become ineligible. s4.3 — retrospective changes are \"not normally allowed\" but HMRC may allow them in exceptional cases.",
+   "automatic": false,
+   "how_to_claim": "For a published standard scheme there is no application and no HMRC permission: s3.1 — \"You can choose any of the published schemes for which you're eligible.\" The published scheme notices (727/3 point of sale, 727/4 apportionment, 727/5 direct calculation) set out rules some of which have force of law, and you must keep the daily gross takings record and comply with the DGT checklist in your scheme's notice (s6). Permission or notification IS needed in specific cases: above £130 million you must contact HMRC to agree a bespoke retail scheme (s3.2); to use the catering adaptation \"you must notify HMRC\" and may start \"as soon as you receive our acknowledgement\" (s7.5); an early change of scheme needs HMRC approval (s4.2); adjustments for transfers between parts of the business must be agreed with HMRC (s4.1); and \"You must always tell HMRC of changes to your business structure\" (s5.2)."
+  },
+  "notes": "The retail schemes are not a reduced rate or a saving — they are a way of working out output tax when you cannot identify the VAT on every individual sale, typically because you sell to the public at mixed rates. They are commonly confused with the Flat Rate Scheme (Notice 733), which is a different scheme with a much smaller turnover test and which you must apply to join; a retail scheme you simply adopt if eligible. The £130 million ceiling is on tax-exclusive taxable retail turnover and is the point at which the published schemes stop being available at all and a bespoke agreement with HMRC becomes compulsory; the £1 million figures are the separate, much lower ceilings on apportionment scheme 1 and direct calculation scheme 1. Two further traps: a scheme covers retail sales only, so a business with wholesale or trade sales alongside its shop must run normal accounting for that part, and catering normally has to go through the Point of Sale Scheme rather than apportionment. Retail scheme daily gross takings must also be kept digitally under Making Tax Digital (Notice 700/22 s3.5). UK-wide; a VAT accounting method rather than a goods rule, so the Windsor Framework does not bear on it.",
+  "used": []
+ }
+]

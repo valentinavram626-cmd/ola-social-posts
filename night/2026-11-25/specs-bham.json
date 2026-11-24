@@ -1,0 +1,123 @@
+[
+ {
+  "id": "bham-01-tip",
+  "kind": "tip",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Thought of the day",
+  "hero": "Twenty minutes on a Friday, a folder, and a note of the takings.",
+  "sub": "That is the whole system. Invoices out while the job is fresh, receipts in one place, the week written down. Nobody claps. Then January comes and nothing in it surprises you.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-02-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "There is a door on Washwood Heath Road you can simply walk into.",
+  "sub": "Bring the carrier bag of paperwork and put it on a desk in front of a person. We are at 22-42 Washwood Heath Road, Saltley, B8 1RB, and your first 30 minutes are free.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-03-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "You will not spend the first meeting explaining your trade to us.",
+  "sub": "Payments with tax already taken off, van costs, cash takings, subcontractor records. We know how Birmingham trades run. The monthly fee is fixed, agreed up front.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-04-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "Your year-end is already inside the monthly fee.",
+  "sub": "Nothing extra lands on you in January. We keep the accounts moving through the year and we watch the dates, so the end of the year is a phone call, not a scramble.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-05-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Up to <em>£10,500</em> off the National Insurance you pay on your staff.",
+  "sub": "Employment Allowance, 2026/27. It does not arrive on its own: you claim it in payroll, again each April. Not where the director is the only one paid above the NI threshold.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-06-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "<em>25%</em> off the Council Tax bill if you are the only adult at home.",
+  "sub": "England and Wales. The single person discount. It stops once a second adult who counts moves in, whatever the household earns, and you apply to your own council yourself.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-07-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "<em>Five</em> ways to work your VAT out from the day's takings.",
+  "sub": "The VAT retail schemes, for shops whose till cannot show the VAT on each sale. If yours can, HMRC expects the normal way. No form, no permission. Retail sales only.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-08-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Joke of the day",
+  "setup": "He bought a 65-inch television at 60% off on Black Friday.",
+  "punch": "It is now \"for client presentations\".",
+  "hook": "An expense is what the business needed, not what was cheap. If it ends up in your lounge, it is not in the accounts.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-09-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Joke of the evening",
+  "setup": "The van says one name. The invoice says another.",
+  "punch": "The bank will only accept the third.",
+  "hook": "One name on the van, the invoice and the bank account. Nobody can pay a business their banking app does not recognise.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-10-quote",
+  "kind": "quote",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Evening quote",
+  "line": "No great thing is created suddenly, any more than a bunch of grapes or a fig.",
+  "attrib": "Epictetus"
+ }
+]

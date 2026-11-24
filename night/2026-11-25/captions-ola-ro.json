@@ -1,0 +1,52 @@
+{
+ "ola-ro-01-tip": {
+  "caption": "Lunile liniștite nu seamănă cu o reușită, dar ele hotărăsc cum arată anul următor. Acum pui facturile la locul lor, strângi chitanțele, verifici ce ai încasat. Peste un an, munca aceasta se citește în cifre.",
+  "ask": "Păstrează gândul pentru luna în care nu-ți mai vine să faci nimic.",
+  "title": "Firma se întărește în lunile liniștite"
+ },
+ "ola-ro-02-acq": {
+  "caption": "Cel mai greu de pus în buget este cheltuiala care nu are o cifră. De aceea îți spunem suma înainte să semnezi, nu după ce se adună orele: aceeași în ianuarie și aceeași în iulie.",
+  "ask": "Pune numărul deoparte dacă anul acesta contabilitatea te-a costat mai mult decât credeai.",
+  "title": "Un abonament lunar fix, știut de la început"
+ },
+ "ola-ro-03-acq": {
+  "caption": "Mulți amână schimbarea contabilului de teama unei discuții incomode. Nu e nevoie de ea: cererea prin care ni se predau documentele pleacă de la noi, nu de la tine, iar tu afli când a ajuns totul la noi.",
+  "ask": "Dă postarea mai departe cuiva care amână mutarea de un an.",
+  "title": "Tu semnezi o scrisoare, restul îl facem noi"
+ },
+ "ola-ro-04-acq": {
+  "caption": "Când ai o întrebare despre bani, vrei un om, nu un formular. La noi scrii pe WhatsApp, în română, și îți răspunde o persoană care știe de firma ta, în timpul programului de lucru. Nu un număr de tichet și nu un robot care te trimite mai departe. Iar dacă e ceva mai serios decât o întrebare scurtă, prima discuție este gratuită, durează 30 de minute și o ai cu cineva care îți vorbește limba și îți explică pe înțelesul tău.",
+  "ask": "Arată-i numărul cuiva care așteaptă de săptămâni un răspuns de la contabil.",
+  "title": "Scrii pe WhatsApp și îți răspunde un om, în română"
+ },
+ "ola-ro-05-edu": {
+  "caption": "Multe firme își plătesc oamenii mai repede în decembrie, pentru că atelierul sau biroul se închide în perioada sărbătorilor. Banii pot pleca înainte de termen, dar în raportarea pe care o trimiți la HMRC pentru fiecare plată de salarii — Full Payment Submission — treci data de plată din contract, nu ziua în care banii au ieșit din cont. Exemplul HMRC: plata făcută pe 19 decembrie, data din contract 31 decembrie, se raportează 31 decembrie, iar Full Payment Submission se trimite cel târziu la acea dată. De ce contează: ziua reală, dacă e trecută în raportare, poate aduna două salarii în aceeași perioadă de evaluare pentru Universal Credit și poate micșora sau anula suma pe care angajatul o primește în luna aceea. Dacă plătești la data obișnuită din decembrie, nu ai ce schimba. Dacă data de plată din contract s-a schimbat definitiv, treci data nouă. Și nu este o amânare a taxelor: sumele raportate rămân aceleași, se schimbă doar câmpul datei, iar PAYE și contribuțiile se plătesc tot până pe 22, termenul obișnuit pentru plata electronică.",
+  "ask": "Notează-ți regula înainte să pregătești salariile din decembrie.",
+  "title": "Plătești oamenii înainte de Crăciun? Data raportată e cea din contract"
+ },
+ "ola-ro-06-edu": {
+  "caption": "Vine perioada cadourilor pentru clienți și întrebarea este mereu aceeași: ce pot scădea din profitul pe care îl impozitez? Un cadou pentru un client se scade doar dacă are o reclamă vizibilă a firmei chiar pe el — un pix, o agendă, un mouse pad — și doar dacă totalul cadourilor pentru același client, în perioada contabilă, rămâne sub 50 de lire. Limita se socotește pe client, nu pe fiecare cadou în parte. Cele 50 de lire sunt un prag, nu o primă parte scutită: dacă totalul îl depășește, nu se scade nimic, nici primele 50. Reclama trebuie să fie pe cadou, nu pe ambalaj. Mâncarea, băutura, tutunul și voucherele rămân în afara regulii, oricât ar costa. Nici masa cu clientul nu se scade, oricât de comercială ar fi discuția: orice formă de ospitalitate oferită clienților intră aici, inclusiv cea oferită de angajați sau de un director. Regula de VAT pentru cadouri este o discuție separată, cu alte condiții, iar cadourile pentru angajați și petrecerea de firmă au reguli proprii.",
+  "ask": "Reține cele 50 de lire înainte să comanzi cadourile pentru clienți.",
+  "title": "Cadouri pentru clienți: 50 de lire, cu reclama pe cadou, nu pe ambalaj"
+ },
+ "ola-ro-07-edu": {
+  "caption": "Ai donat 100 de lire cu Gift Aid și plătești impozit la 40%? Poți primi 25 de lire înapoi, dar numai dacă le ceri tu. Sunt două sume diferite, care vin din două locuri. Prima: cei 25p pentru fiecare liră donată, pe care organizația caritabilă îi cere singură de la HMRC, odată ce ai semnat declarația Gift Aid. A doua: diferența dintre rata la care plătești tu impozit și rata de bază, care se întoarce la tine — și aceasta nu vine singură. O ceri pe declarația de Self Assessment, sau scrii la HMRC și ceri schimbarea tax code-ului, codul după care ți se calculează impozitul pe salariu. Dacă plătești impozit doar la rata de bază, nu primești nimic în plus, pentru că reducerea de impozit a fost deja folosită prin cei 25p ai organizației. Donațiile dintr-un an nu pot depăși de 4 ori impozitul plătit în acel an, iar o declarație Gift Aid are sens doar dacă ai plătit impozit cât să acopere ce recuperează organizația — merită verificat înainte să semnezi una nouă. Unele plăți nu se califică deloc pentru Gift Aid.",
+  "ask": "Pune deoparte aceste cifre înainte de donațiile de sărbători.",
+  "title": "25 de lire înapoi pentru fiecare 100 de lire donate, dacă le ceri"
+ },
+ "ola-ro-08-joke": {
+  "caption": "Punga cu chitanțele de pe un an întreg. O cunoaștem toți. Problema nu e punga, e chitanța de la benzinărie, ștearsă, care în ianuarie nu se mai poate citi.",
+  "ask": "Ține minte: poza se face când primești chitanța, nu în ianuarie.",
+  "title": "Punga cu chitanțe de pe un an întreg"
+ },
+ "ola-ro-09-joke": {
+  "caption": "«O fac săptămâna viitoare» este cea mai scumpă propoziție din contabilitate. Spusă în martie, repetată în iulie, redescoperită pe 30 ianuarie, la unsprezece seara, cu punga de chitanțe pe masă. Declarația de Self Assessment pentru anul fiscal trecut se depune până la 31 ianuarie. O oră acum, în noiembrie, este o oră liniștită. Aceeași oră în ianuarie costă mult mai mult, și nu doar în bani.",
+  "ask": "Trimite gluma cuiva care spune de luni de zile că o face săptămâna viitoare.",
+  "title": "«O fac săptămâna viitoare», până devine 30 ianuarie"
+ },
+ "ola-ro-10-quote": {
+  "caption": "Rândul acesta are două mii de ani și se potrivește cu orice lucru pus pe lista de săptămâna viitoare. Timpul nu se întoarce. Declarația, în schimb, se poate face din timp.",
+  "ask": "Copiază citatul undeva la vedere, pentru serile în care amâni.",
+  "title": "În timp ce amânăm, viața trece pe lângă noi"
+ }
+}
