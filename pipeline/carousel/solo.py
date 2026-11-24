@@ -189,6 +189,32 @@ def build(spec_path, out_dir):
             jobs.append({"name": name, "w": SIZES[size][0], "h": SIZES[size][1]})
     (out / "_jobs.json").write_text(json.dumps(jobs), encoding="utf-8")
     subprocess.run([sys.executable, str(D / "shoot.py"), str(out)], check=True)
+
+    # Story frames leave here as JPEG, and the PNG is removed.
+    #
+    # TikTok refuses image/png outright ("The content format of the Tiktok photo
+    # is incorrect"), and the story frame is the one we send to TikTok. On
+    # 24 November 2026 a run scheduled the raw PNGs and 30 posts across three
+    # brands failed at publication time, with nobody watching. The rule to
+    # convert them existed in the agent prompt and was not followed, so the rule
+    # is now the renderer's: there is no story PNG left on disk to schedule by
+    # mistake. Instagram and Facebook Stories take JPEG without complaint, so
+    # nothing else has to change. Feed frames stay PNG.
+    from PIL import Image
+    converted = []
+    for j in jobs:
+        if not j["name"].endswith("-story"):
+            continue
+        png = out / f"{j['name']}.png"
+        if not png.exists():
+            raise SystemExit(f"story frame missing after render: {png}")
+        jpg = png.with_suffix(".jpg")
+        Image.open(png).convert("RGB").save(jpg, "JPEG", quality=92, optimize=True)
+        png.unlink()
+        converted.append(jpg.name)
+    if converted:
+        print(f"story frames written as JPEG for TikTok: {len(converted)}")
+
     return [j["name"] for j in jobs]
 
 
