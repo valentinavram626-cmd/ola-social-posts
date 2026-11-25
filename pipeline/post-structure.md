@@ -56,7 +56,9 @@ Two rules that follow from it, and they are enforced in the agent prompt as gate
 
 ## The two grids
 
-**Instagram, Facebook and TikTok — on every brand — take 10 posts a day:**
+**Instagram, Facebook and TikTok take 10 posts a day on every brand, with one
+exception — the Instagram FEED on `bham`, which takes five. See "The Birmingham
+Instagram ceiling" below. The ten slots are:**
 
 | # | Slot label (RO / EN) | What it is |
 |---|---|---|
@@ -86,6 +88,37 @@ brings telephone enquiries into Luton and Birmingham. Valentin confirmed this on
 **Stories: all 10**, one per feed post, on the brands that have somewhere to put
 them — Instagram and Facebook on `ola` and on `bham`. The `en` brand has only
 TikTok connected and TikTok has no Story format, so it gets none, as before.
+
+## The Birmingham Instagram ceiling
+
+**On `bham` the Instagram FEED takes FIVE posts a day, not ten.** Valentin set
+this on 25 November 2026. Facebook stays at 10, TikTok stays at 10, and Stories
+stay at 10 on both Instagram and Facebook. Only the Instagram feed is reduced.
+
+Five of the ten Facebook feed posts also carry Instagram. The other five are
+scheduled with `providers` holding `facebook` alone and no `instagram` entry at
+all — that is how one network is dropped from a post that carries two.
+
+The five that keep Instagram, in this order through the day:
+
+| # | Slot |
+|---|---|
+| 1 | Gluma zilei / Joke of the day |
+| 2-3 | Vino la Ola Accountancy, two of the three |
+| 4 | Educație financiară cu Ola Accountancy |
+| 5 | Gluma serii / Joke of the evening |
+
+**Why.** Instagram restricted activity on the Birmingham account on 21 November
+2026 and was still doing so on 25 November. It is an ACTIVITY restriction, not a
+content judgement: Instagram publishes each post and attaches a warning to it,
+Account Status shows nothing, and there is nothing to appeal. The evidence that
+it is the feed specifically is that on 24 and 25 November every Instagram feed
+post came back flagged while every Instagram Story, every Facebook post and
+every TikTok published clean.
+
+**Do not raise this number back towards ten on your own judgement, not even
+after a clean night.** Only Valentin lifts it. If the restriction stops, say so
+in the report and leave the number where it is.
 
 ## Language
 
