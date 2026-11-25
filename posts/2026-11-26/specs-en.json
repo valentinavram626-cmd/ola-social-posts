@@ -1,0 +1,123 @@
+[
+ {
+  "id": "en-01-tip",
+  "kind": "tip",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Thought of the day",
+  "hero": "Nobody starts organised. They start with a mess and one decision.",
+  "sub": "The decision is small: the next thing that happens gets written down. Then the one after that, in the same place. A month of that looks like a system.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-02-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "The first 30 minutes are free. Find out where you stand.",
+  "sub": "You tell us what the business is and what you are filing now; we tell you plainly what needs doing, and what it would cost if you wanted us to do it.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-03-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "You do not have to wait until your year end to change accountant.",
+  "sub": "We take companies over mid-year, as a matter of routine. You carry on trading, and your filing dates sit in our diary from the day we agree.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-04-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "We can do all of it online, from wherever you are.",
+  "sub": "Our clients are spread right across the UK. Sign-up, records, questions and filing go through phone and message, and you send what you have when it suits you.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-05-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Go past <em>£90,000</em> in any twelve months and you must register for VAT.",
+  "sub": "You then have 30 days from the end of the month you went over. It is sales, not profit. Businesses selling only things exempt from VAT, or outside VAT, stay outside this.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-06-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Trading, or any income like bank interest? Tell HMRC in <em>3 months</em>.",
+  "sub": "You are telling them the company is active. A company HMRC accepts as dormant files no tax return, but only once the company has told HMRC and HMRC has agreed.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-07-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Both VAT registered? Up to <em>£250</em>, a shorter VAT invoice will do.",
+  "sub": "The short one needs your customer's agreement, and in Northern Ireland it is not open to a customer in the EU. A customer who is not VAT registered needs no VAT invoice.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-08-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Joke of the day",
+  "setup": "The photo arrived at eleven at night, no message.",
+  "punch": "“Is a hot tub staff wellbeing?”",
+  "hook": "The test is what the business genuinely needs, not what you can find a reason for. Ask before you buy, not after.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-09-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Joke of the evening",
+  "setup": "He photographed every receipt all year, on the day.",
+  "punch": "“Why is every photo my thumb?”",
+  "hook": "A photo is a record if it can be read: date, supplier, total. Check the first one, then carry on exactly as you are.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "en-10-quote",
+  "kind": "quote",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Evening quote",
+  "line": "Never let the future disturb you. You will meet it with the same weapons of reason.",
+  "attrib": "Marcus Aurelius"
+ }
+]

@@ -1,0 +1,123 @@
+[
+ {
+  "id": "bham-01-tip",
+  "kind": "tip",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Thought of the day",
+  "hero": "Confidence in business is mostly just knowing your own numbers.",
+  "sub": "The owner who prices a job on the spot is not braver than you. He knows what the last one cost him, because somebody wrote it down at the time.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-02-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "You find out what you owe early enough to put the money aside.",
+  "sub": "We do your figures while there is still room to plan for them, so the amount reaches you in good time, in plain words, with the reference you need to pay it.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-03-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "A local office you can walk into.",
+  "sub": "We are on Washwood Heath Road in Saltley, B8 1RB. Bring the folder, sit down with it, and sort it out with someone who is actually in Birmingham.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-04-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "A straight answer the same day, in words you can use.",
+  "sub": "Message us and a person reads it, not a queue. You get a plain answer you can act on, in writing, so you can find it again when the same thing comes up in March.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-05-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Selling second-hand, VAT-registered? VAT is <em>one-sixth</em> of the margin.",
+  "sub": "You can choose it for second-hand goods, art, antiques or collectors' items bought with no VAT charged. Not metals, gold or stones, or anything you paid VAT on.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-06-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "The deductions you took in the last tax month are due by the <em>22nd</em>.",
+  "sub": "HMRC counts it paid when cleared funds arrive by the 22nd; a posted cheque by the 19th. A different cycle: under £1,500 a month on average, you may pay quarterly.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-07-edu",
+  "kind": "edu",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Financial education with Ola Accountancy",
+  "hero": "Take on your first employee and you need <em>£5 million</em> of cover.",
+  "sub": "Excluded: a one-director company where the director owns at least half the shares, an employer whose only employee is close family, and a sole trader with no employees.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-08-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Joke of the day",
+  "setup": "I asked a shopkeeper when he last put his prices up.",
+  "punch": "He pointed at the sign. Still perfectly readable.",
+  "hook": "A readable sign is not a price. Work out what the job costs you now, not in 2019, and then decide what it is worth.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-09-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Joke of the evening",
+  "setup": "He rang at ten past eight on the morning of 30 January.",
+  "punch": "Quick one. Did I ever register?",
+  "hook": "Nothing gets found quickly on the day. Keep the year where someone else could pick it up, and there is no panic to have.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "bham-10-quote",
+  "kind": "quote",
+  "sizes": [
+   "feed",
+   "story"
+  ],
+  "slot": "Evening quote",
+  "line": "Beware of little expenses; a small leak will sink a great ship.",
+  "attrib": "Benjamin Franklin"
+ }
+]

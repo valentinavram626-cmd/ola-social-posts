@@ -1,0 +1,57 @@
+[
+ {
+  "id": "ola-en-01-tip",
+  "kind": "tip",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Thought of the day",
+  "hero": "We file early, so a question is still a question, not a problem.",
+  "sub": "If a figure looks odd, we would rather find it in November than on the last evening of January. Filing early buys the time to ask you, and to answer it properly.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "ola-en-02-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "We handle the handover and write to your old accountant. You sign once.",
+  "sub": "That letter has a name in our trade, professional clearance, and it is ordinary courtesy between firms. We write it, follow it up, and tell you when your records arrive.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "ola-en-03-acq",
+  "kind": "acq",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Come to Ola Accountancy",
+  "hero": "Everything we file for you is scanned and kept, year by year.",
+  "sub": "It stays your paperwork. HMRC accepts scanned copies, so we scan as we go, and a figure or document from an earlier year comes from us, not from a box in the loft.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "ola-en-04-joke",
+  "kind": "joke",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Joke of the day",
+  "setup": "The cheque is in the post. It has been since August.",
+  "punch": "It must be taking the scenic route.",
+  "hook": "Write down every chase and the date you made it, and keep that note with the invoice.",
+  "cta": "Message us on WhatsApp 0330 133 1886"
+ },
+ {
+  "id": "ola-en-05-quote",
+  "kind": "quote",
+  "sizes": [
+   "feed"
+  ],
+  "slot": "Evening quote",
+  "line": "No great thing is created suddenly, any more than a bunch of grapes or a fig.",
+  "attrib": "Epictetus"
+ }
+]
