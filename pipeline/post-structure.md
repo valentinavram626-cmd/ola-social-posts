@@ -89,6 +89,31 @@ brings telephone enquiries into Luton and Birmingham. Valentin confirmed this on
 them — Instagram and Facebook on `ola` and on `bham`. The `en` brand has only
 TikTok connected and TikTok has no Story format, so it gets none, as before.
 
+## Scheduling order: by publication time, never brand by brand
+
+Sort every post by the time it publishes, earliest first, **across all three brands together**,
+and schedule down that list. 07:40 Ola, then 08:05 Birmingham, then 08:10 Threads, and so on.
+
+**Why this rule exists.** On 24 and again on 25 November 2026 the evening run scheduled brand by
+brand, ran out of its hour part-way through, and left Birmingham and En with nothing at all for
+the entire following day — twice. Nothing was wrong with the writing: all 35 posts had been
+written, rendered and pushed to this repository. The run simply reached the scheduling step at
+T+50 with seven minutes left and about ninety calls to make.
+
+Two things follow, and both are now in the agent prompt:
+
+1. **Scheduling gets 22 minutes, from T+34 to T+56.** A full night is roughly ninety provider
+   slots, one `createScheduledPost` call each. Plan for two to three a minute.
+2. **Scheduling is never what gets cut.** Writing, checking, rendering and pushing are
+   preparation; preparation that never reaches Metricool is worth nothing. If the hour is tight,
+   the writing shrinks, never the scheduling window.
+
+In time order, a run that stops early loses the late evening of every brand — a few posts after
+nine at night — instead of two whole accounts going dark.
+
+**If any brand still has zero posts scheduled at T+45, stop everything and schedule that brand's
+morning first.** A brand on zero is the worst outcome of the night.
+
 ## The Birmingham Instagram ceiling
 
 **On `bham` the Instagram FEED takes FIVE posts a day, not ten.** Valentin set
