@@ -3400,7 +3400,7 @@
    "automatic": true,
    "how_to_claim": "automatic - no claim needed. The cap limits what a supplier may charge per unit and per day, and it is applied by the supplier"
   },
-  "notes": "AS AT TODAY THE CAP IN FORCE IS £1,723 (1 October to 31 December 2026). £2,166 applies from 1 January 2027 and not before, so any copy published before 1 January 2027 must say 'rising to', not 'is'. ANNOUNCED 25 NOVEMBER 2026 and effective 1 January 2027 - the previous £1,723 figure is wrong for any post-1-January copy. The headline £2,166 is an illustration for a typical-consumption dual-fuel Direct Debit household, NOT a maximum bill: a household using more pays more, because the cap limits unit rates and standing charges, not the total. Ofgem states costs cannot be compared directly with periods before 1 October 2026 because VAT was removed from electricity. The 26% rise is driven mainly by gas. Rates differ by region and by payment method, and the figures above are the Great Britain Direct Debit average. Not the same as the Energy Price Guarantee, which ended, nor the Warm Home Discount, nor the £100 Household Energy Payment. CAVEAT ON THE VAT EXTENSION: Ofgem's rates page gives 30 June 2027 and the Budget material says until July 2027, but HMRC's own publication page for the temporary zero rate still shows the original 31 March 2027 end date, so the extension is confirmed but not yet reflected in HMRC's guidance. RE-CHECKED 26 November 2026: figures unchanged. The title and this note were rewritten today because the entry was framed entirely around the January cap, which is not yet in force, and a post written from the title alone would have overstated today's cap by £443.",
+  "notes": "UNTIL 31 DECEMBER 2026 THE CAP IN FORCE IS £1,723 (the 1 October to 31 December 2026 period). £2,166 applies from 1 January 2027 and not before, so any copy published before 1 January 2027 must say 'rising to', not 'is'. ANNOUNCED 25 NOVEMBER 2026 and effective 1 January 2027 - the previous £1,723 figure is wrong for any post-1-January copy. The headline £2,166 is an illustration for a typical-consumption dual-fuel Direct Debit household, NOT a maximum bill: a household using more pays more, because the cap limits unit rates and standing charges, not the total. Ofgem states costs cannot be compared directly with periods before 1 October 2026 because VAT was removed from electricity. The 26% rise is driven mainly by gas. Rates differ by region and by payment method, and the figures above are the Great Britain Direct Debit average. Not the same as the Energy Price Guarantee, which ended, nor the Warm Home Discount, nor the £100 Household Energy Payment. CAVEAT ON THE VAT EXTENSION: Ofgem's rates page gives 30 June 2027 and the Budget material says until July 2027, but HMRC's own publication page for the temporary zero rate still shows the original 31 March 2027 end date, so the extension is confirmed but not yet reflected in HMRC's guidance. RE-CHECKED 26 November 2026: figures unchanged. The title and this note were rewritten today because the entry was framed entirely around the January cap, which is not yet in force, and a post written from the title alone would have overstated the cap in force before 1 January 2027 by £443.",
   "used": []
  },
  {
@@ -3651,7 +3651,7 @@
    },
    {
     "value": "7.75% late payment / 2.75% repayment",
-    "what": "the rates that applied from 9 January 2026 up to and including 23 November 2026 - the rates superseded today",
+    "what": "the rates that applied from 9 January 2026 up to and including 23 November 2026 - the rates superseded on 24 November 2026",
     "source": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments/rates-and-allowances-hmrc-interest-rates",
     "read": "2026-11-24"
    },
@@ -4791,7 +4791,7 @@
    },
    {
     "value": "more than 7 million",
-    "what": "The figure used on the Companies House outline transition plan (policy paper, still last updated 23 October 2026 when read today) for individuals on the register requiring identity verification - higher than the '6 to 7 million' press-release estimate. Quote whichever source you cite",
+    "what": "The figure used on the Companies House outline transition plan (policy paper, still last updated 23 October 2026 when read on 20 November 2026) for individuals on the register requiring identity verification - higher than the '6 to 7 million' press-release estimate. Quote whichever source you cite",
     "source": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
     "read": "2026-11-17"
    },
@@ -4809,7 +4809,7 @@
    },
    {
     "value": "no earlier than the end of 2026",
-    "what": "When Companies House still expects, as at today, to complete the transition period for all individuals on the register requiring identity verification and 'start compliance activity against those who have failed to verify their identity'. No firmer date has been announced",
+    "what": "When Companies House still expects, as at 20 November 2026, to complete the transition period for all individuals on the register requiring identity verification and 'start compliance activity against those who have failed to verify their identity'. No firmer date has been announced",
     "source": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
     "read": "2026-11-17"
    },
