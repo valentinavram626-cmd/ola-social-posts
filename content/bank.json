@@ -79,7 +79,9 @@
    "how_to_claim": "Automatic below £1,000 gross. Above it, register for Self Assessment by 5 October in the following tax year."
   },
   "notes": "The test is GROSS income, not profit: £1,200 earned with £400 of costs is over the threshold even though the profit is £800. Budget 2026 raised it to £3,000 from 6 April 2027 — that does NOT apply to this tax year. RE-CHECKED 21 November 2026 at primary source: £1,000 confirmed for 2026-27 on both the gov.uk guidance page and HMRC manual BIM86000, and £3,000 from 6 April 2027 confirmed on the Budget 2026 measure page, which also confirms the Self Assessment reporting threshold for trading income rises to £3,000 at the same date. The increase is in Finance Bill 2026-27 and is NOT yet law. BIM86000 confirms use of the allowance is optional, not automatic.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "mileage-allowance-car",
@@ -219,7 +221,9 @@
    "how_to_claim": "Automatic. Banks report interest to HMRC and any tax due is usually collected through the tax code."
   },
   "notes": "It is a 0% band, not a deduction: going £1 over does not tax the whole amount. Budget 2026 did not change the allowance, but raised the tax rates charged above it to 24/44/49% from 6 April 2027.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "small-business-rate-relief-england",
@@ -807,7 +811,9 @@
    "how_to_claim": "Nothing to claim — the £100 and the 6/12-month penalties arise automatically and HMRC issues a penalty notice. To challenge one, appeal to HMRC on the ground of reasonable excuse (form SA370 or online); appeals go on to the First-tier Tribunal and Upper Tribunal."
   },
   "notes": "Verified at both the gov.uk guidance page and HMRC manual SALF208A. SALF208A does NOT state any cap limiting the penalty to the tax liability. The MTD for Income Tax change is the live risk on this subject: anyone mandated into MTD from 6 April 2026 moves to the points system for their 2026/27 return (due 31 January 2028), so content must be clear which year it describes.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "self-assessment-late-payment-penalties",
@@ -1129,7 +1135,9 @@
    "how_to_claim": "Nothing to claim. The deadline applies automatically, and the 7-day extension applies automatically where the return is filed online and the payment is made electronically. The extended date appears on the return itself."
   },
   "notes": "There is no extension where the deadline falls on a weekend or bank holiday — the return and the cleared payment must arrive on or before the deadline (gov.uk/submit-vat-return). Faster Payments can be received on weekends and bank holidays. No Northern Ireland difference for deadlines: the rule is UK-wide.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "vat-flat-rate-scheme",
@@ -2745,7 +2753,9 @@
    "how_to_claim": "No claim or application. The deadline runs automatically from the accounting reference date, and the directors are personally responsible for delivering the accounts on time. Small companies and micro-entities can file online using Companies House online services."
   },
   "notes": "ECCTA POSITION AS AT NOVEMBER 2026 — this is the material change worth banking. (1) The requirement for small companies and micro-entities to file a profit and loss account has been PAUSED. GOV.UK, 23 October 2026: \"the government has decided to pause implementing the requirement for small and micro entities\" — so as at November 2026 small companies \"do not have to deliver a copy of the directors' report or the profit and loss account\" and micro-entities are likewise not required to file \"a directors' report or profit and loss account at Companies House\" (life-of-a-company part 1, updated 23 October 2026). (2) ABRIDGED ACCOUNTS HAVE NOT BEEN ABOLISHED — the earlier plan to remove them has been reversed: the government will \"continue to allow companies to file abridged accounts\" (gov.uk/government/news/companies-house-update-to-accounts-filing-from-april-2028, published 23 October 2026). Where abridged accounts are filed, the balance sheet must state that the members have agreed to them. (3) What IS still coming from April 2028: all UK registered companies must \"file their accounts in Inline eXtensible Business Reporting Language (iXBRL) format\" using commercial software, and web and paper accounts filing closes on that date. Smaller companies keep the option to remove, or 'fillet', their profit and loss information from accounts filed after 1 April 2028. (4) The earlier 9 June 2026 notice announcing the P&L requirement and the removal of abridged accounts was WITHDRAWN on 23 October 2026 — do not cite it. (5) The ECCTA company accounts factsheet at gov.uk/government/publications/economic-crime-and-corporate-transparency-act-2023-factsheets/economic-crime-and-corporate-transparency-act-company-accounts still displays the old position (small and micro-entities must file a P&L, abridged accounts removed) and shows a visible date of 1 March 2024 with no commencement dates — it is out of date on these points and must not be used as the current position.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "corporation-tax-payment-deadline",
@@ -2805,7 +2815,9 @@
    "how_to_claim": "No claim. Both deadlines run automatically from the end of the accounting period. A company with no Corporation Tax to pay must still tell HMRC that it does not owe any by the 9-months-and-1-day date, and must still file the return by the 12-month date even if it made a loss."
   },
   "notes": "The counter-intuitive point for clients is that the tax is payable three months BEFORE the return that calculates it is due. Note also that the Corporation Tax accounting period is not necessarily the same as the Companies House accounting reference date period, so the three deadlines (Companies House accounts at 9 months, CT payment at 9 months and 1 day, CT600 at 12 months) are measured from dates that can differ.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "companies-house-late-filing-penalties",
@@ -5455,7 +5467,9 @@
    "how_to_claim": "Write the debt off in the VAT accounts and move it to a separate bad debt account, then include the VAT in box 4 of the VAT Return for the period in which all the conditions are first met (sections 2.4 and 5.3). Keep copies of the VAT invoices and the bad debt account, showing the amount written off, the VAT claimed and the customer's name, for 4 years from the claim (sections 2.5 and 2.8)."
   },
   "notes": "Commonly confused with simply issuing a credit note, which section 5.6 says cannot be done merely because a customer has not paid. Also commonly confused with the writing-off of a debt for corporation tax or income tax purposes, which is a separate matter on a different timetable. The customer-side rule is the point most often missed: section 4.1 obliges a business that has not paid a supplier within 6 months to repay the input tax it already claimed, whether or not the supplier ever claims the relief. Businesses on cash accounting have no need of the relief at all. No nation differences - VAT is UK-wide, and bad debt relief is unaffected by the Northern Ireland Protocol/Windsor Framework, which bears on goods rather than on debt relief.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "vat-zero-rate-energy-saving-materials",
@@ -8829,7 +8843,9 @@
    "how_to_claim": "Include the expenditure in the accounts or tax computation for the first period of trading, as if it had been spent on day one. There is no separate claim form - but if the first return has already been filed without it, amend that return rather than putting the spend in a later year."
   },
   "notes": "The thing clients get wrong: they assume anything spent before they registered is lost, and they throw the receipts away. Seven years is generous - a laptop, a website, market research, professional fees, insurance, phone and travel from years before the first invoice can all land in the first period. But it only works if you can prove it, which is why this pairs with the record-keeping rule. Two further traps: the expense must have been incurred for the business that actually started, and the seven years run back from COMMENCEMENT of trading, which is not the date of incorporation and not the date HMRC was told. Setting up - writing the business plan - is not itself trading. No Scottish or Welsh variation in what qualifies; the deduction is a UK-wide income or corporation tax computation rule, though a Scottish taxpayer's saving will be at Scottish income tax rates and a company's at the Corporation Tax rate.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "business-records-retention-and-failure-to-keep-penalty",
@@ -10481,7 +10497,9 @@
    "how_to_claim": "The tax must be claimed on the FIRST VAT return the business is required to make, VIT32000. It is not a separate claim form."
   },
   "notes": "UK-wide. The trap for owner-managed businesses is the asymmetry: four years back for goods you still own, but only six months for services — so accountancy, legal, marketing, software subscriptions and professional fees from the start-up period are usually lost unless registration happens quickly. The second trap is the first-return rule: miss it on the first return and you are into error correction territory. This detail lives in the HMRC VAT Input Tax manual at VIT32000, not on the main register-for-VAT guidance. Post-deregistration services relating to the business carried on while registered CAN still be reclaimed; post-deregistration goods cannot.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "vat-capital-goods-scheme-600000-threshold-from-july-2026",
@@ -10842,7 +10860,9 @@
    "how_to_claim": "Complete form CA9176 online, print it, and post it to HMRC. Both the carer and the Child Benefit recipient must sign the declaration, and the Child Benefit recipient should check their own National Insurance record first."
   },
   "notes": "Not the same as Child Benefit's own automatic credits, and not the same as Carer's Credit, which is for caring for a sick or disabled adult and is Great Britain only. Covid concession: care given by phone or video counts for 2019-20 and 2020-21. The credit transfers the parent's unneeded credit to the relative — it does not create a second credit, so if the parent needs the credit themselves nobody should apply.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "carers-credit",
@@ -12879,7 +12899,9 @@
    "how_to_claim": "Nothing to claim or apply for. Liability follows the statutory tests, and the supplier must apply them at the point of sale. Where a business sells both standard-rated food for consumption on the premises and zero-rated cold takeaway food, Notice 709/1 s3.3 requires a fair apportionment with evidence kept to support it. Retailers who cannot identify the VAT on each sale may use a VAT retail scheme (Notice 727); catering sales must normally go through the Point of Sale Scheme (Notice 727 s7.1)."
   },
   "notes": "Food is zero-rated, which is why people assume all food is VAT-free, but Group 1 opens with two exceptions that do most of the damage: catering, and the excepted items. Catering is not just restaurant service — Note (3) makes it cover anything consumed on the premises and all hot takeaway food, and Note (3A) extends 'premises' to any area the supplier sets aside for customers to eat in, even shared seating in a food court. A takeaway counter and a few tables is therefore two different VAT answers on the same sandwich. The five hot food tests in Note (3B) are alternatives, not cumulative, and four of them are about how the trader behaves rather than the food: heating it so it can be eaten hot, heating it to order, keeping it hot, hot-retaining packaging, or marketing it as hot. 'Hot' is simply above ambient air temperature. So a pasty cooling on an open shelf in a paper bag can be zero-rated while the identical pasty in a foil bag, or under a heat lamp, or advertised as 'hot', is standard-rated — the supplier's purpose counts, not the customer's (Notice 709/1 s4.3). Confectionery and crisps are standard-rated regardless of temperature or location, which is why a cold sandwich takeaway with a packet of crisps and a chocolate bar is a three-rate transaction. Both notices carried a temporary reduced rate of VAT on certain supplies of children's meals from 25 June 2026 to 1 September 2026, which had ended before this entry was verified. This is a UK-wide liability rule based on the nature of the supply, so the Northern Ireland Protocol/Windsor Framework does not bear on it.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "boiler-upgrade-scheme-grant",
@@ -14453,7 +14475,9 @@
    "how_to_claim": "Claim the shortfall as mileage allowance relief using the GOV.UK job expenses service, or on the Self Assessment return if you file one. Mileage logs are required showing the reason for each journey and the start and end postcodes."
   },
   "notes": "The headline 45p figure is out of date for 2026-27 - cars and vans are 55p for the first 10,000 business miles from 6 April 2026, and 25p after that. Motorcycles and bicycles have a single flat rate with no 10,000-mile step. Passenger payments are the trap: 5p a mile is what an employer may pay tax free, but there is no employee relief if the employer pays less or nothing. Company car drivers claim on actual fuel and electricity spent on business trips, not these rates, and may claim relief on the difference if the employer reimburses only part. UK-wide; the cash value follows the claimant's nation's income tax rates.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "gift-aid-higher-rate-relief-on-donations",
@@ -16405,7 +16429,9 @@
    "how_to_claim": "Administered by the billing council that issues the business rates bill, not by HMRC or the Valuation Office Agency. Tell your local council when the property becomes vacant and ask them to check whether you qualify for extended relief; the council applies it to the bill. Changes that affect the property's value are reported separately to the Valuation Office Agency"
   },
   "notes": "ENGLAND ONLY. Scotland: Empty Property Relief was devolved to individual local authorities from 1 April 2023, so there is no single Scotland-wide exemption and it depends on the council. Wales: mandatory relief is 3 months for non-industrial and 6 months for industrial property, the property must have been occupied for more than 26 weeks immediately before becoming empty, and the indefinite low-value threshold is a rateable value under £2,600, not £2,900. Northern Ireland: a different system - empty non-domestic property with a Net Annual Value under £2,000 pays no vacant rates at all, NAV of £2,000 or more gets a 3-month free period and then pays 50 per cent of the occupied rate, and the owner must send Land and Property Services a signed declaration or neither applies. NOT the same as Small Business Rate Relief or retail, hospitality and leisure relief, which both require occupation, and not the same as a completion notice rate-free period on new builds.",
-  "used": []
+  "used": [
+   "2026-11-26"
+  ]
  },
  {
   "id": "business-rates-improvement-relief-england",
