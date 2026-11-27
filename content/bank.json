@@ -1,7 +1,7 @@
 [
   {
     "id": "marriage-allowance",
-    "verified": "2026-11-21",
+    "verified": "2026-11-27",
     "recheck_after": "2027-03-15",
     "brands": [
       "ola"
@@ -36,14 +36,14 @@
       "automatic": false,
       "how_to_claim": "The LOWER earner applies, free, on gov.uk. It then renews automatically until cancelled."
     },
-    "notes": "The claim is made by the lower earner, not the higher — the commonest error. Scotland: the test is the Scottish band, so a Scot on £46,000 does NOT qualify while someone on £46,000 in England does. No Budget 2026 change. RE-CHECKED 21 November 2026: £1,260, up to £252 and backdating to 6 April 2022 all confirmed at primary source, as are the Scottish band limits. No Budget 2026 change found. Keep the wording 'up to £252 a year' - the gov.uk page does not label £252 as a 2026-27 figure, and its worked example shows a £214 saving for one couple, so a flat '£252 this year' claim is not page-verified.",
+    "notes": "The claim is made by the lower earner, not the higher — the commonest error. Scotland: the test is the Scottish band, so a Scot on £46,000 does NOT qualify while someone on £46,000 in England does. No Budget 2026 change. RE-CHECKED 21 November 2026: £1,260, up to £252 and backdating to 6 April 2022 all confirmed at primary source, as are the Scottish band limits. No Budget 2026 change found. Keep the wording 'up to £252 a year' - the gov.uk page does not label £252 as a 2026-27 figure, and its worked example shows a £214 saving for one couple, so a flat '£252 this year' claim is not page-verified. Verified 27 November 2026. Two things must not be published. Do not reuse HMRC's 'up to £1,242 backdated' line — it dates from August 2022, no longer matches the window, and gov.uk publishes no combined five-year total; the current backdating reach is to 2022-23. And do not repeat the widely circulated claim that a couple can end up worse off where the lower earner's income sits just under the Personal Allowance: that is not stated at primary source and is unverified. The strongest angle is the nation difference — a Scottish couple whose higher earner is on £46,000 cannot claim, while the identical couple in England can, because the Scottish band stops at £43,662. The other real-world failure is that the claim renews automatically every year until cancelled, so a couple whose circumstances change must cancel it or risk an underpayment.",
     "used": [
       "2026-11-20"
     ]
   },
   {
     "id": "trading-allowance",
-    "verified": "2026-11-21",
+    "verified": "2026-11-27",
     "recheck_after": "2027-03-15",
     "brands": [
       "ola"
@@ -68,6 +68,12 @@
         "what": "Deadline to register for Self Assessment, in the tax year after the one you went over",
         "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
         "read": "2026-11-13"
+      },
+      {
+        "value": "£2,500",
+        "what": "gross other income above which Self Assessment registration is required; between £1,000 and £2,500, contact HMRC",
+        "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
+        "read": "2026-11-27"
       }
     ],
     "scope": {
@@ -78,7 +84,7 @@
       "automatic": true,
       "how_to_claim": "Automatic below £1,000 gross. Above it, register for Self Assessment by 5 October in the following tax year."
     },
-    "notes": "The test is GROSS income, not profit: £1,200 earned with £400 of costs is over the threshold even though the profit is £800. Budget 2026 raised it to £3,000 from 6 April 2027 — that does NOT apply to this tax year. RE-CHECKED 21 November 2026 at primary source: £1,000 confirmed for 2026-27 on both the gov.uk guidance page and HMRC manual BIM86000, and £3,000 from 6 April 2027 confirmed on the Budget 2026 measure page, which also confirms the Self Assessment reporting threshold for trading income rises to £3,000 at the same date. The increase is in Finance Bill 2026-27 and is NOT yet law. BIM86000 confirms use of the allowance is optional, not automatic.",
+    "notes": "The test is GROSS income, not profit: £1,200 earned with £400 of costs is over the threshold even though the profit is £800. Budget 2026 raised it to £3,000 from 6 April 2027 — that does NOT apply to this tax year. RE-CHECKED 21 November 2026 at primary source: £1,000 confirmed for 2026-27 on both the gov.uk guidance page and HMRC manual BIM86000, and £3,000 from 6 April 2027 confirmed on the Budget 2026 measure page, which also confirms the Self Assessment reporting threshold for trading income rises to £3,000 at the same date. The increase is in Finance Bill 2026-27 and is NOT yet law. BIM86000 confirms use of the allowance is optional, not automatic. Verified 27 November 2026: the £3,000 figure is NOT YET LAW. It takes effect for 2027-28 and needs Finance Bill 2026-27, so for the 2025-26 returns due 31 January 2027, and for 2026-27, the allowance is £1,000. Never publish £3,000 as the current figure. The test is GROSS income, not profit — £1,100 of takings against £900 of costs is over the threshold. And the real Self Assessment season trap: you must still register even under £1,000 if you want to claim loss relief, pay voluntary Class 2, or claim Tax-Free Childcare or Maternity Allowance based on self-employment, so a low-earning self-employed parent who takes the allowance and files nothing can lose both a qualifying year and a childcare claim. Trading and property allowances are two separate £1,000s, and the allowance is per person per tax year, not per trade.",
     "used": [
       "2026-11-26"
     ]
@@ -3477,7 +3483,7 @@
   },
   {
     "id": "self-employed-national-insurance",
-    "verified": "2026-11-14",
+    "verified": "2026-11-27",
     "recheck_after": "2027-04-06",
     "brands": [
       "en",
@@ -3522,17 +3528,29 @@
         "what": "Class 4 additional rate on profits above £50,270",
         "source": "https://www.gov.uk/self-employed-national-insurance-rates",
         "read": "2026-11-14"
+      },
+      {
+        "value": "no liability to pay",
+        "what": "the liability to pay Class 2 was removed from 6 April 2024 — it was not abolished, and the voluntary route remains",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim70001",
+        "read": "2026-11-27"
+      },
+      {
+        "value": "start of the tax year",
+        "what": "when the Class 4 age test is taken: someone reaching State Pension age DURING the year stays liable for the whole year",
+        "source": "https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim24510",
+        "read": "2026-11-27"
       }
     ],
     "scope": {
       "nation": "UK",
       "who": "Self-employed people with taxable profits. Profits of £7,105 or more a year have Class 2 treated as paid, so no Class 2 is actually charged while still protecting the National Insurance record. Class 4 is payable where profits are over £12,570 a year, at 6% up to £50,270 and 2% above. Those with profits below £7,105 can choose to pay voluntary Class 2 at £3.65 a week to protect their record.",
-      "excluded": "Self-employed people with profits below £7,105 are not required to pay anything (payment is voluntary only). Ministers of religion who receive no salary or stipend do not pay. People who make investments for themselves or others do not pay, provided they do not do it as a business and receive no fee or commission. Examiners, moderators, invigilators and people who set exam questions pay Class 4 where due through Special Class 4 National Insurance arranged with the National Insurance office rather than through Self Assessment.",
+      "excluded": "Self-employed people with profits below £7,105 are not required to pay anything (payment is voluntary only). Ministers of religion who receive no salary or stipend do not pay. People who make investments for themselves or others do not pay, provided they do not do it as a business and receive no fee or commission. Examiners, moderators, invigilators and people who set exam questions pay Class 4 where due through Special Class 4 National Insurance arranged with the National Insurance office rather than through Self Assessment. Class 4 is also not due from anyone under 16 or over State Pension age at the START of the tax year, anyone not UK resident for Income Tax, trustees, executors and administrators on profits in that capacity, or on property and land profits and post-cessation receipts — so most landlords pay no Class 4. Examiners, moderators, invigilators and people who set exam questions, and landlords eligible to pay Class 2, are never treated as having paid Class 2 and must pay voluntarily for a qualifying year. Married women and widows with a reduced-rate election cannot pay voluntary contributions at all.",
       "from_when": "6 April 2026",
       "automatic": false,
       "how_to_claim": "Class 4 is not claimed — it is calculated and paid through Self Assessment with your Income Tax. Voluntary Class 2 is a choice: it is paid through the Self Assessment return, or arranged directly with HMRC where Self Assessment does not apply."
     },
-    "notes": "The key point for content: Class 2 at the flat compulsory rate no longer bites. Anyone with profits at or above the £7,105 Small Profits Threshold is treated as having paid Class 2 without paying it, and anyone below can pay voluntarily at £3.65 a week to keep a qualifying year. The gov.uk self-employed page itself does not use the terms 'Small Profits Threshold', 'Lower Profits Limit' or 'Upper Profits Limit' — those names and the £7,105 / £12,570 / £50,270 figures are confirmed in HMRC's National Insurance rates and allowances tables. That page also does not address under-16s or people over State Pension age, so no exemption for those groups is claimed here.",
+    "notes": "The key point for content: Class 2 at the flat compulsory rate no longer bites. Anyone with profits at or above the £7,105 Small Profits Threshold is treated as having paid Class 2 without paying it, and anyone below can pay voluntarily at £3.65 a week to keep a qualifying year. The gov.uk self-employed page itself does not use the terms 'Small Profits Threshold', 'Lower Profits Limit' or 'Upper Profits Limit' — those names and the £7,105 / £12,570 / £50,270 figures are confirmed in HMRC's National Insurance rates and allowances tables. That page also does not address under-16s or people over State Pension age, so no exemption for those groups is claimed here. Two points verified 27 November 2026. First, 'nothing to pay' is not the same as 'year protected': below the £7,105 Small Profits Threshold there is NO credit and the record shows a gap unless contributions are paid voluntarily. Second, the Class 4 age test bites at the start of the tax year, and HMRC's manual is explicit that reaching State Pension age mid-year leaves the whole year liable — nothing pro-rates. Also worth saying plainly: Class 4 buys no benefit entitlement at all, it is a pure tax, and only Class 2 and Class 3 build the contribution record. Do not call Class 2 abolished; the liability went in April 2024 but the contribution and the voluntary route survive. The £12,570 Lower Profits Limit is a Class 4 figure and must never be described as a Class 2 threshold. For 2027-28 the Small Profits Threshold rises to £7,355 and the voluntary Class 2 rate to £3.80 a week.",
     "used": []
   },
   {
@@ -3663,7 +3681,7 @@
   },
   {
     "id": "voluntary-national-insurance-class-3",
-    "verified": "2026-11-14",
+    "verified": "2026-11-27",
     "recheck_after": "2027-04-06",
     "brands": [
       "en",
@@ -3702,17 +3720,29 @@
         "what": "voluntary Class 2 rate for 2026 to 2027, the cheaper alternative for those eligible to pay Class 2 rather than Class 3",
         "source": "https://www.gov.uk/self-employed-national-insurance-rates",
         "read": "2026-11-14"
+      },
+      {
+        "value": "about £6.89 a week",
+        "what": "what each qualifying year after 5 April 2016 adds, where the starting amount is below the full rate",
+        "source": "https://www.gov.uk/government/publications/your-new-state-pension-explained/your-state-pension-explained",
+        "read": "2026-11-27"
+      },
+      {
+        "value": "5 April 2025",
+        "what": "the extended deadline that allowed years back to 2006-07 to be filled — now passed and gone",
+        "source": "https://www.gov.uk/government/publications/national-insurance-contributions-extending-the-voluntary-national-insurance-contributions-deadline/extending-the-voluntary-national-insurance-contributions-deadline",
+        "read": "2026-11-27"
       }
     ],
     "scope": {
       "nation": "UK",
       "who": "People with gaps in their National Insurance record who do not have enough qualifying years for the full new State Pension and are not eligible for National Insurance credits. Class 3 is paid at £18.40 a week; some self-employed people can pay Class 2 at £3.65 a week instead. You can pay only for gaps in the past 6 tax years, with each deadline falling on 5 April — the deadline for a 2025 to 2026 gap is 5 April 2032. People below State Pension age can ask the Future Pension Centre whether paying will benefit them.",
-      "excluded": "You cannot pay if you have no gaps in your record, unless you are getting Class 3 credits and are eligible to pay Class 2 contributions. Married women and widows paying reduced rate National Insurance cannot pay voluntary contributions. You cannot pay once the deadline for the period with the gap has passed, so gaps older than 6 tax years are closed. People already eligible for National Insurance credits may not need to pay, and people who have reached State Pension age should contact the Pension Service (or, if abroad or recently abroad, the International Pension Centre) first because paying may not help.",
+      "excluded": "You cannot pay if you have no gaps in your record, unless you are getting Class 3 credits and are eligible to pay Class 2 contributions. Married women and widows paying reduced rate National Insurance cannot pay voluntary contributions. You cannot pay once the deadline for the period with the gap has passed, so gaps older than 6 tax years are closed. People already eligible for National Insurance credits may not need to pay, and people who have reached State Pension age should contact the Pension Service (or, if abroad or recently abroad, the International Pension Centre) first because paying may not help. Beyond that, paying often buys nothing: gov.uk warns that voluntary contributions do not always increase the State Pension, for example for people who were contracted out. Nor do they help anyone whose starting amount already equals or exceeds the full new State Pension, anyone who will reach the needed years anyway from future working years, anyone eligible for free National Insurance credits instead such as carers, parents and jobseekers, or anyone who reached State Pension age before 6 April 2016 and is on the old basic State Pension under different rules.",
       "from_when": "6 April 2026 for the £18.40 weekly rate",
       "automatic": false,
       "how_to_claim": "You must check your National Insurance record and State Pension forecast, confirm that paying will benefit you, and then pay. HMRC updates the record after payment — up to 5 working days through the State Pension forecast service, or up to 8 weeks by other payment methods. People who have lived or worked abroad must check what to do before paying, as a different route applies."
     },
-    "notes": "Two warnings that belong in any copy on this. First, paying does not always help: gov.uk states plainly that 'voluntary contributions do not always increase your State Pension', for example where you were contracted out — so the forecast check comes before the payment, not after. Second, Class 2 at £3.65 a week is far cheaper than Class 3 at £18.40, so eligibility for Class 2 should be checked first. The normal limit is the past 6 tax years with a 5 April deadline; gov.uk gives 5 April 2032 for a 2025/26 gap, and no extended deadline is currently advertised. Deadline dates for individual earlier years beyond that one example were not stated at primary source, so only the 6-year rule and the 2025/26 date are reported here rather than a derived year-by-year table.",
+    "notes": "Two warnings that belong in any copy on this. First, paying does not always help: gov.uk states plainly that 'voluntary contributions do not always increase your State Pension', for example where you were contracted out — so the forecast check comes before the payment, not after. Second, Class 2 at £3.65 a week is far cheaper than Class 3 at £18.40, so eligibility for Class 2 should be checked first. The normal limit is the past 6 tax years with a 5 April deadline; gov.uk gives 5 April 2032 for a 2025/26 gap, and no extended deadline is currently advertised. Deadline dates for individual earlier years beyond that one example were not stated at primary source, so only the 6-year rule and the 2025/26 date are reported here rather than a derived year-by-year table. The headline, verified 27 November 2026, is that paying can be money wasted — gov.uk says so in terms, and a post that says 'fill your gaps' without the contracted-out and already-full exclusions is misleading. gov.uk's standing instruction is to contact the Future Pension Centre first if below State Pension age, the Pension Service if at or over it, or the International Pension Centre if abroad, and confirm you will benefit BEFORE paying. '35 years' is only right for someone with no record before 6 April 2016, so write it as 'normally 35'. The extended window reaching back to 2006-07 closed on 5 April 2025 and only the 6-year rule now applies; gov.uk does not print the earliest currently-fillable year, so say 'broadly the last 6 years' rather than naming one. Old years are normally paid at the current rate, except Class 3 for the previous two tax years, paid at those years' rates. The self-employed with low profits should usually pay Class 2 at £3.65 rather than Class 3 at £18.40 — the wrong class costs about £767 more for a single year.",
     "used": []
   },
   {
@@ -4677,7 +4707,7 @@
   },
   {
     "id": "companies-house-identity-verification-directors-pscs",
-    "verified": "2026-11-20",
+    "verified": "2026-11-27",
     "recheck_after": "2027-01-12",
     "brands": [
       "en",
@@ -4806,6 +4836,18 @@
         "what": "Verified appointments as at 11 November 2026 - 7.32m directors, 4.54m PSCs, 135,000 LLP members, being 85.55% of those due; 88.1% of companies had met the confirmation-statement-linked requirement and 11.4% were on a compliance or enforcement pathway",
         "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
         "read": "2026-11-18"
+      },
+      {
+        "value": "17 November 2026",
+        "what": "end of the transition window for existing directors — now passed",
+        "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
+        "read": "2026-11-27"
+      },
+      {
+        "value": "around 90%",
+        "what": "live companies that had complied as at 11 November 2026, with 11.4% on a compliance or enforcement pathway",
+        "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
+        "read": "2026-11-27"
       }
     ],
     "scope": {
@@ -4816,7 +4858,7 @@
       "automatic": false,
       "how_to_claim": "The individual must act. Verify once, either free with Companies House using GOV.UK One Login (online, or in person at a participating Post Office with the right documents) or through an Authorised Corporate Service Provider, which may charge. You are then given your 11-character personal code. You must then actively link it to each role: a director gives the code in the company's confirmation statement; a PSC gives it through the 'Provide identity verification details for a PSC' service within their own 14-day window. Someone who is both a director and a PSC of the same company must do both separately. Nothing happens automatically and no one does it for you - an accountant can file using your code but cannot verify your identity on your behalf, and Companies House says it cannot verify identities for people either."
     },
-    "notes": "RE-VERIFIED 20 November 2026: no change at primary source since the 18 November check; the correction below stands and one figure-level wording error has been fixed today (a figure still read 'closes on 18 November 2026, tomorrow', written on 17 November and contradicted by the statutory position in this same entry - it now reads correctly). RE-CHECKED 18 November 2026, the first day AFTER the transition period. CORRECTION to the previous entry: the transitional period is '12 months beginning with 18th November 2025' (SI 2025/1118 reg. 4), so it ended at the end of 17 November 2026 - NOT on 18 November 2026. Today is the first day after it, not its last day. Companies House's own prose nowhere states an end date: the campaign site says only 'a 12-month transition period' and still carries the words 'This date is not a deadline.' The position today: the transitional period is over; every existing non-director PSC window closed by 14 November 2026 at the latest (the last birth-month appointed day was 1 November 2026, with a 14-day window); but existing DIRECTORS' individual due dates still trail into late November 2026, because a confirmation statement dated as late as 17 November 2026 carries a 14-day filing window. Companies House published a news story on 18 November 2026 marking one year of mandatory verification, with register-wide figures. Enforcement is live against people whose own due dates have passed - three directors were fined on 16 September 2026 - but no wave of penalties landed today, and Companies House's transition plan still says general compliance activity starts 'no earlier than the end of 2026'. The single most misreported point therefore stands: 18 November 2026 was not a cliff-edge on which non-verifiers were fined. The next real milestone is the end of March 2027, by which Companies House says all companies must have met the requirement or be on a compliance or enforcement pathway. On penalties: a published fixed-penalty scale does exist (£250 to £2,000 depending on seriousness and how many times), but that document does NOT mention identity verification and the identity-verification non-compliance document does NOT cross-refer to it. So the honest line is 'the registrar's published fixed-penalty scale runs £250 to £2,000', never 'the fine for not verifying is £250'. Whether that scale is in fact applied to identity verification offences is NOT VERIFIED. The campaign site's wider line ('you will not be able to make any filings for your company or start a new company') is broader than the guidance - do not quote it as a mechanism. Verification is free via GOV.UK One Login; an ACSP may charge a fee that Companies House does not publish.",
+    "notes": "RE-VERIFIED 20 November 2026: no change at primary source since the 18 November check; the correction below stands and one figure-level wording error has been fixed today (a figure still read 'closes on 18 November 2026, tomorrow', written on 17 November and contradicted by the statutory position in this same entry - it now reads correctly). RE-CHECKED 18 November 2026, the first day AFTER the transition period. CORRECTION to the previous entry: the transitional period is '12 months beginning with 18th November 2025' (SI 2025/1118 reg. 4), so it ended at the end of 17 November 2026 - NOT on 18 November 2026. Today is the first day after it, not its last day. Companies House's own prose nowhere states an end date: the campaign site says only 'a 12-month transition period' and still carries the words 'This date is not a deadline.' The position today: the transitional period is over; every existing non-director PSC window closed by 14 November 2026 at the latest (the last birth-month appointed day was 1 November 2026, with a 14-day window); but existing DIRECTORS' individual due dates still trail into late November 2026, because a confirmation statement dated as late as 17 November 2026 carries a 14-day filing window. Companies House published a news story on 18 November 2026 marking one year of mandatory verification, with register-wide figures. Enforcement is live against people whose own due dates have passed - three directors were fined on 16 September 2026 - but no wave of penalties landed today, and Companies House's transition plan still says general compliance activity starts 'no earlier than the end of 2026'. The single most misreported point therefore stands: 18 November 2026 was not a cliff-edge on which non-verifiers were fined. The next real milestone is the end of March 2027, by which Companies House says all companies must have met the requirement or be on a compliance or enforcement pathway. On penalties: a published fixed-penalty scale does exist (£250 to £2,000 depending on seriousness and how many times), but that document does NOT mention identity verification and the identity-verification non-compliance document does NOT cross-refer to it. So the honest line is 'the registrar's published fixed-penalty scale runs £250 to £2,000', never 'the fine for not verifying is £250'. Whether that scale is in fact applied to identity verification offences is NOT VERIFIED. The campaign site's wider line ('you will not be able to make any filings for your company or start a new company') is broader than the guidance - do not quote it as a mechanism. Verification is free via GOV.UK One Login; an ACSP may charge a fee that Companies House does not publish. Verified 27 November 2026: the 12-month transition period has now ENDED, on 17 November 2026, so this is no longer a deadline to prepare for. Three points matter particularly for directors who are not UK nationals: a biometric passport from ANY country is accepted, the authorised-service-provider route can be used from any country, and one email address can only ever verify one identity. Expired passports are not accepted; an expired DVLA licence is accepted within 90 days and an expired BRP, BRC or FWP within 18 months. Still to come, at a later date, for people who only file, for limited partnerships, for corporate directors, for corporate members of LLPs and for officers of corporate PSCs — none of those must verify yet. The PSC verification service also cannot be used where the PSC has information protected at Companies House. And clients keep thinking verifying is the end of it: the personal code must then be connected to each role, or a PSC who verified is still non-compliant.",
     "used": [
       "2026-11-24"
     ]
@@ -16980,378 +17022,6 @@
       "how_to_claim": "automatic where the council already holds current bank details or the household pays by direct debit; otherwise a council registration form must be completed by 5pm on 30 June 2027."
     },
     "notes": "Wales is a separate scheme, not the English one extended. Three differences matter: the qualifying date is 28 October 2026, eligibility reaches Council Tax Reduction recipients in any band, and Wales adds a requirement that the household be responsible for the utility bills. Conflating the two is the single most likely published error on this subject. England's version is household-energy-payment-2027. No Scottish equivalent is published at primary source as at 27 November 2026, and Northern Ireland has domestic rates rather than council tax.",
-    "used": []
-  },
-  {
-    "id": "class-2-national-insurance-self-employed-2026-27",
-    "verified": "2026-11-27",
-    "recheck_after": "2027-04-06",
-    "brands": [
-      "bham",
-      "en",
-      "ola"
-    ],
-    "title": "Class 2 National Insurance 2026-27 — nothing to pay, but not everyone gets the credit",
-    "official_page": "https://www.gov.uk/self-employed-national-insurance-rates",
-    "figures": [
-      {
-        "value": "no liability to pay",
-        "what": "the liability to pay Class 2 was removed from 6 April 2024 — it was not abolished, and the voluntary route remains",
-        "source": "https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim70001",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£7,105 a year",
-        "what": "Small Profits Threshold for 2026-27, up from £6,845",
-        "source": "https://www.gov.uk/government/publications/rates-and-allowances-national-insurance-contributions/rates-and-allowances-national-insurance-contributions",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£3.65 a week",
-        "what": "voluntary Class 2 rate for 2026-27, up from £3.50",
-        "source": "https://www.gov.uk/government/publications/rates-and-allowances-national-insurance-contributions/rates-and-allowances-national-insurance-contributions",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£0 a week",
-        "what": "Class 2 payable where profits are at or above the Small Profits Threshold",
-        "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£4.30 a week",
-        "what": "special Class 2 rate for share fishermen, 2026-27",
-        "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£6.45 a week",
-        "what": "special Class 2 rate for volunteer development workers, 2026-27",
-        "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
-        "read": "2026-11-27"
-      }
-    ],
-    "scope": {
-      "nation": "UK",
-      "who": "self-employed earners — sole traders and partners — with profits at or above £7,105, who are treated as having paid Class 2 and pay nothing, with their State Pension and benefit record protected for free.",
-      "excluded": "anyone with profits below £7,105, or a loss, gets NO credit — their record shows a gap for that year unless they pay voluntarily. Four categories are never treated as having paid and must pay voluntarily to get a qualifying year: examiners, moderators, invigilators and people who set exam questions; ministers of religion with no salary or stipend; people who make investments otherwise than as a business and without fee or commission; and landlords eligible to pay Class 2. Married women and widows holding a reduced-rate election cannot pay voluntary contributions at all.",
-      "from_when": "6 April 2026 to 5 April 2027 for the rates; the liability was removed on 6 April 2024",
-      "automatic": true,
-      "how_to_claim": "the credit is automatic through the Self Assessment return where profits reach the threshold. Voluntary Class 2 is normally paid through the return; the four special categories cannot use Self Assessment and must register with HMRC and pay against an 18-digit reference, with HMRC issuing a payment request between September and the end of October."
-    },
-    "notes": "The commonest error is calling Class 2 abolished. The liability went; the contribution and the voluntary route both survive, and the Small Profits Threshold still decides who gets the free credit. Low-profit traders routinely assume 'nothing to pay' means 'year protected' — below £7,105 it does not. The Lower Profits Threshold was removed on 6 April 2024; the £12,570 Lower Profits Limit that survives is a Class 4 figure and must not be described as a Class 2 threshold. For 2027-28 the threshold rises to £7,355 and the voluntary rate to £3.80 a week. gov.uk publishes no annual figure for a full voluntary year, so if one is used say 'about £190' rather than quoting a precise total.",
-    "used": []
-  },
-  {
-    "id": "class-4-national-insurance-self-employed-2026-27",
-    "verified": "2026-11-27",
-    "recheck_after": "2027-04-06",
-    "brands": [
-      "bham",
-      "en",
-      "ola"
-    ],
-    "title": "Class 4 National Insurance 2026-27 — the age test that catches people out",
-    "official_page": "https://www.gov.uk/self-employed-national-insurance-rates",
-    "figures": [
-      {
-        "value": "6%",
-        "what": "Class 4 main rate on profits between the Lower and Upper Profits Limits, 2026-27",
-        "source": "https://www.gov.uk/government/publications/rates-and-allowances-national-insurance-contributions/rates-and-allowances-national-insurance-contributions",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "2%",
-        "what": "Class 4 additional rate on profits above the Upper Profits Limit",
-        "source": "https://www.gov.uk/government/publications/rates-and-allowances-national-insurance-contributions/rates-and-allowances-national-insurance-contributions",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£12,570 a year",
-        "what": "Lower Profits Limit for 2026-27, unchanged",
-        "source": "https://www.gov.uk/government/publications/rates-and-allowances-national-insurance-contributions/rates-and-allowances-national-insurance-contributions",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£50,270 a year",
-        "what": "Upper Profits Limit for 2026-27, unchanged",
-        "source": "https://www.gov.uk/government/publications/rates-and-allowances-national-insurance-contributions/rates-and-allowances-national-insurance-contributions",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "unchanged for 2027-28",
-        "what": "the rates and both limits are announced to stay the same next year",
-        "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
-        "read": "2026-11-27"
-      }
-    ],
-    "scope": {
-      "nation": "UK",
-      "who": "self-employed earners carrying on a trade, profession or vocation whose profits exceed £12,570. Partners pay on their share. It is collected automatically through Self Assessment.",
-      "excluded": "anyone with profits of £12,570 or less; anyone under 16 at the start of the tax year; anyone over State Pension age at the start of the tax year; anyone not UK resident for Income Tax purposes; trustees, executors and administrators on profits received in that capacity; property and land profits, which are not Class 4-able, so most landlords pay none; and post-cessation receipts.",
-      "from_when": "6 April 2026 to 5 April 2027",
-      "automatic": true,
-      "how_to_claim": "nothing to claim — it is calculated and collected through the Self Assessment return alongside Income Tax, due 31 January. The age and residence exemptions are applied through the return. Special Class 4 payers such as examiners and invigilators cannot pay through Self Assessment and must contact HMRC's National Insurance office."
-    },
-    "notes": "The age test is taken at the START of the tax year, and HMRC's manual is explicit that someone who reaches State Pension age during the year stays liable for the whole year. That is the most-missed point and is worth a post on its own. Turning 16 or reaching State Pension age mid-year does not pro-rate either. Property income is not Class 4-able, but trading income from a property business run as a trade can be, so do not write 'landlords never pay Class 4' without the qualifier. Class 4 buys NO benefit entitlement — it is a pure tax, and only Class 2 and Class 3 build the contribution record. Where someone is both employed and self-employed there is an annual maximum capping combined contributions; the 2026-27 figure is not verified here, so do not quote one.",
-    "used": []
-  },
-  {
-    "id": "voluntary-class-3-national-insurance-state-pension-gaps",
-    "verified": "2026-11-27",
-    "recheck_after": "2027-04-06",
-    "brands": [
-      "bham",
-      "en",
-      "ola"
-    ],
-    "title": "Voluntary Class 3 National Insurance — and when paying is money wasted",
-    "official_page": "https://www.gov.uk/voluntary-national-insurance-contributions",
-    "figures": [
-      {
-        "value": "£18.40 a week",
-        "what": "Class 3 voluntary rate for 2026-27, up from £17.75",
-        "source": "https://www.gov.uk/voluntary-national-insurance-contributions/rates",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "35 qualifying years",
-        "what": "what a full new State Pension normally needs, for someone with no National Insurance record before 6 April 2016",
-        "source": "https://www.gov.uk/government/publications/your-new-state-pension-explained/your-state-pension-explained",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "10 qualifying years",
-        "what": "the minimum to get any new State Pension at all",
-        "source": "https://www.gov.uk/new-state-pension/your-national-insurance-record-and-your-state-pension",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£241.30 a week",
-        "what": "full new State Pension, 2026-27",
-        "source": "https://www.gov.uk/government/publications/your-new-state-pension-explained/your-state-pension-explained",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "about £6.89 a week",
-        "what": "what each qualifying year after 5 April 2016 adds, where the starting amount is below the full rate",
-        "source": "https://www.gov.uk/government/publications/your-new-state-pension-explained/your-state-pension-explained",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "6 tax years",
-        "what": "the normal window for paying voluntary contributions, with a 5 April deadline each year",
-        "source": "https://www.gov.uk/voluntary-national-insurance-contributions/deadlines",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "5 April 2032",
-        "what": "gov.uk's own worked example: the deadline to fill the 2025-26 year",
-        "source": "https://www.gov.uk/voluntary-national-insurance-contributions/deadlines",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "5 April 2025",
-        "what": "the extended deadline that allowed years back to 2006-07 to be filled — now passed and gone",
-        "source": "https://www.gov.uk/government/publications/national-insurance-contributions-extending-the-voluntary-national-insurance-contributions-deadline/extending-the-voluntary-national-insurance-contributions-deadline",
-        "read": "2026-11-27"
-      }
-    ],
-    "scope": {
-      "nation": "UK",
-      "who": "people with gaps in their National Insurance record who will actually benefit from filling them. Class 3 is the general route — employees earning under the threshold, the unemployed not receiving credits, and people abroad.",
-      "excluded": "anyone with no gaps; married women and widows paying reduced-rate National Insurance, who cannot pay voluntary contributions at all; anyone past the deadline for the year in question; people who were contracted out, for whom gov.uk warns voluntary contributions do not always increase the pension; anyone whose starting amount already equals or exceeds the full new State Pension, where extra years add nothing; anyone who will reach the needed years anyway from future working years; anyone eligible for free National Insurance credits instead, such as carers, parents and jobseekers; and anyone who reached State Pension age before 6 April 2016, who is on the old basic State Pension with different rules.",
-      "from_when": "£18.40 applies 6 April 2026 to 5 April 2027",
-      "automatic": false,
-      "how_to_claim": "check the record and forecast on gov.uk, then pay online or against an 18-digit reference. gov.uk's standing instruction is to contact the Future Pension Centre first if below State Pension age, the Pension Service if at or over it, or the International Pension Centre if abroad, to confirm you will benefit BEFORE paying."
-    },
-    "notes": "The headline is that paying can be money wasted, and gov.uk says so in terms. A post that says 'fill your gaps' without the contracted-out and already-full exclusions is misleading. '35 years' is only right for someone with no record before 6 April 2016 — write it as 'normally 35'. The self-employed with low profits should usually pay Class 2 at £3.65 a week rather than Class 3 at £18.40: paying the wrong class costs about £767 more for a single year. The extended window reaching back to 2006-07 closed on 5 April 2025 and only the 6-year rule now applies; gov.uk does not print the earliest currently-fillable year, so say 'broadly the last 6 years' rather than naming one. Old years are normally paid at the current rate, except Class 3 for the previous two tax years, which is paid at those years' rates. The £19.05 rate for 2027-28 is already announced.",
-    "used": []
-  },
-  {
-    "id": "trading-allowance-1000-casual-side-income",
-    "verified": "2026-11-27",
-    "recheck_after": "2027-04-06",
-    "brands": [
-      "bham",
-      "en",
-      "ola"
-    ],
-    "title": "The £1,000 trading allowance — and why it is not £3,000 yet",
-    "official_page": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
-    "figures": [
-      {
-        "value": "£1,000 a tax year",
-        "what": "the trading allowance as it stands, applying to 2025-26 and 2026-27",
-        "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£3,000 from 6 April 2027",
-        "what": "the announced increase, for 2027-28 onwards — NOT yet law, as it needs Finance Bill 2026-27",
-        "source": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance/increasing-the-trading-allowance",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£1,000",
-        "what": "the separate property allowance, which does not share the trading £1,000",
-        "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£2,500",
-        "what": "gross other income above which Self Assessment registration is required; between £1,000 and £2,500, contact HMRC",
-        "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "5 October",
-        "what": "registration deadline, following the tax year in which gross income exceeded £1,000",
-        "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "up to 1.4 million people",
-        "what": "HMRC's estimate of who the £3,000 change will benefit, with about 100,000 dropping out of reporting altogether",
-        "source": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance/increasing-the-trading-allowance",
-        "read": "2026-11-27"
-      }
-    ],
-    "scope": {
-      "nation": "UK",
-      "who": "individuals with trading or miscellaneous income — self-employment, casual services such as babysitting or gardening, and hiring out personal equipment. Full relief if gross income is £1,000 or less; above that, £1,000 can be deducted INSTEAD of actual expenses.",
-      "excluded": "trading income from a company you or a connected person owns or controls; income from a partnership in which you or a connected person is a partner, partnership trading income being outside the allowance altogether; and income from your own employer or your spouse's or civil partner's employer. Anyone whose expenses exceed £1,000 may use it but would be worse off doing so.",
-      "from_when": "£1,000 applies now and through 2026-27; £3,000 from 6 April 2027 if enacted",
-      "automatic": false,
-      "how_to_claim": "full relief needs no entry on a return, though records of the income must still be kept. Partial relief must be claimed on the return."
-    },
-    "notes": "Do not publish £3,000 as the current figure — it takes effect for 2027-28 and is not yet law. For the 2025-26 returns due 31 January 2027, and for 2026-27, it is £1,000. The test is GROSS income, not profit: £1,100 of takings with £900 of costs is over the threshold. The real trap in Self Assessment season is that you must still register even under £1,000 if you want to claim loss relief, pay voluntary Class 2, or claim Tax-Free Childcare or Maternity Allowance based on self-employment — a low-earning self-employed parent who takes the allowance and files nothing can lose both a qualifying year and a childcare claim. Trading and property allowances are two separate £1,000s. The allowance is per person per tax year, not per trade, and claiming it rules out deducting expenses or capital allowances against that income.",
-    "used": []
-  },
-  {
-    "id": "marriage-allowance-transfer-2026-27",
-    "verified": "2026-11-27",
-    "recheck_after": "2027-04-06",
-    "brands": [
-      "bham",
-      "en",
-      "ola"
-    ],
-    "title": "Marriage Allowance — £252 a year, and the Scottish cut-off nobody mentions",
-    "official_page": "https://www.gov.uk/marriage-allowance",
-    "figures": [
-      {
-        "value": "£1,260",
-        "what": "Personal Allowance transferable under Marriage Allowance, 2026-27 and announced the same for 2027-28",
-        "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "up to £252",
-        "what": "the recipient's tax reduction per tax year",
-        "source": "https://www.gov.uk/marriage-allowance",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£12,570",
-        "what": "Personal Allowance; the lower earner's income must normally be below it",
-        "source": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£12,571 to £50,270",
-        "what": "the recipient's qualifying income band in England, Wales and Northern Ireland",
-        "source": "https://www.gov.uk/marriage-allowance",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "£12,571 to £43,662",
-        "what": "the recipient's qualifying income band in SCOTLAND — starter, basic or intermediate rate",
-        "source": "https://www.gov.uk/marriage-allowance",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "2022-23",
-        "what": "the earliest tax year a claim can currently be backdated to, being the current year plus four earlier years",
-        "source": "https://www.gov.uk/marriage-allowance",
-        "read": "2026-11-27"
-      }
-    ],
-    "scope": {
-      "nation": "UK, but the recipient's qualifying band differs in Scotland: £12,571 to £43,662 against £12,571 to £50,270 elsewhere. gov.uk gives no separate Scottish figure for the lower earner and no Wales-specific figure.",
-      "who": "married couples and civil partners where one partner's income is below the Personal Allowance and the other pays basic rate, or in Scotland starter, basic or intermediate rate. The lower earner transfers £1,260 of allowance and the higher earner's tax falls by up to £252.",
-      "excluded": "couples living together who are not married or in a civil partnership — gov.uk is explicit that they cannot claim; couples where the lower earner's income is at or above the Personal Allowance; couples where the recipient pays higher or additional rate, or in Scotland is above the intermediate rate; and couples already receiving Married Couple's Allowance, as you cannot have both. Receiving a pension or living abroad while still entitled to a UK Personal Allowance is not disqualifying.",
-      "from_when": "£1,260 and £252 apply for 2026-27; claims can reach back to 2022-23",
-      "automatic": false,
-      "how_to_claim": "apply free online on gov.uk, by post for backdated years, on the Self Assessment return, or by phone. Once granted it renews automatically every year until cancelled."
-    },
-    "notes": "The nation difference is sharp and worth the whole post: a Scottish couple where the higher earner is on £46,000 cannot claim, while the identical couple in England can. The automatic renewal is the main thing that goes wrong — a couple whose circumstances change must cancel it or risk an underpayment. Do not reuse HMRC's old 'up to £1,242 backdated' line, which dates from August 2022 and no longer matches the window; gov.uk publishes no combined five-year total. And do not repeat the widely circulated claim that a couple can end up worse off where the lower earner's income sits just under the Personal Allowance — that is not stated at primary source and is unverified.",
-    "used": []
-  },
-  {
-    "id": "companies-house-idv-transition-period-ended",
-    "verified": "2026-11-27",
-    "recheck_after": "2027-01-20",
-    "brands": [
-      "bham",
-      "en",
-      "ola"
-    ],
-    "title": "Companies House identity checks — the transition period is over",
-    "official_page": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
-    "figures": [
-      {
-        "value": "18 November 2025",
-        "what": "date identity verification became a legal requirement and the 12-month transition began",
-        "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "17 November 2026",
-        "what": "end of the transition window for existing directors — now passed",
-        "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "14 days",
-        "what": "the PSC deadline, running from being added to the register, from the confirmation statement due date, or from the start of your birth month depending on which applies",
-        "source": "https://www.gov.uk/guidance/provide-psc-verification",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "14 days",
-        "what": "the length of extension a PSC may request — and it must be requested BEFORE the deadline passes",
-        "source": "https://www.gov.uk/guidance/provide-psc-verification",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "around 90%",
-        "what": "live companies that had complied as at 11 November 2026, with 11.4% on a compliance or enforcement pathway",
-        "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "12.18 million",
-        "what": "appointments verified: 7.32m directors, 4.54m PSCs and 135,000 LLP members",
-        "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
-        "read": "2026-11-27"
-      },
-      {
-        "value": "31 March 2027",
-        "what": "by when Companies House expects all companies to have complied or be on an enforcement pathway",
-        "source": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
-        "read": "2026-11-27"
-      }
-    ],
-    "scope": {
-      "nation": "UK",
-      "who": "directors and director-equivalents including members, general partners and managing officers; directors of overseas companies registered in the UK; people with significant control; LLP members; and authorised corporate service providers.",
-      "excluded": "identity verification is still to come, at a later date, for people who merely file at Companies House, for limited partnerships, for corporate directors of companies, for corporate members of LLPs, and for officers of corporate PSCs — none of these must verify yet. The PSC verification service also cannot be used where the PSC has personal information protected at Companies House. Sole traders and ordinary partnerships are outside Companies House entirely.",
-      "from_when": "legal requirement since 18 November 2025; transition period ended 17 November 2026",
-      "automatic": false,
-      "how_to_claim": "verify free through GOV.UK One Login, or through an Authorised Corporate Service Provider, who may charge. Verifying is only half of it — the resulting Companies House personal code must then be connected to each role."
-    },
-    "notes": "Clients think verifying is the end of it. It is not: the personal code must be linked to each role, and a PSC who verifies but never submits the code is still non-compliant. Continuing to act as a director without complying is an offence, and the company and its other directors may be committing one too; Companies House has already used financial penalties, prosecutions and Insolvency Service referrals leading to fines and disqualifications. A non-verified person cannot be appointed to an existing company, incorporate a new one, or register as a service provider. Three points matter for non-UK-national directors: a biometric passport from ANY country is accepted, the service-provider route can be used from any country, and one email address can only ever verify one identity. Expired passports are not accepted; an expired DVLA licence is accepted within 90 days, and an expired BRP, BRC or FWP within 18 months.",
     "used": []
   },
   {
