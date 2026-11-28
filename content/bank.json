@@ -17263,5 +17263,515 @@
   },
   "notes": "This is NOT law. The page states the legislation is expected to receive Royal Assent after 1 January 2027, will take effect retrospectively once enacted, is subject to the parliamentary process and may change, and that until then liable persons must keep meeting the requirements in force. So the line to clients is: assume you are in scope, keep the records and the origin evidence, and do not stand down. Note an inconsistency to be aware of — HMRC's guidance page updated 23 November 2026 says flatly that EU, EEA and Swiss goods do not count toward the threshold from 1 January 2027, while the draft-legislation page says the law is not yet made. Cite the draft-legislation page for status. Failure to notify when required to register attracts penalties. Relevant to any client importing aluminium, cement, fertiliser, hydrogen or iron and steel.",
   "used": []
+ },
+ {
+  "id": "renters-rights-prs-database-west-midlands-first-si-2026-1231",
+  "verified": "2026-11-28",
+  "recheck_after": "2027-03-01",
+  "brands": [
+   "bham",
+   "ola"
+  ],
+  "title": "The Private Rented Sector Database opens region by region — West Midlands landlords first, Luton and the East of England next",
+  "official_page": "https://www.legislation.gov.uk/uksi/2026/1231/made",
+  "figures": [
+   {
+    "value": "15 December 2026",
+    "what": "Date the Private Rented Sector Database starts taking landlord entries and dwelling entries for the West Midlands region (reg 2(1) and Schedule 2). The West Midlands region is defined in Schedule 1 and includes Birmingham, Coventry, Dudley, Sandwell, Solihull, Walsall and Wolverhampton",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1231/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "15 March 2027",
+    "what": "Date the landlord's own duty under section 82(3) of the Renters' Rights Act 2025 begins in the West Midlands — the duty to ensure there is both an active landlord entry and an active dwelling entry on the database, and to keep them updated (reg 2(2) and Schedule 3)",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1231/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "15 January 2027",
+    "what": "Date the database starts taking entries for the East of England region, which Schedule 1 defines as including Luton Borough Council, Bedford, Central Bedfordshire, Hertfordshire, Cambridgeshire, Essex, Norfolk, Peterborough, Southend-on-Sea, Suffolk and Thurrock (Schedule 2)",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1231/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "15 April 2027",
+    "what": "Date the section 82(3) landlord registration duty begins for the East of England region, including Luton (Schedule 3)",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1231/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "15 December 2026",
+    "what": "Date the supporting provisions come into force for the whole of England: section 81 (fees for landlord and dwelling entries), section 82(5) (validity of a residential tenancy), section 84 (unique identifiers), section 89 (removal of entries), section 91 (financial penalties) and section 92 (offences) (reg 3)",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1231/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "15 September 2027",
+    "what": "Date the database also starts taking entries for people who only intend to become residential landlords, and for dwellings they intend to let (reg 4)",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1231/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "15 November 2027",
+    "what": "The last of the nine regional start dates for the section 82(3) landlord duty — the South West, the final region in Schedule 3. The full Schedule 3 order is West Midlands 15 March 2027, East of England 15 April 2027, East Midlands 15 May 2027, South East 15 June 2027, Yorkshire and Humber 15 July 2027, North West 15 August 2027, North East 15 September 2027, London 15 October 2027, South West 15 November 2027",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1231/made",
+    "read": "2026-11-28"
+   }
+  ],
+  "scope": {
+   "nation": "England",
+   "who": "Residential landlords in England, as defined by section 63 of the Renters' Rights Act 2025 — a person who is a landlord under a residential tenancy. The duty bites by the region the dwelling is in, not where the landlord lives, so a landlord living elsewhere who lets a property in Birmingham is on the West Midlands timetable",
+   "excluded": "Landlords in Wales, Scotland and Northern Ireland are completely outside this — the Renters' Rights Act 2025 database provisions are headed 'HOUSING, ENGLAND' and these Regulations commence them for English regions only (Welsh landlords register with Rent Smart Wales under separate Welsh law instead). Also excluded for now: people who only intend to become landlords and dwellings only intended to be let, who cannot be entered on the database until 15 September 2027; and landlords in the other eight English regions, who are not caught on the West Midlands dates but on their own later Schedule 1 / Schedule 2 / Schedule 3 dates",
+   "from_when": "Regulations made 24 November 2026. The database starts taking West Midlands entries 15 December 2026; the West Midlands landlord duty under section 82(3) starts 15 March 2027; East of England (including Luton) 15 January 2027 and 15 April 2027 respectively; the remaining regions roll out monthly to 15 November 2027",
+   "automatic": false,
+   "how_to_claim": "Nothing happens automatically. The landlord must create and maintain an active landlord entry for themselves and an active dwelling entry for each let property on the Private Rented Sector Database, pay the entry fee set under section 81, and keep the entries updated. From the region's Schedule 3 date that is a legal duty, backed by the financial penalties in section 91 and the offences in section 92"
+  },
+  "notes": "This is law, not a proposal — S.I. 2026/1231 was made on 24 November 2026 and is the fourth commencement instrument under the Renters' Rights Act 2025. The easiest error is to treat it as a single national start date: there are TWO separate regional timetables and they are nine months apart at the ends. Schedule 2 is when the database can accept entries for that region; Schedule 3 is when the landlord's own duty to hold active entries starts, three months later in each case. Copy must not say landlords 'must register from 15 December 2026' — on that date the West Midlands part of the database merely opens; the West Midlands duty starts 15 March 2027. The second easiest error is the region map: Schedule 1 defines 'West Midlands' widely, taking in Herefordshire, Shropshire, Staffordshire, Stoke-on-Trent, Telford and Wrekin, Warwickshire and Worcestershire as well as the seven metropolitan councils, and it fixes the council areas as they existed on 15 December 2026. Luton is in the 'East of England' region, not the South East or East Midlands — a month behind the West Midlands on the database and a month behind on the duty. Do not state a penalty amount: these Regulations commence sections 91 and 92 but do not themselves set any figure, and no penalty figure was verified for this entry. Do not say the database 'bans advertising' — reg 2(2) commences section 82(3) only, which the Regulations head 'restriction on letting dwellings' and the explanatory note describes as the duty to ensure active landlord and dwelling entries exist and are kept updated. England only; never present this as UK-wide.",
+  "used": []
+ },
+ {
+  "id": "non-domestic-rating-ev-charging-point-relief-wales-2027",
+  "verified": "2026-11-28",
+  "recheck_after": "2027-04-30",
+  "brands": [
+   "en"
+  ],
+  "title": "Wales: full business rates relief for public electric vehicle charging points from 1 April 2027",
+  "official_page": "https://www.legislation.gov.uk/wsi/2026/141/made",
+  "figures": [
+   {
+    "value": "1 April 2027",
+    "what": "Date the Non-Domestic Rating (Electric Vehicle Charging Point Relief) (Wales) Regulations 2026 (W.S.I. 2026/141) come into force and have effect from (reg 1(2))",
+    "source": "https://www.legislation.gov.uk/wsi/2026/141/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "31 March 2036",
+    "what": "Date the relief expires — the Regulations have effect for the period beginning 1 April 2027 and ending with 31 March 2036, so a nine-year window (reg 1(2))",
+    "source": "https://www.legislation.gov.uk/wsi/2026/141/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "Full relief (100%)",
+    "what": "The level of relief. The explanatory note states the Regulations 'set out the conditions to be satisfied for an electric vehicle charging point and associated parking bay to be eligible for full relief from non-domestic rating liability', under paragraph 8B(2) of Schedule 4ZA (occupied) and paragraph 2B(2) of Schedule 4ZB (unoccupied) to the Local Government Finance Act 1988",
+    "source": "https://www.legislation.gov.uk/wsi/2026/141/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "25 November 2026",
+    "what": "Date the Regulations were made by the Welsh Ministers, signed by Elin Jones, Cabinet Minister for Finance, after a draft was laid before and approved by resolution of Senedd Cymru",
+    "source": "https://www.legislation.gov.uk/wsi/2026/141/made",
+    "read": "2026-11-28"
+   }
+  ],
+  "scope": {
+   "nation": "Wales",
+   "who": "Ratepayers in Wales whose hereditament consists wholly or mainly of an electric vehicle charging point and associated parking bay AND is accessible and open to the public for public use (reg 2). An unoccupied hereditament qualifies if, when next occupied, it will meet both of those conditions (reg 3). 'Electric vehicle charging point' is defined as a facility for charging a road vehicle that can be propelled by electrical power, whether or not it can also be propelled by another kind of power",
+   "excluded": "Charging points in England, Scotland and Northern Ireland — these Regulations apply in relation to Wales only. Within Wales: charging points that are not accessible and open to the public for public use, so a private domestic charger, a customer-only or staff-only workplace charger behind a barrier, or a fleet depot charger gets nothing. Also excluded is any hereditament that is not wholly or mainly the charging point and its parking bay, so a petrol forecourt, shop, car park or hotel with chargers as part of a larger rated property does not qualify on these conditions. Nothing is available before 1 April 2027 or after 31 March 2036",
+   "from_when": "Made 25 November 2026; in force and effective 1 April 2027 until 31 March 2036",
+   "automatic": true,
+   "how_to_claim": "The Regulations set conditions for relief under the Local Government Finance Act 1988 and contain no application process — the relief is given by the billing authority (the local council) against the non-domestic rates bill. Check the bill from 1 April 2027 and raise it with the council if the relief is not shown"
+  },
+  "notes": "Wales only — this must never be tagged or written as a Birmingham, England or UK-wide measure. There is no equivalent English instrument in this entry and none was verified. Two conditions, both of which have to be met, and the public-access one is where readers will get it wrong: the hereditament must consist wholly or mainly of the charging point and its associated parking bay, and it must be accessible and open to the public for public use. A useful detail the copy can use: reg 2(2) says the hereditament keeps qualifying where the charging point temporarily stops operating and is unavailable for public use, so a breakdown does not cost the relief. The level of relief is described in the instrument's own explanatory note as 'full relief from non-domestic rating liability' — copy should use 'full relief' or '100% relief' and should not invent a percentage of its own. The instrument is made law (approved by Senedd Cymru and signed on 25 November 2026), so write it as law in force from 1 April 2027, not as a proposal. Note the hard expiry on 31 March 2036. This is a business rates measure and is a different subject from the already-banked VAT and Climate Change Levy treatment of public and workplace EV charging.",
+  "used": []
+ },
+ {
+  "id": "occupational-pensions-revaluation-order-2026-normal-pension-age-2027",
+  "verified": "2026-11-28",
+  "recheck_after": "2027-11-30",
+  "brands": [
+   "en"
+  ],
+  "title": "Left a final salary pension behind? The revaluation percentages for reaching pension age in 2027 are now set",
+  "official_page": "https://www.legislation.gov.uk/uksi/2026/1243/made",
+  "figures": [
+   {
+    "value": "3.5%",
+    "what": "Higher revaluation percentage for the revaluation period 1 January 2026 to 31 December 2026 — the one-year figure, used where deferment started in 2026 (article 2, column 2 of the table)",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1243/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "2.5%",
+    "what": "Lower revaluation percentage for the revaluation period 1 January 2026 to 31 December 2026 (article 2, column 3 of the table)",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1243/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "7.4% higher / 5.1% lower",
+    "what": "Revaluation percentages for the two-year period 1 January 2025 to 31 December 2026",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1243/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "16.6% higher / 10.4% lower",
+    "what": "Revaluation percentages for the period 1 January 2023 to 31 December 2026 — a four-year gap, showing how much the two columns diverge over time",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1243/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "274.7%",
+    "what": "The highest figure in the Order: the higher revaluation percentage for the longest revaluation period, 1 January 1986 to 31 December 2026. No lower percentage is specified for periods starting before 1 January 2009",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1243/made",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "1 January 2027",
+    "what": "Date the Occupational Pensions (Revaluation) Order 2026 (S.I. 2026/1243) comes into force. It was made 24 November 2026 and laid before Parliament 26 November 2026",
+    "source": "https://www.legislation.gov.uk/uksi/2026/1243/made",
+    "read": "2026-11-28"
+   }
+  ],
+  "scope": {
+   "nation": "England, Wales and Scotland (the Order extends to England and Wales and Scotland — article 1(2))",
+   "who": "People with deferred benefits in an occupational pension scheme whose benefits must be revalued by the final salary method under section 84 of and Schedule 3 to the Pension Schemes Act 1993, and who reach their scheme's normal pension age in 2027. The percentage that applies depends on the revaluation period — broadly, the calendar years between leaving the scheme and 31 December 2026 — and the Order gives one row for each of the 41 revaluation periods from 1 January 1986 onwards. Scheme trustees and administrators use these figures to work out the benefit",
+   "excluded": "Northern Ireland, which has its own parallel order and is not covered by this one. Anyone who reaches their scheme's normal pension age in a year other than 2027 — those years have their own Orders, so the 2026 Order's figures are not a general-purpose uprating. Money purchase and defined contribution pots, which are not revalued this way at all. Active members still accruing, rather than deferred members. And there is no lower revaluation percentage at all for any revaluation period starting before 1 January 2009, so for a pre-2009 leaver only the higher column exists",
+   "from_when": "Made 24 November 2026, laid before Parliament 26 November 2026, in force 1 January 2027",
+   "automatic": true,
+   "how_to_claim": "Nothing to claim. The scheme trustees or administrators apply the revaluation when they calculate the deferred benefit; the figures are a check on what the scheme tells you, not something to apply for"
+  },
+  "notes": "The subject is narrow and must be worded narrowly: this Order sets the revaluation percentages for people reaching their scheme's normal pension age in 2027 only. The easiest error by a mile is to read 3.5% as a general pension increase or an uprating of pensions in payment — it is neither. It is the revaluation of a deferred final-salary benefit between leaving the scheme and the end of 2026, and 3.5% is only the figure for the single year 1 January to 31 December 2026. Someone who left in, say, 2013 uses the 1 January 2013 to 31 December 2026 row (49.6% higher, 41.3% lower), not 3.5%. The second error is treating the two columns as alternatives the member can pick: the higher and lower revaluation percentages are defined in paragraph 2(2) and 2(3A) of Schedule 3 to the Pension Schemes Act 1993 and which one applies turns on the scheme and the benefit, so copy must send people to their scheme, not tell them which column is theirs. Extent is England and Wales and Scotland — Northern Ireland is NOT covered and must not be swept in. The Order is made and laid, so write it as law coming into force on 1 January 2027. This is an annual Order; the 2027 edition will replace these figures for people reaching normal pension age in 2028.",
+  "used": []
+ },
+ {
+  "id": "access-to-work-grant-cap-and-cost-share",
+  "verified": "2026-11-28",
+  "recheck_after": "2027-04-30",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Access to Work: a grant of up to £69,260 a year for equipment, support workers and travel to work",
+  "official_page": "https://www.gov.uk/access-to-work",
+  "figures": [
+   {
+    "value": "£69,260 a year",
+    "what": "Maximum Access to Work grant per person per year (cap stated on the gov.uk employer factsheet; the dated cap table on that page runs to 31 March 2025 and no later band is published there)",
+    "source": "https://www.gov.uk/government/publications/access-to-work-guide-for-employers/access-to-work-factsheet-for-employers",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£6,500",
+    "what": "Minimum annual turnover a self-employed applicant must have to qualify",
+    "source": "https://www.gov.uk/access-to-work/eligibility",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "80%",
+    "what": "Share of approved costs Access to Work refunds between the employer threshold and £10,000 where cost share applies (employer pays 100% up to the threshold and 20% between the threshold and £10,000)",
+    "source": "https://www.gov.uk/government/publications/access-to-work-guide-for-employers/access-to-work-factsheet-for-employers",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "nil / £500 / £1,000",
+    "what": "Employer cost-share threshold by employer size: 0 to 49 employees nil, 50 to 249 employees £500, over 250 employees £1,000",
+    "source": "https://www.gov.uk/government/publications/access-to-work-guide-for-employers/access-to-work-factsheet-for-employers",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£10,000",
+    "what": "Ceiling of the cost-share band; any balance above £10,000 is normally met in full by Access to Work",
+    "source": "https://www.gov.uk/government/publications/access-to-work-guide-for-employers/access-to-work-factsheet-for-employers",
+    "read": "2026-11-28"
+   }
+  ],
+  "scope": {
+   "nation": "England, Scotland and Wales (Northern Ireland has a separate system)",
+   "who": "People aged 16 or over with a physical or mental health condition or disability who are in paid work, or starting or returning to paid work within 12 weeks, and who live and work in England, Scotland or Wales. Employment, self-employment, apprenticeships, work trials, work experience, internships and work placements all count. Available alongside most benefits if you work more than 1 hour a week; no earnings or savings test for employees. Company directors can apply if the company is registered at Companies House in Cardiff.",
+   "excluded": "People who live and work in Northern Ireland (separate system); people living in the Channel Islands or the Isle of Man; voluntary (unpaid) work; civil servants, whose employer provides the support instead; self-employed people with annual turnover under £6,500; anyone who has already had Access to Work mental health support, who cannot apply for it a second time; and reasonable adjustments, which the employer must make and pay for by law and which Access to Work will not fund. Cost share applies where the person has worked for the employer more than 6 weeks at the point of applying, and then only to special aids and equipment and adaptations to premises or equipment; it never applies to self-employed applicants or to the Mental Health Support Service. ESA claimants can hold both only if working under 16 hours a week.",
+   "from_when": "Scheme is ongoing. Grants awarded on or after 1 October 2015 are capped; the cap published on gov.uk is £69,260 a year, last dated band 8 April 2024 to 31 March 2025.",
+   "automatic": false,
+   "how_to_claim": "Apply for the grant online at gov.uk/access-to-work, or by phone on 0800 121 7479 (BSL video relay available). Mental health support is applied for separately and directly to either Able Futures or Maximus — one only, not both. Communication support at a job interview is a separate application. The grant does not affect other benefits and is not repaid; you or your employer may have to pay costs up front and claim them back."
+  },
+  "notes": "Not in the bank: the bank holds reasonable-adjustments duty (reasonable-adjustments-duty-employers) and Disabled Facilities Grant, which are different things. The copy must keep the two apart: Access to Work explicitly will NOT pay for reasonable adjustments, which the employer must fund. Nation must be written as England, Scotland and Wales — tagging this UK-wide is wrong because Northern Ireland runs its own system. On the £69,260: the gov.uk employer factsheet states the cap as £69,260 a year in its text, but its dated table stops at the band ending 31 March 2025, so the copy should write 'up to £69,260 a year' and not attach a tax-year label such as 2026-27 to it. Three separate strands exist (practical support grant, mental health support, interview communication support) and they are applied for in three different ways — do not merge them into one application route. Adjacent banked subject: reasonable-adjustments-duty-employers — do not publish both in the same week, and keep the line that Access to Work does not fund reasonable adjustments.",
+  "used": []
+ },
+ {
+  "id": "fscs-deposit-protection-limit-120000",
+  "verified": "2026-11-28",
+  "recheck_after": "2027-06-30",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "FSCS deposit protection is £120,000 per person per firm — and £1.4 million for a temporary high balance",
+  "official_page": "https://www.bankofengland.co.uk/explainers/what-is-the-financial-services-compensation-scheme",
+  "figures": [
+   {
+    "value": "£120,000",
+    "what": "FSCS deposit protection limit per depositor per PRA-authorised firm, for firms that fail on or after 1 December 2025 (raised from £85,000)",
+    "source": "https://www.bankofengland.co.uk/news/2025/november/pra-confirms-fscs-deposit-limit-to-be-increased-to-120000-from-1-december",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£240,000",
+    "what": "Protection on a joint account with two holders, because the limit applies per person",
+    "source": "https://www.bankofengland.co.uk/explainers/what-is-the-financial-services-compensation-scheme",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£1.4 million",
+    "what": "Temporary high balance limit from 1 December 2025 (raised from £1 million), covering qualifying life events such as a house sale or an insurance payout, for up to six months",
+    "source": "https://www.bankofengland.co.uk/news/2025/november/pra-confirms-fscs-deposit-limit-to-be-increased-to-120000-from-1-december",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£85,000",
+    "what": "The old limit, which still applies to firms that failed before 1 December 2025",
+    "source": "https://www.bankofengland.co.uk/explainers/what-is-the-financial-services-compensation-scheme",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "90% or 100%",
+    "what": "Share of the loss protected on insurance claims, depending on the type of policy (whole of life assurance 100%, pet insurance 90%)",
+    "source": "https://www.bankofengland.co.uk/explainers/what-is-the-financial-services-compensation-scheme",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "7 days",
+    "what": "Typical time within which FSCS pays deposit claims after a bank, building society or credit union fails; complex claims take longer",
+    "source": "https://www.bankofengland.co.uk/explainers/what-is-the-financial-services-compensation-scheme",
+    "read": "2026-11-28"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom",
+   "who": "Depositors with money in current accounts, savings accounts, cash ISAs and savings bonds held by banks, building societies and credit unions authorised by the Prudential Regulation Authority. The limit is per person per authorised firm; each holder of a joint account is protected separately.",
+   "excluded": "Money above the limit is not protected. Deposits with firms that are not PRA-authorised are not covered. Brands owned by the same authorised firm share one £120,000 limit, so someone holding accounts across two brands of the same firm is still protected only to £120,000 in total. For firms that failed before 1 December 2025 the old £85,000 limit still applies, not £120,000. Temporary high balance protection lasts only up to six months and only for qualifying life events (there is no limit for temporary high balances linked to personal injury or incapacity). On the insurance side, reinsurance contracts are not covered, nor are policies that are not issued by a UK-authorised firm through an establishment in the UK, Gibraltar, the Channel Islands or the Isle of Man, nor risks not insured in the UK; and many policy types are protected at 90%, not 100%.",
+   "from_when": "£120,000 limit in force from 1 December 2025 for firms failing on or after that date; £1.4 million temporary high balance limit also from 1 December 2025. Firms had until the end of May 2026 to update the FSCS information sheet and branch disclosure materials.",
+   "automatic": true,
+   "how_to_claim": "No action is needed when a bank, building society or credit union fails: FSCS gets what it needs from the insolvency practitioner and usually pays deposit account holders direct by electronic payment or cheque, typically within 7 days. A temporary high balance claim does need extra information to be supplied. Depositors holding more than the limit can act in advance by splitting money across different PRA-authorised firms."
+  },
+  "notes": "Not in the bank (no FSCS, deposit protection or compensation-limit entry in titles.txt). The dangerous error is the date: the limit rose on 1 December 2025, not 2026, and it bites on when the FIRM FAILS, not when the money was deposited — a saver whose bank failed in, say, October 2025 is still on £85,000. Second error to avoid: writing the limit as per account or per brand. It is per person per PRA-authorised firm, and one firm can own several brands. Keep the deposit limit and the insurance protection (90% or 100% of loss) clearly separate. The PRA sets the deposit and insurance rules and the FCA the rules for investments and pension advice, so do not state a single FSCS limit for every kind of claim. Source is the PRA / Bank of England, which is a permitted primary source; FSCS's own site was not used for any figure here.",
+  "used": []
+ },
+ {
+  "id": "energy-switching-guaranteed-standards-compensation-40",
+  "verified": "2026-11-28",
+  "recheck_after": "2027-04-30",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Energy switching gone wrong: £40 automatic compensation each time, under Ofgem's Guaranteed Standards",
+  "official_page": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/switch-your-home-energy-supplier",
+  "figures": [
+   {
+    "value": "£40",
+    "what": "Paid by the new supplier if the switch of electricity or gas supply is not completed within 5 working days; paid automatically into the energy account or bank account",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/switch-your-home-energy-supplier",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£40",
+    "what": "Paid if a supply is switched by mistake (erroneous transfer), by cheque or bank transfer within 10 working days of the supplier agreeing a mistake was made",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/switch-your-home-energy-supplier",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£40",
+    "what": "Extra payment if the supplier fails to pay compensation owed within 10 working days",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/switch-your-home-energy-supplier",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£40 each",
+    "what": "Extra payments where the supplier takes more than 20 working days to reply after being told of a switching mistake, where the old and new suppliers take more than 20 working days to agree whether the switch was correct (each pays £40), or where the old supplier takes more than 21 working days to re-register the supply",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/switch-your-home-energy-supplier",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "5 working days",
+    "what": "The switching deadline the Guaranteed Standard holds suppliers to",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/switch-your-home-energy-supplier",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "21 working days",
+    "what": "Time the old supplier has to switch a mistakenly transferred customer back",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/switch-your-home-energy-supplier",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£500",
+    "what": "Prepayment meter debt you can still owe and switch supplier (the Debt Assignment Protocol level stated on the Ofgem page)",
+    "source": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/switch-your-home-energy-supplier",
+    "read": "2026-11-28"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (England, Scotland and Wales)",
+   "who": "Domestic energy customers who pay a supplier directly for the electricity or gas they use at home, where a switch is late, where they are switched without permission, or where the supplier is slow to put a switching mistake right. The payments are set by Ofgem's Supplier Guaranteed Standards of Performance and are supposed to be paid without the customer having to claim.",
+   "excluded": "Northern Ireland, where energy is regulated by the Utility Regulator and Ofgem's Guaranteed Standards do not apply. Heat network customers, who cannot switch supplier at all because the supplier runs the heating equipment for the whole building. Customers who have been in debt to their supplier for more than 28 days, who must repay before switching (a prepayment customer can still switch owing up to £500). Tenants whose landlord holds the energy contract and pays the bills. Businesses, including a home business on a business energy contract. An exit fee on a fixed tariff left early is a contractual charge, not a failure, and attracts no compensation; nor does a supplier simply going out of business, where Ofgem moves the customer to a new supplier instead.",
+   "from_when": "Standards in force and current as published on ofgem.gov.uk, read 28 November 2026. Ofgem reviews the payment levels periodically for inflation.",
+   "automatic": true,
+   "how_to_claim": "The late-switch payment should arrive automatically into the energy account or bank account. For a switch made by mistake, the customer must contact the old supplier and tell them; the payment then follows within 10 working days of the supplier accepting the mistake. If a payment owed does not arrive within 10 working days, a further £40 becomes due on top."
+  },
+  "notes": "Not in the bank: titles.txt has the Ofgem price cap and the Priority Services Register, but nothing on Guaranteed Standards of Performance or switching compensation, and nothing on energy consumer compensation amounts. Two things the copy must get right. First, the nation: these are Ofgem standards, so Great Britain only — Northern Ireland is the Utility Regulator and must not be swept in, and the entry must not be written as UK-wide. Second, the £40 payments stack: a single botched switch can produce several separate £40 payments (late switch, erroneous transfer, late payment of compensation, slow reply, slow re-registration), so the copy should say '£40 each time' rather than implying one capped payment. Keep this distinct from compensation for power cuts, which runs under the separate electricity distribution Guaranteed Standards and was not verified here.",
+  "used": []
+ },
+ {
+  "id": "lay-off-guarantee-pay-christmas-shutdown",
+  "verified": "2026-11-28",
+  "recheck_after": "2027-04-06",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Sent home over the Christmas shutdown with no pay? Statutory guarantee pay is £41 a day",
+  "official_page": "https://www.gov.uk/lay-offs-short-timeworking",
+  "figures": [
+   {
+    "value": "£41",
+    "what": "maximum statutory guarantee pay for each workless day during a lay-off or short-time working; if you normally earn less than £41 a day you get your normal daily rate",
+    "source": "https://www.gov.uk/lay-offs-short-timeworking/guarantee-pay",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "5 days in any 3-month period",
+    "what": "maximum number of days guarantee pay is payable for",
+    "source": "https://www.gov.uk/lay-offs-short-timeworking/guarantee-pay",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£205",
+    "what": "maximum total guarantee pay in any 3-month period (5 days at £41)",
+    "source": "https://www.gov.uk/lay-offs-short-timeworking/guarantee-pay",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "1 month",
+    "what": "continuous employment needed to qualify for guarantee pay; part-time workers included",
+    "source": "https://www.gov.uk/lay-offs-short-timeworking/guarantee-pay",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "1 working day",
+    "what": "a lay-off is being off work for at least this long; there is no limit on how long a lay-off or short-time working can last",
+    "source": "https://www.gov.uk/lay-offs-short-timeworking",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "4 weeks in a row, or 6 weeks in a 13-week period",
+    "what": "how long a lay-off or short-time working must run before the employee can apply for redundancy and claim redundancy pay",
+    "source": "https://www.gov.uk/lay-offs-short-timeworking",
+    "read": "2026-11-28"
+   }
+  ],
+  "scope": {
+   "nation": "Great Britain (England, Wales and Scotland)",
+   "who": "Employees laid off or put on short-time working who are not being paid, with at least 1 month's continuous employment, including part-time workers (entitlement worked out proportionally). Full pay is still due unless the contract allows unpaid or reduced-pay lay-offs.",
+   "excluded": "Anyone who does some work on the day - guarantee pay cannot be claimed for a day on which any work is done; employees laid off because of industrial action; employees with under 1 month's continuous employment; employees who refuse reasonable alternative work, including work outside their contract; employees who do not reasonably make sure they are available for work; employees paid under the employer's own guarantee pay scheme, who do not get statutory lay-off pay on top; and Northern Ireland, which is not covered by this gov.uk guidance.",
+   "from_when": "£41 a day is the figure published on gov.uk and read on 28 November 2026; the Employment Rights Act 1996 limits are normally uprated from 6 April each year.",
+   "automatic": false,
+   "how_to_claim": "The employer should pay it with wages for the workless days. Not paying guarantee pay counts as an unlawful deduction from wages and the employee can make a claim to an employment tribunal. After 4 consecutive weeks, or 6 weeks in a 13-week period, the employee can instead apply for redundancy and claim redundancy pay."
+  },
+  "notes": "This is the Christmas-shutdown question: a factory, site or workshop closes for two or three weeks and staff are sent home unpaid. Two errors to avoid. First, unpaid lay-off is only lawful if the contract allows unpaid or reduced-pay lay-offs - gov.uk says 'You should get your full pay unless your contract allows unpaid or reduced pay lay-offs', so the default is full pay, and guarantee pay is only the floor where the contract does permit it. Second, the cap is per 3-month period, not per lay-off: £41 x 5 days = £205 is the whole entitlement for a three-month window, so a long Christmas shutdown does not produce more. Copy must not call £41 'the lay-off rate' - it is a maximum, and someone who normally earns less than £41 a day gets their normal daily rate. NATION: gov.uk guidance covers Great Britain and the entitlement sits in the Employment Rights Act 1996. Northern Ireland has its own statute (the Employment Rights (Northern Ireland) Order 1996) and its own limits; I did NOT verify the NI figure, so the copy must not state £41 for Northern Ireland - tag the fact to Great Britain or say NI readers should check nidirect. Not Self Assessment and not a tax calendar item, so no overlap with the January-season bank; the bank holds statutory redundancy pay caps and insolvency payments but nothing on lay-off, short-time working or guarantee pay.",
+  "used": []
+ },
+ {
+  "id": "vat-refund-non-uk-business-31-december-2026",
+  "verified": "2026-11-28",
+  "recheck_after": "2027-07-01",
+  "brands": [
+   "en",
+   "ola"
+  ],
+  "title": "Overseas businesses reclaiming UK VAT: the claim for the year to 30 June 2026 must be in by 31 December 2026",
+  "official_page": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+  "figures": [
+   {
+    "value": "31 December",
+    "what": "the deadline - 'You must submit your application by 31 December following the end of the prescribed year'; for the prescribed year 1 July 2025 to 30 June 2026 that is 31 December 2026, and the notice says the time limit is applied strictly",
+    "source": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "1 July to 30 June",
+    "what": "the refund period, called the prescribed year; an application must cover no more than the prescribed year and no less than 3 calendar months, unless the period is the remainder of the prescribed year",
+    "source": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£130",
+    "what": "minimum amount claimable where the application covers at least 3 calendar months but less than the full prescribed year",
+    "source": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "£16",
+    "what": "minimum amount claimable where the application covers the full prescribed year, or less than 3 calendar months because it is the remainder of the prescribed year",
+    "source": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "VAT65A",
+    "what": "the application form, which must go in with a certificate of status and copies of the original invoices and supporting documents",
+    "source": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+    "read": "2026-11-28"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom (the Isle of Man is treated as part of the UK for this scheme)",
+   "who": "Businesses registered for business purposes in a country outside the UK that have paid UK VAT on goods and services bought in the UK, or on imports into the UK - for example VAT on taking part in a UK trade fair. Legal basis: Value Added Tax Act 1994 section 39 and the Value Added Tax Regulations 1995 (SI 1995/2518) Parts 20A and XXI.",
+   "excluded": "A business that is registered, liable or eligible to be registered for VAT in the UK cannot use the scheme - it recovers through its UK return instead; a business with a place of business or other residence in the UK, or which makes supplies in the UK, is excluded, except for transport services related to the international carriage of goods and supplies where the UK customer accounts for the VAT; a business whose own country does not allow similar concessions to UK businesses on its own turnover taxes is refused on reciprocity grounds; VAT on goods and services used for non-business activities cannot be reclaimed; and for supplies made in Northern Ireland the notice sends readers to separate guidance, so this scheme is not the route for those.",
+   "from_when": "The notice applies to supplies made on or after 1 January 2021. The 31 December deadline and the £130 and £16 minimums were on the page on 28 November 2026.",
+   "automatic": false,
+   "how_to_claim": "Form VAT65A plus a certificate of status, original invoices and supporting documents, sent to HMRC's Overseas Repayment Unit either electronically through the file transfer service or by post. A postal claim must be posted on or before 31 December and HMRC may ask for proof of postage. Claims are handled first come, first served, HMRC will not return any documents, and a claim is rejected in full or in part if the original hard copies are not kept."
+  },
+  "notes": "This is a real deadline inside the 28 November 2026 to 9 January 2027 window that has nothing to do with Self Assessment, and the bank holds nothing on it. The commercially useful audience for Ola: a Romanian or other EU company that paid UK VAT on a trade fair, exhibition stand, hotel, conference or UK-bought goods between 1 July 2025 and 30 June 2026 has until 31 December 2026 and then the money is gone - HMRC says the time limit 'is applied strictly'. Two traps the copy must get right. First, the two different minimums: £130 for a part-year claim of at least 3 months, £16 for a full-year claim or the final remainder period - do not quote one figure as 'the minimum'. Second, this is NOT the scheme for a UK business reclaiming VAT paid abroad (that goes through the other country's authority) and it is not for a business that is already UK VAT registered or should be. Where the VAT was incurred on supplies made in Northern Ireland, the notice points to separate guidance - the copy must not say 'anywhere in the UK' without that caveat. The notice also requires a VAT group claim to name the full business names of all group members for the application period. No devolved variation: VAT is reserved.",
+  "used": []
+ },
+ {
+  "id": "nmw-record-keeping-six-years-and-worker-access",
+  "verified": "2026-11-28",
+  "recheck_after": "2027-03-31",
+  "brands": [
+   "bham",
+   "en",
+   "ola"
+  ],
+  "title": "Minimum wage records: employers must keep them for six years, and a worker can demand to see them in 14 days",
+  "official_page": "https://www.legislation.gov.uk/uksi/2015/621/regulation/59",
+  "figures": [
+   {
+    "value": "six years",
+    "what": "how long an employer must keep National Minimum Wage records - reg 59(8): the period begins with the day on which the pay reference period immediately following the one the records relate to ends",
+    "source": "https://www.legislation.gov.uk/uksi/2015/621/regulation/59",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "1 April 2021",
+    "what": "the date the six-year period replaced the previous shorter period - words in reg 59(8) substituted by The National Minimum Wage (Amendment) Regulations 2021 (S.I. 2021/329) regs 1, 2(5)",
+    "source": "https://www.legislation.gov.uk/uksi/2015/621/regulation/59",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "a single document",
+    "what": "reg 59(2): the records must be in a form that lets everything kept about a worker for a pay reference period be produced in one document",
+    "source": "https://www.legislation.gov.uk/uksi/2015/621/regulation/59",
+    "read": "2026-11-28"
+   },
+   {
+    "value": "14 days",
+    "what": "National Minimum Wage Act 1998 s.10(9): once a worker serves a production notice the employer must produce the relevant records before the end of the 14 days following the date the notice is received, or at a later time agreed within that period",
+    "source": "https://www.legislation.gov.uk/ukpga/1998/39/section/10",
+    "read": "2026-11-28"
+   }
+  ],
+  "scope": {
+   "nation": "United Kingdom (regulation 59 and section 10 both carry U.K. extent; the extra agricultural-rate records in reg 59(5) point to separate Welsh, Scottish and Northern Irish agricultural wages law)",
+   "who": "Every employer of a worker who qualifies for the National Minimum Wage or National Living Wage, including part-timers, casual labourers hired for a day, agency workers, homeworkers and piece workers, apprentices, trainees and workers on probation, agricultural workers, seafarers and offshore workers, and au pairs and other non-family members living in the employer's home who share in the work and leisure and are treated as one of the family.",
+   "excluded": "The duty bites only for workers who qualify for the minimum wage, so it does not apply to: self-employed people running their own business; company directors; volunteers and voluntary workers; workers on a government employment programme; members of the armed forces; family members of the employer living in the employer's home; workers younger than school leaving age (usually 16); higher and further education students on work experience or a placement of up to one year; people shadowing others at work; workers on government pre-apprenticeship schemes; people on the Leonardo da Vinci, Erasmus+ or Comenius programmes; people on a Jobcentre Plus Work trial for up to 6 weeks; share fishermen; prisoners; and people living and working in a religious community. The worker's right of access in s.10 is further limited: it can be used only where the worker believes on reasonable grounds they are being or have been paid below the minimum wage, and only to establish whether that is so.",
+   "from_when": "Regulation 59 has been in force since 6 April 2015; the six-year retention period applies from 1 April 2021. Section 10 of the 1998 Act was in force and unamended on the version read on 28 November 2026.",
+   "automatic": false,
+   "how_to_claim": "Nothing to claim - this is a duty on the employer. A worker enforces it by giving the employer a written production notice naming the period; the employer must give reasonable notice of the place and time and produce the records within 14 days, at the worker's place of work or another reasonable or agreed place, and the worker may inspect, examine and copy them and may bring someone with them if the notice says so."
+  },
+  "notes": "Why this is worth a post in the window: clients clearing down their books over Christmas and New Year routinely bin payroll paperwork at year end, and the minimum wage retention period is six years, not three - it was doubled on 1 April 2021 and plenty of payroll habits never caught up. It is also a different clock from the tax one, so do not merge it with the business-records entry already in the bank: that covers HMRC record-keeping, this is employment law under the National Minimum Wage Regulations 2015. The single-document rule in reg 59(2) is the one that catches people with hours in one system and pay in another. IMPORTANT WARNING FOR THE COPY: do NOT repeat the familiar enforcement line that HMRC can charge 200% of the arrears up to a maximum of £20,000 per worker. Sections 19 to 19H of the National Minimum Wage Act 1998, which contained the notice of underpayment and that financial penalty, were omitted with effect from 7 April 2026 by the Employment Rights Act 2025 (c. 36) s.159(3) and Schedule 10 paragraph 23, commenced by S.I. 2026/323 reg. 4(1)(55)(a) - read on legislation.gov.uk at https://www.legislation.gov.uk/ukpga/1998/39/section/19A on 28 November 2026, where the section now shows as omitted. I did NOT establish what replaced it, so the copy must state no penalty figure at all for minimum wage underpayment until the replacement enforcement regime has been verified at primary source. That replacement is a good subject for a separate research lane.",
+  "used": []
  }
 ]
